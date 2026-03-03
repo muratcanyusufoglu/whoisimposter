@@ -1,0 +1,214 @@
+{
+  "app": {
+    "name": "Who's the Imposter?"
+  },
+  "onboarding": {
+    "language": {
+      "title": "Choose your language",
+      "continue": "Continue"
+    },
+    "welcome": {
+      "headline": "Who's lying in your group?",
+      "benefit1": "12+ party games",
+      "benefit2": "No internet needed",
+      "benefit3": "3–15 players",
+      "continue": "Let's go →"
+    },
+    "howToPlay": {
+      "title": "How to Play",
+      "step1_title": "Pass the phone",
+      "step1_desc": "Each player taps their name privately",
+      "step2_title": "Learn your word",
+      "step2_desc": "Everyone sees the same word — except the Imposter",
+      "step3_title": "Find the liar",
+      "step3_desc": "Give clues, vote, and catch the Imposter!"
+    },
+    "showcase": {
+      "title": "12+ Party Games",
+      "cta": "Let's Play!",
+      "more": "And {{count}} more games..."
+    }
+  },
+  "home": {
+    "title": "Party Games",
+    "quickResume": "Continue last game →"
+  },
+  "setup": {
+    "players": "Players",
+    "addPlayer": "Add player name",
+    "addPlayerCta": "Add",
+    "minPlayersWarning": "Need at least {{count}} players",
+    "maxPlayersWarning": "Maximum {{count}} players",
+    "duplicateName": "That name is already taken",
+    "categories": "Categories",
+    "selectAll": "All",
+    "mode": "Game Mode",
+    "advanced": "Advanced Settings",
+    "imposters": "Imposters",
+    "timer": "Timer per player",
+    "timerOff": "Off",
+    "sound": "Sound Effects",
+    "haptics": "Haptic Feedback",
+    "startGame": "Start Game"
+  },
+  "reveal": {
+    "instruction": "Hold close — don't show anyone",
+    "holdToReveal": "Hold to reveal",
+    "crew_subtitle": "Give ONE clue. Don't give it away.",
+    "imposter_line1": "YOU ARE THE",
+    "imposter_line2": "IMPOSTER!",
+    "imposter_subtitle": "Blend in. You don't know the word.",
+    "next": "Next Player →",
+    "autoBlur": "Tap to hide"
+  },
+  "play": {
+    "round": "Round {{number}}",
+    "category": "Category",
+    "clueGiven": "Clue given",
+    "startVoting": "Start Voting"
+  },
+  "vote": {
+    "title": "Who is the Imposter?",
+    "subtitle": "Each player votes once. You can't vote for yourself.",
+    "reveal": "Reveal Votes",
+    "waiting": "Waiting for all votes..."
+  },
+  "result": {
+    "caught": "CAUGHT!",
+    "escaped": "THEY GOT AWAY",
+    "secretWord": "The secret word was:",
+    "guessPrompt": "Can {{name}} guess the secret word?",
+    "guessYes": "Yes — They guessed it!",
+    "guessNo": "No — They failed",
+    "crewWins": "Crew Wins! 🎉",
+    "imposterWins": "Imposter Wins! 🕵️",
+    "playAgain": "Play Again",
+    "newGame": "New Game",
+    "share": "Share Result"
+  },
+  "paywall": {
+    "title": "WHO'S THE IMPOSTER PRO",
+    "benefit1": "All 20 categories",
+    "benefit2": "2 imposters mode",
+    "benefit3": "All 12 party games",
+    "benefit4": "Custom word lists",
+    "benefit5": "Ad-free experience",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "bestValue": "Best Value",
+    "savings": "Save {{percent}}%",
+    "cta": "Start {{days}}-Day Free Trial",
+    "cancelAnytime": "Cancel anytime",
+    "restore": "Restore Purchases",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "socialProof": "4.8 · 18K ratings"
+  },
+  "rating": {
+    "title": "Enjoying the game?",
+    "subtitle": "A 5-star rating helps us a lot!",
+    "cta": "Rate Now ⭐",
+    "later": "Maybe Later",
+    "no": "No thanks"
+  },
+  "settings": {
+    "title": "Settings",
+    "theme": "Theme",
+    "themeDark": "Dark",
+    "themeLight": "Light",
+    "themeNeon": "Neon",
+    "themeNeonLocked": "Neon (PRO)",
+    "language": "Language",
+    "sound": "Sound Effects",
+    "haptics": "Haptic Feedback",
+    "upgrade": "Upgrade to PRO",
+    "restore": "Restore Purchases",
+    "rate": "Rate the App",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "version": "Version {{version}}"
+  },
+  "categories": {
+    "food": "Food & Drinks",
+    "animals": "Animals",
+    "sports": "Sports",
+    "jobs": "Jobs",
+    "countries": "Countries",
+    "movies": "Movies & TV",
+    "music": "Music",
+    "objects": "Objects",
+    "nature": "Nature",
+    "hobbies": "Hobbies",
+    "famous": "Famous People",
+    "brands": "Brands",
+    "education": "Education",
+    "technology": "Technology",
+    "mythology": "Mythology",
+    "spicy": "Spicy 🌶️",
+    "tv_series": "TV Series",
+    "social": "Social Media",
+    "custom": "My Custom List"
+  },
+  "games": {
+    "imposter": {
+      "name": "Who's the Imposter?",
+      "description": "One secret word. One liar. Find them."
+    },
+    "truth_dare": {
+      "name": "Truth or Dare",
+      "description": "Answer honestly or face a dare."
+    },
+    "nhie": {
+      "name": "Never Have I Ever",
+      "description": "Find out what your friends have done."
+    },
+    "mlt": {
+      "name": "Most Likely To",
+      "description": "Who in the group is most likely to...?"
+    },
+    "hot_takes": {
+      "name": "Hot Takes",
+      "description": "Agree or disagree — debate it out."
+    },
+    "wyr": {
+      "name": "Would You Rather",
+      "description": "Two impossible choices. Which would you pick?"
+    },
+    "two_truths": {
+      "name": "Two Truths One Lie",
+      "description": "Guess which statement is the lie."
+    },
+    "heads_up": {
+      "name": "Heads Up!",
+      "description": "Hold the phone on your forehead. Get clues!"
+    },
+    "word_chain": {
+      "name": "Word Chain",
+      "description": "Last letter starts the next word. Don't break the chain!"
+    },
+    "trivia": {
+      "name": "Trivia Bet",
+      "description": "Bet on your answer. More confidence = more points."
+    },
+    "charades": {
+      "name": "Charades",
+      "description": "Act it out — no words allowed!"
+    },
+    "paranoia": {
+      "name": "Paranoia",
+      "description": "Whispered questions. Mysterious answers."
+    }
+  },
+  "common": {
+    "pro": "PRO",
+    "locked": "Locked",
+    "free": "Free",
+    "back": "Back",
+    "close": "Close",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "loading": "Loading...",
+    "players_count": "{{min}}–{{max}} players",
+    "minutes": "{{range}} min"
+  }
+}

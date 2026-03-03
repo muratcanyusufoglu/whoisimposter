@@ -1,0 +1,214 @@
+{
+  "app": {
+    "name": "Kim Sahtekâr?"
+  },
+  "onboarding": {
+    "language": {
+      "title": "Dilinizi seçin",
+      "continue": "Devam Et"
+    },
+    "welcome": {
+      "headline": "Grubunuzda kim yalan söylüyor?",
+      "benefit1": "12'den fazla parti oyunu",
+      "benefit2": "İnternet gerekmez",
+      "benefit3": "3–15 oyuncu",
+      "continue": "Hadi Başlayalım →"
+    },
+    "howToPlay": {
+      "title": "Nasıl Oynanır",
+      "step1_title": "Telefonu geçir",
+      "step1_desc": "Her oyuncu kendi adına özel olarak dokunur",
+      "step2_title": "Kelimeni öğren",
+      "step2_desc": "Herkes aynı kelimeyi görür — Sahtekâr hariç",
+      "step3_title": "Yalancıyı bul",
+      "step3_desc": "İpucu ver, oy kullan ve Sahtekârı yakala!"
+    },
+    "showcase": {
+      "title": "12+ Parti Oyunu",
+      "cta": "Oynamaya Başla!",
+      "more": "Ve {{count}} oyun daha..."
+    }
+  },
+  "home": {
+    "title": "Parti Oyunları",
+    "quickResume": "Son oyuna devam et →"
+  },
+  "setup": {
+    "players": "Oyuncular",
+    "addPlayer": "Oyuncu adı ekle",
+    "addPlayerCta": "Ekle",
+    "minPlayersWarning": "En az {{count}} oyuncu gerekli",
+    "maxPlayersWarning": "Maksimum {{count}} oyuncu",
+    "duplicateName": "Bu isim zaten kullanılıyor",
+    "categories": "Kategoriler",
+    "selectAll": "Tümü",
+    "mode": "Oyun Modu",
+    "advanced": "Gelişmiş Ayarlar",
+    "imposters": "Sahtekârlar",
+    "timer": "Oyuncu başına süre",
+    "timerOff": "Kapalı",
+    "sound": "Ses Efektleri",
+    "haptics": "Titreşim",
+    "startGame": "Oyunu Başlat"
+  },
+  "reveal": {
+    "instruction": "Yakın tut — kimseye gösterme",
+    "holdToReveal": "Görmek için basılı tut",
+    "crew_subtitle": "BİR ipucu ver. Ele verme.",
+    "imposter_line1": "SEN",
+    "imposter_line2": "SAHTEKÂRSIN!",
+    "imposter_subtitle": "Karış. Kelimeyi bilmiyorsun.",
+    "next": "Sonraki Oyuncu →",
+    "autoBlur": "Gizlemek için dokun"
+  },
+  "play": {
+    "round": "Tur {{number}}",
+    "category": "Kategori",
+    "clueGiven": "İpucu verildi",
+    "startVoting": "Oylamayı Başlat"
+  },
+  "vote": {
+    "title": "Sahtekâr Kim?",
+    "subtitle": "Her oyuncu bir kez oy kullanır. Kendine oy veremezsin.",
+    "reveal": "Oyları Göster",
+    "waiting": "Tüm oylar bekleniyor..."
+  },
+  "result": {
+    "caught": "YAKALANDII!",
+    "escaped": "KURTULDU",
+    "secretWord": "Gizli kelime:",
+    "guessPrompt": "{{name}} gizli kelimeyi tahmin edebilir mi?",
+    "guessYes": "Evet — Tahmin etti!",
+    "guessNo": "Hayır — Başaramadı",
+    "crewWins": "Ekip Kazandı! 🎉",
+    "imposterWins": "Sahtekâr Kazandı! 🕵️",
+    "playAgain": "Tekrar Oyna",
+    "newGame": "Yeni Oyun",
+    "share": "Sonucu Paylaş"
+  },
+  "paywall": {
+    "title": "KİM SAHTEKÂR? PRO",
+    "benefit1": "Tüm 20 kategori",
+    "benefit2": "2 sahtekâr modu",
+    "benefit3": "Tüm 12 parti oyunu",
+    "benefit4": "Özel kelime listeleri",
+    "benefit5": "Reklamsız deneyim",
+    "monthly": "Aylık",
+    "yearly": "Yıllık",
+    "bestValue": "En İyi Değer",
+    "savings": "%{{percent}} Tasarruf",
+    "cta": "{{days}} Günlük Ücretsiz Dene",
+    "cancelAnytime": "İstediğin zaman iptal et",
+    "restore": "Satın Almaları Geri Yükle",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları",
+    "socialProof": "4,8 · 18B değerlendirme"
+  },
+  "rating": {
+    "title": "Oyunu beğeniyor musun?",
+    "subtitle": "5 yıldız puanın bize çok yardımcı olur!",
+    "cta": "Şimdi Puan Ver ⭐",
+    "later": "Belki Sonra",
+    "no": "Hayır, teşekkürler"
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "theme": "Tema",
+    "themeDark": "Karanlık",
+    "themeLight": "Aydınlık",
+    "themeNeon": "Neon",
+    "themeNeonLocked": "Neon (PRO)",
+    "language": "Dil",
+    "sound": "Ses Efektleri",
+    "haptics": "Titreşim",
+    "upgrade": "PRO'ya Yükselt",
+    "restore": "Satın Almaları Geri Yükle",
+    "rate": "Uygulamayı Değerlendir",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları",
+    "version": "Sürüm {{version}}"
+  },
+  "categories": {
+    "food": "Yiyecek & İçecek",
+    "animals": "Hayvanlar",
+    "sports": "Spor",
+    "jobs": "Meslekler",
+    "countries": "Ülkeler",
+    "movies": "Film & Dizi",
+    "music": "Müzik",
+    "objects": "Nesneler",
+    "nature": "Doğa",
+    "hobbies": "Hobiler",
+    "famous": "Ünlü İnsanlar",
+    "brands": "Markalar",
+    "education": "Eğitim",
+    "technology": "Teknoloji",
+    "mythology": "Mitoloji",
+    "spicy": "Ateşli 🌶️",
+    "tv_series": "Dizi",
+    "social": "Sosyal Medya",
+    "custom": "Özel Listem"
+  },
+  "games": {
+    "imposter": {
+      "name": "Kim Sahtekâr?",
+      "description": "Bir gizli kelime. Bir yalancı. Onu bul."
+    },
+    "truth_dare": {
+      "name": "Gerçek mi Cesaret mi?",
+      "description": "Dürüstçe cevapla ya da cesaretini göster."
+    },
+    "nhie": {
+      "name": "Parmak İndir",
+      "description": "Arkadaşlarının neler yaptığını öğren."
+    },
+    "mlt": {
+      "name": "Kim Daha Çok?",
+      "description": "Grupta en çok kim...?"
+    },
+    "hot_takes": {
+      "name": "Ateşli Görüşler",
+      "description": "Katıl ya da katılma — tartış!"
+    },
+    "wyr": {
+      "name": "Ya Da?",
+      "description": "İki imkânsız seçenek. Hangisini seçersin?"
+    },
+    "two_truths": {
+      "name": "2 Doğru 1 Yalan",
+      "description": "Hangi ifadenin yalan olduğunu tahmin et."
+    },
+    "heads_up": {
+      "name": "Bul Bakalım!",
+      "description": "Telefonu alnına koy. İpuçlarını al!"
+    },
+    "word_chain": {
+      "name": "Kelime Zinciri",
+      "description": "Son harf, yeni kelimeyi başlatır. Zinciri kırma!"
+    },
+    "trivia": {
+      "name": "Trivia Bahis",
+      "description": "Cevabına bahis yap. Güven = Puan!"
+    },
+    "charades": {
+      "name": "Sessiz Sinema",
+      "description": "Canlandır — kelime kullanma!"
+    },
+    "paranoia": {
+      "name": "Paranoya",
+      "description": "Fısıltılı sorular. Gizemli cevaplar."
+    }
+  },
+  "common": {
+    "pro": "PRO",
+    "locked": "Kilitli",
+    "free": "Ücretsiz",
+    "back": "Geri",
+    "close": "Kapat",
+    "cancel": "İptal",
+    "confirm": "Onayla",
+    "loading": "Yükleniyor...",
+    "players_count": "{{min}}–{{max}} oyuncu",
+    "minutes": "{{range}} dk"
+  }
+}
