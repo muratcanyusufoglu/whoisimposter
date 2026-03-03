@@ -236,21 +236,21 @@ Organized for AI-assisted (vibe coding) development sessions.
 ## FEATURE 10 — GAME SETUP SCREEN
 *Configuration before the fun starts.*
 
-- [ ] **F10.1** `app/game/setup.tsx` [PRD §6.6]
+- [x] **F10.1** `app/(game)/setup.tsx` [PRD §6.6]
   - 4 collapsible sections (Players, Mode, Categories, Advanced)
   - START GAME disabled until valid
-- [ ] **F10.2** Player management UI
+- [x] **F10.2** Player management UI
   - Add/remove/reorder players
   - Duplicate name validation
   - Avatar color auto-assignment
   - `src/components/game/PlayerChip.tsx`
-- [ ] **F10.3** Category selection grid
+- [x] **F10.3** Category selection grid
   - `src/components/game/CategoryCard.tsx` [DESIGN §6]
   - Multi-select, "All" chip, premium locked
-- [ ] **F10.4** Game mode carousel (for imposter variants)
+- [x] **F10.4** Game mode carousel (for imposter variants)
   - `src/components/game/GameModeCard.tsx` (reused)
-- [ ] **F10.5** Advanced settings (imposters, timer, sound, haptics)
-- [ ] **F10.6** Persist last-used settings to AsyncStorage
+- [x] **F10.5** Advanced settings (imposters, timer, sound, haptics)
+- [x] **F10.6** Persist last-used settings to AsyncStorage (settingsStore.lastPlayerNames + lastCategories)
 
 **✅ Checkpoint:** Can add 3+ players, select category, start game. Validation prevents <3 players. Last settings restored on revisit.
 
@@ -458,7 +458,7 @@ F6  Game Logic          [x] 5 tasks
 F7  Onboarding          [x] 7 tasks
 F8  Rating & Paywall    [x] 4 tasks
 F9  Home Screen         [x] 3 tasks
-F10 Game Setup          [ ] 6 tasks
+F10 Game Setup          [x] 6 tasks
 F11 Word Reveal         [ ] 7 tasks
 F12 Play & Vote         [ ] 4 tasks
 F13 Result Screen       [ ] 6 tasks

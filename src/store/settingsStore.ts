@@ -21,6 +21,10 @@ interface SettingsState {
   paywallSeenCount: number
   gamesCompleted: number
 
+  // Last-used setup (F10.6)
+  lastPlayerNames: string[]
+  lastCategories: string[]
+
   // Hydration flag — false until persist rehydrates from AsyncStorage
   _hasHydrated: boolean
 }
@@ -34,6 +38,7 @@ interface SettingsActions {
   updateRatingState: (state: RatingState) => void
   incrementPaywallSeen: () => void
   incrementGamesCompleted: () => void
+  saveLastSetup: (playerNames: string[], categories: string[]) => void
   setHasHydrated: () => void
 }
 
@@ -53,6 +58,8 @@ const DEFAULTS: SettingsState = {
   ratingLastPromptAt: null,
   paywallSeenCount: 0,
   gamesCompleted: 0,
+  lastPlayerNames: [],
+  lastCategories: [],
   _hasHydrated: false,
 }
 
@@ -89,6 +96,9 @@ export const useSettingsStore = create<SettingsStore>()(
 
       incrementGamesCompleted: () =>
         set((s) => ({ gamesCompleted: s.gamesCompleted + 1 })),
+
+      saveLastSetup: (playerNames, categories) =>
+        set({ lastPlayerNames: playerNames, lastCategories: categories }),
 
       setHasHydrated: () => set({ _hasHydrated: true }),
     }),
