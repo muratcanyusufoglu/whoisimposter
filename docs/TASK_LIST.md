@@ -164,25 +164,25 @@ Organized for AI-assisted (vibe coding) development sessions.
 ## FEATURE 7 — ONBOARDING FLOW
 *First impression. Must be visually stunning.*
 
-- [ ] **F7.1** `app/index.tsx` — entry point routing logic
+- [x] **F7.1** `app/index.tsx` — entry point routing logic
   - Check @onboarding_completed → route to onboarding or home
-- [ ] **F7.2** `app/onboarding/_layout.tsx` — stack layout, no header, gesture disabled
-- [ ] **F7.3** `app/onboarding/language.tsx` — language selection screen [PRD §6.1]
+- [x] **F7.2** `app/onboarding/_layout.tsx` — stack layout, no header, gesture disabled
+- [x] **F7.3** `app/onboarding/language.tsx` — language selection screen [PRD §6.1]
   - 2-column grid of 10 languages with flag + native name
   - Selection triggers i18n + wordSelector locale update
   - Disabled Continue until selection made
   - Entrance animation: stagger fade-in
-- [ ] **F7.4** `app/onboarding/welcome.tsx` — app intro [PRD §6.2]
+- [x] **F7.4** `app/onboarding/welcome.tsx` — app intro [PRD §6.2]
   - Logo spring entrance animation
   - 3 benefit rows with staggered entrance
   - Animated background matching active theme [DESIGN §7]
-- [ ] **F7.5** `app/onboarding/how-to-play.tsx` — rules walkthrough [PRD §6.3]
+- [x] **F7.5** `app/onboarding/how-to-play.tsx` — rules walkthrough [PRD §6.3]
   - 3 animated steps
   - Swipe gesture support
-- [ ] **F7.6** `app/onboarding/games-showcase.tsx` — game modes preview [PRD §6.4]
+- [x] **F7.6** `app/onboarding/games-showcase.tsx` — game modes preview [PRD §6.4]
   - Horizontal FlatList with peek
   - On complete: write @onboarding_completed, trigger rating flow
-- [ ] **F7.7** Progress dots component (shared across onboarding screens)
+- [x] **F7.7** Progress dots component (shared across onboarding screens)
 
 **✅ Checkpoint:** Full onboarding flow navigates correctly. Each screen looks premium in all 3 themes. Language selection persists and updates all text.
 
@@ -455,7 +455,7 @@ F3  Base UI Components  [x] 12 tasks
 F4  Zustand Stores      [x] 4 tasks
 F5  Data Layer          [x] 6 tasks
 F6  Game Logic          [x] 5 tasks
-F7  Onboarding          [ ] 7 tasks
+F7  Onboarding          [x] 7 tasks
 F8  Rating & Paywall    [ ] 4 tasks
 F9  Home Screen         [ ] 3 tasks
 F10 Game Setup          [ ] 6 tasks
