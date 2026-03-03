@@ -102,14 +102,24 @@
     "restore": "Satın Almaları Geri Yükle",
     "privacy": "Gizlilik Politikası",
     "terms": "Kullanım Koşulları",
-    "socialProof": "4,8 · 18B değerlendirme"
+    "socialProof": "4,8 · 18B değerlendirme",
+    "close": "Kapat",
+    "ratings": "değerlendirme",
+    "monthlyPrice": "₺149,99/ay",
+    "yearlyPrice": "₺74,99/ay",
+    "savePct": "%50 Tasarruf"
   },
   "rating": {
     "title": "Oyunu beğeniyor musun?",
     "subtitle": "5 yıldız puanın bize çok yardımcı olur!",
     "cta": "Şimdi Puan Ver ⭐",
     "later": "Belki Sonra",
-    "no": "Hayır, teşekkürler"
+    "no": "Hayır, teşekkürler",
+    "headline": "Oyunu beğeniyor musun?",
+    "subtext": "Puanın daha fazla oyun yaratmamıza yardımcı olur!",
+    "rateNow": "Şimdi Puan Ver",
+    "noThanks": "Hayır, teşekkürler",
+    "thanks": "Çok teşekkürler! 🙏"
   },
   "settings": {
     "title": "Ayarlar",
@@ -209,6 +219,8 @@
     "confirm": "Onayla",
     "loading": "Yükleniyor...",
     "players_count": "{{min}}–{{max}} oyuncu",
-    "minutes": "{{range}} dk"
+    "minutes": "{{range}} dk",
+    "home": "Anasayfa",
+    "settings": "Ayarlar"
   }
 }

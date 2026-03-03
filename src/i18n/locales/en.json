@@ -102,14 +102,24 @@
     "restore": "Restore Purchases",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
-    "socialProof": "4.8 · 18K ratings"
+    "socialProof": "4.8 · 18K ratings",
+    "close": "Close",
+    "ratings": "ratings",
+    "monthlyPrice": "$4.99/mo",
+    "yearlyPrice": "$2.49/mo",
+    "savePct": "Save 50%"
   },
   "rating": {
     "title": "Enjoying the game?",
     "subtitle": "A 5-star rating helps us a lot!",
     "cta": "Rate Now ⭐",
     "later": "Maybe Later",
-    "no": "No thanks"
+    "no": "No thanks",
+    "headline": "Enjoying the game?",
+    "subtext": "Your rating helps us create more games!",
+    "rateNow": "Rate Now",
+    "noThanks": "No thanks",
+    "thanks": "Thanks so much! 🙏"
   },
   "settings": {
     "title": "Settings",
@@ -209,6 +219,8 @@
     "confirm": "Confirm",
     "loading": "Loading...",
     "players_count": "{{min}}–{{max}} players",
-    "minutes": "{{range}} min"
+    "minutes": "{{range}} min",
+    "home": "Home",
+    "settings": "Settings"
   }
 }

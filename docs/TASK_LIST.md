@@ -191,21 +191,21 @@ Organized for AI-assisted (vibe coding) development sessions.
 ## FEATURE 8 — RATING & PAYWALL MODALS
 *Monetization flow. Critical for revenue.*
 
-- [ ] **F8.1** `src/components/modals/RatingModal.tsx` [PRD §7.1]
+- [x] **F8.1** `src/components/modals/RatingModal.tsx` [PRD §7.1]
   - Star row interaction
   - expo-store-review integration
   - Later / No thanks logic with AsyncStorage flags
-- [ ] **F8.2** `src/components/modals/PaywallModal.tsx` [PRD §7.2]
+- [x] **F8.2** `src/components/modals/PaywallModal.tsx` [PRD §7.2]
   - Full-screen modal, bottom-up slide animation
   - Delayed X button: 4-second timer, arc indicator while waiting
   - Plan selector (Monthly / Yearly), yearly default
   - RevenueCat purchase stubs (real integration in F11)
   - Social proof section
   - "Cancel anytime" + restore link
-- [ ] **F8.3** Onboarding → Rating → Paywall sequence logic
+- [x] **F8.3** Onboarding → Rating → Paywall sequence logic
   - 1500ms delay after onboarding
   - 500ms after rating closes → paywall
-- [ ] **F8.4** `src/components/modals/ThemePickerModal.tsx`
+- [x] **F8.4** `src/components/modals/ThemePickerModal.tsx`
   - 3 theme options with preview swatches
   - Neon locked for non-Pro users
 
@@ -216,15 +216,15 @@ Organized for AI-assisted (vibe coding) development sessions.
 ## FEATURE 9 — HOME SCREEN
 *The hub. Must feel exciting, not like a settings menu.*
 
-- [ ] **F9.1** `app/(main)/_layout.tsx` — tab layout (home + settings)
-- [ ] **F9.2** `app/(main)/home.tsx` [PRD §6.5]
+- [x] **F9.1** `app/(main)/_layout.tsx` — tab layout (home + settings)
+- [x] **F9.2** `app/(main)/home.tsx` [PRD §6.5]
   - Animated theme background [DESIGN §7]
   - Localized app name header
   - Quick resume chip (if last session exists)
   - `src/components/game/GameModeCard.tsx` [DESIGN §6]
   - Game list: 6 free + 6 premium (locked)
   - Premium tap → PaywallModal
-- [ ] **F9.3** `src/components/game/GameModeCard.tsx`
+- [x] **F9.3** `src/components/game/GameModeCard.tsx`
   - Horizontal layout: emoji + text + chevron
   - Pressed scale animation
   - PRO badge + lock for premium
@@ -456,8 +456,8 @@ F4  Zustand Stores      [x] 4 tasks
 F5  Data Layer          [x] 6 tasks
 F6  Game Logic          [x] 5 tasks
 F7  Onboarding          [x] 7 tasks
-F8  Rating & Paywall    [ ] 4 tasks
-F9  Home Screen         [ ] 3 tasks
+F8  Rating & Paywall    [x] 4 tasks
+F9  Home Screen         [x] 3 tasks
 F10 Game Setup          [ ] 6 tasks
 F11 Word Reveal         [ ] 7 tasks
 F12 Play & Vote         [ ] 4 tasks
