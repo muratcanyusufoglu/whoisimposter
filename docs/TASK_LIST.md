@@ -259,24 +259,23 @@ Organized for AI-assisted (vibe coding) development sessions.
 ## FEATURE 11 — WORD REVEAL SCREEN
 *The emotional peak. Most important screen in the app.*
 
-- [ ] **F11.1** `app/game/reveal/[index].tsx` [PRD §6.7]
-  - Route params: current player index
-  - Pre-reveal state: blurred card face
-- [ ] **F11.2** Hold-to-reveal interaction
-  - LongPressGestureHandler (500ms threshold)
-  - Progress arc fills during hold
-  - Early release: arc resets with spring
-- [ ] **F11.3** 3D card flip animation [DESIGN §5]
-  - Reanimated rotateY interpolation
-  - Front face → Back face at 90°
-  - 400ms, ease-in-out
-- [ ] **F11.4** `src/components/game/WordRevealCard.tsx` [DESIGN §6]
-  - Crew face: word in display-xl font, crew bg + tertiary glow
-  - Imposter face: "YOU ARE THE IMPOSTER!" in accent.secondary, danger glow + pulse
-  - Auto-blur timer: 5 seconds
-- [ ] **F11.5** NEXT PLAYER button — identical position in both states
-- [ ] **F11.6** Haptics per reveal type [DESIGN §9]
-- [ ] **F11.7** Advance to next player or to play screen when all revealed
+- [x] **F11.1** `app/(game)/reveal.tsx` [PRD §6.7]
+  - Single screen managing all reveal state via currentRevealIndex
+  - Progress header with dot indicators
+- [x] **F11.2** Hold-to-reveal interaction
+  - onPressIn → withTiming(1, 500ms, callback), onPressOut → withSpring(0)
+  - Progress ring fills during hold, springs back on cancel
+- [x] **F11.3** 3D card flip animation [DESIGN §5]
+  - Reanimated rotateY interpolation (0→90° front, -90→0° back)
+  - Opacity-based face switching for cross-platform compatibility
+  - 420ms, ease-in-out
+- [x] **F11.4** `src/components/game/WordRevealCard.tsx` [DESIGN §6]
+  - Crew face: word in display font, crewBg
+  - Imposter face: "YOU ARE THE IMPOSTER!" in accent.secondary, imposterBg
+  - Auto-blur: isBlurred prop triggers flip-back
+- [x] **F11.5** NEXT PLAYER button — springs in after reveal, disabled until revealed
+- [x] **F11.6** Haptics per reveal type — heavy() for imposter, medium() for crew
+- [x] **F11.7** Advance to next player or navigate to /(game)/play when all revealed
 
 **✅ Checkpoint:** Hold to reveal works. Card flips with 3D animation. Crew and imposter states look completely different but NEXT button is identical. Auto-blur works.
 
@@ -285,21 +284,21 @@ Organized for AI-assisted (vibe coding) development sessions.
 ## FEATURE 12 — ACTIVE GAME & VOTING SCREENS
 *Discussion and voting phases.*
 
-- [ ] **F12.1** `app/game/play.tsx` [PRD §6.8]
-  - Player checklist (clue given or not)
-  - Optional timer: `src/components/game/TimerRing.tsx`
-  - START VOTING button
-- [ ] **F12.2** `src/components/game/TimerRing.tsx` [DESIGN §6]
-  - SVG circle progress
-  - Color interpolation: warm → danger
-  - Pulse animation in danger zone
-- [ ] **F12.3** `app/game/vote.tsx` [PRD §6.9]
-  - Player grid: `src/components/game/VoteCard.tsx`
-  - One vote per player, can't vote for self
-  - REVEAL VOTES enabled only when all voted
-  - Simultaneous reveal animation
-- [ ] **F12.4** `src/components/game/VoteCard.tsx` [DESIGN §6]
-  - Avatar + name, selected state with accent border
+- [x] **F12.1** `app/(game)/play.tsx` [PRD §6.8]
+  - Player checklist rows (tap to mark clue given)
+  - Optional TimerRing per-player (activates on row tap)
+  - START VOTING button (always enabled, full opacity when all done)
+- [x] **F12.2** `src/components/game/TimerRing.tsx` [DESIGN §6]
+  - SVG AnimatedCircle + Reanimated useAnimatedProps
+  - interpolateColor: warm → danger at 25% remaining
+  - Pulse scale animation in danger zone (withRepeat + withSequence)
+- [x] **F12.3** `app/(game)/vote.tsx` [PRD §6.9]
+  - Sequential pass-the-phone voting (currentVoterIdx state)
+  - VoteCard grid, own card disabled per voter
+  - REVEAL VOTES → resolveVotes() → navigate to result with stagger delay
+- [x] **F12.4** `src/components/game/VoteCard.tsx` [DESIGN §6]
+  - Avatar + name, selected state with accent.primary border + check badge
+  - Vote count badge animates in on reveal
 
 **✅ Checkpoint:** Full game flow from reveal → play → vote → reveal votes works end-to-end.
 
@@ -308,19 +307,19 @@ Organized for AI-assisted (vibe coding) development sessions.
 ## FEATURE 13 — RESULT SCREEN
 *The payoff moment.*
 
-- [ ] **F13.1** `app/game/result.tsx` [PRD §6.10]
-  - Both states: caught vs escaped
-  - Particle burst / confetti for crew win
-  - Dramatic dark reveal for imposter win
-- [ ] **F13.2** Imposter guess prompt flow
-  - "Can [name] guess the word?" → Yes/No
-  - Handle both outcomes
-- [ ] **F13.3** `src/components/game/ResultBanner.tsx`
-  - Animated headline entrance
-  - Score/result card
-- [ ] **F13.4** Bottom actions: Play Again, New Game, Share
-- [ ] **F13.5** Increment gamesCompleted in settingsStore
-- [ ] **F13.6** Trigger rating modal on 3rd game (if not already rated)
+- [x] **F13.1** `app/(game)/result.tsx` [PRD §6.10]
+  - Caught state: confetti particles + "CAUGHT!" + green tint
+  - Escaped state: danger pulse animation + "THEY GOT AWAY" + red tint
+- [x] **F13.2** Imposter guess prompt flow
+  - "Can [name] guess the secret word?" → Yes/No buttons
+  - Yes → imposter_wins, No → crew_wins (updates finalOutcome)
+- [x] **F13.3** `src/components/game/ResultBanner.tsx`
+  - Spring entrance for headline, slide-in for info card
+  - 8-particle confetti burst (crew win), danger pulse (escaped)
+  - Info card: imposter name + secret word, final outcome badge
+- [x] **F13.4** Bottom actions: Play Again → nextRound()→reveal, New Game → home, Share → native Share
+- [x] **F13.5** Increment gamesCompleted in settingsStore on mount
+- [x] **F13.6** Show RatingModal after 1.5s delay on 3rd game completion
 
 **✅ Checkpoint:** All result states display correctly. Play Again resets with same config. gamesCompleted increments correctly.
 
@@ -459,9 +458,9 @@ F7  Onboarding          [x] 7 tasks
 F8  Rating & Paywall    [x] 4 tasks
 F9  Home Screen         [x] 3 tasks
 F10 Game Setup          [x] 6 tasks
-F11 Word Reveal         [ ] 7 tasks
-F12 Play & Vote         [ ] 4 tasks
-F13 Result Screen       [ ] 6 tasks
+F11 Word Reveal         [x] 7 tasks
+F12 Play & Vote         [x] 4 tasks
+F13 Result Screen       [x] 6 tasks
 F14 Settings            [ ] 2 tasks
 F15 Free Party Games    [ ] 4 tasks
 F16 Premium Games       [ ] 6 tasks

@@ -7,16 +7,19 @@ import {
   Switch,
   StyleSheet,
   Platform,
+  Modal,
+  Pressable,
+  Linking,
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import Animated, {
   useSharedValue,
   useAnimatedStyle,
   withSpring,
-  withDelay,
-  withTiming,
 } from 'react-native-reanimated'
-import { ChevronRight, Crown } from 'lucide-react-native'
+import { ChevronRight, Crown, Check, X } from 'lucide-react-native'
+import * as StoreReview from 'expo-store-review'
+import Constants from 'expo-constants'
 import { useTranslation } from 'react-i18next'
 import { useTheme } from '@/theme'
 import { spacing, radius, fontSize, fontFamily } from '@/theme/tokens'
@@ -28,27 +31,51 @@ import { ThemePickerModal } from '@/components/modals/ThemePickerModal'
 import { Divider } from '@/components/ui/Divider'
 
 // ─────────────────────────────────────────────────────────────────────────────
-// SETTINGS SCREEN — F14 stub (full implementation in F14)
-// Theme picker, language, toggles, upgrade CTA, legal links
+// CONSTANTS
 // ─────────────────────────────────────────────────────────────────────────────
 
+const PRIVACY_URL = 'https://whosimposter.app/privacy'
+const TERMS_URL   = 'https://whosimposter.app/terms'
+
+const LANGUAGES = [
+  { code: 'en', label: 'English',    flag: '🇺🇸' },
+  { code: 'tr', label: 'Türkçe',     flag: '🇹🇷' },
+  { code: 'de', label: 'Deutsch',    flag: '🇩🇪' },
+  { code: 'fr', label: 'Français',   flag: '🇫🇷' },
+  { code: 'es', label: 'Español',    flag: '🇪🇸' },
+  { code: 'pt', label: 'Português',  flag: '🇧🇷' },
+  { code: 'ru', label: 'Русский',    flag: '🇷🇺' },
+  { code: 'ar', label: 'العربية',    flag: '🇸🇦' },
+  { code: 'it', label: 'Italiano',   flag: '🇮🇹' },
+  { code: 'nl', label: 'Nederlands', flag: '🇳🇱' },
+]
+
 const SPRING = { damping: 20, stiffness: 200 }
+
+const APP_VERSION = Constants.expoConfig?.version ?? '1.0.0'
+
+// ─────────────────────────────────────────────────────────────────────────────
+// SCREEN
+// ─────────────────────────────────────────────────────────────────────────────
 
 export default function SettingsScreen() {
   const { theme } = useTheme()
   const { t } = useTranslation()
   const haptics = useHaptics()
 
-  const soundEnabled = useSettingsStore((s) => s.soundEnabled)
-  const hapticsEnabled = useSettingsStore((s) => s.hapticsEnabled)
-  const setSoundEnabled = useSettingsStore((s) => s.setSoundEnabled)
+  const language          = useSettingsStore((s) => s.language)
+  const soundEnabled      = useSettingsStore((s) => s.soundEnabled)
+  const hapticsEnabled    = useSettingsStore((s) => s.hapticsEnabled)
+  const setLanguage       = useSettingsStore((s) => s.setLanguage)
+  const setSoundEnabled   = useSettingsStore((s) => s.setSoundEnabled)
   const setHapticsEnabled = useSettingsStore((s) => s.setHapticsEnabled)
-  const isPro = useSubscriptionStore((s) => s.isPro)
+  const isPro             = useSubscriptionStore((s) => s.isPro)
 
-  const [paywallVisible, setPaywallVisible] = useState(false)
+  const [paywallVisible, setPaywallVisible]       = useState(false)
   const [themePickerVisible, setThemePickerVisible] = useState(false)
+  const [langPickerVisible, setLangPickerVisible]   = useState(false)
 
-  // ── Entrance animations ────────────────────────────────────────────────────
+  // ─── Entrance animation ───────────────────────────────────────────────────
   const op = useSharedValue(0)
   const ty = useSharedValue(12)
 
@@ -62,166 +89,243 @@ export default function SettingsScreen() {
     transform: [{ translateY: ty.value }],
   }))
 
+  // ─── Actions ──────────────────────────────────────────────────────────────
+  const handleRateApp = async () => {
+    haptics.selection()
+    const available = await StoreReview.isAvailableAsync()
+    if (available) {
+      await StoreReview.requestReview()
+    }
+  }
+
+  const handleOpenURL = (url: string) => {
+    haptics.light()
+    Linking.openURL(url).catch(() => {})
+  }
+
+  const currentLangLabel =
+    LANGUAGES.find((l) => l.code === language)?.label ?? 'English'
+
+  // ─── Render ───────────────────────────────────────────────────────────────
   return (
     <SafeAreaView
-      style={[styles.safeArea, { backgroundColor: theme.bg.primary }]}
+      style={[s.safeArea, { backgroundColor: theme.bg.primary }]}
       edges={['top']}
     >
       {/* Header */}
-      <Animated.View style={[styles.header, fadeStyle]}>
-        <Text
-          style={[
-            styles.title,
-            { color: theme.text.primary, fontFamily: fontFamily.displayBold },
-          ]}
-        >
+      <Animated.View style={[s.header, fadeStyle]}>
+        <Text style={[s.title, { color: theme.text.primary }]}>
           {t('settings.title')}
         </Text>
       </Animated.View>
 
       <Animated.ScrollView
         style={fadeStyle}
-        contentContainerStyle={styles.scrollContent}
+        contentContainerStyle={s.scrollContent}
         showsVerticalScrollIndicator={false}
       >
-        {/* ── Upgrade to PRO (if not pro) ──────────────────────────────────── */}
+        {/* ── Upgrade to PRO ── */}
         {!isPro && (
           <TouchableOpacity
-            onPress={() => {
-              haptics.medium()
-              setPaywallVisible(true)
-            }}
-            style={[
-              styles.upgradeCard,
-              { backgroundColor: theme.accent.primary },
-            ]}
+            onPress={() => { haptics.medium(); setPaywallVisible(true) }}
+            style={[s.upgradeCard, { backgroundColor: theme.accent.primary }]}
             accessibilityRole="button"
           >
             <Crown size={22} color={theme.text.onPrimary} />
-            <Text
-              style={[
-                styles.upgradeText,
-                { color: theme.text.onPrimary, fontFamily: fontFamily.bodyBold },
-              ]}
-            >
+            <Text style={[s.upgradeText, { color: theme.text.onPrimary }]}>
               {t('settings.upgrade')}
             </Text>
-            <ChevronRight size={20} color={theme.text.onPrimary} style={styles.upgradeChevron} />
+            <ChevronRight size={20} color={theme.text.onPrimary} />
           </TouchableOpacity>
         )}
 
-        {/* ── Appearance ────────────────────────────────────────────────────── */}
-        <View style={[styles.section, { backgroundColor: theme.bg.surface, borderColor: theme.border.subtle }]}>
+        {/* ── Appearance ── */}
+        <View style={[s.section, { backgroundColor: theme.bg.surface, borderColor: theme.border.subtle }]}>
           <SettingsRow
             label={t('settings.theme')}
-            onPress={() => {
-              haptics.selection()
-              setThemePickerVisible(true)
-            }}
+            onPress={() => { haptics.selection(); setThemePickerVisible(true) }}
+            theme={theme}
+          />
+          <Divider />
+          <SettingsRow
+            label={t('settings.language')}
+            value={currentLangLabel}
+            onPress={() => { haptics.selection(); setLangPickerVisible(true) }}
             theme={theme}
           />
         </View>
 
-        {/* ── Preferences ───────────────────────────────────────────────────── */}
-        <View style={[styles.section, { backgroundColor: theme.bg.surface, borderColor: theme.border.subtle }]}>
-          <View style={styles.toggleRow}>
-            <Text
-              style={[
-                styles.rowLabel,
-                { color: theme.text.primary, fontFamily: fontFamily.body },
-              ]}
-            >
+        {/* ── Preferences ── */}
+        <View style={[s.section, { backgroundColor: theme.bg.surface, borderColor: theme.border.subtle }]}>
+          <View style={s.toggleRow}>
+            <Text style={[s.rowLabel, { color: theme.text.primary }]}>
               {t('settings.sound')}
             </Text>
             <Switch
               value={soundEnabled}
-              onValueChange={(val) => {
-                haptics.selection()
-                setSoundEnabled(val)
-              }}
+              onValueChange={(val) => { haptics.selection(); setSoundEnabled(val) }}
               trackColor={{ false: theme.border.default, true: theme.accent.primary }}
-              thumbColor={Platform.OS === 'ios' ? '#fff' : soundEnabled ? theme.accent.primary : '#f4f3f4'}
+              thumbColor={
+                Platform.OS === 'ios' ? '#fff'
+                : soundEnabled ? theme.accent.primary : '#f4f3f4'
+              }
             />
           </View>
           <Divider />
-          <View style={styles.toggleRow}>
-            <Text
-              style={[
-                styles.rowLabel,
-                { color: theme.text.primary, fontFamily: fontFamily.body },
-              ]}
-            >
+          <View style={s.toggleRow}>
+            <Text style={[s.rowLabel, { color: theme.text.primary }]}>
               {t('settings.haptics')}
             </Text>
             <Switch
               value={hapticsEnabled}
-              onValueChange={(val) => {
-                haptics.selection()
-                setHapticsEnabled(val)
-              }}
+              onValueChange={(val) => { haptics.selection(); setHapticsEnabled(val) }}
               trackColor={{ false: theme.border.default, true: theme.accent.primary }}
-              thumbColor={Platform.OS === 'ios' ? '#fff' : hapticsEnabled ? theme.accent.primary : '#f4f3f4'}
+              thumbColor={
+                Platform.OS === 'ios' ? '#fff'
+                : hapticsEnabled ? theme.accent.primary : '#f4f3f4'
+              }
             />
           </View>
         </View>
 
-        {/* ── Support ───────────────────────────────────────────────────────── */}
-        <View style={[styles.section, { backgroundColor: theme.bg.surface, borderColor: theme.border.subtle }]}>
+        {/* ── Support ── */}
+        <View style={[s.section, { backgroundColor: theme.bg.surface, borderColor: theme.border.subtle }]}>
           <SettingsRow
             label={t('settings.rate')}
-            onPress={() => haptics.selection()}
+            onPress={handleRateApp}
             theme={theme}
           />
-          <Divider />
-          <SettingsRow
-            label={t('settings.restore')}
-            onPress={() => haptics.selection()}
-            theme={theme}
-          />
+          {!isPro && (
+            <>
+              <Divider />
+              <SettingsRow
+                label={t('settings.restore')}
+                onPress={() => haptics.selection()}
+                theme={theme}
+              />
+            </>
+          )}
         </View>
 
-        {/* ── Legal ─────────────────────────────────────────────────────────── */}
-        <View style={[styles.section, { backgroundColor: theme.bg.surface, borderColor: theme.border.subtle }]}>
+        {/* ── Legal ── */}
+        <View style={[s.section, { backgroundColor: theme.bg.surface, borderColor: theme.border.subtle }]}>
           <SettingsRow
             label={t('settings.privacy')}
-            onPress={() => haptics.light()}
+            onPress={() => handleOpenURL(PRIVACY_URL)}
             theme={theme}
           />
           <Divider />
           <SettingsRow
             label={t('settings.terms')}
-            onPress={() => haptics.light()}
+            onPress={() => handleOpenURL(TERMS_URL)}
             theme={theme}
           />
         </View>
 
         {/* Version */}
-        <Text
-          style={[
-            styles.version,
-            { color: theme.text.muted, fontFamily: fontFamily.body },
-          ]}
-        >
-          {t('settings.version', { version: '1.0.0' })}
+        <Text style={[s.version, { color: theme.text.muted }]}>
+          {t('settings.version', { version: APP_VERSION })}
         </Text>
       </Animated.ScrollView>
 
-      {/* Modals */}
+      {/* ── Modals ── */}
       <ThemePickerModal
         visible={themePickerVisible}
         onClose={() => setThemePickerVisible(false)}
-        onPaywall={() => {
-          setThemePickerVisible(false)
-          setPaywallVisible(true)
-        }}
+        onPaywall={() => { setThemePickerVisible(false); setPaywallVisible(true) }}
       />
+
       {paywallVisible && (
-        <PaywallModal
-          visible={paywallVisible}
-          onClose={() => setPaywallVisible(false)}
-        />
+        <PaywallModal visible onClose={() => setPaywallVisible(false)} />
       )}
+
+      {/* Language Picker */}
+      <LanguagePickerModal
+        visible={langPickerVisible}
+        currentCode={language}
+        onSelect={(code) => {
+          haptics.selection()
+          setLanguage(code)
+          setLangPickerVisible(false)
+        }}
+        onClose={() => setLangPickerVisible(false)}
+      />
     </SafeAreaView>
+  )
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// LANGUAGE PICKER MODAL
+// ─────────────────────────────────────────────────────────────────────────────
+
+function LanguagePickerModal({
+  visible,
+  currentCode,
+  onSelect,
+  onClose,
+}: {
+  visible: boolean
+  currentCode: string
+  onSelect: (code: string) => void
+  onClose: () => void
+}) {
+  const { theme } = useTheme()
+
+  return (
+    <Modal
+      visible={visible}
+      transparent
+      animationType="slide"
+      onRequestClose={onClose}
+    >
+      <View style={[lp.backdrop, { backgroundColor: theme.bg.overlay }]}>
+        <Pressable style={lp.backdropPress} onPress={onClose} />
+        <View style={[lp.sheet, { backgroundColor: theme.bg.surface }]}>
+          {/* Handle */}
+          <View style={[lp.handle, { backgroundColor: theme.border.default }]} />
+
+          {/* Header */}
+          <View style={lp.sheetHeader}>
+            <Text style={[lp.sheetTitle, { color: theme.text.primary }]}>
+              Language
+            </Text>
+            <Pressable onPress={onClose} style={lp.closeBtn}>
+              <X size={20} color={theme.text.muted} />
+            </Pressable>
+          </View>
+
+          {/* Language list */}
+          {LANGUAGES.map((lang, idx) => {
+            const isSelected = lang.code === currentCode
+            return (
+              <View key={lang.code}>
+                {idx > 0 && <View style={[lp.rowDivider, { backgroundColor: theme.border.subtle }]} />}
+                <Pressable
+                  onPress={() => onSelect(lang.code)}
+                  style={lp.langRow}
+                >
+                  <Text style={lp.flag}>{lang.flag}</Text>
+                  <Text style={[
+                    lp.langLabel,
+                    {
+                      color: isSelected ? theme.accent.primary : theme.text.primary,
+                      fontFamily: isSelected ? fontFamily.bodyBold : fontFamily.body,
+                    },
+                  ]}>
+                    {lang.label}
+                  </Text>
+                  {isSelected && (
+                    <Check size={18} color={theme.accent.primary} strokeWidth={2.5} />
+                  )}
+                </Pressable>
+              </View>
+            )
+          })}
+
+          <View style={lp.bottomPad} />
+        </View>
+      </View>
+    </Modal>
   )
 }
 
@@ -231,28 +335,28 @@ export default function SettingsScreen() {
 
 function SettingsRow({
   label,
+  value,
   onPress,
   theme,
 }: {
   label: string
+  value?: string
   onPress: () => void
   theme: ReturnType<typeof useTheme>['theme']
 }) {
   return (
     <TouchableOpacity
       onPress={onPress}
-      style={styles.settingsRow}
+      style={s.settingsRow}
       accessibilityRole="button"
     >
-      <Text
-        style={[
-          styles.rowLabel,
-          { color: theme.text.primary, fontFamily: fontFamily.body },
-        ]}
-      >
-        {label}
-      </Text>
-      <ChevronRight size={18} color={theme.text.muted} />
+      <Text style={[s.rowLabel, { color: theme.text.primary }]}>{label}</Text>
+      <View style={s.rowRight}>
+        {value ? (
+          <Text style={[s.rowValue, { color: theme.text.muted }]}>{value}</Text>
+        ) : null}
+        <ChevronRight size={18} color={theme.text.muted} />
+      </View>
     </TouchableOpacity>
   )
 }
@@ -261,24 +365,27 @@ function SettingsRow({
 // STYLES
 // ─────────────────────────────────────────────────────────────────────────────
 
-const styles = StyleSheet.create({
-  safeArea: {
-    flex: 1,
-  },
+const s = StyleSheet.create({
+  safeArea: { flex: 1 },
+
   header: {
     paddingHorizontal: spacing.lg,
     paddingTop: spacing.lg,
     paddingBottom: spacing.md,
   },
+
   title: {
     fontSize: fontSize['3xl'],
+    fontFamily: fontFamily.displayBold,
     letterSpacing: -0.8,
   },
+
   scrollContent: {
     paddingHorizontal: spacing.lg,
     paddingBottom: spacing['2xl'],
     gap: spacing.md,
   },
+
   upgradeCard: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -287,18 +394,19 @@ const styles = StyleSheet.create({
     paddingHorizontal: spacing.md,
     borderRadius: radius.lg,
   },
+
   upgradeText: {
     fontSize: fontSize.md,
+    fontFamily: fontFamily.bodyBold,
     flex: 1,
   },
-  upgradeChevron: {
-    marginLeft: 'auto',
-  },
+
   section: {
     borderRadius: radius.lg,
     borderWidth: 1,
     overflow: 'hidden',
   },
+
   settingsRow: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -306,6 +414,18 @@ const styles = StyleSheet.create({
     paddingVertical: spacing.md,
     paddingHorizontal: spacing.md,
   },
+
+  rowRight: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.xs,
+  },
+
+  rowValue: {
+    fontSize: fontSize.sm,
+    fontFamily: fontFamily.body,
+  },
+
   toggleRow: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -313,12 +433,84 @@ const styles = StyleSheet.create({
     paddingVertical: spacing.sm + 2,
     paddingHorizontal: spacing.md,
   },
+
   rowLabel: {
     fontSize: fontSize.md,
+    fontFamily: fontFamily.body,
   },
+
   version: {
     fontSize: fontSize.sm,
+    fontFamily: fontFamily.body,
     textAlign: 'center',
     marginTop: spacing.sm,
+  },
+})
+
+const lp = StyleSheet.create({
+  backdrop: {
+    flex: 1,
+    justifyContent: 'flex-end',
+  },
+
+  backdropPress: {
+    flex: 1,
+  },
+
+  sheet: {
+    borderTopLeftRadius: radius.xl,
+    borderTopRightRadius: radius.xl,
+    paddingHorizontal: spacing.lg,
+    paddingTop: spacing.sm,
+    maxHeight: '70%',
+  },
+
+  handle: {
+    width: 40,
+    height: 4,
+    borderRadius: radius.full,
+    alignSelf: 'center',
+    marginBottom: spacing.md,
+  },
+
+  sheetHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginBottom: spacing.sm,
+  },
+
+  sheetTitle: {
+    fontSize: fontSize.lg,
+    fontFamily: fontFamily.bodyBold,
+  },
+
+  closeBtn: {
+    padding: spacing.xs,
+  },
+
+  langRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingVertical: spacing.md,
+    gap: spacing.md,
+  },
+
+  flag: {
+    fontSize: fontSize.xl,
+  },
+
+  langLabel: {
+    flex: 1,
+    fontSize: fontSize.md,
+  },
+
+  rowDivider: {
+    height: StyleSheet.hairlineWidth,
+    marginLeft: spacing.xl + spacing.md,
+  },
+
+  bottomPad: {
+    height: spacing.xl,
   },
 })
