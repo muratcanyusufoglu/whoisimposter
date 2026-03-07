@@ -147,6 +147,9 @@ export interface PromptItem {
   text: string
   intensity: 'mild' | 'medium' | 'spicy'
   minAge?: 4 | 13 | 18
+  /** 'truth' | 'dare' for truth-or-dare; undefined for other games */
+  type?: 'truth' | 'dare'
+  tags?: string[]
 }
 
 // ─────────────────────────────────────────────────────────────────────────────

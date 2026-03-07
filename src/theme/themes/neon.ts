@@ -35,9 +35,11 @@ export const neonTheme: AppTheme = {
     success: 'rgba(0,255,136,0.20)',
   },
   game: {
-    imposterBg: '#150515',
-    crewBg:     '#051525',
-    voteBg:     '#080818',
+    imposterBg:    '#220822',
+    crewBg:        '#071830',
+    voteBg:        '#080818',
+    cardText:      '#E0F7FF',
+    cardTextMuted: 'rgba(224,247,255,0.55)',
   },
   status: {
     success: '#00FF88',

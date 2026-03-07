@@ -15,7 +15,20 @@
     },
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.whosimposter.party"
+      "bundleIdentifier": "com.whosimposter.party",
+      "buildNumber": "1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSPhotoLibraryUsageDescription": "Who's the Imposter? does not access your photo library."
+      },
+      "privacyManifests": {
+        "NSPrivacyAccessedAPITypes": [
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryUserDefaults",
+            "NSPrivacyAccessedAPITypeReasons": ["CA92.1"]
+          }
+        ]
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -25,8 +38,10 @@
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
       "package": "com.whosimposter.party",
+      "versionCode": 1,
       "predictiveBackGestureEnabled": false,
-      "softwareKeyboardLayoutMode": "resize"
+      "softwareKeyboardLayoutMode": "resize",
+      "permissions": []
     },
     "web": {
       "bundler": "metro",
@@ -42,6 +57,10 @@
         }
       ]
     ],
+    "extra": {
+      "privacyPolicyUrl": "https://whosimposter.party/privacy",
+      "termsUrl": "https://whosimposter.party/terms"
+    },
     "experiments": {
       "typedRoutes": true
     }

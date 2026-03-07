@@ -49,6 +49,8 @@ export interface AppTheme {
     imposterBg: string    // Imposter reveal card background
     crewBg: string        // Crew reveal card background
     voteBg: string        // Vote screen tint
+    cardText: string      // Primary text on reveal card back face
+    cardTextMuted: string // Muted text on reveal card back face
   }
 
   status: {

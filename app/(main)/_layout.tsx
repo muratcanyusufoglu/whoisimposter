@@ -2,10 +2,11 @@ import { Tabs } from 'expo-router'
 import { Home, Settings } from 'lucide-react-native'
 import { useTranslation } from 'react-i18next'
 import { useTheme } from '@/theme'
-import { fontFamily, fontSize } from '@/theme/tokens'
+import { GlassTabBar } from '@/components/layout/GlassTabBar'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // (main) TAB LAYOUT — Home + Settings
+// Uses GlassTabBar: expo-glass-effect on iOS 26+, semi-transparent on Android
 // ─────────────────────────────────────────────────────────────────────────────
 
 export default function MainLayout() {
@@ -14,21 +15,13 @@ export default function MainLayout() {
 
   return (
     <Tabs
+      tabBar={(props) => <GlassTabBar {...props} />}
       screenOptions={{
         headerShown: false,
-        tabBarStyle: {
-          backgroundColor: theme.bg.surface,
-          borderTopColor: theme.border.subtle,
-          borderTopWidth: 1,
-          paddingBottom: 4,
-          height: 60,
-        },
+        // Hide the default tab bar (replaced by GlassTabBar)
+        tabBarStyle: { display: 'none' },
         tabBarActiveTintColor: theme.accent.primary,
         tabBarInactiveTintColor: theme.text.muted,
-        tabBarLabelStyle: {
-          fontFamily: fontFamily.bodyMedium,
-          fontSize: fontSize.xs,
-        },
       }}
     >
       <Tabs.Screen

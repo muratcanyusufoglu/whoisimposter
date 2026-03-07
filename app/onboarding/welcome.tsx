@@ -15,6 +15,7 @@ import { spacing, radius, fontSize, fontFamily } from '@/theme/tokens'
 import { useHaptics } from '@/hooks/useHaptics'
 import { Button } from '@/components/ui/Button'
 import { ProgressDots } from '@/components/ui/ProgressDots'
+import { AnimatedBackground } from '@/components/layout/AnimatedBackground'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // WELCOME SCREEN — Step 2 of 4
@@ -102,6 +103,9 @@ export default function WelcomeScreen() {
       style={[styles.safeArea, { backgroundColor: theme.bg.primary }]}
       edges={['top', 'bottom']}
     >
+      {/* F19.1 Animated background */}
+      <AnimatedBackground />
+
       {/* Logo */}
       <Animated.View style={[styles.logoSection, logoStyle]}>
         <View

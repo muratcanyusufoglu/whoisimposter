@@ -1,6 +1,6 @@
 import { create } from 'zustand'
 import { persist, createJSONStorage } from 'zustand/middleware'
-import AsyncStorage from '@react-native-async-storage/async-storage'
+import { safeAsyncStorage } from '@/utils/storage'
 import { ThemeId, RatingState } from '@/types'
 import { changeLanguage } from '@/i18n'
 
@@ -104,7 +104,7 @@ export const useSettingsStore = create<SettingsStore>()(
     }),
     {
       name: '@whosimposter_settings',
-      storage: createJSONStorage(() => AsyncStorage),
+      storage: createJSONStorage(() => safeAsyncStorage),
       // Don't persist the hydration flag itself
       partialize: (s) => {
         const { _hasHydrated, ...rest } = s

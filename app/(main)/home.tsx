@@ -27,6 +27,7 @@ import { GAME_MODES } from '@/data/games'
 import { GameModeCard } from '@/components/game/GameModeCard'
 import { RatingModal } from '@/components/modals/RatingModal'
 import { PaywallModal } from '@/components/modals/PaywallModal'
+import { AnimatedBackground } from '@/components/layout/AnimatedBackground'
 import { GameModeDefinition } from '@/types'
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -134,6 +135,9 @@ export default function HomeScreen() {
       style={[styles.safeArea, { backgroundColor: theme.bg.primary }]}
       edges={['top']}
     >
+      {/* F19.1 Animated background */}
+      <AnimatedBackground />
+
       {/* Header */}
       <Animated.View style={[styles.header, headerStyle]}>
         <Text
@@ -235,7 +239,7 @@ const styles = StyleSheet.create({
   },
   listContent: {
     paddingHorizontal: spacing.lg,
-    paddingBottom: spacing.xl,
+    paddingBottom: 100,
     paddingTop: spacing.xs,
   },
   separator: {

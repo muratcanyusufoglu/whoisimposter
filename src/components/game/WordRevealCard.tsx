@@ -208,37 +208,37 @@ export function WordRevealCard({
         <Pressable onPress={onBlurRequest} style={s.faceContent}>
           {isImposter ? (
             <View style={s.backInner}>
-              <Text style={[s.imposterLine1, { color: theme.text.inverse }]}>
+              <Text style={[s.imposterLine1, { color: theme.game.cardText }]}>
                 {t('reveal.imposter_line1')}
               </Text>
               <Text style={[s.imposterLine2, { color: theme.accent.secondary }]}>
                 {t('reveal.imposter_line2')}
               </Text>
-              <Text style={[s.backSubtitle, { color: theme.text.inverse + 'BB' }]}>
+              <Text style={[s.backSubtitle, { color: theme.game.cardTextMuted }]}>
                 {t('reveal.imposter_subtitle')}
               </Text>
             </View>
           ) : (
             <View style={s.backInner}>
-              <Text style={[s.crewLabel, { color: theme.text.inverse + '99' }]}>
-                YOUR WORD
+              <Text style={[s.crewLabel, { color: theme.game.cardTextMuted }]}>
+                {t('reveal.yourWord')}
               </Text>
               <Text
-                style={[s.secretWord, { color: theme.text.inverse }]}
+                style={[s.secretWord, { color: theme.game.cardText }]}
                 numberOfLines={2}
                 adjustsFontSizeToFit
                 minimumFontScale={0.5}
               >
                 {secretWord}
               </Text>
-              <Text style={[s.backSubtitle, { color: theme.text.inverse + 'BB' }]}>
+              <Text style={[s.backSubtitle, { color: theme.game.cardTextMuted }]}>
                 {t('reveal.crew_subtitle')}
               </Text>
             </View>
           )}
 
           {/* Tap-to-hide hint */}
-          <Text style={[s.tapToHide, { color: theme.text.inverse + '55' }]}>
+          <Text style={[s.tapToHide, { color: theme.game.cardTextMuted }]}>
             {t('reveal.autoBlur')}
           </Text>
         </Pressable>

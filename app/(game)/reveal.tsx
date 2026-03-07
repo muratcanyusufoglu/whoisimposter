@@ -7,6 +7,9 @@ import Animated, {
   useAnimatedStyle,
   withSpring,
   withTiming,
+  withRepeat,
+  withSequence,
+  Easing,
 } from 'react-native-reanimated'
 import { useTranslation } from 'react-i18next'
 import { useTheme } from '@/theme'
@@ -46,6 +49,10 @@ export default function RevealScreen() {
   // Button entrance animation
   const btnScale = useSharedValue(0)
   const btnOpacity = useSharedValue(0)
+
+  // F19.5: Imposter reveal glow explosion
+  const glowScale = useSharedValue(0)
+  const glowOpacity = useSharedValue(0)
 
   // Derive current player
   const currentPlayerId = revealOrder[revealIndex] ?? ''
@@ -94,6 +101,19 @@ export default function RevealScreen() {
     // Animate NEXT PLAYER button in
     btnScale.value = withSpring(1, { damping: 14, stiffness: 120 })
     btnOpacity.value = withTiming(1, { duration: 300 })
+    // F19.5: Imposter glow pulse (scale 1→1.4→1, 2 pulses, then fade)
+    if (_isImposter) {
+      glowOpacity.value = withTiming(1, { duration: 120 })
+      glowScale.value = withRepeat(
+        withSequence(
+          withTiming(1.4, { duration: 400, easing: Easing.out(Easing.quad) }),
+          withTiming(1,   { duration: 400, easing: Easing.inOut(Easing.quad) }),
+        ),
+        2,
+        false,
+        () => { glowOpacity.value = withTiming(0, { duration: 500 }) },
+      )
+    }
   }, [startAutoBlurTimer])
 
   const handleBlurRequest = useCallback(() => {
@@ -117,6 +137,12 @@ export default function RevealScreen() {
   const btnAnimStyle = useAnimatedStyle(() => ({
     transform: [{ scale: btnScale.value }],
     opacity: btnOpacity.value,
+  }))
+
+  // F19.5: Imposter glow
+  const glowAnimStyle = useAnimatedStyle(() => ({
+    opacity: glowOpacity.value,
+    transform: [{ scale: glowScale.value }],
   }))
 
   // ─── Render ───────────────────────────────────────────────────────────────
@@ -156,6 +182,14 @@ export default function RevealScreen() {
 
       {/* ── Card ── */}
       <View style={s.cardArea}>
+        {/* F19.5: Imposter glow explosion — behind the card */}
+        <Animated.View
+          pointerEvents="none"
+          style={[s.glowWrap, glowAnimStyle]}
+        >
+          <View style={[s.glowCircle, { backgroundColor: theme.accent.secondary + '35' }]} />
+        </Animated.View>
+
         <WordRevealCard
           key={currentPlayerId}
           player={currentPlayer}
@@ -236,6 +270,18 @@ const s = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     paddingHorizontal: spacing.lg,
+  },
+
+  glowWrap: {
+    ...StyleSheet.absoluteFillObject,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+
+  glowCircle: {
+    width: 280,
+    height: 280,
+    borderRadius: 140,
   },
 
   footer: {

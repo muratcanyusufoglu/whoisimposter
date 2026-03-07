@@ -29,28 +29,77 @@ export type StorageKey = (typeof STORAGE_KEYS)[keyof typeof STORAGE_KEYS]
 
 // ─────────────────────────────────────────────────────────────────────────────
 // TYPED WRAPPERS
+// Wrapped in try/catch so Expo Go / CI environments without the native module
+// degrade gracefully instead of crashing the app.
 // ─────────────────────────────────────────────────────────────────────────────
 
 export async function getItem<T>(key: StorageKey): Promise<T | null> {
-  const raw = await AsyncStorage.getItem(key)
-  if (raw === null) return null
   try {
-    return JSON.parse(raw) as T
+    const raw = await AsyncStorage.getItem(key)
+    if (raw === null) return null
+    try {
+      return JSON.parse(raw) as T
+    } catch {
+      return raw as unknown as T
+    }
   } catch {
-    return raw as unknown as T
+    return null
   }
 }
 
 export async function setItem<T>(key: StorageKey, value: T): Promise<void> {
-  const raw = typeof value === 'string' ? value : JSON.stringify(value)
-  await AsyncStorage.setItem(key, raw)
+  try {
+    const raw = typeof value === 'string' ? value : JSON.stringify(value)
+    await AsyncStorage.setItem(key, raw)
+  } catch {
+    // Storage unavailable (Expo Go without native module) — no-op
+  }
 }
 
 export async function removeItem(key: StorageKey): Promise<void> {
-  await AsyncStorage.removeItem(key)
+  try {
+    await AsyncStorage.removeItem(key)
+  } catch {
+    // no-op
+  }
 }
 
 export async function clearAll(): Promise<void> {
-  const keys = Object.values(STORAGE_KEYS)
-  await Promise.all(keys.map((key) => AsyncStorage.removeItem(key)))
+  try {
+    const keys = Object.values(STORAGE_KEYS)
+    await Promise.all(keys.map((key) => AsyncStorage.removeItem(key)))
+  } catch {
+    // no-op
+  }
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// SAFE ASYNC STORAGE
+// A drop-in AsyncStorage replacement for Zustand persist that never throws.
+// Falls back to a no-op in-memory stub when the native module is unavailable
+// (e.g. Expo Go with an incompatible AsyncStorage version).
+// ─────────────────────────────────────────────────────────────────────────────
+
+export const safeAsyncStorage = {
+  getItem: async (key: string): Promise<string | null> => {
+    try {
+      return await AsyncStorage.getItem(key)
+    } catch {
+      return null
+    }
+  },
+  setItem: async (key: string, value: string): Promise<void> => {
+    try {
+      await AsyncStorage.setItem(key, value)
+    } catch {
+      // no-op
+    }
+  },
+  removeItem: async (key: string): Promise<void> => {
+    try {
+      await AsyncStorage.removeItem(key)
+    } catch {
+      // no-op
+    }
+  },
 }

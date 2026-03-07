@@ -34,8 +34,8 @@ import { Divider } from '@/components/ui/Divider'
 // CONSTANTS
 // ─────────────────────────────────────────────────────────────────────────────
 
-const PRIVACY_URL = 'https://whosimposter.app/privacy'
-const TERMS_URL   = 'https://whosimposter.app/terms'
+const PRIVACY_URL = 'https://whosimposter.party/privacy'
+const TERMS_URL   = 'https://whosimposter.party/terms'
 
 const LANGUAGES = [
   { code: 'en', label: 'English',    flag: '🇺🇸' },
@@ -382,7 +382,7 @@ const s = StyleSheet.create({
 
   scrollContent: {
     paddingHorizontal: spacing.lg,
-    paddingBottom: spacing['2xl'],
+    paddingBottom: 100,
     gap: spacing.md,
   },
 

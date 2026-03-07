@@ -35,9 +35,11 @@ export const lightTheme: AppTheme = {
     success: 'rgba(42,157,143,0.15)',
   },
   game: {
-    imposterBg: '#FFF0F0',
-    crewBg:     '#F0F0FF',
-    voteBg:     '#F5F5FA',
+    imposterBg:    '#FFE4E4',
+    crewBg:        '#E4E8FF',
+    voteBg:        '#F5F5FA',
+    cardText:      '#1A1A2E',
+    cardTextMuted: 'rgba(26,26,46,0.55)',
   },
   status: {
     success: '#2A9D8F',

@@ -35,9 +35,11 @@ export const darkTheme: AppTheme = {
     success: 'rgba(46,213,115,0.20)',
   },
   game: {
-    imposterBg: '#150505',
-    crewBg:     '#05050F',
-    voteBg:     '#0A0A0D',
+    imposterBg:    '#2D0A0A',
+    crewBg:        '#0C1A40',
+    voteBg:        '#0A0A0D',
+    cardText:      '#FFFFFF',
+    cardTextMuted: 'rgba(255,255,255,0.55)',
   },
   status: {
     success: '#2ED573',

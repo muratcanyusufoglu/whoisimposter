@@ -31,6 +31,7 @@ import { playerManager } from '@/logic/playerManager'
 import { PlayerChip } from '@/components/game/PlayerChip'
 import { CategoryCard } from '@/components/game/CategoryCard'
 import { Button } from '@/components/ui/Button'
+import { PaywallModal } from '@/components/modals/PaywallModal'
 import { GameConfig, GameModeId, Player } from '@/types'
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -84,6 +85,7 @@ export default function SetupScreen() {
   const [impostersCount, setImpostersCount] = useState<1 | 2>(1)
   const [timerSeconds, setTimerSeconds] = useState<0 | 10 | 15 | 30>(0)
   const [advancedOpen, setAdvancedOpen] = useState(false)
+  const [paywallVisible, setPaywallVisible] = useState(false)
 
   const inputRef = useRef<TextInput>(null)
 
@@ -161,6 +163,13 @@ export default function SetupScreen() {
   const handleStartGame = useCallback(() => {
     if (!canStart) return
 
+    // F16.6 — Secondary Pro gate: block premium games without subscription
+    if (mode.isPremium && !isPro) {
+      haptics.light()
+      setPaywallVisible(true)
+      return
+    }
+
     haptics.medium()
 
     // Persist last setup (F10.6)
@@ -181,8 +190,35 @@ export default function SetupScreen() {
     }
 
     initGame(config)
-    // Navigate to reveal (F11 will implement the screen)
-    router.replace('/(game)/reveal' as never)
+    // Route to the appropriate game screen based on mode
+    switch (mode.id) {
+      case 'imposter':
+        router.replace('/(game)/reveal' as never)
+        break
+      case 'heads-up':
+      case 'charades':
+        router.replace('/(game)/heads-up' as never)
+        break
+      case 'word-chain':
+        router.replace('/(game)/word-chain' as never)
+        break
+      case 'trivia-bet':
+        router.replace('/(game)/trivia-bet' as never)
+        break
+      case 'two-truths':
+        router.replace('/(game)/two-truths' as never)
+        break
+      // Prompt-based free + paranoia games
+      case 'truth-dare':
+      case 'never-have-i-ever':
+      case 'most-likely-to':
+      case 'hot-takes':
+      case 'would-you-rather':
+      case 'paranoia':
+      default:
+        router.replace('/(game)/prompt-game' as never)
+        break
+    }
   }, [
     canStart,
     haptics,
@@ -190,6 +226,8 @@ export default function SetupScreen() {
     players,
     selectedCategories,
     mode.id,
+    mode.isPremium,
+    isPro,
     impostersCount,
     timerSeconds,
     soundEnabled,
@@ -504,6 +542,12 @@ export default function SetupScreen() {
           </Button>
         </View>
       </KeyboardAvoidingView>
+
+      {/* F16.6 — Pro gate paywall for premium games */}
+      <PaywallModal
+        visible={paywallVisible}
+        onClose={() => setPaywallVisible(false)}
+      />
     </SafeAreaView>
   )
 }
