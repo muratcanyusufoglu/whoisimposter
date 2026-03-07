@@ -6,6 +6,7 @@ import {
   Pressable,
   StyleSheet,
   ViewStyle,
+  TextStyle,
   TextInputProps,
 } from 'react-native'
 import { X } from 'lucide-react-native'
@@ -17,7 +18,7 @@ interface InputProps extends Omit<TextInputProps, 'style'> {
   clearable?: boolean
   onClear?: () => void
   containerStyle?: ViewStyle
-  inputStyle?: ViewStyle
+  inputStyle?: TextStyle
 }
 
 /**
