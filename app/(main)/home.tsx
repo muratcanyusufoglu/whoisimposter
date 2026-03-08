@@ -193,12 +193,10 @@ export default function HomeScreen() {
 
       {/* ── Modals (F8.3 sequence) ──────────────────────────────────────────── */}
       <RatingModal visible={ratingVisible} onClose={handleRatingClose} />
-      {paywallVisible && (
-        <PaywallModal
-          visible={paywallVisible}
-          onClose={() => setPaywallVisible(false)}
-        />
-      )}
+      <PaywallModal
+        visible={paywallVisible}
+        onClose={() => setPaywallVisible(false)}
+      />
     </SafeAreaView>
   )
 }

@@ -235,9 +235,7 @@ export default function SettingsScreen() {
         onPaywall={() => { setThemePickerVisible(false); setPaywallVisible(true) }}
       />
 
-      {paywallVisible && (
-        <PaywallModal visible onClose={() => setPaywallVisible(false)} />
-      )}
+      <PaywallModal visible={paywallVisible} onClose={() => setPaywallVisible(false)} />
 
       {/* Language Picker */}
       <LanguagePickerModal

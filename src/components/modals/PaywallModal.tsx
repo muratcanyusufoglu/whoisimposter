@@ -7,6 +7,7 @@ import {
   ScrollView,
   Platform,
   Pressable,
+  Modal as RNModal,
 } from 'react-native'
 import Animated, {
   useSharedValue,
@@ -16,6 +17,7 @@ import Animated, {
   withDelay,
   withSequence,
   Easing,
+  runOnJS,
 } from 'react-native-reanimated'
 import { Ionicons } from '@expo/vector-icons'
 import { useTranslation } from 'react-i18next'
@@ -52,12 +54,16 @@ export function PaywallModal({ visible, onClose }: PaywallModalProps) {
   const [selectedPlan, setSelectedPlan] = useState<PlanId>('yearly')
   const [closeVisible, setCloseVisible] = useState(false)
 
+  // internalVisible keeps the RNModal mounted until the close animation finishes
+  const [internalVisible, setInternalVisible] = useState(false)
+
   // ── Slide-up animation ────────────────────────────────────────────────────
   const translateY = useSharedValue(800)
   const backdropOpacity = useSharedValue(0)
 
   useEffect(() => {
     if (visible) {
+      setInternalVisible(true)
       incrementPaywallSeen()
       setCloseVisible(false)
       translateY.value = withSpring(0, { damping: 22, stiffness: 200 })
@@ -66,7 +72,12 @@ export function PaywallModal({ visible, onClose }: PaywallModalProps) {
       const timer = setTimeout(() => setCloseVisible(true), CLOSE_DELAY_MS)
       return () => clearTimeout(timer)
     } else {
-      translateY.value = withTiming(800, { duration: 250, easing: Easing.in(Easing.quad) })
+      // Animate out first, then hide the native Modal
+      translateY.value = withTiming(
+        800,
+        { duration: 250, easing: Easing.in(Easing.quad) },
+        (finished) => { if (finished) runOnJS(setInternalVisible)(false) },
+      )
       backdropOpacity.value = withTiming(0, { duration: 250 })
     }
   }, [visible])
@@ -115,10 +126,14 @@ export function PaywallModal({ visible, onClose }: PaywallModalProps) {
     onClose()
   }
 
-  if (!visible) return null
-
   return (
-    <View style={StyleSheet.absoluteFill} pointerEvents="box-none">
+    <RNModal
+      visible={internalVisible}
+      transparent
+      statusBarTranslucent
+      animationType="none"
+      onRequestClose={handleClose}
+    >
       {/* Backdrop */}
       <Animated.View
         style={[styles.backdrop, { backgroundColor: theme.bg.overlay }, backdropStyle]}
@@ -240,7 +255,7 @@ export function PaywallModal({ visible, onClose }: PaywallModalProps) {
           </View>
         </ScrollView>
       </Animated.View>
-    </View>
+    </RNModal>
   )
 }
 
@@ -411,12 +426,14 @@ function PlanCard({
 const styles = StyleSheet.create({
   backdrop: {
     ...StyleSheet.absoluteFillObject,
+    zIndex: 0,
   },
   sheet: {
     position: 'absolute',
     bottom: 0,
     left: 0,
     right: 0,
+    zIndex: 1,
     borderTopLeftRadius: radius.xl,
     borderTopRightRadius: radius.xl,
     borderWidth: 1,

@@ -281,9 +281,6 @@ const styles = StyleSheet.create({
     padding: spacing.xl,
     gap: spacing.md,
   },
-  cardEmoji: {
-    fontSize: 52,
-  },
   cardName: {
     fontSize: fontSize['2xl'],
     letterSpacing: -0.5,
