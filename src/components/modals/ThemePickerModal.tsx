@@ -16,7 +16,7 @@ import { Modal } from '@/components/ui/Modal'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // THEME PICKER MODAL
-// 3 swatches: Dark (free), Light (free), Neon (PRO-locked).
+// 3 swatches: Dark (free), Light (free), Neon (free).
 // ─────────────────────────────────────────────────────────────────────────────
 
 interface ThemePickerModalProps {
@@ -28,7 +28,7 @@ interface ThemePickerModalProps {
 const THEME_DEFS: { id: ThemeId; labelKey: string; isPremium: boolean }[] = [
   { id: 'dark', labelKey: 'settings.themeDark', isPremium: false },
   { id: 'light', labelKey: 'settings.themeLight', isPremium: false },
-  { id: 'neon', labelKey: 'settings.themeNeon', isPremium: true },
+  { id: 'neon', labelKey: 'settings.themeNeon', isPremium: false },
 ]
 
 export function ThemePickerModal({
