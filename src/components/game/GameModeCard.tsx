@@ -18,19 +18,17 @@ import { useHaptics } from '@/hooks/useHaptics'
 
 interface GameModeCardProps {
   mode: GameModeDefinition
-  isPro: boolean
+  locked: boolean
   onPress: () => void
 }
 
-export function GameModeCard({ mode, isPro, onPress }: GameModeCardProps) {
+export function GameModeCard({ mode, locked, onPress }: GameModeCardProps) {
   const { theme } = useTheme()
   const { t } = useTranslation()
   const haptics = useHaptics()
 
   const scale = useSharedValue(1)
   const animStyle = useAnimatedStyle(() => ({ transform: [{ scale: scale.value }] }))
-
-  const locked = mode.isPremium && !isPro
 
   const handlePressIn = () => {
     scale.value = withSpring(0.97, { damping: 12, stiffness: 400 })
@@ -39,7 +37,8 @@ export function GameModeCard({ mode, isPro, onPress }: GameModeCardProps) {
     scale.value = withSpring(1, { damping: 14, stiffness: 300 })
   }
   const handlePress = () => {
-    haptics.selection()
+    if (locked) haptics.light()
+    else haptics.selection()
     onPress()
   }
 
@@ -60,7 +59,6 @@ export function GameModeCard({ mode, isPro, onPress }: GameModeCardProps) {
         ]}
         accessibilityLabel={t(mode.nameKey)}
         accessibilityRole="button"
-        accessibilityState={{ disabled: locked }}
       >
         {/* Emoji */}
         <Text style={[styles.emoji, locked && styles.lockedEmoji]}>

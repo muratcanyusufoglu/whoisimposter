@@ -107,14 +107,11 @@ export default function HomeScreen() {
   }))
 
   // ── Handlers ──────────────────────────────────────────────────────────────
-  const handleModePress = (mode: GameModeDefinition) => {
-    const locked = mode.isPremium && !isPro
+  const handleModePress = (mode: GameModeDefinition, locked: boolean) => {
     if (locked) {
-      haptics.light()
       setPaywallVisible(true)
       return
     }
-    haptics.selection()
     // F10 will create /(game)/setup — navigate with modeId param
     router.push({ pathname: '/(game)/setup', params: { modeId: mode.id } } as never)
   }
@@ -122,13 +119,16 @@ export default function HomeScreen() {
   const hasActiveGame = roundPhase !== 'idle'
 
   // ── Render item ────────────────────────────────────────────────────────────
-  const renderItem = ({ item }: ListRenderItemInfo<GameModeDefinition>) => (
-    <GameModeCard
-      mode={item}
-      isPro={isPro}
-      onPress={() => handleModePress(item)}
-    />
-  )
+  const renderItem = ({ item }: ListRenderItemInfo<GameModeDefinition>) => {
+    const locked = item.isPremium && !isPro
+    return (
+      <GameModeCard
+        mode={item}
+        locked={locked}
+        onPress={() => handleModePress(item, locked)}
+      />
+    )
+  }
 
   return (
     <SafeAreaView

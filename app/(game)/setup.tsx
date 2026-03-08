@@ -133,8 +133,8 @@ export default function SetupScreen() {
   const handleCategoryPress = useCallback(
     (catId: string, isPremium: boolean) => {
       if (isPremium && !isPro) {
-        // Show paywall — for now just skip selection
         haptics.light()
+        setPaywallVisible(true)
         return
       }
       haptics.selection()
