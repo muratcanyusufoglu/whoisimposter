@@ -25,7 +25,9 @@
         "NSPrivacyAccessedAPITypes": [
           {
             "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryUserDefaults",
-            "NSPrivacyAccessedAPITypeReasons": ["CA92.1"]
+            "NSPrivacyAccessedAPITypeReasons": [
+              "CA92.1"
+            ]
           }
         ]
       }
@@ -55,7 +57,8 @@
         {
           "microphonePermission": false
         }
-      ]
+      ],
+      "expo-build-properties"
     ],
     "extra": {
       "privacyPolicyUrl": "https://whosimposter.party/privacy",
