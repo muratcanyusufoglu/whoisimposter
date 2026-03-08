@@ -4,7 +4,7 @@ import Animated, {
   useAnimatedStyle,
   withSpring,
 } from 'react-native-reanimated'
-import { ChevronRight, Lock } from 'lucide-react-native'
+import { Ionicons } from '@expo/vector-icons'
 import { useTranslation } from 'react-i18next'
 import { useTheme } from '@/theme'
 import { spacing, radius, fontSize, fontFamily } from '@/theme/tokens'
@@ -100,9 +100,9 @@ export function GameModeCard({ mode, isPro, onPress }: GameModeCardProps) {
         {/* Right icon */}
         <View style={styles.rightIcon}>
           {locked ? (
-            <Lock size={18} color={theme.text.muted} />
+            <Ionicons name="lock-closed" size={18} color={theme.text.muted} />
           ) : (
-            <ChevronRight size={20} color={theme.text.muted} />
+            <Ionicons name="chevron-forward" size={20} color={theme.text.muted} />
           )}
         </View>
       </TouchableOpacity>

@@ -8,7 +8,7 @@ import Animated, {
   withDelay,
   withTiming,
 } from 'react-native-reanimated'
-import { Gamepad2, WifiOff, Users } from 'lucide-react-native'
+import { Ionicons } from '@expo/vector-icons'
 import { useTranslation } from 'react-i18next'
 import { useTheme } from '@/theme'
 import { spacing, radius, fontSize, fontFamily } from '@/theme/tokens'
@@ -134,7 +134,7 @@ export default function WelcomeScreen() {
       <View style={styles.benefits}>
         <Animated.View style={style1}>
           <BenefitRow
-            icon={<Gamepad2 size={24} color={iconColor} />}
+            icon={<Ionicons name="game-controller" size={24} color={iconColor} />}
             label={t('onboarding.welcome.benefit1')}
             theme={theme}
           />
@@ -142,7 +142,7 @@ export default function WelcomeScreen() {
 
         <Animated.View style={style2}>
           <BenefitRow
-            icon={<WifiOff size={24} color={iconColor} />}
+            icon={<Ionicons name="cloud-offline" size={24} color={iconColor} />}
             label={t('onboarding.welcome.benefit2')}
             theme={theme}
           />
@@ -150,7 +150,7 @@ export default function WelcomeScreen() {
 
         <Animated.View style={style3}>
           <BenefitRow
-            icon={<Users size={24} color={iconColor} />}
+            icon={<Ionicons name="people" size={24} color={iconColor} />}
             label={t('onboarding.welcome.benefit3')}
             theme={theme}
           />

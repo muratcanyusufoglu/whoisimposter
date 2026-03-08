@@ -9,7 +9,7 @@ import Animated, {
   withTiming,
   FadeInDown,
 } from 'react-native-reanimated'
-import { Check } from 'lucide-react-native'
+import { Ionicons } from '@expo/vector-icons'
 import { useTranslation } from 'react-i18next'
 import { useTheme } from '@/theme'
 import { spacing, radius, fontSize, fontFamily } from '@/theme/tokens'
@@ -152,7 +152,7 @@ export default function PlayScreen() {
                 <View style={s.statusArea}>
                   {done ? (
                     <View style={[s.checkCircle, { backgroundColor: theme.status.success }]}>
-                      <Check size={14} color="#FFFFFF" strokeWidth={3} />
+                      <Ionicons name="checkmark" size={14} color="#FFFFFF" />
                     </View>
                   ) : (
                     <Text style={[s.tapHint, { color: theme.text.muted }]}>

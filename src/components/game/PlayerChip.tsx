@@ -4,7 +4,7 @@ import Animated, {
   useAnimatedStyle,
   withSpring,
 } from 'react-native-reanimated'
-import { X } from 'lucide-react-native'
+import { Ionicons } from '@expo/vector-icons'
 import { useTheme } from '@/theme'
 import { spacing, radius, fontSize, fontFamily } from '@/theme/tokens'
 import { Player } from '@/types'
@@ -78,7 +78,7 @@ export function PlayerChip({ player, onRemove, canRemove }: PlayerChipProps) {
         disabled={!canRemove}
         hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
       >
-        <X size={14} color={theme.text.muted} />
+        <Ionicons name="close" size={14} color={theme.text.muted} />
       </TouchableOpacity>
     </Animated.View>
   )

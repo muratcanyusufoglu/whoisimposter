@@ -17,7 +17,7 @@ import Animated, {
   withSequence,
   Easing,
 } from 'react-native-reanimated'
-import { Check, X, Crown } from 'lucide-react-native'
+import { Ionicons } from '@expo/vector-icons'
 import { useTranslation } from 'react-i18next'
 import { useTheme } from '@/theme'
 import { AppTheme } from '@/theme/types'
@@ -143,7 +143,7 @@ export function PaywallModal({ visible, onClose }: PaywallModalProps) {
               { backgroundColor: theme.bg.elevated, borderColor: theme.border.default },
             ]}
           >
-            <X size={18} color={theme.text.secondary} />
+            <Ionicons name="close" size={18} color={theme.text.secondary} />
           </TouchableOpacity>
         </Animated.View>
 
@@ -153,7 +153,7 @@ export function PaywallModal({ visible, onClose }: PaywallModalProps) {
           bounces={false}
         >
           {/* Header */}
-          <Crown size={40} color={theme.accent.premium} style={styles.crown} />
+          <Ionicons name="trophy" size={40} color={theme.accent.premium} style={styles.crown} />
           <Text
             style={[
               styles.title,
@@ -272,7 +272,7 @@ function BenefitRow({
           { backgroundColor: theme.status.success + '22' },
         ]}
       >
-        <Check size={14} color={theme.status.success} />
+        <Ionicons name="checkmark" size={14} color={theme.status.success} />
       </View>
       <Text
         style={[

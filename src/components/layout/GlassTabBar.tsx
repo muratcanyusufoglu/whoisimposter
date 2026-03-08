@@ -1,5 +1,4 @@
-import { View, Text, TouchableOpacity, StyleSheet, Platform } from 'react-native'
-import { BlurView } from 'expo-blur'
+import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import type { BottomTabBarProps } from '@react-navigation/bottom-tabs'
 import { useTheme } from '@/theme'
@@ -8,19 +7,18 @@ import { useHaptics } from '@/hooks/useHaptics'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // GLASS TAB BAR
-// iOS: BlurView (expo-blur) — native frosted glass effect
-// Android: semi-transparent surface fallback (BlurView not supported natively)
+// Semi-transparent frosted look using View + opacity — works in Expo Go
+// and production builds on both iOS and Android.
 // ─────────────────────────────────────────────────────────────────────────────
 
 const TAB_BAR_HEIGHT = 60
 
 export function GlassTabBar({ state, descriptors, navigation }: BottomTabBarProps) {
-  const { theme, themeId } = useTheme()
+  const { theme } = useTheme()
   const insets = useSafeAreaInsets()
   const haptics = useHaptics()
 
   const bottomPad = Math.max(insets.bottom, 8)
-  const tint = themeId === 'light' ? 'light' : 'dark'
 
   const tabs = state.routes.map((route, index) => {
     const { options } = descriptors[route.key]
@@ -60,10 +58,9 @@ export function GlassTabBar({ state, descriptors, navigation }: BottomTabBarProp
         accessibilityState={{ selected: isFocused }}
         accessibilityLabel={options.tabBarAccessibilityLabel}
       >
-        {/* Active glow pill */}
         {isFocused && (
           <View
-            style={[s.activePill, { backgroundColor: theme.accent.primary + '20' }]}
+            style={[s.activePill, { backgroundColor: theme.accent.primary + '22' }]}
           />
         )}
 
@@ -86,25 +83,11 @@ export function GlassTabBar({ state, descriptors, navigation }: BottomTabBarProp
   })
 
   return (
-    <View style={[s.wrapper, { height: TAB_BAR_HEIGHT + bottomPad }]}>
-      {/* Hairline separator */}
+    <View style={[s.wrapper, { height: TAB_BAR_HEIGHT + bottomPad, backgroundColor: theme.bg.surface + 'EE' }]}>
+      {/* Hairline top border */}
       <View style={[s.topBorder, { backgroundColor: theme.border.subtle }]} />
 
-      {Platform.OS === 'ios' ? (
-        // iOS: real frosted glass blur
-        <BlurView
-          style={StyleSheet.absoluteFill}
-          tint={tint}
-          intensity={80}
-        />
-      ) : (
-        // Android: semi-transparent surface
-        <View
-          style={[StyleSheet.absoluteFill, { backgroundColor: theme.bg.surface + 'F2' }]}
-        />
-      )}
-
-      {/* Tab items on top of blur layer */}
+      {/* Tab items */}
       <View style={[s.tabs, { paddingBottom: bottomPad }]}>
         {tabs}
       </View>
@@ -120,7 +103,6 @@ const s = StyleSheet.create({
     bottom: 0,
     left: 0,
     right: 0,
-    overflow: 'hidden',
   },
 
   topBorder: {
@@ -129,14 +111,12 @@ const s = StyleSheet.create({
     left: 0,
     right: 0,
     height: StyleSheet.hairlineWidth,
-    zIndex: 1,
   },
 
   tabs: {
     flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
-    zIndex: 2,
   },
 
   tab: {

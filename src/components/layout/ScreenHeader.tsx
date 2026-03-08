@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, Text, Pressable, StyleSheet, ViewStyle } from 'react-native'
 import { useRouter } from 'expo-router'
-import { ChevronLeft } from 'lucide-react-native'
+import { Ionicons } from '@expo/vector-icons'
 import { useTheme, spacing, fontSize, fontFamily } from '@/theme'
 
 interface ScreenHeaderProps {
@@ -46,11 +46,7 @@ export function ScreenHeader({
             accessibilityRole="button"
             hitSlop={8}
           >
-            <ChevronLeft
-              size={24}
-              color={theme.text.primary}
-              strokeWidth={1.5}
-            />
+            <Ionicons name="chevron-back" size={24} color={theme.text.primary} />
           </Pressable>
         )}
       </View>

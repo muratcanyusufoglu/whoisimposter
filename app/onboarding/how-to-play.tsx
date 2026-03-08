@@ -9,7 +9,7 @@ import Animated, {
   withTiming,
 } from 'react-native-reanimated'
 import { GestureDetector, Gesture } from 'react-native-gesture-handler'
-import { Smartphone, Eye, Search } from 'lucide-react-native'
+import { Ionicons } from '@expo/vector-icons'
 import { useTranslation } from 'react-i18next'
 import { useState } from 'react'
 import { useTheme } from '@/theme'
@@ -128,7 +128,7 @@ export default function HowToPlayScreen() {
           <Animated.View style={style1}>
             <StepCard
               step={1}
-              icon={<Smartphone size={28} color={iconColor} />}
+              icon={<Ionicons name="phone-portrait" size={28} color={iconColor} />}
               title={t('onboarding.howToPlay.step1_title')}
               description={t('onboarding.howToPlay.step1_desc')}
               theme={theme}
@@ -138,7 +138,7 @@ export default function HowToPlayScreen() {
           <Animated.View style={style2}>
             <StepCard
               step={2}
-              icon={<Eye size={28} color={iconColor} />}
+              icon={<Ionicons name="eye" size={28} color={iconColor} />}
               title={t('onboarding.howToPlay.step2_title')}
               description={t('onboarding.howToPlay.step2_desc')}
               theme={theme}
@@ -148,7 +148,7 @@ export default function HowToPlayScreen() {
           <Animated.View style={style3}>
             <StepCard
               step={3}
-              icon={<Search size={28} color={iconColor} />}
+              icon={<Ionicons name="search" size={28} color={iconColor} />}
               title={t('onboarding.howToPlay.step3_title')}
               description={t('onboarding.howToPlay.step3_desc')}
               theme={theme}

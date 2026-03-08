@@ -5,7 +5,7 @@ import Animated, {
   withSpring,
   withTiming,
 } from 'react-native-reanimated'
-import { Check } from 'lucide-react-native'
+import { Ionicons } from '@expo/vector-icons'
 import { useTheme } from '@/theme'
 import { spacing, radius, fontSize, fontFamily } from '@/theme/tokens'
 import type { Player } from '@/types'
@@ -108,7 +108,7 @@ export function VoteCard({
         {/* Check mark when selected */}
         {isSelected && (
           <View style={[s.checkBadge, { backgroundColor: theme.accent.primary }]}>
-            <Check size={10} color="#FFFFFF" strokeWidth={3} />
+            <Ionicons name="checkmark" size={10} color="#FFFFFF" />
           </View>
         )}
 

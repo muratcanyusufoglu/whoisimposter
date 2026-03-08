@@ -12,7 +12,7 @@ import Animated, {
   SlideInRight,
   SlideOutLeft,
 } from 'react-native-reanimated'
-import { Home, SkipForward } from 'lucide-react-native'
+import { Ionicons } from '@expo/vector-icons'
 import { useTranslation } from 'react-i18next'
 import { useTheme } from '@/theme'
 import { spacing, radius, fontSize, fontFamily } from '@/theme/tokens'
@@ -181,7 +181,7 @@ export default function PromptGameScreen() {
           accessibilityRole="button"
           accessibilityLabel={t('promptGame.endGame')}
         >
-          <Home size={20} color={theme.text.primary} />
+          <Ionicons name="home" size={20} color={theme.text.primary} />
         </TouchableOpacity>
 
         <Text
@@ -366,7 +366,7 @@ export default function PromptGameScreen() {
               accessibilityRole="button"
               accessibilityLabel={t('promptGame.skip')}
             >
-              <SkipForward size={18} color={theme.text.muted} />
+              <Ionicons name="play-skip-forward" size={18} color={theme.text.muted} />
               <Text style={[styles.skipText, { color: theme.text.muted, fontFamily: fontFamily.body }]}>
                 {t('promptGame.skip')}
               </Text>

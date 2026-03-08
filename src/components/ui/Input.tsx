@@ -9,7 +9,7 @@ import {
   TextStyle,
   TextInputProps,
 } from 'react-native'
-import { X } from 'lucide-react-native'
+import { Ionicons } from '@expo/vector-icons'
 import { useTheme, fontSize, fontFamily, radius, spacing } from '@/theme'
 
 interface InputProps extends Omit<TextInputProps, 'style'> {
@@ -90,7 +90,7 @@ export function Input({
             accessibilityLabel="Clear input"
             accessibilityRole="button"
           >
-            <X size={16} color={theme.text.muted} strokeWidth={1.5} />
+            <Ionicons name="close" size={16} color={theme.text.muted} />
           </Pressable>
         ) : null}
       </View>

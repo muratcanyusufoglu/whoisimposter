@@ -4,7 +4,7 @@ import Animated, {
   useAnimatedStyle,
   withSpring,
 } from 'react-native-reanimated'
-import { Check, Lock } from 'lucide-react-native'
+import { Ionicons } from '@expo/vector-icons'
 import { useTranslation } from 'react-i18next'
 import { useTheme } from '@/theme'
 import { AppTheme, ThemeId } from '@/theme/types'
@@ -166,7 +166,7 @@ function ThemeSwatch({
               { backgroundColor: 'rgba(0,0,0,0.55)' },
             ]}
           >
-            <Lock size={20} color="#fff" />
+            <Ionicons name="lock-closed" size={20} color="#fff" />
           </View>
         )}
         {selected && !locked && (
@@ -176,7 +176,7 @@ function ThemeSwatch({
               { backgroundColor: activeTheme.accent.primary },
             ]}
           >
-            <Check size={12} color={activeTheme.text.onPrimary} />
+            <Ionicons name="checkmark" size={12} color={activeTheme.text.onPrimary} />
           </View>
         )}
 

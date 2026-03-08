@@ -17,7 +17,7 @@ import Animated, {
   useAnimatedStyle,
   withSpring,
 } from 'react-native-reanimated'
-import { ChevronRight, Crown, Check, X } from 'lucide-react-native'
+import { Ionicons } from '@expo/vector-icons'
 import * as StoreReview from 'expo-store-review'
 import Constants from 'expo-constants'
 import { useTranslation } from 'react-i18next'
@@ -131,11 +131,11 @@ export default function SettingsScreen() {
             style={[s.upgradeCard, { backgroundColor: theme.accent.primary }]}
             accessibilityRole="button"
           >
-            <Crown size={22} color={theme.text.onPrimary} />
+            <Ionicons name="trophy" size={22} color={theme.text.onPrimary} />
             <Text style={[s.upgradeText, { color: theme.text.onPrimary }]}>
               {t('settings.upgrade')}
             </Text>
-            <ChevronRight size={20} color={theme.text.onPrimary} />
+            <Ionicons name="chevron-forward" size={20} color={theme.text.onPrimary} />
           </TouchableOpacity>
         )}
 
@@ -290,7 +290,7 @@ function LanguagePickerModal({
               Language
             </Text>
             <Pressable onPress={onClose} style={lp.closeBtn}>
-              <X size={20} color={theme.text.muted} />
+              <Ionicons name="close" size={20} color={theme.text.muted} />
             </Pressable>
           </View>
 
@@ -315,7 +315,7 @@ function LanguagePickerModal({
                     {lang.label}
                   </Text>
                   {isSelected && (
-                    <Check size={18} color={theme.accent.primary} strokeWidth={2.5} />
+                    <Ionicons name="checkmark" size={18} color={theme.accent.primary} />
                   )}
                 </Pressable>
               </View>
@@ -355,7 +355,7 @@ function SettingsRow({
         {value ? (
           <Text style={[s.rowValue, { color: theme.text.muted }]}>{value}</Text>
         ) : null}
-        <ChevronRight size={18} color={theme.text.muted} />
+        <Ionicons name="chevron-forward" size={18} color={theme.text.muted} />
       </View>
     </TouchableOpacity>
   )

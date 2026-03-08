@@ -4,7 +4,7 @@ import Animated, {
   useAnimatedStyle,
   withSpring,
 } from 'react-native-reanimated'
-import { Check, Lock } from 'lucide-react-native'
+import { Ionicons } from '@expo/vector-icons'
 import { useTranslation } from 'react-i18next'
 import { useTheme } from '@/theme'
 import { spacing, radius, fontSize, fontFamily } from '@/theme/tokens'
@@ -83,7 +83,7 @@ export function CategoryCard({
         {/* Checkmark badge — top right (when selected) */}
         {selected && (
           <View style={[styles.checkBadge, { backgroundColor: theme.accent.primary }]}>
-            <Check size={10} color={theme.text.onPrimary} strokeWidth={3} />
+            <Ionicons name="checkmark" size={10} color={theme.text.onPrimary} />
           </View>
         )}
 
@@ -99,7 +99,7 @@ export function CategoryCard({
         {/* Lock overlay — centered (for locked premium) */}
         {locked && (
           <View style={styles.lockOverlay}>
-            <Lock size={20} color={theme.text.muted} />
+            <Ionicons name="lock-closed" size={20} color={theme.text.muted} />
           </View>
         )}
 

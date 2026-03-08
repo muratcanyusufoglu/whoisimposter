@@ -1,5 +1,5 @@
 import { Tabs } from 'expo-router'
-import { Home, Settings } from 'lucide-react-native'
+import { Ionicons } from '@expo/vector-icons'
 import { useTranslation } from 'react-i18next'
 import { useTheme } from '@/theme'
 import { GlassTabBar } from '@/components/layout/GlassTabBar'
@@ -28,14 +28,14 @@ export default function MainLayout() {
         name="home"
         options={{
           title: t('common.home'),
-          tabBarIcon: ({ color, size }) => <Home size={size} color={color} />,
+          tabBarIcon: ({ color, size, focused }) => <Ionicons name={focused ? 'home' : 'home-outline'} size={size} color={color} />,
         }}
       />
       <Tabs.Screen
         name="settings"
         options={{
           title: t('common.settings'),
-          tabBarIcon: ({ color, size }) => <Settings size={size} color={color} />,
+          tabBarIcon: ({ color, size, focused }) => <Ionicons name={focused ? 'settings' : 'settings-outline'} size={size} color={color} />,
         }}
       />
     </Tabs>

@@ -17,7 +17,7 @@ import Animated, {
   useAnimatedStyle,
   withSpring,
 } from 'react-native-reanimated'
-import { ChevronLeft, ChevronDown, ChevronUp, Plus } from 'lucide-react-native'
+import { Ionicons } from '@expo/vector-icons'
 import { useTranslation } from 'react-i18next'
 import { useTheme } from '@/theme'
 import { spacing, radius, fontSize, fontFamily } from '@/theme/tokens'
@@ -254,7 +254,7 @@ export default function SetupScreen() {
           accessibilityRole="button"
           accessibilityLabel={t('common.back')}
         >
-          <ChevronLeft size={22} color={theme.text.primary} />
+          <Ionicons name="chevron-back" size={22} color={theme.text.primary} />
         </TouchableOpacity>
 
         <View style={styles.headerTitle}>
@@ -327,7 +327,7 @@ export default function SetupScreen() {
               accessibilityRole="button"
               accessibilityLabel={t('setup.addPlayerCta')}
             >
-              <Plus size={22} color={theme.text.onPrimary} />
+              <Ionicons name="add" size={22} color={theme.text.onPrimary} />
             </TouchableOpacity>
           </View>
 
@@ -458,9 +458,9 @@ export default function SetupScreen() {
                 {t('setup.advanced')}
               </Text>
               {advancedOpen ? (
-                <ChevronUp size={18} color={theme.text.muted} />
+                <Ionicons name="chevron-up" size={18} color={theme.text.muted} />
               ) : (
-                <ChevronDown size={18} color={theme.text.muted} />
+                <Ionicons name="chevron-down" size={18} color={theme.text.muted} />
               )}
             </TouchableOpacity>
           </Animated.View>

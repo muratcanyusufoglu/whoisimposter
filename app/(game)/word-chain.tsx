@@ -19,7 +19,7 @@ import Animated, {
   FadeIn,
   FadeOut,
 } from 'react-native-reanimated'
-import { Home } from 'lucide-react-native'
+import { Ionicons } from '@expo/vector-icons'
 import { useTranslation } from 'react-i18next'
 import { useTheme } from '@/theme'
 import { spacing, radius, fontSize, fontFamily } from '@/theme/tokens'
@@ -211,7 +211,7 @@ export default function WordChainScreen() {
           style={[styles.homeBtn, { backgroundColor: theme.bg.surface }]}
           accessibilityRole="button"
         >
-          <Home size={20} color={theme.text.primary} />
+          <Ionicons name="home" size={20} color={theme.text.primary} />
         </TouchableOpacity>
         <Text style={[styles.headerTitle, { color: theme.text.primary, fontFamily: fontFamily.displayBold }]}>
           {t('wordChain.title')}
