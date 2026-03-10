@@ -24,8 +24,9 @@ import { neverHaveIEverLogic } from '@/logic/games/neverHaveIEver'
 import { mostLikelyToLogic } from '@/logic/games/mostLikelyTo'
 import { hotTakesLogic } from '@/logic/games/hotTakes'
 import { wouldYouRatherLogic } from '@/logic/games/wouldYouRather'
+import { getGameModeById } from '@/data/games'
 import { Button } from '@/components/ui/Button'
-import type { PromptItem } from '@/types'
+import type { PromptItem, GameModeId } from '@/types'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // TYPES
@@ -163,9 +164,10 @@ export default function PromptGameScreen() {
   }, [haptics])
 
   // ── Derive game label from mode ──────────────────────────────────────────
-  // i18n keys use underscores; GameModeId uses hyphens → normalise
-  const modeKey = mode.replace(/-/g, '_')
-  const gameName = t(`games.${modeKey}.name`, { defaultValue: mode })
+  const gameMode = getGameModeById(mode as GameModeId)
+  const gameName = gameMode
+    ? t(gameMode.nameKey)
+    : t(`games.${mode.replace(/-/g, '_')}.name`, { defaultValue: mode })
 
   // ── Render ───────────────────────────────────────────────────────────────
   return (

@@ -15,12 +15,14 @@ import { Ionicons } from '@expo/vector-icons'
 import { useTranslation } from 'react-i18next'
 import { useTheme } from '@/theme'
 import { spacing, radius, fontSize, fontFamily } from '@/theme/tokens'
+import { getGameModeById } from '@/data/games'
 import { useGameStore } from '@/store/gameStore'
 import { useSettingsStore } from '@/store/settingsStore'
 import { useHaptics } from '@/hooks/useHaptics'
 import { headsUpLogic, HeadsUpRoundResult } from '@/logic/games/headsUp'
 import { charadesLogic } from '@/logic/games/charades'
 import { Button } from '@/components/ui/Button'
+import type { GameModeId } from '@/types'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // HEADS UP / CHARADES SCREEN — F16.3
@@ -169,7 +171,7 @@ export default function HeadsUpScreen() {
     router.replace('/(main)/home' as never)
   }, [stopTimer])
 
-  const modeKey = isCharades ? 'charades' : 'headsUp'
+  const gameMode = getGameModeById(mode as GameModeId)
   const currentWord = wordPool[currentWordIdx] ?? '—'
 
   // ── Render ───────────────────────────────────────────────────────────────
@@ -188,7 +190,7 @@ export default function HeadsUpScreen() {
           <Ionicons name="home" size={20} color={theme.text.primary} />
         </TouchableOpacity>
         <Text style={[styles.headerTitle, { color: theme.text.primary, fontFamily: fontFamily.displayBold }]}>
-          {t(`games.${modeKey}.name`, { defaultValue: mode })}
+          {gameMode ? t(gameMode.nameKey) : mode}
         </Text>
         <View style={styles.homeBtn} />
       </View>

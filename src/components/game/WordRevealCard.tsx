@@ -211,7 +211,12 @@ export function WordRevealCard({
               <Text style={[s.imposterLine1, { color: theme.game.cardText }]}>
                 {t('reveal.imposter_line1')}
               </Text>
-              <Text style={[s.imposterLine2, { color: theme.accent.secondary }]}>
+              <Text
+                style={[s.imposterLine2, { color: theme.accent.secondary }]}
+                numberOfLines={1}
+                adjustsFontSizeToFit
+                minimumFontScale={0.75}
+              >
                 {t('reveal.imposter_line2')}
               </Text>
               <Text style={[s.backSubtitle, { color: theme.game.cardTextMuted }]}>

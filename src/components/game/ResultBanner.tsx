@@ -10,6 +10,7 @@ import Animated, {
   withSequence,
   Easing,
 } from 'react-native-reanimated'
+import { useTranslation } from 'react-i18next'
 import { useTheme } from '@/theme'
 import { spacing, radius, fontSize, fontFamily } from '@/theme/tokens'
 
@@ -79,6 +80,7 @@ function Particle({ color, dx, dy, delay, size }: ParticleProps) {
 
 export function ResultBanner({ caught, imposterName, secretWord, finalOutcome }: ResultBannerProps) {
   const { theme } = useTheme()
+  const { t } = useTranslation()
 
   // ─── Entrance animations ───────────────────────────────────────────────
   const headlineScale   = useSharedValue(0.4)
@@ -178,12 +180,12 @@ export function ResultBanner({ caught, imposterName, secretWord, finalOutcome }:
       <Animated.View style={headlineStyle}>
         {caught ? (
           <Text style={[s.headline, { color: theme.status.success }]}>
-            {caught ? '🎉 CAUGHT! 🎉' : ''}
+            🎉 {t('result.caught')} 🎉
           </Text>
         ) : (
           <Animated.View style={dangerStyle}>
             <Text style={[s.headline, { color: theme.accent.secondary }]}>
-              THEY GOT AWAY
+              {t('result.escaped')}
             </Text>
           </Animated.View>
         )}
@@ -203,8 +205,8 @@ export function ResultBanner({ caught, imposterName, secretWord, finalOutcome }:
       >
         {/* Imposter reveal */}
         <View style={s.infoRow}>
-          <Text style={[s.infoLabel, { color: theme.text.muted }]}>
-            {caught ? 'THE IMPOSTER WAS' : 'THE IMPOSTER IS'}
+          <Text style={[s.infoLabel, { color: theme.text.secondary }]}>
+            {caught ? t('result.imposterWas') : t('result.imposterIs')}
           </Text>
           <View style={s.imposterNameRow}>
             <Text style={[s.imposterName, { color: caught ? theme.status.success : theme.accent.secondary }]}>
@@ -217,8 +219,8 @@ export function ResultBanner({ caught, imposterName, secretWord, finalOutcome }:
 
         {/* Secret word */}
         <View style={s.infoRow}>
-          <Text style={[s.infoLabel, { color: theme.text.muted }]}>
-            THE SECRET WORD
+          <Text style={[s.infoLabel, { color: theme.text.secondary }]}>
+            {t('result.secretWord')}
           </Text>
           <Text style={[s.secretWord, { color: theme.text.primary }]}>
             {secretWord}
@@ -240,10 +242,10 @@ export function ResultBanner({ caught, imposterName, secretWord, finalOutcome }:
             ]}
           >
             {finalOutcome === 'crew_wins'
-              ? 'Crew Wins! 🎉'
+              ? t('result.crewWins')
               : finalOutcome === 'imposter_wins'
-              ? 'Imposter Wins! 🕵️'
-              : 'It\'s a Tie!'}
+              ? t('result.imposterWins')
+              : t('result.tie')}
           </Text>
         </Animated.View>
       )}

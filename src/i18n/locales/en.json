@@ -80,12 +80,15 @@
   "result": {
     "caught": "CAUGHT!",
     "escaped": "THEY GOT AWAY",
+    "imposterWas": "THE IMPOSTER WAS",
+    "imposterIs": "THE IMPOSTER IS",
     "secretWord": "The secret word was:",
     "guessPrompt": "Can {{name}} guess the secret word?",
     "guessYes": "Yes — They guessed it!",
     "guessNo": "No — They failed",
     "crewWins": "Crew Wins! 🎉",
     "imposterWins": "Imposter Wins! 🕵️",
+    "tie": "It's a Tie!",
     "playAgain": "Play Again",
     "newGame": "New Game",
     "share": "Share Result"
