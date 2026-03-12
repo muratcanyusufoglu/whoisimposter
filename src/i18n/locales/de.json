@@ -131,7 +131,65 @@
     "rate": "App bewerten",
     "privacy": "Datenschutz",
     "terms": "Nutzungsbedingungen",
-    "version": "Version {{version}}"
+    "version": "Version {{version}}",
+    "stats": "Statistiken & Erfolge"
+  },
+  "scoreboard": {
+    "title": "Sitzungs-Bestenliste",
+    "roundsPlayed_one": "{{count}} Runde gespielt",
+    "roundsPlayed_other": "{{count}} Runden gespielt",
+    "pts": "Pkt",
+    "delta": "+{{count}}"
+  },
+  "streak": {
+    "crewStreak": "🔥 Team auf {{count}}-Siegesserie!",
+    "imposterStreak": "🕵️ Betrüger auf {{count}}-Siegesserie!"
+  },
+  "achievements": {
+    "unlockedTitle": "Erfolg freigeschaltet!",
+    "first_blood": {
+      "title": "Erster Treffer",
+      "desc": "Gewinne als Crew deine erste Runde"
+    },
+    "ghost": {
+      "title": "Geist",
+      "desc": "Gewinne als Betrüger 3 Mal in Folge"
+    },
+    "mind_reader": {
+      "title": "Gedankenleser",
+      "desc": "Errate das geheime Wort nach dem Erwischtwerden"
+    },
+    "unanimous": {
+      "title": "Einstimmig",
+      "desc": "Alle Crew-Mitglieder stimmten für dich"
+    },
+    "social_butterfly": {
+      "title": "Sozialer Schmetterling",
+      "desc": "Spiele insgesamt 10 Spiele"
+    },
+    "sharp_eye": {
+      "title": "Scharfes Auge",
+      "desc": "Stimme 5 Mal korrekt für den Betrüger"
+    },
+    "survivor": {
+      "title": "Überlebender",
+      "desc": "Gewinne 10 Mal als Crew"
+    },
+    "master_disguise": {
+      "title": "Meister der Verkleidung",
+      "desc": "Gewinne 5 Mal als Betrüger"
+    },
+    "locked": "Gesperrt"
+  },
+  "stats": {
+    "title": "Statistiken & Erfolge",
+    "myStats": "Meine Statistiken",
+    "achievements": "Erfolge",
+    "noStats": "Noch keine Spiele gespielt",
+    "gamesPlayed": "Spiele",
+    "wins": "Siege",
+    "timesImposter": "Betrüger",
+    "timesCaught": "Erwischt"
   },
   "categories": {
     "food": "Essen & Trinken",

@@ -131,7 +131,65 @@
     "rate": "قيّم التطبيق",
     "privacy": "سياسة الخصوصية",
     "terms": "شروط الاستخدام",
-    "version": "الإصدار {{version}}"
+    "version": "الإصدار {{version}}",
+    "stats": "الإحصائيات والإنجازات"
+  },
+  "scoreboard": {
+    "title": "لوحة النقاط",
+    "roundsPlayed_one": "{{count}} جولة",
+    "roundsPlayed_other": "{{count}} جولات",
+    "pts": "نقاط",
+    "delta": "+{{count}}"
+  },
+  "streak": {
+    "crewStreak": "🔥 الطاقم في سلسلة {{count}} انتصارات!",
+    "imposterStreak": "🕵️ المتسلل في سلسلة {{count}} انتصارات!"
+  },
+  "achievements": {
+    "unlockedTitle": "تم فتح الإنجاز!",
+    "first_blood": {
+      "title": "الدم الأول",
+      "desc": "افوز بجولتك الأولى كطاقم"
+    },
+    "ghost": {
+      "title": "الشبح",
+      "desc": "افوز كمتسلل 3 مرات متتالية"
+    },
+    "mind_reader": {
+      "title": "قارئ الأفكار",
+      "desc": "خمّن الكلمة السرية بعد الإمساك بك"
+    },
+    "unanimous": {
+      "title": "إجماع",
+      "desc": "صوّت جميع أعضاء الطاقم ضدك"
+    },
+    "social_butterfly": {
+      "title": "الفراشة الاجتماعية",
+      "desc": "العب 10 مباريات إجمالاً"
+    },
+    "sharp_eye": {
+      "title": "العين الحادة",
+      "desc": "صوّت بشكل صحيح للمتسلل 5 مرات"
+    },
+    "survivor": {
+      "title": "الناجي",
+      "desc": "افوز 10 مرات كطاقم"
+    },
+    "master_disguise": {
+      "title": "سيد التنكر",
+      "desc": "افوز 5 مرات كمتسلل"
+    },
+    "locked": "مقفل"
+  },
+  "stats": {
+    "title": "الإحصائيات والإنجازات",
+    "myStats": "إحصائياتي",
+    "achievements": "الإنجازات",
+    "noStats": "لم يتم لعب أي مباريات بعد",
+    "gamesPlayed": "مباريات",
+    "wins": "انتصارات",
+    "timesImposter": "متسلل",
+    "timesCaught": "ممسوك"
   },
   "categories": {
     "food": "طعام ومشروبات",

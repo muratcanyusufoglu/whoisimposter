@@ -131,7 +131,65 @@
     "rate": "App beoordelen",
     "privacy": "Privacybeleid",
     "terms": "Gebruiksvoorwaarden",
-    "version": "Versie {{version}}"
+    "version": "Versie {{version}}",
+    "stats": "Statistieken & Prestaties"
+  },
+  "scoreboard": {
+    "title": "Sessiescoreboard",
+    "roundsPlayed_one": "{{count}} ronde gespeeld",
+    "roundsPlayed_other": "{{count}} rondes gespeeld",
+    "pts": "ptn",
+    "delta": "+{{count}}"
+  },
+  "streak": {
+    "crewStreak": "🔥 Bemanning op {{count}}-winserie!",
+    "imposterStreak": "🕵️ Bedrieger op {{count}}-winserie!"
+  },
+  "achievements": {
+    "unlockedTitle": "Prestatie ontgrendeld!",
+    "first_blood": {
+      "title": "Eerste bloed",
+      "desc": "Win je eerste ronde als bemanning"
+    },
+    "ghost": {
+      "title": "Geest",
+      "desc": "Win als bedrieger 3 keer op rij"
+    },
+    "mind_reader": {
+      "title": "Gedachtelezer",
+      "desc": "Raad het geheime woord na gepakt te zijn"
+    },
+    "unanimous": {
+      "title": "Unaniem",
+      "desc": "Alle bemanningsleden stemden op jou"
+    },
+    "social_butterfly": {
+      "title": "Sociale vlinder",
+      "desc": "Speel 10 spellen in totaal"
+    },
+    "sharp_eye": {
+      "title": "Scherp oog",
+      "desc": "Stem 5 keer correct op de bedrieger"
+    },
+    "survivor": {
+      "title": "Overlever",
+      "desc": "Win 10 keer als bemanning"
+    },
+    "master_disguise": {
+      "title": "Meester van vermomming",
+      "desc": "Win 5 keer als bedrieger"
+    },
+    "locked": "Vergrendeld"
+  },
+  "stats": {
+    "title": "Statistieken & Prestaties",
+    "myStats": "Mijn statistieken",
+    "achievements": "Prestaties",
+    "noStats": "Nog geen spellen gespeeld",
+    "gamesPlayed": "Spellen",
+    "wins": "Overwinningen",
+    "timesImposter": "Bedrieger",
+    "timesCaught": "Gepakt"
   },
   "categories": {
     "food": "Eten & Drinken",

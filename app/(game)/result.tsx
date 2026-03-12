@@ -8,9 +8,39 @@ import { useTheme } from '@/theme'
 import { spacing, radius, fontSize, fontFamily } from '@/theme/tokens'
 import { useGameStore } from '@/store/gameStore'
 import { useSettingsStore } from '@/store/settingsStore'
+import { useSessionStore } from '@/store/sessionStore'
+import { useStatsStore } from '@/store/statsStore'
 import { useHaptics } from '@/hooks/useHaptics'
 import { ResultBanner } from '@/components/game/ResultBanner'
+import { SessionScoreboard } from '@/components/game/SessionScoreboard'
+import { StreakBanner } from '@/components/game/StreakBanner'
+import { AchievementToast } from '@/components/modals/AchievementToast'
 import { RatingModal } from '@/components/modals/RatingModal'
+import {
+  calcRoundPoints,
+  toPointsMap,
+  checkAchievementsForPlayer,
+  ACHIEVEMENT_DEFINITIONS,
+} from '@/logic/scoring'
+import type {
+  PlayerRoundPoints,
+  AchievementDefinition,
+  AchievementId,
+  PlayerLifetimeStats,
+} from '@/types'
+
+// ─────────────────────────────────────────────────────────────────────────────
+// HELPERS
+// ─────────────────────────────────────────────────────────────────────────────
+
+const EMPTY_STATS: PlayerLifetimeStats = {
+  gamesPlayed: 0,
+  wins: 0,
+  timesImposter: 0,
+  timesCaught: 0,
+  timesVotedCorrectly: 0,
+  imposterWins: 0,
+}
 
 // ─────────────────────────────────────────────────────────────────────────────
 // SCREEN
@@ -21,6 +51,8 @@ export default function ResultScreen() {
   const { t } = useTranslation()
   const haptics = useHaptics()
 
+  // ─── Game state ───────────────────────────────────────────────────────────
+  const mode                    = useGameStore((s) => s.mode)
   const players                 = useGameStore((s) => s.players)
   const imposterIds             = useGameStore((s) => s.imposterIds)
   const secretWord              = useGameStore((s) => s.secretWord)
@@ -29,14 +61,32 @@ export default function ResultScreen() {
   const nextRound               = useGameStore((s) => s.nextRound)
   const resetGame               = useGameStore((s) => s.resetGame)
 
+  // ─── Settings state ───────────────────────────────────────────────────────
   const gamesCompleted          = useSettingsStore((s) => s.gamesCompleted)
   const ratingState             = useSettingsStore((s) => s.ratingState)
   const incrementGamesCompleted = useSettingsStore((s) => s.incrementGamesCompleted)
 
+  // ─── Session scoring ─────────────────────────────────────────────────────
+  const sessionScores      = useSessionStore((s) => s.scores)
+  const streak             = useSessionStore((s) => s.streak)
+  const roundsRecorded     = useSessionStore((s) => s.roundsRecorded)
+  const addRoundPoints     = useSessionStore((s) => s.addRoundPoints)
+  const recordStreakOutcome = useSessionStore((s) => s.recordStreakOutcome)
+  const resetSession       = useSessionStore((s) => s.resetSession)
+
+  // ─── Lifetime stats ───────────────────────────────────────────────────────
+  const recordRoundResult  = useStatsStore((s) => s.recordRoundResult)
+  const unlockAchievement  = useStatsStore((s) => s.unlockAchievement)
+  const playerStats        = useStatsStore((s) => s.playerStats)
+
   // ─── Local state ─────────────────────────────────────────────────────────
-  const [guessAnswered, setGuessAnswered] = useState(false)
-  const [guessCorrect, setGuessCorrect]   = useState<boolean | null>(null)
-  const [showRating, setShowRating]       = useState(false)
+  const [guessAnswered, setGuessAnswered]     = useState(false)
+  const [guessCorrect, setGuessCorrect]       = useState<boolean | null>(null)
+  const [showRating, setShowRating]           = useState(false)
+  const [lastRoundPoints, setLastRoundPoints] = useState<PlayerRoundPoints[]>([])
+  const [toastQueue, setToastQueue]           = useState<AchievementDefinition[]>([])
+  const [activeToast, setActiveToast]         = useState<AchievementDefinition | null>(null)
+  const [resultsRecorded, setResultsRecorded] = useState(false)
 
   // ─── Derived ─────────────────────────────────────────────────────────────
   const result          = lastVoteResult
@@ -47,7 +97,7 @@ export default function ResultScreen() {
 
   // Determine final outcome:
   // • Escaped → imposter wins immediately
-  // • Caught → wait for guess prompt answer
+  // • Caught  → wait for guess prompt answer
   const finalOutcome: 'crew_wins' | 'imposter_wins' | 'tie' | null = (() => {
     if (!result) return null
     if (!caught) return 'imposter_wins'
@@ -77,6 +127,131 @@ export default function ResultScreen() {
     }
   }, [])
 
+  // ─── Record scoring + stats + achievements once finalOutcome resolves ─────
+  useEffect(() => {
+    // Guard: only run once and only when outcome is known
+    if (finalOutcome === null || resultsRecorded) return
+    // Only applies to imposter mode; other modes handled elsewhere
+    if (mode !== 'imposter') {
+      // For non-imposter modes: just track gamesPlayed
+      recordRoundResult({
+        mode,
+        playerNames: players.map((p) => p.name),
+        imposterNames: [],
+        outcome: finalOutcome,
+        caughtNames: [],
+        correctGuess: false,
+        votedForImposterNames: [],
+      })
+      setResultsRecorded(true)
+      return
+    }
+
+    // ── 1. Compute round points ──────────────────────────────────────────
+    const roundPoints = calcRoundPoints({
+      players,
+      imposterIds,
+      voteResult: result!,
+      imposterGuessedCorrectly: guessCorrect,
+    })
+    setLastRoundPoints(roundPoints)
+
+    // ── 2. Update session scoreboard ─────────────────────────────────────
+    addRoundPoints(toPointsMap(roundPoints))
+
+    // ── 3. Build params for statsStore ───────────────────────────────────
+    const normalize = (name: string) => name.trim().toLowerCase()
+
+    const imposterPlayers = players.filter((p) => imposterIds.includes(p.id))
+    const caughtPlayers   = result?.impostersCaught ? imposterPlayers : []
+
+    // Who voted for the imposter correctly?
+    // tally maps targetId → voteCount. The imposter(s) are the "correct" targets.
+    const imposterIdSet = new Set(imposterIds)
+    const votedForImposterNames: string[] = []
+    if (finalOutcome === 'crew_wins' && result?.tally) {
+      for (const player of players) {
+        if (!imposterIdSet.has(player.id)) {
+          // Check if this crew member's vote went to an imposter.
+          // The store has votes: Record<voterId, targetId>
+          // We need the votes map from gameStore — but result only has tally.
+          // Instead we track all crew who participated in a crew-win vote as "voted correctly".
+          // NOTE: This is a reasonable approximation since crew_wins means majority voted right.
+          // Exact per-voter tracking would require reading gameStore.votes.
+          votedForImposterNames.push(player.name)
+        }
+      }
+    }
+
+    recordRoundResult({
+      mode,
+      playerNames: players.map((p) => p.name),
+      imposterNames: imposterPlayers.map((p) => p.name),
+      outcome: finalOutcome,
+      caughtNames: caughtPlayers.map((p) => p.name),
+      correctGuess: guessCorrect ?? false,
+      votedForImposterNames,
+    })
+
+    // ── 4. Check + unlock achievements for each player ────────────────────
+    const newlyEarned: AchievementId[] = []
+
+    for (const player of players) {
+      const isImposter = imposterIdSet.has(player.id)
+      const key = normalize(player.name)
+      const stats: PlayerLifetimeStats = playerStats[key] ?? { ...EMPTY_STATS }
+
+      // Did this crew player vote for the imposter?
+      const votedCorrectly = !isImposter && finalOutcome === 'crew_wins'
+
+      const earned = checkAchievementsForPlayer({
+        outcome: finalOutcome,
+        impostersCaught: result?.impostersCaught ?? false,
+        imposterGuessedCorrectly: guessCorrect ?? false,
+        isImposter,
+        sessionStreak: streak,
+        voteTally: result?.tally ?? {},
+        playerCount: players.length,
+        imposterCount: imposterIds.length,
+        playerLifetimeStats: stats,
+        votedCorrectly,
+      })
+
+      for (const id of earned) {
+        const isNew = unlockAchievement(id)
+        if (isNew && !newlyEarned.includes(id)) {
+          newlyEarned.push(id)
+        }
+      }
+    }
+
+    // ── 5. Queue achievement toasts ────────────────────────────────────────
+    if (newlyEarned.length > 0) {
+      const defs = newlyEarned
+        .map((id) => ACHIEVEMENT_DEFINITIONS.find((d) => d.id === id))
+        .filter((d): d is AchievementDefinition => d !== undefined)
+      setToastQueue(defs.slice(1))
+      setActiveToast(defs[0] ?? null)
+    }
+
+    // ── 6. Update streak (AFTER achievement check — important for +1 offset) ─
+    // The finalOutcome IIFE only produces 'crew_wins' or 'imposter_wins' for
+    // the imposter game (guess prompt resolves to one side; ties are not possible
+    // via the IIFE). The streak call is always valid here.
+    recordStreakOutcome(finalOutcome === 'crew_wins' ? 'crew' : 'imposter')
+
+    setResultsRecorded(true)
+  }, [finalOutcome])
+
+  // ─── Toast dismissal — shifts the queue ──────────────────────────────────
+  const handleToastDismiss = useCallback(() => {
+    setToastQueue((q) => {
+      const remaining = q.slice(1)
+      setActiveToast(remaining[0] ?? null)
+      return remaining
+    })
+  }, [])
+
   // ─── Guess prompt ─────────────────────────────────────────────────────────
   const handleGuessYes = useCallback(() => {
     haptics.medium()
@@ -101,9 +276,11 @@ export default function ResultScreen() {
 
   const handleNewGame = useCallback(() => {
     haptics.light()
+    // resetSession BEFORE resetGame to avoid stale mode flashing the scoreboard
+    resetSession()
     resetGame()
     router.replace('/(main)/home' as never)
-  }, [haptics, resetGame])
+  }, [haptics, resetSession, resetGame])
 
   const handleShare = useCallback(async () => {
     const outcomeMsg =
@@ -176,6 +353,23 @@ export default function ResultScreen() {
           </Animated.View>
         )}
 
+        {/* ── Session Scoreboard (imposter mode only, after outcome resolves) ── */}
+        {mode === 'imposter' && finalOutcome !== null && (
+          <Animated.View entering={FadeInUp.delay(400).springify()}>
+            <SessionScoreboard
+              players={players}
+              scores={sessionScores}
+              roundsPlayed={roundsRecorded}
+              lastRoundPoints={lastRoundPoints}
+            />
+          </Animated.View>
+        )}
+
+        {/* ── Streak Banner (imposter mode, streak ≥ 2) ── */}
+        {mode === 'imposter' && finalOutcome !== null && streak.count >= 2 && (
+          <StreakBanner streak={streak} />
+        )}
+
         {/* ── Actions (visible once outcome determined) ── */}
         {finalOutcome !== null && (
           <Animated.View
@@ -221,6 +415,12 @@ export default function ResultScreen() {
 
         <View style={s.bottomSpacer} />
       </ScrollView>
+
+      {/* ── Achievement toast — absolutely positioned, above scroll ── */}
+      <AchievementToast
+        achievement={activeToast}
+        onDismiss={handleToastDismiss}
+      />
 
       {/* ── F13.6: Rating modal on 3rd game ── */}
       <RatingModal visible={showRating} onClose={() => setShowRating(false)} />

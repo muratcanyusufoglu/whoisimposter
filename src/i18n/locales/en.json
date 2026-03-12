@@ -143,7 +143,65 @@
     "rate": "Rate the App",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
-    "version": "Version {{version}}"
+    "version": "Version {{version}}",
+    "stats": "Stats & Achievements"
+  },
+  "scoreboard": {
+    "title": "Session Scoreboard",
+    "roundsPlayed_one": "{{count}} round played",
+    "roundsPlayed_other": "{{count}} rounds played",
+    "pts": "pts",
+    "delta": "+{{count}}"
+  },
+  "streak": {
+    "crewStreak": "🔥 Crew on a {{count}}-win streak!",
+    "imposterStreak": "🕵️ Imposter on a {{count}}-win streak!"
+  },
+  "achievements": {
+    "unlockedTitle": "Achievement Unlocked!",
+    "first_blood": {
+      "title": "First Blood",
+      "desc": "Win your first round as crew"
+    },
+    "ghost": {
+      "title": "Ghost",
+      "desc": "Win as imposter 3 times in a row"
+    },
+    "mind_reader": {
+      "title": "Mind Reader",
+      "desc": "Guess the secret word after being caught"
+    },
+    "unanimous": {
+      "title": "Unanimous",
+      "desc": "Every crew member voted for you"
+    },
+    "social_butterfly": {
+      "title": "Social Butterfly",
+      "desc": "Play 10 games total"
+    },
+    "sharp_eye": {
+      "title": "Sharp Eye",
+      "desc": "Vote for the imposter correctly 5 times"
+    },
+    "survivor": {
+      "title": "Survivor",
+      "desc": "Win as crew 10 times"
+    },
+    "master_disguise": {
+      "title": "Master of Disguise",
+      "desc": "Win as imposter 5 times"
+    },
+    "locked": "Locked"
+  },
+  "stats": {
+    "title": "Stats & Achievements",
+    "myStats": "My Stats",
+    "achievements": "Achievements",
+    "noStats": "No games played yet",
+    "gamesPlayed": "Games",
+    "wins": "Wins",
+    "timesImposter": "Imposter",
+    "timesCaught": "Caught"
   },
   "categories": {
     "food": "Food & Drinks",

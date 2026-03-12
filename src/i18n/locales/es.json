@@ -131,7 +131,65 @@
     "rate": "Valorar la app",
     "privacy": "Política de privacidad",
     "terms": "Términos de uso",
-    "version": "Versión {{version}}"
+    "version": "Versión {{version}}",
+    "stats": "Estadísticas y Logros"
+  },
+  "scoreboard": {
+    "title": "Marcador de sesión",
+    "roundsPlayed_one": "{{count}} ronda jugada",
+    "roundsPlayed_other": "{{count}} rondas jugadas",
+    "pts": "pts",
+    "delta": "+{{count}}"
+  },
+  "streak": {
+    "crewStreak": "🔥 ¡Tripulación con racha de {{count}} victorias!",
+    "imposterStreak": "🕵️ ¡Impostor con racha de {{count}} victorias!"
+  },
+  "achievements": {
+    "unlockedTitle": "¡Logro desbloqueado!",
+    "first_blood": {
+      "title": "Primera sangre",
+      "desc": "Gana tu primera ronda como tripulación"
+    },
+    "ghost": {
+      "title": "Fantasma",
+      "desc": "Gana 3 veces seguidas como impostor"
+    },
+    "mind_reader": {
+      "title": "Lector de mentes",
+      "desc": "Adivina la palabra secreta después de ser atrapado"
+    },
+    "unanimous": {
+      "title": "Unánime",
+      "desc": "Todos los miembros de la tripulación votaron por ti"
+    },
+    "social_butterfly": {
+      "title": "Mariposa social",
+      "desc": "Juega 10 partidas en total"
+    },
+    "sharp_eye": {
+      "title": "Ojo agudo",
+      "desc": "Vota correctamente por el impostor 5 veces"
+    },
+    "survivor": {
+      "title": "Superviviente",
+      "desc": "Gana 10 veces como tripulación"
+    },
+    "master_disguise": {
+      "title": "Maestro del disfraz",
+      "desc": "Gana 5 veces como impostor"
+    },
+    "locked": "Bloqueado"
+  },
+  "stats": {
+    "title": "Estadísticas y Logros",
+    "myStats": "Mis estadísticas",
+    "achievements": "Logros",
+    "noStats": "Aún no se han jugado partidas",
+    "gamesPlayed": "Partidas",
+    "wins": "Victorias",
+    "timesImposter": "Impostor",
+    "timesCaught": "Atrapado"
   },
   "categories": {
     "food": "Comida y Bebidas",

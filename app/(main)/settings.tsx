@@ -28,6 +28,7 @@ import { useSubscriptionStore } from '@/store/subscriptionStore'
 import { useHaptics } from '@/hooks/useHaptics'
 import { PaywallModal } from '@/components/modals/PaywallModal'
 import { ThemePickerModal } from '@/components/modals/ThemePickerModal'
+import { StatsModal } from '@/components/modals/StatsModal'
 import { Divider } from '@/components/ui/Divider'
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -74,6 +75,7 @@ export default function SettingsScreen() {
   const [paywallVisible, setPaywallVisible]       = useState(false)
   const [themePickerVisible, setThemePickerVisible] = useState(false)
   const [langPickerVisible, setLangPickerVisible]   = useState(false)
+  const [statsVisible, setStatsVisible]             = useState(false)
 
   // ─── Entrance animation ───────────────────────────────────────────────────
   const op = useSharedValue(0)
@@ -138,6 +140,15 @@ export default function SettingsScreen() {
             <Ionicons name="chevron-forward" size={20} color={theme.text.onPrimary} />
           </TouchableOpacity>
         )}
+
+        {/* ── Stats & Achievements ── */}
+        <View style={[s.section, { backgroundColor: theme.bg.surface, borderColor: theme.border.subtle }]}>
+          <SettingsRow
+            label={t('settings.stats')}
+            onPress={() => { haptics.selection(); setStatsVisible(true) }}
+            theme={theme}
+          />
+        </View>
 
         {/* ── Appearance ── */}
         <View style={[s.section, { backgroundColor: theme.bg.surface, borderColor: theme.border.subtle }]}>
@@ -236,6 +247,7 @@ export default function SettingsScreen() {
       />
 
       <PaywallModal visible={paywallVisible} onClose={() => setPaywallVisible(false)} />
+      <StatsModal visible={statsVisible} onClose={() => setStatsVisible(false)} />
 
       {/* Language Picker */}
       <LanguagePickerModal

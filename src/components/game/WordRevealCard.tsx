@@ -230,7 +230,7 @@ export function WordRevealCard({
               </Text>
               <Text
                 style={[s.secretWord, { color: theme.game.cardText }]}
-                numberOfLines={2}
+                numberOfLines={1}
                 adjustsFontSizeToFit
                 minimumFontScale={0.5}
               >

@@ -23,6 +23,9 @@ export const STORAGE_KEYS = {
 
   // Last game config (for quick resume)
   LAST_GAME_CONFIG: '@last_game_config',
+
+  // Lifetime player stats + achievements
+  STATS: '@whosimposter_stats',
 } as const
 
 export type StorageKey = (typeof STORAGE_KEYS)[keyof typeof STORAGE_KEYS]

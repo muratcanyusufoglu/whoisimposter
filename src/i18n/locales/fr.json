@@ -131,7 +131,65 @@
     "rate": "Noter l'app",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
-    "version": "Version {{version}}"
+    "version": "Version {{version}}",
+    "stats": "Stats & Succès"
+  },
+  "scoreboard": {
+    "title": "Classement de session",
+    "roundsPlayed_one": "{{count}} tour joué",
+    "roundsPlayed_other": "{{count}} tours joués",
+    "pts": "pts",
+    "delta": "+{{count}}"
+  },
+  "streak": {
+    "crewStreak": "🔥 L'équipage sur une série de {{count}} victoires!",
+    "imposterStreak": "🕵️ L'imposteur sur une série de {{count}} victoires!"
+  },
+  "achievements": {
+    "unlockedTitle": "Succès débloqué !",
+    "first_blood": {
+      "title": "Premier sang",
+      "desc": "Gagnez votre premier tour en équipage"
+    },
+    "ghost": {
+      "title": "Fantôme",
+      "desc": "Gagnez 3 fois de suite en tant qu'imposteur"
+    },
+    "mind_reader": {
+      "title": "Lecteur d'esprit",
+      "desc": "Devinez le mot secret après avoir été pris"
+    },
+    "unanimous": {
+      "title": "Unanime",
+      "desc": "Tous les membres de l'équipage ont voté pour vous"
+    },
+    "social_butterfly": {
+      "title": "Papillon social",
+      "desc": "Jouez 10 parties au total"
+    },
+    "sharp_eye": {
+      "title": "Œil vif",
+      "desc": "Votez correctement pour l'imposteur 5 fois"
+    },
+    "survivor": {
+      "title": "Survivant",
+      "desc": "Gagnez 10 fois en équipage"
+    },
+    "master_disguise": {
+      "title": "Maître du déguisement",
+      "desc": "Gagnez 5 fois en tant qu'imposteur"
+    },
+    "locked": "Verrouillé"
+  },
+  "stats": {
+    "title": "Stats & Succès",
+    "myStats": "Mes stats",
+    "achievements": "Succès",
+    "noStats": "Aucune partie jouée",
+    "gamesPlayed": "Parties",
+    "wins": "Victoires",
+    "timesImposter": "Imposteur",
+    "timesCaught": "Pris"
   },
   "categories": {
     "food": "Nourriture & Boissons",

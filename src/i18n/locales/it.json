@@ -131,7 +131,65 @@
     "rate": "Valuta l'app",
     "privacy": "Privacy",
     "terms": "Termini di utilizzo",
-    "version": "Versione {{version}}"
+    "version": "Versione {{version}}",
+    "stats": "Statistiche & Obiettivi"
+  },
+  "scoreboard": {
+    "title": "Classifica sessione",
+    "roundsPlayed_one": "{{count}} turno giocato",
+    "roundsPlayed_other": "{{count}} turni giocati",
+    "pts": "pti",
+    "delta": "+{{count}}"
+  },
+  "streak": {
+    "crewStreak": "🔥 L'equipaggio in serie di {{count}} vittorie!",
+    "imposterStreak": "🕵️ L'impostore in serie di {{count}} vittorie!"
+  },
+  "achievements": {
+    "unlockedTitle": "Obiettivo sbloccato!",
+    "first_blood": {
+      "title": "Primo sangue",
+      "desc": "Vinci il tuo primo turno come equipaggio"
+    },
+    "ghost": {
+      "title": "Fantasma",
+      "desc": "Vinci come impostore 3 volte di fila"
+    },
+    "mind_reader": {
+      "title": "Lettore di menti",
+      "desc": "Indovina la parola segreta dopo essere stato catturato"
+    },
+    "unanimous": {
+      "title": "Unanime",
+      "desc": "Tutti i membri dell'equipaggio hanno votato per te"
+    },
+    "social_butterfly": {
+      "title": "Farfalla sociale",
+      "desc": "Gioca 10 partite in totale"
+    },
+    "sharp_eye": {
+      "title": "Occhio acuto",
+      "desc": "Vota correttamente per l'impostore 5 volte"
+    },
+    "survivor": {
+      "title": "Sopravvissuto",
+      "desc": "Vinci 10 volte come equipaggio"
+    },
+    "master_disguise": {
+      "title": "Maestro del travestimento",
+      "desc": "Vinci 5 volte come impostore"
+    },
+    "locked": "Bloccato"
+  },
+  "stats": {
+    "title": "Statistiche & Obiettivi",
+    "myStats": "Le mie statistiche",
+    "achievements": "Obiettivi",
+    "noStats": "Nessuna partita giocata ancora",
+    "gamesPlayed": "Partite",
+    "wins": "Vittorie",
+    "timesImposter": "Impostore",
+    "timesCaught": "Catturato"
   },
   "categories": {
     "food": "Cibo e Bevande",

@@ -143,7 +143,65 @@
     "rate": "Uygulamayı Değerlendir",
     "privacy": "Gizlilik Politikası",
     "terms": "Kullanım Koşulları",
-    "version": "Sürüm {{version}}"
+    "version": "Sürüm {{version}}",
+    "stats": "İstatistikler & Başarımlar"
+  },
+  "scoreboard": {
+    "title": "Tur Skor Tablosu",
+    "roundsPlayed_one": "{{count}} tur oynandı",
+    "roundsPlayed_other": "{{count}} tur oynandı",
+    "pts": "puan",
+    "delta": "+{{count}}"
+  },
+  "streak": {
+    "crewStreak": "🔥 Mürettebat {{count}} galibiyette!",
+    "imposterStreak": "🕵️ Sahtekar {{count}} galibiyette!"
+  },
+  "achievements": {
+    "unlockedTitle": "Başarım Açıldı!",
+    "first_blood": {
+      "title": "İlk Kan",
+      "desc": "Mürettebat olarak ilk turunuzu kazanın"
+    },
+    "ghost": {
+      "title": "Hayalet",
+      "desc": "Sahtekar olarak üst üste 3 kez kazanın"
+    },
+    "mind_reader": {
+      "title": "Zihin Okuyucu",
+      "desc": "Yakalandıktan sonra gizli kelimeyi tahmin edin"
+    },
+    "unanimous": {
+      "title": "Oybirliği",
+      "desc": "Tüm mürettebat sizi oyladı"
+    },
+    "social_butterfly": {
+      "title": "Sosyal Kelebek",
+      "desc": "Toplam 10 oyun oynayın"
+    },
+    "sharp_eye": {
+      "title": "Keskin Göz",
+      "desc": "Sahtekara 5 kez doğru oy verin"
+    },
+    "survivor": {
+      "title": "Hayatta Kalan",
+      "desc": "Mürettebat olarak 10 kez kazanın"
+    },
+    "master_disguise": {
+      "title": "Kılık Değiştirme Ustası",
+      "desc": "Sahtekar olarak 5 kez kazanın"
+    },
+    "locked": "Kilitli"
+  },
+  "stats": {
+    "title": "İstatistikler & Başarımlar",
+    "myStats": "İstatistiklerim",
+    "achievements": "Başarımlar",
+    "noStats": "Henüz oyun oynanmadı",
+    "gamesPlayed": "Oyunlar",
+    "wins": "Galibiyet",
+    "timesImposter": "Sahtekar",
+    "timesCaught": "Yakalandı"
   },
   "categories": {
     "food": "Yiyecek & İçecek",
