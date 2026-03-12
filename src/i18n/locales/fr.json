@@ -1,7 +1,12 @@
 {
-  "app": { "name": "Qui est l'imposteur ?" },
+  "app": {
+    "name": "Qui est l'imposteur ?"
+  },
   "onboarding": {
-    "language": { "title": "Choisissez votre langue", "continue": "Continuer" },
+    "language": {
+      "title": "Choisissez votre langue",
+      "continue": "Continuer"
+    },
     "welcome": {
       "headline": "Qui ment dans votre groupe ?",
       "benefit1": "12+ jeux de soirée",
@@ -18,9 +23,16 @@
       "step3_title": "Trouvez le menteur",
       "step3_desc": "Donnez des indices, votez et attrapez l'Imposteur !"
     },
-    "showcase": { "title": "12+ Jeux de soirée", "cta": "Jouons !", "more": "Et {{count}} autres jeux..." }
+    "showcase": {
+      "title": "12+ Jeux de soirée",
+      "cta": "Jouons !",
+      "more": "Et {{count}} autres jeux..."
+    }
   },
-  "home": { "title": "Jeux de soirée", "quickResume": "Reprendre la dernière partie →" },
+  "home": {
+    "title": "Jeux de soirée",
+    "quickResume": "Reprendre la dernière partie →"
+  },
   "setup": {
     "players": "Joueurs",
     "addPlayer": "Entrez un prénom",
@@ -123,6 +135,7 @@
     "themeLight": "Clair",
     "themeNeon": "Néon",
     "themeNeonLocked": "Néon (PRO)",
+    "themeCandy": "Candy",
     "language": "Langue",
     "sound": "Effets sonores",
     "haptics": "Retour haptique",
@@ -213,18 +226,54 @@
     "custom": "Ma liste"
   },
   "games": {
-    "imposter": { "name": "Qui est l'imposteur ?", "description": "Un mot secret. Un menteur. Trouvez-le." },
-    "truth_dare": { "name": "Vérité ou Défi", "description": "Répondez honnêtement ou relevez un défi." },
-    "nhie": { "name": "Je n'ai jamais", "description": "Découvrez ce qu'ont fait vos amis." },
-    "mlt": { "name": "Le plus susceptible de", "description": "Qui dans le groupe est le plus susceptible de...?" },
-    "hot_takes": { "name": "Opinions tranchées", "description": "D'accord ou pas — débattez !" },
-    "wyr": { "name": "Tu préfères", "description": "Deux choix impossibles. Lequel choisiriez-vous ?" },
-    "two_truths": { "name": "Deux vérités, un mensonge", "description": "Devinez quelle affirmation est le mensonge." },
-    "heads_up": { "name": "Heads Up !", "description": "Tenez le téléphone sur votre front. Recevez des indices !" },
-    "word_chain": { "name": "Chaîne de mots", "description": "La dernière lettre commence le mot suivant. Ne brisez pas la chaîne !" },
-    "trivia": { "name": "Pari Culture G.", "description": "Pariez sur votre réponse. Plus de confiance = plus de points." },
-    "charades": { "name": "Charades", "description": "Mimez — aucun mot autorisé !" },
-    "paranoia": { "name": "Paranoïa", "description": "Questions chuchotées. Réponses mystérieuses." }
+    "imposter": {
+      "name": "Qui est l'imposteur ?",
+      "description": "Un mot secret. Un menteur. Trouvez-le."
+    },
+    "truth_dare": {
+      "name": "Vérité ou Défi",
+      "description": "Répondez honnêtement ou relevez un défi."
+    },
+    "nhie": {
+      "name": "Je n'ai jamais",
+      "description": "Découvrez ce qu'ont fait vos amis."
+    },
+    "mlt": {
+      "name": "Le plus susceptible de",
+      "description": "Qui dans le groupe est le plus susceptible de...?"
+    },
+    "hot_takes": {
+      "name": "Opinions tranchées",
+      "description": "D'accord ou pas — débattez !"
+    },
+    "wyr": {
+      "name": "Tu préfères",
+      "description": "Deux choix impossibles. Lequel choisiriez-vous ?"
+    },
+    "two_truths": {
+      "name": "Deux vérités, un mensonge",
+      "description": "Devinez quelle affirmation est le mensonge."
+    },
+    "heads_up": {
+      "name": "Heads Up !",
+      "description": "Tenez le téléphone sur votre front. Recevez des indices !"
+    },
+    "word_chain": {
+      "name": "Chaîne de mots",
+      "description": "La dernière lettre commence le mot suivant. Ne brisez pas la chaîne !"
+    },
+    "trivia": {
+      "name": "Pari Culture G.",
+      "description": "Pariez sur votre réponse. Plus de confiance = plus de points."
+    },
+    "charades": {
+      "name": "Charades",
+      "description": "Mimez — aucun mot autorisé !"
+    },
+    "paranoia": {
+      "name": "Paranoïa",
+      "description": "Questions chuchotées. Réponses mystérieuses."
+    }
   },
   "promptGame": {
     "playerTurn": "Tour de {{name}}",

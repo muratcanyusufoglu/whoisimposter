@@ -128,7 +128,7 @@ export interface VoteResult {
 // SETTINGS
 // ─────────────────────────────────────────────────────────────────────────────
 
-export type ThemeId = 'dark' | 'light' | 'neon'
+export type ThemeId = 'dark' | 'light' | 'neon' | 'candy'
 export type RatingState = 'unseen' | 'later' | 'done'
 
 // ─────────────────────────────────────────────────────────────────────────────

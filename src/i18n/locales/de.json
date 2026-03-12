@@ -1,7 +1,12 @@
 {
-  "app": { "name": "Wer ist der Hochstapler?" },
+  "app": {
+    "name": "Wer ist der Hochstapler?"
+  },
   "onboarding": {
-    "language": { "title": "Sprache wählen", "continue": "Weiter" },
+    "language": {
+      "title": "Sprache wählen",
+      "continue": "Weiter"
+    },
     "welcome": {
       "headline": "Wer lügt in eurer Gruppe?",
       "benefit1": "12+ Partyspiele",
@@ -18,9 +23,16 @@
       "step3_title": "Den Lügner finden",
       "step3_desc": "Gebt Hinweise, stimmt ab und fangt den Hochstapler!"
     },
-    "showcase": { "title": "12+ Partyspiele", "cta": "Lasst uns spielen!", "more": "Und {{count}} weitere Spiele..." }
+    "showcase": {
+      "title": "12+ Partyspiele",
+      "cta": "Lasst uns spielen!",
+      "more": "Und {{count}} weitere Spiele..."
+    }
   },
-  "home": { "title": "Partyspiele", "quickResume": "Letztes Spiel fortsetzen →" },
+  "home": {
+    "title": "Partyspiele",
+    "quickResume": "Letztes Spiel fortsetzen →"
+  },
   "setup": {
     "players": "Spieler",
     "addPlayer": "Spielername eingeben",
@@ -123,6 +135,7 @@
     "themeLight": "Hell",
     "themeNeon": "Neon",
     "themeNeonLocked": "Neon (PRO)",
+    "themeCandy": "Candy",
     "language": "Sprache",
     "sound": "Soundeffekte",
     "haptics": "Haptisches Feedback",
@@ -213,18 +226,54 @@
     "custom": "Meine Liste"
   },
   "games": {
-    "imposter": { "name": "Wer ist der Hochstapler?", "description": "Ein geheimes Wort. Ein Lügner. Finde ihn." },
-    "truth_dare": { "name": "Wahrheit oder Pflicht", "description": "Ehrlich antworten oder eine Aufgabe erfüllen." },
-    "nhie": { "name": "Ich habe noch nie", "description": "Erfahrt, was eure Freunde schon erlebt haben." },
-    "mlt": { "name": "Am ehesten würde", "description": "Wer in der Gruppe würde am ehesten...?" },
-    "hot_takes": { "name": "Heiße Meinungen", "description": "Einverstanden oder nicht — diskutiert!" },
-    "wyr": { "name": "Was würdest du lieber", "description": "Zwei unmögliche Optionen. Was würdest du wählen?" },
-    "two_truths": { "name": "Zwei Wahrheiten, eine Lüge", "description": "Rate, welche Aussage die Lüge ist." },
-    "heads_up": { "name": "Heads Up!", "description": "Halte das Handy an die Stirn. Erhalte Hinweise!" },
-    "word_chain": { "name": "Wortkette", "description": "Der letzte Buchstabe beginnt das nächste Wort. Brich die Kette nicht!" },
-    "trivia": { "name": "Quiz-Wette", "description": "Wette auf deine Antwort. Mehr Vertrauen = mehr Punkte." },
-    "charades": { "name": "Pantomime", "description": "Spiels nach — keine Wörter erlaubt!" },
-    "paranoia": { "name": "Paranoia", "description": "Geflüsterte Fragen. Mysteriöse Antworten." }
+    "imposter": {
+      "name": "Wer ist der Hochstapler?",
+      "description": "Ein geheimes Wort. Ein Lügner. Finde ihn."
+    },
+    "truth_dare": {
+      "name": "Wahrheit oder Pflicht",
+      "description": "Ehrlich antworten oder eine Aufgabe erfüllen."
+    },
+    "nhie": {
+      "name": "Ich habe noch nie",
+      "description": "Erfahrt, was eure Freunde schon erlebt haben."
+    },
+    "mlt": {
+      "name": "Am ehesten würde",
+      "description": "Wer in der Gruppe würde am ehesten...?"
+    },
+    "hot_takes": {
+      "name": "Heiße Meinungen",
+      "description": "Einverstanden oder nicht — diskutiert!"
+    },
+    "wyr": {
+      "name": "Was würdest du lieber",
+      "description": "Zwei unmögliche Optionen. Was würdest du wählen?"
+    },
+    "two_truths": {
+      "name": "Zwei Wahrheiten, eine Lüge",
+      "description": "Rate, welche Aussage die Lüge ist."
+    },
+    "heads_up": {
+      "name": "Heads Up!",
+      "description": "Halte das Handy an die Stirn. Erhalte Hinweise!"
+    },
+    "word_chain": {
+      "name": "Wortkette",
+      "description": "Der letzte Buchstabe beginnt das nächste Wort. Brich die Kette nicht!"
+    },
+    "trivia": {
+      "name": "Quiz-Wette",
+      "description": "Wette auf deine Antwort. Mehr Vertrauen = mehr Punkte."
+    },
+    "charades": {
+      "name": "Pantomime",
+      "description": "Spiels nach — keine Wörter erlaubt!"
+    },
+    "paranoia": {
+      "name": "Paranoia",
+      "description": "Geflüsterte Fragen. Mysteriöse Antworten."
+    }
   },
   "promptGame": {
     "playerTurn": "{{name}} ist dran",

@@ -1,4 +1,5 @@
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
+import { GameImage } from '@/components/game/GameImage'
 import Animated, {
   useSharedValue,
   useAnimatedStyle,
@@ -60,10 +61,8 @@ export function GameModeCard({ mode, locked, onPress }: GameModeCardProps) {
         accessibilityLabel={t(mode.nameKey)}
         accessibilityRole="button"
       >
-        {/* Emoji */}
-        <Text style={[styles.emoji, locked && styles.lockedEmoji]}>
-          {mode.emoji}
-        </Text>
+        {/* Game image */}
+        <GameImage id={mode.id} size={44} />
 
         {/* Text */}
         <View style={styles.textWrap}>
@@ -124,14 +123,6 @@ const styles = StyleSheet.create({
   },
   lockedCard: {
     opacity: 0.6,
-  },
-  emoji: {
-    fontSize: 32,
-    width: 44,
-    textAlign: 'center',
-  },
-  lockedEmoji: {
-    opacity: 0.5,
   },
   textWrap: {
     flex: 1,

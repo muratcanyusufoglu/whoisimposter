@@ -26,9 +26,10 @@ interface ThemePickerModalProps {
 }
 
 const THEME_DEFS: { id: ThemeId; labelKey: string; isPremium: boolean }[] = [
-  { id: 'dark', labelKey: 'settings.themeDark', isPremium: false },
+  { id: 'dark',  labelKey: 'settings.themeDark',  isPremium: false },
   { id: 'light', labelKey: 'settings.themeLight', isPremium: false },
-  { id: 'neon', labelKey: 'settings.themeNeon', isPremium: false },
+  { id: 'neon',  labelKey: 'settings.themeNeon',  isPremium: false },
+  { id: 'candy', labelKey: 'settings.themeCandy', isPremium: false },
 ]
 
 export function ThemePickerModal({

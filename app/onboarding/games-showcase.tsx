@@ -26,6 +26,7 @@ import { Button } from '@/components/ui/Button'
 import { ProgressDots } from '@/components/ui/ProgressDots'
 import { GAME_MODES } from '@/data/games'
 import { GameModeDefinition } from '@/types'
+import { GameImage } from '@/components/game/GameImage'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // GAMES SHOWCASE SCREEN — Step 4 of 4
@@ -142,8 +143,8 @@ export default function GamesShowcaseScreen() {
           },
         ]}
       >
-        {/* Emoji */}
-        <Text style={styles.cardEmoji}>{mode.emoji}</Text>
+        {/* Game image */}
+        <GameImage id={mode.id} size={64} />
 
         {/* Name */}
         <Text
@@ -280,9 +281,6 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     padding: spacing.xl,
     gap: spacing.md,
-  },
-  cardEmoji: {
-    fontSize: fontSize['5xl'],
   },
   cardName: {
     fontSize: fontSize['2xl'],

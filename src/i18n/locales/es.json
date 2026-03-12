@@ -1,7 +1,12 @@
 {
-  "app": { "name": "¿Quién es el impostor?" },
+  "app": {
+    "name": "¿Quién es el impostor?"
+  },
   "onboarding": {
-    "language": { "title": "Elige tu idioma", "continue": "Continuar" },
+    "language": {
+      "title": "Elige tu idioma",
+      "continue": "Continuar"
+    },
     "welcome": {
       "headline": "¿Quién miente en tu grupo?",
       "benefit1": "12+ juegos de fiesta",
@@ -18,9 +23,16 @@
       "step3_title": "Encuentra al mentiroso",
       "step3_desc": "Da pistas, vota y atrapa al Impostor"
     },
-    "showcase": { "title": "12+ Juegos de fiesta", "cta": "¡A jugar!", "more": "Y {{count}} juegos más..." }
+    "showcase": {
+      "title": "12+ Juegos de fiesta",
+      "cta": "¡A jugar!",
+      "more": "Y {{count}} juegos más..."
+    }
   },
-  "home": { "title": "Juegos de fiesta", "quickResume": "Continuar último juego →" },
+  "home": {
+    "title": "Juegos de fiesta",
+    "quickResume": "Continuar último juego →"
+  },
   "setup": {
     "players": "Jugadores",
     "addPlayer": "Escribe un nombre",
@@ -123,6 +135,7 @@
     "themeLight": "Claro",
     "themeNeon": "Neón",
     "themeNeonLocked": "Neón (PRO)",
+    "themeCandy": "Candy",
     "language": "Idioma",
     "sound": "Efectos de sonido",
     "haptics": "Retroalimentación táctil",
@@ -213,18 +226,54 @@
     "custom": "Mi lista"
   },
   "games": {
-    "imposter": { "name": "¿Quién es el impostor?", "description": "Una palabra secreta. Un mentiroso. Encuéntralo." },
-    "truth_dare": { "name": "Verdad o Reto", "description": "Responde honestamente o enfrenta un reto." },
-    "nhie": { "name": "Yo Nunca", "description": "Descubre lo que han hecho tus amigos." },
-    "mlt": { "name": "El más probable", "description": "¿Quién en el grupo es más probable que...?" },
-    "hot_takes": { "name": "Opiniones Polémicas", "description": "De acuerdo o no — ¡debátelo!" },
-    "wyr": { "name": "Preferiría", "description": "Dos opciones imposibles. ¿Cuál elegirías?" },
-    "two_truths": { "name": "Dos verdades, una mentira", "description": "Adivina cuál afirmación es la mentira." },
-    "heads_up": { "name": "Heads Up!", "description": "¡Pon el teléfono en tu frente. Recibe pistas!" },
-    "word_chain": { "name": "Cadena de palabras", "description": "La última letra empieza la siguiente palabra. ¡No rompas la cadena!" },
-    "trivia": { "name": "Apuesta de Trivia", "description": "Apuesta en tu respuesta. Más confianza = más puntos." },
-    "charades": { "name": "Mímica", "description": "¡Actúa — no se permiten palabras!" },
-    "paranoia": { "name": "Paranoia", "description": "Preguntas susurradas. Respuestas misteriosas." }
+    "imposter": {
+      "name": "¿Quién es el impostor?",
+      "description": "Una palabra secreta. Un mentiroso. Encuéntralo."
+    },
+    "truth_dare": {
+      "name": "Verdad o Reto",
+      "description": "Responde honestamente o enfrenta un reto."
+    },
+    "nhie": {
+      "name": "Yo Nunca",
+      "description": "Descubre lo que han hecho tus amigos."
+    },
+    "mlt": {
+      "name": "El más probable",
+      "description": "¿Quién en el grupo es más probable que...?"
+    },
+    "hot_takes": {
+      "name": "Opiniones Polémicas",
+      "description": "De acuerdo o no — ¡debátelo!"
+    },
+    "wyr": {
+      "name": "Preferiría",
+      "description": "Dos opciones imposibles. ¿Cuál elegirías?"
+    },
+    "two_truths": {
+      "name": "Dos verdades, una mentira",
+      "description": "Adivina cuál afirmación es la mentira."
+    },
+    "heads_up": {
+      "name": "Heads Up!",
+      "description": "¡Pon el teléfono en tu frente. Recibe pistas!"
+    },
+    "word_chain": {
+      "name": "Cadena de palabras",
+      "description": "La última letra empieza la siguiente palabra. ¡No rompas la cadena!"
+    },
+    "trivia": {
+      "name": "Apuesta de Trivia",
+      "description": "Apuesta en tu respuesta. Más confianza = más puntos."
+    },
+    "charades": {
+      "name": "Mímica",
+      "description": "¡Actúa — no se permiten palabras!"
+    },
+    "paranoia": {
+      "name": "Paranoia",
+      "description": "Preguntas susurradas. Respuestas misteriosas."
+    }
   },
   "promptGame": {
     "playerTurn": "Turno de {{name}}",

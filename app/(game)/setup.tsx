@@ -31,6 +31,7 @@ import { playerManager } from '@/logic/playerManager'
 import { PlayerChip } from '@/components/game/PlayerChip'
 import { CategoryCard } from '@/components/game/CategoryCard'
 import { Button } from '@/components/ui/Button'
+import { GameImage } from '@/components/game/GameImage'
 import { PaywallModal } from '@/components/modals/PaywallModal'
 import { GameConfig, GameModeId, Player } from '@/types'
 
@@ -258,7 +259,7 @@ export default function SetupScreen() {
         </TouchableOpacity>
 
         <View style={styles.headerTitle}>
-          <Text style={styles.headerEmoji}>{mode.emoji}</Text>
+          <GameImage id={mode.id} size={28} />
           <Text
             style={[
               styles.headerText,
@@ -686,9 +687,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     gap: spacing.xs,
-  },
-  headerEmoji: {
-    fontSize: 22,
   },
   headerText: {
     fontSize: fontSize.xl,

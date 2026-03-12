@@ -1,7 +1,12 @@
 {
-  "app": { "name": "Wie is de Bedrieger?" },
+  "app": {
+    "name": "Wie is de Bedrieger?"
+  },
   "onboarding": {
-    "language": { "title": "Kies je taal", "continue": "Doorgaan" },
+    "language": {
+      "title": "Kies je taal",
+      "continue": "Doorgaan"
+    },
     "welcome": {
       "headline": "Wie liegt er in jouw groep?",
       "benefit1": "12+ feestspellen",
@@ -18,9 +23,16 @@
       "step3_title": "Vind de leugenaar",
       "step3_desc": "Geef aanwijzingen, stem en vang de Bedrieger!"
     },
-    "showcase": { "title": "12+ Feestspellen", "cta": "Laten we spelen!", "more": "En nog {{count}} spellen..." }
+    "showcase": {
+      "title": "12+ Feestspellen",
+      "cta": "Laten we spelen!",
+      "more": "En nog {{count}} spellen..."
+    }
   },
-  "home": { "title": "Feestspellen", "quickResume": "Laatste spel hervatten →" },
+  "home": {
+    "title": "Feestspellen",
+    "quickResume": "Laatste spel hervatten →"
+  },
   "setup": {
     "players": "Spelers",
     "addPlayer": "Voer een spelernaam in",
@@ -123,6 +135,7 @@
     "themeLight": "Licht",
     "themeNeon": "Neon",
     "themeNeonLocked": "Neon (PRO)",
+    "themeCandy": "Candy",
     "language": "Taal",
     "sound": "Geluidseffecten",
     "haptics": "Haptische feedback",
@@ -213,18 +226,54 @@
     "custom": "Mijn lijst"
   },
   "games": {
-    "imposter": { "name": "Wie is de Bedrieger?", "description": "Een geheim woord. Één leugenaar. Vind hem." },
-    "truth_dare": { "name": "Waarheid of Durven", "description": "Eerlijk antwoorden of een opdracht uitvoeren." },
-    "nhie": { "name": "Ik heb nooit", "description": "Ontdek wat je vrienden al gedaan hebben." },
-    "mlt": { "name": "Meest waarschijnlijk", "description": "Wie in de groep is het meest waarschijnlijk...?" },
-    "hot_takes": { "name": "Controversiële meningen", "description": "Eens of oneens — debatteer erover!" },
-    "wyr": { "name": "Zou je liever", "description": "Twee onmogelijke keuzes. Welke zou je kiezen?" },
-    "two_truths": { "name": "Twee waarheden, één leugen", "description": "Raad welke bewering de leugen is." },
-    "heads_up": { "name": "Heads Up!", "description": "Houd de telefoon tegen je voorhoofd. Krijg aanwijzingen!" },
-    "word_chain": { "name": "Woordketting", "description": "De laatste letter begint het volgende woord. Verbreek de ketting niet!" },
-    "trivia": { "name": "Trivia Weddenschap", "description": "Wed op je antwoord. Meer vertrouwen = meer punten." },
-    "charades": { "name": "Uitbeelden", "description": "Beeld het uit — geen woorden toegestaan!" },
-    "paranoia": { "name": "Paranoia", "description": "Gefluisterde vragen. Mysterieuze antwoorden." }
+    "imposter": {
+      "name": "Wie is de Bedrieger?",
+      "description": "Een geheim woord. Één leugenaar. Vind hem."
+    },
+    "truth_dare": {
+      "name": "Waarheid of Durven",
+      "description": "Eerlijk antwoorden of een opdracht uitvoeren."
+    },
+    "nhie": {
+      "name": "Ik heb nooit",
+      "description": "Ontdek wat je vrienden al gedaan hebben."
+    },
+    "mlt": {
+      "name": "Meest waarschijnlijk",
+      "description": "Wie in de groep is het meest waarschijnlijk...?"
+    },
+    "hot_takes": {
+      "name": "Controversiële meningen",
+      "description": "Eens of oneens — debatteer erover!"
+    },
+    "wyr": {
+      "name": "Zou je liever",
+      "description": "Twee onmogelijke keuzes. Welke zou je kiezen?"
+    },
+    "two_truths": {
+      "name": "Twee waarheden, één leugen",
+      "description": "Raad welke bewering de leugen is."
+    },
+    "heads_up": {
+      "name": "Heads Up!",
+      "description": "Houd de telefoon tegen je voorhoofd. Krijg aanwijzingen!"
+    },
+    "word_chain": {
+      "name": "Woordketting",
+      "description": "De laatste letter begint het volgende woord. Verbreek de ketting niet!"
+    },
+    "trivia": {
+      "name": "Trivia Weddenschap",
+      "description": "Wed op je antwoord. Meer vertrouwen = meer punten."
+    },
+    "charades": {
+      "name": "Uitbeelden",
+      "description": "Beeld het uit — geen woorden toegestaan!"
+    },
+    "paranoia": {
+      "name": "Paranoia",
+      "description": "Gefluisterde vragen. Mysterieuze antwoorden."
+    }
   },
   "promptGame": {
     "playerTurn": "Beurt van {{name}}",

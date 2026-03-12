@@ -3,7 +3,7 @@
 // Every color in the app MUST come from AppTheme. No exceptions.
 // ─────────────────────────────────────────────────────────────────────────────
 
-export type ThemeId = 'dark' | 'light' | 'neon'
+export type ThemeId = 'dark' | 'light' | 'neon' | 'candy'
 
 export interface AppTheme {
   id: ThemeId

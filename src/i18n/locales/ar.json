@@ -1,7 +1,12 @@
 {
-  "app": { "name": "من هو المتسلل؟" },
+  "app": {
+    "name": "من هو المتسلل؟"
+  },
   "onboarding": {
-    "language": { "title": "اختر لغتك", "continue": "متابعة" },
+    "language": {
+      "title": "اختر لغتك",
+      "continue": "متابعة"
+    },
     "welcome": {
       "headline": "من يكذب في مجموعتك؟",
       "benefit1": "12+ لعبة حفلات",
@@ -18,9 +23,16 @@
       "step3_title": "اعثر على الكاذب",
       "step3_desc": "أعطِ تلميحات، صوّت، والتقط المتسلل!"
     },
-    "showcase": { "title": "12+ لعبة حفلات", "cta": "لنلعب!", "more": "و{{count}} ألعاب أخرى..." }
+    "showcase": {
+      "title": "12+ لعبة حفلات",
+      "cta": "لنلعب!",
+      "more": "و{{count}} ألعاب أخرى..."
+    }
   },
-  "home": { "title": "ألعاب الحفلات", "quickResume": "متابعة آخر لعبة →" },
+  "home": {
+    "title": "ألعاب الحفلات",
+    "quickResume": "متابعة آخر لعبة →"
+  },
   "setup": {
     "players": "اللاعبون",
     "addPlayer": "أدخل اسم اللاعب",
@@ -123,6 +135,7 @@
     "themeLight": "فاتح",
     "themeNeon": "نيون",
     "themeNeonLocked": "نيون (PRO)",
+    "themeCandy": "كاندي",
     "language": "اللغة",
     "sound": "المؤثرات الصوتية",
     "haptics": "الاهتزاز",
@@ -213,18 +226,54 @@
     "custom": "قائمتي"
   },
   "games": {
-    "imposter": { "name": "من هو المتسلل؟", "description": "كلمة سرية. كاذب واحد. اعثر عليه." },
-    "truth_dare": { "name": "صدق أو اجرؤ", "description": "أجب بصدق أو واجه تحدياً." },
-    "nhie": { "name": "لم أفعل قط", "description": "اكتشف ما فعله أصدقاؤك." },
-    "mlt": { "name": "الأكثر احتمالاً", "description": "من في المجموعة الأكثر احتمالاً...؟" },
-    "hot_takes": { "name": "آراء جريئة", "description": "موافق أم لا — تجادلوا!" },
-    "wyr": { "name": "ماذا تفضل", "description": "خياران مستحيلان. أيهما تختار؟" },
-    "two_truths": { "name": "حقيقتان وكذبة", "description": "خمّن أي الجمل كذبة." },
-    "heads_up": { "name": "Heads Up!", "description": "ضع الهاتف على جبهتك. احصل على تلميحات!" },
-    "word_chain": { "name": "سلسلة الكلمات", "description": "آخر حرف يبدأ الكلمة التالية. لا تكسر السلسلة!" },
-    "trivia": { "name": "رهان المعلومات", "description": "راهن على إجابتك. ثقة أكبر = نقاط أكثر." },
-    "charades": { "name": "تمثيل الكلمات", "description": "مثّل — لا كلام مسموح!" },
-    "paranoia": { "name": "جنون الارتياب", "description": "أسئلة مهموسة. إجابات غامضة." }
+    "imposter": {
+      "name": "من هو المتسلل؟",
+      "description": "كلمة سرية. كاذب واحد. اعثر عليه."
+    },
+    "truth_dare": {
+      "name": "صدق أو اجرؤ",
+      "description": "أجب بصدق أو واجه تحدياً."
+    },
+    "nhie": {
+      "name": "لم أفعل قط",
+      "description": "اكتشف ما فعله أصدقاؤك."
+    },
+    "mlt": {
+      "name": "الأكثر احتمالاً",
+      "description": "من في المجموعة الأكثر احتمالاً...؟"
+    },
+    "hot_takes": {
+      "name": "آراء جريئة",
+      "description": "موافق أم لا — تجادلوا!"
+    },
+    "wyr": {
+      "name": "ماذا تفضل",
+      "description": "خياران مستحيلان. أيهما تختار؟"
+    },
+    "two_truths": {
+      "name": "حقيقتان وكذبة",
+      "description": "خمّن أي الجمل كذبة."
+    },
+    "heads_up": {
+      "name": "Heads Up!",
+      "description": "ضع الهاتف على جبهتك. احصل على تلميحات!"
+    },
+    "word_chain": {
+      "name": "سلسلة الكلمات",
+      "description": "آخر حرف يبدأ الكلمة التالية. لا تكسر السلسلة!"
+    },
+    "trivia": {
+      "name": "رهان المعلومات",
+      "description": "راهن على إجابتك. ثقة أكبر = نقاط أكثر."
+    },
+    "charades": {
+      "name": "تمثيل الكلمات",
+      "description": "مثّل — لا كلام مسموح!"
+    },
+    "paranoia": {
+      "name": "جنون الارتياب",
+      "description": "أسئلة مهموسة. إجابات غامضة."
+    }
   },
   "promptGame": {
     "playerTurn": "دور {{name}}",
