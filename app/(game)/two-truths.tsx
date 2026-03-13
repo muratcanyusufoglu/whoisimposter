@@ -207,7 +207,7 @@ export default function TwoTruthsScreen() {
                   value={statements[idx]}
                   onChangeText={(text) => handleStatementChange(idx, text)}
                   placeholder={t(`twoTruths.statement${(idx + 1) as 1 | 2 | 3}`)}
-                  placeholderTextColor={theme.text.muted}
+                  placeholderTextColor={theme.text.secondary}
                   multiline
                   style={[
                     styles.statementInput,
@@ -233,7 +233,7 @@ export default function TwoTruthsScreen() {
                       backgroundColor:
                         lieIndex === idx ? theme.status.error : theme.bg.elevated,
                       borderColor:
-                        lieIndex === idx ? theme.status.error : theme.border.default,
+                        lieIndex === idx ? theme.status.error : theme.border.strong,
                     },
                   ]}
                   accessibilityRole="radio"
@@ -243,7 +243,7 @@ export default function TwoTruthsScreen() {
                     style={[
                       styles.lieBtnText,
                       {
-                        color: lieIndex === idx ? '#FFFFFF' : theme.text.muted,
+                        color: lieIndex === idx ? '#FFFFFF' : theme.text.secondary,
                         fontFamily: lieIndex === idx ? fontFamily.bodyBold : fontFamily.body,
                       },
                     ]}

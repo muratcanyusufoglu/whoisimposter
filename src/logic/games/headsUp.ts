@@ -1,4 +1,5 @@
 import { shuffle } from '@/utils/shuffle'
+import { wordSelector } from '@/logic/wordSelector'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // HEADS UP — LOGIC
@@ -31,39 +32,29 @@ export function interpretTilt(z: number): 'correct' | 'skip' | null {
   return null
 }
 
-// Module-level cache
-let _wordPool: string[] | null = null
-
-function loadWordPool(locale: string): string[] {
-  if (!_wordPool) {
-    // Heads Up uses the same word data as imposter categories
-    // We merge several categories into one big pool for variety
-    try {
-      const en = require('@/data/words/en/animals.json') as { words: string[] }
-      const food = require('@/data/words/en/food.json') as { words: string[] }
-      const famous = require('@/data/words/en/famous.json') as { words: string[] }
-      _wordPool = shuffle([...en.words, ...food.words, ...famous.words])
-    } catch {
-      _wordPool = [
-        'Elephant', 'Pizza', 'Michael Jackson', 'Batman', 'Guitar',
-        'Spaghetti', 'Volcano', 'Kangaroo', 'Shakespeare', 'Submarine',
-        'Saxophone', 'Pyramid', 'Astronaut', 'Tornado', 'Crocodile',
-        'Helicopter', 'Waterfall', 'Flamingo', 'Accordion', 'Lighthouse',
-      ]
-    }
-  }
-  return _wordPool
-}
+// Default category set for heads-up when user hasn't selected any specific ones.
+// These map exactly to the category IDs available in wordSelector / ALL_LISTS.
+const DEFAULT_HEADSUP_CATEGORIES = [
+  'animals', 'food', 'sports', 'jobs', 'nature', 'objects',
+]
 
 export const headsUpLogic = {
   /**
    * Get a shuffled pool of words for a round, excluding already-used ones.
+   * Uses wordSelector so the locale and category selection are both respected.
+   *
+   * @param locale          Current app language (e.g. 'tr', 'en')
+   * @param usedWords       Words already played this session
+   * @param selectedCategories  Categories chosen on the setup screen (empty = all defaults)
    */
-  buildRoundPool(locale: string, usedWords: string[]): string[] {
-    const all = loadWordPool(locale)
+  buildRoundPool(locale: string, usedWords: string[], selectedCategories: string[] = []): string[] {
+    const categories = selectedCategories.length > 0
+      ? selectedCategories
+      : DEFAULT_HEADSUP_CATEGORIES
+    const all = shuffle(wordSelector.buildPool(categories, locale))
     const fresh = all.filter((w) => !usedWords.includes(w))
     // Auto-reset when pool exhausted
-    return shuffle(fresh.length >= 10 ? fresh : all)
+    return fresh.length >= 10 ? fresh : all
   },
 
   /**

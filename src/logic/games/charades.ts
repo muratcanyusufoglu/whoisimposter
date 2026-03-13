@@ -1,4 +1,5 @@
 import { shuffle } from '@/utils/shuffle'
+import { wordSelector } from '@/logic/wordSelector'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // CHARADES — LOGIC
@@ -16,37 +17,28 @@ export interface CharadesRoundResult {
   words: Array<{ word: string; result: 'correct' | 'skip' }>
 }
 
-// Module-level cache (reuse same pool approach as headsUp)
-let _wordPool: string[] | null = null
-
-function loadWordPool(locale: string): string[] {
-  if (!_wordPool) {
-    try {
-      const movies = require('@/data/words/en/movies.json') as { words: string[] }
-      const objects = require('@/data/words/en/objects.json') as { words: string[] }
-      const jobs = require('@/data/words/en/jobs.json') as { words: string[] }
-      _wordPool = shuffle([...movies.words, ...objects.words, ...jobs.words])
-    } catch {
-      _wordPool = [
-        'Dancing', 'Swimming', 'Cooking', 'Flying', 'Surfing',
-        'Lawyer', 'Dentist', 'Fireman', 'Astronaut', 'Chef',
-        'Piano', 'Telephone', 'Umbrella', 'Bicycle', 'Mirror',
-        'Sleeping', 'Singing', 'Running', 'Reading', 'Painting',
-        'Elephant', 'Kangaroo', 'Penguin', 'Giraffe', 'Dolphin',
-      ]
-    }
-  }
-  return _wordPool
-}
+// Default category set for charades when user hasn't selected any specific ones.
+// These map exactly to the category IDs available in wordSelector / ALL_LISTS.
+const DEFAULT_CHARADES_CATEGORIES = [
+  'movies-tv', 'jobs', 'objects', 'hobbies', 'animals', 'food',
+]
 
 export const charadesLogic = {
   /**
    * Build a shuffled word pool for one round, excluding used words.
+   * Uses wordSelector so the locale and category selection are both respected.
+   *
+   * @param locale          Current app language (e.g. 'tr', 'en')
+   * @param usedWords       Words already played this session
+   * @param selectedCategories  Categories chosen on the setup screen (empty = all defaults)
    */
-  buildRoundPool(locale: string, usedWords: string[]): string[] {
-    const all = loadWordPool(locale)
+  buildRoundPool(locale: string, usedWords: string[], selectedCategories: string[] = []): string[] {
+    const categories = selectedCategories.length > 0
+      ? selectedCategories
+      : DEFAULT_CHARADES_CATEGORIES
+    const all = shuffle(wordSelector.buildPool(categories, locale))
     const fresh = all.filter((w) => !usedWords.includes(w))
-    return shuffle(fresh.length >= 5 ? fresh : all)
+    return fresh.length >= 5 ? fresh : all
   },
 
   /**

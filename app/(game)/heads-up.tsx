@@ -42,6 +42,7 @@ export default function HeadsUpScreen() {
 
   const mode = useGameStore((s) => s.mode)
   const players = useGameStore((s) => s.players)
+  const selectedCategories = useGameStore((s) => s.selectedCategories)
   const locale = useSettingsStore((s) => s.language)
 
   const isCharades = mode === 'charades'
@@ -103,8 +104,8 @@ export default function HeadsUpScreen() {
   // ── Handlers ─────────────────────────────────────────────────────────────
   const buildPool = useCallback(() => {
     const logic = isCharades ? charadesLogic : headsUpLogic
-    return logic.buildRoundPool(locale, usedWords)
-  }, [isCharades, locale, usedWords])
+    return logic.buildRoundPool(locale, usedWords, selectedCategories)
+  }, [isCharades, locale, usedWords, selectedCategories])
 
   const handleStartRound = useCallback(() => {
     haptics.medium()

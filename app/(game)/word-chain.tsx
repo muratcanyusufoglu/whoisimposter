@@ -216,7 +216,7 @@ export default function WordChainScreen() {
         <Text style={[styles.headerTitle, { color: theme.text.primary, fontFamily: fontFamily.displayBold }]}>
           {t('wordChain.title')}
         </Text>
-        <Text style={[styles.playersLeft, { color: theme.text.muted, fontFamily: fontFamily.body }]}>
+        <Text style={[styles.playersLeft, { color: theme.text.secondary, fontFamily: fontFamily.body }]}>
           {t('wordChain.playersLeft', { count: activePlayers.length })}
         </Text>
       </View>
@@ -279,7 +279,7 @@ export default function WordChainScreen() {
             {/* Last word display */}
             {chainState.lastWord ? (
               <Animated.View style={lastWordStyle}>
-                <Text style={[styles.lastWordLabel, { color: theme.text.muted, fontFamily: fontFamily.body }]}>
+                <Text style={[styles.lastWordLabel, { color: theme.text.secondary, fontFamily: fontFamily.body }]}>
                   {t('wordChain.continueWith', { letter: chainState.lastLetter.toUpperCase() })}
                 </Text>
                 <Text style={[styles.lastWord, { color: theme.text.primary, fontFamily: fontFamily.displayBold }]}>
@@ -287,13 +287,13 @@ export default function WordChainScreen() {
                 </Text>
               </Animated.View>
             ) : (
-              <Text style={[styles.lastWordLabel, { color: theme.text.muted, fontFamily: fontFamily.body }]}>
+              <Text style={[styles.lastWordLabel, { color: theme.text.secondary, fontFamily: fontFamily.body }]}>
                 {t('wordChain.startWith')}
               </Text>
             )}
 
             {/* Current player */}
-            <View style={[styles.playerBadge, { backgroundColor: theme.bg.surface, borderColor: theme.border.subtle }]}>
+            <View style={[styles.playerBadge, { backgroundColor: theme.bg.surface, borderColor: theme.border.default }]}>
               <View style={[styles.dot, { backgroundColor: currentPlayer?.color ?? theme.accent.primary }]} />
               <Text style={[styles.playerName, { color: theme.text.primary, fontFamily: fontFamily.displayBold }]}>
                 {currentPlayer?.name ?? '?'}
@@ -310,7 +310,7 @@ export default function WordChainScreen() {
                   if (validationError) setValidationError(null)
                 }}
                 placeholder={t('wordChain.placeholder')}
-                placeholderTextColor={theme.text.muted}
+                placeholderTextColor={theme.text.secondary}
                 autoCapitalize="none"
                 returnKeyType="done"
                 onSubmitEditing={handleSubmit}

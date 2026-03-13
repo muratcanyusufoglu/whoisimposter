@@ -1,22 +1,20 @@
-import { useEffect, useState } from 'react'
 import { Redirect } from 'expo-router'
 import { View, ActivityIndicator } from 'react-native'
-import { getItem, STORAGE_KEYS } from '@/utils/storage'
 import { useTheme } from '@/theme'
+import { useSettingsStore } from '@/store/settingsStore'
 
-type Destination = '/onboarding/language' | '/(main)/home'
+// ─────────────────────────────────────────────────────────────────────────────
+// ROOT REDIRECT
+// Waits for Zustand to rehydrate from AsyncStorage, then sends the user
+// to onboarding (first launch) or home (returning user).
+// ─────────────────────────────────────────────────────────────────────────────
 
 export default function Index() {
   const { theme } = useTheme()
-  const [destination, setDestination] = useState<Destination | null>(null)
+  const hasHydrated = useSettingsStore((s) => s._hasHydrated)
+  const onboardingCompleted = useSettingsStore((s) => s.onboardingCompleted)
 
-  useEffect(() => {
-    getItem<boolean>(STORAGE_KEYS.ONBOARDING_COMPLETED).then((completed) => {
-      setDestination(completed ? '/(main)/home' : '/onboarding/language')
-    })
-  }, [])
-
-  if (destination === null) {
+  if (!hasHydrated) {
     return (
       <View style={{ flex: 1, backgroundColor: theme.bg.primary, alignItems: 'center', justifyContent: 'center' }}>
         <ActivityIndicator color={theme.accent.primary} />
@@ -24,5 +22,5 @@ export default function Index() {
     )
   }
 
-  return <Redirect href={destination} />
+  return <Redirect href={onboardingCompleted ? '/(main)/home' : '/onboarding/language'} />
 }
