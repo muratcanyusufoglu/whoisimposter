@@ -228,51 +228,159 @@
   "games": {
     "imposter": {
       "name": "Wie is de Bedrieger?",
-      "description": "Een geheim woord. Één leugenaar. Vind hem."
+      "description": "Een geheim woord. Één leugenaar. Vind hem.",
+      "howToPlay": {
+        "intro": "Eén speler is stiekem de Bedrieger – hij kent het geheime woord niet. Kan het team hem ontmaskeren?",
+        "step1_title": "Iedereen ziet het woord",
+        "step1_desc": "Geef de telefoon door. Elke speler tikt op zijn naam om het woord stiekem te zien – of te ontdekken dat hij de Bedrieger is.",
+        "step2_title": "Geef hints, vind de leugenaar",
+        "step2_desc": "Geef om beurten één hint over het geheime woord. De Bedrieger moet bluffen. Let op vage of foute hints!",
+        "step3_title": "Stem en onthul",
+        "step3_desc": "Na alle hints, stem wie de Bedrieger is. Vang hem – maar pas op, hij kan het woord nog raden!"
+      }
     },
     "truth_dare": {
       "name": "Waarheid of Durven",
-      "description": "Eerlijk antwoorden of een opdracht uitvoeren."
+      "description": "Eerlijk antwoorden of een opdracht uitvoeren.",
+      "howToPlay": {
+        "intro": "Beantwoord een eerlijke vraag of vervul een gedurfde uitdaging. Waarheid of durf – jij beslist!",
+        "step1_title": "Kies je lot",
+        "step1_desc": "Kies op jouw beurt Waarheid (eerlijk antwoorden) of Durf (een taak voltooien).",
+        "step2_title": "Voltoo de taak",
+        "step2_desc": "De app toont een willekeurige vraag of uitdaging. Opgeven is niet toegestaan!",
+        "step3_title": "Geef door",
+        "step3_desc": "Geef de telefoon door aan de volgende speler als je klaar bent. Speel zolang je wilt!"
+      }
     },
     "nhie": {
       "name": "Ik heb nooit",
-      "description": "Ontdek wat je vrienden al gedaan hebben."
+      "description": "Ontdek wat je vrienden al gedaan hebben.",
+      "howToPlay": {
+        "intro": "Ontdek wat je vrienden echt hebben gedaan. Hoe gênanter, hoe leuker!",
+        "step1_title": "Begin met 5 vingers",
+        "step1_desc": "Iedereen steekt 5 vingers op. Die worden één voor één neergelaten.",
+        "step2_title": "Lees de uitspraak",
+        "step2_desc": "De app toont 'Ik heb nooit...' Als je het wél gedaan hebt, laat een vinger zakken en beken!",
+        "step3_title": "De laatste wint",
+        "step3_desc": "Degene die als eerste alle vingers laat zakken, verliest de ronde – en moet zijn wildste verhaal vertellen!"
+      }
     },
     "mlt": {
       "name": "Meest waarschijnlijk",
-      "description": "Wie in de groep is het meest waarschijnlijk...?"
+      "description": "Wie in de groep is het meest waarschijnlijk...?",
+      "howToPlay": {
+        "intro": "Ontdek wat je vrienden echt over je denken. Bereid je voor!",
+        "step1_title": "Lees de vraag",
+        "step1_desc": "De app toont 'Wie heeft de meeste kans om...' zoals 'Wie heeft de meeste kans om beroemd te worden?'",
+        "step2_title": "Wijs samen",
+        "step2_desc": "Op de tel van 3 wijst iedereen op de meest geschikte persoon. Geen aarzeling!",
+        "step3_title": "Tel en ga door",
+        "step3_desc": "De meest aangewezen persoon wint (of verliest?) de ronde. Ze mogen reageren voor de volgende vraag!"
+      }
     },
     "hot_takes": {
       "name": "Controversiële meningen",
-      "description": "Eens of oneens — debatteer erover!"
+      "description": "Eens of oneens — debatteer erover!",
+      "howToPlay": {
+        "intro": "Deel je meest gedurfde meningen en start een debat. Neutraliteit is verboden!",
+        "step1_title": "Lees de mening",
+        "step1_desc": "De app onthult een controversiële uitspraak of mening voor de groep.",
+        "step2_title": "Kies een kant",
+        "step2_desc": "Elke speler verklaart of hij het sterk eens of oneens is – en moet zijn standpunt verdedigen!",
+        "step3_title": "Debatteer en stem",
+        "step3_desc": "Na het debat, stem voor het beste argument. De meest overtuigende speler wint de ronde!"
+      }
     },
     "wyr": {
       "name": "Zou je liever",
-      "description": "Twee onmogelijke keuzes. Welke zou je kiezen?"
+      "description": "Twee onmogelijke keuzes. Welke zou je kiezen?",
+      "howToPlay": {
+        "intro": "Twee even verschrikkelijke (of geweldige) opties. Er is geen juist antwoord – alleen het jouwe.",
+        "step1_title": "Het dilemma verschijnt",
+        "step1_desc": "De app toont een 'Zou je liever...' vraag met twee opties. Denk goed na!",
+        "step2_title": "Stem in het geheim",
+        "step2_desc": "Elke speler kiest zijn optie zonder die te onthullen. Houd je keuze geheim!",
+        "step3_title": "Onthul en debatteer",
+        "step3_desc": "Iedereen onthult tegelijkertijd. Verdedig je keuzes en debatteer!"
+      }
     },
     "two_truths": {
       "name": "Twee waarheden, één leugen",
-      "description": "Raad welke bewering de leugen is."
+      "description": "Raad welke bewering de leugen is.",
+      "howToPlay": {
+        "intro": "Deel twee waarheden en een overtuigende leugen over jezelf. Kunnen je vrienden het verschil zien?",
+        "step1_title": "Schrijf de uitspraken",
+        "step1_desc": "Voer twee waarheden over jezelf en een geloofwaardige leugen in de app in.",
+        "step2_title": "Lees hardop",
+        "step2_desc": "Lees de drie uitspraken aan de groep voor in welke volgorde je wilt. Houd een pokerface!",
+        "step3_title": "Iedereen raadt",
+        "step3_desc": "Spelers stemmen welke uitspraak de leugen is. Verdien punten voor elke persoon die je bedriegt!"
+      }
     },
     "heads_up": {
       "name": "Heads Up!",
-      "description": "Houd de telefoon tegen je voorhoofd. Krijg aanwijzingen!"
+      "description": "Houd de telefoon tegen je voorhoofd. Krijg aanwijzingen!",
+      "howToPlay": {
+        "intro": "Houd de telefoon tegen je voorhoofd en raad het woord op het scherm – alleen je vrienden kunnen het zien!",
+        "step1_title": "Houd het omhoog",
+        "step1_desc": "De actieve speler houdt de telefoon met het scherm naar buiten tegen zijn voorhoofd zonder ernaar te kijken.",
+        "step2_title": "Geef hints",
+        "step2_desc": "Alle anderen roepen hints om het woord te helpen raden. Niet spellen of het woord zelf zeggen!",
+        "step3_title": "Kantel voor punten",
+        "step3_desc": "Kantel naar beneden om over te slaan, naar boven om een correct antwoord te bevestigen. Scoor zoveel mogelijk punten!"
+      }
     },
     "word_chain": {
       "name": "Woordketting",
-      "description": "De laatste letter begint het volgende woord. Verbreek de ketting niet!"
+      "description": "De laatste letter begint het volgende woord. Verbreek de ketting niet!",
+      "howToPlay": {
+        "intro": "Elk woord moet beginnen met de laatste letter van het vorige. Aarzel en je bent uitgeschakeld!",
+        "step1_title": "Start de keten",
+        "step1_desc": "De eerste speler zegt een willekeurig woord. De volgende moet een woord zeggen dat begint met de laatste letter ervan.",
+        "step2_title": "Houd het tempo",
+        "step2_desc": "Je hebt een tijdslimiet om te antwoorden. Geen herhaling van woorden die al gebruikt zijn in deze ronde.",
+        "step3_title": "De laatste wint",
+        "step3_desc": "Te lang aarzelen, een ongeldig woord zeggen of herhalen – en je bent uitgeschakeld! De laatste speler wint."
+      }
     },
     "trivia": {
       "name": "Trivia Weddenschap",
-      "description": "Wed op je antwoord. Meer vertrouwen = meer punten."
+      "description": "Wed op je antwoord. Meer vertrouwen = meer punten.",
+      "howToPlay": {
+        "intro": "Beantwoord triviavragen en wed je punten op basis van je vertrouwen. Hoog risico, hoge beloning!",
+        "step1_title": "Lees de vraag",
+        "step1_desc": "De app toont een triviavraag voor de huidige speler. Denk na voor je antwoordt!",
+        "step2_title": "Doe je weddenschap",
+        "step2_desc": "Wed voor het antwoord je punten. Lage inzet = veilig spelen. Hoge inzet = groot risico!",
+        "step3_title": "Onthul het antwoord",
+        "step3_desc": "Correct antwoord wint je inzet. Fout antwoord verliest het. De speler met de meeste punten aan het einde wint!"
+      }
     },
     "charades": {
       "name": "Uitbeelden",
-      "description": "Beeld het uit — geen woorden toegestaan!"
+      "description": "Beeld het uit — geen woorden toegestaan!",
+      "howToPlay": {
+        "intro": "Vertegenwoordig het geheime woord alleen met gebaren en uitdrukkingen. Geen woorden, geen geluiden – pure mime!",
+        "step1_title": "Zie je woord",
+        "step1_desc": "De spelende speler ziet het woord stiekem op de telefoon. Laat het aan niemand zien!",
+        "step2_title": "Speel het uit",
+        "step2_desc": "Gebruik alleen gebaren, uitdrukkingen en lichaamstaal. Geen woorden, geen liplezen, geen geluiden!",
+        "step3_title": "Raad hardop",
+        "step3_desc": "Andere spelers raden hardop. Verdien een punt als ze het goed hebben, dan is de volgende speler aan de beurt!"
+      }
     },
     "paranoia": {
       "name": "Paranoia",
-      "description": "Gefluisterde vragen. Mysterieuze antwoorden."
+      "description": "Gefluisterde vragen. Mysterieuze antwoorden.",
+      "howToPlay": {
+        "intro": "Iemand fluistert een vraag. Iemand wijst in het geheim. Zal het antwoord ooit worden onthuld?",
+        "step1_title": "Fluister een vraag",
+        "step1_desc": "Eén speler fluistert de speler rechts van hem een 'Wie in deze groep...' vraag.",
+        "step2_title": "Wijs in het geheim",
+        "step2_desc": "Die speler wijst stilletjes op degene die hij denkt dat het antwoord is – zonder uitleg!",
+        "step3_title": "Gooi de munt",
+        "step3_desc": "Gooi een munt – kop onthult de vraag aan iedereen, munt houdt het voor altijd geheim. De paranoia groeit!"
+      }
     }
   },
   "promptGame": {
@@ -359,5 +467,9 @@
     "minutes": "{{range}} min",
     "home": "Home",
     "settings": "Instellingen"
+  },
+  "howToPlay": {
+    "title": "Hoe te spelen",
+    "close": "Begrepen!"
   }
 }

@@ -228,51 +228,159 @@
   "games": {
     "imposter": {
       "name": "Qui est l'imposteur ?",
-      "description": "Un mot secret. Un menteur. Trouvez-le."
+      "description": "Un mot secret. Un menteur. Trouvez-le.",
+      "howToPlay": {
+        "intro": "Un joueur est secrètement l'Imposteur – il ne connaît pas le mot secret. L'équipe peut-elle le démasquer ?",
+        "step1_title": "Tout le monde voit le mot",
+        "step1_desc": "Passez le téléphone. Chaque joueur appuie sur son nom pour voir le mot secrètement – ou découvrir qu'il est l'Imposteur.",
+        "step2_title": "Donnez des indices, trouvez le menteur",
+        "step2_desc": "Donnez chacun un indice sur le mot secret. L'Imposteur doit bluffer. Repérez les indices vagues ou incorrects !",
+        "step3_title": "Votez et révélez",
+        "step3_desc": "Après tous les indices, votez pour qui est l'Imposteur. Attrapez-le – mais attention, il peut encore deviner le mot !"
+      }
     },
     "truth_dare": {
       "name": "Vérité ou Défi",
-      "description": "Répondez honnêtement ou relevez un défi."
+      "description": "Répondez honnêtement ou relevez un défi.",
+      "howToPlay": {
+        "intro": "Répondez honnêtement à une question ou accomplissez un défi. Vérité ou défi – à vous de choisir !",
+        "step1_title": "Choisissez votre sort",
+        "step1_desc": "À votre tour, choisissez Vérité (répondre honnêtement) ou Défi (accomplir une mission).",
+        "step2_title": "Accomplir la tâche",
+        "step2_desc": "L'app affiche une question ou un défi aléatoire. Pas de fuite possible !",
+        "step3_title": "Passer le tour",
+        "step3_desc": "Passez le téléphone au joueur suivant quand vous avez terminé. Jouez autant que vous voulez !"
+      }
     },
     "nhie": {
       "name": "Je n'ai jamais",
-      "description": "Découvrez ce qu'ont fait vos amis."
+      "description": "Découvrez ce qu'ont fait vos amis.",
+      "howToPlay": {
+        "intro": "Découvrez ce que vos amis ont vraiment fait. Plus c'est embarrassant, plus c'est drôle !",
+        "step1_title": "Commencer avec 5 doigts",
+        "step1_desc": "Tout le monde lève 5 doigts. Vous les baisserez un par un.",
+        "step2_title": "Lire la déclaration",
+        "step2_desc": "L'app affiche 'Je n'ai jamais...' Si vous l'avez fait, baissez un doigt et avouez !",
+        "step3_title": "Le dernier gagne",
+        "step3_desc": "Le premier à perdre tous ses doigts perd la manche – et doit raconter sa plus folle aventure !"
+      }
     },
     "mlt": {
       "name": "Le plus susceptible de",
-      "description": "Qui dans le groupe est le plus susceptible de...?"
+      "description": "Qui dans le groupe est le plus susceptible de...?",
+      "howToPlay": {
+        "intro": "Découvrez ce que vos amis pensent vraiment de vous. Préparez-vous !",
+        "step1_title": "Lire la question",
+        "step1_desc": "L'app affiche 'Le plus susceptible de...' comme 'Le plus susceptible de devenir célèbre.'",
+        "step2_title": "Pointer ensemble",
+        "step2_desc": "Au compte de 3, tout le monde pointe la personne qui correspond le plus. Pas d'hésitation !",
+        "step3_title": "Compter et continuer",
+        "step3_desc": "La personne pointée par le plus de doigts gagne (ou perd ?) la manche. Elle peut réagir avant la prochaine question !"
+      }
     },
     "hot_takes": {
       "name": "Opinions tranchées",
-      "description": "D'accord ou pas — débattez !"
+      "description": "D'accord ou pas — débattez !",
+      "howToPlay": {
+        "intro": "Partagez vos opinions les plus audacieuses et lancez un débat. La neutralité est interdite !",
+        "step1_title": "Lire la prise de position",
+        "step1_desc": "L'app révèle une déclaration ou opinion controversée pour le groupe.",
+        "step2_title": "Choisir son camp",
+        "step2_desc": "Chaque joueur déclare s'il est fortement d'accord ou pas – et doit défendre sa position !",
+        "step3_title": "Débattre et voter",
+        "step3_desc": "Après le débat, votez pour le meilleur argument. Le joueur le plus convaincant gagne la manche !"
+      }
     },
     "wyr": {
       "name": "Tu préfères",
-      "description": "Deux choix impossibles. Lequel choisiriez-vous ?"
+      "description": "Deux choix impossibles. Lequel choisiriez-vous ?",
+      "howToPlay": {
+        "intro": "Deux choix également terribles (ou géniaux). Il n'y a pas de bonne réponse – seulement la vôtre.",
+        "step1_title": "Le dilemme apparaît",
+        "step1_desc": "L'app affiche une question 'Tu préfères...' avec deux options. Réfléchissez bien !",
+        "step2_title": "Voter en secret",
+        "step2_desc": "Chaque joueur choisit son option sans la révéler. Gardez votre choix secret !",
+        "step3_title": "Révéler et débattre",
+        "step3_desc": "Tout le monde révèle en même temps. Défendez vos choix – la majorité remporte les droits de vantardise !"
+      }
     },
     "two_truths": {
       "name": "Deux vérités, un mensonge",
-      "description": "Devinez quelle affirmation est le mensonge."
+      "description": "Devinez quelle affirmation est le mensonge.",
+      "howToPlay": {
+        "intro": "Partagez deux vraies choses et un mensonge convaincant sur vous. Vos amis verront-ils la différence ?",
+        "step1_title": "Écrire les déclarations",
+        "step1_desc": "Entrez deux vérités sur vous et un mensonge crédible dans l'app.",
+        "step2_title": "Lire à voix haute",
+        "step2_desc": "Lisez les trois déclarations au groupe dans l'ordre que vous voulez. Gardez votre poker face !",
+        "step3_title": "Tout le monde devine",
+        "step3_desc": "Les joueurs votent pour la déclaration qui est le mensonge. Gagnez des points pour chaque personne que vous dupez !"
+      }
     },
     "heads_up": {
       "name": "Heads Up !",
-      "description": "Tenez le téléphone sur votre front. Recevez des indices !"
+      "description": "Tenez le téléphone sur votre front. Recevez des indices !",
+      "howToPlay": {
+        "intro": "Tenez le téléphone sur votre front et devinez le mot à l'écran – seuls vos amis peuvent le voir !",
+        "step1_title": "Levez-le",
+        "step1_desc": "Le joueur actif tient le téléphone face à l'extérieur sur son front sans regarder l'écran.",
+        "step2_title": "Donner des indices",
+        "step2_desc": "Tous les autres joueurs crient des indices pour aider à deviner le mot. Pas d'épellation ou de dire le mot lui-même !",
+        "step3_title": "Pencher pour marquer",
+        "step3_desc": "Penchez vers le bas pour passer, vers le haut pour confirmer une bonne réponse. Marquez autant que possible avant la fin du temps !"
+      }
     },
     "word_chain": {
       "name": "Chaîne de mots",
-      "description": "La dernière lettre commence le mot suivant. Ne brisez pas la chaîne !"
+      "description": "La dernière lettre commence le mot suivant. Ne brisez pas la chaîne !",
+      "howToPlay": {
+        "intro": "Chaque mot doit commencer par la dernière lettre du précédent. Hésitez et vous êtes éliminé !",
+        "step1_title": "Démarrer la chaîne",
+        "step1_desc": "Le premier joueur dit n'importe quel mot. Le suivant doit dire un mot commençant par sa dernière lettre.",
+        "step2_title": "Garder le rythme",
+        "step2_desc": "Vous avez un temps limite pour répondre. Pas de répétition de mots déjà utilisés dans ce tour.",
+        "step3_title": "Le dernier gagne",
+        "step3_desc": "Trop hésiter, dire un mot invalide ou répéter – et vous êtes éliminé ! Le dernier joueur gagne."
+      }
     },
     "trivia": {
       "name": "Pari Culture G.",
-      "description": "Pariez sur votre réponse. Plus de confiance = plus de points."
+      "description": "Pariez sur votre réponse. Plus de confiance = plus de points.",
+      "howToPlay": {
+        "intro": "Répondez à des questions de culture générale et pariez vos points selon votre confiance. Risque élevé, récompense élevée !",
+        "step1_title": "Lire la question",
+        "step1_desc": "L'app affiche une question pour le joueur actuel. Réfléchissez avant de répondre !",
+        "step2_title": "Placer votre mise",
+        "step2_desc": "Avant de répondre, pariez vos points. Mise faible = jeu sûr. Mise haute = grand risque !",
+        "step3_title": "Révéler la réponse",
+        "step3_desc": "Bonne réponse gagne votre mise. Mauvaise réponse la perd. Le joueur avec le plus de points à la fin gagne !"
+      }
     },
     "charades": {
       "name": "Charades",
-      "description": "Mimez — aucun mot autorisé !"
+      "description": "Mimez — aucun mot autorisé !",
+      "howToPlay": {
+        "intro": "Mimez le mot secret avec seulement des gestes et des expressions. Pas de mots, pas de sons – pure pantomime !",
+        "step1_title": "Voir votre mot",
+        "step1_desc": "Le joueur qui mime voit le mot secrètement sur le téléphone. Ne le montrez à personne !",
+        "step2_title": "Mimer",
+        "step2_desc": "Utilisez uniquement des gestes, des expressions et du langage corporel. Pas de mots, pas de lecture labiale, pas de sons !",
+        "step3_title": "Deviner à voix haute",
+        "step3_desc": "Les autres joueurs devinent à voix haute. Gagnez un point quand ils trouvent, puis c'est au suivant !"
+      }
     },
     "paranoia": {
       "name": "Paranoïa",
-      "description": "Questions chuchotées. Réponses mystérieuses."
+      "description": "Questions chuchotées. Réponses mystérieuses.",
+      "howToPlay": {
+        "intro": "Quelqu'un chuchote une question. Quelqu'un désigne secrètement. La réponse sera-t-elle jamais révélée ?",
+        "step1_title": "Chuchoter une question",
+        "step1_desc": "Un joueur chuchote une question 'Qui dans ce groupe...' au joueur à sa droite.",
+        "step2_title": "Désigner en secret",
+        "step2_desc": "Ce joueur désigne silencieusement la personne qui correspond le mieux – sans explication !",
+        "step3_title": "Lancer la pièce",
+        "step3_desc": "Lancez une pièce – face révèle la question à tous, pile la garde secrète pour toujours. La paranoïa monte !"
+      }
     }
   },
   "promptGame": {
@@ -359,5 +467,9 @@
     "minutes": "{{range}} min",
     "home": "Accueil",
     "settings": "Paramètres"
+  },
+  "howToPlay": {
+    "title": "Comment jouer",
+    "close": "Compris !"
   }
 }

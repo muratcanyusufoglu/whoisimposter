@@ -33,8 +33,6 @@ import type { GameModeId } from '@/types'
 type Phase = 'ready' | 'playing' | 'result' | 'done'
 type ActionEntry = { word: string; action: 'correct' | 'skip' }
 
-const ROUND_SECONDS = headsUpLogic.defaultTimerSeconds
-
 export default function HeadsUpScreen() {
   const { theme } = useTheme()
   const { t } = useTranslation()
@@ -43,6 +41,9 @@ export default function HeadsUpScreen() {
   const mode = useGameStore((s) => s.mode)
   const players = useGameStore((s) => s.players)
   const selectedCategories = useGameStore((s) => s.selectedCategories)
+  const storeTimer = useGameStore((s) => s.timerSeconds)
+  // 0 means "Off" in setup, fall back to logic default for heads-up / charades
+  const ROUND_SECONDS = storeTimer > 0 ? storeTimer : headsUpLogic.defaultTimerSeconds
   const locale = useSettingsStore((s) => s.language)
 
   const isCharades = mode === 'charades'

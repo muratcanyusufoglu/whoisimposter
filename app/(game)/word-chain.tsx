@@ -34,14 +34,15 @@ import { Button } from '@/components/ui/Button'
 // Timer per player. Eliminate on timeout or invalid word.
 // ─────────────────────────────────────────────────────────────────────────────
 
-const TIMER_SECONDS = wordChainLogic.defaultTimerSeconds
-
 export default function WordChainScreen() {
   const { theme } = useTheme()
   const { t } = useTranslation()
   const haptics = useHaptics()
 
   const players = useGameStore((s) => s.players)
+  const storeTimer = useGameStore((s) => s.timerSeconds)
+  // 0 means "Off" in setup, fall back to logic default for word-chain
+  const TIMER_SECONDS = storeTimer > 0 ? storeTimer : wordChainLogic.defaultTimerSeconds
 
   // ── Game state ─────────────────────────────────────────────────────────
   const [chainState, setChainState] = useState<WordChainState>(

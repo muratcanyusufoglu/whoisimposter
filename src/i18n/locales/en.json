@@ -225,54 +225,166 @@
     "social": "Social Media",
     "custom": "My Custom List"
   },
+  "howToPlay": {
+    "title": "How to Play",
+    "close": "Got it!"
+  },
   "games": {
     "imposter": {
       "name": "Who's the Imposter?",
-      "description": "One secret word. One liar. Find them."
+      "description": "One secret word. One liar. Find them.",
+      "howToPlay": {
+        "intro": "One player is secretly the Imposter — they don't know the secret word. Can the crew sniff them out?",
+        "step1_title": "Everyone sees the word",
+        "step1_desc": "Pass the phone around. Each player taps their name to secretly see the word — or discover they're the Imposter.",
+        "step2_title": "Give clues, spot the liar",
+        "step2_desc": "Take turns giving one clue about the secret word. The Imposter must bluff. Listen carefully for vague or wrong clues!",
+        "step3_title": "Vote & reveal",
+        "step3_desc": "After all clues, vote for who you think the Imposter is. Catch them to win — but beware, they can still guess the word to escape!"
+      }
     },
     "truth_dare": {
       "name": "Truth or Dare",
-      "description": "Answer honestly or face a dare."
+      "description": "Answer honestly or face a dare.",
+      "howToPlay": {
+        "intro": "Answer an honest question or complete a bold challenge. Will you tell the truth — or take the dare?",
+        "step1_title": "Pick your fate",
+        "step1_desc": "On your turn, choose Truth (answer a question honestly) or Dare (complete a physical or social challenge).",
+        "step2_title": "Complete the task",
+        "step2_desc": "The app shows a random truth question or dare challenge. No skipping — you must commit!",
+        "step3_title": "Pass it on",
+        "step3_desc": "Hand the phone to the next player when done. Keep playing as long as you want!"
+      }
     },
     "nhie": {
       "name": "Never Have I Ever",
-      "description": "Find out what your friends have done."
+      "description": "Find out what your friends have done.",
+      "howToPlay": {
+        "intro": "Find out what your friends have really done. The more embarrassing the confessions, the better!",
+        "step1_title": "Start with 5 fingers",
+        "step1_desc": "Everyone holds up 5 fingers. You'll be putting them down one by one.",
+        "step2_title": "Read the statement",
+        "step2_desc": "The app shows a 'Never Have I Ever...' statement. If you HAVE done it, put a finger down and confess!",
+        "step3_title": "Last one standing wins",
+        "step3_desc": "The player who loses all fingers first loses the round — and must share their wildest story!"
+      }
     },
     "mlt": {
       "name": "Most Likely To",
-      "description": "Who in the group is most likely to...?"
+      "description": "Who in the group is most likely to...?",
+      "howToPlay": {
+        "intro": "Find out what your friends really think about you. Brace yourself!",
+        "step1_title": "Read the question",
+        "step1_desc": "The app shows a 'Most Likely To...' question, like 'Most likely to become famous.'",
+        "step2_title": "Point together",
+        "step2_desc": "On the count of 3, everyone points at the person they think is most likely. No hesitating!",
+        "step3_title": "Tally & move on",
+        "step3_desc": "The person with the most fingers pointed at them wins (or loses?) the round. They can respond before the next question!"
+      }
     },
     "hot_takes": {
       "name": "Hot Takes",
-      "description": "Agree or disagree — debate it out."
+      "description": "Agree or disagree — debate it out.",
+      "howToPlay": {
+        "intro": "Share your boldest opinions and spark a debate. No neutral ground allowed!",
+        "step1_title": "Read the hot take",
+        "step1_desc": "The app reveals a controversial statement or opinion for the group to react to.",
+        "step2_title": "Take a side",
+        "step2_desc": "Each player declares whether they strongly agree or disagree — and must defend their position!",
+        "step3_title": "Debate & vote",
+        "step3_desc": "After the debate, vote for the best argument. The most convincing player wins the round!"
+      }
     },
     "wyr": {
       "name": "Would You Rather",
-      "description": "Two impossible choices. Which would you pick?"
+      "description": "Two impossible choices. Which would you pick?",
+      "howToPlay": {
+        "intro": "Two equally terrible (or amazing) choices. There's no right answer — only your answer.",
+        "step1_title": "The dilemma appears",
+        "step1_desc": "The app shows a 'Would You Rather...' question with two options. Think carefully!",
+        "step2_title": "Vote in secret",
+        "step2_desc": "Each player picks their option without revealing it. Hold your choice close!",
+        "step3_title": "Reveal & debate",
+        "step3_desc": "Everyone reveals at once. Discuss your choices and argue your case — majority wins bragging rights!"
+      }
     },
     "two_truths": {
       "name": "Two Truths One Lie",
-      "description": "Guess which statement is the lie."
+      "description": "Guess which statement is the lie.",
+      "howToPlay": {
+        "intro": "Share two true things and one convincing lie about yourself. Can your friends tell the difference?",
+        "step1_title": "Write your statements",
+        "step1_desc": "Type two things that are true about yourself and one believable lie into the app.",
+        "step2_title": "Read them aloud",
+        "step2_desc": "Read all three statements to the group in any order. Keep a straight face!",
+        "step3_title": "Everyone guesses",
+        "step3_desc": "Players vote for which statement is the lie. Score a point for every person you fool!"
+      }
     },
     "heads_up": {
       "name": "Heads Up!",
-      "description": "Hold the phone on your forehead. Get clues!"
+      "description": "Hold the phone on your forehead. Get clues!",
+      "howToPlay": {
+        "intro": "Hold the phone to your forehead and guess the word on the screen — only your friends can see it!",
+        "step1_title": "Hold it up",
+        "step1_desc": "The active player holds the phone face-out on their forehead without peeking at the screen.",
+        "step2_title": "Give clues",
+        "step2_desc": "All other players shout clues to help guess the word. No spelling it out or saying the word itself!",
+        "step3_title": "Tilt to score",
+        "step3_desc": "Tilt the phone down to skip a word, tilt up to confirm a correct guess. Score as many as you can before time runs out!"
+      }
     },
     "word_chain": {
       "name": "Word Chain",
-      "description": "Last letter starts the next word. Don't break the chain!"
+      "description": "Last letter starts the next word. Don't break the chain!",
+      "howToPlay": {
+        "intro": "Every word must start with the last letter of the previous one. Hesitate and you're eliminated!",
+        "step1_title": "Start the chain",
+        "step1_desc": "The first player says any word. The next player must say a word starting with its last letter.",
+        "step2_title": "Keep the pace",
+        "step2_desc": "You have a time limit to respond. No repeating words that have already been used in this round.",
+        "step3_title": "Last one standing wins",
+        "step3_desc": "Hesitate too long, say an invalid word, or repeat a word — and you're out! Last player left wins."
+      }
     },
     "trivia": {
       "name": "Trivia Bet",
-      "description": "Bet on your answer. More confidence = more points."
+      "description": "Bet on your answer. More confidence = more points.",
+      "howToPlay": {
+        "intro": "Answer trivia questions and bet your points based on how confident you are. High risk, high reward!",
+        "step1_title": "Read the question",
+        "step1_desc": "The app shows a trivia question for the current player. Think before you answer!",
+        "step2_title": "Place your bet",
+        "step2_desc": "Before answering, bet your points. Low bet = safe play. High bet = big risk, big reward!",
+        "step3_title": "Reveal the answer",
+        "step3_desc": "Correct answer earns your bet. Wrong answer loses it. The player with the most points at the end wins!"
+      }
     },
     "charades": {
       "name": "Charades",
-      "description": "Act it out — no words allowed!"
+      "description": "Act it out — no words allowed!",
+      "howToPlay": {
+        "intro": "Act out the secret word using only gestures and expressions. No speaking, no sounds — pure mime!",
+        "step1_title": "See your word",
+        "step1_desc": "The acting player secretly sees the word on the phone. Don't show anyone — keep a poker face!",
+        "step2_title": "Act it out",
+        "step2_desc": "Use gestures, expressions, and body language only. No words, no mouthing, no sounds!",
+        "step3_title": "Shout it out",
+        "step3_desc": "Other players guess aloud. Score a point when they get it right, then the next player takes their turn!"
+      }
     },
     "paranoia": {
       "name": "Paranoia",
-      "description": "Whispered questions. Mysterious answers."
+      "description": "Whispered questions. Mysterious answers.",
+      "howToPlay": {
+        "intro": "Someone whispers a question. Someone points in secret. Will the answer ever be revealed?",
+        "step1_title": "Whisper a question",
+        "step1_desc": "One player whispers a 'Who in this group...' question to the player on their right.",
+        "step2_title": "Point in secret",
+        "step2_desc": "That player silently points at whoever they think fits the answer — no explaining!",
+        "step3_title": "Flip to reveal",
+        "step3_desc": "Flip a coin — heads reveals the question to everyone, tails keeps it secret forever. The paranoia builds!"
+      }
     }
   },
   "promptGame": {

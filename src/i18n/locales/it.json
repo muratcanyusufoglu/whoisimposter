@@ -228,51 +228,159 @@
   "games": {
     "imposter": {
       "name": "Chi è l'impostore?",
-      "description": "Una parola segreta. Un bugiardo. Trovalo."
+      "description": "Una parola segreta. Un bugiardo. Trovalo.",
+      "howToPlay": {
+        "intro": "Un giocatore è segretamente l'Impostore – non conosce la parola segreta. Il gruppo riesce a smascherarlo?",
+        "step1_title": "Tutti vedono la parola",
+        "step1_desc": "Passate il telefono. Ogni giocatore tocca il proprio nome per vedere la parola di nascosto – o scoprire di essere l'Impostore.",
+        "step2_title": "Date indizi, trovate il bugiardo",
+        "step2_desc": "A turno, date un indizio sulla parola segreta. L'Impostore deve bluffare. Fate attenzione agli indizi vaghi!",
+        "step3_title": "Votate e rivelate",
+        "step3_desc": "Dopo tutti gli indizi, votate chi è l'Impostore. Prendetelo – ma attenzione, può ancora indovinare la parola!"
+      }
     },
     "truth_dare": {
       "name": "Obbligo o Verità",
-      "description": "Rispondi onestamente o affronta una sfida."
+      "description": "Rispondi onestamente o affronta una sfida.",
+      "howToPlay": {
+        "intro": "Rispondi onestamente a una domanda o completa una sfida audace. Verità o sfida – decidi tu!",
+        "step1_title": "Scegli il tuo destino",
+        "step1_desc": "Nel tuo turno, scegli Verità (rispondere onestamente) o Sfida (completare una missione).",
+        "step2_title": "Completare il compito",
+        "step2_desc": "L'app mostra una domanda o sfida casuale. Non è permesso rinunciare!",
+        "step3_title": "Passa il turno",
+        "step3_desc": "Passa il telefono al giocatore successivo quando hai finito. Gioca quanto vuoi!"
+      }
     },
     "nhie": {
       "name": "Non ho mai",
-      "description": "Scopri cosa hanno fatto i tuoi amici."
+      "description": "Scopri cosa hanno fatto i tuoi amici.",
+      "howToPlay": {
+        "intro": "Scopri cosa hanno davvero fatto i tuoi amici. Più è imbarazzante, più è divertente!",
+        "step1_title": "Inizia con 5 dita",
+        "step1_desc": "Tutti alzano 5 dita. Le abbasserete una alla volta.",
+        "step2_title": "Leggi l'affermazione",
+        "step2_desc": "L'app mostra 'Non ho mai...' Se l'hai fatto, abbassa un dito e confessa!",
+        "step3_title": "L'ultimo vince",
+        "step3_desc": "Chi abbassa per primo tutte le dita perde il round – e deve raccontare la sua storia più pazza!"
+      }
     },
     "mlt": {
       "name": "È più probabile",
-      "description": "Chi nel gruppo è più probabile che...?"
+      "description": "Chi nel gruppo è più probabile che...?",
+      "howToPlay": {
+        "intro": "Scopri cosa pensano davvero i tuoi amici di te. Preparati!",
+        "step1_title": "Leggi la domanda",
+        "step1_desc": "L'app mostra 'Chi è più probabile che...' come 'Chi è più probabile che diventi famoso?'",
+        "step2_title": "Indicate insieme",
+        "step2_desc": "Al conto di 3, tutti indicano la persona più adatta. Senza esitare!",
+        "step3_title": "Contat e continua",
+        "step3_desc": "La persona più indicata vince (o perde?) il round. Può reagire prima della prossima domanda!"
+      }
     },
     "hot_takes": {
       "name": "Opinioni forti",
-      "description": "D'accordo o no — discutetela!"
+      "description": "D'accordo o no — discutetela!",
+      "howToPlay": {
+        "intro": "Condividi le tue opinioni più audaci e scatena un dibattito. La neutralità è vietata!",
+        "step1_title": "Leggi l'opinione",
+        "step1_desc": "L'app rivela un'affermazione o opinione controversa per il gruppo.",
+        "step2_title": "Scegli un lato",
+        "step2_desc": "Ogni giocatore dichiara se è fortemente d'accordo o in disaccordo – e deve difendere la sua posizione!",
+        "step3_title": "Dibattiti e vota",
+        "step3_desc": "Dopo il dibattito, votate per il miglior argomento. Il giocatore più convincente vince il round!"
+      }
     },
     "wyr": {
       "name": "Preferiresti",
-      "description": "Due scelte impossibili. Quale sceglieresti?"
+      "description": "Due scelte impossibili. Quale sceglieresti?",
+      "howToPlay": {
+        "intro": "Due opzioni ugualmente terribili (o fantastiche). Non c'è risposta giusta – solo la tua.",
+        "step1_title": "Appare il dilemma",
+        "step1_desc": "L'app mostra una domanda 'Preferiresti...' con due opzioni. Pensaci bene!",
+        "step2_title": "Vota in segreto",
+        "step2_desc": "Ogni giocatore sceglie la propria opzione senza rivelarla. Tieni la tua scelta segreta!",
+        "step3_title": "Rivela e dibatti",
+        "step3_desc": "Tutti rivelano allo stesso tempo. Difendete le vostre scelte e discutete!"
+      }
     },
     "two_truths": {
       "name": "Due verità, una bugia",
-      "description": "Indovina quale affermazione è la bugia."
+      "description": "Indovina quale affermazione è la bugia.",
+      "howToPlay": {
+        "intro": "Condividi due cose vere e una bugia convincente su di te. I tuoi amici riescono a vedere la differenza?",
+        "step1_title": "Scrivi le affermazioni",
+        "step1_desc": "Inserisci nell'app due verità su di te e una bugia credibile.",
+        "step2_title": "Leggi ad alta voce",
+        "step2_desc": "Leggi le tre affermazioni al gruppo nell'ordine che vuoi. Mantieni il poker face!",
+        "step3_title": "Tutti indovinano",
+        "step3_desc": "I giocatori votano quale affermazione è la bugia. Guadagna punti per ogni persona che inganni!"
+      }
     },
     "heads_up": {
       "name": "Heads Up!",
-      "description": "Tieni il telefono sulla fronte. Ricevi indizi!"
+      "description": "Tieni il telefono sulla fronte. Ricevi indizi!",
+      "howToPlay": {
+        "intro": "Tieni il telefono sulla fronte e indovina la parola sullo schermo – solo i tuoi amici possono vederla!",
+        "step1_title": "Alzalo",
+        "step1_desc": "Il giocatore attivo tiene il telefono con lo schermo verso l'esterno sulla fronte senza guardarlo.",
+        "step2_title": "Dai indizi",
+        "step2_desc": "Tutti gli altri gridano indizi per aiutare a indovinare la parola. Nessuno spelling o dire la parola stessa!",
+        "step3_title": "Inclina per puntare",
+        "step3_desc": "Inclina verso il basso per passare, verso l'alto per confermare la risposta giusta. Segna più punti possibile!"
+      }
     },
     "word_chain": {
       "name": "Catena di parole",
-      "description": "L'ultima lettera inizia la parola successiva. Non spezzare la catena!"
+      "description": "L'ultima lettera inizia la parola successiva. Non spezzare la catena!",
+      "howToPlay": {
+        "intro": "Ogni parola deve iniziare con l'ultima lettera della precedente. Esita e sei eliminato!",
+        "step1_title": "Inizia la catena",
+        "step1_desc": "Il primo giocatore dice qualsiasi parola. Il successivo deve dire una parola che inizia con la sua ultima lettera.",
+        "step2_title": "Mantieni il ritmo",
+        "step2_desc": "Hai un tempo limite per rispondere. Nessuna ripetizione di parole già usate in questo round.",
+        "step3_title": "L'ultimo vince",
+        "step3_desc": "Esitare troppo, dire una parola non valida o ripetere – e sei eliminato! L'ultimo giocatore vince."
+      }
     },
     "trivia": {
       "name": "Scommessa trivia",
-      "description": "Scommetti sulla tua risposta. Più fiducia = più punti."
+      "description": "Scommetti sulla tua risposta. Più fiducia = più punti.",
+      "howToPlay": {
+        "intro": "Rispondi alle domande di trivia e scommetti i tuoi punti in base alla tua sicurezza. Alto rischio, alta ricompensa!",
+        "step1_title": "Leggi la domanda",
+        "step1_desc": "L'app mostra una domanda per il giocatore corrente. Pensa prima di rispondere!",
+        "step2_title": "Fai la tua scommessa",
+        "step2_desc": "Prima di rispondere, scommetti i tuoi punti. Bassa scommessa = gioco sicuro. Alta scommessa = grande rischio!",
+        "step3_title": "Rivela la risposta",
+        "step3_desc": "La risposta corretta vince la tua scommessa. Quella sbagliata la perde. Il giocatore con più punti alla fine vince!"
+      }
     },
     "charades": {
       "name": "Indovina la parola",
-      "description": "Mima — nessuna parola permessa!"
+      "description": "Mima — nessuna parola permessa!",
+      "howToPlay": {
+        "intro": "Rappresenta la parola segreta solo con gesti ed espressioni. Nessuna parola, nessun suono – pura pantomima!",
+        "step1_title": "Vedi la tua parola",
+        "step1_desc": "Il giocatore che recita vede la parola di nascosto sul telefono. Non mostrarla a nessuno!",
+        "step2_title": "Recita",
+        "step2_desc": "Usa solo gesti, espressioni e linguaggio del corpo. Nessuna parola, nessuna lettura labiale, nessun suono!",
+        "step3_title": "Indovina ad alta voce",
+        "step3_desc": "Gli altri giocatori indovinano ad alta voce. Guadagna un punto quando ci riescono, poi tocca al prossimo!"
+      }
     },
     "paranoia": {
       "name": "Paranoia",
-      "description": "Domande sussurrate. Risposte misteriose."
+      "description": "Domande sussurrate. Risposte misteriose.",
+      "howToPlay": {
+        "intro": "Qualcuno sussurra una domanda. Qualcuno indica in segreto. La risposta verrà mai rivelata?",
+        "step1_title": "Sussurrare una domanda",
+        "step1_desc": "Un giocatore sussurra al giocatore alla sua destra una domanda 'Chi in questo gruppo...'",
+        "step2_title": "Indicare in segreto",
+        "step2_desc": "Quel giocatore indica silenziosamente la persona che ritiene sia la risposta – senza spiegazioni!",
+        "step3_title": "Lancia la moneta",
+        "step3_desc": "Lancia una moneta – testa rivela la domanda a tutti, croce la mantiene segreta per sempre. La paranoia cresce!"
+      }
     }
   },
   "promptGame": {
@@ -359,5 +467,9 @@
     "minutes": "{{range}} min",
     "home": "Home",
     "settings": "Impostazioni"
+  },
+  "howToPlay": {
+    "title": "Come si gioca",
+    "close": "Ho capito!"
   }
 }

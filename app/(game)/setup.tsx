@@ -33,6 +33,7 @@ import { CategoryCard } from '@/components/game/CategoryCard'
 import { Button } from '@/components/ui/Button'
 import { GameImage } from '@/components/game/GameImage'
 import { PaywallModal } from '@/components/modals/PaywallModal'
+import { HowToPlayModal } from '@/components/modals/HowToPlayModal'
 import { GameConfig, GameModeId, Player } from '@/types'
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -87,6 +88,7 @@ export default function SetupScreen() {
   const [timerSeconds, setTimerSeconds] = useState<0 | 10 | 15 | 30>(0)
   const [advancedOpen, setAdvancedOpen] = useState(false)
   const [paywallVisible, setPaywallVisible] = useState(false)
+  const [howToPlayVisible, setHowToPlayVisible] = useState(false)
 
   const inputRef = useRef<TextInput>(null)
 
@@ -271,8 +273,15 @@ export default function SetupScreen() {
           </Text>
         </View>
 
-        {/* Spacer to balance back button */}
-        <View style={styles.backBtn} />
+        {/* How to play button */}
+        <TouchableOpacity
+          onPress={() => setHowToPlayVisible(true)}
+          style={[styles.backBtn, { backgroundColor: theme.bg.surface }]}
+          accessibilityRole="button"
+          accessibilityLabel={t('howToPlay.title')}
+        >
+          <Ionicons name="help" size={20} color={theme.text.primary} />
+        </TouchableOpacity>
       </View>
 
       <KeyboardAvoidingView
@@ -476,25 +485,27 @@ export default function SetupScreen() {
                 },
               ]}
             >
-              {/* Imposters count */}
-              <AdvancedRow label={t('setup.imposters')}>
-                <View style={styles.chipRow}>
-                  {([1, 2] as const).map((n) => (
-                    <ChipOption
-                      key={n}
-                      label={String(n)}
-                      selected={impostersCount === n}
-                      disabled={n === 2 && !isPro}
-                      onPress={() => {
-                        if (n === 2 && !isPro) return
-                        haptics.selection()
-                        setImpostersCount(n)
-                      }}
-                      theme={theme}
-                    />
-                  ))}
-                </View>
-              </AdvancedRow>
+              {/* Imposters count — only relevant for the imposter game */}
+              {mode.id === 'imposter' && (
+                <AdvancedRow label={t('setup.imposters')}>
+                  <View style={styles.chipRow}>
+                    {([1, 2] as const).map((n) => (
+                      <ChipOption
+                        key={n}
+                        label={String(n)}
+                        selected={impostersCount === n}
+                        disabled={n === 2 && !isPro}
+                        onPress={() => {
+                          if (n === 2 && !isPro) return
+                          haptics.selection()
+                          setImpostersCount(n)
+                        }}
+                        theme={theme}
+                      />
+                    ))}
+                  </View>
+                </AdvancedRow>
+              )}
 
               {/* Timer */}
               {mode.hasTimer && (
@@ -548,6 +559,13 @@ export default function SetupScreen() {
       <PaywallModal
         visible={paywallVisible}
         onClose={() => setPaywallVisible(false)}
+      />
+
+      {/* How to play instructions */}
+      <HowToPlayModal
+        visible={howToPlayVisible}
+        onClose={() => setHowToPlayVisible(false)}
+        mode={mode}
       />
     </SafeAreaView>
   )

@@ -228,51 +228,159 @@
   "games": {
     "imposter": {
       "name": "Wer ist der Hochstapler?",
-      "description": "Ein geheimes Wort. Ein Lügner. Finde ihn."
+      "description": "Ein geheimes Wort. Ein Lügner. Finde ihn.",
+      "howToPlay": {
+        "intro": "Ein Spieler ist heimlich der Hochstapler – er kennt das geheime Wort nicht. Kann die Gruppe ihn entlarven?",
+        "step1_title": "Alle sehen das Wort",
+        "step1_desc": "Gebt das Handy herum. Jeder Spieler tippt auf seinen Namen und sieht das Wort heimlich – oder erfährt, dass er der Hochstapler ist.",
+        "step2_title": "Hinweise geben, Lügner finden",
+        "step2_desc": "Gebt der Reihe nach einen Hinweis zum Geheimwort. Der Hochstapler muss bluffen. Achtet auf vage oder falsche Hinweise!",
+        "step3_title": "Abstimmen & enthüllen",
+        "step3_desc": "Nach allen Hinweisen stimmt ihr ab, wer der Hochstapler ist. Erwischt ihn – aber Vorsicht, er kann noch das Wort erraten!"
+      }
     },
     "truth_dare": {
       "name": "Wahrheit oder Pflicht",
-      "description": "Ehrlich antworten oder eine Aufgabe erfüllen."
+      "description": "Ehrlich antworten oder eine Aufgabe erfüllen.",
+      "howToPlay": {
+        "intro": "Beantworte eine ehrliche Frage oder erfülle eine mutige Aufgabe. Wahrheit oder Pflicht – du entscheidest!",
+        "step1_title": "Wähle dein Schicksal",
+        "step1_desc": "Wähle in deinem Zug Wahrheit (Frage ehrlich beantworten) oder Pflicht (Aufgabe erfüllen).",
+        "step2_title": "Aufgabe erfüllen",
+        "step2_desc": "Die App zeigt eine zufällige Wahrheitsfrage oder Pflichtaufgabe. Kein Aussteigen erlaubt!",
+        "step3_title": "Weitergeben",
+        "step3_desc": "Gib das Handy weiter, wenn du fertig bist. Spielt so lange ihr wollt!"
+      }
     },
     "nhie": {
       "name": "Ich habe noch nie",
-      "description": "Erfahrt, was eure Freunde schon erlebt haben."
+      "description": "Erfahrt, was eure Freunde schon erlebt haben.",
+      "howToPlay": {
+        "intro": "Finde heraus, was deine Freunde wirklich schon gemacht haben. Umso peinlicher, desto lustiger!",
+        "step1_title": "Mit 5 Fingern starten",
+        "step1_desc": "Alle heben 5 Finger hoch. Diese werden nacheinander heruntergenommen.",
+        "step2_title": "Aussage lesen",
+        "step2_desc": "Die App zeigt eine 'Ich hab noch nie...' Aussage. Wer es getan hat, nimmt einen Finger runter und gesteht!",
+        "step3_title": "Der Letzte gewinnt",
+        "step3_desc": "Wer zuerst alle Finger senkt, verliert die Runde – und muss seine wildeste Geschichte erzählen!"
+      }
     },
     "mlt": {
       "name": "Am ehesten würde",
-      "description": "Wer in der Gruppe würde am ehesten...?"
+      "description": "Wer in der Gruppe würde am ehesten...?",
+      "howToPlay": {
+        "intro": "Finde heraus, was deine Freunde wirklich über dich denken. Sei bereit!",
+        "step1_title": "Frage lesen",
+        "step1_desc": "Die App zeigt eine 'Wer ist am ehesten...' Frage, z.B. 'Wer wird am ehesten berühmt?'",
+        "step2_title": "Zusammen zeigen",
+        "step2_desc": "Auf 3 zeigt jeder auf die Person, die am ehesten zutrifft. Kein Zögern!",
+        "step3_title": "Zählen & weitermachen",
+        "step3_desc": "Die Person mit den meisten Zeigefingern gewinnt (oder verliert?) die Runde. Sie darf reagieren, bevor es weitergeht!"
+      }
     },
     "hot_takes": {
       "name": "Heiße Meinungen",
-      "description": "Einverstanden oder nicht — diskutiert!"
+      "description": "Einverstanden oder nicht — diskutiert!",
+      "howToPlay": {
+        "intro": "Teile deine mutigsten Meinungen und starte eine Debatte. Neutralität ist verboten!",
+        "step1_title": "Hot Take lesen",
+        "step1_desc": "Die App enthüllt eine kontroverse Aussage oder Meinung für die Gruppe.",
+        "step2_title": "Seite wählen",
+        "step2_desc": "Jeder erklärt, ob er stark zustimmt oder ablehnt – und muss seine Position verteidigen!",
+        "step3_title": "Debattieren & abstimmen",
+        "step3_desc": "Nach der Debatte stimmt ihr für das beste Argument. Der überzeugendste Spieler gewinnt die Runde!"
+      }
     },
     "wyr": {
       "name": "Was würdest du lieber",
-      "description": "Zwei unmögliche Optionen. Was würdest du wählen?"
+      "description": "Zwei unmögliche Optionen. Was würdest du wählen?",
+      "howToPlay": {
+        "intro": "Zwei gleichermaßen schreckliche (oder großartige) Optionen. Es gibt keine richtige Antwort – nur deine.",
+        "step1_title": "Das Dilemma erscheint",
+        "step1_desc": "Die App zeigt eine 'Würdest du lieber...' Frage mit zwei Optionen. Denk gut nach!",
+        "step2_title": "Heimlich abstimmen",
+        "step2_desc": "Jeder wählt seine Option, ohne sie zu verraten. Halt deine Wahl geheim!",
+        "step3_title": "Enthüllen & diskutieren",
+        "step3_desc": "Alle enthüllen gleichzeitig. Verteidigt eure Wahl und diskutiert – die Mehrheit gewinnt die Prahlrechte!"
+      }
     },
     "two_truths": {
       "name": "Zwei Wahrheiten, eine Lüge",
-      "description": "Rate, welche Aussage die Lüge ist."
+      "description": "Rate, welche Aussage die Lüge ist.",
+      "howToPlay": {
+        "intro": "Teile zwei wahre Dinge und eine überzeugende Lüge über dich. Können deine Freunde den Unterschied erkennen?",
+        "step1_title": "Aussagen eintippen",
+        "step1_desc": "Gib zwei wahre Dinge über dich und eine glaubwürdige Lüge in die App ein.",
+        "step2_title": "Laut vorlesen",
+        "step2_desc": "Lies alle drei Aussagen der Gruppe in beliebiger Reihenfolge vor. Behalte eine Pokerface!",
+        "step3_title": "Alle raten",
+        "step3_desc": "Spieler stimmen ab, welche Aussage die Lüge ist. Verdiene Punkte für jeden, den du täuschst!"
+      }
     },
     "heads_up": {
       "name": "Heads Up!",
-      "description": "Halte das Handy an die Stirn. Erhalte Hinweise!"
+      "description": "Halte das Handy an die Stirn. Erhalte Hinweise!",
+      "howToPlay": {
+        "intro": "Halte das Handy an deine Stirn und errate das Wort auf dem Bildschirm – nur deine Freunde können es sehen!",
+        "step1_title": "Hochhalten",
+        "step1_desc": "Der aktive Spieler hält das Handy mit dem Bildschirm nach außen an die Stirn, ohne ihn zu sehen.",
+        "step2_title": "Hinweise geben",
+        "step2_desc": "Alle anderen Spieler rufen Hinweise. Kein Buchstabieren oder das Wort selbst sagen!",
+        "step3_title": "Kippen zum Punkten",
+        "step3_desc": "Kippe nach unten zum Überspringen, nach oben zum Bestätigen einer richtigen Antwort. Sammle so viele Punkte wie möglich!"
+      }
     },
     "word_chain": {
       "name": "Wortkette",
-      "description": "Der letzte Buchstabe beginnt das nächste Wort. Brich die Kette nicht!"
+      "description": "Der letzte Buchstabe beginnt das nächste Wort. Brich die Kette nicht!",
+      "howToPlay": {
+        "intro": "Jedes Wort muss mit dem letzten Buchstaben des vorherigen beginnen. Zögere und du bist ausgeschieden!",
+        "step1_title": "Kette starten",
+        "step1_desc": "Der erste Spieler sagt ein beliebiges Wort. Der nächste muss ein Wort sagen, das mit dessen letztem Buchstaben beginnt.",
+        "step2_title": "Tempo halten",
+        "step2_desc": "Du hast ein Zeitlimit zum Antworten. Keine Wiederholung von Wörtern, die bereits in dieser Runde verwendet wurden.",
+        "step3_title": "Der Letzte gewinnt",
+        "step3_desc": "Zu lange zögern, ein ungültiges Wort sagen oder wiederholen – und du bist raus! Der letzte Spieler gewinnt."
+      }
     },
     "trivia": {
       "name": "Quiz-Wette",
-      "description": "Wette auf deine Antwort. Mehr Vertrauen = mehr Punkte."
+      "description": "Wette auf deine Antwort. Mehr Vertrauen = mehr Punkte.",
+      "howToPlay": {
+        "intro": "Beantworte Wissensfragen und setze Punkte je nach deiner Sicherheit. Hohes Risiko, hohe Belohnung!",
+        "step1_title": "Frage lesen",
+        "step1_desc": "Die App zeigt eine Wissensfrage für den aktuellen Spieler. Denke nach, bevor du antwortest!",
+        "step2_title": "Wette setzen",
+        "step2_desc": "Setze vor der Antwort Punkte als Wette. Niedriger Einsatz = sicheres Spiel. Hoher Einsatz = großes Risiko!",
+        "step3_title": "Antwort enthüllen",
+        "step3_desc": "Richtige Antwort gewinnt den Einsatz. Falsche Antwort verliert ihn. Der Spieler mit den meisten Punkten am Ende gewinnt!"
+      }
     },
     "charades": {
       "name": "Pantomime",
-      "description": "Spiels nach — keine Wörter erlaubt!"
+      "description": "Spiels nach — keine Wörter erlaubt!",
+      "howToPlay": {
+        "intro": "Stell das Geheimwort nur mit Gesten und Mimik dar. Kein Sprechen, keine Geräusche – nur Pantomime!",
+        "step1_title": "Dein Wort sehen",
+        "step1_desc": "Der darstellende Spieler sieht das Wort heimlich auf dem Handy. Zeig es niemandem!",
+        "step2_title": "Darstellen",
+        "step2_desc": "Verwende nur Gesten, Mimik und Körpersprache. Keine Wörter, kein Lippenlesen, keine Geräusche!",
+        "step3_title": "Laut raten",
+        "step3_desc": "Andere Spieler raten laut. Verdiene einen Punkt, wenn sie es richtig erraten, dann ist der nächste Spieler dran!"
+      }
     },
     "paranoia": {
       "name": "Paranoia",
-      "description": "Geflüsterte Fragen. Mysteriöse Antworten."
+      "description": "Geflüsterte Fragen. Mysteriöse Antworten.",
+      "howToPlay": {
+        "intro": "Jemand flüstert eine Frage. Jemand zeigt heimlich. Wird die Antwort je enthüllt?",
+        "step1_title": "Eine Frage flüstern",
+        "step1_desc": "Ein Spieler flüstert dem Spieler rechts von ihm eine 'Wer in dieser Gruppe...' Frage.",
+        "step2_title": "Heimlich zeigen",
+        "step2_desc": "Dieser Spieler zeigt stillschweigend auf die Person, die er für die Antwort hält – ohne Erklärung!",
+        "step3_title": "Münze werfen",
+        "step3_desc": "Wirf eine Münze – Kopf enthüllt die Frage für alle, Zahl hält sie für immer geheim. Die Paranoia wächst!"
+      }
     }
   },
   "promptGame": {
@@ -359,5 +467,9 @@
     "minutes": "{{range}} Min.",
     "home": "Startseite",
     "settings": "Einstellungen"
+  },
+  "howToPlay": {
+    "title": "Spielanleitung",
+    "close": "Verstanden!"
   }
 }

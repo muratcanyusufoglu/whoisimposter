@@ -225,54 +225,166 @@
     "social": "Sosyal Medya",
     "custom": "Özel Listem"
   },
+  "howToPlay": {
+    "title": "Nasıl Oynanır",
+    "close": "Anladım!"
+  },
   "games": {
     "imposter": {
       "name": "Kim Sahtekâr?",
-      "description": "Gizli kelime. Yalancı. Bul."
+      "description": "Gizli kelime. Yalancı. Bul.",
+      "howToPlay": {
+        "intro": "Bir oyuncu gizlice Sahtekâr'dır — gizli kelimeyi bilmez. Ekip onu yakalayabilecek mi?",
+        "step1_title": "Herkes kelimeyi görür",
+        "step1_desc": "Telefonu sırayla dolaştırın. Her oyuncu adına basarak kelimeyi gizlice görür — ya da Sahtekâr olduğunu öğrenir.",
+        "step2_title": "İpucu ver, yalancıyı bul",
+        "step2_desc": "Sırayla gizli kelime hakkında birer ipucu verin. Sahtekâr blöf yapmalı. Muğlak veya yanlış ipuçlarına dikkat!",
+        "step3_title": "Oy ver ve ortaya çıkar",
+        "step3_desc": "Tüm ipuçlarından sonra Sahtekâr'ın kim olduğuna oy verin. Onu yakalayın — ama dikkat, tahmin ederse kurtulabilir!"
+      }
     },
     "truth_dare": {
       "name": "Doğru mu Cesaret mi?",
-      "description": "Doğruyu söyle ya da cesaretini göster."
+      "description": "Doğruyu söyle ya da cesaretini göster.",
+      "howToPlay": {
+        "intro": "Dürüstçe bir soruyu yanıtla ya da cesur bir görevi tamamla. Gerçeği mi söylersin, cesareti mi seçersin?",
+        "step1_title": "Kaderini seç",
+        "step1_desc": "Sırandayken Doğru (dürüstçe yanıtla) veya Cesaret (bir görevi tamamla) seç.",
+        "step2_title": "Görevi tamamla",
+        "step2_desc": "Uygulama rastgele bir doğru sorusu veya cesaret görevi gösterir. Pas geçmek yok!",
+        "step3_title": "Sırayı geç",
+        "step3_desc": "Bitirince telefonu bir sonraki oyuncuya ver. İstediğin kadar oyna!"
+      }
     },
     "nhie": {
       "name": "Ben Hiç...",
-      "description": "Yaptıysan parmak indir."
+      "description": "Yaptıysan parmak indir.",
+      "howToPlay": {
+        "intro": "Arkadaşlarının gerçekten neler yaptığını öğren. İtiraflar ne kadar utanç verici olursa o kadar eğlenceli!",
+        "step1_title": "5 parmakla başla",
+        "step1_desc": "Herkes 5 parmağını kaldırır. Birer birer indireceksiniz.",
+        "step2_title": "İfadeyi oku",
+        "step2_desc": "Uygulama 'Ben hiç...' ile başlayan bir ifade gösterir. Yaptıysan parmağını indir ve itiraf et!",
+        "step3_title": "Son kalan kazanır",
+        "step3_desc": "Tüm parmaklarını ilk indiren kaybeder — ve en çılgın hikayesini anlatmak zorundadır!"
+      }
     },
     "mlt": {
       "name": "Kim Daha Çok?",
-      "description": "Grupta kim...?"
+      "description": "Grupta kim...?",
+      "howToPlay": {
+        "intro": "Arkadaşlarının senin hakkında ne düşündüğünü öğren. Hazır ol!",
+        "step1_title": "Soruyu oku",
+        "step1_desc": "Uygulama 'Kim daha çok...' sorusu gösterir, mesela 'Kim daha çok ünlü olur?'",
+        "step2_title": "Birlikte işaret et",
+        "step2_desc": "3 sayıldıktan sonra herkes en uygun gördüğü kişiyi işaret eder. Tereddüt yok!",
+        "step3_title": "Say ve devam et",
+        "step3_desc": "En çok işaret edilen kişi turu kazanır (ya da kaybeder?). Bir sonraki soruya geçmeden önce tepkisini verebilir!"
+      }
     },
     "hot_takes": {
       "name": "Tartışmalı Görüşler",
-      "description": "Katıl ya da katılma — tartış!"
+      "description": "Katıl ya da katılma — tartış!",
+      "howToPlay": {
+        "intro": "En cesur görüşlerini paylaş ve tartışma başlat. Kararsız kalmak yasak!",
+        "step1_title": "Tartışmalı görüşü oku",
+        "step1_desc": "Uygulama grubun tepki vereceği tartışmalı bir ifade veya görüş ortaya koyar.",
+        "step2_title": "Taraf seç",
+        "step2_desc": "Her oyuncu kesinlikle katıldığını veya katılmadığını açıklar — ve savunmalıdır!",
+        "step3_title": "Tartış ve oy ver",
+        "step3_desc": "Tartışmanın ardından en iyi argümanı oylamayla seçin. En ikna edici oyuncu turu kazanır!"
+      }
     },
     "wyr": {
       "name": "Ya O Ya?",
-      "description": "İki seçenek. Hangisi?"
+      "description": "İki seçenek. Hangisi?",
+      "howToPlay": {
+        "intro": "İki eşit derecede berbat (ya da harika) seçenek. Doğru cevap yok — sadece senin cevabın var.",
+        "step1_title": "İkilem ortaya çıkıyor",
+        "step1_desc": "Uygulama iki seçenekli bir 'Ya bu ya o?' sorusu gösterir. Dikkatlice düşün!",
+        "step2_title": "Sessizce oy ver",
+        "step2_desc": "Her oyuncu seçeneğini açıklamadan içinden seçer. Tercihini gizli tut!",
+        "step3_title": "Ortaya çıkar ve tartış",
+        "step3_desc": "Herkes aynı anda açıklar. Tercihini savun ve tartış — çoğunluk övünme hakkını kazanır!"
+      }
     },
     "two_truths": {
       "name": "2 Doğru 1 Yalan",
-      "description": "Yalanı bul."
+      "description": "Yalanı bul.",
+      "howToPlay": {
+        "intro": "Kendinle ilgili iki doğru ve bir inandırıcı yalan paylaş. Arkadaşların farkı anlayabilecek mi?",
+        "step1_title": "İfadeleri yaz",
+        "step1_desc": "Kendinle ilgili iki doğru ve bir inandırıcı yalan uygulamaya gir.",
+        "step2_title": "Yüksek sesle oku",
+        "step2_desc": "Üç ifadeyi gruba istediğin sırayla oku. Suratını düz tut!",
+        "step3_title": "Herkes tahmin eder",
+        "step3_desc": "Oyuncular hangi ifadenin yalan olduğuna oy verir. Kandırdığın her kişi için puan kazan!"
+      }
     },
     "heads_up": {
       "name": "Bul Bakalım!",
-      "description": "Telefonu alna koy. İpucu al!"
+      "description": "Telefonu alna koy. İpucu al!",
+      "howToPlay": {
+        "intro": "Telefonu alnına daya ve ekrandaki kelimeyi tahmin et — sadece arkadaşların görebilir!",
+        "step1_title": "Alna daya",
+        "step1_desc": "Aktif oyuncu, ekrana bakmadan telefonu alnına yüzü dışarıya bakacak şekilde dayar.",
+        "step2_title": "İpucu ver",
+        "step2_desc": "Diğer tüm oyuncular kelimeyi tahmin ettirmek için bağırarak ipucu verir. Kelimeyi söylemek veya harf harf yazmak yasak!",
+        "step3_title": "Eğimle puan kazan",
+        "step3_desc": "Pas geçmek için telefonu aşağı eğ, doğru tahmini onaylamak için yukarı eğ. Süre dolmadan olabildiğince çok puan topla!"
+      }
     },
     "word_chain": {
       "name": "Kelime Zinciri",
-      "description": "Son harf, yeni kelimeyi başlatır. Zinciri kırma!"
+      "description": "Son harf, yeni kelimeyi başlatır. Zinciri kırma!",
+      "howToPlay": {
+        "intro": "Her kelime bir öncekinin son harfiyle başlamalı. Duraksarsan elenmektesin!",
+        "step1_title": "Zinciri başlat",
+        "step1_desc": "İlk oyuncu herhangi bir kelime söyler. Bir sonraki oyuncu o kelimenin son harfiyle başlayan bir kelime söylemelidir.",
+        "step2_title": "Tempoyu koru",
+        "step2_desc": "Cevaplamak için süreniz var. Bu turda kullanılan kelimeleri tekrarlayamazsınız.",
+        "step3_title": "Son kalan kazanır",
+        "step3_desc": "Çok uzun duraksarsan, geçersiz bir kelime söylersen veya tekrar edersen elenmektesin! Son kalan oyuncu kazanır."
+      }
     },
     "trivia": {
       "name": "Bilgi Bahsi",
-      "description": "Cevabına bahis yap. Güven = Puan!"
+      "description": "Cevabına bahis yap. Güven = Puan!",
+      "howToPlay": {
+        "intro": "Bilgi sorularını yanıtla ve ne kadar emin olduğuna göre puanlarına bahis yap. Yüksek risk, yüksek ödül!",
+        "step1_title": "Soruyu oku",
+        "step1_desc": "Uygulama mevcut oyuncu için bir bilgi sorusu gösterir. Cevaplamadan önce iyice düşün!",
+        "step2_title": "Bahsini koy",
+        "step2_desc": "Cevaplamadan önce puanlarına bahis koy. Düşük bahis = güvenli oynama. Yüksek bahis = büyük risk, büyük ödül!",
+        "step3_title": "Cevabı ortaya çıkar",
+        "step3_desc": "Doğru cevap bahsini kazandırır. Yanlış cevap kaybettirir. Sonunda en çok puanı olan oyuncu kazanır!"
+      }
     },
     "charades": {
       "name": "Sessiz Sinema",
-      "description": "Canlandır — kelime kullanma!"
+      "description": "Canlandır — kelime kullanma!",
+      "howToPlay": {
+        "intro": "Gizli kelimeyi sadece jestler ve mimiklerle canlandır. Konuşma, ses çıkarma — sadece pandomim!",
+        "step1_title": "Kelimeni gör",
+        "step1_desc": "Canlandıran oyuncu kelimeyi telefonda gizlice görür. Kimseye gösterme — poker suratı tak!",
+        "step2_title": "Canlandır",
+        "step2_desc": "Sadece jestler, mimikler ve vücut dili kullan. Kelime yok, dudak okuma yok, ses yok!",
+        "step3_title": "Bağırarak tahmin et",
+        "step3_desc": "Diğer oyuncular yüksek sesle tahmin eder. Doğru bilince puan kazan, ardından sıra bir sonraki oyuncuya geçer!"
+      }
     },
     "paranoia": {
       "name": "Paranoya",
-      "description": "Fısıltılı sorular. Gizemli cevaplar."
+      "description": "Fısıltılı sorular. Gizemli cevaplar.",
+      "howToPlay": {
+        "intro": "Biri fısıldıyor bir soru. Biri gizlice işaret ediyor. Cevap hiç ortaya çıkacak mı?",
+        "step1_title": "Bir soru fısılda",
+        "step1_desc": "Bir oyuncu sağındaki oyuncuya 'Bu grupta kim...' diye başlayan bir soruyu fısıldayarak sorar.",
+        "step2_title": "Sessizce işaret et",
+        "step2_desc": "O oyuncu, cevabını açıklamadan en uygun gördüğü kişiyi sessizce işaret eder.",
+        "step3_title": "Yazı tura at",
+        "step3_desc": "Yazı tura at — yazı soruyu herkese açıklar, tura sonsuza dek gizli tutar. Paranoya büyüyor!"
+      }
     }
   },
   "promptGame": {
