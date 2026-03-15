@@ -114,7 +114,8 @@
     "ratings": "تقييم",
     "monthlyPrice": "4.99$/شهر",
     "yearlyPrice": "2.49$/شهر",
-    "savePct": "وفّر 50%"
+    "savePct": "وفّر 50%",
+    "ctaNoTrial": "احصل على PRO الآن"
   },
   "rating": {
     "title": "هل تستمتع باللعبة؟",
@@ -145,7 +146,10 @@
     "privacy": "سياسة الخصوصية",
     "terms": "شروط الاستخدام",
     "version": "الإصدار {{version}}",
-    "stats": "الإحصائيات والإنجازات"
+    "stats": "الإحصائيات والإنجازات",
+    "themeEmber": "جمر",
+    "themeParty": "حفلة",
+    "themeAurora": "أورورا"
   },
   "scoreboard": {
     "title": "لوحة النقاط",
@@ -471,5 +475,20 @@
   "howToPlay": {
     "title": "كيفية اللعب",
     "close": "فهمت!"
+  },
+  "discountPaywall": {
+    "tag": "عرض خاص",
+    "title": "انتظر — صفقة أخيرة.",
+    "subtitle": "الوصول الكامل إلى PRO بأقل سعر على الإطلاق.",
+    "originalPriceLabel": "السعر العادي",
+    "originalPrice": "4.99$/شهر",
+    "discountPriceLabel": "اليوم فقط",
+    "discountPrice": "1.67$/شهر",
+    "billedAnnually": "يُحصَّل مرة واحدة سنوياً بـ {{total}}$",
+    "saving": "توفر {{percent}}%",
+    "cta": "احصل على الصفقة ←",
+    "decline": "لا شكراً، سأدفع السعر الكامل",
+    "restore": "استعادة المشتريات",
+    "close": "إغلاق"
   }
 }

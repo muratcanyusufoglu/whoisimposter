@@ -114,7 +114,8 @@
     "ratings": "Bewertungen",
     "monthlyPrice": "4,99 €/Monat",
     "yearlyPrice": "2,49 €/Monat",
-    "savePct": "50% sparen"
+    "savePct": "50% sparen",
+    "ctaNoTrial": "Jetzt PRO werden"
   },
   "rating": {
     "title": "Macht dir das Spiel Spaß?",
@@ -145,7 +146,10 @@
     "privacy": "Datenschutz",
     "terms": "Nutzungsbedingungen",
     "version": "Version {{version}}",
-    "stats": "Statistiken & Erfolge"
+    "stats": "Statistiken & Erfolge",
+    "themeEmber": "Glut",
+    "themeParty": "Party",
+    "themeAurora": "Aurora"
   },
   "scoreboard": {
     "title": "Sitzungs-Bestenliste",
@@ -471,5 +475,20 @@
   "howToPlay": {
     "title": "Spielanleitung",
     "close": "Verstanden!"
+  },
+  "discountPaywall": {
+    "tag": "Sonderangebot",
+    "title": "Warte — ein letztes Angebot.",
+    "subtitle": "Hol dir vollen PRO-Zugang zum günstigsten Preis.",
+    "originalPriceLabel": "Regulärer Preis",
+    "originalPrice": "4,99 €/Monat",
+    "discountPriceLabel": "Nur heute",
+    "discountPrice": "1,67 €/Monat",
+    "billedAnnually": "Einmal jährlich mit {{total}} $ abgerechnet",
+    "saving": "Du sparst {{percent}}%",
+    "cta": "Angebot sichern →",
+    "decline": "Nein danke, ich zahle den vollen Preis",
+    "restore": "Käufe wiederherstellen",
+    "close": "Schließen"
   }
 }

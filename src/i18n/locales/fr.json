@@ -114,7 +114,8 @@
     "ratings": "avis",
     "monthlyPrice": "4,99 €/mois",
     "yearlyPrice": "2,49 €/mois",
-    "savePct": "Économisez 50%"
+    "savePct": "Économisez 50%",
+    "ctaNoTrial": "Obtenir PRO maintenant"
   },
   "rating": {
     "title": "Vous appréciez le jeu ?",
@@ -145,7 +146,10 @@
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
     "version": "Version {{version}}",
-    "stats": "Stats & Succès"
+    "stats": "Stats & Succès",
+    "themeEmber": "Braise",
+    "themeParty": "Party",
+    "themeAurora": "Aurora"
   },
   "scoreboard": {
     "title": "Classement de session",
@@ -471,5 +475,20 @@
   "howToPlay": {
     "title": "Comment jouer",
     "close": "Compris !"
+  },
+  "discountPaywall": {
+    "tag": "Offre spéciale",
+    "title": "Attends — une dernière offre.",
+    "subtitle": "Accès PRO complet au meilleur prix jamais proposé.",
+    "originalPriceLabel": "Prix habituel",
+    "originalPrice": "4,99 €/mois",
+    "discountPriceLabel": "Aujourd'hui seulement",
+    "discountPrice": "1,67 €/mois",
+    "billedAnnually": "Facturé une fois par an à {{total}} $",
+    "saving": "Tu économises {{percent}}%",
+    "cta": "Profiter de l'offre →",
+    "decline": "Non merci, je paierai le plein tarif",
+    "restore": "Restaurer les achats",
+    "close": "Fermer"
   }
 }

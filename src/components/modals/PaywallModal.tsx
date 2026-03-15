@@ -25,7 +25,7 @@ import { useTheme } from '@/theme'
 import { AppTheme } from '@/theme/types'
 import { spacing, radius, fontSize, fontFamily } from '@/theme/tokens'
 import { useSettingsStore } from '@/store/settingsStore'
-import { useSubscriptionStore } from '@/store/subscriptionStore'
+import { useSubscriptionStore, SubscriptionPrices } from '@/store/subscriptionStore'
 import { useHaptics } from '@/hooks/useHaptics'
 import { Button } from '@/components/ui/Button'
 import { Divider } from '@/components/ui/Divider'
@@ -41,14 +41,16 @@ type PlanId = 'monthly' | 'yearly'
 interface PaywallModalProps {
   visible: boolean
   onClose: () => void
+  /** Called only when the user explicitly dismisses without purchasing */
+  onDismiss?: () => void
 }
 
-export function PaywallModal({ visible, onClose }: PaywallModalProps) {
+export function PaywallModal({ visible, onClose, onDismiss }: PaywallModalProps) {
   const { theme } = useTheme()
   const { t } = useTranslation()
   const haptics = useHaptics()
   const incrementPaywallSeen = useSettingsStore((s) => s.incrementPaywallSeen)
-  const { purchaseMonthly, purchaseYearly, restore, isLoading } =
+  const { purchaseMonthly, purchaseYearly, restore, isLoading, prices } =
     useSubscriptionStore()
 
   const [selectedPlan, setSelectedPlan] = useState<PlanId>('yearly')
@@ -124,6 +126,9 @@ export function PaywallModal({ visible, onClose }: PaywallModalProps) {
   const handleClose = () => {
     haptics.light()
     onClose()
+    // Delay so the slide-out animation (250ms) finishes before the
+    // discount modal opens — avoids two modals animating simultaneously
+    if (onDismiss) setTimeout(onDismiss, 350)
   }
 
   return (
@@ -195,6 +200,7 @@ export function PaywallModal({ visible, onClose }: PaywallModalProps) {
               onSelect={() => setSelectedPlan('yearly')}
               theme={theme}
               t={t}
+              prices={prices}
             />
             <PlanCard
               id="monthly"
@@ -202,18 +208,25 @@ export function PaywallModal({ visible, onClose }: PaywallModalProps) {
               onSelect={() => setSelectedPlan('monthly')}
               theme={theme}
               t={t}
+              prices={prices}
             />
           </View>
 
-          {/* CTA */}
+          {/* CTA — shows free trial days if available, else generic CTA */}
           <Button
             variant="primary"
             size="lg"
             loading={isLoading}
             onPress={handlePurchase}
-            accessibilityLabel={t('paywall.cta')}
+            accessibilityLabel={
+              prices.trialDays != null
+                ? t('paywall.cta', { days: prices.trialDays })
+                : t('paywall.ctaNoTrial')
+            }
           >
-            {t('paywall.cta')}
+            {prices.trialDays != null
+              ? t('paywall.cta', { days: prices.trialDays })
+              : t('paywall.ctaNoTrial')}
           </Button>
 
           {/* Social proof */}
@@ -311,12 +324,14 @@ function PlanCard({
   onSelect,
   theme,
   t,
+  prices,
 }: {
   id: PlanId
   selected: boolean
   onSelect: () => void
   theme: AppTheme
-  t: (key: string) => string
+  t: (key: string, opts?: Record<string, unknown>) => string
+  prices: SubscriptionPrices
 }) {
   const scale = useSharedValue(1)
   const animStyle = useAnimatedStyle(() => ({ transform: [{ scale: scale.value }] }))
@@ -330,8 +345,17 @@ function PlanCard({
   }
 
   const isYearly = id === 'yearly'
-  const priceKey = isYearly ? 'paywall.yearlyPrice' : 'paywall.monthlyPrice'
   const periodKey = isYearly ? 'paywall.yearly' : 'paywall.monthly'
+
+  // Use live RC price if available, fall back to i18n string
+  const displayPrice = isYearly
+    ? (prices.yearlyPerMonth ? `${prices.yearlyPerMonth} / mo` : t('paywall.yearlyPrice'))
+    : (prices.monthly       ? `${prices.monthly} / mo`        : t('paywall.monthlyPrice'))
+
+  // Use live save % if available
+  const saveLine = isYearly && prices.yearlySavePct != null
+    ? t('paywall.savings', { percent: prices.yearlySavePct })
+    : isYearly ? t('paywall.savePct') : null
 
   return (
     <Animated.View style={animStyle}>
@@ -393,14 +417,14 @@ function PlanCard({
             >
               {t(periodKey)}
             </Text>
-            {isYearly && (
+            {saveLine != null && (
               <Text
                 style={[
                   styles.planSave,
                   { color: theme.status.success, fontFamily: fontFamily.body },
                 ]}
               >
-                {t('paywall.savePct')}
+                {saveLine}
               </Text>
             )}
           </View>
@@ -412,7 +436,7 @@ function PlanCard({
             { color: theme.text.primary, fontFamily: fontFamily.displayBold },
           ]}
         >
-          {t(priceKey)}
+          {displayPrice}
         </Text>
       </TouchableOpacity>
     </Animated.View>

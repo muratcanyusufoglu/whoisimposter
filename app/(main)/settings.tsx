@@ -27,6 +27,7 @@ import { useSettingsStore } from '@/store/settingsStore'
 import { useSubscriptionStore } from '@/store/subscriptionStore'
 import { useHaptics } from '@/hooks/useHaptics'
 import { PaywallModal } from '@/components/modals/PaywallModal'
+import { DiscountPaywallModal } from '@/components/modals/DiscountPaywallModal'
 import { ThemePickerModal } from '@/components/modals/ThemePickerModal'
 import { StatsModal } from '@/components/modals/StatsModal'
 import { Divider } from '@/components/ui/Divider'
@@ -73,7 +74,8 @@ export default function SettingsScreen() {
   const isPro             = useSubscriptionStore((s) => s.isPro)
   const setProOverride    = useSubscriptionStore((s) => s._setProOverride)
 
-  const [paywallVisible, setPaywallVisible]       = useState(false)
+  const [paywallVisible, setPaywallVisible]             = useState(false)
+  const [discountPaywallVisible, setDiscountPaywallVisible] = useState(false)
   const [themePickerVisible, setThemePickerVisible] = useState(false)
   const [langPickerVisible, setLangPickerVisible]   = useState(false)
   const [statsVisible, setStatsVisible]             = useState(false)
@@ -267,7 +269,15 @@ export default function SettingsScreen() {
         onPaywall={() => { setThemePickerVisible(false); setPaywallVisible(true) }}
       />
 
-      <PaywallModal visible={paywallVisible} onClose={() => setPaywallVisible(false)} />
+      <PaywallModal
+        visible={paywallVisible}
+        onClose={() => setPaywallVisible(false)}
+        onDismiss={() => setDiscountPaywallVisible(true)}
+      />
+      <DiscountPaywallModal
+        visible={discountPaywallVisible}
+        onClose={() => setDiscountPaywallVisible(false)}
+      />
       <StatsModal visible={statsVisible} onClose={() => setStatsVisible(false)} />
 
       {/* Language Picker */}

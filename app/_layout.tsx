@@ -31,7 +31,8 @@ initI18n()
 
 function RootLayoutInner() {
   const { themeId } = useTheme()
-  const checkStatus = useSubscriptionStore((s) => s.checkStatus)
+  const checkStatus  = useSubscriptionStore((s) => s.checkStatus)
+  const fetchPrices  = useSubscriptionStore((s) => s.fetchPrices)
 
   // ── F17.2: RevenueCat SDK init ─────────────────────────────────────────────
   useEffect(() => {
@@ -49,6 +50,7 @@ function RootLayoutInner() {
       }
       Purchases.configure({ apiKey: REVENUECAT_API_KEY })
       checkStatus()
+      fetchPrices()
     } catch (e) {
       // Expo Go doesn't support native store — continue gracefully
       if (__DEV__) console.warn('RevenueCat init skipped:', e)

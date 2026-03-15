@@ -33,6 +33,7 @@ import { CategoryCard } from '@/components/game/CategoryCard'
 import { Button } from '@/components/ui/Button'
 import { GameImage } from '@/components/game/GameImage'
 import { PaywallModal } from '@/components/modals/PaywallModal'
+import { DiscountPaywallModal } from '@/components/modals/DiscountPaywallModal'
 import { HowToPlayModal } from '@/components/modals/HowToPlayModal'
 import { GameConfig, GameModeId, Player } from '@/types'
 
@@ -88,6 +89,7 @@ export default function SetupScreen() {
   const [timerSeconds, setTimerSeconds] = useState<0 | 10 | 15 | 30>(0)
   const [advancedOpen, setAdvancedOpen] = useState(false)
   const [paywallVisible, setPaywallVisible] = useState(false)
+  const [discountPaywallVisible, setDiscountPaywallVisible] = useState(false)
   const [howToPlayVisible, setHowToPlayVisible] = useState(false)
 
   const inputRef = useRef<TextInput>(null)
@@ -559,6 +561,13 @@ export default function SetupScreen() {
       <PaywallModal
         visible={paywallVisible}
         onClose={() => setPaywallVisible(false)}
+        onDismiss={() => setDiscountPaywallVisible(true)}
+      />
+
+      {/* Discount paywall — shown when user dismisses main paywall */}
+      <DiscountPaywallModal
+        visible={discountPaywallVisible}
+        onClose={() => setDiscountPaywallVisible(false)}
       />
 
       {/* How to play instructions */}

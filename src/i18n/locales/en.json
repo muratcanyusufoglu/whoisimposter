@@ -114,7 +114,8 @@
     "ratings": "ratings",
     "monthlyPrice": "$4.99/mo",
     "yearlyPrice": "$2.49/mo",
-    "savePct": "Save 50%"
+    "savePct": "Save 50%",
+    "ctaNoTrial": "Get PRO Now"
   },
   "rating": {
     "title": "Enjoying the game?",
@@ -145,7 +146,10 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
     "version": "Version {{version}}",
-    "stats": "Stats & Achievements"
+    "stats": "Stats & Achievements",
+    "themeEmber": "Ember",
+    "themeParty": "Party",
+    "themeAurora": "Aurora"
   },
   "scoreboard": {
     "title": "Session Scoreboard",
@@ -471,5 +475,20 @@
     "minutes": "{{range}} min",
     "home": "Home",
     "settings": "Settings"
+  },
+  "discountPaywall": {
+    "tag": "Special Offer",
+    "title": "Wait — one last deal.",
+    "subtitle": "Get full PRO access at our lowest price ever.",
+    "originalPriceLabel": "Regular price",
+    "originalPrice": "$4.99/mo",
+    "discountPriceLabel": "Today only",
+    "discountPrice": "$1.67/mo",
+    "billedAnnually": "Billed once a year at {{total}}",
+    "saving": "You save {{percent}}%",
+    "cta": "Claim This Deal →",
+    "decline": "No thanks, I'll pay full price",
+    "restore": "Restore Purchases",
+    "close": "Close"
   }
 }

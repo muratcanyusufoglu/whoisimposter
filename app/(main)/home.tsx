@@ -27,6 +27,7 @@ import { GAME_MODES } from '@/data/games'
 import { GameModeCard } from '@/components/game/GameModeCard'
 import { RatingModal } from '@/components/modals/RatingModal'
 import { PaywallModal } from '@/components/modals/PaywallModal'
+import { DiscountPaywallModal } from '@/components/modals/DiscountPaywallModal'
 import { AnimatedBackground } from '@/components/layout/AnimatedBackground'
 import { GameModeDefinition } from '@/types'
 
@@ -52,6 +53,7 @@ export default function HomeScreen() {
 
   const [ratingVisible, setRatingVisible] = useState(false)
   const [paywallVisible, setPaywallVisible] = useState(false)
+  const [discountPaywallVisible, setDiscountPaywallVisible] = useState(false)
 
   // Guard so sequence only fires once per mount
   const sequenceFiredRef = useRef(false)
@@ -196,6 +198,13 @@ export default function HomeScreen() {
       <PaywallModal
         visible={paywallVisible}
         onClose={() => setPaywallVisible(false)}
+        onDismiss={() => setDiscountPaywallVisible(true)}
+      />
+
+      {/* Discount paywall — shown when user dismisses main paywall */}
+      <DiscountPaywallModal
+        visible={discountPaywallVisible}
+        onClose={() => setDiscountPaywallVisible(false)}
       />
     </SafeAreaView>
   )
