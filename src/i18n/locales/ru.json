@@ -31,7 +31,33 @@
   },
   "home": {
     "title": "Игры для вечеринок",
-    "quickResume": "Продолжить последнюю игру →"
+    "quickResume": "Продолжить последнюю игру →",
+    "favorite": "Добавить в избранное",
+    "unfavorite": "Удалить из избранного"
+  },
+  "presets": {
+    "sectionTitle": "Сохранённые пресеты",
+    "saveButton": "Сохранить как пресет",
+    "saveTitle": "Назовите пресет",
+    "playerCount": "{{count}} игроков",
+    "players": "игроков",
+    "maxReached": "Максимум 10 пресетов"
+  },
+  "emojiPicker": {
+    "title": "Выбрать аватар",
+    "people": "Люди",
+    "animals": "Животные",
+    "food": "Еда",
+    "objects": "Объекты",
+    "symbols": "Символы",
+    "reset": "Вернуть инициалы"
+  },
+  "customTheme": {
+    "label": "Свой",
+    "customPlus": "Свой +",
+    "pickBase": "Базовая тема",
+    "pickAccent": "Цвет акцента",
+    "apply": "Применить"
   },
   "setup": {
     "players": "Игроки",
@@ -151,7 +177,8 @@
     "themeParty": "Вечеринка",
     "themeSunset": "Закат",
     "themeGolden": "Золотой",
-    "themeAurora": "Аврора"
+    "themeAurora": "Аврора",
+    "themeCustom": "Свой"
   },
   "scoreboard": {
     "title": "Таблица сессии",

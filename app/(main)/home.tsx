@@ -1,8 +1,9 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import {
   View,
   Text,
   FlatList,
+  ScrollView,
   TouchableOpacity,
   StyleSheet,
   ListRenderItemInfo,
@@ -25,6 +26,7 @@ import { useGameStore } from '@/store/gameStore'
 import { useHaptics } from '@/hooks/useHaptics'
 import { GAME_MODES } from '@/data/games'
 import { GameModeCard } from '@/components/game/GameModeCard'
+import { PresetCard } from '@/components/game/PresetCard'
 import { RatingModal } from '@/components/modals/RatingModal'
 import { PaywallModal } from '@/components/modals/PaywallModal'
 import { DiscountPaywallModal } from '@/components/modals/DiscountPaywallModal'
@@ -32,7 +34,7 @@ import { AnimatedBackground } from '@/components/layout/AnimatedBackground'
 import { GameModeDefinition } from '@/types'
 
 // ─────────────────────────────────────────────────────────────────────────────
-// HOME SCREEN — Party game list + F8.3 modal sequence
+// HOME SCREEN — Party game list + presets strip + F8.3 modal sequence
 // ─────────────────────────────────────────────────────────────────────────────
 
 // F8.3 sequence timings
@@ -41,6 +43,9 @@ const PAYWALL_AFTER_RATING_MS = 500
 
 const SPRING = { damping: 20, stiffness: 200 }
 
+// Quick lookup map: modeId → GameModeDefinition
+const MODE_MAP = new Map(GAME_MODES.map((m) => [m.id, m]))
+
 export default function HomeScreen() {
   const { theme } = useTheme()
   const { t } = useTranslation()
@@ -48,6 +53,10 @@ export default function HomeScreen() {
 
   const ratingState = useSettingsStore((s) => s.ratingState)
   const paywallSeenCount = useSettingsStore((s) => s.paywallSeenCount)
+  const favoriteModeIds = useSettingsStore((s) => s.favoriteModeIds)
+  const toggleFavoriteMode = useSettingsStore((s) => s.toggleFavoriteMode)
+  const gamePresets = useSettingsStore((s) => s.gamePresets)
+  const deletePreset = useSettingsStore((s) => s.deletePreset)
   const isPro = useSubscriptionStore((s) => s.isPro)
   const roundPhase = useGameStore((s) => s.roundPhase)
 
@@ -114,20 +123,81 @@ export default function HomeScreen() {
       setPaywallVisible(true)
       return
     }
-    // F10 will create /(game)/setup — navigate with modeId param
     router.push({ pathname: '/(game)/setup', params: { modeId: mode.id } } as never)
+  }
+
+  const handlePresetPress = (presetId: string, modeId: string) => {
+    haptics.selection()
+    router.push({
+      pathname: '/(game)/setup',
+      params: { modeId, presetId },
+    } as never)
+  }
+
+  const handleDeletePreset = (presetId: string) => {
+    haptics.warning()
+    deletePreset(presetId)
   }
 
   const hasActiveGame = roundPhase !== 'idle'
 
+  // ── Sorted modes (favorites first) ────────────────────────────────────────
+  const sortedModes = useMemo(() => {
+    const favSet = new Set(favoriteModeIds)
+    return [
+      ...GAME_MODES.filter((m) => favSet.has(m.id)),
+      ...GAME_MODES.filter((m) => !favSet.has(m.id)),
+    ]
+  }, [favoriteModeIds])
+
+  const atFavoriteMax = favoriteModeIds.length >= 6
+
+  // ── Presets section (ListHeaderComponent) ─────────────────────────────────
+  const PresetsHeader =
+    gamePresets.length > 0 ? (
+      <View style={styles.presetsSection}>
+        <Text
+          style={[
+            styles.sectionLabel,
+            { color: theme.text.secondary, fontFamily: fontFamily.bodyMedium },
+          ]}
+        >
+          {t('presets.sectionTitle')}
+        </Text>
+        <ScrollView
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          contentContainerStyle={styles.presetsRow}
+        >
+          {gamePresets.map((preset) => {
+            const modeDef = MODE_MAP.get(preset.modeId)
+            if (!modeDef) return null
+            return (
+              <PresetCard
+                key={preset.id}
+                preset={preset}
+                modeDefinition={modeDef}
+                onPress={() => handlePresetPress(preset.id, preset.modeId)}
+                onDelete={() => handleDeletePreset(preset.id)}
+              />
+            )
+          })}
+        </ScrollView>
+      </View>
+    ) : null
+
   // ── Render item ────────────────────────────────────────────────────────────
   const renderItem = ({ item }: ListRenderItemInfo<GameModeDefinition>) => {
     const locked = item.isPremium && !isPro
+    const isFavorite = favoriteModeIds.includes(item.id)
     return (
       <GameModeCard
         mode={item}
         locked={locked}
         onPress={() => handleModePress(item, locked)}
+        isFavorite={isFavorite}
+        onToggleFavorite={() => toggleFavoriteMode(item.id)}
+        favoriteAtMax={atFavoriteMax}
       />
     )
   }
@@ -181,12 +251,13 @@ export default function HomeScreen() {
         </Animated.View>
       )}
 
-      {/* Game mode list */}
+      {/* Game mode list (with presets header) */}
       <Animated.View style={[styles.listWrap, listStyle]}>
         <FlatList<GameModeDefinition>
-          data={GAME_MODES}
+          data={sortedModes}
           keyExtractor={(item) => item.id}
           renderItem={renderItem}
+          ListHeaderComponent={PresetsHeader}
           contentContainerStyle={styles.listContent}
           showsVerticalScrollIndicator={false}
           ItemSeparatorComponent={() => <View style={styles.separator} />}
@@ -251,5 +322,18 @@ const styles = StyleSheet.create({
   },
   separator: {
     height: spacing.sm,
+  },
+  presetsSection: {
+    marginBottom: spacing.lg,
+  },
+  sectionLabel: {
+    fontSize: fontSize.sm,
+    marginBottom: spacing.sm,
+    textTransform: 'uppercase',
+    letterSpacing: 0.5,
+  },
+  presetsRow: {
+    gap: spacing.sm,
+    paddingBottom: spacing.xs,
   },
 })

@@ -31,7 +31,33 @@
   },
   "home": {
     "title": "Partyspiele",
-    "quickResume": "Letztes Spiel fortsetzen →"
+    "quickResume": "Letztes Spiel fortsetzen →",
+    "favorite": "Zu Favoriten hinzufügen",
+    "unfavorite": "Aus Favoriten entfernen"
+  },
+  "presets": {
+    "sectionTitle": "Gespeicherte Voreinstellungen",
+    "saveButton": "Als Voreinstellung speichern",
+    "saveTitle": "Voreinstellung benennen",
+    "playerCount": "{{count}} Spieler",
+    "players": "Spieler",
+    "maxReached": "Maximum 10 Voreinstellungen"
+  },
+  "emojiPicker": {
+    "title": "Avatar wählen",
+    "people": "Personen",
+    "animals": "Tiere",
+    "food": "Essen",
+    "objects": "Objekte",
+    "symbols": "Symbole",
+    "reset": "Zurück zu Initialen"
+  },
+  "customTheme": {
+    "label": "Benutzerdefiniert",
+    "customPlus": "Benutzerdefiniert +",
+    "pickBase": "Basisdesign",
+    "pickAccent": "Akzentfarbe",
+    "apply": "Anwenden"
   },
   "setup": {
     "players": "Spieler",
@@ -151,7 +177,8 @@
     "themeParty": "Party",
     "themeSunset": "Sunset",
     "themeGolden": "Golden",
-    "themeAurora": "Aurora"
+    "themeAurora": "Aurora",
+    "themeCustom": "Benutzerdefiniert"
   },
   "scoreboard": {
     "title": "Sitzungs-Bestenliste",

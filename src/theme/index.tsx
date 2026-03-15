@@ -1,6 +1,7 @@
-import React, { createContext, useContext } from 'react'
+import React, { createContext, useContext, useMemo } from 'react'
 import { AppTheme, ThemeId } from './types'
 import { darkTheme, lightTheme, neonTheme, candyTheme, partyTheme, sunsetTheme, goldenTheme, emberTheme, auroraTheme } from './themes'
+import { buildCustomTheme } from './themes/buildCustomTheme'
 import { useSettingsStore } from '@/store/settingsStore'
 
 export type { AppTheme, ThemeId }
@@ -8,10 +9,10 @@ export { darkTheme, lightTheme, neonTheme, candyTheme, partyTheme, sunsetTheme, 
 export * from './tokens'
 
 // ─────────────────────────────────────────────────────────────────────────────
-// THEME MAP
+// THEME MAP — 'custom' is excluded because it is built dynamically at runtime
 // ─────────────────────────────────────────────────────────────────────────────
 
-export const THEMES: Record<ThemeId, AppTheme> = {
+export const THEMES: Record<Exclude<ThemeId, 'custom'>, AppTheme> = {
   dark:   darkTheme,
   light:  lightTheme,
   neon:   neonTheme,
@@ -52,11 +53,20 @@ interface ThemeProviderProps {
 export function ThemeProvider({ children }: ThemeProviderProps) {
   const themeId = useSettingsStore((s) => s.theme)
   const setTheme = useSettingsStore((s) => s.setTheme)
+  const customAccentColor = useSettingsStore((s) => s.customAccentColor)
+  const customThemeBase = useSettingsStore((s) => s.customThemeBase)
+
+  const theme = useMemo<AppTheme>(() => {
+    if (themeId === 'custom') {
+      return buildCustomTheme(customThemeBase, customAccentColor)
+    }
+    return THEMES[themeId] ?? darkTheme
+  }, [themeId, customAccentColor, customThemeBase])
 
   return (
     <ThemeContext.Provider
       value={{
-        theme: THEMES[themeId] ?? darkTheme,
+        theme,
         themeId,
         setTheme,
       }}

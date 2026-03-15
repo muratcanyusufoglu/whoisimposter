@@ -8,6 +8,7 @@ import { Ionicons } from '@expo/vector-icons'
 import { useTheme } from '@/theme'
 import { spacing, radius, fontSize, fontFamily } from '@/theme/tokens'
 import { Player } from '@/types'
+import { Avatar } from '@/components/ui/Avatar'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // PlayerChip — Avatar circle + name + remove button
@@ -19,9 +20,11 @@ interface PlayerChipProps {
   onRemove: () => void
   /** Disable remove when at minimum player count */
   canRemove: boolean
+  /** Called when avatar is tapped — opens emoji picker */
+  onAvatarPress?: () => void
 }
 
-export function PlayerChip({ player, onRemove, canRemove }: PlayerChipProps) {
+export function PlayerChip({ player, onRemove, canRemove, onAvatarPress }: PlayerChipProps) {
   const { theme } = useTheme()
 
   const scale = useSharedValue(1)
@@ -43,12 +46,20 @@ export function PlayerChip({ player, onRemove, canRemove }: PlayerChipProps) {
         { backgroundColor: theme.bg.surface, borderColor: theme.border.subtle },
       ]}
     >
-      {/* Avatar */}
-      <View style={[styles.avatar, { backgroundColor: player.color }]}>
-        <Text style={[styles.initials, { color: '#fff', fontFamily: fontFamily.bodyBold }]}>
-          {player.initials}
-        </Text>
-      </View>
+      {/* Avatar — tappable to open emoji picker */}
+      <TouchableOpacity
+        onPress={onAvatarPress}
+        disabled={!onAvatarPress}
+        activeOpacity={onAvatarPress ? 0.7 : 1}
+        hitSlop={{ top: 4, bottom: 4, left: 4, right: 4 }}
+      >
+        <Avatar
+          name={player.name}
+          color={player.color}
+          size={28}
+          emoji={player.emoji}
+        />
+      </TouchableOpacity>
 
       {/* Name */}
       <Text
@@ -98,17 +109,6 @@ const styles = StyleSheet.create({
     paddingRight: spacing.xs,
     borderRadius: radius.full,
     borderWidth: 1,
-  },
-  avatar: {
-    width: 28,
-    height: 28,
-    borderRadius: 14,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  initials: {
-    fontSize: fontSize.xs,
-    lineHeight: 16,
   },
   name: {
     fontSize: fontSize.sm,

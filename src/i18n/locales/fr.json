@@ -31,7 +31,33 @@
   },
   "home": {
     "title": "Jeux de soirée",
-    "quickResume": "Reprendre la dernière partie →"
+    "quickResume": "Reprendre la dernière partie →",
+    "favorite": "Ajouter aux favoris",
+    "unfavorite": "Retirer des favoris"
+  },
+  "presets": {
+    "sectionTitle": "Préréglages sauvegardés",
+    "saveButton": "Enregistrer comme préréglage",
+    "saveTitle": "Nommez votre préréglage",
+    "playerCount": "{{count}} joueurs",
+    "players": "joueurs",
+    "maxReached": "Maximum 10 préréglages"
+  },
+  "emojiPicker": {
+    "title": "Choisir un avatar",
+    "people": "Personnes",
+    "animals": "Animaux",
+    "food": "Nourriture",
+    "objects": "Objets",
+    "symbols": "Symboles",
+    "reset": "Revenir aux initiales"
+  },
+  "customTheme": {
+    "label": "Personnalisé",
+    "customPlus": "Personnalisé +",
+    "pickBase": "Thème de base",
+    "pickAccent": "Couleur d'accentuation",
+    "apply": "Appliquer"
   },
   "setup": {
     "players": "Joueurs",
@@ -151,7 +177,8 @@
     "themeParty": "Party",
     "themeSunset": "Sunset",
     "themeGolden": "Doré",
-    "themeAurora": "Aurora"
+    "themeAurora": "Aurora",
+    "themeCustom": "Personnalisé"
   },
   "scoreboard": {
     "title": "Classement de session",

@@ -7,6 +7,7 @@ export interface Player {
   name: string
   color: string
   initials: string
+  emoji?: string   // optional emoji avatar, e.g. "🐱"
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -128,8 +129,24 @@ export interface VoteResult {
 // SETTINGS
 // ─────────────────────────────────────────────────────────────────────────────
 
-export type ThemeId = 'dark' | 'light' | 'neon' | 'candy' | 'party' | 'sunset' | 'golden' | 'ember' | 'aurora'
+export type ThemeId = 'dark' | 'light' | 'neon' | 'candy' | 'party' | 'sunset' | 'golden' | 'ember' | 'aurora' | 'custom'
 export type RatingState = 'unseen' | 'later' | 'done'
+
+// ─────────────────────────────────────────────────────────────────────────────
+// GAME PRESET
+// ─────────────────────────────────────────────────────────────────────────────
+
+export interface GamePreset {
+  id: string
+  name: string              // max 24 chars, user-chosen
+  modeId: GameModeId
+  playerNames: string[]
+  categories: string[]
+  impostersCount: 1 | 2
+  timerSeconds: 0 | 10 | 15 | 30
+  createdAt: number
+  emoji?: string            // decorative preset icon
+}
 
 // ─────────────────────────────────────────────────────────────────────────────
 // WORD / PROMPT DATA

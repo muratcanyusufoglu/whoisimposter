@@ -21,15 +21,28 @@ interface GameModeCardProps {
   mode: GameModeDefinition
   locked: boolean
   onPress: () => void
+  isFavorite?: boolean
+  onToggleFavorite?: () => void
+  favoriteAtMax?: boolean
 }
 
-export function GameModeCard({ mode, locked, onPress }: GameModeCardProps) {
+export function GameModeCard({
+  mode,
+  locked,
+  onPress,
+  isFavorite = false,
+  onToggleFavorite,
+  favoriteAtMax = false,
+}: GameModeCardProps) {
   const { theme } = useTheme()
   const { t } = useTranslation()
   const haptics = useHaptics()
 
   const scale = useSharedValue(1)
   const animStyle = useAnimatedStyle(() => ({ transform: [{ scale: scale.value }] }))
+
+  const heartScale = useSharedValue(1)
+  const heartAnimStyle = useAnimatedStyle(() => ({ transform: [{ scale: heartScale.value }] }))
 
   const handlePressIn = () => {
     scale.value = withSpring(0.97, { damping: 12, stiffness: 400 })
@@ -43,67 +56,104 @@ export function GameModeCard({ mode, locked, onPress }: GameModeCardProps) {
     onPress()
   }
 
-  return (
-    <Animated.View style={animStyle}>
-      <TouchableOpacity
-        onPressIn={handlePressIn}
-        onPressOut={handlePressOut}
-        onPress={handlePress}
-        activeOpacity={1}
-        style={[
-          styles.card,
-          {
-            backgroundColor: theme.bg.surface,
-            borderColor: theme.border.subtle,
-          },
-          locked && styles.lockedCard,
-        ]}
-        accessibilityLabel={t(mode.nameKey)}
-        accessibilityRole="button"
-      >
-        {/* Game image */}
-        <GameImage id={mode.id} size={44} />
+  const handleHeartPress = () => {
+    if (!onToggleFavorite) return
+    if (favoriteAtMax && !isFavorite) {
+      haptics.warning()
+      return
+    }
+    haptics.selection()
+    heartScale.value = withSpring(1.4, { damping: 8, stiffness: 400 }, () => {
+      heartScale.value = withSpring(1, { damping: 14, stiffness: 300 })
+    })
+    onToggleFavorite()
+  }
 
-        {/* Text */}
-        <View style={styles.textWrap}>
-          <View style={styles.nameRow}>
+  const heartDisabled = favoriteAtMax && !isFavorite
+
+  return (
+    <View style={styles.wrapper}>
+      <Animated.View style={animStyle}>
+        <TouchableOpacity
+          onPressIn={handlePressIn}
+          onPressOut={handlePressOut}
+          onPress={handlePress}
+          activeOpacity={1}
+          style={[
+            styles.card,
+            {
+              backgroundColor: theme.bg.surface,
+              borderColor: theme.border.subtle,
+            },
+            locked && styles.lockedCard,
+          ]}
+          accessibilityLabel={t(mode.nameKey)}
+          accessibilityRole="button"
+        >
+          {/* Game image */}
+          <GameImage id={mode.id} size={44} />
+
+          {/* Text */}
+          <View style={styles.textWrap}>
+            <View style={styles.nameRow}>
+              <Text
+                style={[
+                  styles.name,
+                  {
+                    color: locked ? theme.text.muted : theme.text.primary,
+                    fontFamily: fontFamily.bodyBold,
+                  },
+                ]}
+                numberOfLines={1}
+              >
+                {t(mode.nameKey)}
+              </Text>
+              {mode.isPremium && (
+                <Badge variant="pro" label={t('common.pro')} />
+              )}
+            </View>
             <Text
               style={[
-                styles.name,
-                {
-                  color: locked ? theme.text.muted : theme.text.primary,
-                  fontFamily: fontFamily.bodyBold,
-                },
+                styles.desc,
+                { color: theme.text.secondary, fontFamily: fontFamily.body },
               ]}
               numberOfLines={1}
             >
-              {t(mode.nameKey)}
+              {t(mode.descriptionKey)}
             </Text>
-            {mode.isPremium && (
-              <Badge variant="pro" label={t('common.pro')} />
+          </View>
+
+          {/* Right icon */}
+          <View style={styles.rightIcon}>
+            {locked ? (
+              <Ionicons name="lock-closed" size={18} color={theme.text.muted} />
+            ) : (
+              <Ionicons name="chevron-forward" size={20} color={theme.text.muted} />
             )}
           </View>
-          <Text
-            style={[
-              styles.desc,
-              { color: theme.text.secondary, fontFamily: fontFamily.body },
-            ]}
-            numberOfLines={1}
-          >
-            {t(mode.descriptionKey)}
-          </Text>
-        </View>
+        </TouchableOpacity>
+      </Animated.View>
 
-        {/* Right icon */}
-        <View style={styles.rightIcon}>
-          {locked ? (
-            <Ionicons name="lock-closed" size={18} color={theme.text.muted} />
-          ) : (
-            <Ionicons name="chevron-forward" size={20} color={theme.text.muted} />
-          )}
-        </View>
-      </TouchableOpacity>
-    </Animated.View>
+      {/* Heart favorite button — absolutely positioned over the card */}
+      {onToggleFavorite !== undefined && (
+        <TouchableOpacity
+          onPress={handleHeartPress}
+          style={styles.heartBtn}
+          hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+          accessibilityLabel={isFavorite ? t('home.unfavorite') : t('home.favorite')}
+          accessibilityRole="button"
+        >
+          <Animated.View style={heartAnimStyle}>
+            <Ionicons
+              name={isFavorite ? 'heart' : 'heart-outline'}
+              size={18}
+              color={isFavorite ? theme.accent.secondary : theme.text.muted}
+              style={{ opacity: heartDisabled ? 0.3 : 1 }}
+            />
+          </Animated.View>
+        </TouchableOpacity>
+      )}
+    </View>
   )
 }
 
@@ -112,6 +162,9 @@ export function GameModeCard({ mode, locked, onPress }: GameModeCardProps) {
 // ─────────────────────────────────────────────────────────────────────────────
 
 const styles = StyleSheet.create({
+  wrapper: {
+    position: 'relative',
+  },
   card: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -141,5 +194,11 @@ const styles = StyleSheet.create({
   },
   rightIcon: {
     marginLeft: spacing.xs,
+  },
+  heartBtn: {
+    position: 'absolute',
+    top: 8,
+    right: 8,
+    zIndex: 1,
   },
 })

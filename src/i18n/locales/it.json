@@ -31,7 +31,33 @@
   },
   "home": {
     "title": "Giochi di gruppo",
-    "quickResume": "Riprendi l'ultima partita →"
+    "quickResume": "Riprendi l'ultima partita →",
+    "favorite": "Aggiungi ai preferiti",
+    "unfavorite": "Rimuovi dai preferiti"
+  },
+  "presets": {
+    "sectionTitle": "Preset salvati",
+    "saveButton": "Salva come preset",
+    "saveTitle": "Dai un nome al preset",
+    "playerCount": "{{count}} giocatori",
+    "players": "giocatori",
+    "maxReached": "Massimo 10 preset"
+  },
+  "emojiPicker": {
+    "title": "Scegli un avatar",
+    "people": "Persone",
+    "animals": "Animali",
+    "food": "Cibo",
+    "objects": "Oggetti",
+    "symbols": "Simboli",
+    "reset": "Torna alle iniziali"
+  },
+  "customTheme": {
+    "label": "Personalizzato",
+    "customPlus": "Personalizzato +",
+    "pickBase": "Tema base",
+    "pickAccent": "Colore accento",
+    "apply": "Applica"
   },
   "setup": {
     "players": "Giocatori",
@@ -151,7 +177,8 @@
     "themeParty": "Party",
     "themeSunset": "Sunset",
     "themeGolden": "Dorato",
-    "themeAurora": "Aurora"
+    "themeAurora": "Aurora",
+    "themeCustom": "Personalizzato"
   },
   "scoreboard": {
     "title": "Classifica sessione",

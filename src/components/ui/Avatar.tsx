@@ -7,16 +7,17 @@ interface AvatarProps {
   color: string        // Player's assigned color (background)
   size?: number        // Diameter in px (default 48)
   style?: ViewStyle
+  emoji?: string       // Optional emoji to display instead of initials
 }
 
 /**
- * Circle avatar showing player initials on their assigned color background.
+ * Circle avatar showing player emoji or initials on their assigned color background.
  */
-export function Avatar({ name, color, size = 48, style }: AvatarProps) {
+export function Avatar({ name, color, size = 48, style, emoji }: AvatarProps) {
   const { theme } = useTheme()
 
   const initials = getInitials(name)
-  const textSize = size * 0.38
+  const textSize = emoji ? size * 0.52 : size * 0.38
 
   return (
     <View
@@ -39,11 +40,11 @@ export function Avatar({ name, color, size = 48, style }: AvatarProps) {
           {
             fontSize: textSize,
             color: theme.text.inverse,
-            fontFamily: fontFamily.displayBold,
+            fontFamily: emoji ? undefined : fontFamily.displayBold,
           },
         ]}
       >
-        {initials}
+        {emoji ?? initials}
       </Text>
     </View>
   )

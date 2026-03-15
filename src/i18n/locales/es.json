@@ -31,7 +31,33 @@
   },
   "home": {
     "title": "Juegos de fiesta",
-    "quickResume": "Continuar último juego →"
+    "quickResume": "Continuar último juego →",
+    "favorite": "Añadir a favoritos",
+    "unfavorite": "Eliminar de favoritos"
+  },
+  "presets": {
+    "sectionTitle": "Presets guardados",
+    "saveButton": "Guardar como preset",
+    "saveTitle": "Nombre tu preset",
+    "playerCount": "{{count}} jugadores",
+    "players": "jugadores",
+    "maxReached": "Máximo 10 presets"
+  },
+  "emojiPicker": {
+    "title": "Elige un avatar",
+    "people": "Personas",
+    "animals": "Animales",
+    "food": "Comida",
+    "objects": "Objetos",
+    "symbols": "Símbolos",
+    "reset": "Volver a iniciales"
+  },
+  "customTheme": {
+    "label": "Personalizado",
+    "customPlus": "Personalizado +",
+    "pickBase": "Tema base",
+    "pickAccent": "Color de acento",
+    "apply": "Aplicar"
   },
   "setup": {
     "players": "Jugadores",
@@ -151,7 +177,8 @@
     "themeParty": "Party",
     "themeSunset": "Sunset",
     "themeGolden": "Dorado",
-    "themeAurora": "Aurora"
+    "themeAurora": "Aurora",
+    "themeCustom": "Personalizado"
   },
   "scoreboard": {
     "title": "Marcador de sesión",

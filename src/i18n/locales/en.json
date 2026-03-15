@@ -31,7 +31,33 @@
   },
   "home": {
     "title": "Party Games",
-    "quickResume": "Continue last game →"
+    "quickResume": "Continue last game →",
+    "favorite": "Add to favorites",
+    "unfavorite": "Remove from favorites"
+  },
+  "presets": {
+    "sectionTitle": "Saved Presets",
+    "saveButton": "Save as Preset",
+    "saveTitle": "Name Your Preset",
+    "playerCount": "{{count}} players",
+    "players": "players",
+    "maxReached": "Maximum 10 presets"
+  },
+  "emojiPicker": {
+    "title": "Pick an Avatar",
+    "people": "People",
+    "animals": "Animals",
+    "food": "Food",
+    "objects": "Objects",
+    "symbols": "Symbols",
+    "reset": "Reset to initials"
+  },
+  "customTheme": {
+    "label": "Custom",
+    "customPlus": "Custom +",
+    "pickBase": "Base Theme",
+    "pickAccent": "Accent Color",
+    "apply": "Apply"
   },
   "setup": {
     "players": "Players",
@@ -151,7 +177,8 @@
     "themeParty": "Party",
     "themeSunset": "Sunset",
     "themeGolden": "Golden",
-    "themeAurora": "Aurora"
+    "themeAurora": "Aurora",
+    "themeCustom": "Custom"
   },
   "scoreboard": {
     "title": "Session Scoreboard",

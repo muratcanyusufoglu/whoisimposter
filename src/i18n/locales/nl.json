@@ -31,7 +31,33 @@
   },
   "home": {
     "title": "Feestspellen",
-    "quickResume": "Laatste spel hervatten →"
+    "quickResume": "Laatste spel hervatten →",
+    "favorite": "Toevoegen aan favorieten",
+    "unfavorite": "Verwijderen uit favorieten"
+  },
+  "presets": {
+    "sectionTitle": "Opgeslagen presets",
+    "saveButton": "Opslaan als preset",
+    "saveTitle": "Geef je preset een naam",
+    "playerCount": "{{count}} spelers",
+    "players": "spelers",
+    "maxReached": "Maximum 10 presets"
+  },
+  "emojiPicker": {
+    "title": "Kies een avatar",
+    "people": "Mensen",
+    "animals": "Dieren",
+    "food": "Eten",
+    "objects": "Objecten",
+    "symbols": "Symbolen",
+    "reset": "Terug naar initialen"
+  },
+  "customTheme": {
+    "label": "Aangepast",
+    "customPlus": "Aangepast +",
+    "pickBase": "Basisthema",
+    "pickAccent": "Accentkleur",
+    "apply": "Toepassen"
   },
   "setup": {
     "players": "Spelers",
@@ -151,7 +177,8 @@
     "themeParty": "Party",
     "themeSunset": "Sunset",
     "themeGolden": "Gouden",
-    "themeAurora": "Aurora"
+    "themeAurora": "Aurora",
+    "themeCustom": "Aangepast"
   },
   "scoreboard": {
     "title": "Sessiescoreboard",

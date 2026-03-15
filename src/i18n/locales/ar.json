@@ -31,7 +31,33 @@
   },
   "home": {
     "title": "ألعاب الحفلات",
-    "quickResume": "متابعة آخر لعبة →"
+    "quickResume": "متابعة آخر لعبة →",
+    "favorite": "إضافة إلى المفضلة",
+    "unfavorite": "إزالة من المفضلة"
+  },
+  "presets": {
+    "sectionTitle": "الإعدادات المحفوظة",
+    "saveButton": "حفظ كإعداد مسبق",
+    "saveTitle": "سمّ إعدادك المسبق",
+    "playerCount": "{{count}} لاعبين",
+    "players": "لاعبين",
+    "maxReached": "الحد الأقصى 10 إعدادات"
+  },
+  "emojiPicker": {
+    "title": "اختر صورة رمزية",
+    "people": "أشخاص",
+    "animals": "حيوانات",
+    "food": "طعام",
+    "objects": "أشياء",
+    "symbols": "رموز",
+    "reset": "العودة للأحرف الأولى"
+  },
+  "customTheme": {
+    "label": "مخصص",
+    "customPlus": "مخصص +",
+    "pickBase": "السمة الأساسية",
+    "pickAccent": "لون التمييز",
+    "apply": "تطبيق"
   },
   "setup": {
     "players": "اللاعبون",
@@ -151,7 +177,8 @@
     "themeParty": "حفلة",
     "themeSunset": "غروب",
     "themeGolden": "ذهبي",
-    "themeAurora": "أورورا"
+    "themeAurora": "أورورا",
+    "themeCustom": "مخصص"
   },
   "scoreboard": {
     "title": "لوحة النقاط",

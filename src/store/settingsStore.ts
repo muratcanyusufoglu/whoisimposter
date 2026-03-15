@@ -1,7 +1,7 @@
 import { create } from 'zustand'
 import { persist, createJSONStorage } from 'zustand/middleware'
 import { safeAsyncStorage } from '@/utils/storage'
-import { ThemeId, RatingState } from '@/types'
+import { ThemeId, RatingState, GameModeId, GamePreset } from '@/types'
 import { changeLanguage } from '@/i18n'
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -24,6 +24,17 @@ interface SettingsState {
   // Last-used setup (F10.6)
   lastPlayerNames: string[]
   lastCategories: string[]
+  lastPlayerEmojis: Record<string, string>  // name → emoji, persisted so avatars survive re-opens
+
+  // Feature: Favorite Modes
+  favoriteModeIds: GameModeId[]
+
+  // Feature: Saved Presets
+  gamePresets: GamePreset[]
+
+  // Feature: Custom Accent Theme
+  customAccentColor: string
+  customThemeBase: Exclude<ThemeId, 'custom'>
 
   // Hydration flag — false until persist rehydrates from AsyncStorage
   _hasHydrated: boolean
@@ -38,8 +49,21 @@ interface SettingsActions {
   updateRatingState: (state: RatingState) => void
   incrementPaywallSeen: () => void
   incrementGamesCompleted: () => void
-  saveLastSetup: (playerNames: string[], categories: string[]) => void
+  saveLastSetup: (playerNames: string[], categories: string[], playerEmojis?: Record<string, string>) => void
+  /** Immediately persist a single player's emoji (called on avatar select, before game start) */
+  setPlayerEmoji: (playerName: string, emoji: string | undefined) => void
   setHasHydrated: () => void
+
+  // Feature: Favorite Modes
+  toggleFavoriteMode: (modeId: GameModeId) => void
+
+  // Feature: Saved Presets
+  savePreset: (preset: Omit<GamePreset, 'id' | 'createdAt'>) => void
+  deletePreset: (presetId: string) => void
+
+  // Feature: Custom Accent Theme
+  setCustomAccentColor: (color: string) => void
+  setCustomThemeBase: (base: Exclude<ThemeId, 'custom'>) => void
 }
 
 export type SettingsStore = SettingsState & SettingsActions
@@ -60,6 +84,11 @@ const DEFAULTS: SettingsState = {
   gamesCompleted: 0,
   lastPlayerNames: [],
   lastCategories: [],
+  lastPlayerEmojis: {},
+  favoriteModeIds: [],
+  gamePresets: [],
+  customAccentColor: '#6C63FF',
+  customThemeBase: 'dark',
   _hasHydrated: false,
 }
 
@@ -97,10 +126,51 @@ export const useSettingsStore = create<SettingsStore>()(
       incrementGamesCompleted: () =>
         set((s) => ({ gamesCompleted: s.gamesCompleted + 1 })),
 
-      saveLastSetup: (playerNames, categories) =>
-        set({ lastPlayerNames: playerNames, lastCategories: categories }),
+      saveLastSetup: (playerNames, categories, playerEmojis = {}) =>
+        set({ lastPlayerNames: playerNames, lastCategories: categories, lastPlayerEmojis: playerEmojis }),
+
+      setPlayerEmoji: (playerName, emoji) =>
+        set((s) => {
+          const updated = { ...s.lastPlayerEmojis }
+          if (emoji) {
+            updated[playerName] = emoji
+          } else {
+            delete updated[playerName]
+          }
+          return { lastPlayerEmojis: updated }
+        }),
 
       setHasHydrated: () => set({ _hasHydrated: true }),
+
+      // Feature: Favorite Modes — toggle in array, max 6
+      toggleFavoriteMode: (modeId) =>
+        set((s) => {
+          const ids = s.favoriteModeIds
+          if (ids.includes(modeId)) {
+            return { favoriteModeIds: ids.filter((id) => id !== modeId) }
+          }
+          if (ids.length >= 6) return {}
+          return { favoriteModeIds: [...ids, modeId] }
+        }),
+
+      // Feature: Saved Presets — max 10
+      savePreset: (preset) =>
+        set((s) => {
+          if (s.gamePresets.length >= 10) return {}
+          const newPreset: GamePreset = {
+            ...preset,
+            id: `preset_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`,
+            createdAt: Date.now(),
+          }
+          return { gamePresets: [newPreset, ...s.gamePresets] }
+        }),
+
+      deletePreset: (presetId) =>
+        set((s) => ({ gamePresets: s.gamePresets.filter((p) => p.id !== presetId) })),
+
+      // Feature: Custom Accent Theme
+      setCustomAccentColor: (customAccentColor) => set({ customAccentColor }),
+      setCustomThemeBase: (customThemeBase) => set({ customThemeBase }),
     }),
     {
       name: '@whosimposter_settings',

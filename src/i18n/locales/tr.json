@@ -31,7 +31,33 @@
   },
   "home": {
     "title": "Parti Oyunları",
-    "quickResume": "Son oyuna devam et →"
+    "quickResume": "Son oyuna devam et →",
+    "favorite": "Favorilere ekle",
+    "unfavorite": "Favorilerden çıkar"
+  },
+  "presets": {
+    "sectionTitle": "Kayıtlı Presetler",
+    "saveButton": "Preset Olarak Kaydet",
+    "saveTitle": "Presete İsim Ver",
+    "playerCount": "{{count}} oyuncu",
+    "players": "oyuncu",
+    "maxReached": "Maksimum 10 preset"
+  },
+  "emojiPicker": {
+    "title": "Avatar Seç",
+    "people": "İnsanlar",
+    "animals": "Hayvanlar",
+    "food": "Yiyecek",
+    "objects": "Nesneler",
+    "symbols": "Semboller",
+    "reset": "Baş harflere dön"
+  },
+  "customTheme": {
+    "label": "Özel",
+    "customPlus": "Özel +",
+    "pickBase": "Temel Tema",
+    "pickAccent": "Vurgu Rengi",
+    "apply": "Uygula"
   },
   "setup": {
     "players": "Oyuncular",
@@ -151,7 +177,8 @@
     "themeParty": "Party",
     "themeSunset": "Sunset",
     "themeGolden": "Altın",
-    "themeAurora": "Aurora"
+    "themeAurora": "Aurora",
+    "themeCustom": "Özel"
   },
   "scoreboard": {
     "title": "Tur Skor Tablosu",

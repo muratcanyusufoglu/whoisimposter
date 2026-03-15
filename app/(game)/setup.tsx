@@ -35,6 +35,8 @@ import { GameImage } from '@/components/game/GameImage'
 import { PaywallModal } from '@/components/modals/PaywallModal'
 import { DiscountPaywallModal } from '@/components/modals/DiscountPaywallModal'
 import { HowToPlayModal } from '@/components/modals/HowToPlayModal'
+import { EmojiPickerModal } from '@/components/modals/EmojiPickerModal'
+import { SavePresetModal } from '@/components/modals/SavePresetModal'
 import { GameConfig, GameModeId, Player } from '@/types'
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -57,7 +59,7 @@ export default function SetupScreen() {
   const haptics = useHaptics()
 
   // Route params
-  const { modeId } = useLocalSearchParams<{ modeId: string }>()
+  const { modeId, presetId } = useLocalSearchParams<{ modeId: string; presetId?: string }>()
   const mode = GAME_MODES.find((m) => m.id === modeId) ?? GAME_MODES[0]
 
   // Stores
@@ -66,31 +68,56 @@ export default function SetupScreen() {
   const hapticsEnabled = useSettingsStore((s) => s.hapticsEnabled)
   const lastPlayerNames = useSettingsStore((s) => s.lastPlayerNames)
   const lastCategories = useSettingsStore((s) => s.lastCategories)
+  const lastPlayerEmojis = useSettingsStore((s) => s.lastPlayerEmojis)
   const saveLastSetup = useSettingsStore((s) => s.saveLastSetup)
+  const setPlayerEmoji = useSettingsStore((s) => s.setPlayerEmoji)
+  const gamePresets = useSettingsStore((s) => s.gamePresets)
+  const savePreset = useSettingsStore((s) => s.savePreset)
   const isPro = useSubscriptionStore((s) => s.isPro)
   const initGame = useGameStore((s) => s.initGame)
 
+  // Resolve preset (if navigated from home with a presetId)
+  const matchedPreset = presetId ? gamePresets.find((p) => p.id === presetId) : undefined
+
   // ── Local state ────────────────────────────────────────────────────────────
-  const [players, setPlayers] = useState<Player[]>(() =>
-    // Restore last player names on mount (F10.6)
-    lastPlayerNames.length >= 3
-      ? lastPlayerNames.map((name, i) => playerManager.createPlayer(name, i))
-      : [],
-  )
+  const [players, setPlayers] = useState<Player[]>(() => {
+    // If preset provided, use preset player names (presets don't carry emojis — use lastPlayerEmojis for those)
+    if (matchedPreset && matchedPreset.playerNames.length >= 3) {
+      return matchedPreset.playerNames.map((name, i) => ({
+        ...playerManager.createPlayer(name, i),
+        emoji: lastPlayerEmojis[name],
+      }))
+    }
+    // Restore last player names + their emojis on mount (F10.6)
+    return lastPlayerNames.length >= 3
+      ? lastPlayerNames.map((name, i) => ({
+          ...playerManager.createPlayer(name, i),
+          emoji: lastPlayerEmojis[name],
+        }))
+      : []
+  })
   const [nameInput, setNameInput] = useState('')
   const [inputError, setInputError] = useState<string | null>(null)
 
-  const [selectedCategories, setSelectedCategories] = useState<string[]>(() =>
-    // Restore last categories (F10.6)
-    lastCategories.length > 0 ? lastCategories : ['food'],
-  )
+  const [selectedCategories, setSelectedCategories] = useState<string[]>(() => {
+    if (matchedPreset && matchedPreset.categories.length > 0) return matchedPreset.categories
+    return lastCategories.length > 0 ? lastCategories : ['food']
+  })
 
-  const [impostersCount, setImpostersCount] = useState<1 | 2>(1)
-  const [timerSeconds, setTimerSeconds] = useState<0 | 10 | 15 | 30>(0)
+  const [impostersCount, setImpostersCount] = useState<1 | 2>(matchedPreset?.impostersCount ?? 1)
+  const [timerSeconds, setTimerSeconds] = useState<0 | 10 | 15 | 30>(matchedPreset?.timerSeconds ?? 0)
   const [advancedOpen, setAdvancedOpen] = useState(false)
   const [paywallVisible, setPaywallVisible] = useState(false)
   const [discountPaywallVisible, setDiscountPaywallVisible] = useState(false)
   const [howToPlayVisible, setHowToPlayVisible] = useState(false)
+
+  // Emoji picker state
+  const [emojiTarget, setEmojiTarget] = useState<string | null>(null)
+  const [emojiPickerVisible, setEmojiPickerVisible] = useState(false)
+
+  // Save preset modal state
+  const [savePresetVisible, setSavePresetVisible] = useState(false)
+  const atPresetMax = gamePresets.length >= 10
 
   const inputRef = useRef<TextInput>(null)
 
@@ -132,6 +159,42 @@ export default function SetupScreen() {
       setPlayers((prev) => prev.filter((p) => p.id !== playerId))
     },
     [haptics],
+  )
+
+  const handleAvatarPress = useCallback((playerId: string) => {
+    setEmojiTarget(playerId)
+    setEmojiPickerVisible(true)
+  }, [])
+
+  const handleEmojiSelect = useCallback(
+    (emoji: string | undefined) => {
+      if (!emojiTarget) return
+      setPlayers((prev) => {
+        const updated = prev.map((p) => (p.id === emojiTarget ? { ...p, emoji } : p))
+        // Immediately persist so avatars survive navigation back without starting a game
+        const target = updated.find((p) => p.id === emojiTarget)
+        if (target) setPlayerEmoji(target.name, emoji)
+        return updated
+      })
+      setEmojiTarget(null)
+    },
+    [emojiTarget, setPlayerEmoji],
+  )
+
+  const handleSavePreset = useCallback(
+    (name: string, presetEmoji?: string) => {
+      savePreset({
+        name,
+        modeId: mode.id as GameModeId,
+        playerNames: players.map((p) => p.name),
+        categories: selectedCategories,
+        impostersCount,
+        timerSeconds,
+        emoji: presetEmoji,
+      })
+      haptics.medium()
+    },
+    [savePreset, mode.id, players, selectedCategories, impostersCount, timerSeconds, haptics],
   )
 
   // ── Category handlers ──────────────────────────────────────────────────────
@@ -177,10 +240,13 @@ export default function SetupScreen() {
 
     haptics.medium()
 
-    // Persist last setup (F10.6)
+    // Persist last setup (F10.6) — includes emoji map so avatars survive re-opens
+    const emojiMap: Record<string, string> = {}
+    players.forEach((p) => { if (p.emoji) emojiMap[p.name] = p.emoji })
     saveLastSetup(
       players.map((p) => p.name),
       selectedCategories,
+      emojiMap,
     )
 
     const config: GameConfig = {
@@ -376,6 +442,7 @@ export default function SetupScreen() {
                   player={player}
                   onRemove={() => handleRemovePlayer(player.id)}
                   canRemove={players.length > mode.minPlayers}
+                  onAvatarPress={() => handleAvatarPress(player.id)}
                 />
               ))}
             </View>
@@ -531,6 +598,28 @@ export default function SetupScreen() {
             </View>
           )}
 
+          {/* Save as Preset button */}
+          <TouchableOpacity
+            onPress={() => setSavePresetVisible(true)}
+            style={[
+              styles.savePresetBtn,
+              {
+                borderColor: theme.border.default,
+              },
+            ]}
+            accessibilityRole="button"
+          >
+            <Ionicons name="bookmark-outline" size={16} color={theme.text.muted} />
+            <Text
+              style={[
+                styles.savePresetText,
+                { color: theme.text.muted, fontFamily: fontFamily.body },
+              ]}
+            >
+              {t('presets.saveButton')}
+            </Text>
+          </TouchableOpacity>
+
           {/* Bottom spacer for CTA */}
           <View style={styles.ctaSpacer} />
         </ScrollView>
@@ -575,6 +664,29 @@ export default function SetupScreen() {
         visible={howToPlayVisible}
         onClose={() => setHowToPlayVisible(false)}
         mode={mode}
+      />
+
+      {/* Emoji picker for player avatars */}
+      <EmojiPickerModal
+        visible={emojiPickerVisible}
+        currentEmoji={players.find((p) => p.id === emojiTarget)?.emoji}
+        onSelect={handleEmojiSelect}
+        onClose={() => {
+          setEmojiPickerVisible(false)
+          setEmojiTarget(null)
+        }}
+      />
+
+      {/* Save preset modal */}
+      <SavePresetModal
+        visible={savePresetVisible}
+        onClose={() => setSavePresetVisible(false)}
+        onSave={(name, emoji) => {
+          handleSavePreset(name, emoji)
+          setSavePresetVisible(false)
+        }}
+        defaultName={`${t(mode.nameKey)} ${players.length}p`}
+        isAtMax={atPresetMax}
       />
     </SafeAreaView>
   )
@@ -828,6 +940,19 @@ const styles = StyleSheet.create({
     borderWidth: 1,
   },
   chipOptionText: {
+    fontSize: fontSize.sm,
+  },
+  savePresetBtn: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: spacing.xs,
+    paddingVertical: spacing.sm,
+    borderRadius: radius.lg,
+    borderWidth: 1,
+    marginTop: spacing.xs,
+  },
+  savePresetText: {
     fontSize: fontSize.sm,
   },
   ctaSpacer: {

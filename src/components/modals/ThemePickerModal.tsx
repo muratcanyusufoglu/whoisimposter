@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
 import Animated, {
   useSharedValue,
@@ -10,15 +11,18 @@ import { useTheme } from '@/theme'
 import { AppTheme, ThemeId } from '@/theme/types'
 import { spacing, radius, fontSize, fontFamily } from '@/theme/tokens'
 import { THEMES } from '@/theme'
+import { useSettingsStore } from '@/store/settingsStore'
 import { useSubscriptionStore } from '@/store/subscriptionStore'
 import { useHaptics } from '@/hooks/useHaptics'
 import { Modal } from '@/components/ui/Modal'
+import { AccentColorPickerModal } from '@/components/modals/AccentColorPickerModal'
 
 // ─────────────────────────────────────────────────────────────────────────────
-// THEME PICKER MODAL — 9 themes in a perfect 3×3 grid
+// THEME PICKER MODAL — 9 themes in a 3×3 grid + Custom+ row
 // Row 1: Dark (free) · Light (free) · Neon (free)
 // Row 2: Candy (free) · Party (free) · Sunset (free)
 // Row 3: Golden (free) · Ember (PRO) · Aurora (PRO)
+// Row 4: Custom + (full-width pill)
 // ─────────────────────────────────────────────────────────────────────────────
 
 interface ThemePickerModalProps {
@@ -53,6 +57,12 @@ export function ThemePickerModal({
   const { t } = useTranslation()
   const haptics = useHaptics()
   const isPro = useSubscriptionStore((s) => s.isPro)
+  const customAccentColor = useSettingsStore((s) => s.customAccentColor)
+  const customThemeBase = useSettingsStore((s) => s.customThemeBase)
+  const setCustomAccentColor = useSettingsStore((s) => s.setCustomAccentColor)
+  const setCustomThemeBase = useSettingsStore((s) => s.setCustomThemeBase)
+
+  const [accentPickerVisible, setAccentPickerVisible] = useState(false)
 
   const handleSelect = (id: ThemeId, isPremium: boolean) => {
     if (isPremium && !isPro) {
@@ -66,9 +76,22 @@ export function ThemePickerModal({
     setTimeout(onClose, 300)
   }
 
+  const handleCustomPress = () => {
+    haptics.selection()
+    setAccentPickerVisible(true)
+  }
+
+  const handleAccentApply = (accent: string, base: Exclude<ThemeId, 'custom'>) => {
+    setCustomAccentColor(accent)
+    setCustomThemeBase(base)
+    setTheme('custom')
+    setAccentPickerVisible(false)
+    setTimeout(onClose, 300)
+  }
+
   const renderRow = (row: typeof THEME_DEFS) =>
     row.map(({ id, labelKey, isPremium }) => {
-      const themeData = THEMES[id]
+      const themeData = THEMES[id as Exclude<ThemeId, 'custom'>]
       const isSelected = themeId === id
       const locked = isPremium && !isPro
 
@@ -86,34 +109,88 @@ export function ThemePickerModal({
       )
     })
 
+  const isCustomSelected = themeId === 'custom'
+
   return (
-    <Modal visible={visible} position="center" onClose={onClose}>
-      <View style={styles.content}>
-        <Text
-          style={[
-            styles.title,
-            { color: theme.text.primary, fontFamily: fontFamily.displayBold },
-          ]}
-        >
-          {t('settings.theme')}
-        </Text>
+    <>
+      <Modal visible={visible} position="center" onClose={onClose}>
+        <View style={styles.content}>
+          <Text
+            style={[
+              styles.title,
+              { color: theme.text.primary, fontFamily: fontFamily.displayBold },
+            ]}
+          >
+            {t('settings.theme')}
+          </Text>
 
-        {/* Row 1: Dark · Light · Neon */}
-        <View style={styles.swatchRow}>
-          {renderRow(ROW_1)}
-        </View>
+          {/* Row 1: Dark · Light · Neon */}
+          <View style={styles.swatchRow}>
+            {renderRow(ROW_1)}
+          </View>
 
-        {/* Row 2: Candy · Party · Sunset */}
-        <View style={styles.swatchRow}>
-          {renderRow(ROW_2)}
-        </View>
+          {/* Row 2: Candy · Party · Sunset */}
+          <View style={styles.swatchRow}>
+            {renderRow(ROW_2)}
+          </View>
 
-        {/* Row 3: Golden · Ember (PRO) · Aurora (PRO) */}
-        <View style={styles.swatchRow}>
-          {renderRow(ROW_3)}
+          {/* Row 3: Golden · Ember (PRO) · Aurora (PRO) */}
+          <View style={styles.swatchRow}>
+            {renderRow(ROW_3)}
+          </View>
+
+          {/* Row 4: Custom + full-width pill */}
+          <TouchableOpacity
+            onPress={handleCustomPress}
+            style={[
+              styles.customPill,
+              {
+                backgroundColor: theme.bg.elevated,
+                borderColor: isCustomSelected ? theme.accent.primary : theme.border.default,
+                borderWidth: isCustomSelected ? 2 : 1,
+              },
+            ]}
+            accessibilityLabel={t('customTheme.customPlus')}
+            accessibilityRole="button"
+          >
+            {/* Accent preview circle */}
+            <View
+              style={[
+                styles.accentCircle,
+                { backgroundColor: customAccentColor },
+              ]}
+            />
+            <Text
+              style={[
+                styles.customPillLabel,
+                {
+                  color: isCustomSelected ? theme.accent.primary : theme.text.secondary,
+                  fontFamily: isCustomSelected ? fontFamily.bodyBold : fontFamily.bodyMedium,
+                },
+              ]}
+            >
+              {t('customTheme.customPlus')}
+            </Text>
+            {isCustomSelected && (
+              <Ionicons
+                name="checkmark-circle"
+                size={18}
+                color={theme.accent.primary}
+                style={styles.customCheck}
+              />
+            )}
+          </TouchableOpacity>
         </View>
-      </View>
-    </Modal>
+      </Modal>
+
+      <AccentColorPickerModal
+        visible={accentPickerVisible}
+        onClose={() => setAccentPickerVisible(false)}
+        currentAccent={customAccentColor}
+        currentBase={customThemeBase}
+        onApply={handleAccentApply}
+      />
+    </>
   )
 }
 
@@ -319,5 +396,27 @@ const styles = StyleSheet.create({
     fontSize: fontSize.xs,
     textAlign: 'center',
     marginTop: 4,
+  },
+  // ── Custom pill ────────────────────────────────────────────────────────────
+  customPill: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
+    paddingVertical: spacing.sm,
+    paddingHorizontal: spacing.md,
+    borderRadius: radius.lg,
+    marginTop: spacing.xs,
+  },
+  accentCircle: {
+    width: 22,
+    height: 22,
+    borderRadius: radius.full,
+  },
+  customPillLabel: {
+    flex: 1,
+    fontSize: fontSize.sm,
+  },
+  customCheck: {
+    marginLeft: spacing.xs,
   },
 })
