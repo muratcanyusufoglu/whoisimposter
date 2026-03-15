@@ -15,10 +15,10 @@ import { useHaptics } from '@/hooks/useHaptics'
 import { Modal } from '@/components/ui/Modal'
 
 // ─────────────────────────────────────────────────────────────────────────────
-// THEME PICKER MODAL — 7 themes in a 3+2+2 grid
+// THEME PICKER MODAL — 9 themes in a perfect 3×3 grid
 // Row 1: Dark (free) · Light (free) · Neon (free)
-// Row 2: Candy (free) · Party (free)
-// Row 3: Ember (PRO) · Aurora (PRO)
+// Row 2: Candy (free) · Party (free) · Sunset (free)
+// Row 3: Golden (free) · Ember (PRO) · Aurora (PRO)
 // ─────────────────────────────────────────────────────────────────────────────
 
 interface ThemePickerModalProps {
@@ -33,14 +33,16 @@ const THEME_DEFS: { id: ThemeId; labelKey: string; isPremium: boolean }[] = [
   { id: 'neon',   labelKey: 'settings.themeNeon',   isPremium: false },
   { id: 'candy',  labelKey: 'settings.themeCandy',  isPremium: false },
   { id: 'party',  labelKey: 'settings.themeParty',  isPremium: false },
+  { id: 'sunset', labelKey: 'settings.themeSunset', isPremium: false },
+  { id: 'golden', labelKey: 'settings.themeGolden', isPremium: false },
   { id: 'ember',  labelKey: 'settings.themeEmber',  isPremium: true  },
   { id: 'aurora', labelKey: 'settings.themeAurora', isPremium: true  },
 ]
 
-// Row 1: free trio  |  Row 2: free pair  |  Row 3: PRO pair
+// Perfect 3×3 grid
 const ROW_1 = THEME_DEFS.slice(0, 3)
-const ROW_2 = THEME_DEFS.slice(3, 5)
-const ROW_3 = THEME_DEFS.slice(5, 7)
+const ROW_2 = THEME_DEFS.slice(3, 6)
+const ROW_3 = THEME_DEFS.slice(6, 9)
 
 export function ThemePickerModal({
   visible,
@@ -101,12 +103,12 @@ export function ThemePickerModal({
           {renderRow(ROW_1)}
         </View>
 
-        {/* Row 2: Candy · Party */}
+        {/* Row 2: Candy · Party · Sunset */}
         <View style={styles.swatchRow}>
           {renderRow(ROW_2)}
         </View>
 
-        {/* Row 3: Ember · Aurora (PRO) */}
+        {/* Row 3: Golden · Ember (PRO) · Aurora (PRO) */}
         <View style={styles.swatchRow}>
           {renderRow(ROW_3)}
         </View>

@@ -1,10 +1,10 @@
 import React, { createContext, useContext } from 'react'
 import { AppTheme, ThemeId } from './types'
-import { darkTheme, lightTheme, neonTheme, candyTheme, partyTheme, emberTheme, auroraTheme } from './themes'
+import { darkTheme, lightTheme, neonTheme, candyTheme, partyTheme, sunsetTheme, goldenTheme, emberTheme, auroraTheme } from './themes'
 import { useSettingsStore } from '@/store/settingsStore'
 
 export type { AppTheme, ThemeId }
-export { darkTheme, lightTheme, neonTheme, candyTheme, partyTheme, emberTheme, auroraTheme }
+export { darkTheme, lightTheme, neonTheme, candyTheme, partyTheme, sunsetTheme, goldenTheme, emberTheme, auroraTheme }
 export * from './tokens'
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -17,6 +17,8 @@ export const THEMES: Record<ThemeId, AppTheme> = {
   neon:   neonTheme,
   candy:  candyTheme,
   party:  partyTheme,
+  sunset: sunsetTheme,
+  golden: goldenTheme,
   ember:  emberTheme,
   aurora: auroraTheme,
 }
