@@ -36,6 +36,10 @@ interface SettingsState {
   customAccentColor: string
   customThemeBase: Exclude<ThemeId, 'custom'>
 
+  // Feature: Notifications
+  notificationsEnabled: boolean
+  discountNotificationId: string | null  // null = not yet scheduled
+
   // Hydration flag — false until persist rehydrates from AsyncStorage
   _hasHydrated: boolean
 }
@@ -64,6 +68,10 @@ interface SettingsActions {
   // Feature: Custom Accent Theme
   setCustomAccentColor: (color: string) => void
   setCustomThemeBase: (base: Exclude<ThemeId, 'custom'>) => void
+
+  // Feature: Notifications
+  setNotificationsEnabled: (enabled: boolean) => void
+  setDiscountNotificationId: (id: string | null) => void
 }
 
 export type SettingsStore = SettingsState & SettingsActions
@@ -89,6 +97,8 @@ const DEFAULTS: SettingsState = {
   gamePresets: [],
   customAccentColor: '#6C63FF',
   customThemeBase: 'dark',
+  notificationsEnabled: false,
+  discountNotificationId: null,
   _hasHydrated: false,
 }
 
@@ -171,6 +181,10 @@ export const useSettingsStore = create<SettingsStore>()(
       // Feature: Custom Accent Theme
       setCustomAccentColor: (customAccentColor) => set({ customAccentColor }),
       setCustomThemeBase: (customThemeBase) => set({ customThemeBase }),
+
+      // Feature: Notifications
+      setNotificationsEnabled: (notificationsEnabled) => set({ notificationsEnabled }),
+      setDiscountNotificationId: (discountNotificationId) => set({ discountNotificationId }),
     }),
     {
       name: '@whosimposter_settings',

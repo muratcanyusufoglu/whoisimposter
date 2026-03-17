@@ -20,7 +20,6 @@ import Animated, {
 import { useTranslation } from 'react-i18next'
 import { useTheme } from '@/theme'
 import { spacing, radius, fontSize, fontFamily } from '@/theme/tokens'
-import { useSettingsStore } from '@/store/settingsStore'
 import { useHaptics } from '@/hooks/useHaptics'
 import { Button } from '@/components/ui/Button'
 import { ProgressDots } from '@/components/ui/ProgressDots'
@@ -53,8 +52,6 @@ export default function GamesShowcaseScreen() {
   const { theme } = useTheme()
   const { t } = useTranslation()
   const haptics = useHaptics()
-  const completeOnboarding = useSettingsStore((s) => s.completeOnboarding)
-
   // ── Entrance animations ────────────────────────────────────────────────────
   const op0 = useSharedValue(0)
   const ty0 = useSharedValue(20)
@@ -85,13 +82,10 @@ export default function GamesShowcaseScreen() {
     transform: [{ translateY: ty2.value }],
   }))
 
-  // ── Complete onboarding ────────────────────────────────────────────────────
+  // ── Navigate to personalize screen ────────────────────────────────────────
   const handleStart = () => {
-    haptics.success()
-    completeOnboarding()
-    // Modals (F8) will be triggered from the home screen on first visit.
-    // For now, navigate directly to home.
-    router.replace('/(main)/home')
+    haptics.medium()
+    router.push('/onboarding/personalize')
   }
 
   // ── Render item ────────────────────────────────────────────────────────────
@@ -229,7 +223,7 @@ export default function GamesShowcaseScreen() {
 
       {/* Footer */}
       <View style={styles.footer}>
-        <ProgressDots total={4} current={3} />
+        <ProgressDots total={6} current={3} />
         <Animated.View style={[styles.ctaWrap, style2]}>
           <Button
             variant="primary"

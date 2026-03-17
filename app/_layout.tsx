@@ -44,6 +44,11 @@ function RootLayoutInner() {
       REVENUECAT_API_KEY.includes('REPLACE_WITH')
     if (isPlaceholder) return
 
+    // Keep isPro in sync with RC server events:
+    // subscription renewals, expiries, server-side revocations,
+    // and purchases made on another device.
+    const onCustomerInfoUpdate = () => checkStatus()
+
     try {
       if (__DEV__) {
         Purchases.setLogLevel(LOG_LEVEL.DEBUG)
@@ -51,9 +56,14 @@ function RootLayoutInner() {
       Purchases.configure({ apiKey: REVENUECAT_API_KEY })
       checkStatus()
       fetchPrices()
+      Purchases.addCustomerInfoUpdateListener(onCustomerInfoUpdate)
     } catch (e) {
       // Expo Go doesn't support native store — continue gracefully
       if (__DEV__) console.warn('RevenueCat init skipped:', e)
+    }
+
+    return () => {
+      Purchases.removeCustomerInfoUpdateListener(onCustomerInfoUpdate)
     }
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 

@@ -58,7 +58,14 @@
           "microphonePermission": false
         }
       ],
-      "expo-build-properties"
+      "expo-build-properties",
+      [
+        "expo-notifications",
+        {
+          "color": "#7C3AED",
+          "sounds": []
+        }
+      ]
     ],
     "extra": {
       "privacyPolicyUrl": "https://whosimposter.party/privacy",

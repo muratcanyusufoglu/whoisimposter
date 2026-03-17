@@ -19,6 +19,8 @@ export default function OnboardingLayout() {
       <Stack.Screen name="welcome" />
       <Stack.Screen name="how-to-play" />
       <Stack.Screen name="games-showcase" />
+      <Stack.Screen name="personalize" />
+      <Stack.Screen name="notifications" />
     </Stack>
   )
 }

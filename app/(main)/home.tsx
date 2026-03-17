@@ -31,6 +31,7 @@ import { RatingModal } from '@/components/modals/RatingModal'
 import { PaywallModal } from '@/components/modals/PaywallModal'
 import { DiscountPaywallModal } from '@/components/modals/DiscountPaywallModal'
 import { AnimatedBackground } from '@/components/layout/AnimatedBackground'
+import { addNotificationResponseListener } from '@/utils/notifications'
 import { GameModeDefinition } from '@/types'
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -66,6 +67,16 @@ export default function HomeScreen() {
 
   // Guard so sequence only fires once per mount
   const sequenceFiredRef = useRef(false)
+
+  // ── Notification tap → open discount paywall ──────────────────────────────
+  useEffect(() => {
+    const subscription = addNotificationResponseListener((data) => {
+      if (data.type === 'discount') {
+        setDiscountPaywallVisible(true)
+      }
+    })
+    return () => subscription.remove()
+  }, [])
 
   // ── F8.3 Modal sequence ────────────────────────────────────────────────────
   useEffect(() => {

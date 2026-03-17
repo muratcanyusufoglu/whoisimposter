@@ -158,7 +158,7 @@ export default function HowToPlayScreen() {
 
         {/* Footer */}
         <View style={styles.footer}>
-          <ProgressDots total={4} current={2} />
+          <ProgressDots total={6} current={2} />
           <Animated.View style={[styles.ctaWrap, style4]}>
             <Button
               variant="primary"
