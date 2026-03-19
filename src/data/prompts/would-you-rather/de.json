@@ -1,0 +1,607 @@
+{
+  "gameId": "would-you-rather",
+  "locale": "de",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "wyr_de_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber immer einen vollen Akku oder überall kostenloses WLAN?"
+    },
+    {
+      "id": "wyr_de_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber am Strand oder in den Bergen leben?"
+    },
+    {
+      "id": "wyr_de_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber jeden Tag kochen oder nie wieder kochen?"
+    },
+    {
+      "id": "wyr_de_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber der Lustigste oder der Klügste im Raum sein?"
+    },
+    {
+      "id": "wyr_de_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber ein Haustier-Drache oder ein Einhorn?"
+    },
+    {
+      "id": "wyr_de_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber Gedanken lesen oder jede Sprache sprechen?"
+    },
+    {
+      "id": "wyr_de_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber nie wieder Schlüssel verlieren oder nie wieder das Handy?"
+    },
+    {
+      "id": "wyr_de_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber Fotos machen oder auf Fotos sein?"
+    },
+    {
+      "id": "wyr_de_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber mit dem Zug reisen oder einen Roadtrip machen?"
+    },
+    {
+      "id": "wyr_de_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber früh mit Energie aufstehen oder spät ohne Schuldgefühl schlafen?"
+    },
+    {
+      "id": "wyr_de_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber unbegrenzt Kaffee oder unbegrenzt Snacks?"
+    },
+    {
+      "id": "wyr_de_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber ohne Musik oder ohne Filme leben?"
+    },
+    {
+      "id": "wyr_de_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber großartig kochen können oder großartig singen?"
+    },
+    {
+      "id": "wyr_de_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber immer vorne sitzen oder immer die Musik aussuchen?"
+    },
+    {
+      "id": "wyr_de_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber einen Privatkoch oder einen Privatfahrer?"
+    },
+    {
+      "id": "wyr_de_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber die Zeit anhalten oder vorspulen?"
+    },
+    {
+      "id": "wyr_de_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber in Sport oder in Kunst richtig gut sein?"
+    },
+    {
+      "id": "wyr_de_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber nur Komödien oder nur Dramen schauen?"
+    },
+    {
+      "id": "wyr_de_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber den Ozean erforschen oder den Weltraum?"
+    },
+    {
+      "id": "wyr_de_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber ein Haus am See oder in der Großstadt?"
+    },
+    {
+      "id": "wyr_de_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber ein Jahr ohne Social Media oder ein Jahr ohne Streaming?"
+    },
+    {
+      "id": "wyr_de_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber allein in eine neue Stadt ziehen oder für immer in deiner Stadt bleiben?"
+    },
+    {
+      "id": "wyr_de_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber immer 20 Minuten zu früh oder 20 Minuten zu spät sein?"
+    },
+    {
+      "id": "wyr_de_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber deinen Suchverlauf oder deine DMs öffentlich?"
+    },
+    {
+      "id": "wyr_de_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber für dein Talent oder für dein Aussehen bekannt sein?"
+    },
+    {
+      "id": "wyr_de_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber alle Fotos verlieren oder alle Nachrichten?"
+    },
+    {
+      "id": "wyr_de_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber die Person sein, die zuerst schreibt, oder die, die nie schreibt?"
+    },
+    {
+      "id": "wyr_de_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber einen kleinen engen Freundeskreis oder viele Bekanntschaften?"
+    },
+    {
+      "id": "wyr_de_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber über Nacht berühmt oder langsam respektiert werden?"
+    },
+    {
+      "id": "wyr_de_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber nie lügen können oder nie jemandem vertrauen?"
+    },
+    {
+      "id": "wyr_de_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber Traumjob mit wenig Geld oder langweiligen Job mit viel Geld?"
+    },
+    {
+      "id": "wyr_de_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber immer beschäftigt oder immer gelangweilt sein?"
+    },
+    {
+      "id": "wyr_de_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber in der Vergangenheit ohne Internet oder in der Zukunft ohne Privatsphäre leben?"
+    },
+    {
+      "id": "wyr_de_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber der Planer in der Gruppe oder der Spontane?"
+    },
+    {
+      "id": "wyr_de_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber dein größtes Scheitern auf einem Plakat oder dein größtes Geheimnis im Gruppenchat?"
+    },
+    {
+      "id": "wyr_de_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber großartig im Smalltalk oder in tiefen Gesprächen?"
+    },
+    {
+      "id": "wyr_de_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber die Wahrheit hören, auch wenn sie weh tut, oder mit Notlügen geschützt werden?"
+    },
+    {
+      "id": "wyr_de_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber nie schlafen müssen oder immer 12 Stunden Schlaf brauchen?"
+    },
+    {
+      "id": "wyr_de_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber eine Rückspultaste für einen Tag oder eine Pausetaste für eine Stunde?"
+    },
+    {
+      "id": "wyr_de_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber für die Liebe oder für den Job ins Ausland ziehen?"
+    },
+    {
+      "id": "wyr_de_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lieber jemanden Berühmtes daten oder jemanden, dem du alles erzählen kannst?"
+    },
+    {
+      "id": "wyr_de_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lieber ein tolles erstes Date ohne zweites oder ein mieses erstes Date, das großartig wird?"
+    },
+    {
+      "id": "wyr_de_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lieber derjenige sein, der mehr liebt, oder der mehr geliebt wird?"
+    },
+    {
+      "id": "wyr_de_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lieber dein Datingleben privat halten oder alles mit Freunden teilen?"
+    },
+    {
+      "id": "wyr_de_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lieber jede Woche ein Blind Date oder nie wieder daten?"
+    },
+    {
+      "id": "wyr_de_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lieber erfahren, dass dein Partner lügt oder dein Freund lügt?"
+    },
+    {
+      "id": "wyr_de_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lieber eine Sommerromanze, die endet, oder eine langsame Liebe, die Jahre braucht?"
+    },
+    {
+      "id": "wyr_de_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lieber single und bewundert oder vergeben und entspannt?"
+    },
+    {
+      "id": "wyr_de_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lieber die Person, die zuerst schreibt, oder die, die ignoriert?"
+    },
+    {
+      "id": "wyr_de_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lieber eine sofortige Verbindung, die verfliegt, oder eine langsame, die hält?"
+    },
+    {
+      "id": "wyr_de_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Würdest du lieber immer flüstern oder immer schreien?"
+    },
+    {
+      "id": "wyr_de_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber nie wieder Social Media oder nie wieder TV?"
+    },
+    {
+      "id": "wyr_de_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber einen Privatkoch oder einen Personal Trainer?"
+    },
+    {
+      "id": "wyr_de_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber am Meer leben oder in den Bergen?"
+    },
+    {
+      "id": "wyr_de_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber die Zeit anhalten oder 10 Minuten zurückspulen?"
+    },
+    {
+      "id": "wyr_de_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber ein Handy mit unendlichem Akku oder überall unbegrenztes Datenvolumen?"
+    },
+    {
+      "id": "wyr_de_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber für dein Talent berühmt sein oder für dein Aussehen?"
+    },
+    {
+      "id": "wyr_de_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber kostenlos reisen oder in jedem Restaurant gratis essen?"
+    },
+    {
+      "id": "wyr_de_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber immer leicht zu spät oder immer sehr früh?"
+    },
+    {
+      "id": "wyr_de_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber ein Jahr lang nur einen Künstler hören oder für immer nur ein Genre?"
+    },
+    {
+      "id": "wyr_de_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber ein perfektes Gedächtnis oder alles vergessen können?"
+    },
+    {
+      "id": "wyr_de_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber großartig kochen oder großartig öffentlich reden?"
+    },
+    {
+      "id": "wyr_de_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber ohne Kaffee oder ohne Desserts leben?"
+    },
+    {
+      "id": "wyr_de_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber für immer Treppen steigen oder nie wieder rennen?"
+    },
+    {
+      "id": "wyr_de_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber kleines Haus mit großem Garten oder großes Haus ohne Garten?"
+    },
+    {
+      "id": "wyr_de_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber nie im Stau stehen oder nie in der Schlange warten?"
+    },
+    {
+      "id": "wyr_de_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber immer perfektes Wetter oder immer perfekten Schlaf?"
+    },
+    {
+      "id": "wyr_de_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber der Klügste im Raum oder der Lustigste?"
+    },
+    {
+      "id": "wyr_de_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber dein Handy verlieren oder deine Brieftasche?"
+    },
+    {
+      "id": "wyr_de_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lieber Gedanken lesen oder die Zukunft sehen?"
+    },
+    {
+      "id": "wyr_de_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber einen Zurückspul-Knopf für den Tag oder einen Vorspul-Knopf?"
+    },
+    {
+      "id": "wyr_de_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber eine große Party hosten oder einen ruhigen Trip planen?"
+    },
+    {
+      "id": "wyr_de_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber kostenlose Flüge oder kostenlose Hotels?"
+    },
+    {
+      "id": "wyr_de_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber ein bezahltes Jahr frei oder die gewünschte Beförderung?"
+    },
+    {
+      "id": "wyr_de_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber wunderschön singen oder jedes Instrument spielen können?"
+    },
+    {
+      "id": "wyr_de_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber erste Eindrücke immer richtig oder zweite Chancen immer bekommen?"
+    },
+    {
+      "id": "wyr_de_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber großartig in Fotos oder großartig in Videos?"
+    },
+    {
+      "id": "wyr_de_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber immer Snacks oder immer Kaffee?"
+    },
+    {
+      "id": "wyr_de_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber jeden Tag 10 Minuten trainieren oder einmal pro Woche lang?"
+    },
+    {
+      "id": "wyr_de_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber alle Sprachen sprechen oder Tiere verstehen?"
+    },
+    {
+      "id": "wyr_de_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber viele Fotos machen oder im Moment leben?"
+    },
+    {
+      "id": "wyr_de_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber nie putzen müssen oder nie kochen müssen?"
+    },
+    {
+      "id": "wyr_de_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber garantiert bester Freund oder garantierte Seelenverwandte?"
+    },
+    {
+      "id": "wyr_de_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber in deiner Traumstadt leben oder nah bei der Familie?"
+    },
+    {
+      "id": "wyr_de_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber immer Spiele gewinnen oder immer schnell neue Skills lernen?"
+    },
+    {
+      "id": "wyr_de_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber nie eine Deadline verpassen oder nie Stress fühlen?"
+    },
+    {
+      "id": "wyr_de_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber der Planer sein oder der Spontane?"
+    },
+    {
+      "id": "wyr_de_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber minimalistischer Kleiderschrank oder unbegrenzte Kleidung?"
+    },
+    {
+      "id": "wyr_de_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber ohne Musik oder ohne Filme?"
+    },
+    {
+      "id": "wyr_de_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lieber nur süß oder nur salzig essen?"
+    },
+    {
+      "id": "wyr_de_091",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lieber eine kurze, intensive Romanze oder eine langsame, stabile Liebe?"
+    },
+    {
+      "id": "wyr_de_092",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lieber zuerst texten oder zuerst anrufen?"
+    },
+    {
+      "id": "wyr_de_093",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lieber Partner als bester Freund oder größter Fan?"
+    },
+    {
+      "id": "wyr_de_094",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lieber ein Date ohne Handys oder ohne Reden?"
+    },
+    {
+      "id": "wyr_de_095",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lieber eine Playlist teilen oder einen Kalender teilen?"
+    },
+    {
+      "id": "wyr_de_096",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lieber immer wissen, was jemand fühlt, oder was jemand will?"
+    },
+    {
+      "id": "wyr_de_097",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lieber für Freundlichkeit oder für Ehrgeiz in Erinnerung bleiben?"
+    },
+    {
+      "id": "wyr_de_098",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lieber für immer von zu Hause arbeiten oder immer draußen?"
+    },
+    {
+      "id": "wyr_de_099",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lieber ohne Spiegel oder ohne Fotos leben?"
+    },
+    {
+      "id": "wyr_de_100",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lieber wild spontan oder akribisch geplant?"
+    }
+  ]
+}

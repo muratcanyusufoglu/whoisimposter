@@ -1,0 +1,607 @@
+{
+  "gameId": "paranoia",
+  "locale": "de",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "par_de_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer könnte am besten den Weg erklären ohne Karte?"
+    },
+    {
+      "id": "par_de_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde zuerst ein streunendes Tier adoptieren?"
+    },
+    {
+      "id": "par_de_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde ein neues Hobby anfangen und dabei bleiben?"
+    },
+    {
+      "id": "par_de_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer wäre der beste Teamkapitän?"
+    },
+    {
+      "id": "par_de_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde einen Backwettbewerb gewinnen?"
+    },
+    {
+      "id": "par_de_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde auf Reisen am schnellsten mit Fremden befreundet sein?"
+    },
+    {
+      "id": "par_de_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde als Erstes eine Überraschungsparty planen?"
+    },
+    {
+      "id": "par_de_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer könnte eine Woche ohne Handy überstehen?"
+    },
+    {
+      "id": "par_de_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer kann am besten mit Geld umgehen?"
+    },
+    {
+      "id": "par_de_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde den Regenschirm an einem Regentag vergessen?"
+    },
+    {
+      "id": "par_de_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde auf einer Hochzeit zuerst tanzen?"
+    },
+    {
+      "id": "par_de_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer hat den besten Musikgeschmack?"
+    },
+    {
+      "id": "par_de_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde sich trotz GPS verlaufen?"
+    },
+    {
+      "id": "par_de_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer kann Geheimnisse am besten bewahren?"
+    },
+    {
+      "id": "par_de_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde freiwillig einem Nachbarn helfen?"
+    },
+    {
+      "id": "par_de_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde den Zeitplan der Gruppe organisieren?"
+    },
+    {
+      "id": "par_de_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde eine ganze Serie an einem Tag durchbingen?"
+    },
+    {
+      "id": "par_de_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde am besten für viele Leute kochen?"
+    },
+    {
+      "id": "par_de_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde auf Reisen die meisten Fotos machen?"
+    },
+    {
+      "id": "par_de_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde eine Party als Letzter verlassen?"
+    },
+    {
+      "id": "par_de_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde einen Gruppenchat wochenlang ghosten?"
+    },
+    {
+      "id": "par_de_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde Pläne mit der schwächsten Ausrede absagen?"
+    },
+    {
+      "id": "par_de_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde einen einzigen Text stundenlang überdenken?"
+    },
+    {
+      "id": "par_de_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde beim ersten Date am meisten ausgeben?"
+    },
+    {
+      "id": "par_de_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde sich am schnellsten verlieben?"
+    },
+    {
+      "id": "par_de_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde einen Crush am längsten geheim halten?"
+    },
+    {
+      "id": "par_de_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde am ehesten versehentlich ein Gerücht starten?"
+    },
+    {
+      "id": "par_de_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde nach einer Trennung als Erstes posten?"
+    },
+    {
+      "id": "par_de_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde jemanden daten, der völlig anders ist als der eigene Typ?"
+    },
+    {
+      "id": "par_de_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer könnte mit einem Ex befreundet bleiben?"
+    },
+    {
+      "id": "par_de_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer wäre bei Spielen am wettbewerbsfähigsten?"
+    },
+    {
+      "id": "par_de_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer wäre der größte Flirt auf einer Party?"
+    },
+    {
+      "id": "par_de_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde einen mutigen Jobwechsel machen, ohne es zu sagen?"
+    },
+    {
+      "id": "par_de_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde am ehesten ins Ausland ziehen?"
+    },
+    {
+      "id": "par_de_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde für ein Wochenende zu viel packen?"
+    },
+    {
+      "id": "par_de_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde eine Stunde zu früh erscheinen?"
+    },
+    {
+      "id": "par_de_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde eine Nachricht lesen und trotzdem nicht antworten?"
+    },
+    {
+      "id": "par_de_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde Screenshots „für den Fall“ sammeln?"
+    },
+    {
+      "id": "par_de_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde den dramatischsten Film auswählen?"
+    },
+    {
+      "id": "par_de_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer wäre im Streit am stursten?"
+    },
+    {
+      "id": "par_de_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wer hätte die chaotischste Dating-Vergangenheit?"
+    },
+    {
+      "id": "par_de_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wer hätte am ehesten einen geheimen Verehrer?"
+    },
+    {
+      "id": "par_de_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wer würde zuerst „Ich liebe dich“ sagen?"
+    },
+    {
+      "id": "par_de_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wer würde weiterflirten, obwohl es offensichtlich ist?"
+    },
+    {
+      "id": "par_de_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wer würde am ehesten das Handy des Partners checken?"
+    },
+    {
+      "id": "par_de_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wer hätte am schnellsten einen Rebound?"
+    },
+    {
+      "id": "par_de_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wer wäre in einer Beziehung am eifersüchtigsten?"
+    },
+    {
+      "id": "par_de_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wer würde zwei Leute gleichzeitig daten?"
+    },
+    {
+      "id": "par_de_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wer würde eine Situationship vor Freunden verbergen?"
+    },
+    {
+      "id": "par_de_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wer würde am ehesten Herzen brechen, ohne es zu merken?"
+    },
+    {
+      "id": "par_de_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde sich freiwillig melden, ein Gruppenprojekt zu leiten?"
+    },
+    {
+      "id": "par_de_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde am längsten ohne sein Handy durchhalten?"
+    },
+    {
+      "id": "par_de_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde auf einer Party als Erstes tanzen?"
+    },
+    {
+      "id": "par_de_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde sich schon bei einem einfachen Spaziergang verlaufen?"
+    },
+    {
+      "id": "par_de_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde sich an die Kaffee-Bestellung aller erinnern?"
+    },
+    {
+      "id": "par_de_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde Snacks für die ganze Gruppe mitbringen?"
+    },
+    {
+      "id": "par_de_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde ein Gespräch mit einem Fremden anfangen?"
+    },
+    {
+      "id": "par_de_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer wäre am besten darin, alle zu beruhigen?"
+    },
+    {
+      "id": "par_de_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde ein Puzzle am schnellsten lösen?"
+    },
+    {
+      "id": "par_de_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde trotz Erinnerungen zu spät kommen?"
+    },
+    {
+      "id": "par_de_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde für eine Reise einen detaillierten Plan machen?"
+    },
+    {
+      "id": "par_de_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde einen Kochwettbewerb gewinnen?"
+    },
+    {
+      "id": "par_de_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde die besten Fotospots kennen?"
+    },
+    {
+      "id": "par_de_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde am ehesten ein Haustier adoptieren?"
+    },
+    {
+      "id": "par_de_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde am schnellsten einen Sonnenbrand bekommen?"
+    },
+    {
+      "id": "par_de_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde seinen Geldbeutel zu Hause vergessen?"
+    },
+    {
+      "id": "par_de_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde mit dem Ex befreundet bleiben?"
+    },
+    {
+      "id": "par_de_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde sein ganzes Geld für Reisen ausgeben?"
+    },
+    {
+      "id": "par_de_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer würde aus Versehen eine Überraschung verraten?"
+    },
+    {
+      "id": "par_de_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wer wäre am besten darin, ein Geheimnis zu bewahren?"
+    },
+    {
+      "id": "par_de_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde immer sofort zurückschreiben?"
+    },
+    {
+      "id": "par_de_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde mit etwas Albernem viral gehen?"
+    },
+    {
+      "id": "par_de_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde in der eigenen Stadt berühmt werden?"
+    },
+    {
+      "id": "par_de_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde das Risiko eingehen und ins Ausland ziehen?"
+    },
+    {
+      "id": "par_de_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde einen Job kündigen, um einem Traum nachzugehen?"
+    },
+    {
+      "id": "par_de_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde ein Hobby in ein Business verwandeln?"
+    },
+    {
+      "id": "par_de_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde im Meeting beim Tagträumen erwischt?"
+    },
+    {
+      "id": "par_de_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde sich aus einem Strafzettel herausreden?"
+    },
+    {
+      "id": "par_de_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde zweimal in einer Woche seine Schlüssel verlieren?"
+    },
+    {
+      "id": "par_de_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde unbeabsichtigt ein Gerücht starten?"
+    },
+    {
+      "id": "par_de_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer hätte die dramatischsten Reaktionen?"
+    },
+    {
+      "id": "par_de_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde sich durch Flirten einen Tisch sichern?"
+    },
+    {
+      "id": "par_de_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer hätte einen geheimen Crush im Raum?"
+    },
+    {
+      "id": "par_de_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde nach einer tollen Nacht ein Date ghosten?"
+    },
+    {
+      "id": "par_de_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde als Erstes „Ich liebe dich“ sagen?"
+    },
+    {
+      "id": "par_de_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde Dating-Apps für den Notfall behalten?"
+    },
+    {
+      "id": "par_de_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde heimlich Klatsch mögen?"
+    },
+    {
+      "id": "par_de_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde sich auf einem Kurztrip verlieben?"
+    },
+    {
+      "id": "par_de_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde der/die sein, der doppelt schreibt?"
+    },
+    {
+      "id": "par_de_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wer würde dabei erwischt, beim Date aufs Handy zu schauen?"
+    },
+    {
+      "id": "par_de_091",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wer würde Pläne in letzter Minute absagen?"
+    },
+    {
+      "id": "par_de_092",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wer würde sich etwas leihen und vergessen, es zurückzugeben?"
+    },
+    {
+      "id": "par_de_093",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wer würde bei einem Werbespot weinen?"
+    },
+    {
+      "id": "par_de_094",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wer würde aus dem Nichts eine Diskussion anfangen?"
+    },
+    {
+      "id": "par_de_095",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wer würde ein Ladegerät für alle mitbringen?"
+    },
+    {
+      "id": "par_de_096",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wer würde als Letztes die Party verlassen?"
+    },
+    {
+      "id": "par_de_097",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wer würde alle Songtexte kennen?"
+    },
+    {
+      "id": "par_de_098",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wer würde in der Öffentlichkeit ein Nickerchen machen?"
+    },
+    {
+      "id": "par_de_099",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wer würde für alles einen Gruppenchat starten?"
+    },
+    {
+      "id": "par_de_100",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wer würde die beste spontane Rede halten?"
+    }
+  ]
+}

@@ -1,0 +1,607 @@
+{
+  "gameId": "paranoia",
+  "locale": "ru",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "par_ru_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто лучше всех объяснит дорогу без карты?"
+    },
+    {
+      "id": "par_ru_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто первым возьмёт бездомного питомца?"
+    },
+    {
+      "id": "par_ru_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто начнёт новое хобби и не бросит?"
+    },
+    {
+      "id": "par_ru_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто был бы лучшим капитаном команды?"
+    },
+    {
+      "id": "par_ru_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто выиграет конкурс выпечки?"
+    },
+    {
+      "id": "par_ru_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто быстрее подружится с незнакомцами в поездке?"
+    },
+    {
+      "id": "par_ru_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто первым устроит сюрприз-вечеринку?"
+    },
+    {
+      "id": "par_ru_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто проживёт неделю без телефона?"
+    },
+    {
+      "id": "par_ru_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто лучше всех умеет экономить деньги?"
+    },
+    {
+      "id": "par_ru_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто забудет зонт в дождливый день?"
+    },
+    {
+      "id": "par_ru_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто первым выйдет танцевать на свадьбе?"
+    },
+    {
+      "id": "par_ru_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "У кого лучший музыкальный вкус?"
+    },
+    {
+      "id": "par_ru_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто потеряется даже с GPS?"
+    },
+    {
+      "id": "par_ru_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто лучше всего хранит секреты?"
+    },
+    {
+      "id": "par_ru_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто первым поможет соседу?"
+    },
+    {
+      "id": "par_ru_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто организует расписание группы?"
+    },
+    {
+      "id": "par_ru_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто посмотрит целый сезон за один день?"
+    },
+    {
+      "id": "par_ru_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто лучше всего приготовит на большую компанию?"
+    },
+    {
+      "id": "par_ru_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто сделает больше всего фото в поездке?"
+    },
+    {
+      "id": "par_ru_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто уйдёт с вечеринки последним?"
+    },
+    {
+      "id": "par_ru_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто будет игнорировать групповой чат неделями?"
+    },
+    {
+      "id": "par_ru_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто отменит планы с самой слабой отговоркой?"
+    },
+    {
+      "id": "par_ru_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто будет часами обдумывать одно сообщение?"
+    },
+    {
+      "id": "par_ru_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто потратит больше всего на первое свидание?"
+    },
+    {
+      "id": "par_ru_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто быстрее всех влюбится?"
+    },
+    {
+      "id": "par_ru_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто дольше всех будет скрывать симпатию?"
+    },
+    {
+      "id": "par_ru_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто случайно запустит слух?"
+    },
+    {
+      "id": "par_ru_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто первым опубликует что-то после расставания?"
+    },
+    {
+      "id": "par_ru_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто будет встречаться с человеком совсем не своего типа?"
+    },
+    {
+      "id": "par_ru_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто сможет дружить с бывшим?"
+    },
+    {
+      "id": "par_ru_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто самый соревновательный в играх?"
+    },
+    {
+      "id": "par_ru_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто больше всего флиртует на вечеринке?"
+    },
+    {
+      "id": "par_ru_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто резко сменит карьеру и никому не скажет?"
+    },
+    {
+      "id": "par_ru_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто скорее всего переедет в другую страну?"
+    },
+    {
+      "id": "par_ru_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто возьмёт слишком много вещей на выходные?"
+    },
+    {
+      "id": "par_ru_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто придёт на час раньше?"
+    },
+    {
+      "id": "par_ru_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто прочитает сообщение и всё равно не ответит?"
+    },
+    {
+      "id": "par_ru_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто хранит скриншоты «на всякий случай»?"
+    },
+    {
+      "id": "par_ru_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто выберет самый драматичный фильм?"
+    },
+    {
+      "id": "par_ru_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто самый упрямый в споре?"
+    },
+    {
+      "id": "par_ru_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "У кого самая хаотичная история свиданий?"
+    },
+    {
+      "id": "par_ru_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "У кого больше всего шансов иметь тайного поклонника?"
+    },
+    {
+      "id": "par_ru_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Кто первым скажет «я люблю тебя»?"
+    },
+    {
+      "id": "par_ru_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Кто будет продолжать флирт, когда всё очевидно?"
+    },
+    {
+      "id": "par_ru_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Кто скорее всего полезет в телефон партнёра?"
+    },
+    {
+      "id": "par_ru_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Кто быстрее всех заведёт rebound?"
+    },
+    {
+      "id": "par_ru_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Кто будет самым ревнивым в отношениях?"
+    },
+    {
+      "id": "par_ru_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Кто станет встречаться сразу с двумя людьми?"
+    },
+    {
+      "id": "par_ru_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Кто скроет situationship от друзей?"
+    },
+    {
+      "id": "par_ru_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Кто чаще всего разбивает сердца, даже не замечая?"
+    },
+    {
+      "id": "par_ru_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто бы добровольно взялся вести групповой проект?"
+    },
+    {
+      "id": "par_ru_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто продержался бы дольше всех без телефона?"
+    },
+    {
+      "id": "par_ru_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто первым бы вышел танцевать на вечеринке?"
+    },
+    {
+      "id": "par_ru_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто бы заблудился на простой прогулке?"
+    },
+    {
+      "id": "par_ru_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто бы запомнил кофейный заказ каждого?"
+    },
+    {
+      "id": "par_ru_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто бы принес снеки для всей компании?"
+    },
+    {
+      "id": "par_ru_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто бы первым заговорил с незнакомцем?"
+    },
+    {
+      "id": "par_ru_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто бы лучше всех умел всех успокоить?"
+    },
+    {
+      "id": "par_ru_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто бы быстрее всех собрал пазл?"
+    },
+    {
+      "id": "par_ru_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто бы опоздал даже с напоминаниями?"
+    },
+    {
+      "id": "par_ru_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто бы составил подробный план поездки?"
+    },
+    {
+      "id": "par_ru_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто бы выиграл кулинарный конкурс?"
+    },
+    {
+      "id": "par_ru_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто бы знал лучшие места для фото?"
+    },
+    {
+      "id": "par_ru_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто бы скорее всего завел питомца?"
+    },
+    {
+      "id": "par_ru_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто бы быстрее всех обгорел на солнце?"
+    },
+    {
+      "id": "par_ru_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто бы забыл кошелек дома?"
+    },
+    {
+      "id": "par_ru_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто бы остался друзьями с бывшим?"
+    },
+    {
+      "id": "par_ru_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто бы потратил все деньги на путешествия?"
+    },
+    {
+      "id": "par_ru_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто бы случайно испортил сюрприз?"
+    },
+    {
+      "id": "par_ru_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кто бы лучше всех умел хранить секрет?"
+    },
+    {
+      "id": "par_ru_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто бы отвечал сразу всегда?"
+    },
+    {
+      "id": "par_ru_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто бы стал вирусным из-за какой-то глупости?"
+    },
+    {
+      "id": "par_ru_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто бы стал знаменитым в своем городе?"
+    },
+    {
+      "id": "par_ru_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто бы рискнул переехать за границу?"
+    },
+    {
+      "id": "par_ru_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто бы уволился ради мечты?"
+    },
+    {
+      "id": "par_ru_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто бы превратил хобби в бизнес?"
+    },
+    {
+      "id": "par_ru_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто бы был пойман за мечтаниями на совещании?"
+    },
+    {
+      "id": "par_ru_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто бы отговорился от штрафа?"
+    },
+    {
+      "id": "par_ru_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто бы потерял ключи дважды за неделю?"
+    },
+    {
+      "id": "par_ru_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто бы случайно запустил слух?"
+    },
+    {
+      "id": "par_ru_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто бы реагировал максимально драматично?"
+    },
+    {
+      "id": "par_ru_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто бы флиртовал, чтобы получить столик?"
+    },
+    {
+      "id": "par_ru_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто бы имел тайный краш в комнате?"
+    },
+    {
+      "id": "par_ru_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто бы гостил после отличного вечера?"
+    },
+    {
+      "id": "par_ru_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто бы первым сказал «я тебя люблю»?"
+    },
+    {
+      "id": "par_ru_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто бы держал приложения для знакомств «на всякий случай»?"
+    },
+    {
+      "id": "par_ru_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто бы тайно любил сплетни?"
+    },
+    {
+      "id": "par_ru_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто бы влюбился в короткой поездке?"
+    },
+    {
+      "id": "par_ru_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто бы отправил двойное сообщение?"
+    },
+    {
+      "id": "par_ru_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто бы попался, глядя в телефон на свидании?"
+    },
+    {
+      "id": "par_ru_091",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Кто бы отменил планы в последний момент?"
+    },
+    {
+      "id": "par_ru_092",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Кто бы занял что-то и забыл вернуть?"
+    },
+    {
+      "id": "par_ru_093",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Кто бы расплакался на рекламе?"
+    },
+    {
+      "id": "par_ru_094",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Кто бы начал спор ни с того ни с сего?"
+    },
+    {
+      "id": "par_ru_095",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Кто бы принес зарядку для всех?"
+    },
+    {
+      "id": "par_ru_096",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Кто бы ушел с вечеринки самым последним?"
+    },
+    {
+      "id": "par_ru_097",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Кто бы знал все слова любой песни?"
+    },
+    {
+      "id": "par_ru_098",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Кто бы уснул в общественном месте?"
+    },
+    {
+      "id": "par_ru_099",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Кто бы создал групповой чат на всё?"
+    },
+    {
+      "id": "par_ru_100",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Кто бы сделал лучшую импровизированную речь?"
+    }
+  ]
+}

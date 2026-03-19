@@ -206,7 +206,8 @@
     "roundsPlayed_one": "{{count}} rodada jogada",
     "roundsPlayed_other": "{{count}} rodadas jogadas",
     "pts": "pts",
-    "delta": "+{{count}}"
+    "delta": "+{{count}}",
+    "final": "Pontuações finais"
   },
   "streak": {
     "crewStreak": "🔥 Tripulação em sequência de {{count}} vitórias!",
@@ -473,7 +474,9 @@
     "endGame": "Fim do jogo",
     "readyTitle": "Pronto?",
     "readySubtitle": "Passe o celular e segure na testa",
-    "startTimer": "Começar!"
+    "startTimer": "Começar!",
+    "emptyTitle": "Não há mais palavras",
+    "emptySubtitle": "Escolha outras categorias para continuar jogando."
   },
   "wordChain": {
     "title": "Cadeia de Palavras",

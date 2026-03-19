@@ -1,0 +1,607 @@
+{
+  "gameId": "hot-takes",
+  "locale": "ar",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "ht_ar_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "الشاي أفضل من القهوة في أي وقت."
+    },
+    {
+      "id": "ht_ar_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "الماء الغازي طعمه مزعج."
+    },
+    {
+      "id": "ht_ar_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "البرانش مجرد فطور غالي."
+    },
+    {
+      "id": "ht_ar_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "النعال لا يُعتبر حذاءً حقيقيًا."
+    },
+    {
+      "id": "ht_ar_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "المسلسلات أمتع من الأفلام الطويلة."
+    },
+    {
+      "id": "ht_ar_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "مقعد الممر أفضل من النافذة في الطائرة."
+    },
+    {
+      "id": "ht_ar_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "تصوير الحفلات يضيّع اللحظة."
+    },
+    {
+      "id": "ht_ar_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "الفول والحمص ينقذان أي وجبة."
+    },
+    {
+      "id": "ht_ar_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "السوق الشعبي أفضل من السوبرماركت."
+    },
+    {
+      "id": "ht_ar_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "الدراجة داخل المدينة أذكى من السيارة."
+    },
+    {
+      "id": "ht_ar_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "الصمت أفضل موسيقى خلفية."
+    },
+    {
+      "id": "ht_ar_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "الشوربة مشروب."
+    },
+    {
+      "id": "ht_ar_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "أيام الجمعة يجب أن تكون أطول."
+    },
+    {
+      "id": "ht_ar_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "الطعام البيتي دائمًا أفضل من التوصيل."
+    },
+    {
+      "id": "ht_ar_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "الأحذية الرياضية تناسب كل شيء."
+    },
+    {
+      "id": "ht_ar_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "المطر يجعل المدينة أجمل."
+    },
+    {
+      "id": "ht_ar_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "القراءة على الهاتف ليست أقل قيمة من الكتاب."
+    },
+    {
+      "id": "ht_ar_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "السهر أحلى من النوم المبكر."
+    },
+    {
+      "id": "ht_ar_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "الخبز الطازج يكفي ليكون وجبة."
+    },
+    {
+      "id": "ht_ar_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "القهوة بلا سكر هي الخيار الصحيح."
+    },
+    {
+      "id": "ht_ar_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "عدم الرد ليوم كامل يعني تجاهل."
+    },
+    {
+      "id": "ht_ar_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "إلغاء الخطط في آخر لحظة أسوأ من التأخير."
+    },
+    {
+      "id": "ht_ar_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "السفر الجماعي يختبر الصداقات بقسوة."
+    },
+    {
+      "id": "ht_ar_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "مشاركة الموقع في العلاقة شيء طبيعي."
+    },
+    {
+      "id": "ht_ar_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من يقول 'لا أحب الدراما' غالبًا هو سببها."
+    },
+    {
+      "id": "ht_ar_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "الموعد الأول يجب أن يكون قصيرًا."
+    },
+    {
+      "id": "ht_ar_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "يمكن فهم الشخص من طلب القهوة."
+    },
+    {
+      "id": "ht_ar_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "المطاعم الصاخبة فشل في التصميم."
+    },
+    {
+      "id": "ht_ar_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "الالتزام بالوقت احترام."
+    },
+    {
+      "id": "ht_ar_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "الناس تفضّل أن تكون على حق على أن تكون سعيدة."
+    },
+    {
+      "id": "ht_ar_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "الأصدقاء الذين يختفون عند الارتباط أنانيون."
+    },
+    {
+      "id": "ht_ar_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "الستوري طوال اليوم استعراض."
+    },
+    {
+      "id": "ht_ar_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "أهدأ شخص في المجموعة هو الأكثر عمقًا."
+    },
+    {
+      "id": "ht_ar_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "قول 'أنا مشغول' غالبًا مجرد عذر."
+    },
+    {
+      "id": "ht_ar_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "مجموعات الدردشة مُتعبة أكثر مما تنفع."
+    },
+    {
+      "id": "ht_ar_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "كره الحديث الخفيف لا يعني عمقًا."
+    },
+    {
+      "id": "ht_ar_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "الصداقة تظهر عند تقسيم الفاتورة."
+    },
+    {
+      "id": "ht_ar_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "وضع خطط وعدم الحضور قلة احترام."
+    },
+    {
+      "id": "ht_ar_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "إخفاء العلاقة في البداية دليل عدم ثقة."
+    },
+    {
+      "id": "ht_ar_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "العيش بلا إجازات إدارة سيئة للحياة."
+    },
+    {
+      "id": "ht_ar_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "معظم العلاقات مبنية على العادة لا الحب."
+    },
+    {
+      "id": "ht_ar_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "الغيرة هي غرور أكثر من كونها حبًا."
+    },
+    {
+      "id": "ht_ar_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "من فتّش الهاتف مرة سيكرر ذلك."
+    },
+    {
+      "id": "ht_ar_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "أخذ 'استراحة' غالبًا انفصال بطيء."
+    },
+    {
+      "id": "ht_ar_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "مرحلة التعارف الطويلة خوف من الالتزام."
+    },
+    {
+      "id": "ht_ar_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "الخيانة تُسامح أكثر مما يُعترف."
+    },
+    {
+      "id": "ht_ar_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "الأكثر ثقة في الظاهر هم الأكثر هشاشة."
+    },
+    {
+      "id": "ht_ar_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "أنت لست مشغولًا، أنت لست أولوية."
+    },
+    {
+      "id": "ht_ar_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "كثير من الإعجابات مجرد بحث عن الاهتمام."
+    },
+    {
+      "id": "ht_ar_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "الكيمياء غالبًا توقيت مناسب."
+    },
+    {
+      "id": "ht_ar_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "البيتزا الباردة ألذ من الساخنة."
+    },
+    {
+      "id": "ht_ar_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "الإعلانات التشويقية تفسد الأفلام."
+    },
+    {
+      "id": "ht_ar_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "يجب أن تكون الدردشات الجماعية على الصامت افتراضيًا."
+    },
+    {
+      "id": "ht_ar_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "البرانش مجرد حجة لدفع مبلغ كبير مقابل بيض."
+    },
+    {
+      "id": "ht_ar_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ارتداء جوارب مع صندل عادي."
+    },
+    {
+      "id": "ht_ar_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "الأيام الممطرة أهدأ من الأيام المشمسة."
+    },
+    {
+      "id": "ht_ar_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "الكاريوكي أمتع عندما تغني بشكل سيئ."
+    },
+    {
+      "id": "ht_ar_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "النوم مبكرًا مُستَهان به."
+    },
+    {
+      "id": "ht_ar_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "يجب أن يكون في الهاتف “عدم الإزعاج” لأشخاص محددين."
+    },
+    {
+      "id": "ht_ar_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "الرسائل الصوتية الطويلة وقاحة."
+    },
+    {
+      "id": "ht_ar_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "المكتبات أكثر أماكن المدينة التي لا تُقدَّر حقها."
+    },
+    {
+      "id": "ht_ar_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ألعاب الطاولة أفضل من ألعاب الفيديو في السهرات."
+    },
+    {
+      "id": "ht_ar_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "الكتب الورقية أفضل من القارئات الإلكترونية."
+    },
+    {
+      "id": "ht_ar_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "أفضل مكان في الحفلة الموسيقية هو الخلف مع مساحة للرقص."
+    },
+    {
+      "id": "ht_ar_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "آخر قطعة لا يجب أن تُترك أبدًا."
+    },
+    {
+      "id": "ht_ar_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "تعلّم الطبخ أهم من تعلّم القيادة."
+    },
+    {
+      "id": "ht_ar_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "الجبال أفضل من الشواطئ."
+    },
+    {
+      "id": "ht_ar_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "الأعراس الصغيرة أمتع من الكبيرة."
+    },
+    {
+      "id": "ht_ar_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "على الأزواج أن يسافروا منفصلين أحيانًا."
+    },
+    {
+      "id": "ht_ar_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من يلغي في آخر لحظة يجب أن يجلب سناكات في المرة القادمة."
+    },
+    {
+      "id": "ht_ar_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "سناكات منتصف الليل أفضل من الفطور."
+    },
+    {
+      "id": "ht_ar_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "الإعجابات لا يجب أن تكون عامة."
+    },
+    {
+      "id": "ht_ar_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "استخدام السماعة الخارجية في الأماكن العامة يجب أن يكون ممنوعًا."
+    },
+    {
+      "id": "ht_ar_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "تحضير الوجبات مسبقًا مبالغ فيه."
+    },
+    {
+      "id": "ht_ar_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "أفضل الصور هي العفوية."
+    },
+    {
+      "id": "ht_ar_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "الأحذية الرياضية الغالية إهدار للمال."
+    },
+    {
+      "id": "ht_ar_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "نهاية الأسبوع يجب أن تكون ثلاثة أيام."
+    },
+    {
+      "id": "ht_ar_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "الزيارات المفاجئة عدم تقدير."
+    },
+    {
+      "id": "ht_ar_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "عصير الأناناس يناسب أي سموذي."
+    },
+    {
+      "id": "ht_ar_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "تدوين الملاحظات باليد أفضل من الطباعة."
+    },
+    {
+      "id": "ht_ar_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "المواعدة عبر الإنترنت جعلت الناس أكثر انتقائية."
+    },
+    {
+      "id": "ht_ar_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "العيش وحدك يجعلك أكثر إبداعًا."
+    },
+    {
+      "id": "ht_ar_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "“الرأي الساخن” غالبًا مجرد بديهة."
+    },
+    {
+      "id": "ht_ar_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "يجب أن نحمل كوبًا قابلًا لإعادة الاستخدام دائمًا."
+    },
+    {
+      "id": "ht_ar_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "أكل الشارع أفضل من أكل المطاعم."
+    },
+    {
+      "id": "ht_ar_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "علامة “تمت القراءة” تسبب دراما أكثر مما تحل."
+    },
+    {
+      "id": "ht_ar_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "قائمة تشغيل مشتركة اختبار للعلاقة."
+    },
+    {
+      "id": "ht_ar_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "استخدام بطانيات منفصلة أصح للأزواج."
+    },
+    {
+      "id": "ht_ar_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "أفضل جزء في السفر هو التخطيط."
+    },
+    {
+      "id": "ht_ar_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "سماعات الرأس في الجيم ضرورية."
+    },
+    {
+      "id": "ht_ar_091",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "الباريستا يستحقون بقشيشًا أكثر."
+    },
+    {
+      "id": "ht_ar_092",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "يجب السماح بالوشوم في كل الوظائف."
+    },
+    {
+      "id": "ht_ar_093",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "نحتاج إشعارات أقل وليس أكثر."
+    },
+    {
+      "id": "ht_ar_094",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "يجب السماح بالحيوانات الأليفة في مزيد من المقاهي."
+    },
+    {
+      "id": "ht_ar_095",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "يجب اختيار العطلات الرسمية بالتصويت."
+    },
+    {
+      "id": "ht_ar_096",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "يجب أن يتعلم الجميع الإسعافات الأولية."
+    },
+    {
+      "id": "ht_ar_097",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "المطاعم الفاخرة يجب أن توفر قائمة للأطفال."
+    },
+    {
+      "id": "ht_ar_098",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "يجب أن تعيد دور السينما فترات الاستراحة."
+    },
+    {
+      "id": "ht_ar_099",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "يجب أن تكون إيصالات القراءة اختيارية في كل تطبيق."
+    },
+    {
+      "id": "ht_ar_100",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "التأخر اختيار وليس شخصية."
+    }
+  ]
+}

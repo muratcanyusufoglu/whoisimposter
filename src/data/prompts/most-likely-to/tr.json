@@ -3,45 +3,1145 @@
   "locale": "tr",
   "version": 1,
   "prompts": [
-    { "id": "mlt_tr_001", "intensity": "mild", "minAge": 4, "text": "Kim bütün gece video izler?" },
-    { "id": "mlt_tr_002", "intensity": "mild", "minAge": 4, "text": "Kim son dilim pizzayı sormadan yer?" },
-    { "id": "mlt_tr_003", "intensity": "mild", "minAge": 4, "text": "Kim ünlü bir şef olur?" },
-    { "id": "mlt_tr_004", "intensity": "mild", "minAge": 4, "text": "Kim kalabalıkta hiçbir şeye takılıp düşer?" },
-    { "id": "mlt_tr_005", "intensity": "mild", "minAge": 4, "text": "Kim her gün telefonunu evde unutur?" },
-    { "id": "mlt_tr_006", "intensity": "mild", "minAge": 4, "text": "Kim profesyonel uyku uzmanı olur?" },
-    { "id": "mlt_tr_007", "intensity": "mild", "minAge": 4, "text": "Kim viral bir dans trendi başlatır?" },
-    { "id": "mlt_tr_008", "intensity": "mild", "minAge": 4, "text": "Kim reklam izlerken ağlar?" },
-    { "id": "mlt_tr_009", "intensity": "mild", "minAge": 4, "text": "Kim kendi şehrinde kaybolur?" },
-    { "id": "mlt_tr_010", "intensity": "mild", "minAge": 4, "text": "Kim seyahat influencer'ı olur?" },
-    { "id": "mlt_tr_011", "intensity": "medium", "minAge": 13, "text": "Kim harika geçen ilk buluşmadan sonra ortadan kaybolur?" },
-    { "id": "mlt_tr_012", "intensity": "medium", "minAge": 13, "text": "Kim internette yabancıyla tartışır?" },
-    { "id": "mlt_tr_013", "intensity": "medium", "minAge": 13, "text": "Kim gizli bir sosyal medya hesabı kullanır?" },
-    { "id": "mlt_tr_014", "intensity": "medium", "minAge": 13, "text": "Kim birinin profilini gezerken yanlışlıkla beğeni atar?" },
-    { "id": "mlt_tr_015", "intensity": "medium", "minAge": 13, "text": "Kim dizi izlemek için işe/okula hasta der?" },
-    { "id": "mlt_tr_016", "intensity": "medium", "minAge": 13, "text": "Kim farkında olmadan dedikodu çıkarır?" },
-    { "id": "mlt_tr_017", "intensity": "medium", "minAge": 13, "text": "Kim yanlış kişiye mesaj atar?" },
-    { "id": "mlt_tr_018", "intensity": "medium", "minAge": 13, "text": "Kim planları son dakikada iptal eder?" },
-    { "id": "mlt_tr_019", "intensity": "medium", "minAge": 13, "text": "Kim herkesin özel işini bilir?" },
-    { "id": "mlt_tr_020", "intensity": "medium", "minAge": 13, "text": "Kim sosyal medyada fazla paylaşım yapar?" },
-    { "id": "mlt_tr_021", "intensity": "spicy", "minAge": 18, "text": "Kim bu odadaki biriyle öpüşmüş olur?" },
-    { "id": "mlt_tr_022", "intensity": "spicy", "minAge": 18, "text": "Kim gizli bir hayranı vardır?" },
-    { "id": "mlt_tr_023", "intensity": "spicy", "minAge": 18, "text": "Kim kendinden çok küçük ya da büyük biriyle çıkar?" },
-    { "id": "mlt_tr_024", "intensity": "spicy", "minAge": 18, "text": "Kim flört ederek hız cezasından kurtulur?" },
-    { "id": "mlt_tr_025", "intensity": "spicy", "minAge": 18, "text": "Kim bir ünlünün DM'ine yazmıştır?" },
-    { "id": "mlt_tr_026", "intensity": "spicy", "minAge": 18, "text": "Kim flört programına çıkar?" },
-    { "id": "mlt_tr_027", "intensity": "spicy", "minAge": 18, "text": "Kim olmaması gereken birine aşık olur?" },
-    { "id": "mlt_tr_028", "intensity": "spicy", "minAge": 18, "text": "Kim en dramatik ilişki geçmişine sahiptir?" },
-    { "id": "mlt_tr_029", "intensity": "spicy", "minAge": 18, "text": "Kim aynı arkadaş grubundan iki kişiyle çıkmıştır?" },
-    { "id": "mlt_tr_030", "intensity": "spicy", "minAge": 18, "text": "Kim kimseye söylemediği bir ilişki yaşamıştır?" },
-    { "id": "mlt_tr_031", "intensity": "spicy", "minAge": 18, "text": "Kim uçakta bir yabancıya aşık olur?" },
-    { "id": "mlt_tr_032", "intensity": "spicy", "minAge": 18, "text": "Kim yeni bir grupta en büyük flört olur?" },
-    { "id": "mlt_tr_033", "intensity": "spicy", "minAge": 18, "text": "Kim birine his kapınca hemen inkâr eder?" },
-    { "id": "mlt_tr_034", "intensity": "spicy", "minAge": 18, "text": "Kim lise aşkıyla hâlâ konuşuyordur?" },
-    { "id": "mlt_tr_035", "intensity": "spicy", "minAge": 18, "text": "Kim bir yabancıyla tanışıp aynı hafta evlenir?" },
-    { "id": "mlt_tr_036", "intensity": "spicy", "minAge": 18, "text": "Kimin şu anda 5'ten fazla okunmamış flörtöz mesajı vardır?" },
-    { "id": "mlt_tr_037", "intensity": "spicy", "minAge": 18, "text": "Kim hep terk edilen taraf olur?" },
-    { "id": "mlt_tr_038", "intensity": "spicy", "minAge": 18, "text": "Kim bir eski sevgilisi yüzünden kişiliğini tamamen değiştirmiştir?" },
-    { "id": "mlt_tr_039", "intensity": "spicy", "minAge": 18, "text": "Kim flört programına katılıp kazanır?" },
-    { "id": "mlt_tr_040", "intensity": "spicy", "minAge": 18, "text": "Kim kendi başlattığı ayrılıktan sonra ağlar?" }
+    {
+      "id": "mlt_tr_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim bütün gece video izler?"
+    },
+    {
+      "id": "mlt_tr_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim son dilim pizzayı sormadan yer?"
+    },
+    {
+      "id": "mlt_tr_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim ünlü bir şef olur?"
+    },
+    {
+      "id": "mlt_tr_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim kalabalıkta hiçbir şeye takılıp düşer?"
+    },
+    {
+      "id": "mlt_tr_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim her gün telefonunu evde unutur?"
+    },
+    {
+      "id": "mlt_tr_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim profesyonel uyku uzmanı olur?"
+    },
+    {
+      "id": "mlt_tr_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim viral bir dans trendi başlatır?"
+    },
+    {
+      "id": "mlt_tr_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim reklam izlerken ağlar?"
+    },
+    {
+      "id": "mlt_tr_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim kendi şehrinde kaybolur?"
+    },
+    {
+      "id": "mlt_tr_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim seyahat influencer'ı olur?"
+    },
+    {
+      "id": "mlt_tr_011",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim harika geçen ilk buluşmadan sonra ortadan kaybolur?"
+    },
+    {
+      "id": "mlt_tr_012",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim internette yabancıyla tartışır?"
+    },
+    {
+      "id": "mlt_tr_013",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim gizli bir sosyal medya hesabı kullanır?"
+    },
+    {
+      "id": "mlt_tr_014",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim birinin profilini gezerken yanlışlıkla beğeni atar?"
+    },
+    {
+      "id": "mlt_tr_015",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim dizi izlemek için işe/okula hasta der?"
+    },
+    {
+      "id": "mlt_tr_016",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim farkında olmadan dedikodu çıkarır?"
+    },
+    {
+      "id": "mlt_tr_017",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim yanlış kişiye mesaj atar?"
+    },
+    {
+      "id": "mlt_tr_018",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim planları son dakikada iptal eder?"
+    },
+    {
+      "id": "mlt_tr_019",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim herkesin özel işini bilir?"
+    },
+    {
+      "id": "mlt_tr_020",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim sosyal medyada fazla paylaşım yapar?"
+    },
+    {
+      "id": "mlt_tr_021",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim bu odadaki biriyle öpüşmüş olur?"
+    },
+    {
+      "id": "mlt_tr_022",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim gizli bir hayranı vardır?"
+    },
+    {
+      "id": "mlt_tr_023",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim kendinden çok küçük ya da büyük biriyle çıkar?"
+    },
+    {
+      "id": "mlt_tr_024",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim flört ederek hız cezasından kurtulur?"
+    },
+    {
+      "id": "mlt_tr_025",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim bir ünlünün DM'ine yazmıştır?"
+    },
+    {
+      "id": "mlt_tr_026",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim flört programına çıkar?"
+    },
+    {
+      "id": "mlt_tr_027",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim olmaması gereken birine aşık olur?"
+    },
+    {
+      "id": "mlt_tr_028",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim en dramatik ilişki geçmişine sahiptir?"
+    },
+    {
+      "id": "mlt_tr_029",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim aynı arkadaş grubundan iki kişiyle çıkmıştır?"
+    },
+    {
+      "id": "mlt_tr_030",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim kimseye söylemediği bir ilişki yaşamıştır?"
+    },
+    {
+      "id": "mlt_tr_031",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim uçakta bir yabancıya aşık olur?"
+    },
+    {
+      "id": "mlt_tr_032",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim yeni bir grupta en büyük flört olur?"
+    },
+    {
+      "id": "mlt_tr_033",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim birine his kapınca hemen inkâr eder?"
+    },
+    {
+      "id": "mlt_tr_034",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim lise aşkıyla hâlâ konuşuyordur?"
+    },
+    {
+      "id": "mlt_tr_035",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim bir yabancıyla tanışıp aynı hafta evlenir?"
+    },
+    {
+      "id": "mlt_tr_036",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kimin şu anda 5'ten fazla okunmamış flörtöz mesajı vardır?"
+    },
+    {
+      "id": "mlt_tr_037",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim hep terk edilen taraf olur?"
+    },
+    {
+      "id": "mlt_tr_038",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim bir eski sevgilisi yüzünden kişiliğini tamamen değiştirmiştir?"
+    },
+    {
+      "id": "mlt_tr_039",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim flört programına katılıp kazanır?"
+    },
+    {
+      "id": "mlt_tr_040",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim kendi başlattığı ayrılıktan sonra ağlar?"
+    },
+    {
+      "id": "mlt_tr_041",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim telefonunu gece şarja takmayı en çok unutur?"
+    },
+    {
+      "id": "mlt_tr_042",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim kimse sormadan sinemaya atıştırmalık getirir?"
+    },
+    {
+      "id": "mlt_tr_043",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim dümdüz kaldırımda bile tökezler?"
+    },
+    {
+      "id": "mlt_tr_044",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim her yemeğin fotoğrafını çeker?"
+    },
+    {
+      "id": "mlt_tr_045",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim bir haftada iki kez anahtarını kaybeder?"
+    },
+    {
+      "id": "mlt_tr_046",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim grup sohbetini başlatıp hemen sessize alır?"
+    },
+    {
+      "id": "mlt_tr_047",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim evde film izlerken uyuyakalır?"
+    },
+    {
+      "id": "mlt_tr_048",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim hafta sonu kaçamağına bile fazla eşya alır?"
+    },
+    {
+      "id": "mlt_tr_049",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim sokakta gördüğü bir hayvanı sahiplenir?"
+    },
+    {
+      "id": "mlt_tr_050",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim ilk günden kahvecidekilerle arkadaş olur?"
+    },
+    {
+      "id": "mlt_tr_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim her alışverişte bez çanta taşır?"
+    },
+    {
+      "id": "mlt_tr_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim pikniğe kutu oyunu getirir?"
+    },
+    {
+      "id": "mlt_tr_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim yanlış anda güler?"
+    },
+    {
+      "id": "mlt_tr_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim kapalı havada bile güneş yanığı olur?"
+    },
+    {
+      "id": "mlt_tr_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim her duruma playlist yapar?"
+    },
+    {
+      "id": "mlt_tr_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim buluşmalarda DJ olur?"
+    },
+    {
+      "id": "mlt_tr_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim herkesin doğum gününü hatırlar?"
+    },
+    {
+      "id": "mlt_tr_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim her yerde şekerleme yapar?"
+    },
+    {
+      "id": "mlt_tr_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim şehirdeki her yeni kafeyi dener?"
+    },
+    {
+      "id": "mlt_tr_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim her fişi “lazım olur” diye saklar?"
+    },
+    {
+      "id": "mlt_tr_061",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim son dakika plan iptali yapıp sonra vicdan azabı çeker?"
+    },
+    {
+      "id": "mlt_tr_062",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim her ruh haline ayrı bir çalma listesi yapar?"
+    },
+    {
+      "id": "mlt_tr_063",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim grup planında kaybolup sonra geri gelir?"
+    },
+    {
+      "id": "mlt_tr_064",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim hobisinden yan iş çıkarır?"
+    },
+    {
+      "id": "mlt_tr_065",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim bir günde tüm sezonu bitirir?"
+    },
+    {
+      "id": "mlt_tr_066",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim internette yabancılarla tartışır?"
+    },
+    {
+      "id": "mlt_tr_067",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim grup sohbetinde fazla detay verir?"
+    },
+    {
+      "id": "mlt_tr_068",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim podcast başlatıp iki bölüm sonra bırakır?"
+    },
+    {
+      "id": "mlt_tr_069",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim navigasyona rağmen kaybolur?"
+    },
+    {
+      "id": "mlt_tr_070",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim 200 okunmamış e-postasıyla yaşar?"
+    },
+    {
+      "id": "mlt_tr_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim mesajların ekran görüntüsünü alıp biriktirir?"
+    },
+    {
+      "id": "mlt_tr_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim partide içeceğini döker?"
+    },
+    {
+      "id": "mlt_tr_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim grupta dans trendi başlatır?"
+    },
+    {
+      "id": "mlt_tr_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim sadece sesli mesaj atar?"
+    },
+    {
+      "id": "mlt_tr_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim aniden hafta sonu tatili planlar?"
+    },
+    {
+      "id": "mlt_tr_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim yıllarca sır saklar?"
+    },
+    {
+      "id": "mlt_tr_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim geç kalır ama yine de kusursuz görünür?"
+    },
+    {
+      "id": "mlt_tr_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim partiden dramatik çıkış yapar?"
+    },
+    {
+      "id": "mlt_tr_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim birini tiye alıp “şaka ya” der?"
+    },
+    {
+      "id": "mlt_tr_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim en iyi gizli yemek mekânlarını bilir?"
+    },
+    {
+      "id": "mlt_tr_081",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim bu odada birine gizliden hoşlanıyordur?"
+    },
+    {
+      "id": "mlt_tr_082",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim ünlülere DM atma cesareti gösterir?"
+    },
+    {
+      "id": "mlt_tr_083",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim yeni tanıştığı birine hemen kapılır?"
+    },
+    {
+      "id": "mlt_tr_084",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim eski sevgiliyle yazışmayı sürdürür?"
+    },
+    {
+      "id": "mlt_tr_085",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim flört ederek işini çözer?"
+    },
+    {
+      "id": "mlt_tr_086",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim adını koymadığı bir ilişki yaşar?"
+    },
+    {
+      "id": "mlt_tr_087",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim eski bir fotoğrafı beğenip yakalanır?"
+    },
+    {
+      "id": "mlt_tr_088",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim bir dating programına katılır?"
+    },
+    {
+      "id": "mlt_tr_089",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim kendinden çok büyük/küçük biriyle çıkar?"
+    },
+    {
+      "id": "mlt_tr_090",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim en iddialı dating profiline sahiptir?"
+    },
+    {
+      "id": "mlt_tr_091",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim kendi doğum gününü unutur?"
+    },
+    {
+      "id": "mlt_tr_092",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim bir iş kurup gerçekten başarılı olur?"
+    },
+    {
+      "id": "mlt_tr_093",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim telefonunu bir hafta kaybeder?"
+    },
+    {
+      "id": "mlt_tr_094",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim aniden bir evcil hayvan sahiplenir?"
+    },
+    {
+      "id": "mlt_tr_095",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim sürpriz parti planını kusursuz yapar?"
+    },
+    {
+      "id": "mlt_tr_096",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim karaoke yarışmasını kazanır?"
+    },
+    {
+      "id": "mlt_tr_097",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim kimseye söylemeden başka şehre taşınır?"
+    },
+    {
+      "id": "mlt_tr_098",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim kendi mahallesinde kaybolur?"
+    },
+    {
+      "id": "mlt_tr_099",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim internette ünlü olur?"
+    },
+    {
+      "id": "mlt_tr_100",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim film randevusunda uyuyakalır?"
+    },
+    {
+      "id": "mlt_tr_101",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim sıfırdan tam bir yemek yapar?"
+    },
+    {
+      "id": "mlt_tr_102",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim son dakika seyahat ayarlar?"
+    },
+    {
+      "id": "mlt_tr_103",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim yanlış kişiye ekran görüntüsü gönderir?"
+    },
+    {
+      "id": "mlt_tr_104",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim yıllarca sır tutar?"
+    },
+    {
+      "id": "mlt_tr_105",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim trafik cezasını konuşarak iptal ettirir?"
+    },
+    {
+      "id": "mlt_tr_106",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim günlerce geri dönmeyi unutur?"
+    },
+    {
+      "id": "mlt_tr_107",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim bir çalma listesi seçmek için bir saat harcar?"
+    },
+    {
+      "id": "mlt_tr_108",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim antrenmansız maratona katılır?"
+    },
+    {
+      "id": "mlt_tr_109",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim sırada beklerken bir yabancıyla arkadaş olur?"
+    },
+    {
+      "id": "mlt_tr_110",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim bilgi yarışması gecesini kazanır?"
+    },
+    {
+      "id": "mlt_tr_111",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim grup sohbetini sessize alıp kaybolur?"
+    },
+    {
+      "id": "mlt_tr_112",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim odası dağınık ama masası düzenli olur?"
+    },
+    {
+      "id": "mlt_tr_113",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim hayır deyip gerçekten hayır der?"
+    },
+    {
+      "id": "mlt_tr_114",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim kendi partisine geç kalır?"
+    },
+    {
+      "id": "mlt_tr_115",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim bir anda dövme yaptırır?"
+    },
+    {
+      "id": "mlt_tr_116",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim gizli bir yeteneğe sahiptir?"
+    },
+    {
+      "id": "mlt_tr_117",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim hafta sonu için fazla eşya toplar?"
+    },
+    {
+      "id": "mlt_tr_118",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim telefon ekranını kırar?"
+    },
+    {
+      "id": "mlt_tr_119",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim ilk özür dileyen olur?"
+    },
+    {
+      "id": "mlt_tr_120",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim bir kitabı bir günde bitirir?"
+    },
+    {
+      "id": "mlt_tr_121",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim en tuhaf rüyayı görür?"
+    },
+    {
+      "id": "mlt_tr_122",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim hoşlandığı kişi için çalma listesi yapar?"
+    },
+    {
+      "id": "mlt_tr_123",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim her koşulda tartışmadan kaçınır?"
+    },
+    {
+      "id": "mlt_tr_124",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim tüm şarkı sözlerini hatırlar?"
+    },
+    {
+      "id": "mlt_tr_125",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim menüdeki her şeyi dener?"
+    },
+    {
+      "id": "mlt_tr_126",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim bir şifreyi anında unutur?"
+    },
+    {
+      "id": "mlt_tr_127",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim sabah insanı olur?"
+    },
+    {
+      "id": "mlt_tr_128",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim üstüne kahve döker?"
+    },
+    {
+      "id": "mlt_tr_129",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim planları son anda iptal eder?"
+    },
+    {
+      "id": "mlt_tr_130",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim her fişi saklar?"
+    },
+    {
+      "id": "mlt_tr_131",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim oyunlarda en rekabetçi olur?"
+    },
+    {
+      "id": "mlt_tr_132",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim tatilde birine aşık olur?"
+    },
+    {
+      "id": "mlt_tr_133",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim gizli bir hayranı olur?"
+    },
+    {
+      "id": "mlt_tr_134",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim kendi kendine konuşurken yakalanır?"
+    },
+    {
+      "id": "mlt_tr_135",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim reklam sırasında ağlar?"
+    },
+    {
+      "id": "mlt_tr_136",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim trend başlatır?"
+    },
+    {
+      "id": "mlt_tr_137",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim en dramatik hikaye anlatıcısı olur?"
+    },
+    {
+      "id": "mlt_tr_138",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim havaalanında bagajını kaybeder?"
+    },
+    {
+      "id": "mlt_tr_139",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim her şey için ayrı grup chat açar?"
+    },
+    {
+      "id": "mlt_tr_140",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim en iyi tavsiyeyi verir?"
+    },
+    {
+      "id": "mlt_tr_141",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim her zaman çantasında atıştırmalık taşır?"
+    },
+    {
+      "id": "mlt_tr_142",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim bir sonraki buluşmayı gönüllü olarak organize eder?"
+    },
+    {
+      "id": "mlt_tr_143",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim takvimini renk kodlarıyla düzenler?"
+    },
+    {
+      "id": "mlt_tr_144",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim her yerde kestirebilir?"
+    },
+    {
+      "id": "mlt_tr_145",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim her buluşmaya bir kutu oyunu getirir?"
+    },
+    {
+      "id": "mlt_tr_146",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim bir yaz içinde güneş gözlüğünü iki kez kaybeder?"
+    },
+    {
+      "id": "mlt_tr_147",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim hatırlatma olmadan herkesin doğum gününü hatırlar?"
+    },
+    {
+      "id": "mlt_tr_148",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim her mağazada kasiyerle arkadaş olur?"
+    },
+    {
+      "id": "mlt_tr_149",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim tarayıcıda 30 sekme açık tutar?"
+    },
+    {
+      "id": "mlt_tr_150",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim her gün günlük tutar?"
+    },
+    {
+      "id": "mlt_tr_151",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim yedek telefon şarjı taşır?"
+    },
+    {
+      "id": "mlt_tr_152",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim GPS açıkken bile kaybolur?"
+    },
+    {
+      "id": "mlt_tr_153",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim arabada her şarkıya eşlik eder?"
+    },
+    {
+      "id": "mlt_tr_154",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim toplu taşımada uyuyakalır?"
+    },
+    {
+      "id": "mlt_tr_155",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim parti için temalı bir kıyafet planlar?"
+    },
+    {
+      "id": "mlt_tr_156",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim bir bitkiyi yıllarca yaşatır?"
+    },
+    {
+      "id": "mlt_tr_157",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim her yerde kestirme yol bilir?"
+    },
+    {
+      "id": "mlt_tr_158",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim kitap kulübü başlatır?"
+    },
+    {
+      "id": "mlt_tr_159",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim yolculuk için ekstra atıştırmalık paketler?"
+    },
+    {
+      "id": "mlt_tr_160",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim her şeye erken gelir?"
+    },
+    {
+      "id": "mlt_tr_161",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim yan iş kurup devam ettirir?"
+    },
+    {
+      "id": "mlt_tr_162",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim bir sezonu bir gecede bitirir?"
+    },
+    {
+      "id": "mlt_tr_163",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim bir mesajı gereğinden fazla düşünür?"
+    },
+    {
+      "id": "mlt_tr_164",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim gece 2'de odasını baştan düzenler?"
+    },
+    {
+      "id": "mlt_tr_165",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim detaylı bir seyahat planı çıkarır?"
+    },
+    {
+      "id": "mlt_tr_166",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim buz gibi suya girme meydan okumasını dener ve sever?"
+    },
+    {
+      "id": "mlt_tr_167",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim spontane bir yolculuğa çıkar?"
+    },
+    {
+      "id": "mlt_tr_168",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim mükemmel hediye seçmek için saatler harcar?"
+    },
+    {
+      "id": "mlt_tr_169",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim sırf eğlence için bir kursa yazılır?"
+    },
+    {
+      "id": "mlt_tr_170",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim her ay yeni bir hobiye başlar?"
+    },
+    {
+      "id": "mlt_tr_171",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim rastgele bir podcast'e takılıp kalır?"
+    },
+    {
+      "id": "mlt_tr_172",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim yoğunken öğle yemeğini unutur?"
+    },
+    {
+      "id": "mlt_tr_173",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim internetteki bir çekilişi kazanır?"
+    },
+    {
+      "id": "mlt_tr_174",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim grubun fotoğrafçısı olur?"
+    },
+    {
+      "id": "mlt_tr_175",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim her seferinde aynı şeyi sipariş eder?"
+    },
+    {
+      "id": "mlt_tr_176",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim arkadaşına sürpriz bir gezi planlar?"
+    },
+    {
+      "id": "mlt_tr_177",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim bir seyahat için Excel tablosu hazırlar?"
+    },
+    {
+      "id": "mlt_tr_178",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim biletlerini bir kutuda saklar?"
+    },
+    {
+      "id": "mlt_tr_179",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim mesaj yerine ses kaydı atar?"
+    },
+    {
+      "id": "mlt_tr_180",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim konuşmayı önceden prova eder?"
+    },
+    {
+      "id": "mlt_tr_181",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim görüldüden sonra üst üste mesaj atar?"
+    },
+    {
+      "id": "mlt_tr_182",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim indirim almak için flört eder?"
+    },
+    {
+      "id": "mlt_tr_183",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim telefonunda dating uygulamalarını tutar?"
+    },
+    {
+      "id": "mlt_tr_184",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim hafta sonu kaçamağında birine aşık olur?"
+    },
+    {
+      "id": "mlt_tr_185",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim ilk adımı atar?"
+    },
+    {
+      "id": "mlt_tr_186",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim bir arkadaşına gizliden gizliye hoşlanır?"
+    },
+    {
+      "id": "mlt_tr_187",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim gece geç saatte ex'ine yazar?"
+    },
+    {
+      "id": "mlt_tr_188",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim bedava yemek için randevuya gider?"
+    },
+    {
+      "id": "mlt_tr_189",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim randevuda telefonuna bakarken yakalanır?"
+    },
+    {
+      "id": "mlt_tr_190",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim önce “seni seviyorum” der?"
+    }
   ]
 }

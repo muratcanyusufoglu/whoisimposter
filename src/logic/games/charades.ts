@@ -38,7 +38,7 @@ export const charadesLogic = {
       : DEFAULT_CHARADES_CATEGORIES
     const all = shuffle(wordSelector.buildPool(categories, locale))
     const fresh = all.filter((w) => !usedWords.includes(w))
-    return fresh.length >= 5 ? fresh : all
+    return fresh
   },
 
   /**

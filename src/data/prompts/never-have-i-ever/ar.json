@@ -1,0 +1,607 @@
+{
+  "gameId": "never-have-i-ever",
+  "locale": "ar",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "nhie_ar_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما عمري نسيت هاتفي في البيت."
+    },
+    {
+      "id": "nhie_ar_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما عمري ركبت الباص أو المترو الخطأ."
+    },
+    {
+      "id": "nhie_ar_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما عمري أكلت الحلو قبل العشاء."
+    },
+    {
+      "id": "nhie_ar_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما عمري نمت وفاتني المنبّه."
+    },
+    {
+      "id": "nhie_ar_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما عمري لبست شرابين مختلفين."
+    },
+    {
+      "id": "nhie_ar_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما عمري ضحكت في موقف جدي."
+    },
+    {
+      "id": "nhie_ar_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما عمري سكبت مشروبًا على نفسي في مكان عام."
+    },
+    {
+      "id": "nhie_ar_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما عمري رحت السوق وأنا جائع."
+    },
+    {
+      "id": "nhie_ar_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما عمري ضيّعت مفاتيحي أكثر من يوم."
+    },
+    {
+      "id": "nhie_ar_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما عمري لبست نفس الطقم يومين ورا بعض."
+    },
+    {
+      "id": "nhie_ar_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما عمري نسيت أشحن هاتفي بالليل."
+    },
+    {
+      "id": "nhie_ar_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما عمري غنيت بصوت عالي وحدي بالسيارة."
+    },
+    {
+      "id": "nhie_ar_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما عمري أكلت كورن فليكس على العشاء."
+    },
+    {
+      "id": "nhie_ar_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما عمري قصّيت شعري وكرهت النتيجة."
+    },
+    {
+      "id": "nhie_ar_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما عمري حاولت أصلّح شيئًا وخربته أكثر."
+    },
+    {
+      "id": "nhie_ar_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما عمري دخلت صف أو اجتماع غلط."
+    },
+    {
+      "id": "nhie_ar_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما عمري نمت في السينما أثناء الفيلم."
+    },
+    {
+      "id": "nhie_ar_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما عمري أرسلت رسالة لقروب غلط."
+    },
+    {
+      "id": "nhie_ar_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما عمري خبزت شيء وطلع سيئ جدًا."
+    },
+    {
+      "id": "nhie_ar_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما عمري ربيت سمكة كحيوان أليف."
+    },
+    {
+      "id": "nhie_ar_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما عمري ضغطت غفوة المنبّه أكثر من خمس مرات."
+    },
+    {
+      "id": "nhie_ar_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما عمري كذبت وقلت أنا بالطريق."
+    },
+    {
+      "id": "nhie_ar_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما عمري نسيت عيد ميلاد صديق قريب."
+    },
+    {
+      "id": "nhie_ar_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما عمري انمسكت وأنا أتنصت."
+    },
+    {
+      "id": "nhie_ar_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما عمري تظاهرت أن بطارية هاتفي خلصت لإنهاء مكالمة."
+    },
+    {
+      "id": "nhie_ar_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما عمري كان عندي كراش على زميل عمل أو دراسة."
+    },
+    {
+      "id": "nhie_ar_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما عمري رجعت قرأت محادثة قديمة عشان أفكر زيادة."
+    },
+    {
+      "id": "nhie_ar_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما عمري حذفت رسالة فور إرسالها."
+    },
+    {
+      "id": "nhie_ar_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما عمري لاحقت حساب شخص بدافع الفضول."
+    },
+    {
+      "id": "nhie_ar_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما عمري انحرجت لدرجة أني أردت أطلع من حفلة."
+    },
+    {
+      "id": "nhie_ar_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما عمري كذبت في السيرة الذاتية."
+    },
+    {
+      "id": "nhie_ar_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما عمري استلفت شيء وما رجعته."
+    },
+    {
+      "id": "nhie_ar_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما عمري حظرت شخص وبعدين فك الحظر عشان أشوف."
+    },
+    {
+      "id": "nhie_ar_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما عمري أعطيت اسم مزيف في مقهى."
+    },
+    {
+      "id": "nhie_ar_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما عمري اختفيت من قروب."
+    },
+    {
+      "id": "nhie_ar_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما عمري علّقت تأخيري على الزحمة وأنا أصلاً طلعت متأخر."
+    },
+    {
+      "id": "nhie_ar_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما عمري قلت 'شفته' وأنا ما شفته."
+    },
+    {
+      "id": "nhie_ar_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما عمري نسيت كلمة مرور وسويت حساب جديد."
+    },
+    {
+      "id": "nhie_ar_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما عمري جلست بالسرير طول اليوم عن قصد."
+    },
+    {
+      "id": "nhie_ar_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما عمري كرهت شريك صديقي سرًا."
+    },
+    {
+      "id": "nhie_ar_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ما عمري بوسّت شخص تعرفت عليه في نفس الليلة."
+    },
+    {
+      "id": "nhie_ar_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ما عمري كان عندي علاقة سرّية."
+    },
+    {
+      "id": "nhie_ar_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ما عمري أرسلت صورة جريئة."
+    },
+    {
+      "id": "nhie_ar_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ما عمري كذبت عن حالتي العاطفية."
+    },
+    {
+      "id": "nhie_ar_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ما عمري رحت موعد عشان الأكل المجاني."
+    },
+    {
+      "id": "nhie_ar_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ما عمري انمسكت وأنا أطلع من البيت خلسة."
+    },
+    {
+      "id": "nhie_ar_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ما عمري حبيت شخصين في نفس الوقت."
+    },
+    {
+      "id": "nhie_ar_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ما عمري غرت من علاقة صديق."
+    },
+    {
+      "id": "nhie_ar_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ما عمري مسحت رسائل لأخفي شيئًا."
+    },
+    {
+      "id": "nhie_ar_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ما عمري غازلت عشان خدمة."
+    },
+    {
+      "id": "nhie_ar_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "لم يسبق لي أن خبزت كوكيز من الصفر."
+    },
+    {
+      "id": "nhie_ar_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "لم يسبق لي أن نمت في الصف."
+    },
+    {
+      "id": "nhie_ar_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "لم يسبق لي أن فوت الحافلة عمدًا."
+    },
+    {
+      "id": "nhie_ar_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "لم يسبق لي أن صنعت رجل ثلج."
+    },
+    {
+      "id": "nhie_ar_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "لم يسبق لي أن قضيت يومًا كاملًا بدون هاتفي."
+    },
+    {
+      "id": "nhie_ar_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "لم يسبق لي أن ارتديت نفس الملابس يومين متتاليين."
+    },
+    {
+      "id": "nhie_ar_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "لم يسبق لي أن نسيت أين ركنت سيارتي."
+    },
+    {
+      "id": "nhie_ar_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "لم يسبق لي أن غنيت بصوت عالٍ في الحمام."
+    },
+    {
+      "id": "nhie_ar_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "لم يسبق لي أن ضعت في مركز تجاري."
+    },
+    {
+      "id": "nhie_ar_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "لم يسبق لي أن جربت طعامًا جديدًا وأحببته فورًا."
+    },
+    {
+      "id": "nhie_ar_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "لم يسبق لي أن استعرْت كتابًا ولم أُعده."
+    },
+    {
+      "id": "nhie_ar_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "لم يسبق لي أن شاهدت موسمًا كاملًا في عطلة نهاية أسبوع."
+    },
+    {
+      "id": "nhie_ar_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "لم يسبق لي أن ضحكت حتى بكيت."
+    },
+    {
+      "id": "nhie_ar_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "لم يسبق لي أن صنعت هدية يدوية."
+    },
+    {
+      "id": "nhie_ar_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "لم يسبق لي أن سهرت طوال الليل أتحدث."
+    },
+    {
+      "id": "nhie_ar_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "لم يسبق لي أن تخطيت تمرينًا كنت ناويًا عليه."
+    },
+    {
+      "id": "nhie_ar_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "لم يسبق لي أن كذبت وقلت “أنا على بعد خمس دقائق”."
+    },
+    {
+      "id": "nhie_ar_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "لم يسبق لي أن أرسلت رسالة للشخص الخطأ."
+    },
+    {
+      "id": "nhie_ar_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "لم يسبق لي أن كسرت شيئًا ولُمت شخصًا آخر."
+    },
+    {
+      "id": "nhie_ar_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "لم يسبق لي أن حصلت على مخالفة سرعة."
+    },
+    {
+      "id": "nhie_ar_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "لم يسبق لي أن تظاهرت أنني أحببت هدية لم تعجبني."
+    },
+    {
+      "id": "nhie_ar_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "لم يسبق لي أن تفقدت القائمة أونلاين قبل الخروج."
+    },
+    {
+      "id": "nhie_ar_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "لم يسبق لي أن ادعيت المرض وأنا لست مريضًا."
+    },
+    {
+      "id": "nhie_ar_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "لم يسبق لي أن سافرت بدون أي خطة."
+    },
+    {
+      "id": "nhie_ar_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "لم يسبق لي أن تم ضبطي أغني في السيارة عند الإشارة."
+    },
+    {
+      "id": "nhie_ar_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "لم يسبق لي أن سهرْت طوال الليل لإنهاء مشروع."
+    },
+    {
+      "id": "nhie_ar_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "لم يسبق لي أن بكيت على فيلم في العلن."
+    },
+    {
+      "id": "nhie_ar_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "لم يسبق لي أن تجاهلت رسالة عن قصد."
+    },
+    {
+      "id": "nhie_ar_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "لم يسبق لي أن شعرت بالذنب لإلغاء خطط."
+    },
+    {
+      "id": "nhie_ar_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "لم يسبق لي أن شعرت بالحرج من نغمة هاتفي."
+    },
+    {
+      "id": "nhie_ar_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "لم يسبق لي أن اشتريت شيئًا فقط لأنه مخفّض."
+    },
+    {
+      "id": "nhie_ar_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "لم يسبق لي أن تظاهرت أنني أعرف أغنية."
+    },
+    {
+      "id": "nhie_ar_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "لم يسبق لي أن فتشت ثلاجة شخص آخر."
+    },
+    {
+      "id": "nhie_ar_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "لم يسبق لي أن بدأت تعلم لغة ثم توقفت."
+    },
+    {
+      "id": "nhie_ar_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "لم يسبق لي أن كتبت “لول” دون أن أضحك."
+    },
+    {
+      "id": "nhie_ar_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "لم يسبق لي أن ذهبت في موعد وأنا أعرف أنه لن ينجح."
+    },
+    {
+      "id": "nhie_ar_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "لم يسبق لي أن أعجبت بزميل عمل."
+    },
+    {
+      "id": "nhie_ar_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "لم يسبق لي أن كنت في علاقة غير واضحة."
+    },
+    {
+      "id": "nhie_ar_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "لم يسبق لي أن انكشفت وأنا أُغازل."
+    },
+    {
+      "id": "nhie_ar_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "لم يسبق لي أن تجاهلت شخصًا بعد موعد."
+    },
+    {
+      "id": "nhie_ar_091",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "لم يسبق لي أن أرسلت رسالة جريئة وندمت فورًا."
+    },
+    {
+      "id": "nhie_ar_092",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "لم يسبق لي أن كذبت بشأن عمري."
+    },
+    {
+      "id": "nhie_ar_093",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "لم يسبق لي أن قبلت شخصًا للتو تعرفت عليه."
+    },
+    {
+      "id": "nhie_ar_094",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "لم يسبق لي أن كان لدي مشاعر لصديق."
+    },
+    {
+      "id": "nhie_ar_095",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "لم يسبق لي أن استخدمت تطبيق مواعدة."
+    },
+    {
+      "id": "nhie_ar_096",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "لم يسبق لي أن راسلت حبيبي السابق ليلًا."
+    },
+    {
+      "id": "nhie_ar_097",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "لم يسبق لي أن نمت أثناء موعد."
+    },
+    {
+      "id": "nhie_ar_098",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "لم يسبق لي أن غادرت مبكرًا لتجنب موعد سيئ."
+    },
+    {
+      "id": "nhie_ar_099",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "لم يسبق لي أن غرت من علاقة صديق."
+    },
+    {
+      "id": "nhie_ar_100",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "لم يسبق لي أن حذفت رسالة قبل أن يراها الطرف الآخر."
+    }
+  ]
+}

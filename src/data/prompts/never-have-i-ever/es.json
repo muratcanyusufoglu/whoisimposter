@@ -1,0 +1,607 @@
+{
+  "gameId": "never-have-i-ever",
+  "locale": "es",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "nhie_es_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he olvidado mi móvil en casa."
+    },
+    {
+      "id": "nhie_es_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca me he subido al bus o metro equivocado."
+    },
+    {
+      "id": "nhie_es_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he comido el postre antes de la cena."
+    },
+    {
+      "id": "nhie_es_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca me he quedado dormido con la alarma."
+    },
+    {
+      "id": "nhie_es_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he llevado calcetines diferentes."
+    },
+    {
+      "id": "nhie_es_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he reído en un momento serio."
+    },
+    {
+      "id": "nhie_es_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca me he tirado una bebida encima en público."
+    },
+    {
+      "id": "nhie_es_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he ido al súper con hambre."
+    },
+    {
+      "id": "nhie_es_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he perdido mis llaves por más de un día."
+    },
+    {
+      "id": "nhie_es_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he usado el mismo outfit dos días seguidos."
+    },
+    {
+      "id": "nhie_es_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he olvidado cargar el móvil por la noche."
+    },
+    {
+      "id": "nhie_es_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he cantado a gritos solo en el coche."
+    },
+    {
+      "id": "nhie_es_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he cenado cereales."
+    },
+    {
+      "id": "nhie_es_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he tenido un corte de pelo horrible."
+    },
+    {
+      "id": "nhie_es_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he intentado arreglar algo y lo he empeorado."
+    },
+    {
+      "id": "nhie_es_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he entrado en la clase o reunión equivocada."
+    },
+    {
+      "id": "nhie_es_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca me he dormido en el cine."
+    },
+    {
+      "id": "nhie_es_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he enviado un mensaje al grupo equivocado."
+    },
+    {
+      "id": "nhie_es_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he horneado algo que salió fatal."
+    },
+    {
+      "id": "nhie_es_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he tenido un pez como mascota."
+    },
+    {
+      "id": "nhie_es_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he pospuesto la alarma más de cinco veces."
+    },
+    {
+      "id": "nhie_es_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he mentido diciendo que ya iba en camino."
+    },
+    {
+      "id": "nhie_es_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he olvidado el cumpleaños de un amigo cercano."
+    },
+    {
+      "id": "nhie_es_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca me han pillado escuchando conversaciones."
+    },
+    {
+      "id": "nhie_es_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he fingido que se me murió el móvil para cortar una llamada."
+    },
+    {
+      "id": "nhie_es_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he tenido un crush con un compañero de trabajo o clase."
+    },
+    {
+      "id": "nhie_es_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he releído un chat viejo para darle vueltas."
+    },
+    {
+      "id": "nhie_es_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he borrado un mensaje justo después de enviarlo."
+    },
+    {
+      "id": "nhie_es_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he stalkeado un perfil por curiosidad."
+    },
+    {
+      "id": "nhie_es_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca me he sentido tan avergonzado que quería irme de una fiesta."
+    },
+    {
+      "id": "nhie_es_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he mentido en mi currículum."
+    },
+    {
+      "id": "nhie_es_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he pedido prestado algo y no lo he devuelto."
+    },
+    {
+      "id": "nhie_es_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he bloqueado a alguien y luego lo he desbloqueado para mirar."
+    },
+    {
+      "id": "nhie_es_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he dado un nombre falso en una cafetería."
+    },
+    {
+      "id": "nhie_es_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he ghosteado un grupo."
+    },
+    {
+      "id": "nhie_es_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he echado la culpa al tráfico cuando salí tarde."
+    },
+    {
+      "id": "nhie_es_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he dicho 'ya lo vi' sin haberlo visto."
+    },
+    {
+      "id": "nhie_es_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he olvidado una contraseña y creado otra cuenta."
+    },
+    {
+      "id": "nhie_es_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he pasado todo el día en la cama a propósito."
+    },
+    {
+      "id": "nhie_es_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he desaprobado en secreto a la pareja de un amigo."
+    },
+    {
+      "id": "nhie_es_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nunca he besado a alguien que conocí esa noche."
+    },
+    {
+      "id": "nhie_es_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nunca he tenido un lío secreto."
+    },
+    {
+      "id": "nhie_es_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nunca he enviado una foto subida de tono."
+    },
+    {
+      "id": "nhie_es_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nunca he mentido sobre mi estado sentimental."
+    },
+    {
+      "id": "nhie_es_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nunca he ido a una cita solo por comida gratis."
+    },
+    {
+      "id": "nhie_es_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nunca me han pillado escapándome de casa."
+    },
+    {
+      "id": "nhie_es_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nunca he sentido algo por dos personas a la vez."
+    },
+    {
+      "id": "nhie_es_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nunca he sentido celos de la relación de un amigo."
+    },
+    {
+      "id": "nhie_es_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nunca he borrado mensajes para esconder algo."
+    },
+    {
+      "id": "nhie_es_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nunca he coqueteado para conseguir un favor."
+    },
+    {
+      "id": "nhie_es_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he hecho galletas desde cero."
+    },
+    {
+      "id": "nhie_es_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca me he dormido en clase."
+    },
+    {
+      "id": "nhie_es_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he perdido el bus a propósito."
+    },
+    {
+      "id": "nhie_es_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he hecho un muñeco de nieve."
+    },
+    {
+      "id": "nhie_es_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he pasado un día entero sin el móvil."
+    },
+    {
+      "id": "nhie_es_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he derramado café en mi camiseta."
+    },
+    {
+      "id": "nhie_es_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he olvidado dónde aparqué."
+    },
+    {
+      "id": "nhie_es_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he cantado fuerte en la ducha."
+    },
+    {
+      "id": "nhie_es_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca me he perdido en un centro comercial."
+    },
+    {
+      "id": "nhie_es_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he probado una comida nueva y me ha encantado al instante."
+    },
+    {
+      "id": "nhie_es_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he prestado un libro y no lo he devuelto."
+    },
+    {
+      "id": "nhie_es_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca me he visto una serie entera en un fin de semana."
+    },
+    {
+      "id": "nhie_es_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca me he reído tanto que he llorado."
+    },
+    {
+      "id": "nhie_es_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he hecho un regalo DIY."
+    },
+    {
+      "id": "nhie_es_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca me he quedado toda la noche hablando."
+    },
+    {
+      "id": "nhie_es_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he saltado un entrenamiento que tenía planeado."
+    },
+    {
+      "id": "nhie_es_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he mentido diciendo “llego en cinco”."
+    },
+    {
+      "id": "nhie_es_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he enviado un mensaje a la persona equivocada."
+    },
+    {
+      "id": "nhie_es_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca he roto algo y culpado a otra persona."
+    },
+    {
+      "id": "nhie_es_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nunca me han puesto una multa por exceso de velocidad."
+    },
+    {
+      "id": "nhie_es_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he fingido que me gustaba un regalo."
+    },
+    {
+      "id": "nhie_es_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he mirado el menú online antes de salir."
+    },
+    {
+      "id": "nhie_es_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he llamado para decir que estaba enfermo cuando no lo estaba."
+    },
+    {
+      "id": "nhie_es_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he hecho un viaje sin ningún plan."
+    },
+    {
+      "id": "nhie_es_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca me han pillado cantando en el coche en un semáforo."
+    },
+    {
+      "id": "nhie_es_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he pasado la noche en vela para terminar algo."
+    },
+    {
+      "id": "nhie_es_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he llorado con una película en público."
+    },
+    {
+      "id": "nhie_es_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he ignorado un mensaje a propósito."
+    },
+    {
+      "id": "nhie_es_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca me he sentido culpable por cancelar planes."
+    },
+    {
+      "id": "nhie_es_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca me he avergonzado de mi tono de llamada."
+    },
+    {
+      "id": "nhie_es_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he comprado algo solo porque estaba en oferta."
+    },
+    {
+      "id": "nhie_es_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he fingido conocer una canción."
+    },
+    {
+      "id": "nhie_es_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he cotilleado el frigorífico de alguien."
+    },
+    {
+      "id": "nhie_es_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he empezado a aprender un idioma y lo he dejado."
+    },
+    {
+      "id": "nhie_es_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he puesto “jajaja” sin reírme."
+    },
+    {
+      "id": "nhie_es_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he ido a una cita sabiendo que no iba a ninguna parte."
+    },
+    {
+      "id": "nhie_es_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he tenido un crush con un compañero de trabajo."
+    },
+    {
+      "id": "nhie_es_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he estado en una situationship."
+    },
+    {
+      "id": "nhie_es_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca me han pillado ligando."
+    },
+    {
+      "id": "nhie_es_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nunca he ghosteado a alguien después de una cita."
+    },
+    {
+      "id": "nhie_es_091",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nunca he enviado un mensaje arriesgado y me he arrepentido al instante."
+    },
+    {
+      "id": "nhie_es_092",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nunca he mentido sobre mi edad."
+    },
+    {
+      "id": "nhie_es_093",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nunca he besado a alguien que acababa de conocer."
+    },
+    {
+      "id": "nhie_es_094",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nunca he tenido sentimientos por un amigo."
+    },
+    {
+      "id": "nhie_es_095",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nunca he usado una app de citas."
+    },
+    {
+      "id": "nhie_es_096",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nunca he escrito a mi ex tarde por la noche."
+    },
+    {
+      "id": "nhie_es_097",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nunca me he quedado dormido en una cita."
+    },
+    {
+      "id": "nhie_es_098",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nunca me he ido pronto para evitar una mala cita."
+    },
+    {
+      "id": "nhie_es_099",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nunca he dejado un chat en silencio para siempre."
+    },
+    {
+      "id": "nhie_es_100",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nunca he borrado un mensaje antes de que lo vieran."
+    }
+  ]
+}

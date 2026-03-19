@@ -1,0 +1,392 @@
+{
+  "gameId": "truth-dare",
+  "locale": "de",
+  "version": 1,
+  "prompts": [
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Was hast du zuletzt online gesucht?",
+      "id": "td_de_001"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welches Lied kannst du komplett mitsingen?",
+      "id": "td_de_002"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welche App benutzt du am meisten?",
+      "id": "td_de_003"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welches Essen könntest du jeden Tag essen?",
+      "id": "td_de_004"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Was ist das beste Kompliment, das du bekommen hast?",
+      "id": "td_de_005"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welche Serie oder welcher Film entspannt dich am meisten?",
+      "id": "td_de_006"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Worauf bist du dieses Jahr stolz?",
+      "id": "td_de_007"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Was ist deine seltsamste Gewohnheit?",
+      "id": "td_de_008"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie entspannst du am liebsten?",
+      "id": "td_de_009"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welches Talent hättest du gern?",
+      "id": "td_de_010"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mach 10 Sekunden eine Promi-Imitation.",
+      "id": "td_de_011"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Flüstere bis zur nächsten Runde.",
+      "id": "td_de_012"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zeig das letzte Foto auf deinem Handy.",
+      "id": "td_de_013"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mach 10 Hampelmänner.",
+      "id": "td_de_014"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lass jemand anderen dein Profilbild für 24 Stunden wählen.",
+      "id": "td_de_015"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Erzähl einen Fun Fact über dich.",
+      "id": "td_de_016"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Dreh dich 5 Mal und geh geradeaus.",
+      "id": "td_de_017"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Schick der letzten Person, die dir schrieb, ein freundliches Emoji.",
+      "id": "td_de_018"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sei 20 Sekunden Nachrichtensprecher.",
+      "id": "td_de_019"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Die Gruppe wählt ein Wort, das du 3 Minuten in jedem Satz benutzen musst.",
+      "id": "td_de_020"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Was ist die peinlichste Nachricht, die du geschickt hast?",
+      "id": "td_de_021"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mit wem schreibst du gerade am meisten?",
+      "id": "td_de_022"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Welches Versprechen bereust du?",
+      "id": "td_de_023"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Was tust du so, als würdest du es mögen, obwohl du es nicht tust?",
+      "id": "td_de_024"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wann warst du zuletzt eifersüchtig?",
+      "id": "td_de_025"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Welches Geheimnis hast du vor Freunden?",
+      "id": "td_de_026"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Welchen schlechten Rat hast du befolgt?",
+      "id": "td_de_027"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Was ist das teuerste, das du kaputt gemacht hast?",
+      "id": "td_de_028"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Welche Angst hast du niemandem erzählt?",
+      "id": "td_de_029"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wen hast du zuletzt stummgeschaltet oder entfolgt?",
+      "id": "td_de_030"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Poste eine zufällige Songzeile in deine Story.",
+      "id": "td_de_031"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Schreib jemandem jetzt ein Kompliment.",
+      "id": "td_de_032"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Iss einen Snack ohne Hände.",
+      "id": "td_de_033"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lass jemanden deine Haare stylen.",
+      "id": "td_de_034"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lies deine letzte Nachricht dramatisch vor.",
+      "id": "td_de_035"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Tanze 20 Sekunden albern.",
+      "id": "td_de_036"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sprich eine Minute lang mit einem Akzent, den die Gruppe wählt.",
+      "id": "td_de_037"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zeichne ein schnelles Porträt von jemandem.",
+      "id": "td_de_038"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Teile deinen Bildschirm für 10 Sekunden.",
+      "id": "td_de_039"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Tausch den Platz mit jemandem bis zur nächsten Runde.",
+      "id": "td_de_040"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hast du schon mal zwei Leute gleichzeitig gemocht?",
+      "id": "td_de_041"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Was ist dein größtes Dating-Red-Flag?",
+      "id": "td_de_042"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Was war dein flirtestes Verhalten in letzter Zeit?",
+      "id": "td_de_043"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Was hast du vor einem Partner verborgen?",
+      "id": "td_de_044"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Was war die mutigste Nachricht, die du geschickt hast?",
+      "id": "td_de_045"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Zeig das zuletzt gespeicherte Foto in deiner Galerie.",
+      "id": "td_de_046"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lies die letzte DM laut vor.",
+      "id": "td_de_047"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Schick einer vertrauten Person ein flirtiges GIF.",
+      "id": "td_de_048"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Zeig deine Liste der meistgenutzten Emojis.",
+      "id": "td_de_049"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Gesteh deinen letzten Crush (nur Initialen).",
+      "id": "td_de_050"
+    },
+    {
+      "id": "td_de_051",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Was ist deine aktuelle Obsession?"
+    },
+    {
+      "id": "td_de_052",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Was ist eine kleine Sache, die deinen Tag besser macht?"
+    },
+    {
+      "id": "td_de_053",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wen würdest du um 2 Uhr morgens anrufen, wenn du Hilfe brauchst?"
+    },
+    {
+      "id": "td_de_054",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mach 10 Hampelmänner."
+    },
+    {
+      "id": "td_de_055",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sag drei nette Dinge über die Person zu deiner Rechten."
+    }
+  ]
+}

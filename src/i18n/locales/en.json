@@ -206,7 +206,8 @@
     "roundsPlayed_one": "{{count}} round played",
     "roundsPlayed_other": "{{count}} rounds played",
     "pts": "pts",
-    "delta": "+{{count}}"
+    "delta": "+{{count}}",
+    "final": "Final Scores"
   },
   "streak": {
     "crewStreak": "🔥 Crew on a {{count}}-win streak!",
@@ -477,7 +478,9 @@
     "endGame": "End Game",
     "readyTitle": "Ready?",
     "readySubtitle": "Pass the phone and hold it to your forehead",
-    "startTimer": "Start!"
+    "startTimer": "Start!",
+    "emptyTitle": "No more words",
+    "emptySubtitle": "Try different categories to keep playing."
   },
   "wordChain": {
     "title": "Word Chain",

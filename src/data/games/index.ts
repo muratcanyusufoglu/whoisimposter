@@ -31,7 +31,7 @@ export const GAME_MODES: GameModeDefinition[] = [
     hasTimer: false,
     nameKey: 'games.truth_dare.name',
     descriptionKey: 'games.truth_dare.description',
-    supportsLocales: ['en', 'tr', 'de', 'fr', 'es'],
+    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl'],
   },
   {
     id: 'never-have-i-ever',
@@ -45,7 +45,7 @@ export const GAME_MODES: GameModeDefinition[] = [
     hasTimer: false,
     nameKey: 'games.nhie.name',
     descriptionKey: 'games.nhie.description',
-    supportsLocales: ['en', 'tr', 'de', 'fr', 'es'],
+    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl'],
   },
   {
     id: 'most-likely-to',
@@ -59,7 +59,7 @@ export const GAME_MODES: GameModeDefinition[] = [
     hasTimer: false,
     nameKey: 'games.mlt.name',
     descriptionKey: 'games.mlt.description',
-    supportsLocales: ['en', 'tr', 'de', 'fr', 'es'],
+    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl'],
   },
   {
     id: 'hot-takes',
@@ -73,7 +73,7 @@ export const GAME_MODES: GameModeDefinition[] = [
     hasTimer: false,
     nameKey: 'games.hot_takes.name',
     descriptionKey: 'games.hot_takes.description',
-    supportsLocales: ['en', 'tr'],
+    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl'],
   },
   {
     id: 'would-you-rather',
@@ -87,7 +87,7 @@ export const GAME_MODES: GameModeDefinition[] = [
     hasTimer: false,
     nameKey: 'games.wyr.name',
     descriptionKey: 'games.wyr.description',
-    supportsLocales: ['en', 'tr', 'de', 'fr', 'es'],
+    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl'],
   },
   {
     id: 'two-truths',
@@ -101,7 +101,7 @@ export const GAME_MODES: GameModeDefinition[] = [
     hasTimer: true,
     nameKey: 'games.two_truths.name',
     descriptionKey: 'games.two_truths.description',
-    supportsLocales: ['en', 'tr'],
+    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl'],
   },
   {
     id: 'heads-up',
@@ -143,7 +143,7 @@ export const GAME_MODES: GameModeDefinition[] = [
     hasTimer: true,
     nameKey: 'games.trivia.name',
     descriptionKey: 'games.trivia.description',
-    supportsLocales: ['en', 'tr'],
+    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl'],
   },
   {
     id: 'charades',
@@ -171,7 +171,7 @@ export const GAME_MODES: GameModeDefinition[] = [
     hasTimer: false,
     nameKey: 'games.paranoia.name',
     descriptionKey: 'games.paranoia.description',
-    supportsLocales: ['en', 'tr'],
+    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl'],
   },
 ]
 

@@ -1,0 +1,392 @@
+{
+  "gameId": "truth-dare",
+  "locale": "nl",
+  "version": 1,
+  "prompts": [
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wat is het laatste dat je online hebt gezocht?",
+      "id": "td_nl_001"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welke song ken je helemaal uit je hoofd?",
+      "id": "td_nl_002"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welke app gebruik je het meest?",
+      "id": "td_nl_003"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welk eten zou je elke dag kunnen eten?",
+      "id": "td_nl_004"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wat is het beste compliment dat je ooit kreeg?",
+      "id": "td_nl_005"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welke serie of film ontspant je het meest?",
+      "id": "td_nl_006"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Waar ben je dit jaar trots op?",
+      "id": "td_nl_007"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wat is je vreemdste gewoonte?",
+      "id": "td_nl_008"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hoe ontspan jij het liefst?",
+      "id": "td_nl_009"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welke talent zou je graag hebben?",
+      "id": "td_nl_010"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Doe 10 seconden een celebrity-imitatie.",
+      "id": "td_nl_011"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fluister tot de volgende ronde.",
+      "id": "td_nl_012"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Laat de laatste foto op je telefoon zien.",
+      "id": "td_nl_013"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Doe 10 jumping jacks.",
+      "id": "td_nl_014"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Laat iemand je profielfoto kiezen voor 24 uur.",
+      "id": "td_nl_015"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Deel een leuk feitje over jezelf.",
+      "id": "td_nl_016"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Draai 5 rondjes en loop recht vooruit.",
+      "id": "td_nl_017"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Stuur een vriendelijk emoji naar de laatste persoon die je appte.",
+      "id": "td_nl_018"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Doe alsof je nieuwslezer bent voor 20 seconden.",
+      "id": "td_nl_019"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "De groep kiest een woord dat je 3 minuten lang in elke zin moet gebruiken.",
+      "id": "td_nl_020"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wat is het gênantste bericht dat je hebt gestuurd?",
+      "id": "td_nl_021"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Met wie app je op dit moment het meest?",
+      "id": "td_nl_022"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Welke belofte heb je spijt van?",
+      "id": "td_nl_023"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wat doe je alsof je leuk vindt maar eigenlijk niet?",
+      "id": "td_nl_024"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wanneer was je voor het laatst jaloers?",
+      "id": "td_nl_025"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Welk geheim heb je voor je vrienden gehouden?",
+      "id": "td_nl_026"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Welk slecht advies heb je gevolgd?",
+      "id": "td_nl_027"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wat is het duurste dat je ooit stukmaakte?",
+      "id": "td_nl_028"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Welke angst heb je nooit verteld?",
+      "id": "td_nl_029"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie heb je als laatste gemute of ontvolgd?",
+      "id": "td_nl_030"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Post een willekeurige songtekst in je story.",
+      "id": "td_nl_031"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Stuur iemand nu een compliment.",
+      "id": "td_nl_032"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Eet een snack zonder je handen te gebruiken.",
+      "id": "td_nl_033"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Laat iemand je haar stylen.",
+      "id": "td_nl_034"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lees je laatste bericht dramatisch voor.",
+      "id": "td_nl_035"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Doe 20 seconden een gekke dans.",
+      "id": "td_nl_036"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Praat een minuut met een accent dat de groep kiest.",
+      "id": "td_nl_037"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Teken een snelle portret van iemand uit de groep.",
+      "id": "td_nl_038"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Deel je scherm 10 seconden.",
+      "id": "td_nl_039"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wissel van plek met iemand tot je volgende beurt.",
+      "id": "td_nl_040"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Heb je ooit twee mensen tegelijk leuk gevonden?",
+      "id": "td_nl_041"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wat is jouw grootste red flag bij daten?",
+      "id": "td_nl_042"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wat is het meest flirterige dat je recent deed?",
+      "id": "td_nl_043"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wat heb je verborgen voor een partner?",
+      "id": "td_nl_044"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wat is het meest gedurfde bericht dat je stuurde?",
+      "id": "td_nl_045"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Laat de laatst opgeslagen foto in je galerij zien.",
+      "id": "td_nl_046"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lees je laatste DM hardop.",
+      "id": "td_nl_047"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Stuur een flirterige GIF naar iemand die je vertrouwt.",
+      "id": "td_nl_048"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Laat je lijst met meest gebruikte emoji's zien.",
+      "id": "td_nl_049"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Geef je laatste crush toe (alleen initialen).",
+      "id": "td_nl_050"
+    },
+    {
+      "id": "td_nl_051",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wat is je huidige obsessie?"
+    },
+    {
+      "id": "td_nl_052",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wat is een klein ding dat je dag beter maakt?"
+    },
+    {
+      "id": "td_nl_053",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou je om 2 uur ’s nachts bellen als je hulp nodig had?"
+    },
+    {
+      "id": "td_nl_054",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Doe 10 jumping jacks."
+    },
+    {
+      "id": "td_nl_055",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zeg drie leuke dingen over de persoon rechts van je."
+    }
+  ]
+}

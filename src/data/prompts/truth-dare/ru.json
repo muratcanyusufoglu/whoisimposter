@@ -1,0 +1,392 @@
+{
+  "gameId": "truth-dare",
+  "locale": "ru",
+  "version": 1,
+  "prompts": [
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Что ты искал(а) в интернете в последний раз?",
+      "id": "td_ru_001"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какую песню ты знаешь наизусть?",
+      "id": "td_ru_002"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какое приложение ты используешь чаще всего?",
+      "id": "td_ru_003"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какую еду ты мог(ла) бы есть каждый день?",
+      "id": "td_ru_004"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какой лучший комплимент ты получал(а)?",
+      "id": "td_ru_005"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какой фильм или сериал тебя больше всего расслабляет?",
+      "id": "td_ru_006"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Чем ты гордишься в этом году?",
+      "id": "td_ru_007"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какая у тебя самая странная привычка?",
+      "id": "td_ru_008"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Как ты обычно расслабляешься?",
+      "id": "td_ru_009"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какой талант ты хотел(а) бы иметь?",
+      "id": "td_ru_010"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Изобрази знаменитость 10 секунд.",
+      "id": "td_ru_011"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Говори шёпотом до следующего раунда.",
+      "id": "td_ru_012"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Покажи последнее фото на телефоне.",
+      "id": "td_ru_013"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Сделай 10 прыжков.",
+      "id": "td_ru_014"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Пусть кто-то выберет твою аватарку на 24 часа.",
+      "id": "td_ru_015"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Расскажи забавный факт о себе.",
+      "id": "td_ru_016"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Повернись 5 раз и иди прямо.",
+      "id": "td_ru_017"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Отправь дружелюбный эмодзи последнему, кто тебе написал.",
+      "id": "td_ru_018"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Представься ведущим новостей на 20 секунд.",
+      "id": "td_ru_019"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Группа выбирает слово, которое ты должен(на) использовать в каждом предложении 3 минуты.",
+      "id": "td_ru_020"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Какое самое неловкое сообщение ты отправлял(а)?",
+      "id": "td_ru_021"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кому ты сейчас пишешь чаще всего?",
+      "id": "td_ru_022"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Какое обещание ты жалеешь?",
+      "id": "td_ru_023"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Что ты делаешь вид, что тебе нравится, хотя это не так?",
+      "id": "td_ru_024"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Когда ты последний раз ревновал(а)?",
+      "id": "td_ru_025"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Какой секрет ты скрывал(а) от друзей?",
+      "id": "td_ru_026"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Какой самый плохой совет ты когда-либо слушал(а)?",
+      "id": "td_ru_027"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Что самое дорогое ты ломал(а)?",
+      "id": "td_ru_028"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Какой страх ты никому не рассказывал(а)?",
+      "id": "td_ru_029"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кого ты в последний раз замьютил(а) или отписался(ась) от него?",
+      "id": "td_ru_030"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Выложи случайную строку из песни в сторис.",
+      "id": "td_ru_031"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Напиши кому-то комплимент прямо сейчас.",
+      "id": "td_ru_032"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Съешь перекус, не используя руки.",
+      "id": "td_ru_033"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Позволь кому-то уложить тебе волосы.",
+      "id": "td_ru_034"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Прочитай последнее сообщение драматично.",
+      "id": "td_ru_035"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Станцуй что-то смешное 20 секунд.",
+      "id": "td_ru_036"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Говори с акцентом, выбранным группой, минуту.",
+      "id": "td_ru_037"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Нарисуй быстрый портрет кого-то из группы.",
+      "id": "td_ru_038"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Поделись экраном на 10 секунд.",
+      "id": "td_ru_039"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Поменяйся местами с кем-то до следующего хода.",
+      "id": "td_ru_040"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ты когда-нибудь нравились два человека одновременно?",
+      "id": "td_ru_041"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Какая у тебя главная красная линия в отношениях?",
+      "id": "td_ru_042"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Что было самым флиртующим, что ты делал(а) недавно?",
+      "id": "td_ru_043"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Что ты скрывал(а) от партнёра?",
+      "id": "td_ru_044"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Какое самое смелое сообщение ты отправлял(а)?",
+      "id": "td_ru_045"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Покажи последнее сохранённое фото в галерее.",
+      "id": "td_ru_046"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Прочитай последний DM вслух.",
+      "id": "td_ru_047"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Отправь флиртующий GIF тому, кому доверяешь.",
+      "id": "td_ru_048"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Покажи список самых используемых эмодзи.",
+      "id": "td_ru_049"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Признайся в последнем краше (только инициалы).",
+      "id": "td_ru_050"
+    },
+    {
+      "id": "td_ru_051",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какая у тебя сейчас одержимость?"
+    },
+    {
+      "id": "td_ru_052",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Что маленькое делает твой день лучше?"
+    },
+    {
+      "id": "td_ru_053",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Кому ты позвонил(а) бы в 2 часа ночи, если бы нужна была помощь?"
+    },
+    {
+      "id": "td_ru_054",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Сделай 10 прыжков «звёздочкой»."
+    },
+    {
+      "id": "td_ru_055",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Скажи три приятных вещи о человеке справа от тебя."
+    }
+  ]
+}

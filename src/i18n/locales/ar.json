@@ -206,7 +206,8 @@
     "roundsPlayed_one": "{{count}} جولة",
     "roundsPlayed_other": "{{count}} جولات",
     "pts": "نقاط",
-    "delta": "+{{count}}"
+    "delta": "+{{count}}",
+    "final": "النتائج النهائية"
   },
   "streak": {
     "crewStreak": "🔥 الطاقم في سلسلة {{count}} انتصارات!",
@@ -473,7 +474,9 @@
     "endGame": "انهِ اللعبة",
     "readyTitle": "مستعد؟",
     "readySubtitle": "مرر الهاتف وضعه على جبهتك",
-    "startTimer": "ابدأ!"
+    "startTimer": "ابدأ!",
+    "emptyTitle": "لا توجد كلمات متبقية",
+    "emptySubtitle": "اختر فئات أخرى لمتابعة اللعب."
   },
   "wordChain": {
     "title": "سلسلة الكلمات",

@@ -1,0 +1,607 @@
+{
+  "gameId": "hot-takes",
+  "locale": "nl",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "ht_nl_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hagelslag is beter dan cornflakes."
+    },
+    {
+      "id": "ht_nl_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Spa rood smaakt alsof iemand een fout maakte."
+    },
+    {
+      "id": "ht_nl_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Brunch is gewoon duur ontbijt."
+    },
+    {
+      "id": "ht_nl_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Slippers zijn geen echte schoenen."
+    },
+    {
+      "id": "ht_nl_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Series zijn leuker dan films."
+    },
+    {
+      "id": "ht_nl_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Gangpadstoel is beter dan het raam."
+    },
+    {
+      "id": "ht_nl_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Concerten film je niet, die beleef je."
+    },
+    {
+      "id": "ht_nl_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kroketten redden elke dag."
+    },
+    {
+      "id": "ht_nl_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "De markt is beter dan de supermarkt."
+    },
+    {
+      "id": "ht_nl_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fietsen in de stad is beter dan autorijden."
+    },
+    {
+      "id": "ht_nl_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Stilte is de beste achtergrondmuziek."
+    },
+    {
+      "id": "ht_nl_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Soep is een drankje."
+    },
+    {
+      "id": "ht_nl_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zondagen zouden langer moeten zijn."
+    },
+    {
+      "id": "ht_nl_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Comfort gaat altijd boven stijl."
+    },
+    {
+      "id": "ht_nl_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Witte sneakers passen overal bij."
+    },
+    {
+      "id": "ht_nl_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Regen maakt een stad gezelliger."
+    },
+    {
+      "id": "ht_nl_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lezen op een e-reader is handiger."
+    },
+    {
+      "id": "ht_nl_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Een simpele boterham kan perfect zijn."
+    },
+    {
+      "id": "ht_nl_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Poffertjes zijn een volwaardige maaltijd."
+    },
+    {
+      "id": "ht_nl_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Koffie zonder melk is de enige juiste keuze."
+    },
+    {
+      "id": "ht_nl_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Een dag niet reageren is negeren."
+    },
+    {
+      "id": "ht_nl_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Last minute afzeggen is erger dan te laat komen."
+    },
+    {
+      "id": "ht_nl_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Groepsreizen slopen vriendschappen."
+    },
+    {
+      "id": "ht_nl_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Locatie delen in een relatie hoort normaal te zijn."
+    },
+    {
+      "id": "ht_nl_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zegt 'ik hou niet van drama' veroorzaakt drama."
+    },
+    {
+      "id": "ht_nl_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Een eerste date moet kort zijn."
+    },
+    {
+      "id": "ht_nl_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je leert iemand kennen via zijn koffiebestelling."
+    },
+    {
+      "id": "ht_nl_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Luidruchtige restaurants zijn een mislukking."
+    },
+    {
+      "id": "ht_nl_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Op tijd zijn is respect."
+    },
+    {
+      "id": "ht_nl_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mensen willen liever gelijk hebben dan gelukkig zijn."
+    },
+    {
+      "id": "ht_nl_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vrienden die verdwijnen als ze daten zijn egoïstisch."
+    },
+    {
+      "id": "ht_nl_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "De stilste persoon in de groep is vaak het interessantst."
+    },
+    {
+      "id": "ht_nl_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "De hele dag stories posten is toneel."
+    },
+    {
+      "id": "ht_nl_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "'Ik ben druk' is meestal een excuus."
+    },
+    {
+      "id": "ht_nl_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Groepsapps kosten meer energie dan ze opleveren."
+    },
+    {
+      "id": "ht_nl_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Small talk haten maakt je niet dieper."
+    },
+    {
+      "id": "ht_nl_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vriendschap zie je bij het delen van de rekening."
+    },
+    {
+      "id": "ht_nl_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Plannen maken en niet komen is respectloos."
+    },
+    {
+      "id": "ht_nl_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Een relatie 'soft launchen' is onzekerheid."
+    },
+    {
+      "id": "ht_nl_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Geen vakantie nemen is slecht levensmanagement."
+    },
+    {
+      "id": "ht_nl_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "De meeste relaties zijn gewoonte, geen liefde."
+    },
+    {
+      "id": "ht_nl_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jaloezie is ego, geen romantiek."
+    },
+    {
+      "id": "ht_nl_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wie één keer spiekt op een telefoon doet het weer."
+    },
+    {
+      "id": "ht_nl_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Een 'pauze' is een trage break-up."
+    },
+    {
+      "id": "ht_nl_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "De talking phase is angst voor commitment."
+    },
+    {
+      "id": "ht_nl_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vreemdgaan wordt vaker vergeven dan toegegeven."
+    },
+    {
+      "id": "ht_nl_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "De zelfverzekerden zijn vaak het kwetsbaarst."
+    },
+    {
+      "id": "ht_nl_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Je bent niet druk, je bent geen prioriteit."
+    },
+    {
+      "id": "ht_nl_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Veel crushes gaan om aandacht, niet om aantrekkingskracht."
+    },
+    {
+      "id": "ht_nl_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Chemie is vooral timing."
+    },
+    {
+      "id": "ht_nl_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Koude pizza is beter dan warme pizza."
+    },
+    {
+      "id": "ht_nl_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Trailers verpesten films."
+    },
+    {
+      "id": "ht_nl_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Groepsapps moeten standaard op stil staan."
+    },
+    {
+      "id": "ht_nl_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Brunch is gewoon een excuus om te veel te betalen voor eieren."
+    },
+    {
+      "id": "ht_nl_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sokken met sandalen is prima."
+    },
+    {
+      "id": "ht_nl_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Regenachtige dagen zijn ontspannender dan zonnige dagen."
+    },
+    {
+      "id": "ht_nl_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Karaoke is leuker als je slecht zingt."
+    },
+    {
+      "id": "ht_nl_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vroeg naar bed gaan is onderschat."
+    },
+    {
+      "id": "ht_nl_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Telefoons zouden “niet storen” per persoon moeten hebben."
+    },
+    {
+      "id": "ht_nl_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lange spraakberichten zijn onbeleefd."
+    },
+    {
+      "id": "ht_nl_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Bibliotheken zijn de meest onderschatte plekken van de stad."
+    },
+    {
+      "id": "ht_nl_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Bordspellen zijn beter dan videogames op feestjes."
+    },
+    {
+      "id": "ht_nl_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Papieren boeken verslaan e-readers."
+    },
+    {
+      "id": "ht_nl_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "De beste concertplekken zijn achteraan met ruimte om te dansen."
+    },
+    {
+      "id": "ht_nl_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Het laatste stukje moet nooit blijven liggen."
+    },
+    {
+      "id": "ht_nl_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Leren koken is nuttiger dan leren autorijden."
+    },
+    {
+      "id": "ht_nl_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Bergen > strand."
+    },
+    {
+      "id": "ht_nl_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kleine bruiloften zijn leuker dan grote."
+    },
+    {
+      "id": "ht_nl_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Stellen zouden soms apart op vakantie moeten gaan."
+    },
+    {
+      "id": "ht_nl_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie last minute afzegt, moet de volgende keer snacks regelen."
+    },
+    {
+      "id": "ht_nl_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Middernachtsnacks zijn beter dan ontbijt."
+    },
+    {
+      "id": "ht_nl_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Likes zouden niet openbaar moeten zijn."
+    },
+    {
+      "id": "ht_nl_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Op speaker bellen in het openbaar zou verboden moeten zijn."
+    },
+    {
+      "id": "ht_nl_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Meal prep is overrated."
+    },
+    {
+      "id": "ht_nl_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "De beste foto’s zijn de spontane."
+    },
+    {
+      "id": "ht_nl_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Dure sneakers zijn geldverspilling."
+    },
+    {
+      "id": "ht_nl_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Weekenden zouden drie dagen moeten zijn."
+    },
+    {
+      "id": "ht_nl_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Onaangekondigde bezoekjes zijn onbeleefd."
+    },
+    {
+      "id": "ht_nl_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ananassap hoort in elke smoothie."
+    },
+    {
+      "id": "ht_nl_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Met de hand noteren is beter dan typen."
+    },
+    {
+      "id": "ht_nl_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Online daten heeft mensen kieskeuriger gemaakt."
+    },
+    {
+      "id": "ht_nl_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Alleen wonen maakt creatiever."
+    },
+    {
+      "id": "ht_nl_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "“Hot takes” zijn meestal gewoon gezond verstand."
+    },
+    {
+      "id": "ht_nl_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je zou altijd een herbruikbare beker moeten meenemen."
+    },
+    {
+      "id": "ht_nl_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Streetfood is beter dan restauranteten."
+    },
+    {
+      "id": "ht_nl_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Leesvinkjes zorgen voor meer drama dan ze oplossen."
+    },
+    {
+      "id": "ht_nl_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Een gedeelde playlist is een relatie-test."
+    },
+    {
+      "id": "ht_nl_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Losse dekens zijn gezonder voor koppels."
+    },
+    {
+      "id": "ht_nl_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Het beste deel van een trip is de planning."
+    },
+    {
+      "id": "ht_nl_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Koptelefoons in de sportschool zijn verplicht."
+    },
+    {
+      "id": "ht_nl_091",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Barista’s verdienen meer fooi."
+    },
+    {
+      "id": "ht_nl_092",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Tatoeages zouden in elke baan mogen."
+    },
+    {
+      "id": "ht_nl_093",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "We hebben minder notificaties nodig, niet meer."
+    },
+    {
+      "id": "ht_nl_094",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Huisdieren zouden in meer cafés mogen."
+    },
+    {
+      "id": "ht_nl_095",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Feestdagen zouden gekozen moeten worden via een stemming."
+    },
+    {
+      "id": "ht_nl_096",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Iedereen zou basis-EHBO moeten leren."
+    },
+    {
+      "id": "ht_nl_097",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Chique restaurants zouden een kindermenu moeten hebben."
+    },
+    {
+      "id": "ht_nl_098",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Bioscopen zouden pauzes moeten terugbrengen."
+    },
+    {
+      "id": "ht_nl_099",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Leesbevestigingen zouden overal optioneel moeten zijn."
+    },
+    {
+      "id": "ht_nl_100",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Te laat komen is een keuze, geen persoonlijkheid."
+    }
+  ]
+}

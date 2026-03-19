@@ -3,40 +3,815 @@
   "locale": "tr",
   "version": 1,
   "prompts": [
-    { "id": "par_tr_001", "intensity": "mild", "minAge": 4, "text": "Zombi kıyametinde en uzun kim dayanır?" },
-    { "id": "par_tr_002", "intensity": "mild", "minAge": 4, "text": "Beş yıldızlık bir akşam yemeğini en iyi kim yapar?" },
-    { "id": "par_tr_003", "intensity": "mild", "minAge": 4, "text": "Göz kırpma yarışmasını kim kazanır?" },
-    { "id": "par_tr_004", "intensity": "mild", "minAge": 4, "text": "İçinizden ilk milyoner kim olur?" },
-    { "id": "par_tr_005", "intensity": "mild", "minAge": 4, "text": "En eğlenceli seyahat arkadaşı kim olurdu?" },
-    { "id": "par_tr_006", "intensity": "mild", "minAge": 4, "text": "Duygusal bir filmde ilk kim ağlar?" },
-    { "id": "par_tr_007", "intensity": "mild", "minAge": 4, "text": "Bilgi yarışmasını kim kazanır?" },
-    { "id": "par_tr_008", "intensity": "mild", "minAge": 4, "text": "İçinizden ilk ünlü kim olur?" },
-    { "id": "par_tr_009", "intensity": "mild", "minAge": 4, "text": "En iyi ebeveyn kim olurdu?" },
-    { "id": "par_tr_010", "intensity": "mild", "minAge": 4, "text": "Telefonsuz en uzun kim dayanır?" },
-    { "id": "par_tr_011", "intensity": "mild", "minAge": 4, "text": "Sır saklamada en iyi kim?" },
-    { "id": "par_tr_012", "intensity": "mild", "minAge": 4, "text": "Bu grupta en maceracı kim?" },
-    { "id": "par_tr_013", "intensity": "mild", "minAge": 4, "text": "Şarkı yarışmasını kim kazanır?" },
-    { "id": "par_tr_014", "intensity": "mild", "minAge": 4, "text": "En iyi süper kahraman kim olurdu?" },
-    { "id": "par_tr_015", "intensity": "mild", "minAge": 4, "text": "İlk yurt dışına taşınacak kim?" },
-    { "id": "par_tr_016", "intensity": "medium", "minAge": 13, "text": "En ilginç sırları olan kim?" },
-    { "id": "par_tr_017", "intensity": "medium", "minAge": 13, "text": "En kötü otel oda arkadaşı kim olurdu?" },
-    { "id": "par_tr_018", "intensity": "medium", "minAge": 13, "text": "Bir tartışmada en son kim pes eder?" },
-    { "id": "par_tr_019", "intensity": "medium", "minAge": 13, "text": "Survivor'dan ilk elenen kim olurdu?" },
-    { "id": "par_tr_020", "intensity": "medium", "minAge": 13, "text": "Pokerde en iyi kim olurdu?" },
-    { "id": "par_tr_021", "intensity": "medium", "minAge": 13, "text": "En büyük drama mıknatısı kim?" },
-    { "id": "par_tr_022", "intensity": "medium", "minAge": 13, "text": "Yalan söylemede en kötü kim?" },
-    { "id": "par_tr_023", "intensity": "medium", "minAge": 13, "text": "Stand-up'ta en komik kim olurdu?" },
-    { "id": "par_tr_024", "intensity": "medium", "minAge": 13, "text": "Sırlarını en çabuk kim ifşa eder?" },
-    { "id": "par_tr_025", "intensity": "medium", "minAge": 13, "text": "Asansörde mahsur kalmak için en kötü seçim kim olurdu?" },
-    { "id": "par_tr_026", "intensity": "spicy", "minAge": 18, "text": "En kaotik çıkma geçmişi kimde?" },
-    { "id": "par_tr_027", "intensity": "spicy", "minAge": 18, "text": "Bu grupta flört etmeyi en iyi bilen kim?" },
-    { "id": "par_tr_028", "intensity": "spicy", "minAge": 18, "text": "Bu gece DM'den flört etme ihtimali en yüksek kim?" },
-    { "id": "par_tr_029", "intensity": "spicy", "minAge": 18, "text": "Tanımadığı biriyle çıkmaya en hızlı 'evet' diyecek kim?" },
-    { "id": "par_tr_030", "intensity": "spicy", "minAge": 18, "text": "Bu odada gizli hayranı olma ihtimali en yüksek kim?" },
-    { "id": "par_tr_031", "intensity": "spicy", "minAge": 18, "text": "En dramatik eski sevgili kim olurdu?" },
-    { "id": "par_tr_032", "intensity": "spicy", "minAge": 18, "text": "En çok belirsiz ilişki yaşayan kim?" },
-    { "id": "par_tr_033", "intensity": "spicy", "minAge": 18, "text": "En hızlı aşık olan kim?" },
-    { "id": "par_tr_034", "intensity": "spicy", "minAge": 18, "text": "Riskli bir mesaj atıp hemen pişman olacak kim?" },
-    { "id": "par_tr_035", "intensity": "spicy", "minAge": 18, "text": "Şu an eski sevgilisiyle hâlâ konuşuyor olma ihtimali en yüksek kim?" }
+    {
+      "id": "par_tr_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zombi kıyametinde en uzun kim dayanır?"
+    },
+    {
+      "id": "par_tr_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Beş yıldızlık bir akşam yemeğini en iyi kim yapar?"
+    },
+    {
+      "id": "par_tr_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Göz kırpma yarışmasını kim kazanır?"
+    },
+    {
+      "id": "par_tr_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "İçinizden ilk milyoner kim olur?"
+    },
+    {
+      "id": "par_tr_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En eğlenceli seyahat arkadaşı kim olurdu?"
+    },
+    {
+      "id": "par_tr_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Duygusal bir filmde ilk kim ağlar?"
+    },
+    {
+      "id": "par_tr_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Bilgi yarışmasını kim kazanır?"
+    },
+    {
+      "id": "par_tr_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "İçinizden ilk ünlü kim olur?"
+    },
+    {
+      "id": "par_tr_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En iyi ebeveyn kim olurdu?"
+    },
+    {
+      "id": "par_tr_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Telefonsuz en uzun kim dayanır?"
+    },
+    {
+      "id": "par_tr_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sır saklamada en iyi kim?"
+    },
+    {
+      "id": "par_tr_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Bu grupta en maceracı kim?"
+    },
+    {
+      "id": "par_tr_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Şarkı yarışmasını kim kazanır?"
+    },
+    {
+      "id": "par_tr_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En iyi süper kahraman kim olurdu?"
+    },
+    {
+      "id": "par_tr_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "İlk yurt dışına taşınacak kim?"
+    },
+    {
+      "id": "par_tr_016",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ilginç sırları olan kim?"
+    },
+    {
+      "id": "par_tr_017",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En kötü otel oda arkadaşı kim olurdu?"
+    },
+    {
+      "id": "par_tr_018",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Bir tartışmada en son kim pes eder?"
+    },
+    {
+      "id": "par_tr_019",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Survivor'dan ilk elenen kim olurdu?"
+    },
+    {
+      "id": "par_tr_020",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Pokerde en iyi kim olurdu?"
+    },
+    {
+      "id": "par_tr_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En büyük drama mıknatısı kim?"
+    },
+    {
+      "id": "par_tr_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Yalan söylemede en kötü kim?"
+    },
+    {
+      "id": "par_tr_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Stand-up'ta en komik kim olurdu?"
+    },
+    {
+      "id": "par_tr_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sırlarını en çabuk kim ifşa eder?"
+    },
+    {
+      "id": "par_tr_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Asansörde mahsur kalmak için en kötü seçim kim olurdu?"
+    },
+    {
+      "id": "par_tr_026",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En kaotik çıkma geçmişi kimde?"
+    },
+    {
+      "id": "par_tr_027",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Bu grupta flört etmeyi en iyi bilen kim?"
+    },
+    {
+      "id": "par_tr_028",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Bu gece DM'den flört etme ihtimali en yüksek kim?"
+    },
+    {
+      "id": "par_tr_029",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Tanımadığı biriyle çıkmaya en hızlı 'evet' diyecek kim?"
+    },
+    {
+      "id": "par_tr_030",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Bu odada gizli hayranı olma ihtimali en yüksek kim?"
+    },
+    {
+      "id": "par_tr_031",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En dramatik eski sevgili kim olurdu?"
+    },
+    {
+      "id": "par_tr_032",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En çok belirsiz ilişki yaşayan kim?"
+    },
+    {
+      "id": "par_tr_033",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En hızlı aşık olan kim?"
+    },
+    {
+      "id": "par_tr_034",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Riskli bir mesaj atıp hemen pişman olacak kim?"
+    },
+    {
+      "id": "par_tr_035",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Şu an eski sevgilisiyle hâlâ konuşuyor olma ihtimali en yüksek kim?"
+    },
+    {
+      "id": "par_tr_036",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Yön tarifini haritasız en iyi kim yapar?"
+    },
+    {
+      "id": "par_tr_037",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sokakta bir hayvanı ilk kim sahiplenir?"
+    },
+    {
+      "id": "par_tr_038",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Yeni bir hobiye başlayıp sürdüren kim olur?"
+    },
+    {
+      "id": "par_tr_039",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En iyi takım kaptanı kim olur?"
+    },
+    {
+      "id": "par_tr_040",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pasta yarışmasını kim kazanır?"
+    },
+    {
+      "id": "par_tr_041",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Seyahatte yabancılarla en kolay kim arkadaş olur?"
+    },
+    {
+      "id": "par_tr_042",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sürpriz parti fikrini ilk kim çıkarır?"
+    },
+    {
+      "id": "par_tr_043",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Telefonsuz bir haftayı kim daha rahat geçirir?"
+    },
+    {
+      "id": "par_tr_044",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Parayı en iyi kim yönetir?"
+    },
+    {
+      "id": "par_tr_045",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Yağmurda şemsiyesini unutan kim olur?"
+    },
+    {
+      "id": "par_tr_046",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Düğünde ilk kim dans eder?"
+    },
+    {
+      "id": "par_tr_047",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Müzik zevki en iyi olan kim?"
+    },
+    {
+      "id": "par_tr_048",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "GPS açıkken bile kaybolan kim olur?"
+    },
+    {
+      "id": "par_tr_049",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim yeni bir trendi ilk dener?"
+    },
+    {
+      "id": "par_tr_050",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Komşuya yardım etmeye ilk kim gider?"
+    },
+    {
+      "id": "par_tr_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Grubun programını kim organize eder?"
+    },
+    {
+      "id": "par_tr_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Bir diziyi bir günde bitiren kim olur?"
+    },
+    {
+      "id": "par_tr_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kalabalık için en iyi yemek yapan kim?"
+    },
+    {
+      "id": "par_tr_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Seyahatte en çok fotoğraf çeken kim?"
+    },
+    {
+      "id": "par_tr_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Partiden en geç çıkan kim?"
+    },
+    {
+      "id": "par_tr_056",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Grup sohbetini haftalarca ghostlayan kim olur?"
+    },
+    {
+      "id": "par_tr_057",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En zayıf bahaneyle plan iptal eden kim?"
+    },
+    {
+      "id": "par_tr_058",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Tek bir mesajı saatlerce düşünen kim?"
+    },
+    {
+      "id": "par_tr_059",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "İlk buluşmaya en çok para harcayan kim?"
+    },
+    {
+      "id": "par_tr_060",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En hızlı âşık olan kim?"
+    },
+    {
+      "id": "par_tr_061",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hoşlandığını en uzun gizleyen kim?"
+    },
+    {
+      "id": "par_tr_062",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Yanlışlıkla dedikodu çıkaracak kim olur?"
+    },
+    {
+      "id": "par_tr_063",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ayrılık sonrası ilk paylaşımı kim yapar?"
+    },
+    {
+      "id": "par_tr_064",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kendi tipinin tam tersine biriyle çıkan kim?"
+    },
+    {
+      "id": "par_tr_065",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Eski sevgilisiyle arkadaş kalan kim?"
+    },
+    {
+      "id": "par_tr_066",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Oyunlarda en rekabetçi kim?"
+    },
+    {
+      "id": "par_tr_067",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Partide en çok flört eden kim?"
+    },
+    {
+      "id": "par_tr_068",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kimseye söylemeden kariyer değiştiren kim?"
+    },
+    {
+      "id": "par_tr_069",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Yurt dışına taşınma ihtimali en yüksek kim?"
+    },
+    {
+      "id": "par_tr_070",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Haftasonu için bile fazla bavul yapan kim?"
+    },
+    {
+      "id": "par_tr_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Bir saat erken gelen kim?"
+    },
+    {
+      "id": "par_tr_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mesajı okuyup cevaplamayı unutan kim?"
+    },
+    {
+      "id": "par_tr_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "'Lazım olur' diye ekran görüntüsü biriktiren kim?"
+    },
+    {
+      "id": "par_tr_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En dramatik filmi seçen kim?"
+    },
+    {
+      "id": "par_tr_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Tartışmada en inatçı kim?"
+    },
+    {
+      "id": "par_tr_076",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En karmaşık ilişki geçmişi kimde?"
+    },
+    {
+      "id": "par_tr_077",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Gizli hayranı olma ihtimali en yüksek kim?"
+    },
+    {
+      "id": "par_tr_078",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "'Seni seviyorum'u ilk söyleyen kim?"
+    },
+    {
+      "id": "par_tr_079",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Bariz olmasına rağmen flörte devam eden kim?"
+    },
+    {
+      "id": "par_tr_080",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Partnerinin telefonunu karıştırmaya en meyilli kim?"
+    },
+    {
+      "id": "par_tr_081",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ayrılıktan sonra en hızlı rebound yapan kim?"
+    },
+    {
+      "id": "par_tr_082",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "İlişkide en kıskanç kim?"
+    },
+    {
+      "id": "par_tr_083",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aynı anda iki kişiyle çıkan kim olur?"
+    },
+    {
+      "id": "par_tr_084",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "'Situationship'ini arkadaşlarından saklayan kim?"
+    },
+    {
+      "id": "par_tr_085",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Farkında olmadan kalp kırma ihtimali en yüksek kim?"
+    },
+    {
+      "id": "par_tr_086",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim bir grup projesini yönetmek için gönüllü olur?"
+    },
+    {
+      "id": "par_tr_087",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim telefonsuz en uzun süre dayanır?"
+    },
+    {
+      "id": "par_tr_088",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim partide ilk dans eden olur?"
+    },
+    {
+      "id": "par_tr_089",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim basit bir yürüyüşte bile kaybolur?"
+    },
+    {
+      "id": "par_tr_090",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim herkesin kahve siparişini hatırlar?"
+    },
+    {
+      "id": "par_tr_091",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim herkes için atıştırmalık getirir?"
+    },
+    {
+      "id": "par_tr_092",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim bir yabancıyla sohbet başlatır?"
+    },
+    {
+      "id": "par_tr_093",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim herkesi sakinleştirmede en iyi olur?"
+    },
+    {
+      "id": "par_tr_094",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim yapbozu en hızlı bitirir?"
+    },
+    {
+      "id": "par_tr_095",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim hatırlatmalara rağmen geç kalır?"
+    },
+    {
+      "id": "par_tr_096",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim bir seyahat için detaylı plan yapar?"
+    },
+    {
+      "id": "par_tr_097",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim bir yemek yarışmasını kazanır?"
+    },
+    {
+      "id": "par_tr_098",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim en iyi fotoğraf noktalarını bilir?"
+    },
+    {
+      "id": "par_tr_099",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim bir evcil hayvanı sahiplenmeye en yatkındır?"
+    },
+    {
+      "id": "par_tr_100",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim en hızlı güneş yanığı olur?"
+    },
+    {
+      "id": "par_tr_101",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim cüzdanını evde unutur?"
+    },
+    {
+      "id": "par_tr_102",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim ex’iyle arkadaş kalır?"
+    },
+    {
+      "id": "par_tr_103",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim tüm parasını seyahate harcar?"
+    },
+    {
+      "id": "par_tr_104",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim sürprizi yanlışlıkla bozar?"
+    },
+    {
+      "id": "par_tr_105",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kim sır tutmada en iyidir?"
+    },
+    {
+      "id": "par_tr_106",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim her seferinde anında mesaj döner?"
+    },
+    {
+      "id": "par_tr_107",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim saçma bir şeyle viral olur?"
+    },
+    {
+      "id": "par_tr_108",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim kendi şehrinde ünlü olur?"
+    },
+    {
+      "id": "par_tr_109",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim risk alıp yurt dışına taşınır?"
+    },
+    {
+      "id": "par_tr_110",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim bir hayalin peşinden işini bırakır?"
+    },
+    {
+      "id": "par_tr_111",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim hobisini işe dönüştürür?"
+    },
+    {
+      "id": "par_tr_112",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim toplantıda hayallere dalarken yakalanır?"
+    },
+    {
+      "id": "par_tr_113",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim ceza yazılmaktan konuşarak kurtulur?"
+    },
+    {
+      "id": "par_tr_114",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim bir haftada iki kez anahtarını kaybeder?"
+    },
+    {
+      "id": "par_tr_115",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim istemeden dedikodu başlatır?"
+    },
+    {
+      "id": "par_tr_116",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim en dramatik tepkileri verir?"
+    },
+    {
+      "id": "par_tr_117",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim masaya girmek için flört eder?"
+    },
+    {
+      "id": "par_tr_118",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim odada gizli bir crush’ı vardır?"
+    },
+    {
+      "id": "par_tr_119",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim iyi geçen bir geceden sonra bile date’i ghostlar?"
+    },
+    {
+      "id": "par_tr_120",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim “seni seviyorum”u ilk söyler?"
+    },
+    {
+      "id": "par_tr_121",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim ihtimale karşı dating uygulaması tutar?"
+    },
+    {
+      "id": "par_tr_122",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim dedikodudan gizlice hoşlanır?"
+    },
+    {
+      "id": "par_tr_123",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim kısa bir gezide birine aşık olur?"
+    },
+    {
+      "id": "par_tr_124",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim üst üste mesaj atan olur?"
+    },
+    {
+      "id": "par_tr_125",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kim randevuda telefonuna bakarken yakalanır?"
+    },
+    {
+      "id": "par_tr_126",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim planları son dakikada iptal eder?"
+    },
+    {
+      "id": "par_tr_127",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim ödünç aldığı şeyi geri vermeyi unutur?"
+    },
+    {
+      "id": "par_tr_128",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim reklama ağlar?"
+    },
+    {
+      "id": "par_tr_129",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim yoktan yere tartışma başlatır?"
+    },
+    {
+      "id": "par_tr_130",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim herkes için şarj aleti getirir?"
+    },
+    {
+      "id": "par_tr_131",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim partiden en son ayrılır?"
+    },
+    {
+      "id": "par_tr_132",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim her şarkının sözlerini bilir?"
+    },
+    {
+      "id": "par_tr_133",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim kamusal alanda uyuyakalır?"
+    },
+    {
+      "id": "par_tr_134",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim her şey için grup sohbeti açar?"
+    },
+    {
+      "id": "par_tr_135",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kim doğaçlama konuşmada en iyi olur?"
+    }
   ]
 }

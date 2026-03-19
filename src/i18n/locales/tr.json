@@ -206,7 +206,8 @@
     "roundsPlayed_one": "{{count}} tur oynandı",
     "roundsPlayed_other": "{{count}} tur oynandı",
     "pts": "puan",
-    "delta": "+{{count}}"
+    "delta": "+{{count}}",
+    "final": "Final Puanlar"
   },
   "streak": {
     "crewStreak": "🔥 Mürettebat {{count}} galibiyette!",
@@ -477,7 +478,9 @@
     "endGame": "Oyunu Bitir",
     "readyTitle": "Hazır mısın?",
     "readySubtitle": "Telefonu al ve alnına daya",
-    "startTimer": "Başla!"
+    "startTimer": "Başla!",
+    "emptyTitle": "Kelime kalmadı",
+    "emptySubtitle": "Devam etmek için başka kategoriler seç."
   },
   "wordChain": {
     "title": "Kelime Zinciri",

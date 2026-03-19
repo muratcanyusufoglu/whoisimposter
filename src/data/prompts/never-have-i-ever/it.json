@@ -1,0 +1,607 @@
+{
+  "gameId": "never-have-i-ever",
+  "locale": "it",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "nhie_it_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai dimenticato il telefono a casa."
+    },
+    {
+      "id": "nhie_it_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai preso l'autobus o la metro sbagliata."
+    },
+    {
+      "id": "nhie_it_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai mangiato il dolce prima di cena."
+    },
+    {
+      "id": "nhie_it_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai dormito perdendo la sveglia."
+    },
+    {
+      "id": "nhie_it_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai indossato calzini diversi."
+    },
+    {
+      "id": "nhie_it_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai riso in un momento serio."
+    },
+    {
+      "id": "nhie_it_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai rovesciato una bevanda addosso in pubblico."
+    },
+    {
+      "id": "nhie_it_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai fatto la spesa con fame."
+    },
+    {
+      "id": "nhie_it_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai perso le chiavi per più di un giorno."
+    },
+    {
+      "id": "nhie_it_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai indossato lo stesso outfit due giorni di fila."
+    },
+    {
+      "id": "nhie_it_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai dimenticato di caricare il telefono di notte."
+    },
+    {
+      "id": "nhie_it_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai cantato forte in macchina da solo."
+    },
+    {
+      "id": "nhie_it_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai mangiato cereali a cena."
+    },
+    {
+      "id": "nhie_it_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai fatto un taglio di capelli che odiavo."
+    },
+    {
+      "id": "nhie_it_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai provato a riparare qualcosa peggiorandolo."
+    },
+    {
+      "id": "nhie_it_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai sbagliato aula o riunione."
+    },
+    {
+      "id": "nhie_it_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai dormito al cinema durante un film."
+    },
+    {
+      "id": "nhie_it_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai mandato un messaggio al gruppo sbagliato."
+    },
+    {
+      "id": "nhie_it_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai cucinato qualcosa venuto malissimo."
+    },
+    {
+      "id": "nhie_it_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai avuto un pesce rosso come animale."
+    },
+    {
+      "id": "nhie_it_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai premuto snooze più di cinque volte."
+    },
+    {
+      "id": "nhie_it_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai mentito dicendo che ero già in arrivo."
+    },
+    {
+      "id": "nhie_it_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai dimenticato il compleanno di un amico stretto."
+    },
+    {
+      "id": "nhie_it_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai beccato mentre origliavo."
+    },
+    {
+      "id": "nhie_it_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai finto che il telefono fosse scarico per chiudere una chiamata."
+    },
+    {
+      "id": "nhie_it_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai avuto una cotta per un collega o compagno di classe."
+    },
+    {
+      "id": "nhie_it_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai riletto una chat vecchia per fissarmi."
+    },
+    {
+      "id": "nhie_it_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai cancellato un messaggio subito dopo averlo inviato."
+    },
+    {
+      "id": "nhie_it_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai stalkerato un profilo per curiosità."
+    },
+    {
+      "id": "nhie_it_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai provato tanta vergogna da voler lasciare una festa."
+    },
+    {
+      "id": "nhie_it_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai mentito nel curriculum."
+    },
+    {
+      "id": "nhie_it_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai preso in prestito qualcosa senza restituirlo."
+    },
+    {
+      "id": "nhie_it_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai bloccato qualcuno e poi sbloccato per controllare."
+    },
+    {
+      "id": "nhie_it_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai dato un nome falso al bar."
+    },
+    {
+      "id": "nhie_it_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai ghostato un gruppo."
+    },
+    {
+      "id": "nhie_it_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai dato la colpa al traffico quando ero uscito tardi."
+    },
+    {
+      "id": "nhie_it_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai detto 'l'ho visto' senza averlo visto."
+    },
+    {
+      "id": "nhie_it_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai dimenticato una password e creato un nuovo account."
+    },
+    {
+      "id": "nhie_it_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai passato tutto il giorno a letto di proposito."
+    },
+    {
+      "id": "nhie_it_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai disapprovato segretamente il partner di un amico."
+    },
+    {
+      "id": "nhie_it_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Non ho mai baciato qualcuno conosciuto quella sera."
+    },
+    {
+      "id": "nhie_it_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Non ho mai avuto una relazione segreta."
+    },
+    {
+      "id": "nhie_it_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Non ho mai inviato una foto rischiosa."
+    },
+    {
+      "id": "nhie_it_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Non ho mai mentito sul mio stato sentimentale."
+    },
+    {
+      "id": "nhie_it_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Non ho mai fatto un appuntamento solo per mangiare gratis."
+    },
+    {
+      "id": "nhie_it_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Non ho mai beccato mentre uscivo di nascosto."
+    },
+    {
+      "id": "nhie_it_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Non ho mai avuto sentimenti per due persone insieme."
+    },
+    {
+      "id": "nhie_it_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Non ho mai invidiato la relazione di un amico."
+    },
+    {
+      "id": "nhie_it_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Non ho mai cancellato messaggi per nascondere qualcosa."
+    },
+    {
+      "id": "nhie_it_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Non ho mai flirtato per ottenere un favore."
+    },
+    {
+      "id": "nhie_it_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai fatto biscotti da zero."
+    },
+    {
+      "id": "nhie_it_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai dormito in classe."
+    },
+    {
+      "id": "nhie_it_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai perso l’autobus di proposito."
+    },
+    {
+      "id": "nhie_it_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai fatto un pupazzo di neve."
+    },
+    {
+      "id": "nhie_it_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai passato un giorno intero senza telefono."
+    },
+    {
+      "id": "nhie_it_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai rovesciato il caffè sulla maglietta."
+    },
+    {
+      "id": "nhie_it_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai dimenticato dove ho parcheggiato."
+    },
+    {
+      "id": "nhie_it_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai cantato a squarciagola sotto la doccia."
+    },
+    {
+      "id": "nhie_it_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non mi sono mai perso in un centro commerciale."
+    },
+    {
+      "id": "nhie_it_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai provato un cibo nuovo e amato subito."
+    },
+    {
+      "id": "nhie_it_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai preso in prestito un libro senza restituirlo."
+    },
+    {
+      "id": "nhie_it_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai visto un’intera stagione in un weekend."
+    },
+    {
+      "id": "nhie_it_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai riso così tanto da piangere."
+    },
+    {
+      "id": "nhie_it_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai fatto un regalo fai-da-te."
+    },
+    {
+      "id": "nhie_it_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai passato la notte a parlare."
+    },
+    {
+      "id": "nhie_it_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai saltato un allenamento che avevo programmato."
+    },
+    {
+      "id": "nhie_it_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai mentito dicendo “arrivo tra cinque minuti”."
+    },
+    {
+      "id": "nhie_it_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai mandato un messaggio alla persona sbagliata."
+    },
+    {
+      "id": "nhie_it_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai rotto qualcosa dando la colpa a qualcun altro."
+    },
+    {
+      "id": "nhie_it_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Non ho mai preso una multa per eccesso di velocità."
+    },
+    {
+      "id": "nhie_it_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai finto di apprezzare un regalo."
+    },
+    {
+      "id": "nhie_it_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai guardato il menu online prima di uscire."
+    },
+    {
+      "id": "nhie_it_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non mi sono mai dato malato senza esserlo."
+    },
+    {
+      "id": "nhie_it_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai fatto un viaggio senza un piano."
+    },
+    {
+      "id": "nhie_it_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non sono mai stato beccato a cantare in macchina al semaforo."
+    },
+    {
+      "id": "nhie_it_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai fatto una nottata per finire un progetto."
+    },
+    {
+      "id": "nhie_it_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai pianto per un film in pubblico."
+    },
+    {
+      "id": "nhie_it_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai ignorato un messaggio di proposito."
+    },
+    {
+      "id": "nhie_it_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non mi sono mai sentito in colpa per aver annullato piani."
+    },
+    {
+      "id": "nhie_it_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai avuto vergogna della mia suoneria."
+    },
+    {
+      "id": "nhie_it_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai comprato qualcosa solo perché era in saldo."
+    },
+    {
+      "id": "nhie_it_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai finto di conoscere una canzone."
+    },
+    {
+      "id": "nhie_it_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai sbirciato nel frigo di qualcuno."
+    },
+    {
+      "id": "nhie_it_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai iniziato a imparare una lingua e poi mollato."
+    },
+    {
+      "id": "nhie_it_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai scritto “lol” senza ridere."
+    },
+    {
+      "id": "nhie_it_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai avuto un appuntamento sapendo che non sarebbe andato da nessuna parte."
+    },
+    {
+      "id": "nhie_it_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai avuto una cotta per un collega."
+    },
+    {
+      "id": "nhie_it_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai avuto una situationship."
+    },
+    {
+      "id": "nhie_it_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non sono mai stato beccato mentre flirtavo."
+    },
+    {
+      "id": "nhie_it_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non ho mai ghostato qualcuno dopo un appuntamento."
+    },
+    {
+      "id": "nhie_it_091",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Non ho mai inviato un messaggio rischioso e me ne sono pentito subito."
+    },
+    {
+      "id": "nhie_it_092",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Non ho mai mentito sulla mia età."
+    },
+    {
+      "id": "nhie_it_093",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Non ho mai baciato qualcuno appena conosciuto."
+    },
+    {
+      "id": "nhie_it_094",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Non ho mai provato sentimenti per un amico."
+    },
+    {
+      "id": "nhie_it_095",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Non ho mai usato un’app di dating."
+    },
+    {
+      "id": "nhie_it_096",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Non ho mai scritto a un ex a tarda notte."
+    },
+    {
+      "id": "nhie_it_097",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Non mi sono mai addormentato durante un appuntamento."
+    },
+    {
+      "id": "nhie_it_098",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Non sono mai andato via prima per evitare un appuntamento brutto."
+    },
+    {
+      "id": "nhie_it_099",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Non ho mai provato gelosia per la relazione di un amico."
+    },
+    {
+      "id": "nhie_it_100",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Non ho mai cancellato un messaggio prima che lo vedessero."
+    }
+  ]
+}

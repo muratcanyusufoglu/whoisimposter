@@ -1,0 +1,392 @@
+{
+  "gameId": "truth-dare",
+  "locale": "es",
+  "version": 1,
+  "prompts": [
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Qué fue lo último que buscaste en internet?",
+      "id": "td_es_001"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Qué canción te sabes de memoria?",
+      "id": "td_es_002"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Qué app usas más?",
+      "id": "td_es_003"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Qué comida podrías comer todos los días?",
+      "id": "td_es_004"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Cuál es el mejor cumplido que te han dado?",
+      "id": "td_es_005"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Qué serie o película te relaja más?",
+      "id": "td_es_006"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿De qué te sientes orgulloso este año?",
+      "id": "td_es_007"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Cuál es tu hábito más raro?",
+      "id": "td_es_008"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Cómo te relajas mejor?",
+      "id": "td_es_009"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Qué talento te gustaría tener?",
+      "id": "td_es_010"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Haz una imitación de un famoso por 10 segundos.",
+      "id": "td_es_011"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Habla en susurros hasta el próximo turno.",
+      "id": "td_es_012"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Muestra la última foto de tu móvil.",
+      "id": "td_es_013"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Haz 10 saltos de tijera.",
+      "id": "td_es_014"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Deja que alguien elija tu foto de perfil por 24 h.",
+      "id": "td_es_015"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Comparte un dato curioso sobre ti.",
+      "id": "td_es_016"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Da 5 vueltas y camina en línea recta.",
+      "id": "td_es_017"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Envía un emoji amable a la última persona que te escribió.",
+      "id": "td_es_018"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Finge ser reportero por 20 segundos.",
+      "id": "td_es_019"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "El grupo elige una palabra que debes usar en cada frase por 3 minutos.",
+      "id": "td_es_020"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Cuál es el mensaje más vergonzoso que has enviado?",
+      "id": "td_es_021"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿A quién le escribes más ahora?",
+      "id": "td_es_022"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Qué promesa te arrepientes de hacer?",
+      "id": "td_es_023"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Qué finges que te gusta y no te gusta?",
+      "id": "td_es_024"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Cuándo fue la última vez que sentiste celos?",
+      "id": "td_es_025"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Qué secreto has guardado a tus amigos?",
+      "id": "td_es_026"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Cuál es el peor consejo que seguiste?",
+      "id": "td_es_027"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Qué es lo más caro que rompiste?",
+      "id": "td_es_028"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Qué miedo no has contado a nadie?",
+      "id": "td_es_029"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿A quién silenciaste o dejaste de seguir últimamente?",
+      "id": "td_es_030"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sube una letra de canción al azar a tu historia.",
+      "id": "td_es_031"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Manda un cumplido a alguien ahora mismo.",
+      "id": "td_es_032"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Come un snack sin usar las manos.",
+      "id": "td_es_033"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Deja que alguien te peine.",
+      "id": "td_es_034"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lee tu último mensaje de forma dramática.",
+      "id": "td_es_035"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Baila algo ridículo por 20 segundos.",
+      "id": "td_es_036"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Habla con un acento elegido por el grupo durante un minuto.",
+      "id": "td_es_037"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Dibuja un retrato rápido de alguien del grupo.",
+      "id": "td_es_038"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Comparte tu pantalla por 10 segundos.",
+      "id": "td_es_039"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Cambia de lugar con alguien hasta tu próximo turno.",
+      "id": "td_es_040"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Te han gustado dos personas a la vez?",
+      "id": "td_es_041"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Cuál es tu mayor red flag al salir con alguien?",
+      "id": "td_es_042"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Qué es lo más coquetear que hiciste recientemente?",
+      "id": "td_es_043"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Qué le has ocultado a una pareja?",
+      "id": "td_es_044"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Cuál fue el mensaje más atrevido que enviaste?",
+      "id": "td_es_045"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Muestra la última foto guardada en tu galería.",
+      "id": "td_es_046"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lee el último DM en voz alta.",
+      "id": "td_es_047"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Envía un GIF coquetón a alguien de confianza.",
+      "id": "td_es_048"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Muestra tu lista de emojis más usados.",
+      "id": "td_es_049"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Confiesa tu crush más reciente (solo iniciales).",
+      "id": "td_es_050"
+    },
+    {
+      "id": "td_es_051",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Cuál es tu obsesión actual?"
+    },
+    {
+      "id": "td_es_052",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Qué pequeña cosa mejora tu día?"
+    },
+    {
+      "id": "td_es_053",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿A quién llamarías a las 2 de la mañana si necesitaras ayuda?"
+    },
+    {
+      "id": "td_es_054",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Haz 10 jumping jacks."
+    },
+    {
+      "id": "td_es_055",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Di tres cosas bonitas sobre la persona a tu derecha."
+    }
+  ]
+}

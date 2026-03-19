@@ -1,0 +1,607 @@
+{
+  "gameId": "never-have-i-ever",
+  "locale": "fr",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "nhie_fr_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n'ai jamais oublié mon téléphone à la maison."
+    },
+    {
+      "id": "nhie_fr_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n'ai jamais pris le mauvais bus ou métro."
+    },
+    {
+      "id": "nhie_fr_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n'ai jamais mangé le dessert avant le dîner."
+    },
+    {
+      "id": "nhie_fr_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n'ai jamais dormi pendant l'alarme."
+    },
+    {
+      "id": "nhie_fr_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n'ai jamais porté deux chaussettes différentes."
+    },
+    {
+      "id": "nhie_fr_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n'ai jamais ri dans un moment sérieux."
+    },
+    {
+      "id": "nhie_fr_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n'ai jamais renversé une boisson sur moi en public."
+    },
+    {
+      "id": "nhie_fr_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n'ai jamais fait les courses en ayant faim."
+    },
+    {
+      "id": "nhie_fr_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n'ai jamais perdu mes clés plus d'une journée."
+    },
+    {
+      "id": "nhie_fr_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n'ai jamais porté la même tenue deux jours d'affilée."
+    },
+    {
+      "id": "nhie_fr_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n'ai jamais oublié de charger mon téléphone la nuit."
+    },
+    {
+      "id": "nhie_fr_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n'ai jamais chanté fort dans la voiture tout seul."
+    },
+    {
+      "id": "nhie_fr_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n'ai jamais mangé des céréales au dîner."
+    },
+    {
+      "id": "nhie_fr_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n'ai jamais eu une coupe de cheveux que je détestais."
+    },
+    {
+      "id": "nhie_fr_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n'ai jamais essayé de réparer quelque chose et empiré la situation."
+    },
+    {
+      "id": "nhie_fr_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n'ai jamais entré dans la mauvaise salle de classe ou réunion."
+    },
+    {
+      "id": "nhie_fr_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n'ai jamais dormi au cinéma pendant un film."
+    },
+    {
+      "id": "nhie_fr_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n'ai jamais envoyé un message au mauvais groupe."
+    },
+    {
+      "id": "nhie_fr_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n'ai jamais fait un gâteau complètement raté."
+    },
+    {
+      "id": "nhie_fr_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n'ai jamais eu un poisson rouge comme animal."
+    },
+    {
+      "id": "nhie_fr_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n'ai jamais appuyé sur snooze plus de cinq fois."
+    },
+    {
+      "id": "nhie_fr_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n'ai jamais menti en disant que j'étais en route."
+    },
+    {
+      "id": "nhie_fr_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n'ai jamais oublié l'anniversaire d'un proche."
+    },
+    {
+      "id": "nhie_fr_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n'ai jamais été surpris en train d'écouter aux portes."
+    },
+    {
+      "id": "nhie_fr_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n'ai jamais fait semblant que mon téléphone était mort pour finir un appel."
+    },
+    {
+      "id": "nhie_fr_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n'ai jamais eu un crush sur un collègue ou camarade de classe."
+    },
+    {
+      "id": "nhie_fr_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n'ai jamais relu un vieux chat pour trop réfléchir."
+    },
+    {
+      "id": "nhie_fr_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n'ai jamais supprimé un message juste après l'avoir envoyé."
+    },
+    {
+      "id": "nhie_fr_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n'ai jamais stalké un profil par curiosité."
+    },
+    {
+      "id": "nhie_fr_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n'ai jamais eu tellement honte que je voulais quitter une soirée."
+    },
+    {
+      "id": "nhie_fr_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n'ai jamais menti sur un CV."
+    },
+    {
+      "id": "nhie_fr_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n'ai jamais emprunté quelque chose sans le rendre."
+    },
+    {
+      "id": "nhie_fr_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n'ai jamais bloqué quelqu'un puis débloqué pour vérifier."
+    },
+    {
+      "id": "nhie_fr_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n'ai jamais donné un faux prénom dans un café."
+    },
+    {
+      "id": "nhie_fr_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n'ai jamais ghosté un groupe."
+    },
+    {
+      "id": "nhie_fr_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n'ai jamais mis mon retard sur la faute du trafic alors que je suis parti en retard."
+    },
+    {
+      "id": "nhie_fr_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n'ai jamais dit 'je l'ai vu' sans l'avoir vu."
+    },
+    {
+      "id": "nhie_fr_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n'ai jamais oublié un mot de passe et créé un nouveau compte."
+    },
+    {
+      "id": "nhie_fr_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n'ai jamais passé toute la journée au lit volontairement."
+    },
+    {
+      "id": "nhie_fr_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n'ai jamais secrètement détesté le/la partenaire d'un ami."
+    },
+    {
+      "id": "nhie_fr_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Je n'ai jamais embrassé quelqu'un rencontré ce soir-là."
+    },
+    {
+      "id": "nhie_fr_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Je n'ai jamais eu une aventure secrète."
+    },
+    {
+      "id": "nhie_fr_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Je n'ai jamais envoyé une photo osée."
+    },
+    {
+      "id": "nhie_fr_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Je n'ai jamais menti sur mon statut amoureux."
+    },
+    {
+      "id": "nhie_fr_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Je n'ai jamais été à un date juste pour manger gratuitement."
+    },
+    {
+      "id": "nhie_fr_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Je n'ai jamais été surpris en train de sortir en douce."
+    },
+    {
+      "id": "nhie_fr_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Je n'ai jamais eu des sentiments pour deux personnes en même temps."
+    },
+    {
+      "id": "nhie_fr_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Je n'ai jamais été jaloux de la relation d'un ami."
+    },
+    {
+      "id": "nhie_fr_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Je n'ai jamais supprimé des messages pour cacher quelque chose."
+    },
+    {
+      "id": "nhie_fr_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Je n'ai jamais flirté pour obtenir un service."
+    },
+    {
+      "id": "nhie_fr_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n’ai jamais fait des cookies maison."
+    },
+    {
+      "id": "nhie_fr_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je ne me suis jamais endormi en cours."
+    },
+    {
+      "id": "nhie_fr_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n’ai jamais raté un bus exprès."
+    },
+    {
+      "id": "nhie_fr_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n’ai jamais fait un bonhomme de neige."
+    },
+    {
+      "id": "nhie_fr_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n’ai jamais passé une journée entière sans téléphone."
+    },
+    {
+      "id": "nhie_fr_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n’ai jamais porté la même tenue deux jours d’affilée."
+    },
+    {
+      "id": "nhie_fr_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n’ai jamais oublié où je m’étais garé."
+    },
+    {
+      "id": "nhie_fr_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n’ai jamais chanté fort sous la douche."
+    },
+    {
+      "id": "nhie_fr_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je ne me suis jamais perdu dans un centre commercial."
+    },
+    {
+      "id": "nhie_fr_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n’ai jamais goûté un nouveau plat et adoré tout de suite."
+    },
+    {
+      "id": "nhie_fr_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n’ai jamais emprunté un livre sans le rendre."
+    },
+    {
+      "id": "nhie_fr_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n’ai jamais binge-watché une série en un week-end."
+    },
+    {
+      "id": "nhie_fr_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n’ai jamais ri au point d’en pleurer."
+    },
+    {
+      "id": "nhie_fr_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n’ai jamais fait un cadeau fait main."
+    },
+    {
+      "id": "nhie_fr_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n’ai jamais passé la nuit à discuter."
+    },
+    {
+      "id": "nhie_fr_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n’ai jamais zappé un entraînement prévu."
+    },
+    {
+      "id": "nhie_fr_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n’ai jamais menti en disant “j’arrive dans 5 minutes”."
+    },
+    {
+      "id": "nhie_fr_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n’ai jamais envoyé un message à la mauvaise personne."
+    },
+    {
+      "id": "nhie_fr_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n’ai jamais cassé quelque chose en mettant la faute sur quelqu’un d’autre."
+    },
+    {
+      "id": "nhie_fr_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Je n’ai jamais pris de contravention pour excès de vitesse."
+    },
+    {
+      "id": "nhie_fr_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n’ai jamais fait semblant d’aimer un cadeau."
+    },
+    {
+      "id": "nhie_fr_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n’ai jamais regardé le menu en ligne avant de sortir."
+    },
+    {
+      "id": "nhie_fr_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je ne me suis jamais déclaré malade sans l’être."
+    },
+    {
+      "id": "nhie_fr_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n’ai jamais fait un voyage sans aucun plan."
+    },
+    {
+      "id": "nhie_fr_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n’ai jamais été surpris en train de chanter au feu rouge."
+    },
+    {
+      "id": "nhie_fr_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n’ai jamais fait une nuit blanche pour finir un projet."
+    },
+    {
+      "id": "nhie_fr_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n’ai jamais pleuré devant un film en public."
+    },
+    {
+      "id": "nhie_fr_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n’ai jamais ignoré un message exprès."
+    },
+    {
+      "id": "nhie_fr_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n’ai jamais culpabilisé d’avoir annulé des plans."
+    },
+    {
+      "id": "nhie_fr_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n’ai jamais eu honte de ma sonnerie."
+    },
+    {
+      "id": "nhie_fr_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n’ai jamais acheté quelque chose juste parce que c’était en promo."
+    },
+    {
+      "id": "nhie_fr_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n’ai jamais fait semblant de connaître une chanson."
+    },
+    {
+      "id": "nhie_fr_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n’ai jamais fouillé dans le frigo de quelqu’un."
+    },
+    {
+      "id": "nhie_fr_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n’ai jamais commencé une langue puis abandonné."
+    },
+    {
+      "id": "nhie_fr_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n’ai jamais écrit “mdr” sans rire."
+    },
+    {
+      "id": "nhie_fr_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n’ai jamais été à un date en sachant que ça n’aboutirait pas."
+    },
+    {
+      "id": "nhie_fr_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n’ai jamais eu un crush sur un collègue."
+    },
+    {
+      "id": "nhie_fr_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n’ai jamais été dans une situationship."
+    },
+    {
+      "id": "nhie_fr_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n’ai jamais été grillé en train de flirter."
+    },
+    {
+      "id": "nhie_fr_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Je n’ai jamais ghosté quelqu’un après un date."
+    },
+    {
+      "id": "nhie_fr_091",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Je n’ai jamais envoyé un message risqué et regretté aussitôt."
+    },
+    {
+      "id": "nhie_fr_092",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Je n’ai jamais menti sur mon âge."
+    },
+    {
+      "id": "nhie_fr_093",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Je n’ai jamais embrassé quelqu’un que je venais de rencontrer."
+    },
+    {
+      "id": "nhie_fr_094",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Je n’ai jamais eu des sentiments pour un ami."
+    },
+    {
+      "id": "nhie_fr_095",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Je n’ai jamais utilisé d’appli de rencontre."
+    },
+    {
+      "id": "nhie_fr_096",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Je n’ai jamais écrit à un ex tard le soir."
+    },
+    {
+      "id": "nhie_fr_097",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Je ne me suis jamais endormi pendant un date."
+    },
+    {
+      "id": "nhie_fr_098",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Je ne suis jamais rentré plus tôt pour éviter un mauvais date."
+    },
+    {
+      "id": "nhie_fr_099",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Je n’ai jamais été jaloux de la relation d’un ami."
+    },
+    {
+      "id": "nhie_fr_100",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Je n’ai jamais supprimé un message avant qu’il soit lu."
+    }
+  ]
+}

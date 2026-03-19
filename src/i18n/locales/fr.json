@@ -206,7 +206,8 @@
     "roundsPlayed_one": "{{count}} tour joué",
     "roundsPlayed_other": "{{count}} tours joués",
     "pts": "pts",
-    "delta": "+{{count}}"
+    "delta": "+{{count}}",
+    "final": "Scores finaux"
   },
   "streak": {
     "crewStreak": "🔥 L'équipage sur une série de {{count}} victoires!",
@@ -473,7 +474,9 @@
     "endGame": "Fin de partie",
     "readyTitle": "Prêt ?",
     "readySubtitle": "Passez le téléphone et tenez-le sur votre front",
-    "startTimer": "C'est parti !"
+    "startTimer": "C'est parti !",
+    "emptyTitle": "Plus de mots",
+    "emptySubtitle": "Choisissez d'autres catégories pour continuer."
   },
   "wordChain": {
     "title": "Chaîne de mots",

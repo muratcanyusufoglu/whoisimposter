@@ -1,0 +1,607 @@
+{
+  "gameId": "never-have-i-ever",
+  "locale": "de",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "nhie_de_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie mein Handy zu Hause vergessen."
+    },
+    {
+      "id": "nhie_de_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie den falschen Bus oder Zug genommen."
+    },
+    {
+      "id": "nhie_de_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie zuerst Dessert gegessen."
+    },
+    {
+      "id": "nhie_de_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie den Wecker verschlafen."
+    },
+    {
+      "id": "nhie_de_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie zwei verschiedene Socken getragen."
+    },
+    {
+      "id": "nhie_de_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie in einem ernsten Moment gelacht."
+    },
+    {
+      "id": "nhie_de_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie mir in der Öffentlichkeit ein Getränk verschüttet."
+    },
+    {
+      "id": "nhie_de_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie hungrig einkaufen gegangen."
+    },
+    {
+      "id": "nhie_de_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie meinen Schlüssel länger als einen Tag verloren."
+    },
+    {
+      "id": "nhie_de_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie zwei Tage hintereinander dasselbe Outfit getragen."
+    },
+    {
+      "id": "nhie_de_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie vergessen, mein Handy nachts zu laden."
+    },
+    {
+      "id": "nhie_de_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie allein im Auto laut gesungen."
+    },
+    {
+      "id": "nhie_de_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie Müsli zum Abendessen gegessen."
+    },
+    {
+      "id": "nhie_de_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie einen Haarschnitt bekommen, den ich hasste."
+    },
+    {
+      "id": "nhie_de_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie versucht etwas zu reparieren und es schlimmer gemacht."
+    },
+    {
+      "id": "nhie_de_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie in die falsche Klasse oder in das falsche Meeting gegangen."
+    },
+    {
+      "id": "nhie_de_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie im Kino während des Films eingeschlafen."
+    },
+    {
+      "id": "nhie_de_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie eine Nachricht in den falschen Gruppenchat geschickt."
+    },
+    {
+      "id": "nhie_de_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie etwas gebacken, das total misslungen ist."
+    },
+    {
+      "id": "nhie_de_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie einen Goldfisch als Haustier gehabt."
+    },
+    {
+      "id": "nhie_de_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie den Wecker mehr als fünfmal gesnoozed."
+    },
+    {
+      "id": "nhie_de_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie gelogen, dass ich schon unterwegs bin."
+    },
+    {
+      "id": "nhie_de_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie den Geburtstag eines engen Freundes vergessen."
+    },
+    {
+      "id": "nhie_de_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie beim Lauschen erwischt worden."
+    },
+    {
+      "id": "nhie_de_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie so getan, als sei mein Akku leer, um ein Gespräch zu beenden."
+    },
+    {
+      "id": "nhie_de_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie einen Crush auf eine Kollegin oder einen Kollegen gehabt."
+    },
+    {
+      "id": "nhie_de_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie alte Chats nochmal gelesen, um zu grübeln."
+    },
+    {
+      "id": "nhie_de_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie eine Nachricht direkt nach dem Senden gelöscht."
+    },
+    {
+      "id": "nhie_de_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie aus Neugier ein Profil gestalkt."
+    },
+    {
+      "id": "nhie_de_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie so peinlich berührt gewesen, dass ich eine Party verlassen wollte."
+    },
+    {
+      "id": "nhie_de_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie im Lebenslauf gelogen."
+    },
+    {
+      "id": "nhie_de_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie etwas ausgeliehen und nicht zurückgegeben."
+    },
+    {
+      "id": "nhie_de_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie jemanden blockiert und später wieder entblockt, um zu schauen."
+    },
+    {
+      "id": "nhie_de_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie im Café einen falschen Namen angegeben."
+    },
+    {
+      "id": "nhie_de_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie einen Gruppenchat geghostet."
+    },
+    {
+      "id": "nhie_de_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie meine Verspätung auf den Verkehr geschoben, obwohl ich zu spät los bin."
+    },
+    {
+      "id": "nhie_de_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie behauptet, etwas gesehen zu haben, obwohl ich es nicht gesehen habe."
+    },
+    {
+      "id": "nhie_de_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie ein Passwort vergessen und ein neues Konto erstellt."
+    },
+    {
+      "id": "nhie_de_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie absichtlich den ganzen Tag im Bett geblieben."
+    },
+    {
+      "id": "nhie_de_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie den Partner einer Freundin oder eines Freundes heimlich nicht gemocht."
+    },
+    {
+      "id": "nhie_de_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ich habe noch nie jemanden in der Nacht kennengelernt und geküsst."
+    },
+    {
+      "id": "nhie_de_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ich habe noch nie eine heimliche Affäre gehabt."
+    },
+    {
+      "id": "nhie_de_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ich habe noch nie ein riskantes Foto geschickt."
+    },
+    {
+      "id": "nhie_de_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ich habe noch nie über meinen Beziehungsstatus gelogen."
+    },
+    {
+      "id": "nhie_de_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ich habe noch nie ein Date nur für gratis Essen gehabt."
+    },
+    {
+      "id": "nhie_de_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ich habe noch nie beim Rausschleichen erwischt worden."
+    },
+    {
+      "id": "nhie_de_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ich habe noch nie gleichzeitig Gefühle für zwei Personen gehabt."
+    },
+    {
+      "id": "nhie_de_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ich habe noch nie die Beziehung eines Freundes oder einer Freundin beneidet."
+    },
+    {
+      "id": "nhie_de_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ich habe noch nie Nachrichten gelöscht, um etwas zu verbergen."
+    },
+    {
+      "id": "nhie_de_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ich habe noch nie geflirtet, um einen Gefallen zu bekommen."
+    },
+    {
+      "id": "nhie_de_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie Kekse von Grund auf gebacken."
+    },
+    {
+      "id": "nhie_de_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie im Unterricht geschlafen."
+    },
+    {
+      "id": "nhie_de_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie absichtlich den Bus verpasst."
+    },
+    {
+      "id": "nhie_de_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie einen Schneemann gebaut."
+    },
+    {
+      "id": "nhie_de_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie einen ganzen Tag ohne Handy geschafft."
+    },
+    {
+      "id": "nhie_de_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie Kaffee auf mein Shirt verschüttet."
+    },
+    {
+      "id": "nhie_de_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie vergessen, wo ich geparkt habe."
+    },
+    {
+      "id": "nhie_de_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie laut unter der Dusche gesungen."
+    },
+    {
+      "id": "nhie_de_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe mich noch nie in einem Einkaufszentrum verlaufen."
+    },
+    {
+      "id": "nhie_de_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie ein neues Essen probiert und sofort geliebt."
+    },
+    {
+      "id": "nhie_de_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie ein geliehenes Buch nicht zurückgegeben."
+    },
+    {
+      "id": "nhie_de_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie eine Serie an einem Wochenende durchgebingt."
+    },
+    {
+      "id": "nhie_de_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie so gelacht, dass ich geweint habe."
+    },
+    {
+      "id": "nhie_de_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie ein DIY-Geschenk gemacht."
+    },
+    {
+      "id": "nhie_de_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie die ganze Nacht durchgeredet."
+    },
+    {
+      "id": "nhie_de_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie ein geplantes Workout geschwänzt."
+    },
+    {
+      "id": "nhie_de_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie gelogen, dass ich „in fünf Minuten da“ bin."
+    },
+    {
+      "id": "nhie_de_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie eine Nachricht an die falsche Person geschickt."
+    },
+    {
+      "id": "nhie_de_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie etwas kaputt gemacht und es jemand anderem angehängt."
+    },
+    {
+      "id": "nhie_de_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ich habe noch nie ein Knöllchen wegen zu schnellen Fahrens bekommen."
+    },
+    {
+      "id": "nhie_de_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie so getan, als würde mir ein Geschenk gefallen."
+    },
+    {
+      "id": "nhie_de_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie online die Speisekarte gecheckt, bevor ich ausgegangen bin."
+    },
+    {
+      "id": "nhie_de_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe mich noch nie krankgemeldet, obwohl ich nicht krank war."
+    },
+    {
+      "id": "nhie_de_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie eine Reise ohne Plan gemacht."
+    },
+    {
+      "id": "nhie_de_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie an der roten Ampel im Auto gesungen und wurde gesehen."
+    },
+    {
+      "id": "nhie_de_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie eine Nacht durchgemacht, um etwas fertigzustellen."
+    },
+    {
+      "id": "nhie_de_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie bei einem Film in der Öffentlichkeit geweint."
+    },
+    {
+      "id": "nhie_de_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie eine Nachricht absichtlich ignoriert."
+    },
+    {
+      "id": "nhie_de_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie Schuldgefühle gehabt, weil ich Pläne abgesagt habe."
+    },
+    {
+      "id": "nhie_de_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe mich noch nie für meinen eigenen Klingelton geschämt."
+    },
+    {
+      "id": "nhie_de_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie etwas nur wegen Sale gekauft."
+    },
+    {
+      "id": "nhie_de_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie so getan, als würde ich ein Lied kennen."
+    },
+    {
+      "id": "nhie_de_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie in den Kühlschrank von jemandem gespickt."
+    },
+    {
+      "id": "nhie_de_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie eine Sprache angefangen und wieder aufgegeben."
+    },
+    {
+      "id": "nhie_de_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie „lol“ geschrieben, ohne zu lachen."
+    },
+    {
+      "id": "nhie_de_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie ein Date gehabt, von dem ich wusste, dass es nichts wird."
+    },
+    {
+      "id": "nhie_de_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie einen Crush auf jemanden bei der Arbeit gehabt."
+    },
+    {
+      "id": "nhie_de_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie in einer Situationship gesteckt."
+    },
+    {
+      "id": "nhie_de_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie beim Flirten erwischt worden."
+    },
+    {
+      "id": "nhie_de_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ich habe noch nie jemanden nach einem Date geghostet."
+    },
+    {
+      "id": "nhie_de_091",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ich habe noch nie eine riskante Nachricht geschickt und sofort bereut."
+    },
+    {
+      "id": "nhie_de_092",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ich habe noch nie über mein Alter gelogen."
+    },
+    {
+      "id": "nhie_de_093",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ich habe noch nie jemanden geküsst, den ich gerade erst kennengelernt habe."
+    },
+    {
+      "id": "nhie_de_094",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ich habe noch nie Gefühle für einen Freund gehabt."
+    },
+    {
+      "id": "nhie_de_095",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ich habe noch nie eine Dating-App benutzt."
+    },
+    {
+      "id": "nhie_de_096",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ich habe noch nie meinem Ex spät nachts geschrieben."
+    },
+    {
+      "id": "nhie_de_097",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ich habe noch nie bei einem Date eingeschlafen."
+    },
+    {
+      "id": "nhie_de_098",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ich habe mich noch nie früher verabschiedet, um einem schlechten Date zu entkommen."
+    },
+    {
+      "id": "nhie_de_099",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ich habe noch nie die Beziehung eines Freundes beneidet."
+    },
+    {
+      "id": "nhie_de_100",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ich habe noch nie eine Nachricht gelöscht, bevor sie gelesen wurde."
+    }
+  ]
+}

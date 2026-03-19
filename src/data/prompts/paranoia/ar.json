@@ -1,0 +1,607 @@
+{
+  "gameId": "paranoia",
+  "locale": "ar",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "par_ar_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من الأفضل في إعطاء الاتجاهات بدون خريطة؟"
+    },
+    {
+      "id": "par_ar_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من سيعتمد حيوانًا ضالًا أولًا؟"
+    },
+    {
+      "id": "par_ar_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من يبدأ هواية جديدة ويستمر بها؟"
+    },
+    {
+      "id": "par_ar_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من سيكون أفضل قائد فريق؟"
+    },
+    {
+      "id": "par_ar_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من سيفوز بمسابقة خبز؟"
+    },
+    {
+      "id": "par_ar_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من يتعرّف على غرباء في السفر بسهولة؟"
+    },
+    {
+      "id": "par_ar_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من سيخطط لحفلة مفاجأة أولًا؟"
+    },
+    {
+      "id": "par_ar_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من يستطيع أسبوعًا بلا هاتف؟"
+    },
+    {
+      "id": "par_ar_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من الأفضل في إدارة المال؟"
+    },
+    {
+      "id": "par_ar_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من ينسى المظلة في يوم ممطر؟"
+    },
+    {
+      "id": "par_ar_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من يرقص أولًا في زفاف؟"
+    },
+    {
+      "id": "par_ar_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من لديه أفضل ذوق موسيقي؟"
+    },
+    {
+      "id": "par_ar_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من يضيع حتى مع GPS؟"
+    },
+    {
+      "id": "par_ar_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من يحفظ الأسرار أفضل؟"
+    },
+    {
+      "id": "par_ar_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من يعرض مساعدة الجار أولًا؟"
+    },
+    {
+      "id": "par_ar_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من ينظم جدول المجموعة؟"
+    },
+    {
+      "id": "par_ar_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من ينهي مسلسلًا كاملًا في يوم واحد؟"
+    },
+    {
+      "id": "par_ar_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من يطبخ أفضل لعدد كبير؟"
+    },
+    {
+      "id": "par_ar_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من يلتقط أكثر صور في السفر؟"
+    },
+    {
+      "id": "par_ar_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من يكون آخر من يغادر الحفلة؟"
+    },
+    {
+      "id": "par_ar_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من يختفي عن مجموعة الدردشة لأسابيع؟"
+    },
+    {
+      "id": "par_ar_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من يلغي الخطط بأضعف عذر؟"
+    },
+    {
+      "id": "par_ar_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من يبالغ في التفكير برسالة واحدة لساعات؟"
+    },
+    {
+      "id": "par_ar_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من ينفق أكثر في موعد أول؟"
+    },
+    {
+      "id": "par_ar_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من يقع في الحب أسرع؟"
+    },
+    {
+      "id": "par_ar_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من يخفي إعجابه أطول وقت؟"
+    },
+    {
+      "id": "par_ar_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من يطلق إشاعة بالخطأ؟"
+    },
+    {
+      "id": "par_ar_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من ينشر أولًا بعد الانفصال؟"
+    },
+    {
+      "id": "par_ar_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من يواعد شخصًا مختلفًا تمامًا عن نوعه؟"
+    },
+    {
+      "id": "par_ar_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من يبقى صديقًا مع الحبيب السابق؟"
+    },
+    {
+      "id": "par_ar_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من الأكثر تنافسية في الألعاب؟"
+    },
+    {
+      "id": "par_ar_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من أكثر من يغازل في الحفلة؟"
+    },
+    {
+      "id": "par_ar_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من يغيّر مساره المهني فجأة بدون أن يخبر أحدًا؟"
+    },
+    {
+      "id": "par_ar_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من الأكثر احتمالًا للانتقال إلى بلد آخر؟"
+    },
+    {
+      "id": "par_ar_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من يبالغ في حزم الأمتعة لرحلة قصيرة؟"
+    },
+    {
+      "id": "par_ar_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من يصل قبل الموعد بساعة؟"
+    },
+    {
+      "id": "par_ar_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من يقرأ الرسالة ثم ينسى الرد؟"
+    },
+    {
+      "id": "par_ar_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من يحتفظ بلقطات شاشة «احتياطًا»؟"
+    },
+    {
+      "id": "par_ar_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من يختار الفيلم الأكثر درامية؟"
+    },
+    {
+      "id": "par_ar_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من يكون الأكثر عنادًا في النقاش؟"
+    },
+    {
+      "id": "par_ar_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "من لديه أكثر تاريخ عاطفي فوضوي؟"
+    },
+    {
+      "id": "par_ar_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "من لديه احتمال أكبر لمعجب سري؟"
+    },
+    {
+      "id": "par_ar_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "من يقول «أحبك» أولًا؟"
+    },
+    {
+      "id": "par_ar_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "من يستمر في المغازلة رغم وضوح الأمر؟"
+    },
+    {
+      "id": "par_ar_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "من الأرجح أن يفتش هاتف الشريك؟"
+    },
+    {
+      "id": "par_ar_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "من يقوم بعلاقة rebound أسرع؟"
+    },
+    {
+      "id": "par_ar_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "من يكون الأكثر غيرة في العلاقة؟"
+    },
+    {
+      "id": "par_ar_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "من يواعد شخصين في نفس الوقت؟"
+    },
+    {
+      "id": "par_ar_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "من يخفي situationship عن أصدقائه؟"
+    },
+    {
+      "id": "par_ar_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "من يكسر القلوب دون أن ينتبه؟"
+    },
+    {
+      "id": "par_ar_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من يتطوع لقيادة مشروع جماعي؟"
+    },
+    {
+      "id": "par_ar_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من يصمد أطول بدون هاتفه؟"
+    },
+    {
+      "id": "par_ar_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من سيكون أول من يرقص في الحفلة؟"
+    },
+    {
+      "id": "par_ar_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من سيضيع في نزهة بسيطة؟"
+    },
+    {
+      "id": "par_ar_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من سيتذكر طلبات القهوة للجميع؟"
+    },
+    {
+      "id": "par_ar_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من سيحضر سناكات لكل المجموعة؟"
+    },
+    {
+      "id": "par_ar_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من سيبدأ حديثًا مع غريب؟"
+    },
+    {
+      "id": "par_ar_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من سيكون الأفضل في تهدئة الجميع؟"
+    },
+    {
+      "id": "par_ar_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من ينهي أحجية بأسرع وقت؟"
+    },
+    {
+      "id": "par_ar_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من سيتأخر رغم التذكيرات؟"
+    },
+    {
+      "id": "par_ar_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من سيضع خطة سفر مفصلة؟"
+    },
+    {
+      "id": "par_ar_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من سيفوز في مسابقة طبخ؟"
+    },
+    {
+      "id": "par_ar_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من يعرف أفضل أماكن التصوير؟"
+    },
+    {
+      "id": "par_ar_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من الأكثر احتمالاً أن يتبنى حيوانًا أليفًا؟"
+    },
+    {
+      "id": "par_ar_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من سيحترق بالشمس أسرع؟"
+    },
+    {
+      "id": "par_ar_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من سينسى محفظته في البيت؟"
+    },
+    {
+      "id": "par_ar_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من سيبقى صديقًا لحبيبه السابق؟"
+    },
+    {
+      "id": "par_ar_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من سينفق كل أمواله على السفر؟"
+    },
+    {
+      "id": "par_ar_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من سيفسد مفاجأة بالخطأ؟"
+    },
+    {
+      "id": "par_ar_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من الأفضل في حفظ الأسرار؟"
+    },
+    {
+      "id": "par_ar_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من يرد فورًا دائمًا؟"
+    },
+    {
+      "id": "par_ar_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من سيصبح مشهورًا بسبب شيء سخيف؟"
+    },
+    {
+      "id": "par_ar_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من سيصبح معروفًا في مدينته؟"
+    },
+    {
+      "id": "par_ar_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من سيخاطر بالانتقال للخارج؟"
+    },
+    {
+      "id": "par_ar_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من سيترك عمله ليلحق بحلمه؟"
+    },
+    {
+      "id": "par_ar_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من سيحوّل هوايته إلى مشروع؟"
+    },
+    {
+      "id": "par_ar_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من سيُضبط وهو يحلم في اجتماع؟"
+    },
+    {
+      "id": "par_ar_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من سيتحدث ليتهرب من مخالفة؟"
+    },
+    {
+      "id": "par_ar_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من سيضيع مفاتيحه مرتين في أسبوع؟"
+    },
+    {
+      "id": "par_ar_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من سيبدأ إشاعة دون قصد؟"
+    },
+    {
+      "id": "par_ar_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من ستكون ردود فعله الأكثر درامية؟"
+    },
+    {
+      "id": "par_ar_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من سيغازل ليحصل على طاولة؟"
+    },
+    {
+      "id": "par_ar_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من لديه إعجاب سري في الغرفة؟"
+    },
+    {
+      "id": "par_ar_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من سيعمل ghost بعد ليلة رائعة؟"
+    },
+    {
+      "id": "par_ar_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من سيقول “أحبك” أولاً؟"
+    },
+    {
+      "id": "par_ar_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من سيحتفظ بتطبيقات المواعدة احتياطًا؟"
+    },
+    {
+      "id": "par_ar_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من يستمتع بالثرثرة سرًا؟"
+    },
+    {
+      "id": "par_ar_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من سيقع في الحب في رحلة قصيرة؟"
+    },
+    {
+      "id": "par_ar_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من سيرسل رسالة مزدوجة؟"
+    },
+    {
+      "id": "par_ar_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من سيُضبط وهو ينظر للهاتف في موعد؟"
+    },
+    {
+      "id": "par_ar_091",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "من سيلغي الخطط في آخر لحظة؟"
+    },
+    {
+      "id": "par_ar_092",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "من يستعير شيئًا وينسى إرجاعه؟"
+    },
+    {
+      "id": "par_ar_093",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "من سيبكي على إعلان؟"
+    },
+    {
+      "id": "par_ar_094",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "من سيبدأ جدالاً بلا سبب؟"
+    },
+    {
+      "id": "par_ar_095",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "من سيحضر شاحنًا للجميع؟"
+    },
+    {
+      "id": "par_ar_096",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "من سيكون آخر من يغادر الحفلة؟"
+    },
+    {
+      "id": "par_ar_097",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "من يعرف كلمات كل أغنية؟"
+    },
+    {
+      "id": "par_ar_098",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "من سيغفو في مكان عام؟"
+    },
+    {
+      "id": "par_ar_099",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "من سيُنشئ مجموعة لكل شيء؟"
+    },
+    {
+      "id": "par_ar_100",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "من سيقدم أفضل خطاب مرتجل؟"
+    }
+  ]
+}

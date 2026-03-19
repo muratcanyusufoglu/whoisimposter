@@ -1,0 +1,607 @@
+{
+  "gameId": "would-you-rather",
+  "locale": "pt",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "wyr_pt_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere ter sempre a bateria cheia ou Wi‑Fi grátis em todo lugar?"
+    },
+    {
+      "id": "wyr_pt_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere morar na praia ou nas montanhas?"
+    },
+    {
+      "id": "wyr_pt_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere cozinhar todo dia ou nunca mais cozinhar?"
+    },
+    {
+      "id": "wyr_pt_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere ser a pessoa mais engraçada ou a mais inteligente da sala?"
+    },
+    {
+      "id": "wyr_pt_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere ter um dragão ou um unicórnio de estimação?"
+    },
+    {
+      "id": "wyr_pt_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere ler mentes ou falar todas as línguas?"
+    },
+    {
+      "id": "wyr_pt_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere nunca perder as chaves ou nunca perder o celular?"
+    },
+    {
+      "id": "wyr_pt_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere tirar fotos ou aparecer nas fotos?"
+    },
+    {
+      "id": "wyr_pt_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere viajar de trem ou fazer um road trip?"
+    },
+    {
+      "id": "wyr_pt_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere acordar cedo com energia ou dormir até tarde sem culpa?"
+    },
+    {
+      "id": "wyr_pt_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere café ilimitado ou snacks ilimitados?"
+    },
+    {
+      "id": "wyr_pt_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere viver sem música ou sem filmes?"
+    },
+    {
+      "id": "wyr_pt_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere ser ótimo na cozinha ou no canto?"
+    },
+    {
+      "id": "wyr_pt_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere sempre ir no banco da frente ou sempre escolher a música?"
+    },
+    {
+      "id": "wyr_pt_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere um chef pessoal ou um motorista pessoal?"
+    },
+    {
+      "id": "wyr_pt_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere pausar o tempo ou avançar o tempo?"
+    },
+    {
+      "id": "wyr_pt_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere ser ótimo em esportes ou em arte?"
+    },
+    {
+      "id": "wyr_pt_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere assistir só comédias ou só dramas?"
+    },
+    {
+      "id": "wyr_pt_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere explorar o oceano ou o espaço?"
+    },
+    {
+      "id": "wyr_pt_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere uma casa à beira de um lago ou no centro da cidade?"
+    },
+    {
+      "id": "wyr_pt_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere um ano sem redes sociais ou um ano sem streaming?"
+    },
+    {
+      "id": "wyr_pt_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere se mudar sozinho para uma cidade nova ou ficar na sua cidade para sempre?"
+    },
+    {
+      "id": "wyr_pt_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere estar sempre 20 minutos adiantado ou 20 minutos atrasado?"
+    },
+    {
+      "id": "wyr_pt_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere seu histórico de pesquisa público ou seus DMs públicos?"
+    },
+    {
+      "id": "wyr_pt_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere ser conhecido pelo talento ou pela aparência?"
+    },
+    {
+      "id": "wyr_pt_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere perder todas as fotos ou todas as mensagens?"
+    },
+    {
+      "id": "wyr_pt_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere ser quem manda mensagem primeiro ou quem nunca manda?"
+    },
+    {
+      "id": "wyr_pt_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere poucos amigos muito próximos ou muitos conhecidos?"
+    },
+    {
+      "id": "wyr_pt_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere ficar famoso da noite para o dia ou ser respeitado com o tempo?"
+    },
+    {
+      "id": "wyr_pt_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere nunca poder mentir ou nunca poder confiar em ninguém?"
+    },
+    {
+      "id": "wyr_pt_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere o trabalho dos sonhos com pouco salário ou um trabalho chato com ótimo salário?"
+    },
+    {
+      "id": "wyr_pt_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere estar sempre ocupado ou sempre entediado?"
+    },
+    {
+      "id": "wyr_pt_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere viver no passado sem internet ou no futuro sem privacidade?"
+    },
+    {
+      "id": "wyr_pt_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere ser o planejador do grupo ou o espontâneo?"
+    },
+    {
+      "id": "wyr_pt_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere seu maior fracasso em um outdoor ou seu maior segredo em um chat de grupo?"
+    },
+    {
+      "id": "wyr_pt_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere ser incrível no papo furado ou em conversas profundas?"
+    },
+    {
+      "id": "wyr_pt_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere ouvir a verdade mesmo que doa ou ser protegido por mentiras do bem?"
+    },
+    {
+      "id": "wyr_pt_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere nunca mais dormir ou sempre precisar de 12 horas de sono?"
+    },
+    {
+      "id": "wyr_pt_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere um botão de voltar um dia ou um botão de pausar uma hora?"
+    },
+    {
+      "id": "wyr_pt_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere morar fora por amor ou por trabalho?"
+    },
+    {
+      "id": "wyr_pt_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Você prefere sair com alguém famoso ou com alguém com quem possa contar tudo?"
+    },
+    {
+      "id": "wyr_pt_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Você prefere um primeiro encontro incrível sem segundo encontro ou um primeiro encontro ruim que vira maravilhoso?"
+    },
+    {
+      "id": "wyr_pt_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Você prefere ser quem ama mais ou quem é mais amado?"
+    },
+    {
+      "id": "wyr_pt_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Você prefere manter sua vida amorosa privada ou contar tudo aos amigos?"
+    },
+    {
+      "id": "wyr_pt_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Você prefere um encontro às cegas por semana ou nunca mais sair com ninguém?"
+    },
+    {
+      "id": "wyr_pt_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Você prefere descobrir que seu parceiro mentiu ou que seu amigo mentiu?"
+    },
+    {
+      "id": "wyr_pt_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Você prefere um romance de verão que acaba ou um amor lento que leva anos?"
+    },
+    {
+      "id": "wyr_pt_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Você prefere estar solteiro e admirado ou comprometido e tranquilo?"
+    },
+    {
+      "id": "wyr_pt_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Você prefere ser quem manda mensagem primeiro ou quem ignora?"
+    },
+    {
+      "id": "wyr_pt_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Você prefere uma conexão instantânea que some ou um vínculo lento que dura?"
+    },
+    {
+      "id": "wyr_pt_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere sempre ter que sussurrar ou sempre gritar?"
+    },
+    {
+      "id": "wyr_pt_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere nunca mais usar redes sociais ou nunca mais ver TV?"
+    },
+    {
+      "id": "wyr_pt_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere um chef pessoal ou um personal trainer?"
+    },
+    {
+      "id": "wyr_pt_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere morar na praia ou na montanha?"
+    },
+    {
+      "id": "wyr_pt_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere poder pausar o tempo ou voltar 10 minutos?"
+    },
+    {
+      "id": "wyr_pt_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere um celular com bateria infinita ou dados ilimitados em qualquer lugar?"
+    },
+    {
+      "id": "wyr_pt_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere ser famoso pelo talento ou pela aparência?"
+    },
+    {
+      "id": "wyr_pt_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere viajar de graça ou comer de graça em qualquer restaurante?"
+    },
+    {
+      "id": "wyr_pt_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere estar sempre um pouco atrasado ou sempre muito adiantado?"
+    },
+    {
+      "id": "wyr_pt_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere ouvir só um artista por um ano ou um gênero para sempre?"
+    },
+    {
+      "id": "wyr_pt_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere ter memória perfeita ou poder esquecer o que quiser?"
+    },
+    {
+      "id": "wyr_pt_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere ser incrível cozinhando ou falando em público?"
+    },
+    {
+      "id": "wyr_pt_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere viver sem café ou sem sobremesas?"
+    },
+    {
+      "id": "wyr_pt_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere subir escadas para sempre ou nunca mais correr?"
+    },
+    {
+      "id": "wyr_pt_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere uma casa pequena com quintal grande ou uma casa grande sem quintal?"
+    },
+    {
+      "id": "wyr_pt_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere nunca pegar trânsito ou nunca pegar fila?"
+    },
+    {
+      "id": "wyr_pt_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere clima perfeito sempre ou sono perfeito sempre?"
+    },
+    {
+      "id": "wyr_pt_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere ser o mais inteligente da sala ou o mais engraçado?"
+    },
+    {
+      "id": "wyr_pt_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere perder o celular ou a carteira?"
+    },
+    {
+      "id": "wyr_pt_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Você prefere ler mentes ou ver o futuro?"
+    },
+    {
+      "id": "wyr_pt_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere um botão de voltar o dia ou de avançar?"
+    },
+    {
+      "id": "wyr_pt_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere dar uma festa grande ou planejar uma viagem tranquila?"
+    },
+    {
+      "id": "wyr_pt_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere passagens grátis ou hotéis grátis?"
+    },
+    {
+      "id": "wyr_pt_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere um ano de folga pago ou a promoção que você quer?"
+    },
+    {
+      "id": "wyr_pt_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere cantar lindo ou tocar qualquer instrumento?"
+    },
+    {
+      "id": "wyr_pt_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere acertar sempre a primeira impressão ou sempre ganhar segunda chance?"
+    },
+    {
+      "id": "wyr_pt_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere ser ótimo em fotos ou em vídeos?"
+    },
+    {
+      "id": "wyr_pt_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere ter sempre snacks ou sempre café?"
+    },
+    {
+      "id": "wyr_pt_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere fazer 10 minutos de treino por dia ou um treino longo por semana?"
+    },
+    {
+      "id": "wyr_pt_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere falar todos os idiomas ou entender animais?"
+    },
+    {
+      "id": "wyr_pt_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere tirar muitas fotos ou viver o momento totalmente?"
+    },
+    {
+      "id": "wyr_pt_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere nunca precisar limpar ou nunca precisar cozinhar?"
+    },
+    {
+      "id": "wyr_pt_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere um melhor amigo garantido ou uma alma gêmea garantida?"
+    },
+    {
+      "id": "wyr_pt_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere viver na cidade dos sonhos ou perto da família?"
+    },
+    {
+      "id": "wyr_pt_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere ganhar sempre nos jogos ou ser bom em aprender coisas novas?"
+    },
+    {
+      "id": "wyr_pt_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere nunca perder um prazo ou nunca sentir estresse?"
+    },
+    {
+      "id": "wyr_pt_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere ser quem planeja ou quem vai no fluxo?"
+    },
+    {
+      "id": "wyr_pt_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere um guarda-roupa minimalista ou roupas ilimitadas?"
+    },
+    {
+      "id": "wyr_pt_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere poder se teleportar uma vez por dia ou voar dez minutos por dia?"
+    },
+    {
+      "id": "wyr_pt_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Você prefere comer só doce ou só salgado?"
+    },
+    {
+      "id": "wyr_pt_091",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Você prefere um romance curto e intenso ou um amor lento e estável?"
+    },
+    {
+      "id": "wyr_pt_092",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Você prefere mandar a primeira mensagem ou fazer a primeira ligação?"
+    },
+    {
+      "id": "wyr_pt_093",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Você prefere que seu parceiro seja seu melhor amigo ou seu maior fã?"
+    },
+    {
+      "id": "wyr_pt_094",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Você prefere um encontro sem celular ou sem falar?"
+    },
+    {
+      "id": "wyr_pt_095",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Você prefere compartilhar uma playlist ou um calendário?"
+    },
+    {
+      "id": "wyr_pt_096",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Você prefere sempre saber o que alguém sente ou o que quer?"
+    },
+    {
+      "id": "wyr_pt_097",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Você prefere ser lembrado pela gentileza ou pela ambição?"
+    },
+    {
+      "id": "wyr_pt_098",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Você prefere trabalhar de casa para sempre ou trabalhar ao ar livre para sempre?"
+    },
+    {
+      "id": "wyr_pt_099",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Você prefere viver sem espelhos ou sem fotos?"
+    },
+    {
+      "id": "wyr_pt_100",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Você prefere ser super espontâneo ou super planejado?"
+    }
+  ]
+}

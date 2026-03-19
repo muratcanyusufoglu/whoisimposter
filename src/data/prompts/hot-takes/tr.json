@@ -3,45 +3,845 @@
   "locale": "tr",
   "version": 1,
   "prompts": [
-    { "id": "ht_tr_001", "intensity": "mild", "minAge": 4, "text": "Ananaslı pizza olmalı." },
-    { "id": "ht_tr_002", "intensity": "mild", "minAge": 4, "text": "Kahvaltı günün en abartılan öğünüdür." },
-    { "id": "ht_tr_003", "intensity": "mild", "minAge": 4, "text": "Kediler, köpeklerden daha iyi evcil hayvandır." },
-    { "id": "ht_tr_004", "intensity": "mild", "minAge": 4, "text": "Sinemalar bitiyor ve bu aslında iyi bir şey." },
-    { "id": "ht_tr_005", "intensity": "mild", "minAge": 4, "text": "Mesaj atmak, aramaktan daha iyidir." },
-    { "id": "ht_tr_006", "intensity": "mild", "minAge": 4, "text": "Sosyal medya faydadan çok zarar verdi." },
-    { "id": "ht_tr_007", "intensity": "mild", "minAge": 4, "text": "Evden çalışmak ofise gitmekten daha iyidir." },
-    { "id": "ht_tr_008", "intensity": "mild", "minAge": 4, "text": "Dizi izlemiyorum diyenler en sıkıcı insanlardır." },
-    { "id": "ht_tr_009", "intensity": "mild", "minAge": 4, "text": "Erken gelmek de geç kalmak kadar kabadır." },
-    { "id": "ht_tr_010", "intensity": "mild", "minAge": 4, "text": "Soğuk pizza en iyi pizzadır." },
-    { "id": "ht_tr_011", "intensity": "mild", "minAge": 4, "text": "Çevrimiçi arkadaşlıklar, yüz yüze arkadaşlıklar kadar anlamlı olabilir." },
-    { "id": "ht_tr_012", "intensity": "mild", "minAge": 4, "text": "Hafta sonu 3 gün olmalı; itiraz eden çok çalışıyor demektir." },
-    { "id": "ht_tr_013", "intensity": "mild", "minAge": 4, "text": "Fast food çoğu lüks restorandan daha iyidir." },
-    { "id": "ht_tr_014", "intensity": "mild", "minAge": 4, "text": "İçe kapanıklar, dışa dönüklerden daha ilginçtir." },
-    { "id": "ht_tr_015", "intensity": "mild", "minAge": 4, "text": "Şekerleme yapmak toplumun yeterince değer vermediği bir süper güçtür." },
-    { "id": "ht_tr_016", "intensity": "mild", "minAge": 4, "text": "Sakin bir ev akşamı, şık bir restorandan daha romantiktir." },
-    { "id": "ht_tr_017", "intensity": "mild", "minAge": 4, "text": "En iyi arkadaşlıklar fazla bakım istemez." },
-    { "id": "ht_tr_018", "intensity": "mild", "minAge": 4, "text": "Kitap okumayı kişilik özelliği gibi pazarlamak aşırı abartılıdır." },
-    { "id": "ht_tr_019", "intensity": "mild", "minAge": 4, "text": "Neredeyse hiç kullanmadığın spor salonu üyeliği bile psikolojik olarak değerlidir." },
-    { "id": "ht_tr_020", "intensity": "mild", "minAge": 4, "text": "İstenmeyen tavsiye genelde tavsiye vereni anlatır." },
-    { "id": "ht_tr_021", "intensity": "medium", "minAge": 13, "text": "Birinin Spotify listesinden onunla ilgili her şeyi anlayabilirsin." },
-    { "id": "ht_tr_022", "intensity": "medium", "minAge": 13, "text": "Ghostlamak bazen bir ilişkiyi bitirmenin en nazik yoludur." },
-    { "id": "ht_tr_023", "intensity": "medium", "minAge": 13, "text": "Herkesin bir tipi vardır; yokmuş gibi yapmak kendini kandırmaktır." },
-    { "id": "ht_tr_024", "intensity": "medium", "minAge": 13, "text": "Burçlar, kişilik testleri kadar geçerlidir." },
-    { "id": "ht_tr_025", "intensity": "medium", "minAge": 13, "text": "Sürekli geç kalanlar zamanına saygı duymuyordur — bu kadar basit." },
-    { "id": "ht_tr_026", "intensity": "medium", "minAge": 13, "text": "Planları hep iptal eden kişi gruptaki en akıllıdır." },
-    { "id": "ht_tr_027", "intensity": "medium", "minAge": 13, "text": "İlk izlenim çoğu zaman yanlıştır." },
-    { "id": "ht_tr_028", "intensity": "medium", "minAge": 13, "text": "Mizah, dış görünüşten daha çekicidir; aksini söyleyen yeterince komik insan tanımamıştır." },
-    { "id": "ht_tr_029", "intensity": "medium", "minAge": 13, "text": "Çoğu seyahat fotoğrafı, gezenden çok başkaları içindir." },
-    { "id": "ht_tr_030", "intensity": "medium", "minAge": 13, "text": "Bekar olmak küçümseniyor; çoğu insan korkudan ilişkiye giriyor." },
-    { "id": "ht_tr_031", "intensity": "spicy", "minAge": 18, "text": "Uzun vadeli ilişkiler gerçek aşktan çok uyum ve alışkanlık üzerine kuruludur." },
-    { "id": "ht_tr_032", "intensity": "spicy", "minAge": 18, "text": "Romantik olarak ilgilendiğin biriyle sadece arkadaş kalmak neredeyse imkansızdır." },
-    { "id": "ht_tr_033", "intensity": "spicy", "minAge": 18, "text": "İlişkilerde 'oyun oynamadım' diyen yalan söylüyordur — herkes oyun oynar." },
-    { "id": "ht_tr_034", "intensity": "spicy", "minAge": 18, "text": "Bir ilişkide hiç kıskançlık olmaması aslında kırmızı bayraktır." },
-    { "id": "ht_tr_035", "intensity": "spicy", "minAge": 18, "text": "Bir kez aldatan, aldatandır." },
-    { "id": "ht_tr_036", "intensity": "spicy", "minAge": 18, "text": "İlk buluşmadan önce birinin tüm sosyal medyasını kurcalamak normaldir." },
-    { "id": "ht_tr_037", "intensity": "spicy", "minAge": 18, "text": "Konuşma evresi iki haftayı geçmemeli — sonrası sadece vakit kaybıdır." },
-    { "id": "ht_tr_038", "intensity": "spicy", "minAge": 18, "text": "Çoğu insan yalnız kalmaktan korktuğu için ilişkiye girer, sevgi için değil." },
-    { "id": "ht_tr_039", "intensity": "spicy", "minAge": 18, "text": "Biriyle nasıl kavga ettiğin, iyi günlerde nasıl hissettiğinden daha açıklayıcıdır." },
-    { "id": "ht_tr_040", "intensity": "spicy", "minAge": 18, "text": "Eski sevgililer gerçek anlamda sadece arkadaş olamaz — birinde hep bir şey kalır." }
+    {
+      "id": "ht_tr_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ananaslı pizza olmalı."
+    },
+    {
+      "id": "ht_tr_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kahvaltı günün en abartılan öğünüdür."
+    },
+    {
+      "id": "ht_tr_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kediler, köpeklerden daha iyi evcil hayvandır."
+    },
+    {
+      "id": "ht_tr_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sinemalar bitiyor ve bu aslında iyi bir şey."
+    },
+    {
+      "id": "ht_tr_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mesaj atmak, aramaktan daha iyidir."
+    },
+    {
+      "id": "ht_tr_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sosyal medya faydadan çok zarar verdi."
+    },
+    {
+      "id": "ht_tr_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Evden çalışmak ofise gitmekten daha iyidir."
+    },
+    {
+      "id": "ht_tr_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Dizi izlemiyorum diyenler en sıkıcı insanlardır."
+    },
+    {
+      "id": "ht_tr_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Erken gelmek de geç kalmak kadar kabadır."
+    },
+    {
+      "id": "ht_tr_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Soğuk pizza en iyi pizzadır."
+    },
+    {
+      "id": "ht_tr_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Çevrimiçi arkadaşlıklar, yüz yüze arkadaşlıklar kadar anlamlı olabilir."
+    },
+    {
+      "id": "ht_tr_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hafta sonu 3 gün olmalı; itiraz eden çok çalışıyor demektir."
+    },
+    {
+      "id": "ht_tr_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fast food çoğu lüks restorandan daha iyidir."
+    },
+    {
+      "id": "ht_tr_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "İçe kapanıklar, dışa dönüklerden daha ilginçtir."
+    },
+    {
+      "id": "ht_tr_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Şekerleme yapmak toplumun yeterince değer vermediği bir süper güçtür."
+    },
+    {
+      "id": "ht_tr_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sakin bir ev akşamı, şık bir restorandan daha romantiktir."
+    },
+    {
+      "id": "ht_tr_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En iyi arkadaşlıklar fazla bakım istemez."
+    },
+    {
+      "id": "ht_tr_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kitap okumayı kişilik özelliği gibi pazarlamak aşırı abartılıdır."
+    },
+    {
+      "id": "ht_tr_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Neredeyse hiç kullanmadığın spor salonu üyeliği bile psikolojik olarak değerlidir."
+    },
+    {
+      "id": "ht_tr_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "İstenmeyen tavsiye genelde tavsiye vereni anlatır."
+    },
+    {
+      "id": "ht_tr_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Birinin Spotify listesinden onunla ilgili her şeyi anlayabilirsin."
+    },
+    {
+      "id": "ht_tr_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ghostlamak bazen bir ilişkiyi bitirmenin en nazik yoludur."
+    },
+    {
+      "id": "ht_tr_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Herkesin bir tipi vardır; yokmuş gibi yapmak kendini kandırmaktır."
+    },
+    {
+      "id": "ht_tr_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Burçlar, kişilik testleri kadar geçerlidir."
+    },
+    {
+      "id": "ht_tr_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sürekli geç kalanlar zamanına saygı duymuyordur — bu kadar basit."
+    },
+    {
+      "id": "ht_tr_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Planları hep iptal eden kişi gruptaki en akıllıdır."
+    },
+    {
+      "id": "ht_tr_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "İlk izlenim çoğu zaman yanlıştır."
+    },
+    {
+      "id": "ht_tr_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mizah, dış görünüşten daha çekicidir; aksini söyleyen yeterince komik insan tanımamıştır."
+    },
+    {
+      "id": "ht_tr_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Çoğu seyahat fotoğrafı, gezenden çok başkaları içindir."
+    },
+    {
+      "id": "ht_tr_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Bekar olmak küçümseniyor; çoğu insan korkudan ilişkiye giriyor."
+    },
+    {
+      "id": "ht_tr_031",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Uzun vadeli ilişkiler gerçek aşktan çok uyum ve alışkanlık üzerine kuruludur."
+    },
+    {
+      "id": "ht_tr_032",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Romantik olarak ilgilendiğin biriyle sadece arkadaş kalmak neredeyse imkansızdır."
+    },
+    {
+      "id": "ht_tr_033",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "İlişkilerde 'oyun oynamadım' diyen yalan söylüyordur — herkes oyun oynar."
+    },
+    {
+      "id": "ht_tr_034",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Bir ilişkide hiç kıskançlık olmaması aslında kırmızı bayraktır."
+    },
+    {
+      "id": "ht_tr_035",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Bir kez aldatan, aldatandır."
+    },
+    {
+      "id": "ht_tr_036",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "İlk buluşmadan önce birinin tüm sosyal medyasını kurcalamak normaldir."
+    },
+    {
+      "id": "ht_tr_037",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Konuşma evresi iki haftayı geçmemeli — sonrası sadece vakit kaybıdır."
+    },
+    {
+      "id": "ht_tr_038",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Çoğu insan yalnız kalmaktan korktuğu için ilişkiye girer, sevgi için değil."
+    },
+    {
+      "id": "ht_tr_039",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Biriyle nasıl kavga ettiğin, iyi günlerde nasıl hissettiğinden daha açıklayıcıdır."
+    },
+    {
+      "id": "ht_tr_040",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Eski sevgililer gerçek anlamda sadece arkadaş olamaz — birinde hep bir şey kalır."
+    },
+    {
+      "id": "ht_tr_041",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Çay kahveden her zaman daha iyidir."
+    },
+    {
+      "id": "ht_tr_042",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Simit, kruvasandan daha tatmin edicidir."
+    },
+    {
+      "id": "ht_tr_043",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Dolmuşla gitmek, taksiden daha pratiktir."
+    },
+    {
+      "id": "ht_tr_044",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kışın soğuk duş bile yazdan daha iyi hissettirir."
+    },
+    {
+      "id": "ht_tr_045",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kahvaltı tabağı pahalı bir tabak atıştırmalıktan ibarettir."
+    },
+    {
+      "id": "ht_tr_046",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Dizi izlemek film izlemekten daha keyiflidir."
+    },
+    {
+      "id": "ht_tr_047",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Yolculukta cam kenarı değil, koridor koltuğu daha iyidir."
+    },
+    {
+      "id": "ht_tr_048",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Gazlı su, suyun bozulmuş halidir."
+    },
+    {
+      "id": "ht_tr_049",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Evde yapılan tost, dışarıdaki çoğu tosttan iyidir."
+    },
+    {
+      "id": "ht_tr_050",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Gece yürüyüşü gündüz yürüyüşünden daha huzurludur."
+    },
+    {
+      "id": "ht_tr_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "AVM'de dolaşmak vakit kaybıdır."
+    },
+    {
+      "id": "ht_tr_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sosyal medyada hikâye bakmak, yazı okumaktan daha yorucudur."
+    },
+    {
+      "id": "ht_tr_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Patates kızartması her yemeği kurtarır."
+    },
+    {
+      "id": "ht_tr_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuru fasulye pilav, her lüks yemekten daha iyidir."
+    },
+    {
+      "id": "ht_tr_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Küçük şehirler büyük şehirlerden daha yaşanabilirdir."
+    },
+    {
+      "id": "ht_tr_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pijama günü ciddiye alınmalıdır."
+    },
+    {
+      "id": "ht_tr_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Konser videosu çekmek anı kaçırmaktır."
+    },
+    {
+      "id": "ht_tr_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kitap kokusu güzel ama e-kitap daha pratiktir."
+    },
+    {
+      "id": "ht_tr_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Baharatlı yiyecekler her şeyi güzelleştirir."
+    },
+    {
+      "id": "ht_tr_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Şemsiyeden çok kapüşon işe yarar."
+    },
+    {
+      "id": "ht_tr_061",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sade kahve en doğru tercihtir."
+    },
+    {
+      "id": "ht_tr_062",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mesaja bir gün cevap vermemek net bir görmezden gelmedir."
+    },
+    {
+      "id": "ht_tr_063",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Arkadaşının şifresini bilmek güven göstergesidir."
+    },
+    {
+      "id": "ht_tr_064",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Her şeyini story'de paylaşmak samimiyet değil, gösteriştir."
+    },
+    {
+      "id": "ht_tr_065",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "İnsanlar çoğu zaman mutlu olmaktansa haklı olmayı ister."
+    },
+    {
+      "id": "ht_tr_066",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Planı son dakika iptal etmek, geç kalmaktan daha kötüdür."
+    },
+    {
+      "id": "ht_tr_067",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sürekli 'yoğunum' diyenler aslında dağınıktır."
+    },
+    {
+      "id": "ht_tr_068",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "İlişkide konum paylaşımı normal olmalıdır."
+    },
+    {
+      "id": "ht_tr_069",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kalabalık grup tatilleri arkadaşlıkları zorlar."
+    },
+    {
+      "id": "ht_tr_070",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "İlişkiyi gizlemek güvensizliktir."
+    },
+    {
+      "id": "ht_tr_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zamanında gelmek saygıdır, tartışmaya kapalıdır."
+    },
+    {
+      "id": "ht_tr_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Küçük sohbetten nefret edenler sandıkları kadar derin değildir."
+    },
+    {
+      "id": "ht_tr_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Çoğu özür, pazarlık girişimidir."
+    },
+    {
+      "id": "ht_tr_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sessiz kalan arkadaşlar grupta en ilginç olanlardır."
+    },
+    {
+      "id": "ht_tr_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En iyi ilişkiler düşük beklentiyle kuruludur."
+    },
+    {
+      "id": "ht_tr_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Gürültülü mekanlar tasarım hatasıdır."
+    },
+    {
+      "id": "ht_tr_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "'Drama sevmem' diyenler dramayı başlatır."
+    },
+    {
+      "id": "ht_tr_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "İlk buluşma bir saatten uzun olmamalıdır."
+    },
+    {
+      "id": "ht_tr_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kahve siparişinden insanın karakteri anlaşılır."
+    },
+    {
+      "id": "ht_tr_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "İlişki sırasında kaybolan arkadaşlar bencildir."
+    },
+    {
+      "id": "ht_tr_081",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Tatil yapmayanlar hayatı yönetemiyordur."
+    },
+    {
+      "id": "ht_tr_082",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Çoğu insan ilişkilere yorulduğu için razı olur."
+    },
+    {
+      "id": "ht_tr_083",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kıskançlık aşk değil, ego meselesidir."
+    },
+    {
+      "id": "ht_tr_084",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Bir kez telefon karıştıran tekrar yapar."
+    },
+    {
+      "id": "ht_tr_085",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Flört aşaması, bağlanma korkusunun kılıfıdır."
+    },
+    {
+      "id": "ht_tr_086",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "İnsanlar itiraf ettiklerinden daha fazla aldatmayı affeder."
+    },
+    {
+      "id": "ht_tr_087",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En özgüvenli görünenler en kırılgan olanlardır."
+    },
+    {
+      "id": "ht_tr_088",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aslında 'çok meşgul' değilsin, öncelik değilsin."
+    },
+    {
+      "id": "ht_tr_089",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Çoğu hoşlanma ilgiye duyulan açlıktır."
+    },
+    {
+      "id": "ht_tr_090",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kimya biraz da doğru zamandır."
+    },
+    {
+      "id": "ht_tr_091",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Soğuk pizza sıcak pizzadan daha iyidir."
+    },
+    {
+      "id": "ht_tr_092",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fragman izlemek film keyfini bozar."
+    },
+    {
+      "id": "ht_tr_093",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Grup sohbetleri varsayılan olarak sessizde olmalı."
+    },
+    {
+      "id": "ht_tr_094",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Brunch, pahalı yumurta için bahane."
+    },
+    {
+      "id": "ht_tr_095",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Çorapla sandalet giymek gayet normal."
+    },
+    {
+      "id": "ht_tr_096",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Yağmurlu günler güneşli günlerden daha rahatlatıcı."
+    },
+    {
+      "id": "ht_tr_097",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Karaoke, kötü söylendiğinde daha eğlenceli."
+    },
+    {
+      "id": "ht_tr_098",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Erken uyumak küçümseniyor."
+    },
+    {
+      "id": "ht_tr_099",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Telefonlarda kişiye özel “rahatsız etme” olmalı."
+    },
+    {
+      "id": "ht_tr_100",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Uzun sesli mesajlar saygısızlık."
+    },
+    {
+      "id": "ht_tr_101",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kütüphaneler şehirdeki en underrated yerler."
+    },
+    {
+      "id": "ht_tr_102",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Partilerde kutu oyunları video oyunlarından daha iyi."
+    },
+    {
+      "id": "ht_tr_103",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kağıt kitap, e-kitaptan daha iyi."
+    },
+    {
+      "id": "ht_tr_104",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Konserde en iyi yer, arkada rahatça dans edilen yer."
+    },
+    {
+      "id": "ht_tr_105",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Son dilim asla ortada bırakılmamalı."
+    },
+    {
+      "id": "ht_tr_106",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Yemek yapmayı öğrenmek araba kullanmaktan daha faydalı."
+    },
+    {
+      "id": "ht_tr_107",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Dağlar plajlardan daha güzel."
+    },
+    {
+      "id": "ht_tr_108",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Küçük düğünler büyük düğünlerden daha eğlenceli."
+    },
+    {
+      "id": "ht_tr_109",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Çiftler bazen ayrı tatile çıkmalı."
+    },
+    {
+      "id": "ht_tr_110",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Son dakika iptal eden arkadaş bir sonraki buluşmada atıştırmalık ısmarlamalı."
+    },
+    {
+      "id": "ht_tr_111",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Gece atıştırması kahvaltıdan daha iyidir."
+    },
+    {
+      "id": "ht_tr_112",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sosyal medyada beğeniler görünmemeli."
+    },
+    {
+      "id": "ht_tr_113",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Toplu alanda hoparlörle konuşmak yasaklanmalı."
+    },
+    {
+      "id": "ht_tr_114",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Meal prep abartılıyor."
+    },
+    {
+      "id": "ht_tr_115",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En iyi fotoğraflar spontane olanlardır."
+    },
+    {
+      "id": "ht_tr_116",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Pahalı sneaker'lar para israfı."
+    },
+    {
+      "id": "ht_tr_117",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hafta sonu üç gün olmalı."
+    },
+    {
+      "id": "ht_tr_118",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sürpriz ziyaretler düşüncesizce."
+    },
+    {
+      "id": "ht_tr_119",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ananas suyu her smoothie'ye yakışır."
+    },
+    {
+      "id": "ht_tr_120",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Notları el yazısıyla almak klavyeden iyidir."
+    },
+    {
+      "id": "ht_tr_121",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Online flört insanları daha seçici yaptı."
+    },
+    {
+      "id": "ht_tr_122",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Yalnız yaşamak insanı daha yaratıcı yapar."
+    },
+    {
+      "id": "ht_tr_123",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "“Hot take”lerin çoğu aslında sağduyu."
+    },
+    {
+      "id": "ht_tr_124",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Herkes yanında yeniden kullanılabilir bardak taşımalı."
+    },
+    {
+      "id": "ht_tr_125",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sokak yemekleri restoran yemeklerinden daha iyi."
+    },
+    {
+      "id": "ht_tr_126",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "“Görüldü” işareti çözdüğünden çok drama çıkarır."
+    },
+    {
+      "id": "ht_tr_127",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ortak çalma listesi ilişki testidir."
+    },
+    {
+      "id": "ht_tr_128",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Çiftlerin ayrı battaniye kullanması daha sağlıklı."
+    },
+    {
+      "id": "ht_tr_129",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Bir seyahatin en güzel kısmı planlamasıdır."
+    },
+    {
+      "id": "ht_tr_130",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Spor salonunda kulaklık şart."
+    },
+    {
+      "id": "ht_tr_131",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Baristalara daha fazla bahşiş verilmeli."
+    },
+    {
+      "id": "ht_tr_132",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Dövmeler her iş yerinde serbest olmalı."
+    },
+    {
+      "id": "ht_tr_133",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "İnsanların daha az bildirime ihtiyacı var, daha fazlasına değil."
+    },
+    {
+      "id": "ht_tr_134",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Evcil hayvanlar daha fazla kafeye alınmalı."
+    },
+    {
+      "id": "ht_tr_135",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Resmi tatiller halk oylamasıyla belirlenmeli."
+    },
+    {
+      "id": "ht_tr_136",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Herkes temel ilk yardım öğrenmeli."
+    },
+    {
+      "id": "ht_tr_137",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Şık restoranlarda çocuk menüsü olmalı."
+    },
+    {
+      "id": "ht_tr_138",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Sinemalar arayı geri getirmeli."
+    },
+    {
+      "id": "ht_tr_139",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Okundu bilgisi her uygulamada opsiyonel olmalı."
+    },
+    {
+      "id": "ht_tr_140",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Geç kalmak bir tercih, karakter değil."
+    }
   ]
 }

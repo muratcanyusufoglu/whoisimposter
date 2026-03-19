@@ -1,0 +1,607 @@
+{
+  "gameId": "paranoia",
+  "locale": "nl",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "par_nl_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie kan het beste de weg uitleggen zonder kaart?"
+    },
+    {
+      "id": "par_nl_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou als eerste een zwerfdier adopteren?"
+    },
+    {
+      "id": "par_nl_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou een nieuwe hobby beginnen en volhouden?"
+    },
+    {
+      "id": "par_nl_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou de beste teamcaptain zijn?"
+    },
+    {
+      "id": "par_nl_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou een bakwedstrijd winnen?"
+    },
+    {
+      "id": "par_nl_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou in een reis het snelst vrienden maken met vreemden?"
+    },
+    {
+      "id": "par_nl_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou als eerste een verrassingsfeest plannen?"
+    },
+    {
+      "id": "par_nl_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou een week zonder telefoon overleven?"
+    },
+    {
+      "id": "par_nl_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie kan het beste met geld omgaan?"
+    },
+    {
+      "id": "par_nl_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou zijn paraplu vergeten op een regenachtige dag?"
+    },
+    {
+      "id": "par_nl_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou als eerste dansen op een bruiloft?"
+    },
+    {
+      "id": "par_nl_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie heeft de beste muzieksmaak?"
+    },
+    {
+      "id": "par_nl_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou verdwalen, zelfs met GPS?"
+    },
+    {
+      "id": "par_nl_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie kan het beste geheimen bewaren?"
+    },
+    {
+      "id": "par_nl_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou als eerste een buur helpen?"
+    },
+    {
+      "id": "par_nl_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou het groepsschema organiseren?"
+    },
+    {
+      "id": "par_nl_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou een hele serie in één dag bingen?"
+    },
+    {
+      "id": "par_nl_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou het beste koken voor een groep?"
+    },
+    {
+      "id": "par_nl_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou de meeste foto's maken op reis?"
+    },
+    {
+      "id": "par_nl_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou als laatste een feest verlaten?"
+    },
+    {
+      "id": "par_nl_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou een groepsapp wekenlang ghosten?"
+    },
+    {
+      "id": "par_nl_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou plannen afzeggen met het zwakste excuus?"
+    },
+    {
+      "id": "par_nl_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou één bericht urenlang overdenken?"
+    },
+    {
+      "id": "par_nl_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou het meeste uitgeven aan een eerste date?"
+    },
+    {
+      "id": "par_nl_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou het snelst verliefd worden?"
+    },
+    {
+      "id": "par_nl_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou een crush het langst geheim houden?"
+    },
+    {
+      "id": "par_nl_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou per ongeluk een roddel starten?"
+    },
+    {
+      "id": "par_nl_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou als eerste iets posten na een break-up?"
+    },
+    {
+      "id": "par_nl_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou daten met iemand totaal anders dan zijn of haar type?"
+    },
+    {
+      "id": "par_nl_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou bevriend blijven met een ex?"
+    },
+    {
+      "id": "par_nl_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou het meest competitief zijn tijdens spellen?"
+    },
+    {
+      "id": "par_nl_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou het meest flirten op een feest?"
+    },
+    {
+      "id": "par_nl_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou zonder iets te zeggen van carrière wisselen?"
+    },
+    {
+      "id": "par_nl_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou het meest geneigd zijn om naar een ander land te verhuizen?"
+    },
+    {
+      "id": "par_nl_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou te veel inpakken voor een weekendtrip?"
+    },
+    {
+      "id": "par_nl_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou een uur te vroeg arriveren?"
+    },
+    {
+      "id": "par_nl_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou een bericht lezen en toch niet antwoorden?"
+    },
+    {
+      "id": "par_nl_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou screenshots bewaren «voor het geval dat»?"
+    },
+    {
+      "id": "par_nl_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou de meest dramatische film kiezen?"
+    },
+    {
+      "id": "par_nl_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou het meest koppig zijn in een discussie?"
+    },
+    {
+      "id": "par_nl_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wie zou de meest chaotische datinggeschiedenis hebben?"
+    },
+    {
+      "id": "par_nl_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wie zou de meeste kans hebben op een geheime bewonderaar?"
+    },
+    {
+      "id": "par_nl_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wie zou als eerste «ik hou van je» zeggen?"
+    },
+    {
+      "id": "par_nl_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wie zou blijven flirten terwijl het overduidelijk is?"
+    },
+    {
+      "id": "par_nl_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wie zou het meest geneigd zijn om de telefoon van een partner te checken?"
+    },
+    {
+      "id": "par_nl_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wie zou het snelst een rebound hebben?"
+    },
+    {
+      "id": "par_nl_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wie zou het meest jaloers zijn in een relatie?"
+    },
+    {
+      "id": "par_nl_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wie zou twee mensen tegelijk daten?"
+    },
+    {
+      "id": "par_nl_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wie zou een situationship verbergen voor vrienden?"
+    },
+    {
+      "id": "par_nl_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wie zou harten breken zonder het te merken?"
+    },
+    {
+      "id": "par_nl_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou zich vrijwillig melden om een groepsproject te leiden?"
+    },
+    {
+      "id": "par_nl_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou het langst zonder telefoon kunnen?"
+    },
+    {
+      "id": "par_nl_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou als eerste dansen op een feestje?"
+    },
+    {
+      "id": "par_nl_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou zelfs verdwalen tijdens een simpele wandeling?"
+    },
+    {
+      "id": "par_nl_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou ieders koffieorder onthouden?"
+    },
+    {
+      "id": "par_nl_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou snacks meenemen voor de hele groep?"
+    },
+    {
+      "id": "par_nl_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou een gesprek beginnen met een vreemde?"
+    },
+    {
+      "id": "par_nl_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou het beste zijn in iedereen kalmeren?"
+    },
+    {
+      "id": "par_nl_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou het snelst een puzzel afmaken?"
+    },
+    {
+      "id": "par_nl_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou te laat komen ondanks reminders?"
+    },
+    {
+      "id": "par_nl_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou een gedetailleerd reisplan maken?"
+    },
+    {
+      "id": "par_nl_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou een kookwedstrijd winnen?"
+    },
+    {
+      "id": "par_nl_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou de beste fotospots kennen?"
+    },
+    {
+      "id": "par_nl_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou het meest waarschijnlijk een huisdier adopteren?"
+    },
+    {
+      "id": "par_nl_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou het snelst verbranden in de zon?"
+    },
+    {
+      "id": "par_nl_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou zijn portemonnee thuis vergeten?"
+    },
+    {
+      "id": "par_nl_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou vrienden blijven met een ex?"
+    },
+    {
+      "id": "par_nl_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou al zijn geld uitgeven aan reizen?"
+    },
+    {
+      "id": "par_nl_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou per ongeluk een verrassing verklappen?"
+    },
+    {
+      "id": "par_nl_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie zou het beste een geheim kunnen bewaren?"
+    },
+    {
+      "id": "par_nl_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou altijd meteen terugapp’en?"
+    },
+    {
+      "id": "par_nl_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou viraal gaan om iets stoms?"
+    },
+    {
+      "id": "par_nl_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou beroemd worden in zijn eigen stad?"
+    },
+    {
+      "id": "par_nl_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou het risico nemen om naar het buitenland te verhuizen?"
+    },
+    {
+      "id": "par_nl_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou zijn baan opzeggen om een droom na te jagen?"
+    },
+    {
+      "id": "par_nl_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou een hobby omzetten in een business?"
+    },
+    {
+      "id": "par_nl_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou betrapt worden op dagdromen in een meeting?"
+    },
+    {
+      "id": "par_nl_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou zich uit een boete praten?"
+    },
+    {
+      "id": "par_nl_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou twee keer in een week zijn sleutels kwijtraken?"
+    },
+    {
+      "id": "par_nl_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou per ongeluk een gerucht starten?"
+    },
+    {
+      "id": "par_nl_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou de meest dramatische reacties hebben?"
+    },
+    {
+      "id": "par_nl_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou flirten om een tafel te krijgen?"
+    },
+    {
+      "id": "par_nl_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou een geheime crush in de groep hebben?"
+    },
+    {
+      "id": "par_nl_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou een date ghosten na een geweldige avond?"
+    },
+    {
+      "id": "par_nl_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou als eerste “ik hou van je” zeggen?"
+    },
+    {
+      "id": "par_nl_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou datingapps houden “voor het geval dat”?"
+    },
+    {
+      "id": "par_nl_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou stiekem van roddels houden?"
+    },
+    {
+      "id": "par_nl_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou verliefd worden tijdens een korte trip?"
+    },
+    {
+      "id": "par_nl_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou dubbel appen?"
+    },
+    {
+      "id": "par_nl_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wie zou betrapt worden terwijl hij op zijn telefoon kijkt tijdens een date?"
+    },
+    {
+      "id": "par_nl_091",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wie zou plannen last-minute afzeggen?"
+    },
+    {
+      "id": "par_nl_092",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wie zou iets lenen en vergeten terug te brengen?"
+    },
+    {
+      "id": "par_nl_093",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wie zou huilen om een reclame?"
+    },
+    {
+      "id": "par_nl_094",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wie zou een discussie beginnen om niks?"
+    },
+    {
+      "id": "par_nl_095",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wie zou een oplader voor iedereen meenemen?"
+    },
+    {
+      "id": "par_nl_096",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wie zou als laatste weggaan van het feest?"
+    },
+    {
+      "id": "par_nl_097",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wie zou alle songteksten kennen?"
+    },
+    {
+      "id": "par_nl_098",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wie zou een dutje doen in het openbaar?"
+    },
+    {
+      "id": "par_nl_099",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wie zou voor alles een groepsapp maken?"
+    },
+    {
+      "id": "par_nl_100",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wie zou de beste improvisatiespeech houden?"
+    }
+  ]
+}

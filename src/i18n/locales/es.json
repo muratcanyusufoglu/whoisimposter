@@ -206,7 +206,8 @@
     "roundsPlayed_one": "{{count}} ronda jugada",
     "roundsPlayed_other": "{{count}} rondas jugadas",
     "pts": "pts",
-    "delta": "+{{count}}"
+    "delta": "+{{count}}",
+    "final": "Puntuaciones finales"
   },
   "streak": {
     "crewStreak": "🔥 ¡Tripulación con racha de {{count}} victorias!",
@@ -473,7 +474,9 @@
     "endGame": "Terminar juego",
     "readyTitle": "¿Listo?",
     "readySubtitle": "Pasa el teléfono y ponlo en tu frente",
-    "startTimer": "¡Ya!"
+    "startTimer": "¡Ya!",
+    "emptyTitle": "No quedan palabras",
+    "emptySubtitle": "Elige otras categorías para seguir jugando."
   },
   "wordChain": {
     "title": "Cadena de palabras",

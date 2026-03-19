@@ -1,0 +1,907 @@
+{
+  "gameId": "most-likely-to",
+  "locale": "es",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "mlt_es_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que olvide cargar el móvil por la noche?"
+    },
+    {
+      "id": "mlt_es_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que lleve snacks al cine sin que nadie se lo pida?"
+    },
+    {
+      "id": "mlt_es_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que tropiece en una acera plana?"
+    },
+    {
+      "id": "mlt_es_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que saque fotos de cada comida?"
+    },
+    {
+      "id": "mlt_es_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que pierda las llaves dos veces en una semana?"
+    },
+    {
+      "id": "mlt_es_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que cree un grupo y lo ponga en silencio al minuto?"
+    },
+    {
+      "id": "mlt_es_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que se quede dormido en una peli en casa?"
+    },
+    {
+      "id": "mlt_es_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que lleve demasiada ropa para un finde?"
+    },
+    {
+      "id": "mlt_es_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que adopte a un animalito de la calle?"
+    },
+    {
+      "id": "mlt_es_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que se haga amigo del barista el primer día?"
+    },
+    {
+      "id": "mlt_es_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que siempre lleve una bolsa reutilizable?"
+    },
+    {
+      "id": "mlt_es_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que lleve un juego de mesa al picnic?"
+    },
+    {
+      "id": "mlt_es_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que se ría en el momento equivocado?"
+    },
+    {
+      "id": "mlt_es_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que se queme con el sol en un día nublado?"
+    },
+    {
+      "id": "mlt_es_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que haga playlists para todo?"
+    },
+    {
+      "id": "mlt_es_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que sea el DJ del grupo?"
+    },
+    {
+      "id": "mlt_es_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que recuerde todos los cumpleaños?"
+    },
+    {
+      "id": "mlt_es_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que se eche una siesta en cualquier sitio?"
+    },
+    {
+      "id": "mlt_es_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que pruebe cada cafetería nueva?"
+    },
+    {
+      "id": "mlt_es_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que guarde todos los recibos por si acaso?"
+    },
+    {
+      "id": "mlt_es_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que cancele a última hora y luego se sienta mal?"
+    },
+    {
+      "id": "mlt_es_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que envíe un mensaje a la persona equivocada?"
+    },
+    {
+      "id": "mlt_es_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que desaparezca de un plan y reaparezca después?"
+    },
+    {
+      "id": "mlt_es_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que convierta un hobby en un ingreso extra?"
+    },
+    {
+      "id": "mlt_es_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que se vea una serie entera en un día?"
+    },
+    {
+      "id": "mlt_es_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que discuta con desconocidos en internet?"
+    },
+    {
+      "id": "mlt_es_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que comparta de más en el chat del grupo?"
+    },
+    {
+      "id": "mlt_es_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que empiece un podcast y lo abandone?"
+    },
+    {
+      "id": "mlt_es_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que se pierda incluso con GPS?"
+    },
+    {
+      "id": "mlt_es_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que tenga 200 correos sin leer?"
+    },
+    {
+      "id": "mlt_es_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que haga capturas de pantalla de mensajes?"
+    },
+    {
+      "id": "mlt_es_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que derrame su bebida en una fiesta?"
+    },
+    {
+      "id": "mlt_es_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que lance un baile viral en el grupo?"
+    },
+    {
+      "id": "mlt_es_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que responda solo con notas de voz?"
+    },
+    {
+      "id": "mlt_es_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que reserve un finde de improvisto?"
+    },
+    {
+      "id": "mlt_es_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que guarde un secreto durante años?"
+    },
+    {
+      "id": "mlt_es_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que llegue tarde pero impecable?"
+    },
+    {
+      "id": "mlt_es_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que haga una salida dramática de una fiesta?"
+    },
+    {
+      "id": "mlt_es_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que haga una broma pesada y diga “era broma”?"
+    },
+    {
+      "id": "mlt_es_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que conozca los mejores sitios escondidos para comer?"
+    },
+    {
+      "id": "mlt_es_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que tenga un crush secreto con alguien de aquí?"
+    },
+    {
+      "id": "mlt_es_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que se meta en los DM de una celeb?"
+    },
+    {
+      "id": "mlt_es_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que se enamore de alguien que acaba de conocer?"
+    },
+    {
+      "id": "mlt_es_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que siga hablando con su ex?"
+    },
+    {
+      "id": "mlt_es_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que salga de un lío coqueteando?"
+    },
+    {
+      "id": "mlt_es_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que tenga una “situationship” sin ponerle nombre?"
+    },
+    {
+      "id": "mlt_es_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que lo pillen dando like a una foto antigua?"
+    },
+    {
+      "id": "mlt_es_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que participe en un reality de citas?"
+    },
+    {
+      "id": "mlt_es_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que salga con alguien mucho mayor o menor?"
+    },
+    {
+      "id": "mlt_es_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que tenga el perfil de citas más atrevido?"
+    },
+    {
+      "id": "mlt_es_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que olvide su propio cumpleaños?"
+    },
+    {
+      "id": "mlt_es_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que monte un negocio y le vaya bien de verdad?"
+    },
+    {
+      "id": "mlt_es_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que pierda el móvil durante una semana?"
+    },
+    {
+      "id": "mlt_es_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que adopte una mascota por impulso?"
+    },
+    {
+      "id": "mlt_es_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que organice una fiesta sorpresa perfecta?"
+    },
+    {
+      "id": "mlt_es_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que gane un concurso de karaoke?"
+    },
+    {
+      "id": "mlt_es_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que se mude a otra ciudad sin decirle a nadie?"
+    },
+    {
+      "id": "mlt_es_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que se pierda en su propio barrio?"
+    },
+    {
+      "id": "mlt_es_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que se haga famoso en internet?"
+    },
+    {
+      "id": "mlt_es_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que se quede dormido en una cita de cine?"
+    },
+    {
+      "id": "mlt_es_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que cocine un plato completo desde cero?"
+    },
+    {
+      "id": "mlt_es_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que reserve un viaje a última hora?"
+    },
+    {
+      "id": "mlt_es_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que envíe por error una captura de pantalla a la persona equivocada?"
+    },
+    {
+      "id": "mlt_es_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que lleve un diario todos los días?"
+    },
+    {
+      "id": "mlt_es_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que se libre de una multa hablando?"
+    },
+    {
+      "id": "mlt_es_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que se olvide de responder durante días?"
+    },
+    {
+      "id": "mlt_es_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que tarde una hora en elegir una playlist?"
+    },
+    {
+      "id": "mlt_es_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que se apunte a un maratón sin entrenar?"
+    },
+    {
+      "id": "mlt_es_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que se haga amigo de un desconocido en la fila?"
+    },
+    {
+      "id": "mlt_es_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que gane una noche de trivia?"
+    },
+    {
+      "id": "mlt_es_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que desaparezca de un chat grupal?"
+    },
+    {
+      "id": "mlt_es_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que tenga la habitación desordenada pero el escritorio impecable?"
+    },
+    {
+      "id": "mlt_es_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que diga que no y lo diga en serio?"
+    },
+    {
+      "id": "mlt_es_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que llegue tarde a su propia fiesta?"
+    },
+    {
+      "id": "mlt_es_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que se haga un tatuaje por impulso?"
+    },
+    {
+      "id": "mlt_es_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que tenga un talento oculto?"
+    },
+    {
+      "id": "mlt_es_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que lleve demasiado equipaje para un fin de semana?"
+    },
+    {
+      "id": "mlt_es_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que rompa la pantalla del móvil?"
+    },
+    {
+      "id": "mlt_es_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que sea la primera persona en disculparse?"
+    },
+    {
+      "id": "mlt_es_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que empiece un libro y lo termine en un día?"
+    },
+    {
+      "id": "mlt_es_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que tenga el sueño más raro?"
+    },
+    {
+      "id": "mlt_es_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que haga una playlist para su crush?"
+    },
+    {
+      "id": "mlt_es_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que evite el conflicto a toda costa?"
+    },
+    {
+      "id": "mlt_es_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que se acuerde de todas las letras?"
+    },
+    {
+      "id": "mlt_es_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que pruebe todo el menú?"
+    },
+    {
+      "id": "mlt_es_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que olvide una contraseña al instante?"
+    },
+    {
+      "id": "mlt_es_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que se convierta en persona de mañanas?"
+    },
+    {
+      "id": "mlt_es_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que se derrame el café encima?"
+    },
+    {
+      "id": "mlt_es_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que cancele planes a última hora?"
+    },
+    {
+      "id": "mlt_es_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que guarde todos los recibos?"
+    },
+    {
+      "id": "mlt_es_091",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que sea la persona más competitiva en los juegos?"
+    },
+    {
+      "id": "mlt_es_092",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que se enamore en vacaciones?"
+    },
+    {
+      "id": "mlt_es_093",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que tenga un admirador secreto?"
+    },
+    {
+      "id": "mlt_es_094",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que lo pillen hablando solo?"
+    },
+    {
+      "id": "mlt_es_095",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que llore con un anuncio?"
+    },
+    {
+      "id": "mlt_es_096",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que inicie una tendencia?"
+    },
+    {
+      "id": "mlt_es_097",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que cuente las historias más dramáticas?"
+    },
+    {
+      "id": "mlt_es_098",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que pierda el equipaje en el aeropuerto?"
+    },
+    {
+      "id": "mlt_es_099",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que cree un chat para todo?"
+    },
+    {
+      "id": "mlt_es_100",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que sea la persona que mejor da consejos?"
+    },
+    {
+      "id": "mlt_es_101",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que lleve snacks en el bolso siempre?"
+    },
+    {
+      "id": "mlt_es_102",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que se ofrezca para organizar la próxima quedada?"
+    },
+    {
+      "id": "mlt_es_103",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que tenga el calendario por colores?"
+    },
+    {
+      "id": "mlt_es_104",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que se eche una siesta en cualquier lugar?"
+    },
+    {
+      "id": "mlt_es_105",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que lleve un juego de mesa a cada plan?"
+    },
+    {
+      "id": "mlt_es_106",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que pierda las gafas de sol dos veces en un verano?"
+    },
+    {
+      "id": "mlt_es_107",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que recuerde todos los cumpleaños sin recordatorios?"
+    },
+    {
+      "id": "mlt_es_108",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que se haga colega del cajero?"
+    },
+    {
+      "id": "mlt_es_109",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que tenga 30 pestañas abiertas?"
+    },
+    {
+      "id": "mlt_es_110",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que haga fotos de cada comida?"
+    },
+    {
+      "id": "mlt_es_111",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que lleve un cargador de repuesto?"
+    },
+    {
+      "id": "mlt_es_112",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que haga una playlist para cada estado de ánimo?"
+    },
+    {
+      "id": "mlt_es_113",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que cante todas las canciones en el coche?"
+    },
+    {
+      "id": "mlt_es_114",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que se duerma en el transporte público?"
+    },
+    {
+      "id": "mlt_es_115",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que planee un outfit temático para una fiesta?"
+    },
+    {
+      "id": "mlt_es_116",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que mantenga viva una planta durante años?"
+    },
+    {
+      "id": "mlt_es_117",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que conozca un atajo en cualquier parte?"
+    },
+    {
+      "id": "mlt_es_118",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que monte un club de lectura?"
+    },
+    {
+      "id": "mlt_es_119",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que lleve snacks extra para un road trip?"
+    },
+    {
+      "id": "mlt_es_120",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "¿Quién es más probable que llegue temprano a todo?"
+    },
+    {
+      "id": "mlt_es_121",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que empiece un side hustle y lo mantenga?"
+    },
+    {
+      "id": "mlt_es_122",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que se vea una temporada entera en una noche?"
+    },
+    {
+      "id": "mlt_es_123",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que le dé demasiadas vueltas a un mensaje?"
+    },
+    {
+      "id": "mlt_es_124",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que reorganice su habitación a las 2 a. m.?"
+    },
+    {
+      "id": "mlt_es_125",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que haga un itinerario de viaje detallado?"
+    },
+    {
+      "id": "mlt_es_126",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que pruebe un baño frío y le encante?"
+    },
+    {
+      "id": "mlt_es_127",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que se vaya de road trip de improviso?"
+    },
+    {
+      "id": "mlt_es_128",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que pase horas eligiendo el regalo perfecto?"
+    },
+    {
+      "id": "mlt_es_129",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que se apunte a una clase solo por diversión?"
+    },
+    {
+      "id": "mlt_es_130",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que empiece un hobby nuevo cada mes?"
+    },
+    {
+      "id": "mlt_es_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que se enganche a un podcast al azar?"
+    },
+    {
+      "id": "mlt_es_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que se olvide de comer cuando está ocupado?"
+    },
+    {
+      "id": "mlt_es_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que gane un sorteo online?"
+    },
+    {
+      "id": "mlt_es_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que sea el fotógrafo del grupo?"
+    },
+    {
+      "id": "mlt_es_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que pida siempre lo mismo?"
+    },
+    {
+      "id": "mlt_es_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que se duerma viendo una peli en casa?"
+    },
+    {
+      "id": "mlt_es_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que haga una hoja de cálculo para un viaje?"
+    },
+    {
+      "id": "mlt_es_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que guarde entradas en una caja?"
+    },
+    {
+      "id": "mlt_es_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que mande audios en vez de escribir?"
+    },
+    {
+      "id": "mlt_es_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Quién es más probable que ensaye una conversación antes?"
+    },
+    {
+      "id": "mlt_es_141",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que haga doble mensaje después de dejarlo en visto?"
+    },
+    {
+      "id": "mlt_es_142",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que flirtee para conseguir un descuento?"
+    },
+    {
+      "id": "mlt_es_143",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que tenga apps de citas en el móvil?"
+    },
+    {
+      "id": "mlt_es_144",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que se enamore en un finde?"
+    },
+    {
+      "id": "mlt_es_145",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que dé el primer paso?"
+    },
+    {
+      "id": "mlt_es_146",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que tenga un crush secreto con un amigo?"
+    },
+    {
+      "id": "mlt_es_147",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que escriba a su ex tarde por la noche?"
+    },
+    {
+      "id": "mlt_es_148",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que vaya a una cita por la cena gratis?"
+    },
+    {
+      "id": "mlt_es_149",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que le pillen mirando el móvil en una cita?"
+    },
+    {
+      "id": "mlt_es_150",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "¿Quién es más probable que diga “te quiero” primero?"
+    }
+  ]
+}

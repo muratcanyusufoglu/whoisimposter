@@ -3,65 +3,965 @@
   "locale": "en",
   "version": 1,
   "prompts": [
-    { "id": "wyr_en_001", "intensity": "mild", "minAge": 4, "text": "Would you rather have the ability to fly or be invisible?" },
-    { "id": "wyr_en_002", "intensity": "mild", "minAge": 4, "text": "Would you rather always be 10 minutes early or always be 20 minutes late?" },
-    { "id": "wyr_en_003", "intensity": "mild", "minAge": 4, "text": "Would you rather live in a tiny house with a beautiful view or a mansion with no windows?" },
-    { "id": "wyr_en_004", "intensity": "mild", "minAge": 4, "text": "Would you rather only eat sweet food or only eat salty food for the rest of your life?" },
-    { "id": "wyr_en_005", "intensity": "mild", "minAge": 4, "text": "Would you rather be able to talk to animals or speak every human language?" },
-    { "id": "wyr_en_006", "intensity": "mild", "minAge": 4, "text": "Would you rather have a pause button for life or a rewind button?" },
-    { "id": "wyr_en_007", "intensity": "mild", "minAge": 4, "text": "Would you rather always know what time it is or always know where you are?" },
-    { "id": "wyr_en_008", "intensity": "mild", "minAge": 4, "text": "Would you rather have unlimited money with no friends or be broke with an amazing social life?" },
-    { "id": "wyr_en_009", "intensity": "mild", "minAge": 4, "text": "Would you rather read minds or see the future?" },
-    { "id": "wyr_en_010", "intensity": "mild", "minAge": 4, "text": "Would you rather fight 100 duck-sized horses or one horse-sized duck?" },
-    { "id": "wyr_en_011", "intensity": "mild", "minAge": 4, "text": "Would you rather always be cold or always be hot?" },
-    { "id": "wyr_en_012", "intensity": "mild", "minAge": 4, "text": "Would you rather never use social media again or never watch TV again?" },
-    { "id": "wyr_en_013", "intensity": "mild", "minAge": 4, "text": "Would you rather have a photographic memory or be able to forget anything you choose?" },
-    { "id": "wyr_en_014", "intensity": "mild", "minAge": 4, "text": "Would you rather live in a world with magic or a world with highly advanced technology?" },
-    { "id": "wyr_en_015", "intensity": "mild", "minAge": 4, "text": "Would you rather only ever listen to one song or never listen to music again?" },
-    { "id": "wyr_en_016", "intensity": "mild", "minAge": 4, "text": "Would you rather have the power of super strength or super speed?" },
-    { "id": "wyr_en_017", "intensity": "mild", "minAge": 4, "text": "Would you rather explore the deep ocean or outer space?" },
-    { "id": "wyr_en_018", "intensity": "mild", "minAge": 4, "text": "Would you rather have hiccups for the rest of your life or always feel like you need to sneeze?" },
-    { "id": "wyr_en_019", "intensity": "mild", "minAge": 4, "text": "Would you rather be famous for something embarrassing or completely unknown?" },
-    { "id": "wyr_en_020", "intensity": "mild", "minAge": 4, "text": "Would you rather live in the past or in the future?" },
-    { "id": "wyr_en_021", "intensity": "medium", "minAge": 13, "text": "Would you rather know the exact date of your death or never know but live 20 extra years?" },
-    { "id": "wyr_en_022", "intensity": "medium", "minAge": 13, "text": "Would you rather always say everything you think or never be able to speak again?" },
-    { "id": "wyr_en_023", "intensity": "medium", "minAge": 13, "text": "Would you rather have your most embarrassing moment broadcast to everyone you know or lose all your money?" },
-    { "id": "wyr_en_024", "intensity": "medium", "minAge": 13, "text": "Would you rather be loved by someone you do not love or love someone who does not love you back?" },
-    { "id": "wyr_en_025", "intensity": "medium", "minAge": 13, "text": "Would you rather have everyone know your biggest secret or never be able to tell a secret to anyone?" },
-    { "id": "wyr_en_026", "intensity": "medium", "minAge": 13, "text": "Would you rather lose all your memories from the past five years or lose all your photos and videos forever?" },
-    { "id": "wyr_en_027", "intensity": "medium", "minAge": 13, "text": "Would you rather find out your best friend has been lying to you for years or find out a family secret you cannot unknow?" },
-    { "id": "wyr_en_028", "intensity": "medium", "minAge": 13, "text": "Would you rather be wildly successful but completely alone or average but surrounded by people who love you?" },
-    { "id": "wyr_en_029", "intensity": "medium", "minAge": 13, "text": "Would you rather always know when someone is lying or always be believed no matter what you say?" },
-    { "id": "wyr_en_030", "intensity": "medium", "minAge": 13, "text": "Would you rather lose all your closest friends tomorrow or never be able to make new friends again?" },
-    { "id": "wyr_en_031", "intensity": "medium", "minAge": 13, "text": "Would you rather be the smartest person in every room or the most liked person in every room?" },
-    { "id": "wyr_en_032", "intensity": "medium", "minAge": 13, "text": "Would you rather have the ability to erase a memory of yours or erase a memory of someone else's?" },
-    { "id": "wyr_en_033", "intensity": "medium", "minAge": 13, "text": "Would you rather live a comfortable but ordinary life or a thrilling but uncertain life?" },
-    { "id": "wyr_en_034", "intensity": "medium", "minAge": 13, "text": "Would you rather always be honest even when it hurts or tell white lies to protect people's feelings?" },
-    { "id": "wyr_en_035", "intensity": "medium", "minAge": 13, "text": "Would you rather re-live your teenage years knowing what you know now or skip ahead 10 years into the future?" },
-    { "id": "wyr_en_036", "intensity": "medium", "minAge": 13, "text": "Would you rather be the person who always gives advice or the person who always receives it?" },
-    { "id": "wyr_en_037", "intensity": "medium", "minAge": 13, "text": "Would you rather have your dream job but hate where you live or live exactly where you want but hate your job?" },
-    { "id": "wyr_en_038", "intensity": "medium", "minAge": 13, "text": "Would you rather know when a friendship is going to end before it does or be surprised every time?" },
-    { "id": "wyr_en_039", "intensity": "medium", "minAge": 13, "text": "Would you rather be 100 percent confident in yourself but secretly doubt everything or appear uncertain but feel deeply sure of who you are?" },
-    { "id": "wyr_en_040", "intensity": "medium", "minAge": 13, "text": "Would you rather always feel understood but never be surprised or never feel fully understood but always be intrigued?" },
-    { "id": "wyr_en_041", "intensity": "spicy", "minAge": 18, "text": "Would you rather date someone incredibly attractive but boring or someone average-looking but endlessly interesting?" },
-    { "id": "wyr_en_042", "intensity": "spicy", "minAge": 18, "text": "Would you rather know every person your partner has ever been attracted to or keep it all a mystery?" },
-    { "id": "wyr_en_043", "intensity": "spicy", "minAge": 18, "text": "Would you rather have one perfect love story that ends in heartbreak or many mediocre relationships that never hurt?" },
-    { "id": "wyr_en_044", "intensity": "spicy", "minAge": 18, "text": "Would you rather never have a breakup but settle for less or have your heart broken multiple times chasing the real thing?" },
-    { "id": "wyr_en_045", "intensity": "spicy", "minAge": 18, "text": "Would you rather be in a relationship with no passion but total security or intense passion but constant uncertainty?" },
-    { "id": "wyr_en_046", "intensity": "spicy", "minAge": 18, "text": "Would you rather know if someone finds you attractive immediately or never know at all?" },
-    { "id": "wyr_en_047", "intensity": "spicy", "minAge": 18, "text": "Would you rather always be the one who cares more in a relationship or always be the one who cares less?" },
-    { "id": "wyr_en_048", "intensity": "spicy", "minAge": 18, "text": "Would you rather confess feelings to someone and get rejected or never confess and always wonder?" },
-    { "id": "wyr_en_049", "intensity": "spicy", "minAge": 18, "text": "Would you rather find out your current partner has a secret past or find out your best friend has feelings for them?" },
-    { "id": "wyr_en_050", "intensity": "spicy", "minAge": 18, "text": "Would you rather be with someone who is painfully honest about your flaws or someone who never criticizes you but secretly judges?" },
-    { "id": "wyr_en_051", "intensity": "spicy", "minAge": 18, "text": "Would you rather fall in love fast and hard or slow and deep?" },
-    { "id": "wyr_en_052", "intensity": "spicy", "minAge": 18, "text": "Would you rather have a relationship that burns bright for two years or one that quietly lasts a lifetime?" },
-    { "id": "wyr_en_053", "intensity": "spicy", "minAge": 18, "text": "Would you rather be with someone everyone disapproves of but who is perfect for you or someone everyone loves but who makes you feel invisible?" },
-    { "id": "wyr_en_054", "intensity": "spicy", "minAge": 18, "text": "Would you rather know your partner's true opinion of you or keep the idealized version alive?" },
-    { "id": "wyr_en_055", "intensity": "spicy", "minAge": 18, "text": "Would you rather lose feelings for someone slowly or have them end everything overnight?" },
-    { "id": "wyr_en_056", "intensity": "spicy", "minAge": 18, "text": "Would you rather be in a relationship where you are the one who loves more or the one who is loved more?" },
-    { "id": "wyr_en_057", "intensity": "spicy", "minAge": 18, "text": "Would you rather fall for someone completely wrong for you or never feel that intense connection again?" },
-    { "id": "wyr_en_058", "intensity": "spicy", "minAge": 18, "text": "Would you rather be with someone who always knows the right thing to say or someone who says nothing but always stays?" },
-    { "id": "wyr_en_059", "intensity": "spicy", "minAge": 18, "text": "Would you rather always know the truth about how a relationship ended or hold onto a beautiful lie?" },
-    { "id": "wyr_en_060", "intensity": "spicy", "minAge": 18, "text": "Would you rather know exactly what love feels like and have to wait years for it or feel it now and realize it was not quite right?" }
+    {
+      "id": "wyr_en_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather have the ability to fly or be invisible?"
+    },
+    {
+      "id": "wyr_en_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather always be 10 minutes early or always be 20 minutes late?"
+    },
+    {
+      "id": "wyr_en_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather live in a tiny house with a beautiful view or a mansion with no windows?"
+    },
+    {
+      "id": "wyr_en_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather only eat sweet food or only eat salty food for the rest of your life?"
+    },
+    {
+      "id": "wyr_en_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather be able to talk to animals or speak every human language?"
+    },
+    {
+      "id": "wyr_en_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather have a pause button for life or a rewind button?"
+    },
+    {
+      "id": "wyr_en_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather always know what time it is or always know where you are?"
+    },
+    {
+      "id": "wyr_en_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather have unlimited money with no friends or be broke with an amazing social life?"
+    },
+    {
+      "id": "wyr_en_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather read minds or see the future?"
+    },
+    {
+      "id": "wyr_en_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather fight 100 duck-sized horses or one horse-sized duck?"
+    },
+    {
+      "id": "wyr_en_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather always be cold or always be hot?"
+    },
+    {
+      "id": "wyr_en_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather never use social media again or never watch TV again?"
+    },
+    {
+      "id": "wyr_en_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather have a photographic memory or be able to forget anything you choose?"
+    },
+    {
+      "id": "wyr_en_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather live in a world with magic or a world with highly advanced technology?"
+    },
+    {
+      "id": "wyr_en_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather only ever listen to one song or never listen to music again?"
+    },
+    {
+      "id": "wyr_en_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather have the power of super strength or super speed?"
+    },
+    {
+      "id": "wyr_en_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather explore the deep ocean or outer space?"
+    },
+    {
+      "id": "wyr_en_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather have hiccups for the rest of your life or always feel like you need to sneeze?"
+    },
+    {
+      "id": "wyr_en_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather be famous for something embarrassing or completely unknown?"
+    },
+    {
+      "id": "wyr_en_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather live in the past or in the future?"
+    },
+    {
+      "id": "wyr_en_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather know the exact date of your death or never know but live 20 extra years?"
+    },
+    {
+      "id": "wyr_en_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather always say everything you think or never be able to speak again?"
+    },
+    {
+      "id": "wyr_en_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather have your most embarrassing moment broadcast to everyone you know or lose all your money?"
+    },
+    {
+      "id": "wyr_en_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather be loved by someone you do not love or love someone who does not love you back?"
+    },
+    {
+      "id": "wyr_en_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather have everyone know your biggest secret or never be able to tell a secret to anyone?"
+    },
+    {
+      "id": "wyr_en_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather lose all your memories from the past five years or lose all your photos and videos forever?"
+    },
+    {
+      "id": "wyr_en_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather find out your best friend has been lying to you for years or find out a family secret you cannot unknow?"
+    },
+    {
+      "id": "wyr_en_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather be wildly successful but completely alone or average but surrounded by people who love you?"
+    },
+    {
+      "id": "wyr_en_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather always know when someone is lying or always be believed no matter what you say?"
+    },
+    {
+      "id": "wyr_en_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather lose all your closest friends tomorrow or never be able to make new friends again?"
+    },
+    {
+      "id": "wyr_en_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather be the smartest person in every room or the most liked person in every room?"
+    },
+    {
+      "id": "wyr_en_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather have the ability to erase a memory of yours or erase a memory of someone else's?"
+    },
+    {
+      "id": "wyr_en_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather live a comfortable but ordinary life or a thrilling but uncertain life?"
+    },
+    {
+      "id": "wyr_en_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather always be honest even when it hurts or tell white lies to protect people's feelings?"
+    },
+    {
+      "id": "wyr_en_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather re-live your teenage years knowing what you know now or skip ahead 10 years into the future?"
+    },
+    {
+      "id": "wyr_en_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather be the person who always gives advice or the person who always receives it?"
+    },
+    {
+      "id": "wyr_en_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather have your dream job but hate where you live or live exactly where you want but hate your job?"
+    },
+    {
+      "id": "wyr_en_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather know when a friendship is going to end before it does or be surprised every time?"
+    },
+    {
+      "id": "wyr_en_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather be 100 percent confident in yourself but secretly doubt everything or appear uncertain but feel deeply sure of who you are?"
+    },
+    {
+      "id": "wyr_en_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather always feel understood but never be surprised or never feel fully understood but always be intrigued?"
+    },
+    {
+      "id": "wyr_en_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather date someone incredibly attractive but boring or someone average-looking but endlessly interesting?"
+    },
+    {
+      "id": "wyr_en_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather know every person your partner has ever been attracted to or keep it all a mystery?"
+    },
+    {
+      "id": "wyr_en_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather have one perfect love story that ends in heartbreak or many mediocre relationships that never hurt?"
+    },
+    {
+      "id": "wyr_en_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather never have a breakup but settle for less or have your heart broken multiple times chasing the real thing?"
+    },
+    {
+      "id": "wyr_en_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather be in a relationship with no passion but total security or intense passion but constant uncertainty?"
+    },
+    {
+      "id": "wyr_en_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather know if someone finds you attractive immediately or never know at all?"
+    },
+    {
+      "id": "wyr_en_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather always be the one who cares more in a relationship or always be the one who cares less?"
+    },
+    {
+      "id": "wyr_en_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather confess feelings to someone and get rejected or never confess and always wonder?"
+    },
+    {
+      "id": "wyr_en_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather find out your current partner has a secret past or find out your best friend has feelings for them?"
+    },
+    {
+      "id": "wyr_en_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather be with someone who is painfully honest about your flaws or someone who never criticizes you but secretly judges?"
+    },
+    {
+      "id": "wyr_en_051",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather fall in love fast and hard or slow and deep?"
+    },
+    {
+      "id": "wyr_en_052",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather have a relationship that burns bright for two years or one that quietly lasts a lifetime?"
+    },
+    {
+      "id": "wyr_en_053",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather be with someone everyone disapproves of but who is perfect for you or someone everyone loves but who makes you feel invisible?"
+    },
+    {
+      "id": "wyr_en_054",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather know your partner's true opinion of you or keep the idealized version alive?"
+    },
+    {
+      "id": "wyr_en_055",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather lose feelings for someone slowly or have them end everything overnight?"
+    },
+    {
+      "id": "wyr_en_056",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather be in a relationship where you are the one who loves more or the one who is loved more?"
+    },
+    {
+      "id": "wyr_en_057",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather fall for someone completely wrong for you or never feel that intense connection again?"
+    },
+    {
+      "id": "wyr_en_058",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather be with someone who always knows the right thing to say or someone who says nothing but always stays?"
+    },
+    {
+      "id": "wyr_en_059",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather always know the truth about how a relationship ended or hold onto a beautiful lie?"
+    },
+    {
+      "id": "wyr_en_060",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather know exactly what love feels like and have to wait years for it or feel it now and realize it was not quite right?"
+    },
+    {
+      "id": "wyr_en_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather always have a full battery or always have free Wi‑Fi?"
+    },
+    {
+      "id": "wyr_en_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather live by the beach or in the mountains?"
+    },
+    {
+      "id": "wyr_en_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather cook every day or never cook again?"
+    },
+    {
+      "id": "wyr_en_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather be the funniest or the smartest person in the room?"
+    },
+    {
+      "id": "wyr_en_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather have a pet dragon or a pet unicorn?"
+    },
+    {
+      "id": "wyr_en_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather read minds or speak every language?"
+    },
+    {
+      "id": "wyr_en_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather never lose your keys or never lose your phone?"
+    },
+    {
+      "id": "wyr_en_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather take photos or be in photos?"
+    },
+    {
+      "id": "wyr_en_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather travel by train or take a road trip?"
+    },
+    {
+      "id": "wyr_en_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather wake up early with energy or sleep late without guilt?"
+    },
+    {
+      "id": "wyr_en_071",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather have unlimited coffee or unlimited snacks?"
+    },
+    {
+      "id": "wyr_en_072",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather live without music or without movies?"
+    },
+    {
+      "id": "wyr_en_073",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather be great at cooking or great at singing?"
+    },
+    {
+      "id": "wyr_en_074",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather always get the front seat or always choose the music?"
+    },
+    {
+      "id": "wyr_en_075",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather have a personal chef or a personal driver?"
+    },
+    {
+      "id": "wyr_en_076",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather be able to pause time or fast‑forward time?"
+    },
+    {
+      "id": "wyr_en_077",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather be great at sports or great at art?"
+    },
+    {
+      "id": "wyr_en_078",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather only watch comedies or only watch dramas?"
+    },
+    {
+      "id": "wyr_en_079",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather explore the ocean or explore space?"
+    },
+    {
+      "id": "wyr_en_080",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather have a house by a lake or in a big city?"
+    },
+    {
+      "id": "wyr_en_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather quit social media for a year or give up streaming for a year?"
+    },
+    {
+      "id": "wyr_en_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather move to a new city alone or stay in your city forever?"
+    },
+    {
+      "id": "wyr_en_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather always be 20 minutes early or 20 minutes late?"
+    },
+    {
+      "id": "wyr_en_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather have your search history public or your DMs public?"
+    },
+    {
+      "id": "wyr_en_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather be known for your talent or for your looks?"
+    },
+    {
+      "id": "wyr_en_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather lose all your photos or all your text messages?"
+    },
+    {
+      "id": "wyr_en_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather be the one who texts first or the one who never does?"
+    },
+    {
+      "id": "wyr_en_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather have a tiny circle of close friends or a huge circle of acquaintances?"
+    },
+    {
+      "id": "wyr_en_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather get famous overnight or be respected slowly over time?"
+    },
+    {
+      "id": "wyr_en_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather never be able to lie or never be able to trust anyone?"
+    },
+    {
+      "id": "wyr_en_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather work your dream job with low pay or a boring job with great pay?"
+    },
+    {
+      "id": "wyr_en_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather always be busy or always be bored?"
+    },
+    {
+      "id": "wyr_en_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather live in the past with no internet or in the future with no privacy?"
+    },
+    {
+      "id": "wyr_en_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather be the planner in a group or the spontaneous one?"
+    },
+    {
+      "id": "wyr_en_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather have your biggest failure on a billboard or your biggest secret in a group chat?"
+    },
+    {
+      "id": "wyr_en_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather be amazing at small talk or amazing at deep conversations?"
+    },
+    {
+      "id": "wyr_en_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather be told the truth even when it hurts or be protected with white lies?"
+    },
+    {
+      "id": "wyr_en_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather never have to sleep or always need 12 hours of sleep?"
+    },
+    {
+      "id": "wyr_en_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather have a rewind button for one day or a pause button for one hour?"
+    },
+    {
+      "id": "wyr_en_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather move abroad for love or for work?"
+    },
+    {
+      "id": "wyr_en_101",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather date someone famous or someone you can tell everything to?"
+    },
+    {
+      "id": "wyr_en_102",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather have a great first date and no second date or a terrible first date that turns amazing?"
+    },
+    {
+      "id": "wyr_en_103",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather be the one who loves more or the one who is loved more?"
+    },
+    {
+      "id": "wyr_en_104",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather keep your dating life private or share everything with friends?"
+    },
+    {
+      "id": "wyr_en_105",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather go on a blind date every week or never date again?"
+    },
+    {
+      "id": "wyr_en_106",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather find out your partner lied or that your friend lied?"
+    },
+    {
+      "id": "wyr_en_107",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather have a summer romance that ends or a slow love that takes years?"
+    },
+    {
+      "id": "wyr_en_108",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather be single and adored or taken and calm?"
+    },
+    {
+      "id": "wyr_en_109",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather be the one who texts first or the one who ignores?"
+    },
+    {
+      "id": "wyr_en_110",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather have an instant connection that fades or a slow bond that lasts?"
+    },
+    {
+      "id": "wyr_en_111",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather always have to whisper or always have to shout?"
+    },
+    {
+      "id": "wyr_en_112",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather always have to wear headphones or never be allowed to use them?"
+    },
+    {
+      "id": "wyr_en_113",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather have a personal chef or a personal trainer?"
+    },
+    {
+      "id": "wyr_en_114",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather live by the ocean or in the mountains?"
+    },
+    {
+      "id": "wyr_en_115",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather be able to pause time or rewind time by 10 minutes?"
+    },
+    {
+      "id": "wyr_en_116",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather have a phone with infinite battery or unlimited data everywhere?"
+    },
+    {
+      "id": "wyr_en_117",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather be famous for your talent or for your looks?"
+    },
+    {
+      "id": "wyr_en_118",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather travel for free or eat at any restaurant for free?"
+    },
+    {
+      "id": "wyr_en_119",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather always be slightly late or always be very early?"
+    },
+    {
+      "id": "wyr_en_120",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather only listen to one artist for a year or one genre forever?"
+    },
+    {
+      "id": "wyr_en_121",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather have a perfect memory or be able to forget anything?"
+    },
+    {
+      "id": "wyr_en_122",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather be amazing at cooking or amazing at public speaking?"
+    },
+    {
+      "id": "wyr_en_123",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather live without coffee or without desserts?"
+    },
+    {
+      "id": "wyr_en_124",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather take the stairs forever or never run again?"
+    },
+    {
+      "id": "wyr_en_125",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather have a tiny house with a big yard or a big house with no yard?"
+    },
+    {
+      "id": "wyr_en_126",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather never get stuck in traffic or never wait in line?"
+    },
+    {
+      "id": "wyr_en_127",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather always have perfect weather or always have perfect sleep?"
+    },
+    {
+      "id": "wyr_en_128",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather be the smartest in the room or the funniest?"
+    },
+    {
+      "id": "wyr_en_129",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather lose your phone or lose your wallet?"
+    },
+    {
+      "id": "wyr_en_130",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Would you rather be able to teleport once a day or fly for ten minutes a day?"
+    },
+    {
+      "id": "wyr_en_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather have a rewind button for your day or a fast-forward button?"
+    },
+    {
+      "id": "wyr_en_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather host a big party or plan a quiet trip?"
+    },
+    {
+      "id": "wyr_en_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather have free flights or free hotels?"
+    },
+    {
+      "id": "wyr_en_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather have a year off with pay or a promotion you really want?"
+    },
+    {
+      "id": "wyr_en_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather be able to sing beautifully or play any instrument?"
+    },
+    {
+      "id": "wyr_en_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather always get first impressions right or always get second chances?"
+    },
+    {
+      "id": "wyr_en_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather be great at photos or great at videos?"
+    },
+    {
+      "id": "wyr_en_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather always have snacks or always have coffee?"
+    },
+    {
+      "id": "wyr_en_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather do 10-minute workouts every day or one long workout each week?"
+    },
+    {
+      "id": "wyr_en_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather be able to speak every language or understand animals?"
+    },
+    {
+      "id": "wyr_en_141",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather take lots of photos or live completely in the moment?"
+    },
+    {
+      "id": "wyr_en_142",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather never have to clean or never have to cook?"
+    },
+    {
+      "id": "wyr_en_143",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather have a guaranteed best friend or a guaranteed soulmate?"
+    },
+    {
+      "id": "wyr_en_144",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather live in your dream city or stay near family?"
+    },
+    {
+      "id": "wyr_en_145",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather always win at games or always be good at new skills?"
+    },
+    {
+      "id": "wyr_en_146",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather never miss a deadline or never feel stressed?"
+    },
+    {
+      "id": "wyr_en_147",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather be the one who plans or the one who goes with the flow?"
+    },
+    {
+      "id": "wyr_en_148",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather have a minimalist closet or unlimited clothes?"
+    },
+    {
+      "id": "wyr_en_149",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather give up music or give up movies?"
+    },
+    {
+      "id": "wyr_en_150",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Would you rather only eat sweet foods or only eat salty foods?"
+    },
+    {
+      "id": "wyr_en_151",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather have a short, intense romance or a slow, steady love?"
+    },
+    {
+      "id": "wyr_en_152",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather be the first to text or the first to call?"
+    },
+    {
+      "id": "wyr_en_153",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather have your partner be your best friend or your biggest fan?"
+    },
+    {
+      "id": "wyr_en_154",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather go on a date with no phones or no talking?"
+    },
+    {
+      "id": "wyr_en_155",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather share a playlist or share a calendar?"
+    },
+    {
+      "id": "wyr_en_156",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather always know what someone feels or always know what they want?"
+    },
+    {
+      "id": "wyr_en_157",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather be remembered for kindness or for ambition?"
+    },
+    {
+      "id": "wyr_en_158",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather work from home forever or work outdoors forever?"
+    },
+    {
+      "id": "wyr_en_159",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather live without mirrors or without photos?"
+    },
+    {
+      "id": "wyr_en_160",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Would you rather be wildly spontaneous or meticulously planned?"
+    }
   ]
 }

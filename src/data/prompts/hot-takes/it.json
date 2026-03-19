@@ -1,0 +1,607 @@
+{
+  "gameId": "hot-takes",
+  "locale": "it",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "ht_it_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Il caffè espresso è l'unica scelta corretta."
+    },
+    {
+      "id": "ht_it_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "L'acqua frizzante ha un sapore triste."
+    },
+    {
+      "id": "ht_it_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Il brunch è solo colazione costosa."
+    },
+    {
+      "id": "ht_it_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Le ciabatte non sono vere scarpe."
+    },
+    {
+      "id": "ht_it_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Le serie sono più coinvolgenti dei film."
+    },
+    {
+      "id": "ht_it_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Il posto in corridoio è meglio del finestrino."
+    },
+    {
+      "id": "ht_it_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fare video ai concerti rovina il momento."
+    },
+    {
+      "id": "ht_it_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "La pizza avanzata è la migliore."
+    },
+    {
+      "id": "ht_it_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Il mercato rionale batte il supermercato."
+    },
+    {
+      "id": "ht_it_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "La bici in città è più veloce dell'auto."
+    },
+    {
+      "id": "ht_it_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Il silenzio è la migliore colonna sonora."
+    },
+    {
+      "id": "ht_it_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "La minestra è una bevanda."
+    },
+    {
+      "id": "ht_it_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "La domenica dovrebbe durare di più."
+    },
+    {
+      "id": "ht_it_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "La pasta risolve quasi tutto."
+    },
+    {
+      "id": "ht_it_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Le scarpe da ginnastica stanno bene con tutto."
+    },
+    {
+      "id": "ht_it_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "La pioggia rende le città più belle."
+    },
+    {
+      "id": "ht_it_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Leggere su e-reader è più pratico."
+    },
+    {
+      "id": "ht_it_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Un panino semplice è spesso il migliore."
+    },
+    {
+      "id": "ht_it_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "La siesta è un diritto."
+    },
+    {
+      "id": "ht_it_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Il gelato è un pasto estivo."
+    },
+    {
+      "id": "ht_it_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Non rispondere per un giorno è ignorare."
+    },
+    {
+      "id": "ht_it_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Cancellare all'ultimo è peggio che arrivare tardi."
+    },
+    {
+      "id": "ht_it_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "I viaggi di gruppo rovinano amicizie."
+    },
+    {
+      "id": "ht_it_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Condividere la posizione in coppia dovrebbe essere normale."
+    },
+    {
+      "id": "ht_it_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi dice 'odio il dramma' porta dramma."
+    },
+    {
+      "id": "ht_it_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Il primo appuntamento dovrebbe essere corto."
+    },
+    {
+      "id": "ht_it_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Si capisce una persona dall'ordine del caffè."
+    },
+    {
+      "id": "ht_it_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "I ristoranti rumorosi sono un errore."
+    },
+    {
+      "id": "ht_it_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "La puntualità è rispetto."
+    },
+    {
+      "id": "ht_it_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "La gente preferisce avere ragione che essere felice."
+    },
+    {
+      "id": "ht_it_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Gli amici che spariscono quando sono in coppia sono egoisti."
+    },
+    {
+      "id": "ht_it_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Postare storie tutto il giorno è pura scena."
+    },
+    {
+      "id": "ht_it_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Il più silenzioso del gruppo è il più interessante."
+    },
+    {
+      "id": "ht_it_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Dire 'sono occupato' è quasi sempre una scusa."
+    },
+    {
+      "id": "ht_it_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Le chat di gruppo stancano più di quanto aiutino."
+    },
+    {
+      "id": "ht_it_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Odiare il small talk non ti rende profondo."
+    },
+    {
+      "id": "ht_it_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "L'amicizia si vede quando si divide il conto."
+    },
+    {
+      "id": "ht_it_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Fissare piani e non andare è mancanza di rispetto."
+    },
+    {
+      "id": "ht_it_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Il 'soft launch' di una relazione è insicurezza."
+    },
+    {
+      "id": "ht_it_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vivere senza vacanze è cattiva gestione."
+    },
+    {
+      "id": "ht_it_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Molte coppie stanno insieme per abitudine."
+    },
+    {
+      "id": "ht_it_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "La gelosia è ego, non amore."
+    },
+    {
+      "id": "ht_it_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Chi controlla il telefono una volta lo rifarà."
+    },
+    {
+      "id": "ht_it_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Una 'pausa' è solo una rottura lenta."
+    },
+    {
+      "id": "ht_it_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "La fase di chat è paura di impegnarsi."
+    },
+    {
+      "id": "ht_it_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Il tradimento si perdona più di quanto si ammetta."
+    },
+    {
+      "id": "ht_it_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "I più sicuri fuori sono fragili dentro."
+    },
+    {
+      "id": "ht_it_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Non sei occupato, non sei una priorità."
+    },
+    {
+      "id": "ht_it_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Molti crush sono fame di attenzione."
+    },
+    {
+      "id": "ht_it_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "La chimica è soprattutto timing."
+    },
+    {
+      "id": "ht_it_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "La pizza fredda è meglio di quella calda."
+    },
+    {
+      "id": "ht_it_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "I trailer rovinano i film."
+    },
+    {
+      "id": "ht_it_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Le chat di gruppo dovrebbero essere silenziate di default."
+    },
+    {
+      "id": "ht_it_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Il brunch è solo una scusa per pagare troppo le uova."
+    },
+    {
+      "id": "ht_it_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Calzini con sandali vanno benissimo."
+    },
+    {
+      "id": "ht_it_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "I giorni di pioggia sono più rilassanti di quelli di sole."
+    },
+    {
+      "id": "ht_it_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Il karaoke è più divertente quando canti male."
+    },
+    {
+      "id": "ht_it_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Andare a letto presto è sottovalutato."
+    },
+    {
+      "id": "ht_it_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "I telefoni dovrebbero avere “non disturbare” per singole persone."
+    },
+    {
+      "id": "ht_it_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "I vocali lunghi sono maleducati."
+    },
+    {
+      "id": "ht_it_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Le biblioteche sono i posti più sottovalutati della città."
+    },
+    {
+      "id": "ht_it_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "I giochi da tavolo sono meglio dei videogiochi alle feste."
+    },
+    {
+      "id": "ht_it_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "I libri di carta battono gli e-reader."
+    },
+    {
+      "id": "ht_it_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "I posti migliori ai concerti sono in fondo con spazio per ballare."
+    },
+    {
+      "id": "ht_it_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "L’ultima fetta non dovrebbe mai restare."
+    },
+    {
+      "id": "ht_it_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Saper cucinare è più utile che saper guidare."
+    },
+    {
+      "id": "ht_it_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Montagna > spiaggia."
+    },
+    {
+      "id": "ht_it_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "I matrimoni piccoli sono più divertenti di quelli grandi."
+    },
+    {
+      "id": "ht_it_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Le coppie dovrebbero fare vacanze separate ogni tanto."
+    },
+    {
+      "id": "ht_it_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi cancella all’ultimo momento deve offrire snack la prossima volta."
+    },
+    {
+      "id": "ht_it_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Gli spuntini di mezzanotte sono meglio della colazione."
+    },
+    {
+      "id": "ht_it_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "I like non dovrebbero essere pubblici."
+    },
+    {
+      "id": "ht_it_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Parlare in viva voce in pubblico dovrebbe essere vietato."
+    },
+    {
+      "id": "ht_it_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Il meal prep è sopravvalutato."
+    },
+    {
+      "id": "ht_it_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Le foto migliori sono quelle spontanee."
+    },
+    {
+      "id": "ht_it_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Le sneakers costose sono soldi buttati."
+    },
+    {
+      "id": "ht_it_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Il weekend dovrebbe durare tre giorni."
+    },
+    {
+      "id": "ht_it_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Le visite a sorpresa sono poco rispettose."
+    },
+    {
+      "id": "ht_it_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Il succo d’ananas sta bene in ogni smoothie."
+    },
+    {
+      "id": "ht_it_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Prendere appunti a mano è meglio che digitare."
+    },
+    {
+      "id": "ht_it_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Le app di dating hanno reso le persone più esigenti."
+    },
+    {
+      "id": "ht_it_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vivere da soli rende più creativi."
+    },
+    {
+      "id": "ht_it_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Le “hot take” sono quasi sempre buon senso."
+    },
+    {
+      "id": "ht_it_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Bisognerebbe sempre portare una tazza riutilizzabile."
+    },
+    {
+      "id": "ht_it_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Il cibo di strada è meglio di quello dei ristoranti."
+    },
+    {
+      "id": "ht_it_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "I “visualizzato” creano più drama di quanto risolvano."
+    },
+    {
+      "id": "ht_it_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Una playlist condivisa è un test di coppia."
+    },
+    {
+      "id": "ht_it_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Coperte separate sono più sane per le coppie."
+    },
+    {
+      "id": "ht_it_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "La parte migliore di un viaggio è la pianificazione."
+    },
+    {
+      "id": "ht_it_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "In palestra le cuffie sono obbligatorie."
+    },
+    {
+      "id": "ht_it_091",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "I baristi meritano più mance."
+    },
+    {
+      "id": "ht_it_092",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "I tatuaggi dovrebbero essere ammessi in tutti i lavori."
+    },
+    {
+      "id": "ht_it_093",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Servono meno notifiche, non di più."
+    },
+    {
+      "id": "ht_it_094",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Gli animali dovrebbero essere ammessi in più bar."
+    },
+    {
+      "id": "ht_it_095",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Le festività dovrebbero essere scelte con voto popolare."
+    },
+    {
+      "id": "ht_it_096",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Tutti dovrebbero imparare il primo soccorso."
+    },
+    {
+      "id": "ht_it_097",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "I ristoranti eleganti dovrebbero avere un menu bambini."
+    },
+    {
+      "id": "ht_it_098",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "I cinema dovrebbero riportare gli intervalli."
+    },
+    {
+      "id": "ht_it_099",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Le conferme di lettura dovrebbero essere opzionali ovunque."
+    },
+    {
+      "id": "ht_it_100",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Essere in ritardo è una scelta, non una personalità."
+    }
+  ]
+}

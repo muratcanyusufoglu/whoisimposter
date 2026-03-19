@@ -1,0 +1,607 @@
+{
+  "gameId": "never-have-i-ever",
+  "locale": "ru",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "nhie_ru_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не забывал телефон дома."
+    },
+    {
+      "id": "nhie_ru_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не садился в неправильный автобус или метро."
+    },
+    {
+      "id": "nhie_ru_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не ел десерт до ужина."
+    },
+    {
+      "id": "nhie_ru_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не проспал будильник."
+    },
+    {
+      "id": "nhie_ru_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не носил разные носки."
+    },
+    {
+      "id": "nhie_ru_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не смеялся в серьёзный момент."
+    },
+    {
+      "id": "nhie_ru_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не проливал напиток на себя в публичном месте."
+    },
+    {
+      "id": "nhie_ru_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не ходил в магазин голодным."
+    },
+    {
+      "id": "nhie_ru_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не терял ключи больше чем на день."
+    },
+    {
+      "id": "nhie_ru_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не носил один и тот же наряд два дня подряд."
+    },
+    {
+      "id": "nhie_ru_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не забывал ставить телефон на зарядку ночью."
+    },
+    {
+      "id": "nhie_ru_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не пел громко в машине один."
+    },
+    {
+      "id": "nhie_ru_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не ел хлопья на ужин."
+    },
+    {
+      "id": "nhie_ru_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не делал стрижку, которую ненавидел."
+    },
+    {
+      "id": "nhie_ru_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не пытался что-то починить и сделать хуже."
+    },
+    {
+      "id": "nhie_ru_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не заходил в не ту аудиторию или на встречу."
+    },
+    {
+      "id": "nhie_ru_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не засыпал в кино во время фильма."
+    },
+    {
+      "id": "nhie_ru_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не отправлял сообщение не в тот чат."
+    },
+    {
+      "id": "nhie_ru_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не пёк что-то, что вышло ужасным."
+    },
+    {
+      "id": "nhie_ru_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не держал рыбку как питомца."
+    },
+    {
+      "id": "nhie_ru_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не нажимал «повтор» больше пяти раз."
+    },
+    {
+      "id": "nhie_ru_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не говорил, что уже еду, хотя ещё не вышел."
+    },
+    {
+      "id": "nhie_ru_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не забывал день рождения близкого друга."
+    },
+    {
+      "id": "nhie_ru_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не попадался на подслушивании."
+    },
+    {
+      "id": "nhie_ru_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не делал вид, что сел аккумулятор, чтобы закончить звонок."
+    },
+    {
+      "id": "nhie_ru_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не испытывал симпатию к коллеге или одногруппнику."
+    },
+    {
+      "id": "nhie_ru_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не перечитывал старый чат и не накручивал себя."
+    },
+    {
+      "id": "nhie_ru_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не удалял сообщение сразу после отправки."
+    },
+    {
+      "id": "nhie_ru_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не сталкерал чей-то профиль из любопытства."
+    },
+    {
+      "id": "nhie_ru_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не был настолько смущён, что хотел уйти с вечеринки."
+    },
+    {
+      "id": "nhie_ru_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не лгал в резюме."
+    },
+    {
+      "id": "nhie_ru_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не брал вещь в долг и не возвращал."
+    },
+    {
+      "id": "nhie_ru_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не блокировал человека и не разблокировал, чтобы проверить."
+    },
+    {
+      "id": "nhie_ru_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не называл фальшивое имя в кофейне."
+    },
+    {
+      "id": "nhie_ru_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не пропадал из группового чата."
+    },
+    {
+      "id": "nhie_ru_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не списывал опоздание на пробки, хотя вышел поздно."
+    },
+    {
+      "id": "nhie_ru_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не говорил 'смотрел', не посмотрев."
+    },
+    {
+      "id": "nhie_ru_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не забывал пароль и не создавал новый аккаунт."
+    },
+    {
+      "id": "nhie_ru_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не лежал весь день в кровати специально."
+    },
+    {
+      "id": "nhie_ru_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не втайне не любил партнёра друга."
+    },
+    {
+      "id": "nhie_ru_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Я никогда не целовал человека, с которым познакомился в тот же вечер."
+    },
+    {
+      "id": "nhie_ru_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Я никогда не имел тайный роман."
+    },
+    {
+      "id": "nhie_ru_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Я никогда не отправлял рискованное фото."
+    },
+    {
+      "id": "nhie_ru_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Я никогда не лгал о своём статусе отношений."
+    },
+    {
+      "id": "nhie_ru_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Я никогда не ходил на свидание ради бесплатной еды."
+    },
+    {
+      "id": "nhie_ru_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Я никогда не попадался на том, что выхожу тайком."
+    },
+    {
+      "id": "nhie_ru_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Я никогда не испытывал чувства к двум людям одновременно."
+    },
+    {
+      "id": "nhie_ru_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Я никогда не завидовал отношениям друга."
+    },
+    {
+      "id": "nhie_ru_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Я никогда не удалял сообщения, чтобы что-то скрыть."
+    },
+    {
+      "id": "nhie_ru_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Я никогда не флиртовал, чтобы получить услугу."
+    },
+    {
+      "id": "nhie_ru_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не пек печенье с нуля."
+    },
+    {
+      "id": "nhie_ru_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не засыпал на уроке."
+    },
+    {
+      "id": "nhie_ru_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда специально не пропускал автобус."
+    },
+    {
+      "id": "nhie_ru_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не лепил снеговика."
+    },
+    {
+      "id": "nhie_ru_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не проводил целый день без телефона."
+    },
+    {
+      "id": "nhie_ru_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не проливал кофе на свою футболку."
+    },
+    {
+      "id": "nhie_ru_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не забывал, где припарковался."
+    },
+    {
+      "id": "nhie_ru_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда громко не пел в душе."
+    },
+    {
+      "id": "nhie_ru_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не терялся в торговом центре."
+    },
+    {
+      "id": "nhie_ru_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не пробовал новое блюдо и сразу не влюблялся в него."
+    },
+    {
+      "id": "nhie_ru_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не брал книгу и не возвращал ее."
+    },
+    {
+      "id": "nhie_ru_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не смотрел целый сезон за один уикенд."
+    },
+    {
+      "id": "nhie_ru_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не смеялся так, что плакал."
+    },
+    {
+      "id": "nhie_ru_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не делал подарок своими руками."
+    },
+    {
+      "id": "nhie_ru_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не болтал всю ночь."
+    },
+    {
+      "id": "nhie_ru_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не пропускал запланированную тренировку."
+    },
+    {
+      "id": "nhie_ru_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не говорил “буду через пять минут”, когда это было неправдой."
+    },
+    {
+      "id": "nhie_ru_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не отправлял сообщение не тому человеку."
+    },
+    {
+      "id": "nhie_ru_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не ломал что-то и не сваливал это на другого."
+    },
+    {
+      "id": "nhie_ru_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Я никогда не получал штраф за скорость."
+    },
+    {
+      "id": "nhie_ru_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не притворялся, что мне нравится подарок."
+    },
+    {
+      "id": "nhie_ru_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не смотрел меню онлайн перед выходом."
+    },
+    {
+      "id": "nhie_ru_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не брал больничный, когда не был болен."
+    },
+    {
+      "id": "nhie_ru_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не ездил в поездку без плана."
+    },
+    {
+      "id": "nhie_ru_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не был замечен поющим в машине на светофоре."
+    },
+    {
+      "id": "nhie_ru_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не сидел всю ночь, чтобы закончить проект."
+    },
+    {
+      "id": "nhie_ru_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не плакал на фильме в публичном месте."
+    },
+    {
+      "id": "nhie_ru_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не игнорировал сообщение специально."
+    },
+    {
+      "id": "nhie_ru_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не чувствовал вины за отмену планов."
+    },
+    {
+      "id": "nhie_ru_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не стыдился своего рингтона."
+    },
+    {
+      "id": "nhie_ru_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не покупал что-то только из-за скидки."
+    },
+    {
+      "id": "nhie_ru_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не делал вид, что знаю песню."
+    },
+    {
+      "id": "nhie_ru_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не лазил в чужой холодильник."
+    },
+    {
+      "id": "nhie_ru_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не начинал учить язык и не бросал."
+    },
+    {
+      "id": "nhie_ru_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не писал “лол”, не смеясь."
+    },
+    {
+      "id": "nhie_ru_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не ходил на свидание, зная, что ничего не выйдет."
+    },
+    {
+      "id": "nhie_ru_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не имел краш на коллегу."
+    },
+    {
+      "id": "nhie_ru_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не был в situationship."
+    },
+    {
+      "id": "nhie_ru_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не попадался на флирте."
+    },
+    {
+      "id": "nhie_ru_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Я никогда не гостил после свидания."
+    },
+    {
+      "id": "nhie_ru_091",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Я никогда не отправлял рискованное сообщение и сразу не жалел."
+    },
+    {
+      "id": "nhie_ru_092",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Я никогда не врал про свой возраст."
+    },
+    {
+      "id": "nhie_ru_093",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Я никогда не целовал человека, которого только что встретил."
+    },
+    {
+      "id": "nhie_ru_094",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Я никогда не испытывал чувства к другу."
+    },
+    {
+      "id": "nhie_ru_095",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Я никогда не пользовался дейтинг-приложением."
+    },
+    {
+      "id": "nhie_ru_096",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Я никогда не писал бывшему поздно ночью."
+    },
+    {
+      "id": "nhie_ru_097",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Я никогда не засыпал на свидании."
+    },
+    {
+      "id": "nhie_ru_098",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Я никогда не уходил раньше, чтобы избежать плохого свидания."
+    },
+    {
+      "id": "nhie_ru_099",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Я никогда не ставил чат на постоянный мут."
+    },
+    {
+      "id": "nhie_ru_100",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Я никогда не удалял сообщение до того, как его увидели."
+    }
+  ]
+}

@@ -1,60 +1,46 @@
 import { shuffle } from '@/utils/shuffle'
 import type { PromptItem } from '@/types'
 
-// ─────────────────────────────────────────────────────────────────────────────
-// TRUTH OR DARE LOGIC
-// Selects random prompts from the bundled data, respecting intensity,
-// minAge, type (truth/dare), and avoiding repeats.
-// ─────────────────────────────────────────────────────────────────────────────
-
-// Lazy-loaded so JSON doesn't bloat the initial JS bundle
-let _en: PromptItem[] | null = null
-let _tr: PromptItem[] | null = null
+const PROMPTS: Record<string, PromptItem[]> = {
+  en: require('@/data/prompts/truth-dare/en.json').prompts as PromptItem[],
+  tr: require('@/data/prompts/truth-dare/tr.json').prompts as PromptItem[],
+  de: require('@/data/prompts/truth-dare/de.json').prompts as PromptItem[],
+  fr: require('@/data/prompts/truth-dare/fr.json').prompts as PromptItem[],
+  es: require('@/data/prompts/truth-dare/es.json').prompts as PromptItem[],
+  pt: require('@/data/prompts/truth-dare/pt.json').prompts as PromptItem[],
+  ru: require('@/data/prompts/truth-dare/ru.json').prompts as PromptItem[],
+  ar: require('@/data/prompts/truth-dare/ar.json').prompts as PromptItem[],
+  it: require('@/data/prompts/truth-dare/it.json').prompts as PromptItem[],
+  nl: require('@/data/prompts/truth-dare/nl.json').prompts as PromptItem[],
+}
 
 function loadPrompts(locale: string): PromptItem[] {
-  if (locale === 'tr') {
-    if (!_tr) {
-      // eslint-disable-next-line @typescript-eslint/no-var-requires
-      _tr = (require('@/data/prompts/truth-dare/tr.json').prompts as PromptItem[])
-    }
-    return _tr
-  }
-  if (!_en) {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    _en = (require('@/data/prompts/truth-dare/en.json').prompts as PromptItem[])
-  }
-  return _en
+  return PROMPTS[locale] ?? PROMPTS.en
 }
 
 export const truthOrDareLogic = {
-  /**
-   * Pick a random unused prompt matching intensity + type.
-   * If all matching prompts are used, resets that pool automatically.
-   */
   getNextPrompt(
     locale: string,
     intensity: 'mild' | 'medium' | 'spicy',
     usedIds: string[],
     type: 'truth' | 'dare',
   ): PromptItem {
-    const all = loadPrompts(locale)
+    const all     = loadPrompts(locale)
     const matches = all.filter((p) => p.intensity === intensity && p.type === type)
     const unused  = matches.filter((p) => !usedIds.includes(p.id))
-    const pool    = unused.length > 0 ? unused : matches   // auto-reset when exhausted
+    const pool    = unused.length > 0 ? unused : matches
 
     const fallback: PromptItem = {
-      id: 'fallback',
+      id: 'fallback_truth_or_dare',
       text: type === 'truth'
-        ? 'What is something about yourself you rarely share?'
-        : 'Do your best dance move for 10 seconds.',
+        ? 'What is your most embarrassing childhood memory?'
+        : 'Do your best impression of someone in the room.',
       intensity,
       type,
     }
-
     return shuffle(pool)[0] ?? fallback
   },
 
-  /** All prompts for a locale (used for pre-loading / counting) */
   getAll(locale: string): PromptItem[] {
     return loadPrompts(locale)
   },

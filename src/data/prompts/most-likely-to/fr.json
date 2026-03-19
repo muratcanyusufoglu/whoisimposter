@@ -1,0 +1,907 @@
+{
+  "gameId": "most-likely-to",
+  "locale": "fr",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "mlt_fr_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances d’oublier de recharger son téléphone la nuit ?"
+    },
+    {
+      "id": "mlt_fr_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances d’apporter des snacks au cinéma sans qu’on demande ?"
+    },
+    {
+      "id": "mlt_fr_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de trébucher sur un trottoir plat ?"
+    },
+    {
+      "id": "mlt_fr_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de photographier chaque repas ?"
+    },
+    {
+      "id": "mlt_fr_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de perdre ses clés deux fois en une semaine ?"
+    },
+    {
+      "id": "mlt_fr_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de créer un groupe et de le mettre en sourdine direct ?"
+    },
+    {
+      "id": "mlt_fr_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de s’endormir pendant un film à la maison ?"
+    },
+    {
+      "id": "mlt_fr_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de trop s’habiller pour un week‑end ?"
+    },
+    {
+      "id": "mlt_fr_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances d’adopter un animal abandonné ?"
+    },
+    {
+      "id": "mlt_fr_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de devenir pote avec le barista dès le premier jour ?"
+    },
+    {
+      "id": "mlt_fr_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances d’avoir toujours un tote bag ?"
+    },
+    {
+      "id": "mlt_fr_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances d’amener un jeu de société en pique‑nique ?"
+    },
+    {
+      "id": "mlt_fr_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de rire au mauvais moment ?"
+    },
+    {
+      "id": "mlt_fr_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de prendre un coup de soleil par temps couvert ?"
+    },
+    {
+      "id": "mlt_fr_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de faire des playlists pour tout ?"
+    },
+    {
+      "id": "mlt_fr_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances d’être le DJ du groupe ?"
+    },
+    {
+      "id": "mlt_fr_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de se souvenir de tous les anniversaires ?"
+    },
+    {
+      "id": "mlt_fr_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de s’endormir n’importe où ?"
+    },
+    {
+      "id": "mlt_fr_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de tester chaque nouveau café ?"
+    },
+    {
+      "id": "mlt_fr_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de garder tous les tickets « au cas où » ?"
+    },
+    {
+      "id": "mlt_fr_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances d’annuler à la dernière minute et de culpabiliser ?"
+    },
+    {
+      "id": "mlt_fr_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances d’envoyer un message à la mauvaise personne ?"
+    },
+    {
+      "id": "mlt_fr_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de disparaître d’un plan de groupe et revenir plus tard ?"
+    },
+    {
+      "id": "mlt_fr_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de transformer un hobby en side‑business ?"
+    },
+    {
+      "id": "mlt_fr_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de binge‑watcher une série en une journée ?"
+    },
+    {
+      "id": "mlt_fr_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de se disputer avec des inconnus en ligne ?"
+    },
+    {
+      "id": "mlt_fr_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances d’en dire trop dans le chat de groupe ?"
+    },
+    {
+      "id": "mlt_fr_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de lancer un podcast et de l’abandonner ?"
+    },
+    {
+      "id": "mlt_fr_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de se perdre même avec le GPS ?"
+    },
+    {
+      "id": "mlt_fr_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances d’avoir 200 e‑mails non lus ?"
+    },
+    {
+      "id": "mlt_fr_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de faire des captures d’écran de messages ?"
+    },
+    {
+      "id": "mlt_fr_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de renverser son verre en soirée ?"
+    },
+    {
+      "id": "mlt_fr_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de lancer une danse tendance dans le groupe ?"
+    },
+    {
+      "id": "mlt_fr_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de répondre uniquement par vocaux ?"
+    },
+    {
+      "id": "mlt_fr_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de réserver un week‑end sur un coup de tête ?"
+    },
+    {
+      "id": "mlt_fr_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de garder un secret pendant des années ?"
+    },
+    {
+      "id": "mlt_fr_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances d’arriver en retard mais impeccable ?"
+    },
+    {
+      "id": "mlt_fr_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de faire une sortie dramatique d’une soirée ?"
+    },
+    {
+      "id": "mlt_fr_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de taquiner quelqu’un et dire « je rigole » ?"
+    },
+    {
+      "id": "mlt_fr_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de connaître les meilleurs spots food cachés ?"
+    },
+    {
+      "id": "mlt_fr_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances d’avoir un crush secret sur quelqu’un ici ?"
+    },
+    {
+      "id": "mlt_fr_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances de glisser dans les DM d’une célébrité ?"
+    },
+    {
+      "id": "mlt_fr_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances de tomber pour quelqu’un qu’il vient de rencontrer ?"
+    },
+    {
+      "id": "mlt_fr_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances de continuer à parler à son ex ?"
+    },
+    {
+      "id": "mlt_fr_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances de se sortir d’un problème en flirtant ?"
+    },
+    {
+      "id": "mlt_fr_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances d’être dans une situationship sans définir ?"
+    },
+    {
+      "id": "mlt_fr_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances de se faire griller en likant une vieille photo ?"
+    },
+    {
+      "id": "mlt_fr_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances de participer à une émission de dating ?"
+    },
+    {
+      "id": "mlt_fr_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances de sortir avec quelqu’un beaucoup plus âgé ou plus jeune ?"
+    },
+    {
+      "id": "mlt_fr_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances d’avoir le profil de dating le plus audacieux ?"
+    },
+    {
+      "id": "mlt_fr_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances d’oublier son propre anniversaire ?"
+    },
+    {
+      "id": "mlt_fr_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de créer une entreprise et de vraiment réussir ?"
+    },
+    {
+      "id": "mlt_fr_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de perdre son téléphone pendant une semaine ?"
+    },
+    {
+      "id": "mlt_fr_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances d’adopter un animal sur un coup de tête ?"
+    },
+    {
+      "id": "mlt_fr_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances d’organiser une fête surprise parfaitement ?"
+    },
+    {
+      "id": "mlt_fr_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de gagner un concours de karaoké ?"
+    },
+    {
+      "id": "mlt_fr_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de déménager dans une autre ville sans rien dire ?"
+    },
+    {
+      "id": "mlt_fr_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de se perdre dans son propre quartier ?"
+    },
+    {
+      "id": "mlt_fr_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de devenir célèbre sur Internet ?"
+    },
+    {
+      "id": "mlt_fr_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de s’endormir pendant un rendez-vous cinéma ?"
+    },
+    {
+      "id": "mlt_fr_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de cuisiner un repas complet à partir de zéro ?"
+    },
+    {
+      "id": "mlt_fr_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de réserver un voyage à la dernière minute ?"
+    },
+    {
+      "id": "mlt_fr_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances d’envoyer par erreur une capture d’écran à la mauvaise personne ?"
+    },
+    {
+      "id": "mlt_fr_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de tenir un journal tous les jours ?"
+    },
+    {
+      "id": "mlt_fr_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de négocier pour éviter une amende ?"
+    },
+    {
+      "id": "mlt_fr_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances d’oublier de répondre pendant des jours ?"
+    },
+    {
+      "id": "mlt_fr_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de passer une heure à choisir une playlist ?"
+    },
+    {
+      "id": "mlt_fr_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de s’inscrire à un marathon sans entraînement ?"
+    },
+    {
+      "id": "mlt_fr_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de se faire un ami dans une file d’attente ?"
+    },
+    {
+      "id": "mlt_fr_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de gagner une soirée quiz ?"
+    },
+    {
+      "id": "mlt_fr_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de ghoster un groupe de discussion ?"
+    },
+    {
+      "id": "mlt_fr_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances d’avoir une chambre en bazar mais un bureau rangé ?"
+    },
+    {
+      "id": "mlt_fr_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de dire non et de vraiment le penser ?"
+    },
+    {
+      "id": "mlt_fr_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances d’arriver en retard à sa propre fête ?"
+    },
+    {
+      "id": "mlt_fr_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de se faire un tatouage sur un coup de tête ?"
+    },
+    {
+      "id": "mlt_fr_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances d’avoir un talent caché ?"
+    },
+    {
+      "id": "mlt_fr_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de trop emporter pour un week-end ?"
+    },
+    {
+      "id": "mlt_fr_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de casser l’écran de son téléphone ?"
+    },
+    {
+      "id": "mlt_fr_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances d’être la première personne à s’excuser ?"
+    },
+    {
+      "id": "mlt_fr_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de commencer un livre et de le finir en un jour ?"
+    },
+    {
+      "id": "mlt_fr_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de faire le rêve le plus bizarre ?"
+    },
+    {
+      "id": "mlt_fr_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de créer une playlist pour un crush ?"
+    },
+    {
+      "id": "mlt_fr_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances d’éviter les conflits à tout prix ?"
+    },
+    {
+      "id": "mlt_fr_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de connaître toutes les paroles ?"
+    },
+    {
+      "id": "mlt_fr_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de goûter à tout sur le menu ?"
+    },
+    {
+      "id": "mlt_fr_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances d’oublier immédiatement un mot de passe ?"
+    },
+    {
+      "id": "mlt_fr_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de devenir du matin ?"
+    },
+    {
+      "id": "mlt_fr_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de se renverser du café dessus ?"
+    },
+    {
+      "id": "mlt_fr_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances d’annuler des plans à la dernière minute ?"
+    },
+    {
+      "id": "mlt_fr_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de garder tous les reçus ?"
+    },
+    {
+      "id": "mlt_fr_091",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances d’être la personne la plus compétitive aux jeux ?"
+    },
+    {
+      "id": "mlt_fr_092",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances de tomber amoureux en vacances ?"
+    },
+    {
+      "id": "mlt_fr_093",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances d’avoir un admirateur secret ?"
+    },
+    {
+      "id": "mlt_fr_094",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances de se faire surprendre en train de se parler tout seul ?"
+    },
+    {
+      "id": "mlt_fr_095",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances de pleurer pendant une pub ?"
+    },
+    {
+      "id": "mlt_fr_096",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances de lancer une tendance ?"
+    },
+    {
+      "id": "mlt_fr_097",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances de raconter les histoires les plus dramatiques ?"
+    },
+    {
+      "id": "mlt_fr_098",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances de perdre ses bagages à l’aéroport ?"
+    },
+    {
+      "id": "mlt_fr_099",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances de créer un groupe de discussion pour tout ?"
+    },
+    {
+      "id": "mlt_fr_100",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances d’être la personne la plus douée pour donner des conseils ?"
+    },
+    {
+      "id": "mlt_fr_101",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances d’avoir toujours des snacks dans son sac ?"
+    },
+    {
+      "id": "mlt_fr_102",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de se proposer pour organiser la prochaine soirée ?"
+    },
+    {
+      "id": "mlt_fr_103",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de colorer son calendrier par code couleur ?"
+    },
+    {
+      "id": "mlt_fr_104",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de faire la sieste n’importe où ?"
+    },
+    {
+      "id": "mlt_fr_105",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances d’apporter un jeu de société à chaque sortie ?"
+    },
+    {
+      "id": "mlt_fr_106",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de perdre ses lunettes de soleil deux fois en un été ?"
+    },
+    {
+      "id": "mlt_fr_107",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de se souvenir de tous les anniversaires sans rappel ?"
+    },
+    {
+      "id": "mlt_fr_108",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de devenir pote avec la caissière ?"
+    },
+    {
+      "id": "mlt_fr_109",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances d’avoir 30 onglets ouverts ?"
+    },
+    {
+      "id": "mlt_fr_110",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de prendre en photo chaque repas ?"
+    },
+    {
+      "id": "mlt_fr_111",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances d’avoir un chargeur de secours sur lui ?"
+    },
+    {
+      "id": "mlt_fr_112",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de créer une playlist pour chaque humeur ?"
+    },
+    {
+      "id": "mlt_fr_113",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de chanter toutes les chansons en voiture ?"
+    },
+    {
+      "id": "mlt_fr_114",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de s’endormir dans les transports ?"
+    },
+    {
+      "id": "mlt_fr_115",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de prévoir une tenue à thème pour une fête ?"
+    },
+    {
+      "id": "mlt_fr_116",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de garder une plante en vie pendant des années ?"
+    },
+    {
+      "id": "mlt_fr_117",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de connaître un raccourci partout ?"
+    },
+    {
+      "id": "mlt_fr_118",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de lancer un club de lecture ?"
+    },
+    {
+      "id": "mlt_fr_119",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances de prévoir des snacks en plus pour un road trip ?"
+    },
+    {
+      "id": "mlt_fr_120",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qui a le plus de chances d’être en avance à tout ?"
+    },
+    {
+      "id": "mlt_fr_121",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de lancer un petit business et de s’y tenir ?"
+    },
+    {
+      "id": "mlt_fr_122",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de regarder une saison entière en une nuit ?"
+    },
+    {
+      "id": "mlt_fr_123",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de trop analyser un message ?"
+    },
+    {
+      "id": "mlt_fr_124",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de réorganiser sa chambre à 2 h du matin ?"
+    },
+    {
+      "id": "mlt_fr_125",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de faire un itinéraire de voyage détaillé ?"
+    },
+    {
+      "id": "mlt_fr_126",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances d’essayer un bain glacé et d’adorer ?"
+    },
+    {
+      "id": "mlt_fr_127",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de partir en road trip sur un coup de tête ?"
+    },
+    {
+      "id": "mlt_fr_128",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de passer des heures à choisir le cadeau parfait ?"
+    },
+    {
+      "id": "mlt_fr_129",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de s’inscrire à un cours juste pour le plaisir ?"
+    },
+    {
+      "id": "mlt_fr_130",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de commencer un nouveau hobby chaque mois ?"
+    },
+    {
+      "id": "mlt_fr_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de devenir accro à un podcast au hasard ?"
+    },
+    {
+      "id": "mlt_fr_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances d’oublier de déjeuner quand il est débordé ?"
+    },
+    {
+      "id": "mlt_fr_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de gagner un tirage au sort en ligne ?"
+    },
+    {
+      "id": "mlt_fr_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances d’être le photographe du groupe ?"
+    },
+    {
+      "id": "mlt_fr_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de commander toujours la même chose ?"
+    },
+    {
+      "id": "mlt_fr_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de s’endormir devant un film à la maison ?"
+    },
+    {
+      "id": "mlt_fr_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de faire un tableau pour organiser un voyage ?"
+    },
+    {
+      "id": "mlt_fr_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de garder des tickets dans une boîte ?"
+    },
+    {
+      "id": "mlt_fr_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances d’envoyer des messages vocaux plutôt que d’écrire ?"
+    },
+    {
+      "id": "mlt_fr_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qui a le plus de chances de répéter une conversation à l’avance ?"
+    },
+    {
+      "id": "mlt_fr_141",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances de relancer après un message vu ?"
+    },
+    {
+      "id": "mlt_fr_142",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances de flirter pour obtenir une réduction ?"
+    },
+    {
+      "id": "mlt_fr_143",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances de garder des applis de rencontre sur son téléphone ?"
+    },
+    {
+      "id": "mlt_fr_144",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances de tomber amoureux pendant un week-end ?"
+    },
+    {
+      "id": "mlt_fr_145",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances de faire le premier pas ?"
+    },
+    {
+      "id": "mlt_fr_146",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances d’avoir un crush secret sur un ami ?"
+    },
+    {
+      "id": "mlt_fr_147",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances d’écrire à son ex tard le soir ?"
+    },
+    {
+      "id": "mlt_fr_148",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances d’aller à un date pour le dîner gratuit ?"
+    },
+    {
+      "id": "mlt_fr_149",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances de se faire griller en regardant son téléphone en date ?"
+    },
+    {
+      "id": "mlt_fr_150",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Qui a le plus de chances de dire « je t’aime » en premier ?"
+    }
+  ]
+}

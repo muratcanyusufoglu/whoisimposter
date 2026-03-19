@@ -206,7 +206,8 @@
     "roundsPlayed_one": "{{count}} turno giocato",
     "roundsPlayed_other": "{{count}} turni giocati",
     "pts": "pti",
-    "delta": "+{{count}}"
+    "delta": "+{{count}}",
+    "final": "Punteggi finali"
   },
   "streak": {
     "crewStreak": "🔥 L'equipaggio in serie di {{count}} vittorie!",
@@ -473,7 +474,9 @@
     "endGame": "Fine del gioco",
     "readyTitle": "Pronto?",
     "readySubtitle": "Passa il telefono e tienilo sulla fronte",
-    "startTimer": "Via!"
+    "startTimer": "Via!",
+    "emptyTitle": "Niente più parole",
+    "emptySubtitle": "Scegli altre categorie per continuare."
   },
   "wordChain": {
     "title": "Catena di parole",

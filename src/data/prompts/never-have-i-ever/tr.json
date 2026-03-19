@@ -3,45 +3,845 @@
   "locale": "tr",
   "version": 1,
   "prompts": [
-    { "id": "nhie_tr_001", "intensity": "mild", "minAge": 4, "text": "Ben hiç bir pizzayı tek başıma bitirmedim." },
-    { "id": "nhie_tr_002", "intensity": "mild", "minAge": 4, "text": "Ben hiç 24 saatten fazla uyanık kalmadım." },
-    { "id": "nhie_tr_003", "intensity": "mild", "minAge": 4, "text": "Ben hiç gülerken ağlamadım." },
-    { "id": "nhie_tr_004", "intensity": "mild", "minAge": 4, "text": "Ben hiç sözlerini bilmediğim bir şarkıya biliyormuş gibi eşlik etmedim." },
-    { "id": "nhie_tr_005", "intensity": "mild", "minAge": 4, "text": "Ben hiç bir dizinin sezonunu bir günde bitirmedim." },
-    { "id": "nhie_tr_006", "intensity": "mild", "minAge": 4, "text": "Ben hiç bir günü pijamayla geçirmedim." },
-    { "id": "nhie_tr_007", "intensity": "mild", "minAge": 4, "text": "Ben hiç yere düşen bir şeyi 5 saniye kuralı diyerek yemedim." },
-    { "id": "nhie_tr_008", "intensity": "mild", "minAge": 4, "text": "Ben hiç tanıştıktan hemen sonra birinin adını unutmadım." },
-    { "id": "nhie_tr_009", "intensity": "mild", "minAge": 4, "text": "Ben hiç kalabalık bir yerde farkında olmadan kendi kendime konuşmadım." },
-    { "id": "nhie_tr_010", "intensity": "mild", "minAge": 4, "text": "Ben hiç öğretmene yanlışlıkla anne ya da baba demedim." },
-    { "id": "nhie_tr_011", "intensity": "medium", "minAge": 13, "text": "Ben hiç ayrıldıktan sonra eski sevgilimi sosyal medyadan takip etmedim." },
-    { "id": "nhie_tr_012", "intensity": "medium", "minAge": 13, "text": "Ben hiç birini görmezden gelmek için sokakta rol yapmadım." },
-    { "id": "nhie_tr_013", "intensity": "medium", "minAge": 13, "text": "Ben hiç kendimi Google'da aratmadım." },
-    { "id": "nhie_tr_014", "intensity": "medium", "minAge": 13, "text": "Ben hiç birini görmemek için meşgulmüş gibi yapmadım." },
-    { "id": "nhie_tr_015", "intensity": "medium", "minAge": 13, "text": "Ben hiç bir reklamı izlerken ağlamadım." },
-    { "id": "nhie_tr_016", "intensity": "medium", "minAge": 13, "text": "Ben hiç o anlık bir alışveriş yapıp pişman olmadım." },
-    { "id": "nhie_tr_017", "intensity": "medium", "minAge": 13, "text": "Ben hiç birinin benim hakkımdaki konuşmasını gizlice dinlemedim." },
-    { "id": "nhie_tr_018", "intensity": "medium", "minAge": 13, "text": "Ben hiç bir konuşmayı kafamda prova etmedim." },
-    { "id": "nhie_tr_019", "intensity": "medium", "minAge": 13, "text": "Ben hiç yanlış kişiye ekran görüntüsü göndermedim." },
-    { "id": "nhie_tr_020", "intensity": "medium", "minAge": 13, "text": "Ben hiç başkasının emeğini sahiplenmedim." },
-    { "id": "nhie_tr_021", "intensity": "spicy", "minAge": 18, "text": "Ben hiç aynı haftada birden fazla kişiyle çıkmadım." },
-    { "id": "nhie_tr_022", "intensity": "spicy", "minAge": 18, "text": "Ben hiç soyadını bilmediğim biriyle öpüşmedim." },
-    { "id": "nhie_tr_023", "intensity": "spicy", "minAge": 18, "text": "Ben hiç en iyi arkadaşıma karşı bir şeyler hissetmedim." },
-    { "id": "nhie_tr_024", "intensity": "spicy", "minAge": 18, "text": "Ben hiç bu odadaki birine karşı ilgi duymadım." },
-    { "id": "nhie_tr_025", "intensity": "spicy", "minAge": 18, "text": "Ben hiç reddedilip 'şaka yapıyordum' gibi davranmadım." },
-    { "id": "nhie_tr_026", "intensity": "spicy", "minAge": 18, "text": "Ben hiç gece 02.00'de riskli bir mesaj atıp sabah pişman olmadım." },
-    { "id": "nhie_tr_027", "intensity": "spicy", "minAge": 18, "text": "Ben hiç 'seninle bittim' dediğim eski birine geri dönmedim." },
-    { "id": "nhie_tr_028", "intensity": "spicy", "minAge": 18, "text": "Ben hiç sevdiğimden emin olmadığım birine 'seni seviyorum' demedim." },
-    { "id": "nhie_tr_029", "intensity": "spicy", "minAge": 18, "text": "Ben hiç kıskanmamam gereken birini kıskanmadım." },
-    { "id": "nhie_tr_030", "intensity": "spicy", "minAge": 18, "text": "Ben hiç duygularımı aşırı utanç verici bir şekilde itiraf etmedim." },
-    { "id": "nhie_tr_031", "intensity": "spicy", "minAge": 18, "text": "Ben hiç görünüşümü kullanıp başımı beladan kurtarmadım." },
-    { "id": "nhie_tr_032", "intensity": "spicy", "minAge": 18, "text": "Ben hiç ani bir kararla birine DM atmadım." },
-    { "id": "nhie_tr_033", "intensity": "spicy", "minAge": 18, "text": "Ben hiç kendi başlattığım ayrılıktan sonra ağlamadım." },
-    { "id": "nhie_tr_034", "intensity": "spicy", "minAge": 18, "text": "Ben hiç 'fazla naz yaptım' diye bir ilişkiyi bozmadım." },
-    { "id": "nhie_tr_035", "intensity": "spicy", "minAge": 18, "text": "Ben hiç birinin telefonunu kurcalamaya niyetlenmedim." },
-    { "id": "nhie_tr_036", "intensity": "spicy", "minAge": 18, "text": "Ben hiç sadece ilgisi hoşuma gittiği için biriyle konuşmaya devam etmedim." },
-    { "id": "nhie_tr_037", "intensity": "spicy", "minAge": 18, "text": "Ben hiç ikimizin de sevdiği biri yüzünden en iyi arkadaşımla bozuşmadım." },
-    { "id": "nhie_tr_038", "intensity": "spicy", "minAge": 18, "text": "Ben hiç yürümeyen bir ilişkide sırf rahat olduğu için kalmadım." },
-    { "id": "nhie_tr_039", "intensity": "spicy", "minAge": 18, "text": "Ben hiç birini etkilemek için hikâye uydurmadım." },
-    { "id": "nhie_tr_040", "intensity": "spicy", "minAge": 18, "text": "Ben hiç flörtöz bir sohbet başlatıp sonunda geri adım atmadım." }
+    {
+      "id": "nhie_tr_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ben hiç bir pizzayı tek başıma bitirmedim."
+    },
+    {
+      "id": "nhie_tr_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ben hiç 24 saatten fazla uyanık kalmadım."
+    },
+    {
+      "id": "nhie_tr_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ben hiç gülerken ağlamadım."
+    },
+    {
+      "id": "nhie_tr_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ben hiç sözlerini bilmediğim bir şarkıya biliyormuş gibi eşlik etmedim."
+    },
+    {
+      "id": "nhie_tr_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ben hiç bir dizinin sezonunu bir günde bitirmedim."
+    },
+    {
+      "id": "nhie_tr_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ben hiç bir günü pijamayla geçirmedim."
+    },
+    {
+      "id": "nhie_tr_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ben hiç yere düşen bir şeyi 5 saniye kuralı diyerek yemedim."
+    },
+    {
+      "id": "nhie_tr_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ben hiç tanıştıktan hemen sonra birinin adını unutmadım."
+    },
+    {
+      "id": "nhie_tr_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ben hiç kalabalık bir yerde farkında olmadan kendi kendime konuşmadım."
+    },
+    {
+      "id": "nhie_tr_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ben hiç öğretmene yanlışlıkla anne ya da baba demedim."
+    },
+    {
+      "id": "nhie_tr_011",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ben hiç ayrıldıktan sonra eski sevgilimi sosyal medyadan takip etmedim."
+    },
+    {
+      "id": "nhie_tr_012",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ben hiç birini görmezden gelmek için sokakta rol yapmadım."
+    },
+    {
+      "id": "nhie_tr_013",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ben hiç kendimi Google'da aratmadım."
+    },
+    {
+      "id": "nhie_tr_014",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ben hiç birini görmemek için meşgulmüş gibi yapmadım."
+    },
+    {
+      "id": "nhie_tr_015",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ben hiç bir reklamı izlerken ağlamadım."
+    },
+    {
+      "id": "nhie_tr_016",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ben hiç o anlık bir alışveriş yapıp pişman olmadım."
+    },
+    {
+      "id": "nhie_tr_017",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ben hiç birinin benim hakkımdaki konuşmasını gizlice dinlemedim."
+    },
+    {
+      "id": "nhie_tr_018",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ben hiç bir konuşmayı kafamda prova etmedim."
+    },
+    {
+      "id": "nhie_tr_019",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ben hiç yanlış kişiye ekran görüntüsü göndermedim."
+    },
+    {
+      "id": "nhie_tr_020",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ben hiç başkasının emeğini sahiplenmedim."
+    },
+    {
+      "id": "nhie_tr_021",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ben hiç aynı haftada birden fazla kişiyle çıkmadım."
+    },
+    {
+      "id": "nhie_tr_022",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ben hiç soyadını bilmediğim biriyle öpüşmedim."
+    },
+    {
+      "id": "nhie_tr_023",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ben hiç en iyi arkadaşıma karşı bir şeyler hissetmedim."
+    },
+    {
+      "id": "nhie_tr_024",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ben hiç bu odadaki birine karşı ilgi duymadım."
+    },
+    {
+      "id": "nhie_tr_025",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ben hiç reddedilip 'şaka yapıyordum' gibi davranmadım."
+    },
+    {
+      "id": "nhie_tr_026",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ben hiç gece 02.00'de riskli bir mesaj atıp sabah pişman olmadım."
+    },
+    {
+      "id": "nhie_tr_027",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ben hiç 'seninle bittim' dediğim eski birine geri dönmedim."
+    },
+    {
+      "id": "nhie_tr_028",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ben hiç sevdiğimden emin olmadığım birine 'seni seviyorum' demedim."
+    },
+    {
+      "id": "nhie_tr_029",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ben hiç kıskanmamam gereken birini kıskanmadım."
+    },
+    {
+      "id": "nhie_tr_030",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ben hiç duygularımı aşırı utanç verici bir şekilde itiraf etmedim."
+    },
+    {
+      "id": "nhie_tr_031",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ben hiç görünüşümü kullanıp başımı beladan kurtarmadım."
+    },
+    {
+      "id": "nhie_tr_032",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ben hiç ani bir kararla birine DM atmadım."
+    },
+    {
+      "id": "nhie_tr_033",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ben hiç kendi başlattığım ayrılıktan sonra ağlamadım."
+    },
+    {
+      "id": "nhie_tr_034",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ben hiç 'fazla naz yaptım' diye bir ilişkiyi bozmadım."
+    },
+    {
+      "id": "nhie_tr_035",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ben hiç birinin telefonunu kurcalamaya niyetlenmedim."
+    },
+    {
+      "id": "nhie_tr_036",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ben hiç sadece ilgisi hoşuma gittiği için biriyle konuşmaya devam etmedim."
+    },
+    {
+      "id": "nhie_tr_037",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ben hiç ikimizin de sevdiği biri yüzünden en iyi arkadaşımla bozuşmadım."
+    },
+    {
+      "id": "nhie_tr_038",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ben hiç yürümeyen bir ilişkide sırf rahat olduğu için kalmadım."
+    },
+    {
+      "id": "nhie_tr_039",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ben hiç birini etkilemek için hikâye uydurmadım."
+    },
+    {
+      "id": "nhie_tr_040",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ben hiç flörtöz bir sohbet başlatıp sonunda geri adım atmadım."
+    },
+    {
+      "id": "nhie_tr_041",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç telefonumu evde unutmadım."
+    },
+    {
+      "id": "nhie_tr_042",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç yanlış otobüse ya da metroya binmedim."
+    },
+    {
+      "id": "nhie_tr_043",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç akşam yemeğinden önce tatlı yemedim."
+    },
+    {
+      "id": "nhie_tr_044",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç alarmı duymayıp uyumaya devam etmedim."
+    },
+    {
+      "id": "nhie_tr_045",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç farklı çorap giyip dışarı çıkmadım."
+    },
+    {
+      "id": "nhie_tr_046",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç ciddi bir anda gülmemek için kendimi zor tutmadım."
+    },
+    {
+      "id": "nhie_tr_047",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç üstüme içecek döküp mahcup olmadım."
+    },
+    {
+      "id": "nhie_tr_048",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç açken markete gidip gereksiz şeyler almadım."
+    },
+    {
+      "id": "nhie_tr_049",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç anahtarımı bir günden fazla kaybetmedim."
+    },
+    {
+      "id": "nhie_tr_050",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç iki gün üst üste aynı kıyafeti giymedim."
+    },
+    {
+      "id": "nhie_tr_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç telefonu gece şarja takmayı unutmamış değilim."
+    },
+    {
+      "id": "nhie_tr_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç arabada tek başıma yüksek sesle şarkı söylemedim."
+    },
+    {
+      "id": "nhie_tr_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç akşam yemeğinde sadece kahvaltılık yemdim."
+    },
+    {
+      "id": "nhie_tr_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç berberden kötü bir saçla çıkmadım."
+    },
+    {
+      "id": "nhie_tr_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç bir şeyi tamir etmeye çalışıp daha da bozmadım."
+    },
+    {
+      "id": "nhie_tr_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç yanlış sınıfa ya da toplantıya girmedim."
+    },
+    {
+      "id": "nhie_tr_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç sinemada film sırasında uyuyakalmadım."
+    },
+    {
+      "id": "nhie_tr_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç mesajı yanlış gruba göndermedim."
+    },
+    {
+      "id": "nhie_tr_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç yaptığım kekin rezil olduğu olmadı."
+    },
+    {
+      "id": "nhie_tr_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç balık beslemedim."
+    },
+    {
+      "id": "nhie_tr_061",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç alarmı beşten fazla ertelemedim."
+    },
+    {
+      "id": "nhie_tr_062",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç 'geliyorum' deyip evden çıkmadım."
+    },
+    {
+      "id": "nhie_tr_063",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç yakın bir arkadaşımın doğum gününü unutmadım."
+    },
+    {
+      "id": "nhie_tr_064",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç gizlice dinlerken yakalanmadım."
+    },
+    {
+      "id": "nhie_tr_065",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç telefonu kapatmak için 'şarjım bitti' demedim."
+    },
+    {
+      "id": "nhie_tr_066",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç işten ya da okuldan birine hoşlanmadım."
+    },
+    {
+      "id": "nhie_tr_067",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç eski mesajları dönüp dönüp okumadım."
+    },
+    {
+      "id": "nhie_tr_068",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç gönderdiğim mesajı hemen silmedim."
+    },
+    {
+      "id": "nhie_tr_069",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç meraktan birinin profilini stalklamadım."
+    },
+    {
+      "id": "nhie_tr_070",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç utancımdan bir ortamdan kaçmak istemedim."
+    },
+    {
+      "id": "nhie_tr_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç özgeçmişte abartı yapmadım."
+    },
+    {
+      "id": "nhie_tr_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç aldığım bir şeyi geri getirmeyi unutmamış değilim."
+    },
+    {
+      "id": "nhie_tr_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç birini engelleyip sonra meraktan açmadım."
+    },
+    {
+      "id": "nhie_tr_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç kafede sahte isim vermedim."
+    },
+    {
+      "id": "nhie_tr_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç grup sohbetini 'ghost'lamadım."
+    },
+    {
+      "id": "nhie_tr_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç geç kalmayı trafiğe atıp aslında geç çıkmadım."
+    },
+    {
+      "id": "nhie_tr_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç izlemediğim bir şeyi izlemiş gibi yapmadım."
+    },
+    {
+      "id": "nhie_tr_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç şifreyi unutup yeni hesap açmadım."
+    },
+    {
+      "id": "nhie_tr_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç bilerek bütün gün yatakta kalmadım."
+    },
+    {
+      "id": "nhie_tr_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç bir arkadaşımın sevgilisini gizlice sevmedim."
+    },
+    {
+      "id": "nhie_tr_081",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hiç o gece tanıştığım biriyle öpüşmedim."
+    },
+    {
+      "id": "nhie_tr_082",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hiç gizli bir flört yaşamadım."
+    },
+    {
+      "id": "nhie_tr_083",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hiç riskli bir fotoğraf göndermedim."
+    },
+    {
+      "id": "nhie_tr_084",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hiç ilişki durumum hakkında yalan söylemedim."
+    },
+    {
+      "id": "nhie_tr_085",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hiç sırf yemek için randevuya gitmedim."
+    },
+    {
+      "id": "nhie_tr_086",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hiç evden gizlice kaçmadım."
+    },
+    {
+      "id": "nhie_tr_087",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hiç aynı anda iki kişiden hoşlanmadım."
+    },
+    {
+      "id": "nhie_tr_088",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hiç bir arkadaşımın ilişkisine kıskançlık duymadım."
+    },
+    {
+      "id": "nhie_tr_089",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hiç bir şeyi gizlemek için mesaj silmedim."
+    },
+    {
+      "id": "nhie_tr_090",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hiç bir iyilik için flört etmedim."
+    },
+    {
+      "id": "nhie_tr_091",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç sıfırdan kurabiye yapmadım."
+    },
+    {
+      "id": "nhie_tr_092",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç derste uyuyakalmadım."
+    },
+    {
+      "id": "nhie_tr_093",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç bilerek otobüsü kaçırmadım."
+    },
+    {
+      "id": "nhie_tr_094",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç kardan adam yapmadım."
+    },
+    {
+      "id": "nhie_tr_095",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç telefonsuz bir günü tamamen geçirmedim."
+    },
+    {
+      "id": "nhie_tr_096",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç aynı kıyafeti iki gün üst üste giymedim."
+    },
+    {
+      "id": "nhie_tr_097",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç arabamı nereye park ettiğimi unutmadım."
+    },
+    {
+      "id": "nhie_tr_098",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç duştayken yüksek sesle şarkı söylemedim."
+    },
+    {
+      "id": "nhie_tr_099",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç AVM'de kaybolmadım."
+    },
+    {
+      "id": "nhie_tr_100",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç yeni bir yemeği dener denemez sevmedim."
+    },
+    {
+      "id": "nhie_tr_101",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç ödünç aldığım kitabı geri vermedim."
+    },
+    {
+      "id": "nhie_tr_102",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç bir diziyi bir hafta sonu boyunca aralıksız bitirmedim."
+    },
+    {
+      "id": "nhie_tr_103",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç gülmekten gözümden yaş gelmedi."
+    },
+    {
+      "id": "nhie_tr_104",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç el yapımı bir hediye yapmadım."
+    },
+    {
+      "id": "nhie_tr_105",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç bütün gece sohbet edip uyumadım."
+    },
+    {
+      "id": "nhie_tr_106",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç planladığım bir antrenmanı atlamadım."
+    },
+    {
+      "id": "nhie_tr_107",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç “beş dakikaya geliyorum” deyip yalan söylemedim."
+    },
+    {
+      "id": "nhie_tr_108",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç yanlış kişiye mesaj atmadım."
+    },
+    {
+      "id": "nhie_tr_109",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç bir şeyi kırıp başkasına suç atmadım."
+    },
+    {
+      "id": "nhie_tr_110",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiç hız cezası yemedim."
+    },
+    {
+      "id": "nhie_tr_111",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç beğenmediğim bir hediyeyi beğenmiş gibi yapmadım."
+    },
+    {
+      "id": "nhie_tr_112",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç dışarı çıkmadan önce menüye internetten bakmadım."
+    },
+    {
+      "id": "nhie_tr_113",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç hasta olmadığım halde rapor almadım."
+    },
+    {
+      "id": "nhie_tr_114",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç plansız bir seyahate çıkmadım."
+    },
+    {
+      "id": "nhie_tr_115",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç kırmızı ışıkta arabada şarkı söylerken yakalanmadım."
+    },
+    {
+      "id": "nhie_tr_116",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç bir işi yetiştirmek için sabahlayıp bitirmedim."
+    },
+    {
+      "id": "nhie_tr_117",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç kalabalık içinde film izlerken ağlamadım."
+    },
+    {
+      "id": "nhie_tr_118",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç bilerek bir mesaja dönmedim."
+    },
+    {
+      "id": "nhie_tr_119",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç plan iptal ettiğim için suçluluk hissetmedim."
+    },
+    {
+      "id": "nhie_tr_120",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç kendi zil sesimden utanmadım."
+    },
+    {
+      "id": "nhie_tr_121",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç sadece indirimde diye bir şey satın almadım."
+    },
+    {
+      "id": "nhie_tr_122",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç bilmediğim bir şarkıyı biliyormuş gibi yapmadım."
+    },
+    {
+      "id": "nhie_tr_123",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç birinin buzdolabını karıştırmadım."
+    },
+    {
+      "id": "nhie_tr_124",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç dil öğrenmeye başlayıp bırakmadım."
+    },
+    {
+      "id": "nhie_tr_125",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç gülmeden “lol” yazmadım."
+    },
+    {
+      "id": "nhie_tr_126",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç gitmeyeceğimi bildiğim bir randevuya çıkmadım."
+    },
+    {
+      "id": "nhie_tr_127",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç iş arkadaşına hoşlanmadım."
+    },
+    {
+      "id": "nhie_tr_128",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç belirsiz bir ilişkim olmadı."
+    },
+    {
+      "id": "nhie_tr_129",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç flört ederken yakalanmadım."
+    },
+    {
+      "id": "nhie_tr_130",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hiç bir randevudan sonra ghostlamadım."
+    },
+    {
+      "id": "nhie_tr_131",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hiç riskli bir mesaj atıp hemen pişman olmadım."
+    },
+    {
+      "id": "nhie_tr_132",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hiç yaşım hakkında yalan söylemedim."
+    },
+    {
+      "id": "nhie_tr_133",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hiç yeni tanıştığım biriyle öpüşmedim."
+    },
+    {
+      "id": "nhie_tr_134",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hiç bir arkadaşıma karşı hislerim olmadı."
+    },
+    {
+      "id": "nhie_tr_135",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hiç dating uygulaması kullanmadım."
+    },
+    {
+      "id": "nhie_tr_136",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hiç gece geç saatte ex'ime mesaj atmadım."
+    },
+    {
+      "id": "nhie_tr_137",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hiç randevu sırasında uyuyakalmadım."
+    },
+    {
+      "id": "nhie_tr_138",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hiç kötü bir randevudan kaçmak için erken dönmedim."
+    },
+    {
+      "id": "nhie_tr_139",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hiç bir arkadaşımın ilişkisini kıskanmadım."
+    },
+    {
+      "id": "nhie_tr_140",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hiç karşı taraf görmeden mesajımı silmedim."
+    }
   ]
 }

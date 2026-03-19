@@ -1,16 +1,21 @@
 import { shuffle } from '@/utils/shuffle'
 import type { PromptItem } from '@/types'
 
-let _en: PromptItem[] | null = null
-let _tr: PromptItem[] | null = null
+const PROMPTS: Record<string, PromptItem[]> = {
+  en: require('@/data/prompts/hot-takes/en.json').prompts as PromptItem[],
+  tr: require('@/data/prompts/hot-takes/tr.json').prompts as PromptItem[],
+  de: require('@/data/prompts/hot-takes/de.json').prompts as PromptItem[],
+  fr: require('@/data/prompts/hot-takes/fr.json').prompts as PromptItem[],
+  es: require('@/data/prompts/hot-takes/es.json').prompts as PromptItem[],
+  pt: require('@/data/prompts/hot-takes/pt.json').prompts as PromptItem[],
+  ru: require('@/data/prompts/hot-takes/ru.json').prompts as PromptItem[],
+  ar: require('@/data/prompts/hot-takes/ar.json').prompts as PromptItem[],
+  it: require('@/data/prompts/hot-takes/it.json').prompts as PromptItem[],
+  nl: require('@/data/prompts/hot-takes/nl.json').prompts as PromptItem[],
+}
 
 function loadPrompts(locale: string): PromptItem[] {
-  if (locale === 'tr') {
-    if (!_tr) _tr = (require('@/data/prompts/hot-takes/tr.json').prompts as PromptItem[])
-    return _tr
-  }
-  if (!_en) _en = (require('@/data/prompts/hot-takes/en.json').prompts as PromptItem[])
-  return _en
+  return PROMPTS[locale] ?? PROMPTS.en
 }
 
 export const hotTakesLogic = {
@@ -26,7 +31,7 @@ export const hotTakesLogic = {
 
     const fallback: PromptItem = {
       id: 'fallback',
-      text: 'Social media has made the world a worse place.',
+      text: 'Pineapple absolutely belongs on pizza.',
       intensity,
     }
     return shuffle(pool)[0] ?? fallback

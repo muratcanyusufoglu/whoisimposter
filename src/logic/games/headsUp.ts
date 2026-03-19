@@ -53,8 +53,7 @@ export const headsUpLogic = {
       : DEFAULT_HEADSUP_CATEGORIES
     const all = shuffle(wordSelector.buildPool(categories, locale))
     const fresh = all.filter((w) => !usedWords.includes(w))
-    // Auto-reset when pool exhausted
-    return fresh.length >= 10 ? fresh : all
+    return fresh
   },
 
   /**

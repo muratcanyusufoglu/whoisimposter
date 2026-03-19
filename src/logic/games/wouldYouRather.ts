@@ -1,16 +1,21 @@
 import { shuffle } from '@/utils/shuffle'
 import type { PromptItem } from '@/types'
 
-let _en: PromptItem[] | null = null
-let _tr: PromptItem[] | null = null
+const PROMPTS: Record<string, PromptItem[]> = {
+  en: require('@/data/prompts/would-you-rather/en.json').prompts as PromptItem[],
+  tr: require('@/data/prompts/would-you-rather/tr.json').prompts as PromptItem[],
+  de: require('@/data/prompts/would-you-rather/de.json').prompts as PromptItem[],
+  fr: require('@/data/prompts/would-you-rather/fr.json').prompts as PromptItem[],
+  es: require('@/data/prompts/would-you-rather/es.json').prompts as PromptItem[],
+  pt: require('@/data/prompts/would-you-rather/pt.json').prompts as PromptItem[],
+  ru: require('@/data/prompts/would-you-rather/ru.json').prompts as PromptItem[],
+  ar: require('@/data/prompts/would-you-rather/ar.json').prompts as PromptItem[],
+  it: require('@/data/prompts/would-you-rather/it.json').prompts as PromptItem[],
+  nl: require('@/data/prompts/would-you-rather/nl.json').prompts as PromptItem[],
+}
 
 function loadPrompts(locale: string): PromptItem[] {
-  if (locale === 'tr') {
-    if (!_tr) _tr = (require('@/data/prompts/would-you-rather/tr.json').prompts as PromptItem[])
-    return _tr
-  }
-  if (!_en) _en = (require('@/data/prompts/would-you-rather/en.json').prompts as PromptItem[])
-  return _en
+  return PROMPTS[locale] ?? PROMPTS.en
 }
 
 export const wouldYouRatherLogic = {
@@ -26,7 +31,7 @@ export const wouldYouRatherLogic = {
 
     const fallback: PromptItem = {
       id: 'fallback',
-      text: 'Would you rather always know the truth or always believe in something hopeful?',
+      text: 'Would you rather always be 10 minutes late or always be 20 minutes early?',
       intensity,
     }
     return shuffle(pool)[0] ?? fallback

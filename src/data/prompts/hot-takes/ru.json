@@ -1,0 +1,607 @@
+{
+  "gameId": "hot-takes",
+  "locale": "ru",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "ht_ru_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Чёрный чай лучше кофе."
+    },
+    {
+      "id": "ht_ru_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Газированная вода на вкус как ошибка."
+    },
+    {
+      "id": "ht_ru_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Бранч — это просто дорогой завтрак."
+    },
+    {
+      "id": "ht_ru_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Смена обуви важнее стиля."
+    },
+    {
+      "id": "ht_ru_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Сериал смотреть приятнее, чем фильм."
+    },
+    {
+      "id": "ht_ru_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Место у прохода лучше окна."
+    },
+    {
+      "id": "ht_ru_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Снимать концерт на телефон — пустая трата времени."
+    },
+    {
+      "id": "ht_ru_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Пельмени спасают любой вечер."
+    },
+    {
+      "id": "ht_ru_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Рынок лучше супермаркета."
+    },
+    {
+      "id": "ht_ru_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Велосипед в городе удобнее машины."
+    },
+    {
+      "id": "ht_ru_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Тишина — лучшая фоновая музыка."
+    },
+    {
+      "id": "ht_ru_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Суп — это напиток."
+    },
+    {
+      "id": "ht_ru_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Воскресенье должно быть длиннее."
+    },
+    {
+      "id": "ht_ru_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Домашняя еда всегда лучше доставки."
+    },
+    {
+      "id": "ht_ru_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Белые кроссовки идут ко всему."
+    },
+    {
+      "id": "ht_ru_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Дождь делает город уютнее."
+    },
+    {
+      "id": "ht_ru_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Чтение в телефоне не хуже книги."
+    },
+    {
+      "id": "ht_ru_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Поздний ужин вкуснее раннего."
+    },
+    {
+      "id": "ht_ru_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Каша — лучший завтрак."
+    },
+    {
+      "id": "ht_ru_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Настоящий отдых — без плана."
+    },
+    {
+      "id": "ht_ru_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Не отвечать сутки — это игнор."
+    },
+    {
+      "id": "ht_ru_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Отменять планы в последний момент хуже опоздания."
+    },
+    {
+      "id": "ht_ru_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Групповые поездки рушат дружбу."
+    },
+    {
+      "id": "ht_ru_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Делиться геолокацией в отношениях нормально."
+    },
+    {
+      "id": "ht_ru_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Кто говорит «без драм», тот и делает драмы."
+    },
+    {
+      "id": "ht_ru_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Первое свидание должно быть коротким."
+    },
+    {
+      "id": "ht_ru_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Человека видно по его заказу кофе."
+    },
+    {
+      "id": "ht_ru_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Шумные рестораны — это провал."
+    },
+    {
+      "id": "ht_ru_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Пунктуальность — это уважение."
+    },
+    {
+      "id": "ht_ru_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Люди предпочитают быть правыми, а не счастливыми."
+    },
+    {
+      "id": "ht_ru_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Друзья, которые исчезают при отношениях, эгоисты."
+    },
+    {
+      "id": "ht_ru_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Постить сторис весь день — это показуха."
+    },
+    {
+      "id": "ht_ru_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Самый тихий в компании — самый интересный."
+    },
+    {
+      "id": "ht_ru_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Фраза «я занят» чаще всего отговорка."
+    },
+    {
+      "id": "ht_ru_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Чаты — больше усталость, чем польза."
+    },
+    {
+      "id": "ht_ru_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ненавидеть смоллток — не значит быть глубоким."
+    },
+    {
+      "id": "ht_ru_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Дружба видна по разделению счёта."
+    },
+    {
+      "id": "ht_ru_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Планы и не прийти — это неуважение."
+    },
+    {
+      "id": "ht_ru_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "«Софт-лаунч» отношений — это неуверенность."
+    },
+    {
+      "id": "ht_ru_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Жить без отпусков — плохое управление жизнью."
+    },
+    {
+      "id": "ht_ru_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Большинство пар вместе по привычке."
+    },
+    {
+      "id": "ht_ru_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ревность — это эго, а не любовь."
+    },
+    {
+      "id": "ht_ru_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Один раз проверил телефон — повторишь."
+    },
+    {
+      "id": "ht_ru_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "«Пауза» — это медленный разрыв."
+    },
+    {
+      "id": "ht_ru_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Этап переписки — это страх привязанности."
+    },
+    {
+      "id": "ht_ru_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Измену прощают чаще, чем признают."
+    },
+    {
+      "id": "ht_ru_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Самые уверенные выглядят сильными, но внутри хрупкие."
+    },
+    {
+      "id": "ht_ru_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ты не занят, ты не приоритет."
+    },
+    {
+      "id": "ht_ru_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Многие влюблённости — это голод по вниманию."
+    },
+    {
+      "id": "ht_ru_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Химия — это во многом правильный момент."
+    },
+    {
+      "id": "ht_ru_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Холодная пицца вкуснее горячей."
+    },
+    {
+      "id": "ht_ru_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Трейлеры портят фильмы."
+    },
+    {
+      "id": "ht_ru_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Групповые чаты должны быть в муте по умолчанию."
+    },
+    {
+      "id": "ht_ru_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Бранч — это просто повод переплачивать за яйца."
+    },
+    {
+      "id": "ht_ru_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Носки с сандалиями — это нормально."
+    },
+    {
+      "id": "ht_ru_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Дождливые дни расслабляют больше, чем солнечные."
+    },
+    {
+      "id": "ht_ru_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Караоке веселее, когда поешь плохо."
+    },
+    {
+      "id": "ht_ru_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ложиться рано — недооцененная привычка."
+    },
+    {
+      "id": "ht_ru_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "В телефоне должен быть “не беспокоить” для отдельных людей."
+    },
+    {
+      "id": "ht_ru_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Длинные голосовые — это невежливо."
+    },
+    {
+      "id": "ht_ru_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Библиотеки — самые недооцененные места в городе."
+    },
+    {
+      "id": "ht_ru_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Настолки лучше видеоигр для вечеринок."
+    },
+    {
+      "id": "ht_ru_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Бумажные книги лучше электронных."
+    },
+    {
+      "id": "ht_ru_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Лучшие места на концерте — сзади, где есть место танцевать."
+    },
+    {
+      "id": "ht_ru_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Последний кусок не должен оставаться."
+    },
+    {
+      "id": "ht_ru_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Уметь готовить полезнее, чем уметь водить."
+    },
+    {
+      "id": "ht_ru_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Горы > пляж."
+    },
+    {
+      "id": "ht_ru_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Маленькие свадьбы веселее больших."
+    },
+    {
+      "id": "ht_ru_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Парам иногда нужно ездить в отпуск отдельно."
+    },
+    {
+      "id": "ht_ru_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Тот, кто отменяет в последний момент, должен принести снеки в следующий раз."
+    },
+    {
+      "id": "ht_ru_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ночные перекусы лучше завтрака."
+    },
+    {
+      "id": "ht_ru_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Лайки не должны быть публичными."
+    },
+    {
+      "id": "ht_ru_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Разговаривать по громкой связи в публичном месте должно быть запрещено."
+    },
+    {
+      "id": "ht_ru_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Мит-преп — переоценён."
+    },
+    {
+      "id": "ht_ru_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Лучшие фото — спонтанные."
+    },
+    {
+      "id": "ht_ru_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Дорогие кроссовки — пустая трата денег."
+    },
+    {
+      "id": "ht_ru_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Выходные должны быть трёхдневными."
+    },
+    {
+      "id": "ht_ru_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Неожиданные визиты — это невежливо."
+    },
+    {
+      "id": "ht_ru_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ананасовый сок подходит к любому смузи."
+    },
+    {
+      "id": "ht_ru_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Писать от руки лучше, чем печатать."
+    },
+    {
+      "id": "ht_ru_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Онлайн-дейтинг сделал людей более придирчивыми."
+    },
+    {
+      "id": "ht_ru_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Жить одному делает креативнее."
+    },
+    {
+      "id": "ht_ru_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "«Hot take» чаще всего просто здравый смысл."
+    },
+    {
+      "id": "ht_ru_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "С собой всегда стоит брать многоразовую чашку."
+    },
+    {
+      "id": "ht_ru_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Уличная еда лучше ресторанной."
+    },
+    {
+      "id": "ht_ru_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "«Прочитано» создаёт больше драмы, чем решает."
+    },
+    {
+      "id": "ht_ru_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Общий плейлист — тест для отношений."
+    },
+    {
+      "id": "ht_ru_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Отдельные одеяла полезнее для пары."
+    },
+    {
+      "id": "ht_ru_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Лучшее в путешествии — планирование."
+    },
+    {
+      "id": "ht_ru_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Наушники в зале — обязательно."
+    },
+    {
+      "id": "ht_ru_091",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Бариста заслуживают больше чаевых."
+    },
+    {
+      "id": "ht_ru_092",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Татуировки должны быть разрешены на любой работе."
+    },
+    {
+      "id": "ht_ru_093",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Нам нужно меньше уведомлений, а не больше."
+    },
+    {
+      "id": "ht_ru_094",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Питомцев стоит пускать в большее число кафе."
+    },
+    {
+      "id": "ht_ru_095",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Праздники должны выбирать голосованием."
+    },
+    {
+      "id": "ht_ru_096",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Всем стоит уметь оказывать первую помощь."
+    },
+    {
+      "id": "ht_ru_097",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "В дорогих ресторанах должно быть детское меню."
+    },
+    {
+      "id": "ht_ru_098",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Кинотеатрам стоит вернуть антракты."
+    },
+    {
+      "id": "ht_ru_099",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Отчёты о прочтении должны быть опциональными везде."
+    },
+    {
+      "id": "ht_ru_100",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Опоздание — это выбор, а не характер."
+    }
+  ]
+}

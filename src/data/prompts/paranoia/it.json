@@ -1,0 +1,607 @@
+{
+  "gameId": "paranoia",
+  "locale": "it",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "par_it_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi darebbe le indicazioni migliori senza mappa?"
+    },
+    {
+      "id": "par_it_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi adotterebbe per primo un animale randagio?"
+    },
+    {
+      "id": "par_it_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi inizierebbe un nuovo hobby e lo continuerebbe?"
+    },
+    {
+      "id": "par_it_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi sarebbe il miglior capitano di squadra?"
+    },
+    {
+      "id": "par_it_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi vincerebbe un concorso di pasticceria?"
+    },
+    {
+      "id": "par_it_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi farebbe amicizia con sconosciuti in viaggio?"
+    },
+    {
+      "id": "par_it_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi organizzerebbe per primo una festa a sorpresa?"
+    },
+    {
+      "id": "par_it_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi resisterebbe una settimana senza telefono?"
+    },
+    {
+      "id": "par_it_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi gestisce meglio i soldi?"
+    },
+    {
+      "id": "par_it_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi dimenticherebbe l'ombrello in un giorno di pioggia?"
+    },
+    {
+      "id": "par_it_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi sarebbe il primo a ballare a un matrimonio?"
+    },
+    {
+      "id": "par_it_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi ha il miglior gusto musicale?"
+    },
+    {
+      "id": "par_it_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi si perderebbe anche con il GPS?"
+    },
+    {
+      "id": "par_it_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi è il migliore a mantenere un segreto?"
+    },
+    {
+      "id": "par_it_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi si offrirebbe di aiutare un vicino?"
+    },
+    {
+      "id": "par_it_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi organizzerebbe il programma del gruppo?"
+    },
+    {
+      "id": "par_it_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi farebbe binge di una serie in un giorno?"
+    },
+    {
+      "id": "par_it_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi cucinerebbe meglio per tante persone?"
+    },
+    {
+      "id": "par_it_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi farebbe più foto in viaggio?"
+    },
+    {
+      "id": "par_it_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi sarebbe l'ultimo ad andare via da una festa?"
+    },
+    {
+      "id": "par_it_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi ghosterebbe una chat di gruppo per settimane?"
+    },
+    {
+      "id": "par_it_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi annullerebbe i piani con la scusa più debole?"
+    },
+    {
+      "id": "par_it_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi analizzerebbe un solo messaggio per ore?"
+    },
+    {
+      "id": "par_it_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi spenderebbe di più a un primo appuntamento?"
+    },
+    {
+      "id": "par_it_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi si innamorerebbe più in fretta?"
+    },
+    {
+      "id": "par_it_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi terrebbe nascosta una cotta più a lungo?"
+    },
+    {
+      "id": "par_it_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi inizierebbe una voce per sbaglio?"
+    },
+    {
+      "id": "par_it_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi posterebbe per primo dopo una rottura?"
+    },
+    {
+      "id": "par_it_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi uscirebbe con qualcuno completamente diverso dal suo tipo?"
+    },
+    {
+      "id": "par_it_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi resterebbe amico di un ex?"
+    },
+    {
+      "id": "par_it_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi sarebbe il più competitivo nei giochi?"
+    },
+    {
+      "id": "par_it_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi flirterebbe di più a una festa?"
+    },
+    {
+      "id": "par_it_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi cambierebbe carriera senza dirlo a nessuno?"
+    },
+    {
+      "id": "par_it_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi avrebbe più probabilità di trasferirsi in un altro paese?"
+    },
+    {
+      "id": "par_it_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi farebbe la valigia troppo piena per un weekend?"
+    },
+    {
+      "id": "par_it_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi arriverebbe con un'ora di anticipo?"
+    },
+    {
+      "id": "par_it_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi leggerebbe il messaggio e si dimenticherebbe di rispondere?"
+    },
+    {
+      "id": "par_it_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi terrebbe screenshot «per sicurezza»?"
+    },
+    {
+      "id": "par_it_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi sceglierebbe il film più drammatico?"
+    },
+    {
+      "id": "par_it_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi sarebbe il più testardo in una discussione?"
+    },
+    {
+      "id": "par_it_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Chi avrebbe la storia di appuntamenti più caotica?"
+    },
+    {
+      "id": "par_it_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Chi avrebbe più probabilità di avere un ammiratore segreto?"
+    },
+    {
+      "id": "par_it_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Chi direbbe «ti amo» per primo?"
+    },
+    {
+      "id": "par_it_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Chi continuerebbe a flirtare anche quando è evidente?"
+    },
+    {
+      "id": "par_it_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Chi sarebbe più propenso a controllare il telefono del partner?"
+    },
+    {
+      "id": "par_it_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Chi avrebbe un rebound più veloce?"
+    },
+    {
+      "id": "par_it_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Chi sarebbe il più geloso in una relazione?"
+    },
+    {
+      "id": "par_it_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Chi uscirebbe con due persone allo stesso tempo?"
+    },
+    {
+      "id": "par_it_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Chi nasconderebbe una situationship agli amici?"
+    },
+    {
+      "id": "par_it_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Chi spezzerebbe cuori senza accorgersene?"
+    },
+    {
+      "id": "par_it_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi si offrirebbe di guidare un progetto di gruppo?"
+    },
+    {
+      "id": "par_it_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi resisterebbe più a lungo senza telefono?"
+    },
+    {
+      "id": "par_it_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi sarebbe il primo a ballare a una festa?"
+    },
+    {
+      "id": "par_it_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi si perderebbe anche in una passeggiata semplice?"
+    },
+    {
+      "id": "par_it_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi ricorderebbe l’ordine del caffè di tutti?"
+    },
+    {
+      "id": "par_it_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi porterebbe snack per tutto il gruppo?"
+    },
+    {
+      "id": "par_it_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi inizierebbe una conversazione con uno sconosciuto?"
+    },
+    {
+      "id": "par_it_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi sarebbe il migliore a calmare tutti?"
+    },
+    {
+      "id": "par_it_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi finirebbe un puzzle più velocemente?"
+    },
+    {
+      "id": "par_it_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi arriverebbe tardi anche con i promemoria?"
+    },
+    {
+      "id": "par_it_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi farebbe un piano di viaggio dettagliato?"
+    },
+    {
+      "id": "par_it_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi vincerebbe una gara di cucina?"
+    },
+    {
+      "id": "par_it_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi conoscerebbe i migliori spot per le foto?"
+    },
+    {
+      "id": "par_it_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi sarebbe più propenso ad adottare un animale?"
+    },
+    {
+      "id": "par_it_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi si scotterebbe al sole più in fretta?"
+    },
+    {
+      "id": "par_it_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi dimenticherebbe il portafoglio a casa?"
+    },
+    {
+      "id": "par_it_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi resterebbe amico dell’ex?"
+    },
+    {
+      "id": "par_it_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi spenderebbe tutti i soldi in viaggi?"
+    },
+    {
+      "id": "par_it_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi rovinerebbe una sorpresa per sbaglio?"
+    },
+    {
+      "id": "par_it_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chi sarebbe il migliore a tenere un segreto?"
+    },
+    {
+      "id": "par_it_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi risponderebbe subito ogni volta?"
+    },
+    {
+      "id": "par_it_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi diventerebbe virale per qualcosa di sciocco?"
+    },
+    {
+      "id": "par_it_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi diventerebbe famoso nella sua città?"
+    },
+    {
+      "id": "par_it_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi rischierebbe e si trasferirebbe all’estero?"
+    },
+    {
+      "id": "par_it_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi lascerebbe il lavoro per inseguire un sogno?"
+    },
+    {
+      "id": "par_it_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi trasformerebbe un hobby in business?"
+    },
+    {
+      "id": "par_it_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi verrebbe beccato a fantasticare in riunione?"
+    },
+    {
+      "id": "par_it_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi si tirerebbe fuori da una multa parlando?"
+    },
+    {
+      "id": "par_it_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi perderebbe le chiavi due volte in una settimana?"
+    },
+    {
+      "id": "par_it_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi inizierebbe un pettegolezzo senza volerlo?"
+    },
+    {
+      "id": "par_it_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi avrebbe le reazioni più drammatiche?"
+    },
+    {
+      "id": "par_it_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi flirterebbe per ottenere un tavolo?"
+    },
+    {
+      "id": "par_it_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi avrebbe una cotta segreta nella stanza?"
+    },
+    {
+      "id": "par_it_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi ghosterebbe un appuntamento dopo una grande serata?"
+    },
+    {
+      "id": "par_it_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi direbbe “ti amo” per primo?"
+    },
+    {
+      "id": "par_it_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi terrebbe le app di dating “per ogni evenienza”?"
+    },
+    {
+      "id": "par_it_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi apprezzerebbe il gossip di nascosto?"
+    },
+    {
+      "id": "par_it_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi si innamorerebbe in un viaggio breve?"
+    },
+    {
+      "id": "par_it_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi manderebbe un doppio messaggio?"
+    },
+    {
+      "id": "par_it_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chi verrebbe beccato a guardare il telefono durante un appuntamento?"
+    },
+    {
+      "id": "par_it_091",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Chi annullerebbe i piani all’ultimo minuto?"
+    },
+    {
+      "id": "par_it_092",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Chi prenderebbe qualcosa in prestito e si dimenticherebbe di restituirlo?"
+    },
+    {
+      "id": "par_it_093",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Chi piangerebbe davanti a una pubblicità?"
+    },
+    {
+      "id": "par_it_094",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Chi inizierebbe un dibattito dal nulla?"
+    },
+    {
+      "id": "par_it_095",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Chi porterebbe un caricatore per tutti?"
+    },
+    {
+      "id": "par_it_096",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Chi sarebbe l’ultimo ad andare via dalla festa?"
+    },
+    {
+      "id": "par_it_097",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Chi conoscerebbe tutte le parole di ogni canzone?"
+    },
+    {
+      "id": "par_it_098",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Chi si farebbe un pisolino in pubblico?"
+    },
+    {
+      "id": "par_it_099",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Chi creerebbe un gruppo per tutto?"
+    },
+    {
+      "id": "par_it_100",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Chi farebbe il miglior discorso improvvisato?"
+    }
+  ]
+}

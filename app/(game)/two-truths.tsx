@@ -346,7 +346,7 @@ export default function TwoTruthsScreen() {
         <Animated.View entering={FadeIn.duration(300)} style={styles.centeredContent}>
           <Text style={{ fontSize: 56 }}>🏆</Text>
           <Text style={[styles.revealTitle, { color: theme.text.primary, fontFamily: fontFamily.displayBold }]}>
-            Final Scores
+            {t('scoreboard.final')}
           </Text>
           <View style={[styles.scoreboard, { backgroundColor: theme.bg.surface, borderColor: theme.border.subtle }]}>
             {[...players]
@@ -356,7 +356,7 @@ export default function TwoTruthsScreen() {
                   <Text style={{ fontSize: 18 }}>{i === 0 ? '🥇' : i === 1 ? '🥈' : '🥉'}</Text>
                   <Text style={[styles.scoreName, { color: theme.text.primary, fontFamily: fontFamily.bodyMedium }]}>{p.name}</Text>
                   <Text style={[styles.scoreVal, { color: theme.accent.primary, fontFamily: fontFamily.displayBold }]}>
-                    {scores[p.id] ?? 0} pts
+                    {scores[p.id] ?? 0} {t('scoreboard.pts')}
                   </Text>
                 </View>
               ))}

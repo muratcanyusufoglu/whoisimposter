@@ -30,7 +30,7 @@ import type { GameModeId } from '@/types'
 // expo-sensors not in project, so we use button-based interaction.
 // ─────────────────────────────────────────────────────────────────────────────
 
-type Phase = 'ready' | 'playing' | 'result' | 'done'
+type Phase = 'ready' | 'playing' | 'result' | 'done' | 'empty'
 type ActionEntry = { word: string; action: 'correct' | 'skip' }
 
 export default function HeadsUpScreen() {
@@ -111,6 +111,10 @@ export default function HeadsUpScreen() {
   const handleStartRound = useCallback(() => {
     haptics.medium()
     const pool = buildPool()
+    if (pool.length === 0) {
+      setPhase('empty')
+      return
+    }
     setWordPool(pool)
     setCurrentWordIdx(0)
     setActions([])
@@ -220,6 +224,21 @@ export default function HeadsUpScreen() {
         </Animated.View>
       )}
 
+      {phase === 'empty' && (
+        <Animated.View entering={FadeIn.duration(200)} style={styles.centeredContent}>
+          <Text style={styles.resultEmoji}>🧩</Text>
+          <Text style={[styles.bigText, { color: theme.text.primary, fontFamily: fontFamily.displayBold }]}>
+            {t('headsUp.emptyTitle')}
+          </Text>
+          <Text style={[styles.subText, { color: theme.text.secondary, fontFamily: fontFamily.body }]}>
+            {t('headsUp.emptySubtitle')}
+          </Text>
+          <Button variant="primary" size="lg" onPress={handleEndGame}>
+            {t('headsUp.endGame')}
+          </Button>
+        </Animated.View>
+      )}
+
       {phase === 'playing' && (
         <Animated.View entering={FadeIn.duration(150)} style={styles.playingContent}>
           {/* Timer */}
@@ -313,7 +332,7 @@ export default function HeadsUpScreen() {
         <Animated.View entering={FadeIn.duration(200)} style={styles.centeredContent}>
           <Text style={styles.resultEmoji}>🏆</Text>
           <Text style={[styles.bigText, { color: theme.text.primary, fontFamily: fontFamily.displayBold }]}>
-            Final Scores
+            {t('scoreboard.final')}
           </Text>
           <View style={[styles.wordList, { backgroundColor: theme.bg.surface, borderColor: theme.border.subtle }]}>
             {[...players]

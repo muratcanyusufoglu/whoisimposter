@@ -1,0 +1,392 @@
+{
+  "gameId": "truth-dare",
+  "locale": "ar",
+  "version": 1,
+  "prompts": [
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما آخر شيء بحثت عنه في الإنترنت؟",
+      "id": "td_ar_001"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما الأغنية التي تعرف كلماتها كاملة؟",
+      "id": "td_ar_002"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما أكثر تطبيق تستخدمه؟",
+      "id": "td_ar_003"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما الأكلة التي يمكن أن تأكلها كل يوم؟",
+      "id": "td_ar_004"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما أجمل مجاملة سمعتها؟",
+      "id": "td_ar_005"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما المسلسل أو الفيلم الذي يريحك أكثر؟",
+      "id": "td_ar_006"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما الذي تفخر به هذا العام؟",
+      "id": "td_ar_007"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما أغرب عادة لديك؟",
+      "id": "td_ar_008"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "كيف تسترخي عادة؟",
+      "id": "td_ar_009"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما الموهبة التي تتمنى أن تمتلكها؟",
+      "id": "td_ar_010"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "قلد شخصية مشهورة لمدة 10 ثوانٍ.",
+      "id": "td_ar_011"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "تحدث همسًا حتى الجولة القادمة.",
+      "id": "td_ar_012"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "أرِ آخر صورة التقطتها في هاتفك.",
+      "id": "td_ar_013"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "قم بعمل 10 قفزات.",
+      "id": "td_ar_014"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "دع شخصًا يختار صورتك الشخصية لمدة 24 ساعة.",
+      "id": "td_ar_015"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "شارك معلومة طريفة عن نفسك.",
+      "id": "td_ar_016"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "لفّ حول نفسك 5 مرات ثم امشِ بخط مستقيم.",
+      "id": "td_ar_017"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "أرسل إيموجي لطيفًا لآخر شخص راسلك.",
+      "id": "td_ar_018"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "تصرّف كمذيع أخبار لمدة 20 ثانية.",
+      "id": "td_ar_019"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "اختر المجموعة كلمة يجب أن تستخدمها في كل جملة لمدة 3 دقائق.",
+      "id": "td_ar_020"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما أكثر رسالة محرجة أرسلتها؟",
+      "id": "td_ar_021"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من أكثر شخص تراسله هذه الأيام؟",
+      "id": "td_ar_022"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما الوعد الذي ندمت عليه؟",
+      "id": "td_ar_023"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما الشيء الذي تتظاهر أنك تحبه وأنت لا تحبه؟",
+      "id": "td_ar_024"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "متى كانت آخر مرة غرت فيها؟",
+      "id": "td_ar_025"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما السر الذي أخفيته عن أصدقائك؟",
+      "id": "td_ar_026"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما أسوأ نصيحة اتبعتها؟",
+      "id": "td_ar_027"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما أغلى شيء كسرته؟",
+      "id": "td_ar_028"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما الخوف الذي لم تخبر به أحدًا؟",
+      "id": "td_ar_029"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "من آخر شخص كتمته أو ألغيت متابعته؟",
+      "id": "td_ar_030"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "انشر سطرًا عشوائيًا من أغنية في الستوري.",
+      "id": "td_ar_031"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "أرسل مجاملة لشخص الآن.",
+      "id": "td_ar_032"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "كُل سناك بدون استخدام يديك.",
+      "id": "td_ar_033"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "دع شخصًا يصفف شعرك.",
+      "id": "td_ar_034"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "اقرأ آخر رسالة أرسلتها بطريقة درامية.",
+      "id": "td_ar_035"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ارقص رقصة مضحكة لمدة 20 ثانية.",
+      "id": "td_ar_036"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "تحدّث بلهجة تختارها المجموعة لمدة دقيقة.",
+      "id": "td_ar_037"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ارسم بورتريه سريعًا لشخص من المجموعة.",
+      "id": "td_ar_038"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "شارك الشاشة لمدة 10 ثوانٍ.",
+      "id": "td_ar_039"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "بدّل مكانك مع شخص حتى دورك القادم.",
+      "id": "td_ar_040"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "هل أعجبت بشخصين في نفس الوقت؟",
+      "id": "td_ar_041"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ما أكبر إشارة حمراء بالنسبة لك في العلاقات؟",
+      "id": "td_ar_042"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ما أكثر شيء فلِرت به مؤخرًا؟",
+      "id": "td_ar_043"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ما الشيء الذي أخفيته عن شريك؟",
+      "id": "td_ar_044"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ما أكثر رسالة جريئة أرسلتها؟",
+      "id": "td_ar_045"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "أرِ آخر صورة محفوظة في معرضك.",
+      "id": "td_ar_046"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "اقرأ آخر DM بصوت عالٍ.",
+      "id": "td_ar_047"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "أرسل GIF مغازلة لشخص تثق به.",
+      "id": "td_ar_048"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "أرِ قائمة الإيموجي الأكثر استخدامًا لديك.",
+      "id": "td_ar_049"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "اعترف بآخر كراش لديك (فقط الأحرف الأولى).",
+      "id": "td_ar_050"
+    },
+    {
+      "id": "td_ar_051",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما هو هوسك الحالي؟"
+    },
+    {
+      "id": "td_ar_052",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما الشيء الصغير الذي يحسن يومك؟"
+    },
+    {
+      "id": "td_ar_053",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "من ستتصل به الساعة الثانية ليلًا إذا احتجت مساعدة؟"
+    },
+    {
+      "id": "td_ar_054",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "اعمل 10 قفزات جاك."
+    },
+    {
+      "id": "td_ar_055",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "قل ثلاث أشياء لطيفة عن الشخص على يمينك."
+    }
+  ]
+}

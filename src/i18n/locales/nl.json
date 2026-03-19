@@ -206,7 +206,8 @@
     "roundsPlayed_one": "{{count}} ronde gespeeld",
     "roundsPlayed_other": "{{count}} rondes gespeeld",
     "pts": "ptn",
-    "delta": "+{{count}}"
+    "delta": "+{{count}}",
+    "final": "Eindscore"
   },
   "streak": {
     "crewStreak": "🔥 Bemanning op {{count}}-winserie!",
@@ -473,7 +474,9 @@
     "endGame": "Spel beëindigen",
     "readyTitle": "Klaar?",
     "readySubtitle": "Geef de telefoon door en houd hem tegen je voorhoofd",
-    "startTimer": "Start!"
+    "startTimer": "Start!",
+    "emptyTitle": "Geen woorden meer",
+    "emptySubtitle": "Kies andere categorieën om door te spelen."
   },
   "wordChain": {
     "title": "Woordketting",

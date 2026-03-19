@@ -1,0 +1,907 @@
+{
+  "gameId": "most-likely-to",
+  "locale": "pt",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "mlt_pt_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de esquecer de carregar o celular à noite?"
+    },
+    {
+      "id": "mlt_pt_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de levar snacks pro cinema sem ninguém pedir?"
+    },
+    {
+      "id": "mlt_pt_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de tropeçar numa calçada plana?"
+    },
+    {
+      "id": "mlt_pt_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de fotografar toda refeição?"
+    },
+    {
+      "id": "mlt_pt_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de perder as chaves duas vezes na semana?"
+    },
+    {
+      "id": "mlt_pt_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de criar o grupo e já deixar no silencioso?"
+    },
+    {
+      "id": "mlt_pt_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de dormir vendo filme em casa?"
+    },
+    {
+      "id": "mlt_pt_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de levar roupa demais pra um fim de semana?"
+    },
+    {
+      "id": "mlt_pt_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de adotar um bichinho de rua?"
+    },
+    {
+      "id": "mlt_pt_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de fazer amizade com o barista no primeiro dia?"
+    },
+    {
+      "id": "mlt_pt_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de sempre carregar uma ecobag?"
+    },
+    {
+      "id": "mlt_pt_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de levar jogo de tabuleiro pro piquenique?"
+    },
+    {
+      "id": "mlt_pt_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de rir na hora errada?"
+    },
+    {
+      "id": "mlt_pt_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de tomar sol mesmo com tempo nublado?"
+    },
+    {
+      "id": "mlt_pt_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de fazer playlists pra tudo?"
+    },
+    {
+      "id": "mlt_pt_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de ser o DJ da galera?"
+    },
+    {
+      "id": "mlt_pt_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de lembrar todos os aniversários?"
+    },
+    {
+      "id": "mlt_pt_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de tirar um cochilo em qualquer lugar?"
+    },
+    {
+      "id": "mlt_pt_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de testar cada cafeteria nova?"
+    },
+    {
+      "id": "mlt_pt_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de guardar todos os recibos “vai que”?"
+    },
+    {
+      "id": "mlt_pt_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de cancelar em cima da hora e ficar com culpa?"
+    },
+    {
+      "id": "mlt_pt_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de mandar mensagem pra pessoa errada?"
+    },
+    {
+      "id": "mlt_pt_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de sumir do plano e aparecer depois?"
+    },
+    {
+      "id": "mlt_pt_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de transformar um hobby em renda extra?"
+    },
+    {
+      "id": "mlt_pt_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de maratonar uma série inteira em um dia?"
+    },
+    {
+      "id": "mlt_pt_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de discutir com desconhecidos na internet?"
+    },
+    {
+      "id": "mlt_pt_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de se abrir demais no grupo?"
+    },
+    {
+      "id": "mlt_pt_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de começar um podcast e largar?"
+    },
+    {
+      "id": "mlt_pt_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de se perder mesmo com GPS?"
+    },
+    {
+      "id": "mlt_pt_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de ter 200 e‑mails não lidos?"
+    },
+    {
+      "id": "mlt_pt_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de tirar print de mensagens?"
+    },
+    {
+      "id": "mlt_pt_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de derrubar a bebida numa festa?"
+    },
+    {
+      "id": "mlt_pt_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de criar uma dancinha do grupo?"
+    },
+    {
+      "id": "mlt_pt_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de responder só com áudio?"
+    },
+    {
+      "id": "mlt_pt_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de marcar um fim de semana do nada?"
+    },
+    {
+      "id": "mlt_pt_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de guardar um segredo por anos?"
+    },
+    {
+      "id": "mlt_pt_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de chegar atrasado e ainda assim impecável?"
+    },
+    {
+      "id": "mlt_pt_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de fazer uma saída dramática da festa?"
+    },
+    {
+      "id": "mlt_pt_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de zoar alguém e dizer “tô brincando”?"
+    },
+    {
+      "id": "mlt_pt_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de conhecer os melhores lugares escondidos pra comer?"
+    },
+    {
+      "id": "mlt_pt_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de ter um crush secreto em alguém aqui?"
+    },
+    {
+      "id": "mlt_pt_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de mandar DM pra uma celebridade?"
+    },
+    {
+      "id": "mlt_pt_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de se apaixonar por alguém que acabou de conhecer?"
+    },
+    {
+      "id": "mlt_pt_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de continuar falando com ex?"
+    },
+    {
+      "id": "mlt_pt_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de sair de um problema flertando?"
+    },
+    {
+      "id": "mlt_pt_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de viver um “situationship” sem definir?"
+    },
+    {
+      "id": "mlt_pt_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de ser pego curtindo foto antiga?"
+    },
+    {
+      "id": "mlt_pt_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de entrar num reality de namoro?"
+    },
+    {
+      "id": "mlt_pt_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de namorar alguém bem mais velho ou mais novo?"
+    },
+    {
+      "id": "mlt_pt_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de ter o perfil mais ousado nos apps?"
+    },
+    {
+      "id": "mlt_pt_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de esquecer o próprio aniversário?"
+    },
+    {
+      "id": "mlt_pt_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de abrir um negócio e dar certo de verdade?"
+    },
+    {
+      "id": "mlt_pt_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de perder o celular por uma semana?"
+    },
+    {
+      "id": "mlt_pt_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de adotar um pet por impulso?"
+    },
+    {
+      "id": "mlt_pt_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de organizar uma festa surpresa perfeita?"
+    },
+    {
+      "id": "mlt_pt_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de ganhar um concurso de karaokê?"
+    },
+    {
+      "id": "mlt_pt_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de se mudar para outra cidade sem avisar ninguém?"
+    },
+    {
+      "id": "mlt_pt_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de se perder no próprio bairro?"
+    },
+    {
+      "id": "mlt_pt_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de ficar famoso na internet?"
+    },
+    {
+      "id": "mlt_pt_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de dormir durante um encontro no cinema?"
+    },
+    {
+      "id": "mlt_pt_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de cozinhar uma refeição completa do zero?"
+    },
+    {
+      "id": "mlt_pt_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de marcar uma viagem de última hora?"
+    },
+    {
+      "id": "mlt_pt_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de mandar sem querer um print para a pessoa errada?"
+    },
+    {
+      "id": "mlt_pt_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de escrever num diário todos os dias?"
+    },
+    {
+      "id": "mlt_pt_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de se livrar de uma multa na conversa?"
+    },
+    {
+      "id": "mlt_pt_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de esquecer de responder por dias?"
+    },
+    {
+      "id": "mlt_pt_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de gastar uma hora escolhendo uma playlist?"
+    },
+    {
+      "id": "mlt_pt_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de se inscrever numa maratona sem treino?"
+    },
+    {
+      "id": "mlt_pt_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de virar amigo de um desconhecido na fila?"
+    },
+    {
+      "id": "mlt_pt_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de ganhar uma noite de trivia?"
+    },
+    {
+      "id": "mlt_pt_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de sumir do grupo do chat?"
+    },
+    {
+      "id": "mlt_pt_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de ter o quarto bagunçado mas a mesa arrumada?"
+    },
+    {
+      "id": "mlt_pt_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de dizer não e realmente querer dizer não?"
+    },
+    {
+      "id": "mlt_pt_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de chegar atrasado na própria festa?"
+    },
+    {
+      "id": "mlt_pt_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de fazer uma tatuagem por impulso?"
+    },
+    {
+      "id": "mlt_pt_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de ter um talento escondido?"
+    },
+    {
+      "id": "mlt_pt_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de levar bagagem demais pra um fim de semana?"
+    },
+    {
+      "id": "mlt_pt_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de quebrar a tela do celular?"
+    },
+    {
+      "id": "mlt_pt_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de ser a primeira pessoa a pedir desculpas?"
+    },
+    {
+      "id": "mlt_pt_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de começar um livro e terminar em um dia?"
+    },
+    {
+      "id": "mlt_pt_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de ter o sonho mais estranho?"
+    },
+    {
+      "id": "mlt_pt_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de fazer uma playlist para o crush?"
+    },
+    {
+      "id": "mlt_pt_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de evitar conflito a qualquer custo?"
+    },
+    {
+      "id": "mlt_pt_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de lembrar de toda letra?"
+    },
+    {
+      "id": "mlt_pt_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de provar tudo do cardápio?"
+    },
+    {
+      "id": "mlt_pt_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de esquecer uma senha na hora?"
+    },
+    {
+      "id": "mlt_pt_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de virar pessoa da manhã?"
+    },
+    {
+      "id": "mlt_pt_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de derramar café em si mesmo?"
+    },
+    {
+      "id": "mlt_pt_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de cancelar planos de última hora?"
+    },
+    {
+      "id": "mlt_pt_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de guardar todo recibo?"
+    },
+    {
+      "id": "mlt_pt_091",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de ser a pessoa mais competitiva nos jogos?"
+    },
+    {
+      "id": "mlt_pt_092",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de se apaixonar nas férias?"
+    },
+    {
+      "id": "mlt_pt_093",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de ter um admirador secreto?"
+    },
+    {
+      "id": "mlt_pt_094",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de ser pego falando sozinho?"
+    },
+    {
+      "id": "mlt_pt_095",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de chorar com propaganda?"
+    },
+    {
+      "id": "mlt_pt_096",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de lançar uma tendência?"
+    },
+    {
+      "id": "mlt_pt_097",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de contar as histórias mais dramáticas?"
+    },
+    {
+      "id": "mlt_pt_098",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de perder a bagagem no aeroporto?"
+    },
+    {
+      "id": "mlt_pt_099",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de criar grupo pra qualquer coisa?"
+    },
+    {
+      "id": "mlt_pt_100",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de ser a pessoa que melhor dá conselhos?"
+    },
+    {
+      "id": "mlt_pt_101",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de ter snacks na bolsa o tempo todo?"
+    },
+    {
+      "id": "mlt_pt_102",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de se oferecer para organizar o próximo rolê?"
+    },
+    {
+      "id": "mlt_pt_103",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de colorir a agenda por cores?"
+    },
+    {
+      "id": "mlt_pt_104",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de tirar uma soneca em qualquer lugar?"
+    },
+    {
+      "id": "mlt_pt_105",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de levar um jogo de tabuleiro pra todo rolê?"
+    },
+    {
+      "id": "mlt_pt_106",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de perder os óculos de sol duas vezes no verão?"
+    },
+    {
+      "id": "mlt_pt_107",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de lembrar todos os aniversários sem lembrete?"
+    },
+    {
+      "id": "mlt_pt_108",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de virar amigo do caixa?"
+    },
+    {
+      "id": "mlt_pt_109",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de deixar 30 abas abertas?"
+    },
+    {
+      "id": "mlt_pt_110",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de tirar foto de toda refeição?"
+    },
+    {
+      "id": "mlt_pt_111",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de levar carregador reserva?"
+    },
+    {
+      "id": "mlt_pt_112",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de se perder até com GPS?"
+    },
+    {
+      "id": "mlt_pt_113",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de cantar todas as músicas no carro?"
+    },
+    {
+      "id": "mlt_pt_114",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de dormir no transporte público?"
+    },
+    {
+      "id": "mlt_pt_115",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de planejar um look temático pra festa?"
+    },
+    {
+      "id": "mlt_pt_116",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de manter uma planta viva por anos?"
+    },
+    {
+      "id": "mlt_pt_117",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de conhecer um atalho em qualquer lugar?"
+    },
+    {
+      "id": "mlt_pt_118",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de criar um clube do livro?"
+    },
+    {
+      "id": "mlt_pt_119",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de levar snacks extra numa viagem de carro?"
+    },
+    {
+      "id": "mlt_pt_120",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quem é mais provável de chegar cedo pra tudo?"
+    },
+    {
+      "id": "mlt_pt_121",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de começar um bico e levar a sério?"
+    },
+    {
+      "id": "mlt_pt_122",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de maratonar uma temporada inteira numa noite?"
+    },
+    {
+      "id": "mlt_pt_123",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de pensar demais numa mensagem?"
+    },
+    {
+      "id": "mlt_pt_124",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de reorganizar o quarto às 2 da manhã?"
+    },
+    {
+      "id": "mlt_pt_125",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de fazer um roteiro de viagem detalhado?"
+    },
+    {
+      "id": "mlt_pt_126",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de tentar um banho gelado e amar?"
+    },
+    {
+      "id": "mlt_pt_127",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de fazer um road trip do nada?"
+    },
+    {
+      "id": "mlt_pt_128",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de passar horas escolhendo o presente perfeito?"
+    },
+    {
+      "id": "mlt_pt_129",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de se inscrever numa aula só por diversão?"
+    },
+    {
+      "id": "mlt_pt_130",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de começar um hobby novo todo mês?"
+    },
+    {
+      "id": "mlt_pt_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de se viciar num podcast aleatório?"
+    },
+    {
+      "id": "mlt_pt_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de esquecer de almoçar quando está ocupado?"
+    },
+    {
+      "id": "mlt_pt_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de ganhar um sorteio online?"
+    },
+    {
+      "id": "mlt_pt_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de ser o fotógrafo do grupo?"
+    },
+    {
+      "id": "mlt_pt_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de pedir sempre a mesma coisa?"
+    },
+    {
+      "id": "mlt_pt_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de fazer uma playlist para cada humor?"
+    },
+    {
+      "id": "mlt_pt_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de fazer uma planilha pra viagem?"
+    },
+    {
+      "id": "mlt_pt_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de guardar ingressos numa caixa?"
+    },
+    {
+      "id": "mlt_pt_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de mandar áudio em vez de digitar?"
+    },
+    {
+      "id": "mlt_pt_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quem é mais provável de ensaiar uma conversa antes?"
+    },
+    {
+      "id": "mlt_pt_141",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de mandar outra mensagem depois de ser deixado no visto?"
+    },
+    {
+      "id": "mlt_pt_142",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de flertar pra conseguir desconto?"
+    },
+    {
+      "id": "mlt_pt_143",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de manter apps de namoro no celular?"
+    },
+    {
+      "id": "mlt_pt_144",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de se apaixonar num fim de semana?"
+    },
+    {
+      "id": "mlt_pt_145",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de dar o primeiro passo?"
+    },
+    {
+      "id": "mlt_pt_146",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de ter um crush secreto num amigo?"
+    },
+    {
+      "id": "mlt_pt_147",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de mandar mensagem pro ex de madrugada?"
+    },
+    {
+      "id": "mlt_pt_148",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de ir a um encontro pela comida grátis?"
+    },
+    {
+      "id": "mlt_pt_149",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de ser pego olhando o celular no encontro?"
+    },
+    {
+      "id": "mlt_pt_150",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Quem é mais provável de dizer “eu te amo” primeiro?"
+    }
+  ]
+}

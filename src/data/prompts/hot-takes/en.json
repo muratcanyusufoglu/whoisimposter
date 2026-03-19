@@ -3,65 +3,1265 @@
   "locale": "en",
   "version": 1,
   "prompts": [
-    { "id": "ht_en_001", "intensity": "mild", "minAge": 4, "text": "Pineapple absolutely belongs on pizza." },
-    { "id": "ht_en_002", "intensity": "mild", "minAge": 4, "text": "Breakfast is the most overrated meal of the day." },
-    { "id": "ht_en_003", "intensity": "mild", "minAge": 4, "text": "Cats are objectively better pets than dogs." },
-    { "id": "ht_en_004", "intensity": "mild", "minAge": 4, "text": "Movie theaters are dying and that is a good thing." },
-    { "id": "ht_en_005", "intensity": "mild", "minAge": 4, "text": "Texting is better than calling every single time." },
-    { "id": "ht_en_006", "intensity": "mild", "minAge": 4, "text": "Social media has done more harm than good overall." },
-    { "id": "ht_en_007", "intensity": "mild", "minAge": 4, "text": "Working from home is strictly better than going to an office." },
-    { "id": "ht_en_008", "intensity": "mild", "minAge": 4, "text": "People who say they do not watch TV are the most boring people." },
-    { "id": "ht_en_009", "intensity": "mild", "minAge": 4, "text": "Being early is just as rude as being late." },
-    { "id": "ht_en_010", "intensity": "mild", "minAge": 4, "text": "The best pizza is cold leftover pizza." },
-    { "id": "ht_en_011", "intensity": "mild", "minAge": 4, "text": "Online friendships can be just as meaningful as in-person ones." },
-    { "id": "ht_en_012", "intensity": "mild", "minAge": 4, "text": "Weekends should be 3 days and anyone who disagrees works too much." },
-    { "id": "ht_en_013", "intensity": "mild", "minAge": 4, "text": "Fast food is actually better than most fancy restaurants." },
-    { "id": "ht_en_014", "intensity": "mild", "minAge": 4, "text": "Introverts are more interesting than extroverts." },
-    { "id": "ht_en_015", "intensity": "mild", "minAge": 4, "text": "Napping is a superpower that society does not respect enough." },
-    { "id": "ht_en_016", "intensity": "mild", "minAge": 4, "text": "A quiet evening at home is more romantic than a fancy restaurant." },
-    { "id": "ht_en_017", "intensity": "mild", "minAge": 4, "text": "The best friendships require very little maintenance." },
-    { "id": "ht_en_018", "intensity": "mild", "minAge": 4, "text": "Reading books as a personality trait is extremely overrated." },
-    { "id": "ht_en_019", "intensity": "mild", "minAge": 4, "text": "Paying for a gym membership you barely use is still worth it psychologically." },
-    { "id": "ht_en_020", "intensity": "mild", "minAge": 4, "text": "Giving unsolicited advice is almost always about the advice-giver, not the person they advise." },
-    { "id": "ht_en_021", "intensity": "medium", "minAge": 13, "text": "You can tell everything you need to know about a person from their Spotify playlist." },
-    { "id": "ht_en_022", "intensity": "medium", "minAge": 13, "text": "Ghosting is sometimes the kindest way to end things." },
-    { "id": "ht_en_023", "intensity": "medium", "minAge": 13, "text": "Everyone has a type and pretending you do not is lying to yourself." },
-    { "id": "ht_en_024", "intensity": "medium", "minAge": 13, "text": "Zodiac signs are as valid as personality tests for understanding people." },
-    { "id": "ht_en_025", "intensity": "medium", "minAge": 13, "text": "People who are perpetually late do not respect your time — that is the whole truth." },
-    { "id": "ht_en_026", "intensity": "medium", "minAge": 13, "text": "The friend who always cancels plans is secretly the smartest one in the group." },
-    { "id": "ht_en_027", "intensity": "medium", "minAge": 13, "text": "First impressions are almost always wrong." },
-    { "id": "ht_en_028", "intensity": "medium", "minAge": 13, "text": "Humor is more attractive than looks — anyone who disagrees has not met enough funny people." },
-    { "id": "ht_en_029", "intensity": "medium", "minAge": 13, "text": "Most travel photos are for other people, not for the traveler." },
-    { "id": "ht_en_030", "intensity": "medium", "minAge": 13, "text": "Being single is underrated and most people rush into relationships out of fear." },
-    { "id": "ht_en_031", "intensity": "medium", "minAge": 13, "text": "Group chats are more exhausting than they are worth." },
-    { "id": "ht_en_032", "intensity": "medium", "minAge": 13, "text": "People care far less about you than you think, and that is actually liberating." },
-    { "id": "ht_en_033", "intensity": "medium", "minAge": 13, "text": "Expensive coffee is a scam and anyone who says otherwise is a victim of branding." },
-    { "id": "ht_en_034", "intensity": "medium", "minAge": 13, "text": "The way someone treats a waiter tells you everything about their character." },
-    { "id": "ht_en_035", "intensity": "medium", "minAge": 13, "text": "Loyalty is more important than honesty in close friendships." },
-    { "id": "ht_en_036", "intensity": "medium", "minAge": 13, "text": "Most people who say they love to travel just want the Instagram pictures." },
-    { "id": "ht_en_037", "intensity": "medium", "minAge": 13, "text": "Saying 'sorry you feel that way' is the most manipulative non-apology there is." },
-    { "id": "ht_en_038", "intensity": "medium", "minAge": 13, "text": "The most dangerous type of person is one who never admits they are wrong." },
-    { "id": "ht_en_039", "intensity": "medium", "minAge": 13, "text": "Every person has at least one truly embarrassing secret they will carry to the grave." },
-    { "id": "ht_en_040", "intensity": "medium", "minAge": 13, "text": "Liking the same music as someone is more important for compatibility than liking their personality." },
-    { "id": "ht_en_041", "intensity": "spicy", "minAge": 18, "text": "Long-term relationships are more about compatibility and habit than actual love." },
-    { "id": "ht_en_042", "intensity": "spicy", "minAge": 18, "text": "It is impossible to stay just friends with someone you were once romantically attracted to." },
-    { "id": "ht_en_043", "intensity": "spicy", "minAge": 18, "text": "People who say they do not play games in dating are lying — everyone does." },
-    { "id": "ht_en_044", "intensity": "spicy", "minAge": 18, "text": "A complete lack of jealousy in a relationship is actually a red flag." },
-    { "id": "ht_en_045", "intensity": "spicy", "minAge": 18, "text": "If someone cheats once, they will always be a cheater — people do not really change." },
-    { "id": "ht_en_046", "intensity": "spicy", "minAge": 18, "text": "It is completely normal to research a potential partner's entire social media before a first date." },
-    { "id": "ht_en_047", "intensity": "spicy", "minAge": 18, "text": "The talking stage should last no longer than two weeks — after that you are wasting time." },
-    { "id": "ht_en_048", "intensity": "spicy", "minAge": 18, "text": "Most people are in relationships because they are scared of being alone, not because of love." },
-    { "id": "ht_en_049", "intensity": "spicy", "minAge": 18, "text": "The way you fight with someone is more telling than how you feel when things are good." },
-    { "id": "ht_en_050", "intensity": "spicy", "minAge": 18, "text": "Going through your partner's phone is justified if your gut is telling you something is wrong." },
-    { "id": "ht_en_051", "intensity": "spicy", "minAge": 18, "text": "You can genuinely love someone and still fall for someone else at the same time." },
-    { "id": "ht_en_052", "intensity": "spicy", "minAge": 18, "text": "Situationships exist because one person is too comfortable and the other is too afraid." },
-    { "id": "ht_en_053", "intensity": "spicy", "minAge": 18, "text": "The person who ends the relationship first always had more power in it." },
-    { "id": "ht_en_054", "intensity": "spicy", "minAge": 18, "text": "Long-distance relationships almost never work and people only try them because they hate endings." },
-    { "id": "ht_en_055", "intensity": "spicy", "minAge": 18, "text": "It is a red flag if someone has no close friends from their past." },
-    { "id": "ht_en_056", "intensity": "spicy", "minAge": 18, "text": "Exes can never truly be just friends — one person is always still a little bit in it." },
-    { "id": "ht_en_057", "intensity": "spicy", "minAge": 18, "text": "Having a work spouse is completely harmless and people who disagree are just insecure." },
-    { "id": "ht_en_058", "intensity": "spicy", "minAge": 18, "text": "People who say they love everyone form no deep connections with anyone." },
-    { "id": "ht_en_059", "intensity": "spicy", "minAge": 18, "text": "The way you feel alone at 3 AM is more you than the version you show the world." },
-    { "id": "ht_en_060", "intensity": "spicy", "minAge": 18, "text": "Everyone has an ideal partner in their head and almost nobody in real life lives up to it." }
+    {
+      "id": "ht_en_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pineapple absolutely belongs on pizza."
+    },
+    {
+      "id": "ht_en_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Breakfast is the most overrated meal of the day."
+    },
+    {
+      "id": "ht_en_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Cats are objectively better pets than dogs."
+    },
+    {
+      "id": "ht_en_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Movie theaters are dying and that is a good thing."
+    },
+    {
+      "id": "ht_en_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Texting is better than calling every single time."
+    },
+    {
+      "id": "ht_en_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Social media has done more harm than good overall."
+    },
+    {
+      "id": "ht_en_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Working from home is strictly better than going to an office."
+    },
+    {
+      "id": "ht_en_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "People who say they do not watch TV are the most boring people."
+    },
+    {
+      "id": "ht_en_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Being early is just as rude as being late."
+    },
+    {
+      "id": "ht_en_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "The best pizza is cold leftover pizza."
+    },
+    {
+      "id": "ht_en_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Online friendships can be just as meaningful as in-person ones."
+    },
+    {
+      "id": "ht_en_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Weekends should be 3 days and anyone who disagrees works too much."
+    },
+    {
+      "id": "ht_en_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fast food is actually better than most fancy restaurants."
+    },
+    {
+      "id": "ht_en_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Introverts are more interesting than extroverts."
+    },
+    {
+      "id": "ht_en_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Napping is a superpower that society does not respect enough."
+    },
+    {
+      "id": "ht_en_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "A quiet evening at home is more romantic than a fancy restaurant."
+    },
+    {
+      "id": "ht_en_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "The best friendships require very little maintenance."
+    },
+    {
+      "id": "ht_en_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Reading books as a personality trait is extremely overrated."
+    },
+    {
+      "id": "ht_en_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Paying for a gym membership you barely use is still worth it psychologically."
+    },
+    {
+      "id": "ht_en_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Giving unsolicited advice is almost always about the advice-giver, not the person they advise."
+    },
+    {
+      "id": "ht_en_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "You can tell everything you need to know about a person from their Spotify playlist."
+    },
+    {
+      "id": "ht_en_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ghosting is sometimes the kindest way to end things."
+    },
+    {
+      "id": "ht_en_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Everyone has a type and pretending you do not is lying to yourself."
+    },
+    {
+      "id": "ht_en_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zodiac signs are as valid as personality tests for understanding people."
+    },
+    {
+      "id": "ht_en_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "People who are perpetually late do not respect your time — that is the whole truth."
+    },
+    {
+      "id": "ht_en_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "The friend who always cancels plans is secretly the smartest one in the group."
+    },
+    {
+      "id": "ht_en_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "First impressions are almost always wrong."
+    },
+    {
+      "id": "ht_en_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Humor is more attractive than looks — anyone who disagrees has not met enough funny people."
+    },
+    {
+      "id": "ht_en_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Most travel photos are for other people, not for the traveler."
+    },
+    {
+      "id": "ht_en_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Being single is underrated and most people rush into relationships out of fear."
+    },
+    {
+      "id": "ht_en_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Group chats are more exhausting than they are worth."
+    },
+    {
+      "id": "ht_en_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "People care far less about you than you think, and that is actually liberating."
+    },
+    {
+      "id": "ht_en_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Expensive coffee is a scam and anyone who says otherwise is a victim of branding."
+    },
+    {
+      "id": "ht_en_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "The way someone treats a waiter tells you everything about their character."
+    },
+    {
+      "id": "ht_en_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Loyalty is more important than honesty in close friendships."
+    },
+    {
+      "id": "ht_en_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Most people who say they love to travel just want the Instagram pictures."
+    },
+    {
+      "id": "ht_en_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Saying 'sorry you feel that way' is the most manipulative non-apology there is."
+    },
+    {
+      "id": "ht_en_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "The most dangerous type of person is one who never admits they are wrong."
+    },
+    {
+      "id": "ht_en_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Every person has at least one truly embarrassing secret they will carry to the grave."
+    },
+    {
+      "id": "ht_en_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Liking the same music as someone is more important for compatibility than liking their personality."
+    },
+    {
+      "id": "ht_en_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Long-term relationships are more about compatibility and habit than actual love."
+    },
+    {
+      "id": "ht_en_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "It is impossible to stay just friends with someone you were once romantically attracted to."
+    },
+    {
+      "id": "ht_en_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "People who say they do not play games in dating are lying — everyone does."
+    },
+    {
+      "id": "ht_en_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "A complete lack of jealousy in a relationship is actually a red flag."
+    },
+    {
+      "id": "ht_en_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "If someone cheats once, they will always be a cheater — people do not really change."
+    },
+    {
+      "id": "ht_en_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "It is completely normal to research a potential partner's entire social media before a first date."
+    },
+    {
+      "id": "ht_en_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "The talking stage should last no longer than two weeks — after that you are wasting time."
+    },
+    {
+      "id": "ht_en_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Most people are in relationships because they are scared of being alone, not because of love."
+    },
+    {
+      "id": "ht_en_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "The way you fight with someone is more telling than how you feel when things are good."
+    },
+    {
+      "id": "ht_en_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Going through your partner's phone is justified if your gut is telling you something is wrong."
+    },
+    {
+      "id": "ht_en_051",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "You can genuinely love someone and still fall for someone else at the same time."
+    },
+    {
+      "id": "ht_en_052",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Situationships exist because one person is too comfortable and the other is too afraid."
+    },
+    {
+      "id": "ht_en_053",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "The person who ends the relationship first always had more power in it."
+    },
+    {
+      "id": "ht_en_054",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Long-distance relationships almost never work and people only try them because they hate endings."
+    },
+    {
+      "id": "ht_en_055",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "It is a red flag if someone has no close friends from their past."
+    },
+    {
+      "id": "ht_en_056",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Exes can never truly be just friends — one person is always still a little bit in it."
+    },
+    {
+      "id": "ht_en_057",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Having a work spouse is completely harmless and people who disagree are just insecure."
+    },
+    {
+      "id": "ht_en_058",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "People who say they love everyone form no deep connections with anyone."
+    },
+    {
+      "id": "ht_en_059",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "The way you feel alone at 3 AM is more you than the version you show the world."
+    },
+    {
+      "id": "ht_en_060",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Everyone has an ideal partner in their head and almost nobody in real life lives up to it."
+    },
+    {
+      "id": "ht_en_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Cold showers are better than hot ones, even in winter."
+    },
+    {
+      "id": "ht_en_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Board games beat video games for group nights."
+    },
+    {
+      "id": "ht_en_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Brunch is just overpriced breakfast."
+    },
+    {
+      "id": "ht_en_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Watching trailers ruins movies."
+    },
+    {
+      "id": "ht_en_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Flip-flops are not real shoes."
+    },
+    {
+      "id": "ht_en_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Plants are harder to keep alive than pets."
+    },
+    {
+      "id": "ht_en_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Reading the book is not always better than the movie."
+    },
+    {
+      "id": "ht_en_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sparkling water tastes like regret."
+    },
+    {
+      "id": "ht_en_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "The best seat is the aisle, not the window."
+    },
+    {
+      "id": "ht_en_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Listening to podcasts at 2x speed is chaotic."
+    },
+    {
+      "id": "ht_en_071",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Air fryers are just trendy convection ovens."
+    },
+    {
+      "id": "ht_en_072",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Soup is a drink."
+    },
+    {
+      "id": "ht_en_073",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Taking photos at concerts is a waste of time."
+    },
+    {
+      "id": "ht_en_074",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Crocs are comfortable and that is what matters."
+    },
+    {
+      "id": "ht_en_075",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sunsets are overrated compared to sunrises."
+    },
+    {
+      "id": "ht_en_076",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Silence is the best background music."
+    },
+    {
+      "id": "ht_en_077",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Buffets are stressful, not fun."
+    },
+    {
+      "id": "ht_en_078",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Paper books smell good but e-readers are superior."
+    },
+    {
+      "id": "ht_en_079",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "People should stop saying 'no worries' at work."
+    },
+    {
+      "id": "ht_en_080",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "The middle seat armrests belong to the middle passenger."
+    },
+    {
+      "id": "ht_en_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "If you do not reply for a day, you are ignoring someone."
+    },
+    {
+      "id": "ht_en_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Best friends should know your phone password."
+    },
+    {
+      "id": "ht_en_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Posting a gym selfie is not 'for motivation'."
+    },
+    {
+      "id": "ht_en_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Most people would rather be right than be happy."
+    },
+    {
+      "id": "ht_en_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Canceling plans last minute is worse than being late."
+    },
+    {
+      "id": "ht_en_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "People who brag about being busy are insecure."
+    },
+    {
+      "id": "ht_en_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sharing your location in a relationship should be normal."
+    },
+    {
+      "id": "ht_en_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Group trips are where friendships go to die."
+    },
+    {
+      "id": "ht_en_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "If you have to 'soft launch' a relationship, it is not real."
+    },
+    {
+      "id": "ht_en_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Being on time is a love language."
+    },
+    {
+      "id": "ht_en_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "If you hate small talk, you are not as deep as you think."
+    },
+    {
+      "id": "ht_en_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Most apologies are just negotiation attempts."
+    },
+    {
+      "id": "ht_en_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "The friend who never posts is the most interesting one."
+    },
+    {
+      "id": "ht_en_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "The best relationships are built on low expectations."
+    },
+    {
+      "id": "ht_en_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Loud restaurants are a design failure."
+    },
+    {
+      "id": "ht_en_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "People who say 'I do not get drama' start the drama."
+    },
+    {
+      "id": "ht_en_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "First dates should be short, always."
+    },
+    {
+      "id": "ht_en_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "You can tell compatibility by how someone orders coffee."
+    },
+    {
+      "id": "ht_en_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Friends who disappear when they are dating are selfish."
+    },
+    {
+      "id": "ht_en_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "If you do not take vacations, you are bad at life management."
+    },
+    {
+      "id": "ht_en_101",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Most people settle because they are tired of dating."
+    },
+    {
+      "id": "ht_en_102",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jealousy is a form of ego, not love."
+    },
+    {
+      "id": "ht_en_103",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "If you snoop once, you will do it again."
+    },
+    {
+      "id": "ht_en_104",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "The 'talking stage' is just fear of commitment."
+    },
+    {
+      "id": "ht_en_105",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "People forgive cheating more than they admit."
+    },
+    {
+      "id": "ht_en_106",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "A 'break' in a relationship is just a slow breakup."
+    },
+    {
+      "id": "ht_en_107",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "The most confident people are the most fragile."
+    },
+    {
+      "id": "ht_en_108",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "You are not 'too busy' — you are just not interested."
+    },
+    {
+      "id": "ht_en_109",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Most crushes are about attention, not attraction."
+    },
+    {
+      "id": "ht_en_110",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Romantic chemistry is mostly good timing."
+    },
+    {
+      "id": "ht_en_111",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ice in soda ruins the drink."
+    },
+    {
+      "id": "ht_en_112",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Window seats are overrated on flights."
+    },
+    {
+      "id": "ht_en_113",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Casual photos are better than posed ones."
+    },
+    {
+      "id": "ht_en_114",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "People should RSVP with actual numbers, not “maybe.”"
+    },
+    {
+      "id": "ht_en_115",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Password managers should be standard on every phone."
+    },
+    {
+      "id": "ht_en_116",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Night showers are superior to morning showers."
+    },
+    {
+      "id": "ht_en_117",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Posting food stories every day is excessive."
+    },
+    {
+      "id": "ht_en_118",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Movie remakes should have to justify their existence."
+    },
+    {
+      "id": "ht_en_119",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "The “skip intro” button is the best invention."
+    },
+    {
+      "id": "ht_en_120",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Cold brew is just coffee that forgot to be hot."
+    },
+    {
+      "id": "ht_en_121",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Loyalty programs are usually not worth it."
+    },
+    {
+      "id": "ht_en_122",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Background music in cafés is too loud."
+    },
+    {
+      "id": "ht_en_123",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Two-factor authentication should be mandatory."
+    },
+    {
+      "id": "ht_en_124",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "New phone cameras haven’t improved that much lately."
+    },
+    {
+      "id": "ht_en_125",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Being “low-maintenance” is not a personality trait."
+    },
+    {
+      "id": "ht_en_126",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Most subscription services should include a free week."
+    },
+    {
+      "id": "ht_en_127",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "People should bring a small gift when they stay over."
+    },
+    {
+      "id": "ht_en_128",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "The best way to travel is without a packed schedule."
+    },
+    {
+      "id": "ht_en_129",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Dressing up for the theater should come back."
+    },
+    {
+      "id": "ht_en_130",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Dessert should be ordered first."
+    },
+    {
+      "id": "ht_en_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Leaving a group chat is more honest than ghosting."
+    },
+    {
+      "id": "ht_en_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Office small talk is more tiring than work."
+    },
+    {
+      "id": "ht_en_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Meetings should always have an end time."
+    },
+    {
+      "id": "ht_en_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Rain sounds are better than white noise."
+    },
+    {
+      "id": "ht_en_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Using emojis in work emails is fine."
+    },
+    {
+      "id": "ht_en_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "People overuse the word “iconic.”"
+    },
+    {
+      "id": "ht_en_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "A messy desk doesn’t mean you’re creative."
+    },
+    {
+      "id": "ht_en_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Saving every photo is digital hoarding."
+    },
+    {
+      "id": "ht_en_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "People should stop sending “K” as a reply."
+    },
+    {
+      "id": "ht_en_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Airplane clapping is unnecessary."
+    },
+    {
+      "id": "ht_en_141",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Return policies should be longer than 14 days."
+    },
+    {
+      "id": "ht_en_142",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Matching outfits are cute, not cringe."
+    },
+    {
+      "id": "ht_en_143",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Adults can still love animated movies."
+    },
+    {
+      "id": "ht_en_144",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "The “accept all cookies” button should be illegal."
+    },
+    {
+      "id": "ht_en_145",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Extra pillows on the bed are pointless."
+    },
+    {
+      "id": "ht_en_146",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Fruit belongs in salads."
+    },
+    {
+      "id": "ht_en_147",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Buying a planner doesn’t mean you’ll use it."
+    },
+    {
+      "id": "ht_en_148",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "“Work-life balance” should be a real metric."
+    },
+    {
+      "id": "ht_en_149",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Tiny houses are not practical."
+    },
+    {
+      "id": "ht_en_150",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Public benches need more shade."
+    },
+    {
+      "id": "ht_en_151",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Taking calls without headphones is inconsiderate."
+    },
+    {
+      "id": "ht_en_152",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "A clean inbox is overrated."
+    },
+    {
+      "id": "ht_en_153",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "The best naps are 20 minutes or less."
+    },
+    {
+      "id": "ht_en_154",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Rewatching a show is more relaxing than starting a new one."
+    },
+    {
+      "id": "ht_en_155",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Email signatures are too long."
+    },
+    {
+      "id": "ht_en_156",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Most “limited edition” drops are fake urgency."
+    },
+    {
+      "id": "ht_en_157",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Free shipping should be standard."
+    },
+    {
+      "id": "ht_en_158",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "People should normalize saying “I need a day off.”"
+    },
+    {
+      "id": "ht_en_159",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "The “typing…” indicator causes anxiety."
+    },
+    {
+      "id": "ht_en_160",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Open offices are bad design."
+    },
+    {
+      "id": "ht_en_161",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Cold pizza is better than hot pizza."
+    },
+    {
+      "id": "ht_en_162",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Movie posters are more exciting than trailers."
+    },
+    {
+      "id": "ht_en_163",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Group chats should be muted by default."
+    },
+    {
+      "id": "ht_en_164",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Brunch is just an excuse to overpay for eggs."
+    },
+    {
+      "id": "ht_en_165",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Socks and sandals are totally fine."
+    },
+    {
+      "id": "ht_en_166",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Rainy days are more relaxing than sunny days."
+    },
+    {
+      "id": "ht_en_167",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Karaoke is more fun when you're bad at it."
+    },
+    {
+      "id": "ht_en_168",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Going to bed early is underrated."
+    },
+    {
+      "id": "ht_en_169",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Phones should have a “do not disturb” for specific people."
+    },
+    {
+      "id": "ht_en_170",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Long voice notes are rude."
+    },
+    {
+      "id": "ht_en_171",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Libraries are the most underrated places in a city."
+    },
+    {
+      "id": "ht_en_172",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Board games are better than video games for parties."
+    },
+    {
+      "id": "ht_en_173",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Paper books beat e-readers."
+    },
+    {
+      "id": "ht_en_174",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "The best concert seats are in the back with space to dance."
+    },
+    {
+      "id": "ht_en_175",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "The last slice should never be left untouched."
+    },
+    {
+      "id": "ht_en_176",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Learning to cook is more useful than learning to drive."
+    },
+    {
+      "id": "ht_en_177",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mountains > beaches."
+    },
+    {
+      "id": "ht_en_178",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Small weddings are more fun than big weddings."
+    },
+    {
+      "id": "ht_en_179",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Couples should take separate vacations sometimes."
+    },
+    {
+      "id": "ht_en_180",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Friends who cancel last minute owe snacks next time."
+    },
+    {
+      "id": "ht_en_181",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Midnight snacks are superior to breakfast."
+    },
+    {
+      "id": "ht_en_182",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Social media “likes” shouldn't be public."
+    },
+    {
+      "id": "ht_en_183",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Using speakerphone in public should be illegal."
+    },
+    {
+      "id": "ht_en_184",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Meal prep is overrated."
+    },
+    {
+      "id": "ht_en_185",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "The best photos are the candid ones."
+    },
+    {
+      "id": "ht_en_186",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Expensive sneakers are a waste of money."
+    },
+    {
+      "id": "ht_en_187",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sundays should be a three-day weekend."
+    },
+    {
+      "id": "ht_en_188",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Surprise visits are inconsiderate."
+    },
+    {
+      "id": "ht_en_189",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Pineapple juice belongs in every smoothie."
+    },
+    {
+      "id": "ht_en_190",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Taking notes by hand beats typing."
+    },
+    {
+      "id": "ht_en_191",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Online dating has made people pickier."
+    },
+    {
+      "id": "ht_en_192",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Living alone makes people more creative."
+    },
+    {
+      "id": "ht_en_193",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "“Hot takes” are usually just common sense."
+    },
+    {
+      "id": "ht_en_194",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "You should always bring your own reusable cup."
+    },
+    {
+      "id": "ht_en_195",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Street food is better than restaurant food."
+    },
+    {
+      "id": "ht_en_196",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "The “seen” checkmarks cause more drama than they solve."
+    },
+    {
+      "id": "ht_en_197",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "A shared playlist is a relationship test."
+    },
+    {
+      "id": "ht_en_198",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Having separate blankets is healthier for couples."
+    },
+    {
+      "id": "ht_en_199",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "The best part of a trip is the planning."
+    },
+    {
+      "id": "ht_en_200",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wearing headphones in the gym is a must."
+    },
+    {
+      "id": "ht_en_201",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "People should tip baristas more."
+    },
+    {
+      "id": "ht_en_202",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Tattoos should be allowed in all workplaces."
+    },
+    {
+      "id": "ht_en_203",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "People need less notifications, not more."
+    },
+    {
+      "id": "ht_en_204",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Pets should be allowed in more cafes."
+    },
+    {
+      "id": "ht_en_205",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Public holidays should be chosen by popular vote."
+    },
+    {
+      "id": "ht_en_206",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Everyone should learn basic first aid."
+    },
+    {
+      "id": "ht_en_207",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Fancy restaurants should have a kid menu."
+    },
+    {
+      "id": "ht_en_208",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Movie theaters should bring back intermissions."
+    },
+    {
+      "id": "ht_en_209",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Read receipts should be optional for every app."
+    },
+    {
+      "id": "ht_en_210",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Being late is a choice, not a personality."
+    }
   ]
 }

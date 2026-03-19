@@ -3,65 +3,965 @@
   "locale": "en",
   "version": 1,
   "prompts": [
-    { "id": "nhie_en_001", "intensity": "mild", "minAge": 4, "text": "Never have I ever eaten an entire pizza by myself." },
-    { "id": "nhie_en_002", "intensity": "mild", "minAge": 4, "text": "Never have I ever stayed awake for more than 24 hours." },
-    { "id": "nhie_en_003", "intensity": "mild", "minAge": 4, "text": "Never have I ever laughed so hard I cried." },
-    { "id": "nhie_en_004", "intensity": "mild", "minAge": 4, "text": "Never have I ever pretended to know a song and completely made up the words." },
-    { "id": "nhie_en_005", "intensity": "mild", "minAge": 4, "text": "Never have I ever binged an entire TV season in one day." },
-    { "id": "nhie_en_006", "intensity": "mild", "minAge": 4, "text": "Never have I ever worn pajamas all day." },
-    { "id": "nhie_en_007", "intensity": "mild", "minAge": 4, "text": "Never have I ever eaten food that fell on the floor." },
-    { "id": "nhie_en_008", "intensity": "mild", "minAge": 4, "text": "Never have I ever re-used a cup without washing it." },
-    { "id": "nhie_en_009", "intensity": "mild", "minAge": 4, "text": "Never have I ever talked to myself in public without realizing it." },
-    { "id": "nhie_en_010", "intensity": "mild", "minAge": 4, "text": "Never have I ever forgotten someone's name right after being introduced." },
-    { "id": "nhie_en_011", "intensity": "mild", "minAge": 4, "text": "Never have I ever read the end of a book before finishing it." },
-    { "id": "nhie_en_012", "intensity": "mild", "minAge": 4, "text": "Never have I ever accidentally called a teacher 'mom' or 'dad'." },
-    { "id": "nhie_en_013", "intensity": "mild", "minAge": 4, "text": "Never have I ever played video games for more than 8 hours straight." },
-    { "id": "nhie_en_014", "intensity": "mild", "minAge": 4, "text": "Never have I ever won a bet." },
-    { "id": "nhie_en_015", "intensity": "mild", "minAge": 4, "text": "Never have I ever danced in public alone." },
-    { "id": "nhie_en_016", "intensity": "mild", "minAge": 4, "text": "Never have I ever snuck food into a cinema." },
-    { "id": "nhie_en_017", "intensity": "mild", "minAge": 4, "text": "Never have I ever gotten completely lost in a city I know." },
-    { "id": "nhie_en_018", "intensity": "mild", "minAge": 4, "text": "Never have I ever bought something just because it was on sale." },
-    { "id": "nhie_en_019", "intensity": "mild", "minAge": 4, "text": "Never have I ever sent a voice message accidentally." },
-    { "id": "nhie_en_020", "intensity": "mild", "minAge": 4, "text": "Never have I ever skipped brushing my teeth before bed." },
-    { "id": "nhie_en_021", "intensity": "medium", "minAge": 13, "text": "Never have I ever stalked an ex on social media after a breakup." },
-    { "id": "nhie_en_022", "intensity": "medium", "minAge": 13, "text": "Never have I ever been caught in a lie and made it worse with another lie." },
-    { "id": "nhie_en_023", "intensity": "medium", "minAge": 13, "text": "Never have I ever dramatically pretended not to see someone in public." },
-    { "id": "nhie_en_024", "intensity": "medium", "minAge": 13, "text": "Never have I ever cried watching a commercial." },
-    { "id": "nhie_en_025", "intensity": "medium", "minAge": 13, "text": "Never have I ever Googled myself." },
-    { "id": "nhie_en_026", "intensity": "medium", "minAge": 13, "text": "Never have I ever faked being busy to avoid someone." },
-    { "id": "nhie_en_027", "intensity": "medium", "minAge": 13, "text": "Never have I ever liked my own post from a second account." },
-    { "id": "nhie_en_028", "intensity": "medium", "minAge": 13, "text": "Never have I ever eavesdropped on a conversation not meant for me." },
-    { "id": "nhie_en_029", "intensity": "medium", "minAge": 13, "text": "Never have I ever bought something expensive on impulse and regretted it." },
-    { "id": "nhie_en_030", "intensity": "medium", "minAge": 13, "text": "Never have I ever unfriended someone and hoped they would not notice." },
-    { "id": "nhie_en_031", "intensity": "medium", "minAge": 13, "text": "Never have I ever laughed at something I should not have." },
-    { "id": "nhie_en_032", "intensity": "medium", "minAge": 13, "text": "Never have I ever taken credit for someone else's work." },
-    { "id": "nhie_en_033", "intensity": "medium", "minAge": 13, "text": "Never have I ever secretly judged someone based on their music taste." },
-    { "id": "nhie_en_034", "intensity": "medium", "minAge": 13, "text": "Never have I ever rehearsed a conversation in my head before having it." },
-    { "id": "nhie_en_035", "intensity": "medium", "minAge": 13, "text": "Never have I ever pretended to fall asleep to avoid a conversation." },
-    { "id": "nhie_en_036", "intensity": "medium", "minAge": 13, "text": "Never have I ever given a fake number to someone." },
-    { "id": "nhie_en_037", "intensity": "medium", "minAge": 13, "text": "Never have I ever misread a situation and thought someone liked me back." },
-    { "id": "nhie_en_038", "intensity": "medium", "minAge": 13, "text": "Never have I ever sent a screenshot to the person it was about." },
-    { "id": "nhie_en_039", "intensity": "medium", "minAge": 13, "text": "Never have I ever started a group chat and then not participated." },
-    { "id": "nhie_en_040", "intensity": "medium", "minAge": 13, "text": "Never have I ever deleted a comment immediately after posting it." },
-    { "id": "nhie_en_041", "intensity": "spicy", "minAge": 18, "text": "Never have I ever been on a date with more than one person in the same week." },
-    { "id": "nhie_en_042", "intensity": "spicy", "minAge": 18, "text": "Never have I ever kissed someone whose last name I did not know." },
-    { "id": "nhie_en_043", "intensity": "spicy", "minAge": 18, "text": "Never have I ever developed feelings for my best friend." },
-    { "id": "nhie_en_044", "intensity": "spicy", "minAge": 18, "text": "Never have I ever been attracted to someone in this room." },
-    { "id": "nhie_en_045", "intensity": "spicy", "minAge": 18, "text": "Never have I ever started a flirty conversation and then chickened out." },
-    { "id": "nhie_en_046", "intensity": "spicy", "minAge": 18, "text": "Never have I ever been rejected and completely played it off like I was joking." },
-    { "id": "nhie_en_047", "intensity": "spicy", "minAge": 18, "text": "Never have I ever sent a risky message at 2 AM and regretted it in the morning." },
-    { "id": "nhie_en_048", "intensity": "spicy", "minAge": 18, "text": "Never have I ever kept talking to someone just because the attention felt nice." },
-    { "id": "nhie_en_049", "intensity": "spicy", "minAge": 18, "text": "Never have I ever made up a story to impress someone I liked." },
-    { "id": "nhie_en_050", "intensity": "spicy", "minAge": 18, "text": "Never have I ever gone back to an ex I swore I was done with." },
-    { "id": "nhie_en_051", "intensity": "spicy", "minAge": 18, "text": "Never have I ever told someone I loved them when I was not sure I meant it." },
-    { "id": "nhie_en_052", "intensity": "spicy", "minAge": 18, "text": "Never have I ever stayed in a relationship I knew was not working just for comfort." },
-    { "id": "nhie_en_053", "intensity": "spicy", "minAge": 18, "text": "Never have I ever had a dramatic falling out with a best friend over someone we both liked." },
-    { "id": "nhie_en_054", "intensity": "spicy", "minAge": 18, "text": "Never have I ever used my looks to get out of trouble." },
-    { "id": "nhie_en_055", "intensity": "spicy", "minAge": 18, "text": "Never have I ever slid into someone's DMs on a whim." },
-    { "id": "nhie_en_056", "intensity": "spicy", "minAge": 18, "text": "Never have I ever cried after a breakup I initiated." },
-    { "id": "nhie_en_057", "intensity": "spicy", "minAge": 18, "text": "Never have I ever been jealous of someone I should not have been jealous of." },
-    { "id": "nhie_en_058", "intensity": "spicy", "minAge": 18, "text": "Never have I ever played hard to get and overdone it." },
-    { "id": "nhie_en_059", "intensity": "spicy", "minAge": 18, "text": "Never have I ever confessed feelings in a very embarrassing way." },
-    { "id": "nhie_en_060", "intensity": "spicy", "minAge": 18, "text": "Never have I ever been tempted to read a partner's phone." }
+    {
+      "id": "nhie_en_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever eaten an entire pizza by myself."
+    },
+    {
+      "id": "nhie_en_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever stayed awake for more than 24 hours."
+    },
+    {
+      "id": "nhie_en_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever laughed so hard I cried."
+    },
+    {
+      "id": "nhie_en_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever pretended to know a song and completely made up the words."
+    },
+    {
+      "id": "nhie_en_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever binged an entire TV season in one day."
+    },
+    {
+      "id": "nhie_en_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever worn pajamas all day."
+    },
+    {
+      "id": "nhie_en_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever eaten food that fell on the floor."
+    },
+    {
+      "id": "nhie_en_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever re-used a cup without washing it."
+    },
+    {
+      "id": "nhie_en_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever talked to myself in public without realizing it."
+    },
+    {
+      "id": "nhie_en_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever forgotten someone's name right after being introduced."
+    },
+    {
+      "id": "nhie_en_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever read the end of a book before finishing it."
+    },
+    {
+      "id": "nhie_en_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever accidentally called a teacher 'mom' or 'dad'."
+    },
+    {
+      "id": "nhie_en_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever played video games for more than 8 hours straight."
+    },
+    {
+      "id": "nhie_en_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever won a bet."
+    },
+    {
+      "id": "nhie_en_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever danced in public alone."
+    },
+    {
+      "id": "nhie_en_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever snuck food into a cinema."
+    },
+    {
+      "id": "nhie_en_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever gotten completely lost in a city I know."
+    },
+    {
+      "id": "nhie_en_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever bought something just because it was on sale."
+    },
+    {
+      "id": "nhie_en_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever sent a voice message accidentally."
+    },
+    {
+      "id": "nhie_en_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever skipped brushing my teeth before bed."
+    },
+    {
+      "id": "nhie_en_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever stalked an ex on social media after a breakup."
+    },
+    {
+      "id": "nhie_en_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever been caught in a lie and made it worse with another lie."
+    },
+    {
+      "id": "nhie_en_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever dramatically pretended not to see someone in public."
+    },
+    {
+      "id": "nhie_en_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever cried watching a commercial."
+    },
+    {
+      "id": "nhie_en_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever Googled myself."
+    },
+    {
+      "id": "nhie_en_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever faked being busy to avoid someone."
+    },
+    {
+      "id": "nhie_en_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever liked my own post from a second account."
+    },
+    {
+      "id": "nhie_en_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever eavesdropped on a conversation not meant for me."
+    },
+    {
+      "id": "nhie_en_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever bought something expensive on impulse and regretted it."
+    },
+    {
+      "id": "nhie_en_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever unfriended someone and hoped they would not notice."
+    },
+    {
+      "id": "nhie_en_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever laughed at something I should not have."
+    },
+    {
+      "id": "nhie_en_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever taken credit for someone else's work."
+    },
+    {
+      "id": "nhie_en_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever secretly judged someone based on their music taste."
+    },
+    {
+      "id": "nhie_en_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever rehearsed a conversation in my head before having it."
+    },
+    {
+      "id": "nhie_en_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever pretended to fall asleep to avoid a conversation."
+    },
+    {
+      "id": "nhie_en_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever given a fake number to someone."
+    },
+    {
+      "id": "nhie_en_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever misread a situation and thought someone liked me back."
+    },
+    {
+      "id": "nhie_en_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever sent a screenshot to the person it was about."
+    },
+    {
+      "id": "nhie_en_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever started a group chat and then not participated."
+    },
+    {
+      "id": "nhie_en_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever deleted a comment immediately after posting it."
+    },
+    {
+      "id": "nhie_en_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever been on a date with more than one person in the same week."
+    },
+    {
+      "id": "nhie_en_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever kissed someone whose last name I did not know."
+    },
+    {
+      "id": "nhie_en_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever developed feelings for my best friend."
+    },
+    {
+      "id": "nhie_en_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever been attracted to someone in this room."
+    },
+    {
+      "id": "nhie_en_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever started a flirty conversation and then chickened out."
+    },
+    {
+      "id": "nhie_en_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever been rejected and completely played it off like I was joking."
+    },
+    {
+      "id": "nhie_en_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever sent a risky message at 2 AM and regretted it in the morning."
+    },
+    {
+      "id": "nhie_en_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever kept talking to someone just because the attention felt nice."
+    },
+    {
+      "id": "nhie_en_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever made up a story to impress someone I liked."
+    },
+    {
+      "id": "nhie_en_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever gone back to an ex I swore I was done with."
+    },
+    {
+      "id": "nhie_en_051",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever told someone I loved them when I was not sure I meant it."
+    },
+    {
+      "id": "nhie_en_052",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever stayed in a relationship I knew was not working just for comfort."
+    },
+    {
+      "id": "nhie_en_053",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever had a dramatic falling out with a best friend over someone we both liked."
+    },
+    {
+      "id": "nhie_en_054",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever used my looks to get out of trouble."
+    },
+    {
+      "id": "nhie_en_055",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever slid into someone's DMs on a whim."
+    },
+    {
+      "id": "nhie_en_056",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever cried after a breakup I initiated."
+    },
+    {
+      "id": "nhie_en_057",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever been jealous of someone I should not have been jealous of."
+    },
+    {
+      "id": "nhie_en_058",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever played hard to get and overdone it."
+    },
+    {
+      "id": "nhie_en_059",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever confessed feelings in a very embarrassing way."
+    },
+    {
+      "id": "nhie_en_060",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever been tempted to read a partner's phone."
+    },
+    {
+      "id": "nhie_en_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever forgotten my own phone at home."
+    },
+    {
+      "id": "nhie_en_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever gotten on the wrong bus or train."
+    },
+    {
+      "id": "nhie_en_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever eaten dessert before dinner."
+    },
+    {
+      "id": "nhie_en_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever slept through an alarm."
+    },
+    {
+      "id": "nhie_en_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever accidentally worn mismatched socks."
+    },
+    {
+      "id": "nhie_en_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever laughed during a serious moment."
+    },
+    {
+      "id": "nhie_en_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever spilled a drink on myself in public."
+    },
+    {
+      "id": "nhie_en_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever gone grocery shopping while hungry."
+    },
+    {
+      "id": "nhie_en_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever lost my keys for more than a day."
+    },
+    {
+      "id": "nhie_en_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever used the same outfit two days in a row."
+    },
+    {
+      "id": "nhie_en_071",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever forgotten to charge my phone overnight."
+    },
+    {
+      "id": "nhie_en_072",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever sung loudly in the car alone."
+    },
+    {
+      "id": "nhie_en_073",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever eaten cereal for dinner."
+    },
+    {
+      "id": "nhie_en_074",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever gotten a haircut I hated."
+    },
+    {
+      "id": "nhie_en_075",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever tried to fix something and made it worse."
+    },
+    {
+      "id": "nhie_en_076",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever walked into the wrong classroom or meeting."
+    },
+    {
+      "id": "nhie_en_077",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever fallen asleep during a movie at the cinema."
+    },
+    {
+      "id": "nhie_en_078",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever sent a message to the wrong group chat."
+    },
+    {
+      "id": "nhie_en_079",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever baked something that turned out terrible."
+    },
+    {
+      "id": "nhie_en_080",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever had a pet fish."
+    },
+    {
+      "id": "nhie_en_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever snoozed an alarm more than five times."
+    },
+    {
+      "id": "nhie_en_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever lied about being on my way."
+    },
+    {
+      "id": "nhie_en_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever forgotten a close friend's birthday."
+    },
+    {
+      "id": "nhie_en_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever been caught eavesdropping."
+    },
+    {
+      "id": "nhie_en_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever pretended my phone died to end a call."
+    },
+    {
+      "id": "nhie_en_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever had a crush on a coworker or classmate."
+    },
+    {
+      "id": "nhie_en_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever re-read an old chat to overthink it."
+    },
+    {
+      "id": "nhie_en_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever deleted a message immediately after sending."
+    },
+    {
+      "id": "nhie_en_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever stalked someone's profile out of curiosity."
+    },
+    {
+      "id": "nhie_en_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever been so embarrassed I wanted to leave a party."
+    },
+    {
+      "id": "nhie_en_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever lied on a resume."
+    },
+    {
+      "id": "nhie_en_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever borrowed something and not returned it."
+    },
+    {
+      "id": "nhie_en_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever blocked someone and then unblocked them to check."
+    },
+    {
+      "id": "nhie_en_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever used a fake name at a coffee shop."
+    },
+    {
+      "id": "nhie_en_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever ghosted a group chat."
+    },
+    {
+      "id": "nhie_en_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever blamed my lateness on traffic when I just left late."
+    },
+    {
+      "id": "nhie_en_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever said 'seen it' without watching it."
+    },
+    {
+      "id": "nhie_en_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever forgotten a password and made a new account."
+    },
+    {
+      "id": "nhie_en_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever stayed in bed all day on purpose."
+    },
+    {
+      "id": "nhie_en_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever secretly disliked a friend's partner."
+    },
+    {
+      "id": "nhie_en_101",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever kissed someone I met that night."
+    },
+    {
+      "id": "nhie_en_102",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever had a secret fling."
+    },
+    {
+      "id": "nhie_en_103",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever sent a risky photo."
+    },
+    {
+      "id": "nhie_en_104",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever lied about my relationship status."
+    },
+    {
+      "id": "nhie_en_105",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever been on a date just for free food."
+    },
+    {
+      "id": "nhie_en_106",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever been caught sneaking out."
+    },
+    {
+      "id": "nhie_en_107",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever had feelings for two people at once."
+    },
+    {
+      "id": "nhie_en_108",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever been jealous of a friend's relationship."
+    },
+    {
+      "id": "nhie_en_109",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever deleted messages to hide something."
+    },
+    {
+      "id": "nhie_en_110",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever flirted to get a favor."
+    },
+    {
+      "id": "nhie_en_111",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever baked cookies from scratch."
+    },
+    {
+      "id": "nhie_en_112",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever fallen asleep in class."
+    },
+    {
+      "id": "nhie_en_113",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever missed a bus on purpose."
+    },
+    {
+      "id": "nhie_en_114",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever built a snowman."
+    },
+    {
+      "id": "nhie_en_115",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever gone a whole day without my phone."
+    },
+    {
+      "id": "nhie_en_116",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever worn the same outfit two days in a row."
+    },
+    {
+      "id": "nhie_en_117",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever forgotten where I parked."
+    },
+    {
+      "id": "nhie_en_118",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever sung loudly in the shower."
+    },
+    {
+      "id": "nhie_en_119",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever gotten lost in a mall."
+    },
+    {
+      "id": "nhie_en_120",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever tried a new food and loved it immediately."
+    },
+    {
+      "id": "nhie_en_121",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever borrowed a book and not returned it."
+    },
+    {
+      "id": "nhie_en_122",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever binge-watched a show in one weekend."
+    },
+    {
+      "id": "nhie_en_123",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever spilled coffee on my shirt."
+    },
+    {
+      "id": "nhie_en_124",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever made a DIY gift."
+    },
+    {
+      "id": "nhie_en_125",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever stayed up all night talking."
+    },
+    {
+      "id": "nhie_en_126",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever skipped a workout I planned to do."
+    },
+    {
+      "id": "nhie_en_127",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever lied about being “five minutes away.”"
+    },
+    {
+      "id": "nhie_en_128",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever sent a message to the wrong person."
+    },
+    {
+      "id": "nhie_en_129",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever broken something and blamed it on someone else."
+    },
+    {
+      "id": "nhie_en_130",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Never have I ever gotten a speeding ticket."
+    },
+    {
+      "id": "nhie_en_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever pretended to like a gift I didn’t."
+    },
+    {
+      "id": "nhie_en_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever stalked a menu online before going out."
+    },
+    {
+      "id": "nhie_en_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever called in sick when I wasn’t."
+    },
+    {
+      "id": "nhie_en_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever gone on a trip with no plan at all."
+    },
+    {
+      "id": "nhie_en_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever been caught singing in the car at a red light."
+    },
+    {
+      "id": "nhie_en_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever pulled an all-nighter to finish a project."
+    },
+    {
+      "id": "nhie_en_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever cried at a movie in public."
+    },
+    {
+      "id": "nhie_en_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever ignored a text on purpose."
+    },
+    {
+      "id": "nhie_en_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever felt guilty for canceling plans."
+    },
+    {
+      "id": "nhie_en_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever been embarrassed by my own ringtone."
+    },
+    {
+      "id": "nhie_en_141",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever ignored my alarm and fallen back asleep."
+    },
+    {
+      "id": "nhie_en_142",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever faked knowing a song."
+    },
+    {
+      "id": "nhie_en_143",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever snooped through someone’s fridge."
+    },
+    {
+      "id": "nhie_en_144",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever tried to learn a language and quit."
+    },
+    {
+      "id": "nhie_en_145",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever texted “lol” without laughing."
+    },
+    {
+      "id": "nhie_en_146",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever gone on a date I knew wouldn’t go anywhere."
+    },
+    {
+      "id": "nhie_en_147",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever had a crush on a coworker."
+    },
+    {
+      "id": "nhie_en_148",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever been in a situationship."
+    },
+    {
+      "id": "nhie_en_149",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever been caught flirting."
+    },
+    {
+      "id": "nhie_en_150",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Never have I ever ghosted someone after a date."
+    },
+    {
+      "id": "nhie_en_151",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever sent a risky text and instantly regretted it."
+    },
+    {
+      "id": "nhie_en_152",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever lied about my age."
+    },
+    {
+      "id": "nhie_en_153",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever kissed someone I just met."
+    },
+    {
+      "id": "nhie_en_154",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever had feelings for a friend."
+    },
+    {
+      "id": "nhie_en_155",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever been on a dating app."
+    },
+    {
+      "id": "nhie_en_156",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever texted an ex late at night."
+    },
+    {
+      "id": "nhie_en_157",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever fallen asleep during a date."
+    },
+    {
+      "id": "nhie_en_158",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever gone home early to avoid a bad date."
+    },
+    {
+      "id": "nhie_en_159",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever been jealous of a friend’s relationship."
+    },
+    {
+      "id": "nhie_en_160",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Never have I ever deleted a message before they saw it."
+    }
   ]
 }

@@ -206,7 +206,8 @@
     "roundsPlayed_one": "{{count}} Runde gespielt",
     "roundsPlayed_other": "{{count}} Runden gespielt",
     "pts": "Pkt",
-    "delta": "+{{count}}"
+    "delta": "+{{count}}",
+    "final": "Endstand"
   },
   "streak": {
     "crewStreak": "🔥 Team auf {{count}}-Siegesserie!",
@@ -473,7 +474,9 @@
     "endGame": "Spiel beenden",
     "readyTitle": "Bereit?",
     "readySubtitle": "Handy weitergeben und an die Stirn halten",
-    "startTimer": "Start!"
+    "startTimer": "Start!",
+    "emptyTitle": "Keine Wörter mehr übrig",
+    "emptySubtitle": "Wähle andere Kategorien, um weiterzuspielen."
   },
   "wordChain": {
     "title": "Wortkette",

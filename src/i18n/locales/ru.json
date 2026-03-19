@@ -206,7 +206,8 @@
     "roundsPlayed_one": "{{count}} раунд сыгран",
     "roundsPlayed_other": "{{count}} раундов сыграно",
     "pts": "очк",
-    "delta": "+{{count}}"
+    "delta": "+{{count}}",
+    "final": "Итоговый счёт"
   },
   "streak": {
     "crewStreak": "🔥 Команда в серии {{count}} побед!",
@@ -473,7 +474,9 @@
     "endGame": "Завершить игру",
     "readyTitle": "Готовы?",
     "readySubtitle": "Передайте телефон и держите у лба",
-    "startTimer": "Старт!"
+    "startTimer": "Старт!",
+    "emptyTitle": "Слова закончились",
+    "emptySubtitle": "Выберите другие категории, чтобы продолжить."
   },
   "wordChain": {
     "title": "Цепочка слов",

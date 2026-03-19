@@ -1,55 +1,39 @@
 import { shuffle } from '@/utils/shuffle'
 import type { PromptItem } from '@/types'
 
-// ─────────────────────────────────────────────────────────────────────────────
-// PARANOIA — LOGIC
-// Reader whispers a "Who would most likely..." question to the next player.
-// That player whispers a name (points). Everyone sees the name but NOT
-// the question. To reveal the question, the named person can pay a token.
-// ─────────────────────────────────────────────────────────────────────────────
-
-// Module-level cache
-let _en: PromptItem[] | null = null
-let _tr: PromptItem[] | null = null
-
-function loadPrompts(locale: string): PromptItem[] {
-  if (locale === 'tr') {
-    if (!_tr) {
-      // eslint-disable-next-line @typescript-eslint/no-var-requires
-      _tr = require('@/data/prompts/paranoia/tr.json').prompts as PromptItem[]
-    }
-    return _tr
-  }
-  if (!_en) {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    _en = require('@/data/prompts/paranoia/en.json').prompts as PromptItem[]
-  }
-  return _en
+const PROMPTS: Record<string, PromptItem[]> = {
+  en: require('@/data/prompts/paranoia/en.json').prompts as PromptItem[],
+  tr: require('@/data/prompts/paranoia/tr.json').prompts as PromptItem[],
+  de: require('@/data/prompts/paranoia/de.json').prompts as PromptItem[],
+  fr: require('@/data/prompts/paranoia/fr.json').prompts as PromptItem[],
+  es: require('@/data/prompts/paranoia/es.json').prompts as PromptItem[],
+  pt: require('@/data/prompts/paranoia/pt.json').prompts as PromptItem[],
+  ru: require('@/data/prompts/paranoia/ru.json').prompts as PromptItem[],
+  ar: require('@/data/prompts/paranoia/ar.json').prompts as PromptItem[],
+  it: require('@/data/prompts/paranoia/it.json').prompts as PromptItem[],
+  nl: require('@/data/prompts/paranoia/nl.json').prompts as PromptItem[],
 }
 
-export const REVEAL_TOKEN_COST = 1
+function loadPrompts(locale: string): PromptItem[] {
+  return PROMPTS[locale] ?? PROMPTS.en
+}
 
 export const paranoiaLogic = {
-  /**
-   * Pick a random unused question matching intensity.
-   * Auto-resets pool when exhausted.
-   */
   getNextPrompt(
     locale: string,
     intensity: 'mild' | 'medium' | 'spicy',
     usedIds: string[],
   ): PromptItem {
-    const all = loadPrompts(locale)
+    const all     = loadPrompts(locale)
     const matches = all.filter((p) => p.intensity === intensity)
-    const unused = matches.filter((p) => !usedIds.includes(p.id))
-    const pool = unused.length > 0 ? unused : matches
+    const unused  = matches.filter((p) => !usedIds.includes(p.id))
+    const pool    = unused.length > 0 ? unused : matches
 
     const fallback: PromptItem = {
       id: 'fallback_paranoia',
-      text: 'Who in this group would survive a zombie apocalypse longest?',
+      text: 'Who would survive a zombie apocalypse the longest?',
       intensity,
     }
-
     return shuffle(pool)[0] ?? fallback
   },
 

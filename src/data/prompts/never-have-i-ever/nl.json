@@ -1,0 +1,607 @@
+{
+  "gameId": "never-have-i-ever",
+  "locale": "nl",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "nhie_nl_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit mijn telefoon thuis vergeten."
+    },
+    {
+      "id": "nhie_nl_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit de verkeerde bus of trein genomen."
+    },
+    {
+      "id": "nhie_nl_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit dessert gegeten vóór het avondeten."
+    },
+    {
+      "id": "nhie_nl_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit door mijn wekker heen geslapen."
+    },
+    {
+      "id": "nhie_nl_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit twee verschillende sokken gedragen."
+    },
+    {
+      "id": "nhie_nl_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit gelachen op een serieus moment."
+    },
+    {
+      "id": "nhie_nl_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit een drankje over mezelf heen gegooid in het openbaar."
+    },
+    {
+      "id": "nhie_nl_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit boodschappen gedaan met honger."
+    },
+    {
+      "id": "nhie_nl_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit mijn sleutels langer dan een dag kwijt gehad."
+    },
+    {
+      "id": "nhie_nl_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit twee dagen achter elkaar hetzelfde outfit gedragen."
+    },
+    {
+      "id": "nhie_nl_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit vergeten mijn telefoon 's nachts op te laden."
+    },
+    {
+      "id": "nhie_nl_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit hard gezongen in de auto in mijn eentje."
+    },
+    {
+      "id": "nhie_nl_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit ontbijtgranen als avondeten gegeten."
+    },
+    {
+      "id": "nhie_nl_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit een kapsel gehad dat ik haatte."
+    },
+    {
+      "id": "nhie_nl_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit iets geprobeerd te repareren en het erger gemaakt."
+    },
+    {
+      "id": "nhie_nl_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit in de verkeerde klas of vergadering gezeten."
+    },
+    {
+      "id": "nhie_nl_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit in de bioscoop geslapen tijdens een film."
+    },
+    {
+      "id": "nhie_nl_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit een bericht naar de verkeerde groepsapp gestuurd."
+    },
+    {
+      "id": "nhie_nl_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit iets gebakken dat compleet mislukt was."
+    },
+    {
+      "id": "nhie_nl_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit een goudvis als huisdier gehad."
+    },
+    {
+      "id": "nhie_nl_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit de wekker meer dan vijf keer gesnoozed."
+    },
+    {
+      "id": "nhie_nl_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit gelogen dat ik al onderweg was."
+    },
+    {
+      "id": "nhie_nl_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit de verjaardag van een goede vriend vergeten."
+    },
+    {
+      "id": "nhie_nl_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit betrapt tijdens afluisteren."
+    },
+    {
+      "id": "nhie_nl_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit gedaan alsof mijn batterij leeg was om een gesprek te beëindigen."
+    },
+    {
+      "id": "nhie_nl_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit een crush gehad op een collega of klasgenoot."
+    },
+    {
+      "id": "nhie_nl_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit een oud chatgesprek herlezen om te overdenken."
+    },
+    {
+      "id": "nhie_nl_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit een bericht direct na het sturen verwijderd."
+    },
+    {
+      "id": "nhie_nl_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit iemands profiel gestalkt uit nieuwsgierigheid."
+    },
+    {
+      "id": "nhie_nl_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit zo'n schaamte gevoeld dat ik een feest wilde verlaten."
+    },
+    {
+      "id": "nhie_nl_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit gelogen op mijn cv."
+    },
+    {
+      "id": "nhie_nl_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit iets geleend en niet teruggebracht."
+    },
+    {
+      "id": "nhie_nl_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit iemand geblokkeerd en daarna weer gedeblokkeerd om te kijken."
+    },
+    {
+      "id": "nhie_nl_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit een nepnaam opgegeven in een café."
+    },
+    {
+      "id": "nhie_nl_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit een groepsapp geghost."
+    },
+    {
+      "id": "nhie_nl_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit mijn te laat komen op het verkeer geschoven terwijl ik laat vertrok."
+    },
+    {
+      "id": "nhie_nl_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit gezegd 'ik heb het gezien' zonder het te zien."
+    },
+    {
+      "id": "nhie_nl_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit een wachtwoord vergeten en een nieuw account gemaakt."
+    },
+    {
+      "id": "nhie_nl_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit expres de hele dag in bed gelegen."
+    },
+    {
+      "id": "nhie_nl_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit stiekem de partner van een vriend niet gemogen."
+    },
+    {
+      "id": "nhie_nl_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ik heb nog nooit iemand gekust die ik die avond ontmoette."
+    },
+    {
+      "id": "nhie_nl_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ik heb nog nooit een geheime affaire gehad."
+    },
+    {
+      "id": "nhie_nl_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ik heb nog nooit een gewaagde foto gestuurd."
+    },
+    {
+      "id": "nhie_nl_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ik heb nog nooit gelogen over mijn relatiestatus."
+    },
+    {
+      "id": "nhie_nl_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ik heb nog nooit op date gegaan voor gratis eten."
+    },
+    {
+      "id": "nhie_nl_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ik heb nog nooit betrapt terwijl ik stiekem naar buiten ging."
+    },
+    {
+      "id": "nhie_nl_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ik heb nog nooit gevoelens gehad voor twee mensen tegelijk."
+    },
+    {
+      "id": "nhie_nl_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ik heb nog nooit jaloezie gevoeld over de relatie van een vriend."
+    },
+    {
+      "id": "nhie_nl_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ik heb nog nooit berichten verwijderd om iets te verbergen."
+    },
+    {
+      "id": "nhie_nl_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ik heb nog nooit geflirt voor een gunst."
+    },
+    {
+      "id": "nhie_nl_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit koekjes helemaal zelf gebakken."
+    },
+    {
+      "id": "nhie_nl_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit geslapen in de les."
+    },
+    {
+      "id": "nhie_nl_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit expres de bus gemist."
+    },
+    {
+      "id": "nhie_nl_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit een sneeuwpop gemaakt."
+    },
+    {
+      "id": "nhie_nl_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit een hele dag zonder mijn telefoon gezeten."
+    },
+    {
+      "id": "nhie_nl_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit koffie op mijn shirt gemorst."
+    },
+    {
+      "id": "nhie_nl_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit vergeten waar ik geparkeerd heb."
+    },
+    {
+      "id": "nhie_nl_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit luid gezongen onder de douche."
+    },
+    {
+      "id": "nhie_nl_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb me nog nooit verloren in een winkelcentrum."
+    },
+    {
+      "id": "nhie_nl_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit nieuw eten geprobeerd en het meteen geweldig gevonden."
+    },
+    {
+      "id": "nhie_nl_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit een geleend boek niet teruggebracht."
+    },
+    {
+      "id": "nhie_nl_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit een serie in één weekend gebinged."
+    },
+    {
+      "id": "nhie_nl_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit zo hard gelachen dat ik moest huilen."
+    },
+    {
+      "id": "nhie_nl_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit een DIY-cadeau gemaakt."
+    },
+    {
+      "id": "nhie_nl_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit de hele nacht gepraat."
+    },
+    {
+      "id": "nhie_nl_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit een geplande workout geskipt."
+    },
+    {
+      "id": "nhie_nl_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit gelogen dat ik “over vijf minuten” zou zijn."
+    },
+    {
+      "id": "nhie_nl_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit een bericht naar de verkeerde persoon gestuurd."
+    },
+    {
+      "id": "nhie_nl_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit iets kapotgemaakt en iemand anders de schuld gegeven."
+    },
+    {
+      "id": "nhie_nl_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ik heb nog nooit een boete gekregen voor te hard rijden."
+    },
+    {
+      "id": "nhie_nl_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit gedaan alsof ik een cadeau leuk vond."
+    },
+    {
+      "id": "nhie_nl_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit het menu online bekeken voordat ik uitging."
+    },
+    {
+      "id": "nhie_nl_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit me ziek gemeld terwijl ik niet ziek was."
+    },
+    {
+      "id": "nhie_nl_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit gereisd zonder plan."
+    },
+    {
+      "id": "nhie_nl_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik ben nog nooit betrapt op zingen in de auto bij een rood licht."
+    },
+    {
+      "id": "nhie_nl_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit een nacht doorgehaald om iets af te maken."
+    },
+    {
+      "id": "nhie_nl_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit in het openbaar gehuild bij een film."
+    },
+    {
+      "id": "nhie_nl_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit een bericht expres genegeerd."
+    },
+    {
+      "id": "nhie_nl_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit me schuldig gevoeld omdat ik plannen afzegde."
+    },
+    {
+      "id": "nhie_nl_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit me geschaamd voor mijn ringtone."
+    },
+    {
+      "id": "nhie_nl_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit iets gekocht alleen omdat het in de aanbieding was."
+    },
+    {
+      "id": "nhie_nl_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit gedaan alsof ik een lied kende."
+    },
+    {
+      "id": "nhie_nl_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit in iemands koelkast gesnuffeld."
+    },
+    {
+      "id": "nhie_nl_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit een taal begonnen en weer opgegeven."
+    },
+    {
+      "id": "nhie_nl_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit “lol” getypt zonder te lachen."
+    },
+    {
+      "id": "nhie_nl_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit een date gehad waarvan ik wist dat het nergens heen zou gaan."
+    },
+    {
+      "id": "nhie_nl_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit een crush gehad op een collega."
+    },
+    {
+      "id": "nhie_nl_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit in een situationship gezeten."
+    },
+    {
+      "id": "nhie_nl_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik ben nog nooit betrapt op flirten."
+    },
+    {
+      "id": "nhie_nl_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ik heb nog nooit iemand geghost na een date."
+    },
+    {
+      "id": "nhie_nl_091",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ik heb nog nooit een riskant bericht gestuurd en meteen spijt gehad."
+    },
+    {
+      "id": "nhie_nl_092",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ik heb nog nooit gelogen over mijn leeftijd."
+    },
+    {
+      "id": "nhie_nl_093",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ik heb nog nooit iemand gekust die ik net had ontmoet."
+    },
+    {
+      "id": "nhie_nl_094",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ik heb nog nooit gevoelens gehad voor een vriend."
+    },
+    {
+      "id": "nhie_nl_095",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ik heb nog nooit een datingapp gebruikt."
+    },
+    {
+      "id": "nhie_nl_096",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ik heb nog nooit mijn ex laat op de avond geappt."
+    },
+    {
+      "id": "nhie_nl_097",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ik ben nog nooit in slaap gevallen tijdens een date."
+    },
+    {
+      "id": "nhie_nl_098",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ik ben nog nooit vroeg weggegaan om een slechte date te vermijden."
+    },
+    {
+      "id": "nhie_nl_099",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ik heb nog nooit jaloers geweest op de relatie van een vriend."
+    },
+    {
+      "id": "nhie_nl_100",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ik heb nog nooit een bericht verwijderd voordat het gelezen werd."
+    }
+  ]
+}
