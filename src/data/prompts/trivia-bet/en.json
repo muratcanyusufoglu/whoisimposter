@@ -92,6 +92,26 @@
     {"difficulty": "hard", "category": "Math", "question": "What is the square root of 256?", "options": ["14", "16", "18", "20"], "correctIndex": 1, "id": "tb_en_087"},
     {"difficulty": "hard", "category": "Geography", "question": "Which country has the most time zones?", "options": ["USA", "France", "Russia", "Australia"], "correctIndex": 1, "id": "tb_en_088"},
     {"difficulty": "hard", "category": "Geography", "question": "What is the longest river in Europe?", "options": ["Danube", "Volga", "Rhine", "Seine"], "correctIndex": 1, "id": "tb_en_089"},
-    {"difficulty": "hard", "category": "Art", "question": "Who painted 'The Persistence of Memory'?", "options": ["Salvador Dalí", "Pablo Picasso", "Claude Monet", "Edvard Munch"], "correctIndex": 0, "id": "tb_en_090"}
+    {"difficulty": "hard", "category": "Art", "question": "Who painted 'The Persistence of Memory'?", "options": ["Salvador Dalí", "Pablo Picasso", "Claude Monet", "Edvard Munch"], "correctIndex": 0, "id": "tb_en_090"},
+    {"id":"tb_en_091","difficulty":"easy","category":"Geography","question":"What is the capital of Spain?","options":["Madrid","Barcelona","Seville","Valencia"],"correctIndex":0},
+    {"id":"tb_en_092","difficulty":"easy","category":"Geography","question":"What is the capital of Brazil?","options":["Brasilia","Rio de Janeiro","São Paulo","Salvador"],"correctIndex":0},
+    {"id":"tb_en_093","difficulty":"easy","category":"Geography","question":"What is the capital of India?","options":["New Delhi","Mumbai","Bangalore","Kolkata"],"correctIndex":0},
+    {"id":"tb_en_094","difficulty":"easy","category":"Science","question":"What is the chemical symbol for potassium?","options":["K","P","Po","Pt"],"correctIndex":0},
+    {"id":"tb_en_095","difficulty":"easy","category":"Science","question":"What is the chemical symbol for oxygen?","options":["O","Ox","Og","Oz"],"correctIndex":0},
+    {"id":"tb_en_096","difficulty":"easy","category":"History","question":"In which year did World War I begin?","options":["1912","1914","1916","1918"],"correctIndex":1},
+    {"id":"tb_en_097","difficulty":"easy","category":"History","question":"Who was the first president of the United States?","options":["George Washington","Thomas Jefferson","Abraham Lincoln","John Adams"],"correctIndex":0},
+    {"id":"tb_en_098","difficulty":"easy","category":"Art","question":"Who sculpted the statue of David?","options":["Michelangelo","Donatello","Bernini","Rodin"],"correctIndex":0},
+    {"id":"tb_en_099","difficulty":"easy","category":"Art","question":"Who wrote '1984'?","options":["George Orwell","Aldous Huxley","Ray Bradbury","J.K. Rowling"],"correctIndex":0},
+    {"id":"tb_en_100","difficulty":"easy","category":"Sports","question":"How many players are on a soccer team on the field?","options":["9","10","11","12"],"correctIndex":2},
+    {"id":"tb_en_101","difficulty":"easy","category":"Animals","question":"What is the largest bird?","options":["Ostrich","Eagle","Penguin","Swan"],"correctIndex":0},
+    {"id":"tb_en_102","difficulty":"easy","category":"Science","question":"What is H2O?","options":["Water","Hydrogen","Oxygen","Salt"],"correctIndex":0},
+    {"id":"tb_en_103","difficulty":"easy","category":"Technology","question":"What does GPS stand for?","options":["Global Positioning System","General Packet Service","Geographic Positioning Software","Global Postal Service"],"correctIndex":0},
+    {"id":"tb_en_104","difficulty":"easy","category":"Math","question":"What is 12 x 12?","options":["124","132","144","156"],"correctIndex":2},
+    {"id":"tb_en_105","difficulty":"easy","category":"Geography","question":"Which continent is Brazil in?","options":["South America","North America","Europe","Africa"],"correctIndex":0},
+    {"id":"tb_en_106","difficulty":"easy","category":"Food","question":"What is the main ingredient in hummus?","options":["Chickpeas","Lentils","Potatoes","Rice"],"correctIndex":0},
+    {"id":"tb_en_107","difficulty":"easy","category":"Science","question":"How many planets are in our solar system?","options":["7","8","9","10"],"correctIndex":1},
+    {"id":"tb_en_108","difficulty":"easy","category":"Art","question":"Who painted 'The Scream'?","options":["Edvard Munch","Pablo Picasso","Vincent van Gogh","Claude Monet"],"correctIndex":0},
+    {"id":"tb_en_109","difficulty":"easy","category":"Geography","question":"What is the capital of Egypt?","options":["Cairo","Alexandria","Giza","Luxor"],"correctIndex":0},
+    {"id":"tb_en_110","difficulty":"easy","category":"Technology","question":"What does USB stand for?","options":["Universal Serial Bus","Unified System Board","Universal Sync Bridge","United Serial Base"],"correctIndex":0}
   ]
 }

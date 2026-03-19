@@ -55,6 +55,26 @@
     {"difficulty": "hard", "category": "Art", "question": "Qui a peint 'La Persistance de la mémoire' ?", "options": ["Salvador Dalí", "Pablo Picasso", "Claude Monet", "Edvard Munch"], "correctIndex": 0, "id": "tb_fr_050"},
     {"difficulty": "easy", "category": "Géographie", "question": "Quelle est la capitale du Canada ?", "options": ["Ottawa", "Toronto", "Vancouver", "Montréal"], "correctIndex": 0, "id": "tb_fr_051"},
     {"difficulty": "easy", "category": "Science", "question": "Quelle planète est appelée la planète rouge ?", "options": ["Mars", "Vénus", "Jupiter", "Mercure"], "correctIndex": 0, "id": "tb_fr_052"},
-    {"difficulty": "easy", "category": "Musique", "question": "Quel instrument a 88 touches ?", "options": ["Piano", "Guitare", "Violon", "Flûte"], "correctIndex": 0, "id": "tb_fr_053"}
+    {"difficulty": "easy", "category": "Musique", "question": "Quel instrument a 88 touches ?", "options": ["Piano", "Guitare", "Violon", "Flûte"], "correctIndex": 0, "id": "tb_fr_053"},
+    {"id":"tb_fr_054","difficulty":"easy","category":"Géographie","question":"Quelle est la capitale de l'Espagne ?","options":["Madrid","Barcelone","Séville","Valence"],"correctIndex":0},
+    {"id":"tb_fr_055","difficulty":"easy","category":"Géographie","question":"Quelle est la capitale du Brésil ?","options":["Brasilia","Rio de Janeiro","São Paulo","Salvador"],"correctIndex":0},
+    {"id":"tb_fr_056","difficulty":"easy","category":"Géographie","question":"Quelle est la capitale de l'Inde ?","options":["New Delhi","Mumbai","Bangalore","Kolkata"],"correctIndex":0},
+    {"id":"tb_fr_057","difficulty":"easy","category":"Science","question":"Quel est le symbole chimique du potassium ?","options":["K","P","Po","Pt"],"correctIndex":0},
+    {"id":"tb_fr_058","difficulty":"easy","category":"Science","question":"Quel est le symbole chimique de l'oxygène ?","options":["O","Ox","Og","Oz"],"correctIndex":0},
+    {"id":"tb_fr_059","difficulty":"easy","category":"Histoire","question":"En quelle année a commencé la Première Guerre mondiale ?","options":["1912","1914","1916","1918"],"correctIndex":1},
+    {"id":"tb_fr_060","difficulty":"easy","category":"Histoire","question":"Qui était le premier président des États-Unis ?","options":["George Washington","Thomas Jefferson","Abraham Lincoln","John Adams"],"correctIndex":0},
+    {"id":"tb_fr_061","difficulty":"easy","category":"Art","question":"Qui a sculpté la statue de David ?","options":["Michel-Ange","Donatello","Bernin","Rodin"],"correctIndex":0},
+    {"id":"tb_fr_062","difficulty":"easy","category":"Art","question":"Qui a écrit '1984' ?","options":["George Orwell","Aldous Huxley","Ray Bradbury","J.K. Rowling"],"correctIndex":0},
+    {"id":"tb_fr_063","difficulty":"easy","category":"Sport","question":"Combien de joueurs une équipe de football a-t-elle sur le terrain ?","options":["9","10","11","12"],"correctIndex":2},
+    {"id":"tb_fr_064","difficulty":"easy","category":"Animaux","question":"Quel est le plus grand oiseau ?","options":["Autruche","Aigle","Manchot","Cygne"],"correctIndex":0},
+    {"id":"tb_fr_065","difficulty":"easy","category":"Science","question":"Qu'est-ce que H2O ?","options":["Eau","Hydrogène","Oxygène","Sel"],"correctIndex":0},
+    {"id":"tb_fr_066","difficulty":"easy","category":"Technologie","question":"Que signifie GPS ?","options":["Global Positioning System","General Packet Service","Geographic Positioning Software","Global Postal Service"],"correctIndex":0},
+    {"id":"tb_fr_067","difficulty":"easy","category":"Maths","question":"Combien font 12 x 12 ?","options":["124","132","144","156"],"correctIndex":2},
+    {"id":"tb_fr_068","difficulty":"easy","category":"Géographie","question":"Sur quel continent se trouve le Brésil ?","options":["Amérique du Sud","Amérique du Nord","Europe","Afrique"],"correctIndex":0},
+    {"id":"tb_fr_069","difficulty":"easy","category":"Cuisine","question":"Quel est l'ingrédient principal du houmous ?","options":["Pois chiches","Lentilles","Pommes de terre","Riz"],"correctIndex":0},
+    {"id":"tb_fr_070","difficulty":"easy","category":"Science","question":"Combien de planètes y a-t-il dans notre système solaire ?","options":["7","8","9","10"],"correctIndex":1},
+    {"id":"tb_fr_071","difficulty":"easy","category":"Art","question":"Qui a peint 'Le Cri' ?","options":["Edvard Munch","Pablo Picasso","Vincent van Gogh","Claude Monet"],"correctIndex":0},
+    {"id":"tb_fr_072","difficulty":"easy","category":"Géographie","question":"Quelle est la capitale de l'Égypte ?","options":["Le Caire","Alexandrie","Gizeh","Louxor"],"correctIndex":0},
+    {"id":"tb_fr_073","difficulty":"easy","category":"Technologie","question":"Que signifie USB ?","options":["Universal Serial Bus","Unified System Board","Universal Sync Bridge","United Serial Base"],"correctIndex":0}
   ]
 }

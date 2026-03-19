@@ -55,6 +55,26 @@
     {"difficulty": "hard", "category": "Arte", "question": "¿Quién pintó 'La persistencia de la memoria'?", "options": ["Salvador Dalí", "Pablo Picasso", "Claude Monet", "Edvard Munch"], "correctIndex": 0, "id": "tb_es_050"},
     {"difficulty": "easy", "category": "Geografía", "question": "¿Cuál es la capital de Canadá?", "options": ["Ottawa", "Toronto", "Vancouver", "Montreal"], "correctIndex": 0, "id": "tb_es_051"},
     {"difficulty": "easy", "category": "Ciencia", "question": "¿Qué planeta es conocido como el planeta rojo?", "options": ["Marte", "Venus", "Júpiter", "Mercurio"], "correctIndex": 0, "id": "tb_es_052"},
-    {"difficulty": "easy", "category": "Música", "question": "¿Qué instrumento tiene 88 teclas?", "options": ["Piano", "Guitarra", "Violín", "Flauta"], "correctIndex": 0, "id": "tb_es_053"}
+    {"difficulty": "easy", "category": "Música", "question": "¿Qué instrumento tiene 88 teclas?", "options": ["Piano", "Guitarra", "Violín", "Flauta"], "correctIndex": 0, "id": "tb_es_053"},
+    {"id":"tb_es_054","difficulty":"easy","category":"Geografía","question":"¿Cuál es la capital de España?","options":["Madrid","Barcelona","Sevilla","Valencia"],"correctIndex":0},
+    {"id":"tb_es_055","difficulty":"easy","category":"Geografía","question":"¿Cuál es la capital de Brasil?","options":["Brasilia","Río de Janeiro","São Paulo","Salvador"],"correctIndex":0},
+    {"id":"tb_es_056","difficulty":"easy","category":"Geografía","question":"¿Cuál es la capital de la India?","options":["Nueva Delhi","Mumbai","Bangalore","Calcuta"],"correctIndex":0},
+    {"id":"tb_es_057","difficulty":"easy","category":"Ciencia","question":"¿Cuál es el símbolo químico del potasio?","options":["K","P","Po","Pt"],"correctIndex":0},
+    {"id":"tb_es_058","difficulty":"easy","category":"Ciencia","question":"¿Cuál es el símbolo químico del oxígeno?","options":["O","Ox","Og","Oz"],"correctIndex":0},
+    {"id":"tb_es_059","difficulty":"easy","category":"Historia","question":"¿En qué año comenzó la Primera Guerra Mundial?","options":["1912","1914","1916","1918"],"correctIndex":1},
+    {"id":"tb_es_060","difficulty":"easy","category":"Historia","question":"¿Quién fue el primer presidente de Estados Unidos?","options":["George Washington","Thomas Jefferson","Abraham Lincoln","John Adams"],"correctIndex":0},
+    {"id":"tb_es_061","difficulty":"easy","category":"Arte","question":"¿Quién esculpió la estatua de David?","options":["Miguel Ángel","Donatello","Bernini","Rodin"],"correctIndex":0},
+    {"id":"tb_es_062","difficulty":"easy","category":"Arte","question":"¿Quién escribió 1984?","options":["George Orwell","Aldous Huxley","Ray Bradbury","J.K. Rowling"],"correctIndex":0},
+    {"id":"tb_es_063","difficulty":"easy","category":"Deportes","question":"¿Cuántos jugadores tiene un equipo de fútbol en el campo?","options":["9","10","11","12"],"correctIndex":2},
+    {"id":"tb_es_064","difficulty":"easy","category":"Animales","question":"¿Cuál es el ave más grande?","options":["Avestruz","Águila","Pingüino","Cisne"],"correctIndex":0},
+    {"id":"tb_es_065","difficulty":"easy","category":"Ciencia","question":"¿Qué es H2O?","options":["Agua","Hidrógeno","Oxígeno","Sal"],"correctIndex":0},
+    {"id":"tb_es_066","difficulty":"easy","category":"Tecnología","question":"¿Qué significa GPS?","options":["Global Positioning System","General Packet Service","Geographic Positioning Software","Global Postal Service"],"correctIndex":0},
+    {"id":"tb_es_067","difficulty":"easy","category":"Matemáticas","question":"¿Cuánto es 12 x 12?","options":["124","132","144","156"],"correctIndex":2},
+    {"id":"tb_es_068","difficulty":"easy","category":"Geografía","question":"¿En qué continente está Brasil?","options":["América del Sur","América del Norte","Europa","África"],"correctIndex":0},
+    {"id":"tb_es_069","difficulty":"easy","category":"Comida","question":"¿Cuál es el ingrediente principal del hummus?","options":["Garbanzos","Lentejas","Patatas","Arroz"],"correctIndex":0},
+    {"id":"tb_es_070","difficulty":"easy","category":"Ciencia","question":"¿Cuántos planetas hay en nuestro sistema solar?","options":["7","8","9","10"],"correctIndex":1},
+    {"id":"tb_es_071","difficulty":"easy","category":"Arte","question":"¿Quién pintó El grito?","options":["Edvard Munch","Pablo Picasso","Vincent van Gogh","Claude Monet"],"correctIndex":0},
+    {"id":"tb_es_072","difficulty":"easy","category":"Geografía","question":"¿Cuál es la capital de Egipto?","options":["El Cairo","Alejandría","Guiza","Luxor"],"correctIndex":0},
+    {"id":"tb_es_073","difficulty":"easy","category":"Tecnología","question":"¿Qué significa USB?","options":["Universal Serial Bus","Unified System Board","Universal Sync Bridge","United Serial Base"],"correctIndex":0}
   ]
 }

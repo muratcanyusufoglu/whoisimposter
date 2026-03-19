@@ -55,6 +55,26 @@
     {"difficulty": "hard", "category": "Kunst", "question": "Wie schilderde 'De volharding der herinnering'?", "options": ["Salvador Dalí", "Pablo Picasso", "Claude Monet", "Edvard Munch"], "correctIndex": 0, "id": "tb_nl_050"},
     {"difficulty": "easy", "category": "Aardrijkskunde", "question": "Wat is de hoofdstad van Canada?", "options": ["Ottawa", "Toronto", "Vancouver", "Montreal"], "correctIndex": 0, "id": "tb_nl_051"},
     {"difficulty": "easy", "category": "Wetenschap", "question": "Welke planeet staat bekend als de Rode Planeet?", "options": ["Mars", "Venus", "Jupiter", "Mercurius"], "correctIndex": 0, "id": "tb_nl_052"},
-    {"difficulty": "easy", "category": "Muziek", "question": "Welk instrument heeft 88 toetsen?", "options": ["Piano", "Gitaar", "Viool", "Fluit"], "correctIndex": 0, "id": "tb_nl_053"}
+    {"difficulty": "easy", "category": "Muziek", "question": "Welk instrument heeft 88 toetsen?", "options": ["Piano", "Gitaar", "Viool", "Fluit"], "correctIndex": 0, "id": "tb_nl_053"},
+    {"id":"tb_nl_054","difficulty":"easy","category":"Aardrijkskunde","question":"Wat is de hoofdstad van Spanje?","options":["Madrid","Barcelona","Sevilla","Valencia"],"correctIndex":0},
+    {"id":"tb_nl_055","difficulty":"easy","category":"Aardrijkskunde","question":"Wat is de hoofdstad van Brazilië?","options":["Brasilia","Rio de Janeiro","São Paulo","Salvador"],"correctIndex":0},
+    {"id":"tb_nl_056","difficulty":"easy","category":"Aardrijkskunde","question":"Wat is de hoofdstad van India?","options":["New Delhi","Mumbai","Bangalore","Kolkata"],"correctIndex":0},
+    {"id":"tb_nl_057","difficulty":"easy","category":"Wetenschap","question":"Wat is het chemische symbool voor kalium?","options":["K","P","Po","Pt"],"correctIndex":0},
+    {"id":"tb_nl_058","difficulty":"easy","category":"Wetenschap","question":"Wat is het chemische symbool voor zuurstof?","options":["O","Ox","Og","Oz"],"correctIndex":0},
+    {"id":"tb_nl_059","difficulty":"easy","category":"Geschiedenis","question":"In welk jaar begon de Eerste Wereldoorlog?","options":["1912","1914","1916","1918"],"correctIndex":1},
+    {"id":"tb_nl_060","difficulty":"easy","category":"Geschiedenis","question":"Wie was de eerste president van de Verenigde Staten?","options":["George Washington","Thomas Jefferson","Abraham Lincoln","John Adams"],"correctIndex":0},
+    {"id":"tb_nl_061","difficulty":"easy","category":"Kunst","question":"Wie maakte het beeld David?","options":["Michelangelo","Donatello","Bernini","Rodin"],"correctIndex":0},
+    {"id":"tb_nl_062","difficulty":"easy","category":"Kunst","question":"Wie schreef '1984'?","options":["George Orwell","Aldous Huxley","Ray Bradbury","J.K. Rowling"],"correctIndex":0},
+    {"id":"tb_nl_063","difficulty":"easy","category":"Sport","question":"Hoeveel spelers staan er bij voetbal per team op het veld?","options":["9","10","11","12"],"correctIndex":2},
+    {"id":"tb_nl_064","difficulty":"easy","category":"Dieren","question":"Welke vogel is het grootst?","options":["Struisvogel","Arend","Pinguïn","Zwaan"],"correctIndex":0},
+    {"id":"tb_nl_065","difficulty":"easy","category":"Wetenschap","question":"Wat is H2O?","options":["Water","Waterstof","Zuurstof","Zout"],"correctIndex":0},
+    {"id":"tb_nl_066","difficulty":"easy","category":"Technologie","question":"Waar staat GPS voor?","options":["Global Positioning System","General Packet Service","Geographic Positioning Software","Global Postal Service"],"correctIndex":0},
+    {"id":"tb_nl_067","difficulty":"easy","category":"Wiskunde","question":"Wat is 12 x 12?","options":["124","132","144","156"],"correctIndex":2},
+    {"id":"tb_nl_068","difficulty":"easy","category":"Aardrijkskunde","question":"Op welk continent ligt Brazilië?","options":["Zuid-Amerika","Noord-Amerika","Europa","Afrika"],"correctIndex":0},
+    {"id":"tb_nl_069","difficulty":"easy","category":"Eten","question":"Wat is het hoofdingrediënt van hummus?","options":["Kikkererwten","Linzen","Aardappelen","Rijst"],"correctIndex":0},
+    {"id":"tb_nl_070","difficulty":"easy","category":"Wetenschap","question":"Hoeveel planeten heeft ons zonnestelsel?","options":["7","8","9","10"],"correctIndex":1},
+    {"id":"tb_nl_071","difficulty":"easy","category":"Kunst","question":"Wie schilderde 'De Schreeuw'?","options":["Edvard Munch","Pablo Picasso","Vincent van Gogh","Claude Monet"],"correctIndex":0},
+    {"id":"tb_nl_072","difficulty":"easy","category":"Aardrijkskunde","question":"Wat is de hoofdstad van Egypte?","options":["Caïro","Alexandrië","Gizeh","Luxor"],"correctIndex":0},
+    {"id":"tb_nl_073","difficulty":"easy","category":"Technologie","question":"Waar staat USB voor?","options":["Universal Serial Bus","Unified System Board","Universal Sync Bridge","United Serial Base"],"correctIndex":0}
   ]
 }

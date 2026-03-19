@@ -82,6 +82,26 @@
     {"difficulty": "hard", "category": "Matematik", "question": "256'nın karekökü nedir?", "options": ["14", "16", "18", "20"], "correctIndex": 1, "id": "tb_tr_077"},
     {"difficulty": "hard", "category": "Coğrafya", "question": "En fazla saat dilimine sahip ülke hangisidir?", "options": ["ABD", "Fransa", "Rusya", "Avustralya"], "correctIndex": 1, "id": "tb_tr_078"},
     {"difficulty": "hard", "category": "Coğrafya", "question": "Avrupa'nın en uzun nehri hangisidir?", "options": ["Tuna", "Volga", "Ren", "Sen"], "correctIndex": 1, "id": "tb_tr_079"},
-    {"difficulty": "hard", "category": "Sanat", "question": "'Belleğin Azmi' tablosunu kim yaptı?", "options": ["Salvador Dalí", "Pablo Picasso", "Claude Monet", "Edvard Munch"], "correctIndex": 0, "id": "tb_tr_080"}
+    {"difficulty": "hard", "category": "Sanat", "question": "'Belleğin Azmi' tablosunu kim yaptı?", "options": ["Salvador Dalí", "Pablo Picasso", "Claude Monet", "Edvard Munch"], "correctIndex": 0, "id": "tb_tr_080"},
+    {"id":"tb_tr_081","difficulty":"easy","category":"Coğrafya","question":"İspanya'nın başkenti hangisidir?","options":["Madrid","Barselona","Sevilla","Valensiya"],"correctIndex":0},
+    {"id":"tb_tr_082","difficulty":"easy","category":"Coğrafya","question":"Brezilya'nın başkenti hangisidir?","options":["Brasilia","Rio de Janeiro","São Paulo","Salvador"],"correctIndex":0},
+    {"id":"tb_tr_083","difficulty":"easy","category":"Coğrafya","question":"Hindistan'ın başkenti hangisidir?","options":["Yeni Delhi","Mumbai","Bangalore","Kolkata"],"correctIndex":0},
+    {"id":"tb_tr_084","difficulty":"easy","category":"Bilim","question":"Potasyumun kimyasal sembolü nedir?","options":["K","P","Po","Pt"],"correctIndex":0},
+    {"id":"tb_tr_085","difficulty":"easy","category":"Bilim","question":"Oksijenin kimyasal sembolü nedir?","options":["O","Ox","Og","Oz"],"correctIndex":0},
+    {"id":"tb_tr_086","difficulty":"easy","category":"Tarih","question":"I. Dünya Savaşı hangi yılda başladı?","options":["1912","1914","1916","1918"],"correctIndex":1},
+    {"id":"tb_tr_087","difficulty":"easy","category":"Tarih","question":"Amerika Birleşik Devletleri'nin ilk başkanı kimdir?","options":["George Washington","Thomas Jefferson","Abraham Lincoln","John Adams"],"correctIndex":0},
+    {"id":"tb_tr_088","difficulty":"easy","category":"Sanat","question":"David heykelini kim yaptı?","options":["Michelangelo","Donatello","Bernini","Rodin"],"correctIndex":0},
+    {"id":"tb_tr_089","difficulty":"easy","category":"Sanat","question":"'1984' romanını kim yazdı?","options":["George Orwell","Aldous Huxley","Ray Bradbury","J.K. Rowling"],"correctIndex":0},
+    {"id":"tb_tr_090","difficulty":"easy","category":"Spor","question":"Sahada bir futbol takımında kaç oyuncu vardır?","options":["9","10","11","12"],"correctIndex":2},
+    {"id":"tb_tr_091","difficulty":"easy","category":"Hayvanlar","question":"En büyük kuş hangisidir?","options":["Devekuşu","Kartal","Penguen","Kuğu"],"correctIndex":0},
+    {"id":"tb_tr_092","difficulty":"easy","category":"Bilim","question":"H2O nedir?","options":["Su","Hidrojen","Oksijen","Tuz"],"correctIndex":0},
+    {"id":"tb_tr_093","difficulty":"easy","category":"Teknoloji","question":"GPS kısaltması neyin açılımıdır?","options":["Global Positioning System","General Packet Service","Geographic Positioning Software","Global Postal Service"],"correctIndex":0},
+    {"id":"tb_tr_094","difficulty":"easy","category":"Matematik","question":"12 x 12 kaçtır?","options":["124","132","144","156"],"correctIndex":2},
+    {"id":"tb_tr_095","difficulty":"easy","category":"Coğrafya","question":"Brezilya hangi kıtadadır?","options":["Güney Amerika","Kuzey Amerika","Avrupa","Afrika"],"correctIndex":0},
+    {"id":"tb_tr_096","difficulty":"easy","category":"Yiyecek","question":"Humusun ana malzemesi nedir?","options":["Nohut","Mercimek","Patates","Pirinç"],"correctIndex":0},
+    {"id":"tb_tr_097","difficulty":"easy","category":"Bilim","question":"Güneş Sistemi'nde kaç gezegen vardır?","options":["7","8","9","10"],"correctIndex":1},
+    {"id":"tb_tr_098","difficulty":"easy","category":"Sanat","question":"'Çığlık' tablosunu kim yaptı?","options":["Edvard Munch","Pablo Picasso","Vincent van Gogh","Claude Monet"],"correctIndex":0},
+    {"id":"tb_tr_099","difficulty":"easy","category":"Coğrafya","question":"Mısır'ın başkenti hangisidir?","options":["Kahire","İskenderiye","Gize","Luksor"],"correctIndex":0},
+    {"id":"tb_tr_100","difficulty":"easy","category":"Teknoloji","question":"USB kısaltması neyin açılımıdır?","options":["Universal Serial Bus","Unified System Board","Universal Sync Bridge","United Serial Base"],"correctIndex":0}
   ]
 }

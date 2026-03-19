@@ -55,6 +55,26 @@
     {"difficulty": "hard", "category": "Arte", "question": "Chi ha dipinto 'La persistenza della memoria'?", "options": ["Salvador Dalí", "Pablo Picasso", "Claude Monet", "Edvard Munch"], "correctIndex": 0, "id": "tb_it_050"},
     {"difficulty": "easy", "category": "Geografia", "question": "Qual è la capitale del Canada?", "options": ["Ottawa", "Toronto", "Vancouver", "Montreal"], "correctIndex": 0, "id": "tb_it_051"},
     {"difficulty": "easy", "category": "Scienza", "question": "Quale pianeta è conosciuto come il pianeta rosso?", "options": ["Marte", "Venere", "Giove", "Mercurio"], "correctIndex": 0, "id": "tb_it_052"},
-    {"difficulty": "easy", "category": "Musica", "question": "Quale strumento ha 88 tasti?", "options": ["Pianoforte", "Chitarra", "Violino", "Flauto"], "correctIndex": 0, "id": "tb_it_053"}
+    {"difficulty": "easy", "category": "Musica", "question": "Quale strumento ha 88 tasti?", "options": ["Pianoforte", "Chitarra", "Violino", "Flauto"], "correctIndex": 0, "id": "tb_it_053"},
+    {"id":"tb_it_054","difficulty":"easy","category":"Geografia","question":"Qual è la capitale della Spagna?","options":["Madrid","Barcellona","Siviglia","Valencia"],"correctIndex":0},
+    {"id":"tb_it_055","difficulty":"easy","category":"Geografia","question":"Qual è la capitale del Brasile?","options":["Brasilia","Rio de Janeiro","São Paulo","Salvador"],"correctIndex":0},
+    {"id":"tb_it_056","difficulty":"easy","category":"Geografia","question":"Qual è la capitale dell'India?","options":["Nuova Delhi","Mumbai","Bangalore","Calcutta"],"correctIndex":0},
+    {"id":"tb_it_057","difficulty":"easy","category":"Scienza","question":"Qual è il simbolo chimico del potassio?","options":["K","P","Po","Pt"],"correctIndex":0},
+    {"id":"tb_it_058","difficulty":"easy","category":"Scienza","question":"Qual è il simbolo chimico dell'ossigeno?","options":["O","Ox","Og","Oz"],"correctIndex":0},
+    {"id":"tb_it_059","difficulty":"easy","category":"Storia","question":"In che anno è iniziata la Prima guerra mondiale?","options":["1912","1914","1916","1918"],"correctIndex":1},
+    {"id":"tb_it_060","difficulty":"easy","category":"Storia","question":"Chi è stato il primo presidente degli Stati Uniti?","options":["George Washington","Thomas Jefferson","Abraham Lincoln","John Adams"],"correctIndex":0},
+    {"id":"tb_it_061","difficulty":"easy","category":"Arte","question":"Chi ha scolpito la statua del David?","options":["Michelangelo","Donatello","Bernini","Rodin"],"correctIndex":0},
+    {"id":"tb_it_062","difficulty":"easy","category":"Arte","question":"Chi ha scritto 1984?","options":["George Orwell","Aldous Huxley","Ray Bradbury","J.K. Rowling"],"correctIndex":0},
+    {"id":"tb_it_063","difficulty":"easy","category":"Sport","question":"Quanti giocatori ha in campo una squadra di calcio?","options":["9","10","11","12"],"correctIndex":2},
+    {"id":"tb_it_064","difficulty":"easy","category":"Animali","question":"Qual è l'uccello più grande?","options":["Struzzo","Aquila","Pinguino","Cigno"],"correctIndex":0},
+    {"id":"tb_it_065","difficulty":"easy","category":"Scienza","question":"Che cos'è H2O?","options":["Acqua","Idrogeno","Ossigeno","Sale"],"correctIndex":0},
+    {"id":"tb_it_066","difficulty":"easy","category":"Tecnologia","question":"Cosa significa GPS?","options":["Global Positioning System","General Packet Service","Geographic Positioning Software","Global Postal Service"],"correctIndex":0},
+    {"id":"tb_it_067","difficulty":"easy","category":"Matematica","question":"Quanto fa 12 x 12?","options":["124","132","144","156"],"correctIndex":2},
+    {"id":"tb_it_068","difficulty":"easy","category":"Geografia","question":"In quale continente si trova il Brasile?","options":["Sud America","Nord America","Europa","Africa"],"correctIndex":0},
+    {"id":"tb_it_069","difficulty":"easy","category":"Cibo","question":"Qual è l'ingrediente principale dell'hummus?","options":["Ceci","Lenticchie","Patate","Riso"],"correctIndex":0},
+    {"id":"tb_it_070","difficulty":"easy","category":"Scienza","question":"Quanti pianeti ci sono nel nostro sistema solare?","options":["7","8","9","10"],"correctIndex":1},
+    {"id":"tb_it_071","difficulty":"easy","category":"Arte","question":"Chi ha dipinto L'urlo?","options":["Edvard Munch","Pablo Picasso","Vincent van Gogh","Claude Monet"],"correctIndex":0},
+    {"id":"tb_it_072","difficulty":"easy","category":"Geografia","question":"Qual è la capitale dell'Egitto?","options":["Il Cairo","Alessandria","Giza","Luxor"],"correctIndex":0},
+    {"id":"tb_it_073","difficulty":"easy","category":"Tecnologia","question":"Cosa significa USB?","options":["Universal Serial Bus","Unified System Board","Universal Sync Bridge","United Serial Base"],"correctIndex":0}
   ]
 }

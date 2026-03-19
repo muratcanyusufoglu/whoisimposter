@@ -55,6 +55,26 @@
     {"difficulty": "hard", "category": "فن", "question": "من رسم 'إصرار الذاكرة'؟", "options": ["سلفادور دالي", "بابلو بيكاسو", "كلود مونيه", "إدفارد مونك"], "correctIndex": 0, "id": "tb_ar_050"},
     {"difficulty": "easy", "category": "جغرافيا", "question": "ما عاصمة كندا؟", "options": ["أوتاوا", "تورونتو", "فانكوفر", "مونتريال"], "correctIndex": 0, "id": "tb_ar_051"},
     {"difficulty": "easy", "category": "علم", "question": "أي كوكب يُعرف بالكوكب الأحمر؟", "options": ["المريخ", "الزهرة", "المشتري", "عطارد"], "correctIndex": 0, "id": "tb_ar_052"},
-    {"difficulty": "easy", "category": "موسيقى", "question": "أي آلة موسيقية لها 88 مفتاحًا؟", "options": ["البيانو", "الغيتار", "الكمان", "الناي"], "correctIndex": 0, "id": "tb_ar_053"}
+    {"difficulty": "easy", "category": "موسيقى", "question": "أي آلة موسيقية لها 88 مفتاحًا؟", "options": ["البيانو", "الغيتار", "الكمان", "الناي"], "correctIndex": 0, "id": "tb_ar_053"},
+    {"id":"tb_ar_054","difficulty":"easy","category":"جغرافيا","question":"ما عاصمة إسبانيا؟","options":["مدريد","برشلونة","إشبيلية","فالنسيا"],"correctIndex":0},
+    {"id":"tb_ar_055","difficulty":"easy","category":"جغرافيا","question":"ما عاصمة البرازيل؟","options":["برازيليا","ريو دي جانيرو","ساو باولو","سلفادور"],"correctIndex":0},
+    {"id":"tb_ar_056","difficulty":"easy","category":"جغرافيا","question":"ما عاصمة الهند؟","options":["نيودلهي","مومباي","بنغالور","كولكاتا"],"correctIndex":0},
+    {"id":"tb_ar_057","difficulty":"easy","category":"علم","question":"ما الرمز الكيميائي للبوتاسيوم؟","options":["K","P","Po","Pt"],"correctIndex":0},
+    {"id":"tb_ar_058","difficulty":"easy","category":"علم","question":"ما الرمز الكيميائي للأكسجين؟","options":["O","Ox","Og","Oz"],"correctIndex":0},
+    {"id":"tb_ar_059","difficulty":"easy","category":"تاريخ","question":"في أي سنة بدأت الحرب العالمية الأولى؟","options":["1912","1914","1916","1918"],"correctIndex":1},
+    {"id":"tb_ar_060","difficulty":"easy","category":"تاريخ","question":"من كان أول رئيس للولايات المتحدة؟","options":["جورج واشنطن","توماس جيفرسون","أبراهام لنكولن","جون آدامز"],"correctIndex":0},
+    {"id":"tb_ar_061","difficulty":"easy","category":"فن","question":"من نحت تمثال داود؟","options":["ميكيلانجيلو","دوناتيلو","برنيني","رودان"],"correctIndex":0},
+    {"id":"tb_ar_062","difficulty":"easy","category":"فن","question":"من كتب رواية 1984؟","options":["جورج أورويل","ألدوس هكسلي","راي برادبري","جي. كاي. رولينغ"],"correctIndex":0},
+    {"id":"tb_ar_063","difficulty":"easy","category":"رياضة","question":"كم لاعبًا في فريق كرة القدم داخل الملعب؟","options":["9","10","11","12"],"correctIndex":2},
+    {"id":"tb_ar_064","difficulty":"easy","category":"حيوانات","question":"ما أكبر طائر؟","options":["نعامة","نسر","بطريق","بجعة"],"correctIndex":0},
+    {"id":"tb_ar_065","difficulty":"easy","category":"علم","question":"ما هو H2O؟","options":["ماء","هيدروجين","أكسجين","ملح"],"correctIndex":0},
+    {"id":"tb_ar_066","difficulty":"easy","category":"تقنية","question":"ماذا تعني GPS؟","options":["Global Positioning System","General Packet Service","Geographic Positioning Software","Global Postal Service"],"correctIndex":0},
+    {"id":"tb_ar_067","difficulty":"easy","category":"رياضيات","question":"كم يساوي 12 x 12؟","options":["124","132","144","156"],"correctIndex":2},
+    {"id":"tb_ar_068","difficulty":"easy","category":"جغرافيا","question":"في أي قارة تقع البرازيل؟","options":["أمريكا الجنوبية","أمريكا الشمالية","أوروبا","أفريقيا"],"correctIndex":0},
+    {"id":"tb_ar_069","difficulty":"easy","category":"طعام","question":"ما المكوّن الرئيسي في الحمص؟","options":["حمص","عدس","بطاطس","أرز"],"correctIndex":0},
+    {"id":"tb_ar_070","difficulty":"easy","category":"علم","question":"كم كوكبًا في نظامنا الشمسي؟","options":["7","8","9","10"],"correctIndex":1},
+    {"id":"tb_ar_071","difficulty":"easy","category":"فن","question":"من رسم لوحة الصرخة؟","options":["إدفارد مونك","بابلو بيكاسو","فينسنت فان غوخ","كلود مونيه"],"correctIndex":0},
+    {"id":"tb_ar_072","difficulty":"easy","category":"جغرافيا","question":"ما عاصمة مصر؟","options":["القاهرة","الإسكندرية","الجيزة","الأقصر"],"correctIndex":0},
+    {"id":"tb_ar_073","difficulty":"easy","category":"تقنية","question":"ماذا تعني USB؟","options":["Universal Serial Bus","Unified System Board","Universal Sync Bridge","United Serial Base"],"correctIndex":0}
   ]
 }

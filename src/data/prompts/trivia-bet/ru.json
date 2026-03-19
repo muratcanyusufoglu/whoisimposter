@@ -55,6 +55,26 @@
     {"difficulty": "hard", "category": "Искусство", "question": "Кто написал 'Постоянство памяти'?", "options": ["Сальвадор Дали", "Пабло Пикассо", "Клод Моне", "Эдвард Мунк"], "correctIndex": 0, "id": "tb_ru_050"},
     {"difficulty": "easy", "category": "География", "question": "Какая столица Канады?", "options": ["Оттава", "Торонто", "Ванкувер", "Монреаль"], "correctIndex": 0, "id": "tb_ru_051"},
     {"difficulty": "easy", "category": "Наука", "question": "Какая планета известна как Красная планета?", "options": ["Марс", "Венера", "Юпитер", "Меркурий"], "correctIndex": 0, "id": "tb_ru_052"},
-    {"difficulty": "easy", "category": "Музыка", "question": "Какой инструмент имеет 88 клавиш?", "options": ["Пианино", "Гитара", "Скрипка", "Флейта"], "correctIndex": 0, "id": "tb_ru_053"}
+    {"difficulty": "easy", "category": "Музыка", "question": "Какой инструмент имеет 88 клавиш?", "options": ["Пианино", "Гитара", "Скрипка", "Флейта"], "correctIndex": 0, "id": "tb_ru_053"},
+    {"id":"tb_ru_054","difficulty":"easy","category":"География","question":"Какая столица Испании?","options":["Мадрид","Барселона","Севилья","Валенсия"],"correctIndex":0},
+    {"id":"tb_ru_055","difficulty":"easy","category":"География","question":"Какая столица Бразилии?","options":["Бразилиа","Рио-де-Жанейро","Сан-Паулу","Салвадор"],"correctIndex":0},
+    {"id":"tb_ru_056","difficulty":"easy","category":"География","question":"Какая столица Индии?","options":["Нью-Дели","Мумбаи","Бангалор","Калькутта"],"correctIndex":0},
+    {"id":"tb_ru_057","difficulty":"easy","category":"Наука","question":"Какой химический символ у калия?","options":["K","P","Po","Pt"],"correctIndex":0},
+    {"id":"tb_ru_058","difficulty":"easy","category":"Наука","question":"Какой химический символ у кислорода?","options":["O","Ox","Og","Oz"],"correctIndex":0},
+    {"id":"tb_ru_059","difficulty":"easy","category":"История","question":"В каком году началась Первая мировая война?","options":["1912","1914","1916","1918"],"correctIndex":1},
+    {"id":"tb_ru_060","difficulty":"easy","category":"История","question":"Кто был первым президентом США?","options":["Джордж Вашингтон","Томас Джефферсон","Авраам Линкольн","Джон Адамс"],"correctIndex":0},
+    {"id":"tb_ru_061","difficulty":"easy","category":"Искусство","question":"Кто создал статую Давида?","options":["Микеланджело","Донателло","Бернини","Роден"],"correctIndex":0},
+    {"id":"tb_ru_062","difficulty":"easy","category":"Искусство","question":"Кто написал «1984»?","options":["Джордж Оруэлл","Олдос Хаксли","Рэй Брэдбери","Дж. К. Роулинг"],"correctIndex":0},
+    {"id":"tb_ru_063","difficulty":"easy","category":"Спорт","question":"Сколько игроков у футбольной команды на поле?","options":["9","10","11","12"],"correctIndex":2},
+    {"id":"tb_ru_064","difficulty":"easy","category":"Животные","question":"Какая птица самая большая?","options":["Страус","Орёл","Пингвин","Лебедь"],"correctIndex":0},
+    {"id":"tb_ru_065","difficulty":"easy","category":"Наука","question":"Что такое H2O?","options":["Вода","Водород","Кислород","Соль"],"correctIndex":0},
+    {"id":"tb_ru_066","difficulty":"easy","category":"Технологии","question":"Что означает GPS?","options":["Global Positioning System","General Packet Service","Geographic Positioning Software","Global Postal Service"],"correctIndex":0},
+    {"id":"tb_ru_067","difficulty":"easy","category":"Математика","question":"Сколько будет 12 x 12?","options":["124","132","144","156"],"correctIndex":2},
+    {"id":"tb_ru_068","difficulty":"easy","category":"География","question":"На каком континенте находится Бразилия?","options":["Южная Америка","Северная Америка","Европа","Африка"],"correctIndex":0},
+    {"id":"tb_ru_069","difficulty":"easy","category":"Еда","question":"Какой главный ингредиент хумуса?","options":["Нут","Чечевица","Картофель","Рис"],"correctIndex":0},
+    {"id":"tb_ru_070","difficulty":"easy","category":"Наука","question":"Сколько планет в нашей Солнечной системе?","options":["7","8","9","10"],"correctIndex":1},
+    {"id":"tb_ru_071","difficulty":"easy","category":"Искусство","question":"Кто написал картину «Крик»?","options":["Эдвард Мунк","Пабло Пикассо","Винсент ван Гог","Клод Моне"],"correctIndex":0},
+    {"id":"tb_ru_072","difficulty":"easy","category":"География","question":"Какая столица Египта?","options":["Каир","Александрия","Гиза","Луксор"],"correctIndex":0},
+    {"id":"tb_ru_073","difficulty":"easy","category":"Технологии","question":"Что означает USB?","options":["Universal Serial Bus","Unified System Board","Universal Sync Bridge","United Serial Base"],"correctIndex":0}
   ]
 }
