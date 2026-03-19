@@ -387,6 +387,671 @@
       "intensity": "medium",
       "minAge": 13,
       "text": "Zeg drie leuke dingen over de persoon rechts van je."
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welke app open je 's ochtends als eerste?",
+      "id": "td_nl_056"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welke klus in huis vind je stiekem niet zo erg?",
+      "id": "td_nl_057"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welke snack heb je bijna altijd in huis?",
+      "id": "td_nl_058"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wat is het beste advies dat je echt hebt opgevolgd?",
+      "id": "td_nl_059"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welk woord of welke uitdrukking gebruik je de laatste tijd te vaak?",
+      "id": "td_nl_060"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Doe 10 seconden een catwalk-loopje.",
+      "id": "td_nl_061"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Praat de komende minuut alleen in vragen.",
+      "id": "td_nl_062"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Doe een dramatische weersvoorspelling van 20 seconden voor vandaag.",
+      "id": "td_nl_063"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Maak de geluidseffecten van een deur die opengaat en weer dichtgaat.",
+      "id": "td_nl_064"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sta op één been en tel hardop tot 15.",
+      "id": "td_nl_065"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Doe een slow-motion herhaling van een denkbeeldig doelpunt.",
+      "id": "td_nl_066"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hoe breng je het liefst een vrije middag door?",
+      "id": "td_nl_067"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welk lied kun je op repeat luisteren?",
+      "id": "td_nl_068"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welk eten maakt je nostalgisch?",
+      "id": "td_nl_069"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welke kleine gewoonte wil je graag opbouwen?",
+      "id": "td_nl_070"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welke emoji gebruik je de laatste tijd het meest?",
+      "id": "td_nl_071"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wat is het beste cadeau dat je ooit kreeg?",
+      "id": "td_nl_072"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welke film kun je steeds opnieuw kijken?",
+      "id": "td_nl_073"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Waar ben je trots op dat je het hebt geleerd?",
+      "id": "td_nl_074"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welke snack troost je het meest?",
+      "id": "td_nl_075"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Als je vandaag een huisdier zou krijgen, hoe zou je het noemen?",
+      "id": "td_nl_076"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welke app is het nuttigst op je telefoon?",
+      "id": "td_nl_077"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welke hobby heb je geprobeerd en leuk gevonden?",
+      "id": "td_nl_078"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welke plek in jouw stad vind je het leukst?",
+      "id": "td_nl_079"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wat was het grappigste dat je deze week zag?",
+      "id": "td_nl_080"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wat is je favoriete seizoen en waarom?",
+      "id": "td_nl_081"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welke game verveelt je nooit?",
+      "id": "td_nl_082"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wat is je vroegste herinnering?",
+      "id": "td_nl_083"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welke geur maakt je blij?",
+      "id": "td_nl_084"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welke goede raad kreeg je van je familie?",
+      "id": "td_nl_085"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welk talent zou je graag willen hebben?",
+      "id": "td_nl_086"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wat is je favoriete ontbijt?",
+      "id": "td_nl_087"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aan welke vaardigheid werk je nu?",
+      "id": "td_nl_088"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wat raak je altijd kwijt?",
+      "id": "td_nl_089"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wat is je favoriete ijssmaak?",
+      "id": "td_nl_090"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wat doe je het liefst met vrienden?",
+      "id": "td_nl_091"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wat heb je laatst online geleerd?",
+      "id": "td_nl_092"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welk kledingstuk draag je het liefst?",
+      "id": "td_nl_093"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welk boek of verhaal vond je leuk als kind?",
+      "id": "td_nl_094"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welke familietraditie hebben jullie?",
+      "id": "td_nl_095"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wat is een klein ding dat je humeur meteen verbetert?",
+      "id": "td_nl_096"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welke plek wil je graag bezoeken?",
+      "id": "td_nl_097"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welk soort weer vind je het fijnst?",
+      "id": "td_nl_098"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welke serie raad je iedereen aan?",
+      "id": "td_nl_099"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wat is het leukste compliment dat je hebt gekregen?",
+      "id": "td_nl_100"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wat is je favoriete bord- of kaartspel?",
+      "id": "td_nl_101"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wat is het beste moment van je dagelijkse routine?",
+      "id": "td_nl_102"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wat is je favoriete alcoholvrije drankje?",
+      "id": "td_nl_103"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welke taal zou je willen leren?",
+      "id": "td_nl_104"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wat heeft je onlangs aan het lachen gemaakt?",
+      "id": "td_nl_105"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welk schoolvak vond je leuk?",
+      "id": "td_nl_106"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wat is je favoriete dier en waarom?",
+      "id": "td_nl_107"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hoe ontspan jij het liefst voor het slapen?",
+      "id": "td_nl_108"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Doe 10 jumping jacks.",
+      "id": "td_nl_109"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fluister de komende 30 seconden.",
+      "id": "td_nl_110"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Houd 10 seconden balans alsof er een boek op je hoofd ligt.",
+      "id": "td_nl_111"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Trek een gek gezicht en houd het 15 seconden vast.",
+      "id": "td_nl_112"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Doe 10 seconden je beste robotdans.",
+      "id": "td_nl_113"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Teken een klein krabbeltje in de lucht.",
+      "id": "td_nl_114"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Doe 10 seconden een kat na.",
+      "id": "td_nl_115"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Geef iemand in de kamer een oprecht compliment.",
+      "id": "td_nl_116"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zeg het alfabet achterstevoren zo ver je kunt.",
+      "id": "td_nl_117"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Doe 20 seconden alsof je nieuwslezer bent.",
+      "id": "td_nl_118"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Draai 3 rondjes en loop daarna rechtuit.",
+      "id": "td_nl_119"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tik een kort ritme op de tafel.",
+      "id": "td_nl_120"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Rek je uit en raak je tenen aan.",
+      "id": "td_nl_121"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zeg een zin alsof het een filmtrailer is.",
+      "id": "td_nl_122"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Doe 10 seconden een superheldenpose.",
+      "id": "td_nl_123"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Loop 10 seconden in slow motion.",
+      "id": "td_nl_124"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Neurie een liedje en laat de anderen raden.",
+      "id": "td_nl_125"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Doe het geluid van een blaffende hond.",
+      "id": "td_nl_126"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zeg een tongbreker drie keer snel.",
+      "id": "td_nl_127"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Doe een mini overwinningsdans.",
+      "id": "td_nl_128"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Klap een ritme dat anderen moeten nadoen.",
+      "id": "td_nl_129"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Doe alsof je een robot bent en zeg je naam.",
+      "id": "td_nl_130"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Maak een hartje met je handen.",
+      "id": "td_nl_131"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Doe in stilte alsof je een broodje maakt.",
+      "id": "td_nl_132"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Teken een smiley in de lucht.",
+      "id": "td_nl_133"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Doe 5 squats.",
+      "id": "td_nl_134"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zeg dank je in drie talen.",
+      "id": "td_nl_135"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Doe 5 seconden plank.",
+      "id": "td_nl_136"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Maak het geluid van een krakende deur.",
+      "id": "td_nl_137"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Doe een klein goocheltrucje of doe alsof.",
+      "id": "td_nl_138"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Maak het geluid van een dier dat de groep kiest.",
+      "id": "td_nl_139"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Loop 10 seconden als een pinguin.",
+      "id": "td_nl_140"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Doe alsof je een dramatische selfie maakt.",
+      "id": "td_nl_141"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Maak een gedicht van een zin over vandaag.",
+      "id": "td_nl_142"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zeg je naam met een gek stemmetje.",
+      "id": "td_nl_143"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Doe 15 seconden alsof je in een kookprogramma bent.",
+      "id": "td_nl_144"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Teken een denkbeeldige cirkel om jezelf.",
+      "id": "td_nl_145"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Geef iedereen een high five of in de lucht.",
+      "id": "td_nl_146"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Doe 10 seconden alsof je in slow motion zit.",
+      "id": "td_nl_147"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Doe een korte schouderdans.",
+      "id": "td_nl_148"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Maak het geluid van een telefoon die overgaat.",
+      "id": "td_nl_149"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Klap kort en maak een buiging.",
+      "id": "td_nl_150"
     }
   ]
 }

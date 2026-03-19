@@ -387,6 +387,671 @@
       "intensity": "medium",
       "minAge": 13,
       "text": "Скажи три приятных вещи о человеке справа от тебя."
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какое приложение ты открываешь утром первым?",
+      "id": "td_ru_056"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какое домашнее дело тебя на самом деле не раздражает?",
+      "id": "td_ru_057"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какой перекус у тебя почти всегда есть дома?",
+      "id": "td_ru_058"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какой совет ты действительно применил и он оказался полезным?",
+      "id": "td_ru_059"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какое слово или выражение ты слишком часто используешь в последнее время?",
+      "id": "td_ru_060"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Сделай 10 секунд подиумной походки.",
+      "id": "td_ru_061"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Следующую минуту говори только вопросами.",
+      "id": "td_ru_062"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Сделай драматичный прогноз погоды на сегодня за 20 секунд.",
+      "id": "td_ru_063"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Изобрази звуки двери, которая открывается и закрывается.",
+      "id": "td_ru_064"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Постой на одной ноге и вслух досчитай до 15.",
+      "id": "td_ru_065"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Сделай замедленный повтор вымышленного гола.",
+      "id": "td_ru_066"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Как ты любишь проводить свободный день?",
+      "id": "td_ru_067"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какую песню ты можешь слушать на повторе?",
+      "id": "td_ru_068"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какое блюдо вызывает у тебя ностальгию?",
+      "id": "td_ru_069"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какую маленькую привычку ты хотел бы завести?",
+      "id": "td_ru_070"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какой эмодзи ты чаще всего используешь в последнее время?",
+      "id": "td_ru_071"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какой лучший подарок ты получал?",
+      "id": "td_ru_072"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какой фильм ты можешь смотреть снова и снова?",
+      "id": "td_ru_073"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Чему ты научился и гордишься этим?",
+      "id": "td_ru_074"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какой перекус тебя больше всего утешает?",
+      "id": "td_ru_075"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Если бы ты сегодня завел питомца, как бы его назвал?",
+      "id": "td_ru_076"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какое приложение на телефоне для тебя самое полезное?",
+      "id": "td_ru_077"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какое хобби ты попробовал и тебе понравилось?",
+      "id": "td_ru_078"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какое место в твоем городе тебе особенно нравится?",
+      "id": "td_ru_079"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Что самое смешное ты видел на этой неделе?",
+      "id": "td_ru_080"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какое время года тебе нравится больше всего и почему?",
+      "id": "td_ru_081"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "В какую игру тебе никогда не надоедает играть?",
+      "id": "td_ru_082"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какое у тебя самое раннее воспоминание?",
+      "id": "td_ru_083"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какой запах делает тебя счастливым?",
+      "id": "td_ru_084"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какой хороший совет ты получил от семьи?",
+      "id": "td_ru_085"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какой талант ты хотел бы иметь?",
+      "id": "td_ru_086"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какой у тебя любимый завтрак?",
+      "id": "td_ru_087"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Над каким навыком ты сейчас работаешь?",
+      "id": "td_ru_088"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Что ты постоянно теряешь?",
+      "id": "td_ru_089"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какой твой любимый вкус мороженого?",
+      "id": "td_ru_090"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Что тебе больше всего нравится делать с друзьями?",
+      "id": "td_ru_091"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Что ты последним выучил в интернете?",
+      "id": "td_ru_092"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какую вещь одежды ты любишь больше всего?",
+      "id": "td_ru_093"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какую книгу или историю ты любил в детстве?",
+      "id": "td_ru_094"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какая семейная традиция у вас есть?",
+      "id": "td_ru_095"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Что маленькое сразу поднимает тебе настроение?",
+      "id": "td_ru_096"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какое место ты хочешь посетить?",
+      "id": "td_ru_097"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какая погода тебе нравится больше всего?",
+      "id": "td_ru_098"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какой сериал ты бы рекомендовал всем?",
+      "id": "td_ru_099"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какой самый приятный комплимент ты получал?",
+      "id": "td_ru_100"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какая настольная или карточная игра тебе нравится больше всего?",
+      "id": "td_ru_101"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Что самое лучшее в твоей ежедневной рутине?",
+      "id": "td_ru_102"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какой твой любимый безалкогольный напиток?",
+      "id": "td_ru_103"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какой язык ты хотел бы выучить?",
+      "id": "td_ru_104"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Что заставило тебя смеяться недавно?",
+      "id": "td_ru_105"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какой школьный предмет тебе нравился?",
+      "id": "td_ru_106"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какое твое любимое животное и почему?",
+      "id": "td_ru_107"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Как ты любишь расслабляться перед сном?",
+      "id": "td_ru_108"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Сделай 10 прыжков звездочка.",
+      "id": "td_ru_109"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Шепчи следующие 30 секунд.",
+      "id": "td_ru_110"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Удерживай равновесие 10 секунд, как будто на голове книга.",
+      "id": "td_ru_111"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Сделай смешную гримасу и держи 15 секунд.",
+      "id": "td_ru_112"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Станцуй робота 10 секунд.",
+      "id": "td_ru_113"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Нарисуй в воздухе маленький рисунок.",
+      "id": "td_ru_114"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Изобрази кота 10 секунд.",
+      "id": "td_ru_115"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Скажи искренний комплимент кому-то в комнате.",
+      "id": "td_ru_116"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Скажи алфавит задом наперед, сколько сможешь.",
+      "id": "td_ru_117"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Сыграй ведущего новостей 20 секунд.",
+      "id": "td_ru_118"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Покрутись 3 раза и пройди прямо.",
+      "id": "td_ru_119"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Простучи короткий ритм по столу.",
+      "id": "td_ru_120"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Быстро потянись и дотронься до пальцев ног.",
+      "id": "td_ru_121"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Скажи одно предложение как в трейлере фильма.",
+      "id": "td_ru_122"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Прими позу супергероя на 10 секунд.",
+      "id": "td_ru_123"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Пройдись 10 секунд в замедленной съемке.",
+      "id": "td_ru_124"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Напой мелодию, чтобы другие угадали.",
+      "id": "td_ru_125"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Издай звук лающей собаки.",
+      "id": "td_ru_126"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Скажи скороговорку три раза быстро.",
+      "id": "td_ru_127"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Сделай мини-танец победы.",
+      "id": "td_ru_128"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Хлопни ритм, пусть другие повторят.",
+      "id": "td_ru_129"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Изобрази робота и назови свое имя.",
+      "id": "td_ru_130"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Сделай сердечко руками.",
+      "id": "td_ru_131"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "В тишине изобрази, как делаешь бутерброд.",
+      "id": "td_ru_132"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Нарисуй смайлик в воздухе.",
+      "id": "td_ru_133"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Сделай 5 приседаний.",
+      "id": "td_ru_134"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Скажи спасибо на трех языках.",
+      "id": "td_ru_135"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Постой в планке 5 секунд.",
+      "id": "td_ru_136"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Изобрази скрип двери.",
+      "id": "td_ru_137"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Покажи маленький фокус или сделай вид.",
+      "id": "td_ru_138"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Издай звук животного, которое выберет группа.",
+      "id": "td_ru_139"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Походи как пингвин 10 секунд.",
+      "id": "td_ru_140"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Сделай вид, что снимаешь драматичное селфи.",
+      "id": "td_ru_141"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Придумай одно предложение про сегодня в форме стиха.",
+      "id": "td_ru_142"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Скажи свое имя смешным голосом.",
+      "id": "td_ru_143"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Сыграй ведущего кулинарного шоу 15 секунд.",
+      "id": "td_ru_144"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Нарисуй вокруг себя воображаемый круг.",
+      "id": "td_ru_145"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Дай всем пять или в воздухе.",
+      "id": "td_ru_146"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Изобрази, что ты в замедленной съемке, 10 секунд.",
+      "id": "td_ru_147"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Сделай короткий танец плечами.",
+      "id": "td_ru_148"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Издай звук звонящего телефона.",
+      "id": "td_ru_149"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Коротко похлопай и поклонись.",
+      "id": "td_ru_150"
     }
   ]
 }

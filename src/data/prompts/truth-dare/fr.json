@@ -387,6 +387,671 @@
       "intensity": "medium",
       "minAge": 13,
       "text": "Dis trois choses gentilles sur la personne à ta droite."
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quelle appli ouvres-tu en premier le matin ?",
+      "id": "td_fr_056"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quelle corvée ne te dérange pas tant que ça ?",
+      "id": "td_fr_057"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quel snack as-tu presque toujours chez toi ?",
+      "id": "td_fr_058"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quel est le meilleur conseil que tu as vraiment suivi ?",
+      "id": "td_fr_059"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quel mot ou quelle expression utilises-tu trop ces derniers temps ?",
+      "id": "td_fr_060"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais une démarche de mannequin pendant 10 secondes.",
+      "id": "td_fr_061"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pendant la prochaine minute, parle uniquement en questions.",
+      "id": "td_fr_062"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais une météo dramatique de 20 secondes pour aujourd'hui.",
+      "id": "td_fr_063"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais les bruitages d'une porte qui s'ouvre et se referme.",
+      "id": "td_fr_064"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tiens sur un pied et compte jusqu'à 15 à voix haute.",
+      "id": "td_fr_065"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais un ralenti d'un but imaginaire.",
+      "id": "td_fr_066"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Comment aimes-tu passer un après-midi libre ?",
+      "id": "td_fr_067"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quelle chanson peux-tu écouter en boucle ?",
+      "id": "td_fr_068"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quel plat te rend nostalgique ?",
+      "id": "td_fr_069"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quelle petite habitude veux-tu prendre ?",
+      "id": "td_fr_070"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quel emoji utilises-tu le plus en ce moment ?",
+      "id": "td_fr_071"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quel est le plus beau cadeau que tu aies reçu ?",
+      "id": "td_fr_072"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quel film peux-tu revoir sans te lasser ?",
+      "id": "td_fr_073"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "De quoi es-tu fier d'avoir appris ?",
+      "id": "td_fr_074"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quel snack te réconforte le plus ?",
+      "id": "td_fr_075"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Si tu avais un animal aujourd'hui, comment l'appellerais-tu ?",
+      "id": "td_fr_076"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quelle appli est la plus utile sur ton téléphone ?",
+      "id": "td_fr_077"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quel hobby as-tu essayé et aimé ?",
+      "id": "td_fr_078"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quel endroit de ta ville préfères-tu ?",
+      "id": "td_fr_079"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quelle est la chose la plus drôle que tu aies vue cette semaine ?",
+      "id": "td_fr_080"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quelle est ta saison préférée et pourquoi ?",
+      "id": "td_fr_081"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "À quel jeu ne te lasses-tu jamais de jouer ?",
+      "id": "td_fr_082"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quel est ton tout premier souvenir ?",
+      "id": "td_fr_083"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quelle odeur te rend heureux ?",
+      "id": "td_fr_084"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quel bon conseil as-tu reçu de ta famille ?",
+      "id": "td_fr_085"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quel talent aimerais-tu avoir ?",
+      "id": "td_fr_086"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quel est ton petit-déj préféré ?",
+      "id": "td_fr_087"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sur quelle compétence travailles-tu en ce moment ?",
+      "id": "td_fr_088"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qu'est-ce que tu perds tout le temps ?",
+      "id": "td_fr_089"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quelle est ta glace préférée ?",
+      "id": "td_fr_090"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qu'aimes-tu faire avec tes amis ?",
+      "id": "td_fr_091"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quelle est la dernière chose que tu as apprise en ligne ?",
+      "id": "td_fr_092"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quel vêtement préfères-tu porter ?",
+      "id": "td_fr_093"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quel livre ou quelle histoire aimais-tu enfant ?",
+      "id": "td_fr_094"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quelle tradition familiale avez-vous ?",
+      "id": "td_fr_095"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quelle petite chose améliore instantanément ton humeur ?",
+      "id": "td_fr_096"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quel endroit veux-tu visiter ?",
+      "id": "td_fr_097"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quel est ton temps préféré ?",
+      "id": "td_fr_098"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quelle série recommandes-tu à tout le monde ?",
+      "id": "td_fr_099"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quel est le plus beau compliment qu'on t'ait fait ?",
+      "id": "td_fr_100"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quel jeu de société ou de cartes préfères-tu ?",
+      "id": "td_fr_101"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quel est le meilleur moment de ta routine quotidienne ?",
+      "id": "td_fr_102"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quelle boisson sans alcool préfères-tu ?",
+      "id": "td_fr_103"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quelle langue aimerais-tu apprendre ?",
+      "id": "td_fr_104"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Qu'est-ce qui t'a fait rire récemment ?",
+      "id": "td_fr_105"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quelle matière scolaire aimais-tu ?",
+      "id": "td_fr_106"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Quel animal préfères-tu et pourquoi ?",
+      "id": "td_fr_107"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Comment aimes-tu te détendre avant de dormir ?",
+      "id": "td_fr_108"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais 10 sauts étoile.",
+      "id": "td_fr_109"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chuchote pendant les 30 prochaines secondes.",
+      "id": "td_fr_110"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tiens-toi droit comme si tu avais un livre sur la tête pendant 10 secondes.",
+      "id": "td_fr_111"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais une grimace et garde-la 15 secondes.",
+      "id": "td_fr_112"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais ta meilleure danse de robot pendant 10 secondes.",
+      "id": "td_fr_113"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Dessine un petit gribouillis dans l'air.",
+      "id": "td_fr_114"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Imite un chat pendant 10 secondes.",
+      "id": "td_fr_115"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais un vrai compliment à quelqu'un dans la pièce.",
+      "id": "td_fr_116"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Récite l'alphabet à l'envers autant que tu peux.",
+      "id": "td_fr_117"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais le présentateur du journal pendant 20 secondes.",
+      "id": "td_fr_118"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tourne sur toi-même 3 fois puis marche droit.",
+      "id": "td_fr_119"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tapote un petit rythme sur la table.",
+      "id": "td_fr_120"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Étire-toi et touche tes orteils.",
+      "id": "td_fr_121"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Dis une phrase comme dans une bande-annonce.",
+      "id": "td_fr_122"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Prends une pose de super-héros 10 secondes.",
+      "id": "td_fr_123"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Marche au ralenti pendant 10 secondes.",
+      "id": "td_fr_124"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fredonne une chanson et laisse les autres deviner.",
+      "id": "td_fr_125"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais le bruit d'un chien qui aboie.",
+      "id": "td_fr_126"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Dis un virelangue trois fois vite.",
+      "id": "td_fr_127"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais une mini danse de victoire.",
+      "id": "td_fr_128"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais un rythme de mains à reproduire.",
+      "id": "td_fr_129"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais le robot et dis ton prénom.",
+      "id": "td_fr_130"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais un cœur avec tes mains.",
+      "id": "td_fr_131"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mime silencieusement la préparation d'un sandwich.",
+      "id": "td_fr_132"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Dessine un smiley dans l'air.",
+      "id": "td_fr_133"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais 5 squats.",
+      "id": "td_fr_134"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Dis merci dans trois langues.",
+      "id": "td_fr_135"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais une planche pendant 5 secondes.",
+      "id": "td_fr_136"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais le bruit d'une porte qui grince.",
+      "id": "td_fr_137"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais un mini tour de magie ou fais semblant.",
+      "id": "td_fr_138"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais le bruit d'un animal choisi par le groupe.",
+      "id": "td_fr_139"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Marche comme un pingouin pendant 10 secondes.",
+      "id": "td_fr_140"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais semblant de prendre un selfie dramatique.",
+      "id": "td_fr_141"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais un poème d'une phrase sur aujourd'hui.",
+      "id": "td_fr_142"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Dis ton prénom avec une voix drôle.",
+      "id": "td_fr_143"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais comme si tu étais dans une émission de cuisine pendant 15 secondes.",
+      "id": "td_fr_144"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Trace un cercle imaginaire autour de toi.",
+      "id": "td_fr_145"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais un high-five à tout le monde ou en l'air.",
+      "id": "td_fr_146"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais comme si tu étais coincé au ralenti 10 secondes.",
+      "id": "td_fr_147"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais une petite danse des épaules.",
+      "id": "td_fr_148"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais le bruit d'un téléphone qui sonne.",
+      "id": "td_fr_149"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fais un petit applaudissement et une révérence.",
+      "id": "td_fr_150"
     }
   ]
 }

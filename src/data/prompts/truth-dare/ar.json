@@ -387,6 +387,671 @@
       "intensity": "medium",
       "minAge": 13,
       "text": "قل ثلاث أشياء لطيفة عن الشخص على يمينك."
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما التطبيق الذي تفتحه أولاً في الصباح؟",
+      "id": "td_ar_056"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "أي عمل منزلي لا يزعجك كثيرًا فعلاً؟",
+      "id": "td_ar_057"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما الوجبة الخفيفة التي تكون عندك في البيت غالبًا؟",
+      "id": "td_ar_058"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما أفضل نصيحة طبّقتها فعلًا؟",
+      "id": "td_ar_059"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما الكلمة أو العبارة التي تكررها كثيرًا مؤخرًا؟",
+      "id": "td_ar_060"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "امشِ كعارض أزياء لمدة 10 ثوانٍ.",
+      "id": "td_ar_061"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "تحدّث خلال الدقيقة القادمة بأسئلة فقط.",
+      "id": "td_ar_062"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "قدّم نشرة طقس درامية مدتها 20 ثانية لليوم.",
+      "id": "td_ar_063"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "اصنع مؤثرات صوتية لباب يفتح ويغلق.",
+      "id": "td_ar_064"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "قف على قدم واحدة وعدّ حتى 15 بصوت عالٍ.",
+      "id": "td_ar_065"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "مثّل إعادة بطيئة لهدف خيالي.",
+      "id": "td_ar_066"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "كيف تحب قضاء بعد الظهر عندما تكون متفرغا؟",
+      "id": "td_ar_067"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما الاغنية التي تستطيع سماعها على التكرار؟",
+      "id": "td_ar_068"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما الاكلة التي تذكرك بالماضي؟",
+      "id": "td_ar_069"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما العادة الصغيرة التي تريد ان تكتسبها؟",
+      "id": "td_ar_070"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما الايموجي الذي تستخدمه كثيرا مؤخرا؟",
+      "id": "td_ar_071"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما افضل هدية تلقيتها؟",
+      "id": "td_ar_072"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما الفيلم الذي يمكنك مشاهدته مرارا؟",
+      "id": "td_ar_073"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما الشيء الذي تعلمته وتشعر بالفخر به؟",
+      "id": "td_ar_074"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما الوجبة الخفيفة التي تريحك اكثر؟",
+      "id": "td_ar_075"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "لو حصلت على حيوان اليف اليوم، ماذا ستسميه؟",
+      "id": "td_ar_076"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما التطبيق الاكثر فائدة في هاتفك؟",
+      "id": "td_ar_077"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما الهواية التي جربتها واعجبتك؟",
+      "id": "td_ar_078"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما المكان المفضل لديك في مدينتك؟",
+      "id": "td_ar_079"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما اكثر شيء مضحك رايته هذا الاسبوع؟",
+      "id": "td_ar_080"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما فصل السنة المفضل لديك ولماذا؟",
+      "id": "td_ar_081"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما اللعبة التي لا تمل منها؟",
+      "id": "td_ar_082"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما اقدم ذكرى لديك؟",
+      "id": "td_ar_083"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما الرائحة التي تجعلك سعيدا؟",
+      "id": "td_ar_084"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما النصيحة الجيدة التي اخذتها من عائلتك؟",
+      "id": "td_ar_085"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما الموهبة التي تتمنى امتلاكها؟",
+      "id": "td_ar_086"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما فطورك المفضل؟",
+      "id": "td_ar_087"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما المهارة التي تعمل على تطويرها الان؟",
+      "id": "td_ar_088"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما الشيء الذي تضيعُه دائما؟",
+      "id": "td_ar_089"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما نكهة الايس كريم المفضلة لديك؟",
+      "id": "td_ar_090"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما اكثر شيء تحب فعله مع الاصدقاء؟",
+      "id": "td_ar_091"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما اخر شيء تعلمته عبر الانترنت؟",
+      "id": "td_ar_092"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما قطعة الملابس التي تحبها اكثر؟",
+      "id": "td_ar_093"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما الكتاب او القصة التي احببتها في طفولتك؟",
+      "id": "td_ar_094"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما التقليد العائلي الموجود لديكم؟",
+      "id": "td_ar_095"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما الشيء الصغير الذي يحسن مزاجك فورا؟",
+      "id": "td_ar_096"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما المكان الذي تريد زيارته؟",
+      "id": "td_ar_097"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما نوع الطقس الذي تحبه اكثر؟",
+      "id": "td_ar_098"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما المسلسل الذي تنصح به الجميع؟",
+      "id": "td_ar_099"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما اجمل مجاملة تلقيتها؟",
+      "id": "td_ar_100"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما لعبة الطاولة او الورق المفضلة لديك؟",
+      "id": "td_ar_101"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما افضل جزء في روتينك اليومي؟",
+      "id": "td_ar_102"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما مشروبك غير الكحولي المفضل؟",
+      "id": "td_ar_103"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما اللغة التي ترغب في تعلمها؟",
+      "id": "td_ar_104"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما الشيء الذي جعلك تضحك مؤخرا؟",
+      "id": "td_ar_105"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما المادة الدراسية التي كنت تحبها؟",
+      "id": "td_ar_106"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ما الحيوان المفضل لديك ولماذا؟",
+      "id": "td_ar_107"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "كيف تحب ان تسترخي قبل النوم؟",
+      "id": "td_ar_108"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "قم بعمل 10 قفزات نجمة.",
+      "id": "td_ar_109"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "تحدث همسا لمدة 30 ثانية.",
+      "id": "td_ar_110"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "حافظ على توازنك 10 ثوان كأن على راسك كتابا.",
+      "id": "td_ar_111"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "اعمل تعبير وجه مضحك واثبت 15 ثانية.",
+      "id": "td_ar_112"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ارقص رقصة روبوت لمدة 10 ثوان.",
+      "id": "td_ar_113"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ارسم خربشة صغيرة في الهواء.",
+      "id": "td_ar_114"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "قلد قطا لمدة 10 ثوان.",
+      "id": "td_ar_115"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "قدم مجاملة صادقة لشخص في الغرفة.",
+      "id": "td_ar_116"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "قل الابجدية بالعكس قدر ما تستطيع.",
+      "id": "td_ar_117"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "تظاهر انك مذيع اخبار لمدة 20 ثانية.",
+      "id": "td_ar_118"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "استدر ثلاث مرات ثم امش بخط مستقيم.",
+      "id": "td_ar_119"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "انقر ايقاعا قصيرا على الطاولة.",
+      "id": "td_ar_120"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "تمدد والمس اصابع قدميك.",
+      "id": "td_ar_121"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "قل جملة باسلوب اعلان فيلم.",
+      "id": "td_ar_122"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "خذ وضعية بطل خارق لمدة 10 ثوان.",
+      "id": "td_ar_123"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "امش ببطء شديد لمدة 10 ثوان.",
+      "id": "td_ar_124"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "همهم لحنا ودع الاخرين يخمنون.",
+      "id": "td_ar_125"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "اصدر صوت كلب ينبح.",
+      "id": "td_ar_126"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "قل جملة صعبة ثلاث مرات بسرعة.",
+      "id": "td_ar_127"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "قم برقصة فوز صغيرة.",
+      "id": "td_ar_128"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "صفق ايقاعا ودع الاخرين يكررونه.",
+      "id": "td_ar_129"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "تظاهر انك روبوت وقل اسمك.",
+      "id": "td_ar_130"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "اصنع قلبا بيديك.",
+      "id": "td_ar_131"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "مثل بصمت انك تحضر شطيرة.",
+      "id": "td_ar_132"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ارسم وجها مبتسما في الهواء.",
+      "id": "td_ar_133"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "قم بخمس قرفصاء.",
+      "id": "td_ar_134"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "قل شكرا بثلاث لغات.",
+      "id": "td_ar_135"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "قم بوضعية البلانك 5 ثوان.",
+      "id": "td_ar_136"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "اصنع صوت باب يصر.",
+      "id": "td_ar_137"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "قدم خدعة سحرية بسيطة او تظاهر بذلك.",
+      "id": "td_ar_138"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "اصدر صوت حيوان يختاره الجميع.",
+      "id": "td_ar_139"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "امش كالبطريق لمدة 10 ثوان.",
+      "id": "td_ar_140"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "تظاهر انك تلتقط سيلفي دراميا.",
+      "id": "td_ar_141"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ابتكر جملة شعرية واحدة عن اليوم.",
+      "id": "td_ar_142"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "قل اسمك بصوت مضحك.",
+      "id": "td_ar_143"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "تظاهر انك في برنامج طبخ لمدة 15 ثانية.",
+      "id": "td_ar_144"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ارسم دائرة تخيلية حولك.",
+      "id": "td_ar_145"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "اعط الجميع هاي فايف او في الهواء.",
+      "id": "td_ar_146"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "تظاهر انك في حركة بطيئة لمدة 10 ثوان.",
+      "id": "td_ar_147"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "قم برقصة كتفين قصيرة.",
+      "id": "td_ar_148"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "اصنع صوت هاتف يرن.",
+      "id": "td_ar_149"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "صفق مرة وانحن قليلا.",
+      "id": "td_ar_150"
     }
   ]
 }

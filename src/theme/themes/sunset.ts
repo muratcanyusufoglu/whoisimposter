@@ -1,14 +1,16 @@
 import { AppTheme } from '../types'
 
 // ─────────────────────────────────────────────────────────────────────────────
-// SUNSET THEME — Full palette from the app icon, #FDAB4E as the star.
+// SUNSET THEME — Light warm orange palette, #FF7A30 as the star.
 //
 // Color roles:
-//  #FDAB4E  accent.primary      — golden amber CTA (main)
-//  #2B1217  bg.primary          — very dark wine-black (amber glows pop here)
-//  #F5B586  text.primary        — warm peach white
-//  #D0794C  text.secondary      — terracotta muted text
-//  #6E454A  text.muted          — dark mauve disabled/placeholder
+//  #FF7A30  accent.primary      — vivid sunset orange CTA (main)
+//  #FFF0E0  bg.primary          — light warm cream / sunset sky
+//  #FFE4CB  bg.surface          — soft peach surface
+//  #FFD5B0  bg.elevated         — deeper peach modal / sheet
+//  #2D1200  text.primary        — very dark warm brown — readable on light bg
+//  #7A3A10  text.secondary      — medium warm brown
+//  #B87040  text.muted          — muted orange-brown
 //  #DD563D  accent.secondary    — coral-red danger / imposter
 //  #E6866D  accent.warm         — warm coral timer / categories
 //  #83A7A0  accent.tertiary     — muted teal-grey crew / info
@@ -21,15 +23,15 @@ export const sunsetTheme: AppTheme = {
   id: 'sunset',
 
   bg: {
-    primary:  '#2B1217',  // Dark wine-black — the deepest layer
-    surface:  '#3C1C22',  // Slightly lifted warm dark
-    elevated: '#4E252C',  // Modal / sheet — warm burgundy
-    overlay:  'rgba(0,0,0,0.82)',
-    glass:    'rgba(253,171,78,0.08)',  // Amber glass tint
+    primary:  '#FFF0E0',  // Light warm cream — sunset sky
+    surface:  '#FFE4CB',  // Soft peach surface
+    elevated: '#FFD5B0',  // Deeper peach — modal / sheet
+    overlay:  'rgba(0,0,0,0.40)',
+    glass:    'rgba(255,122,48,0.10)',  // Orange glass tint
   },
 
   accent: {
-    primary:   '#FDAB4E',  // Golden amber — THE main color
+    primary:   '#FF7A30',  // Vivid sunset orange — THE main color
     secondary: '#DD563D',  // Coral-red — danger / imposter
     tertiary:  '#83A7A0',  // Muted teal-grey — crew / info
     warm:      '#E6866D',  // Warm coral — timer / categories
@@ -37,32 +39,32 @@ export const sunsetTheme: AppTheme = {
   },
 
   text: {
-    primary:   '#F5B586',  // Warm light peach — main readable text
-    secondary: '#D0794C',  // Terracotta — supporting text
-    muted:     '#6E454A',  // Dark mauve — disabled / placeholder
-    inverse:   '#2B1217',  // Text on amber button
-    onPrimary: '#2B1217',
+    primary:   '#2D1200',  // Very dark warm brown — main readable text
+    secondary: '#7A3A10',  // Medium warm brown — supporting text
+    muted:     '#B87040',  // Muted orange-brown — disabled / placeholder
+    inverse:   '#FFFFFF',  // Text on orange button
+    onPrimary: '#FFFFFF',
   },
 
   border: {
-    subtle:  'rgba(253,171,78,0.10)',
-    default: 'rgba(253,171,78,0.22)',
-    strong:  'rgba(253,171,78,0.40)',
-    focus:   '#FDAB4E',
+    subtle:  'rgba(255,122,48,0.15)',
+    default: 'rgba(255,122,48,0.30)',
+    strong:  'rgba(255,122,48,0.55)',
+    focus:   '#FF7A30',
   },
 
   glow: {
-    primary: 'rgba(253,171,78,0.28)',   // Amber glow
-    danger:  'rgba(171,60,31,0.34)',    // AB3C1F rust glow
+    primary: 'rgba(255,122,48,0.25)',   // Orange glow
+    danger:  'rgba(171,60,31,0.30)',    // AB3C1F rust glow
     success: 'rgba(131,167,160,0.25)',  // 83A7A0 teal glow
   },
 
   game: {
-    imposterBg:    '#2B1217',  // Exact dark wine — imposter reveal
+    imposterBg:    '#FFF0E0',  // Light warm cream — imposter reveal
     crewBg:        '#0D474A',  // Exact dark teal — crew reveal
-    voteBg:        '#2B1217',
-    cardText:      '#FFFFFF',
-    cardTextMuted: 'rgba(255,255,255,0.55)',
+    voteBg:        '#FFF0E0',
+    cardText:      '#2D1200',
+    cardTextMuted: 'rgba(45,18,0,0.50)',
   },
 
   status: {

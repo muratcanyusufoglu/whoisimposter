@@ -387,6 +387,671 @@
       "intensity": "medium",
       "minAge": 13,
       "text": "Sag drei nette Dinge über die Person zu deiner Rechten."
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welche App öffnest du morgens als erstes?",
+      "id": "td_de_056"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welche Hausarbeit stört dich eigentlich gar nicht?",
+      "id": "td_de_057"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welchen Snack hast du zu Hause fast immer vorrätig?",
+      "id": "td_de_058"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welchen Rat hast du wirklich befolgt – und er war gut?",
+      "id": "td_de_059"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welche Redewendung oder welches Wort benutzt du in letzter Zeit zu oft?",
+      "id": "td_de_060"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lauf 10 Sekunden wie auf einem Laufsteg.",
+      "id": "td_de_061"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sprich die nächste Minute nur in Fragen.",
+      "id": "td_de_062"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mach eine dramatische 20-Sekunden-Wettervorhersage für heute.",
+      "id": "td_de_063"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mach die Geräuscheffekte für eine Tür, die aufgeht und wieder zugeht.",
+      "id": "td_de_064"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Balanciere auf einem Bein und zähle laut bis 15.",
+      "id": "td_de_065"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Spiel eine Zeitlupen-Wiederholung eines imaginären Tores.",
+      "id": "td_de_066"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie verbringst du am liebsten einen freien Nachmittag?",
+      "id": "td_de_067"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welches Lied kannst du in Dauerschleife hören?",
+      "id": "td_de_068"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welches Essen macht dich nostalgisch?",
+      "id": "td_de_069"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welche kleine Gewohnheit möchtest du dir angewöhnen?",
+      "id": "td_de_070"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welches Emoji nutzt du in letzter Zeit am meisten?",
+      "id": "td_de_071"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Was war das beste Geschenk, das du bekommen hast?",
+      "id": "td_de_072"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welchen Film kannst du immer wieder schauen?",
+      "id": "td_de_073"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Worauf bist du stolz, dass du es gelernt hast?",
+      "id": "td_de_074"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welcher Snack tröstet dich am meisten?",
+      "id": "td_de_075"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie würdest du ein Haustier nennen, wenn du heute eins bekämst?",
+      "id": "td_de_076"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welche App ist auf deinem Handy am nützlichsten?",
+      "id": "td_de_077"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welches Hobby hast du ausprobiert und gemocht?",
+      "id": "td_de_078"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welchen Ort in deiner Stadt magst du am liebsten?",
+      "id": "td_de_079"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Was war diese Woche das Lustigste, das du gesehen hast?",
+      "id": "td_de_080"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welche Jahreszeit magst du am liebsten und warum?",
+      "id": "td_de_081"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welches Spiel wird dir nie langweilig?",
+      "id": "td_de_082"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Was ist deine früheste Erinnerung?",
+      "id": "td_de_083"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welcher Geruch macht dich glücklich?",
+      "id": "td_de_084"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welchen guten Rat hast du von deiner Familie bekommen?",
+      "id": "td_de_085"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welches Talent hättest du gern?",
+      "id": "td_de_086"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Was ist dein Lieblingsfrühstück?",
+      "id": "td_de_087"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "An welcher Fähigkeit arbeitest du gerade?",
+      "id": "td_de_088"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Was verlegst du ständig?",
+      "id": "td_de_089"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welche Eissorte ist deine Lieblingssorte?",
+      "id": "td_de_090"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Was machst du am liebsten mit Freunden?",
+      "id": "td_de_091"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Was hast du zuletzt online gelernt?",
+      "id": "td_de_092"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welches Kleidungsstück trägst du am liebsten?",
+      "id": "td_de_093"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welches Buch oder welche Geschichte mochtest du als Kind?",
+      "id": "td_de_094"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welche Familientradition gibt es bei euch?",
+      "id": "td_de_095"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Was ist eine Kleinigkeit, die sofort deine Laune hebt?",
+      "id": "td_de_096"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welchen Ort möchtest du gern besuchen?",
+      "id": "td_de_097"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Was ist dein Lieblingswetter?",
+      "id": "td_de_098"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welche Serie empfiehlst du jedem?",
+      "id": "td_de_099"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welches Kompliment hat dich besonders gefreut?",
+      "id": "td_de_100"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welches Brett- oder Kartenspiel magst du am liebsten?",
+      "id": "td_de_101"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Was ist der beste Teil deiner täglichen Routine?",
+      "id": "td_de_102"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Was ist dein Lieblingsgetränk ohne Alkohol?",
+      "id": "td_de_103"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welche Sprache würdest du gern lernen?",
+      "id": "td_de_104"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Was hat dich zuletzt zum Lachen gebracht?",
+      "id": "td_de_105"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welches Schulfach mochtest du?",
+      "id": "td_de_106"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Welches Tier ist dein Liebling und warum?",
+      "id": "td_de_107"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wie entspannst du am liebsten vor dem Schlafen?",
+      "id": "td_de_108"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mach 10 Hampelmänner.",
+      "id": "td_de_109"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Flüstere die nächsten 30 Sekunden.",
+      "id": "td_de_110"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Halte 10 Sekunden lang das Gleichgewicht, als wäre ein Buch auf deinem Kopf.",
+      "id": "td_de_111"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zieh eine lustige Grimasse und halte sie 15 Sekunden.",
+      "id": "td_de_112"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mach 10 Sekunden Roboter-Tanz.",
+      "id": "td_de_113"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Male ein kleines Doodle in die Luft.",
+      "id": "td_de_114"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Miau wie eine Katze für 10 Sekunden.",
+      "id": "td_de_115"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mach jemandem im Raum ein ehrliches Kompliment.",
+      "id": "td_de_116"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sag das Alphabet rückwärts, so weit du kannst.",
+      "id": "td_de_117"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tu 20 Sekunden so, als wärst du Nachrichtensprecher.",
+      "id": "td_de_118"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Dreh dich 3 Mal im Kreis und geh dann geradeaus.",
+      "id": "td_de_119"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Klopf einen kurzen Trommelrhythmus auf den Tisch.",
+      "id": "td_de_120"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Streck dich und berühre deine Zehen.",
+      "id": "td_de_121"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sag einen Satz wie in einem Filmtrailer.",
+      "id": "td_de_122"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mach 10 Sekunden lang eine Superhelden-Pose.",
+      "id": "td_de_123"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Geh 10 Sekunden lang in Zeitlupe.",
+      "id": "td_de_124"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Summe ein Lied und lass die anderen raten.",
+      "id": "td_de_125"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mach das Geräusch eines bellenden Hundes.",
+      "id": "td_de_126"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sag einen Zungenbrecher dreimal schnell.",
+      "id": "td_de_127"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mach einen Mini-Siegertanz.",
+      "id": "td_de_128"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Klatsch einen Rhythmus und lass die anderen ihn nachklatschen.",
+      "id": "td_de_129"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tu so, als wärst du ein Roboter, und sag deinen Namen.",
+      "id": "td_de_130"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Forme mit den Händen ein Herz.",
+      "id": "td_de_131"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Spiele stumm nach, wie du ein Sandwich machst.",
+      "id": "td_de_132"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Male ein Smiley in die Luft.",
+      "id": "td_de_133"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mach 5 Kniebeugen.",
+      "id": "td_de_134"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sag Danke in drei Sprachen.",
+      "id": "td_de_135"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Halte 5 Sekunden Plank.",
+      "id": "td_de_136"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mach das Geräusch einer knarrenden Tür.",
+      "id": "td_de_137"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zeig einen Mini-Zaubertrick oder tu so.",
+      "id": "td_de_138"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mach das Tiergeräusch, das die Gruppe wählt.",
+      "id": "td_de_139"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Watschel 10 Sekunden wie ein Pinguin.",
+      "id": "td_de_140"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tu so, als würdest du ein dramatisches Selfie machen.",
+      "id": "td_de_141"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Erfinde einen Ein-Satz-Reim über heute.",
+      "id": "td_de_142"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sag deinen Namen mit einer albernen Stimme.",
+      "id": "td_de_143"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tu 15 Sekunden so, als wärst du in einer Kochshow.",
+      "id": "td_de_144"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zeichne einen imaginären Kreis um dich.",
+      "id": "td_de_145"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Gib allen ein High-Five oder Air-High-Five.",
+      "id": "td_de_146"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tu 10 Sekunden lang so, als wärst du in Zeitlupe gefangen.",
+      "id": "td_de_147"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mach einen kurzen Schulter-Tanz.",
+      "id": "td_de_148"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mach das Geräusch eines klingelnden Telefons.",
+      "id": "td_de_149"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Klatsch kurz und verbeuge dich.",
+      "id": "td_de_150"
     }
   ]
 }
