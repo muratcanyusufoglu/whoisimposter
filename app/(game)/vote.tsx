@@ -188,7 +188,7 @@ export default function VoteScreen() {
             onPress={handleRevealVotes}
             style={[s.actionBtn, { backgroundColor: theme.accent.secondary }]}
           >
-            <Text style={[s.actionBtnText, { color: '#FFFFFF' }]}>
+            <Text style={[s.actionBtnText, { color: theme.game.cardText }]}>
               {t('vote.reveal')}
             </Text>
           </Pressable>

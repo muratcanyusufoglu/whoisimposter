@@ -205,7 +205,7 @@ export default function HeadsUpScreen() {
       {phase === 'ready' && (
         <Animated.View entering={FadeIn.duration(200)} style={styles.centeredContent}>
           <View style={[styles.playerAvatar, { backgroundColor: currentPlayer?.color ?? theme.accent.primary }]}>
-            <Text style={[styles.playerAvatarText, { fontFamily: fontFamily.displayBold }]}>
+            <Text style={[styles.playerAvatarText, { fontFamily: fontFamily.displayBold, color: theme.game.cardText }]}>
               {currentPlayer?.initials ?? '?'}
             </Text>
           </View>
@@ -287,7 +287,7 @@ export default function HeadsUpScreen() {
                 style={[styles.correctBtn, { backgroundColor: theme.status.success }]}
                 accessibilityRole="button"
               >
-                <Text style={[styles.actionBtnText, { color: '#FFFFFF', fontFamily: fontFamily.displayBold }]}>
+                <Text style={[styles.actionBtnText, { color: theme.game.cardText, fontFamily: fontFamily.displayBold }]}>
                   {t('headsUp.correct')}
                 </Text>
               </TouchableOpacity>
@@ -399,7 +399,6 @@ const styles = StyleSheet.create({
   },
   playerAvatarText: {
     fontSize: fontSize.xl,
-    color: '#FFFFFF',
   },
   bigText: {
     fontSize: fontSize['3xl'],

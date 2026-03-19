@@ -229,7 +229,7 @@ export default function PromptGameScreen() {
       <View style={[styles.playerBadge, { backgroundColor: theme.bg.elevated, borderColor: theme.border.subtle }]}>
         {/* Colored initials avatar */}
         <View style={[styles.playerAvatar, { backgroundColor: currentPlayer?.color ?? theme.accent.primary }]}>
-          <Text style={[styles.playerAvatarText, { fontFamily: fontFamily.displayBold }]}>
+          <Text style={[styles.playerAvatarText, { fontFamily: fontFamily.displayBold, color: theme.game.cardText }]}>
             {currentPlayer?.initials ?? '?'}
           </Text>
         </View>
@@ -283,7 +283,7 @@ export default function PromptGameScreen() {
                 style={[styles.choiceBtn, { backgroundColor: theme.status.error }]}
                 accessibilityRole="button"
               >
-                <Text style={[styles.choiceBtnText, { color: '#FFFFFF', fontFamily: fontFamily.displayBold }]}>
+                <Text style={[styles.choiceBtnText, { color: theme.game.cardText, fontFamily: fontFamily.displayBold }]}>
                   {t('promptGame.dare')}
                 </Text>
                 <Text style={styles.choiceBtnEmoji}>🎭</Text>
@@ -317,7 +317,7 @@ export default function PromptGameScreen() {
                   },
                 ]}
               >
-                <Text style={[styles.typeBadgeText, { color: currentPrompt.type === 'truth' ? theme.text.onPrimary : '#FFFFFF', fontFamily: fontFamily.bodyBold }]}>
+                <Text style={[styles.typeBadgeText, { color: currentPrompt.type === 'truth' ? theme.text.onPrimary : theme.game.cardText, fontFamily: fontFamily.bodyBold }]}>
                   {currentPrompt.type === 'truth' ? t('promptGame.truth') : t('promptGame.dare')}
                 </Text>
               </View>
@@ -451,7 +451,6 @@ const styles = StyleSheet.create({
   },
   playerAvatarText: {
     fontSize: fontSize.md,
-    color: '#FFFFFF',
   },
   playerName: {
     fontSize: fontSize.lg,

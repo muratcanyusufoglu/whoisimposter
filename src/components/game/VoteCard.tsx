@@ -94,7 +94,7 @@ export function VoteCard({
 
         {/* Avatar */}
         <View style={[s.avatar, { backgroundColor: player.color }]}>
-          <Text style={[s.avatarText, { color: '#FFFFFF' }]}>{player.initials}</Text>
+          <Text style={[s.avatarText, { color: theme.game.cardText }]}>{player.initials}</Text>
         </View>
 
         {/* Name */}
@@ -108,7 +108,7 @@ export function VoteCard({
         {/* Check mark when selected */}
         {isSelected && (
           <View style={[s.checkBadge, { backgroundColor: theme.accent.primary }]}>
-            <Ionicons name="checkmark" size={10} color="#FFFFFF" />
+            <Ionicons name="checkmark" size={10} color={theme.text.onPrimary} />
           </View>
         )}
 
@@ -129,7 +129,7 @@ export function VoteCard({
               style={[
                 s.voteCount,
                 {
-                  color: (voteCount ?? 0) > 0 ? '#FFFFFF' : theme.text.muted,
+                  color: (voteCount ?? 0) > 0 ? theme.game.cardText : theme.text.muted,
                   fontFamily: fontFamily.mono,
                 },
               ]}

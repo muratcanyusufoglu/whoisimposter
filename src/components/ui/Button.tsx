@@ -184,7 +184,7 @@ function getVariantStyle(variant: ButtonVariant, theme: ReturnType<typeof useThe
         bg: theme.accent.secondary,
         borderWidth: 0,
         borderColor: 'transparent',
-        textColor: '#FFFFFF',
+        textColor: theme.game.cardText,
         shadowColor: theme.glow.danger,
         shadowOpacity: 0.6,
         elevation: 4,

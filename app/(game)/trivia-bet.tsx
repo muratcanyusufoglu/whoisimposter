@@ -332,10 +332,10 @@ export default function TriviaBetScreen() {
                     },
                   ]}
                 >
-                  <Text style={[styles.optionLabel, { color: isCorrect ? '#FFFFFF' : theme.text.muted, fontFamily: fontFamily.bodyBold }]}>
+                  <Text style={[styles.optionLabel, { color: isCorrect ? theme.game.cardText : theme.text.muted, fontFamily: fontFamily.bodyBold }]}>
                     {OPTION_LABELS[idx]}
                   </Text>
-                  <Text style={[styles.optionText, { color: isCorrect ? '#FFFFFF' : theme.text.secondary, fontFamily: fontFamily.body }]}>
+                  <Text style={[styles.optionText, { color: isCorrect ? theme.game.cardText : theme.text.secondary, fontFamily: fontFamily.body }]}>
                     {opt}
                   </Text>
                 </View>

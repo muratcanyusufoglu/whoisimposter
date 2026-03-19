@@ -86,7 +86,7 @@ export function SessionScoreboard({
 
             {/* Color dot + name */}
             <View style={[s.avatar, { backgroundColor: player.color }]}>
-              <Text style={s.avatarText}>{player.initials}</Text>
+              <Text style={[s.avatarText, { color: theme.game.cardText }]}>{player.initials}</Text>
             </View>
             <Text
               style={[s.playerName, { color: theme.text.primary }]}
@@ -183,7 +183,6 @@ const s = StyleSheet.create({
   avatarText: {
     fontSize: fontSize.xs,
     fontFamily: fontFamily.bodyBold,
-    color: '#FFFFFF',
   },
 
   playerName: {

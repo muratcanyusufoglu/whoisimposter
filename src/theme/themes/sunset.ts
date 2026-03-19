@@ -1,4 +1,4 @@
-import { AppTheme } from '../types'
+import {AppTheme} from "../types";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // SUNSET THEME — Light warm orange palette, #FF7A30 as the star.
@@ -20,57 +20,57 @@ import { AppTheme } from '../types'
 // ─────────────────────────────────────────────────────────────────────────────
 
 export const sunsetTheme: AppTheme = {
-  id: 'sunset',
+  id: "sunset",
 
   bg: {
-    primary:  '#FFF0E0',  // Light warm cream — sunset sky
-    surface:  '#FFE4CB',  // Soft peach surface
-    elevated: '#FFD5B0',  // Deeper peach — modal / sheet
-    overlay:  'rgba(0,0,0,0.40)',
-    glass:    'rgba(255,122,48,0.10)',  // Orange glass tint
+    primary: "#FFF0E0", // Light warm cream — sunset sky
+    surface: "#FFE4CB", // Soft peach surface
+    elevated: "#FFD5B0", // Deeper peach — modal / sheet
+    overlay: "rgba(0,0,0,0.40)",
+    glass: "rgba(255,122,48,0.10)", // Orange glass tint
   },
 
   accent: {
-    primary:   '#FF7A30',  // Vivid sunset orange — THE main color
-    secondary: '#DD563D',  // Coral-red — danger / imposter
-    tertiary:  '#83A7A0',  // Muted teal-grey — crew / info
-    warm:      '#E6866D',  // Warm coral — timer / categories
-    premium:   '#FFD700',  // Gold badge
+    primary: "#FF7A30", // Vivid sunset orange — THE main color
+    secondary: "#DD563D", // Coral-red — danger / imposter
+    tertiary: "#83A7A0", // Muted teal-grey — crew / info
+    warm: "#E6866D", // Warm coral — timer / categories
+    premium: "#FFD700", // Gold badge
   },
 
   text: {
-    primary:   '#2D1200',  // Very dark warm brown — main readable text
-    secondary: '#7A3A10',  // Medium warm brown — supporting text
-    muted:     '#B87040',  // Muted orange-brown — disabled / placeholder
-    inverse:   '#FFFFFF',  // Text on orange button
-    onPrimary: '#FFFFFF',
+    primary: "#2D1200", // Very dark warm brown — main readable text
+    secondary: "#7A3A10", // Medium warm brown — supporting text
+    muted: "#B87040", // Muted orange-brown — disabled / placeholder
+    inverse: "#FFFFFF", // Text on orange button
+    onPrimary: "#FFFFFF",
   },
 
   border: {
-    subtle:  'rgba(255,122,48,0.15)',
-    default: 'rgba(255,122,48,0.30)',
-    strong:  'rgba(255,122,48,0.55)',
-    focus:   '#FF7A30',
+    subtle: "rgba(255,122,48,0.15)",
+    default: "rgba(255,122,48,0.30)",
+    strong: "rgba(255,122,48,0.55)",
+    focus: "#FF7A30",
   },
 
   glow: {
-    primary: 'rgba(255,122,48,0.25)',   // Orange glow
-    danger:  'rgba(171,60,31,0.30)',    // AB3C1F rust glow
-    success: 'rgba(131,167,160,0.25)',  // 83A7A0 teal glow
+    primary: "rgba(255,122,48,0.25)", // Orange glow
+    danger: "rgba(171,60,31,0.30)", // AB3C1F rust glow
+    success: "rgba(131,167,160,0.25)", // 83A7A0 teal glow
   },
 
   game: {
-    imposterBg:    '#FFF0E0',  // Light warm cream — imposter reveal
-    crewBg:        '#0D474A',  // Exact dark teal — crew reveal
-    voteBg:        '#FFF0E0',
-    cardText:      '#2D1200',
-    cardTextMuted: 'rgba(45,18,0,0.50)',
+    imposterBg: "#FFF0E0", // Light warm cream — imposter reveal
+    crewBg: "#0D474A", // Exact dark teal — crew reveal
+    voteBg: "#FFF0E0",
+    cardText: "#2D1200",
+    cardTextMuted: "rgba(45,18,0,0.50)",
   },
 
   status: {
-    success: '#83A7A0',  // Muted teal-grey — calm / good
-    warning: '#E6866D',  // Warm coral
-    error:   '#DD563D',  // Coral-red
-    info:    '#BF94A8',  // Dusty rose
+    success: "#83A7A0", // Muted teal-grey — calm / good
+    warning: "#E6866D", // Warm coral
+    error: "#DD563D", // Coral-red
+    info: "#BF94A8", // Dusty rose
   },
-}
+};

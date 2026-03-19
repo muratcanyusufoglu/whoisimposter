@@ -254,7 +254,7 @@ export default function WordChainScreen() {
               exiting={FadeOut.duration(200)}
               style={[styles.eliminatedToast, { backgroundColor: theme.status.error }]}
             >
-              <Text style={[styles.eliminatedText, { color: '#FFFFFF', fontFamily: fontFamily.bodyBold }]}>
+              <Text style={[styles.eliminatedText, { color: theme.game.cardText, fontFamily: fontFamily.bodyBold }]}>
                 {eliminatedMessage}
               </Text>
             </Animated.View>

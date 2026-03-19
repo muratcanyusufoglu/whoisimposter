@@ -334,7 +334,7 @@ export default function ResultScreen() {
                 onPress={handleGuessYes}
                 style={[s.guessBtn, { backgroundColor: theme.status.success }]}
               >
-                <Text style={[s.guessBtnText, { color: '#FFFFFF' }]}>
+                <Text style={[s.guessBtnText, { color: theme.game.cardText }]}>
                   {t('result.guessYes')}
                 </Text>
               </Pressable>

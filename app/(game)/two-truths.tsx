@@ -243,7 +243,7 @@ export default function TwoTruthsScreen() {
                     style={[
                       styles.lieBtnText,
                       {
-                        color: lieIndex === idx ? '#FFFFFF' : theme.text.secondary,
+                        color: lieIndex === idx ? theme.game.cardText : theme.text.secondary,
                         fontFamily: lieIndex === idx ? fontFamily.bodyBold : fontFamily.body,
                       },
                     ]}

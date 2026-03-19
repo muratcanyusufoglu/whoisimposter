@@ -153,7 +153,7 @@ export function WordRevealCard({
         >
           {/* Player avatar */}
           <View style={[s.avatar, { backgroundColor: player.color }]}>
-            <Text style={[s.avatarText, { color: '#FFFFFF' }]}>{player.initials}</Text>
+            <Text style={[s.avatarText, { color: theme.game.cardText }]}>{player.initials}</Text>
           </View>
 
           {/* Player name */}

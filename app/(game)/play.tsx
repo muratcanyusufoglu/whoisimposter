@@ -135,7 +135,7 @@ export default function PlayScreen() {
               >
                 {/* Avatar */}
                 <View style={[s.avatar, { backgroundColor: player.color }]}>
-                  <Text style={[s.avatarText, { color: '#FFFFFF' }]}>{player.initials}</Text>
+                  <Text style={[s.avatarText, { color: theme.game.cardText }]}>{player.initials}</Text>
                 </View>
 
                 {/* Name */}
@@ -152,7 +152,7 @@ export default function PlayScreen() {
                 <View style={s.statusArea}>
                   {done ? (
                     <View style={[s.checkCircle, { backgroundColor: theme.status.success }]}>
-                      <Ionicons name="checkmark" size={14} color="#FFFFFF" />
+                      <Ionicons name="checkmark" size={14} color={theme.text.onPrimary} />
                     </View>
                   ) : (
                     <Text style={[s.tapHint, { color: theme.text.muted }]}>
