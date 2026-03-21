@@ -7,6 +7,7 @@ import {
   ScrollView,
   Platform,
   Pressable,
+  Linking,
   Modal as RNModal,
 } from 'react-native'
 import Animated, {
@@ -36,6 +37,9 @@ import { Divider } from '@/components/ui/Divider'
 // ─────────────────────────────────────────────────────────────────────────────
 
 const CLOSE_DELAY_MS = 4000
+
+const PRIVACY_URL = 'https://muratcanyusufoglu.github.io/whoisimposter/legal/privacy/'
+const TERMS_URL   = 'https://muratcanyusufoglu.github.io/whoisimposter/legal/terms/'
 type PlanId = 'monthly' | 'yearly'
 
 interface PaywallModalProps {
@@ -262,9 +266,17 @@ export function PaywallModal({ visible, onClose, onDismiss }: PaywallModalProps)
           </View>
 
           <View style={styles.legalLinks}>
-            <Text style={[styles.legalText, { color: theme.text.muted }]}>
-              {t('paywall.privacy')} · {t('paywall.terms')}
-            </Text>
+            <TouchableOpacity onPress={() => Linking.openURL(PRIVACY_URL).catch(() => {})}>
+              <Text style={[styles.legalText, { color: theme.text.muted }]}>
+                {t('paywall.privacy')}
+              </Text>
+            </TouchableOpacity>
+            <Text style={[styles.legalText, { color: theme.text.muted }]}> · </Text>
+            <TouchableOpacity onPress={() => Linking.openURL(TERMS_URL).catch(() => {})}>
+              <Text style={[styles.legalText, { color: theme.text.muted }]}>
+                {t('paywall.terms')}
+              </Text>
+            </TouchableOpacity>
           </View>
         </ScrollView>
       </Animated.View>
@@ -582,6 +594,9 @@ const styles = StyleSheet.create({
   },
   legalLinks: {
     marginTop: -spacing.sm,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   legalText: {
     fontSize: fontSize.xs,

@@ -1052,6 +1052,146 @@
       "minAge": 4,
       "text": "Коротко похлопай и поклонись.",
       "id": "td_ru_150"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Какая мелочь сразу поднимает тебе настроение?",
+      "id": "td_ru_151"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Если бы на день у тебя был животный напарник, кто бы это был?",
+      "id": "td_ru_152"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Что ты любишь делать в дождливый день?",
+      "id": "td_ru_153"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Какую привычку ты сейчас пытаешься улучшить?",
+      "id": "td_ru_154"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Что ты искал(а) в телефоне в последний раз?",
+      "id": "td_ru_155"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Какой талант тебе хотелось бы иметь?",
+      "id": "td_ru_156"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "На кого из этой компании ты больше всего похож(а)?",
+      "id": "td_ru_157"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Какой у тебя главный «стоп» в знакомствах?",
+      "id": "td_ru_158"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Был ли у тебя когда-нибудь отправленный и сразу же жалеемый текст? О чём он был?",
+      "id": "td_ru_159"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Что самое смелое ты делал(а), чтобы впечатлить кого-то?",
+      "id": "td_ru_160"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Сделай свой лучший звук животного — пусть группа угадает.",
+      "id": "td_ru_161"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Подержи книгу на голове 10 секунд.",
+      "id": "td_ru_162"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Нарисуй быстрый набросок домика с глазами.",
+      "id": "td_ru_163"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Напиши кому-то \"угадай что?\" и 2 минуты не объясняй.",
+      "id": "td_ru_164"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Говори как диктор в кино в следующем раунде.",
+      "id": "td_ru_165"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Поменяйся местами с кем-то, не говоря ни слова.",
+      "id": "td_ru_166"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Покажи последнее селфи, которое ты сделал(а).",
+      "id": "td_ru_167"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Поставь эмодзи в статус на час.",
+      "id": "td_ru_168"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Отправь голосовое доверенному человеку: \"У меня есть секрет\".",
+      "id": "td_ru_169"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Станцуй 20 секунд, используя только руки.",
+      "id": "td_ru_170"
     }
   ]
 }

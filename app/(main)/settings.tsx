@@ -36,8 +36,8 @@ import { Divider } from '@/components/ui/Divider'
 // CONSTANTS
 // ─────────────────────────────────────────────────────────────────────────────
 
-const PRIVACY_URL = 'https://whosimposter.party/privacy'
-const TERMS_URL   = 'https://whosimposter.party/terms'
+const PRIVACY_URL = 'https://muratcanyusufoglu.github.io/whoisimposter/legal/privacy/'
+const TERMS_URL   = 'https://muratcanyusufoglu.github.io/whoisimposter/legal/terms/'
 
 const LANGUAGES = [
   { code: 'en', label: 'English',    flag: '🇺🇸' },
