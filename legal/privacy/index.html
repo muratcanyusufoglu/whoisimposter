@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – Who's the Imposter?</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f0f0f; --surface: #1a1a1a; --accent: #fdab4e;
+      --text: #e8e8e8; --text-secondary: #aaa; --text-muted: #666; --border: #2a2a2a;
+    }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.7; min-height: 100vh; }
+    header { border-bottom: 1px solid var(--border); padding: 20px 24px; display: flex; align-items: center; gap: 12px; }
+    .app-icon { width: 36px; height: 36px; background: var(--accent); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 18px; }
+    .app-name { font-size: 1rem; font-weight: 600; }
+    .app-sub { font-size: 0.8rem; color: var(--text-muted); }
+    .controls { position: sticky; top: 0; z-index: 10; background: var(--bg); border-bottom: 1px solid var(--border); padding: 12px 24px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+    .doc-links { display: flex; gap: 8px; }
+    .doc-link { padding: 6px 16px; border-radius: 6px; font-size: 0.85rem; font-weight: 500; text-decoration: none; color: var(--text-muted); border: 1px solid var(--border); transition: all 0.15s; }
+    .doc-link:hover { border-color: var(--accent); color: var(--accent); }
+    .doc-link.active { background: var(--accent); border-color: var(--accent); color: #1a0a00; font-weight: 700; }
+    .lang-list { display: flex; gap: 6px; flex-wrap: wrap; }
+    .lang-btn { padding: 4px 12px; border: 1px solid var(--border); border-radius: 20px; background: transparent; color: var(--text-secondary); font-size: 0.8rem; cursor: pointer; transition: all 0.15s; }
+    .lang-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .lang-btn.active { background: var(--accent); border-color: var(--accent); color: #1a0a00; font-weight: 600; }
+    main { max-width: 760px; margin: 0 auto; padding: 40px 24px 80px; }
+    .doc-title { font-size: 1.9rem; font-weight: 700; color: #fff; margin-bottom: 6px; }
+    .doc-meta { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 40px; }
+    .section { margin-bottom: 32px; }
+    .section h2 { font-size: 1.05rem; font-weight: 600; color: #fff; margin-bottom: 10px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+    .section p { color: #ccc; font-size: 0.95rem; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer { text-align: center; padding: 24px; color: var(--text-muted); font-size: 0.8rem; border-top: 1px solid var(--border); }
+  </style>
+</head>
+<body>
+<header>
+  <div class="app-icon">🕵️</div>
+  <div>
+    <div class="app-name">Who's the Imposter?</div>
+    <div class="app-sub">Legal Information</div>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="doc-links">
+    <a class="doc-link active" href="../privacy/">Privacy Policy</a>
+    <a class="doc-link" href="../terms/">Terms of Use</a>
+  </div>
+  <div class="lang-list">
+    <button class="lang-btn active" onclick="setLang('en',this)">English</button>
+    <button class="lang-btn" onclick="setLang('tr',this)">Türkçe</button>
+    <button class="lang-btn" onclick="setLang('de',this)">Deutsch</button>
+    <button class="lang-btn" onclick="setLang('fr',this)">Français</button>
+    <button class="lang-btn" onclick="setLang('es',this)">Español</button>
+    <button class="lang-btn" onclick="setLang('pt',this)">Português</button>
+    <button class="lang-btn" onclick="setLang('it',this)">Italiano</button>
+    <button class="lang-btn" onclick="setLang('nl',this)">Nederlands</button>
+    <button class="lang-btn" onclick="setLang('ru',this)">Русский</button>
+    <button class="lang-btn" onclick="setLang('ar',this)">العربية</button>
+  </div>
+</div>
+
+<main id="content"></main>
+<footer>© 2026 Muratcan Yusufoğlu · <a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a></footer>
+
+<script>
+const DATA = {
+  en: { dir:'ltr', title:'Privacy Policy', meta:"Who's the Imposter? · Last updated: March 2026", sections:[
+    {h:'1. Introduction', p:'Who\'s the Imposter? ("the App") is developed and maintained by Muratcan Yusufoğlu ("we", "us", "our"). This Privacy Policy explains what information is handled when you use the App and how we protect your privacy.'},
+    {h:'2. No Personal Data Collection', p:'We do not collect, transmit, or store any personal data on our servers. The App is entirely offline. No account registration is required, and no internet connection is needed to play.'},
+    {h:'3. Data Stored Locally on Your Device', p:'The App saves certain preferences on your device only, using your device\'s local storage (AsyncStorage). This includes:<br><br>• Player names entered during a game session<br>• Game settings (theme, language, sound/haptics preferences)<br>• Onboarding completion status<br><br>This data never leaves your device and is not accessible to us or any third party.'},
+    {h:'4. In-App Purchases', p:'The App offers an optional "Pro" subscription. All purchase transactions are processed exclusively by Apple App Store or Google Play Store. We do not receive or process your payment information.'},
+    {h:'5. Third-Party Services', p:'We use RevenueCat solely to verify subscription status on-device. RevenueCat may process a device identifier for this purpose. We do not share any personally identifiable information with RevenueCat. See <a href="https://www.revenuecat.com/privacy">RevenueCat\'s Privacy Policy</a>.'},
+    {h:'6. Children\'s Privacy', p:'The App does not target children specifically and does not knowingly collect personal information from anyone. The App is safe for all age groups.'},
+    {h:'7. Changes to This Policy', p:'We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated date.'},
+    {h:'8. Governing Law', p:'This Privacy Policy is governed by the laws of the Republic of Turkey.'},
+    {h:'9. Contact', p:'<a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>'},
+  ]},
+  tr: { dir:'ltr', title:'Gizlilik Politikası', meta:'Kim Sahtekâr? · Son güncelleme: Mart 2026', sections:[
+    {h:'1. Giriş', p:'Kim Sahtekâr? ("Uygulama"), Muratcan Yusufoğlu tarafından geliştirilmektedir. Bu Gizlilik Politikası, Uygulamayı kullanırken hangi bilgilerin işlendiğini ve gizliliğinizin nasıl korunduğunu açıklamaktadır.'},
+    {h:'2. Kişisel Veri Toplanmıyor', p:'Herhangi bir kişisel veriyi sunucularımızda toplamıyor, iletmiyor veya saklamıyoruz. Uygulama tamamen çevrimdışı çalışır.'},
+    {h:'3. Cihazınızda Yerel Olarak Saklanan Veriler', p:'Uygulama yalnızca cihazınızda şunları kaydeder:<br><br>• Oyuncu isimleri<br>• Oyun ayarları (tema, dil, ses/dokunsal tercihler)<br>• Giriş ekranı tamamlanma durumu<br><br>Bu veriler cihazınızdan hiçbir zaman çıkmaz.'},
+    {h:'4. Uygulama İçi Satın Almalar', p:'Tüm satın alma işlemleri yalnızca Apple App Store veya Google Play Store tarafından gerçekleştirilir. Ödeme bilgilerinizi almıyor veya işlemiyoruz.'},
+    {h:'5. Üçüncü Taraf Hizmetler', p:'Abonelik durumunu doğrulamak amacıyla yalnızca RevenueCat kullanılmaktadır. Kişisel bilgileri RevenueCat ile paylaşmıyoruz.'},
+    {h:'6. Çocukların Gizliliği', p:'Uygulama özellikle çocuklara yönelik değildir ve tüm yaş grupları için güvenlidir.'},
+    {h:'7. Bu Politikadaki Değişiklikler', p:'Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Değişiklikler bu sayfaya yansıtılacaktır.'},
+    {h:'8. Uygulanacak Hukuk', p:'Bu Gizlilik Politikası Türkiye Cumhuriyeti kanunlarına tabidir.'},
+    {h:'9. İletişim', p:'<a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>'},
+  ]},
+  de: { dir:'ltr', title:'Datenschutzerklärung', meta:'Wer ist der Hochstapler? · Letzte Aktualisierung: März 2026', sections:[
+    {h:'1. Einleitung', p:'Wer ist der Hochstapler? wird von Muratcan Yusufoğlu entwickelt. Diese Erklärung erläutert, welche Informationen bei der Nutzung der App verarbeitet werden.'},
+    {h:'2. Keine Erhebung personenbezogener Daten', p:'Wir erheben, übertragen oder speichern keine personenbezogenen Daten auf unseren Servern. Die App funktioniert vollständig offline.'},
+    {h:'3. Lokal gespeicherte Daten', p:'Die App speichert ausschließlich auf Ihrem Gerät:<br><br>• Spielernamen<br>• Spieleinstellungen (Design, Sprache, Sound)<br>• Onboarding-Status<br><br>Diese Daten verlassen Ihr Gerät niemals.'},
+    {h:'4. In-App-Käufe', p:'Alle Transaktionen werden über Apple App Store oder Google Play Store abgewickelt. Wir erhalten Ihre Zahlungsdaten nicht.'},
+    {h:'5. Drittanbieterdienste', p:'Wir nutzen RevenueCat ausschließlich zur Überprüfung des Abonnementstatus. Wir geben keine personenbezogenen Daten weiter.'},
+    {h:'6. Datenschutz für Kinder', p:'Die App ist für alle Altersgruppen geeignet und erhebt keine personenbezogenen Daten.'},
+    {h:'7. Änderungen', p:'Wir können diese Erklärung gelegentlich aktualisieren. Änderungen werden auf dieser Seite veröffentlicht.'},
+    {h:'8. Anwendbares Recht', p:'Diese Erklärung unterliegt dem Recht der Republik Türkei.'},
+    {h:'9. Kontakt', p:'<a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>'},
+  ]},
+  fr: { dir:'ltr', title:'Politique de Confidentialité', meta:"Qui est l'Imposteur ? · Dernière mise à jour : mars 2026", sections:[
+    {h:'1. Introduction', p:"Qui est l'Imposteur ? est développée par Muratcan Yusufoğlu. Cette politique explique quelles informations sont traitées lors de l'utilisation de l'Application."},
+    {h:'2. Aucune collecte de données', p:"Nous ne collectons, ne transmettons ni ne stockons aucune donnée personnelle. L'Application fonctionne entièrement hors ligne."},
+    {h:'3. Données stockées localement', p:"L'Application enregistre uniquement sur votre appareil :<br><br>• Noms des joueurs<br>• Paramètres (thème, langue, son)<br>• Statut d'intégration<br><br>Ces données ne quittent jamais votre appareil."},
+    {h:'4. Achats intégrés', p:"Toutes les transactions sont traitées par l'Apple App Store ou Google Play Store. Nous ne recevons pas vos informations de paiement."},
+    {h:'5. Services tiers', p:"Nous utilisons RevenueCat uniquement pour vérifier le statut d'abonnement. Nous ne partageons aucune donnée personnelle."},
+    {h:'6. Confidentialité des enfants', p:"L'Application ne cible pas les enfants et est sûre pour tous les âges."},
+    {h:'7. Modifications', p:'Nous pouvons mettre à jour cette politique. Les modifications seront reflétées sur cette page.'},
+    {h:'8. Droit applicable', p:'Cette politique est régie par les lois de la République de Turquie.'},
+    {h:'9. Contact', p:'<a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>'},
+  ]},
+  es: { dir:'ltr', title:'Política de Privacidad', meta:'¿Quién es el Impostor? · Última actualización: marzo de 2026', sections:[
+    {h:'1. Introducción', p:'¿Quién es el Impostor? es desarrollada por Muratcan Yusufoğlu. Esta política explica qué información se gestiona cuando utiliza la Aplicación.'},
+    {h:'2. Sin recopilación de datos', p:'No recopilamos, transmitimos ni almacenamos ningún dato personal. La Aplicación funciona completamente sin conexión.'},
+    {h:'3. Datos almacenados localmente', p:'La Aplicación guarda únicamente en su dispositivo:<br><br>• Nombres de jugadores<br>• Configuración (tema, idioma, sonido)<br>• Estado de incorporación<br><br>Estos datos nunca abandonan su dispositivo.'},
+    {h:'4. Compras en la aplicación', p:'Todas las transacciones son procesadas por Apple App Store o Google Play Store. No recibimos su información de pago.'},
+    {h:'5. Servicios de terceros', p:'Usamos RevenueCat únicamente para verificar el estado de la suscripción. No compartimos datos personales.'},
+    {h:'6. Privacidad de menores', p:'La Aplicación es segura para todas las edades y no recopila datos personales.'},
+    {h:'7. Cambios', p:'Podemos actualizar esta política. Los cambios se reflejarán en esta página.'},
+    {h:'8. Ley aplicable', p:'Esta política se rige por las leyes de la República de Turquía.'},
+    {h:'9. Contacto', p:'<a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>'},
+  ]},
+  pt: { dir:'ltr', title:'Política de Privacidade', meta:'Quem é o Impostor? · Última atualização: março de 2026', sections:[
+    {h:'1. Introdução', p:'Quem é o Impostor? é desenvolvido por Muratcan Yusufoğlu. Esta política explica quais informações são tratadas ao usar o Aplicativo.'},
+    {h:'2. Nenhuma coleta de dados', p:'Não coletamos, transmitimos nem armazenamos dados pessoais. O Aplicativo funciona completamente offline.'},
+    {h:'3. Dados armazenados localmente', p:'O Aplicativo salva apenas no seu dispositivo:<br><br>• Nomes de jogadores<br>• Configurações (tema, idioma, som)<br>• Status de onboarding<br><br>Esses dados nunca saem do seu dispositivo.'},
+    {h:'4. Compras no aplicativo', p:'Todas as transações são processadas pela Apple App Store ou Google Play Store. Não recebemos suas informações de pagamento.'},
+    {h:'5. Serviços de terceiros', p:'Usamos o RevenueCat apenas para verificar o status da assinatura. Não compartilhamos dados pessoais.'},
+    {h:'6. Privacidade infantil', p:'O Aplicativo é seguro para todas as faixas etárias e não coleta dados pessoais.'},
+    {h:'7. Alterações', p:'Podemos atualizar esta política. As alterações serão refletidas nesta página.'},
+    {h:'8. Lei aplicável', p:'Esta política é regida pelas leis da República da Turquia.'},
+    {h:'9. Contato', p:'<a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>'},
+  ]},
+  it: { dir:'ltr', title:"Informativa sulla Privacy", meta:"Chi è l'Impostore? · Ultimo aggiornamento: marzo 2026", sections:[
+    {h:'1. Introduzione', p:"Chi è l'Impostore? è sviluppata da Muratcan Yusufoğlu. La presente informativa spiega quali informazioni vengono trattate durante l'utilizzo dell'App."},
+    {h:'2. Nessuna raccolta di dati', p:"Non raccogliamo, trasmettiamo né memorizziamo dati personali. L'App funziona completamente offline."},
+    {h:'3. Dati memorizzati localmente', p:"L'App salva solo sul tuo dispositivo:<br><br>• Nomi dei giocatori<br>• Impostazioni (tema, lingua, audio)<br>• Stato dell'onboarding<br><br>Questi dati non lasciano mai il tuo dispositivo."},
+    {h:'4. Acquisti in-app', p:"Tutte le transazioni vengono elaborate tramite Apple App Store o Google Play Store. Non riceviamo le tue informazioni di pagamento."},
+    {h:'5. Servizi di terze parti', p:"Utilizziamo RevenueCat esclusivamente per verificare lo stato dell'abbonamento. Non condividiamo dati personali."},
+    {h:'6. Privacy dei minori', p:"L'App è sicura per tutte le fasce d'età e non raccoglie dati personali."},
+    {h:'7. Modifiche', p:'Potremmo aggiornare questa informativa. Le modifiche saranno riportate in questa pagina.'},
+    {h:'8. Legge applicabile', p:'La presente informativa è disciplinata dalle leggi della Repubblica di Turchia.'},
+    {h:'9. Contatti', p:'<a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>'},
+  ]},
+  nl: { dir:'ltr', title:'Privacybeleid', meta:'Wie is de Bedrieger? · Laatste update: maart 2026', sections:[
+    {h:'1. Inleiding', p:'Wie is de Bedrieger? wordt ontwikkeld door Muratcan Yusufoğlu. Dit beleid legt uit welke informatie wordt verwerkt bij gebruik van de App.'},
+    {h:'2. Geen verzameling van persoonsgegevens', p:'Wij verzamelen, verzenden of bewaren geen persoonsgegevens. De App werkt volledig offline.'},
+    {h:'3. Lokaal opgeslagen gegevens', p:'De App slaat alleen op uw apparaat op:<br><br>• Namen van spelers<br>• Instellingen (thema, taal, audio)<br>• Onboarding-status<br><br>Deze gegevens verlaten uw apparaat nooit.'},
+    {h:'4. In-app aankopen', p:'Alle transacties worden verwerkt via Apple App Store of Google Play Store. Wij ontvangen uw betalingsinformatie niet.'},
+    {h:'5. Diensten van derden', p:'Wij gebruiken RevenueCat uitsluitend om de abonnementsstatus te verifiëren. Wij delen geen persoonsgegevens.'},
+    {h:'6. Privacy van kinderen', p:'De App is veilig voor alle leeftijdsgroepen en verzamelt geen persoonsgegevens.'},
+    {h:'7. Wijzigingen', p:'Wij kunnen dit beleid bijwerken. Wijzigingen worden op deze pagina weergegeven.'},
+    {h:'8. Toepasselijk recht', p:'Dit beleid wordt beheerst door de wetten van de Republiek Turkije.'},
+    {h:'9. Contact', p:'<a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>'},
+  ]},
+  ru: { dir:'ltr', title:'Политика конфиденциальности', meta:'Кто самозванец? · Последнее обновление: март 2026', sections:[
+    {h:'1. Введение', p:'«Кто самозванец?» разработано Muratcan Yusufoğlu. Настоящая политика объясняет, какая информация обрабатывается при использовании Приложения.'},
+    {h:'2. Персональные данные не собираются', p:'Мы не собираем, не передаём и не храним персональные данные. Приложение работает полностью в автономном режиме.'},
+    {h:'3. Данные, хранящиеся локально', p:'Приложение сохраняет только на вашем устройстве:<br><br>• Имена игроков<br>• Настройки (тема, язык, звук)<br>• Статус онбординга<br><br>Эти данные никогда не покидают ваше устройство.'},
+    {h:'4. Покупки в приложении', p:'Все транзакции обрабатываются через Apple App Store или Google Play Store. Мы не получаем вашу платёжную информацию.'},
+    {h:'5. Сторонние сервисы', p:'Мы используем RevenueCat исключительно для проверки статуса подписки. Мы не передаём личные данные.'},
+    {h:'6. Конфиденциальность детей', p:'Приложение безопасно для всех возрастных групп и не собирает персональные данные.'},
+    {h:'7. Изменения', p:'Мы можем обновлять настоящую политику. Изменения будут отражены на этой странице.'},
+    {h:'8. Применимое право', p:'Настоящая политика регулируется законами Турецкой Республики.'},
+    {h:'9. Контакты', p:'<a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>'},
+  ]},
+  ar: { dir:'rtl', title:'سياسة الخصوصية', meta:'من هو المحتال؟ · آخر تحديث: مارس 2026', sections:[
+    {h:'١. مقدمة', p:'تطبيق «من هو المحتال؟» تم تطويره بواسطة Muratcan Yusufoğlu. توضح هذه السياسة المعلومات التي تُعالَج عند استخدام التطبيق.'},
+    {h:'٢. لا يتم جمع بيانات شخصية', p:'لا نجمع أو ننقل أو نخزن أي بيانات شخصية على خوادمنا. يعمل التطبيق بشكل كامل دون اتصال.'},
+    {h:'٣. البيانات المخزنة محلياً', p:'يحفظ التطبيق على جهازك فقط:<br><br>• أسماء اللاعبين<br>• إعدادات اللعبة (السمة، اللغة، الصوت)<br>• حالة الإعداد الأولي<br><br>هذه البيانات لا تغادر جهازك أبداً.'},
+    {h:'٤. المشتريات داخل التطبيق', p:'تُعالَج جميع معاملات الشراء من خلال Apple App Store أو Google Play Store. لا نتلقى معلومات الدفع.'},
+    {h:'٥. خدمات الأطراف الثالثة', p:'نستخدم RevenueCat فقط للتحقق من حالة الاشتراك. لا نشارك أي بيانات شخصية.'},
+    {h:'٦. خصوصية الأطفال', p:'التطبيق آمن لجميع الفئات العمرية ولا يجمع بيانات شخصية.'},
+    {h:'٧. التغييرات على هذه السياسة', p:'قد نُحدّث هذه السياسة. ستنعكس التغييرات على هذه الصفحة.'},
+    {h:'٨. القانون المطبق', p:'تخضع هذه السياسة لقوانين جمهورية تركيا.'},
+    {h:'٩. التواصل', p:'<a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>'},
+  ]},
+};
+
+let currentLang = 'en';
+
+function setLang(lang, btn) {
+  currentLang = lang;
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  render();
+}
+
+function render() {
+  const d = DATA[currentLang];
+  document.documentElement.lang = currentLang;
+  document.documentElement.dir = d.dir;
+  document.getElementById('content').innerHTML = `
+    <h1 class="doc-title">${d.title}</h1>
+    <p class="doc-meta">${d.meta}</p>
+    ${d.sections.map(s => `<div class="section"><h2>${s.h}</h2><p>${s.p}</p></div>`).join('')}
+  `;
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+render();
+</script>
+</body>
+</html>
