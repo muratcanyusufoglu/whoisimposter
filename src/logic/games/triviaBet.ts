@@ -4,6 +4,9 @@ import { shuffle } from '@/utils/shuffle'
 // TRIVIA BET — LOGIC
 // ─────────────────────────────────────────────────────────────────────────────
 
+export const STARTING_TOKENS = 10
+export const MIN_BET = 1
+
 export interface TriviaQuestion {
   id: string
   difficulty: 'easy' | 'medium' | 'hard'
@@ -18,12 +21,13 @@ export interface TriviaBetState {
   currentPlayerIndex: number
   usedQuestionIds: string[]
   currentQuestion: TriviaQuestion | null
+  tokens: Record<string, number>  // player id → current token count
+  roundNumber: number
 }
 
 export interface TriviaBetRoundResult {
-  winnerId: string
-  loserId: string
   question: TriviaQuestion
+  tokenDeltas: Record<string, number>  // player id → +gain or -loss
 }
 
 const QUESTIONS: Record<string, TriviaQuestion[]> = {
@@ -45,12 +49,33 @@ function loadQuestions(locale: string): TriviaQuestion[] {
 
 export const triviaBetLogic = {
   createInitialState(playerIds: string[]): TriviaBetState {
+    const tokens: Record<string, number> = {}
+    for (const id of playerIds) {
+      tokens[id] = STARTING_TOKENS
+    }
     return {
       playerOrder: shuffle(playerIds),
       currentPlayerIndex: 0,
       usedQuestionIds: [],
       currentQuestion: null,
+      tokens,
+      roundNumber: 0,
     }
+  },
+
+  /** Returns player IDs who still have tokens > 0 */
+  getActivePlayers(tokens: Record<string, number>): string[] {
+    return Object.entries(tokens)
+      .filter(([, count]) => count > 0)
+      .map(([id]) => id)
+  },
+
+  /** Returns player IDs tied for the most tokens */
+  getLeaders(tokens: Record<string, number>): string[] {
+    const max = Math.max(...Object.values(tokens))
+    return Object.entries(tokens)
+      .filter(([, count]) => count === max)
+      .map(([id]) => id)
   },
 
   getNextQuestion(locale: string, usedIds: string[]): TriviaQuestion {
@@ -70,11 +95,40 @@ export const triviaBetLogic = {
     return shuffle(pool)[0] ?? fallback
   },
 
+  /**
+   * Resolves a round:
+   * - Correct answer → player gains their bet amount
+   * - Wrong answer   → player loses their bet amount (clamped to 0)
+   */
   resolveRound(
     question: TriviaQuestion,
-    winnerId: string,
-    loserId: string,
+    bets: Record<string, number>,
+    answers: Record<string, number>,
+    tokens: Record<string, number>,
   ): TriviaBetRoundResult {
-    return { winnerId, loserId, question }
+    const tokenDeltas: Record<string, number> = {}
+
+    for (const playerId of Object.keys(tokens)) {
+      const bet = bets[playerId] ?? MIN_BET
+      const answer = answers[playerId]
+      const isCorrect = answer === question.correctIndex
+      // Clamp loss so tokens don't go below 0
+      const currentTokens = tokens[playerId] ?? 0
+      tokenDeltas[playerId] = isCorrect ? bet : -Math.min(bet, currentTokens)
+    }
+
+    return { question, tokenDeltas }
+  },
+
+  /** Applies token deltas and clamps each value to a minimum of 0 */
+  applyTokenDeltas(
+    tokens: Record<string, number>,
+    deltas: Record<string, number>,
+  ): Record<string, number> {
+    const next: Record<string, number> = { ...tokens }
+    for (const [id, delta] of Object.entries(deltas)) {
+      next[id] = Math.max(0, (next[id] ?? 0) + delta)
+    }
+    return next
   },
 }

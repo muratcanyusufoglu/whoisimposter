@@ -7,8 +7,9 @@ import { spacing, radius, fontSize, fontFamily } from '@/theme/tokens'
 import { Modal } from '@/components/ui/Modal'
 import { Avatar } from '@/components/ui/Avatar'
 import { useStatsStore } from '@/store/statsStore'
+import { useGameStore } from '@/store/gameStore'
 import { ACHIEVEMENT_DEFINITIONS } from '@/logic/scoring'
-import type { PlayerLifetimeStats } from '@/types'
+import type { Player, PlayerLifetimeStats } from '@/types'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // TYPES
@@ -32,6 +33,13 @@ export function StatsModal({ visible, onClose }: StatsModalProps) {
 
   const playerStats = useStatsStore((s) => s.playerStats)
   const unlockedAchievements = useStatsStore((s) => s.unlockedAchievements)
+  const gamePlayers = useGameStore((s) => s.players)
+
+  // Build a lookup of normalized name → Player for avatar fallback
+  const gamePlayerMap: Record<string, Player> = {}
+  for (const p of gamePlayers) {
+    gamePlayerMap[p.name.trim().toLowerCase()] = p
+  }
 
   const playerEntries = Object.entries(playerStats).sort(
     ([, a], [, b]) => b.gamesPlayed - a.gamesPlayed,
@@ -88,6 +96,7 @@ export function StatsModal({ visible, onClose }: StatsModalProps) {
                   key={normalizedName}
                   name={normalizedName}
                   stats={stats}
+                  gamePlayer={gamePlayerMap[normalizedName]}
                   theme={theme}
                   t={t}
                 />
@@ -158,17 +167,21 @@ function TabButton({
 function PlayerStatsRow({
   name,
   stats,
+  gamePlayer,
   theme,
   t,
 }: {
   name: string
   stats: PlayerLifetimeStats
+  gamePlayer?: Player
   theme: ReturnType<typeof useTheme>['theme']
   t: (key: string) => string
 }) {
   // Capitalize the stored normalized name for display
   const displayName = name.charAt(0).toUpperCase() + name.slice(1)
-  const avatarColor = stats.color ?? theme.accent.primary
+  // Prefer live gamePlayer data, then persisted stats avatar, then defaults
+  const avatarEmoji = gamePlayer?.emoji ?? stats.emoji
+  const avatarColor = gamePlayer?.color ?? stats.color ?? theme.accent.primary
 
   return (
     <View
@@ -181,7 +194,7 @@ function PlayerStatsRow({
         <Avatar
           name={displayName}
           color={avatarColor}
-          emoji={stats.emoji}
+          emoji={avatarEmoji}
           size={40}
         />
         <Text style={[s.playerRowName, { color: theme.text.primary }]}>
