@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Legal – Who's the Imposter?</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0f0f0f;
+      --surface: #1a1a1a;
+      --elevated: #242424;
+      --accent: #fdab4e;
+      --text: #e8e8e8;
+      --text-secondary: #aaa;
+      --text-muted: #666;
+      --border: #2a2a2a;
+      --radius: 12px;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .app-icon {
+      width: 36px; height: 36px;
+      background: var(--accent);
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px;
+    }
+    .app-name { font-size: 1rem; font-weight: 600; color: var(--text); }
+    .app-sub  { font-size: 0.8rem; color: var(--text-muted); }
+
+    /* ── Controls bar ── */
+    .controls {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    /* Doc tabs */
+    .tabs {
+      display: flex;
+      background: var(--surface);
+      border-radius: 8px;
+      padding: 3px;
+      gap: 2px;
+    }
+    .tab-btn {
+      padding: 6px 16px;
+      border: none;
+      border-radius: 6px;
+      background: transparent;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .tab-btn.active {
+      background: var(--accent);
+      color: #1a0a00;
+      font-weight: 700;
+    }
+
+    /* Language pills */
+    .lang-list {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .lang-btn {
+      padding: 4px 12px;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      background: transparent;
+      color: var(--text-secondary);
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .lang-btn:hover  { border-color: var(--accent); color: var(--accent); }
+    .lang-btn.active { background: var(--accent); border-color: var(--accent); color: #1a0a00; font-weight: 600; }
+
+    /* ── Content ── */
+    main { max-width: 760px; margin: 0 auto; padding: 40px 24px 80px; }
+
+    .doc-title {
+      font-size: 1.9rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 6px;
+    }
+    .doc-meta {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 40px;
+    }
+
+    .section { margin-bottom: 32px; }
+    .section h2 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 10px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    .section p { color: #ccc; font-size: 0.95rem; }
+    .section p + p { margin-top: 8px; }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      border-top: 1px solid var(--border);
+    }
+
+    /* RTL support for Arabic */
+    [dir="rtl"] main { text-align: right; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="app-icon">🕵️</div>
+  <div>
+    <div class="app-name">Who's the Imposter?</div>
+    <div class="app-sub">Legal Information</div>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="tabs">
+    <button class="tab-btn active" onclick="setDoc('privacy')">Privacy Policy</button>
+    <button class="tab-btn"        onclick="setDoc('terms')">Terms of Use</button>
+  </div>
+  <div class="lang-list">
+    <button class="lang-btn active" onclick="setLang('en')">English</button>
+    <button class="lang-btn"        onclick="setLang('tr')">Türkçe</button>
+    <button class="lang-btn"        onclick="setLang('de')">Deutsch</button>
+    <button class="lang-btn"        onclick="setLang('fr')">Français</button>
+    <button class="lang-btn"        onclick="setLang('es')">Español</button>
+    <button class="lang-btn"        onclick="setLang('pt')">Português</button>
+    <button class="lang-btn"        onclick="setLang('it')">Italiano</button>
+    <button class="lang-btn"        onclick="setLang('nl')">Nederlands</button>
+    <button class="lang-btn"        onclick="setLang('ru')">Русский</button>
+    <button class="lang-btn"        onclick="setLang('ar')">العربية</button>
+  </div>
+</div>
+
+<main id="content"></main>
+
+<footer>© 2026 Muratcan Yusufoğlu · <a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a></footer>
+
+<script>
+// ─────────────────────────────────────────────────────────────────────────────
+// CONTENT DATA
+// ─────────────────────────────────────────────────────────────────────────────
+
+const CONTENT = {
+
+  // ── ENGLISH ──────────────────────────────────────────────────────────────
+  en: {
+    dir: 'ltr',
+    privacy: {
+      title: 'Privacy Policy',
+      meta:  'Who\'s the Imposter? · Last updated: March 2026',
+      sections: [
+        { h: '1. Introduction', p: 'Who\'s the Imposter? ("the App") is developed and maintained by Muratcan Yusufoğlu ("we", "us", "our"). This Privacy Policy explains what information is handled when you use the App and how we protect your privacy.' },
+        { h: '2. No Personal Data Collection', p: 'We do not collect, transmit, or store any personal data on our servers. The App is entirely offline. No account registration is required, and no internet connection is needed to play.' },
+        { h: '3. Data Stored Locally on Your Device', p: 'The App saves certain preferences on your device only, using your device\'s local storage (AsyncStorage). This includes:<br><br>• Player names entered during a game session<br>• Game settings (theme, language, sound/haptics preferences)<br>• Onboarding completion status<br><br>This data never leaves your device and is not accessible to us or any third party.' },
+        { h: '4. In-App Purchases', p: 'The App offers an optional "Pro" subscription. All purchase transactions are processed exclusively by Apple App Store or Google Play Store. We do not receive or process your payment information. Please refer to Apple\'s and Google\'s respective privacy policies for details on how they handle purchase data.' },
+        { h: '5. Third-Party Services', p: 'We use RevenueCat solely to verify subscription status on-device. RevenueCat may process a device identifier for this purpose. We do not share any personally identifiable information with RevenueCat. For more information, see <a href="https://www.revenuecat.com/privacy">RevenueCat\'s Privacy Policy</a>.' },
+        { h: '6. Children\'s Privacy', p: 'The App does not target children specifically and does not knowingly collect personal information from anyone. Since no personal data is collected by us, the App is safe for all age groups.' },
+        { h: '7. Changes to This Policy', p: 'We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated date. Continued use of the App constitutes acceptance of the updated policy.' },
+        { h: '8. Governing Law', p: 'This Privacy Policy is governed by the laws of the Republic of Turkey.' },
+        { h: '9. Contact', p: 'If you have any questions about this Privacy Policy, please contact us at: <a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>' },
+      ]
+    },
+    terms: {
+      title: 'Terms of Use',
+      meta:  'Who\'s the Imposter? · Last updated: March 2026',
+      sections: [
+        { h: '1. Acceptance of Terms', p: 'By downloading or using Who\'s the Imposter? ("the App"), you agree to be bound by these Terms of Use. If you do not agree, please do not use the App.' },
+        { h: '2. License', p: 'Muratcan Yusufoğlu grants you a personal, non-exclusive, non-transferable, revocable license to use the App on devices you own or control, solely for personal, non-commercial entertainment purposes.' },
+        { h: '3. Free and Pro Features', p: 'The App includes free features available to all users and optional "Pro" features accessible through a paid subscription. Free features will remain available without a subscription.' },
+        { h: '4. Subscriptions', p: 'Pro subscriptions are offered on a monthly or yearly basis. Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current billing period. You may manage or cancel your subscription at any time through your Apple App Store or Google Play account settings. We do not offer refunds beyond what is required by applicable law or the policies of Apple or Google.' },
+        { h: '5. Intellectual Property', p: 'All content within the App, including but not limited to text, graphics, logos, and game mechanics, is the exclusive property of Muratcan Yusufoğlu and is protected by applicable intellectual property laws. You may not copy, modify, distribute, or create derivative works without our explicit written consent.' },
+        { h: '6. Prohibited Conduct', p: 'You agree not to: reverse engineer, decompile, or disassemble the App; attempt to circumvent subscription or in-app purchase mechanisms; use the App for any unlawful purpose; or misrepresent your identity in connection with the App.' },
+        { h: '7. Disclaimer of Warranties', p: 'The App is provided "as is" and "as available" without warranties of any kind, either express or implied. We do not warrant that the App will be error-free, uninterrupted, or free of harmful components.' },
+        { h: '8. Limitation of Liability', p: 'To the fullest extent permitted by applicable law, Muratcan Yusufoğlu shall not be liable for any indirect, incidental, special, or consequential damages arising from your use or inability to use the App.' },
+        { h: '9. Changes to Terms', p: 'We reserve the right to modify these Terms at any time. Changes will be posted on this page. Continued use of the App after changes constitutes acceptance of the new Terms.' },
+        { h: '10. Governing Law', p: 'These Terms are governed by the laws of the Republic of Turkey. Any disputes shall be subject to the exclusive jurisdiction of the courts of Istanbul, Turkey.' },
+        { h: '11. Contact', p: 'For any questions regarding these Terms, please contact: <a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>' },
+      ]
+    }
+  },
+
+  // ── TURKISH ──────────────────────────────────────────────────────────────
+  tr: {
+    dir: 'ltr',
+    privacy: {
+      title: 'Gizlilik Politikası',
+      meta:  'Kim Sahtekâr? · Son güncelleme: Mart 2026',
+      sections: [
+        { h: '1. Giriş', p: 'Kim Sahtekâr? ("Uygulama"), Muratcan Yusufoğlu ("biz", "bize", "bizim") tarafından geliştirilmekte ve işletilmektedir. Bu Gizlilik Politikası, Uygulamayı kullanırken hangi bilgilerin işlendiğini ve gizliliğinizin nasıl korunduğunu açıklamaktadır.' },
+        { h: '2. Kişisel Veri Toplanmıyor', p: 'Herhangi bir kişisel veriyi sunucularımızda toplamıyor, iletmiyor veya saklamıyoruz. Uygulama tamamen çevrimdışı çalışır. Hesap açmanıza gerek yoktur ve oyun oynamak için internet bağlantısı gerekmez.' },
+        { h: '3. Cihazınızda Yerel Olarak Saklanan Veriler', p: 'Uygulama, yalnızca cihazınızda bazı tercihlerinizi yerel depolama alanına (AsyncStorage) kaydeder. Bu veriler şunlardır:<br><br>• Oyun sırasında girilen oyuncu isimleri<br>• Oyun ayarları (tema, dil, ses/dokunsal geri bildirim tercihleri)<br>• Giriş ekranının tamamlanma durumu<br><br>Bu veriler cihazınızdan hiçbir zaman çıkmaz; tarafımızca veya üçüncü taraflarca erişilemez.' },
+        { h: '4. Uygulama İçi Satın Almalar', p: 'Uygulama, isteğe bağlı bir "Pro" aboneliği sunmaktadır. Tüm satın alma işlemleri yalnızca Apple App Store veya Google Play Store tarafından gerçekleştirilir. Ödeme bilgilerinizi almıyor veya işlemiyoruz.' },
+        { h: '5. Üçüncü Taraf Hizmetler', p: 'Abonelik durumunu cihaz üzerinde doğrulamak amacıyla yalnızca RevenueCat kullanılmaktadır. RevenueCat bu amaçla bir cihaz tanımlayıcısını işleyebilir. Kişisel olarak tanımlanabilir herhangi bir bilgiyi RevenueCat ile paylaşmıyoruz.' },
+        { h: '6. Çocukların Gizliliği', p: 'Uygulama özellikle çocuklara yönelik değildir ve hiç kimseden bilerek kişisel bilgi toplamamaktadır. Herhangi bir kişisel veri toplamadığımızdan, Uygulama tüm yaş grupları için güvenlidir.' },
+        { h: '7. Bu Politikadaki Değişiklikler', p: 'Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Değişiklikler, güncellenmiş tarihle birlikte bu sayfaya yansıtılacaktır.' },
+        { h: '8. Uygulanacak Hukuk', p: 'Bu Gizlilik Politikası Türkiye Cumhuriyeti kanunlarına tabidir.' },
+        { h: '9. İletişim', p: 'Sorularınız için: <a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>' },
+      ]
+    },
+    terms: {
+      title: 'Kullanım Koşulları',
+      meta:  'Kim Sahtekâr? · Son güncelleme: Mart 2026',
+      sections: [
+        { h: '1. Koşulların Kabulü', p: 'Kim Sahtekâr? uygulamasını indirerek veya kullanarak bu Kullanım Koşullarını kabul etmiş sayılırsınız. Kabul etmiyorsanız lütfen Uygulamayı kullanmayınız.' },
+        { h: '2. Lisans', p: 'Muratcan Yusufoğlu, size sahip olduğunuz veya kontrol ettiğiniz cihazlarda Uygulamayı yalnızca kişisel, ticari olmayan eğlence amaçları doğrultusunda kullanmak üzere kişisel, münhasır olmayan, devredilemez ve iptal edilebilir bir lisans vermektedir.' },
+        { h: '3. Ücretsiz ve Pro Özellikler', p: 'Uygulama, tüm kullanıcılara açık ücretsiz özellikler ve ücretli abonelik aracılığıyla erişilebilen isteğe bağlı "Pro" özellikler içermektedir. Ücretsiz özellikler abonelik olmaksızın kullanılabilir olmaya devam edecektir.' },
+        { h: '4. Abonelikler', p: 'Pro abonelikler aylık veya yıllık olarak sunulmaktadır. Abonelikler, mevcut faturalandırma döneminin sona ermesinden en az 24 saat önce iptal edilmediği sürece otomatik olarak yenilenir. Aboneliğinizi istediğiniz zaman Apple App Store veya Google Play hesabı ayarlarınızdan yönetebilir ya da iptal edebilirsiniz.' },
+        { h: '5. Fikri Mülkiyet', p: 'Metin, grafik, logo ve oyun mekanikleri dahil Uygulama içindeki tüm içerik, Muratcan Yusufoğlu\'nun münhasır mülkiyetindedir ve ilgili fikri mülkiyet yasalarıyla korunmaktadır.' },
+        { h: '6. Yasaklanan Davranışlar', p: 'Uygulamayı tersine mühendislik, decompile veya parçalarına ayıramazsınız; abonelik veya uygulama içi satın alma mekanizmalarını atlatmaya çalışamazsınız; Uygulamayı yasadışı amaçlarla kullanamazsınız.' },
+        { h: '7. Garanti Reddi', p: 'Uygulama, açık veya zımni hiçbir garanti verilmeksizin "olduğu gibi" sunulmaktadır.' },
+        { h: '8. Sorumluluk Sınırlaması', p: 'Yürürlükteki kanunların izin verdiği azami ölçüde Muratcan Yusufoğlu, Uygulamayı kullanımınızdan kaynaklanan dolaylı veya sonuçsal zararlardan sorumlu tutulamaz.' },
+        { h: '9. Koşullardaki Değişiklikler', p: 'Bu Koşulları dilediğimiz zaman değiştirme hakkını saklı tutarız. Değişikliklerin ardından Uygulamayı kullanmaya devam etmeniz yeni Koşulları kabul ettiğiniz anlamına gelir.' },
+        { h: '10. Uygulanacak Hukuk', p: 'Bu Koşullar Türkiye Cumhuriyeti kanunlarına tabidir. Uyuşmazlıklar münhasıran İstanbul mahkemelerinin yetki alanına girer.' },
+        { h: '11. İletişim', p: 'Sorularınız için: <a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>' },
+      ]
+    }
+  },
+
+  // ── GERMAN ───────────────────────────────────────────────────────────────
+  de: {
+    dir: 'ltr',
+    privacy: {
+      title: 'Datenschutzerklärung',
+      meta:  'Wer ist der Hochstapler? · Letzte Aktualisierung: März 2026',
+      sections: [
+        { h: '1. Einleitung', p: 'Wer ist der Hochstapler? ("die App") wird von Muratcan Yusufoğlu ("wir", "uns", "unser") entwickelt und betrieben. Diese Datenschutzerklärung erläutert, welche Informationen bei der Nutzung der App verarbeitet werden und wie Ihre Privatsphäre geschützt wird.' },
+        { h: '2. Keine Erhebung personenbezogener Daten', p: 'Wir erheben, übertragen oder speichern keine personenbezogenen Daten auf unseren Servern. Die App funktioniert vollständig offline. Es ist keine Kontoregistrierung erforderlich und zum Spielen wird keine Internetverbindung benötigt.' },
+        { h: '3. Lokal auf Ihrem Gerät gespeicherte Daten', p: 'Die App speichert bestimmte Einstellungen ausschließlich auf Ihrem Gerät. Dazu gehören:<br><br>• Spielernamen<br>• Spieleinstellungen (Design, Sprache, Sound-/Haptikpräferenzen)<br>• Onboarding-Status<br><br>Diese Daten verlassen Ihr Gerät niemals.' },
+        { h: '4. In-App-Käufe', p: 'Alle Kauftransaktionen werden ausschließlich über den Apple App Store oder den Google Play Store abgewickelt. Wir erhalten oder verarbeiten Ihre Zahlungsdaten nicht.' },
+        { h: '5. Drittanbieterdienste', p: 'Wir nutzen RevenueCat ausschließlich zur Überprüfung des Abonnementstatus auf dem Gerät. Wir geben keine personenbezogenen Daten an RevenueCat weiter.' },
+        { h: '6. Datenschutz für Kinder', p: 'Die App richtet sich nicht speziell an Kinder und erhebt wissentlich keine personenbezogenen Daten. Die App ist für alle Altersgruppen geeignet.' },
+        { h: '7. Änderungen dieser Erklärung', p: 'Wir können diese Datenschutzerklärung gelegentlich aktualisieren. Änderungen werden mit aktualisiertem Datum auf dieser Seite veröffentlicht.' },
+        { h: '8. Anwendbares Recht', p: 'Diese Datenschutzerklärung unterliegt dem Recht der Republik Türkei.' },
+        { h: '9. Kontakt', p: 'Bei Fragen: <a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>' },
+      ]
+    },
+    terms: {
+      title: 'Nutzungsbedingungen',
+      meta:  'Wer ist der Hochstapler? · Letzte Aktualisierung: März 2026',
+      sections: [
+        { h: '1. Zustimmung', p: 'Durch das Herunterladen oder die Nutzung der App erklären Sie sich mit diesen Nutzungsbedingungen einverstanden.' },
+        { h: '2. Lizenz', p: 'Muratcan Yusufoğlu gewährt Ihnen eine persönliche, nicht ausschließliche, nicht übertragbare und widerrufliche Lizenz zur Nutzung der App für persönliche, nicht kommerzielle Unterhaltungszwecke.' },
+        { h: '3. Kostenlose und Pro-Funktionen', p: 'Die App umfasst kostenlose Funktionen für alle Nutzer und optionale "Pro"-Funktionen über ein kostenpflichtiges Abonnement. Die kostenlosen Funktionen bleiben ohne Abonnement verfügbar.' },
+        { h: '4. Abonnements', p: 'Pro-Abonnements verlängern sich automatisch, sofern sie nicht mindestens 24 Stunden vor Ablauf gekündigt werden. Sie können jederzeit über Ihr Apple- oder Google-Konto kündigen.' },
+        { h: '5. Geistiges Eigentum', p: 'Alle Inhalte der App sind das ausschließliche Eigentum von Muratcan Yusufoğlu und durch geltendes Recht geschützt.' },
+        { h: '6. Verbotenes Verhalten', p: 'Sie dürfen die App nicht durch Reverse Engineering analysieren, Kaufmechanismen umgehen oder die App für rechtswidrige Zwecke nutzen.' },
+        { h: '7. Gewährleistungsausschluss', p: 'Die App wird "wie besehen" ohne ausdrückliche oder stillschweigende Gewährleistungen bereitgestellt.' },
+        { h: '8. Haftungsbeschränkung', p: 'Muratcan Yusufoğlu haftet nicht für mittelbare oder Folgeschäden aus der Nutzung der App.' },
+        { h: '9. Änderungen', p: 'Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern.' },
+        { h: '10. Anwendbares Recht', p: 'Diese Bedingungen unterliegen dem Recht der Republik Türkei. Zuständig sind die Gerichte in Istanbul.' },
+        { h: '11. Kontakt', p: '<a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>' },
+      ]
+    }
+  },
+
+  // ── FRENCH ───────────────────────────────────────────────────────────────
+  fr: {
+    dir: 'ltr',
+    privacy: {
+      title: 'Politique de Confidentialité',
+      meta:  'Qui est l\'Imposteur ? · Dernière mise à jour : mars 2026',
+      sections: [
+        { h: '1. Introduction', p: 'Qui est l\'Imposteur ? (« l\'Application ») est développée par Muratcan Yusufoğlu (« nous »). Cette politique explique quelles informations sont traitées lors de l\'utilisation de l\'Application.' },
+        { h: '2. Aucune collecte de données personnelles', p: 'Nous ne collectons, ne transmettons ni ne stockons aucune donnée personnelle. L\'Application fonctionne entièrement hors ligne et ne requiert aucun compte.' },
+        { h: '3. Données stockées localement', p: 'L\'Application enregistre uniquement sur votre appareil :<br><br>• Les noms de joueurs saisis<br>• Les paramètres (thème, langue, son/haptique)<br>• Le statut d\'intégration<br><br>Ces données ne quittent jamais votre appareil.' },
+        { h: '4. Achats intégrés', p: 'Toutes les transactions sont traitées exclusivement par l\'Apple App Store ou Google Play Store. Nous ne recevons pas vos informations de paiement.' },
+        { h: '5. Services tiers', p: 'Nous utilisons RevenueCat uniquement pour vérifier le statut d\'abonnement. Nous ne partageons aucune information personnelle avec RevenueCat.' },
+        { h: '6. Confidentialité des enfants', p: 'L\'Application ne cible pas les enfants et ne collecte aucune donnée personnelle. Elle est sûre pour tous les âges.' },
+        { h: '7. Modifications', p: 'Nous pouvons mettre à jour cette politique. Les modifications seront reflétées sur cette page.' },
+        { h: '8. Droit applicable', p: 'Cette politique est régie par les lois de la République de Turquie.' },
+        { h: '9. Contact', p: '<a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>' },
+      ]
+    },
+    terms: {
+      title: 'Conditions d\'Utilisation',
+      meta:  'Qui est l\'Imposteur ? · Dernière mise à jour : mars 2026',
+      sections: [
+        { h: '1. Acceptation', p: 'En utilisant l\'Application, vous acceptez ces Conditions d\'Utilisation.' },
+        { h: '2. Licence', p: 'Muratcan Yusufoğlu vous accorde une licence personnelle, non exclusive et révocable pour utiliser l\'Application à des fins personnelles et non commerciales.' },
+        { h: '3. Fonctionnalités gratuites et Pro', p: 'L\'Application inclut des fonctionnalités gratuites et des fonctionnalités « Pro » optionnelles via abonnement payant. Les fonctionnalités gratuites restent disponibles sans abonnement.' },
+        { h: '4. Abonnements', p: 'Les abonnements se renouvellent automatiquement sauf résiliation au moins 24 heures avant la fin de la période. Annulation possible via votre compte Apple ou Google.' },
+        { h: '5. Propriété intellectuelle', p: 'Tous les contenus de l\'Application sont la propriété exclusive de Muratcan Yusufoğlu.' },
+        { h: '6. Comportements interdits', p: 'Il est interdit de faire de l\'ingénierie inverse, de contourner les mécanismes d\'achat ou d\'utiliser l\'Application à des fins illégales.' },
+        { h: '7. Exclusion de garanties', p: 'L\'Application est fournie « telle quelle » sans garantie d\'aucune sorte.' },
+        { h: '8. Limitation de responsabilité', p: 'Muratcan Yusufoğlu ne sera pas responsable des dommages indirects résultant de l\'utilisation de l\'Application.' },
+        { h: '9. Modifications', p: 'Nous nous réservons le droit de modifier ces Conditions à tout moment.' },
+        { h: '10. Droit applicable', p: 'Ces Conditions sont régies par les lois de Turquie. Tout litige sera soumis aux tribunaux d\'Istanbul.' },
+        { h: '11. Contact', p: '<a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>' },
+      ]
+    }
+  },
+
+  // ── SPANISH ──────────────────────────────────────────────────────────────
+  es: {
+    dir: 'ltr',
+    privacy: {
+      title: 'Política de Privacidad',
+      meta:  '¿Quién es el Impostor? · Última actualización: marzo de 2026',
+      sections: [
+        { h: '1. Introducción', p: '¿Quién es el Impostor? («la Aplicación») es desarrollada por Muratcan Yusufoğlu («nosotros»). Esta política explica qué información se gestiona cuando utiliza la Aplicación.' },
+        { h: '2. Sin recopilación de datos personales', p: 'No recopilamos, transmitimos ni almacenamos ningún dato personal en nuestros servidores. La Aplicación funciona completamente sin conexión.' },
+        { h: '3. Datos almacenados localmente', p: 'La Aplicación guarda únicamente en su dispositivo:<br><br>• Nombres de jugadores<br>• Configuración del juego (tema, idioma, sonido)<br>• Estado de incorporación<br><br>Estos datos nunca abandonan su dispositivo.' },
+        { h: '4. Compras dentro de la aplicación', p: 'Todas las transacciones son procesadas por Apple App Store o Google Play Store. No recibimos su información de pago.' },
+        { h: '5. Servicios de terceros', p: 'Usamos RevenueCat únicamente para verificar el estado de la suscripción. No compartimos información personal con RevenueCat.' },
+        { h: '6. Privacidad de los menores', p: 'La Aplicación no está dirigida a menores y es segura para todas las edades.' },
+        { h: '7. Cambios en esta política', p: 'Podemos actualizar esta política. Los cambios se reflejarán en esta página.' },
+        { h: '8. Ley aplicable', p: 'Esta política se rige por las leyes de la República de Turquía.' },
+        { h: '9. Contacto', p: '<a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>' },
+      ]
+    },
+    terms: {
+      title: 'Términos de Uso',
+      meta:  '¿Quién es el Impostor? · Última actualización: marzo de 2026',
+      sections: [
+        { h: '1. Aceptación', p: 'Al usar la Aplicación, acepta estos Términos de Uso.' },
+        { h: '2. Licencia', p: 'Muratcan Yusufoğlu le otorga una licencia personal, no exclusiva y revocable para uso personal y no comercial.' },
+        { h: '3. Funciones gratuitas y Pro', p: 'La Aplicación incluye funciones gratuitas y funciones «Pro» opcionales mediante suscripción. Las funciones gratuitas permanecerán disponibles sin suscripción.' },
+        { h: '4. Suscripciones', p: 'Las suscripciones se renuevan automáticamente salvo cancelación 24 horas antes del fin del período. Puede cancelar desde su cuenta de Apple o Google.' },
+        { h: '5. Propiedad intelectual', p: 'Todo el contenido de la Aplicación es propiedad exclusiva de Muratcan Yusufoğlu.' },
+        { h: '6. Conductas prohibidas', p: 'Está prohibido realizar ingeniería inversa, eludir mecanismos de compra o usar la Aplicación para fines ilegales.' },
+        { h: '7. Exclusión de garantías', p: 'La Aplicación se proporciona «tal cual» sin garantías de ningún tipo.' },
+        { h: '8. Limitación de responsabilidad', p: 'Muratcan Yusufoğlu no será responsable de daños indirectos derivados del uso de la Aplicación.' },
+        { h: '9. Cambios en los términos', p: 'Nos reservamos el derecho de modificar estos Términos en cualquier momento.' },
+        { h: '10. Ley aplicable', p: 'Estos Términos se rigen por las leyes de Turquía. Los conflictos serán de competencia de los tribunales de Estambul.' },
+        { h: '11. Contacto', p: '<a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>' },
+      ]
+    }
+  },
+
+  // ── PORTUGUESE ───────────────────────────────────────────────────────────
+  pt: {
+    dir: 'ltr',
+    privacy: {
+      title: 'Política de Privacidade',
+      meta:  'Quem é o Impostor? · Última atualização: março de 2026',
+      sections: [
+        { h: '1. Introdução', p: 'Quem é o Impostor? («o Aplicativo») é desenvolvido por Muratcan Yusufoğlu («nós»). Esta política explica quais informações são tratadas ao usar o Aplicativo.' },
+        { h: '2. Nenhuma coleta de dados pessoais', p: 'Não coletamos, transmitimos nem armazenamos dados pessoais em nossos servidores. O Aplicativo funciona completamente offline.' },
+        { h: '3. Dados armazenados localmente', p: 'O Aplicativo salva apenas no seu dispositivo:<br><br>• Nomes de jogadores<br>• Configurações do jogo (tema, idioma, som)<br>• Status de onboarding<br><br>Esses dados nunca saem do seu dispositivo.' },
+        { h: '4. Compras no aplicativo', p: 'Todas as transações são processadas pela Apple App Store ou Google Play Store. Não recebemos suas informações de pagamento.' },
+        { h: '5. Serviços de terceiros', p: 'Usamos o RevenueCat apenas para verificar o status da assinatura. Não compartilhamos dados pessoais com o RevenueCat.' },
+        { h: '6. Privacidade infantil', p: 'O Aplicativo não é direcionado a crianças e é seguro para todas as faixas etárias.' },
+        { h: '7. Alterações nesta política', p: 'Podemos atualizar esta política. As alterações serão refletidas nesta página.' },
+        { h: '8. Lei aplicável', p: 'Esta política é regida pelas leis da República da Turquia.' },
+        { h: '9. Contato', p: '<a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>' },
+      ]
+    },
+    terms: {
+      title: 'Termos de Uso',
+      meta:  'Quem é o Impostor? · Última atualização: março de 2026',
+      sections: [
+        { h: '1. Aceitação', p: 'Ao usar o Aplicativo, você concorda com estes Termos de Uso.' },
+        { h: '2. Licença', p: 'Muratcan Yusufoğlu concede uma licença pessoal, não exclusiva e revogável para uso pessoal e não comercial.' },
+        { h: '3. Recursos gratuitos e Pro', p: 'O Aplicativo inclui recursos gratuitos e recursos «Pro» opcionais por assinatura. Os recursos gratuitos permanecem disponíveis sem assinatura.' },
+        { h: '4. Assinaturas', p: 'As assinaturas se renovam automaticamente, salvo cancelamento 24 horas antes do fim do período. Cancele pelas configurações da Apple ou Google.' },
+        { h: '5. Propriedade intelectual', p: 'Todo o conteúdo do Aplicativo é propriedade exclusiva de Muratcan Yusufoğlu.' },
+        { h: '6. Condutas proibidas', p: 'É proibido fazer engenharia reversa, contornar mecanismos de compra ou usar o Aplicativo para fins ilegais.' },
+        { h: '7. Isenção de garantias', p: 'O Aplicativo é fornecido «como está» sem garantias de qualquer tipo.' },
+        { h: '8. Limitação de responsabilidade', p: 'Muratcan Yusufoğlu não será responsável por danos indiretos decorrentes do uso do Aplicativo.' },
+        { h: '9. Alterações', p: 'Reservamo-nos o direito de modificar estes Termos a qualquer momento.' },
+        { h: '10. Lei aplicável', p: 'Estes Termos são regidos pelas leis da Turquia. Disputas serão submetidas aos tribunais de Istambul.' },
+        { h: '11. Contato', p: '<a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>' },
+      ]
+    }
+  },
+
+  // ── ITALIAN ──────────────────────────────────────────────────────────────
+  it: {
+    dir: 'ltr',
+    privacy: {
+      title: 'Informativa sulla Privacy',
+      meta:  'Chi è l\'Impostore? · Ultimo aggiornamento: marzo 2026',
+      sections: [
+        { h: '1. Introduzione', p: 'Chi è l\'Impostore? («l\'App») è sviluppata da Muratcan Yusufoğlu («noi»). La presente informativa spiega quali informazioni vengono trattate durante l\'utilizzo dell\'App.' },
+        { h: '2. Nessuna raccolta di dati personali', p: 'Non raccogliamo, trasmettiamo né memorizziamo dati personali sui nostri server. L\'App funziona completamente offline.' },
+        { h: '3. Dati memorizzati localmente', p: 'L\'App salva solo sul tuo dispositivo:<br><br>• Nomi dei giocatori<br>• Impostazioni di gioco (tema, lingua, audio)<br>• Stato dell\'onboarding<br><br>Questi dati non lasciano mai il tuo dispositivo.' },
+        { h: '4. Acquisti in-app', p: 'Tutte le transazioni vengono elaborate tramite Apple App Store o Google Play Store. Non riceviamo le tue informazioni di pagamento.' },
+        { h: '5. Servizi di terze parti', p: 'Utilizziamo RevenueCat esclusivamente per verificare lo stato dell\'abbonamento. Non condividiamo dati personali con RevenueCat.' },
+        { h: '6. Privacy dei minori', p: 'L\'App non è rivolta ai minori e non raccoglie dati personali. È sicura per tutte le fasce d\'età.' },
+        { h: '7. Modifiche', p: 'Potremmo aggiornare periodicamente questa informativa. Le modifiche saranno riportate in questa pagina.' },
+        { h: '8. Legge applicabile', p: 'La presente informativa è disciplinata dalle leggi della Repubblica di Turchia.' },
+        { h: '9. Contatti', p: '<a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>' },
+      ]
+    },
+    terms: {
+      title: 'Termini di Utilizzo',
+      meta:  'Chi è l\'Impostore? · Ultimo aggiornamento: marzo 2026',
+      sections: [
+        { h: '1. Accettazione', p: 'Utilizzando l\'App, accetti i presenti Termini di Utilizzo.' },
+        { h: '2. Licenza', p: 'Muratcan Yusufoğlu ti concede una licenza personale, non esclusiva e revocabile per uso personale e non commerciale.' },
+        { h: '3. Funzionalità gratuite e Pro', p: 'L\'App include funzionalità gratuite e funzionalità «Pro» opzionali tramite abbonamento. Le funzionalità gratuite restano disponibili senza abbonamento.' },
+        { h: '4. Abbonamenti', p: 'Gli abbonamenti si rinnovano automaticamente salvo disdetta almeno 24 ore prima della scadenza. Puoi annullare dalle impostazioni Apple o Google.' },
+        { h: '5. Proprietà intellettuale', p: 'Tutti i contenuti dell\'App sono di proprietà esclusiva di Muratcan Yusufoğlu.' },
+        { h: '6. Comportamenti vietati', p: 'È vietato eseguire reverse engineering, aggirare meccanismi di acquisto o usare l\'App per scopi illegali.' },
+        { h: '7. Esclusione di garanzie', p: 'L\'App viene fornita «così com\'è» senza garanzie di alcun tipo.' },
+        { h: '8. Limitazione di responsabilità', p: 'Muratcan Yusufoğlu non sarà responsabile per danni indiretti derivanti dall\'utilizzo dell\'App.' },
+        { h: '9. Modifiche', p: 'Ci riserviamo il diritto di modificare i presenti Termini in qualsiasi momento.' },
+        { h: '10. Legge applicabile', p: 'I presenti Termini sono disciplinati dalle leggi della Turchia. Le controversie saranno soggette ai tribunali di Istanbul.' },
+        { h: '11. Contatti', p: '<a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>' },
+      ]
+    }
+  },
+
+  // ── DUTCH ────────────────────────────────────────────────────────────────
+  nl: {
+    dir: 'ltr',
+    privacy: {
+      title: 'Privacybeleid',
+      meta:  'Wie is de Bedrieger? · Laatste update: maart 2026',
+      sections: [
+        { h: '1. Inleiding', p: 'Wie is de Bedrieger? («de App») wordt ontwikkeld door Muratcan Yusufoğlu («wij»). Dit beleid legt uit welke informatie wordt verwerkt bij gebruik van de App.' },
+        { h: '2. Geen verzameling van persoonsgegevens', p: 'Wij verzamelen, verzenden of bewaren geen persoonsgegevens op onze servers. De App werkt volledig offline.' },
+        { h: '3. Lokaal opgeslagen gegevens', p: 'De App slaat alleen op uw apparaat op:<br><br>• Namen van spelers<br>• Spelinstellingen (thema, taal, audio)<br>• Onboarding-status<br><br>Deze gegevens verlaten uw apparaat nooit.' },
+        { h: '4. In-app aankopen', p: 'Alle transacties worden verwerkt via de Apple App Store of Google Play Store. Wij ontvangen uw betalingsinformatie niet.' },
+        { h: '5. Diensten van derden', p: 'Wij gebruiken RevenueCat uitsluitend om de abonnementsstatus te verifiëren. Wij delen geen persoonsgegevens met RevenueCat.' },
+        { h: '6. Privacy van kinderen', p: 'De App is niet gericht op kinderen en is veilig voor alle leeftijdsgroepen.' },
+        { h: '7. Wijzigingen', p: 'Wij kunnen dit beleid bijwerken. Wijzigingen worden op deze pagina weergegeven.' },
+        { h: '8. Toepasselijk recht', p: 'Dit beleid wordt beheerst door de wetten van de Republiek Turkije.' },
+        { h: '9. Contact', p: '<a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>' },
+      ]
+    },
+    terms: {
+      title: 'Gebruiksvoorwaarden',
+      meta:  'Wie is de Bedrieger? · Laatste update: maart 2026',
+      sections: [
+        { h: '1. Aanvaarding', p: 'Door de App te gebruiken, gaat u akkoord met deze Gebruiksvoorwaarden.' },
+        { h: '2. Licentie', p: 'Muratcan Yusufoğlu verleent u een persoonlijke, niet-exclusieve en herroepbare licentie voor persoonlijk, niet-commercieel gebruik.' },
+        { h: '3. Gratis en Pro-functies', p: 'De App bevat gratis functies en optionele «Pro»-functies via betaald abonnement. De gratis functies blijven beschikbaar zonder abonnement.' },
+        { h: '4. Abonnementen', p: 'Abonnementen verlengd automatisch tenzij opgezegd 24 uur voor het einde. Annuleer via uw Apple- of Google-account.' },
+        { h: '5. Intellectueel eigendom', p: 'Alle inhoud van de App is het exclusieve eigendom van Muratcan Yusufoğlu.' },
+        { h: '6. Verboden gedrag', p: 'Reverse engineering, het omzeilen van aankoopsmechanismen of illegaal gebruik zijn verboden.' },
+        { h: '7. Uitsluiting van garanties', p: 'De App wordt geleverd «zoals hij is» zonder garanties van welke aard dan ook.' },
+        { h: '8. Beperking van aansprakelijkheid', p: 'Muratcan Yusufoğlu is niet aansprakelijk voor indirecte schade door gebruik van de App.' },
+        { h: '9. Wijzigingen', p: 'Wij behouden ons het recht voor deze Voorwaarden te wijzigen.' },
+        { h: '10. Toepasselijk recht', p: 'Deze Voorwaarden worden beheerst door de wetten van Turkije. Geschillen vallen onder de rechtbanken van Istanbul.' },
+        { h: '11. Contact', p: '<a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>' },
+      ]
+    }
+  },
+
+  // ── RUSSIAN ──────────────────────────────────────────────────────────────
+  ru: {
+    dir: 'ltr',
+    privacy: {
+      title: 'Политика конфиденциальности',
+      meta:  'Кто самозванец? · Последнее обновление: март 2026',
+      sections: [
+        { h: '1. Введение', p: 'Приложение «Кто самозванец?» («Приложение») разработано Muratcan Yusufoğlu («мы»). Настоящая политика объясняет, какая информация обрабатывается при использовании Приложения.' },
+        { h: '2. Персональные данные не собираются', p: 'Мы не собираем, не передаём и не храним персональные данные на наших серверах. Приложение работает полностью в автономном режиме.' },
+        { h: '3. Данные, хранящиеся локально', p: 'Приложение сохраняет только на вашем устройстве:<br><br>• Имена игроков<br>• Настройки игры (тема, язык, звук)<br>• Статус онбординга<br><br>Эти данные никогда не покидают ваше устройство.' },
+        { h: '4. Покупки в приложении', p: 'Все транзакции обрабатываются через Apple App Store или Google Play Store. Мы не получаем вашу платёжную информацию.' },
+        { h: '5. Сторонние сервисы', p: 'Мы используем RevenueCat исключительно для проверки статуса подписки. Мы не передаём личные данные RevenueCat.' },
+        { h: '6. Конфиденциальность детей', p: 'Приложение не ориентировано на детей и безопасно для всех возрастных групп.' },
+        { h: '7. Изменения политики', p: 'Мы можем время от времени обновлять настоящую политику. Изменения будут отражены на этой странице.' },
+        { h: '8. Применимое право', p: 'Настоящая политика регулируется законами Турецкой Республики.' },
+        { h: '9. Контакты', p: '<a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>' },
+      ]
+    },
+    terms: {
+      title: 'Условия использования',
+      meta:  'Кто самозванец? · Последнее обновление: март 2026',
+      sections: [
+        { h: '1. Принятие условий', p: 'Используя Приложение, вы соглашаетесь с настоящими Условиями использования.' },
+        { h: '2. Лицензия', p: 'Muratcan Yusufoğlu предоставляет вам личную, неисключительную и отзывную лицензию для личного некоммерческого использования.' },
+        { h: '3. Бесплатные и Pro-функции', p: 'Приложение включает бесплатные функции и опциональные функции «Pro» по подписке. Бесплатные функции останутся доступными без подписки.' },
+        { h: '4. Подписки', p: 'Подписки автоматически продлеваются, если не отменены за 24 часа до окончания периода. Отмена возможна через настройки Apple или Google.' },
+        { h: '5. Интеллектуальная собственность', p: 'Весь контент Приложения является исключительной собственностью Muratcan Yusufoğlu.' },
+        { h: '6. Запрещённые действия', p: 'Запрещено применять обратную разработку, обходить механизмы покупок или использовать Приложение в незаконных целях.' },
+        { h: '7. Отказ от гарантий', p: 'Приложение предоставляется «как есть» без каких-либо гарантий.' },
+        { h: '8. Ограничение ответственности', p: 'Muratcan Yusufoğlu не несёт ответственности за косвенные убытки, возникшие в результате использования Приложения.' },
+        { h: '9. Изменение условий', p: 'Мы оставляем за собой право изменять настоящие Условия в любое время.' },
+        { h: '10. Применимое право', p: 'Настоящие Условия регулируются законами Турции. Споры подлежат юрисдикции судов Стамбула.' },
+        { h: '11. Контакты', p: '<a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>' },
+      ]
+    }
+  },
+
+  // ── ARABIC ───────────────────────────────────────────────────────────────
+  ar: {
+    dir: 'rtl',
+    privacy: {
+      title: 'سياسة الخصوصية',
+      meta:  'من هو المحتال؟ · آخر تحديث: مارس 2026',
+      sections: [
+        { h: '١. مقدمة', p: 'تطبيق «من هو المحتال؟» («التطبيق») تم تطويره بواسطة Muratcan Yusufoğlu («نحن»). توضح هذه السياسة المعلومات التي تُعالَج عند استخدام التطبيق.' },
+        { h: '٢. لا يتم جمع بيانات شخصية', p: 'لا نجمع أو ننقل أو نخزن أي بيانات شخصية على خوادمنا. يعمل التطبيق بشكل كامل دون اتصال بالإنترنت.' },
+        { h: '٣. البيانات المخزنة محلياً', p: 'يحفظ التطبيق على جهازك فقط:<br><br>• أسماء اللاعبين<br>• إعدادات اللعبة (السمة، اللغة، الصوت)<br>• حالة الإعداد الأولي<br><br>هذه البيانات لا تغادر جهازك أبداً.' },
+        { h: '٤. المشتريات داخل التطبيق', p: 'تُعالَج جميع معاملات الشراء من خلال Apple App Store أو Google Play Store. لا نتلقى معلومات الدفع الخاصة بك.' },
+        { h: '٥. خدمات الأطراف الثالثة', p: 'نستخدم RevenueCat فقط للتحقق من حالة الاشتراك. لا نشارك أي بيانات شخصية مع RevenueCat.' },
+        { h: '٦. خصوصية الأطفال', p: 'لا يستهدف التطبيق الأطفال تحديداً وهو آمن لجميع الفئات العمرية.' },
+        { h: '٧. التغييرات على هذه السياسة', p: 'قد نُحدّث هذه السياسة من وقت لآخر. ستنعكس التغييرات على هذه الصفحة.' },
+        { h: '٨. القانون المطبق', p: 'تخضع هذه السياسة لقوانين جمهورية تركيا.' },
+        { h: '٩. التواصل', p: '<a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>' },
+      ]
+    },
+    terms: {
+      title: 'شروط الاستخدام',
+      meta:  'من هو المحتال؟ · آخر تحديث: مارس 2026',
+      sections: [
+        { h: '١. قبول الشروط', p: 'باستخدام التطبيق، فإنك توافق على شروط الاستخدام هذه.' },
+        { h: '٢. الترخيص', p: 'يمنحك Muratcan Yusufoğlu ترخيصاً شخصياً وغير حصري وقابلاً للإلغاء للاستخدام الشخصي غير التجاري.' },
+        { h: '٣. الميزات المجانية وميزات Pro', p: 'يتضمن التطبيق ميزات مجانية وميزات «Pro» اختيارية عبر اشتراك مدفوع. ستظل الميزات المجانية متاحة دون اشتراك.' },
+        { h: '٤. الاشتراكات', p: 'تتجدد الاشتراكات تلقائياً ما لم يتم إلغاؤها قبل ٢٤ ساعة من انتهاء الفترة. يمكن الإلغاء من خلال حساب Apple أو Google.' },
+        { h: '٥. الملكية الفكرية', p: 'جميع محتويات التطبيق هي ملك حصري لـ Muratcan Yusufoğlu.' },
+        { h: '٦. السلوكيات المحظورة', p: 'يُحظر إجراء هندسة عكسية، أو التحايل على آليات الشراء، أو استخدام التطبيق لأغراض غير مشروعة.' },
+        { h: '٧. إخلاء المسؤولية عن الضمانات', p: 'يُقدَّم التطبيق «كما هو» دون أي ضمانات.' },
+        { h: '٨. تحديد المسؤولية', p: 'لن يكون Muratcan Yusufoğlu مسؤولاً عن أي أضرار غير مباشرة ناجمة عن استخدام التطبيق.' },
+        { h: '٩. التغييرات على الشروط', p: 'نحتفظ بحق تعديل هذه الشروط في أي وقت.' },
+        { h: '١٠. القانون المطبق', p: 'تخضع هذه الشروط لقوانين تركيا. تختص محاكم إسطنبول بالنظر في أي نزاعات.' },
+        { h: '١١. التواصل', p: '<a href="mailto:myapps.feature@gmail.com">myapps.feature@gmail.com</a>' },
+      ]
+    }
+  }
+};
+
+// ─────────────────────────────────────────────────────────────────────────────
+// STATE & RENDER
+// ─────────────────────────────────────────────────────────────────────────────
+
+let currentLang = 'en';
+let currentDoc  = 'privacy';
+
+function render() {
+  const data = CONTENT[currentLang][currentDoc];
+  const dir  = CONTENT[currentLang].dir;
+
+  document.documentElement.lang = currentLang;
+  document.documentElement.dir  = dir;
+
+  const html = `
+    <h1 class="doc-title">${data.title}</h1>
+    <p class="doc-meta">${data.meta}</p>
+    ${data.sections.map(s => `
+      <div class="section">
+        <h2>${s.h}</h2>
+        <p>${s.p}</p>
+      </div>
+    `).join('')}
+  `;
+
+  document.getElementById('content').innerHTML = html;
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function setLang(lang) {
+  currentLang = lang;
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  render();
+}
+
+function setDoc(doc) {
+  currentDoc = doc;
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  render();
+}
+
+// Initial render
+render();
+</script>
+</body>
+</html>
