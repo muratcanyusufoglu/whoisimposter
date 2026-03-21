@@ -50,7 +50,8 @@ const SCREEN_WIDTH = Dimensions.get('window').width
 const CARD_GAP = spacing.sm
 const CARD_WIDTH = (SCREEN_WIDTH - spacing.lg * 2 - CARD_GAP) / 2
 
-const TIMER_OPTIONS: Array<0 | 10 | 15 | 30> = [0, 10, 15, 30]
+const TIMER_OPTIONS: Array<0 | 15 | 30 | 45 | 60 | 90> = [0, 15, 30, 45, 60, 90]
+const ROUND_OPTIONS: Array<1 | 2 | 3 | 5> = [1, 2, 3, 5]
 const SPRING = { damping: 18, stiffness: 220 }
 
 export default function SetupScreen() {
@@ -105,7 +106,8 @@ export default function SetupScreen() {
   })
 
   const [impostersCount, setImpostersCount] = useState<1 | 2>(matchedPreset?.impostersCount ?? 1)
-  const [timerSeconds, setTimerSeconds] = useState<0 | 10 | 15 | 30>(matchedPreset?.timerSeconds ?? 0)
+  const [timerSeconds, setTimerSeconds] = useState<0 | 15 | 30 | 45 | 60 | 90>(matchedPreset?.timerSeconds ?? 0)
+  const [roundCount, setRoundCount] = useState<1 | 2 | 3 | 5>(matchedPreset?.roundCount ?? 1)
   const [advancedOpen, setAdvancedOpen] = useState(false)
   const [paywallVisible, setPaywallVisible] = useState(false)
   const [discountPaywallVisible, setDiscountPaywallVisible] = useState(false)
@@ -190,6 +192,7 @@ export default function SetupScreen() {
         categories: selectedCategories,
         impostersCount,
         timerSeconds,
+        roundCount,
         emoji: presetEmoji,
       })
       haptics.medium()
@@ -255,6 +258,7 @@ export default function SetupScreen() {
       selectedCategories,
       impostersCount,
       timerSeconds,
+      roundCount,
       soundEnabled,
       hapticsEnabled,
       locale: language,
@@ -301,6 +305,7 @@ export default function SetupScreen() {
     isPro,
     impostersCount,
     timerSeconds,
+    roundCount,
     soundEnabled,
     hapticsEnabled,
     language,
@@ -448,66 +453,6 @@ export default function SetupScreen() {
             </View>
           )}
 
-          {/* ── CATEGORIES SECTION ─────────────────────────────────────────── */}
-          {mode.hasCategories && (
-            <>
-              <View style={styles.categoriesHeader}>
-                <SectionHeader
-                  title={t('setup.categories')}
-                  theme={theme}
-                />
-                {/* All chip */}
-                <TouchableOpacity
-                  onPress={handleSelectAll}
-                  style={[
-                    styles.allChip,
-                    {
-                      backgroundColor: theme.bg.elevated,
-                      borderColor: theme.border.default,
-                    },
-                  ]}
-                  accessibilityRole="button"
-                >
-                  <Text
-                    style={[
-                      styles.allChipText,
-                      { color: theme.text.secondary, fontFamily: fontFamily.bodyMedium },
-                    ]}
-                  >
-                    {t('setup.selectAll')}
-                  </Text>
-                </TouchableOpacity>
-              </View>
-
-              {/* No category warning */}
-              {selectedCategories.length === 0 && (
-                <Text
-                  style={[
-                    styles.warningText,
-                    { color: theme.text.muted, fontFamily: fontFamily.body },
-                  ]}
-                >
-                  {t('setup.noCategoriesWarning')}
-                </Text>
-              )}
-
-              {/* 2-column grid */}
-              <View style={styles.categoryGrid}>
-                {CATEGORIES.map((cat) => (
-                  <CategoryCard
-                    key={cat.id}
-                    category={cat}
-                    selected={selectedCategories.includes(cat.id)}
-                    isPro={isPro}
-                    onPress={() => handleCategoryPress(cat.id, cat.isPremium)}
-                    cardWidth={CARD_WIDTH}
-                    locale={language}
-                  />
-                ))}
-              </View>
-            </>
-          )}
-
           {/* ── ADVANCED SETTINGS ─────────────────────────────────────────── */}
           <Animated.View style={advStyle}>
             <TouchableOpacity
@@ -576,10 +521,14 @@ export default function SetupScreen() {
                 </AdvancedRow>
               )}
 
-              {/* Timer */}
+              {/* Timer — horizontal scroll so all options fit on any screen size */}
               {mode.hasTimer && (
                 <AdvancedRow label={t('setup.timer')}>
-                  <View style={styles.chipRow}>
+                  <ScrollView
+                    horizontal
+                    showsHorizontalScrollIndicator={false}
+                    contentContainerStyle={styles.chipRow}
+                  >
                     {TIMER_OPTIONS.map((sec) => (
                       <ChipOption
                         key={sec}
@@ -592,10 +541,90 @@ export default function SetupScreen() {
                         theme={theme}
                       />
                     ))}
+                  </ScrollView>
+                </AdvancedRow>
+              )}
+
+              {/* Round count — only for modes with hasRounds */}
+              {mode.hasRounds && (
+                <AdvancedRow label={t('setup.rounds')}>
+                  <View style={styles.chipRow}>
+                    {ROUND_OPTIONS.map((n) => (
+                      <ChipOption
+                        key={n}
+                        label={String(n)}
+                        selected={roundCount === n}
+                        onPress={() => {
+                          haptics.selection()
+                          setRoundCount(n)
+                        }}
+                        theme={theme}
+                      />
+                    ))}
                   </View>
                 </AdvancedRow>
               )}
             </View>
+          )}
+
+          {/* ── CATEGORIES SECTION ─────────────────────────────────────────── */}
+          {mode.hasCategories && (
+            <>
+              <View style={styles.categoriesHeader}>
+                <SectionHeader
+                  title={t('setup.categories')}
+                  theme={theme}
+                />
+                {/* All chip */}
+                <TouchableOpacity
+                  onPress={handleSelectAll}
+                  style={[
+                    styles.allChip,
+                    {
+                      backgroundColor: theme.bg.elevated,
+                      borderColor: theme.border.default,
+                    },
+                  ]}
+                  accessibilityRole="button"
+                >
+                  <Text
+                    style={[
+                      styles.allChipText,
+                      { color: theme.text.secondary, fontFamily: fontFamily.bodyMedium },
+                    ]}
+                  >
+                    {t('setup.selectAll')}
+                  </Text>
+                </TouchableOpacity>
+              </View>
+
+              {/* No category warning */}
+              {selectedCategories.length === 0 && (
+                <Text
+                  style={[
+                    styles.warningText,
+                    { color: theme.text.muted, fontFamily: fontFamily.body },
+                  ]}
+                >
+                  {t('setup.noCategoriesWarning')}
+                </Text>
+              )}
+
+              {/* 2-column grid */}
+              <View style={styles.categoryGrid}>
+                {CATEGORIES.map((cat) => (
+                  <CategoryCard
+                    key={cat.id}
+                    category={cat}
+                    selected={selectedCategories.includes(cat.id)}
+                    isPro={isPro}
+                    onPress={() => handleCategoryPress(cat.id, cat.isPremium)}
+                    cardWidth={CARD_WIDTH}
+                    locale={language}
+                  />
+                ))}
+              </View>
+            </>
           )}
 
           {/* Save as Preset button */}

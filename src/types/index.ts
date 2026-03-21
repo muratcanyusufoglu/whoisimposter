@@ -42,6 +42,7 @@ export interface GameModeDefinition {
   estimatedMinutes: string
   hasCategories: boolean
   hasTimer: boolean
+  hasRounds: boolean
   supportsLocales: string[]
 }
 
@@ -70,7 +71,8 @@ export interface GameConfig {
   players: Player[]
   selectedCategories: string[]
   impostersCount: 1 | 2
-  timerSeconds: 0 | 10 | 15 | 30
+  timerSeconds: 0 | 15 | 30 | 45 | 60 | 90
+  roundCount: 1 | 2 | 3 | 5
   soundEnabled: boolean
   hapticsEnabled: boolean
   locale: string
@@ -94,7 +96,8 @@ export interface GameState {
   votes: Record<string, string>
   roundPhase: RoundPhase
   roundNumber: number
-  timerSeconds: 0 | 10 | 15 | 30
+  roundCount: 1 | 2 | 3 | 5
+  timerSeconds: 0 | 15 | 30 | 45 | 60 | 90
   impostersCount: 1 | 2
   selectedCategories: string[]
   locale: string
@@ -143,7 +146,8 @@ export interface GamePreset {
   playerNames: string[]
   categories: string[]
   impostersCount: 1 | 2
-  timerSeconds: 0 | 10 | 15 | 30
+  timerSeconds: 0 | 15 | 30 | 45 | 60 | 90
+  roundCount: 1 | 2 | 3 | 5
   createdAt: number
   emoji?: string            // decorative preset icon
 }

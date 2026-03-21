@@ -42,6 +42,7 @@ export default function HeadsUpScreen() {
   const players = useGameStore((s) => s.players)
   const selectedCategories = useGameStore((s) => s.selectedCategories)
   const storeTimer = useGameStore((s) => s.timerSeconds)
+  const totalRounds = useGameStore((s) => s.roundCount)
   // 0 means "Off" in setup, fall back to logic default for heads-up / charades
   const ROUND_SECONDS = storeTimer > 0 ? storeTimer : headsUpLogic.defaultTimerSeconds
   const locale = useSettingsStore((s) => s.language)
@@ -51,6 +52,7 @@ export default function HeadsUpScreen() {
   // ── Game state ────────────────────────────────────────────────────────────
   const [phase, setPhase] = useState<Phase>('ready')
   const [currentPlayerIdx, setCurrentPlayerIdx] = useState(0)
+  const [currentRound, setCurrentRound] = useState(1)
   const [wordPool, setWordPool] = useState<string[]>([])
   const [currentWordIdx, setCurrentWordIdx] = useState(0)
   const [actions, setActions] = useState<ActionEntry[]>([])
@@ -163,14 +165,23 @@ export default function HeadsUpScreen() {
     haptics.selection()
     const nextIdx = currentPlayerIdx + 1
     if (nextIdx >= players.length) {
-      setPhase('done')
+      // Last player in this round — check if there are more rounds
+      if (currentRound < totalRounds) {
+        setCurrentRound((r) => r + 1)
+        setCurrentPlayerIdx(0)
+        setRoundResult(null)
+        setActions([])
+        setPhase('ready')
+      } else {
+        setPhase('done')
+      }
       return
     }
     setCurrentPlayerIdx(nextIdx)
     setRoundResult(null)
     setActions([])
     setPhase('ready')
-  }, [haptics, currentPlayerIdx, players.length])
+  }, [haptics, currentPlayerIdx, players.length, currentRound, totalRounds])
 
   const handleEndGame = useCallback(() => {
     stopTimer()
@@ -195,9 +206,16 @@ export default function HeadsUpScreen() {
         >
           <Ionicons name="home" size={20} color={theme.text.primary} />
         </TouchableOpacity>
-        <Text style={[styles.headerTitle, { color: theme.text.primary, fontFamily: fontFamily.displayBold }]}>
-          {gameMode ? t(gameMode.nameKey) : mode}
-        </Text>
+        <View style={styles.headerCenter}>
+          <Text style={[styles.headerTitle, { color: theme.text.primary, fontFamily: fontFamily.displayBold }]}>
+            {gameMode ? t(gameMode.nameKey) : mode}
+          </Text>
+          {totalRounds > 1 && (
+            <Text style={[styles.headerRound, { color: theme.text.muted, fontFamily: fontFamily.body }]}>
+              {t('headsUp.roundOf', { current: currentRound, total: totalRounds })}
+            </Text>
+          )}
+        </View>
         <View style={styles.homeBtn} />
       </View>
 
@@ -323,7 +341,11 @@ export default function HeadsUpScreen() {
             size="lg"
             onPress={handleNextPlayer}
           >
-            {currentPlayerIdx + 1 < players.length ? t('headsUp.nextPlayer') : t('headsUp.endGame')}
+            {currentPlayerIdx + 1 < players.length
+              ? t('headsUp.nextPlayer')
+              : currentRound < totalRounds
+                ? t('headsUp.nextRound')
+                : t('headsUp.endGame')}
           </Button>
         </Animated.View>
       )}
@@ -377,11 +399,19 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  headerCenter: {
+    flex: 1,
+    alignItems: 'center',
+  },
   headerTitle: {
     fontSize: fontSize.xl,
     letterSpacing: -0.4,
-    flex: 1,
     textAlign: 'center',
+  },
+  headerRound: {
+    fontSize: fontSize.xs,
+    textAlign: 'center',
+    marginTop: 2,
   },
   centeredContent: {
     flex: 1,

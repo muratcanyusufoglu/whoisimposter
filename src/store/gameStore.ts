@@ -36,6 +36,7 @@ const INITIAL_STATE: GameStoreState = {
   selectedCategories: [],
   impostersCount: 1,
   timerSeconds: 0,
+  roundCount: 1,
   soundEnabled: true,
   hapticsEnabled: true,
   locale: 'en',
