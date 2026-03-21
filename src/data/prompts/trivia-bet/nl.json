@@ -3,78 +3,1214 @@
   "locale": "nl",
   "version": 1,
   "questions": [
-    {"difficulty": "easy", "category": "Wetenschap", "question": "Wat is de grootste planeet in ons zonnestelsel?", "options": ["Aarde", "Mars", "Jupiter", "Venus"], "correctIndex": 2, "id": "tb_nl_001"},
-    {"difficulty": "easy", "category": "Aardrijkskunde", "question": "Welke oceaan is het grootst?", "options": ["Atlantische", "Indische", "Arctische", "Stille"], "correctIndex": 3, "id": "tb_nl_002"},
-    {"difficulty": "easy", "category": "Dieren", "question": "Hoeveel poten heeft een spin?", "options": ["6", "8", "10", "12"], "correctIndex": 1, "id": "tb_nl_003"},
-    {"difficulty": "easy", "category": "Wetenschap", "question": "Welk gas nemen planten op?", "options": ["Zuurstof", "Koolstofdioxide", "Stikstof", "Helium"], "correctIndex": 1, "id": "tb_nl_004"},
-    {"difficulty": "easy", "category": "Muziek", "question": "Welk instrument heeft 88 toetsen?", "options": ["Gitaar", "Viool", "Piano", "Fluit"], "correctIndex": 2, "id": "tb_nl_005"},
-    {"difficulty": "easy", "category": "Aardrijkskunde", "question": "Wat is de hoofdstad van Canada?", "options": ["Toronto", "Ottawa", "Vancouver", "Montreal"], "correctIndex": 1, "id": "tb_nl_006"},
-    {"difficulty": "easy", "category": "Dieren", "question": "Welk dier staat bekend om zijn zwart-witte strepen?", "options": ["Tijger", "Zebra", "Panda", "Stinkdier"], "correctIndex": 1, "id": "tb_nl_007"},
-    {"difficulty": "easy", "category": "Kunst", "question": "Welke kleur krijg je als je rood en blauw mengt?", "options": ["Oranje", "Paars", "Groen", "Roze"], "correctIndex": 1, "id": "tb_nl_008"},
-    {"difficulty": "easy", "category": "Wetenschap", "question": "Welke planeet staat bekend als de Rode Planeet?", "options": ["Venus", "Mars", "Jupiter", "Saturnus"], "correctIndex": 1, "id": "tb_nl_009"},
-    {"difficulty": "easy", "category": "Kunst", "question": "Wie schreef 'Romeo en Julia'?", "options": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"], "correctIndex": 1, "id": "tb_nl_010"},
-    {"difficulty": "easy", "category": "Eten", "question": "Wat is het hoofdingrediënt van guacamole?", "options": ["Erwt", "Avocado", "Komkommer", "Courgette"], "correctIndex": 1, "id": "tb_nl_011"},
-    {"difficulty": "easy", "category": "Dieren", "question": "Wat is het hoogste zoogdier?", "options": ["Olifant", "Giraf", "Paard", "Kameel"], "correctIndex": 1, "id": "tb_nl_012"},
-    {"difficulty": "easy", "category": "Aardrijkskunde", "question": "Op welk continent ligt Egypte?", "options": ["Azië", "Afrika", "Europa", "Zuid-Amerika"], "correctIndex": 1, "id": "tb_nl_013"},
-    {"difficulty": "easy", "category": "Wiskunde", "question": "Hoeveel dagen heeft een schrikkeljaar?", "options": ["364", "365", "366", "367"], "correctIndex": 2, "id": "tb_nl_014"},
-    {"difficulty": "easy", "category": "Wetenschap", "question": "Wat is de hardste natuurlijke stof?", "options": ["Goud", "Ijzer", "Diamant", "Kwarts"], "correctIndex": 2, "id": "tb_nl_015"},
-    {"difficulty": "easy", "category": "Wetenschap", "question": "Wat meet een thermometer?", "options": ["Druk", "Temperatuur", "Snelheid", "Volume"], "correctIndex": 1, "id": "tb_nl_016"},
-    {"difficulty": "easy", "category": "Sport", "question": "Welke sport gebruikt een racket en een shuttle?", "options": ["Tennis", "Badminton", "Squash", "Tafeltennis"], "correctIndex": 1, "id": "tb_nl_017"},
-    {"difficulty": "easy", "category": "Aardrijkskunde", "question": "Wat is de munteenheid van het Verenigd Koninkrijk?", "options": ["Euro", "Dollar", "Pond sterling", "Krona"], "correctIndex": 2, "id": "tb_nl_018"},
-    {"difficulty": "easy", "category": "Wetenschap", "question": "Welke planeet is beroemd om zijn ringen?", "options": ["Mars", "Saturnus", "Neptunus", "Mercurius"], "correctIndex": 1, "id": "tb_nl_019"},
-    {"difficulty": "easy", "category": "Dieren", "question": "Wat is het grootste zoogdier?", "options": ["Olifant", "Blauwe vinvis", "Giraf", "Nijlpaard"], "correctIndex": 1, "id": "tb_nl_020"},
-    {"difficulty": "medium", "category": "Wetenschap", "question": "Welk element heeft het symbool Fe?", "options": ["Fluor", "IJzer", "Zilver", "Tin"], "correctIndex": 1, "id": "tb_nl_021"},
-    {"difficulty": "medium", "category": "Geschiedenis", "question": "In welke stad staat het Colosseum?", "options": ["Athene", "Rome", "Parijs", "Istanbul"], "correctIndex": 1, "id": "tb_nl_022"},
-    {"difficulty": "medium", "category": "Kunst", "question": "Wie schilderde 'De Sterrennacht'?", "options": ["Van Gogh", "Picasso", "Monet", "Rembrandt"], "correctIndex": 0, "id": "tb_nl_023"},
-    {"difficulty": "medium", "category": "Aardrijkskunde", "question": "Wat is de hoofdstad van Zuid-Korea?", "options": ["Seoul", "Busan", "Tokio", "Peking"], "correctIndex": 0, "id": "tb_nl_024"},
-    {"difficulty": "medium", "category": "Geschiedenis", "question": "Welk land vond papier uit?", "options": ["Griekenland", "China", "Egypte", "India"], "correctIndex": 1, "id": "tb_nl_025"},
-    {"difficulty": "medium", "category": "Sport", "question": "Hoeveel spelers staan er op het veld bij een honkbalteam?", "options": ["7", "8", "9", "10"], "correctIndex": 2, "id": "tb_nl_026"},
-    {"difficulty": "medium", "category": "Wetenschap", "question": "Wat is het langste bot in het menselijk lichaam?", "options": ["Femur", "Tibia", "Humerus", "Radius"], "correctIndex": 0, "id": "tb_nl_027"},
-    {"difficulty": "medium", "category": "Dieren", "question": "Wat is de snelste vogel ter wereld?", "options": ["Adelaar", "Slechtvalk", "Struisvogel", "Valk"], "correctIndex": 1, "id": "tb_nl_028"},
-    {"difficulty": "medium", "category": "Aardrijkskunde", "question": "Welke taal heeft de meeste moedertaalsprekers?", "options": ["Engels", "Spaans", "Mandarijn", "Hindi"], "correctIndex": 2, "id": "tb_nl_029"},
-    {"difficulty": "medium", "category": "Wetenschap", "question": "Wat is de kleinste planeet in ons zonnestelsel?", "options": ["Mercurius", "Mars", "Venus", "Neptunus"], "correctIndex": 0, "id": "tb_nl_030"},
-    {"difficulty": "medium", "category": "Geschiedenis", "question": "Wie ontdekte penicilline?", "options": ["Marie Curie", "Alexander Fleming", "Louis Pasteur", "Isaac Newton"], "correctIndex": 1, "id": "tb_nl_031"},
-    {"difficulty": "medium", "category": "Aardrijkskunde", "question": "Wat is de hoofdstad van Argentinië?", "options": ["Lima", "Buenos Aires", "Santiago", "Montevideo"], "correctIndex": 1, "id": "tb_nl_032"},
-    {"difficulty": "medium", "category": "Aardrijkskunde", "question": "Welk land is beroemd om zijn tulpenvelden?", "options": ["België", "Nederland", "Denemarken", "Zwitserland"], "correctIndex": 1, "id": "tb_nl_033"},
-    {"difficulty": "medium", "category": "Technologie", "question": "Waar staat HTTP voor?", "options": ["Hypertext Transfer Protocol", "High Transfer Text Process", "Hyperlink Transmission Program", "Host Transfer Protocol"], "correctIndex": 0, "id": "tb_nl_034"},
-    {"difficulty": "medium", "category": "Muziek", "question": "Welk instrument wordt geassocieerd met Louis Armstrong?", "options": ["Saxofoon", "Trompet", "Piano", "Klarinet"], "correctIndex": 1, "id": "tb_nl_035"},
-    {"difficulty": "medium", "category": "Wetenschap", "question": "Wat is de energiecentrale van de cel?", "options": ["Celkern", "Mitochondriën", "Ribosoom", "Golgi-apparaat"], "correctIndex": 1, "id": "tb_nl_036"},
-    {"difficulty": "medium", "category": "Aardrijkskunde", "question": "Wat is de grootste hete woestijn?", "options": ["Gobi", "Sahara", "Kalahari", "Atacama"], "correctIndex": 1, "id": "tb_nl_037"},
-    {"difficulty": "medium", "category": "Wiskunde", "question": "Welke Griekse letter lijkt op een driehoek?", "options": ["Alfa", "Delta", "Sigma", "Omega"], "correctIndex": 1, "id": "tb_nl_038"},
-    {"difficulty": "medium", "category": "Sport", "question": "Welke stad organiseerde de Olympische Zomerspelen van 2012?", "options": ["Peking", "Londen", "Rio de Janeiro", "Athene"], "correctIndex": 1, "id": "tb_nl_039"},
-    {"difficulty": "medium", "category": "Wetenschap", "question": "Wat is de chemische formule van ozon?", "options": ["O2", "O3", "CO2", "O4"], "correctIndex": 1, "id": "tb_nl_040"},
-    {"difficulty": "hard", "category": "Kunst", "question": "Wie schreef 'Honderd jaar eenzaamheid'?", "options": ["Mario Vargas Llosa", "Gabriel García Márquez", "Isabel Allende", "Jorge Luis Borges"], "correctIndex": 1, "id": "tb_nl_041"},
-    {"difficulty": "hard", "category": "Aardrijkskunde", "question": "Wat is de hoofdstad van Kazachstan?", "options": ["Almaty", "Astana", "Tashkent", "Bishkek"], "correctIndex": 1, "id": "tb_nl_042"},
-    {"difficulty": "hard", "category": "Wetenschap", "question": "Welke planeet heeft de kortste dag?", "options": ["Aarde", "Jupiter", "Mars", "Uranus"], "correctIndex": 1, "id": "tb_nl_043"},
-    {"difficulty": "hard", "category": "Geschiedenis", "question": "In welk jaar viel de Berlijnse Muur?", "options": ["1987", "1988", "1989", "1990"], "correctIndex": 2, "id": "tb_nl_044"},
-    {"difficulty": "hard", "category": "Wetenschap", "question": "Wat is de SI-eenheid van elektrische stroom?", "options": ["Volt", "Ampère", "Ohm", "Watt"], "correctIndex": 1, "id": "tb_nl_045"},
-    {"difficulty": "hard", "category": "Muziek", "question": "Welke componist schreef de opera 'De Toverfluit'?", "options": ["Mozart", "Verdi", "Puccini", "Wagner"], "correctIndex": 0, "id": "tb_nl_046"},
-    {"difficulty": "hard", "category": "Wiskunde", "question": "Wat is de vierkantswortel van 256?", "options": ["14", "16", "18", "20"], "correctIndex": 1, "id": "tb_nl_047"},
-    {"difficulty": "hard", "category": "Aardrijkskunde", "question": "Welk land heeft de meeste tijdzones?", "options": ["Verenigde Staten", "Frankrijk", "Rusland", "Australië"], "correctIndex": 1, "id": "tb_nl_048"},
-    {"difficulty": "hard", "category": "Aardrijkskunde", "question": "Wat is de langste rivier van Europa?", "options": ["Donau", "Wolga", "Rijn", "Seine"], "correctIndex": 1, "id": "tb_nl_049"},
-    {"difficulty": "hard", "category": "Kunst", "question": "Wie schilderde 'De volharding der herinnering'?", "options": ["Salvador Dalí", "Pablo Picasso", "Claude Monet", "Edvard Munch"], "correctIndex": 0, "id": "tb_nl_050"},
-    {"difficulty": "easy", "category": "Aardrijkskunde", "question": "Wat is de hoofdstad van Canada?", "options": ["Ottawa", "Toronto", "Vancouver", "Montreal"], "correctIndex": 0, "id": "tb_nl_051"},
-    {"difficulty": "easy", "category": "Wetenschap", "question": "Welke planeet staat bekend als de Rode Planeet?", "options": ["Mars", "Venus", "Jupiter", "Mercurius"], "correctIndex": 0, "id": "tb_nl_052"},
-    {"difficulty": "easy", "category": "Muziek", "question": "Welk instrument heeft 88 toetsen?", "options": ["Piano", "Gitaar", "Viool", "Fluit"], "correctIndex": 0, "id": "tb_nl_053"},
-    {"id":"tb_nl_054","difficulty":"easy","category":"Aardrijkskunde","question":"Wat is de hoofdstad van Spanje?","options":["Madrid","Barcelona","Sevilla","Valencia"],"correctIndex":0},
-    {"id":"tb_nl_055","difficulty":"easy","category":"Aardrijkskunde","question":"Wat is de hoofdstad van Brazilië?","options":["Brasilia","Rio de Janeiro","São Paulo","Salvador"],"correctIndex":0},
-    {"id":"tb_nl_056","difficulty":"easy","category":"Aardrijkskunde","question":"Wat is de hoofdstad van India?","options":["New Delhi","Mumbai","Bangalore","Kolkata"],"correctIndex":0},
-    {"id":"tb_nl_057","difficulty":"easy","category":"Wetenschap","question":"Wat is het chemische symbool voor kalium?","options":["K","P","Po","Pt"],"correctIndex":0},
-    {"id":"tb_nl_058","difficulty":"easy","category":"Wetenschap","question":"Wat is het chemische symbool voor zuurstof?","options":["O","Ox","Og","Oz"],"correctIndex":0},
-    {"id":"tb_nl_059","difficulty":"easy","category":"Geschiedenis","question":"In welk jaar begon de Eerste Wereldoorlog?","options":["1912","1914","1916","1918"],"correctIndex":1},
-    {"id":"tb_nl_060","difficulty":"easy","category":"Geschiedenis","question":"Wie was de eerste president van de Verenigde Staten?","options":["George Washington","Thomas Jefferson","Abraham Lincoln","John Adams"],"correctIndex":0},
-    {"id":"tb_nl_061","difficulty":"easy","category":"Kunst","question":"Wie maakte het beeld David?","options":["Michelangelo","Donatello","Bernini","Rodin"],"correctIndex":0},
-    {"id":"tb_nl_062","difficulty":"easy","category":"Kunst","question":"Wie schreef '1984'?","options":["George Orwell","Aldous Huxley","Ray Bradbury","J.K. Rowling"],"correctIndex":0},
-    {"id":"tb_nl_063","difficulty":"easy","category":"Sport","question":"Hoeveel spelers staan er bij voetbal per team op het veld?","options":["9","10","11","12"],"correctIndex":2},
-    {"id":"tb_nl_064","difficulty":"easy","category":"Dieren","question":"Welke vogel is het grootst?","options":["Struisvogel","Arend","Pinguïn","Zwaan"],"correctIndex":0},
-    {"id":"tb_nl_065","difficulty":"easy","category":"Wetenschap","question":"Wat is H2O?","options":["Water","Waterstof","Zuurstof","Zout"],"correctIndex":0},
-    {"id":"tb_nl_066","difficulty":"easy","category":"Technologie","question":"Waar staat GPS voor?","options":["Global Positioning System","General Packet Service","Geographic Positioning Software","Global Postal Service"],"correctIndex":0},
-    {"id":"tb_nl_067","difficulty":"easy","category":"Wiskunde","question":"Wat is 12 x 12?","options":["124","132","144","156"],"correctIndex":2},
-    {"id":"tb_nl_068","difficulty":"easy","category":"Aardrijkskunde","question":"Op welk continent ligt Brazilië?","options":["Zuid-Amerika","Noord-Amerika","Europa","Afrika"],"correctIndex":0},
-    {"id":"tb_nl_069","difficulty":"easy","category":"Eten","question":"Wat is het hoofdingrediënt van hummus?","options":["Kikkererwten","Linzen","Aardappelen","Rijst"],"correctIndex":0},
-    {"id":"tb_nl_070","difficulty":"easy","category":"Wetenschap","question":"Hoeveel planeten heeft ons zonnestelsel?","options":["7","8","9","10"],"correctIndex":1},
-    {"id":"tb_nl_071","difficulty":"easy","category":"Kunst","question":"Wie schilderde 'De Schreeuw'?","options":["Edvard Munch","Pablo Picasso","Vincent van Gogh","Claude Monet"],"correctIndex":0},
-    {"id":"tb_nl_072","difficulty":"easy","category":"Aardrijkskunde","question":"Wat is de hoofdstad van Egypte?","options":["Caïro","Alexandrië","Gizeh","Luxor"],"correctIndex":0},
-    {"id":"tb_nl_073","difficulty":"easy","category":"Technologie","question":"Waar staat USB voor?","options":["Universal Serial Bus","Unified System Board","Universal Sync Bridge","United Serial Base"],"correctIndex":0}
+    {
+      "difficulty": "easy",
+      "category": "Wetenschap",
+      "question": "Wat is de grootste planeet in ons zonnestelsel?",
+      "options": [
+        "Aarde",
+        "Mars",
+        "Jupiter",
+        "Venus"
+      ],
+      "correctIndex": 2,
+      "id": "tb_nl_001"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Aardrijkskunde",
+      "question": "Welke oceaan is het grootst?",
+      "options": [
+        "Atlantische",
+        "Indische",
+        "Arctische",
+        "Stille"
+      ],
+      "correctIndex": 3,
+      "id": "tb_nl_002"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Dieren",
+      "question": "Hoeveel poten heeft een spin?",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_003"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Wetenschap",
+      "question": "Welk gas nemen planten op?",
+      "options": [
+        "Zuurstof",
+        "Koolstofdioxide",
+        "Stikstof",
+        "Helium"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_004"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Muziek",
+      "question": "Welk instrument heeft 88 toetsen?",
+      "options": [
+        "Gitaar",
+        "Viool",
+        "Piano",
+        "Fluit"
+      ],
+      "correctIndex": 2,
+      "id": "tb_nl_005"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Aardrijkskunde",
+      "question": "Wat is de hoofdstad van Canada?",
+      "options": [
+        "Toronto",
+        "Ottawa",
+        "Vancouver",
+        "Montreal"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_006"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Dieren",
+      "question": "Welk dier staat bekend om zijn zwart-witte strepen?",
+      "options": [
+        "Tijger",
+        "Zebra",
+        "Panda",
+        "Stinkdier"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_007"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Kunst",
+      "question": "Welke kleur krijg je als je rood en blauw mengt?",
+      "options": [
+        "Oranje",
+        "Paars",
+        "Groen",
+        "Roze"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_008"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Wetenschap",
+      "question": "Welke planeet staat bekend als de Rode Planeet?",
+      "options": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Saturnus"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_009"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Kunst",
+      "question": "Wie schreef 'Romeo en Julia'?",
+      "options": [
+        "Charles Dickens",
+        "William Shakespeare",
+        "Jane Austen",
+        "Mark Twain"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_010"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Eten",
+      "question": "Wat is het hoofdingrediënt van guacamole?",
+      "options": [
+        "Erwt",
+        "Avocado",
+        "Komkommer",
+        "Courgette"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_011"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Dieren",
+      "question": "Wat is het hoogste zoogdier?",
+      "options": [
+        "Olifant",
+        "Giraf",
+        "Paard",
+        "Kameel"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_012"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Aardrijkskunde",
+      "question": "Op welk continent ligt Egypte?",
+      "options": [
+        "Azië",
+        "Afrika",
+        "Europa",
+        "Zuid-Amerika"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_013"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Wiskunde",
+      "question": "Hoeveel dagen heeft een schrikkeljaar?",
+      "options": [
+        "364",
+        "365",
+        "366",
+        "367"
+      ],
+      "correctIndex": 2,
+      "id": "tb_nl_014"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Wetenschap",
+      "question": "Wat is de hardste natuurlijke stof?",
+      "options": [
+        "Goud",
+        "Ijzer",
+        "Diamant",
+        "Kwarts"
+      ],
+      "correctIndex": 2,
+      "id": "tb_nl_015"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Wetenschap",
+      "question": "Wat meet een thermometer?",
+      "options": [
+        "Druk",
+        "Temperatuur",
+        "Snelheid",
+        "Volume"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_016"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Welke sport gebruikt een racket en een shuttle?",
+      "options": [
+        "Tennis",
+        "Badminton",
+        "Squash",
+        "Tafeltennis"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_017"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Aardrijkskunde",
+      "question": "Wat is de munteenheid van het Verenigd Koninkrijk?",
+      "options": [
+        "Euro",
+        "Dollar",
+        "Pond sterling",
+        "Krona"
+      ],
+      "correctIndex": 2,
+      "id": "tb_nl_018"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Wetenschap",
+      "question": "Welke planeet is beroemd om zijn ringen?",
+      "options": [
+        "Mars",
+        "Saturnus",
+        "Neptunus",
+        "Mercurius"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_019"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Dieren",
+      "question": "Wat is het grootste zoogdier?",
+      "options": [
+        "Olifant",
+        "Blauwe vinvis",
+        "Giraf",
+        "Nijlpaard"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_020"
+    },
+    {
+      "difficulty": "medium",
+      "category": "Wetenschap",
+      "question": "Welk element heeft het symbool Fe?",
+      "options": [
+        "Fluor",
+        "IJzer",
+        "Zilver",
+        "Tin"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_021"
+    },
+    {
+      "difficulty": "medium",
+      "category": "Geschiedenis",
+      "question": "In welke stad staat het Colosseum?",
+      "options": [
+        "Athene",
+        "Rome",
+        "Parijs",
+        "Istanbul"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_022"
+    },
+    {
+      "difficulty": "medium",
+      "category": "Kunst",
+      "question": "Wie schilderde 'De Sterrennacht'?",
+      "options": [
+        "Van Gogh",
+        "Picasso",
+        "Monet",
+        "Rembrandt"
+      ],
+      "correctIndex": 0,
+      "id": "tb_nl_023"
+    },
+    {
+      "difficulty": "medium",
+      "category": "Aardrijkskunde",
+      "question": "Wat is de hoofdstad van Zuid-Korea?",
+      "options": [
+        "Seoul",
+        "Busan",
+        "Tokio",
+        "Peking"
+      ],
+      "correctIndex": 0,
+      "id": "tb_nl_024"
+    },
+    {
+      "difficulty": "medium",
+      "category": "Geschiedenis",
+      "question": "Welk land vond papier uit?",
+      "options": [
+        "Griekenland",
+        "China",
+        "Egypte",
+        "India"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_025"
+    },
+    {
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Hoeveel spelers staan er op het veld bij een honkbalteam?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctIndex": 2,
+      "id": "tb_nl_026"
+    },
+    {
+      "difficulty": "medium",
+      "category": "Wetenschap",
+      "question": "Wat is het langste bot in het menselijk lichaam?",
+      "options": [
+        "Femur",
+        "Tibia",
+        "Humerus",
+        "Radius"
+      ],
+      "correctIndex": 0,
+      "id": "tb_nl_027"
+    },
+    {
+      "difficulty": "medium",
+      "category": "Dieren",
+      "question": "Wat is de snelste vogel ter wereld?",
+      "options": [
+        "Adelaar",
+        "Slechtvalk",
+        "Struisvogel",
+        "Valk"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_028"
+    },
+    {
+      "difficulty": "medium",
+      "category": "Aardrijkskunde",
+      "question": "Welke taal heeft de meeste moedertaalsprekers?",
+      "options": [
+        "Engels",
+        "Spaans",
+        "Mandarijn",
+        "Hindi"
+      ],
+      "correctIndex": 2,
+      "id": "tb_nl_029"
+    },
+    {
+      "difficulty": "medium",
+      "category": "Wetenschap",
+      "question": "Wat is de kleinste planeet in ons zonnestelsel?",
+      "options": [
+        "Mercurius",
+        "Mars",
+        "Venus",
+        "Neptunus"
+      ],
+      "correctIndex": 0,
+      "id": "tb_nl_030"
+    },
+    {
+      "difficulty": "medium",
+      "category": "Geschiedenis",
+      "question": "Wie ontdekte penicilline?",
+      "options": [
+        "Marie Curie",
+        "Alexander Fleming",
+        "Louis Pasteur",
+        "Isaac Newton"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_031"
+    },
+    {
+      "difficulty": "medium",
+      "category": "Aardrijkskunde",
+      "question": "Wat is de hoofdstad van Argentinië?",
+      "options": [
+        "Lima",
+        "Buenos Aires",
+        "Santiago",
+        "Montevideo"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_032"
+    },
+    {
+      "difficulty": "medium",
+      "category": "Aardrijkskunde",
+      "question": "Welk land is beroemd om zijn tulpenvelden?",
+      "options": [
+        "België",
+        "Nederland",
+        "Denemarken",
+        "Zwitserland"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_033"
+    },
+    {
+      "difficulty": "medium",
+      "category": "Technologie",
+      "question": "Waar staat HTTP voor?",
+      "options": [
+        "Hypertext Transfer Protocol",
+        "High Transfer Text Process",
+        "Hyperlink Transmission Program",
+        "Host Transfer Protocol"
+      ],
+      "correctIndex": 0,
+      "id": "tb_nl_034"
+    },
+    {
+      "difficulty": "medium",
+      "category": "Muziek",
+      "question": "Welk instrument wordt geassocieerd met Louis Armstrong?",
+      "options": [
+        "Saxofoon",
+        "Trompet",
+        "Piano",
+        "Klarinet"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_035"
+    },
+    {
+      "difficulty": "medium",
+      "category": "Wetenschap",
+      "question": "Wat is de energiecentrale van de cel?",
+      "options": [
+        "Celkern",
+        "Mitochondriën",
+        "Ribosoom",
+        "Golgi-apparaat"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_036"
+    },
+    {
+      "difficulty": "medium",
+      "category": "Aardrijkskunde",
+      "question": "Wat is de grootste hete woestijn?",
+      "options": [
+        "Gobi",
+        "Sahara",
+        "Kalahari",
+        "Atacama"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_037"
+    },
+    {
+      "difficulty": "medium",
+      "category": "Wiskunde",
+      "question": "Welke Griekse letter lijkt op een driehoek?",
+      "options": [
+        "Alfa",
+        "Delta",
+        "Sigma",
+        "Omega"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_038"
+    },
+    {
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Welke stad organiseerde de Olympische Zomerspelen van 2012?",
+      "options": [
+        "Peking",
+        "Londen",
+        "Rio de Janeiro",
+        "Athene"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_039"
+    },
+    {
+      "difficulty": "medium",
+      "category": "Wetenschap",
+      "question": "Wat is de chemische formule van ozon?",
+      "options": [
+        "O2",
+        "O3",
+        "CO2",
+        "O4"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_040"
+    },
+    {
+      "difficulty": "hard",
+      "category": "Kunst",
+      "question": "Wie schreef 'Honderd jaar eenzaamheid'?",
+      "options": [
+        "Mario Vargas Llosa",
+        "Gabriel García Márquez",
+        "Isabel Allende",
+        "Jorge Luis Borges"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_041"
+    },
+    {
+      "difficulty": "hard",
+      "category": "Aardrijkskunde",
+      "question": "Wat is de hoofdstad van Kazachstan?",
+      "options": [
+        "Almaty",
+        "Astana",
+        "Tashkent",
+        "Bishkek"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_042"
+    },
+    {
+      "difficulty": "hard",
+      "category": "Wetenschap",
+      "question": "Welke planeet heeft de kortste dag?",
+      "options": [
+        "Aarde",
+        "Jupiter",
+        "Mars",
+        "Uranus"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_043"
+    },
+    {
+      "difficulty": "hard",
+      "category": "Geschiedenis",
+      "question": "In welk jaar viel de Berlijnse Muur?",
+      "options": [
+        "1987",
+        "1988",
+        "1989",
+        "1990"
+      ],
+      "correctIndex": 2,
+      "id": "tb_nl_044"
+    },
+    {
+      "difficulty": "hard",
+      "category": "Wetenschap",
+      "question": "Wat is de SI-eenheid van elektrische stroom?",
+      "options": [
+        "Volt",
+        "Ampère",
+        "Ohm",
+        "Watt"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_045"
+    },
+    {
+      "difficulty": "hard",
+      "category": "Muziek",
+      "question": "Welke componist schreef de opera 'De Toverfluit'?",
+      "options": [
+        "Mozart",
+        "Verdi",
+        "Puccini",
+        "Wagner"
+      ],
+      "correctIndex": 0,
+      "id": "tb_nl_046"
+    },
+    {
+      "difficulty": "hard",
+      "category": "Wiskunde",
+      "question": "Wat is de vierkantswortel van 256?",
+      "options": [
+        "14",
+        "16",
+        "18",
+        "20"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_047"
+    },
+    {
+      "difficulty": "hard",
+      "category": "Aardrijkskunde",
+      "question": "Welk land heeft de meeste tijdzones?",
+      "options": [
+        "Verenigde Staten",
+        "Frankrijk",
+        "Rusland",
+        "Australië"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_048"
+    },
+    {
+      "difficulty": "hard",
+      "category": "Aardrijkskunde",
+      "question": "Wat is de langste rivier van Europa?",
+      "options": [
+        "Donau",
+        "Wolga",
+        "Rijn",
+        "Seine"
+      ],
+      "correctIndex": 1,
+      "id": "tb_nl_049"
+    },
+    {
+      "difficulty": "hard",
+      "category": "Kunst",
+      "question": "Wie schilderde 'De volharding der herinnering'?",
+      "options": [
+        "Salvador Dalí",
+        "Pablo Picasso",
+        "Claude Monet",
+        "Edvard Munch"
+      ],
+      "correctIndex": 0,
+      "id": "tb_nl_050"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Aardrijkskunde",
+      "question": "Wat is de hoofdstad van Canada?",
+      "options": [
+        "Ottawa",
+        "Toronto",
+        "Vancouver",
+        "Montreal"
+      ],
+      "correctIndex": 0,
+      "id": "tb_nl_051"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Wetenschap",
+      "question": "Welke planeet staat bekend als de Rode Planeet?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Jupiter",
+        "Mercurius"
+      ],
+      "correctIndex": 0,
+      "id": "tb_nl_052"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Muziek",
+      "question": "Welk instrument heeft 88 toetsen?",
+      "options": [
+        "Piano",
+        "Gitaar",
+        "Viool",
+        "Fluit"
+      ],
+      "correctIndex": 0,
+      "id": "tb_nl_053"
+    },
+    {
+      "id": "tb_nl_054",
+      "difficulty": "easy",
+      "category": "Aardrijkskunde",
+      "question": "Wat is de hoofdstad van Spanje?",
+      "options": [
+        "Madrid",
+        "Barcelona",
+        "Sevilla",
+        "Valencia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_055",
+      "difficulty": "easy",
+      "category": "Aardrijkskunde",
+      "question": "Wat is de hoofdstad van Brazilië?",
+      "options": [
+        "Brasilia",
+        "Rio de Janeiro",
+        "São Paulo",
+        "Salvador"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_056",
+      "difficulty": "easy",
+      "category": "Aardrijkskunde",
+      "question": "Wat is de hoofdstad van India?",
+      "options": [
+        "New Delhi",
+        "Mumbai",
+        "Bangalore",
+        "Kolkata"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_057",
+      "difficulty": "easy",
+      "category": "Wetenschap",
+      "question": "Wat is het chemische symbool voor kalium?",
+      "options": [
+        "K",
+        "P",
+        "Po",
+        "Pt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_058",
+      "difficulty": "easy",
+      "category": "Wetenschap",
+      "question": "Wat is het chemische symbool voor zuurstof?",
+      "options": [
+        "O",
+        "Ox",
+        "Og",
+        "Oz"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_059",
+      "difficulty": "easy",
+      "category": "Geschiedenis",
+      "question": "In welk jaar begon de Eerste Wereldoorlog?",
+      "options": [
+        "1912",
+        "1914",
+        "1916",
+        "1918"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_060",
+      "difficulty": "easy",
+      "category": "Geschiedenis",
+      "question": "Wie was de eerste president van de Verenigde Staten?",
+      "options": [
+        "George Washington",
+        "Thomas Jefferson",
+        "Abraham Lincoln",
+        "John Adams"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_061",
+      "difficulty": "easy",
+      "category": "Kunst",
+      "question": "Wie maakte het beeld David?",
+      "options": [
+        "Michelangelo",
+        "Donatello",
+        "Bernini",
+        "Rodin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_062",
+      "difficulty": "easy",
+      "category": "Kunst",
+      "question": "Wie schreef '1984'?",
+      "options": [
+        "George Orwell",
+        "Aldous Huxley",
+        "Ray Bradbury",
+        "J.K. Rowling"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_063",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Hoeveel spelers staan er bij voetbal per team op het veld?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_064",
+      "difficulty": "easy",
+      "category": "Dieren",
+      "question": "Welke vogel is het grootst?",
+      "options": [
+        "Struisvogel",
+        "Arend",
+        "Pinguïn",
+        "Zwaan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_065",
+      "difficulty": "easy",
+      "category": "Wetenschap",
+      "question": "Wat is H2O?",
+      "options": [
+        "Water",
+        "Waterstof",
+        "Zuurstof",
+        "Zout"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_066",
+      "difficulty": "easy",
+      "category": "Technologie",
+      "question": "Waar staat GPS voor?",
+      "options": [
+        "Global Positioning System",
+        "General Packet Service",
+        "Geographic Positioning Software",
+        "Global Postal Service"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_067",
+      "difficulty": "easy",
+      "category": "Wiskunde",
+      "question": "Wat is 12 x 12?",
+      "options": [
+        "124",
+        "132",
+        "144",
+        "156"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_068",
+      "difficulty": "easy",
+      "category": "Aardrijkskunde",
+      "question": "Op welk continent ligt Brazilië?",
+      "options": [
+        "Zuid-Amerika",
+        "Noord-Amerika",
+        "Europa",
+        "Afrika"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_069",
+      "difficulty": "easy",
+      "category": "Eten",
+      "question": "Wat is het hoofdingrediënt van hummus?",
+      "options": [
+        "Kikkererwten",
+        "Linzen",
+        "Aardappelen",
+        "Rijst"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_070",
+      "difficulty": "easy",
+      "category": "Wetenschap",
+      "question": "Hoeveel planeten heeft ons zonnestelsel?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_071",
+      "difficulty": "easy",
+      "category": "Kunst",
+      "question": "Wie schilderde 'De Schreeuw'?",
+      "options": [
+        "Edvard Munch",
+        "Pablo Picasso",
+        "Vincent van Gogh",
+        "Claude Monet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_072",
+      "difficulty": "easy",
+      "category": "Aardrijkskunde",
+      "question": "Wat is de hoofdstad van Egypte?",
+      "options": [
+        "Caïro",
+        "Alexandrië",
+        "Gizeh",
+        "Luxor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_073",
+      "difficulty": "easy",
+      "category": "Technologie",
+      "question": "Waar staat USB voor?",
+      "options": [
+        "Universal Serial Bus",
+        "Unified System Board",
+        "Universal Sync Bridge",
+        "United Serial Base"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_074",
+      "difficulty": "easy",
+      "category": "Aardrijkskunde",
+      "question": "Wat is de hoofdstad van Noorwegen?",
+      "options": [
+        "Oslo",
+        "Bergen",
+        "Trondheim",
+        "Stavanger"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_075",
+      "difficulty": "easy",
+      "category": "Aardrijkskunde",
+      "question": "Wat is de hoofdstad van Thailand?",
+      "options": [
+        "Bangkok",
+        "Chiang Mai",
+        "Phuket",
+        "Pattaya"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_076",
+      "difficulty": "easy",
+      "category": "Aardrijkskunde",
+      "question": "Wat is de munteenheid van Canada?",
+      "options": [
+        "Canadese dollar",
+        "Euro",
+        "Peso",
+        "Yen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_077",
+      "difficulty": "easy",
+      "category": "Wetenschap",
+      "question": "Welk deel van een plant is vooral verantwoordelijk voor fotosynthese?",
+      "options": [
+        "Blad",
+        "Wortel",
+        "Stengel",
+        "Bloem"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_078",
+      "difficulty": "easy",
+      "category": "Technologie",
+      "question": "Wie heeft de telefoon uitgevonden?",
+      "options": [
+        "Alexander Graham Bell",
+        "Thomas Edison",
+        "Nikola Tesla",
+        "Guglielmo Marconi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_079",
+      "difficulty": "easy",
+      "category": "Kunst",
+      "question": "Wie schilderde Meisje met de parel?",
+      "options": [
+        "Johannes Vermeer",
+        "Rembrandt",
+        "Vincent van Gogh",
+        "Pablo Picasso"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_080",
+      "difficulty": "easy",
+      "category": "Dieren",
+      "question": "Welk dier staat bekend om het bouwen van dammen?",
+      "options": [
+        "Bever",
+        "Otter",
+        "Vos",
+        "Hert"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_081",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Wimbledon is een toernooi in welke sport?",
+      "options": [
+        "Tennis",
+        "Golf",
+        "Cricket",
+        "Rugby"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_082",
+      "difficulty": "easy",
+      "category": "Wiskunde",
+      "question": "Wat is 7 x 8?",
+      "options": [
+        "54",
+        "56",
+        "58",
+        "64"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_083",
+      "difficulty": "easy",
+      "category": "Eten",
+      "question": "Waarvan wordt tofu gemaakt?",
+      "options": [
+        "Sojabonen",
+        "Rijst",
+        "Tarwe",
+        "Kikkererwten"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "difficulty": "easy",
+      "category": "Aardrijkskunde",
+      "question": "Wat is de hoofdstad van Nieuw-Zeeland?",
+      "options": [
+        "Wellington",
+        "Auckland",
+        "Christchurch",
+        "Queenstown"
+      ],
+      "correctIndex": 0,
+      "id": "tb_nl_084"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Wetenschap",
+      "question": "Welk element heeft het chemisch symbool K?",
+      "options": [
+        "Kalium",
+        "Krypton",
+        "Calcium",
+        "Zink"
+      ],
+      "correctIndex": 0,
+      "id": "tb_nl_085"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Geschiedenis",
+      "question": "Welke beschaving bouwde Machu Picchu?",
+      "options": [
+        "Inca",
+        "Maya",
+        "Azteken",
+        "Olmeken"
+      ],
+      "correctIndex": 0,
+      "id": "tb_nl_086"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Kunst",
+      "question": "Hoe heet de Japanse kunst van papiervouwen?",
+      "options": [
+        "Origami",
+        "Ikebana",
+        "Kalligrafie",
+        "Kabuki"
+      ],
+      "correctIndex": 0,
+      "id": "tb_nl_087"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Muziek",
+      "question": "Hoeveel snaren heeft een standaardviool?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 0,
+      "id": "tb_nl_088"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Technologie",
+      "question": "Waar staat de afkorting CPU voor?",
+      "options": [
+        "Central Processing Unit",
+        "Computer Power Unit",
+        "Core Performance Utility",
+        "Central Program User"
+      ],
+      "correctIndex": 0,
+      "id": "tb_nl_089"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Eten",
+      "question": "Welke specerij komt van gedroogde bloemknoppen?",
+      "options": [
+        "Kruidnagel",
+        "Peper",
+        "Kaneel",
+        "Nootmuskaat"
+      ],
+      "correctIndex": 0,
+      "id": "tb_nl_090"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Aardrijkskunde",
+      "question": "Welke zee ligt tussen Afrika en het Arabisch Schiereiland?",
+      "options": [
+        "Rode Zee",
+        "Zwarte Zee",
+        "Kaspische Zee",
+        "Adriatische Zee"
+      ],
+      "correctIndex": 0,
+      "id": "tb_nl_091"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Wetenschap",
+      "question": "Welk instrument registreert aardbevingen?",
+      "options": [
+        "Seismograaf",
+        "Barometer",
+        "Anemometer",
+        "Hygrometer"
+      ],
+      "correctIndex": 0,
+      "id": "tb_nl_092"
+    },
+    {
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "De Tour de France is een wedstrijd in welke sport?",
+      "options": [
+        "Wielrennen",
+        "Tennis",
+        "Rugby",
+        "Skiën"
+      ],
+      "correctIndex": 0,
+      "id": "tb_nl_093"
+    }
   ]
 }
