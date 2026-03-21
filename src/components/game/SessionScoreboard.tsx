@@ -3,6 +3,7 @@ import Animated, { FadeInUp } from 'react-native-reanimated'
 import { useTranslation } from 'react-i18next'
 import { useTheme } from '@/theme'
 import { spacing, radius, fontSize, fontFamily } from '@/theme/tokens'
+import { Avatar } from '@/components/ui/Avatar'
 import type { Player, SessionScores, PlayerRoundPoints } from '@/types'
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -84,10 +85,13 @@ export function SessionScoreboard({
               {rankLabel}
             </Text>
 
-            {/* Color dot + name */}
-            <View style={[s.avatar, { backgroundColor: player.color }]}>
-              <Text style={[s.avatarText, { color: theme.game.cardText }]}>{player.initials}</Text>
-            </View>
+            {/* Avatar */}
+            <Avatar
+              name={player.name}
+              color={player.color}
+              emoji={player.emoji}
+              size={AVATAR_SIZE}
+            />
             <Text
               style={[s.playerName, { color: theme.text.primary }]}
               numberOfLines={1}
@@ -170,19 +174,6 @@ const s = StyleSheet.create({
     fontSize: fontSize.md,
     width: 28,
     textAlign: 'center',
-  },
-
-  avatar: {
-    width: AVATAR_SIZE,
-    height: AVATAR_SIZE,
-    borderRadius: AVATAR_SIZE / 2,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-
-  avatarText: {
-    fontSize: fontSize.xs,
-    fontFamily: fontFamily.bodyBold,
   },
 
   playerName: {

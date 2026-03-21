@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next'
 import { useTheme } from '@/theme'
 import { spacing, radius, fontSize, fontFamily } from '@/theme/tokens'
 import { Modal } from '@/components/ui/Modal'
+import { Avatar } from '@/components/ui/Avatar'
 import { useStatsStore } from '@/store/statsStore'
 import { ACHIEVEMENT_DEFINITIONS } from '@/logic/scoring'
 import type { PlayerLifetimeStats } from '@/types'
@@ -167,6 +168,7 @@ function PlayerStatsRow({
 }) {
   // Capitalize the stored normalized name for display
   const displayName = name.charAt(0).toUpperCase() + name.slice(1)
+  const avatarColor = stats.color ?? theme.accent.primary
 
   return (
     <View
@@ -175,9 +177,17 @@ function PlayerStatsRow({
         { backgroundColor: theme.bg.primary, borderColor: theme.border.subtle },
       ]}
     >
-      <Text style={[s.playerRowName, { color: theme.text.primary }]}>
-        {displayName}
-      </Text>
+      <View style={s.playerRowHeader}>
+        <Avatar
+          name={displayName}
+          color={avatarColor}
+          emoji={stats.emoji}
+          size={40}
+        />
+        <Text style={[s.playerRowName, { color: theme.text.primary }]}>
+          {displayName}
+        </Text>
+      </View>
       <View style={s.statsGrid}>
         <StatCell label={t('stats.gamesPlayed')} value={stats.gamesPlayed} theme={theme} />
         <StatCell label={t('stats.wins')} value={stats.wins} theme={theme} />
@@ -336,9 +346,16 @@ const s = StyleSheet.create({
     gap: spacing.sm,
   },
 
+  playerRowHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
+  },
+
   playerRowName: {
     fontSize: fontSize.lg,
     fontFamily: fontFamily.bodyBold,
+    flex: 1,
   },
 
   statsGrid: {

@@ -83,6 +83,7 @@ export const useStatsStore = create<StatsStore>()(
             caughtNames,
             correctGuess,
             votedForImposterNames,
+            playerAvatars,
           } = params
 
           const normalize = (name: string) => name.trim().toLowerCase()
@@ -98,10 +99,14 @@ export const useStatsStore = create<StatsStore>()(
             const isImposter = imposterSet.has(key)
             const wasCaught = caughtSet.has(key)
             const votedCorrectly = correctVoterSet.has(key)
+            const avatar = playerAvatars?.[name]
 
             const updated: PlayerLifetimeStats = {
               ...existing,
               gamesPlayed: existing.gamesPlayed + 1,
+              // Always refresh avatar so latest selection is shown in stats
+              ...(avatar?.emoji !== undefined && { emoji: avatar.emoji }),
+              ...(avatar?.color !== undefined && { color: avatar.color }),
             }
 
             if (mode === 'imposter') {

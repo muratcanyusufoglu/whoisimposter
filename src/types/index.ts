@@ -220,6 +220,9 @@ export interface PlayerLifetimeStats {
   timesCaught: number           // times caught as imposter
   timesVotedCorrectly: number   // voted for the imposter in a crew_win round
   imposterWins: number          // escaped as imposter
+  // Avatar fields — persisted so stats modal can render them without active game
+  emoji?: string
+  color?: string
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -260,4 +263,6 @@ export interface RecordRoundParams {
   caughtNames: string[]           // imposters who were voted out
   correctGuess: boolean           // imposter guessed the word after being caught
   votedForImposterNames: string[] // crew members who voted correctly
+  /** Avatar data keyed by player name (not normalized) */
+  playerAvatars?: Record<string, { emoji?: string; color: string }>
 }

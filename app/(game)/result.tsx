@@ -142,6 +142,7 @@ export default function ResultScreen() {
         caughtNames: [],
         correctGuess: false,
         votedForImposterNames: [],
+        playerAvatars: Object.fromEntries(players.map((p) => [p.name, { emoji: p.emoji, color: p.color }])),
       })
       setResultsRecorded(true)
       return
@@ -191,6 +192,7 @@ export default function ResultScreen() {
       caughtNames: caughtPlayers.map((p) => p.name),
       correctGuess: guessCorrect ?? false,
       votedForImposterNames,
+      playerAvatars: Object.fromEntries(players.map((p) => [p.name, { emoji: p.emoji, color: p.color }])),
     })
 
     // ── 4. Check + unlock achievements for each player ────────────────────
