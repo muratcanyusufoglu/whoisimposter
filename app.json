@@ -8,12 +8,13 @@
     "userInterfaceStyle": "dark",
     "scheme": "whosimposter",
     "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#0D0D0F"
-    },
     "ios": {
+      "splash": {
+        "image": "./assets/splash-icon.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#0D0D0F",
+        "tabletImage": "./assets/splash-icon.png"
+      },
       "supportsTablet": false,
       "bundleIdentifier": "com.whosimposter.party",
       "buildNumber": "5",
@@ -33,6 +34,16 @@
       }
     },
     "android": {
+      "splash": {
+        "image": "./assets/splash-icon.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#0D0D0F",
+        "mdpi": "./assets/splash-icon.png",
+        "hdpi": "./assets/splash-icon.png",
+        "xhdpi": "./assets/splash-icon.png",
+        "xxhdpi": "./assets/splash-icon.png",
+        "xxxhdpi": "./assets/splash-icon.png"
+      },
       "adaptiveIcon": {
         "backgroundColor": "#0D0D0F",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -50,6 +61,14 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "resizeMode": "cover",
+          "backgroundColor": "#0D0D0F"
+        }
+      ],
       "expo-router",
       "expo-localization",
       [

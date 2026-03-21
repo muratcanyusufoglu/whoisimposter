@@ -5,6 +5,19 @@ import { ThemeId, RatingState, GameModeId, GamePreset } from '@/types'
 import { changeLanguage } from '@/i18n'
 
 // ─────────────────────────────────────────────────────────────────────────────
+// HELPERS
+// ─────────────────────────────────────────────────────────────────────────────
+
+/** Returns today's date as 'YYYY-MM-DD' in the device's LOCAL timezone. */
+function localDateString(): string {
+  const d = new Date()
+  const y = d.getFullYear()
+  const m = String(d.getMonth() + 1).padStart(2, '0')
+  const day = String(d.getDate()).padStart(2, '0')
+  return `${y}-${m}-${day}`
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
 // TYPES
 // ─────────────────────────────────────────────────────────────────────────────
 
@@ -20,6 +33,10 @@ interface SettingsState {
   ratingLastPromptAt: number | null
   paywallSeenCount: number
   gamesCompleted: number
+
+  // Daily free-user game limit (resets each calendar day)
+  dailyGamesCount: number   // how many games started today
+  dailyGamesDate: string    // 'YYYY-MM-DD' — resets count when date changes
 
   // Last-used setup (F10.6)
   lastPlayerNames: string[]
@@ -53,6 +70,8 @@ interface SettingsActions {
   updateRatingState: (state: RatingState) => void
   incrementPaywallSeen: () => void
   incrementGamesCompleted: () => void
+  /** Call when a game is about to start. Resets count automatically on a new calendar day. */
+  incrementDailyGames: () => void
   saveLastSetup: (playerNames: string[], categories: string[], playerEmojis?: Record<string, string>) => void
   /** Immediately persist a single player's emoji (called on avatar select, before game start) */
   setPlayerEmoji: (playerName: string, emoji: string | undefined) => void
@@ -90,6 +109,8 @@ const DEFAULTS: SettingsState = {
   ratingLastPromptAt: null,
   paywallSeenCount: 0,
   gamesCompleted: 0,
+  dailyGamesCount: 0,
+  dailyGamesDate: '',
   lastPlayerNames: [],
   lastCategories: [],
   lastPlayerEmojis: {},
@@ -135,6 +156,16 @@ export const useSettingsStore = create<SettingsStore>()(
 
       incrementGamesCompleted: () =>
         set((s) => ({ gamesCompleted: s.gamesCompleted + 1 })),
+
+      incrementDailyGames: () =>
+        set((s) => {
+          const today = localDateString()
+          if (s.dailyGamesDate !== today) {
+            // New calendar day — reset counter and mark today
+            return { dailyGamesDate: today, dailyGamesCount: 1 }
+          }
+          return { dailyGamesCount: s.dailyGamesCount + 1 }
+        }),
 
       saveLastSetup: (playerNames, categories, playerEmojis = {}) =>
         set({ lastPlayerNames: playerNames, lastCategories: categories, lastPlayerEmojis: playerEmojis }),

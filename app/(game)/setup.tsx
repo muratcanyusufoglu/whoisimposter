@@ -47,6 +47,9 @@ import { GameConfig, GameModeId, Player } from '@/types'
 
 const SCREEN_WIDTH = Dimensions.get('window').width
 // 2-column grid with padding on both sides and gap between
+
+/** Free users can start this many games per calendar day. Premium = unlimited. */
+const DAILY_FREE_LIMIT = 5
 const CARD_GAP = spacing.sm
 const CARD_WIDTH = (SCREEN_WIDTH - spacing.lg * 2 - CARD_GAP) / 2
 
@@ -75,6 +78,9 @@ export default function SetupScreen() {
   const gamePresets = useSettingsStore((s) => s.gamePresets)
   const savePreset = useSettingsStore((s) => s.savePreset)
   const isPro = useSubscriptionStore((s) => s.isPro)
+  const dailyGamesCount = useSettingsStore((s) => s.dailyGamesCount)
+  const dailyGamesDate = useSettingsStore((s) => s.dailyGamesDate)
+  const incrementDailyGames = useSettingsStore((s) => s.incrementDailyGames)
   const initGame = useGameStore((s) => s.initGame)
 
   // Resolve preset (if navigated from home with a presetId)
@@ -110,6 +116,7 @@ export default function SetupScreen() {
   const [roundCount, setRoundCount] = useState<1 | 2 | 3 | 5>(matchedPreset?.roundCount ?? 1)
   const [advancedOpen, setAdvancedOpen] = useState(false)
   const [paywallVisible, setPaywallVisible] = useState(false)
+  const [paywallReason, setPaywallReason] = useState<'premium' | 'dailyLimit'>('premium')
   const [discountPaywallVisible, setDiscountPaywallVisible] = useState(false)
   const [howToPlayVisible, setHowToPlayVisible] = useState(false)
 
@@ -237,11 +244,28 @@ export default function SetupScreen() {
     // F16.6 — Secondary Pro gate: block premium games without subscription
     if (mode.isPremium && !isPro) {
       haptics.light()
+      setPaywallReason('premium')
       setPaywallVisible(true)
       return
     }
 
+    // Daily free-user limit: max DAILY_FREE_LIMIT games per calendar day
+    if (!isPro) {
+      const d = new Date()
+      const today = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
+      const todayCount = dailyGamesDate === today ? dailyGamesCount : 0
+      if (todayCount >= DAILY_FREE_LIMIT) {
+        haptics.light()
+        setPaywallReason('dailyLimit')
+        setPaywallVisible(true)
+        return
+      }
+    }
+
     haptics.medium()
+
+    // Record daily game start BEFORE routing (prevents double-tap races)
+    incrementDailyGames()
 
     // Persist last setup (F10.6) — includes emoji map so avatars survive re-opens
     const emojiMap: Record<string, string> = {}
@@ -303,6 +327,9 @@ export default function SetupScreen() {
     mode.id,
     mode.isPremium,
     isPro,
+    dailyGamesCount,
+    dailyGamesDate,
+    incrementDailyGames,
     impostersCount,
     timerSeconds,
     roundCount,
@@ -675,9 +702,10 @@ export default function SetupScreen() {
         </View>
       </KeyboardAvoidingView>
 
-      {/* F16.6 — Pro gate paywall for premium games */}
+      {/* F16.6 — Pro gate paywall: premium games or daily limit reached */}
       <PaywallModal
         visible={paywallVisible}
+        reason={paywallReason}
         onClose={() => setPaywallVisible(false)}
         onDismiss={() => setDiscountPaywallVisible(true)}
       />

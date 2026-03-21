@@ -42,14 +42,18 @@ const PRIVACY_URL = 'https://muratcanyusufoglu.github.io/whoisimposter/legal/pri
 const TERMS_URL   = 'https://muratcanyusufoglu.github.io/whoisimposter/legal/terms/'
 type PlanId = 'monthly' | 'yearly'
 
+type PaywallReason = 'premium' | 'dailyLimit'
+
 interface PaywallModalProps {
   visible: boolean
   onClose: () => void
   /** Called only when the user explicitly dismisses without purchasing */
   onDismiss?: () => void
+  /** Why the paywall is shown — changes the header copy */
+  reason?: PaywallReason
 }
 
-export function PaywallModal({ visible, onClose, onDismiss }: PaywallModalProps) {
+export function PaywallModal({ visible, onClose, onDismiss, reason = 'premium' }: PaywallModalProps) {
   const { theme } = useTheme()
   const { t } = useTranslation()
   const haptics = useHaptics()
@@ -177,15 +181,27 @@ export function PaywallModal({ visible, onClose, onDismiss }: PaywallModalProps)
           bounces={false}
         >
           {/* Header */}
-          <Ionicons name="trophy" size={40} color={theme.accent.premium} style={styles.crown} />
+          <Text style={styles.crown}>
+            {reason === 'dailyLimit' ? '⏰' : '🏆'}
+          </Text>
           <Text
             style={[
               styles.title,
               { color: theme.text.primary, fontFamily: fontFamily.displayBold },
             ]}
           >
-            {t('paywall.title')}
+            {reason === 'dailyLimit' ? t('paywall.dailyLimitTitle') : t('paywall.title')}
           </Text>
+          {reason === 'dailyLimit' && (
+            <Text
+              style={[
+                styles.dailyLimitSubtitle,
+                { color: theme.text.secondary, fontFamily: fontFamily.body },
+              ]}
+            >
+              {t('paywall.dailyLimitSubtitle')}
+            </Text>
+          )}
 
           {/* Benefits */}
           <View style={styles.benefits}>
@@ -499,11 +515,18 @@ const styles = StyleSheet.create({
   },
   crown: {
     marginBottom: -spacing.xs,
+    fontSize: 40,
   },
   title: {
     fontSize: fontSize['2xl'],
     textAlign: 'center',
     letterSpacing: -0.4,
+  },
+  dailyLimitSubtitle: {
+    fontSize: fontSize.sm,
+    textAlign: 'center',
+    marginTop: -spacing.sm,
+    lineHeight: 20,
   },
   benefits: {
     width: '100%',
