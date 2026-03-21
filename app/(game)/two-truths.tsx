@@ -248,7 +248,7 @@ export default function TwoTruthsScreen() {
                       },
                     ]}
                   >
-                    {lieIndex === idx ? '🤥 LIE' : t('twoTruths.markLie')}
+                    {lieIndex === idx ? `🤥 ${t('twoTruths.markedLie')}` : t('twoTruths.markLie')}
                   </Text>
                 </TouchableOpacity>
               </View>

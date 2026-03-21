@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useMemo } from 'react'
 import { View, Text, TouchableOpacity, StyleSheet, Platform } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { router } from 'expo-router'
@@ -61,8 +61,22 @@ export default function TriviaBetScreen() {
   const btnStyle = useAnimatedStyle(() => ({ transform: [{ scale: btnScale.value }] }))
 
   // ── Helpers ───────────────────────────────────────────────────────────
-  const activePlayers = triviaBetLogic.getActivePlayers(triviaState.tokens)
-  const leaders = triviaBetLogic.getLeaders(triviaState.tokens)
+  const activePlayers = useMemo(
+    () =>
+      typeof triviaBetLogic.getActivePlayers === 'function'
+        ? triviaBetLogic.getActivePlayers(triviaState.tokens)
+        : Object.entries(triviaState.tokens)
+            .filter(([, v]) => v > 0)
+            .map(([id]) => id),
+    [triviaState.tokens],
+  )
+  const leaders = useMemo(
+    () =>
+      typeof triviaBetLogic.getLeaders === 'function'
+        ? triviaBetLogic.getLeaders(triviaState.tokens)
+        : [],
+    [triviaState.tokens],
+  )
 
   // ── Handlers ──────────────────────────────────────────────────────────
   const handleLoadQuestion = useCallback(() => {
@@ -133,7 +147,12 @@ export default function TriviaBetScreen() {
     haptics.selection()
     btnScale.value = withSequence(withSpring(0.95), withSpring(1))
 
-    const newActive = triviaBetLogic.getActivePlayers(triviaState.tokens)
+    const newActive =
+      typeof triviaBetLogic.getActivePlayers === 'function'
+        ? triviaBetLogic.getActivePlayers(triviaState.tokens)
+        : Object.entries(triviaState.tokens)
+            .filter(([, v]) => v > 0)
+            .map(([id]) => id)
     if (newActive.length <= 1 || questionNumber >= 10) {
       setPhase('done')
       return
