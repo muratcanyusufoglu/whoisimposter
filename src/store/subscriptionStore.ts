@@ -126,8 +126,6 @@ interface SubscriptionActions {
   purchaseYearly: () => Promise<void>
   purchaseYearlyDiscount: () => Promise<void>
   restore: () => Promise<void>
-  /** Override for debug / testing only */
-  _setProOverride: (isPro: boolean) => void
 }
 
 export type SubscriptionStore = SubscriptionState & SubscriptionActions
@@ -292,8 +290,6 @@ export const useSubscriptionStore = create<SubscriptionStore>()((set) => ({
     }
   },
 
-  // ── Debug override ─────────────────────────────────────────────────────────
-  _setProOverride: (isPro) => set({ isPro }),
 }))
 
 // ─────────────────────────────────────────────────────────────────────────────
