@@ -1,6 +1,7 @@
 import { useState, useCallback, useEffect, useRef } from 'react'
 import { View, Text, TouchableOpacity, StyleSheet, Platform } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
+import { TabletFrame } from '@/components/layout/TabletFrame'
 import { router } from 'expo-router'
 import Animated, {
   useSharedValue,
@@ -197,6 +198,7 @@ export default function HeadsUpScreen() {
       style={[styles.safeArea, { backgroundColor: theme.bg.primary }]}
       edges={['top', 'bottom']}
     >
+      <TabletFrame>
       {/* Header */}
       <View style={styles.header}>
         <TouchableOpacity
@@ -376,6 +378,7 @@ export default function HeadsUpScreen() {
           </Button>
         </Animated.View>
       )}
+      </TabletFrame>
     </SafeAreaView>
   )
 }

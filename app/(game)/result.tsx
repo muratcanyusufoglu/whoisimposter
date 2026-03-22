@@ -1,6 +1,7 @@
 import { useEffect, useState, useCallback } from 'react'
 import { View, Text, StyleSheet, ScrollView, Pressable, Share } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
+import { TabletFrame } from '@/components/layout/TabletFrame'
 import { router } from 'expo-router'
 import Animated, { FadeInUp } from 'react-native-reanimated'
 import { useTranslation } from 'react-i18next'
@@ -302,6 +303,7 @@ export default function ResultScreen() {
   // ─── Render ───────────────────────────────────────────────────────────────
   return (
     <SafeAreaView style={[s.safe, { backgroundColor: theme.bg.primary }]} edges={['top', 'bottom']}>
+      <TabletFrame>
       <ScrollView
         style={s.scroll}
         contentContainerStyle={s.content}
@@ -426,6 +428,7 @@ export default function ResultScreen() {
 
       {/* ── F13.6: Rating modal on 3rd game ── */}
       <RatingModal visible={showRating} onClose={() => setShowRating(false)} />
+      </TabletFrame>
     </SafeAreaView>
   )
 }

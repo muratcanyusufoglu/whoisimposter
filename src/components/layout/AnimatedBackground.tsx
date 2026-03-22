@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { View, StyleSheet, Dimensions } from 'react-native'
+import { View, StyleSheet, useWindowDimensions } from 'react-native'
 import Animated, {
   useSharedValue,
   useAnimatedStyle,
@@ -26,9 +26,8 @@ import { useReducedMotion } from '@/hooks/useReducedMotion'
 // pointerEvents="none" ensures it never intercepts user touches.
 // ─────────────────────────────────────────────────────────────────────────────
 
-const { width: W, height: H } = Dimensions.get('screen')
-
 export function AnimatedBackground() {
+  const { width: W, height: H } = useWindowDimensions()
   const { theme, themeId } = useTheme()
   const reducedMotion = useReducedMotion()
 

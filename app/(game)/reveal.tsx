@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { View, Text, StyleSheet, Pressable } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
+import { TabletFrame } from '@/components/layout/TabletFrame'
 import { router } from 'expo-router'
 import Animated, {
   useSharedValue,
@@ -153,6 +154,7 @@ export default function RevealScreen() {
       style={[s.safe, { backgroundColor: theme.bg.primary }]}
       edges={['top', 'bottom']}
     >
+      <TabletFrame>
       {/* ── Header: player progress ── */}
       <View style={s.header}>
         <Text style={[s.progressLabel, { color: theme.text.muted }]}>
@@ -226,6 +228,7 @@ export default function RevealScreen() {
           </Pressable>
         </Animated.View>
       </View>
+      </TabletFrame>
     </SafeAreaView>
   )
 }

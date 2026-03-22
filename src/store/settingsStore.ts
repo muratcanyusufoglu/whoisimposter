@@ -3,10 +3,23 @@ import { persist, createJSONStorage } from 'zustand/middleware'
 import { safeAsyncStorage } from '@/utils/storage'
 import { ThemeId, RatingState, GameModeId, GamePreset } from '@/types'
 import { changeLanguage } from '@/i18n'
+import * as Localization from 'expo-localization'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // HELPERS
 // ─────────────────────────────────────────────────────────────────────────────
+
+const SUPPORTED_LOCALES = ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl']
+
+/** Detect device language on first launch; falls back to 'en'. */
+function getDeviceLanguage(): string {
+  try {
+    const code = Localization.getLocales()[0]?.languageCode ?? 'en'
+    return SUPPORTED_LOCALES.includes(code) ? code : 'en'
+  } catch {
+    return 'en'
+  }
+}
 
 /** Returns today's date as 'YYYY-MM-DD' in the device's LOCAL timezone. */
 function localDateString(): string {
@@ -101,7 +114,7 @@ export type SettingsStore = SettingsState & SettingsActions
 
 const DEFAULTS: SettingsState = {
   theme: 'dark',
-  language: 'en',
+  language: getDeviceLanguage(),
   soundEnabled: true,
   hapticsEnabled: true,
   onboardingCompleted: false,
@@ -228,7 +241,7 @@ export const useSettingsStore = create<SettingsStore>()(
       onRehydrateStorage: () => (state) => {
         // Mark as hydrated once AsyncStorage has been read
         state?.setHasHydrated()
-        // Sync i18next with the persisted language
+        // Sync i18next with the persisted language (or device-detected default)
         if (state?.language) {
           changeLanguage(state.language as Parameters<typeof changeLanguage>[0]).catch(() => {})
         }

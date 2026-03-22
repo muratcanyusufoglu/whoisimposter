@@ -8,9 +8,10 @@ import {
   StyleSheet,
   KeyboardAvoidingView,
   Platform,
-  Dimensions,
+  useWindowDimensions,
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
+import { TabletFrame } from '@/components/layout/TabletFrame'
 import { router, useLocalSearchParams } from 'expo-router'
 import Animated, {
   useSharedValue,
@@ -45,19 +46,30 @@ import { GameConfig, GameModeId, Player } from '@/types'
 // On START GAME: builds GameConfig → initGame() → navigate to reveal
 // ─────────────────────────────────────────────────────────────────────────────
 
-const SCREEN_WIDTH = Dimensions.get('window').width
-// 2-column grid with padding on both sides and gap between
-
 /** Free users can start this many games per calendar day. Premium = unlimited. */
 const DAILY_FREE_LIMIT = 5
 const CARD_GAP = spacing.sm
-const CARD_WIDTH = (SCREEN_WIDTH - spacing.lg * 2 - CARD_GAP) / 2
+const TABLET_BREAKPOINT = 768
+
+/** Number of category columns: 3 on tablet, 2 on phone. */
+function numCols(screenWidth: number): number {
+  return screenWidth >= TABLET_BREAKPOINT ? 3 : 2
+}
+
+/** Compute category card width for the given number of columns. */
+function computeCardWidth(screenWidth: number): number {
+  const cols = numCols(screenWidth)
+  return (screenWidth - spacing.lg * 2 - CARD_GAP * (cols - 1)) / cols
+}
 
 const TIMER_OPTIONS: Array<0 | 15 | 30 | 45 | 60 | 90> = [0, 15, 30, 45, 60, 90]
 const ROUND_OPTIONS: Array<1 | 2 | 3 | 5> = [1, 2, 3, 5]
 const SPRING = { damping: 18, stiffness: 220 }
 
 export default function SetupScreen() {
+  const { width: screenWidth } = useWindowDimensions()
+  const CARD_WIDTH = computeCardWidth(screenWidth)
+  const NUM_COLS = numCols(screenWidth)
   const { theme } = useTheme()
   const { t } = useTranslation()
   const haptics = useHaptics()
@@ -349,6 +361,7 @@ export default function SetupScreen() {
       style={[styles.safeArea, { backgroundColor: theme.bg.primary }]}
       edges={['top', 'bottom']}
     >
+      <TabletFrame>
       {/* ── Header ──────────────────────────────────────────────────────────── */}
       <View style={styles.header}>
         <TouchableOpacity
@@ -637,8 +650,8 @@ export default function SetupScreen() {
                 </Text>
               )}
 
-              {/* 2-column grid */}
-              <View style={styles.categoryGrid}>
+              {/* 2-column grid (3 on tablet) */}
+              <View style={[styles.categoryGrid, NUM_COLS === 3 && styles.categoryGrid3col]}>
                 {CATEGORIES.map((cat) => (
                   <CategoryCard
                     key={cat.id}
@@ -745,6 +758,7 @@ export default function SetupScreen() {
         defaultName={`${t(mode.nameKey)} ${players.length}p`}
         isAtMax={atPresetMax}
       />
+      </TabletFrame>
     </SafeAreaView>
   )
 }
@@ -956,6 +970,10 @@ const styles = StyleSheet.create({
   categoryGrid: {
     flexDirection: 'row',
     flexWrap: 'wrap',
+    gap: CARD_GAP,
+  },
+  categoryGrid3col: {
+    // Tablet: tighter gap between 3 columns looks cleaner
     gap: CARD_GAP,
   },
   advancedToggle: {

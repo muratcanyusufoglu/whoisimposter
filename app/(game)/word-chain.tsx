@@ -9,6 +9,7 @@ import {
   KeyboardAvoidingView,
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
+import { TabletFrame } from '@/components/layout/TabletFrame'
 import { router } from 'expo-router'
 import Animated, {
   useSharedValue,
@@ -205,6 +206,7 @@ export default function WordChainScreen() {
       style={[styles.safeArea, { backgroundColor: theme.bg.primary }]}
       edges={['top', 'bottom']}
     >
+      <TabletFrame>
       {/* Header */}
       <View style={styles.header}>
         <TouchableOpacity
@@ -348,6 +350,7 @@ export default function WordChainScreen() {
           </View>
         </KeyboardAvoidingView>
       )}
+      </TabletFrame>
     </SafeAreaView>
   )
 }

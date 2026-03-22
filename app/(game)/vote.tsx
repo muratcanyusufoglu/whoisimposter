@@ -1,6 +1,7 @@
 import { useState, useCallback, useRef } from 'react'
 import { View, Text, StyleSheet, ScrollView, Pressable } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
+import { TabletFrame } from '@/components/layout/TabletFrame'
 import { router } from 'expo-router'
 import Animated, {
   useSharedValue,
@@ -95,7 +96,7 @@ export default function VoteScreen() {
 
   return (
     <SafeAreaView style={[s.safe, { backgroundColor: theme.bg.primary }]} edges={['top', 'bottom']}>
-
+      <TabletFrame>
       {/* ── Header ── */}
       <View style={s.header}>
         <Text style={[s.title, { color: theme.text.primary }]}>
@@ -194,7 +195,7 @@ export default function VoteScreen() {
           </Pressable>
         ) : null}
       </View>
-
+      </TabletFrame>
     </SafeAreaView>
   )
 }
