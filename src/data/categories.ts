@@ -15,7 +15,7 @@ export const CATEGORIES: Category[] = [
     descriptionKey: 'categories.food_desc',
     isPremium: false,
     minAge: 4,
-    wordCount: { en: 57, tr: 57, de: 52, fr: 52, es: 52, pt: 52, ru: 52, ar: 52, it: 52, nl: 52 },
+    wordCount: { en: 87, tr: 87, de: 87, fr: 87, es: 87, pt: 87, ru: 87, ar: 87, it: 87, nl: 87 },
     availableLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl'],
   },
   {
@@ -25,7 +25,7 @@ export const CATEGORIES: Category[] = [
     descriptionKey: 'categories.animals_desc',
     isPremium: false,
     minAge: 4,
-    wordCount: { en: 57, tr: 60, de: 52, fr: 52, es: 52, pt: 52, ru: 52, ar: 52, it: 52, nl: 52 },
+    wordCount: { en: 72, tr: 72, de: 72, fr: 72, es: 72, pt: 72, ru: 72, ar: 72, it: 72, nl: 72 },
     availableLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl'],
   },
   {
@@ -35,7 +35,7 @@ export const CATEGORIES: Category[] = [
     descriptionKey: 'categories.sports_desc',
     isPremium: false,
     minAge: 4,
-    wordCount: { en: 57, tr: 58, de: 52, fr: 52, es: 52, pt: 52, ru: 52, ar: 53, it: 52, nl: 52 },
+    wordCount: { en: 66, tr: 66, de: 66, fr: 66, es: 66, pt: 66, ru: 66, ar: 66, it: 66, nl: 66 },
     availableLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl'],
   },
   {
@@ -45,7 +45,7 @@ export const CATEGORIES: Category[] = [
     descriptionKey: 'categories.jobs_desc',
     isPremium: false,
     minAge: 4,
-    wordCount: { en: 57, tr: 57, de: 52, fr: 52, es: 52, pt: 52, ru: 52, ar: 52, it: 52, nl: 52 },
+    wordCount: { en: 63, tr: 63, de: 63, fr: 63, es: 63, pt: 63, ru: 63, ar: 63, it: 63, nl: 63 },
     availableLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl'],
   },
   {
@@ -55,7 +55,7 @@ export const CATEGORIES: Category[] = [
     descriptionKey: 'categories.countries_desc',
     isPremium: false,
     minAge: 4,
-    wordCount: { en: 57, tr: 57, de: 52, fr: 52, es: 52, pt: 52, ru: 52, ar: 52, it: 52, nl: 52 },
+    wordCount: { en: 60, tr: 60, de: 60, fr: 60, es: 60, pt: 60, ru: 60, ar: 60, it: 60, nl: 60 },
     availableLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl'],
   },
   {
@@ -65,7 +65,7 @@ export const CATEGORIES: Category[] = [
     descriptionKey: 'categories.movies_desc',
     isPremium: false,
     minAge: 4,
-    wordCount: { en: 57, tr: 57, de: 52, fr: 52, es: 52, pt: 52, ru: 52, ar: 52, it: 52, nl: 52 },
+    wordCount: { en: 60, tr: 60, de: 60, fr: 60, es: 60, pt: 60, ru: 60, ar: 60, it: 60, nl: 60 },
     availableLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl'],
   },
   {
@@ -75,7 +75,7 @@ export const CATEGORIES: Category[] = [
     descriptionKey: 'categories.music_desc',
     isPremium: false,
     minAge: 4,
-    wordCount: { en: 57, tr: 57, de: 52, fr: 52, es: 52, pt: 52, ru: 53, ar: 52, it: 52, nl: 52 },
+    wordCount: { en: 60, tr: 60, de: 60, fr: 60, es: 60, pt: 60, ru: 60, ar: 60, it: 60, nl: 60 },
     availableLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl'],
   },
   {
@@ -85,7 +85,7 @@ export const CATEGORIES: Category[] = [
     descriptionKey: 'categories.objects_desc',
     isPremium: false,
     minAge: 4,
-    wordCount: { en: 57, tr: 57, de: 52, fr: 52, es: 52, pt: 52, ru: 52, ar: 52, it: 52, nl: 52 },
+    wordCount: { en: 60, tr: 60, de: 60, fr: 60, es: 60, pt: 60, ru: 60, ar: 60, it: 60, nl: 60 },
     availableLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl'],
   },
   {
@@ -95,7 +95,7 @@ export const CATEGORIES: Category[] = [
     descriptionKey: 'categories.nature_desc',
     isPremium: false,
     minAge: 4,
-    wordCount: { en: 57, tr: 57, de: 52, fr: 52, es: 52, pt: 52, ru: 52, ar: 52, it: 52, nl: 52 },
+    wordCount: { en: 60, tr: 60, de: 60, fr: 60, es: 60, pt: 60, ru: 60, ar: 60, it: 60, nl: 60 },
     availableLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl'],
   },
   {
@@ -105,7 +105,7 @@ export const CATEGORIES: Category[] = [
     descriptionKey: 'categories.hobbies_desc',
     isPremium: false,
     minAge: 4,
-    wordCount: { en: 57, tr: 57, de: 52, fr: 52, es: 52, pt: 52, ru: 52, ar: 52, it: 52, nl: 52 },
+    wordCount: { en: 60, tr: 60, de: 60, fr: 60, es: 60, pt: 60, ru: 60, ar: 60, it: 60, nl: 60 },
     availableLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl'],
   },
 
