@@ -239,17 +239,17 @@ export function PaywallModal({ visible, onClose, onDismiss, reason = 'premium' }
             loading={isLoading}
             onPress={handlePurchase}
             accessibilityLabel={
-              prices.trialDays != null
+              selectedPlan === 'monthly' && prices.trialDays != null
                 ? t('paywall.cta', { days: prices.trialDays })
                 : t('paywall.ctaNoTrial')
             }
           >
-            {prices.trialDays != null
+            {selectedPlan === 'monthly' && prices.trialDays != null
               ? t('paywall.cta', { days: prices.trialDays })
               : t('paywall.ctaNoTrial')}
           </Button>
 
-          {/* Social proof */}
+          {/* Social proof 
           <Text
             style={[
               styles.socialProof,
@@ -258,7 +258,7 @@ export function PaywallModal({ visible, onClose, onDismiss, reason = 'premium' }
           >
             ⭐⭐⭐⭐⭐ 4.8 · 18K {t('paywall.ratings')}
           </Text>
-
+          */}
           {/* Footer links */}
           <View style={styles.footerLinks}>
             <Text
@@ -375,15 +375,26 @@ function PlanCard({
   const isYearly = id === 'yearly'
   const periodKey = isYearly ? 'paywall.yearly' : 'paywall.monthly'
 
-  // Use live RC price if available, fall back to i18n string
-  const displayPrice = isYearly
-    ? (prices.yearlyPerMonth ? `${prices.yearlyPerMonth} / mo` : t('paywall.yearlyPrice'))
-    : (prices.monthly       ? `${prices.monthly} / mo`        : t('paywall.monthlyPrice'))
+  // Apple 3.1.2(c): billed amount must be most prominent pricing element.
+  // Yearly → big = total billed (yearlyTotal) + "/ yr", small = per-month calc
+  // Monthly → big = monthly price + "/ mo"
+  const billedAmount = isYearly
+    ? `${prices.yearlyTotal ?? t('paywall.yearlyPrice')} ${t('paywall.perYear')}`
+    : `${prices.monthly ?? t('paywall.monthlyPrice')} ${t('paywall.perMonth')}`
+
+  const perMonthNote = isYearly && prices.yearlyPerMonth
+    ? `${prices.yearlyPerMonth} ${t('paywall.perMonth')}`
+    : null
 
   // Use live save % if available
   const saveLine = isYearly && prices.yearlySavePct != null
     ? t('paywall.savings', { percent: prices.yearlySavePct })
     : isYearly ? t('paywall.savePct') : null
+
+  // Free trial badge for monthly card
+  const trialLine = !isYearly && prices.trialDays != null
+    ? t('paywall.freeTrial', { days: prices.trialDays })
+    : null
 
   return (
     <Animated.View style={animStyle}>
@@ -399,21 +410,20 @@ function PlanCard({
         accessibilityRole="radio"
         accessibilityState={{ selected }}
       >
-        {/* Best value badge */}
+        {/* Best value badge (yearly) */}
         {isYearly && (
-          <View
-            style={[
-              styles.bestValueBadge,
-              { backgroundColor: theme.accent.primary },
-            ]}
-          >
-            <Text
-              style={[
-                styles.bestValueText,
-                { color: theme.text.onPrimary, fontFamily: fontFamily.bodyBold },
-              ]}
-            >
+          <View style={[styles.bestValueBadge, { backgroundColor: theme.accent.primary }]}>
+            <Text style={[styles.bestValueText, { color: theme.text.onPrimary, fontFamily: fontFamily.bodyBold }]}>
               {t('paywall.bestValue')}
+            </Text>
+          </View>
+        )}
+
+        {/* Free trial badge (monthly) */}
+        {trialLine != null && (
+          <View style={[styles.bestValueBadge, { backgroundColor: theme.status.success }]}>
+            <Text style={[styles.bestValueText, { color: '#fff', fontFamily: fontFamily.bodyBold }]}>
+              {trialLine}
             </Text>
           </View>
         )}
@@ -458,14 +468,27 @@ function PlanCard({
           </View>
         </View>
 
-        <Text
-          style={[
-            styles.planPrice,
-            { color: theme.text.primary, fontFamily: fontFamily.displayBold },
-          ]}
-        >
-          {displayPrice}
-        </Text>
+        {/* Right side: billed amount (big) + per-month note (small) */}
+        <View style={styles.planRight}>
+          <Text
+            style={[
+              styles.planPrice,
+              { color: theme.text.primary, fontFamily: fontFamily.displayBold },
+            ]}
+          >
+            {billedAmount}
+          </Text>
+          {perMonthNote != null && (
+            <Text
+              style={[
+                styles.planPerMonth,
+                { color: theme.text.muted, fontFamily: fontFamily.body },
+              ]}
+            >
+              {perMonthNote}
+            </Text>
+          )}
+        </View>
       </TouchableOpacity>
     </Animated.View>
   )
@@ -596,8 +619,15 @@ const styles = StyleSheet.create({
   planSave: {
     fontSize: fontSize.sm,
   },
+  planRight: {
+    alignItems: 'flex-end',
+  },
   planPrice: {
-    fontSize: fontSize.lg,
+    fontSize: fontSize['2xl'],
+  },
+  planPerMonth: {
+    fontSize: fontSize.xs,
+    marginTop: 1,
   },
   socialProof: {
     fontSize: fontSize.sm,

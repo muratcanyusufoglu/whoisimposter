@@ -208,13 +208,19 @@ export const useSubscriptionStore = create<SubscriptionStore>()((set) => ({
       const ydMonth = yd ? yd.price / 12 : 0
       const cc = m?.currencyCode ?? y?.currencyCode ?? 'USD'
 
+      // RC returns introductoryPrice: null on simulator + WAITING_FOR_REVIEW products.
+      // Fall back to the known App Store Connect configuration (3-day free trial on monthly).
+      const MONTHLY_TRIAL_DAYS_FALLBACK = 3
+      const trialDays = m?.introductoryPrice
+        ? (calcTrialDays(m.introductoryPrice) ?? MONTHLY_TRIAL_DAYS_FALLBACK)
+        : MONTHLY_TRIAL_DAYS_FALLBACK
       const prices: SubscriptionPrices = {
         monthly:                 m  ? m.priceString  : null,
         yearlyTotal:             y  ? y.priceString  : null,
         yearlyPerMonth:          y  ? formatPerMonth(y.price,  y.currencyCode  ?? cc) : null,
         yearlyDiscountTotal:     yd ? yd.priceString : null,
         yearlyDiscountPerMonth:  yd ? formatPerMonth(yd.price, yd.currencyCode ?? cc) : null,
-        trialDays:               m?.introductoryPrice ? calcTrialDays(m.introductoryPrice) : null,
+        trialDays,
         yearlySavePct:           mPrice > 0 && yMonth  > 0 ? Math.round((1 - yMonth  / mPrice) * 100) : null,
         discountSavePct:         mPrice > 0 && ydMonth > 0 ? Math.round((1 - ydMonth / mPrice) * 100) : null,
       }

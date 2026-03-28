@@ -209,30 +209,24 @@ export function DiscountPaywallModal({ visible, onClose }: DiscountPaywallModalP
             {/* Divider */}
             <View style={[styles.priceDivider, { backgroundColor: theme.border.subtle }]} />
 
-            {/* Discount price — highlighted (live per-month from RC) */}
+            {/* Discount price — Apple 3.1.2(c): billed total must be most prominent */}
             <View style={styles.priceRow}>
               <Text style={[styles.priceLabel, { color: theme.text.secondary, fontFamily: fontFamily.bodyBold }]}>
                 {t('discountPaywall.discountPriceLabel')}
               </Text>
-              <Animated.Text
-                style={[
-                  styles.discountPrice,
-                  { color: theme.accent.warm, fontFamily: fontFamily.displayBold },
-                  priceStyle,
-                ]}
-              >
-                {prices.yearlyDiscountPerMonth
-                  ? `${prices.yearlyDiscountPerMonth} / mo`
-                  : t('discountPaywall.discountPrice')}
-              </Animated.Text>
+              <Animated.View style={[styles.discountPriceCol, priceStyle]}>
+                {/* Big: total billed amount + period */}
+                <Text style={[styles.discountPrice, { color: theme.accent.warm, fontFamily: fontFamily.displayBold }]}>
+                  {`${prices.yearlyDiscountTotal ?? '$19.99'} ${t('paywall.perYear')}`}
+                </Text>
+                {/* Small: per-month equivalent */}
+                <Text style={[styles.discountPerMonth, { color: theme.text.muted, fontFamily: fontFamily.body }]}>
+                  {prices.yearlyDiscountPerMonth
+                    ? `${prices.yearlyDiscountPerMonth} / mo`
+                    : t('discountPaywall.discountPrice')}
+                </Text>
+              </Animated.View>
             </View>
-
-            {/* Billed annually note — live total from RC */}
-            <Text style={[styles.billedNote, { color: theme.text.muted, fontFamily: fontFamily.body }]}>
-              {prices.yearlyDiscountTotal
-                ? t('discountPaywall.billedAnnually', { total: prices.yearlyDiscountTotal })
-                : t('discountPaywall.billedAnnually', { total: '$19.99' })}
-            </Text>
           </View>
 
           {/* CTA button */}
@@ -366,14 +360,16 @@ const styles = StyleSheet.create({
     height: 1,
     width: '100%',
   },
+  discountPriceCol: {
+    alignItems: 'flex-end',
+  },
   discountPrice: {
     fontSize: fontSize['2xl'],
     letterSpacing: -0.5,
   },
-  billedNote: {
+  discountPerMonth: {
     fontSize: fontSize.xs,
-    textAlign: 'center',
-    marginTop: spacing.xs,
+    marginTop: 1,
   },
   declineBtn: {
     marginTop: spacing.xs,
