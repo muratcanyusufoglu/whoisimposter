@@ -27,6 +27,7 @@ export const gameEngine = {
       locale,
       soundEnabled,
       hapticsEnabled,
+      customWords,
     } = config
 
     // Validate player list
@@ -38,7 +39,7 @@ export const gameEngine = {
     // Pick secret word (imposter mode only)
     const secretWord =
       mode === 'imposter'
-        ? wordSelector.pick(selectedCategories, locale, [])
+        ? wordSelector.pick(selectedCategories, locale, [], customWords)
         : ''
 
     // Assign imposters (imposter mode only)
@@ -66,6 +67,7 @@ export const gameEngine = {
       timerSeconds,
       impostersCount,
       selectedCategories,
+      customWords: customWords ?? [],
       locale,
       imposterGuessedCorrectly: null,
       usedWords: secretWord ? [secretWord] : [],
@@ -112,6 +114,7 @@ export const gameEngine = {
       state.selectedCategories,
       state.locale,
       usedWords,
+      state.customWords,
     )
     const imposterIds = imposterLogic.assignImposters(
       state.players,

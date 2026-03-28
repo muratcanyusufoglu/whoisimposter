@@ -166,13 +166,14 @@
     "dailyLimitTitle": "Limite Giornaliero Raggiunto",
     "dailyLimitSubtitle": "Hai giocato 5 partite gratuite oggi. Passa al PRO per giocare senza limiti!",
     "ctaNoTrial": "Ottieni PRO ora",
-    "headline": "Festeggia come\nun PRO",
-    "subheadline": "Tutto ciò che la tua serata merita",
+    "headline": "Le tue feste meritano di più.",
+    "subheadline": "Tutti i giochi. Nessun limite. Solo divertimento.",
     "noPaymentToday": "Nessun pagamento oggi · Annulla quando vuoi",
     "yearlyBilled": "Fatturato {{price}}/anno",
     "perMonth": "/ mese",
     "perYear": "/ anno",
-    "freeTrial": "{{days}} giorni di prova gratuita"
+    "freeTrial": "{{days}} giorni di prova gratuita",
+    "heroTag": "🎭 PRO"
   },
   "rating": {
     "title": "Ti sta piacendo il gioco?",
@@ -548,7 +549,8 @@
     "players_count": "{{min}}–{{max}} giocatori",
     "minutes": "{{range}} min",
     "home": "Home",
-    "settings": "Impostazioni"
+    "settings": "Impostazioni",
+    "save": "Salva"
   },
   "howToPlay": {
     "title": "Come si gioca",
@@ -568,5 +570,13 @@
     "decline": "No grazie, pagherò il prezzo pieno",
     "restore": "Ripristina acquisti",
     "close": "Chiudi"
+  },
+  "customWords": {
+    "title": "La mia lista",
+    "placeholder": "Aggiungi parola...",
+    "wordCount": "{{count}} parole",
+    "emptyHint": "Aggiungi almeno {{min}} parole",
+    "needMore": "Mancano ancora {{count}} parole",
+    "empty": "Nessuna parola. Inizia ad aggiungere!"
   }
 }

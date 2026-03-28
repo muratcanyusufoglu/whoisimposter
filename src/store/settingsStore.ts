@@ -66,6 +66,9 @@ interface SettingsState {
   customAccentColor: string
   customThemeBase: Exclude<ThemeId, 'custom'>
 
+  // Feature: Custom Words
+  customWords: string[]
+
   // Feature: Notifications
   notificationsEnabled: boolean
   discountNotificationId: string | null  // null = not yet scheduled
@@ -101,6 +104,9 @@ interface SettingsActions {
   setCustomAccentColor: (color: string) => void
   setCustomThemeBase: (base: Exclude<ThemeId, 'custom'>) => void
 
+  // Feature: Custom Words
+  setCustomWords: (words: string[]) => void
+
   // Feature: Notifications
   setNotificationsEnabled: (enabled: boolean) => void
   setDiscountNotificationId: (id: string | null) => void
@@ -131,6 +137,7 @@ const DEFAULTS: SettingsState = {
   gamePresets: [],
   customAccentColor: '#6C63FF',
   customThemeBase: 'dark',
+  customWords: [],
   notificationsEnabled: false,
   discountNotificationId: null,
   _hasHydrated: false,
@@ -227,6 +234,7 @@ export const useSettingsStore = create<SettingsStore>()(
       setCustomThemeBase: (customThemeBase) => set({ customThemeBase }),
 
       // Feature: Notifications
+      setCustomWords: (customWords) => set({ customWords }),
       setNotificationsEnabled: (notificationsEnabled) => set({ notificationsEnabled }),
       setDiscountNotificationId: (discountNotificationId) => set({ discountNotificationId }),
     }),

@@ -166,13 +166,14 @@
     "dailyLimitTitle": "Daglimiet Bereikt",
     "dailyLimitSubtitle": "Je hebt vandaag 5 gratis spellen gespeeld. Upgrade naar PRO voor onbeperkt spelen!",
     "ctaNoTrial": "Nu PRO worden",
-    "headline": "Feest zoals\neen PRO",
-    "subheadline": "Alles wat je spelavond verdient",
+    "headline": "Jullie feestjes verdienen beter.",
+    "subheadline": "Alle spellen. Geen limieten. Gewoon plezier.",
     "noPaymentToday": "Geen betaling vandaag · Annuleer wanneer je wilt",
     "yearlyBilled": "Gefactureerd {{price}}/jaar",
     "perMonth": "/ mnd",
     "perYear": "/ jaar",
-    "freeTrial": "{{days}} dagen gratis proberen"
+    "freeTrial": "{{days}} dagen gratis proberen",
+    "heroTag": "🎭 PRO"
   },
   "rating": {
     "title": "Geniet je van het spel?",
@@ -548,7 +549,8 @@
     "players_count": "{{min}}–{{max}} spelers",
     "minutes": "{{range}} min",
     "home": "Home",
-    "settings": "Instellingen"
+    "settings": "Instellingen",
+    "save": "Opslaan"
   },
   "howToPlay": {
     "title": "Hoe te spelen",
@@ -568,5 +570,13 @@
     "decline": "Nee bedankt, ik betaal de volle prijs",
     "restore": "Aankopen herstellen",
     "close": "Sluiten"
+  },
+  "customWords": {
+    "title": "Mijn lijst",
+    "placeholder": "Woord toevoegen...",
+    "wordCount": "{{count}} woorden",
+    "emptyHint": "Voeg minimaal {{min}} woorden toe",
+    "needMore": "Nog {{count}} woorden nodig",
+    "empty": "Nog geen woorden. Begin te voegen!"
   }
 }

@@ -365,8 +365,8 @@ export const wordSelector = {
    * Falls back to 'en' if the locale has no list for a category.
    * If all words are exhausted, the pool resets (all words eligible again).
    */
-  pick(categoryIds: string[], locale: string, usedWords: string[]): string {
-    const pool = this.buildPool(categoryIds, locale)
+  pick(categoryIds: string[], locale: string, usedWords: string[], customWords?: string[]): string {
+    const pool = this.buildPool(categoryIds, locale, customWords)
 
     if (pool.length === 0) return ''
 
@@ -382,13 +382,23 @@ export const wordSelector = {
    * Build the full word pool for given categories and locale.
    * Merges words from all selected categories.
    * Falls back to EN if the locale doesn't have a list for a given category.
+   * If 'custom' is in categoryIds, injects the user's customWords.
    */
-  buildPool(categoryIds: string[], locale: string): string[] {
+  buildPool(categoryIds: string[], locale: string, customWords?: string[]): string[] {
     const pool: string[] = []
     const seen = new Set<string>()
     const localeMap = ALL_LISTS[locale] ?? ALL_LISTS['en']
 
     for (const catId of categoryIds) {
+      if (catId === 'custom') {
+        for (const word of (customWords ?? [])) {
+          const key = word.trim().toLowerCase()
+          if (!key || seen.has(key)) continue
+          seen.add(key)
+          pool.push(word.trim())
+        }
+        continue
+      }
       const list = localeMap?.[catId] ?? EN_LISTS[catId]
       if (list?.words) {
         for (const word of list.words) {

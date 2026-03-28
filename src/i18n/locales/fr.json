@@ -166,13 +166,14 @@
     "dailyLimitTitle": "Limite Quotidienne Atteinte",
     "dailyLimitSubtitle": "Vous avez joué 5 parties gratuites aujourd'hui. Passez PRO pour jouer sans limite !",
     "ctaNoTrial": "Obtenir PRO maintenant",
-    "headline": "Faites la Fête\nen PRO",
-    "subheadline": "Tout ce que votre soirée mérite",
+    "headline": "Vos soirées méritent mieux.",
+    "subheadline": "Tous les jeux. Sans limites. Que du fun.",
     "noPaymentToday": "Pas de paiement aujourd'hui · Annulez quand vous voulez",
     "yearlyBilled": "Facturé {{price}}/an",
     "perMonth": "/ mois",
     "perYear": "/ an",
-    "freeTrial": "{{days}} jours d'essai gratuit"
+    "freeTrial": "{{days}} jours d'essai gratuit",
+    "heroTag": "🎭 PRO"
   },
   "rating": {
     "title": "Vous appréciez le jeu ?",
@@ -548,7 +549,8 @@
     "players_count": "{{min}}–{{max}} joueurs",
     "minutes": "{{range}} min",
     "home": "Accueil",
-    "settings": "Paramètres"
+    "settings": "Paramètres",
+    "save": "Enregistrer"
   },
   "howToPlay": {
     "title": "Comment jouer",
@@ -568,5 +570,13 @@
     "decline": "Non merci, je paierai le plein tarif",
     "restore": "Restaurer les achats",
     "close": "Fermer"
+  },
+  "customWords": {
+    "title": "Ma liste",
+    "placeholder": "Ajouter un mot...",
+    "wordCount": "{{count}} mots",
+    "emptyHint": "Ajoute au moins {{min}} mots",
+    "needMore": "Encore {{count}} mots nécessaires",
+    "empty": "Aucun mot. Commences à ajouter!"
   }
 }

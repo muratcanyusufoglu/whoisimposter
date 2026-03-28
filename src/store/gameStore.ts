@@ -53,6 +53,7 @@ const INITIAL_STATE: GameStoreState = {
   imposterGuessedCorrectly: null,
   usedWords: [],
   startedAt: 0,
+  customWords: [],
 
   lastVoteResult: null,
 }

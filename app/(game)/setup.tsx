@@ -38,6 +38,7 @@ import { DiscountPaywallModal } from '@/components/modals/DiscountPaywallModal'
 import { HowToPlayModal } from '@/components/modals/HowToPlayModal'
 import { EmojiPickerModal } from '@/components/modals/EmojiPickerModal'
 import { SavePresetModal } from '@/components/modals/SavePresetModal'
+import { CustomWordsModal } from '@/components/modals/CustomWordsModal'
 import { GameConfig, GameModeId, Player } from '@/types'
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -80,6 +81,7 @@ export default function SetupScreen() {
 
   // Stores
   const language = useSettingsStore((s) => s.language)
+  const customWords = useSettingsStore((s) => s.customWords)
   const soundEnabled = useSettingsStore((s) => s.soundEnabled)
   const hapticsEnabled = useSettingsStore((s) => s.hapticsEnabled)
   const lastPlayerNames = useSettingsStore((s) => s.lastPlayerNames)
@@ -138,6 +140,7 @@ export default function SetupScreen() {
 
   // Save preset modal state
   const [savePresetVisible, setSavePresetVisible] = useState(false)
+  const [customWordsVisible, setCustomWordsVisible] = useState(false)
   const atPresetMax = gamePresets.length >= 10
 
   const inputRef = useRef<TextInput>(null)
@@ -227,6 +230,12 @@ export default function SetupScreen() {
         setPaywallVisible(true)
         return
       }
+      // Custom list: open word manager instead of toggling directly
+      if (catId === 'custom') {
+        haptics.light()
+        setCustomWordsVisible(true)
+        return
+      }
       haptics.selection()
       setSelectedCategories((prev) =>
         prev.includes(catId) ? prev.filter((id) => id !== catId) : [...prev, catId],
@@ -298,6 +307,7 @@ export default function SetupScreen() {
       soundEnabled,
       hapticsEnabled,
       locale: language,
+      customWords,
     }
 
     initGame(config)
@@ -744,6 +754,20 @@ export default function SetupScreen() {
         onClose={() => {
           setEmojiPickerVisible(false)
           setEmojiTarget(null)
+        }}
+      />
+
+      {/* Custom words modal */}
+      <CustomWordsModal
+        visible={customWordsVisible}
+        onClose={() => {
+          setCustomWordsVisible(false)
+          // Auto-select custom category after saving (if has enough words)
+          setSelectedCategories((prev) =>
+            customWords.length >= 5 && !prev.includes('custom')
+              ? [...prev, 'custom']
+              : prev,
+          )
         }}
       />
 

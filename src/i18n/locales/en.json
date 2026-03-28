@@ -166,13 +166,14 @@
     "dailyLimitTitle": "Daily Limit Reached",
     "dailyLimitSubtitle": "You've played 5 free games today. Upgrade to PRO for unlimited play!",
     "ctaNoTrial": "Get PRO Now",
-    "headline": "Party Like\na PRO",
-    "subheadline": "Everything your game night deserves",
+    "headline": "Your parties deserve better.",
+    "subheadline": "All games. No limits. Just fun.",
     "noPaymentToday": "No payment today · Cancel anytime",
     "yearlyBilled": "Billed {{price}}/year",
     "perMonth": "/ mo",
     "perYear": "/ yr",
-    "freeTrial": "{{days}}-Day Free Trial"
+    "freeTrial": "{{days}}-Day Free Trial",
+    "heroTag": "🎭 PRO"
   },
   "rating": {
     "title": "Enjoying the game?",
@@ -552,7 +553,8 @@
     "players_count": "{{min}}–{{max}} players",
     "minutes": "{{range}} min",
     "home": "Home",
-    "settings": "Settings"
+    "settings": "Settings",
+    "save": "Save"
   },
   "discountPaywall": {
     "tag": "Special Offer",
@@ -568,5 +570,13 @@
     "decline": "No thanks, I'll pay full price",
     "restore": "Restore Purchases",
     "close": "Close"
+  },
+  "customWords": {
+    "title": "My Custom List",
+    "placeholder": "Add a word...",
+    "wordCount": "{{count}} words",
+    "emptyHint": "Add at least {{min}} words to use this category",
+    "needMore": "{{count}} more needed",
+    "empty": "No words yet. Start adding!"
   }
 }

@@ -166,13 +166,14 @@
     "dailyLimitTitle": "Tageslimit Erreicht",
     "dailyLimitSubtitle": "Du hast heute 5 kostenlose Spiele gespielt. Werde PRO für unbegrenztes Spielen!",
     "ctaNoTrial": "Jetzt PRO werden",
-    "headline": "Party wie\nein PRO",
-    "subheadline": "Alles was dein Spieleabend verdient",
+    "headline": "Deine Partys verdienen Besseres.",
+    "subheadline": "Alle Spiele. Keine Grenzen. Nur Spaß.",
     "noPaymentToday": "Keine Zahlung heute · Jederzeit kündigen",
     "yearlyBilled": "Jährlich {{price}} abgerechnet",
     "perMonth": "/ Mo.",
     "perYear": "/ Jahr",
-    "freeTrial": "{{days}} Tage kostenlos testen"
+    "freeTrial": "{{days}} Tage kostenlos testen",
+    "heroTag": "🎭 PRO"
   },
   "rating": {
     "title": "Macht dir das Spiel Spaß?",
@@ -548,7 +549,8 @@
     "players_count": "{{min}}–{{max}} Spieler",
     "minutes": "{{range}} Min.",
     "home": "Startseite",
-    "settings": "Einstellungen"
+    "settings": "Einstellungen",
+    "save": "Speichern"
   },
   "howToPlay": {
     "title": "Spielanleitung",
@@ -568,5 +570,13 @@
     "decline": "Nein danke, ich zahle den vollen Preis",
     "restore": "Käufe wiederherstellen",
     "close": "Schließen"
+  },
+  "customWords": {
+    "title": "Meine Liste",
+    "placeholder": "Wort hinzufügen...",
+    "wordCount": "{{count}} Wörter",
+    "emptyHint": "Füge mindestens {{min}} Wörter hinzu",
+    "needMore": "Noch {{count}} Wörter nötig",
+    "empty": "Noch keine Wörter. Fang an!"
   }
 }

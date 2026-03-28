@@ -166,13 +166,14 @@
     "dailyLimitTitle": "وصلت إلى الحد اليومي",
     "dailyLimitSubtitle": "لقد لعبت 5 ألعاب مجانية اليوم. انتقل إلى PRO للعب غير المحدود!",
     "ctaNoTrial": "احصل على PRO الآن",
-    "headline": "احتفل مثل\nالمحترفين",
-    "subheadline": "كل ما تستحقه ليلتك",
+    "headline": "حفلاتك تستحق الأفضل.",
+    "subheadline": "كل الألعاب. بلا حدود. فقط المتعة.",
     "noPaymentToday": "لا دفع اليوم · إلغاء في أي وقت",
     "yearlyBilled": "يُفوتر {{price}}/سنة",
     "perMonth": "/ شهر",
     "perYear": "/ سنة",
-    "freeTrial": "تجربة مجانية {{days}} أيام"
+    "freeTrial": "تجربة مجانية {{days}} أيام",
+    "heroTag": "🎭 PRO"
   },
   "rating": {
     "title": "هل تستمتع باللعبة؟",
@@ -548,7 +549,8 @@
     "players_count": "{{min}}–{{max}} لاعب",
     "minutes": "{{range}} دقيقة",
     "home": "الرئيسية",
-    "settings": "الإعدادات"
+    "settings": "الإعدادات",
+    "save": "حفظ"
   },
   "howToPlay": {
     "title": "كيفية اللعب",
@@ -568,5 +570,13 @@
     "decline": "لا شكراً، سأدفع السعر الكامل",
     "restore": "استعادة المشتريات",
     "close": "إغلاق"
+  },
+  "customWords": {
+    "title": "قائمتي",
+    "placeholder": "أضف كلمة...",
+    "wordCount": "{{count}} كلمات",
+    "emptyHint": "أضف {{min}} كلمات على الأقل",
+    "needMore": "تحتاج {{count}} كلمات أخرى",
+    "empty": "لا كلمات بعد. ابدأ الإضافة!"
   }
 }

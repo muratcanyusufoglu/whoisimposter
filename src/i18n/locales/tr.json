@@ -166,13 +166,14 @@
     "dailyLimitTitle": "Günlük Limite Ulaştın",
     "dailyLimitSubtitle": "Bugün 5 ücretsiz oyun oynadın. Sınırsız oynamak için PRO'ya geç!",
     "ctaNoTrial": "Hemen PRO Ol",
-    "headline": "PRO Gibi\nEğlen",
-    "subheadline": "Oyun gecenizin hak ettiği her şey",
+    "headline": "Partileriniz daha iyisini hak ediyor.",
+    "subheadline": "Tüm oyunlar. Sınırsız. Sadece eğlence.",
     "noPaymentToday": "Bugün ödeme yok · İstediğinde iptal et",
     "yearlyBilled": "Yıllık {{price}} faturalandırılır",
     "perMonth": "/ ay",
     "perYear": "/ yıl",
-    "freeTrial": "{{days}} Günlük Ücretsiz Deneme"
+    "freeTrial": "{{days}} Günlük Ücretsiz Deneme",
+    "heroTag": "🎭 PRO"
   },
   "rating": {
     "title": "Oyunu beğeniyor musun?",
@@ -552,7 +553,8 @@
     "players_count": "{{min}}–{{max}} oyuncu",
     "minutes": "{{range}} dk",
     "home": "Anasayfa",
-    "settings": "Ayarlar"
+    "settings": "Ayarlar",
+    "save": "Kaydet"
   },
   "discountPaywall": {
     "tag": "Özel Teklif",
@@ -568,5 +570,13 @@
     "decline": "Hayır teşekkürler, tam fiyat öderim",
     "restore": "Satın Almaları Geri Yükle",
     "close": "Kapat"
+  },
+  "customWords": {
+    "title": "Özel Listem",
+    "placeholder": "Kelime ekle...",
+    "wordCount": "{{count}} kelime",
+    "emptyHint": "Bu kategoriyi kullanmak için en az {{min}} kelime ekle",
+    "needMore": "{{count}} kelime daha gerekli",
+    "empty": "Henüz kelime yok. Eklemeye başla!"
   }
 }

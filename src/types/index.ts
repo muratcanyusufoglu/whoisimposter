@@ -76,6 +76,7 @@ export interface GameConfig {
   soundEnabled: boolean
   hapticsEnabled: boolean
   locale: string
+  customWords?: string[]
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -100,6 +101,7 @@ export interface GameState {
   timerSeconds: 0 | 15 | 30 | 45 | 60 | 90
   impostersCount: 1 | 2
   selectedCategories: string[]
+  customWords: string[]
   locale: string
   imposterGuessedCorrectly: boolean | null
   usedWords: string[]

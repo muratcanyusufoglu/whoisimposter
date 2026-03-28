@@ -180,27 +180,36 @@ export function PaywallModal({ visible, onClose, onDismiss, reason = 'premium' }
           showsVerticalScrollIndicator={false}
           bounces={false}
         >
-          {/* Header */}
-          <Text style={styles.crown}>
-            {reason === 'dailyLimit' ? '⏰' : '🏆'}
-          </Text>
-          <Text
-            style={[
-              styles.title,
-              { color: theme.text.primary, fontFamily: fontFamily.displayBold },
-            ]}
-          >
-            {reason === 'dailyLimit' ? t('paywall.dailyLimitTitle') : t('paywall.title')}
-          </Text>
-          {reason === 'dailyLimit' && (
-            <Text
-              style={[
-                styles.dailyLimitSubtitle,
-                { color: theme.text.secondary, fontFamily: fontFamily.body },
-              ]}
-            >
-              {t('paywall.dailyLimitSubtitle')}
-            </Text>
+          {/* ── HEADER ─────────────────────────────────────────────────── */}
+          {reason === 'dailyLimit' ? (
+            <>
+              <Text style={styles.crown}>⏰</Text>
+              <Text style={[styles.headline, { color: theme.text.primary, fontFamily: fontFamily.displayBold }]}>
+                {t('paywall.dailyLimitTitle')}
+              </Text>
+              <Text style={[styles.subheadline, { color: theme.text.secondary, fontFamily: fontFamily.body }]}>
+                {t('paywall.dailyLimitSubtitle')}
+              </Text>
+            </>
+          ) : (
+            <>
+              {/* PRO tag */}
+              <View style={[styles.heroTag, { backgroundColor: theme.accent.primary }]}>
+                <Text style={[styles.heroTagText, { color: theme.text.onPrimary, fontFamily: fontFamily.displayBold }]}>
+                  {t('paywall.heroTag')}
+                </Text>
+              </View>
+
+              {/* Headline */}
+              <Text style={[styles.headline, { color: theme.text.primary, fontFamily: fontFamily.displayBold }]}>
+                {t('paywall.headline')}
+              </Text>
+
+              {/* Subheadline */}
+              <Text style={[styles.subheadline, { color: theme.text.secondary, fontFamily: fontFamily.body }]}>
+                {t('paywall.subheadline')}
+              </Text>
+            </>
           )}
 
           {/* Benefits */}
@@ -536,20 +545,31 @@ const styles = StyleSheet.create({
     gap: spacing.lg,
     alignItems: 'center',
   },
-  crown: {
-    marginBottom: -spacing.xs,
-    fontSize: 40,
+  heroTag: {
+    paddingHorizontal: spacing.lg,
+    paddingVertical: spacing.sm,
+    borderRadius: radius.full,
+    marginBottom: spacing.xs,
   },
-  title: {
+  heroTagText: {
+    fontSize: fontSize.lg,
+    letterSpacing: 1,
+  },
+  crown: {
+    fontSize: 44,
+    marginBottom: spacing.xs,
+  },
+  headline: {
     fontSize: fontSize['2xl'],
     textAlign: 'center',
     letterSpacing: -0.4,
+    lineHeight: 34,
   },
-  dailyLimitSubtitle: {
-    fontSize: fontSize.sm,
+  subheadline: {
+    fontSize: fontSize.md,
     textAlign: 'center',
-    marginTop: -spacing.sm,
-    lineHeight: 20,
+    lineHeight: 22,
+    marginTop: -spacing.xs,
   },
   benefits: {
     width: '100%',
