@@ -34,7 +34,6 @@ import { CategoryCard } from '@/components/game/CategoryCard'
 import { Button } from '@/components/ui/Button'
 import { GameImage } from '@/components/game/GameImage'
 import { PaywallModal } from '@/components/modals/PaywallModal'
-import { DiscountPaywallModal } from '@/components/modals/DiscountPaywallModal'
 import { HowToPlayModal } from '@/components/modals/HowToPlayModal'
 import { EmojiPickerModal } from '@/components/modals/EmojiPickerModal'
 import { SavePresetModal } from '@/components/modals/SavePresetModal'
@@ -91,7 +90,8 @@ export default function SetupScreen() {
   const setPlayerEmoji = useSettingsStore((s) => s.setPlayerEmoji)
   const gamePresets = useSettingsStore((s) => s.gamePresets)
   const savePreset = useSettingsStore((s) => s.savePreset)
-  const isPro = useSubscriptionStore((s) => s.isPro)
+  const isPro       = useSubscriptionStore((s) => s.isPro)
+  const showGiftBox = useSubscriptionStore((s) => s.showGiftBox)
   const dailyGamesCount = useSettingsStore((s) => s.dailyGamesCount)
   const dailyGamesDate = useSettingsStore((s) => s.dailyGamesDate)
   const incrementDailyGames = useSettingsStore((s) => s.incrementDailyGames)
@@ -131,7 +131,6 @@ export default function SetupScreen() {
   const [advancedOpen, setAdvancedOpen] = useState(false)
   const [paywallVisible, setPaywallVisible] = useState(false)
   const [paywallReason, setPaywallReason] = useState<'premium' | 'dailyLimit'>('premium')
-  const [discountPaywallVisible, setDiscountPaywallVisible] = useState(false)
   const [howToPlayVisible, setHowToPlayVisible] = useState(false)
 
   // Emoji picker state
@@ -230,10 +229,12 @@ export default function SetupScreen() {
         setPaywallVisible(true)
         return
       }
-      // Custom list: open word manager instead of toggling directly
+      // Custom list: toggle selection normally (edit via pencil icon on card)
       if (catId === 'custom') {
-        haptics.light()
-        setCustomWordsVisible(true)
+        haptics.selection()
+        setSelectedCategories((prev) =>
+          prev.includes('custom') ? prev.filter((id) => id !== 'custom') : [...prev, 'custom'],
+        )
         return
       }
       haptics.selection()
@@ -669,6 +670,7 @@ export default function SetupScreen() {
                     selected={selectedCategories.includes(cat.id)}
                     isPro={isPro}
                     onPress={() => handleCategoryPress(cat.id, cat.isPremium)}
+                    onEditPress={cat.id === 'custom' ? () => setCustomWordsVisible(true) : undefined}
                     cardWidth={CARD_WIDTH}
                     locale={language}
                   />
@@ -730,13 +732,10 @@ export default function SetupScreen() {
         visible={paywallVisible}
         reason={paywallReason}
         onClose={() => setPaywallVisible(false)}
-        onDismiss={() => setDiscountPaywallVisible(true)}
-      />
-
-      {/* Discount paywall — shown when user dismisses main paywall */}
-      <DiscountPaywallModal
-        visible={discountPaywallVisible}
-        onClose={() => setDiscountPaywallVisible(false)}
+        onDismiss={() => {
+          setPaywallVisible(false)
+          showGiftBox()
+        }}
       />
 
       {/* How to play instructions */}

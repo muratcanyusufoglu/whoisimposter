@@ -24,6 +24,7 @@ interface CategoryCardProps {
   selected: boolean
   isPro: boolean
   onPress: () => void
+  onEditPress?: () => void
   cardWidth: number
   locale: string
 }
@@ -33,6 +34,7 @@ export function CategoryCard({
   selected,
   isPro,
   onPress,
+  onEditPress,
   cardWidth,
   locale,
 }: CategoryCardProps) {
@@ -103,32 +105,45 @@ export function CategoryCard({
           </View>
         )}
 
-        {/* Bottom row: name + word count */}
-        <View style={styles.bottom}>
-          <Text
-            style={[
-              styles.name,
-              {
-                color: locked ? theme.text.muted : theme.text.primary,
-                fontFamily: fontFamily.bodyBold,
-              },
-            ]}
-            numberOfLines={1}
-          >
-            {t(category.nameKey)}
-          </Text>
+        {/* Bottom row: name + word count + optional edit button */}
+        <View style={styles.bottomRow}>
+          <View style={styles.bottom}>
+            <Text
+              style={[
+                styles.name,
+                {
+                  color: locked ? theme.text.muted : theme.text.primary,
+                  fontFamily: fontFamily.bodyBold,
+                },
+              ]}
+              numberOfLines={1}
+            >
+              {t(category.nameKey)}
+            </Text>
 
-          {wordCount > 0 && (
-            <View style={[styles.wordChip, { backgroundColor: theme.bg.elevated }]}>
-              <Text
-                style={[
-                  styles.wordCount,
-                  { color: theme.text.muted, fontFamily: fontFamily.body },
-                ]}
-              >
-                {t('setup.words', { count: wordCount })}
-              </Text>
-            </View>
+            {wordCount > 0 && (
+              <View style={[styles.wordChip, { backgroundColor: theme.bg.elevated }]}>
+                <Text
+                  style={[
+                    styles.wordCount,
+                    { color: theme.text.muted, fontFamily: fontFamily.body },
+                  ]}
+                >
+                  {t('setup.words', { count: wordCount })}
+                </Text>
+              </View>
+            )}
+          </View>
+
+          {onEditPress && !locked && (
+            <TouchableOpacity
+              onPress={onEditPress}
+              hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+              style={[styles.editBtn, { backgroundColor: theme.bg.elevated, borderColor: theme.border.default }]}
+              accessibilityLabel={t('customWords.title')}
+            >
+              <Ionicons name="pencil" size={11} color={theme.text.secondary} />
+            </TouchableOpacity>
           )}
         </View>
       </TouchableOpacity>
@@ -181,8 +196,23 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  bottomRow: {
+    flexDirection: 'row',
+    alignItems: 'flex-end',
+    justifyContent: 'space-between',
+  },
   bottom: {
     gap: 2,
+    flex: 1,
+  },
+  editBtn: {
+    width: 24,
+    height: 24,
+    borderRadius: radius.full,
+    borderWidth: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginLeft: spacing.xs,
   },
   name: {
     fontSize: fontSize.sm,

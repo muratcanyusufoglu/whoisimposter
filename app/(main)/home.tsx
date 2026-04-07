@@ -29,7 +29,6 @@ import { GameModeCard } from '@/components/game/GameModeCard'
 import { PresetCard } from '@/components/game/PresetCard'
 import { RatingModal } from '@/components/modals/RatingModal'
 import { PaywallModal } from '@/components/modals/PaywallModal'
-import { DiscountPaywallModal } from '@/components/modals/DiscountPaywallModal'
 import { AnimatedBackground } from '@/components/layout/AnimatedBackground'
 import { addNotificationResponseListener } from '@/utils/notifications'
 import { GameModeDefinition } from '@/types'
@@ -58,25 +57,26 @@ export default function HomeScreen() {
   const toggleFavoriteMode = useSettingsStore((s) => s.toggleFavoriteMode)
   const gamePresets = useSettingsStore((s) => s.gamePresets)
   const deletePreset = useSettingsStore((s) => s.deletePreset)
-  const isPro = useSubscriptionStore((s) => s.isPro)
-  const roundPhase = useGameStore((s) => s.roundPhase)
+  const isPro          = useSubscriptionStore((s) => s.isPro)
+  const showGiftBox    = useSubscriptionStore((s) => s.showGiftBox)
+  const roundPhase     = useGameStore((s) => s.roundPhase)
 
   const [ratingVisible, setRatingVisible] = useState(false)
   const [paywallVisible, setPaywallVisible] = useState(false)
-  const [discountPaywallVisible, setDiscountPaywallVisible] = useState(false)
 
   // Guard so sequence only fires once per mount
   const sequenceFiredRef = useRef(false)
 
-  // ── Notification tap → open discount paywall ──────────────────────────────
+  // ── Notification tap → open discount paywall (via global store) ───────────
+  const showDiscountPaywall = useSubscriptionStore((s) => s.showDiscountPaywall)
   useEffect(() => {
     const subscription = addNotificationResponseListener((data) => {
       if (data.type === 'discount') {
-        setDiscountPaywallVisible(true)
+        showDiscountPaywall()
       }
     })
     return () => subscription.remove()
-  }, [])
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   // ── F8.3 Modal sequence ────────────────────────────────────────────────────
   useEffect(() => {
@@ -280,13 +280,10 @@ export default function HomeScreen() {
       <PaywallModal
         visible={paywallVisible}
         onClose={() => setPaywallVisible(false)}
-        onDismiss={() => setDiscountPaywallVisible(true)}
-      />
-
-      {/* Discount paywall — shown when user dismisses main paywall */}
-      <DiscountPaywallModal
-        visible={discountPaywallVisible}
-        onClose={() => setDiscountPaywallVisible(false)}
+        onDismiss={() => {
+          setPaywallVisible(false)
+          showGiftBox()
+        }}
       />
     </SafeAreaView>
   )

@@ -1,7 +1,7 @@
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import { View, Platform } from 'react-native'
 import { GestureHandlerRootView } from 'react-native-gesture-handler'
-import { Stack } from 'expo-router'
+import { Stack, useSegments } from 'expo-router'
 import { StatusBar } from 'expo-status-bar'
 import { useFonts } from 'expo-font'
 import {
@@ -20,6 +20,8 @@ import { ThemeProvider, useTheme } from '@/theme'
 import { initI18n } from '@/i18n'
 import { REVENUECAT_API_KEY } from '@/config/revenueCat'
 import { useSubscriptionStore } from '@/store/subscriptionStore'
+import { DiscountPaywallModal } from '@/components/modals/DiscountPaywallModal'
+import { GiftBoxButton } from '@/components/ui/GiftBoxButton'
 
 // Initialize i18next synchronously before any render.
 // Language rehydration is handled by settingsStore.onRehydrateStorage.
@@ -31,8 +33,23 @@ initI18n()
 
 function RootLayoutInner() {
   const { themeId } = useTheme()
-  const checkStatus  = useSubscriptionStore((s) => s.checkStatus)
-  const fetchPrices  = useSubscriptionStore((s) => s.fetchPrices)
+  const checkStatus          = useSubscriptionStore((s) => s.checkStatus)
+  const fetchPrices          = useSubscriptionStore((s) => s.fetchPrices)
+  const discountPaywallVisible      = useSubscriptionStore((s) => s.discountPaywallVisible)
+  const hideDiscountPaywall         = useSubscriptionStore((s) => s.hideDiscountPaywall)
+  const incrementGiftBoxInteraction = useSubscriptionStore((s) => s.incrementGiftBoxInteraction)
+
+  // ── Track screen navigations to re-show gift box after threshold ───────────
+  const segments = useSegments()
+  const mountedRef = useRef(false)
+  useEffect(() => {
+    // Skip the initial mount — only count actual navigations
+    if (!mountedRef.current) {
+      mountedRef.current = true
+      return
+    }
+    incrementGiftBoxInteraction()
+  }, [segments]) // eslint-disable-line react-hooks/exhaustive-deps
 
   // ── F17.2: RevenueCat SDK init ─────────────────────────────────────────────
   useEffect(() => {
@@ -80,6 +97,13 @@ function RootLayoutInner() {
         <Stack.Screen name="(main)" options={{ animation: 'fade' }} />
         <Stack.Screen name="(game)" options={{ animation: 'slide_from_right' }} />
       </Stack>
+
+      {/* Global discount offer — gift box floats above all screens */}
+      <GiftBoxButton />
+      <DiscountPaywallModal
+        visible={discountPaywallVisible}
+        onClose={hideDiscountPaywall}
+      />
     </>
   )
 }

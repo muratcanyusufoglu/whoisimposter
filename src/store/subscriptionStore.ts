@@ -116,6 +116,16 @@ interface SubscriptionState {
   purchasingProductId: ProductId | null
   /** Live price data from RevenueCat. Null values = not yet loaded, use i18n fallbacks */
   prices: SubscriptionPrices
+  /** Whether the floating gift box button is visible (shown after main paywall dismissed) */
+  giftBoxVisible: boolean
+  /** Whether the discount paywall modal is visible (triggered by gift box or notification) */
+  discountPaywallVisible: boolean
+  /**
+   * Counts screen navigations since the gift box was last dismissed.
+   * When it reaches GIFT_BOX_RESHOW_THRESHOLD the box reappears.
+   * -1 means the gift box has never been shown yet (do not track).
+   */
+  giftBoxInteractionCount: number
 }
 
 interface SubscriptionActions {
@@ -126,6 +136,18 @@ interface SubscriptionActions {
   purchaseYearly: () => Promise<void>
   purchaseYearlyDiscount: () => Promise<void>
   restore: () => Promise<void>
+  /** Show the floating gift box button (after main paywall dismissed without purchase) */
+  showGiftBox: () => void
+  hideGiftBox: () => void
+  /** Show/hide the discount paywall (triggered by gift box tap or notification) */
+  showDiscountPaywall: () => void
+  hideDiscountPaywall: () => void
+  /**
+   * Call on every screen navigation.
+   * Once the gift box has been dismissed at least once, counts navigations
+   * and re-shows the box after GIFT_BOX_RESHOW_THRESHOLD interactions.
+   */
+  incrementGiftBoxInteraction: () => void
 }
 
 export type SubscriptionStore = SubscriptionState & SubscriptionActions
@@ -154,6 +176,9 @@ export const useSubscriptionStore = create<SubscriptionStore>()((set) => ({
   error: null,
   purchasingProductId: null,
   prices: EMPTY_PRICES,
+  giftBoxVisible: false,
+  discountPaywallVisible: false,
+  giftBoxInteractionCount: -1,
 
   // ── Check subscription status ──────────────────────────────────────────────
   checkStatus: async () => {
@@ -295,6 +320,31 @@ export const useSubscriptionStore = create<SubscriptionStore>()((set) => ({
       set({ isLoading: false, error: msg })
     }
   },
+
+  // ── Gift box (discount offer entry point) ─────────────────────────────────
+  showGiftBox: () => set({ giftBoxVisible: true }),
+  // Start counting navigations so the box can re-appear after the threshold
+  hideGiftBox: () => set({ giftBoxVisible: false, giftBoxInteractionCount: 0 }),
+
+  // ── Discount paywall ──────────────────────────────────────────────────────
+  showDiscountPaywall: () => set({ discountPaywallVisible: true }),
+  hideDiscountPaywall: () => set({ discountPaywallVisible: false }),
+
+  // ── Re-show gift box after N navigations ──────────────────────────────────
+  incrementGiftBoxInteraction: () =>
+    set((state) => {
+      // Only track after the box has been dismissed at least once
+      if (state.giftBoxInteractionCount < 0) return {}
+      // Don't track while the box is already visible or user is pro
+      if (state.giftBoxVisible || state.isPro) return {}
+
+      const GIFT_BOX_RESHOW_THRESHOLD = 3
+      const next = state.giftBoxInteractionCount + 1
+      if (next >= GIFT_BOX_RESHOW_THRESHOLD) {
+        return { giftBoxVisible: true, giftBoxInteractionCount: 0 }
+      }
+      return { giftBoxInteractionCount: next }
+    }),
 
 }))
 

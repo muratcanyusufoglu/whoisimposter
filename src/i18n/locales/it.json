@@ -141,6 +141,9 @@
     "newGame": "Nuova partita",
     "share": "Condividi risultato"
   },
+  "giftBox": {
+    "accessibilityLabel": "Offerta speciale — tocca per lo sconto"
+  },
   "paywall": {
     "title": "WHO'S THE IMPOSTER PRO",
     "benefit1": "Tutte le 20 categorie",
@@ -558,16 +561,16 @@
   },
   "discountPaywall": {
     "tag": "Offerta speciale",
-    "title": "Aspetta — un'ultima offerta.",
-    "subtitle": "Accesso PRO completo al prezzo più basso di sempre.",
+    "title": "Sblocca PRO a prezzo ridotto.",
+    "subtitle": "Accesso PRO completo a prezzo scontato.",
     "originalPriceLabel": "Prezzo normale",
     "originalPrice": "4,99 €/mese",
-    "discountPriceLabel": "Solo oggi",
+    "discountPriceLabel": "Piano annuale",
     "discountPrice": "1,67 €/mese",
     "billedAnnually": "Addebitato una volta all'anno a {{total}} $",
     "saving": "Risparmi il {{percent}}%",
     "cta": "Approfitta dell'offerta →",
-    "decline": "No grazie, pagherò il prezzo pieno",
+    "decline": "No, grazie",
     "restore": "Ripristina acquisti",
     "close": "Chiudi"
   },

@@ -141,6 +141,9 @@
     "newGame": "Новая игра",
     "share": "Поделиться результатом"
   },
+  "giftBox": {
+    "accessibilityLabel": "Специальное предложение — нажмите для скидки"
+  },
   "paywall": {
     "title": "WHO'S THE IMPOSTER PRO",
     "benefit1": "Все 20 категорий",
@@ -558,16 +561,16 @@
   },
   "discountPaywall": {
     "tag": "Специальное предложение",
-    "title": "Подождите — последнее предложение.",
-    "subtitle": "Полный PRO-доступ по самой низкой цене.",
+    "title": "Разблокируй PRO со скидкой.",
+    "subtitle": "Полный доступ к PRO по сниженной цене.",
     "originalPriceLabel": "Обычная цена",
     "originalPrice": "4,99 $/мес",
-    "discountPriceLabel": "Только сегодня",
+    "discountPriceLabel": "Годовой план",
     "discountPrice": "1,67 $/мес",
     "billedAnnually": "Списывается раз в год — {{total}} $",
     "saving": "Вы экономите {{percent}}%",
     "cta": "Получить предложение →",
-    "decline": "Нет, спасибо, заплачу полную цену",
+    "decline": "Нет, спасибо",
     "restore": "Восстановить покупки",
     "close": "Закрыть"
   },

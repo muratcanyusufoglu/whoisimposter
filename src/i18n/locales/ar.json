@@ -141,6 +141,9 @@
     "newGame": "لعبة جديدة",
     "share": "شارك النتيجة"
   },
+  "giftBox": {
+    "accessibilityLabel": "عرض خاص — اضغط للخصم"
+  },
   "paywall": {
     "title": "WHO'S THE IMPOSTER PRO",
     "benefit1": "جميع الـ20 فئة",
@@ -558,16 +561,16 @@
   },
   "discountPaywall": {
     "tag": "عرض خاص",
-    "title": "انتظر — صفقة أخيرة.",
-    "subtitle": "الوصول الكامل إلى PRO بأقل سعر على الإطلاق.",
+    "title": "افتح PRO بسعر مخفض.",
+    "subtitle": "وصول كامل لـ PRO بسعر مخفض.",
     "originalPriceLabel": "السعر العادي",
     "originalPrice": "4.99$/شهر",
-    "discountPriceLabel": "اليوم فقط",
+    "discountPriceLabel": "الخطة السنوية",
     "discountPrice": "1.67$/شهر",
     "billedAnnually": "يُحصَّل مرة واحدة سنوياً بـ {{total}}$",
     "saving": "توفر {{percent}}%",
     "cta": "احصل على الصفقة ←",
-    "decline": "لا شكراً، سأدفع السعر الكامل",
+    "decline": "لا شكراً",
     "restore": "استعادة المشتريات",
     "close": "إغلاق"
   },

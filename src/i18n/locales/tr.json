@@ -141,6 +141,9 @@
     "newGame": "Yeni Oyun",
     "share": "Sonucu Paylaş"
   },
+  "giftBox": {
+    "accessibilityLabel": "Özel teklif — indirim için dokun"
+  },
   "paywall": {
     "title": "KİM SAHTEKÂR? PRO",
     "benefit1": "Tüm 20 kategori",
@@ -558,16 +561,16 @@
   },
   "discountPaywall": {
     "tag": "Özel Teklif",
-    "title": "Dur — son bir fırsat.",
-    "subtitle": "PRO'ya şimdiye kadarki en düşük fiyatla geç.",
+    "title": "PRO'yu indirimli al.",
+    "subtitle": "İndirimli fiyatla tam PRO erişimi.",
     "originalPriceLabel": "Normal fiyat",
     "originalPrice": "₺99/ay",
-    "discountPriceLabel": "Sadece bugün",
+    "discountPriceLabel": "Yıllık Plan",
     "discountPrice": "$1,67/ay",
     "billedAnnually": "Yıllık {{total}} olarak faturalandırılır",
     "saving": "{{percent}}% tasarruf edersin",
     "cta": "Teklifi Kap →",
-    "decline": "Hayır teşekkürler, tam fiyat öderim",
+    "decline": "Hayır, teşekkürler",
     "restore": "Satın Almaları Geri Yükle",
     "close": "Kapat"
   },

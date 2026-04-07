@@ -141,6 +141,9 @@
     "newGame": "Nieuw spel",
     "share": "Resultaat delen"
   },
+  "giftBox": {
+    "accessibilityLabel": "Speciale aanbieding — tik voor korting"
+  },
   "paywall": {
     "title": "WHO'S THE IMPOSTER PRO",
     "benefit1": "Alle 20 categorieën",
@@ -558,16 +561,16 @@
   },
   "discountPaywall": {
     "tag": "Speciale aanbieding",
-    "title": "Wacht — één laatste deal.",
-    "subtitle": "Volledige PRO-toegang voor de laagste prijs ooit.",
+    "title": "Ontgrendel PRO met korting.",
+    "subtitle": "Volledige PRO-toegang voor een gereduceerde prijs.",
     "originalPriceLabel": "Normale prijs",
     "originalPrice": "€4,99/mnd",
-    "discountPriceLabel": "Alleen vandaag",
+    "discountPriceLabel": "Jaarplan",
     "discountPrice": "€1,67/mnd",
     "billedAnnually": "Eenmalig per jaar gefactureerd voor {{total}}",
     "saving": "Jij bespaart {{percent}}%",
     "cta": "Deal claimen →",
-    "decline": "Nee bedankt, ik betaal de volle prijs",
+    "decline": "Nee, bedankt",
     "restore": "Aankopen herstellen",
     "close": "Sluiten"
   },
