@@ -12,6 +12,11 @@ const PROMPTS: Record<string, PromptItem[]> = {
   ar: require('@/data/prompts/never-have-i-ever/ar.json').prompts as PromptItem[],
   it: require('@/data/prompts/never-have-i-ever/it.json').prompts as PromptItem[],
   nl: require('@/data/prompts/never-have-i-ever/nl.json').prompts as PromptItem[],
+  ja: require('@/data/prompts/never-have-i-ever/ja.json').prompts as PromptItem[],
+  ko: require('@/data/prompts/never-have-i-ever/ko.json').prompts as PromptItem[],
+  'zh-Hant': require('@/data/prompts/never-have-i-ever/zh-Hant.json').prompts as PromptItem[],
+  sv: require('@/data/prompts/never-have-i-ever/sv.json').prompts as PromptItem[],
+  pl: require('@/data/prompts/never-have-i-ever/pl.json').prompts as PromptItem[],
 }
 
 function loadPrompts(locale: string): PromptItem[] {

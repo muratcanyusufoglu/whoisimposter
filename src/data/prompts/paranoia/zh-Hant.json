@@ -1,0 +1,949 @@
+{
+  "gameId": "paranoia",
+  "locale": "zh-Hant",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "par_zhh_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰在九份最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰被看到耳機會最慌？"
+    },
+    {
+      "id": "par_zhh_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰遇到李安會整個僵住？"
+    },
+    {
+      "id": "par_zhh_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰最可能迷上攝影？"
+    },
+    {
+      "id": "par_zhh_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰在饒河夜市最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰被看到自拍會最慌？"
+    },
+    {
+      "id": "par_zhh_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰遇到鄧麗君會整個僵住？"
+    },
+    {
+      "id": "par_zhh_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰最可能迷上追星？"
+    },
+    {
+      "id": "par_zhh_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰在象山最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰被看到耳機會最慌？"
+    },
+    {
+      "id": "par_zhh_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰遇到舒淇會整個僵住？"
+    },
+    {
+      "id": "par_zhh_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰最可能迷上攝影？"
+    },
+    {
+      "id": "par_zhh_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰在花蓮最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰被看到自拍會最慌？"
+    },
+    {
+      "id": "par_zhh_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰遇到劉德華會整個僵住？"
+    },
+    {
+      "id": "par_zhh_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰最可能迷上追星？"
+    },
+    {
+      "id": "par_zhh_021",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_022",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰在台南安平最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_023",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰被看到耳機會最慌？"
+    },
+    {
+      "id": "par_zhh_024",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰遇到李小龍會整個僵住？"
+    },
+    {
+      "id": "par_zhh_025",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰最可能迷上攝影？"
+    },
+    {
+      "id": "par_zhh_026",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_027",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰在蓮池潭最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_028",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰被看到自拍會最慌？"
+    },
+    {
+      "id": "par_zhh_029",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰遇到BTS會整個僵住？"
+    },
+    {
+      "id": "par_zhh_030",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰最可能迷上追星？"
+    },
+    {
+      "id": "par_zhh_031",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_032",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰在野柳最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_033",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰被看到耳機會最慌？"
+    },
+    {
+      "id": "par_zhh_034",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰遇到孫中山會整個僵住？"
+    },
+    {
+      "id": "par_zhh_035",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰最可能迷上攝影？"
+    },
+    {
+      "id": "par_zhh_036",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_037",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰在羅東夜市最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_038",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰被看到自拍會最慌？"
+    },
+    {
+      "id": "par_zhh_039",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰遇到魏德聖會整個僵住？"
+    },
+    {
+      "id": "par_zhh_040",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰最可能迷上追星？"
+    },
+    {
+      "id": "par_zhh_041",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_042",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰在旺角最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_043",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰被看到耳機會最慌？"
+    },
+    {
+      "id": "par_zhh_044",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰遇到林書豪會整個僵住？"
+    },
+    {
+      "id": "par_zhh_045",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰最可能迷上攝影？"
+    },
+    {
+      "id": "par_zhh_046",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_047",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰在台中國家歌劇院最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_048",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰被看到自拍會最慌？"
+    },
+    {
+      "id": "par_zhh_049",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰遇到告五人會整個僵住？"
+    },
+    {
+      "id": "par_zhh_050",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰最可能迷上追星？"
+    },
+    {
+      "id": "par_zhh_051",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_052",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰在九份最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_053",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰被看到耳機會最慌？"
+    },
+    {
+      "id": "par_zhh_054",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰遇到李安會整個僵住？"
+    },
+    {
+      "id": "par_zhh_055",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰最可能迷上攝影？"
+    },
+    {
+      "id": "par_zhh_056",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_057",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰在饒河夜市最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_058",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰被看到自拍會最慌？"
+    },
+    {
+      "id": "par_zhh_059",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰遇到鄧麗君會整個僵住？"
+    },
+    {
+      "id": "par_zhh_060",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰最可能迷上追星？"
+    },
+    {
+      "id": "par_zhh_061",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_062",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰在象山最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_063",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰被看到耳機會最慌？"
+    },
+    {
+      "id": "par_zhh_064",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰遇到舒淇會整個僵住？"
+    },
+    {
+      "id": "par_zhh_065",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰最可能迷上攝影？"
+    },
+    {
+      "id": "par_zhh_066",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_067",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰在花蓮最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_068",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰被看到自拍會最慌？"
+    },
+    {
+      "id": "par_zhh_069",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰遇到劉德華會整個僵住？"
+    },
+    {
+      "id": "par_zhh_070",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰最可能迷上追星？"
+    },
+    {
+      "id": "par_zhh_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰在台南安平最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰被看到耳機會最慌？"
+    },
+    {
+      "id": "par_zhh_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰遇到李小龍會整個僵住？"
+    },
+    {
+      "id": "par_zhh_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰最可能迷上攝影？"
+    },
+    {
+      "id": "par_zhh_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰在蓮池潭最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰被看到自拍會最慌？"
+    },
+    {
+      "id": "par_zhh_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰遇到BTS會整個僵住？"
+    },
+    {
+      "id": "par_zhh_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰最可能迷上追星？"
+    },
+    {
+      "id": "par_zhh_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰在野柳最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰被看到耳機會最慌？"
+    },
+    {
+      "id": "par_zhh_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰遇到孫中山會整個僵住？"
+    },
+    {
+      "id": "par_zhh_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰最可能迷上攝影？"
+    },
+    {
+      "id": "par_zhh_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰在羅東夜市最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰被看到自拍會最慌？"
+    },
+    {
+      "id": "par_zhh_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰遇到魏德聖會整個僵住？"
+    },
+    {
+      "id": "par_zhh_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰最可能迷上追星？"
+    },
+    {
+      "id": "par_zhh_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰在旺角最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰被看到耳機會最慌？"
+    },
+    {
+      "id": "par_zhh_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰遇到林書豪會整個僵住？"
+    },
+    {
+      "id": "par_zhh_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰最可能迷上攝影？"
+    },
+    {
+      "id": "par_zhh_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰在台中國家歌劇院最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰被看到自拍會最慌？"
+    },
+    {
+      "id": "par_zhh_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰遇到告五人會整個僵住？"
+    },
+    {
+      "id": "par_zhh_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰最可能迷上追星？"
+    },
+    {
+      "id": "par_zhh_101",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_102",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰在九份最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_103",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰被看到耳機會最慌？"
+    },
+    {
+      "id": "par_zhh_104",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰遇到李安會整個僵住？"
+    },
+    {
+      "id": "par_zhh_105",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰最可能迷上攝影？"
+    },
+    {
+      "id": "par_zhh_106",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_107",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰在饒河夜市最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_108",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰被看到自拍會最慌？"
+    },
+    {
+      "id": "par_zhh_109",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰遇到鄧麗君會整個僵住？"
+    },
+    {
+      "id": "par_zhh_110",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰最可能迷上追星？"
+    },
+    {
+      "id": "par_zhh_111",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_112",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰在象山最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_113",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰被看到耳機會最慌？"
+    },
+    {
+      "id": "par_zhh_114",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰遇到舒淇會整個僵住？"
+    },
+    {
+      "id": "par_zhh_115",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰最可能迷上攝影？"
+    },
+    {
+      "id": "par_zhh_116",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_117",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰在花蓮最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_118",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰被看到自拍會最慌？"
+    },
+    {
+      "id": "par_zhh_119",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰遇到劉德華會整個僵住？"
+    },
+    {
+      "id": "par_zhh_120",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰最可能迷上追星？"
+    },
+    {
+      "id": "par_zhh_121",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_122",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰在台南安平最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_123",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰被看到耳機會最慌？"
+    },
+    {
+      "id": "par_zhh_124",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰遇到李小龍會整個僵住？"
+    },
+    {
+      "id": "par_zhh_125",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰最可能迷上攝影？"
+    },
+    {
+      "id": "par_zhh_126",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_127",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰在蓮池潭最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_128",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰被看到自拍會最慌？"
+    },
+    {
+      "id": "par_zhh_129",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰遇到BTS會整個僵住？"
+    },
+    {
+      "id": "par_zhh_130",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰最可能迷上追星？"
+    },
+    {
+      "id": "par_zhh_131",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_132",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰在野柳最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_133",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰被看到耳機會最慌？"
+    },
+    {
+      "id": "par_zhh_134",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰遇到孫中山會整個僵住？"
+    },
+    {
+      "id": "par_zhh_135",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰最可能迷上攝影？"
+    },
+    {
+      "id": "par_zhh_136",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_137",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰在羅東夜市最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_138",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰被看到自拍會最慌？"
+    },
+    {
+      "id": "par_zhh_139",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰遇到魏德聖會整個僵住？"
+    },
+    {
+      "id": "par_zhh_140",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰最可能迷上追星？"
+    },
+    {
+      "id": "par_zhh_141",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_142",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰在旺角最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_143",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰被看到耳機會最慌？"
+    },
+    {
+      "id": "par_zhh_144",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰遇到林書豪會整個僵住？"
+    },
+    {
+      "id": "par_zhh_145",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰最可能迷上攝影？"
+    },
+    {
+      "id": "par_zhh_146",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "如果是殭屍片，誰會活最久？"
+    },
+    {
+      "id": "par_zhh_147",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰在台中國家歌劇院最容易引人注目？"
+    },
+    {
+      "id": "par_zhh_148",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰被看到自拍會最慌？"
+    },
+    {
+      "id": "par_zhh_149",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰遇到告五人會整個僵住？"
+    },
+    {
+      "id": "par_zhh_150",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰最可能迷上追星？"
+    },
+    {
+      "id": "par_zhh_151",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰的相簿最混亂？"
+    },
+    {
+      "id": "par_zhh_152",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰的搜尋紀錄公開會最危險？"
+    },
+    {
+      "id": "par_zhh_153",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰會偷偷看誰看了自己的限動？"
+    },
+    {
+      "id": "par_zhh_154",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰最不能忍受一天沒有手機？"
+    },
+    {
+      "id": "par_zhh_155",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰有最強迷因收藏庫？"
+    },
+    {
+      "id": "par_zhh_156",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰會把安靜的遊戲夜變成舞池？"
+    },
+    {
+      "id": "par_zhh_157",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰記分記得像律師？"
+    }
+  ]
+}

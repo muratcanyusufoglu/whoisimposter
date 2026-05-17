@@ -1,0 +1,1009 @@
+{
+  "gameId": "never-have-i-ever",
+  "locale": "ja",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "nhie_ja_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "寿司を一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "渋谷スクランブル交差点で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ゴジラを見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "傘をなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "写真に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "焼き鳥を一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "姫路城で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ワンピースを見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "スタンプをなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "推し活に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "味噌汁を一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "清水寺で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "半沢直樹を見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "傘をなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "写真に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "すき焼きを一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "小樽で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "相棒を見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "スタンプをなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "推し活に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_021",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "茶碗蒸しを一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_022",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "高山で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_023",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "デスノートを見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_024",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "傘をなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_025",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "写真に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_026",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "おでんを一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_027",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "みなとみらいで迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_028",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "万引き家族を見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_029",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "スタンプをなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_030",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "推し活に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_031",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "メロンパンを一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_032",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "豊洲市場で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_033",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "スーパー戦隊を見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_034",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "傘をなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_035",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "写真に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_036",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "お茶を一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_037",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "熱海で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_038",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "スラムダンクを見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_039",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "スタンプをなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_040",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "推し活に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_041",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "梅酒を一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_042",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "熊本城で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_043",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "紅白歌合戦を見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_044",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "傘をなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_045",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "写真に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_046",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "もんじゃ焼きを一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_047",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "瀬戸内海で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_048",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ドクターXを見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_049",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "スタンプをなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_050",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "推し活に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "寿司を一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "渋谷スクランブル交差点で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "シティポップを見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "傘をなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_055",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "写真に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_056",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "焼き鳥を一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_057",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "姫路城で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_058",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "太鼓を見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_059",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "スタンプをなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_060",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "推し活に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_061",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "味噌汁を一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_062",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "清水寺で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_063",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "アイドルを見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_064",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "傘をなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_065",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "写真に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_066",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "すき焼きを一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_067",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "小樽で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_068",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "YOASOBIを見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_069",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "スタンプをなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_070",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "推し活に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "茶碗蒸しを一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "高山で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Official髭男dismを見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "傘をなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "写真に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "おでんを一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "みなとみらいで迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mr.Childrenを見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "スタンプをなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "推し活に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "メロンパンを一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "豊洲市場で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "坂本龍一を見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "傘をなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "写真に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "お茶を一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "熱海で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "RADWIMPSを見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "スタンプをなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "推し活に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "梅酒を一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "熊本城で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "SMAPを見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "傘をなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "写真に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "もんじゃ焼きを一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "瀬戸内海で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "山下達郎を見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "スタンプをなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "推し活に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_101",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "寿司を一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_102",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "渋谷スクランブル交差点で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_103",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ゴジラを見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_104",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "傘をなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_105",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "写真に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_106",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "焼き鳥を一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_107",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "姫路城で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_108",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ワンピースを見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_109",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "スタンプをなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_110",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "推し活に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_111",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "味噌汁を一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_112",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "清水寺で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_113",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "半沢直樹を見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_114",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "傘をなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_115",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "写真に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_116",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "すき焼きを一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_117",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "小樽で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_118",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "相棒を見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_119",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "スタンプをなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_120",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "推し活に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_121",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "茶碗蒸しを一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_122",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "高山で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_123",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "デスノートを見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_124",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "傘をなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_125",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "写真に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_126",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "おでんを一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_127",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "みなとみらいで迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_128",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "万引き家族を見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_129",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "スタンプをなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_130",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "推し活に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_131",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "メロンパンを一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_132",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "豊洲市場で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_133",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "スーパー戦隊を見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_134",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "傘をなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_135",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "写真に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_136",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "お茶を一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_137",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "熱海で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_138",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "スラムダンクを見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_139",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "スタンプをなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_140",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "推し活に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_141",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "梅酒を一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_142",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "熊本城で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_143",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "紅白歌合戦を見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_144",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "傘をなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_145",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "写真に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_146",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "もんじゃ焼きを一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_147",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "瀬戸内海で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_148",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ドクターXを見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_149",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "スタンプをなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_150",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "推し活に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_151",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "寿司を一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_152",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "渋谷スクランブル交差点で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_153",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "シティポップを見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_154",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "傘をなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_155",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "写真に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_156",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "焼き鳥を一人で食べきったことがある。"
+    },
+    {
+      "id": "nhie_ja_157",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "姫路城で迷子になったことがある。"
+    },
+    {
+      "id": "nhie_ja_158",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "太鼓を見て泣いたことがある。"
+    },
+    {
+      "id": "nhie_ja_159",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "スタンプをなくしたふりをしたことがある。"
+    },
+    {
+      "id": "nhie_ja_160",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "推し活に一週間だけ本気でハマったことがある。"
+    },
+    {
+      "id": "nhie_ja_161",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "昔の投稿にうっかりいいねしたことがある。"
+    },
+    {
+      "id": "nhie_ja_162",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "平和のためにグループチャットをミュートしたことがある。"
+    },
+    {
+      "id": "nhie_ja_163",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ボイスメッセージを送る前に練習したことがある。"
+    },
+    {
+      "id": "nhie_ja_164",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "あとで使うためにミームを保存したことがある。"
+    },
+    {
+      "id": "nhie_ja_165",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "投稿したストーリーをすぐ消したことがある。"
+    },
+    {
+      "id": "nhie_ja_166",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "挨拶せずにパーティーを抜けたことがある。"
+    },
+    {
+      "id": "nhie_ja_167",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "友だちとのゲームで悔しくて投げ出したことがある。"
+    }
+  ]
+}

@@ -1192,6 +1192,41 @@
       "minAge": 18,
       "text": "Si tu pouvais changer de prénom pour une journée, lequel choisirais-tu ?",
       "id": "td_fr_170"
+    },
+    {
+      "id": "td_fr_171",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quelle est la chose la plus gênante dans ton historique de recherche ?"
+    },
+    {
+      "id": "td_fr_172",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quelle appli te vole le plus de temps ?"
+    },
+    {
+      "id": "td_fr_173",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quel message as-tu écrit sans jamais l’envoyer ?"
+    },
+    {
+      "id": "td_fr_174",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Montre au groupe ton dernier mème sauvegardé."
+    },
+    {
+      "id": "td_fr_175",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Décris ton dernier selfie comme une œuvre de musée."
     }
   ]
 }

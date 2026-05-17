@@ -12,6 +12,11 @@ const PROMPTS: Record<string, PromptItem[]> = {
   ar: require('@/data/prompts/paranoia/ar.json').prompts as PromptItem[],
   it: require('@/data/prompts/paranoia/it.json').prompts as PromptItem[],
   nl: require('@/data/prompts/paranoia/nl.json').prompts as PromptItem[],
+  ja: require('@/data/prompts/paranoia/ja.json').prompts as PromptItem[],
+  ko: require('@/data/prompts/paranoia/ko.json').prompts as PromptItem[],
+  'zh-Hant': require('@/data/prompts/paranoia/zh-Hant.json').prompts as PromptItem[],
+  sv: require('@/data/prompts/paranoia/sv.json').prompts as PromptItem[],
+  pl: require('@/data/prompts/paranoia/pl.json').prompts as PromptItem[],
 }
 
 function loadPrompts(locale: string): PromptItem[] {

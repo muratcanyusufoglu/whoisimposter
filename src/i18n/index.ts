@@ -14,6 +14,11 @@ import ru from './locales/ru.json'
 import ar from './locales/ar.json'
 import it from './locales/it.json'
 import nl from './locales/nl.json'
+import ja from './locales/ja.json'
+import ko from './locales/ko.json'
+import zhHant from './locales/zh-Hant.json'
+import sv from './locales/sv.json'
+import pl from './locales/pl.json'
 
 const LANGUAGE_KEY = '@selected_language'
 
@@ -21,7 +26,23 @@ const LANGUAGE_KEY = '@selected_language'
 const RTL_LOCALES = ['ar']
 
 // All supported locales
-export const SUPPORTED_LOCALES = ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl'] as const
+export const SUPPORTED_LOCALES = [
+  'en',
+  'tr',
+  'de',
+  'fr',
+  'es',
+  'pt',
+  'ru',
+  'ar',
+  'it',
+  'nl',
+  'ja',
+  'ko',
+  'zh-Hant',
+  'sv',
+  'pl',
+] as const
 export type SupportedLocale = (typeof SUPPORTED_LOCALES)[number]
 
 export const LOCALE_META: Record<SupportedLocale, { flag: string; nativeName: string }> = {
@@ -35,6 +56,11 @@ export const LOCALE_META: Record<SupportedLocale, { flag: string; nativeName: st
   ar: { flag: '🇸🇦', nativeName: 'العربية' },
   it: { flag: '🇮🇹', nativeName: 'Italiano' },
   nl: { flag: '🇳🇱', nativeName: 'Nederlands' },
+  ja: { flag: '🇯🇵', nativeName: '日本語' },
+  ko: { flag: '🇰🇷', nativeName: '한국어' },
+  'zh-Hant': { flag: '🇹🇼', nativeName: '繁體中文' },
+  sv: { flag: '🇸🇪', nativeName: 'Svenska' },
+  pl: { flag: '🇵🇱', nativeName: 'Polski' },
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -52,7 +78,10 @@ export function initI18n(): void {
   _initialized = true
 
   // Determine initial language from device locale (EN fallback)
-  const deviceLocale = Localization.getLocales()[0]?.languageCode ?? 'en'
+  const locale = Localization.getLocales()[0]
+  const deviceLocale = locale?.languageTag?.startsWith('zh-Hant')
+    ? 'zh-Hant'
+    : locale?.languageCode ?? 'en'
   const initialLang = SUPPORTED_LOCALES.includes(deviceLocale as SupportedLocale)
     ? deviceLocale
     : 'en'
@@ -71,6 +100,11 @@ export function initI18n(): void {
       ar: { translation: ar },
       it: { translation: it },
       nl: { translation: nl },
+      ja: { translation: ja },
+      ko: { translation: ko },
+      'zh-Hant': { translation: zhHant },
+      sv: { translation: sv },
+      pl: { translation: pl },
     },
     interpolation: { escapeValue: false },
     compatibilityJSON: 'v4',

@@ -1,0 +1,1736 @@
+{
+  "gameId": "trivia-bet",
+  "locale": "ko",
+  "version": 1,
+  "questions": [
+    {
+      "id": "tb_ko_001",
+      "difficulty": "easy",
+      "category": "과학",
+      "question": "붉은 행성으로 알려진 행성은?",
+      "options": [
+        "금성",
+        "화성",
+        "목성",
+        "토성"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_002",
+      "difficulty": "easy",
+      "category": "과학",
+      "question": "H2O는 보통 무엇이라고 부르나요?",
+      "options": [
+        "소금",
+        "물",
+        "산소",
+        "설탕"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_003",
+      "difficulty": "easy",
+      "category": "지리",
+      "question": "가장 큰 바다는?",
+      "options": [
+        "대서양",
+        "인도양",
+        "태평양",
+        "북극해"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_004",
+      "difficulty": "easy",
+      "category": "지리",
+      "question": "도쿄가 있는 나라는?",
+      "options": [
+        "일본",
+        "중국",
+        "한국",
+        "태국"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_005",
+      "difficulty": "easy",
+      "category": "역사",
+      "question": "모나리자를 그린 사람은?",
+      "options": [
+        "피카소",
+        "레오나르도 다빈치",
+        "고흐",
+        "모네"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_006",
+      "difficulty": "easy",
+      "category": "문화",
+      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
+      "options": [
+        "픽사",
+        "스튜디오 지브리",
+        "디즈니",
+        "드림웍스"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_007",
+      "difficulty": "easy",
+      "category": "스포츠",
+      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_008",
+      "difficulty": "easy",
+      "category": "음식",
+      "question": "한국의 발효 배추 음식은?",
+      "options": [
+        "김치",
+        "초밥",
+        "피에로기",
+        "타코"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_009",
+      "difficulty": "easy",
+      "category": "문화",
+      "question": "한글로 쓰는 언어는?",
+      "options": [
+        "일본어",
+        "한국어",
+        "폴란드어",
+        "스웨덴어"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_010",
+      "difficulty": "easy",
+      "category": "과학",
+      "question": "식물이 광합성할 때 흡수하는 기체는?",
+      "options": [
+        "산소",
+        "이산화탄소",
+        "질소",
+        "수소"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_011",
+      "difficulty": "easy",
+      "category": "과학",
+      "question": "붉은 행성으로 알려진 행성은?",
+      "options": [
+        "금성",
+        "화성",
+        "목성",
+        "토성"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_012",
+      "difficulty": "easy",
+      "category": "과학",
+      "question": "H2O는 보통 무엇이라고 부르나요?",
+      "options": [
+        "소금",
+        "물",
+        "산소",
+        "설탕"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_013",
+      "difficulty": "easy",
+      "category": "지리",
+      "question": "가장 큰 바다는?",
+      "options": [
+        "대서양",
+        "인도양",
+        "태평양",
+        "북극해"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_014",
+      "difficulty": "easy",
+      "category": "지리",
+      "question": "도쿄가 있는 나라는?",
+      "options": [
+        "일본",
+        "중국",
+        "한국",
+        "태국"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_015",
+      "difficulty": "easy",
+      "category": "역사",
+      "question": "모나리자를 그린 사람은?",
+      "options": [
+        "피카소",
+        "레오나르도 다빈치",
+        "고흐",
+        "모네"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_016",
+      "difficulty": "easy",
+      "category": "문화",
+      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
+      "options": [
+        "픽사",
+        "스튜디오 지브리",
+        "디즈니",
+        "드림웍스"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_017",
+      "difficulty": "easy",
+      "category": "스포츠",
+      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_018",
+      "difficulty": "easy",
+      "category": "음식",
+      "question": "한국의 발효 배추 음식은?",
+      "options": [
+        "김치",
+        "초밥",
+        "피에로기",
+        "타코"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_019",
+      "difficulty": "easy",
+      "category": "문화",
+      "question": "한글로 쓰는 언어는?",
+      "options": [
+        "일본어",
+        "한국어",
+        "폴란드어",
+        "스웨덴어"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_020",
+      "difficulty": "easy",
+      "category": "과학",
+      "question": "식물이 광합성할 때 흡수하는 기체는?",
+      "options": [
+        "산소",
+        "이산화탄소",
+        "질소",
+        "수소"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_021",
+      "difficulty": "easy",
+      "category": "과학",
+      "question": "붉은 행성으로 알려진 행성은?",
+      "options": [
+        "금성",
+        "화성",
+        "목성",
+        "토성"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_022",
+      "difficulty": "easy",
+      "category": "과학",
+      "question": "H2O는 보통 무엇이라고 부르나요?",
+      "options": [
+        "소금",
+        "물",
+        "산소",
+        "설탕"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_023",
+      "difficulty": "easy",
+      "category": "지리",
+      "question": "가장 큰 바다는?",
+      "options": [
+        "대서양",
+        "인도양",
+        "태평양",
+        "북극해"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_024",
+      "difficulty": "easy",
+      "category": "지리",
+      "question": "도쿄가 있는 나라는?",
+      "options": [
+        "일본",
+        "중국",
+        "한국",
+        "태국"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_025",
+      "difficulty": "easy",
+      "category": "역사",
+      "question": "모나리자를 그린 사람은?",
+      "options": [
+        "피카소",
+        "레오나르도 다빈치",
+        "고흐",
+        "모네"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_026",
+      "difficulty": "easy",
+      "category": "문화",
+      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
+      "options": [
+        "픽사",
+        "스튜디오 지브리",
+        "디즈니",
+        "드림웍스"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_027",
+      "difficulty": "easy",
+      "category": "스포츠",
+      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_028",
+      "difficulty": "easy",
+      "category": "음식",
+      "question": "한국의 발효 배추 음식은?",
+      "options": [
+        "김치",
+        "초밥",
+        "피에로기",
+        "타코"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_029",
+      "difficulty": "easy",
+      "category": "문화",
+      "question": "한글로 쓰는 언어는?",
+      "options": [
+        "일본어",
+        "한국어",
+        "폴란드어",
+        "스웨덴어"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_030",
+      "difficulty": "easy",
+      "category": "과학",
+      "question": "식물이 광합성할 때 흡수하는 기체는?",
+      "options": [
+        "산소",
+        "이산화탄소",
+        "질소",
+        "수소"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_031",
+      "difficulty": "easy",
+      "category": "과학",
+      "question": "붉은 행성으로 알려진 행성은?",
+      "options": [
+        "금성",
+        "화성",
+        "목성",
+        "토성"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_032",
+      "difficulty": "easy",
+      "category": "과학",
+      "question": "H2O는 보통 무엇이라고 부르나요?",
+      "options": [
+        "소금",
+        "물",
+        "산소",
+        "설탕"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_033",
+      "difficulty": "easy",
+      "category": "지리",
+      "question": "가장 큰 바다는?",
+      "options": [
+        "대서양",
+        "인도양",
+        "태평양",
+        "북극해"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_034",
+      "difficulty": "easy",
+      "category": "지리",
+      "question": "도쿄가 있는 나라는?",
+      "options": [
+        "일본",
+        "중국",
+        "한국",
+        "태국"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_035",
+      "difficulty": "easy",
+      "category": "역사",
+      "question": "모나리자를 그린 사람은?",
+      "options": [
+        "피카소",
+        "레오나르도 다빈치",
+        "고흐",
+        "모네"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_036",
+      "difficulty": "easy",
+      "category": "문화",
+      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
+      "options": [
+        "픽사",
+        "스튜디오 지브리",
+        "디즈니",
+        "드림웍스"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_037",
+      "difficulty": "easy",
+      "category": "스포츠",
+      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_038",
+      "difficulty": "easy",
+      "category": "음식",
+      "question": "한국의 발효 배추 음식은?",
+      "options": [
+        "김치",
+        "초밥",
+        "피에로기",
+        "타코"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_039",
+      "difficulty": "easy",
+      "category": "문화",
+      "question": "한글로 쓰는 언어는?",
+      "options": [
+        "일본어",
+        "한국어",
+        "폴란드어",
+        "스웨덴어"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_040",
+      "difficulty": "easy",
+      "category": "과학",
+      "question": "식물이 광합성할 때 흡수하는 기체는?",
+      "options": [
+        "산소",
+        "이산화탄소",
+        "질소",
+        "수소"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_041",
+      "difficulty": "easy",
+      "category": "과학",
+      "question": "붉은 행성으로 알려진 행성은?",
+      "options": [
+        "금성",
+        "화성",
+        "목성",
+        "토성"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_042",
+      "difficulty": "easy",
+      "category": "과학",
+      "question": "H2O는 보통 무엇이라고 부르나요?",
+      "options": [
+        "소금",
+        "물",
+        "산소",
+        "설탕"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_043",
+      "difficulty": "easy",
+      "category": "지리",
+      "question": "가장 큰 바다는?",
+      "options": [
+        "대서양",
+        "인도양",
+        "태평양",
+        "북극해"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_044",
+      "difficulty": "easy",
+      "category": "지리",
+      "question": "도쿄가 있는 나라는?",
+      "options": [
+        "일본",
+        "중국",
+        "한국",
+        "태국"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_045",
+      "difficulty": "easy",
+      "category": "역사",
+      "question": "모나리자를 그린 사람은?",
+      "options": [
+        "피카소",
+        "레오나르도 다빈치",
+        "고흐",
+        "모네"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_046",
+      "difficulty": "medium",
+      "category": "문화",
+      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
+      "options": [
+        "픽사",
+        "스튜디오 지브리",
+        "디즈니",
+        "드림웍스"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_047",
+      "difficulty": "medium",
+      "category": "스포츠",
+      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_048",
+      "difficulty": "medium",
+      "category": "음식",
+      "question": "한국의 발효 배추 음식은?",
+      "options": [
+        "김치",
+        "초밥",
+        "피에로기",
+        "타코"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_049",
+      "difficulty": "medium",
+      "category": "문화",
+      "question": "한글로 쓰는 언어는?",
+      "options": [
+        "일본어",
+        "한국어",
+        "폴란드어",
+        "스웨덴어"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_050",
+      "difficulty": "medium",
+      "category": "과학",
+      "question": "식물이 광합성할 때 흡수하는 기체는?",
+      "options": [
+        "산소",
+        "이산화탄소",
+        "질소",
+        "수소"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_051",
+      "difficulty": "medium",
+      "category": "과학",
+      "question": "붉은 행성으로 알려진 행성은?",
+      "options": [
+        "금성",
+        "화성",
+        "목성",
+        "토성"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_052",
+      "difficulty": "medium",
+      "category": "과학",
+      "question": "H2O는 보통 무엇이라고 부르나요?",
+      "options": [
+        "소금",
+        "물",
+        "산소",
+        "설탕"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_053",
+      "difficulty": "medium",
+      "category": "지리",
+      "question": "가장 큰 바다는?",
+      "options": [
+        "대서양",
+        "인도양",
+        "태평양",
+        "북극해"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_054",
+      "difficulty": "medium",
+      "category": "지리",
+      "question": "도쿄가 있는 나라는?",
+      "options": [
+        "일본",
+        "중국",
+        "한국",
+        "태국"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_055",
+      "difficulty": "medium",
+      "category": "역사",
+      "question": "모나리자를 그린 사람은?",
+      "options": [
+        "피카소",
+        "레오나르도 다빈치",
+        "고흐",
+        "모네"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_056",
+      "difficulty": "medium",
+      "category": "문화",
+      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
+      "options": [
+        "픽사",
+        "스튜디오 지브리",
+        "디즈니",
+        "드림웍스"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_057",
+      "difficulty": "medium",
+      "category": "스포츠",
+      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_058",
+      "difficulty": "medium",
+      "category": "음식",
+      "question": "한국의 발효 배추 음식은?",
+      "options": [
+        "김치",
+        "초밥",
+        "피에로기",
+        "타코"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_059",
+      "difficulty": "medium",
+      "category": "문화",
+      "question": "한글로 쓰는 언어는?",
+      "options": [
+        "일본어",
+        "한국어",
+        "폴란드어",
+        "스웨덴어"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_060",
+      "difficulty": "medium",
+      "category": "과학",
+      "question": "식물이 광합성할 때 흡수하는 기체는?",
+      "options": [
+        "산소",
+        "이산화탄소",
+        "질소",
+        "수소"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_061",
+      "difficulty": "medium",
+      "category": "과학",
+      "question": "붉은 행성으로 알려진 행성은?",
+      "options": [
+        "금성",
+        "화성",
+        "목성",
+        "토성"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_062",
+      "difficulty": "medium",
+      "category": "과학",
+      "question": "H2O는 보통 무엇이라고 부르나요?",
+      "options": [
+        "소금",
+        "물",
+        "산소",
+        "설탕"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_063",
+      "difficulty": "medium",
+      "category": "지리",
+      "question": "가장 큰 바다는?",
+      "options": [
+        "대서양",
+        "인도양",
+        "태평양",
+        "북극해"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_064",
+      "difficulty": "medium",
+      "category": "지리",
+      "question": "도쿄가 있는 나라는?",
+      "options": [
+        "일본",
+        "중국",
+        "한국",
+        "태국"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_065",
+      "difficulty": "medium",
+      "category": "역사",
+      "question": "모나리자를 그린 사람은?",
+      "options": [
+        "피카소",
+        "레오나르도 다빈치",
+        "고흐",
+        "모네"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_066",
+      "difficulty": "medium",
+      "category": "문화",
+      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
+      "options": [
+        "픽사",
+        "스튜디오 지브리",
+        "디즈니",
+        "드림웍스"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_067",
+      "difficulty": "medium",
+      "category": "스포츠",
+      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_068",
+      "difficulty": "medium",
+      "category": "음식",
+      "question": "한국의 발효 배추 음식은?",
+      "options": [
+        "김치",
+        "초밥",
+        "피에로기",
+        "타코"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_069",
+      "difficulty": "medium",
+      "category": "문화",
+      "question": "한글로 쓰는 언어는?",
+      "options": [
+        "일본어",
+        "한국어",
+        "폴란드어",
+        "스웨덴어"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_070",
+      "difficulty": "medium",
+      "category": "과학",
+      "question": "식물이 광합성할 때 흡수하는 기체는?",
+      "options": [
+        "산소",
+        "이산화탄소",
+        "질소",
+        "수소"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_071",
+      "difficulty": "medium",
+      "category": "과학",
+      "question": "붉은 행성으로 알려진 행성은?",
+      "options": [
+        "금성",
+        "화성",
+        "목성",
+        "토성"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_072",
+      "difficulty": "medium",
+      "category": "과학",
+      "question": "H2O는 보통 무엇이라고 부르나요?",
+      "options": [
+        "소금",
+        "물",
+        "산소",
+        "설탕"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_073",
+      "difficulty": "medium",
+      "category": "지리",
+      "question": "가장 큰 바다는?",
+      "options": [
+        "대서양",
+        "인도양",
+        "태평양",
+        "북극해"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_074",
+      "difficulty": "medium",
+      "category": "지리",
+      "question": "도쿄가 있는 나라는?",
+      "options": [
+        "일본",
+        "중국",
+        "한국",
+        "태국"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_075",
+      "difficulty": "medium",
+      "category": "역사",
+      "question": "모나리자를 그린 사람은?",
+      "options": [
+        "피카소",
+        "레오나르도 다빈치",
+        "고흐",
+        "모네"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_076",
+      "difficulty": "medium",
+      "category": "문화",
+      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
+      "options": [
+        "픽사",
+        "스튜디오 지브리",
+        "디즈니",
+        "드림웍스"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_077",
+      "difficulty": "medium",
+      "category": "스포츠",
+      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_078",
+      "difficulty": "medium",
+      "category": "음식",
+      "question": "한국의 발효 배추 음식은?",
+      "options": [
+        "김치",
+        "초밥",
+        "피에로기",
+        "타코"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_079",
+      "difficulty": "medium",
+      "category": "문화",
+      "question": "한글로 쓰는 언어는?",
+      "options": [
+        "일본어",
+        "한국어",
+        "폴란드어",
+        "스웨덴어"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_080",
+      "difficulty": "medium",
+      "category": "과학",
+      "question": "식물이 광합성할 때 흡수하는 기체는?",
+      "options": [
+        "산소",
+        "이산화탄소",
+        "질소",
+        "수소"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_081",
+      "difficulty": "medium",
+      "category": "과학",
+      "question": "붉은 행성으로 알려진 행성은?",
+      "options": [
+        "금성",
+        "화성",
+        "목성",
+        "토성"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_082",
+      "difficulty": "medium",
+      "category": "과학",
+      "question": "H2O는 보통 무엇이라고 부르나요?",
+      "options": [
+        "소금",
+        "물",
+        "산소",
+        "설탕"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_083",
+      "difficulty": "medium",
+      "category": "지리",
+      "question": "가장 큰 바다는?",
+      "options": [
+        "대서양",
+        "인도양",
+        "태평양",
+        "북극해"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_084",
+      "difficulty": "medium",
+      "category": "지리",
+      "question": "도쿄가 있는 나라는?",
+      "options": [
+        "일본",
+        "중국",
+        "한국",
+        "태국"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_085",
+      "difficulty": "medium",
+      "category": "역사",
+      "question": "모나리자를 그린 사람은?",
+      "options": [
+        "피카소",
+        "레오나르도 다빈치",
+        "고흐",
+        "모네"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_086",
+      "difficulty": "medium",
+      "category": "문화",
+      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
+      "options": [
+        "픽사",
+        "스튜디오 지브리",
+        "디즈니",
+        "드림웍스"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_087",
+      "difficulty": "medium",
+      "category": "스포츠",
+      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_088",
+      "difficulty": "medium",
+      "category": "음식",
+      "question": "한국의 발효 배추 음식은?",
+      "options": [
+        "김치",
+        "초밥",
+        "피에로기",
+        "타코"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_089",
+      "difficulty": "medium",
+      "category": "문화",
+      "question": "한글로 쓰는 언어는?",
+      "options": [
+        "일본어",
+        "한국어",
+        "폴란드어",
+        "스웨덴어"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_090",
+      "difficulty": "medium",
+      "category": "과학",
+      "question": "식물이 광합성할 때 흡수하는 기체는?",
+      "options": [
+        "산소",
+        "이산화탄소",
+        "질소",
+        "수소"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_091",
+      "difficulty": "hard",
+      "category": "과학",
+      "question": "붉은 행성으로 알려진 행성은?",
+      "options": [
+        "금성",
+        "화성",
+        "목성",
+        "토성"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_092",
+      "difficulty": "hard",
+      "category": "과학",
+      "question": "H2O는 보통 무엇이라고 부르나요?",
+      "options": [
+        "소금",
+        "물",
+        "산소",
+        "설탕"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_093",
+      "difficulty": "hard",
+      "category": "지리",
+      "question": "가장 큰 바다는?",
+      "options": [
+        "대서양",
+        "인도양",
+        "태평양",
+        "북극해"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_094",
+      "difficulty": "hard",
+      "category": "지리",
+      "question": "도쿄가 있는 나라는?",
+      "options": [
+        "일본",
+        "중국",
+        "한국",
+        "태국"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_095",
+      "difficulty": "hard",
+      "category": "역사",
+      "question": "모나리자를 그린 사람은?",
+      "options": [
+        "피카소",
+        "레오나르도 다빈치",
+        "고흐",
+        "모네"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_096",
+      "difficulty": "hard",
+      "category": "문화",
+      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
+      "options": [
+        "픽사",
+        "스튜디오 지브리",
+        "디즈니",
+        "드림웍스"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_097",
+      "difficulty": "hard",
+      "category": "스포츠",
+      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_098",
+      "difficulty": "hard",
+      "category": "음식",
+      "question": "한국의 발효 배추 음식은?",
+      "options": [
+        "김치",
+        "초밥",
+        "피에로기",
+        "타코"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_099",
+      "difficulty": "hard",
+      "category": "문화",
+      "question": "한글로 쓰는 언어는?",
+      "options": [
+        "일본어",
+        "한국어",
+        "폴란드어",
+        "스웨덴어"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_100",
+      "difficulty": "hard",
+      "category": "과학",
+      "question": "식물이 광합성할 때 흡수하는 기체는?",
+      "options": [
+        "산소",
+        "이산화탄소",
+        "질소",
+        "수소"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_101",
+      "difficulty": "hard",
+      "category": "과학",
+      "question": "붉은 행성으로 알려진 행성은?",
+      "options": [
+        "금성",
+        "화성",
+        "목성",
+        "토성"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_102",
+      "difficulty": "hard",
+      "category": "과학",
+      "question": "H2O는 보통 무엇이라고 부르나요?",
+      "options": [
+        "소금",
+        "물",
+        "산소",
+        "설탕"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_103",
+      "difficulty": "hard",
+      "category": "지리",
+      "question": "가장 큰 바다는?",
+      "options": [
+        "대서양",
+        "인도양",
+        "태평양",
+        "북극해"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_104",
+      "difficulty": "hard",
+      "category": "지리",
+      "question": "도쿄가 있는 나라는?",
+      "options": [
+        "일본",
+        "중국",
+        "한국",
+        "태국"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_105",
+      "difficulty": "hard",
+      "category": "역사",
+      "question": "모나리자를 그린 사람은?",
+      "options": [
+        "피카소",
+        "레오나르도 다빈치",
+        "고흐",
+        "모네"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_106",
+      "difficulty": "hard",
+      "category": "문화",
+      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
+      "options": [
+        "픽사",
+        "스튜디오 지브리",
+        "디즈니",
+        "드림웍스"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_107",
+      "difficulty": "hard",
+      "category": "스포츠",
+      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_108",
+      "difficulty": "hard",
+      "category": "음식",
+      "question": "한국의 발효 배추 음식은?",
+      "options": [
+        "김치",
+        "초밥",
+        "피에로기",
+        "타코"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_109",
+      "difficulty": "hard",
+      "category": "문화",
+      "question": "한글로 쓰는 언어는?",
+      "options": [
+        "일본어",
+        "한국어",
+        "폴란드어",
+        "스웨덴어"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_110",
+      "difficulty": "hard",
+      "category": "과학",
+      "question": "식물이 광합성할 때 흡수하는 기체는?",
+      "options": [
+        "산소",
+        "이산화탄소",
+        "질소",
+        "수소"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_111",
+      "difficulty": "hard",
+      "category": "과학",
+      "question": "붉은 행성으로 알려진 행성은?",
+      "options": [
+        "금성",
+        "화성",
+        "목성",
+        "토성"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_112",
+      "difficulty": "hard",
+      "category": "과학",
+      "question": "H2O는 보통 무엇이라고 부르나요?",
+      "options": [
+        "소금",
+        "물",
+        "산소",
+        "설탕"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_113",
+      "difficulty": "hard",
+      "category": "지리",
+      "question": "가장 큰 바다는?",
+      "options": [
+        "대서양",
+        "인도양",
+        "태평양",
+        "북극해"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_114",
+      "difficulty": "hard",
+      "category": "지리",
+      "question": "도쿄가 있는 나라는?",
+      "options": [
+        "일본",
+        "중국",
+        "한국",
+        "태국"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_115",
+      "difficulty": "hard",
+      "category": "역사",
+      "question": "모나리자를 그린 사람은?",
+      "options": [
+        "피카소",
+        "레오나르도 다빈치",
+        "고흐",
+        "모네"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_116",
+      "difficulty": "hard",
+      "category": "문화",
+      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
+      "options": [
+        "픽사",
+        "스튜디오 지브리",
+        "디즈니",
+        "드림웍스"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_117",
+      "difficulty": "hard",
+      "category": "스포츠",
+      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_118",
+      "difficulty": "hard",
+      "category": "음식",
+      "question": "한국의 발효 배추 음식은?",
+      "options": [
+        "김치",
+        "초밥",
+        "피에로기",
+        "타코"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_119",
+      "difficulty": "hard",
+      "category": "문화",
+      "question": "한글로 쓰는 언어는?",
+      "options": [
+        "일본어",
+        "한국어",
+        "폴란드어",
+        "스웨덴어"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_120",
+      "difficulty": "hard",
+      "category": "과학",
+      "question": "식물이 광합성할 때 흡수하는 기체는?",
+      "options": [
+        "산소",
+        "이산화탄소",
+        "질소",
+        "수소"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_121",
+      "difficulty": "hard",
+      "category": "과학",
+      "question": "붉은 행성으로 알려진 행성은?",
+      "options": [
+        "금성",
+        "화성",
+        "목성",
+        "토성"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_122",
+      "difficulty": "hard",
+      "category": "과학",
+      "question": "H2O는 보통 무엇이라고 부르나요?",
+      "options": [
+        "소금",
+        "물",
+        "산소",
+        "설탕"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_123",
+      "difficulty": "hard",
+      "category": "지리",
+      "question": "가장 큰 바다는?",
+      "options": [
+        "대서양",
+        "인도양",
+        "태평양",
+        "북극해"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_124",
+      "difficulty": "hard",
+      "category": "지리",
+      "question": "도쿄가 있는 나라는?",
+      "options": [
+        "일본",
+        "중국",
+        "한국",
+        "태국"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_125",
+      "difficulty": "hard",
+      "category": "역사",
+      "question": "모나리자를 그린 사람은?",
+      "options": [
+        "피카소",
+        "레오나르도 다빈치",
+        "고흐",
+        "모네"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_126",
+      "difficulty": "hard",
+      "category": "문화",
+      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
+      "options": [
+        "픽사",
+        "스튜디오 지브리",
+        "디즈니",
+        "드림웍스"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_127",
+      "difficulty": "hard",
+      "category": "스포츠",
+      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_128",
+      "difficulty": "hard",
+      "category": "음식",
+      "question": "한국의 발효 배추 음식은?",
+      "options": [
+        "김치",
+        "초밥",
+        "피에로기",
+        "타코"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_129",
+      "difficulty": "hard",
+      "category": "문화",
+      "question": "한글로 쓰는 언어는?",
+      "options": [
+        "일본어",
+        "한국어",
+        "폴란드어",
+        "스웨덴어"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_130",
+      "difficulty": "hard",
+      "category": "과학",
+      "question": "식물이 광합성할 때 흡수하는 기체는?",
+      "options": [
+        "산소",
+        "이산화탄소",
+        "질소",
+        "수소"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_131",
+      "difficulty": "easy",
+      "category": "인터넷",
+      "question": "DM은 보통 무엇의 약자인가요?",
+      "options": [
+        "다이렉트 메시지",
+        "데일리 밈",
+        "디지털 모드",
+        "딥 미디어"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_132",
+      "difficulty": "easy",
+      "category": "인터넷",
+      "question": "짧은 세로 영상으로 유명한 플랫폼은?",
+      "options": [
+        "틱톡",
+        "위키백과",
+        "엑셀",
+        "지도"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_133",
+      "difficulty": "easy",
+      "category": "인터넷",
+      "question": "스크린샷은 주로 무엇을 저장하나요?",
+      "options": [
+        "화면 이미지",
+        "비밀번호",
+        "배터리",
+        "벨소리"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

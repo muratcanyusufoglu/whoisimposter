@@ -1,0 +1,1309 @@
+{
+  "gameId": "hot-takes",
+  "locale": "pl",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "ht_pl_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pierogi jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Umawianie się w miejscu takim jak Kraków jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Miś jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Powiadomienia z X lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zajawka na fotografia to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Schabowy jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Umawianie się w miejscu takim jak Tatry jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zimna wojna jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Powiadomienia z WeChat lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zajawka na podcasty to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Rosół jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Umawianie się w miejscu takim jak Hel jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Alternatywy 4 jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Powiadomienia z Twitch lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zajawka na fotografia to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pączek jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Umawianie się w miejscu takim jak Poznań jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "The Office PL jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Powiadomienia z Telegram lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zajawka na podcasty to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_021",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kremówka jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_022",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Umawianie się w miejscu takim jak Zamość jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_023",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Chłopaki nie płaczą jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_024",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Powiadomienia z Shorts lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_025",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zajawka na fotografia to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_026",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kabanos jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_027",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Umawianie się w miejscu takim jak Kopalnia Soli jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_028",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pan Tadeusz jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_029",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Powiadomienia z Sticker lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_030",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zajawka na podcasty to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_031",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Smaleć jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_032",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Umawianie się w miejscu takim jak Sandomierz jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_033",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Amator jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_034",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Powiadomienia z Like lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_035",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zajawka na fotografia to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_036",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Budyń jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_037",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Umawianie się w miejscu takim jak Pieniny jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_038",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vabank jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_039",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Powiadomienia z Podcast lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_040",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zajawka na podcasty to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_041",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kajmak jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_042",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Umawianie się w miejscu takim jak Nikiszowiec jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_043",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeden z dziesięciu jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_044",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Powiadomienia z Challenge lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_045",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zajawka na fotografia to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_046",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Racuchy jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_047",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Umawianie się w miejscu takim jak Łazienki Królewskie jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_048",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "HBO Max jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_049",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Powiadomienia z Profile lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_050",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zajawka na podcasty to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pierogi jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Umawianie się w miejscu takim jak Kraków jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Dawid Podsiadło jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Powiadomienia z X lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zajawka na fotografia to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Schabowy jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Umawianie się w miejscu takim jak Tatry jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Maryla Rodowicz jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Powiadomienia z WeChat lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zajawka na podcasty to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Rosół jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Umawianie się w miejscu takim jak Hel jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Marek Grechuta jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Powiadomienia z Twitch lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zajawka na fotografia to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pączek jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Umawianie się w miejscu takim jak Poznań jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kult jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Powiadomienia z Telegram lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zajawka na podcasty to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kremówka jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Umawianie się w miejscu takim jak Zamość jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mrozu jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Powiadomienia z Shorts lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zajawka na fotografia to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kabanos jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Umawianie się w miejscu takim jak Kopalnia Soli jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Artur Rojek jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Powiadomienia z Sticker lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zajawka na podcasty to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Smaleć jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Umawianie się w miejscu takim jak Sandomierz jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Peja jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Powiadomienia z Like lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zajawka na fotografia to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Budyń jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Umawianie się w miejscu takim jak Pieniny jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kwiat Jabłoni jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Powiadomienia z Podcast lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zajawka na podcasty to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kajmak jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Umawianie się w miejscu takim jak Nikiszowiec jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Polonez jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Powiadomienia z Challenge lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zajawka na fotografia to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Racuchy jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Umawianie się w miejscu takim jak Łazienki Królewskie jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Opener jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Powiadomienia z Profile lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zajawka na podcasty to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_101",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Pierogi jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_102",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Umawianie się w miejscu takim jak Kraków jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_103",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Miś jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_104",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Powiadomienia z X lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_105",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zajawka na fotografia to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_106",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Schabowy jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_107",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Umawianie się w miejscu takim jak Tatry jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_108",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zimna wojna jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_109",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Powiadomienia z WeChat lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_110",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zajawka na podcasty to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_111",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Rosół jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_112",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Umawianie się w miejscu takim jak Hel jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_113",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Alternatywy 4 jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_114",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Powiadomienia z Twitch lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_115",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zajawka na fotografia to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_116",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Pączek jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_117",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Umawianie się w miejscu takim jak Poznań jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_118",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "The Office PL jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_119",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Powiadomienia z Telegram lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_120",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zajawka na podcasty to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_121",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kremówka jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_122",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Umawianie się w miejscu takim jak Zamość jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_123",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Chłopaki nie płaczą jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_124",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Powiadomienia z Shorts lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_125",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zajawka na fotografia to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_126",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kabanos jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_127",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Umawianie się w miejscu takim jak Kopalnia Soli jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_128",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Pan Tadeusz jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_129",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Powiadomienia z Sticker lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_130",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zajawka na podcasty to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Smaleć jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Umawianie się w miejscu takim jak Sandomierz jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Amator jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Powiadomienia z Like lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zajawka na fotografia to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Budyń jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Umawianie się w miejscu takim jak Pieniny jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vabank jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Powiadomienia z Podcast lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zajawka na podcasty to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_141",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kajmak jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_142",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Umawianie się w miejscu takim jak Nikiszowiec jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_143",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jeden z dziesięciu jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_144",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Powiadomienia z Challenge lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_145",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Zajawka na fotografia to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_146",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Racuchy jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_147",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Umawianie się w miejscu takim jak Łazienki Królewskie jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_148",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "HBO Max jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_149",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Powiadomienia z Profile lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_150",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Zajawka na podcasty to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_151",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Pierogi jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_152",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Umawianie się w miejscu takim jak Kraków jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_153",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Dawid Podsiadło jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_154",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Powiadomienia z X lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_155",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Zajawka na fotografia to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_156",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Schabowy jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_157",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Umawianie się w miejscu takim jak Tatry jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_158",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Maryla Rodowicz jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_159",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Powiadomienia z WeChat lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_160",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Zajawka na podcasty to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_161",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Rosół jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_162",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Umawianie się w miejscu takim jak Hel jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_163",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Marek Grechuta jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_164",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Powiadomienia z Twitch lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_165",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Zajawka na fotografia to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_166",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Pączek jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_167",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Umawianie się w miejscu takim jak Poznań jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_168",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kult jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_169",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Powiadomienia z Telegram lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_170",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Zajawka na podcasty to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_171",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kremówka jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_172",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Umawianie się w miejscu takim jak Zamość jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_173",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mrozu jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_174",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Powiadomienia z Shorts lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_175",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Zajawka na fotografia to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_176",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kabanos jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_177",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Umawianie się w miejscu takim jak Kopalnia Soli jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_178",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Artur Rojek jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_179",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Powiadomienia z Sticker lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_180",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Zajawka na podcasty to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_181",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Smaleć jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_182",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Umawianie się w miejscu takim jak Sandomierz jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_183",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Peja jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_184",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Powiadomienia z Like lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_185",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Zajawka na fotografia to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_186",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Budyń jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_187",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Umawianie się w miejscu takim jak Pieniny jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_188",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kwiat Jabłoni jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_189",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Powiadomienia z Podcast lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_190",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Zajawka na podcasty to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_191",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kajmak jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_192",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Umawianie się w miejscu takim jak Nikiszowiec jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_193",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Polonez jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_194",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Powiadomienia z Challenge lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_195",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Zajawka na fotografia to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_196",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Racuchy jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_197",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Umawianie się w miejscu takim jak Łazienki Królewskie jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_198",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Opener jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_199",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Powiadomienia z Profile lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_200",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Zajawka na podcasty to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_201",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Pierogi jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_202",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Umawianie się w miejscu takim jak Kraków jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_203",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Miś jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_204",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Powiadomienia z X lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_205",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Zajawka na fotografia to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_206",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Schabowy jest niedoceniane."
+    },
+    {
+      "id": "ht_pl_207",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Umawianie się w miejscu takim jak Tatry jest trudniejsze, niż brzmi."
+    },
+    {
+      "id": "ht_pl_208",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Zimna wojna jest lepsze ze znajomymi."
+    },
+    {
+      "id": "ht_pl_209",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Powiadomienia z WeChat lepiej czasem ignorować."
+    },
+    {
+      "id": "ht_pl_210",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Zajawka na podcasty to pełnoprawne hobby."
+    },
+    {
+      "id": "ht_pl_211",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wyciszenie grupowego czatu to dbanie o siebie."
+    },
+    {
+      "id": "ht_pl_212",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Dobry mem potrafi uratować zły dzień."
+    },
+    {
+      "id": "ht_pl_213",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wiadomości głosowe powinny mieć limit czasu."
+    },
+    {
+      "id": "ht_pl_214",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Screeny to współczesne paragony."
+    },
+    {
+      "id": "ht_pl_215",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Viral brzmi bardziej stresująco niż zabawnie."
+    },
+    {
+      "id": "ht_pl_216",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Planszówka ujawnia prawdziwy charakter."
+    },
+    {
+      "id": "ht_pl_217",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Domowe zasady są lepsze niż oficjalne."
+    }
+  ]
+}

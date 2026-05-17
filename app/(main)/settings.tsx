@@ -30,6 +30,7 @@ import { PaywallModal } from '@/components/modals/PaywallModal'
 import { ThemePickerModal } from '@/components/modals/ThemePickerModal'
 import { StatsModal } from '@/components/modals/StatsModal'
 import { Divider } from '@/components/ui/Divider'
+import { LOCALE_META, SUPPORTED_LOCALES } from '@/i18n'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // CONSTANTS
@@ -37,19 +38,6 @@ import { Divider } from '@/components/ui/Divider'
 
 const PRIVACY_URL = 'https://muratcanyusufoglu.github.io/whoisimposter/legal/privacy/'
 const TERMS_URL   = 'https://muratcanyusufoglu.github.io/whoisimposter/legal/terms/'
-
-const LANGUAGES = [
-  { code: 'en', label: 'English',    flag: '🇺🇸' },
-  { code: 'tr', label: 'Türkçe',     flag: '🇹🇷' },
-  { code: 'de', label: 'Deutsch',    flag: '🇩🇪' },
-  { code: 'fr', label: 'Français',   flag: '🇫🇷' },
-  { code: 'es', label: 'Español',    flag: '🇪🇸' },
-  { code: 'pt', label: 'Português',  flag: '🇧🇷' },
-  { code: 'ru', label: 'Русский',    flag: '🇷🇺' },
-  { code: 'ar', label: 'العربية',    flag: '🇸🇦' },
-  { code: 'it', label: 'Italiano',   flag: '🇮🇹' },
-  { code: 'nl', label: 'Nederlands', flag: '🇳🇱' },
-]
 
 const SPRING = { damping: 20, stiffness: 200 }
 
@@ -107,7 +95,7 @@ export default function SettingsScreen() {
   }
 
   const currentLangLabel =
-    LANGUAGES.find((l) => l.code === language)?.label ?? 'English'
+    LOCALE_META[language as keyof typeof LOCALE_META]?.nativeName ?? LOCALE_META.en.nativeName
 
   // ─── Render ───────────────────────────────────────────────────────────────
   return (
@@ -288,6 +276,7 @@ function LanguagePickerModal({
   onClose: () => void
 }) {
   const { theme } = useTheme()
+  const { t } = useTranslation()
 
   return (
     <Modal
@@ -305,7 +294,7 @@ function LanguagePickerModal({
           {/* Header */}
           <View style={lp.sheetHeader}>
             <Text style={[lp.sheetTitle, { color: theme.text.primary }]}>
-              Language
+              {t('settings.language')}
             </Text>
             <Pressable onPress={onClose} style={lp.closeBtn}>
               <Ionicons name="close" size={20} color={theme.text.muted} />
@@ -313,32 +302,35 @@ function LanguagePickerModal({
           </View>
 
           {/* Language list */}
-          {LANGUAGES.map((lang, idx) => {
-            const isSelected = lang.code === currentCode
-            return (
-              <View key={lang.code}>
-                {idx > 0 && <View style={[lp.rowDivider, { backgroundColor: theme.border.subtle }]} />}
-                <Pressable
-                  onPress={() => onSelect(lang.code)}
-                  style={lp.langRow}
-                >
-                  <Text style={lp.flag}>{lang.flag}</Text>
-                  <Text style={[
-                    lp.langLabel,
-                    {
-                      color: isSelected ? theme.accent.primary : theme.text.primary,
-                      fontFamily: isSelected ? fontFamily.bodyBold : fontFamily.body,
-                    },
-                  ]}>
-                    {lang.label}
-                  </Text>
-                  {isSelected && (
-                    <Ionicons name="checkmark" size={18} color={theme.accent.primary} />
-                  )}
-                </Pressable>
-              </View>
-            )
-          })}
+          <ScrollView showsVerticalScrollIndicator={false}>
+            {SUPPORTED_LOCALES.map((code, idx) => {
+              const isSelected = code === currentCode
+              const meta = LOCALE_META[code]
+              return (
+                <View key={code}>
+                  {idx > 0 && <View style={[lp.rowDivider, { backgroundColor: theme.border.subtle }]} />}
+                  <Pressable
+                    onPress={() => onSelect(code)}
+                    style={lp.langRow}
+                  >
+                    <Text style={lp.flag}>{meta.flag}</Text>
+                    <Text style={[
+                      lp.langLabel,
+                      {
+                        color: isSelected ? theme.accent.primary : theme.text.primary,
+                        fontFamily: isSelected ? fontFamily.bodyBold : fontFamily.body,
+                      },
+                    ]}>
+                      {meta.nativeName}
+                    </Text>
+                    {isSelected && (
+                      <Ionicons name="checkmark" size={18} color={theme.accent.primary} />
+                    )}
+                  </Pressable>
+                </View>
+              )
+            })}
+          </ScrollView>
 
           <View style={lp.bottomPad} />
         </View>

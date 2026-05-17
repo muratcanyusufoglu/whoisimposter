@@ -295,7 +295,7 @@
     "custom": "Ma liste",
     "places": "Lieux & Monuments",
     "vehicles": "Véhicules & Transport",
-    "science": "Science & Inventions",
+    "science": "Sciences et inventions",
     "superheroes": "Super-héros & Comics",
     "video_games": "Jeux Vidéo",
     "drinks": "Boissons & Cocktails",
@@ -304,7 +304,9 @@
     "olympics": "Jeux Olympiques & Sports Extrêmes",
     "scientists": "Scientifiques Célèbres",
     "ancient": "Civilisations Antiques",
-    "flowers": "Fleurs & Plantes"
+    "flowers": "Fleurs & Plantes",
+    "internet_culture": "Culture Internet",
+    "party_life": "Vie de soirée"
   },
   "games": {
     "imposter": {
@@ -438,7 +440,7 @@
       }
     },
     "charades": {
-      "name": "Charades",
+      "name": "Mimes",
       "description": "Mimez — aucun mot autorisé !",
       "howToPlay": {
         "intro": "Mimez le mot secret avec seulement des gestes et des expressions. Pas de mots, pas de sons – pure pantomime !",

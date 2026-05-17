@@ -1,0 +1,949 @@
+{
+  "gameId": "paranoia",
+  "locale": "ja",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "par_ja_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "渋谷スクランブル交差点で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "イヤホンを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "村上春樹に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "写真に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "姫路城で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "自撮りを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "宇多田ヒカルに会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "推し活に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "清水寺で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "イヤホンを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "尾田栄一郎に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "写真に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "小樽で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "自撮りを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "真田広之に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "推し活に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_021",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_022",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "高山で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_023",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "イヤホンを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_024",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "米津玄師に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_025",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "写真に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_026",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_027",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "みなとみらいで一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_028",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "自撮りを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_029",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "小津安二郎に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_030",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "推し活に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_031",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_032",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "豊洲市場で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_033",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "イヤホンを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_034",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "清少納言に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_035",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "写真に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_036",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_037",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "熱海で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_038",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "自撮りを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_039",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "卑弥呼に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_040",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "推し活に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_041",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_042",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "熊本城で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_043",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "イヤホンを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_044",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "葛西紀明に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_045",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "写真に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_046",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_047",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "瀬戸内海で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_048",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "自撮りを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_049",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "山中伸弥に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_050",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "推し活に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_051",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_052",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "渋谷スクランブル交差点で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_053",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "イヤホンを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_054",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "村上春樹に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_055",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "写真に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_056",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_057",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "姫路城で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_058",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "自撮りを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_059",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "宇多田ヒカルに会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_060",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "推し活に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_061",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_062",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "清水寺で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_063",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "イヤホンを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_064",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "尾田栄一郎に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_065",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "写真に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_066",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_067",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "小樽で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_068",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "自撮りを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_069",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "真田広之に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_070",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "推し活に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "高山で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "イヤホンを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "米津玄師に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "写真に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "みなとみらいで一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "自撮りを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "小津安二郎に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "推し活に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "豊洲市場で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "イヤホンを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "清少納言に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "写真に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "熱海で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "自撮りを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "卑弥呼に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "推し活に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "熊本城で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "イヤホンを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "葛西紀明に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "写真に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "瀬戸内海で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "自撮りを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "山中伸弥に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "推し活に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_101",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_102",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "渋谷スクランブル交差点で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_103",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "イヤホンを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_104",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "村上春樹に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_105",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "写真に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_106",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_107",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "姫路城で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_108",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "自撮りを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_109",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "宇多田ヒカルに会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_110",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "推し活に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_111",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_112",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "清水寺で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_113",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "イヤホンを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_114",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "尾田栄一郎に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_115",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "写真に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_116",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_117",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "小樽で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_118",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "自撮りを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_119",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "真田広之に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_120",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "推し活に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_121",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_122",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "高山で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_123",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "イヤホンを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_124",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "米津玄師に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_125",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "写真に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_126",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_127",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "みなとみらいで一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_128",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "自撮りを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_129",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "小津安二郎に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_130",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "推し活に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_131",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_132",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "豊洲市場で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_133",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "イヤホンを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_134",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "清少納言に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_135",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "写真に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_136",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_137",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "熱海で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_138",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "自撮りを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_139",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "卑弥呼に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_140",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "推し活に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_141",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_142",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "熊本城で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_143",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "イヤホンを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_144",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "葛西紀明に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_145",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "写真に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_146",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ゾンビ映画で一番長く生き残りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_147",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "瀬戸内海で一番目立ちそうなのは誰？"
+    },
+    {
+      "id": "par_ja_148",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "自撮りを見られたら一番焦りそうなのは誰？"
+    },
+    {
+      "id": "par_ja_149",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "山中伸弥に会ったら固まりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_150",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "推し活に一番ハマりそうなのは誰？"
+    },
+    {
+      "id": "par_ja_151",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "カメラロールが一番カオスなのは誰？"
+    },
+    {
+      "id": "par_ja_152",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "検索履歴を見られたら一番まずいのは誰？"
+    },
+    {
+      "id": "par_ja_153",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ストーリーを誰が見たかこっそり確認していそうなのは誰？"
+    },
+    {
+      "id": "par_ja_154",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "スマホなしの1日が一番つらそうなのは誰？"
+    },
+    {
+      "id": "par_ja_155",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最強のミーム保存庫を持っているのは誰？"
+    },
+    {
+      "id": "par_ja_156",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "静かなゲームナイトをダンスフロアに変えそうなのは誰？"
+    },
+    {
+      "id": "par_ja_157",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "弁護士みたいに点数を管理するのは誰？"
+    }
+  ]
+}

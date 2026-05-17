@@ -1,0 +1,1309 @@
+{
+  "gameId": "hot-takes",
+  "locale": "zh-Hant",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "ht_zhh_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "珍珠奶茶被低估了。"
+    },
+    {
+      "id": "ht_zhh_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "在九份約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "悲情城市跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "X的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "攝影是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "鹽酥雞被低估了。"
+    },
+    {
+      "id": "ht_zhh_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "在饒河夜市約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "刻在你心底的名字跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "WeChat的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "追星是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "鳳梨酥被低估了。"
+    },
+    {
+      "id": "ht_zhh_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "在象山約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "模仿犯跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Twitch的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "攝影是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "蔥油餅被低估了。"
+    },
+    {
+      "id": "ht_zhh_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "在花蓮約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "艋舺跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Telegram的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "追星是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_021",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "米粉湯被低估了。"
+    },
+    {
+      "id": "ht_zhh_022",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "在台南安平約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_023",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "少林足球跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_024",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Shorts的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_025",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "攝影是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_026",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "三杯雞被低估了。"
+    },
+    {
+      "id": "ht_zhh_027",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "在蓮池潭約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_028",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "倩女幽魂跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_029",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sticker的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_030",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "追星是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_031",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "甜不辣被低估了。"
+    },
+    {
+      "id": "ht_zhh_032",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "在野柳約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_033",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "琅琊榜跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_034",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Like的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_035",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "攝影是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_036",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "鹹酥菇被低估了。"
+    },
+    {
+      "id": "ht_zhh_037",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "在羅東夜市約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_038",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "鬼滅之刃跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_039",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Podcast的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_040",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "追星是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_041",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "冬瓜茶被低估了。"
+    },
+    {
+      "id": "ht_zhh_042",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "在旺角約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_043",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "名偵探柯南跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_044",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Challenge的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_045",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "攝影是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_046",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "港式奶茶被低估了。"
+    },
+    {
+      "id": "ht_zhh_047",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "在台中國家歌劇院約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_048",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "木曜4超玩跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_049",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Profile的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_050",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "追星是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "珍珠奶茶被低估了。"
+    },
+    {
+      "id": "ht_zhh_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "在九份約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "民謠跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "X的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "攝影是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "鹽酥雞被低估了。"
+    },
+    {
+      "id": "ht_zhh_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "在饒河夜市約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "周杰倫跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "WeChat的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "追星是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "鳳梨酥被低估了。"
+    },
+    {
+      "id": "ht_zhh_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "在象山約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "羅大佑跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Twitch的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "攝影是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "蔥油餅被低估了。"
+    },
+    {
+      "id": "ht_zhh_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "在花蓮約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "蘇打綠跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Telegram的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "追星是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "米粉湯被低估了。"
+    },
+    {
+      "id": "ht_zhh_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "在台南安平約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "蕭敬騰跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Shorts的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "攝影是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "三杯雞被低估了。"
+    },
+    {
+      "id": "ht_zhh_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "在蓮池潭約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "劉德華跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sticker的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "追星是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "甜不辣被低估了。"
+    },
+    {
+      "id": "ht_zhh_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "在野柳約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "梁靜茹跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Like的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "攝影是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "鹹酥菇被低估了。"
+    },
+    {
+      "id": "ht_zhh_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "在羅東夜市約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "八三夭跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Podcast的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "追星是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "冬瓜茶被低估了。"
+    },
+    {
+      "id": "ht_zhh_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "在旺角約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "高爾宣跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Challenge的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "攝影是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "港式奶茶被低估了。"
+    },
+    {
+      "id": "ht_zhh_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "在台中國家歌劇院約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "張雨生跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Profile的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "追星是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_101",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "珍珠奶茶被低估了。"
+    },
+    {
+      "id": "ht_zhh_102",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "在九份約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_103",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "悲情城市跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_104",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "X的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_105",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "攝影是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_106",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "鹽酥雞被低估了。"
+    },
+    {
+      "id": "ht_zhh_107",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "在饒河夜市約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_108",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "刻在你心底的名字跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_109",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "WeChat的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_110",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "追星是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_111",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "鳳梨酥被低估了。"
+    },
+    {
+      "id": "ht_zhh_112",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "在象山約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_113",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "模仿犯跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_114",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Twitch的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_115",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "攝影是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_116",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "蔥油餅被低估了。"
+    },
+    {
+      "id": "ht_zhh_117",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "在花蓮約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_118",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "艋舺跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_119",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Telegram的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_120",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "追星是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_121",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "米粉湯被低估了。"
+    },
+    {
+      "id": "ht_zhh_122",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "在台南安平約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_123",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "少林足球跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_124",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Shorts的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_125",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "攝影是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_126",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "三杯雞被低估了。"
+    },
+    {
+      "id": "ht_zhh_127",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "在蓮池潭約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_128",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "倩女幽魂跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_129",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sticker的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_130",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "追星是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "甜不辣被低估了。"
+    },
+    {
+      "id": "ht_zhh_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "在野柳約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "琅琊榜跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Like的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "攝影是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "鹹酥菇被低估了。"
+    },
+    {
+      "id": "ht_zhh_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "在羅東夜市約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "鬼滅之刃跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Podcast的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "追星是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_141",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "冬瓜茶被低估了。"
+    },
+    {
+      "id": "ht_zhh_142",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "在旺角約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_143",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "名偵探柯南跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_144",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Challenge的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_145",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "攝影是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_146",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "港式奶茶被低估了。"
+    },
+    {
+      "id": "ht_zhh_147",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "在台中國家歌劇院約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_148",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "木曜4超玩跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_149",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Profile的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_150",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "追星是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_151",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "珍珠奶茶被低估了。"
+    },
+    {
+      "id": "ht_zhh_152",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "在九份約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_153",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "民謠跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_154",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "X的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_155",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "攝影是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_156",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "鹽酥雞被低估了。"
+    },
+    {
+      "id": "ht_zhh_157",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "在饒河夜市約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_158",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "周杰倫跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_159",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "WeChat的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_160",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "追星是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_161",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "鳳梨酥被低估了。"
+    },
+    {
+      "id": "ht_zhh_162",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "在象山約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_163",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "羅大佑跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_164",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Twitch的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_165",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "攝影是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_166",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "蔥油餅被低估了。"
+    },
+    {
+      "id": "ht_zhh_167",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "在花蓮約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_168",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "蘇打綠跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_169",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Telegram的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_170",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "追星是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_171",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "米粉湯被低估了。"
+    },
+    {
+      "id": "ht_zhh_172",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "在台南安平約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_173",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "蕭敬騰跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_174",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Shorts的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_175",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "攝影是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_176",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "三杯雞被低估了。"
+    },
+    {
+      "id": "ht_zhh_177",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "在蓮池潭約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_178",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "劉德華跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_179",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Sticker的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_180",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "追星是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_181",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "甜不辣被低估了。"
+    },
+    {
+      "id": "ht_zhh_182",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "在野柳約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_183",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "梁靜茹跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_184",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Like的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_185",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "攝影是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_186",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "鹹酥菇被低估了。"
+    },
+    {
+      "id": "ht_zhh_187",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "在羅東夜市約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_188",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "八三夭跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_189",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Podcast的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_190",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "追星是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_191",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "冬瓜茶被低估了。"
+    },
+    {
+      "id": "ht_zhh_192",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "在旺角約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_193",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "高爾宣跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_194",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Challenge的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_195",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "攝影是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_196",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "港式奶茶被低估了。"
+    },
+    {
+      "id": "ht_zhh_197",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "在台中國家歌劇院約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_198",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "張雨生跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_199",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Profile的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_200",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "追星是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_201",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "珍珠奶茶被低估了。"
+    },
+    {
+      "id": "ht_zhh_202",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "在九份約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_203",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "悲情城市跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_204",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "X的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_205",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "攝影是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_206",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "鹽酥雞被低估了。"
+    },
+    {
+      "id": "ht_zhh_207",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "在饒河夜市約人其實很難。"
+    },
+    {
+      "id": "ht_zhh_208",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "刻在你心底的名字跟朋友一起看更好玩。"
+    },
+    {
+      "id": "ht_zhh_209",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "WeChat的通知關掉比較幸福。"
+    },
+    {
+      "id": "ht_zhh_210",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "追星是很認真的興趣。"
+    },
+    {
+      "id": "ht_zhh_211",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "關掉群組通知是一種自我照顧。"
+    },
+    {
+      "id": "ht_zhh_212",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "好迷因可以拯救糟糕的一天。"
+    },
+    {
+      "id": "ht_zhh_213",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "語音訊息應該要有時間限制。"
+    },
+    {
+      "id": "ht_zhh_214",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "截圖是現代人的收據。"
+    },
+    {
+      "id": "ht_zhh_215",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "爆紅聽起來比好玩更有壓力。"
+    },
+    {
+      "id": "ht_zhh_216",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "桌遊會暴露一個人的真性情。"
+    },
+    {
+      "id": "ht_zhh_217",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "家規比官方規則更好玩。"
+    }
+  ]
+}

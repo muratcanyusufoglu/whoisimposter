@@ -1,0 +1,1309 @@
+{
+  "gameId": "hot-takes",
+  "locale": "ja",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "ht_ja_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "寿司はもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "渋谷スクランブル交差点での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ゴジラは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Xの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "写真は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "焼き鳥はもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "姫路城での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ワンピースは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "WeChatの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "推し活は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "味噌汁はもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "清水寺での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "半沢直樹は友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Twitchの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "写真は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "すき焼きはもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "小樽での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "相棒は友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Telegramの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "推し活は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_021",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "茶碗蒸しはもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_022",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "高山での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_023",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "デスノートは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_024",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Shortsの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_025",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "写真は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_026",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "おでんはもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_027",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "みなとみらいでの待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_028",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "万引き家族は友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_029",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Stickerの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_030",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "推し活は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_031",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "メロンパンはもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_032",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "豊洲市場での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_033",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "スーパー戦隊は友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_034",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Likeの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_035",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "写真は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_036",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "お茶はもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_037",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "熱海での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_038",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "スラムダンクは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_039",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Podcastの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_040",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "推し活は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_041",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "梅酒はもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_042",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "熊本城での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_043",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "紅白歌合戦は友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_044",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Challengeの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_045",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "写真は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_046",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "もんじゃ焼きはもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_047",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "瀬戸内海での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_048",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ドクターXは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_049",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Profileの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_050",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "推し活は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "寿司はもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "渋谷スクランブル交差点での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "シティポップは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Xの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "写真は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "焼き鳥はもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "姫路城での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "太鼓は友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "WeChatの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "推し活は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "味噌汁はもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "清水寺での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "アイドルは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Twitchの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "写真は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "すき焼きはもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "小樽での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "YOASOBIは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Telegramの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "推し活は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "茶碗蒸しはもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "高山での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Official髭男dismは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Shortsの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "写真は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "おでんはもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "みなとみらいでの待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mr.Childrenは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Stickerの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "推し活は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "メロンパンはもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "豊洲市場での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "坂本龍一は友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Likeの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "写真は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "お茶はもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "熱海での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "RADWIMPSは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Podcastの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "推し活は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "梅酒はもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "熊本城での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "SMAPは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Challengeの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "写真は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "もんじゃ焼きはもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "瀬戸内海での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "山下達郎は友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Profileの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "推し活は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_101",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "寿司はもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_102",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "渋谷スクランブル交差点での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_103",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ゴジラは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_104",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Xの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_105",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "写真は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_106",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "焼き鳥はもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_107",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "姫路城での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_108",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ワンピースは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_109",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "WeChatの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_110",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "推し活は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_111",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "味噌汁はもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_112",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "清水寺での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_113",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "半沢直樹は友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_114",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Twitchの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_115",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "写真は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_116",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "すき焼きはもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_117",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "小樽での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_118",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "相棒は友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_119",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Telegramの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_120",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "推し活は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_121",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "茶碗蒸しはもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_122",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "高山での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_123",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "デスノートは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_124",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Shortsの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_125",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "写真は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_126",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "おでんはもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_127",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "みなとみらいでの待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_128",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "万引き家族は友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_129",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Stickerの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_130",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "推し活は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "メロンパンはもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "豊洲市場での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "スーパー戦隊は友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Likeの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "写真は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "お茶はもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "熱海での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "スラムダンクは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Podcastの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "推し活は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_141",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "梅酒はもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_142",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "熊本城での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_143",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "紅白歌合戦は友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_144",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Challengeの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_145",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "写真は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_146",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "もんじゃ焼きはもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_147",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "瀬戸内海での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_148",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ドクターXは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_149",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Profileの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_150",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "推し活は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_151",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "寿司はもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_152",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "渋谷スクランブル交差点での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_153",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "シティポップは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_154",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Xの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_155",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "写真は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_156",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "焼き鳥はもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_157",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "姫路城での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_158",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "太鼓は友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_159",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "WeChatの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_160",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "推し活は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_161",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "味噌汁はもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_162",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "清水寺での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_163",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "アイドルは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_164",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Twitchの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_165",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "写真は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_166",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "すき焼きはもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_167",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "小樽での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_168",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "YOASOBIは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_169",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Telegramの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_170",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "推し活は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_171",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "茶碗蒸しはもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_172",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "高山での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_173",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Official髭男dismは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_174",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Shortsの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_175",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "写真は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_176",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "おでんはもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_177",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "みなとみらいでの待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_178",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mr.Childrenは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_179",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Stickerの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_180",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "推し活は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_181",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "メロンパンはもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_182",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "豊洲市場での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_183",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "坂本龍一は友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_184",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Likeの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_185",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "写真は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_186",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "お茶はもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_187",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "熱海での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_188",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "RADWIMPSは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_189",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Podcastの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_190",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "推し活は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_191",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "梅酒はもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_192",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "熊本城での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_193",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "SMAPは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_194",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Challengeの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_195",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "写真は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_196",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "もんじゃ焼きはもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_197",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "瀬戸内海での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_198",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "山下達郎は友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_199",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Profileの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_200",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "推し活は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_201",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "寿司はもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_202",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "渋谷スクランブル交差点での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_203",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ゴジラは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_204",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Xの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_205",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "写真は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_206",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "焼き鳥はもっと評価されるべき。"
+    },
+    {
+      "id": "ht_ja_207",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "姫路城での待ち合わせは意外とむずかしい。"
+    },
+    {
+      "id": "ht_ja_208",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ワンピースは友だちと見る方が面白い。"
+    },
+    {
+      "id": "ht_ja_209",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "WeChatの通知は気にしない方が幸せ。"
+    },
+    {
+      "id": "ht_ja_210",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "推し活は立派な趣味だ。"
+    },
+    {
+      "id": "ht_ja_211",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "グループチャットの通知を切るのはセルフケアだ。"
+    },
+    {
+      "id": "ht_ja_212",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "良いミームは悪い日を救う。"
+    },
+    {
+      "id": "ht_ja_213",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ボイスメッセージには時間制限が必要だ。"
+    },
+    {
+      "id": "ht_ja_214",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "スクショは現代の証拠だ。"
+    },
+    {
+      "id": "ht_ja_215",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "バズるのは楽しさよりストレスが強そう。"
+    },
+    {
+      "id": "ht_ja_216",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ボードゲームは本性をあぶり出す。"
+    },
+    {
+      "id": "ht_ja_217",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "公式ルールよりローカルルールの方が楽しい。"
+    }
+  ]
+}

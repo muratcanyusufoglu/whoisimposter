@@ -1,0 +1,1232 @@
+{
+  "gameId": "truth-dare",
+  "locale": "pl",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "td_pl_001",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Co ostatnio najbardziej Cię rozśmieszyło?"
+    },
+    {
+      "id": "td_pl_002",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jakie małe kłamstwo powiedziałeś/aś ostatnio?"
+    },
+    {
+      "id": "td_pl_003",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jaki masz dziwny nawyk?"
+    },
+    {
+      "id": "td_pl_004",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jaki był Twój ostatni naprawdę niezręczny moment?"
+    },
+    {
+      "id": "td_pl_005",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jakiego małego sekretu jeszcze nikomu nie powiedziałeś/aś?"
+    },
+    {
+      "id": "td_pl_006",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Gdyby trzeba było umówić się z kimś tutaj, kto by to był?"
+    },
+    {
+      "id": "td_pl_007",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jakiej wiadomości od razu pożałowałeś/aś?"
+    },
+    {
+      "id": "td_pl_008",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jakiego typu spotkań najchętniej unikasz?"
+    },
+    {
+      "id": "td_pl_009",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kiedy ostatnio poczułeś/aś zazdrość?"
+    },
+    {
+      "id": "td_pl_010",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Który stary post chcesz usunąć?"
+    },
+    {
+      "id": "td_pl_011",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Co ostatnio najbardziej Cię rozśmieszyło?"
+    },
+    {
+      "id": "td_pl_012",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jakie małe kłamstwo powiedziałeś/aś ostatnio?"
+    },
+    {
+      "id": "td_pl_013",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jaki masz dziwny nawyk?"
+    },
+    {
+      "id": "td_pl_014",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jaki był Twój ostatni naprawdę niezręczny moment?"
+    },
+    {
+      "id": "td_pl_015",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jakiego małego sekretu jeszcze nikomu nie powiedziałeś/aś?"
+    },
+    {
+      "id": "td_pl_016",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Gdyby trzeba było umówić się z kimś tutaj, kto by to był?"
+    },
+    {
+      "id": "td_pl_017",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jakiej wiadomości od razu pożałowałeś/aś?"
+    },
+    {
+      "id": "td_pl_018",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jakiego typu spotkań najchętniej unikasz?"
+    },
+    {
+      "id": "td_pl_019",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kiedy ostatnio poczułeś/aś zazdrość?"
+    },
+    {
+      "id": "td_pl_020",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Który stary post chcesz usunąć?"
+    },
+    {
+      "id": "td_pl_021",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Co ostatnio najbardziej Cię rozśmieszyło?"
+    },
+    {
+      "id": "td_pl_022",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jakie małe kłamstwo powiedziałeś/aś ostatnio?"
+    },
+    {
+      "id": "td_pl_023",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jaki masz dziwny nawyk?"
+    },
+    {
+      "id": "td_pl_024",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jaki był Twój ostatni naprawdę niezręczny moment?"
+    },
+    {
+      "id": "td_pl_025",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jakiego małego sekretu jeszcze nikomu nie powiedziałeś/aś?"
+    },
+    {
+      "id": "td_pl_026",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Gdyby trzeba było umówić się z kimś tutaj, kto by to był?"
+    },
+    {
+      "id": "td_pl_027",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jakiej wiadomości od razu pożałowałeś/aś?"
+    },
+    {
+      "id": "td_pl_028",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jakiego typu spotkań najchętniej unikasz?"
+    },
+    {
+      "id": "td_pl_029",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kiedy ostatnio poczułeś/aś zazdrość?"
+    },
+    {
+      "id": "td_pl_030",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Który stary post chcesz usunąć?"
+    },
+    {
+      "id": "td_pl_031",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Co ostatnio najbardziej Cię rozśmieszyło?"
+    },
+    {
+      "id": "td_pl_032",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jakie małe kłamstwo powiedziałeś/aś ostatnio?"
+    },
+    {
+      "id": "td_pl_033",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jaki masz dziwny nawyk?"
+    },
+    {
+      "id": "td_pl_034",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jaki był Twój ostatni naprawdę niezręczny moment?"
+    },
+    {
+      "id": "td_pl_035",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jakiego małego sekretu jeszcze nikomu nie powiedziałeś/aś?"
+    },
+    {
+      "id": "td_pl_036",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Gdyby trzeba było umówić się z kimś tutaj, kto by to był?"
+    },
+    {
+      "id": "td_pl_037",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jakiej wiadomości od razu pożałowałeś/aś?"
+    },
+    {
+      "id": "td_pl_038",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jakiego typu spotkań najchętniej unikasz?"
+    },
+    {
+      "id": "td_pl_039",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kiedy ostatnio poczułeś/aś zazdrość?"
+    },
+    {
+      "id": "td_pl_040",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Który stary post chcesz usunąć?"
+    },
+    {
+      "id": "td_pl_041",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Co ostatnio najbardziej Cię rozśmieszyło?"
+    },
+    {
+      "id": "td_pl_042",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jakie małe kłamstwo powiedziałeś/aś ostatnio?"
+    },
+    {
+      "id": "td_pl_043",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jaki masz dziwny nawyk?"
+    },
+    {
+      "id": "td_pl_044",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jaki był Twój ostatni naprawdę niezręczny moment?"
+    },
+    {
+      "id": "td_pl_045",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jakiego małego sekretu jeszcze nikomu nie powiedziałeś/aś?"
+    },
+    {
+      "id": "td_pl_046",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Gdyby trzeba było umówić się z kimś tutaj, kto by to był?"
+    },
+    {
+      "id": "td_pl_047",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jakiej wiadomości od razu pożałowałeś/aś?"
+    },
+    {
+      "id": "td_pl_048",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jakiego typu spotkań najchętniej unikasz?"
+    },
+    {
+      "id": "td_pl_049",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kiedy ostatnio poczułeś/aś zazdrość?"
+    },
+    {
+      "id": "td_pl_050",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Który stary post chcesz usunąć?"
+    },
+    {
+      "id": "td_pl_051",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Co ostatnio najbardziej Cię rozśmieszyło?"
+    },
+    {
+      "id": "td_pl_052",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jakie małe kłamstwo powiedziałeś/aś ostatnio?"
+    },
+    {
+      "id": "td_pl_053",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jaki masz dziwny nawyk?"
+    },
+    {
+      "id": "td_pl_054",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jaki był Twój ostatni naprawdę niezręczny moment?"
+    },
+    {
+      "id": "td_pl_055",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jakiego małego sekretu jeszcze nikomu nie powiedziałeś/aś?"
+    },
+    {
+      "id": "td_pl_056",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Gdyby trzeba było umówić się z kimś tutaj, kto by to był?"
+    },
+    {
+      "id": "td_pl_057",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jakiej wiadomości od razu pożałowałeś/aś?"
+    },
+    {
+      "id": "td_pl_058",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jakiego typu spotkań najchętniej unikasz?"
+    },
+    {
+      "id": "td_pl_059",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kiedy ostatnio poczułeś/aś zazdrość?"
+    },
+    {
+      "id": "td_pl_060",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Który stary post chcesz usunąć?"
+    },
+    {
+      "id": "td_pl_061",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Co ostatnio najbardziej Cię rozśmieszyło?"
+    },
+    {
+      "id": "td_pl_062",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jakie małe kłamstwo powiedziałeś/aś ostatnio?"
+    },
+    {
+      "id": "td_pl_063",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jaki masz dziwny nawyk?"
+    },
+    {
+      "id": "td_pl_064",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jaki był Twój ostatni naprawdę niezręczny moment?"
+    },
+    {
+      "id": "td_pl_065",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jakiego małego sekretu jeszcze nikomu nie powiedziałeś/aś?"
+    },
+    {
+      "id": "td_pl_066",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Gdyby trzeba było umówić się z kimś tutaj, kto by to był?"
+    },
+    {
+      "id": "td_pl_067",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jakiej wiadomości od razu pożałowałeś/aś?"
+    },
+    {
+      "id": "td_pl_068",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jakiego typu spotkań najchętniej unikasz?"
+    },
+    {
+      "id": "td_pl_069",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kiedy ostatnio poczułeś/aś zazdrość?"
+    },
+    {
+      "id": "td_pl_070",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Który stary post chcesz usunąć?"
+    },
+    {
+      "id": "td_pl_071",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Co ostatnio najbardziej Cię rozśmieszyło?"
+    },
+    {
+      "id": "td_pl_072",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jakie małe kłamstwo powiedziałeś/aś ostatnio?"
+    },
+    {
+      "id": "td_pl_073",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jaki masz dziwny nawyk?"
+    },
+    {
+      "id": "td_pl_074",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jaki był Twój ostatni naprawdę niezręczny moment?"
+    },
+    {
+      "id": "td_pl_075",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jakiego małego sekretu jeszcze nikomu nie powiedziałeś/aś?"
+    },
+    {
+      "id": "td_pl_076",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Gdyby trzeba było umówić się z kimś tutaj, kto by to był?"
+    },
+    {
+      "id": "td_pl_077",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jakiej wiadomości od razu pożałowałeś/aś?"
+    },
+    {
+      "id": "td_pl_078",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jakiego typu spotkań najchętniej unikasz?"
+    },
+    {
+      "id": "td_pl_079",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kiedy ostatnio poczułeś/aś zazdrość?"
+    },
+    {
+      "id": "td_pl_080",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Który stary post chcesz usunąć?"
+    },
+    {
+      "id": "td_pl_081",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Co ostatnio najbardziej Cię rozśmieszyło?"
+    },
+    {
+      "id": "td_pl_082",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jakie małe kłamstwo powiedziałeś/aś ostatnio?"
+    },
+    {
+      "id": "td_pl_083",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jaki masz dziwny nawyk?"
+    },
+    {
+      "id": "td_pl_084",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jaki był Twój ostatni naprawdę niezręczny moment?"
+    },
+    {
+      "id": "td_pl_085",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jakiego małego sekretu jeszcze nikomu nie powiedziałeś/aś?"
+    },
+    {
+      "id": "td_pl_086",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zrób swoją najlepszą imitację."
+    },
+    {
+      "id": "td_pl_087",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zaśpiewaj refren ulubionej piosenki."
+    },
+    {
+      "id": "td_pl_088",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Śmiej się jak czarny charakter przez 30 sekund."
+    },
+    {
+      "id": "td_pl_089",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nie mów zakazanego słowa przez 5 minut."
+    },
+    {
+      "id": "td_pl_090",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pokaż swoje najczęściej odtwarzane piosenki."
+    },
+    {
+      "id": "td_pl_091",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Powiedz komuś romantyczny komplement jak z filmu."
+    },
+    {
+      "id": "td_pl_092",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Powiedz najbardziej zawstydzający tekst na podryw bez uśmiechu."
+    },
+    {
+      "id": "td_pl_093",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Opisz pokój jak prezenter wiadomości."
+    },
+    {
+      "id": "td_pl_094",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wymyśl każdemu w pokoju ksywkę."
+    },
+    {
+      "id": "td_pl_095",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Powiedz szczery komplement osobie po lewej."
+    },
+    {
+      "id": "td_pl_096",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zrób swoją najlepszą imitację."
+    },
+    {
+      "id": "td_pl_097",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zaśpiewaj refren ulubionej piosenki."
+    },
+    {
+      "id": "td_pl_098",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Śmiej się jak czarny charakter przez 30 sekund."
+    },
+    {
+      "id": "td_pl_099",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nie mów zakazanego słowa przez 5 minut."
+    },
+    {
+      "id": "td_pl_100",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pokaż swoje najczęściej odtwarzane piosenki."
+    },
+    {
+      "id": "td_pl_101",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Powiedz komuś romantyczny komplement jak z filmu."
+    },
+    {
+      "id": "td_pl_102",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Powiedz najbardziej zawstydzający tekst na podryw bez uśmiechu."
+    },
+    {
+      "id": "td_pl_103",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Opisz pokój jak prezenter wiadomości."
+    },
+    {
+      "id": "td_pl_104",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Wymyśl każdemu w pokoju ksywkę."
+    },
+    {
+      "id": "td_pl_105",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Powiedz szczery komplement osobie po lewej."
+    },
+    {
+      "id": "td_pl_106",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zrób swoją najlepszą imitację."
+    },
+    {
+      "id": "td_pl_107",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Zaśpiewaj refren ulubionej piosenki."
+    },
+    {
+      "id": "td_pl_108",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Śmiej się jak czarny charakter przez 30 sekund."
+    },
+    {
+      "id": "td_pl_109",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nie mów zakazanego słowa przez 5 minut."
+    },
+    {
+      "id": "td_pl_110",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pokaż swoje najczęściej odtwarzane piosenki."
+    },
+    {
+      "id": "td_pl_111",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Powiedz komuś romantyczny komplement jak z filmu."
+    },
+    {
+      "id": "td_pl_112",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Powiedz najbardziej zawstydzający tekst na podryw bez uśmiechu."
+    },
+    {
+      "id": "td_pl_113",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Opisz pokój jak prezenter wiadomości."
+    },
+    {
+      "id": "td_pl_114",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wymyśl każdemu w pokoju ksywkę."
+    },
+    {
+      "id": "td_pl_115",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Powiedz szczery komplement osobie po lewej."
+    },
+    {
+      "id": "td_pl_116",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zrób swoją najlepszą imitację."
+    },
+    {
+      "id": "td_pl_117",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zaśpiewaj refren ulubionej piosenki."
+    },
+    {
+      "id": "td_pl_118",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Śmiej się jak czarny charakter przez 30 sekund."
+    },
+    {
+      "id": "td_pl_119",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nie mów zakazanego słowa przez 5 minut."
+    },
+    {
+      "id": "td_pl_120",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Pokaż swoje najczęściej odtwarzane piosenki."
+    },
+    {
+      "id": "td_pl_121",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Powiedz komuś romantyczny komplement jak z filmu."
+    },
+    {
+      "id": "td_pl_122",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Powiedz najbardziej zawstydzający tekst na podryw bez uśmiechu."
+    },
+    {
+      "id": "td_pl_123",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Opisz pokój jak prezenter wiadomości."
+    },
+    {
+      "id": "td_pl_124",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wymyśl każdemu w pokoju ksywkę."
+    },
+    {
+      "id": "td_pl_125",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Powiedz szczery komplement osobie po lewej."
+    },
+    {
+      "id": "td_pl_126",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zrób swoją najlepszą imitację."
+    },
+    {
+      "id": "td_pl_127",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zaśpiewaj refren ulubionej piosenki."
+    },
+    {
+      "id": "td_pl_128",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Śmiej się jak czarny charakter przez 30 sekund."
+    },
+    {
+      "id": "td_pl_129",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nie mów zakazanego słowa przez 5 minut."
+    },
+    {
+      "id": "td_pl_130",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Pokaż swoje najczęściej odtwarzane piosenki."
+    },
+    {
+      "id": "td_pl_131",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Powiedz komuś romantyczny komplement jak z filmu."
+    },
+    {
+      "id": "td_pl_132",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Powiedz najbardziej zawstydzający tekst na podryw bez uśmiechu."
+    },
+    {
+      "id": "td_pl_133",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Opisz pokój jak prezenter wiadomości."
+    },
+    {
+      "id": "td_pl_134",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Wymyśl każdemu w pokoju ksywkę."
+    },
+    {
+      "id": "td_pl_135",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Powiedz szczery komplement osobie po lewej."
+    },
+    {
+      "id": "td_pl_136",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zrób swoją najlepszą imitację."
+    },
+    {
+      "id": "td_pl_137",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zaśpiewaj refren ulubionej piosenki."
+    },
+    {
+      "id": "td_pl_138",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Śmiej się jak czarny charakter przez 30 sekund."
+    },
+    {
+      "id": "td_pl_139",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nie mów zakazanego słowa przez 5 minut."
+    },
+    {
+      "id": "td_pl_140",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Pokaż swoje najczęściej odtwarzane piosenki."
+    },
+    {
+      "id": "td_pl_141",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Powiedz komuś romantyczny komplement jak z filmu."
+    },
+    {
+      "id": "td_pl_142",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Powiedz najbardziej zawstydzający tekst na podryw bez uśmiechu."
+    },
+    {
+      "id": "td_pl_143",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Opisz pokój jak prezenter wiadomości."
+    },
+    {
+      "id": "td_pl_144",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wymyśl każdemu w pokoju ksywkę."
+    },
+    {
+      "id": "td_pl_145",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Powiedz szczery komplement osobie po lewej."
+    },
+    {
+      "id": "td_pl_146",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Zrób swoją najlepszą imitację."
+    },
+    {
+      "id": "td_pl_147",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Zaśpiewaj refren ulubionej piosenki."
+    },
+    {
+      "id": "td_pl_148",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Śmiej się jak czarny charakter przez 30 sekund."
+    },
+    {
+      "id": "td_pl_149",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nie mów zakazanego słowa przez 5 minut."
+    },
+    {
+      "id": "td_pl_150",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Pokaż swoje najczęściej odtwarzane piosenki."
+    },
+    {
+      "id": "td_pl_151",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Powiedz komuś romantyczny komplement jak z filmu."
+    },
+    {
+      "id": "td_pl_152",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Powiedz najbardziej zawstydzający tekst na podryw bez uśmiechu."
+    },
+    {
+      "id": "td_pl_153",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Opisz pokój jak prezenter wiadomości."
+    },
+    {
+      "id": "td_pl_154",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wymyśl każdemu w pokoju ksywkę."
+    },
+    {
+      "id": "td_pl_155",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Powiedz szczery komplement osobie po lewej."
+    },
+    {
+      "id": "td_pl_156",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Zrób swoją najlepszą imitację."
+    },
+    {
+      "id": "td_pl_157",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Zaśpiewaj refren ulubionej piosenki."
+    },
+    {
+      "id": "td_pl_158",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Śmiej się jak czarny charakter przez 30 sekund."
+    },
+    {
+      "id": "td_pl_159",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nie mów zakazanego słowa przez 5 minut."
+    },
+    {
+      "id": "td_pl_160",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Pokaż swoje najczęściej odtwarzane piosenki."
+    },
+    {
+      "id": "td_pl_161",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Powiedz komuś romantyczny komplement jak z filmu."
+    },
+    {
+      "id": "td_pl_162",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Powiedz najbardziej zawstydzający tekst na podryw bez uśmiechu."
+    },
+    {
+      "id": "td_pl_163",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Opisz pokój jak prezenter wiadomości."
+    },
+    {
+      "id": "td_pl_164",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Wymyśl każdemu w pokoju ksywkę."
+    },
+    {
+      "id": "td_pl_165",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Powiedz szczery komplement osobie po lewej."
+    },
+    {
+      "id": "td_pl_166",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Zrób swoją najlepszą imitację."
+    },
+    {
+      "id": "td_pl_167",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Zaśpiewaj refren ulubionej piosenki."
+    },
+    {
+      "id": "td_pl_168",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Śmiej się jak czarny charakter przez 30 sekund."
+    },
+    {
+      "id": "td_pl_169",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nie mów zakazanego słowa przez 5 minut."
+    },
+    {
+      "id": "td_pl_170",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Pokaż swoje najczęściej odtwarzane piosenki."
+    },
+    {
+      "id": "td_pl_171",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Co jest najbardziej wstydliwe w Twojej historii wyszukiwania?"
+    },
+    {
+      "id": "td_pl_172",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Która aplikacja kradnie Ci najwięcej czasu?"
+    },
+    {
+      "id": "td_pl_173",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jaką wiadomość napisałeś/aś, ale nigdy nie wysłałeś/aś?"
+    },
+    {
+      "id": "td_pl_174",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Pokaż grupie ostatnio zapisany mem."
+    },
+    {
+      "id": "td_pl_175",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Opisz swoje ostatnie selfie jak eksponat muzealny."
+    }
+  ]
+}

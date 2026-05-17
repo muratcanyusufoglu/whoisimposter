@@ -1,0 +1,949 @@
+{
+  "gameId": "paranoia",
+  "locale": "ko",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "par_ko_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "남산타워에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "이어폰 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "김연아 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "사진에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "부산 해운대에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "셀카 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "정호연 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "덕질에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "전주 한옥마을에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "이어폰 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "현빈 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "사진에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "롯데월드타워에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "셀카 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "페이커 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "덕질에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_021",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_022",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "을지로에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_023",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "이어폰 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_024",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "지드래곤 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_025",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "사진에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_026",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_027",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "수원 화성에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_028",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "셀카 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_029",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "차은우 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_030",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "덕질에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_031",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_032",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "순천만에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_033",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "이어폰 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_034",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "한강 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_035",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "사진에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_036",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_037",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "남이섬에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_038",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "셀카 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_039",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "윤동주 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_040",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "덕질에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_041",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_042",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "대구 서문시장에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_043",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "이어폰 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_044",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "백남준 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_045",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "사진에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_046",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_047",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "전주 객리단길에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_048",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "셀카 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_049",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "장기하 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_050",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "덕질에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_051",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_052",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "남산타워에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_053",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "이어폰 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_054",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "김연아 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_055",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "사진에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_056",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_057",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "부산 해운대에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_058",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "셀카 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_059",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "정호연 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_060",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "덕질에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_061",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_062",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "전주 한옥마을에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_063",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "이어폰 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_064",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "현빈 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_065",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "사진에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_066",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_067",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "롯데월드타워에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_068",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "셀카 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_069",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "페이커 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_070",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "덕질에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "을지로에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "이어폰 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "지드래곤 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "사진에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "수원 화성에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "셀카 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "차은우 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "덕질에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "순천만에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "이어폰 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "한강 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "사진에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "남이섬에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "셀카 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "윤동주 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "덕질에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "대구 서문시장에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "이어폰 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "백남준 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "사진에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "전주 객리단길에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "셀카 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "장기하 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "덕질에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_101",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_102",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "남산타워에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_103",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "이어폰 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_104",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "김연아 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_105",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "사진에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_106",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_107",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "부산 해운대에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_108",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "셀카 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_109",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "정호연 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_110",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "덕질에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_111",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_112",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "전주 한옥마을에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_113",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "이어폰 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_114",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "현빈 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_115",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "사진에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_116",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_117",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "롯데월드타워에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_118",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "셀카 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_119",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "페이커 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_120",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "덕질에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_121",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_122",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "을지로에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_123",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "이어폰 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_124",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "지드래곤 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_125",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "사진에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_126",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_127",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "수원 화성에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_128",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "셀카 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_129",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "차은우 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_130",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "덕질에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_131",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_132",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "순천만에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_133",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "이어폰 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_134",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "한강 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_135",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "사진에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_136",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_137",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "남이섬에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_138",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "셀카 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_139",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "윤동주 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_140",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "덕질에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_141",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_142",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "대구 서문시장에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_143",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "이어폰 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_144",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "백남준 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_145",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "사진에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_146",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "좀비 영화에서 가장 오래 살아남을 사람은?"
+    },
+    {
+      "id": "par_ko_147",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "전주 객리단길에서 가장 눈에 띌 사람은?"
+    },
+    {
+      "id": "par_ko_148",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "셀카 들키면 가장 당황할 사람은?"
+    },
+    {
+      "id": "par_ko_149",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "장기하 만나면 얼어붙을 사람은?"
+    },
+    {
+      "id": "par_ko_150",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "덕질에 제일 빠질 사람은?"
+    },
+    {
+      "id": "par_ko_151",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "카메라 롤이 가장 혼란스러운 사람은?"
+    },
+    {
+      "id": "par_ko_152",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "검색 기록이 공개되면 가장 위험한 사람은?"
+    },
+    {
+      "id": "par_ko_153",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "스토리 본 사람 목록을 몰래 확인할 사람은?"
+    },
+    {
+      "id": "par_ko_154",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "휴대폰 없는 하루를 가장 힘들어할 사람은?"
+    },
+    {
+      "id": "par_ko_155",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "최강 밈 아카이브를 가진 사람은?"
+    },
+    {
+      "id": "par_ko_156",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "조용한 게임 나이트를 댄스 플로어로 만들 사람은?"
+    },
+    {
+      "id": "par_ko_157",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "점수를 변호사처럼 관리하는 사람은?"
+    }
+  ]
+}

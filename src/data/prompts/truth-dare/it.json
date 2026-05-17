@@ -1192,6 +1192,41 @@
       "minAge": 18,
       "text": "Che profumo ti fa tornare subito in mente un ricordo?",
       "id": "td_it_170"
+    },
+    {
+      "id": "td_it_171",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Qual è la cosa più imbarazzante nella tua cronologia?"
+    },
+    {
+      "id": "td_it_172",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Quale app ti ruba più tempo?"
+    },
+    {
+      "id": "td_it_173",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Che messaggio hai scritto e non hai mai inviato?"
+    },
+    {
+      "id": "td_it_174",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mostra al gruppo l’ultimo meme salvato."
+    },
+    {
+      "id": "td_it_175",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Descrivi il tuo ultimo selfie come un’opera da museo."
     }
   ]
 }

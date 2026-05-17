@@ -1,0 +1,1009 @@
+{
+  "gameId": "would-you-rather",
+  "locale": "ko",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "wyr_ko_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+    },
+    {
+      "id": "wyr_ko_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+    },
+    {
+      "id": "wyr_ko_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "고양이와 대화, 아니면 강아지와 대화?"
+    },
+    {
+      "id": "wyr_ko_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+    },
+    {
+      "id": "wyr_ko_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+    },
+    {
+      "id": "wyr_ko_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+    },
+    {
+      "id": "wyr_ko_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+    },
+    {
+      "id": "wyr_ko_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+    },
+    {
+      "id": "wyr_ko_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+    },
+    {
+      "id": "wyr_ko_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+    },
+    {
+      "id": "wyr_ko_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "고양이와 대화, 아니면 강아지와 대화?"
+    },
+    {
+      "id": "wyr_ko_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+    },
+    {
+      "id": "wyr_ko_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+    },
+    {
+      "id": "wyr_ko_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+    },
+    {
+      "id": "wyr_ko_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+    },
+    {
+      "id": "wyr_ko_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+    },
+    {
+      "id": "wyr_ko_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+    },
+    {
+      "id": "wyr_ko_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+    },
+    {
+      "id": "wyr_ko_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "고양이와 대화, 아니면 강아지와 대화?"
+    },
+    {
+      "id": "wyr_ko_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+    },
+    {
+      "id": "wyr_ko_021",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+    },
+    {
+      "id": "wyr_ko_022",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+    },
+    {
+      "id": "wyr_ko_023",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+    },
+    {
+      "id": "wyr_ko_024",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+    },
+    {
+      "id": "wyr_ko_025",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+    },
+    {
+      "id": "wyr_ko_026",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+    },
+    {
+      "id": "wyr_ko_027",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "고양이와 대화, 아니면 강아지와 대화?"
+    },
+    {
+      "id": "wyr_ko_028",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+    },
+    {
+      "id": "wyr_ko_029",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+    },
+    {
+      "id": "wyr_ko_030",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+    },
+    {
+      "id": "wyr_ko_031",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+    },
+    {
+      "id": "wyr_ko_032",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+    },
+    {
+      "id": "wyr_ko_033",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+    },
+    {
+      "id": "wyr_ko_034",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+    },
+    {
+      "id": "wyr_ko_035",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "고양이와 대화, 아니면 강아지와 대화?"
+    },
+    {
+      "id": "wyr_ko_036",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+    },
+    {
+      "id": "wyr_ko_037",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+    },
+    {
+      "id": "wyr_ko_038",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+    },
+    {
+      "id": "wyr_ko_039",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+    },
+    {
+      "id": "wyr_ko_040",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+    },
+    {
+      "id": "wyr_ko_041",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+    },
+    {
+      "id": "wyr_ko_042",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+    },
+    {
+      "id": "wyr_ko_043",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "고양이와 대화, 아니면 강아지와 대화?"
+    },
+    {
+      "id": "wyr_ko_044",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+    },
+    {
+      "id": "wyr_ko_045",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+    },
+    {
+      "id": "wyr_ko_046",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+    },
+    {
+      "id": "wyr_ko_047",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+    },
+    {
+      "id": "wyr_ko_048",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+    },
+    {
+      "id": "wyr_ko_049",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+    },
+    {
+      "id": "wyr_ko_050",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+    },
+    {
+      "id": "wyr_ko_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "고양이와 대화, 아니면 강아지와 대화?"
+    },
+    {
+      "id": "wyr_ko_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+    },
+    {
+      "id": "wyr_ko_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+    },
+    {
+      "id": "wyr_ko_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+    },
+    {
+      "id": "wyr_ko_055",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+    },
+    {
+      "id": "wyr_ko_056",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+    },
+    {
+      "id": "wyr_ko_057",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+    },
+    {
+      "id": "wyr_ko_058",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+    },
+    {
+      "id": "wyr_ko_059",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "고양이와 대화, 아니면 강아지와 대화?"
+    },
+    {
+      "id": "wyr_ko_060",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+    },
+    {
+      "id": "wyr_ko_061",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+    },
+    {
+      "id": "wyr_ko_062",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+    },
+    {
+      "id": "wyr_ko_063",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+    },
+    {
+      "id": "wyr_ko_064",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+    },
+    {
+      "id": "wyr_ko_065",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+    },
+    {
+      "id": "wyr_ko_066",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+    },
+    {
+      "id": "wyr_ko_067",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "고양이와 대화, 아니면 강아지와 대화?"
+    },
+    {
+      "id": "wyr_ko_068",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+    },
+    {
+      "id": "wyr_ko_069",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+    },
+    {
+      "id": "wyr_ko_070",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+    },
+    {
+      "id": "wyr_ko_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+    },
+    {
+      "id": "wyr_ko_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+    },
+    {
+      "id": "wyr_ko_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+    },
+    {
+      "id": "wyr_ko_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+    },
+    {
+      "id": "wyr_ko_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "고양이와 대화, 아니면 강아지와 대화?"
+    },
+    {
+      "id": "wyr_ko_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+    },
+    {
+      "id": "wyr_ko_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+    },
+    {
+      "id": "wyr_ko_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+    },
+    {
+      "id": "wyr_ko_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+    },
+    {
+      "id": "wyr_ko_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+    },
+    {
+      "id": "wyr_ko_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+    },
+    {
+      "id": "wyr_ko_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+    },
+    {
+      "id": "wyr_ko_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "고양이와 대화, 아니면 강아지와 대화?"
+    },
+    {
+      "id": "wyr_ko_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+    },
+    {
+      "id": "wyr_ko_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+    },
+    {
+      "id": "wyr_ko_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+    },
+    {
+      "id": "wyr_ko_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+    },
+    {
+      "id": "wyr_ko_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+    },
+    {
+      "id": "wyr_ko_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+    },
+    {
+      "id": "wyr_ko_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+    },
+    {
+      "id": "wyr_ko_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "고양이와 대화, 아니면 강아지와 대화?"
+    },
+    {
+      "id": "wyr_ko_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+    },
+    {
+      "id": "wyr_ko_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+    },
+    {
+      "id": "wyr_ko_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+    },
+    {
+      "id": "wyr_ko_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+    },
+    {
+      "id": "wyr_ko_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+    },
+    {
+      "id": "wyr_ko_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+    },
+    {
+      "id": "wyr_ko_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+    },
+    {
+      "id": "wyr_ko_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "고양이와 대화, 아니면 강아지와 대화?"
+    },
+    {
+      "id": "wyr_ko_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+    },
+    {
+      "id": "wyr_ko_101",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+    },
+    {
+      "id": "wyr_ko_102",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+    },
+    {
+      "id": "wyr_ko_103",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+    },
+    {
+      "id": "wyr_ko_104",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+    },
+    {
+      "id": "wyr_ko_105",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+    },
+    {
+      "id": "wyr_ko_106",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+    },
+    {
+      "id": "wyr_ko_107",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "고양이와 대화, 아니면 강아지와 대화?"
+    },
+    {
+      "id": "wyr_ko_108",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+    },
+    {
+      "id": "wyr_ko_109",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+    },
+    {
+      "id": "wyr_ko_110",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+    },
+    {
+      "id": "wyr_ko_111",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+    },
+    {
+      "id": "wyr_ko_112",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+    },
+    {
+      "id": "wyr_ko_113",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+    },
+    {
+      "id": "wyr_ko_114",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+    },
+    {
+      "id": "wyr_ko_115",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "고양이와 대화, 아니면 강아지와 대화?"
+    },
+    {
+      "id": "wyr_ko_116",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+    },
+    {
+      "id": "wyr_ko_117",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+    },
+    {
+      "id": "wyr_ko_118",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+    },
+    {
+      "id": "wyr_ko_119",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+    },
+    {
+      "id": "wyr_ko_120",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+    },
+    {
+      "id": "wyr_ko_121",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+    },
+    {
+      "id": "wyr_ko_122",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+    },
+    {
+      "id": "wyr_ko_123",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "고양이와 대화, 아니면 강아지와 대화?"
+    },
+    {
+      "id": "wyr_ko_124",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+    },
+    {
+      "id": "wyr_ko_125",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+    },
+    {
+      "id": "wyr_ko_126",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+    },
+    {
+      "id": "wyr_ko_127",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+    },
+    {
+      "id": "wyr_ko_128",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+    },
+    {
+      "id": "wyr_ko_129",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+    },
+    {
+      "id": "wyr_ko_130",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+    },
+    {
+      "id": "wyr_ko_131",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "고양이와 대화, 아니면 강아지와 대화?"
+    },
+    {
+      "id": "wyr_ko_132",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+    },
+    {
+      "id": "wyr_ko_133",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+    },
+    {
+      "id": "wyr_ko_134",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+    },
+    {
+      "id": "wyr_ko_135",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+    },
+    {
+      "id": "wyr_ko_136",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+    },
+    {
+      "id": "wyr_ko_137",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+    },
+    {
+      "id": "wyr_ko_138",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+    },
+    {
+      "id": "wyr_ko_139",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "고양이와 대화, 아니면 강아지와 대화?"
+    },
+    {
+      "id": "wyr_ko_140",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+    },
+    {
+      "id": "wyr_ko_141",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+    },
+    {
+      "id": "wyr_ko_142",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+    },
+    {
+      "id": "wyr_ko_143",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+    },
+    {
+      "id": "wyr_ko_144",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+    },
+    {
+      "id": "wyr_ko_145",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+    },
+    {
+      "id": "wyr_ko_146",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+    },
+    {
+      "id": "wyr_ko_147",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "고양이와 대화, 아니면 강아지와 대화?"
+    },
+    {
+      "id": "wyr_ko_148",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+    },
+    {
+      "id": "wyr_ko_149",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+    },
+    {
+      "id": "wyr_ko_150",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+    },
+    {
+      "id": "wyr_ko_151",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+    },
+    {
+      "id": "wyr_ko_152",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+    },
+    {
+      "id": "wyr_ko_153",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+    },
+    {
+      "id": "wyr_ko_154",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+    },
+    {
+      "id": "wyr_ko_155",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "고양이와 대화, 아니면 강아지와 대화?"
+    },
+    {
+      "id": "wyr_ko_156",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+    },
+    {
+      "id": "wyr_ko_157",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+    },
+    {
+      "id": "wyr_ko_158",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+    },
+    {
+      "id": "wyr_ko_159",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+    },
+    {
+      "id": "wyr_ko_160",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+    },
+    {
+      "id": "wyr_ko_161",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "저장한 밈을 모두 잃기, 플레이리스트를 모두 잃기?"
+    },
+    {
+      "id": "wyr_ko_162",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "모든 오타가 공개되기, 모든 임시저장이 자동 전송되기?"
+    },
+    {
+      "id": "wyr_ko_163",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "춤추다 바이럴되기, 넘어져서 바이럴되기?"
+    },
+    {
+      "id": "wyr_ko_164",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "GIF로만 대화하기, 음성 메시지로만 대화하기?"
+    },
+    {
+      "id": "wyr_ko_165",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "무한 배터리, 평생 완벽한 Wi-Fi?"
+    },
+    {
+      "id": "wyr_ko_166",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "매번 파티를 주최하기, 매번 파티 뒤를 치우기?"
+    },
+    {
+      "id": "wyr_ko_167",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "매번 규칙 설명하기, 매번 반칙 의심받기?"
+    }
+  ]
+}

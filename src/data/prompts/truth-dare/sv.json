@@ -1,0 +1,1232 @@
+{
+  "gameId": "truth-dare",
+  "locale": "sv",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "td_sv_001",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vad fick dig att skratta senast?"
+    },
+    {
+      "id": "td_sv_002",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vilken liten lögn sa du senast?"
+    },
+    {
+      "id": "td_sv_003",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vilken konstig vana har du?"
+    },
+    {
+      "id": "td_sv_004",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vad var ditt senaste riktigt stela ögonblick?"
+    },
+    {
+      "id": "td_sv_005",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vilken liten hemlighet har du inte berättat?"
+    },
+    {
+      "id": "td_sv_006",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Om du måste dejta någon här, vem blir det?"
+    },
+    {
+      "id": "td_sv_007",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vilket meddelande ångrade du direkt?"
+    },
+    {
+      "id": "td_sv_008",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vilken typ av fest vill du helst slippa?"
+    },
+    {
+      "id": "td_sv_009",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "När blev du senast lite avundsjuk?"
+    },
+    {
+      "id": "td_sv_010",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vilket gammalt inlägg vill du radera?"
+    },
+    {
+      "id": "td_sv_011",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vad fick dig att skratta senast?"
+    },
+    {
+      "id": "td_sv_012",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vilken liten lögn sa du senast?"
+    },
+    {
+      "id": "td_sv_013",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vilken konstig vana har du?"
+    },
+    {
+      "id": "td_sv_014",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vad var ditt senaste riktigt stela ögonblick?"
+    },
+    {
+      "id": "td_sv_015",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vilken liten hemlighet har du inte berättat?"
+    },
+    {
+      "id": "td_sv_016",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Om du måste dejta någon här, vem blir det?"
+    },
+    {
+      "id": "td_sv_017",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vilket meddelande ångrade du direkt?"
+    },
+    {
+      "id": "td_sv_018",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vilken typ av fest vill du helst slippa?"
+    },
+    {
+      "id": "td_sv_019",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "När blev du senast lite avundsjuk?"
+    },
+    {
+      "id": "td_sv_020",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vilket gammalt inlägg vill du radera?"
+    },
+    {
+      "id": "td_sv_021",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vad fick dig att skratta senast?"
+    },
+    {
+      "id": "td_sv_022",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vilken liten lögn sa du senast?"
+    },
+    {
+      "id": "td_sv_023",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vilken konstig vana har du?"
+    },
+    {
+      "id": "td_sv_024",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vad var ditt senaste riktigt stela ögonblick?"
+    },
+    {
+      "id": "td_sv_025",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vilken liten hemlighet har du inte berättat?"
+    },
+    {
+      "id": "td_sv_026",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Om du måste dejta någon här, vem blir det?"
+    },
+    {
+      "id": "td_sv_027",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vilket meddelande ångrade du direkt?"
+    },
+    {
+      "id": "td_sv_028",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vilken typ av fest vill du helst slippa?"
+    },
+    {
+      "id": "td_sv_029",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "När blev du senast lite avundsjuk?"
+    },
+    {
+      "id": "td_sv_030",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vilket gammalt inlägg vill du radera?"
+    },
+    {
+      "id": "td_sv_031",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vad fick dig att skratta senast?"
+    },
+    {
+      "id": "td_sv_032",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vilken liten lögn sa du senast?"
+    },
+    {
+      "id": "td_sv_033",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vilken konstig vana har du?"
+    },
+    {
+      "id": "td_sv_034",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vad var ditt senaste riktigt stela ögonblick?"
+    },
+    {
+      "id": "td_sv_035",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vilken liten hemlighet har du inte berättat?"
+    },
+    {
+      "id": "td_sv_036",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Om du måste dejta någon här, vem blir det?"
+    },
+    {
+      "id": "td_sv_037",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vilket meddelande ångrade du direkt?"
+    },
+    {
+      "id": "td_sv_038",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vilken typ av fest vill du helst slippa?"
+    },
+    {
+      "id": "td_sv_039",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "När blev du senast lite avundsjuk?"
+    },
+    {
+      "id": "td_sv_040",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vilket gammalt inlägg vill du radera?"
+    },
+    {
+      "id": "td_sv_041",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vad fick dig att skratta senast?"
+    },
+    {
+      "id": "td_sv_042",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vilken liten lögn sa du senast?"
+    },
+    {
+      "id": "td_sv_043",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vilken konstig vana har du?"
+    },
+    {
+      "id": "td_sv_044",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vad var ditt senaste riktigt stela ögonblick?"
+    },
+    {
+      "id": "td_sv_045",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vilken liten hemlighet har du inte berättat?"
+    },
+    {
+      "id": "td_sv_046",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Om du måste dejta någon här, vem blir det?"
+    },
+    {
+      "id": "td_sv_047",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vilket meddelande ångrade du direkt?"
+    },
+    {
+      "id": "td_sv_048",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vilken typ av fest vill du helst slippa?"
+    },
+    {
+      "id": "td_sv_049",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "När blev du senast lite avundsjuk?"
+    },
+    {
+      "id": "td_sv_050",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vilket gammalt inlägg vill du radera?"
+    },
+    {
+      "id": "td_sv_051",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vad fick dig att skratta senast?"
+    },
+    {
+      "id": "td_sv_052",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vilken liten lögn sa du senast?"
+    },
+    {
+      "id": "td_sv_053",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vilken konstig vana har du?"
+    },
+    {
+      "id": "td_sv_054",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vad var ditt senaste riktigt stela ögonblick?"
+    },
+    {
+      "id": "td_sv_055",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vilken liten hemlighet har du inte berättat?"
+    },
+    {
+      "id": "td_sv_056",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Om du måste dejta någon här, vem blir det?"
+    },
+    {
+      "id": "td_sv_057",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vilket meddelande ångrade du direkt?"
+    },
+    {
+      "id": "td_sv_058",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vilken typ av fest vill du helst slippa?"
+    },
+    {
+      "id": "td_sv_059",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "När blev du senast lite avundsjuk?"
+    },
+    {
+      "id": "td_sv_060",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vilket gammalt inlägg vill du radera?"
+    },
+    {
+      "id": "td_sv_061",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vad fick dig att skratta senast?"
+    },
+    {
+      "id": "td_sv_062",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vilken liten lögn sa du senast?"
+    },
+    {
+      "id": "td_sv_063",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vilken konstig vana har du?"
+    },
+    {
+      "id": "td_sv_064",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vad var ditt senaste riktigt stela ögonblick?"
+    },
+    {
+      "id": "td_sv_065",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vilken liten hemlighet har du inte berättat?"
+    },
+    {
+      "id": "td_sv_066",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Om du måste dejta någon här, vem blir det?"
+    },
+    {
+      "id": "td_sv_067",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vilket meddelande ångrade du direkt?"
+    },
+    {
+      "id": "td_sv_068",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vilken typ av fest vill du helst slippa?"
+    },
+    {
+      "id": "td_sv_069",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "När blev du senast lite avundsjuk?"
+    },
+    {
+      "id": "td_sv_070",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vilket gammalt inlägg vill du radera?"
+    },
+    {
+      "id": "td_sv_071",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vad fick dig att skratta senast?"
+    },
+    {
+      "id": "td_sv_072",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vilken liten lögn sa du senast?"
+    },
+    {
+      "id": "td_sv_073",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vilken konstig vana har du?"
+    },
+    {
+      "id": "td_sv_074",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vad var ditt senaste riktigt stela ögonblick?"
+    },
+    {
+      "id": "td_sv_075",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vilken liten hemlighet har du inte berättat?"
+    },
+    {
+      "id": "td_sv_076",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Om du måste dejta någon här, vem blir det?"
+    },
+    {
+      "id": "td_sv_077",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vilket meddelande ångrade du direkt?"
+    },
+    {
+      "id": "td_sv_078",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vilken typ av fest vill du helst slippa?"
+    },
+    {
+      "id": "td_sv_079",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "När blev du senast lite avundsjuk?"
+    },
+    {
+      "id": "td_sv_080",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vilket gammalt inlägg vill du radera?"
+    },
+    {
+      "id": "td_sv_081",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vad fick dig att skratta senast?"
+    },
+    {
+      "id": "td_sv_082",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vilken liten lögn sa du senast?"
+    },
+    {
+      "id": "td_sv_083",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vilken konstig vana har du?"
+    },
+    {
+      "id": "td_sv_084",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vad var ditt senaste riktigt stela ögonblick?"
+    },
+    {
+      "id": "td_sv_085",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vilken liten hemlighet har du inte berättat?"
+    },
+    {
+      "id": "td_sv_086",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Gör din bästa imitation."
+    },
+    {
+      "id": "td_sv_087",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sjung refrängen på en favoritlåt."
+    },
+    {
+      "id": "td_sv_088",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Gör ett skurkskratt i 30 sekunder."
+    },
+    {
+      "id": "td_sv_089",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Undvik ett förbjudet ord i 5 minuter."
+    },
+    {
+      "id": "td_sv_090",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Visa dina mest spelade låtar just nu."
+    },
+    {
+      "id": "td_sv_091",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ge någon en filmiskt romantisk komplimang."
+    },
+    {
+      "id": "td_sv_092",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Säg din pinsammaste raggningsreplik helt seriöst."
+    },
+    {
+      "id": "td_sv_093",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Rapportera rummet som en nyhetsuppläsare."
+    },
+    {
+      "id": "td_sv_094",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ge alla i rummet ett smeknamn."
+    },
+    {
+      "id": "td_sv_095",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ge personen till vänster en genuin komplimang."
+    },
+    {
+      "id": "td_sv_096",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Gör din bästa imitation."
+    },
+    {
+      "id": "td_sv_097",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sjung refrängen på en favoritlåt."
+    },
+    {
+      "id": "td_sv_098",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Gör ett skurkskratt i 30 sekunder."
+    },
+    {
+      "id": "td_sv_099",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Undvik ett förbjudet ord i 5 minuter."
+    },
+    {
+      "id": "td_sv_100",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Visa dina mest spelade låtar just nu."
+    },
+    {
+      "id": "td_sv_101",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ge någon en filmiskt romantisk komplimang."
+    },
+    {
+      "id": "td_sv_102",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Säg din pinsammaste raggningsreplik helt seriöst."
+    },
+    {
+      "id": "td_sv_103",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Rapportera rummet som en nyhetsuppläsare."
+    },
+    {
+      "id": "td_sv_104",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ge alla i rummet ett smeknamn."
+    },
+    {
+      "id": "td_sv_105",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ge personen till vänster en genuin komplimang."
+    },
+    {
+      "id": "td_sv_106",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Gör din bästa imitation."
+    },
+    {
+      "id": "td_sv_107",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sjung refrängen på en favoritlåt."
+    },
+    {
+      "id": "td_sv_108",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Gör ett skurkskratt i 30 sekunder."
+    },
+    {
+      "id": "td_sv_109",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Undvik ett förbjudet ord i 5 minuter."
+    },
+    {
+      "id": "td_sv_110",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Visa dina mest spelade låtar just nu."
+    },
+    {
+      "id": "td_sv_111",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ge någon en filmiskt romantisk komplimang."
+    },
+    {
+      "id": "td_sv_112",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Säg din pinsammaste raggningsreplik helt seriöst."
+    },
+    {
+      "id": "td_sv_113",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Rapportera rummet som en nyhetsuppläsare."
+    },
+    {
+      "id": "td_sv_114",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ge alla i rummet ett smeknamn."
+    },
+    {
+      "id": "td_sv_115",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ge personen till vänster en genuin komplimang."
+    },
+    {
+      "id": "td_sv_116",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Gör din bästa imitation."
+    },
+    {
+      "id": "td_sv_117",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sjung refrängen på en favoritlåt."
+    },
+    {
+      "id": "td_sv_118",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Gör ett skurkskratt i 30 sekunder."
+    },
+    {
+      "id": "td_sv_119",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Undvik ett förbjudet ord i 5 minuter."
+    },
+    {
+      "id": "td_sv_120",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Visa dina mest spelade låtar just nu."
+    },
+    {
+      "id": "td_sv_121",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ge någon en filmiskt romantisk komplimang."
+    },
+    {
+      "id": "td_sv_122",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Säg din pinsammaste raggningsreplik helt seriöst."
+    },
+    {
+      "id": "td_sv_123",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Rapportera rummet som en nyhetsuppläsare."
+    },
+    {
+      "id": "td_sv_124",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ge alla i rummet ett smeknamn."
+    },
+    {
+      "id": "td_sv_125",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ge personen till vänster en genuin komplimang."
+    },
+    {
+      "id": "td_sv_126",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Gör din bästa imitation."
+    },
+    {
+      "id": "td_sv_127",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sjung refrängen på en favoritlåt."
+    },
+    {
+      "id": "td_sv_128",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Gör ett skurkskratt i 30 sekunder."
+    },
+    {
+      "id": "td_sv_129",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Undvik ett förbjudet ord i 5 minuter."
+    },
+    {
+      "id": "td_sv_130",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Visa dina mest spelade låtar just nu."
+    },
+    {
+      "id": "td_sv_131",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ge någon en filmiskt romantisk komplimang."
+    },
+    {
+      "id": "td_sv_132",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Säg din pinsammaste raggningsreplik helt seriöst."
+    },
+    {
+      "id": "td_sv_133",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Rapportera rummet som en nyhetsuppläsare."
+    },
+    {
+      "id": "td_sv_134",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ge alla i rummet ett smeknamn."
+    },
+    {
+      "id": "td_sv_135",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ge personen till vänster en genuin komplimang."
+    },
+    {
+      "id": "td_sv_136",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Gör din bästa imitation."
+    },
+    {
+      "id": "td_sv_137",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sjung refrängen på en favoritlåt."
+    },
+    {
+      "id": "td_sv_138",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Gör ett skurkskratt i 30 sekunder."
+    },
+    {
+      "id": "td_sv_139",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Undvik ett förbjudet ord i 5 minuter."
+    },
+    {
+      "id": "td_sv_140",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Visa dina mest spelade låtar just nu."
+    },
+    {
+      "id": "td_sv_141",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ge någon en filmiskt romantisk komplimang."
+    },
+    {
+      "id": "td_sv_142",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Säg din pinsammaste raggningsreplik helt seriöst."
+    },
+    {
+      "id": "td_sv_143",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Rapportera rummet som en nyhetsuppläsare."
+    },
+    {
+      "id": "td_sv_144",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ge alla i rummet ett smeknamn."
+    },
+    {
+      "id": "td_sv_145",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ge personen till vänster en genuin komplimang."
+    },
+    {
+      "id": "td_sv_146",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Gör din bästa imitation."
+    },
+    {
+      "id": "td_sv_147",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Sjung refrängen på en favoritlåt."
+    },
+    {
+      "id": "td_sv_148",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Gör ett skurkskratt i 30 sekunder."
+    },
+    {
+      "id": "td_sv_149",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Undvik ett förbjudet ord i 5 minuter."
+    },
+    {
+      "id": "td_sv_150",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Visa dina mest spelade låtar just nu."
+    },
+    {
+      "id": "td_sv_151",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ge någon en filmiskt romantisk komplimang."
+    },
+    {
+      "id": "td_sv_152",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Säg din pinsammaste raggningsreplik helt seriöst."
+    },
+    {
+      "id": "td_sv_153",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Rapportera rummet som en nyhetsuppläsare."
+    },
+    {
+      "id": "td_sv_154",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ge alla i rummet ett smeknamn."
+    },
+    {
+      "id": "td_sv_155",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ge personen till vänster en genuin komplimang."
+    },
+    {
+      "id": "td_sv_156",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Gör din bästa imitation."
+    },
+    {
+      "id": "td_sv_157",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Sjung refrängen på en favoritlåt."
+    },
+    {
+      "id": "td_sv_158",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Gör ett skurkskratt i 30 sekunder."
+    },
+    {
+      "id": "td_sv_159",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Undvik ett förbjudet ord i 5 minuter."
+    },
+    {
+      "id": "td_sv_160",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Visa dina mest spelade låtar just nu."
+    },
+    {
+      "id": "td_sv_161",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ge någon en filmiskt romantisk komplimang."
+    },
+    {
+      "id": "td_sv_162",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Säg din pinsammaste raggningsreplik helt seriöst."
+    },
+    {
+      "id": "td_sv_163",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Rapportera rummet som en nyhetsuppläsare."
+    },
+    {
+      "id": "td_sv_164",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ge alla i rummet ett smeknamn."
+    },
+    {
+      "id": "td_sv_165",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ge personen till vänster en genuin komplimang."
+    },
+    {
+      "id": "td_sv_166",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Gör din bästa imitation."
+    },
+    {
+      "id": "td_sv_167",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Sjung refrängen på en favoritlåt."
+    },
+    {
+      "id": "td_sv_168",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Gör ett skurkskratt i 30 sekunder."
+    },
+    {
+      "id": "td_sv_169",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Undvik ett förbjudet ord i 5 minuter."
+    },
+    {
+      "id": "td_sv_170",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Visa dina mest spelade låtar just nu."
+    },
+    {
+      "id": "td_sv_171",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vad är det pinsammaste i din sökhistorik?"
+    },
+    {
+      "id": "td_sv_172",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vilken app stjäl mest av din tid?"
+    },
+    {
+      "id": "td_sv_173",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vilket meddelande skrev du men skickade aldrig?"
+    },
+    {
+      "id": "td_sv_174",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Visa gruppen din senast sparade meme."
+    },
+    {
+      "id": "td_sv_175",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Beskriv din senaste selfie som ett museiföremål."
+    }
+  ]
+}

@@ -1,0 +1,587 @@
+{
+  "app": {
+    "name": "Who’s the Imposter?"
+  },
+  "onboarding": {
+    "language": {
+      "title": "言語を選択",
+      "continue": "続ける"
+    },
+    "welcome": {
+      "headline": "この中で嘘をついているのは誰？",
+      "benefit1": "12種類以上のパーティーゲーム",
+      "benefit2": "ネット不要",
+      "benefit3": "3〜15人で遊べる",
+      "continue": "はじめよう →"
+    },
+    "howToPlay": {
+      "title": "遊び方",
+      "step1_title": "スマホを回す",
+      "step1_desc": "各プレイヤーが自分の名前をこっそりタップします",
+      "step2_title": "自分のワードを見る",
+      "step2_desc": "みんなは同じワード。インポスターだけは知りません",
+      "step3_title": "嘘つきを探す",
+      "step3_desc": "ヒントを出して、投票して、インポスターを見破ろう！"
+    },
+    "showcase": {
+      "title": "12種類以上のパーティーゲーム",
+      "cta": "遊ぼう！",
+      "more": "ほかにも{{count}}種類..."
+    },
+    "personalize": {
+      "title": "自分たちらしく",
+      "subtitle": "ゲームナイトをカスタマイズ",
+      "feature1_title": "プレイヤーアバター",
+      "feature1_desc": "各プレイヤーに楽しい絵文字を設定",
+      "feature2_title": "カスタムテーマ",
+      "feature2_desc": "5つのテーマとアクセントカラー",
+      "feature3_title": "クイックプリセット",
+      "feature3_desc": "いつものメンバーを保存してすぐ開始",
+      "continue": "続ける →"
+    },
+    "notifications": {
+      "title": "ゲームナイトを逃さない",
+      "subtitle": "リマインダーと限定オファーを受け取る",
+      "benefit1": "あなた向けの限定割引",
+      "benefit2": "好きなタイミングでゲームナイト通知",
+      "enable": "通知をオンにする",
+      "skip": "あとで",
+      "discount_title": "🎉 Exclusive Offer Just for You!",
+      "discount_body": "Your 50% discount expires in 48 hours. Tap to claim!"
+    }
+  },
+  "home": {
+    "title": "パーティーゲーム",
+    "quickResume": "前回のゲームを続ける →",
+    "favorite": "お気に入りに追加",
+    "unfavorite": "お気に入りから削除"
+  },
+  "presets": {
+    "sectionTitle": "保存済みプリセット",
+    "saveButton": "プリセット保存",
+    "saveTitle": "プリセット名",
+    "playerCount": "{{count}}人",
+    "players": "人",
+    "maxReached": "最大10個まで"
+  },
+  "emojiPicker": {
+    "title": "アバターを選択",
+    "people": "人物",
+    "animals": "動物",
+    "food": "食べ物",
+    "objects": "物",
+    "symbols": "記号",
+    "reset": "イニシャルに戻す"
+  },
+  "customTheme": {
+    "label": "カスタム",
+    "customPlus": "Custom +",
+    "pickBase": "ベーステーマ",
+    "pickAccent": "アクセントカラー",
+    "apply": "適用"
+  },
+  "setup": {
+    "players": "プレイヤー",
+    "addPlayer": "プレイヤー名を追加",
+    "addPlayerCta": "追加",
+    "minPlayersWarning": "最低{{count}}人必要です",
+    "maxPlayersWarning": "最大{{count}}人までです",
+    "duplicateName": "その名前はもう使われています",
+    "categories": "カテゴリー",
+    "selectAll": "すべて",
+    "mode": "ゲームモード",
+    "advanced": "詳細設定",
+    "imposters": "インポスター",
+    "timer": "1人あたりの時間",
+    "timerOff": "なし",
+    "rounds": "ラウンド",
+    "sound": "効果音",
+    "haptics": "触覚フィードバック",
+    "startGame": "ゲーム開始",
+    "emptyName": "名前は空にできません",
+    "words": "{{count}}語",
+    "noCategoriesWarning": "カテゴリーを1つ以上選んでください"
+  },
+  "reveal": {
+    "instruction": "近くで見て。他の人に見せないで",
+    "holdToReveal": "長押しで表示",
+    "crew_subtitle": "ヒントは1つだけ。バレすぎ注意。",
+    "imposter_line1": "あなたは",
+    "imposter_line2": "インポスター！",
+    "imposter_subtitle": "自然に紛れ込んで。ワードは知りません。",
+    "next": "次のプレイヤー →",
+    "autoBlur": "タップで隠す",
+    "yourWord": "あなたのワード"
+  },
+  "play": {
+    "round": "ラウンド {{number}}",
+    "category": "カテゴリー",
+    "clueGiven": "ヒント済み",
+    "startVoting": "投票へ"
+  },
+  "vote": {
+    "title": "インポスターは誰？",
+    "subtitle": "各プレイヤー1票。自分には投票できません。",
+    "reveal": "投票を公開",
+    "waiting": "全員の投票を待っています..."
+  },
+  "result": {
+    "caught": "見破った！",
+    "escaped": "逃げ切られた",
+    "imposterWas": "インポスターだったのは",
+    "imposterIs": "インポスターは",
+    "secretWord": "秘密のワード：",
+    "guessPrompt": "{{name}}は秘密のワードを当てられる？",
+    "guessYes": "はい、当てました！",
+    "guessNo": "いいえ、失敗",
+    "crewWins": "クルーの勝ち！🎉",
+    "imposterWins": "インポスターの勝ち！🕵️",
+    "tie": "引き分け！",
+    "playAgain": "もう一度",
+    "newGame": "新しいゲーム",
+    "share": "結果をシェア"
+  },
+  "giftBox": {
+    "accessibilityLabel": "特別オファー。タップで割引"
+  },
+  "paywall": {
+    "title": "WHO’S THE IMPOSTER PRO",
+    "benefit1": "全20カテゴリー",
+    "benefit2": "インポスター2人モード",
+    "benefit3": "全12種類のパーティーゲーム",
+    "benefit4": "カスタムワードリスト",
+    "benefit5": "広告なし",
+    "monthly": "月額",
+    "yearly": "年額",
+    "bestValue": "いちばんお得",
+    "savings": "{{percent}}%オフ",
+    "cta": "Start {{days}}-Day Free Trial",
+    "cancelAnytime": "いつでも解約可能",
+    "restore": "購入を復元",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "socialProof": "4.8 · 18K ratings",
+    "close": "閉じる",
+    "ratings": "ratings",
+    "monthlyPrice": "$4.99/mo",
+    "yearlyPrice": "$2.49/mo",
+    "savePct": "Save 50%",
+    "dailyLimitTitle": "本日の上限に達しました",
+    "dailyLimitSubtitle": "今日は無料ゲームを5回プレイしました。PROなら無制限で遊べます！",
+    "ctaNoTrial": "今すぐPROへ",
+    "headline": "パーティーをもっと面白く。",
+    "subheadline": "すべてのゲームを、制限なしで。",
+    "noPaymentToday": "今日は支払いなし・いつでも解約",
+    "yearlyBilled": "Billed {{price}}/year",
+    "perMonth": "/ mo",
+    "perYear": "/ yr",
+    "freeTrial": "{{days}}-Day Free Trial",
+    "heroTag": "🎭 PRO"
+  },
+  "rating": {
+    "title": "楽しんでいますか？",
+    "subtitle": "星5評価が大きな力になります！",
+    "cta": "今すぐ評価 ⭐",
+    "later": "あとで",
+    "no": "結構です",
+    "headline": "楽しんでいますか？",
+    "subtext": "あなたの評価が新しいゲーム作りを支えます！",
+    "rateNow": "評価する",
+    "noThanks": "遠慮しておく",
+    "thanks": "ありがとうございます！🙏"
+  },
+  "settings": {
+    "title": "設定",
+    "theme": "テーマ",
+    "themeDark": "Dark",
+    "themeLight": "Light",
+    "themeNeon": "Neon",
+    "themeNeonLocked": "Neon (PRO)",
+    "themeCandy": "Candy",
+    "language": "言語",
+    "sound": "効果音",
+    "haptics": "触覚フィードバック",
+    "upgrade": "PROにアップグレード",
+    "restore": "購入を復元",
+    "rate": "アプリを評価",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "version": "Version {{version}}",
+    "stats": "統計と実績",
+    "themeEmber": "Ember",
+    "themeParty": "Party",
+    "themeSunset": "Sunset",
+    "themeGolden": "Golden",
+    "themeAurora": "Aurora",
+    "themeCustom": "Custom"
+  },
+  "scoreboard": {
+    "title": "Session Scoreboard",
+    "roundsPlayed_one": "{{count}} round played",
+    "roundsPlayed_other": "{{count}} rounds played",
+    "pts": "pts",
+    "delta": "+{{count}}",
+    "final": "Final Scores"
+  },
+  "streak": {
+    "crewStreak": "🔥 Crew on a {{count}}-win streak!",
+    "imposterStreak": "🕵️ Imposter on a {{count}}-win streak!"
+  },
+  "achievements": {
+    "unlockedTitle": "Achievement Unlocked!",
+    "first_blood": {
+      "title": "First Blood",
+      "desc": "Win your first round as crew"
+    },
+    "ghost": {
+      "title": "Ghost",
+      "desc": "Win as imposter 3 times in a row"
+    },
+    "mind_reader": {
+      "title": "Mind Reader",
+      "desc": "Guess the secret word after being caught"
+    },
+    "unanimous": {
+      "title": "Unanimous",
+      "desc": "Every crew member voted for you"
+    },
+    "social_butterfly": {
+      "title": "Social Butterfly",
+      "desc": "Play 10 games total"
+    },
+    "sharp_eye": {
+      "title": "Sharp Eye",
+      "desc": "Vote for the imposter correctly 5 times"
+    },
+    "survivor": {
+      "title": "Survivor",
+      "desc": "Win as crew 10 times"
+    },
+    "master_disguise": {
+      "title": "Master of Disguise",
+      "desc": "Win as imposter 5 times"
+    },
+    "locked": "Locked"
+  },
+  "stats": {
+    "title": "Stats & Achievements",
+    "myStats": "My Stats",
+    "achievements": "Achievements",
+    "noStats": "No games played yet",
+    "gamesPlayed": "Games",
+    "wins": "Wins",
+    "timesImposter": "Imposter",
+    "timesCaught": "Caught"
+  },
+  "categories": {
+    "food": "食べ物・ドリンク",
+    "animals": "動物",
+    "sports": "スポーツ",
+    "jobs": "職業",
+    "countries": "国",
+    "movies": "映画・テレビ",
+    "music": "音楽",
+    "objects": "身の回りの物",
+    "nature": "自然",
+    "hobbies": "趣味",
+    "famous": "有名人",
+    "brands": "ブランド",
+    "education": "学校・学び",
+    "technology": "テクノロジー",
+    "mythology": "神話",
+    "spicy": "大人向け 🌶️",
+    "tv_series": "ドラマ・番組",
+    "social": "SNS",
+    "custom": "自分のリスト",
+    "places": "名所・場所",
+    "vehicles": "乗り物",
+    "science": "科学・発明",
+    "superheroes": "ヒーロー・コミック",
+    "video_games": "ゲーム",
+    "drinks": "ドリンク・カクテル",
+    "disney": "ディズニー・童話",
+    "fashion": "ファッション・ラグジュアリー",
+    "olympics": "五輪・エクストリーム",
+    "scientists": "有名な科学者",
+    "ancient": "古代文明",
+    "flowers": "花・植物",
+    "internet_culture": "ネット文化",
+    "party_life": "パーティー気分"
+  },
+  "howToPlay": {
+    "title": "How to Play",
+    "close": "Got it!"
+  },
+  "games": {
+    "imposter": {
+      "name": "Who’s the Imposter?",
+      "description": "1つの秘密ワード。1人の嘘つき。見つけ出そう。",
+      "howToPlay": {
+        "intro": "One player is secretly the Imposter — they don't know the secret word. Can the crew sniff them out?",
+        "step1_title": "Everyone sees the word",
+        "step1_desc": "Pass the phone around. Each player taps their name to secretly see the word — or discover they're the Imposter.",
+        "step2_title": "Give clues, spot the liar",
+        "step2_desc": "Take turns giving one clue about the secret word. The Imposter must bluff. Listen carefully for vague or wrong clues!",
+        "step3_title": "Vote & reveal",
+        "step3_desc": "After all clues, vote for who you think the Imposter is. Catch them to win — but beware, they can still guess the word to escape!"
+      }
+    },
+    "truth_dare": {
+      "name": "真実か挑戦",
+      "description": "Answer honestly or face a dare.",
+      "howToPlay": {
+        "intro": "Answer an honest question or complete a bold challenge. Will you tell the truth — or take the dare?",
+        "step1_title": "Pick your fate",
+        "step1_desc": "On your turn, choose Truth (answer a question honestly) or Dare (complete a physical or social challenge).",
+        "step2_title": "Complete the task",
+        "step2_desc": "The app shows a random truth question or dare challenge. No skipping — you must commit!",
+        "step3_title": "Pass it on",
+        "step3_desc": "Hand the phone to the next player when done. Keep playing as long as you want!"
+      }
+    },
+    "nhie": {
+      "name": "やったことある？",
+      "description": "Find out what your friends have done.",
+      "howToPlay": {
+        "intro": "Find out what your friends have really done. The more embarrassing the confessions, the better!",
+        "step1_title": "Start with 5 fingers",
+        "step1_desc": "Everyone holds up 5 fingers. You'll be putting them down one by one.",
+        "step2_title": "Read the statement",
+        "step2_desc": "The app shows a 'Never Have I Ever...' statement. If you HAVE done it, put a finger down and confess!",
+        "step3_title": "Last one standing wins",
+        "step3_desc": "The player who loses all fingers first loses the round — and must share their wildest story!"
+      }
+    },
+    "mlt": {
+      "name": "一番やりそうなのは？",
+      "description": "Who in the group is most likely to...?",
+      "howToPlay": {
+        "intro": "Find out what your friends really think about you. Brace yourself!",
+        "step1_title": "Read the question",
+        "step1_desc": "The app shows a 'Most Likely To...' question, like 'Most likely to become famous.'",
+        "step2_title": "Point together",
+        "step2_desc": "On the count of 3, everyone points at the person they think is most likely. No hesitating!",
+        "step3_title": "Tally & move on",
+        "step3_desc": "The person with the most fingers pointed at them wins (or loses?) the round. They can respond before the next question!"
+      }
+    },
+    "hot_takes": {
+      "name": "本音トーク",
+      "description": "Agree or disagree — debate it out.",
+      "howToPlay": {
+        "intro": "Share your boldest opinions and spark a debate. No neutral ground allowed!",
+        "step1_title": "Read the hot take",
+        "step1_desc": "The app reveals a controversial statement or opinion for the group to react to.",
+        "step2_title": "Take a side",
+        "step2_desc": "Each player declares whether they strongly agree or disagree — and must defend their position!",
+        "step3_title": "Debate & vote",
+        "step3_desc": "After the debate, vote for the best argument. The most convincing player wins the round!"
+      }
+    },
+    "wyr": {
+      "name": "どっちを選ぶ？",
+      "description": "Two impossible choices. Which would you pick?",
+      "howToPlay": {
+        "intro": "Two equally terrible (or amazing) choices. There's no right answer — only your answer.",
+        "step1_title": "The dilemma appears",
+        "step1_desc": "The app shows a 'Would You Rather...' question with two options. Think carefully!",
+        "step2_title": "Vote in secret",
+        "step2_desc": "Each player picks their option without revealing it. Hold your choice close!",
+        "step3_title": "Reveal & debate",
+        "step3_desc": "Everyone reveals at once. Discuss your choices and argue your case — majority wins bragging rights!"
+      }
+    },
+    "two_truths": {
+      "name": "Two Truths One Lie",
+      "description": "Guess which statement is the lie.",
+      "howToPlay": {
+        "intro": "Share two true things and one convincing lie about yourself. Can your friends tell the difference?",
+        "step1_title": "Write your statements",
+        "step1_desc": "Type two things that are true about yourself and one believable lie into the app.",
+        "step2_title": "Read them aloud",
+        "step2_desc": "Read all three statements to the group in any order. Keep a straight face!",
+        "step3_title": "Everyone guesses",
+        "step3_desc": "Players vote for which statement is the lie. Score a point for every person you fool!"
+      }
+    },
+    "heads_up": {
+      "name": "ヘッズアップ！",
+      "description": "Hold the phone on your forehead. Get clues!",
+      "howToPlay": {
+        "intro": "Hold the phone to your forehead and guess the word on the screen — only your friends can see it!",
+        "step1_title": "Hold it up",
+        "step1_desc": "The active player holds the phone face-out on their forehead without peeking at the screen.",
+        "step2_title": "Give clues",
+        "step2_desc": "All other players shout clues to help guess the word. No spelling it out or saying the word itself!",
+        "step3_title": "Tilt to score",
+        "step3_desc": "Tilt the phone down to skip a word, tilt up to confirm a correct guess. Score as many as you can before time runs out!"
+      }
+    },
+    "word_chain": {
+      "name": "しりとり",
+      "description": "Last letter starts the next word. Don't break the chain!",
+      "howToPlay": {
+        "intro": "Every word must start with the last letter of the previous one. Hesitate and you're eliminated!",
+        "step1_title": "Start the chain",
+        "step1_desc": "The first player says any word. The next player must say a word starting with its last letter.",
+        "step2_title": "Keep the pace",
+        "step2_desc": "You have a time limit to respond. No repeating words that have already been used in this round.",
+        "step3_title": "Last one standing wins",
+        "step3_desc": "Hesitate too long, say an invalid word, or repeat a word — and you're out! Last player left wins."
+      }
+    },
+    "trivia": {
+      "name": "賭けトリビア",
+      "description": "Bet on your answer. More confidence = more points.",
+      "howToPlay": {
+        "intro": "Answer trivia questions and bet your points based on how confident you are. High risk, high reward!",
+        "step1_title": "Read the question",
+        "step1_desc": "The app shows a trivia question for the current player. Think before you answer!",
+        "step2_title": "Place your bet",
+        "step2_desc": "Before answering, bet your points. Low bet = safe play. High bet = big risk, big reward!",
+        "step3_title": "Reveal the answer",
+        "step3_desc": "Correct answer earns your bet. Wrong answer loses it. The player with the most points at the end wins!"
+      }
+    },
+    "charades": {
+      "name": "ジェスチャーゲーム",
+      "description": "Act it out — no words allowed!",
+      "howToPlay": {
+        "intro": "Act out the secret word using only gestures and expressions. No speaking, no sounds — pure mime!",
+        "step1_title": "See your word",
+        "step1_desc": "The acting player secretly sees the word on the phone. Don't show anyone — keep a poker face!",
+        "step2_title": "Act it out",
+        "step2_desc": "Use gestures, expressions, and body language only. No words, no mouthing, no sounds!",
+        "step3_title": "Shout it out",
+        "step3_desc": "Other players guess aloud. Score a point when they get it right, then the next player takes their turn!"
+      }
+    },
+    "paranoia": {
+      "name": "パラノイア",
+      "description": "Whispered questions. Mysterious answers.",
+      "howToPlay": {
+        "intro": "Someone whispers a question. Someone points in secret. Will the answer ever be revealed?",
+        "step1_title": "Whisper a question",
+        "step1_desc": "One player whispers a 'Who in this group...' question to the player on their right.",
+        "step2_title": "Point in secret",
+        "step2_desc": "That player silently points at whoever they think fits the answer — no explaining!",
+        "step3_title": "Flip to reveal",
+        "step3_desc": "Flip a coin — heads reveals the question to everyone, tails keeps it secret forever. The paranoia builds!"
+      }
+    }
+  },
+  "promptGame": {
+    "playerTurn": "{{name}}'s turn",
+    "chooseTruthOrDare": "Choose your fate",
+    "truth": "Truth",
+    "dare": "Dare",
+    "mild": "Mild",
+    "medium": "Medium",
+    "spicy": "Spicy 🌶️",
+    "nextPrompt": "Next Prompt →",
+    "endGame": "End Game",
+    "skip": "Skip"
+  },
+  "headsUp": {
+    "title": "Heads Up!",
+    "holdPhone": "Hold phone to forehead",
+    "yourTurn": "{{name}}'s turn",
+    "correct": "✓ Got it!",
+    "pass": "↩ Pass",
+    "score": "Score: {{count}}",
+    "timeUp": "Time's up!",
+    "nextPlayer": "Next Player →",
+    "nextRound": "Next Round →",
+    "roundOf": "Round {{current}} / {{total}}",
+    "endGame": "End Game",
+    "readyTitle": "Ready?",
+    "readySubtitle": "Pass the phone and hold it to your forehead",
+    "startTimer": "Start!",
+    "emptyTitle": "No more words",
+    "emptySubtitle": "Try different categories to keep playing."
+  },
+  "wordChain": {
+    "title": "Word Chain",
+    "startWith": "Start any word",
+    "continueWith": "Word starting with «{{letter}}»",
+    "placeholder": "Type a word…",
+    "submit": "Submit",
+    "wrongLetter": "Must start with «{{letter}}»",
+    "alreadyUsed": "Already used!",
+    "tooShort": "Too short",
+    "invalidChars": "Letters only",
+    "eliminated": "{{name}} is out!",
+    "timerOut": "Time's up! {{name}} is eliminated.",
+    "winner": "🏆 {{name}} wins!",
+    "endGame": "End Game",
+    "playersLeft": "{{count}} left"
+  },
+  "triviaBet": {
+    "title": "Trivia Bet",
+    "tokens": "{{count}} tokens",
+    "yourBet": "Your bet",
+    "placeBet": "Place Bet",
+    "question": "Question {{number}}",
+    "reveal": "Reveal Answer",
+    "correct": "Correct! +{{count}} tokens",
+    "wrong": "Wrong! -{{count}} tokens",
+    "nextQuestion": "Next Question →",
+    "endGame": "End Game",
+    "leaderboard": "Leaderboard",
+    "winner": "{{name}} wins with {{count}} tokens!"
+  },
+  "twoTruths": {
+    "title": "Two Truths One Lie",
+    "tellerInstruction": "Write 2 truths and 1 lie about yourself",
+    "statement1": "Statement 1",
+    "statement2": "Statement 2",
+    "statement3": "Statement 3",
+    "markedLie": "LIE",
+    "markLie": "Which one is the LIE?",
+    "submitStatements": "Done — Pass the phone",
+    "voting": "Which statement is the lie?",
+    "revealLie": "Reveal the Lie",
+    "lieWas": "The lie was #{{number}}",
+    "fooled": "{{name}} fooled {{count}} people! +{{count}} points",
+    "nextPlayer": "Next Player →",
+    "endGame": "End Game"
+  },
+  "common": {
+    "pro": "PRO",
+    "locked": "ロック中",
+    "free": "無料",
+    "back": "戻る",
+    "close": "閉じる",
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "loading": "読み込み中...",
+    "players_count": "{{min}}〜{{max}}人",
+    "minutes": "{{range}}分",
+    "home": "ホーム",
+    "settings": "設定",
+    "save": "保存"
+  },
+  "discountPaywall": {
+    "tag": "特別オファー",
+    "title": "割引価格でPROを解除。",
+    "subtitle": "お得な価格でPRO機能をすべて利用。",
+    "originalPriceLabel": "Regular price",
+    "originalPrice": "$4.99/mo",
+    "discountPriceLabel": "Annual Plan",
+    "discountPrice": "$1.67/mo",
+    "billedAnnually": "Billed once a year at {{total}}",
+    "saving": "You save {{percent}}%",
+    "cta": "このオファーを受け取る →",
+    "decline": "No thanks",
+    "restore": "Restore Purchases",
+    "close": "Close"
+  },
+  "customWords": {
+    "title": "自分のリスト",
+    "placeholder": "ワードを追加...",
+    "wordCount": "{{count}} words",
+    "emptyHint": "Add at least {{min}} words to use this category",
+    "needMore": "{{count}} more needed",
+    "empty": "まだワードがありません。追加してみよう！"
+  }
+}

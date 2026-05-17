@@ -1192,6 +1192,41 @@
       "minAge": 18,
       "text": "¿Qué olor te trae un recuerdo al instante?",
       "id": "td_es_170"
+    },
+    {
+      "id": "td_es_171",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Qué es lo más vergonzoso de tu historial de búsqueda?"
+    },
+    {
+      "id": "td_es_172",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Qué app te roba más tiempo?"
+    },
+    {
+      "id": "td_es_173",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "¿Qué mensaje escribiste y nunca enviaste?"
+    },
+    {
+      "id": "td_es_174",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Muestra al grupo tu último meme guardado."
+    },
+    {
+      "id": "td_es_175",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Describe tu último selfie como si fuera una obra de museo."
     }
   ]
 }

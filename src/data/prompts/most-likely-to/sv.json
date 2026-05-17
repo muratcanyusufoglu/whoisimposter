@@ -1,0 +1,1309 @@
+{
+  "gameId": "most-likely-to",
+  "locale": "sv",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "mlt_sv_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Fanny och Alexander?"
+    },
+    {
+      "id": "mlt_sv_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle gå vilse i Gamla stan?"
+    },
+    {
+      "id": "mlt_sv_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem tar sista biten Sill?"
+    },
+    {
+      "id": "mlt_sv_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem glömmer alltid paraplyet?"
+    },
+    {
+      "id": "mlt_sv_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle imitera ABBA?"
+    },
+    {
+      "id": "mlt_sv_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Jönssonligan?"
+    },
+    {
+      "id": "mlt_sv_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle gå vilse i Liseberg?"
+    },
+    {
+      "id": "mlt_sv_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem tar sista biten Räkmacka?"
+    },
+    {
+      "id": "mlt_sv_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem glömmer alltid memet?"
+    },
+    {
+      "id": "mlt_sv_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle imitera Tove Lo?"
+    },
+    {
+      "id": "mlt_sv_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Bonusfamiljen?"
+    },
+    {
+      "id": "mlt_sv_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle gå vilse i Uppsala?"
+    },
+    {
+      "id": "mlt_sv_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem tar sista biten Lingonsylt?"
+    },
+    {
+      "id": "mlt_sv_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem glömmer alltid paraplyet?"
+    },
+    {
+      "id": "mlt_sv_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle imitera Noomi Rapace?"
+    },
+    {
+      "id": "mlt_sv_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Kalifat?"
+    },
+    {
+      "id": "mlt_sv_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle gå vilse i Ishotellet?"
+    },
+    {
+      "id": "mlt_sv_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem tar sista biten Toast Skagen?"
+    },
+    {
+      "id": "mlt_sv_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem glömmer alltid memet?"
+    },
+    {
+      "id": "mlt_sv_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle imitera Henrik Lundqvist?"
+    },
+    {
+      "id": "mlt_sv_021",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Bert?"
+    },
+    {
+      "id": "mlt_sv_022",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle gå vilse i Sarek?"
+    },
+    {
+      "id": "mlt_sv_023",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem tar sista biten Blåbärssoppa?"
+    },
+    {
+      "id": "mlt_sv_024",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem glömmer alltid paraplyet?"
+    },
+    {
+      "id": "mlt_sv_025",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle imitera Dag Hammarskjöld?"
+    },
+    {
+      "id": "mlt_sv_026",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Så som i himmelen?"
+    },
+    {
+      "id": "mlt_sv_027",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle gå vilse i Fjällbacka?"
+    },
+    {
+      "id": "mlt_sv_028",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem tar sista biten Hjortronsylt?"
+    },
+    {
+      "id": "mlt_sv_029",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem glömmer alltid memet?"
+    },
+    {
+      "id": "mlt_sv_030",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle imitera Lars Winnerbäck?"
+    },
+    {
+      "id": "mlt_sv_031",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Melodifestivalen?"
+    },
+    {
+      "id": "mlt_sv_032",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle gå vilse i Gröna Lund?"
+    },
+    {
+      "id": "mlt_sv_033",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem tar sista biten Julmust?"
+    },
+    {
+      "id": "mlt_sv_034",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem glömmer alltid paraplyet?"
+    },
+    {
+      "id": "mlt_sv_035",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle imitera Laleh?"
+    },
+    {
+      "id": "mlt_sv_036",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Talang?"
+    },
+    {
+      "id": "mlt_sv_037",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle gå vilse i Dalarna?"
+    },
+    {
+      "id": "mlt_sv_038",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem tar sista biten Fika?"
+    },
+    {
+      "id": "mlt_sv_039",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem glömmer alltid memet?"
+    },
+    {
+      "id": "mlt_sv_040",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle imitera Einstein?"
+    },
+    {
+      "id": "mlt_sv_041",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Netflix?"
+    },
+    {
+      "id": "mlt_sv_042",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle gå vilse i Ales stenar?"
+    },
+    {
+      "id": "mlt_sv_043",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem tar sista biten Kebabpizza?"
+    },
+    {
+      "id": "mlt_sv_044",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem glömmer alltid paraplyet?"
+    },
+    {
+      "id": "mlt_sv_045",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle imitera Napoleon?"
+    },
+    {
+      "id": "mlt_sv_046",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Stranger Things?"
+    },
+    {
+      "id": "mlt_sv_047",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle gå vilse i Luleå?"
+    },
+    {
+      "id": "mlt_sv_048",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem tar sista biten Brunost?"
+    },
+    {
+      "id": "mlt_sv_049",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem glömmer alltid memet?"
+    },
+    {
+      "id": "mlt_sv_050",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle imitera Ronaldo?"
+    },
+    {
+      "id": "mlt_sv_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem är mest trolig att stanna uppe hela natten med ABBA?"
+    },
+    {
+      "id": "mlt_sv_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle gå vilse i Gamla stan?"
+    },
+    {
+      "id": "mlt_sv_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem tar sista biten Sill?"
+    },
+    {
+      "id": "mlt_sv_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem glömmer alltid paraplyet?"
+    },
+    {
+      "id": "mlt_sv_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle imitera ABBA?"
+    },
+    {
+      "id": "mlt_sv_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Tove Lo?"
+    },
+    {
+      "id": "mlt_sv_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle gå vilse i Liseberg?"
+    },
+    {
+      "id": "mlt_sv_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem tar sista biten Räkmacka?"
+    },
+    {
+      "id": "mlt_sv_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem glömmer alltid memet?"
+    },
+    {
+      "id": "mlt_sv_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle imitera Tove Lo?"
+    },
+    {
+      "id": "mlt_sv_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem är mest trolig att stanna uppe hela natten med The Cardigans?"
+    },
+    {
+      "id": "mlt_sv_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle gå vilse i Uppsala?"
+    },
+    {
+      "id": "mlt_sv_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem tar sista biten Lingonsylt?"
+    },
+    {
+      "id": "mlt_sv_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem glömmer alltid paraplyet?"
+    },
+    {
+      "id": "mlt_sv_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle imitera Noomi Rapace?"
+    },
+    {
+      "id": "mlt_sv_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Lars Winnerbäck?"
+    },
+    {
+      "id": "mlt_sv_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle gå vilse i Ishotellet?"
+    },
+    {
+      "id": "mlt_sv_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem tar sista biten Toast Skagen?"
+    },
+    {
+      "id": "mlt_sv_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem glömmer alltid memet?"
+    },
+    {
+      "id": "mlt_sv_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vem skulle imitera Henrik Lundqvist?"
+    },
+    {
+      "id": "mlt_sv_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Darin?"
+    },
+    {
+      "id": "mlt_sv_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle gå vilse i Sarek?"
+    },
+    {
+      "id": "mlt_sv_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem tar sista biten Blåbärssoppa?"
+    },
+    {
+      "id": "mlt_sv_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem glömmer alltid paraplyet?"
+    },
+    {
+      "id": "mlt_sv_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle imitera Dag Hammarskjöld?"
+    },
+    {
+      "id": "mlt_sv_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Evert Taube?"
+    },
+    {
+      "id": "mlt_sv_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle gå vilse i Fjällbacka?"
+    },
+    {
+      "id": "mlt_sv_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem tar sista biten Hjortronsylt?"
+    },
+    {
+      "id": "mlt_sv_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem glömmer alltid memet?"
+    },
+    {
+      "id": "mlt_sv_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle imitera Lars Winnerbäck?"
+    },
+    {
+      "id": "mlt_sv_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Alesso?"
+    },
+    {
+      "id": "mlt_sv_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle gå vilse i Gröna Lund?"
+    },
+    {
+      "id": "mlt_sv_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem tar sista biten Julmust?"
+    },
+    {
+      "id": "mlt_sv_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem glömmer alltid paraplyet?"
+    },
+    {
+      "id": "mlt_sv_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle imitera Laleh?"
+    },
+    {
+      "id": "mlt_sv_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Pop?"
+    },
+    {
+      "id": "mlt_sv_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle gå vilse i Dalarna?"
+    },
+    {
+      "id": "mlt_sv_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem tar sista biten Fika?"
+    },
+    {
+      "id": "mlt_sv_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem glömmer alltid memet?"
+    },
+    {
+      "id": "mlt_sv_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle imitera Einstein?"
+    },
+    {
+      "id": "mlt_sv_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Nyckelharpa?"
+    },
+    {
+      "id": "mlt_sv_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle gå vilse i Ales stenar?"
+    },
+    {
+      "id": "mlt_sv_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem tar sista biten Kebabpizza?"
+    },
+    {
+      "id": "mlt_sv_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem glömmer alltid paraplyet?"
+    },
+    {
+      "id": "mlt_sv_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle imitera Napoleon?"
+    },
+    {
+      "id": "mlt_sv_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Way Out West?"
+    },
+    {
+      "id": "mlt_sv_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle gå vilse i Luleå?"
+    },
+    {
+      "id": "mlt_sv_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem tar sista biten Brunost?"
+    },
+    {
+      "id": "mlt_sv_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem glömmer alltid memet?"
+    },
+    {
+      "id": "mlt_sv_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle imitera Ronaldo?"
+    },
+    {
+      "id": "mlt_sv_101",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Fanny och Alexander?"
+    },
+    {
+      "id": "mlt_sv_102",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle gå vilse i Gamla stan?"
+    },
+    {
+      "id": "mlt_sv_103",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem tar sista biten Sill?"
+    },
+    {
+      "id": "mlt_sv_104",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem glömmer alltid paraplyet?"
+    },
+    {
+      "id": "mlt_sv_105",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle imitera ABBA?"
+    },
+    {
+      "id": "mlt_sv_106",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Jönssonligan?"
+    },
+    {
+      "id": "mlt_sv_107",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle gå vilse i Liseberg?"
+    },
+    {
+      "id": "mlt_sv_108",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem tar sista biten Räkmacka?"
+    },
+    {
+      "id": "mlt_sv_109",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem glömmer alltid memet?"
+    },
+    {
+      "id": "mlt_sv_110",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle imitera Tove Lo?"
+    },
+    {
+      "id": "mlt_sv_111",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Bonusfamiljen?"
+    },
+    {
+      "id": "mlt_sv_112",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle gå vilse i Uppsala?"
+    },
+    {
+      "id": "mlt_sv_113",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem tar sista biten Lingonsylt?"
+    },
+    {
+      "id": "mlt_sv_114",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem glömmer alltid paraplyet?"
+    },
+    {
+      "id": "mlt_sv_115",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle imitera Noomi Rapace?"
+    },
+    {
+      "id": "mlt_sv_116",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Kalifat?"
+    },
+    {
+      "id": "mlt_sv_117",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle gå vilse i Ishotellet?"
+    },
+    {
+      "id": "mlt_sv_118",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem tar sista biten Toast Skagen?"
+    },
+    {
+      "id": "mlt_sv_119",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem glömmer alltid memet?"
+    },
+    {
+      "id": "mlt_sv_120",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle imitera Henrik Lundqvist?"
+    },
+    {
+      "id": "mlt_sv_121",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Bert?"
+    },
+    {
+      "id": "mlt_sv_122",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle gå vilse i Sarek?"
+    },
+    {
+      "id": "mlt_sv_123",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem tar sista biten Blåbärssoppa?"
+    },
+    {
+      "id": "mlt_sv_124",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem glömmer alltid paraplyet?"
+    },
+    {
+      "id": "mlt_sv_125",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle imitera Dag Hammarskjöld?"
+    },
+    {
+      "id": "mlt_sv_126",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Så som i himmelen?"
+    },
+    {
+      "id": "mlt_sv_127",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle gå vilse i Fjällbacka?"
+    },
+    {
+      "id": "mlt_sv_128",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem tar sista biten Hjortronsylt?"
+    },
+    {
+      "id": "mlt_sv_129",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem glömmer alltid memet?"
+    },
+    {
+      "id": "mlt_sv_130",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle imitera Lars Winnerbäck?"
+    },
+    {
+      "id": "mlt_sv_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Melodifestivalen?"
+    },
+    {
+      "id": "mlt_sv_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle gå vilse i Gröna Lund?"
+    },
+    {
+      "id": "mlt_sv_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem tar sista biten Julmust?"
+    },
+    {
+      "id": "mlt_sv_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem glömmer alltid paraplyet?"
+    },
+    {
+      "id": "mlt_sv_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle imitera Laleh?"
+    },
+    {
+      "id": "mlt_sv_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Talang?"
+    },
+    {
+      "id": "mlt_sv_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle gå vilse i Dalarna?"
+    },
+    {
+      "id": "mlt_sv_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem tar sista biten Fika?"
+    },
+    {
+      "id": "mlt_sv_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem glömmer alltid memet?"
+    },
+    {
+      "id": "mlt_sv_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle imitera Einstein?"
+    },
+    {
+      "id": "mlt_sv_141",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Netflix?"
+    },
+    {
+      "id": "mlt_sv_142",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle gå vilse i Ales stenar?"
+    },
+    {
+      "id": "mlt_sv_143",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem tar sista biten Kebabpizza?"
+    },
+    {
+      "id": "mlt_sv_144",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem glömmer alltid paraplyet?"
+    },
+    {
+      "id": "mlt_sv_145",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle imitera Napoleon?"
+    },
+    {
+      "id": "mlt_sv_146",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Stranger Things?"
+    },
+    {
+      "id": "mlt_sv_147",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle gå vilse i Luleå?"
+    },
+    {
+      "id": "mlt_sv_148",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem tar sista biten Brunost?"
+    },
+    {
+      "id": "mlt_sv_149",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem glömmer alltid memet?"
+    },
+    {
+      "id": "mlt_sv_150",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle imitera Ronaldo?"
+    },
+    {
+      "id": "mlt_sv_151",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem är mest trolig att stanna uppe hela natten med ABBA?"
+    },
+    {
+      "id": "mlt_sv_152",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle gå vilse i Gamla stan?"
+    },
+    {
+      "id": "mlt_sv_153",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem tar sista biten Sill?"
+    },
+    {
+      "id": "mlt_sv_154",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem glömmer alltid paraplyet?"
+    },
+    {
+      "id": "mlt_sv_155",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle imitera ABBA?"
+    },
+    {
+      "id": "mlt_sv_156",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Tove Lo?"
+    },
+    {
+      "id": "mlt_sv_157",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle gå vilse i Liseberg?"
+    },
+    {
+      "id": "mlt_sv_158",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem tar sista biten Räkmacka?"
+    },
+    {
+      "id": "mlt_sv_159",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem glömmer alltid memet?"
+    },
+    {
+      "id": "mlt_sv_160",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle imitera Tove Lo?"
+    },
+    {
+      "id": "mlt_sv_161",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem är mest trolig att stanna uppe hela natten med The Cardigans?"
+    },
+    {
+      "id": "mlt_sv_162",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle gå vilse i Uppsala?"
+    },
+    {
+      "id": "mlt_sv_163",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem tar sista biten Lingonsylt?"
+    },
+    {
+      "id": "mlt_sv_164",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem glömmer alltid paraplyet?"
+    },
+    {
+      "id": "mlt_sv_165",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle imitera Noomi Rapace?"
+    },
+    {
+      "id": "mlt_sv_166",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Lars Winnerbäck?"
+    },
+    {
+      "id": "mlt_sv_167",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle gå vilse i Ishotellet?"
+    },
+    {
+      "id": "mlt_sv_168",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem tar sista biten Toast Skagen?"
+    },
+    {
+      "id": "mlt_sv_169",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem glömmer alltid memet?"
+    },
+    {
+      "id": "mlt_sv_170",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle imitera Henrik Lundqvist?"
+    },
+    {
+      "id": "mlt_sv_171",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Darin?"
+    },
+    {
+      "id": "mlt_sv_172",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle gå vilse i Sarek?"
+    },
+    {
+      "id": "mlt_sv_173",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem tar sista biten Blåbärssoppa?"
+    },
+    {
+      "id": "mlt_sv_174",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem glömmer alltid paraplyet?"
+    },
+    {
+      "id": "mlt_sv_175",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle imitera Dag Hammarskjöld?"
+    },
+    {
+      "id": "mlt_sv_176",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Evert Taube?"
+    },
+    {
+      "id": "mlt_sv_177",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle gå vilse i Fjällbacka?"
+    },
+    {
+      "id": "mlt_sv_178",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem tar sista biten Hjortronsylt?"
+    },
+    {
+      "id": "mlt_sv_179",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem glömmer alltid memet?"
+    },
+    {
+      "id": "mlt_sv_180",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle imitera Lars Winnerbäck?"
+    },
+    {
+      "id": "mlt_sv_181",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Alesso?"
+    },
+    {
+      "id": "mlt_sv_182",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle gå vilse i Gröna Lund?"
+    },
+    {
+      "id": "mlt_sv_183",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem tar sista biten Julmust?"
+    },
+    {
+      "id": "mlt_sv_184",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem glömmer alltid paraplyet?"
+    },
+    {
+      "id": "mlt_sv_185",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle imitera Laleh?"
+    },
+    {
+      "id": "mlt_sv_186",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Pop?"
+    },
+    {
+      "id": "mlt_sv_187",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle gå vilse i Dalarna?"
+    },
+    {
+      "id": "mlt_sv_188",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem tar sista biten Fika?"
+    },
+    {
+      "id": "mlt_sv_189",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem glömmer alltid memet?"
+    },
+    {
+      "id": "mlt_sv_190",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle imitera Einstein?"
+    },
+    {
+      "id": "mlt_sv_191",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Nyckelharpa?"
+    },
+    {
+      "id": "mlt_sv_192",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle gå vilse i Ales stenar?"
+    },
+    {
+      "id": "mlt_sv_193",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem tar sista biten Kebabpizza?"
+    },
+    {
+      "id": "mlt_sv_194",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem glömmer alltid paraplyet?"
+    },
+    {
+      "id": "mlt_sv_195",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle imitera Napoleon?"
+    },
+    {
+      "id": "mlt_sv_196",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Way Out West?"
+    },
+    {
+      "id": "mlt_sv_197",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle gå vilse i Luleå?"
+    },
+    {
+      "id": "mlt_sv_198",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem tar sista biten Brunost?"
+    },
+    {
+      "id": "mlt_sv_199",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem glömmer alltid memet?"
+    },
+    {
+      "id": "mlt_sv_200",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle imitera Ronaldo?"
+    },
+    {
+      "id": "mlt_sv_201",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Fanny och Alexander?"
+    },
+    {
+      "id": "mlt_sv_202",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle gå vilse i Gamla stan?"
+    },
+    {
+      "id": "mlt_sv_203",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem tar sista biten Sill?"
+    },
+    {
+      "id": "mlt_sv_204",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem glömmer alltid paraplyet?"
+    },
+    {
+      "id": "mlt_sv_205",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle imitera ABBA?"
+    },
+    {
+      "id": "mlt_sv_206",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem är mest trolig att stanna uppe hela natten med Jönssonligan?"
+    },
+    {
+      "id": "mlt_sv_207",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle gå vilse i Liseberg?"
+    },
+    {
+      "id": "mlt_sv_208",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem tar sista biten Räkmacka?"
+    },
+    {
+      "id": "mlt_sv_209",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem glömmer alltid memet?"
+    },
+    {
+      "id": "mlt_sv_210",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vem skulle imitera Tove Lo?"
+    },
+    {
+      "id": "mlt_sv_211",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem startar mest troligt en meme i gruppchatten?"
+    },
+    {
+      "id": "mlt_sv_212",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem råkar gilla ett jättegammalt inlägg?"
+    },
+    {
+      "id": "mlt_sv_213",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skulle bli streamer i en vecka och ta det seriöst?"
+    },
+    {
+      "id": "mlt_sv_214",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem skickar den perfekta reaktions-GIF:en?"
+    },
+    {
+      "id": "mlt_sv_215",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem lägger en timme på att redigera en selfie?"
+    },
+    {
+      "id": "mlt_sv_216",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem tar spellistan alldeles för seriöst?"
+    },
+    {
+      "id": "mlt_sv_217",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vem gör regelgenomgången till ett TED Talk?"
+    }
+  ]
+}

@@ -2,20 +2,19 @@ import { create } from 'zustand'
 import { persist, createJSONStorage } from 'zustand/middleware'
 import { safeAsyncStorage } from '@/utils/storage'
 import { ThemeId, RatingState, GameModeId, GamePreset } from '@/types'
-import { changeLanguage } from '@/i18n'
+import { changeLanguage, SUPPORTED_LOCALES } from '@/i18n'
 import * as Localization from 'expo-localization'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // HELPERS
 // ─────────────────────────────────────────────────────────────────────────────
 
-const SUPPORTED_LOCALES = ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl']
-
 /** Detect device language on first launch; falls back to 'en'. */
 function getDeviceLanguage(): string {
   try {
-    const code = Localization.getLocales()[0]?.languageCode ?? 'en'
-    return SUPPORTED_LOCALES.includes(code) ? code : 'en'
+    const locale = Localization.getLocales()[0]
+    const code = locale?.languageTag?.startsWith('zh-Hant') ? 'zh-Hant' : locale?.languageCode ?? 'en'
+    return SUPPORTED_LOCALES.includes(code as (typeof SUPPORTED_LOCALES)[number]) ? code : 'en'
   } catch {
     return 'en'
   }

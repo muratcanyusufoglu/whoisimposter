@@ -1,0 +1,1009 @@
+{
+  "gameId": "never-have-i-ever",
+  "locale": "ko",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "nhie_ko_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "김치 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "남산타워에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "올드보이 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "우산 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "사진에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "김밥 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "부산 해운대에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "더 글로리 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "이모티콘 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "덕질에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "순두부찌개 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "전주 한옥마을에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "태극기 휘날리며 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "우산 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "사진에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "족발 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "롯데월드타워에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "아저씨 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "이모티콘 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "덕질에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_021",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "해물파전 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_022",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "을지로에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_023",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "봄날은 간다 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_024",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "우산 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_025",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "사진에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_026",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "삼계탕 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_027",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "수원 화성에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_028",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "베테랑 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_029",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "이모티콘 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_030",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "덕질에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_031",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "감자탕 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_032",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "순천만에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_033",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "슬기로운 의사생활 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_034",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "우산 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_035",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "사진에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_036",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "소주 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_037",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "남이섬에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_038",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "런닝맨 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_039",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "이모티콘 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_040",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "덕질에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_041",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "약과 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_042",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "대구 서문시장에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_043",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "프로듀스 101 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_044",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "우산 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_045",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "사진에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_046",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "탕수육 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_047",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "전주 객리단길에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_048",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "대장금 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_049",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "이모티콘 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_050",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "덕질에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "김치 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "남산타워에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "발라드 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "우산 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_055",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "사진에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_056",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "김밥 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_057",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "부산 해운대에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_058",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "장구 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_059",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "이모티콘 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_060",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "덕질에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_061",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "순두부찌개 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_062",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "전주 한옥마을에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_063",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "아이유 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_064",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "우산 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_065",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "사진에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_066",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "족발 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_067",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "롯데월드타워에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_068",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "아이브 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_069",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "이모티콘 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_070",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "덕질에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "해물파전 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "을지로에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "싸이 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "우산 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "사진에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "삼계탕 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "수원 화성에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "볼빨간사춘기 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "이모티콘 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "덕질에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "감자탕 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "순천만에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "서태지 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "우산 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "사진에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "소주 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "남이섬에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "헤이즈 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "이모티콘 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "덕질에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "약과 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "대구 서문시장에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "NCT 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "우산 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "사진에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "탕수육 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "전주 객리단길에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "백예린 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "이모티콘 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "덕질에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_101",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "김치 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_102",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "남산타워에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_103",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "올드보이 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_104",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "우산 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_105",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "사진에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_106",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "김밥 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_107",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "부산 해운대에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_108",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "더 글로리 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_109",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "이모티콘 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_110",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "덕질에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_111",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "순두부찌개 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_112",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "전주 한옥마을에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_113",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "태극기 휘날리며 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_114",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "우산 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_115",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "사진에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_116",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "족발 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_117",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "롯데월드타워에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_118",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "아저씨 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_119",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "이모티콘 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_120",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "덕질에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_121",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "해물파전 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_122",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "을지로에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_123",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "봄날은 간다 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_124",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "우산 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_125",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "사진에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_126",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "삼계탕 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_127",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "수원 화성에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_128",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "베테랑 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_129",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "이모티콘 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_130",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "덕질에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_131",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "감자탕 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_132",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "순천만에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_133",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "슬기로운 의사생활 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_134",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "우산 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_135",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "사진에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_136",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "소주 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_137",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "남이섬에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_138",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "런닝맨 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_139",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "이모티콘 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_140",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "덕질에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_141",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "약과 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_142",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "대구 서문시장에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_143",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "프로듀스 101 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_144",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "우산 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_145",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "사진에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_146",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "탕수육 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_147",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "전주 객리단길에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_148",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "대장금 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_149",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "이모티콘 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_150",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "덕질에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_151",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "김치 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_152",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "남산타워에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_153",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "발라드 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_154",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "우산 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_155",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "사진에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_156",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "김밥 혼자 다 먹어본 적 있다."
+    },
+    {
+      "id": "nhie_ko_157",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "부산 해운대에서 길을 잃은 적 있다."
+    },
+    {
+      "id": "nhie_ko_158",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "장구 보고 운 적 있다."
+    },
+    {
+      "id": "nhie_ko_159",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "이모티콘 잃어버린 척한 적 있다."
+    },
+    {
+      "id": "nhie_ko_160",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "덕질에 일주일 동안 진심으로 빠진 적 있다."
+    },
+    {
+      "id": "nhie_ko_161",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "오래된 게시물에 실수로 좋아요를 누른 적 있다."
+    },
+    {
+      "id": "nhie_ko_162",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "평화를 위해 단체 채팅을 음소거한 적 있다."
+    },
+    {
+      "id": "nhie_ko_163",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "음성 메시지를 보내기 전에 연습한 적 있다."
+    },
+    {
+      "id": "nhie_ko_164",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "나중에 쓰려고 밈을 저장한 적 있다."
+    },
+    {
+      "id": "nhie_ko_165",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "스토리를 올리고 바로 지운 적 있다."
+    },
+    {
+      "id": "nhie_ko_166",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "인사 없이 파티를 빠져나간 적 있다."
+    },
+    {
+      "id": "nhie_ko_167",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "친구끼리 게임하다 빡쳐서 나간 적 있다."
+    }
+  ]
+}

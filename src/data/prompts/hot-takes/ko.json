@@ -1,0 +1,1309 @@
+{
+  "gameId": "hot-takes",
+  "locale": "ko",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "ht_ko_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "김치은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "남산타워에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "올드보이은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "X 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "사진은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "김밥은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "부산 해운대에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "더 글로리은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "WeChat 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "덕질은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "순두부찌개은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "전주 한옥마을에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "태극기 휘날리며은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Twitch 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "사진은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "족발은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "롯데월드타워에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "아저씨은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Telegram 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "덕질은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_021",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "해물파전은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_022",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "을지로에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_023",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "봄날은 간다은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_024",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Shorts 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_025",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "사진은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_026",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "삼계탕은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_027",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "수원 화성에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_028",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "베테랑은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_029",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sticker 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_030",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "덕질은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_031",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "감자탕은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_032",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "순천만에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_033",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "슬기로운 의사생활은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_034",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Like 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_035",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "사진은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_036",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "소주은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_037",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "남이섬에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_038",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "런닝맨은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_039",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Podcast 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_040",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "덕질은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_041",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "약과은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_042",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "대구 서문시장에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_043",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "프로듀스 101은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_044",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Challenge 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_045",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "사진은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_046",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "탕수육은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_047",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "전주 객리단길에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_048",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "대장금은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_049",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Profile 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_050",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "덕질은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "김치은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "남산타워에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "발라드은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "X 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "사진은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "김밥은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "부산 해운대에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "장구은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "WeChat 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "덕질은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "순두부찌개은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "전주 한옥마을에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "아이유은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Twitch 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "사진은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "족발은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "롯데월드타워에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "아이브은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Telegram 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "덕질은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "해물파전은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "을지로에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "싸이은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Shorts 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "사진은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "삼계탕은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "수원 화성에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "볼빨간사춘기은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sticker 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "덕질은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "감자탕은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "순천만에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "서태지은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Like 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "사진은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "소주은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "남이섬에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "헤이즈은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Podcast 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "덕질은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "약과은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "대구 서문시장에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "NCT은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Challenge 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "사진은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "탕수육은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "전주 객리단길에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "백예린은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Profile 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "덕질은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_101",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "김치은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_102",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "남산타워에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_103",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "올드보이은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_104",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "X 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_105",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "사진은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_106",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "김밥은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_107",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "부산 해운대에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_108",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "더 글로리은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_109",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "WeChat 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_110",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "덕질은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_111",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "순두부찌개은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_112",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "전주 한옥마을에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_113",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "태극기 휘날리며은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_114",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Twitch 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_115",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "사진은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_116",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "족발은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_117",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "롯데월드타워에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_118",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "아저씨은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_119",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Telegram 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_120",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "덕질은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_121",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "해물파전은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_122",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "을지로에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_123",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "봄날은 간다은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_124",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Shorts 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_125",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "사진은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_126",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "삼계탕은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_127",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "수원 화성에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_128",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "베테랑은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_129",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sticker 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_130",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "덕질은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "감자탕은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "순천만에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "슬기로운 의사생활은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Like 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "사진은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "소주은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "남이섬에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "런닝맨은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Podcast 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "덕질은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_141",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "약과은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_142",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "대구 서문시장에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_143",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "프로듀스 101은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_144",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Challenge 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_145",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "사진은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_146",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "탕수육은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_147",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "전주 객리단길에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_148",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "대장금은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_149",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Profile 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_150",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "덕질은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_151",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "김치은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_152",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "남산타워에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_153",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "발라드은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_154",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "X 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_155",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "사진은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_156",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "김밥은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_157",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "부산 해운대에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_158",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "장구은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_159",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "WeChat 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_160",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "덕질은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_161",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "순두부찌개은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_162",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "전주 한옥마을에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_163",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "아이유은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_164",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Twitch 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_165",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "사진은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_166",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "족발은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_167",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "롯데월드타워에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_168",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "아이브은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_169",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Telegram 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_170",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "덕질은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_171",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "해물파전은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_172",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "을지로에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_173",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "싸이은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_174",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Shorts 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_175",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "사진은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_176",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "삼계탕은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_177",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "수원 화성에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_178",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "볼빨간사춘기은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_179",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Sticker 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_180",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "덕질은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_181",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "감자탕은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_182",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "순천만에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_183",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "서태지은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_184",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Like 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_185",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "사진은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_186",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "소주은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_187",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "남이섬에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_188",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "헤이즈은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_189",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Podcast 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_190",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "덕질은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_191",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "약과은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_192",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "대구 서문시장에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_193",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "NCT은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_194",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Challenge 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_195",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "사진은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_196",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "탕수육은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_197",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "전주 객리단길에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_198",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "백예린은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_199",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Profile 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_200",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "덕질은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_201",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "김치은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_202",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "남산타워에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_203",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "올드보이은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_204",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "X 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_205",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "사진은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_206",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "김밥은 이제 더 인정받아야 한다."
+    },
+    {
+      "id": "ht_ko_207",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "부산 해운대에서 약속 잡는 건 생각보다 어렵다."
+    },
+    {
+      "id": "ht_ko_208",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "더 글로리은 친구랑 볼 때 더 재밌다."
+    },
+    {
+      "id": "ht_ko_209",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "WeChat 알림은 꺼두는 게 행복하다."
+    },
+    {
+      "id": "ht_ko_210",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "덕질은 진짜 취미다."
+    },
+    {
+      "id": "ht_ko_211",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "단체 채팅 알림 끄기는 셀프케어다."
+    },
+    {
+      "id": "ht_ko_212",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "좋은 밈은 나쁜 하루를 구한다."
+    },
+    {
+      "id": "ht_ko_213",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "음성 메시지에는 시간 제한이 필요하다."
+    },
+    {
+      "id": "ht_ko_214",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "스크린샷은 현대의 증거다."
+    },
+    {
+      "id": "ht_ko_215",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "바이럴은 재미보다 스트레스가 커 보인다."
+    },
+    {
+      "id": "ht_ko_216",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "보드게임은 사람의 진짜 성격을 드러낸다."
+    },
+    {
+      "id": "ht_ko_217",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "공식 규칙보다 우리끼리 룰이 더 재밌다."
+    }
+  ]
+}

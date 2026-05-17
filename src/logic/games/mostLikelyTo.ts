@@ -12,6 +12,11 @@ const PROMPTS: Record<string, PromptItem[]> = {
   ar: require('@/data/prompts/most-likely-to/ar.json').prompts as PromptItem[],
   it: require('@/data/prompts/most-likely-to/it.json').prompts as PromptItem[],
   nl: require('@/data/prompts/most-likely-to/nl.json').prompts as PromptItem[],
+  ja: require('@/data/prompts/most-likely-to/ja.json').prompts as PromptItem[],
+  ko: require('@/data/prompts/most-likely-to/ko.json').prompts as PromptItem[],
+  'zh-Hant': require('@/data/prompts/most-likely-to/zh-Hant.json').prompts as PromptItem[],
+  sv: require('@/data/prompts/most-likely-to/sv.json').prompts as PromptItem[],
+  pl: require('@/data/prompts/most-likely-to/pl.json').prompts as PromptItem[],
 }
 
 function loadPrompts(locale: string): PromptItem[] {

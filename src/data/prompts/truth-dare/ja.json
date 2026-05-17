@@ -1,0 +1,1232 @@
+{
+  "gameId": "truth-dare",
+  "locale": "ja",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "td_ja_001",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "最近いちばん笑ったことは？"
+    },
+    {
+      "id": "td_ja_002",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "最後についた小さな嘘は？"
+    },
+    {
+      "id": "td_ja_003",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "自分の変な癖は？"
+    },
+    {
+      "id": "td_ja_004",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "最近いちばん気まずかった瞬間は？"
+    },
+    {
+      "id": "td_ja_005",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰にも言っていない小さな秘密は？"
+    },
+    {
+      "id": "td_ja_006",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "この中でデートするなら誰？"
+    },
+    {
+      "id": "td_ja_007",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "送って後悔したメッセージは？"
+    },
+    {
+      "id": "td_ja_008",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "本当は苦手な集まりは？"
+    },
+    {
+      "id": "td_ja_009",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "最近少し嫉妬したことは？"
+    },
+    {
+      "id": "td_ja_010",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "昔の自分で消したい投稿は？"
+    },
+    {
+      "id": "td_ja_011",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "最近いちばん笑ったことは？"
+    },
+    {
+      "id": "td_ja_012",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "最後についた小さな嘘は？"
+    },
+    {
+      "id": "td_ja_013",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "自分の変な癖は？"
+    },
+    {
+      "id": "td_ja_014",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "最近いちばん気まずかった瞬間は？"
+    },
+    {
+      "id": "td_ja_015",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰にも言っていない小さな秘密は？"
+    },
+    {
+      "id": "td_ja_016",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "この中でデートするなら誰？"
+    },
+    {
+      "id": "td_ja_017",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "送って後悔したメッセージは？"
+    },
+    {
+      "id": "td_ja_018",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "本当は苦手な集まりは？"
+    },
+    {
+      "id": "td_ja_019",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "最近少し嫉妬したことは？"
+    },
+    {
+      "id": "td_ja_020",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "昔の自分で消したい投稿は？"
+    },
+    {
+      "id": "td_ja_021",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "最近いちばん笑ったことは？"
+    },
+    {
+      "id": "td_ja_022",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "最後についた小さな嘘は？"
+    },
+    {
+      "id": "td_ja_023",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "自分の変な癖は？"
+    },
+    {
+      "id": "td_ja_024",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "最近いちばん気まずかった瞬間は？"
+    },
+    {
+      "id": "td_ja_025",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "誰にも言っていない小さな秘密は？"
+    },
+    {
+      "id": "td_ja_026",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "この中でデートするなら誰？"
+    },
+    {
+      "id": "td_ja_027",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "送って後悔したメッセージは？"
+    },
+    {
+      "id": "td_ja_028",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "本当は苦手な集まりは？"
+    },
+    {
+      "id": "td_ja_029",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最近少し嫉妬したことは？"
+    },
+    {
+      "id": "td_ja_030",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "昔の自分で消したい投稿は？"
+    },
+    {
+      "id": "td_ja_031",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最近いちばん笑ったことは？"
+    },
+    {
+      "id": "td_ja_032",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最後についた小さな嘘は？"
+    },
+    {
+      "id": "td_ja_033",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "自分の変な癖は？"
+    },
+    {
+      "id": "td_ja_034",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最近いちばん気まずかった瞬間は？"
+    },
+    {
+      "id": "td_ja_035",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰にも言っていない小さな秘密は？"
+    },
+    {
+      "id": "td_ja_036",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "この中でデートするなら誰？"
+    },
+    {
+      "id": "td_ja_037",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "送って後悔したメッセージは？"
+    },
+    {
+      "id": "td_ja_038",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "本当は苦手な集まりは？"
+    },
+    {
+      "id": "td_ja_039",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最近少し嫉妬したことは？"
+    },
+    {
+      "id": "td_ja_040",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "昔の自分で消したい投稿は？"
+    },
+    {
+      "id": "td_ja_041",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最近いちばん笑ったことは？"
+    },
+    {
+      "id": "td_ja_042",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最後についた小さな嘘は？"
+    },
+    {
+      "id": "td_ja_043",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "自分の変な癖は？"
+    },
+    {
+      "id": "td_ja_044",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最近いちばん気まずかった瞬間は？"
+    },
+    {
+      "id": "td_ja_045",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰にも言っていない小さな秘密は？"
+    },
+    {
+      "id": "td_ja_046",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "この中でデートするなら誰？"
+    },
+    {
+      "id": "td_ja_047",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "送って後悔したメッセージは？"
+    },
+    {
+      "id": "td_ja_048",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "本当は苦手な集まりは？"
+    },
+    {
+      "id": "td_ja_049",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最近少し嫉妬したことは？"
+    },
+    {
+      "id": "td_ja_050",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "昔の自分で消したい投稿は？"
+    },
+    {
+      "id": "td_ja_051",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最近いちばん笑ったことは？"
+    },
+    {
+      "id": "td_ja_052",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最後についた小さな嘘は？"
+    },
+    {
+      "id": "td_ja_053",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "自分の変な癖は？"
+    },
+    {
+      "id": "td_ja_054",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最近いちばん気まずかった瞬間は？"
+    },
+    {
+      "id": "td_ja_055",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "誰にも言っていない小さな秘密は？"
+    },
+    {
+      "id": "td_ja_056",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "この中でデートするなら誰？"
+    },
+    {
+      "id": "td_ja_057",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "送って後悔したメッセージは？"
+    },
+    {
+      "id": "td_ja_058",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "本当は苦手な集まりは？"
+    },
+    {
+      "id": "td_ja_059",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "最近少し嫉妬したことは？"
+    },
+    {
+      "id": "td_ja_060",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "昔の自分で消したい投稿は？"
+    },
+    {
+      "id": "td_ja_061",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "最近いちばん笑ったことは？"
+    },
+    {
+      "id": "td_ja_062",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "最後についた小さな嘘は？"
+    },
+    {
+      "id": "td_ja_063",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "自分の変な癖は？"
+    },
+    {
+      "id": "td_ja_064",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "最近いちばん気まずかった瞬間は？"
+    },
+    {
+      "id": "td_ja_065",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰にも言っていない小さな秘密は？"
+    },
+    {
+      "id": "td_ja_066",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "この中でデートするなら誰？"
+    },
+    {
+      "id": "td_ja_067",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "送って後悔したメッセージは？"
+    },
+    {
+      "id": "td_ja_068",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "本当は苦手な集まりは？"
+    },
+    {
+      "id": "td_ja_069",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "最近少し嫉妬したことは？"
+    },
+    {
+      "id": "td_ja_070",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "昔の自分で消したい投稿は？"
+    },
+    {
+      "id": "td_ja_071",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "最近いちばん笑ったことは？"
+    },
+    {
+      "id": "td_ja_072",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "最後についた小さな嘘は？"
+    },
+    {
+      "id": "td_ja_073",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "自分の変な癖は？"
+    },
+    {
+      "id": "td_ja_074",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "最近いちばん気まずかった瞬間は？"
+    },
+    {
+      "id": "td_ja_075",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰にも言っていない小さな秘密は？"
+    },
+    {
+      "id": "td_ja_076",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "この中でデートするなら誰？"
+    },
+    {
+      "id": "td_ja_077",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "送って後悔したメッセージは？"
+    },
+    {
+      "id": "td_ja_078",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "本当は苦手な集まりは？"
+    },
+    {
+      "id": "td_ja_079",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "最近少し嫉妬したことは？"
+    },
+    {
+      "id": "td_ja_080",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "昔の自分で消したい投稿は？"
+    },
+    {
+      "id": "td_ja_081",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "最近いちばん笑ったことは？"
+    },
+    {
+      "id": "td_ja_082",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "最後についた小さな嘘は？"
+    },
+    {
+      "id": "td_ja_083",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "自分の変な癖は？"
+    },
+    {
+      "id": "td_ja_084",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "最近いちばん気まずかった瞬間は？"
+    },
+    {
+      "id": "td_ja_085",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "誰にも言っていない小さな秘密は？"
+    },
+    {
+      "id": "td_ja_086",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "一番得意なものまねをして。"
+    },
+    {
+      "id": "td_ja_087",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "好きな曲のサビを歌って。"
+    },
+    {
+      "id": "td_ja_088",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "30秒だけ悪役の笑い方をして。"
+    },
+    {
+      "id": "td_ja_089",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "グループが選ぶ禁止ワードを5分言わないで。"
+    },
+    {
+      "id": "td_ja_090",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "最近一番聴いた曲を公開して。"
+    },
+    {
+      "id": "td_ja_091",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "この中の誰かを映画の主人公みたいに褒めて。"
+    },
+    {
+      "id": "td_ja_092",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "一番照れるセリフを真顔で言って。"
+    },
+    {
+      "id": "td_ja_093",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "今の気持ちをニュース風に発表して。"
+    },
+    {
+      "id": "td_ja_094",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "全員にニックネームをつけて。"
+    },
+    {
+      "id": "td_ja_095",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "左の人を本気で褒めて。"
+    },
+    {
+      "id": "td_ja_096",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "一番得意なものまねをして。"
+    },
+    {
+      "id": "td_ja_097",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "好きな曲のサビを歌って。"
+    },
+    {
+      "id": "td_ja_098",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "30秒だけ悪役の笑い方をして。"
+    },
+    {
+      "id": "td_ja_099",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "グループが選ぶ禁止ワードを5分言わないで。"
+    },
+    {
+      "id": "td_ja_100",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "最近一番聴いた曲を公開して。"
+    },
+    {
+      "id": "td_ja_101",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "この中の誰かを映画の主人公みたいに褒めて。"
+    },
+    {
+      "id": "td_ja_102",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "一番照れるセリフを真顔で言って。"
+    },
+    {
+      "id": "td_ja_103",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "今の気持ちをニュース風に発表して。"
+    },
+    {
+      "id": "td_ja_104",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "全員にニックネームをつけて。"
+    },
+    {
+      "id": "td_ja_105",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "左の人を本気で褒めて。"
+    },
+    {
+      "id": "td_ja_106",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "一番得意なものまねをして。"
+    },
+    {
+      "id": "td_ja_107",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "好きな曲のサビを歌って。"
+    },
+    {
+      "id": "td_ja_108",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "30秒だけ悪役の笑い方をして。"
+    },
+    {
+      "id": "td_ja_109",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "グループが選ぶ禁止ワードを5分言わないで。"
+    },
+    {
+      "id": "td_ja_110",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "最近一番聴いた曲を公開して。"
+    },
+    {
+      "id": "td_ja_111",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "この中の誰かを映画の主人公みたいに褒めて。"
+    },
+    {
+      "id": "td_ja_112",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "一番照れるセリフを真顔で言って。"
+    },
+    {
+      "id": "td_ja_113",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "今の気持ちをニュース風に発表して。"
+    },
+    {
+      "id": "td_ja_114",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "全員にニックネームをつけて。"
+    },
+    {
+      "id": "td_ja_115",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "左の人を本気で褒めて。"
+    },
+    {
+      "id": "td_ja_116",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "一番得意なものまねをして。"
+    },
+    {
+      "id": "td_ja_117",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "好きな曲のサビを歌って。"
+    },
+    {
+      "id": "td_ja_118",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "30秒だけ悪役の笑い方をして。"
+    },
+    {
+      "id": "td_ja_119",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "グループが選ぶ禁止ワードを5分言わないで。"
+    },
+    {
+      "id": "td_ja_120",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最近一番聴いた曲を公開して。"
+    },
+    {
+      "id": "td_ja_121",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "この中の誰かを映画の主人公みたいに褒めて。"
+    },
+    {
+      "id": "td_ja_122",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "一番照れるセリフを真顔で言って。"
+    },
+    {
+      "id": "td_ja_123",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "今の気持ちをニュース風に発表して。"
+    },
+    {
+      "id": "td_ja_124",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "全員にニックネームをつけて。"
+    },
+    {
+      "id": "td_ja_125",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "左の人を本気で褒めて。"
+    },
+    {
+      "id": "td_ja_126",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "一番得意なものまねをして。"
+    },
+    {
+      "id": "td_ja_127",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "好きな曲のサビを歌って。"
+    },
+    {
+      "id": "td_ja_128",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "30秒だけ悪役の笑い方をして。"
+    },
+    {
+      "id": "td_ja_129",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "グループが選ぶ禁止ワードを5分言わないで。"
+    },
+    {
+      "id": "td_ja_130",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最近一番聴いた曲を公開して。"
+    },
+    {
+      "id": "td_ja_131",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "この中の誰かを映画の主人公みたいに褒めて。"
+    },
+    {
+      "id": "td_ja_132",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "一番照れるセリフを真顔で言って。"
+    },
+    {
+      "id": "td_ja_133",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "今の気持ちをニュース風に発表して。"
+    },
+    {
+      "id": "td_ja_134",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "全員にニックネームをつけて。"
+    },
+    {
+      "id": "td_ja_135",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "左の人を本気で褒めて。"
+    },
+    {
+      "id": "td_ja_136",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "一番得意なものまねをして。"
+    },
+    {
+      "id": "td_ja_137",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "好きな曲のサビを歌って。"
+    },
+    {
+      "id": "td_ja_138",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "30秒だけ悪役の笑い方をして。"
+    },
+    {
+      "id": "td_ja_139",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "グループが選ぶ禁止ワードを5分言わないで。"
+    },
+    {
+      "id": "td_ja_140",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最近一番聴いた曲を公開して。"
+    },
+    {
+      "id": "td_ja_141",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "この中の誰かを映画の主人公みたいに褒めて。"
+    },
+    {
+      "id": "td_ja_142",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "一番照れるセリフを真顔で言って。"
+    },
+    {
+      "id": "td_ja_143",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "今の気持ちをニュース風に発表して。"
+    },
+    {
+      "id": "td_ja_144",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "全員にニックネームをつけて。"
+    },
+    {
+      "id": "td_ja_145",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "左の人を本気で褒めて。"
+    },
+    {
+      "id": "td_ja_146",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "一番得意なものまねをして。"
+    },
+    {
+      "id": "td_ja_147",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "好きな曲のサビを歌って。"
+    },
+    {
+      "id": "td_ja_148",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "30秒だけ悪役の笑い方をして。"
+    },
+    {
+      "id": "td_ja_149",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "グループが選ぶ禁止ワードを5分言わないで。"
+    },
+    {
+      "id": "td_ja_150",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "最近一番聴いた曲を公開して。"
+    },
+    {
+      "id": "td_ja_151",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "この中の誰かを映画の主人公みたいに褒めて。"
+    },
+    {
+      "id": "td_ja_152",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "一番照れるセリフを真顔で言って。"
+    },
+    {
+      "id": "td_ja_153",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "今の気持ちをニュース風に発表して。"
+    },
+    {
+      "id": "td_ja_154",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "全員にニックネームをつけて。"
+    },
+    {
+      "id": "td_ja_155",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "左の人を本気で褒めて。"
+    },
+    {
+      "id": "td_ja_156",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "一番得意なものまねをして。"
+    },
+    {
+      "id": "td_ja_157",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "好きな曲のサビを歌って。"
+    },
+    {
+      "id": "td_ja_158",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "30秒だけ悪役の笑い方をして。"
+    },
+    {
+      "id": "td_ja_159",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "グループが選ぶ禁止ワードを5分言わないで。"
+    },
+    {
+      "id": "td_ja_160",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "最近一番聴いた曲を公開して。"
+    },
+    {
+      "id": "td_ja_161",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "この中の誰かを映画の主人公みたいに褒めて。"
+    },
+    {
+      "id": "td_ja_162",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "一番照れるセリフを真顔で言って。"
+    },
+    {
+      "id": "td_ja_163",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "今の気持ちをニュース風に発表して。"
+    },
+    {
+      "id": "td_ja_164",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "全員にニックネームをつけて。"
+    },
+    {
+      "id": "td_ja_165",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "左の人を本気で褒めて。"
+    },
+    {
+      "id": "td_ja_166",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "一番得意なものまねをして。"
+    },
+    {
+      "id": "td_ja_167",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "好きな曲のサビを歌って。"
+    },
+    {
+      "id": "td_ja_168",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "30秒だけ悪役の笑い方をして。"
+    },
+    {
+      "id": "td_ja_169",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "グループが選ぶ禁止ワードを5分言わないで。"
+    },
+    {
+      "id": "td_ja_170",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "最近一番聴いた曲を公開して。"
+    },
+    {
+      "id": "td_ja_171",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "検索履歴で一番恥ずかしいものは？"
+    },
+    {
+      "id": "td_ja_172",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "一番時間を奪っているアプリは？"
+    },
+    {
+      "id": "td_ja_173",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "書いたけど送らなかったメッセージは？"
+    },
+    {
+      "id": "td_ja_174",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最後に保存したミームをグループに見せて。"
+    },
+    {
+      "id": "td_ja_175",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最後の自撮りを美術館の作品みたいに説明して。"
+    }
+  ]
+}

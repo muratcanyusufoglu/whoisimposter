@@ -1,0 +1,1736 @@
+{
+  "gameId": "trivia-bet",
+  "locale": "ja",
+  "version": 1,
+  "questions": [
+    {
+      "id": "tb_ja_001",
+      "difficulty": "easy",
+      "category": "科学",
+      "question": "赤い惑星として知られる惑星は？",
+      "options": [
+        "金星",
+        "火星",
+        "木星",
+        "土星"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_002",
+      "difficulty": "easy",
+      "category": "科学",
+      "question": "H2Oは一般に何と呼ばれる？",
+      "options": [
+        "塩",
+        "水",
+        "酸素",
+        "砂糖"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_003",
+      "difficulty": "easy",
+      "category": "地理",
+      "question": "世界最大の海洋は？",
+      "options": [
+        "大西洋",
+        "インド洋",
+        "太平洋",
+        "北極海"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_004",
+      "difficulty": "easy",
+      "category": "地理",
+      "question": "東京がある国は？",
+      "options": [
+        "日本",
+        "中国",
+        "韓国",
+        "タイ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_005",
+      "difficulty": "easy",
+      "category": "歴史",
+      "question": "モナ・リザを描いたのは誰？",
+      "options": [
+        "ピカソ",
+        "レオナルド・ダ・ヴィンチ",
+        "ゴッホ",
+        "モネ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_006",
+      "difficulty": "easy",
+      "category": "文化",
+      "question": "「千と千尋の神隠し」を制作したスタジオは？",
+      "options": [
+        "ピクサー",
+        "スタジオジブリ",
+        "ディズニー",
+        "ドリームワークス"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_007",
+      "difficulty": "easy",
+      "category": "スポーツ",
+      "question": "サッカーでフィールドに出る1チームの人数は？",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_008",
+      "difficulty": "easy",
+      "category": "食べ物",
+      "question": "生の魚を切り身で出す日本料理は？",
+      "options": [
+        "天ぷら",
+        "刺身",
+        "うどん",
+        "餅"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_009",
+      "difficulty": "easy",
+      "category": "文化",
+      "question": "ハングルで書かれる言語は？",
+      "options": [
+        "日本語",
+        "韓国語",
+        "ポーランド語",
+        "スウェーデン語"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_010",
+      "difficulty": "easy",
+      "category": "科学",
+      "question": "植物が光合成で吸収する気体は？",
+      "options": [
+        "酸素",
+        "二酸化炭素",
+        "窒素",
+        "水素"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_011",
+      "difficulty": "easy",
+      "category": "科学",
+      "question": "赤い惑星として知られる惑星は？",
+      "options": [
+        "金星",
+        "火星",
+        "木星",
+        "土星"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_012",
+      "difficulty": "easy",
+      "category": "科学",
+      "question": "H2Oは一般に何と呼ばれる？",
+      "options": [
+        "塩",
+        "水",
+        "酸素",
+        "砂糖"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_013",
+      "difficulty": "easy",
+      "category": "地理",
+      "question": "世界最大の海洋は？",
+      "options": [
+        "大西洋",
+        "インド洋",
+        "太平洋",
+        "北極海"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_014",
+      "difficulty": "easy",
+      "category": "地理",
+      "question": "東京がある国は？",
+      "options": [
+        "日本",
+        "中国",
+        "韓国",
+        "タイ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_015",
+      "difficulty": "easy",
+      "category": "歴史",
+      "question": "モナ・リザを描いたのは誰？",
+      "options": [
+        "ピカソ",
+        "レオナルド・ダ・ヴィンチ",
+        "ゴッホ",
+        "モネ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_016",
+      "difficulty": "easy",
+      "category": "文化",
+      "question": "「千と千尋の神隠し」を制作したスタジオは？",
+      "options": [
+        "ピクサー",
+        "スタジオジブリ",
+        "ディズニー",
+        "ドリームワークス"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_017",
+      "difficulty": "easy",
+      "category": "スポーツ",
+      "question": "サッカーでフィールドに出る1チームの人数は？",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_018",
+      "difficulty": "easy",
+      "category": "食べ物",
+      "question": "生の魚を切り身で出す日本料理は？",
+      "options": [
+        "天ぷら",
+        "刺身",
+        "うどん",
+        "餅"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_019",
+      "difficulty": "easy",
+      "category": "文化",
+      "question": "ハングルで書かれる言語は？",
+      "options": [
+        "日本語",
+        "韓国語",
+        "ポーランド語",
+        "スウェーデン語"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_020",
+      "difficulty": "easy",
+      "category": "科学",
+      "question": "植物が光合成で吸収する気体は？",
+      "options": [
+        "酸素",
+        "二酸化炭素",
+        "窒素",
+        "水素"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_021",
+      "difficulty": "easy",
+      "category": "科学",
+      "question": "赤い惑星として知られる惑星は？",
+      "options": [
+        "金星",
+        "火星",
+        "木星",
+        "土星"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_022",
+      "difficulty": "easy",
+      "category": "科学",
+      "question": "H2Oは一般に何と呼ばれる？",
+      "options": [
+        "塩",
+        "水",
+        "酸素",
+        "砂糖"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_023",
+      "difficulty": "easy",
+      "category": "地理",
+      "question": "世界最大の海洋は？",
+      "options": [
+        "大西洋",
+        "インド洋",
+        "太平洋",
+        "北極海"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_024",
+      "difficulty": "easy",
+      "category": "地理",
+      "question": "東京がある国は？",
+      "options": [
+        "日本",
+        "中国",
+        "韓国",
+        "タイ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_025",
+      "difficulty": "easy",
+      "category": "歴史",
+      "question": "モナ・リザを描いたのは誰？",
+      "options": [
+        "ピカソ",
+        "レオナルド・ダ・ヴィンチ",
+        "ゴッホ",
+        "モネ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_026",
+      "difficulty": "easy",
+      "category": "文化",
+      "question": "「千と千尋の神隠し」を制作したスタジオは？",
+      "options": [
+        "ピクサー",
+        "スタジオジブリ",
+        "ディズニー",
+        "ドリームワークス"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_027",
+      "difficulty": "easy",
+      "category": "スポーツ",
+      "question": "サッカーでフィールドに出る1チームの人数は？",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_028",
+      "difficulty": "easy",
+      "category": "食べ物",
+      "question": "生の魚を切り身で出す日本料理は？",
+      "options": [
+        "天ぷら",
+        "刺身",
+        "うどん",
+        "餅"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_029",
+      "difficulty": "easy",
+      "category": "文化",
+      "question": "ハングルで書かれる言語は？",
+      "options": [
+        "日本語",
+        "韓国語",
+        "ポーランド語",
+        "スウェーデン語"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_030",
+      "difficulty": "easy",
+      "category": "科学",
+      "question": "植物が光合成で吸収する気体は？",
+      "options": [
+        "酸素",
+        "二酸化炭素",
+        "窒素",
+        "水素"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_031",
+      "difficulty": "easy",
+      "category": "科学",
+      "question": "赤い惑星として知られる惑星は？",
+      "options": [
+        "金星",
+        "火星",
+        "木星",
+        "土星"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_032",
+      "difficulty": "easy",
+      "category": "科学",
+      "question": "H2Oは一般に何と呼ばれる？",
+      "options": [
+        "塩",
+        "水",
+        "酸素",
+        "砂糖"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_033",
+      "difficulty": "easy",
+      "category": "地理",
+      "question": "世界最大の海洋は？",
+      "options": [
+        "大西洋",
+        "インド洋",
+        "太平洋",
+        "北極海"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_034",
+      "difficulty": "easy",
+      "category": "地理",
+      "question": "東京がある国は？",
+      "options": [
+        "日本",
+        "中国",
+        "韓国",
+        "タイ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_035",
+      "difficulty": "easy",
+      "category": "歴史",
+      "question": "モナ・リザを描いたのは誰？",
+      "options": [
+        "ピカソ",
+        "レオナルド・ダ・ヴィンチ",
+        "ゴッホ",
+        "モネ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_036",
+      "difficulty": "easy",
+      "category": "文化",
+      "question": "「千と千尋の神隠し」を制作したスタジオは？",
+      "options": [
+        "ピクサー",
+        "スタジオジブリ",
+        "ディズニー",
+        "ドリームワークス"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_037",
+      "difficulty": "easy",
+      "category": "スポーツ",
+      "question": "サッカーでフィールドに出る1チームの人数は？",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_038",
+      "difficulty": "easy",
+      "category": "食べ物",
+      "question": "生の魚を切り身で出す日本料理は？",
+      "options": [
+        "天ぷら",
+        "刺身",
+        "うどん",
+        "餅"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_039",
+      "difficulty": "easy",
+      "category": "文化",
+      "question": "ハングルで書かれる言語は？",
+      "options": [
+        "日本語",
+        "韓国語",
+        "ポーランド語",
+        "スウェーデン語"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_040",
+      "difficulty": "easy",
+      "category": "科学",
+      "question": "植物が光合成で吸収する気体は？",
+      "options": [
+        "酸素",
+        "二酸化炭素",
+        "窒素",
+        "水素"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_041",
+      "difficulty": "easy",
+      "category": "科学",
+      "question": "赤い惑星として知られる惑星は？",
+      "options": [
+        "金星",
+        "火星",
+        "木星",
+        "土星"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_042",
+      "difficulty": "easy",
+      "category": "科学",
+      "question": "H2Oは一般に何と呼ばれる？",
+      "options": [
+        "塩",
+        "水",
+        "酸素",
+        "砂糖"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_043",
+      "difficulty": "easy",
+      "category": "地理",
+      "question": "世界最大の海洋は？",
+      "options": [
+        "大西洋",
+        "インド洋",
+        "太平洋",
+        "北極海"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_044",
+      "difficulty": "easy",
+      "category": "地理",
+      "question": "東京がある国は？",
+      "options": [
+        "日本",
+        "中国",
+        "韓国",
+        "タイ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_045",
+      "difficulty": "easy",
+      "category": "歴史",
+      "question": "モナ・リザを描いたのは誰？",
+      "options": [
+        "ピカソ",
+        "レオナルド・ダ・ヴィンチ",
+        "ゴッホ",
+        "モネ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_046",
+      "difficulty": "medium",
+      "category": "文化",
+      "question": "「千と千尋の神隠し」を制作したスタジオは？",
+      "options": [
+        "ピクサー",
+        "スタジオジブリ",
+        "ディズニー",
+        "ドリームワークス"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_047",
+      "difficulty": "medium",
+      "category": "スポーツ",
+      "question": "サッカーでフィールドに出る1チームの人数は？",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_048",
+      "difficulty": "medium",
+      "category": "食べ物",
+      "question": "生の魚を切り身で出す日本料理は？",
+      "options": [
+        "天ぷら",
+        "刺身",
+        "うどん",
+        "餅"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_049",
+      "difficulty": "medium",
+      "category": "文化",
+      "question": "ハングルで書かれる言語は？",
+      "options": [
+        "日本語",
+        "韓国語",
+        "ポーランド語",
+        "スウェーデン語"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_050",
+      "difficulty": "medium",
+      "category": "科学",
+      "question": "植物が光合成で吸収する気体は？",
+      "options": [
+        "酸素",
+        "二酸化炭素",
+        "窒素",
+        "水素"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_051",
+      "difficulty": "medium",
+      "category": "科学",
+      "question": "赤い惑星として知られる惑星は？",
+      "options": [
+        "金星",
+        "火星",
+        "木星",
+        "土星"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_052",
+      "difficulty": "medium",
+      "category": "科学",
+      "question": "H2Oは一般に何と呼ばれる？",
+      "options": [
+        "塩",
+        "水",
+        "酸素",
+        "砂糖"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_053",
+      "difficulty": "medium",
+      "category": "地理",
+      "question": "世界最大の海洋は？",
+      "options": [
+        "大西洋",
+        "インド洋",
+        "太平洋",
+        "北極海"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_054",
+      "difficulty": "medium",
+      "category": "地理",
+      "question": "東京がある国は？",
+      "options": [
+        "日本",
+        "中国",
+        "韓国",
+        "タイ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_055",
+      "difficulty": "medium",
+      "category": "歴史",
+      "question": "モナ・リザを描いたのは誰？",
+      "options": [
+        "ピカソ",
+        "レオナルド・ダ・ヴィンチ",
+        "ゴッホ",
+        "モネ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_056",
+      "difficulty": "medium",
+      "category": "文化",
+      "question": "「千と千尋の神隠し」を制作したスタジオは？",
+      "options": [
+        "ピクサー",
+        "スタジオジブリ",
+        "ディズニー",
+        "ドリームワークス"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_057",
+      "difficulty": "medium",
+      "category": "スポーツ",
+      "question": "サッカーでフィールドに出る1チームの人数は？",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_058",
+      "difficulty": "medium",
+      "category": "食べ物",
+      "question": "生の魚を切り身で出す日本料理は？",
+      "options": [
+        "天ぷら",
+        "刺身",
+        "うどん",
+        "餅"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_059",
+      "difficulty": "medium",
+      "category": "文化",
+      "question": "ハングルで書かれる言語は？",
+      "options": [
+        "日本語",
+        "韓国語",
+        "ポーランド語",
+        "スウェーデン語"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_060",
+      "difficulty": "medium",
+      "category": "科学",
+      "question": "植物が光合成で吸収する気体は？",
+      "options": [
+        "酸素",
+        "二酸化炭素",
+        "窒素",
+        "水素"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_061",
+      "difficulty": "medium",
+      "category": "科学",
+      "question": "赤い惑星として知られる惑星は？",
+      "options": [
+        "金星",
+        "火星",
+        "木星",
+        "土星"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_062",
+      "difficulty": "medium",
+      "category": "科学",
+      "question": "H2Oは一般に何と呼ばれる？",
+      "options": [
+        "塩",
+        "水",
+        "酸素",
+        "砂糖"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_063",
+      "difficulty": "medium",
+      "category": "地理",
+      "question": "世界最大の海洋は？",
+      "options": [
+        "大西洋",
+        "インド洋",
+        "太平洋",
+        "北極海"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_064",
+      "difficulty": "medium",
+      "category": "地理",
+      "question": "東京がある国は？",
+      "options": [
+        "日本",
+        "中国",
+        "韓国",
+        "タイ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_065",
+      "difficulty": "medium",
+      "category": "歴史",
+      "question": "モナ・リザを描いたのは誰？",
+      "options": [
+        "ピカソ",
+        "レオナルド・ダ・ヴィンチ",
+        "ゴッホ",
+        "モネ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_066",
+      "difficulty": "medium",
+      "category": "文化",
+      "question": "「千と千尋の神隠し」を制作したスタジオは？",
+      "options": [
+        "ピクサー",
+        "スタジオジブリ",
+        "ディズニー",
+        "ドリームワークス"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_067",
+      "difficulty": "medium",
+      "category": "スポーツ",
+      "question": "サッカーでフィールドに出る1チームの人数は？",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_068",
+      "difficulty": "medium",
+      "category": "食べ物",
+      "question": "生の魚を切り身で出す日本料理は？",
+      "options": [
+        "天ぷら",
+        "刺身",
+        "うどん",
+        "餅"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_069",
+      "difficulty": "medium",
+      "category": "文化",
+      "question": "ハングルで書かれる言語は？",
+      "options": [
+        "日本語",
+        "韓国語",
+        "ポーランド語",
+        "スウェーデン語"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_070",
+      "difficulty": "medium",
+      "category": "科学",
+      "question": "植物が光合成で吸収する気体は？",
+      "options": [
+        "酸素",
+        "二酸化炭素",
+        "窒素",
+        "水素"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_071",
+      "difficulty": "medium",
+      "category": "科学",
+      "question": "赤い惑星として知られる惑星は？",
+      "options": [
+        "金星",
+        "火星",
+        "木星",
+        "土星"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_072",
+      "difficulty": "medium",
+      "category": "科学",
+      "question": "H2Oは一般に何と呼ばれる？",
+      "options": [
+        "塩",
+        "水",
+        "酸素",
+        "砂糖"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_073",
+      "difficulty": "medium",
+      "category": "地理",
+      "question": "世界最大の海洋は？",
+      "options": [
+        "大西洋",
+        "インド洋",
+        "太平洋",
+        "北極海"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_074",
+      "difficulty": "medium",
+      "category": "地理",
+      "question": "東京がある国は？",
+      "options": [
+        "日本",
+        "中国",
+        "韓国",
+        "タイ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_075",
+      "difficulty": "medium",
+      "category": "歴史",
+      "question": "モナ・リザを描いたのは誰？",
+      "options": [
+        "ピカソ",
+        "レオナルド・ダ・ヴィンチ",
+        "ゴッホ",
+        "モネ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_076",
+      "difficulty": "medium",
+      "category": "文化",
+      "question": "「千と千尋の神隠し」を制作したスタジオは？",
+      "options": [
+        "ピクサー",
+        "スタジオジブリ",
+        "ディズニー",
+        "ドリームワークス"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_077",
+      "difficulty": "medium",
+      "category": "スポーツ",
+      "question": "サッカーでフィールドに出る1チームの人数は？",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_078",
+      "difficulty": "medium",
+      "category": "食べ物",
+      "question": "生の魚を切り身で出す日本料理は？",
+      "options": [
+        "天ぷら",
+        "刺身",
+        "うどん",
+        "餅"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_079",
+      "difficulty": "medium",
+      "category": "文化",
+      "question": "ハングルで書かれる言語は？",
+      "options": [
+        "日本語",
+        "韓国語",
+        "ポーランド語",
+        "スウェーデン語"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_080",
+      "difficulty": "medium",
+      "category": "科学",
+      "question": "植物が光合成で吸収する気体は？",
+      "options": [
+        "酸素",
+        "二酸化炭素",
+        "窒素",
+        "水素"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_081",
+      "difficulty": "medium",
+      "category": "科学",
+      "question": "赤い惑星として知られる惑星は？",
+      "options": [
+        "金星",
+        "火星",
+        "木星",
+        "土星"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_082",
+      "difficulty": "medium",
+      "category": "科学",
+      "question": "H2Oは一般に何と呼ばれる？",
+      "options": [
+        "塩",
+        "水",
+        "酸素",
+        "砂糖"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_083",
+      "difficulty": "medium",
+      "category": "地理",
+      "question": "世界最大の海洋は？",
+      "options": [
+        "大西洋",
+        "インド洋",
+        "太平洋",
+        "北極海"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_084",
+      "difficulty": "medium",
+      "category": "地理",
+      "question": "東京がある国は？",
+      "options": [
+        "日本",
+        "中国",
+        "韓国",
+        "タイ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_085",
+      "difficulty": "medium",
+      "category": "歴史",
+      "question": "モナ・リザを描いたのは誰？",
+      "options": [
+        "ピカソ",
+        "レオナルド・ダ・ヴィンチ",
+        "ゴッホ",
+        "モネ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_086",
+      "difficulty": "medium",
+      "category": "文化",
+      "question": "「千と千尋の神隠し」を制作したスタジオは？",
+      "options": [
+        "ピクサー",
+        "スタジオジブリ",
+        "ディズニー",
+        "ドリームワークス"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_087",
+      "difficulty": "medium",
+      "category": "スポーツ",
+      "question": "サッカーでフィールドに出る1チームの人数は？",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_088",
+      "difficulty": "medium",
+      "category": "食べ物",
+      "question": "生の魚を切り身で出す日本料理は？",
+      "options": [
+        "天ぷら",
+        "刺身",
+        "うどん",
+        "餅"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_089",
+      "difficulty": "medium",
+      "category": "文化",
+      "question": "ハングルで書かれる言語は？",
+      "options": [
+        "日本語",
+        "韓国語",
+        "ポーランド語",
+        "スウェーデン語"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_090",
+      "difficulty": "medium",
+      "category": "科学",
+      "question": "植物が光合成で吸収する気体は？",
+      "options": [
+        "酸素",
+        "二酸化炭素",
+        "窒素",
+        "水素"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_091",
+      "difficulty": "hard",
+      "category": "科学",
+      "question": "赤い惑星として知られる惑星は？",
+      "options": [
+        "金星",
+        "火星",
+        "木星",
+        "土星"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_092",
+      "difficulty": "hard",
+      "category": "科学",
+      "question": "H2Oは一般に何と呼ばれる？",
+      "options": [
+        "塩",
+        "水",
+        "酸素",
+        "砂糖"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_093",
+      "difficulty": "hard",
+      "category": "地理",
+      "question": "世界最大の海洋は？",
+      "options": [
+        "大西洋",
+        "インド洋",
+        "太平洋",
+        "北極海"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_094",
+      "difficulty": "hard",
+      "category": "地理",
+      "question": "東京がある国は？",
+      "options": [
+        "日本",
+        "中国",
+        "韓国",
+        "タイ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_095",
+      "difficulty": "hard",
+      "category": "歴史",
+      "question": "モナ・リザを描いたのは誰？",
+      "options": [
+        "ピカソ",
+        "レオナルド・ダ・ヴィンチ",
+        "ゴッホ",
+        "モネ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_096",
+      "difficulty": "hard",
+      "category": "文化",
+      "question": "「千と千尋の神隠し」を制作したスタジオは？",
+      "options": [
+        "ピクサー",
+        "スタジオジブリ",
+        "ディズニー",
+        "ドリームワークス"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_097",
+      "difficulty": "hard",
+      "category": "スポーツ",
+      "question": "サッカーでフィールドに出る1チームの人数は？",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_098",
+      "difficulty": "hard",
+      "category": "食べ物",
+      "question": "生の魚を切り身で出す日本料理は？",
+      "options": [
+        "天ぷら",
+        "刺身",
+        "うどん",
+        "餅"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_099",
+      "difficulty": "hard",
+      "category": "文化",
+      "question": "ハングルで書かれる言語は？",
+      "options": [
+        "日本語",
+        "韓国語",
+        "ポーランド語",
+        "スウェーデン語"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_100",
+      "difficulty": "hard",
+      "category": "科学",
+      "question": "植物が光合成で吸収する気体は？",
+      "options": [
+        "酸素",
+        "二酸化炭素",
+        "窒素",
+        "水素"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_101",
+      "difficulty": "hard",
+      "category": "科学",
+      "question": "赤い惑星として知られる惑星は？",
+      "options": [
+        "金星",
+        "火星",
+        "木星",
+        "土星"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_102",
+      "difficulty": "hard",
+      "category": "科学",
+      "question": "H2Oは一般に何と呼ばれる？",
+      "options": [
+        "塩",
+        "水",
+        "酸素",
+        "砂糖"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_103",
+      "difficulty": "hard",
+      "category": "地理",
+      "question": "世界最大の海洋は？",
+      "options": [
+        "大西洋",
+        "インド洋",
+        "太平洋",
+        "北極海"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_104",
+      "difficulty": "hard",
+      "category": "地理",
+      "question": "東京がある国は？",
+      "options": [
+        "日本",
+        "中国",
+        "韓国",
+        "タイ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_105",
+      "difficulty": "hard",
+      "category": "歴史",
+      "question": "モナ・リザを描いたのは誰？",
+      "options": [
+        "ピカソ",
+        "レオナルド・ダ・ヴィンチ",
+        "ゴッホ",
+        "モネ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_106",
+      "difficulty": "hard",
+      "category": "文化",
+      "question": "「千と千尋の神隠し」を制作したスタジオは？",
+      "options": [
+        "ピクサー",
+        "スタジオジブリ",
+        "ディズニー",
+        "ドリームワークス"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_107",
+      "difficulty": "hard",
+      "category": "スポーツ",
+      "question": "サッカーでフィールドに出る1チームの人数は？",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_108",
+      "difficulty": "hard",
+      "category": "食べ物",
+      "question": "生の魚を切り身で出す日本料理は？",
+      "options": [
+        "天ぷら",
+        "刺身",
+        "うどん",
+        "餅"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_109",
+      "difficulty": "hard",
+      "category": "文化",
+      "question": "ハングルで書かれる言語は？",
+      "options": [
+        "日本語",
+        "韓国語",
+        "ポーランド語",
+        "スウェーデン語"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_110",
+      "difficulty": "hard",
+      "category": "科学",
+      "question": "植物が光合成で吸収する気体は？",
+      "options": [
+        "酸素",
+        "二酸化炭素",
+        "窒素",
+        "水素"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_111",
+      "difficulty": "hard",
+      "category": "科学",
+      "question": "赤い惑星として知られる惑星は？",
+      "options": [
+        "金星",
+        "火星",
+        "木星",
+        "土星"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_112",
+      "difficulty": "hard",
+      "category": "科学",
+      "question": "H2Oは一般に何と呼ばれる？",
+      "options": [
+        "塩",
+        "水",
+        "酸素",
+        "砂糖"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_113",
+      "difficulty": "hard",
+      "category": "地理",
+      "question": "世界最大の海洋は？",
+      "options": [
+        "大西洋",
+        "インド洋",
+        "太平洋",
+        "北極海"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_114",
+      "difficulty": "hard",
+      "category": "地理",
+      "question": "東京がある国は？",
+      "options": [
+        "日本",
+        "中国",
+        "韓国",
+        "タイ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_115",
+      "difficulty": "hard",
+      "category": "歴史",
+      "question": "モナ・リザを描いたのは誰？",
+      "options": [
+        "ピカソ",
+        "レオナルド・ダ・ヴィンチ",
+        "ゴッホ",
+        "モネ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_116",
+      "difficulty": "hard",
+      "category": "文化",
+      "question": "「千と千尋の神隠し」を制作したスタジオは？",
+      "options": [
+        "ピクサー",
+        "スタジオジブリ",
+        "ディズニー",
+        "ドリームワークス"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_117",
+      "difficulty": "hard",
+      "category": "スポーツ",
+      "question": "サッカーでフィールドに出る1チームの人数は？",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_118",
+      "difficulty": "hard",
+      "category": "食べ物",
+      "question": "生の魚を切り身で出す日本料理は？",
+      "options": [
+        "天ぷら",
+        "刺身",
+        "うどん",
+        "餅"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_119",
+      "difficulty": "hard",
+      "category": "文化",
+      "question": "ハングルで書かれる言語は？",
+      "options": [
+        "日本語",
+        "韓国語",
+        "ポーランド語",
+        "スウェーデン語"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_120",
+      "difficulty": "hard",
+      "category": "科学",
+      "question": "植物が光合成で吸収する気体は？",
+      "options": [
+        "酸素",
+        "二酸化炭素",
+        "窒素",
+        "水素"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_121",
+      "difficulty": "hard",
+      "category": "科学",
+      "question": "赤い惑星として知られる惑星は？",
+      "options": [
+        "金星",
+        "火星",
+        "木星",
+        "土星"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_122",
+      "difficulty": "hard",
+      "category": "科学",
+      "question": "H2Oは一般に何と呼ばれる？",
+      "options": [
+        "塩",
+        "水",
+        "酸素",
+        "砂糖"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_123",
+      "difficulty": "hard",
+      "category": "地理",
+      "question": "世界最大の海洋は？",
+      "options": [
+        "大西洋",
+        "インド洋",
+        "太平洋",
+        "北極海"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_124",
+      "difficulty": "hard",
+      "category": "地理",
+      "question": "東京がある国は？",
+      "options": [
+        "日本",
+        "中国",
+        "韓国",
+        "タイ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_125",
+      "difficulty": "hard",
+      "category": "歴史",
+      "question": "モナ・リザを描いたのは誰？",
+      "options": [
+        "ピカソ",
+        "レオナルド・ダ・ヴィンチ",
+        "ゴッホ",
+        "モネ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_126",
+      "difficulty": "hard",
+      "category": "文化",
+      "question": "「千と千尋の神隠し」を制作したスタジオは？",
+      "options": [
+        "ピクサー",
+        "スタジオジブリ",
+        "ディズニー",
+        "ドリームワークス"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_127",
+      "difficulty": "hard",
+      "category": "スポーツ",
+      "question": "サッカーでフィールドに出る1チームの人数は？",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_128",
+      "difficulty": "hard",
+      "category": "食べ物",
+      "question": "生の魚を切り身で出す日本料理は？",
+      "options": [
+        "天ぷら",
+        "刺身",
+        "うどん",
+        "餅"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_129",
+      "difficulty": "hard",
+      "category": "文化",
+      "question": "ハングルで書かれる言語は？",
+      "options": [
+        "日本語",
+        "韓国語",
+        "ポーランド語",
+        "スウェーデン語"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_130",
+      "difficulty": "hard",
+      "category": "科学",
+      "question": "植物が光合成で吸収する気体は？",
+      "options": [
+        "酸素",
+        "二酸化炭素",
+        "窒素",
+        "水素"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_131",
+      "difficulty": "easy",
+      "category": "ネット",
+      "question": "DMは普通何の略？",
+      "options": [
+        "ダイレクトメッセージ",
+        "デイリーミーム",
+        "デジタルモード",
+        "ディープメディア"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_132",
+      "difficulty": "easy",
+      "category": "ネット",
+      "question": "短い縦型動画で有名なプラットフォームは？",
+      "options": [
+        "TikTok",
+        "Wikipedia",
+        "Excel",
+        "地図"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_133",
+      "difficulty": "easy",
+      "category": "ネット",
+      "question": "スクショは主に何を保存するもの？",
+      "options": [
+        "画面の画像",
+        "パスワード",
+        "バッテリー",
+        "着信音"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

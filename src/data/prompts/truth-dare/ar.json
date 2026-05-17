@@ -1192,6 +1192,41 @@
       "minAge": 18,
       "text": "ما الرائحة التي تعيد لك ذكراً بسرعة؟",
       "id": "td_ar_170"
+    },
+    {
+      "id": "td_ar_171",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما أكثر شيء محرج في سجل بحثك؟"
+    },
+    {
+      "id": "td_ar_172",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "أي تطبيق يسرق معظم وقتك؟"
+    },
+    {
+      "id": "td_ar_173",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ما الرسالة التي كتبتها ولم ترسلها؟"
+    },
+    {
+      "id": "td_ar_174",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "أرِ المجموعة آخر ميم حفظته."
+    },
+    {
+      "id": "td_ar_175",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "صف آخر سيلفي لك كأنه قطعة في متحف."
     }
   ]
 }

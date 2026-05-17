@@ -1,0 +1,949 @@
+{
+  "gameId": "paranoia",
+  "locale": "pl",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "par_pl_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Kraków?"
+    },
+    {
+      "id": "par_pl_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej słuchawki?"
+    },
+    {
+      "id": "par_pl_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Maria Skłodowska-Curie?"
+    },
+    {
+      "id": "par_pl_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najbardziej wkręciłby się w fotografia?"
+    },
+    {
+      "id": "par_pl_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Tatry?"
+    },
+    {
+      "id": "par_pl_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej selfie?"
+    },
+    {
+      "id": "par_pl_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Olga Tokarczuk?"
+    },
+    {
+      "id": "par_pl_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najbardziej wkręciłby się w podcasty?"
+    },
+    {
+      "id": "par_pl_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Hel?"
+    },
+    {
+      "id": "par_pl_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej słuchawki?"
+    },
+    {
+      "id": "par_pl_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Jan Paweł II?"
+    },
+    {
+      "id": "par_pl_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najbardziej wkręciłby się w fotografia?"
+    },
+    {
+      "id": "par_pl_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Poznań?"
+    },
+    {
+      "id": "par_pl_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej selfie?"
+    },
+    {
+      "id": "par_pl_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Agnieszka Holland?"
+    },
+    {
+      "id": "par_pl_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najbardziej wkręciłby się w podcasty?"
+    },
+    {
+      "id": "par_pl_021",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_022",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Zamość?"
+    },
+    {
+      "id": "par_pl_023",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej słuchawki?"
+    },
+    {
+      "id": "par_pl_024",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Tomasz Stańko?"
+    },
+    {
+      "id": "par_pl_025",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najbardziej wkręciłby się w fotografia?"
+    },
+    {
+      "id": "par_pl_026",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_027",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Kopalnia Soli?"
+    },
+    {
+      "id": "par_pl_028",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej selfie?"
+    },
+    {
+      "id": "par_pl_029",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Taco Hemingway?"
+    },
+    {
+      "id": "par_pl_030",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najbardziej wkręciłby się w podcasty?"
+    },
+    {
+      "id": "par_pl_031",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_032",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Sandomierz?"
+    },
+    {
+      "id": "par_pl_033",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej słuchawki?"
+    },
+    {
+      "id": "par_pl_034",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Marek Grechuta?"
+    },
+    {
+      "id": "par_pl_035",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najbardziej wkręciłby się w fotografia?"
+    },
+    {
+      "id": "par_pl_036",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_037",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Pieniny?"
+    },
+    {
+      "id": "par_pl_038",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej selfie?"
+    },
+    {
+      "id": "par_pl_039",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Henryk Sienkiewicz?"
+    },
+    {
+      "id": "par_pl_040",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najbardziej wkręciłby się w podcasty?"
+    },
+    {
+      "id": "par_pl_041",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_042",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Nikiszowiec?"
+    },
+    {
+      "id": "par_pl_043",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej słuchawki?"
+    },
+    {
+      "id": "par_pl_044",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Magda Gessler?"
+    },
+    {
+      "id": "par_pl_045",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najbardziej wkręciłby się w fotografia?"
+    },
+    {
+      "id": "par_pl_046",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_047",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Łazienki Królewskie?"
+    },
+    {
+      "id": "par_pl_048",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej selfie?"
+    },
+    {
+      "id": "par_pl_049",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Tadeusz Kościuszko?"
+    },
+    {
+      "id": "par_pl_050",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kto najbardziej wkręciłby się w podcasty?"
+    },
+    {
+      "id": "par_pl_051",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_052",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Kraków?"
+    },
+    {
+      "id": "par_pl_053",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej słuchawki?"
+    },
+    {
+      "id": "par_pl_054",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Maria Skłodowska-Curie?"
+    },
+    {
+      "id": "par_pl_055",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najbardziej wkręciłby się w fotografia?"
+    },
+    {
+      "id": "par_pl_056",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_057",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Tatry?"
+    },
+    {
+      "id": "par_pl_058",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej selfie?"
+    },
+    {
+      "id": "par_pl_059",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Olga Tokarczuk?"
+    },
+    {
+      "id": "par_pl_060",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najbardziej wkręciłby się w podcasty?"
+    },
+    {
+      "id": "par_pl_061",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_062",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Hel?"
+    },
+    {
+      "id": "par_pl_063",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej słuchawki?"
+    },
+    {
+      "id": "par_pl_064",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Jan Paweł II?"
+    },
+    {
+      "id": "par_pl_065",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najbardziej wkręciłby się w fotografia?"
+    },
+    {
+      "id": "par_pl_066",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_067",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Poznań?"
+    },
+    {
+      "id": "par_pl_068",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej selfie?"
+    },
+    {
+      "id": "par_pl_069",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Agnieszka Holland?"
+    },
+    {
+      "id": "par_pl_070",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najbardziej wkręciłby się w podcasty?"
+    },
+    {
+      "id": "par_pl_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Zamość?"
+    },
+    {
+      "id": "par_pl_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej słuchawki?"
+    },
+    {
+      "id": "par_pl_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Tomasz Stańko?"
+    },
+    {
+      "id": "par_pl_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najbardziej wkręciłby się w fotografia?"
+    },
+    {
+      "id": "par_pl_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Kopalnia Soli?"
+    },
+    {
+      "id": "par_pl_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej selfie?"
+    },
+    {
+      "id": "par_pl_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Taco Hemingway?"
+    },
+    {
+      "id": "par_pl_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najbardziej wkręciłby się w podcasty?"
+    },
+    {
+      "id": "par_pl_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Sandomierz?"
+    },
+    {
+      "id": "par_pl_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej słuchawki?"
+    },
+    {
+      "id": "par_pl_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Marek Grechuta?"
+    },
+    {
+      "id": "par_pl_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najbardziej wkręciłby się w fotografia?"
+    },
+    {
+      "id": "par_pl_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Pieniny?"
+    },
+    {
+      "id": "par_pl_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej selfie?"
+    },
+    {
+      "id": "par_pl_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Henryk Sienkiewicz?"
+    },
+    {
+      "id": "par_pl_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najbardziej wkręciłby się w podcasty?"
+    },
+    {
+      "id": "par_pl_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Nikiszowiec?"
+    },
+    {
+      "id": "par_pl_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej słuchawki?"
+    },
+    {
+      "id": "par_pl_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Magda Gessler?"
+    },
+    {
+      "id": "par_pl_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najbardziej wkręciłby się w fotografia?"
+    },
+    {
+      "id": "par_pl_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Łazienki Królewskie?"
+    },
+    {
+      "id": "par_pl_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej selfie?"
+    },
+    {
+      "id": "par_pl_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Tadeusz Kościuszko?"
+    },
+    {
+      "id": "par_pl_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najbardziej wkręciłby się w podcasty?"
+    },
+    {
+      "id": "par_pl_101",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_102",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Kraków?"
+    },
+    {
+      "id": "par_pl_103",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej słuchawki?"
+    },
+    {
+      "id": "par_pl_104",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Maria Skłodowska-Curie?"
+    },
+    {
+      "id": "par_pl_105",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najbardziej wkręciłby się w fotografia?"
+    },
+    {
+      "id": "par_pl_106",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_107",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Tatry?"
+    },
+    {
+      "id": "par_pl_108",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej selfie?"
+    },
+    {
+      "id": "par_pl_109",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Olga Tokarczuk?"
+    },
+    {
+      "id": "par_pl_110",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najbardziej wkręciłby się w podcasty?"
+    },
+    {
+      "id": "par_pl_111",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_112",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Hel?"
+    },
+    {
+      "id": "par_pl_113",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej słuchawki?"
+    },
+    {
+      "id": "par_pl_114",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Jan Paweł II?"
+    },
+    {
+      "id": "par_pl_115",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najbardziej wkręciłby się w fotografia?"
+    },
+    {
+      "id": "par_pl_116",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_117",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Poznań?"
+    },
+    {
+      "id": "par_pl_118",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej selfie?"
+    },
+    {
+      "id": "par_pl_119",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Agnieszka Holland?"
+    },
+    {
+      "id": "par_pl_120",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najbardziej wkręciłby się w podcasty?"
+    },
+    {
+      "id": "par_pl_121",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_122",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Zamość?"
+    },
+    {
+      "id": "par_pl_123",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej słuchawki?"
+    },
+    {
+      "id": "par_pl_124",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Tomasz Stańko?"
+    },
+    {
+      "id": "par_pl_125",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najbardziej wkręciłby się w fotografia?"
+    },
+    {
+      "id": "par_pl_126",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_127",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Kopalnia Soli?"
+    },
+    {
+      "id": "par_pl_128",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej selfie?"
+    },
+    {
+      "id": "par_pl_129",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Taco Hemingway?"
+    },
+    {
+      "id": "par_pl_130",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najbardziej wkręciłby się w podcasty?"
+    },
+    {
+      "id": "par_pl_131",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_132",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Sandomierz?"
+    },
+    {
+      "id": "par_pl_133",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej słuchawki?"
+    },
+    {
+      "id": "par_pl_134",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Marek Grechuta?"
+    },
+    {
+      "id": "par_pl_135",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najbardziej wkręciłby się w fotografia?"
+    },
+    {
+      "id": "par_pl_136",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_137",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Pieniny?"
+    },
+    {
+      "id": "par_pl_138",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej selfie?"
+    },
+    {
+      "id": "par_pl_139",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Henryk Sienkiewicz?"
+    },
+    {
+      "id": "par_pl_140",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najbardziej wkręciłby się w podcasty?"
+    },
+    {
+      "id": "par_pl_141",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_142",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Nikiszowiec?"
+    },
+    {
+      "id": "par_pl_143",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej słuchawki?"
+    },
+    {
+      "id": "par_pl_144",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Magda Gessler?"
+    },
+    {
+      "id": "par_pl_145",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najbardziej wkręciłby się w fotografia?"
+    },
+    {
+      "id": "par_pl_146",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najdłużej przetrwałby apokalipsę zombie?"
+    },
+    {
+      "id": "par_pl_147",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najbardziej rzucałby się w oczy w miejscu takim jak Łazienki Królewskie?"
+    },
+    {
+      "id": "par_pl_148",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto spanikowałby, gdyby ktoś zobaczył jego/jej selfie?"
+    },
+    {
+      "id": "par_pl_149",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto zamarłby przy spotkaniu z kimś takim jak Tadeusz Kościuszko?"
+    },
+    {
+      "id": "par_pl_150",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kto najbardziej wkręciłby się w podcasty?"
+    },
+    {
+      "id": "par_pl_151",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto ma najbardziej chaotyczną galerię zdjęć?"
+    },
+    {
+      "id": "par_pl_152",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kogo najbardziej zdradziłaby historia wyszukiwania?"
+    },
+    {
+      "id": "par_pl_153",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto po cichu sprawdza, kto widział relację?"
+    },
+    {
+      "id": "par_pl_154",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto najgorzej zniesie dzień bez telefonu?"
+    },
+    {
+      "id": "par_pl_155",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto ma najmocniejsze archiwum memów?"
+    },
+    {
+      "id": "par_pl_156",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto zmieni spokojny wieczór gier w parkiet?"
+    },
+    {
+      "id": "par_pl_157",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kto liczy punkty jak prawnik?"
+    }
+  ]
+}

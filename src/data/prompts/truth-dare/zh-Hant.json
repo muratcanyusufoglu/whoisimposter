@@ -1,0 +1,1232 @@
+{
+  "gameId": "truth-dare",
+  "locale": "zh-Hant",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "td_zhh_001",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "最近笑最久的是什麼事？"
+    },
+    {
+      "id": "td_zhh_002",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "你最近說過的小謊是？"
+    },
+    {
+      "id": "td_zhh_003",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "你有什麼奇怪的小習慣？"
+    },
+    {
+      "id": "td_zhh_004",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "最近最尷尬的瞬間是？"
+    },
+    {
+      "id": "td_zhh_005",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "還沒跟任何人說的小秘密是？"
+    },
+    {
+      "id": "td_zhh_006",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "如果要和這裡某人約會，你選誰？"
+    },
+    {
+      "id": "td_zhh_007",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "傳出去後後悔的訊息是？"
+    },
+    {
+      "id": "td_zhh_008",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "其實最想避開哪種聚會？"
+    },
+    {
+      "id": "td_zhh_009",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "最近有點吃醋的事是？"
+    },
+    {
+      "id": "td_zhh_010",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "想刪掉的黑歷史貼文是？"
+    },
+    {
+      "id": "td_zhh_011",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "最近笑最久的是什麼事？"
+    },
+    {
+      "id": "td_zhh_012",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "你最近說過的小謊是？"
+    },
+    {
+      "id": "td_zhh_013",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "你有什麼奇怪的小習慣？"
+    },
+    {
+      "id": "td_zhh_014",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "最近最尷尬的瞬間是？"
+    },
+    {
+      "id": "td_zhh_015",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "還沒跟任何人說的小秘密是？"
+    },
+    {
+      "id": "td_zhh_016",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "如果要和這裡某人約會，你選誰？"
+    },
+    {
+      "id": "td_zhh_017",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "傳出去後後悔的訊息是？"
+    },
+    {
+      "id": "td_zhh_018",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "其實最想避開哪種聚會？"
+    },
+    {
+      "id": "td_zhh_019",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "最近有點吃醋的事是？"
+    },
+    {
+      "id": "td_zhh_020",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "想刪掉的黑歷史貼文是？"
+    },
+    {
+      "id": "td_zhh_021",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "最近笑最久的是什麼事？"
+    },
+    {
+      "id": "td_zhh_022",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "你最近說過的小謊是？"
+    },
+    {
+      "id": "td_zhh_023",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "你有什麼奇怪的小習慣？"
+    },
+    {
+      "id": "td_zhh_024",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "最近最尷尬的瞬間是？"
+    },
+    {
+      "id": "td_zhh_025",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "還沒跟任何人說的小秘密是？"
+    },
+    {
+      "id": "td_zhh_026",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "如果要和這裡某人約會，你選誰？"
+    },
+    {
+      "id": "td_zhh_027",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "傳出去後後悔的訊息是？"
+    },
+    {
+      "id": "td_zhh_028",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "其實最想避開哪種聚會？"
+    },
+    {
+      "id": "td_zhh_029",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最近有點吃醋的事是？"
+    },
+    {
+      "id": "td_zhh_030",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "想刪掉的黑歷史貼文是？"
+    },
+    {
+      "id": "td_zhh_031",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最近笑最久的是什麼事？"
+    },
+    {
+      "id": "td_zhh_032",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "你最近說過的小謊是？"
+    },
+    {
+      "id": "td_zhh_033",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "你有什麼奇怪的小習慣？"
+    },
+    {
+      "id": "td_zhh_034",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最近最尷尬的瞬間是？"
+    },
+    {
+      "id": "td_zhh_035",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "還沒跟任何人說的小秘密是？"
+    },
+    {
+      "id": "td_zhh_036",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "如果要和這裡某人約會，你選誰？"
+    },
+    {
+      "id": "td_zhh_037",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "傳出去後後悔的訊息是？"
+    },
+    {
+      "id": "td_zhh_038",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "其實最想避開哪種聚會？"
+    },
+    {
+      "id": "td_zhh_039",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最近有點吃醋的事是？"
+    },
+    {
+      "id": "td_zhh_040",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "想刪掉的黑歷史貼文是？"
+    },
+    {
+      "id": "td_zhh_041",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最近笑最久的是什麼事？"
+    },
+    {
+      "id": "td_zhh_042",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "你最近說過的小謊是？"
+    },
+    {
+      "id": "td_zhh_043",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "你有什麼奇怪的小習慣？"
+    },
+    {
+      "id": "td_zhh_044",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最近最尷尬的瞬間是？"
+    },
+    {
+      "id": "td_zhh_045",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "還沒跟任何人說的小秘密是？"
+    },
+    {
+      "id": "td_zhh_046",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "如果要和這裡某人約會，你選誰？"
+    },
+    {
+      "id": "td_zhh_047",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "傳出去後後悔的訊息是？"
+    },
+    {
+      "id": "td_zhh_048",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "其實最想避開哪種聚會？"
+    },
+    {
+      "id": "td_zhh_049",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最近有點吃醋的事是？"
+    },
+    {
+      "id": "td_zhh_050",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "想刪掉的黑歷史貼文是？"
+    },
+    {
+      "id": "td_zhh_051",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最近笑最久的是什麼事？"
+    },
+    {
+      "id": "td_zhh_052",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "你最近說過的小謊是？"
+    },
+    {
+      "id": "td_zhh_053",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "你有什麼奇怪的小習慣？"
+    },
+    {
+      "id": "td_zhh_054",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "最近最尷尬的瞬間是？"
+    },
+    {
+      "id": "td_zhh_055",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "還沒跟任何人說的小秘密是？"
+    },
+    {
+      "id": "td_zhh_056",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "如果要和這裡某人約會，你選誰？"
+    },
+    {
+      "id": "td_zhh_057",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "傳出去後後悔的訊息是？"
+    },
+    {
+      "id": "td_zhh_058",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "其實最想避開哪種聚會？"
+    },
+    {
+      "id": "td_zhh_059",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "最近有點吃醋的事是？"
+    },
+    {
+      "id": "td_zhh_060",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "想刪掉的黑歷史貼文是？"
+    },
+    {
+      "id": "td_zhh_061",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "最近笑最久的是什麼事？"
+    },
+    {
+      "id": "td_zhh_062",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "你最近說過的小謊是？"
+    },
+    {
+      "id": "td_zhh_063",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "你有什麼奇怪的小習慣？"
+    },
+    {
+      "id": "td_zhh_064",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "最近最尷尬的瞬間是？"
+    },
+    {
+      "id": "td_zhh_065",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "還沒跟任何人說的小秘密是？"
+    },
+    {
+      "id": "td_zhh_066",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "如果要和這裡某人約會，你選誰？"
+    },
+    {
+      "id": "td_zhh_067",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "傳出去後後悔的訊息是？"
+    },
+    {
+      "id": "td_zhh_068",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "其實最想避開哪種聚會？"
+    },
+    {
+      "id": "td_zhh_069",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "最近有點吃醋的事是？"
+    },
+    {
+      "id": "td_zhh_070",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "想刪掉的黑歷史貼文是？"
+    },
+    {
+      "id": "td_zhh_071",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "最近笑最久的是什麼事？"
+    },
+    {
+      "id": "td_zhh_072",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "你最近說過的小謊是？"
+    },
+    {
+      "id": "td_zhh_073",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "你有什麼奇怪的小習慣？"
+    },
+    {
+      "id": "td_zhh_074",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "最近最尷尬的瞬間是？"
+    },
+    {
+      "id": "td_zhh_075",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "還沒跟任何人說的小秘密是？"
+    },
+    {
+      "id": "td_zhh_076",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "如果要和這裡某人約會，你選誰？"
+    },
+    {
+      "id": "td_zhh_077",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "傳出去後後悔的訊息是？"
+    },
+    {
+      "id": "td_zhh_078",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "其實最想避開哪種聚會？"
+    },
+    {
+      "id": "td_zhh_079",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "最近有點吃醋的事是？"
+    },
+    {
+      "id": "td_zhh_080",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "想刪掉的黑歷史貼文是？"
+    },
+    {
+      "id": "td_zhh_081",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "最近笑最久的是什麼事？"
+    },
+    {
+      "id": "td_zhh_082",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "你最近說過的小謊是？"
+    },
+    {
+      "id": "td_zhh_083",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "你有什麼奇怪的小習慣？"
+    },
+    {
+      "id": "td_zhh_084",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "最近最尷尬的瞬間是？"
+    },
+    {
+      "id": "td_zhh_085",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "還沒跟任何人說的小秘密是？"
+    },
+    {
+      "id": "td_zhh_086",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "模仿一個你最拿手的人。"
+    },
+    {
+      "id": "td_zhh_087",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "唱一小段你最喜歡的歌。"
+    },
+    {
+      "id": "td_zhh_088",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "用反派笑聲笑 30 秒。"
+    },
+    {
+      "id": "td_zhh_089",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "5 分鐘內不能說大家指定的禁字。"
+    },
+    {
+      "id": "td_zhh_090",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "公開你最近最常聽的歌。"
+    },
+    {
+      "id": "td_zhh_091",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "像電影主角一樣稱讚某個人。"
+    },
+    {
+      "id": "td_zhh_092",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "面無表情說一句最害羞的台詞。"
+    },
+    {
+      "id": "td_zhh_093",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "把現在的場景當新聞播報。"
+    },
+    {
+      "id": "td_zhh_094",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "替每個人取一個綽號。"
+    },
+    {
+      "id": "td_zhh_095",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "真心稱讚左邊的人。"
+    },
+    {
+      "id": "td_zhh_096",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "模仿一個你最拿手的人。"
+    },
+    {
+      "id": "td_zhh_097",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "唱一小段你最喜歡的歌。"
+    },
+    {
+      "id": "td_zhh_098",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "用反派笑聲笑 30 秒。"
+    },
+    {
+      "id": "td_zhh_099",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "5 分鐘內不能說大家指定的禁字。"
+    },
+    {
+      "id": "td_zhh_100",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "公開你最近最常聽的歌。"
+    },
+    {
+      "id": "td_zhh_101",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "像電影主角一樣稱讚某個人。"
+    },
+    {
+      "id": "td_zhh_102",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "面無表情說一句最害羞的台詞。"
+    },
+    {
+      "id": "td_zhh_103",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "把現在的場景當新聞播報。"
+    },
+    {
+      "id": "td_zhh_104",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "替每個人取一個綽號。"
+    },
+    {
+      "id": "td_zhh_105",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "真心稱讚左邊的人。"
+    },
+    {
+      "id": "td_zhh_106",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "模仿一個你最拿手的人。"
+    },
+    {
+      "id": "td_zhh_107",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "唱一小段你最喜歡的歌。"
+    },
+    {
+      "id": "td_zhh_108",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "用反派笑聲笑 30 秒。"
+    },
+    {
+      "id": "td_zhh_109",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "5 分鐘內不能說大家指定的禁字。"
+    },
+    {
+      "id": "td_zhh_110",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "公開你最近最常聽的歌。"
+    },
+    {
+      "id": "td_zhh_111",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "像電影主角一樣稱讚某個人。"
+    },
+    {
+      "id": "td_zhh_112",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "面無表情說一句最害羞的台詞。"
+    },
+    {
+      "id": "td_zhh_113",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "把現在的場景當新聞播報。"
+    },
+    {
+      "id": "td_zhh_114",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "替每個人取一個綽號。"
+    },
+    {
+      "id": "td_zhh_115",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "真心稱讚左邊的人。"
+    },
+    {
+      "id": "td_zhh_116",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "模仿一個你最拿手的人。"
+    },
+    {
+      "id": "td_zhh_117",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "唱一小段你最喜歡的歌。"
+    },
+    {
+      "id": "td_zhh_118",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "用反派笑聲笑 30 秒。"
+    },
+    {
+      "id": "td_zhh_119",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "5 分鐘內不能說大家指定的禁字。"
+    },
+    {
+      "id": "td_zhh_120",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "公開你最近最常聽的歌。"
+    },
+    {
+      "id": "td_zhh_121",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "像電影主角一樣稱讚某個人。"
+    },
+    {
+      "id": "td_zhh_122",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "面無表情說一句最害羞的台詞。"
+    },
+    {
+      "id": "td_zhh_123",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "把現在的場景當新聞播報。"
+    },
+    {
+      "id": "td_zhh_124",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "替每個人取一個綽號。"
+    },
+    {
+      "id": "td_zhh_125",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "真心稱讚左邊的人。"
+    },
+    {
+      "id": "td_zhh_126",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "模仿一個你最拿手的人。"
+    },
+    {
+      "id": "td_zhh_127",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "唱一小段你最喜歡的歌。"
+    },
+    {
+      "id": "td_zhh_128",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "用反派笑聲笑 30 秒。"
+    },
+    {
+      "id": "td_zhh_129",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "5 分鐘內不能說大家指定的禁字。"
+    },
+    {
+      "id": "td_zhh_130",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "公開你最近最常聽的歌。"
+    },
+    {
+      "id": "td_zhh_131",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "像電影主角一樣稱讚某個人。"
+    },
+    {
+      "id": "td_zhh_132",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "面無表情說一句最害羞的台詞。"
+    },
+    {
+      "id": "td_zhh_133",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "把現在的場景當新聞播報。"
+    },
+    {
+      "id": "td_zhh_134",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "替每個人取一個綽號。"
+    },
+    {
+      "id": "td_zhh_135",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "真心稱讚左邊的人。"
+    },
+    {
+      "id": "td_zhh_136",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "模仿一個你最拿手的人。"
+    },
+    {
+      "id": "td_zhh_137",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "唱一小段你最喜歡的歌。"
+    },
+    {
+      "id": "td_zhh_138",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "用反派笑聲笑 30 秒。"
+    },
+    {
+      "id": "td_zhh_139",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "5 分鐘內不能說大家指定的禁字。"
+    },
+    {
+      "id": "td_zhh_140",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "公開你最近最常聽的歌。"
+    },
+    {
+      "id": "td_zhh_141",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "像電影主角一樣稱讚某個人。"
+    },
+    {
+      "id": "td_zhh_142",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "面無表情說一句最害羞的台詞。"
+    },
+    {
+      "id": "td_zhh_143",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "把現在的場景當新聞播報。"
+    },
+    {
+      "id": "td_zhh_144",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "替每個人取一個綽號。"
+    },
+    {
+      "id": "td_zhh_145",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "真心稱讚左邊的人。"
+    },
+    {
+      "id": "td_zhh_146",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "模仿一個你最拿手的人。"
+    },
+    {
+      "id": "td_zhh_147",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "唱一小段你最喜歡的歌。"
+    },
+    {
+      "id": "td_zhh_148",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "用反派笑聲笑 30 秒。"
+    },
+    {
+      "id": "td_zhh_149",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "5 分鐘內不能說大家指定的禁字。"
+    },
+    {
+      "id": "td_zhh_150",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "公開你最近最常聽的歌。"
+    },
+    {
+      "id": "td_zhh_151",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "像電影主角一樣稱讚某個人。"
+    },
+    {
+      "id": "td_zhh_152",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "面無表情說一句最害羞的台詞。"
+    },
+    {
+      "id": "td_zhh_153",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "把現在的場景當新聞播報。"
+    },
+    {
+      "id": "td_zhh_154",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "替每個人取一個綽號。"
+    },
+    {
+      "id": "td_zhh_155",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "真心稱讚左邊的人。"
+    },
+    {
+      "id": "td_zhh_156",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "模仿一個你最拿手的人。"
+    },
+    {
+      "id": "td_zhh_157",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "唱一小段你最喜歡的歌。"
+    },
+    {
+      "id": "td_zhh_158",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "用反派笑聲笑 30 秒。"
+    },
+    {
+      "id": "td_zhh_159",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "5 分鐘內不能說大家指定的禁字。"
+    },
+    {
+      "id": "td_zhh_160",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "公開你最近最常聽的歌。"
+    },
+    {
+      "id": "td_zhh_161",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "像電影主角一樣稱讚某個人。"
+    },
+    {
+      "id": "td_zhh_162",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "面無表情說一句最害羞的台詞。"
+    },
+    {
+      "id": "td_zhh_163",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "把現在的場景當新聞播報。"
+    },
+    {
+      "id": "td_zhh_164",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "替每個人取一個綽號。"
+    },
+    {
+      "id": "td_zhh_165",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "真心稱讚左邊的人。"
+    },
+    {
+      "id": "td_zhh_166",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "模仿一個你最拿手的人。"
+    },
+    {
+      "id": "td_zhh_167",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "唱一小段你最喜歡的歌。"
+    },
+    {
+      "id": "td_zhh_168",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "用反派笑聲笑 30 秒。"
+    },
+    {
+      "id": "td_zhh_169",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "5 分鐘內不能說大家指定的禁字。"
+    },
+    {
+      "id": "td_zhh_170",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "公開你最近最常聽的歌。"
+    },
+    {
+      "id": "td_zhh_171",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "你的搜尋紀錄裡最尷尬的是什麼？"
+    },
+    {
+      "id": "td_zhh_172",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "哪個 App 最偷走你的時間？"
+    },
+    {
+      "id": "td_zhh_173",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "你打了但從沒送出的訊息是？"
+    },
+    {
+      "id": "td_zhh_174",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "給大家看你最後存的迷因。"
+    },
+    {
+      "id": "td_zhh_175",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "把你最後一張自拍當成博物館作品介紹。"
+    }
+  ]
+}

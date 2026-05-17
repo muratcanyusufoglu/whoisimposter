@@ -27,7 +27,7 @@ import { Button } from '@/components/ui/Button'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // LANGUAGE SCREEN — Step 1 of 4
-// 2-column grid of 10 language options. Selection enables Continue.
+// 2-column grid of supported language options. Selection enables Continue.
 // ─────────────────────────────────────────────────────────────────────────────
 
 export default function LanguageScreen() {
@@ -118,7 +118,7 @@ export default function LanguageScreen() {
           data={SUPPORTED_LOCALES as readonly SupportedLocale[]}
           keyExtractor={(item) => item}
           numColumns={2}
-          scrollEnabled={false}
+          scrollEnabled
           columnWrapperStyle={styles.row}
           contentContainerStyle={styles.gridContent}
           renderItem={({ item: code }) => {

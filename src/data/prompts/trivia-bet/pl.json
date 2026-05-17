@@ -1,0 +1,1736 @@
+{
+  "gameId": "trivia-bet",
+  "locale": "pl",
+  "version": 1,
+  "questions": [
+    {
+      "id": "tb_pl_001",
+      "difficulty": "easy",
+      "category": "Nauka",
+      "question": "Która planeta jest znana jako Czerwona Planeta?",
+      "options": [
+        "Wenus",
+        "Mars",
+        "Jowisz",
+        "Saturn"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_002",
+      "difficulty": "easy",
+      "category": "Nauka",
+      "question": "Jak potocznie nazywa się H2O?",
+      "options": [
+        "Sól",
+        "Woda",
+        "Tlen",
+        "Cukier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_003",
+      "difficulty": "easy",
+      "category": "Geografia",
+      "question": "Który ocean jest największy?",
+      "options": [
+        "Atlantycki",
+        "Indyjski",
+        "Spokojny",
+        "Arktyczny"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_004",
+      "difficulty": "easy",
+      "category": "Geografia",
+      "question": "W jakim kraju leży Tokio?",
+      "options": [
+        "Japonia",
+        "Chiny",
+        "Korea",
+        "Tajlandia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_005",
+      "difficulty": "easy",
+      "category": "Historia",
+      "question": "Kto namalował Mona Lisę?",
+      "options": [
+        "Picasso",
+        "Leonardo da Vinci",
+        "Van Gogh",
+        "Monet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_006",
+      "difficulty": "easy",
+      "category": "Kultura",
+      "question": "Który zespół śpiewał Dancing Queen?",
+      "options": [
+        "Queen",
+        "ABBA",
+        "The Beatles",
+        "Roxette"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_007",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_008",
+      "difficulty": "easy",
+      "category": "Jedzenie",
+      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
+      "options": [
+        "Pierogi ruskie",
+        "Sushi",
+        "Ramen",
+        "Tiramisu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_009",
+      "difficulty": "easy",
+      "category": "Kultura",
+      "question": "Który język zapisuje się alfabetem hangul?",
+      "options": [
+        "Japoński",
+        "Koreański",
+        "Polski",
+        "Szwedzki"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_010",
+      "difficulty": "easy",
+      "category": "Nauka",
+      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
+      "options": [
+        "Tlen",
+        "Dwutlenek węgla",
+        "Azot",
+        "Wodór"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_011",
+      "difficulty": "easy",
+      "category": "Nauka",
+      "question": "Która planeta jest znana jako Czerwona Planeta?",
+      "options": [
+        "Wenus",
+        "Mars",
+        "Jowisz",
+        "Saturn"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_012",
+      "difficulty": "easy",
+      "category": "Nauka",
+      "question": "Jak potocznie nazywa się H2O?",
+      "options": [
+        "Sól",
+        "Woda",
+        "Tlen",
+        "Cukier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_013",
+      "difficulty": "easy",
+      "category": "Geografia",
+      "question": "Który ocean jest największy?",
+      "options": [
+        "Atlantycki",
+        "Indyjski",
+        "Spokojny",
+        "Arktyczny"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_014",
+      "difficulty": "easy",
+      "category": "Geografia",
+      "question": "W jakim kraju leży Tokio?",
+      "options": [
+        "Japonia",
+        "Chiny",
+        "Korea",
+        "Tajlandia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_015",
+      "difficulty": "easy",
+      "category": "Historia",
+      "question": "Kto namalował Mona Lisę?",
+      "options": [
+        "Picasso",
+        "Leonardo da Vinci",
+        "Van Gogh",
+        "Monet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_016",
+      "difficulty": "easy",
+      "category": "Kultura",
+      "question": "Który zespół śpiewał Dancing Queen?",
+      "options": [
+        "Queen",
+        "ABBA",
+        "The Beatles",
+        "Roxette"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_017",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_018",
+      "difficulty": "easy",
+      "category": "Jedzenie",
+      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
+      "options": [
+        "Pierogi ruskie",
+        "Sushi",
+        "Ramen",
+        "Tiramisu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_019",
+      "difficulty": "easy",
+      "category": "Kultura",
+      "question": "Który język zapisuje się alfabetem hangul?",
+      "options": [
+        "Japoński",
+        "Koreański",
+        "Polski",
+        "Szwedzki"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_020",
+      "difficulty": "easy",
+      "category": "Nauka",
+      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
+      "options": [
+        "Tlen",
+        "Dwutlenek węgla",
+        "Azot",
+        "Wodór"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_021",
+      "difficulty": "easy",
+      "category": "Nauka",
+      "question": "Która planeta jest znana jako Czerwona Planeta?",
+      "options": [
+        "Wenus",
+        "Mars",
+        "Jowisz",
+        "Saturn"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_022",
+      "difficulty": "easy",
+      "category": "Nauka",
+      "question": "Jak potocznie nazywa się H2O?",
+      "options": [
+        "Sól",
+        "Woda",
+        "Tlen",
+        "Cukier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_023",
+      "difficulty": "easy",
+      "category": "Geografia",
+      "question": "Który ocean jest największy?",
+      "options": [
+        "Atlantycki",
+        "Indyjski",
+        "Spokojny",
+        "Arktyczny"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_024",
+      "difficulty": "easy",
+      "category": "Geografia",
+      "question": "W jakim kraju leży Tokio?",
+      "options": [
+        "Japonia",
+        "Chiny",
+        "Korea",
+        "Tajlandia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_025",
+      "difficulty": "easy",
+      "category": "Historia",
+      "question": "Kto namalował Mona Lisę?",
+      "options": [
+        "Picasso",
+        "Leonardo da Vinci",
+        "Van Gogh",
+        "Monet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_026",
+      "difficulty": "easy",
+      "category": "Kultura",
+      "question": "Który zespół śpiewał Dancing Queen?",
+      "options": [
+        "Queen",
+        "ABBA",
+        "The Beatles",
+        "Roxette"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_027",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_028",
+      "difficulty": "easy",
+      "category": "Jedzenie",
+      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
+      "options": [
+        "Pierogi ruskie",
+        "Sushi",
+        "Ramen",
+        "Tiramisu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_029",
+      "difficulty": "easy",
+      "category": "Kultura",
+      "question": "Który język zapisuje się alfabetem hangul?",
+      "options": [
+        "Japoński",
+        "Koreański",
+        "Polski",
+        "Szwedzki"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_030",
+      "difficulty": "easy",
+      "category": "Nauka",
+      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
+      "options": [
+        "Tlen",
+        "Dwutlenek węgla",
+        "Azot",
+        "Wodór"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_031",
+      "difficulty": "easy",
+      "category": "Nauka",
+      "question": "Która planeta jest znana jako Czerwona Planeta?",
+      "options": [
+        "Wenus",
+        "Mars",
+        "Jowisz",
+        "Saturn"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_032",
+      "difficulty": "easy",
+      "category": "Nauka",
+      "question": "Jak potocznie nazywa się H2O?",
+      "options": [
+        "Sól",
+        "Woda",
+        "Tlen",
+        "Cukier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_033",
+      "difficulty": "easy",
+      "category": "Geografia",
+      "question": "Który ocean jest największy?",
+      "options": [
+        "Atlantycki",
+        "Indyjski",
+        "Spokojny",
+        "Arktyczny"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_034",
+      "difficulty": "easy",
+      "category": "Geografia",
+      "question": "W jakim kraju leży Tokio?",
+      "options": [
+        "Japonia",
+        "Chiny",
+        "Korea",
+        "Tajlandia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_035",
+      "difficulty": "easy",
+      "category": "Historia",
+      "question": "Kto namalował Mona Lisę?",
+      "options": [
+        "Picasso",
+        "Leonardo da Vinci",
+        "Van Gogh",
+        "Monet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_036",
+      "difficulty": "easy",
+      "category": "Kultura",
+      "question": "Który zespół śpiewał Dancing Queen?",
+      "options": [
+        "Queen",
+        "ABBA",
+        "The Beatles",
+        "Roxette"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_037",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_038",
+      "difficulty": "easy",
+      "category": "Jedzenie",
+      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
+      "options": [
+        "Pierogi ruskie",
+        "Sushi",
+        "Ramen",
+        "Tiramisu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_039",
+      "difficulty": "easy",
+      "category": "Kultura",
+      "question": "Który język zapisuje się alfabetem hangul?",
+      "options": [
+        "Japoński",
+        "Koreański",
+        "Polski",
+        "Szwedzki"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_040",
+      "difficulty": "easy",
+      "category": "Nauka",
+      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
+      "options": [
+        "Tlen",
+        "Dwutlenek węgla",
+        "Azot",
+        "Wodór"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_041",
+      "difficulty": "easy",
+      "category": "Nauka",
+      "question": "Która planeta jest znana jako Czerwona Planeta?",
+      "options": [
+        "Wenus",
+        "Mars",
+        "Jowisz",
+        "Saturn"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_042",
+      "difficulty": "easy",
+      "category": "Nauka",
+      "question": "Jak potocznie nazywa się H2O?",
+      "options": [
+        "Sól",
+        "Woda",
+        "Tlen",
+        "Cukier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_043",
+      "difficulty": "easy",
+      "category": "Geografia",
+      "question": "Który ocean jest największy?",
+      "options": [
+        "Atlantycki",
+        "Indyjski",
+        "Spokojny",
+        "Arktyczny"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_044",
+      "difficulty": "easy",
+      "category": "Geografia",
+      "question": "W jakim kraju leży Tokio?",
+      "options": [
+        "Japonia",
+        "Chiny",
+        "Korea",
+        "Tajlandia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_045",
+      "difficulty": "easy",
+      "category": "Historia",
+      "question": "Kto namalował Mona Lisę?",
+      "options": [
+        "Picasso",
+        "Leonardo da Vinci",
+        "Van Gogh",
+        "Monet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_046",
+      "difficulty": "medium",
+      "category": "Kultura",
+      "question": "Który zespół śpiewał Dancing Queen?",
+      "options": [
+        "Queen",
+        "ABBA",
+        "The Beatles",
+        "Roxette"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_047",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_048",
+      "difficulty": "medium",
+      "category": "Jedzenie",
+      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
+      "options": [
+        "Pierogi ruskie",
+        "Sushi",
+        "Ramen",
+        "Tiramisu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_049",
+      "difficulty": "medium",
+      "category": "Kultura",
+      "question": "Który język zapisuje się alfabetem hangul?",
+      "options": [
+        "Japoński",
+        "Koreański",
+        "Polski",
+        "Szwedzki"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_050",
+      "difficulty": "medium",
+      "category": "Nauka",
+      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
+      "options": [
+        "Tlen",
+        "Dwutlenek węgla",
+        "Azot",
+        "Wodór"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_051",
+      "difficulty": "medium",
+      "category": "Nauka",
+      "question": "Która planeta jest znana jako Czerwona Planeta?",
+      "options": [
+        "Wenus",
+        "Mars",
+        "Jowisz",
+        "Saturn"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_052",
+      "difficulty": "medium",
+      "category": "Nauka",
+      "question": "Jak potocznie nazywa się H2O?",
+      "options": [
+        "Sól",
+        "Woda",
+        "Tlen",
+        "Cukier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_053",
+      "difficulty": "medium",
+      "category": "Geografia",
+      "question": "Który ocean jest największy?",
+      "options": [
+        "Atlantycki",
+        "Indyjski",
+        "Spokojny",
+        "Arktyczny"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_054",
+      "difficulty": "medium",
+      "category": "Geografia",
+      "question": "W jakim kraju leży Tokio?",
+      "options": [
+        "Japonia",
+        "Chiny",
+        "Korea",
+        "Tajlandia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_055",
+      "difficulty": "medium",
+      "category": "Historia",
+      "question": "Kto namalował Mona Lisę?",
+      "options": [
+        "Picasso",
+        "Leonardo da Vinci",
+        "Van Gogh",
+        "Monet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_056",
+      "difficulty": "medium",
+      "category": "Kultura",
+      "question": "Który zespół śpiewał Dancing Queen?",
+      "options": [
+        "Queen",
+        "ABBA",
+        "The Beatles",
+        "Roxette"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_057",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_058",
+      "difficulty": "medium",
+      "category": "Jedzenie",
+      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
+      "options": [
+        "Pierogi ruskie",
+        "Sushi",
+        "Ramen",
+        "Tiramisu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_059",
+      "difficulty": "medium",
+      "category": "Kultura",
+      "question": "Który język zapisuje się alfabetem hangul?",
+      "options": [
+        "Japoński",
+        "Koreański",
+        "Polski",
+        "Szwedzki"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_060",
+      "difficulty": "medium",
+      "category": "Nauka",
+      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
+      "options": [
+        "Tlen",
+        "Dwutlenek węgla",
+        "Azot",
+        "Wodór"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_061",
+      "difficulty": "medium",
+      "category": "Nauka",
+      "question": "Która planeta jest znana jako Czerwona Planeta?",
+      "options": [
+        "Wenus",
+        "Mars",
+        "Jowisz",
+        "Saturn"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_062",
+      "difficulty": "medium",
+      "category": "Nauka",
+      "question": "Jak potocznie nazywa się H2O?",
+      "options": [
+        "Sól",
+        "Woda",
+        "Tlen",
+        "Cukier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_063",
+      "difficulty": "medium",
+      "category": "Geografia",
+      "question": "Który ocean jest największy?",
+      "options": [
+        "Atlantycki",
+        "Indyjski",
+        "Spokojny",
+        "Arktyczny"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_064",
+      "difficulty": "medium",
+      "category": "Geografia",
+      "question": "W jakim kraju leży Tokio?",
+      "options": [
+        "Japonia",
+        "Chiny",
+        "Korea",
+        "Tajlandia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_065",
+      "difficulty": "medium",
+      "category": "Historia",
+      "question": "Kto namalował Mona Lisę?",
+      "options": [
+        "Picasso",
+        "Leonardo da Vinci",
+        "Van Gogh",
+        "Monet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_066",
+      "difficulty": "medium",
+      "category": "Kultura",
+      "question": "Który zespół śpiewał Dancing Queen?",
+      "options": [
+        "Queen",
+        "ABBA",
+        "The Beatles",
+        "Roxette"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_067",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_068",
+      "difficulty": "medium",
+      "category": "Jedzenie",
+      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
+      "options": [
+        "Pierogi ruskie",
+        "Sushi",
+        "Ramen",
+        "Tiramisu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_069",
+      "difficulty": "medium",
+      "category": "Kultura",
+      "question": "Który język zapisuje się alfabetem hangul?",
+      "options": [
+        "Japoński",
+        "Koreański",
+        "Polski",
+        "Szwedzki"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_070",
+      "difficulty": "medium",
+      "category": "Nauka",
+      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
+      "options": [
+        "Tlen",
+        "Dwutlenek węgla",
+        "Azot",
+        "Wodór"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_071",
+      "difficulty": "medium",
+      "category": "Nauka",
+      "question": "Która planeta jest znana jako Czerwona Planeta?",
+      "options": [
+        "Wenus",
+        "Mars",
+        "Jowisz",
+        "Saturn"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_072",
+      "difficulty": "medium",
+      "category": "Nauka",
+      "question": "Jak potocznie nazywa się H2O?",
+      "options": [
+        "Sól",
+        "Woda",
+        "Tlen",
+        "Cukier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_073",
+      "difficulty": "medium",
+      "category": "Geografia",
+      "question": "Który ocean jest największy?",
+      "options": [
+        "Atlantycki",
+        "Indyjski",
+        "Spokojny",
+        "Arktyczny"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_074",
+      "difficulty": "medium",
+      "category": "Geografia",
+      "question": "W jakim kraju leży Tokio?",
+      "options": [
+        "Japonia",
+        "Chiny",
+        "Korea",
+        "Tajlandia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_075",
+      "difficulty": "medium",
+      "category": "Historia",
+      "question": "Kto namalował Mona Lisę?",
+      "options": [
+        "Picasso",
+        "Leonardo da Vinci",
+        "Van Gogh",
+        "Monet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_076",
+      "difficulty": "medium",
+      "category": "Kultura",
+      "question": "Który zespół śpiewał Dancing Queen?",
+      "options": [
+        "Queen",
+        "ABBA",
+        "The Beatles",
+        "Roxette"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_077",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_078",
+      "difficulty": "medium",
+      "category": "Jedzenie",
+      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
+      "options": [
+        "Pierogi ruskie",
+        "Sushi",
+        "Ramen",
+        "Tiramisu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_079",
+      "difficulty": "medium",
+      "category": "Kultura",
+      "question": "Który język zapisuje się alfabetem hangul?",
+      "options": [
+        "Japoński",
+        "Koreański",
+        "Polski",
+        "Szwedzki"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_080",
+      "difficulty": "medium",
+      "category": "Nauka",
+      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
+      "options": [
+        "Tlen",
+        "Dwutlenek węgla",
+        "Azot",
+        "Wodór"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_081",
+      "difficulty": "medium",
+      "category": "Nauka",
+      "question": "Która planeta jest znana jako Czerwona Planeta?",
+      "options": [
+        "Wenus",
+        "Mars",
+        "Jowisz",
+        "Saturn"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_082",
+      "difficulty": "medium",
+      "category": "Nauka",
+      "question": "Jak potocznie nazywa się H2O?",
+      "options": [
+        "Sól",
+        "Woda",
+        "Tlen",
+        "Cukier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_083",
+      "difficulty": "medium",
+      "category": "Geografia",
+      "question": "Który ocean jest największy?",
+      "options": [
+        "Atlantycki",
+        "Indyjski",
+        "Spokojny",
+        "Arktyczny"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_084",
+      "difficulty": "medium",
+      "category": "Geografia",
+      "question": "W jakim kraju leży Tokio?",
+      "options": [
+        "Japonia",
+        "Chiny",
+        "Korea",
+        "Tajlandia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_085",
+      "difficulty": "medium",
+      "category": "Historia",
+      "question": "Kto namalował Mona Lisę?",
+      "options": [
+        "Picasso",
+        "Leonardo da Vinci",
+        "Van Gogh",
+        "Monet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_086",
+      "difficulty": "medium",
+      "category": "Kultura",
+      "question": "Który zespół śpiewał Dancing Queen?",
+      "options": [
+        "Queen",
+        "ABBA",
+        "The Beatles",
+        "Roxette"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_087",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_088",
+      "difficulty": "medium",
+      "category": "Jedzenie",
+      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
+      "options": [
+        "Pierogi ruskie",
+        "Sushi",
+        "Ramen",
+        "Tiramisu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_089",
+      "difficulty": "medium",
+      "category": "Kultura",
+      "question": "Który język zapisuje się alfabetem hangul?",
+      "options": [
+        "Japoński",
+        "Koreański",
+        "Polski",
+        "Szwedzki"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_090",
+      "difficulty": "medium",
+      "category": "Nauka",
+      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
+      "options": [
+        "Tlen",
+        "Dwutlenek węgla",
+        "Azot",
+        "Wodór"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_091",
+      "difficulty": "hard",
+      "category": "Nauka",
+      "question": "Która planeta jest znana jako Czerwona Planeta?",
+      "options": [
+        "Wenus",
+        "Mars",
+        "Jowisz",
+        "Saturn"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_092",
+      "difficulty": "hard",
+      "category": "Nauka",
+      "question": "Jak potocznie nazywa się H2O?",
+      "options": [
+        "Sól",
+        "Woda",
+        "Tlen",
+        "Cukier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_093",
+      "difficulty": "hard",
+      "category": "Geografia",
+      "question": "Który ocean jest największy?",
+      "options": [
+        "Atlantycki",
+        "Indyjski",
+        "Spokojny",
+        "Arktyczny"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_094",
+      "difficulty": "hard",
+      "category": "Geografia",
+      "question": "W jakim kraju leży Tokio?",
+      "options": [
+        "Japonia",
+        "Chiny",
+        "Korea",
+        "Tajlandia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_095",
+      "difficulty": "hard",
+      "category": "Historia",
+      "question": "Kto namalował Mona Lisę?",
+      "options": [
+        "Picasso",
+        "Leonardo da Vinci",
+        "Van Gogh",
+        "Monet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_096",
+      "difficulty": "hard",
+      "category": "Kultura",
+      "question": "Który zespół śpiewał Dancing Queen?",
+      "options": [
+        "Queen",
+        "ABBA",
+        "The Beatles",
+        "Roxette"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_097",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_098",
+      "difficulty": "hard",
+      "category": "Jedzenie",
+      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
+      "options": [
+        "Pierogi ruskie",
+        "Sushi",
+        "Ramen",
+        "Tiramisu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_099",
+      "difficulty": "hard",
+      "category": "Kultura",
+      "question": "Który język zapisuje się alfabetem hangul?",
+      "options": [
+        "Japoński",
+        "Koreański",
+        "Polski",
+        "Szwedzki"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_100",
+      "difficulty": "hard",
+      "category": "Nauka",
+      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
+      "options": [
+        "Tlen",
+        "Dwutlenek węgla",
+        "Azot",
+        "Wodór"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_101",
+      "difficulty": "hard",
+      "category": "Nauka",
+      "question": "Która planeta jest znana jako Czerwona Planeta?",
+      "options": [
+        "Wenus",
+        "Mars",
+        "Jowisz",
+        "Saturn"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_102",
+      "difficulty": "hard",
+      "category": "Nauka",
+      "question": "Jak potocznie nazywa się H2O?",
+      "options": [
+        "Sól",
+        "Woda",
+        "Tlen",
+        "Cukier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_103",
+      "difficulty": "hard",
+      "category": "Geografia",
+      "question": "Który ocean jest największy?",
+      "options": [
+        "Atlantycki",
+        "Indyjski",
+        "Spokojny",
+        "Arktyczny"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_104",
+      "difficulty": "hard",
+      "category": "Geografia",
+      "question": "W jakim kraju leży Tokio?",
+      "options": [
+        "Japonia",
+        "Chiny",
+        "Korea",
+        "Tajlandia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_105",
+      "difficulty": "hard",
+      "category": "Historia",
+      "question": "Kto namalował Mona Lisę?",
+      "options": [
+        "Picasso",
+        "Leonardo da Vinci",
+        "Van Gogh",
+        "Monet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_106",
+      "difficulty": "hard",
+      "category": "Kultura",
+      "question": "Który zespół śpiewał Dancing Queen?",
+      "options": [
+        "Queen",
+        "ABBA",
+        "The Beatles",
+        "Roxette"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_107",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_108",
+      "difficulty": "hard",
+      "category": "Jedzenie",
+      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
+      "options": [
+        "Pierogi ruskie",
+        "Sushi",
+        "Ramen",
+        "Tiramisu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_109",
+      "difficulty": "hard",
+      "category": "Kultura",
+      "question": "Który język zapisuje się alfabetem hangul?",
+      "options": [
+        "Japoński",
+        "Koreański",
+        "Polski",
+        "Szwedzki"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_110",
+      "difficulty": "hard",
+      "category": "Nauka",
+      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
+      "options": [
+        "Tlen",
+        "Dwutlenek węgla",
+        "Azot",
+        "Wodór"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_111",
+      "difficulty": "hard",
+      "category": "Nauka",
+      "question": "Która planeta jest znana jako Czerwona Planeta?",
+      "options": [
+        "Wenus",
+        "Mars",
+        "Jowisz",
+        "Saturn"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_112",
+      "difficulty": "hard",
+      "category": "Nauka",
+      "question": "Jak potocznie nazywa się H2O?",
+      "options": [
+        "Sól",
+        "Woda",
+        "Tlen",
+        "Cukier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_113",
+      "difficulty": "hard",
+      "category": "Geografia",
+      "question": "Który ocean jest największy?",
+      "options": [
+        "Atlantycki",
+        "Indyjski",
+        "Spokojny",
+        "Arktyczny"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_114",
+      "difficulty": "hard",
+      "category": "Geografia",
+      "question": "W jakim kraju leży Tokio?",
+      "options": [
+        "Japonia",
+        "Chiny",
+        "Korea",
+        "Tajlandia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_115",
+      "difficulty": "hard",
+      "category": "Historia",
+      "question": "Kto namalował Mona Lisę?",
+      "options": [
+        "Picasso",
+        "Leonardo da Vinci",
+        "Van Gogh",
+        "Monet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_116",
+      "difficulty": "hard",
+      "category": "Kultura",
+      "question": "Który zespół śpiewał Dancing Queen?",
+      "options": [
+        "Queen",
+        "ABBA",
+        "The Beatles",
+        "Roxette"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_117",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_118",
+      "difficulty": "hard",
+      "category": "Jedzenie",
+      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
+      "options": [
+        "Pierogi ruskie",
+        "Sushi",
+        "Ramen",
+        "Tiramisu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_119",
+      "difficulty": "hard",
+      "category": "Kultura",
+      "question": "Który język zapisuje się alfabetem hangul?",
+      "options": [
+        "Japoński",
+        "Koreański",
+        "Polski",
+        "Szwedzki"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_120",
+      "difficulty": "hard",
+      "category": "Nauka",
+      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
+      "options": [
+        "Tlen",
+        "Dwutlenek węgla",
+        "Azot",
+        "Wodór"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_121",
+      "difficulty": "hard",
+      "category": "Nauka",
+      "question": "Która planeta jest znana jako Czerwona Planeta?",
+      "options": [
+        "Wenus",
+        "Mars",
+        "Jowisz",
+        "Saturn"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_122",
+      "difficulty": "hard",
+      "category": "Nauka",
+      "question": "Jak potocznie nazywa się H2O?",
+      "options": [
+        "Sól",
+        "Woda",
+        "Tlen",
+        "Cukier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_123",
+      "difficulty": "hard",
+      "category": "Geografia",
+      "question": "Który ocean jest największy?",
+      "options": [
+        "Atlantycki",
+        "Indyjski",
+        "Spokojny",
+        "Arktyczny"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_124",
+      "difficulty": "hard",
+      "category": "Geografia",
+      "question": "W jakim kraju leży Tokio?",
+      "options": [
+        "Japonia",
+        "Chiny",
+        "Korea",
+        "Tajlandia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_125",
+      "difficulty": "hard",
+      "category": "Historia",
+      "question": "Kto namalował Mona Lisę?",
+      "options": [
+        "Picasso",
+        "Leonardo da Vinci",
+        "Van Gogh",
+        "Monet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_126",
+      "difficulty": "hard",
+      "category": "Kultura",
+      "question": "Który zespół śpiewał Dancing Queen?",
+      "options": [
+        "Queen",
+        "ABBA",
+        "The Beatles",
+        "Roxette"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_127",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_128",
+      "difficulty": "hard",
+      "category": "Jedzenie",
+      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
+      "options": [
+        "Pierogi ruskie",
+        "Sushi",
+        "Ramen",
+        "Tiramisu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_129",
+      "difficulty": "hard",
+      "category": "Kultura",
+      "question": "Który język zapisuje się alfabetem hangul?",
+      "options": [
+        "Japoński",
+        "Koreański",
+        "Polski",
+        "Szwedzki"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_130",
+      "difficulty": "hard",
+      "category": "Nauka",
+      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
+      "options": [
+        "Tlen",
+        "Dwutlenek węgla",
+        "Azot",
+        "Wodór"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_131",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Co zwykle oznacza DM?",
+      "options": [
+        "Wiadomość prywatna",
+        "Codzienny mem",
+        "Tryb cyfrowy",
+        "Głębokie media"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_132",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Która platforma słynie z krótkich pionowych filmów?",
+      "options": [
+        "TikTok",
+        "Wikipedia",
+        "Excel",
+        "Mapy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_133",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Do czego głównie służy screen?",
+      "options": [
+        "Zapisania obrazu ekranu",
+        "Zapisania hasła",
+        "Zapisania baterii",
+        "Zapisania dzwonka"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

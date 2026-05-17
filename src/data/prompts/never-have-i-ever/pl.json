@@ -1,0 +1,1009 @@
+{
+  "gameId": "never-have-i-ever",
+  "locale": "pl",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "nhie_pl_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Pierogi."
+    },
+    {
+      "id": "nhie_pl_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Kraków."
+    },
+    {
+      "id": "nhie_pl_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie płakałem/am przez Miś."
+    },
+    {
+      "id": "nhie_pl_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am parasol."
+    },
+    {
+      "id": "nhie_pl_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie wkręciłem/am się w fotografia na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Schabowy."
+    },
+    {
+      "id": "nhie_pl_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Tatry."
+    },
+    {
+      "id": "nhie_pl_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie płakałem/am przez Zimna wojna."
+    },
+    {
+      "id": "nhie_pl_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am mem."
+    },
+    {
+      "id": "nhie_pl_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie wkręciłem/am się w podcasty na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Rosół."
+    },
+    {
+      "id": "nhie_pl_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Hel."
+    },
+    {
+      "id": "nhie_pl_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie płakałem/am przez Alternatywy 4."
+    },
+    {
+      "id": "nhie_pl_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am parasol."
+    },
+    {
+      "id": "nhie_pl_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie wkręciłem/am się w fotografia na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Pączek."
+    },
+    {
+      "id": "nhie_pl_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Poznań."
+    },
+    {
+      "id": "nhie_pl_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie płakałem/am przez The Office PL."
+    },
+    {
+      "id": "nhie_pl_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am mem."
+    },
+    {
+      "id": "nhie_pl_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie wkręciłem/am się w podcasty na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_021",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Kremówka."
+    },
+    {
+      "id": "nhie_pl_022",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Zamość."
+    },
+    {
+      "id": "nhie_pl_023",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie płakałem/am przez Chłopaki nie płaczą."
+    },
+    {
+      "id": "nhie_pl_024",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am parasol."
+    },
+    {
+      "id": "nhie_pl_025",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie wkręciłem/am się w fotografia na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_026",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Kabanos."
+    },
+    {
+      "id": "nhie_pl_027",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Kopalnia Soli."
+    },
+    {
+      "id": "nhie_pl_028",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie płakałem/am przez Pan Tadeusz."
+    },
+    {
+      "id": "nhie_pl_029",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am mem."
+    },
+    {
+      "id": "nhie_pl_030",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie wkręciłem/am się w podcasty na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_031",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Smaleć."
+    },
+    {
+      "id": "nhie_pl_032",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Sandomierz."
+    },
+    {
+      "id": "nhie_pl_033",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie płakałem/am przez Amator."
+    },
+    {
+      "id": "nhie_pl_034",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am parasol."
+    },
+    {
+      "id": "nhie_pl_035",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie wkręciłem/am się w fotografia na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_036",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Budyń."
+    },
+    {
+      "id": "nhie_pl_037",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Pieniny."
+    },
+    {
+      "id": "nhie_pl_038",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie płakałem/am przez Vabank."
+    },
+    {
+      "id": "nhie_pl_039",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am mem."
+    },
+    {
+      "id": "nhie_pl_040",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie wkręciłem/am się w podcasty na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_041",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Kajmak."
+    },
+    {
+      "id": "nhie_pl_042",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Nikiszowiec."
+    },
+    {
+      "id": "nhie_pl_043",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie płakałem/am przez Jeden z dziesięciu."
+    },
+    {
+      "id": "nhie_pl_044",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am parasol."
+    },
+    {
+      "id": "nhie_pl_045",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie wkręciłem/am się w fotografia na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_046",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Racuchy."
+    },
+    {
+      "id": "nhie_pl_047",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Łazienki Królewskie."
+    },
+    {
+      "id": "nhie_pl_048",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie płakałem/am przez HBO Max."
+    },
+    {
+      "id": "nhie_pl_049",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am mem."
+    },
+    {
+      "id": "nhie_pl_050",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie wkręciłem/am się w podcasty na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Pierogi."
+    },
+    {
+      "id": "nhie_pl_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Kraków."
+    },
+    {
+      "id": "nhie_pl_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie płakałem/am przez Dawid Podsiadło."
+    },
+    {
+      "id": "nhie_pl_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am parasol."
+    },
+    {
+      "id": "nhie_pl_055",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie wkręciłem/am się w fotografia na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_056",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Schabowy."
+    },
+    {
+      "id": "nhie_pl_057",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Tatry."
+    },
+    {
+      "id": "nhie_pl_058",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie płakałem/am przez Maryla Rodowicz."
+    },
+    {
+      "id": "nhie_pl_059",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am mem."
+    },
+    {
+      "id": "nhie_pl_060",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie wkręciłem/am się w podcasty na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_061",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Rosół."
+    },
+    {
+      "id": "nhie_pl_062",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Hel."
+    },
+    {
+      "id": "nhie_pl_063",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie płakałem/am przez Marek Grechuta."
+    },
+    {
+      "id": "nhie_pl_064",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am parasol."
+    },
+    {
+      "id": "nhie_pl_065",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie wkręciłem/am się w fotografia na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_066",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Pączek."
+    },
+    {
+      "id": "nhie_pl_067",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Poznań."
+    },
+    {
+      "id": "nhie_pl_068",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie płakałem/am przez Kult."
+    },
+    {
+      "id": "nhie_pl_069",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am mem."
+    },
+    {
+      "id": "nhie_pl_070",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie wkręciłem/am się w podcasty na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Kremówka."
+    },
+    {
+      "id": "nhie_pl_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Zamość."
+    },
+    {
+      "id": "nhie_pl_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie płakałem/am przez Mrozu."
+    },
+    {
+      "id": "nhie_pl_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am parasol."
+    },
+    {
+      "id": "nhie_pl_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie wkręciłem/am się w fotografia na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Kabanos."
+    },
+    {
+      "id": "nhie_pl_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Kopalnia Soli."
+    },
+    {
+      "id": "nhie_pl_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie płakałem/am przez Artur Rojek."
+    },
+    {
+      "id": "nhie_pl_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am mem."
+    },
+    {
+      "id": "nhie_pl_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie wkręciłem/am się w podcasty na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Smaleć."
+    },
+    {
+      "id": "nhie_pl_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Sandomierz."
+    },
+    {
+      "id": "nhie_pl_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie płakałem/am przez Peja."
+    },
+    {
+      "id": "nhie_pl_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am parasol."
+    },
+    {
+      "id": "nhie_pl_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie wkręciłem/am się w fotografia na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Budyń."
+    },
+    {
+      "id": "nhie_pl_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Pieniny."
+    },
+    {
+      "id": "nhie_pl_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie płakałem/am przez Kwiat Jabłoni."
+    },
+    {
+      "id": "nhie_pl_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am mem."
+    },
+    {
+      "id": "nhie_pl_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie wkręciłem/am się w podcasty na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Kajmak."
+    },
+    {
+      "id": "nhie_pl_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Nikiszowiec."
+    },
+    {
+      "id": "nhie_pl_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie płakałem/am przez Polonez."
+    },
+    {
+      "id": "nhie_pl_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am parasol."
+    },
+    {
+      "id": "nhie_pl_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie wkręciłem/am się w fotografia na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Racuchy."
+    },
+    {
+      "id": "nhie_pl_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Łazienki Królewskie."
+    },
+    {
+      "id": "nhie_pl_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie płakałem/am przez Opener."
+    },
+    {
+      "id": "nhie_pl_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am mem."
+    },
+    {
+      "id": "nhie_pl_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie wkręciłem/am się w podcasty na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_101",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Pierogi."
+    },
+    {
+      "id": "nhie_pl_102",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Kraków."
+    },
+    {
+      "id": "nhie_pl_103",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie płakałem/am przez Miś."
+    },
+    {
+      "id": "nhie_pl_104",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am parasol."
+    },
+    {
+      "id": "nhie_pl_105",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie wkręciłem/am się w fotografia na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_106",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Schabowy."
+    },
+    {
+      "id": "nhie_pl_107",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Tatry."
+    },
+    {
+      "id": "nhie_pl_108",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie płakałem/am przez Zimna wojna."
+    },
+    {
+      "id": "nhie_pl_109",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am mem."
+    },
+    {
+      "id": "nhie_pl_110",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie wkręciłem/am się w podcasty na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_111",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Rosół."
+    },
+    {
+      "id": "nhie_pl_112",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Hel."
+    },
+    {
+      "id": "nhie_pl_113",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie płakałem/am przez Alternatywy 4."
+    },
+    {
+      "id": "nhie_pl_114",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am parasol."
+    },
+    {
+      "id": "nhie_pl_115",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie wkręciłem/am się w fotografia na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_116",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Pączek."
+    },
+    {
+      "id": "nhie_pl_117",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Poznań."
+    },
+    {
+      "id": "nhie_pl_118",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie płakałem/am przez The Office PL."
+    },
+    {
+      "id": "nhie_pl_119",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am mem."
+    },
+    {
+      "id": "nhie_pl_120",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie wkręciłem/am się w podcasty na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_121",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Kremówka."
+    },
+    {
+      "id": "nhie_pl_122",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Zamość."
+    },
+    {
+      "id": "nhie_pl_123",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie płakałem/am przez Chłopaki nie płaczą."
+    },
+    {
+      "id": "nhie_pl_124",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am parasol."
+    },
+    {
+      "id": "nhie_pl_125",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie wkręciłem/am się w fotografia na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_126",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Kabanos."
+    },
+    {
+      "id": "nhie_pl_127",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Kopalnia Soli."
+    },
+    {
+      "id": "nhie_pl_128",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie płakałem/am przez Pan Tadeusz."
+    },
+    {
+      "id": "nhie_pl_129",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am mem."
+    },
+    {
+      "id": "nhie_pl_130",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie wkręciłem/am się w podcasty na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_131",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Smaleć."
+    },
+    {
+      "id": "nhie_pl_132",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Sandomierz."
+    },
+    {
+      "id": "nhie_pl_133",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie płakałem/am przez Amator."
+    },
+    {
+      "id": "nhie_pl_134",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am parasol."
+    },
+    {
+      "id": "nhie_pl_135",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie wkręciłem/am się w fotografia na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_136",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Budyń."
+    },
+    {
+      "id": "nhie_pl_137",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Pieniny."
+    },
+    {
+      "id": "nhie_pl_138",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie płakałem/am przez Vabank."
+    },
+    {
+      "id": "nhie_pl_139",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am mem."
+    },
+    {
+      "id": "nhie_pl_140",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie wkręciłem/am się w podcasty na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_141",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Kajmak."
+    },
+    {
+      "id": "nhie_pl_142",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Nikiszowiec."
+    },
+    {
+      "id": "nhie_pl_143",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie płakałem/am przez Jeden z dziesięciu."
+    },
+    {
+      "id": "nhie_pl_144",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am parasol."
+    },
+    {
+      "id": "nhie_pl_145",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie wkręciłem/am się w fotografia na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_146",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Racuchy."
+    },
+    {
+      "id": "nhie_pl_147",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Łazienki Królewskie."
+    },
+    {
+      "id": "nhie_pl_148",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie płakałem/am przez HBO Max."
+    },
+    {
+      "id": "nhie_pl_149",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am mem."
+    },
+    {
+      "id": "nhie_pl_150",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie wkręciłem/am się w podcasty na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_151",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Pierogi."
+    },
+    {
+      "id": "nhie_pl_152",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Kraków."
+    },
+    {
+      "id": "nhie_pl_153",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie płakałem/am przez Dawid Podsiadło."
+    },
+    {
+      "id": "nhie_pl_154",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am parasol."
+    },
+    {
+      "id": "nhie_pl_155",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie wkręciłem/am się w fotografia na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_156",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie zjadłem/am samodzielnie czegoś takiego jak Schabowy."
+    },
+    {
+      "id": "nhie_pl_157",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie zgubiłem/am się w miejscu takim jak Tatry."
+    },
+    {
+      "id": "nhie_pl_158",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie płakałem/am przez Maryla Rodowicz."
+    },
+    {
+      "id": "nhie_pl_159",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie udawałem/am, że zgubiłem/am mem."
+    },
+    {
+      "id": "nhie_pl_160",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Nigdy nie wkręciłem/am się w podcasty na cały tydzień."
+    },
+    {
+      "id": "nhie_pl_161",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy przypadkiem nie polubiłem/am starego posta."
+    },
+    {
+      "id": "nhie_pl_162",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie wyciszyłem/am grupowego czatu dla świętego spokoju."
+    },
+    {
+      "id": "nhie_pl_163",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie ćwiczyłem/am głosówki przed wysłaniem."
+    },
+    {
+      "id": "nhie_pl_164",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie zapisałem/am mema na później."
+    },
+    {
+      "id": "nhie_pl_165",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie usunąłem/usunęłam relacji zaraz po wrzuceniu."
+    },
+    {
+      "id": "nhie_pl_166",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie wyszedłem/wyszłam z imprezy bez pożegnania."
+    },
+    {
+      "id": "nhie_pl_167",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nigdy nie rage-quitowałem/am przyjacielskiej gry."
+    }
+  ]
+}

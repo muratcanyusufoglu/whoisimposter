@@ -1192,6 +1192,41 @@
       "minAge": 18,
       "text": "Tanze 20 Sekunden nur mit den Armen.",
       "id": "td_de_170"
+    },
+    {
+      "id": "td_de_171",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Was ist das Peinlichste in deinem Suchverlauf?"
+    },
+    {
+      "id": "td_de_172",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Welche App klaut dir die meiste Zeit?"
+    },
+    {
+      "id": "td_de_173",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Welche Nachricht hast du getippt, aber nie gesendet?"
+    },
+    {
+      "id": "td_de_174",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Zeig der Gruppe dein zuletzt gespeichertes Meme."
+    },
+    {
+      "id": "td_de_175",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Beschreibe dein letztes Selfie wie ein Museumsstück."
     }
   ]
 }
