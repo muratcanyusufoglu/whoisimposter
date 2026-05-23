@@ -43,3 +43,15 @@ yarn-error.*
 # Claude Code worktrees
 .claude/
 
+# AI tool configs (Codex, MCP, etc.)
+.codex/
+.claire/
+AGENTS.md
+.mcp.json
+
+# Fastlane generated files
+fastlane/report.xml
+fastlane/screenshots/
+fastlane/.env
+fastlane/.env.*
+
