@@ -60,6 +60,7 @@ export default function SettingsScreen() {
   const setHapticsEnabled = useSettingsStore((s) => s.setHapticsEnabled)
   const isPro           = useSubscriptionStore((s) => s.isPro)
   const showGiftBox     = useSubscriptionStore((s) => s.showGiftBox)
+  const setProOverride  = useSubscriptionStore((s) => s._setProOverride)
 
   const [paywallVisible, setPaywallVisible] = useState(false)
   const [themePickerVisible, setThemePickerVisible] = useState(false)
@@ -221,6 +222,28 @@ export default function SettingsScreen() {
             theme={theme}
           />
         </View>
+
+        {/* ── DEV: Mock PRO (never shipped — __DEV__ only) ── */}
+        {__DEV__ && (
+          <View style={[s.section, { backgroundColor: theme.bg.surface, borderColor: theme.accent.secondary + '55' }]}>
+            <View style={s.toggleRow}>
+              <View style={{ flex: 1, gap: 2 }}>
+                <Text style={[s.rowLabel, { color: theme.accent.secondary, fontFamily: fontFamily.bodyBold }]}>
+                  🛠 PRO Mock
+                </Text>
+                <Text style={[s.rowLabel, { color: theme.text.muted, fontSize: 12, fontFamily: fontFamily.body }]}>
+                  Dev only — simulates purchase
+                </Text>
+              </View>
+              <Switch
+                value={isPro}
+                onValueChange={(val) => { haptics.selection(); setProOverride(val) }}
+                trackColor={{ false: theme.border.default, true: theme.accent.secondary }}
+                thumbColor={Platform.OS === 'ios' ? '#fff' : isPro ? theme.accent.secondary : '#f4f3f4'}
+              />
+            </View>
+          </View>
+        )}
 
         {/* Version */}
         <Text style={[s.version, { color: theme.text.muted }]}>

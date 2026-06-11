@@ -136,6 +136,8 @@ interface SubscriptionActions {
   purchaseYearly: () => Promise<void>
   purchaseYearlyDiscount: () => Promise<void>
   restore: () => Promise<void>
+  /** Override for debug / testing only — not exposed in production builds */
+  _setProOverride: (isPro: boolean) => void
   /** Show the floating gift box button (after main paywall dismissed without purchase) */
   showGiftBox: () => void
   hideGiftBox: () => void
@@ -345,6 +347,9 @@ export const useSubscriptionStore = create<SubscriptionStore>()((set) => ({
       }
       return { giftBoxInteractionCount: next }
     }),
+
+  // ── Debug override (dev only) ──────────────────────────────────────────────
+  _setProOverride: (isPro) => set({ isPro }),
 
 }))
 
