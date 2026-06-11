@@ -311,7 +311,20 @@ export default function SetupScreen() {
       customWords,
     }
 
-    initGame(config)
+    // Guard: initGame can throw on an invalid config. A throw here would
+    // otherwise propagate out of this press handler and crash the whole app,
+    // so we surface it as an inline error instead of letting it bubble.
+    try {
+      initGame(config)
+    } catch (err) {
+      setInputError(
+        err instanceof Error && err.message
+          ? err.message
+          : t('setup.minPlayersWarning', { count: mode.minPlayers }),
+      )
+      return
+    }
+
     // Route to the appropriate game screen based on mode
     switch (mode.id) {
       case 'imposter':

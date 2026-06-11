@@ -2,6 +2,7 @@ import { GameConfig, GameState, VoteResult } from '@/types'
 import { imposterLogic } from '@/logic/games/imposter'
 import { wordSelector } from '@/logic/wordSelector'
 import { playerManager } from '@/logic/playerManager'
+import { getGameModeById } from '@/data/games'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // GAME ENGINE — Orchestrator
@@ -30,8 +31,11 @@ export const gameEngine = {
       customWords,
     } = config
 
-    // Validate player list
-    const validation = playerManager.validate(players)
+    // Validate player list against the chosen mode's own minimum.
+    // Some modes (truth-dare, would-you-rather, word-chain) allow 2 players,
+    // so we must not assume a hard floor of 3 here.
+    const minPlayers = getGameModeById(mode)?.minPlayers ?? 3
+    const validation = playerManager.validate(players, minPlayers)
     if (!validation.valid) {
       throw new Error(validation.error ?? 'Invalid player configuration')
     }
@@ -119,6 +123,7 @@ export const gameEngine = {
     const imposterIds = imposterLogic.assignImposters(
       state.players,
       state.impostersCount,
+      state.imposterIds,
     )
     const revealOrder = playerManager.shuffleOrder(state.players.map((p) => p.id))
 

@@ -50,10 +50,15 @@ export const playerManager = {
   /**
    * Validate the player list before starting a game.
    * Returns { valid: true } or { valid: false, error: string }.
+   *
+   * @param minPlayers - The minimum players required by the chosen game mode.
+   *   Defaults to 3, but some modes (e.g. truth-dare, would-you-rather,
+   *   word-chain) legitimately allow 2 players, so the caller must pass the
+   *   mode's own minimum to avoid rejecting valid 2-player setups.
    */
-  validate(players: Player[]): { valid: boolean; error?: string } {
-    if (players.length < 3) {
-      return { valid: false, error: 'Need at least 3 players' }
+  validate(players: Player[], minPlayers: number = 3): { valid: boolean; error?: string } {
+    if (players.length < minPlayers) {
+      return { valid: false, error: `Need at least ${minPlayers} players` }
     }
     if (players.length > 15) {
       return { valid: false, error: 'Maximum 15 players' }
