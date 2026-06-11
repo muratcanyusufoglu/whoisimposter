@@ -23,6 +23,22 @@ For _fastlane_ installation instructions, see [Installing _fastlane_](https://do
 
 Upload ASO metadata to App Store Connect (no binary, no screenshots)
 
+### ios upload_screenshots_missing
+
+```sh
+[bundle exec] fastlane ios upload_screenshots_missing
+```
+
+Re-upload only the previously-failed screenshots (append, no delete)
+
+### ios upload_screenshots
+
+```sh
+[bundle exec] fastlane ios upload_screenshots
+```
+
+Upload localized App Store screenshots (no binary, no metadata)
+
 ----
 
 This README.md is auto-generated and will be re-generated every time [_fastlane_](https://fastlane.tools) is run.

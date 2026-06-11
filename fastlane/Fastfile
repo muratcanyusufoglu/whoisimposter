@@ -24,4 +24,52 @@ platform :ios do
     )
   end
 
+  desc "Re-upload only the previously-failed screenshots (append, no delete)"
+  lane :upload_screenshots_missing do
+    api_key = app_store_connect_api_key(
+      key_id:       ENV["ASC_KEY_ID"],
+      issuer_id:    ENV["ASC_ISSUER_ID"],
+      key_filepath: ENV["ASC_KEY_FILEPATH"] || "./fastlane/AuthKey.p8",
+      duration:     1200,
+      in_house:     false
+    )
+
+    deliver(
+      api_key:              api_key,
+      app_identifier:       "com.whosimposter.party",
+      screenshots_path:     "./fastlane/screenshots_last",
+      skip_binary_upload:   true,
+      skip_metadata:        true,
+      skip_screenshots:     false,
+      overwrite_screenshots: false,
+      skip_app_version_update: true,
+      force:                true,
+      run_precheck_before_submit: false
+    )
+  end
+
+  desc "Upload localized App Store screenshots (no binary, no metadata)"
+  lane :upload_screenshots do
+    api_key = app_store_connect_api_key(
+      key_id:       ENV["ASC_KEY_ID"],
+      issuer_id:    ENV["ASC_ISSUER_ID"],
+      key_filepath: ENV["ASC_KEY_FILEPATH"] || "./fastlane/AuthKey.p8",
+      duration:     1200,
+      in_house:     false
+    )
+
+    deliver(
+      api_key:              api_key,
+      app_identifier:       "com.whosimposter.party",
+      screenshots_path:     "./fastlane/screenshots",
+      skip_binary_upload:   true,
+      skip_metadata:        true,
+      skip_screenshots:     false,
+      overwrite_screenshots: true,
+      skip_app_version_update: true,
+      force:                true,
+      run_precheck_before_submit: false
+    )
+  end
+
 end
