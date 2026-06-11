@@ -50,6 +50,39 @@ describe('imposterLogic.assignImposters', () => {
     const players = createMockPlayers(2)
     expect(() => imposterLogic.assignImposters(players, 1)).toThrow()
   })
+
+  test('never repeats the previous imposter when others are available', () => {
+    const players = createMockPlayers(4)
+    let previous = imposterLogic.assignImposters(players, 1)
+    // Run many rounds; the new imposter must differ from the last one each time.
+    for (let round = 0; round < 200; round++) {
+      const next = imposterLogic.assignImposters(players, 1, previous)
+      expect(next[0]).not.toBe(previous[0])
+      previous = next
+    }
+  })
+
+  test('two imposters never overlap with the previous pair when pool allows', () => {
+    const players = createMockPlayers(6)
+    let previous = imposterLogic.assignImposters(players, 2)
+    for (let round = 0; round < 200; round++) {
+      const next = imposterLogic.assignImposters(players, 2, previous)
+      next.forEach((id) => expect(previous).not.toContain(id))
+      previous = next
+    }
+  })
+
+  test('falls back to full roster when excluding would leave too few', () => {
+    const players = createMockPlayers(3)
+    // Exclude 2 of 3 while needing 2 imposters → must reuse the full roster.
+    const ids = imposterLogic.assignImposters(players, 2, [
+      players[0].id,
+      players[1].id,
+    ])
+    // 2 imposters with <5 players falls back to 1.
+    expect(ids).toHaveLength(1)
+    expect(players.map((p) => p.id)).toContain(ids[0])
+  })
 })
 
 // ─────────────────────────────────────────────────────────────────────────────
