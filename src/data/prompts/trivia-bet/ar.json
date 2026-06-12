@@ -1,819 +1,1729 @@
 {
   "gameId": "trivia-bet",
   "locale": "ar",
-  "version": 1,
+  "version": 2,
   "questions": [
     {
+      "id": "tb_ar_001",
       "difficulty": "easy",
-      "category": "علم",
-      "question": "ما أكبر كوكب في نظامنا الشمسي؟",
+      "category": "العلوم",
+      "question": "ما هو الغاز الذي تمتصه النباتات من الهواء أثناء عملية التمثيل الضوئي؟",
       "options": [
-        "الأرض",
+        "الأكسجين",
+        "ثاني أكسيد الكربون",
+        "الهيدروجين",
+        "النيتروجين"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_002",
+      "difficulty": "easy",
+      "category": "العلوم",
+      "question": "ما هو الرمز الكيميائي للماء؟",
+      "options": [
+        "WO",
+        "H2O",
+        "O2H",
+        "HO2"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_003",
+      "difficulty": "easy",
+      "category": "العلوم",
+      "question": "ما هو الكوكب المعروف بالكوكب الأحمر؟",
+      "options": [
+        "فينوس",
         "المريخ",
-        "المشتري",
-        "الزهرة"
+        "كوكب المشتري",
+        "الزئبق"
       ],
-      "correctIndex": 2,
-      "id": "tb_ar_001"
+      "correctIndex": 1
     },
     {
+      "id": "tb_ar_004",
       "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "ما أكبر محيط؟",
+      "category": "العلوم",
+      "question": "كم عدد أرجل الحشرة؟",
       "options": [
-        "الأطلسي",
-        "الهندي",
-        "المتجمد الشمالي",
-        "الهادئ"
-      ],
-      "correctIndex": 3,
-      "id": "tb_ar_002"
-    },
-    {
-      "difficulty": "easy",
-      "category": "حيوانات",
-      "question": "كم عدد أرجل العنكبوت؟",
-      "options": [
+        "4",
         "6",
         "8",
-        "10",
-        "12"
+        "10"
       ],
-      "correctIndex": 1,
-      "id": "tb_ar_003"
+      "correctIndex": 1
     },
     {
+      "id": "tb_ar_005",
       "difficulty": "easy",
-      "category": "علم",
-      "question": "أي غاز تمتصه النباتات؟",
+      "category": "العلوم",
+      "question": "ما القوة التي تسحب الأجسام نحو الأرض؟",
+      "options": [
+        "المغناطيسية",
+        "الجاذبية",
+        "الاحتكاك",
+        "كهرباء"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_006",
+      "difficulty": "easy",
+      "category": "العلوم",
+      "question": "ما هو العضو الذي يضخ الدم في جميع أنحاء الجسم؟",
+      "options": [
+        "الكبد",
+        "القلب",
+        "الرئة",
+        "الكلى"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_007",
+      "difficulty": "easy",
+      "category": "العلوم",
+      "question": "ماذا يسمى مركز الذرة؟",
+      "options": [
+        "النواة",
+        "خلية",
+        "مدار",
+        "شل"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_008",
+      "difficulty": "medium",
+      "category": "العلوم",
+      "question": "ما هو الرمز الكيميائي للذهب؟",
+      "options": [
+        "اذهب",
+        "Gd",
+        "Au",
+        "Ag"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ar_009",
+      "difficulty": "medium",
+      "category": "العلوم",
+      "question": "ما هي درجة غليان الماء عند مستوى سطح البحر بالدرجة المئوية؟",
+      "options": [
+        "90",
+        "95",
+        "100",
+        "110"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ar_010",
+      "difficulty": "medium",
+      "category": "العلوم",
+      "question": "أي جزء من الخلية يحتوي على معظم الحمض النووي؟",
+      "options": [
+        "الريبوسوم",
+        "النواة",
+        "جدار الخلية",
+        "الميتوكوندريا"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_011",
+      "difficulty": "medium",
+      "category": "العلوم",
+      "question": "ما نوع الطاقة المخزنة في الشريط المطاطي المشدود؟",
+      "options": [
+        "كيميائي",
+        "إمكانات مرنة",
+        "الحرارية",
+        "النووية"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_012",
+      "difficulty": "medium",
+      "category": "العلوم",
+      "question": "ما هو الفيتامين الذي ينتج عندما يتعرض الجلد لأشعة الشمس؟",
+      "options": [
+        "فيتامين أ",
+        "فيتامين ج",
+        "فيتامين د",
+        "فيتامين ك"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ar_013",
+      "difficulty": "medium",
+      "category": "العلوم",
+      "question": "ما الأداة المستخدمة لقياس الزلازل؟",
+      "options": [
+        "بارومتر",
+        "جهاز قياس الزلازل",
+        "مقياس الرطوبة",
+        "مقياس الارتفاع"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_014",
+      "difficulty": "medium",
+      "category": "العلوم",
+      "question": "ما هي أصعب مادة طبيعية على وجه الأرض؟",
+      "options": [
+        "الكوارتز",
+        "الماس",
+        "الجرانيت",
+        "الحديد"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_015",
+      "difficulty": "hard",
+      "category": "العلوم",
+      "question": "ما هي وحدة SI للتيار الكهربائي؟",
+      "options": [
+        "فولت",
+        "وات",
+        "أمبير",
+        "أوم"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ar_016",
+      "difficulty": "hard",
+      "category": "العلوم",
+      "question": "من هو العالم الذي اقترح قوانين الحركة الثلاثة؟",
+      "options": [
+        "إسحاق نيوتن",
+        "ألبرت أينشتاين",
+        "جاليليو جاليلي",
+        "نيكولا تيسلا"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_017",
+      "difficulty": "hard",
+      "category": "العلوم",
+      "question": "ما هو الغاز الأكثر وفرة في الغلاف الجوي للأرض؟",
       "options": [
         "الأكسجين",
         "ثاني أكسيد الكربون",
         "النيتروجين",
-        "الهيليوم"
+        "الأرجون"
       ],
-      "correctIndex": 1,
-      "id": "tb_ar_004"
+      "correctIndex": 2
     },
     {
+      "id": "tb_ar_018",
+      "difficulty": "hard",
+      "category": "العلوم",
+      "question": "ما هو الجسيم الذي له شحنة كهربائية سلبية؟",
+      "options": [
+        "بروتون",
+        "نيوترون",
+        "الإلكترون",
+        "الفوتون"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ar_019",
+      "difficulty": "hard",
+      "category": "العلوم",
+      "question": "ما هي قيمة الرقم الهيدروجيني للمحلول المتعادل في درجة حرارة الغرفة؟",
+      "options": [
+        "0",
+        "5",
+        "7",
+        "14"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ar_020",
+      "difficulty": "hard",
+      "category": "العلوم",
+      "question": "ما هي خلايا الدم التي تساعد الجسم على مكافحة العدوى؟",
+      "options": [
+        "خلايا الدم الحمراء",
+        "خلايا الدم البيضاء",
+        "الصفائح الدموية",
+        "خلايا البلازما"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_021",
       "difficulty": "easy",
-      "category": "موسيقى",
-      "question": "أي آلة موسيقية فيها 88 مفتاحًا؟",
+      "category": "الجغرافيا",
+      "question": "ما هي عاصمة فرنسا؟",
       "options": [
-        "غيتار",
-        "كمان",
-        "بيانو",
-        "فلوت"
-      ],
-      "correctIndex": 2,
-      "id": "tb_ar_005"
-    },
-    {
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "ما عاصمة كندا؟",
-      "options": [
-        "تورونتو",
-        "أوتاوا",
-        "فانكوفر",
-        "مونتريال"
-      ],
-      "correctIndex": 1,
-      "id": "tb_ar_006"
-    },
-    {
-      "difficulty": "easy",
-      "category": "حيوانات",
-      "question": "أي حيوان معروف بخطوطه السوداء والبيضاء؟",
-      "options": [
-        "نمر",
-        "حمار وحشي",
-        "باندا",
-        "ظربان"
-      ],
-      "correctIndex": 1,
-      "id": "tb_ar_007"
-    },
-    {
-      "difficulty": "easy",
-      "category": "فن",
-      "question": "ما اللون الناتج عن مزج الأحمر والأزرق؟",
-      "options": [
-        "برتقالي",
-        "أرجواني",
-        "أخضر",
-        "وردي"
-      ],
-      "correctIndex": 1,
-      "id": "tb_ar_008"
-    },
-    {
-      "difficulty": "easy",
-      "category": "علم",
-      "question": "ما الكوكب المعروف بالكوكب الأحمر؟",
-      "options": [
-        "الزهرة",
-        "المريخ",
-        "المشتري",
-        "زحل"
-      ],
-      "correctIndex": 1,
-      "id": "tb_ar_009"
-    },
-    {
-      "difficulty": "easy",
-      "category": "فن",
-      "question": "من كتب 'روميو وجولييت'؟",
-      "options": [
-        "تشارلز ديكنز",
-        "ويليام شكسبير",
-        "جين أوستن",
-        "مارك توين"
-      ],
-      "correctIndex": 1,
-      "id": "tb_ar_010"
-    },
-    {
-      "difficulty": "easy",
-      "category": "طعام",
-      "question": "ما المكوّن الأساسي للغواكامولي؟",
-      "options": [
-        "بازلاء",
-        "أفوكادو",
-        "خيار",
-        "كوسا"
-      ],
-      "correctIndex": 1,
-      "id": "tb_ar_011"
-    },
-    {
-      "difficulty": "easy",
-      "category": "حيوانات",
-      "question": "ما أطول الثدييات؟",
-      "options": [
-        "فيل",
-        "زرافة",
-        "حصان",
-        "جمل"
-      ],
-      "correctIndex": 1,
-      "id": "tb_ar_012"
-    },
-    {
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "في أي قارة تقع مصر؟",
-      "options": [
-        "آسيا",
-        "أفريقيا",
-        "أوروبا",
-        "أمريكا الجنوبية"
-      ],
-      "correctIndex": 1,
-      "id": "tb_ar_013"
-    },
-    {
-      "difficulty": "easy",
-      "category": "رياضيات",
-      "question": "كم عدد أيام السنة الكبيسة؟",
-      "options": [
-        "364",
-        "365",
-        "366",
-        "367"
-      ],
-      "correctIndex": 2,
-      "id": "tb_ar_014"
-    },
-    {
-      "difficulty": "easy",
-      "category": "علم",
-      "question": "ما أقسى مادة طبيعية؟",
-      "options": [
-        "ذهب",
-        "حديد",
-        "ألماس",
-        "كوارتز"
-      ],
-      "correctIndex": 2,
-      "id": "tb_ar_015"
-    },
-    {
-      "difficulty": "easy",
-      "category": "علم",
-      "question": "ماذا يقيس ميزان الحرارة؟",
-      "options": [
-        "ضغط",
-        "درجة الحرارة",
-        "سرعة",
-        "حجم"
-      ],
-      "correctIndex": 1,
-      "id": "tb_ar_016"
-    },
-    {
-      "difficulty": "easy",
-      "category": "رياضة",
-      "question": "أي رياضة تستخدم مضربًا وريشة؟",
-      "options": [
-        "تنس",
-        "بادمنتون",
-        "سكواش",
-        "تنس طاولة"
-      ],
-      "correctIndex": 1,
-      "id": "tb_ar_017"
-    },
-    {
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "ما عملة المملكة المتحدة؟",
-      "options": [
-        "يورو",
-        "دولار",
-        "جنيه إسترليني",
-        "كرونة"
-      ],
-      "correctIndex": 2,
-      "id": "tb_ar_018"
-    },
-    {
-      "difficulty": "easy",
-      "category": "علم",
-      "question": "أي كوكب مشهور بحلقاته؟",
-      "options": [
-        "المريخ",
-        "زحل",
-        "نبتون",
-        "عطارد"
-      ],
-      "correctIndex": 1,
-      "id": "tb_ar_019"
-    },
-    {
-      "difficulty": "easy",
-      "category": "حيوانات",
-      "question": "ما أكبر الثدييات؟",
-      "options": [
-        "فيل",
-        "حوت أزرق",
-        "زرافة",
-        "فرس النهر"
-      ],
-      "correctIndex": 1,
-      "id": "tb_ar_020"
-    },
-    {
-      "difficulty": "medium",
-      "category": "علم",
-      "question": "أي عنصر رمزه Fe؟",
-      "options": [
-        "فلور",
-        "حديد",
-        "فضة",
-        "قصدير"
-      ],
-      "correctIndex": 1,
-      "id": "tb_ar_021"
-    },
-    {
-      "difficulty": "medium",
-      "category": "تاريخ",
-      "question": "في أي مدينة يقع الكولوسيوم؟",
-      "options": [
-        "أثينا",
-        "روما",
+        "ليون",
         "باريس",
-        "إسطنبول"
+        "مرسيليا",
+        "لطيف"
       ],
-      "correctIndex": 1,
-      "id": "tb_ar_022"
+      "correctIndex": 1
     },
     {
-      "difficulty": "medium",
-      "category": "فن",
-      "question": "من رسم 'ليلة النجوم'؟",
+      "id": "tb_ar_022",
+      "difficulty": "easy",
+      "category": "الجغرافيا",
+      "question": "أي المحيط هو الأكبر؟",
       "options": [
-        "فان غوخ",
-        "بيكاسو",
-        "مونيه",
-        "رامبرانت"
+        "المحيط الأطلسي",
+        "المحيط الهندي",
+        "المحيط الهادئ",
+        "المحيط المتجمد الشمالي"
       ],
-      "correctIndex": 0,
-      "id": "tb_ar_023"
+      "correctIndex": 2
     },
     {
-      "difficulty": "medium",
-      "category": "جغرافيا",
-      "question": "ما عاصمة كوريا الجنوبية؟",
+      "id": "tb_ar_023",
+      "difficulty": "easy",
+      "category": "الجغرافيا",
+      "question": "ما هي الدولة المشهورة بأهرامات الجيزة؟",
       "options": [
-        "سيول",
-        "بوسان",
-        "طوكيو",
-        "بكين"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_024"
-    },
-    {
-      "difficulty": "medium",
-      "category": "تاريخ",
-      "question": "أي دولة اخترعت الورق؟",
-      "options": [
-        "اليونان",
-        "الصين",
+        "المكسيك",
         "مصر",
+        "اليونان",
         "الهند"
       ],
-      "correctIndex": 1,
-      "id": "tb_ar_025"
+      "correctIndex": 1
     },
     {
-      "difficulty": "medium",
-      "category": "رياضة",
-      "question": "كم عدد اللاعبين في الملعب بفريق البيسبول؟",
+      "id": "tb_ar_024",
+      "difficulty": "easy",
+      "category": "الجغرافيا",
+      "question": "ما هي عاصمة اليابان؟",
       "options": [
-        "7",
-        "8",
-        "9",
-        "10"
+        "كيوتو",
+        "أوساكا",
+        "طوكيو",
+        "هيروشيما"
       ],
-      "correctIndex": 2,
-      "id": "tb_ar_026"
+      "correctIndex": 2
     },
     {
-      "difficulty": "medium",
-      "category": "علم",
-      "question": "ما أطول عظمة في جسم الإنسان؟",
+      "id": "tb_ar_025",
+      "difficulty": "easy",
+      "category": "الجغرافيا",
+      "question": "في أي قارة تقع البرازيل؟",
       "options": [
-        "عظم الفخذ",
-        "الظنبوب",
-        "العضد",
-        "الكعبرة"
+        "أفريقيا",
+        "أمريكا الجنوبية",
+        "أوروبا",
+        "آسيا"
       ],
-      "correctIndex": 0,
-      "id": "tb_ar_027"
+      "correctIndex": 1
     },
     {
-      "difficulty": "medium",
-      "category": "حيوانات",
-      "question": "ما أسرع طائر في العالم؟",
+      "id": "tb_ar_026",
+      "difficulty": "easy",
+      "category": "الجغرافيا",
+      "question": "ما هي أكبر دولة من حيث مساحة الأرض؟",
       "options": [
-        "نسر",
-        "صقر الشاهين",
-        "نعامة",
-        "صقر"
+        "كندا",
+        "الصين",
+        "روسيا",
+        "الولايات المتحدة"
       ],
-      "correctIndex": 1,
-      "id": "tb_ar_028"
+      "correctIndex": 2
     },
     {
-      "difficulty": "medium",
-      "category": "جغرافيا",
-      "question": "أي لغة لديها أكبر عدد من المتحدثين الأصليين؟",
+      "id": "tb_ar_027",
+      "difficulty": "easy",
+      "category": "الجغرافيا",
+      "question": "ما هو النهر الذي يمر عبر لندن؟",
       "options": [
-        "الإنجليزية",
-        "الإسبانية",
-        "الصينية المندرينية",
-        "الهندية"
+        "السين",
+        "التايمز",
+        "الدانوب",
+        "الراين"
       ],
-      "correctIndex": 2,
-      "id": "tb_ar_029"
+      "correctIndex": 1
     },
     {
+      "id": "tb_ar_028",
       "difficulty": "medium",
-      "category": "علم",
-      "question": "ما أصغر كوكب في النظام الشمسي؟",
+      "category": "الجغرافيا",
+      "question": "ما هي عاصمة Auستراليا؟",
       "options": [
-        "عطارد",
-        "المريخ",
-        "الزهرة",
-        "نبتون"
+        "سيدني",
+        "ملبورن",
+        "كانبيرا",
+        "بريسبان"
       ],
-      "correctIndex": 0,
-      "id": "tb_ar_030"
+      "correctIndex": 2
     },
     {
+      "id": "tb_ar_029",
       "difficulty": "medium",
-      "category": "تاريخ",
-      "question": "من اكتشف البنسلين؟",
+      "category": "الجغرافيا",
+      "question": "يقع جبل كليمنجارو في أي دولة؟",
       "options": [
-        "ماري كوري",
-        "ألكسندر فليمنغ",
-        "لويس باستور",
-        "إسحاق نيوتن"
+        "كينيا",
+        "تنزانيا",
+        "أوغندا",
+        "إثيوبيا"
       ],
-      "correctIndex": 1,
-      "id": "tb_ar_031"
+      "correctIndex": 1
     },
     {
+      "id": "tb_ar_030",
       "difficulty": "medium",
-      "category": "جغرافيا",
-      "question": "ما عاصمة الأرجنتين؟",
+      "category": "الجغرافيا",
+      "question": "ما هي الصحراء التي تعتبر أكبر صحراء حارة في العالم؟",
       "options": [
-        "ليما",
-        "بوينس آيرس",
-        "سانتياغو",
-        "مونتفيديو"
-      ],
-      "correctIndex": 1,
-      "id": "tb_ar_032"
-    },
-    {
-      "difficulty": "medium",
-      "category": "جغرافيا",
-      "question": "أي دولة تشتهر بحقول التوليب؟",
-      "options": [
-        "بلجيكا",
-        "هولندا",
-        "الدنمارك",
-        "سويسرا"
-      ],
-      "correctIndex": 1,
-      "id": "tb_ar_033"
-    },
-    {
-      "difficulty": "medium",
-      "category": "تقنية",
-      "question": "ما معنى HTTP؟",
-      "options": [
-        "Hypertext Transfer Protocol",
-        "High Transfer Text Process",
-        "Hyperlink Transmission Program",
-        "Host Transfer Protocol"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_034"
-    },
-    {
-      "difficulty": "medium",
-      "category": "موسيقى",
-      "question": "أي آلة موسيقية يرتبط بها لويس أرمسترونغ؟",
-      "options": [
-        "ساكسفون",
-        "ترامبيت",
-        "بيانو",
-        "كلارينيت"
-      ],
-      "correctIndex": 1,
-      "id": "tb_ar_035"
-    },
-    {
-      "difficulty": "medium",
-      "category": "علم",
-      "question": "ما محطة الطاقة في الخلية؟",
-      "options": [
-        "النواة",
-        "الميتوكوندريا",
-        "الريبوسوم",
-        "جهاز غولجي"
-      ],
-      "correctIndex": 1,
-      "id": "tb_ar_036"
-    },
-    {
-      "difficulty": "medium",
-      "category": "جغرافيا",
-      "question": "ما أكبر صحراء حارة؟",
-      "options": [
-        "غوبي",
-        "الصحراء الكبرى",
+        "جوبي",
+        "الصحراء",
         "كالاهاري",
-        "أتاكاما"
+        "موهافي"
       ],
-      "correctIndex": 1,
-      "id": "tb_ar_037"
+      "correctIndex": 1
     },
     {
+      "id": "tb_ar_031",
       "difficulty": "medium",
-      "category": "رياضيات",
-      "question": "أي حرف يوناني يشبه المثلث؟",
+      "category": "الجغرافيا",
+      "question": "ما هي الدولة التي توجد بها مدينة مراكش؟",
       "options": [
-        "ألفا",
-        "دلتا",
-        "سيغما",
-        "أوميغا"
+        "تونس",
+        "المغرب",
+        "الجزائر",
+        "مصر"
       ],
-      "correctIndex": 1,
-      "id": "tb_ar_038"
+      "correctIndex": 1
     },
     {
+      "id": "tb_ar_032",
       "difficulty": "medium",
-      "category": "رياضة",
-      "question": "أي مدينة استضافت أولمبياد الصيف 2012؟",
+      "category": "الجغرافيا",
+      "question": "ما هو البحر الذي يفصل بين أوروبا وأفريقيا؟",
       "options": [
-        "بكين",
-        "لندن",
-        "ريو دي جانيرو",
-        "أثينا"
+        "البحر الأحمر",
+        "البحر الأبيض المتوسط",
+        "البحر الأسود",
+        "بحر البلطيق"
       ],
-      "correctIndex": 1,
-      "id": "tb_ar_039"
+      "correctIndex": 1
     },
     {
+      "id": "tb_ar_033",
       "difficulty": "medium",
-      "category": "علم",
-      "question": "ما الصيغة الكيميائية للأوزون؟",
+      "category": "الجغرافيا",
+      "question": "ما هي الولاية الأمريكية التي تعرف بولاية الشمس المشرقة؟",
       "options": [
-        "O2",
-        "O3",
-        "CO2",
-        "O4"
+        "كاليفورنيا",
+        "فلوريدا",
+        "أريزونا",
+        "هاواي"
       ],
-      "correctIndex": 1,
-      "id": "tb_ar_040"
+      "correctIndex": 1
     },
     {
+      "id": "tb_ar_034",
+      "difficulty": "medium",
+      "category": "الجغرافيا",
+      "question": "ما هي الدولة التي لديها أكثر البحيرات الطبيعية؟",
+      "options": [
+        "كندا",
+        "البرازيل",
+        "روسيا",
+        "فنلندا"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_035",
       "difficulty": "hard",
-      "category": "فن",
-      "question": "من كتب 'مئة عام من العزلة'؟",
-      "options": [
-        "ماريو فارغاس يوسا",
-        "غابرييل غارسيا ماركيز",
-        "إيزابيل الليندي",
-        "خورخي لويس بورخيس"
-      ],
-      "correctIndex": 1,
-      "id": "tb_ar_041"
-    },
-    {
-      "difficulty": "hard",
-      "category": "جغرافيا",
-      "question": "ما عاصمة كازاخستان؟",
+      "category": "الجغرافيا",
+      "question": "ما هي عاصمة كازاخستان؟",
       "options": [
         "ألماتي",
         "أستانا",
-        "طشقند",
-        "بشكيك"
+        "بيشكيك",
+        "طشقند"
       ],
-      "correctIndex": 1,
-      "id": "tb_ar_042"
+      "correctIndex": 1
     },
     {
+      "id": "tb_ar_036",
       "difficulty": "hard",
-      "category": "علم",
-      "question": "أي كوكب لديه أقصر يوم؟",
+      "category": "الجغرافيا",
+      "question": "ما هي الدولة التي تقع فيها بحيرة بليد؟",
       "options": [
-        "الأرض",
-        "المشتري",
-        "المريخ",
-        "أورانوس"
+        "سلوفينيا",
+        "كرواتيا",
+        "Auستريا",
+        "سلوفاكيا"
       ],
-      "correctIndex": 1,
-      "id": "tb_ar_043"
+      "correctIndex": 0
     },
     {
+      "id": "tb_ar_037",
       "difficulty": "hard",
-      "category": "تاريخ",
-      "question": "في أي سنة سقط جدار برلين؟",
+      "category": "الجغرافيا",
+      "question": "صحراء أتاكاما تقع بشكل رئيسي في أي دولة؟",
+      "options": [
+        "بيرو",
+        "شيلي",
+        "بوليفيا",
+        "الأرجنتين"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_038",
+      "difficulty": "hard",
+      "category": "الجغرافيا",
+      "question": "ما هي المدينة المنقسمة بين أوروبا وآسيا؟",
+      "options": [
+        "اسطنبول",
+        "أثينا",
+        "القاهرة",
+        "لشبونة"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_039",
+      "difficulty": "hard",
+      "category": "الجغرافيا",
+      "question": "ما هي أطول سلسلة جبال في العالم؟",
+      "options": [
+        "جبال الهيمالايا",
+        "الأنديز",
+        "روكي",
+        "جبال الألب"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_040",
+      "difficulty": "hard",
+      "category": "الجغرافيا",
+      "question": "ما هي الدولة التي تستخدم الكرون كعملة لها؟",
+      "options": [
+        "النرويج",
+        "بولندا",
+        "المجر",
+        "رومانيا"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_041",
+      "difficulty": "easy",
+      "category": "التاريخ",
+      "question": "في أي عام غرقت سفينة التايتنك؟",
+      "options": [
+        "1908",
+        "1912",
+        "1916",
+        "1920"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_042",
+      "difficulty": "easy",
+      "category": "التاريخ",
+      "question": "من كان أول رئيس للولايات المتحدة؟",
+      "options": [
+        "توماس جيفرسون",
+        "جورج واشنطن",
+        "ابراهام لينكولن",
+        "جون ادامز"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_043",
+      "difficulty": "easy",
+      "category": "التاريخ",
+      "question": "يرتبط سور الصين العظيم بشكل أساسي بأي دولة؟",
+      "options": [
+        "اليابان",
+        "الصين",
+        "الهند",
+        "منغوليا"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_044",
+      "difficulty": "easy",
+      "category": "التاريخ",
+      "question": "من كانت تعرف بعذراء أورليانز؟",
+      "options": [
+        "كليوباترا",
+        "جان دارك",
+        "الملكة فيكتوريا",
+        "ماري كوري"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_045",
+      "difficulty": "easy",
+      "category": "التاريخ",
+      "question": "ما هي الحضارة القديمة التي شيدت الكولوسيوم؟",
+      "options": [
+        "اليونانية",
+        "روماني",
+        "المايا",
+        "الفارسية"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_046",
+      "difficulty": "easy",
+      "category": "التاريخ",
+      "question": "ما هي الحرب التي انتهت عام 1945؟",
+      "options": [
+        "الحرب العالمية الأولى",
+        "الحرب العالمية الثانية",
+        "الحرب الكورية",
+        "حرب فيتنام"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_047",
+      "difficulty": "easy",
+      "category": "التاريخ",
+      "question": "من اكتشف البنسلين؟",
+      "options": [
+        "ألكسندر فليمنج",
+        "لويس باستور",
+        "ماري كوري",
+        "تشارلز داروين"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_048",
+      "difficulty": "medium",
+      "category": "التاريخ",
+      "question": "من هي أول امرأة تطير منفردة عبر المحيط الأطلسي؟",
+      "options": [
+        "اميليا إيرهارت",
+        "بيسي كولمان",
+        "فالنتينا تيريشكوفا",
+        "سالي رايد"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_049",
+      "difficulty": "medium",
+      "category": "التاريخ",
+      "question": "في أي عام سقط جدار برلين؟",
       "options": [
         "1987",
-        "1988",
         "1989",
-        "1990"
+        "1991",
+        "1993"
       ],
-      "correctIndex": 2,
-      "id": "tb_ar_044"
+      "correctIndex": 1
     },
     {
-      "difficulty": "hard",
-      "category": "علم",
-      "question": "ما وحدة القياس الدولية لشدة التيار الكهربائي؟",
+      "id": "tb_ar_050",
+      "difficulty": "medium",
+      "category": "التاريخ",
+      "question": "ما هي الإمبراطورية التي حكمها جنكيز خان؟",
       "options": [
-        "فولت",
-        "أمبير",
-        "أوم",
-        "واط"
+        "الإمبراطورية العثمانية",
+        "الإمبراطورية المغولية",
+        "الإمبراطورية الرومانية",
+        "الإمبراطورية الفارسية"
       ],
-      "correctIndex": 1,
-      "id": "tb_ar_045"
+      "correctIndex": 1
     },
     {
-      "difficulty": "hard",
-      "category": "موسيقى",
-      "question": "من ألّف أوبرا 'الناي السحري'؟",
+      "id": "tb_ar_051",
+      "difficulty": "medium",
+      "category": "التاريخ",
+      "question": "من هو أول شخص مشى على القمر؟",
       "options": [
-        "موزارت",
-        "فيردي",
-        "بوتشيني",
-        "فاغنر"
+        "باز ألدرين",
+        "يوري جاجارين",
+        "نيل ارمسترونج",
+        "مايكل كولينز"
       ],
-      "correctIndex": 0,
-      "id": "tb_ar_046"
+      "correctIndex": 2
     },
     {
-      "difficulty": "hard",
-      "category": "رياضيات",
-      "question": "ما الجذر التربيعي لـ 256؟",
+      "id": "tb_ar_052",
+      "difficulty": "medium",
+      "category": "التاريخ",
+      "question": "في أي دولة حديثة بدأ عصر النهضة؟",
       "options": [
-        "14",
-        "16",
-        "18",
-        "20"
-      ],
-      "correctIndex": 1,
-      "id": "tb_ar_047"
-    },
-    {
-      "difficulty": "hard",
-      "category": "جغرافيا",
-      "question": "أي دولة لديها أكبر عدد من المناطق الزمنية؟",
-      "options": [
-        "الولايات المتحدة",
         "فرنسا",
-        "روسيا",
-        "أستراليا"
+        "إيطاليا",
+        "ألمانيا",
+        "اسبانيا"
       ],
-      "correctIndex": 1,
-      "id": "tb_ar_048"
+      "correctIndex": 1
     },
     {
-      "difficulty": "hard",
-      "category": "جغرافيا",
-      "question": "ما أطول نهر في أوروبا؟",
+      "id": "tb_ar_053",
+      "difficulty": "medium",
+      "category": "التاريخ",
+      "question": "ما هي الوثيقة التي تبدأ بعبارة نحن الشعب؟",
       "options": [
-        "الدانوب",
-        "الفولغا",
-        "الراين",
-        "السين"
+        "ماجنا كارتا",
+        "دستور الولايات المتحدة",
+        "إعلان الاستقلال",
+        "وثيقة الحقوق"
       ],
-      "correctIndex": 1,
-      "id": "tb_ar_049"
-    },
-    {
-      "difficulty": "hard",
-      "category": "فن",
-      "question": "من رسم 'إصرار الذاكرة'؟",
-      "options": [
-        "سلفادور دالي",
-        "بابلو بيكاسو",
-        "كلود مونيه",
-        "إدفارد مونك"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_050"
-    },
-    {
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "ما عاصمة كندا؟",
-      "options": [
-        "أوتاوا",
-        "تورونتو",
-        "فانكوفر",
-        "مونتريال"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_051"
-    },
-    {
-      "difficulty": "easy",
-      "category": "علم",
-      "question": "أي كوكب يُعرف بالكوكب الأحمر؟",
-      "options": [
-        "المريخ",
-        "الزهرة",
-        "المشتري",
-        "عطارد"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_052"
-    },
-    {
-      "difficulty": "easy",
-      "category": "موسيقى",
-      "question": "أي آلة موسيقية لها 88 مفتاحًا؟",
-      "options": [
-        "البيانو",
-        "الغيتار",
-        "الكمان",
-        "الناي"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_053"
+      "correctIndex": 1
     },
     {
       "id": "tb_ar_054",
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "ما عاصمة إسبانيا؟",
+      "difficulty": "medium",
+      "category": "التاريخ",
+      "question": "من هي الملكة التي حكمت إنجلترا في معظم العصر الفيكتوري؟",
       "options": [
-        "مدريد",
-        "برشلونة",
-        "إشبيلية",
-        "فالنسيا"
+        "إليزابيث آي",
+        "ماري آي",
+        "فيكتوريا",
+        "آن"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "tb_ar_055",
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "ما عاصمة البرازيل؟",
+      "difficulty": "hard",
+      "category": "التاريخ",
+      "question": "ساعد حجر رشيد العلماء على قراءة أي نص قديم؟",
       "options": [
-        "برازيليا",
-        "ريو دي جانيرو",
-        "ساو باولو",
-        "سلفادور"
+        "المسمارية",
+        "الهيروغليفية",
+        "السنسكريتية",
+        "الخطي ب"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_ar_056",
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "ما عاصمة الهند؟",
+      "difficulty": "hard",
+      "category": "التاريخ",
+      "question": "من قاد الثورة الهايتية؟",
       "options": [
-        "نيودلهي",
-        "مومباي",
-        "بنغالور",
-        "كولكاتا"
+        "توسان لوفرتور",
+        "سيمون بوليفار",
+        "ميجيل هيدالجو",
+        "خوسيه دي سان مارتن"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_ar_057",
-      "difficulty": "easy",
-      "category": "علم",
-      "question": "ما الرمز الكيميائي للبوتاسيوم؟",
+      "difficulty": "hard",
+      "category": "التاريخ",
+      "question": "ما هي المعاهدة التي أنهت الحرب العالمية الأولى؟",
       "options": [
-        "K",
-        "P",
-        "Po",
-        "Pt"
+        "معاهدة باريس",
+        "معاهدة فرساي",
+        "معاهدة تورديسيلاس",
+        "معاهدة أوترخت"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_ar_058",
-      "difficulty": "easy",
-      "category": "علم",
-      "question": "ما الرمز الكيميائي للأكسجين؟",
+      "difficulty": "hard",
+      "category": "التاريخ",
+      "question": "ما المدينة التي كانت عاصمة الإمبراطورية البيزنطية؟",
       "options": [
-        "O",
-        "Ox",
-        "Og",
-        "Oz"
+        "روما",
+        "أثينا",
+        "القسطنطينية",
+        "الإسكندرية"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "tb_ar_059",
-      "difficulty": "easy",
-      "category": "تاريخ",
-      "question": "في أي سنة بدأت الحرب العالمية الأولى؟",
+      "difficulty": "hard",
+      "category": "التاريخ",
+      "question": "من هو آخر فرعون مصر القديمة؟",
       "options": [
-        "1912",
-        "1914",
-        "1916",
-        "1918"
+        "نفرتيتي",
+        "كليوباترا السابعة",
+        "حتشبسوت",
+        "رمسيس الثاني"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ar_060",
-      "difficulty": "easy",
-      "category": "تاريخ",
-      "question": "من كان أول رئيس للولايات المتحدة؟",
+      "difficulty": "hard",
+      "category": "التاريخ",
+      "question": "ما هي الحضارة التي أوجدت شريعة حمورابي؟",
       "options": [
-        "جورج واشنطن",
-        "توماس جيفرسون",
-        "أبراهام لنكولن",
-        "جون آدامز"
+        "بابلي",
+        "الآشوري",
+        "فينيقي",
+        "الحثي"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_ar_061",
       "difficulty": "easy",
-      "category": "فن",
-      "question": "من نحت تمثال داود؟",
+      "category": "ثقافة البوب",
+      "question": "ما هو اسم كبير خدم باتمان؟",
       "options": [
-        "ميكيلانجيلو",
-        "دوناتيلو",
-        "برنيني",
-        "رودان"
+        "جيمس",
+        "ألفريد",
+        "جورج",
+        "إدوارد"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_ar_062",
       "difficulty": "easy",
-      "category": "فن",
-      "question": "من كتب رواية 1984؟",
+      "category": "ثقافة البوب",
+      "question": "ما هو الامتياز الذي يتميز بهوجورتس؟",
       "options": [
-        "جورج أورويل",
-        "ألدوس هكسلي",
-        "راي برادبري",
-        "جي. كاي. رولينغ"
+        "Star Wars",
+        "Harry Potter",
+        "The Matrix",
+        "الصورة الرمزية"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_ar_063",
       "difficulty": "easy",
-      "category": "رياضة",
-      "question": "كم لاعبًا في فريق كرة القدم داخل الملعب؟",
+      "category": "ثقافة البوب",
+      "question": "ما هو لون شخصية شريك؟",
+      "options": [
+        "أزرق",
+        "أخضر",
+        "أرجواني",
+        "برتقالي"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_064",
+      "difficulty": "easy",
+      "category": "ثقافة البوب",
+      "question": "من هي المغنية التي لقبت بملكة البوب؟",
+      "options": [
+        "مادونا",
+        "أديل",
+        "ريهانا",
+        "دوا ليبا"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_065",
+      "difficulty": "easy",
+      "category": "ثقافة البوب",
+      "question": "ما هو البطل الخارق المعروف أيضًا باسم بيتر باركر؟",
+      "options": [
+        "باتمان",
+        "الرجل العنكبوت",
+        "سوبرمان",
+        "الرجل الحديدي"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_066",
+      "difficulty": "easy",
+      "category": "ثقافة البوب",
+      "question": "ما هو الفيلم الذي يضم شخصية تدعى إلسا؟",
+      "options": [
+        "موانا",
+        "المجمدة",
+        "شجاع",
+        "متشابكة"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_067",
+      "difficulty": "easy",
+      "category": "ثقافة البوب",
+      "question": "ما هو التطبيق المعروف بمقاطع الفيديو القصيرة واسعة الانتشار؟",
+      "options": [
+        "TikTok",
+        "ينكدين",
+        "دروببوإكس",
+        "تكبير"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_068",
+      "difficulty": "medium",
+      "category": "ثقافة البوب",
+      "question": "ما هي المدينة الخيالية التي يعيش فيها باتمان؟",
+      "options": [
+        "متروبوليس",
+        "مدينة جوثام",
+        "ستار سيتي",
+        "المدينة المركزية"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_069",
+      "difficulty": "medium",
+      "category": "ثقافة البوب",
+      "question": "ما هي الفرقة التي أصدرت الألبوم Abbey Road؟",
+      "options": [
+        "البيتلز",
+        "الملكة",
+        "ABBA",
+        "رولينج ستونز"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_070",
+      "difficulty": "medium",
+      "category": "ثقافة البوب",
+      "question": "من لعب دور جاك في فيلم تيتانيك عام 1997؟",
+      "options": [
+        "براد بيت",
+        "ليوناردو دي كابريو",
+        "توم كروز",
+        "مات ديمون"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_071",
+      "difficulty": "medium",
+      "category": "ثقافة البوب",
+      "question": "ما هو البرنامج التلفزيوني الذي يعرض المقهى Central Perk؟",
+      "options": [
+        "الأصدقاء",
+        "سينفيلد",
+        "The Office",
+        "كيف قابلت والدتك"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_072",
+      "difficulty": "medium",
+      "category": "ثقافة البوب",
+      "question": "ما هي سلسلة الألعاب التي تتضمن شخصية Link؟",
+      "options": [
+        "الخيال النهائي",
+        "أسطورة زيلدا",
+        "بوكيمون",
+        "سونيك"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_073",
+      "difficulty": "medium",
+      "category": "ثقافة البوب",
+      "question": "ما هو الفيلم الذي يتضمن الاقتباس نرجو أن تكون القوة معك؟",
+      "options": [
+        "Star Wars",
+        "ستار تريك",
+        "الكثبان الرملية",
+        "بليد عداء"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_074",
+      "difficulty": "medium",
+      "category": "ثقافة البوب",
+      "question": "ما اسم لعبة رعاة البقر في Toy Story؟",
+      "options": [
+        "ضجيج",
+        "وودي",
+        "آندي",
+        "ريكس"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_075",
+      "difficulty": "hard",
+      "category": "ثقافة البوب",
+      "question": "من هو الممثل الذي لعب دور نيو في The Matrix؟",
+      "options": [
+        "كيانو ريفز",
+        "جوني ديب",
+        "نيكولاس كيج",
+        "ويل سميث"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_076",
+      "difficulty": "hard",
+      "category": "ثقافة البوب",
+      "question": "من هو الفنان الذي أصدر ألبوم Lemonade؟",
+      "options": [
+        "بيونسيه",
+        "تايلور سويفت",
+        "أريانا غراندي",
+        "ليدي غاغا"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_077",
+      "difficulty": "hard",
+      "category": "ثقافة البوب",
+      "question": "في Lord of the Rings، ما هو الاسم الأصلي لـ Gollums؟",
+      "options": [
+        "سميجول",
+        "بيلبو",
+        "ديغول",
+        "فارامير"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_078",
+      "difficulty": "hard",
+      "category": "ثقافة البوب",
+      "question": "ما هو فيلم الرسوم المتحركة الذي يعرض أغنية \"تذكرني\"؟",
+      "options": [
+        "كوكو",
+        "إنكانتو",
+        "الروح",
+        "لوكا"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_079",
+      "difficulty": "hard",
+      "category": "ثقافة البوب",
+      "question": "ما اسم المعدن الخيالي في Black Panther؟",
+      "options": [
+        "أدامانتيوم",
+        "الويبرانيوم",
+        "ميثريل",
+        "الأنوبتانيوم"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_080",
+      "difficulty": "hard",
+      "category": "ثقافة البوب",
+      "question": "أي مسلسل كوميدي تدور أحداثه في شركة Dunder Mifflin؟",
+      "options": [
+        "الحدائق والترفيه",
+        "The Office",
+        "بروكلين تسعة تسعة",
+        "المجتمع"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_081",
+      "difficulty": "easy",
+      "category": "طعام",
+      "question": "ما هي الفاكهة التي تستخدم تقليديا لصنع الجواكامولي؟",
+      "options": [
+        "الموز",
+        "الأفوكادو",
+        "مانجو",
+        "الكيوي"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_082",
+      "difficulty": "easy",
+      "category": "طعام",
+      "question": "ما هو أكثر ما يرتبط بالسوشي؟",
+      "options": [
+        "اليابان",
+        "المكسيك",
+        "إيطاليا",
+        "المغرب"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_083",
+      "difficulty": "easy",
+      "category": "طعام",
+      "question": "ما هو الجوز المستخدم لصنع المرزباني؟",
+      "options": [
+        "الجوز",
+        "البندق",
+        "اللوز",
+        "الفول السوداني"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ar_084",
+      "difficulty": "easy",
+      "category": "طعام",
+      "question": "ما هو العنصر الرئيسي في الحمص؟",
+      "options": [
+        "العدس",
+        "الحمص",
+        "البطاطس",
+        "أرز"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_085",
+      "difficulty": "easy",
+      "category": "طعام",
+      "question": "ما هو المشروب الذي يتم تحضيره عن طريق تخمير الفاصوليا المحمصة؟",
+      "options": [
+        "الشاي",
+        "قهوة",
+        "عصير الليمون",
+        "الكولا"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_086",
+      "difficulty": "easy",
+      "category": "طعام",
+      "question": "ما هو نوع المعكرونة التي تكون على شكل أنابيب صغيرة؟",
+      "options": [
+        "بيني",
+        "السباغيتي",
+        "فارفالي",
+        "لازانيا"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_087",
+      "difficulty": "easy",
+      "category": "طعام",
+      "question": "ما هي الدولة المشهورة بالتاكو؟",
+      "options": [
+        "إيطاليا",
+        "المكسيك",
+        "تايلاند",
+        "اليونان"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_088",
+      "difficulty": "medium",
+      "category": "طعام",
+      "question": "ما هي التوابل التي تعطي الكاري لونه الأصفر؟",
+      "options": [
+        "كمون",
+        "الكركم",
+        "بابريكا",
+        "القرفة"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_089",
+      "difficulty": "medium",
+      "category": "طعام",
+      "question": "ما هو الجبن الذي يستخدم عادة في بيتزا المارجريتا؟",
+      "options": [
+        "شيدر",
+        "موزاريلا",
+        "فيتا",
+        "جودة"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_090",
+      "difficulty": "medium",
+      "category": "طعام",
+      "question": "ما هو التوفو أساسا من؟",
+      "options": [
+        "فول الصويا",
+        "أرز",
+        "الذرة",
+        "الفول السوداني"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_091",
+      "difficulty": "medium",
+      "category": "طعام",
+      "question": "ما هي الحلوى المصنوعة من طبقات من أصابع السيدة المنقوعة في القهوة؟",
+      "options": [
+        "بقلاوة",
+        "تيراميسو",
+        "بافلوفا",
+        "كريم برولي"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_092",
+      "difficulty": "medium",
+      "category": "طعام",
+      "question": "ما هو العنصر الرئيسي في مخلل الملفوف؟",
+      "options": [
+        "الملفوف",
+        "جزرة",
+        "خيار",
+        "بصل"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_093",
+      "difficulty": "medium",
+      "category": "طعام",
+      "question": "ما هي الفاكهة التي يتم تجفيفها لصنع الزبيب؟",
+      "options": [
+        "العنب",
+        "البرقوق",
+        "المشمش",
+        "التين"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_094",
+      "difficulty": "medium",
+      "category": "طعام",
+      "question": "ما هي الصلصة المصنوعة تقليديا من الريحان والصنوبر والثوم وزيت الزيتون والجبن؟",
+      "options": [
+        "البيستو",
+        "السالسا",
+        "هويسين",
+        "طحينة"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_095",
+      "difficulty": "hard",
+      "category": "طعام",
+      "question": "ما هي الحبوب المستخدمة لصنع الريسوتو التقليدي؟",
+      "options": [
+        "بسمتي",
+        "أرز أربوريو",
+        "الكينوا",
+        "البرغل"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_096",
+      "difficulty": "hard",
+      "category": "طعام",
+      "question": "ما هي الدولة التي يعود أصل الكيمتشي إليها؟",
+      "options": [
+        "اليابان",
+        "الصين",
+        "كوريا",
+        "فيتنام"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ar_097",
+      "difficulty": "hard",
+      "category": "طعام",
+      "question": "ما هو المصطلح الفرنسي لفطيرة رقيقة؟",
+      "options": [
+        "كريب",
+        "بريوش",
+        "اكلير",
+        "معكرون"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_098",
+      "difficulty": "hard",
+      "category": "طعام",
+      "question": "ما هو الحمض الذي يعطي الخل طعمه الحامض؟",
+      "options": [
+        "حامض الستريك",
+        "حمض الخليك",
+        "حمض اللبنيك",
+        "حمض الماليك"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_099",
+      "difficulty": "hard",
+      "category": "طعام",
+      "question": "ما هو العنصر الرئيسي في الفلافل التقليدية؟",
+      "options": [
+        "الحمص",
+        "لحم البقر",
+        "باذنجان",
+        "أرز"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_100",
+      "difficulty": "hard",
+      "category": "طعام",
+      "question": "ما هي المعجنات المستخدمة لصنع البقلاوة؟",
+      "options": [
+        "نفخة المعجنات",
+        "معجنات فيلو",
+        "Shortcrust",
+        "معجنات الشو"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_101",
+      "difficulty": "easy",
+      "category": "الحيوانات",
+      "question": "ما هو أكبر حيوان بري؟",
+      "options": [
+        "الفيل",
+        "فرس النهر",
+        "وحيد القرن",
+        "الزرافة"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_102",
+      "difficulty": "easy",
+      "category": "الحيوانات",
+      "question": "ما هو الحيوان المعروف بالخطوط السوداء والبيضاء؟",
+      "options": [
+        "حمار وحشي",
+        "النمر",
+        "الباندا",
+        "الظربان"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_103",
+      "difficulty": "easy",
+      "category": "الحيوانات",
+      "question": "ماذا يصنع النحل؟",
+      "options": [
+        "الحليب",
+        "عسل",
+        "الحرير",
+        "الشمع فقط"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_104",
+      "difficulty": "easy",
+      "category": "الحيوانات",
+      "question": "أي حيوان يعتبر من الثدييات؟",
+      "options": [
+        "القرش",
+        "الضفدع",
+        "دولفين",
+        "تمساح"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ar_105",
+      "difficulty": "easy",
+      "category": "الحيوانات",
+      "question": "ماذا يسمى طفل القطة؟",
+      "options": [
+        "جرو",
+        "هريرة",
+        "العجل",
+        "مهرا"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_106",
+      "difficulty": "easy",
+      "category": "الحيوانات",
+      "question": "ما هو الطائر الذي يرتبط غالبًا بولادة الأطفال في القصص؟",
+      "options": [
+        "نسر",
+        "اللقلق",
+        "بومة",
+        "بجعة"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_107",
+      "difficulty": "easy",
+      "category": "الحيوانات",
+      "question": "ما هو الحيوان المشهور بتغير لونه؟",
+      "options": [
+        "الحرباء",
+        "كوالا",
+        "البطريق",
+        "الجمل"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_108",
+      "difficulty": "medium",
+      "category": "الحيوانات",
+      "question": "ما هو أسرع حيوان بري؟",
+      "options": [
+        "الفهد",
+        "أسد",
+        "حصان",
+        "الكنغر"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_109",
+      "difficulty": "medium",
+      "category": "الحيوانات",
+      "question": "ما هو الحيوان الذي لديه أطول رقبة؟",
+      "options": [
+        "الزرافة",
+        "النعامة",
+        "الجمل",
+        "اللاما"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_110",
+      "difficulty": "medium",
+      "category": "الحيوانات",
+      "question": "ما الاسم الإنجليزي لمجموعة من الأسود؟",
+      "options": [
+        "Pack",
+        "Herd",
+        "Pride",
+        "Flock"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ar_111",
+      "difficulty": "medium",
+      "category": "الحيوانات",
+      "question": "ما هو الحيوان البحري الذي له ثلاثة قلوب؟",
+      "options": [
+        "الأخطبوط",
+        "دولفين",
+        "سلحفاة بحرية",
+        "قنديل البحر"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_112",
+      "difficulty": "medium",
+      "category": "الحيوانات",
+      "question": "ماذا تأكل الباندا في الغالب؟",
+      "options": [
+        "الخيزران",
+        "السمك",
+        "العشب",
+        "الفاكهة"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_113",
+      "difficulty": "medium",
+      "category": "الحيوانات",
+      "question": "أي حيوان يضع أكبر البيض؟",
+      "options": [
+        "النعامة",
+        "نسر",
+        "البطريق",
+        "القطرس"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_114",
+      "difficulty": "medium",
+      "category": "الحيوانات",
+      "question": "ما هي الحشرة التي يمكنها رفع وزن جسمها عدة مرات؟",
+      "options": [
+        "فراشة",
+        "نملة",
+        "البعوض",
+        "الخنفساء"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_115",
+      "difficulty": "hard",
+      "category": "الحيوانات",
+      "question": "ما هو الحيوان الثديي الوحيد القادر على الطيران الحقيقي؟",
+      "options": [
+        "السنجاب الطائر",
+        "الخفافيش",
+        "طائرة شراعية السكر",
+        "ليمور"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_116",
+      "difficulty": "hard",
+      "category": "الحيوانات",
+      "question": "ما هو الحيوان الذي يسمى أيضا بسفينة الصحراء؟",
+      "options": [
+        "الجمل",
+        "حمار",
+        "حصان",
+        "ياك"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_117",
+      "difficulty": "hard",
+      "category": "الحيوانات",
+      "question": "ما هو أكبر أنواع سمك القرش؟",
+      "options": [
+        "القرش الأبيض الكبير",
+        "قرش الحوت",
+        "قرش المطرقة",
+        "قرش النمر"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_118",
+      "difficulty": "hard",
+      "category": "الحيوانات",
+      "question": "أي طائر يمكنه تقليد الكلام البشري بشكل جيد؟",
+      "options": [
+        "ببغاء",
+        "البطريق",
+        "فلامنغو",
+        "عصفور"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_119",
+      "difficulty": "hard",
+      "category": "الحيوانات",
+      "question": "ماذا تسمى دراسة الطيور؟",
+      "options": [
+        "علم الحشرات",
+        "علم الطيور",
+        "علم الأسماك",
+        "علم الزواحف والبرمائيات"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_120",
+      "difficulty": "hard",
+      "category": "الحيوانات",
+      "question": "ما هو الحيوان الذي له بصمات تشبه بصمات الإنسان إلى حد كبير؟",
+      "options": [
+        "كوالا",
+        "الكنغر",
+        "الباندا",
+        "الكسل"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_121",
+      "difficulty": "easy",
+      "category": "الرياضيات",
+      "question": "ما هو 9 ضرب 9؟",
+      "options": [
+        "72",
+        "81",
+        "90",
+        "99"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_122",
+      "difficulty": "easy",
+      "category": "الرياضيات",
+      "question": "كم عدد أضلاع المثلث؟",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_123",
+      "difficulty": "easy",
+      "category": "الرياضيات",
+      "question": "ما هو نصف 100؟",
+      "options": [
+        "25",
+        "40",
+        "50",
+        "75"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ar_124",
+      "difficulty": "easy",
+      "category": "الرياضيات",
+      "question": "ما هو 12 زائد 15؟",
+      "options": [
+        "25",
+        "27",
+        "29",
+        "31"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_125",
+      "difficulty": "easy",
+      "category": "الرياضيات",
+      "question": "كم دقيقة في ساعة واحدة؟",
+      "options": [
+        "30",
+        "45",
+        "60",
+        "90"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ar_126",
+      "difficulty": "easy",
+      "category": "الرياضيات",
+      "question": "ما هو 7 تربيع؟",
+      "options": [
+        "14",
+        "21",
+        "49",
+        "77"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ar_127",
+      "difficulty": "easy",
+      "category": "الرياضيات",
+      "question": "كم درجة في الزاوية اليمنى؟",
+      "options": [
+        "45",
+        "60",
+        "90",
+        "180"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ar_128",
+      "difficulty": "medium",
+      "category": "الرياضيات",
+      "question": "ما هي قيمة pi مقربة إلى منزلتين عشريتين؟",
+      "options": [
+        "3.12",
+        "3.14",
+        "3.16",
+        "3.18"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_129",
+      "difficulty": "medium",
+      "category": "الرياضيات",
+      "question": "ما هو 15 في المئة من 200؟",
+      "options": [
+        "15",
+        "20",
+        "30",
+        "40"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ar_130",
+      "difficulty": "medium",
+      "category": "الرياضيات",
+      "question": "كم عدد الجوانب التي يمتلكها الشكل السداسي؟",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_131",
+      "difficulty": "medium",
+      "category": "الرياضيات",
+      "question": "ما هو الجذر التربيعي لـ 144؟",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ar_132",
+      "difficulty": "medium",
+      "category": "الرياضيات",
+      "question": "ما هو 3 مكعب؟",
+      "options": [
+        "9",
+        "18",
+        "27",
+        "81"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ar_133",
+      "difficulty": "medium",
+      "category": "الرياضيات",
+      "question": "ما هو الرقم الأولي التالي بعد 7؟",
       "options": [
         "9",
         "10",
@@ -823,912 +1733,1393 @@
       "correctIndex": 2
     },
     {
-      "id": "tb_ar_064",
-      "difficulty": "easy",
-      "category": "حيوانات",
-      "question": "ما أكبر طائر؟",
+      "id": "tb_ar_134",
+      "difficulty": "medium",
+      "category": "الرياضيات",
+      "question": "كم سم يوجد في المتر الواحد؟",
       "options": [
-        "نعامة",
-        "نسر",
-        "بطريق",
-        "بجعة"
+        "10",
+        "100",
+        "1000",
+        "10000"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
-      "id": "tb_ar_065",
-      "difficulty": "easy",
-      "category": "علم",
-      "question": "ما هو H2O؟",
+      "id": "tb_ar_135",
+      "difficulty": "hard",
+      "category": "الرياضيات",
+      "question": "ما هو مجموع الزوايا الداخلية للمثلث؟",
       "options": [
-        "ماء",
-        "هيدروجين",
-        "أكسجين",
-        "ملح"
+        "90 درجة",
+        "180 درجة",
+        "270 درجة",
+        "360 درجة"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
-      "id": "tb_ar_066",
-      "difficulty": "easy",
-      "category": "تقنية",
-      "question": "ماذا تعني GPS؟",
+      "id": "tb_ar_136",
+      "difficulty": "hard",
+      "category": "الرياضيات",
+      "question": "ما هو 2 قوة 10؟",
       "options": [
-        "Global Positioning System",
-        "General Packet Service",
-        "Geographic Positioning Software",
-        "Global Postal Service"
+        "512",
+        "1024",
+        "2048",
+        "4096"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
-      "id": "tb_ar_067",
-      "difficulty": "easy",
-      "category": "رياضيات",
-      "question": "كم يساوي 12 x 12؟",
+      "id": "tb_ar_137",
+      "difficulty": "hard",
+      "category": "الرياضيات",
+      "question": "ما هو أصغر عدد أولي؟",
       "options": [
-        "124",
-        "132",
-        "144",
-        "156"
+        "0",
+        "1",
+        "2",
+        "3"
       ],
       "correctIndex": 2
     },
     {
-      "id": "tb_ar_068",
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "في أي قارة تقع البرازيل؟",
+      "id": "tb_ar_138",
+      "difficulty": "hard",
+      "category": "الرياضيات",
+      "question": "ما هو 1 مقسوما على 4 كرقم عشري؟",
       "options": [
-        "أمريكا الجنوبية",
-        "أمريكا الشمالية",
-        "أوروبا",
-        "أفريقيا"
+        "0.2",
+        "0.25",
+        "0.4",
+        "0.5"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
-      "id": "tb_ar_069",
-      "difficulty": "easy",
-      "category": "طعام",
-      "question": "ما المكوّن الرئيسي في الحمص؟",
+      "id": "tb_ar_139",
+      "difficulty": "hard",
+      "category": "الرياضيات",
+      "question": "كم عدد الوجوه التي يمتلكها المكعب؟",
       "options": [
-        "حمص",
-        "عدس",
-        "بطاطس",
-        "أرز"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_ar_070",
-      "difficulty": "easy",
-      "category": "علم",
-      "question": "كم كوكبًا في نظامنا الشمسي؟",
-      "options": [
-        "7",
+        "4",
+        "6",
         "8",
-        "9",
-        "10"
+        "12"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_ar_071",
-      "difficulty": "easy",
-      "category": "فن",
-      "question": "من رسم لوحة الصرخة؟",
+      "id": "tb_ar_140",
+      "difficulty": "hard",
+      "category": "الرياضيات",
+      "question": "ما هو الرقم الروماني ل50؟",
       "options": [
-        "إدفارد مونك",
-        "بابلو بيكاسو",
-        "فينسنت فان غوخ",
-        "كلود مونيه"
+        "L",
+        "C",
+        "D",
+        "M"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_ar_072",
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "ما عاصمة مصر؟",
-      "options": [
-        "القاهرة",
-        "الإسكندرية",
-        "الجيزة",
-        "الأقصر"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_ar_073",
-      "difficulty": "easy",
-      "category": "تقنية",
-      "question": "ماذا تعني USB؟",
-      "options": [
-        "Universal Serial Bus",
-        "Unified System Board",
-        "Universal Sync Bridge",
-        "United Serial Base"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_ar_074",
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "ما عاصمة النرويج؟",
-      "options": [
-        "أوسلو",
-        "بيرغن",
-        "تروندهايم",
-        "ستافانغر"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_ar_075",
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "ما عاصمة تايلاند؟",
-      "options": [
-        "بانكوك",
-        "شيانغ ماي",
-        "بوكيت",
-        "باتايا"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_ar_076",
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "ما عملة كندا؟",
-      "options": [
-        "الدولار الكندي",
-        "اليورو",
-        "البيزو",
-        "الين"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_ar_077",
-      "difficulty": "easy",
-      "category": "علم",
-      "question": "أي جزء من النبات مسؤول أساسًا عن التمثيل الضوئي؟",
-      "options": [
-        "الورقة",
-        "الجذر",
-        "الساق",
-        "الزهرة"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_ar_078",
-      "difficulty": "easy",
-      "category": "تقنية",
-      "question": "من اخترع الهاتف؟",
-      "options": [
-        "ألكسندر غراهام بيل",
-        "توماس إديسون",
-        "نيكولا تسلا",
-        "غولييلمو ماركوني"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_ar_079",
-      "difficulty": "easy",
-      "category": "فن",
-      "question": "من رسم لوحة الفتاة ذات القرط اللؤلؤي؟",
-      "options": [
-        "يوهانس فيرمير",
-        "رامبرانت",
-        "فينسنت فان غوخ",
-        "بابلو بيكاسو"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_ar_080",
-      "difficulty": "easy",
-      "category": "حيوانات",
-      "question": "أي حيوان معروف ببناء السدود؟",
-      "options": [
-        "القندس",
-        "ثعلب الماء",
-        "الثعلب",
-        "الغزال"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_ar_081",
-      "difficulty": "easy",
-      "category": "رياضة",
-      "question": "ويمبلدون بطولة في أي رياضة؟",
-      "options": [
-        "التنس",
-        "الغولف",
-        "الكريكيت",
-        "الرجبي"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_ar_082",
-      "difficulty": "easy",
-      "category": "رياضيات",
-      "question": "كم يساوي 7 x 8؟",
-      "options": [
-        "54",
-        "56",
-        "58",
-        "64"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_ar_083",
-      "difficulty": "easy",
-      "category": "طعام",
-      "question": "مما يُصنع التوفو؟",
-      "options": [
-        "فول الصويا",
-        "الأرز",
-        "القمح",
-        "الحمص"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "ما عاصمة نيوزيلندا؟",
-      "options": [
-        "ويلينغتون",
-        "أوكلاند",
-        "كرايستشيرش",
-        "كوينزتاون"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_084"
-    },
-    {
-      "difficulty": "easy",
-      "category": "علم",
-      "question": "ما العنصر الذي رمزه الكيميائي K؟",
-      "options": [
-        "البوتاسيوم",
-        "الكريبتون",
-        "الكالسيوم",
-        "الزنك"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_085"
-    },
-    {
-      "difficulty": "easy",
-      "category": "تاريخ",
-      "question": "أي حضارة بنت ماتشو بيتشو؟",
-      "options": [
-        "الإنكا",
-        "المايا",
-        "الأزتك",
-        "الأولمك"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_086"
-    },
-    {
-      "difficulty": "easy",
-      "category": "فن",
-      "question": "ما اسم فن طي الورق الياباني؟",
-      "options": [
-        "أوريغامي",
-        "إيكيبانا",
-        "الخط",
-        "كابوكي"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_087"
-    },
-    {
+      "id": "tb_ar_141",
       "difficulty": "easy",
       "category": "موسيقى",
-      "question": "كم عدد أوتار الكمان القياسي؟",
+      "question": "كم عدد الأوتار التي يحتوي عليها الجيتار القياسي عادة؟",
       "options": [
         "4",
         "5",
         "6",
         "7"
       ],
-      "correctIndex": 0,
-      "id": "tb_ar_088"
+      "correctIndex": 2
     },
     {
+      "id": "tb_ar_142",
       "difficulty": "easy",
-      "category": "تقنية",
-      "question": "ماذا يعني اختصار CPU؟",
+      "category": "موسيقى",
+      "question": "ما هي الأداة التي تحتوي على مفاتيح بالأبيض والأسود؟",
       "options": [
-        "وحدة المعالجة المركزية",
-        "وحدة طاقة الحاسوب",
-        "أداة أداء النواة",
-        "مستخدم برنامج مركزي"
+        "جيتار",
+        "بيانو",
+        "كمان",
+        "طبل"
       ],
-      "correctIndex": 0,
-      "id": "tb_ar_089"
+      "correctIndex": 1
     },
     {
+      "id": "tb_ar_143",
       "difficulty": "easy",
-      "category": "طعام",
-      "question": "أي بهار يُستخرج من براعم زهرية مجففة؟",
+      "category": "موسيقى",
+      "question": "من الملقب بملك البوب؟",
       "options": [
-        "القرنفل",
-        "الفلفل",
-        "القرفة",
-        "جوزة الطيب"
+        "إلفيس بريسلي",
+        "مايكل جاكسون",
+        "الأمير",
+        "ستيفي ووندر"
       ],
-      "correctIndex": 0,
-      "id": "tb_ar_090"
+      "correctIndex": 1
     },
     {
+      "id": "tb_ar_144",
       "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "أي بحر يقع بين أفريقيا وشبه الجزيرة العربية؟",
+      "category": "موسيقى",
+      "question": "ماذا تسمي مجموعة من المطربين؟",
       "options": [
-        "البحر الأحمر",
-        "البحر الأسود",
-        "بحر قزوين",
-        "البحر الأدرياتيكي"
+        "جوقة",
+        "ضمادة",
+        "يلقي",
+        "الطاقم"
       ],
-      "correctIndex": 0,
-      "id": "tb_ar_091"
+      "correctIndex": 0
     },
     {
+      "id": "tb_ar_145",
       "difficulty": "easy",
-      "category": "علم",
-      "question": "ما اسم الجهاز الذي يسجل الزلازل؟",
+      "category": "موسيقى",
+      "question": "ما هي الآلة التي يتم العزف عليها بالقوس؟",
       "options": [
-        "مقياس الزلازل",
-        "البارومتر",
-        "مقياس شدة الرياح",
-        "مقياس الرطوبة"
+        "البوق",
+        "كمان",
+        "بيانو",
+        "الفلوت"
       ],
-      "correctIndex": 0,
-      "id": "tb_ar_092"
+      "correctIndex": 1
     },
     {
+      "id": "tb_ar_146",
       "difficulty": "easy",
-      "category": "رياضة",
-      "question": "سباق طواف فرنسا ينتمي لأي رياضة؟",
+      "category": "موسيقى",
+      "question": "ما هو اسم سرعة الموسيقى؟",
       "options": [
-        "الدراجات",
-        "التنس",
-        "الرجبي",
-        "التزلج"
+        "وتيرة",
+        "الملعب",
+        "انسجام",
+        "الإيقاع"
       ],
-      "correctIndex": 0,
-      "id": "tb_ar_093"
+      "correctIndex": 0
     },
     {
+      "id": "tb_ar_147",
       "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "ما عاصمة البرتغال؟",
+      "category": "موسيقى",
+      "question": "ما هو تنسيق الموسيقى الذي جاء قبل الأقراص المضغوطة للعديد من المستمعين؟",
       "options": [
-        "لشبونة",
-        "بورتو",
-        "فارو",
-        "براغا"
+        "كاسيت",
+        "بلو راي",
+        "بودكاست",
+        "الكتاب الإلكتروني"
       ],
-      "correctIndex": 0,
-      "id": "tb_ar_094"
+      "correctIndex": 0
     },
     {
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "ما عاصمة اليونان؟",
+      "id": "tb_ar_148",
+      "difficulty": "medium",
+      "category": "موسيقى",
+      "question": "من هو الملحن الذي كتب سوناتا ضوء القمر؟",
       "options": [
-        "أثينا",
-        "سالونيك",
-        "باتراس",
-        "هيراكليون"
+        "موزارت",
+        "بيتهوفن",
+        "باخ",
+        "شوبان"
       ],
-      "correctIndex": 0,
-      "id": "tb_ar_095"
+      "correctIndex": 1
     },
     {
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "ما عاصمة بيرو؟",
+      "id": "tb_ar_149",
+      "difficulty": "medium",
+      "category": "موسيقى",
+      "question": "كم عدد الملاحظات الموجودة في المقياس الرئيسي القياسي؟",
       "options": [
-        "ليما",
-        "كوسكو",
-        "أريكويبا",
-        "تروخيو"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_096"
-    },
-    {
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "ما عاصمة السويد؟",
-      "options": [
-        "ستوكهولم",
-        "غوتنبرغ",
-        "مالمو",
-        "أوبسالا"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_097"
-    },
-    {
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "ما عاصمة أيرلندا؟",
-      "options": [
-        "دبلن",
-        "كورك",
-        "غالواي",
-        "ليمريك"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_098"
-    },
-    {
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "ما عملة سويسرا؟",
-      "options": [
-        "الفرنك السويسري",
-        "اليورو",
-        "الكرونة",
-        "الدولار"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_099"
-    },
-    {
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "ما عملة الصين؟",
-      "options": [
-        "اليوان",
-        "الين",
-        "الوون",
-        "البات"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_100"
-    },
-    {
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "ما عملة المكسيك؟",
-      "options": [
-        "البيزو",
-        "الريال",
-        "السول",
-        "الروبية"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_101"
-    },
-    {
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "ما أكبر قارة من حيث المساحة؟",
-      "options": [
-        "آسيا",
-        "أفريقيا",
-        "أوروبا",
-        "أمريكا الجنوبية"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_102"
-    },
-    {
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "ما أصغر قارة؟",
-      "options": [
-        "أستراليا",
-        "أوروبا",
-        "أمريكا الجنوبية",
-        "أفريقيا"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_103"
-    },
-    {
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "ما أصغر محيط؟",
-      "options": [
-        "المحيط المتجمد الشمالي",
-        "المحيط الأطلسي",
-        "المحيط الهادئ",
-        "المحيط الهندي"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_104"
-    },
-    {
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "ما أعلى جبل في العالم؟",
-      "options": [
-        "إيفرست",
-        "كي2",
-        "كانغتشينجونغا",
-        "لوتسي"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_105"
-    },
-    {
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "أي بحر يفصل بين أوروبا وأفريقيا؟",
-      "options": [
-        "البحر المتوسط",
-        "البحر الأسود",
-        "البحر الأحمر",
-        "بحر الكاريبي"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_106"
-    },
-    {
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "في أي قارة تقع الصحراء الكبرى؟",
-      "options": [
-        "أفريقيا",
-        "آسيا",
-        "أوروبا",
-        "أمريكا الجنوبية"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_107"
-    },
-    {
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "أي نهر يمر عبر باريس؟",
-      "options": [
-        "نهر السين",
-        "نهر الراين",
-        "نهر الدانوب",
-        "نهر إلبه"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_108"
-    },
-    {
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "في أي منطقة تقع صحراء غوبي؟",
-      "options": [
-        "منغوليا والصين",
-        "الهند وباكستان",
-        "إيران والعراق",
-        "مصر وليبيا"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_109"
-    },
-    {
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "في أي بلد تقع البتراء؟",
-      "options": [
-        "الأردن",
-        "لبنان",
-        "سوريا",
-        "العراق"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_110"
-    },
-    {
-      "difficulty": "easy",
-      "category": "جغرافيا",
-      "question": "في أي بلد يوجد برج إيفل؟",
-      "options": [
-        "فرنسا",
-        "إيطاليا",
-        "إسبانيا",
-        "بلجيكا"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_111"
-    },
-    {
-      "difficulty": "easy",
-      "category": "علم",
-      "question": "أي كوكب يُعرف بالكوكب الأزرق؟",
-      "options": [
-        "الأرض",
-        "نبتون",
-        "أورانوس",
-        "المريخ"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_112"
-    },
-    {
-      "difficulty": "easy",
-      "category": "علم",
-      "question": "أي فيتامين ينتجه الجسم بفعل أشعة الشمس؟",
-      "options": [
-        "فيتامين د",
-        "فيتامين ج",
-        "فيتامين أ",
-        "فيتامين ب12"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_113"
-    },
-    {
-      "difficulty": "easy",
-      "category": "علم",
-      "question": "ما الرمز الكيميائي للصوديوم؟",
-      "options": [
-        "Na",
-        "Ni",
-        "Sn",
-        "Ne"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_114"
-    },
-    {
-      "difficulty": "easy",
-      "category": "علم",
-      "question": "أي عنصر عدده الذري 6؟",
-      "options": [
-        "الكربون",
-        "الأكسجين",
-        "النيتروجين",
-        "البورون"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_115"
-    },
-    {
-      "difficulty": "easy",
-      "category": "علم",
-      "question": "ما اسم العملية التي تصنع بها النباتات غذاءها؟",
-      "options": [
-        "البناء الضوئي",
-        "التخمير",
-        "التبخر",
-        "التنفس"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_116"
-    },
-    {
-      "difficulty": "easy",
-      "category": "علم",
-      "question": "أي جزء من العين ينظم دخول الضوء؟",
-      "options": [
-        "القزحية",
-        "العدسة",
-        "الشبكية",
-        "القرنية"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_117"
-    },
-    {
-      "difficulty": "easy",
-      "category": "علم",
-      "question": "أي عضو يرشح الدم؟",
-      "options": [
-        "الكلى",
-        "الكبد",
-        "الرئتان",
-        "المعدة"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_118"
-    },
-    {
-      "difficulty": "easy",
-      "category": "علم",
-      "question": "ما أكبر عضو في جسم الإنسان؟",
-      "options": [
-        "الجلد",
-        "الكبد",
-        "القلب",
-        "الرئتان"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_119"
-    },
-    {
-      "difficulty": "easy",
-      "category": "علم",
-      "question": "ما الغاز الذي يحتاجه الإنسان للتنفس؟",
-      "options": [
-        "الأكسجين",
-        "ثاني أكسيد الكربون",
-        "الهيليوم",
-        "النيتروجين"
-      ],
-      "correctIndex": 0,
-      "id": "tb_ar_120"
-    },
-    {
-      "difficulty": "easy",
-      "category": "رياضيات",
-      "question": "كم ضلعًا للشكل السداسي؟",
-      "options": [
-        "6",
         "5",
+        "6",
         "7",
         "8"
       ],
-      "correctIndex": 0,
-      "id": "tb_ar_121"
+      "correctIndex": 2
     },
     {
-      "difficulty": "easy",
-      "category": "رياضيات",
-      "question": "كم يساوي 15 + 27؟",
+      "id": "tb_ar_150",
+      "difficulty": "medium",
+      "category": "موسيقى",
+      "question": "ما هي الفرقة التي كان فريدي ميركوري هو المغني الرئيسي فيها؟",
       "options": [
-        "42",
-        "32",
-        "40",
-        "45"
+        "الملكة",
+        "U2",
+        "السكينة",
+        "واحة"
       ],
-      "correctIndex": 0,
-      "id": "tb_ar_122"
+      "correctIndex": 0
     },
     {
-      "difficulty": "easy",
-      "category": "طعام",
-      "question": "من أي عشبة يُصنع البيستو تقليديًا؟",
+      "id": "tb_ar_151",
+      "difficulty": "medium",
+      "category": "موسيقى",
+      "question": "ما الذي يمثله DJ؟",
       "options": [
-        "الريحان",
-        "البقدونس",
-        "الكزبرة",
-        "الشبت"
+        "الفارس القرص",
+        "قاضي الرقص",
+        "مربى رقمي",
+        "الطائر طبل"
       ],
-      "correctIndex": 0,
-      "id": "tb_ar_123"
+      "correctIndex": 0
     },
     {
-      "difficulty": "easy",
-      "category": "طعام",
-      "question": "السوشي يُصنع تقليديًا من أي حبوب؟",
+      "id": "tb_ar_152",
+      "difficulty": "medium",
+      "category": "موسيقى",
+      "question": "ما هي الآلة التي يشتهر يو يو ما بالعزف عليها؟",
       "options": [
-        "الأرز",
-        "القمح",
-        "الشعير",
-        "الذرة"
+        "التشيلو",
+        "كمان",
+        "بيانو",
+        "الكلارينيت"
       ],
-      "correctIndex": 0,
-      "id": "tb_ar_124"
+      "correctIndex": 0
     },
     {
-      "difficulty": "easy",
-      "category": "رياضة",
-      "question": "في أي رياضة يُستخدم قرص الهوكي؟",
+      "id": "tb_ar_153",
+      "difficulty": "medium",
+      "category": "موسيقى",
+      "question": "ما هو الثنائي؟",
       "options": [
-        "هوكي الجليد",
-        "كرة السلة",
-        "كرة اليد",
-        "البيسبول"
+        "أغنية لاثنين من الفنانين",
+        "إيقاع طبل سريع",
+        "جائزة موسيقية",
+        "ضوء المسرح"
       ],
-      "correctIndex": 0,
-      "id": "tb_ar_125"
+      "correctIndex": 0
     },
     {
-      "difficulty": "easy",
-      "category": "رياضة",
-      "question": "السوبر بول نهائي أي رياضة؟",
+      "id": "tb_ar_154",
+      "difficulty": "medium",
+      "category": "موسيقى",
+      "question": "ما هو النوع الذي يرتبط غالبًا بالارتجال والتأرجح؟",
       "options": [
-        "كرة القدم الأمريكية",
-        "البيسبول",
-        "كرة السلة",
-        "هوكي الجليد"
+        "موسيقى الجاز",
+        "معدن",
+        "الأوبرا",
+        "الريغي"
       ],
-      "correctIndex": 0,
-      "id": "tb_ar_126"
+      "correctIndex": 0
     },
     {
-      "difficulty": "easy",
-      "category": "رياضة",
-      "question": "في أي رياضة تُضرب الكرة من منصة (تي) بعصا؟",
+      "id": "tb_ar_155",
+      "difficulty": "hard",
+      "category": "موسيقى",
+      "question": "أي ملحن الفترة الكلاسيكية كتب الفصول الأربعة؟",
       "options": [
-        "الغولف",
-        "الكريكيت",
-        "الهوكي",
-        "البولو"
+        "فيفالدي",
+        "هاندل",
+        "هايدن",
+        "شوبرت"
       ],
-      "correctIndex": 0,
-      "id": "tb_ar_127"
+      "correctIndex": 0
     },
     {
+      "id": "tb_ar_156",
+      "difficulty": "hard",
+      "category": "موسيقى",
+      "question": "ما هو أدنى صوت غنائي قياسي للرجال؟",
+      "options": [
+        "تينور",
+        "الباريتون",
+        "باس",
+        "ألتو"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ar_157",
+      "difficulty": "hard",
+      "category": "موسيقى",
+      "question": "أي نغمة هي نصف نغمة أعلى من C؟",
+      "options": [
+        "B",
+        "ج حاد",
+        "D",
+        "ه شقة"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_158",
+      "difficulty": "hard",
+      "category": "موسيقى",
+      "question": "ما هو مصطلح الحصول على أعلى تدريجيا؟",
+      "options": [
+        "تصعيد",
+        "تصغير",
+        "ليجاتو",
+        "متقطع"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_159",
+      "difficulty": "hard",
+      "category": "موسيقى",
+      "question": "ما هي المدينة التي ترتبط بقوة بولادة موسيقى الجاز؟",
+      "options": [
+        "نيو اورليانز",
+        "سياتل",
+        "ناشفيل",
+        "ديترويت"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_160",
+      "difficulty": "hard",
+      "category": "موسيقى",
+      "question": "ما اسم الرمز الذي يوضع في بداية المقطوعة الموسيقية؟",
+      "options": [
+        "المفتاح الموسيقي",
+        "الحنق",
+        "جسر",
+        "صمام"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_161",
       "difficulty": "easy",
       "category": "فن",
-      "question": "من كتب «الهوبيت»؟",
+      "question": "من رسم الموناليزا؟",
       "options": [
-        "J.R.R. Tolkien",
-        "C.S. Lewis",
-        "J.K. Rowling",
-        "George R.R. Martin"
+        "فنسنت فان جوخ",
+        "ليوناردو دافنشي",
+        "بابلو بيكاسو",
+        "كلود مونيه"
       ],
-      "correctIndex": 0,
-      "id": "tb_ar_128"
+      "correctIndex": 1
     },
     {
+      "id": "tb_ar_162",
       "difficulty": "easy",
       "category": "فن",
-      "question": "من رسم «غيرنيكا»؟",
+      "question": "ما اللون الذي تحصل عليه من مزج اللون الأحمر مع الأزرق؟",
+      "options": [
+        "أخضر",
+        "أرجواني",
+        "برتقالي",
+        "براون"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_163",
+      "difficulty": "easy",
+      "category": "فن",
+      "question": "ما هي الأداة المستخدمة لتطبيق الطلاء على القماش؟",
+      "options": [
+        "مطرقة",
+        "فرشاة الرسم",
+        "البوصلة",
+        "إبرة"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_164",
+      "difficulty": "easy",
+      "category": "فن",
+      "question": "ما هو النحت عادة ثلاثي الأبعاد؟",
+      "options": [
+        "نعم",
+        "لا",
+        "فقط في الصور",
+        "فقط على الورق"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_165",
+      "difficulty": "easy",
+      "category": "فن",
+      "question": "ما هو المتحف الذي يضم لوحة الموناليزا؟",
+      "options": [
+        "اللوفر",
+        "برادو",
+        "تيت مودرن",
+        "أوفيزي"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_166",
+      "difficulty": "easy",
+      "category": "فن",
+      "question": "ماذا يسمى فن طي الورق؟",
+      "options": [
+        "اوريغامي",
+        "الخط",
+        "فسيفساء",
+        "الكتابة على الجدران"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_167",
+      "difficulty": "easy",
+      "category": "فن",
+      "question": "ما هو اللون الناتج عن مزج الأحمر والأصفر؟",
+      "options": [
+        "أزرق",
+        "برتقالي",
+        "أرجواني",
+        "أبيض"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_168",
+      "difficulty": "medium",
+      "category": "فن",
+      "question": "من رسم ليلة مرصعة بالنجوم؟",
       "options": [
         "بابلو بيكاسو",
+        "فنسنت فان جوخ",
         "سلفادور دالي",
-        "كلود مونيه",
-        "فنسنت فان غوخ"
+        "رامبرانت"
       ],
-      "correctIndex": 0,
-      "id": "tb_ar_129"
+      "correctIndex": 1
     },
     {
-      "difficulty": "easy",
+      "id": "tb_ar_169",
+      "difficulty": "medium",
       "category": "فن",
-      "question": "من كتب «الأمير الصغير»؟",
+      "question": "من هو الفنان المشهور بصهر الساعات؟",
       "options": [
-        "أنطوان دو سانت-إكزوبيري",
-        "جول فيرن",
-        "فيكتور هوغو",
-        "ألبير كامو"
+        "سلفادور دالي",
+        "فريدا كاهلو",
+        "آندي وارهول",
+        "بانكسي"
       ],
-      "correctIndex": 0,
-      "id": "tb_ar_130"
+      "correctIndex": 0
     },
     {
-      "id": "tb_ar_131",
+      "id": "tb_ar_170",
+      "difficulty": "medium",
+      "category": "فن",
+      "question": "ما هو الخط؟",
+      "options": [
+        "الكتابة اليدوية الزخرفية",
+        "نحت الحجر",
+        "طلاء الجدران",
+        "تحرير الصور"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_171",
+      "difficulty": "medium",
+      "category": "فن",
+      "question": "ما هي الحركة الفنية المرتبطة بكلود مونيه؟",
+      "options": [
+        "التكعيبية",
+        "الانطباعية",
+        "السريالية",
+        "فن البوب"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_172",
+      "difficulty": "medium",
+      "category": "فن",
+      "question": "ما هي الصورة الذاتية؟",
+      "options": [
+        "صورة للفنان بواسطة الفنان",
+        "منظر طبيعي",
+        "صورة جماعية",
+        "قاعدة النحت"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_173",
+      "difficulty": "medium",
+      "category": "فن",
+      "question": "ما هي المادة التي تستخدم غالباً في صناعة الفخار؟",
+      "options": [
+        "الطين",
+        "الزجاج فقط",
+        "مطاط",
+        "ورق"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_174",
+      "difficulty": "medium",
+      "category": "فن",
+      "question": "ما هو اللون الرئيسي في العمل الفني أحادي اللون؟",
+      "options": [
+        "لون واحد",
+        "لونين",
+        "جميع الألوان",
+        "لا لون"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_175",
+      "difficulty": "hard",
+      "category": "فن",
+      "question": "من هو الفنان الذي رسم الجرنيكا؟",
+      "options": [
+        "بابلو بيكاسو",
+        "هنري ماتيس",
+        "بول سيزان",
+        "إدوارد مونك"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_176",
+      "difficulty": "hard",
+      "category": "فن",
+      "question": "ما هي المدينة الإيطالية المشهورة بفن عصر النهضة ومعرض أوفيزي؟",
+      "options": [
+        "فلورنسا",
+        "البندقية",
+        "ميلان",
+        "نابولي"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_177",
+      "difficulty": "hard",
+      "category": "فن",
+      "question": "ما هي اللوحة الجدارية المنجزة؟",
+      "options": [
+        "الجص الرطب",
+        "زجاج",
+        "معدن",
+        "الحرير"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_178",
+      "difficulty": "hard",
+      "category": "فن",
+      "question": "من هو الفنان الذي ابتكر \"ثبات الذاكرة\"؟",
+      "options": [
+        "سلفادور دالي",
+        "جوان ميرو",
+        "رينيه ماغريت",
+        "جاكسون بولوك"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_179",
+      "difficulty": "hard",
+      "category": "فن",
+      "question": "ما هي طريقة الطباعة التي تستخدم كتلة منحوتة؟",
+      "options": [
+        "نقش خشبي",
+        "ألوان مائية",
+        "كلية",
+        "البخاخة"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_180",
+      "difficulty": "hard",
+      "category": "فن",
+      "question": "ما هو موضوع chiaroscuro؟",
+      "options": [
+        "الضوء والظل",
+        "الصوت والإيقاع",
+        "اللون فقط",
+        "شبكات المنظور"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_181",
+      "difficulty": "easy",
+      "category": "الرياضة",
+      "question": "كم عدد اللاعبين الموجودين في الملعب لفريق كرة قدم واحد؟",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ar_182",
+      "difficulty": "easy",
+      "category": "الرياضة",
+      "question": "ما هي الرياضة التي تستخدم المضرب والريشة؟",
+      "options": [
+        "التنس",
+        "كرة الريشة",
+        "الاسكواش",
+        "تنس الطاولة"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_183",
+      "difficulty": "easy",
+      "category": "الرياضة",
+      "question": "في كرة السلة، كم عدد النقاط التي تستحقها الرمية الحرة؟",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_184",
+      "difficulty": "easy",
+      "category": "الرياضة",
+      "question": "ما هي الرياضة التي تلعب في ويمبلدون؟",
+      "options": [
+        "لعبة الكريكيت",
+        "التنس",
+        "جولف",
+        "لعبة الركبي"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_185",
+      "difficulty": "easy",
+      "category": "الرياضة",
+      "question": "كم عدد الحلقات الموجودة على العلم الأولمبي؟",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_186",
+      "difficulty": "easy",
+      "category": "الرياضة",
+      "question": "ما هي الرياضة التي تستخدم القرص؟",
+      "options": [
+        "هوكي الجليد",
+        "البيسبول",
+        "الكرة الطائرة",
+        "الملاكمة"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_187",
+      "difficulty": "easy",
+      "category": "الرياضة",
+      "question": "ماذا يمر المتسابقون في سباق التتابع؟",
+      "options": [
+        "الكرة",
+        "باتون",
+        "العلم",
+        "قفاز"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_188",
+      "difficulty": "medium",
+      "category": "الرياضة",
+      "question": "سباق فرنسا للدراجات هو سباق في أي رياضة؟",
+      "options": [
+        "الجري",
+        "ركوب الدراجات",
+        "السباحة",
+        "التزلج"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_189",
+      "difficulty": "medium",
+      "category": "الرياضة",
+      "question": "كم عدد اللاعبين في فريق البيسبول القياسي في الملعب؟",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ar_190",
+      "difficulty": "medium",
+      "category": "الرياضة",
+      "question": "ما هي الدولة التي فازت بأكبر عدد من بطولات كأس العالم لكرة القدم للرجال؟",
+      "options": [
+        "ألمانيا",
+        "الأرجنتين",
+        "البرازيل",
+        "إيطاليا"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ar_191",
+      "difficulty": "medium",
+      "category": "الرياضة",
+      "question": "في التنس، ما هي النتيجة التي تأتي بعد التعادل؟",
+      "options": [
+        "ميزة",
+        "حب",
+        "نقطة التحديد",
+        "استراحة"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_192",
+      "difficulty": "medium",
+      "category": "الرياضة",
+      "question": "ما هي الرياضة التي تتميز بحصان الحلق؟",
+      "options": [
+        "الجمباز",
+        "الفروسية",
+        "بولو",
+        "المبارزة"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_193",
+      "difficulty": "medium",
+      "category": "الرياضة",
+      "question": "ما هو الهاتريك في كرة القدم؟",
+      "options": [
+        "ثلاثة أهداف للاعب واحد",
+        "ثلاث بطاقات صفراء",
+        "ثلاثة تبديلات",
+        "ثلاث زوايا"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_194",
+      "difficulty": "medium",
+      "category": "الرياضة",
+      "question": "ما هي الرياضة المرتبطة بكأس ستانلي؟",
+      "options": [
+        "كرة السلة",
+        "هوكي الجليد",
+        "البيسبول",
+        "لعبة الركبي"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_195",
+      "difficulty": "hard",
+      "category": "الرياضة",
+      "question": "كم يبلغ طول حوض السباحة الأولمبي؟",
+      "options": [
+        "25 مترا",
+        "50 مترا",
+        "75 مترا",
+        "100 متر"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_196",
+      "difficulty": "hard",
+      "category": "الرياضة",
+      "question": "في لعبة الجولف، ما هو الاسم الذي يطلق على الضربة الواحدة تحت المعدل؟",
+      "options": [
+        "شبح",
+        "بيردي",
+        "نسر",
+        "القطرس"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_197",
+      "difficulty": "hard",
+      "category": "الرياضة",
+      "question": "ما هي الدولة التي استضافت أول دورة ألعاب أولمبية حديثة عام 1896؟",
+      "options": [
+        "فرنسا",
+        "اليونان",
+        "المملكة المتحدة",
+        "إيطاليا"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_198",
+      "difficulty": "hard",
+      "category": "الرياضة",
+      "question": "ما هو الحد الأقصى للاستراحة في لعبة السنوكر؟",
+      "options": [
+        "120",
+        "147",
+        "155",
+        "180"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_199",
+      "difficulty": "hard",
+      "category": "الرياضة",
+      "question": "ما هي الرياضة التي تستخدم مصطلح الحب للصفر؟",
+      "options": [
+        "لعبة الكريكيت",
+        "التنس",
+        "الملاكمة",
+        "جولف"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_200",
+      "difficulty": "hard",
+      "category": "الرياضة",
+      "question": "في الملاكمة، ما الذي يمثله KO؟",
+      "options": [
+        "بالضربة القاضية",
+        "طرد",
+        "ابقِ مفتوحًا",
+        "ترتيب المفصل"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_201",
+      "difficulty": "easy",
+      "category": "التكنولوجيا",
+      "question": "ما الذي يمثله CPU؟",
+      "options": [
+        "وحدة المعالجة المركزية",
+        "وحدة طاقة الكمبيوتر",
+        "فائدة البرنامج المركزي",
+        "مستخدم المعالجة الأساسية"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_202",
+      "difficulty": "easy",
+      "category": "التكنولوجيا",
+      "question": "ما الجهاز المستخدم لتحريك المؤشر على جهاز الكمبيوتر؟",
+      "options": [
+        "الفأر",
+        "المتحدث",
+        "طابعة",
+        "جهاز التوجيه"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_203",
+      "difficulty": "easy",
+      "category": "التكنولوجيا",
+      "question": "ما الذي يسمح Wi-Fi للأجهزة بالاتصال به؟",
+      "options": [
+        "الماء",
+        "الشبكات اللاسلكية",
+        "ورق",
+        "المحركات الكهربائية"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_204",
+      "difficulty": "easy",
+      "category": "التكنولوجيا",
+      "question": "ما هي الشركة المصنعة للآيفون؟",
+      "options": [
+        "سامسونج",
+        "أبل",
+        "سوني",
+        "نوكيا"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_205",
+      "difficulty": "easy",
+      "category": "التكنولوجيا",
+      "question": "ما هي كلمة المرور المستخدمة؟",
+      "options": [
+        "الأمن",
+        "الطباعة",
+        "الشحن",
+        "التبريد"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_206",
+      "difficulty": "easy",
+      "category": "التكنولوجيا",
+      "question": "ما الذي يتصل به USB عادةً؟",
+      "options": [
+        "الأجهزة وأجهزة الكمبيوتر",
+        "الأحذية والجوارب",
+        "الكتب والصفحات",
+        "النباتات والتربة"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_207",
+      "difficulty": "easy",
+      "category": "التكنولوجيا",
+      "question": "ما هو التطبيق القصير؟",
+      "options": [
+        "التطبيق",
+        "موعد",
+        "موافقة",
+        "الملحق"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_208",
+      "difficulty": "medium",
+      "category": "التكنولوجيا",
+      "question": "ما الذي يمثله URL؟",
+      "options": [
+        "محدد موقع الموارد الموحد",
+        "خط القراءة العالمي",
+        "رابط وقت تشغيل المستخدم",
+        "قائمة السجلات الموحدة"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_209",
+      "difficulty": "medium",
+      "category": "التكنولوجيا",
+      "question": "ما هي الوظيفة الرئيسية لجهاز التوجيه؟",
+      "options": [
+        "تخزين الصور",
+        "حركة مرور الشبكة المباشرة",
+        "طباعة المستندات",
+        "فحص الفيروسات فقط"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_210",
+      "difficulty": "medium",
+      "category": "التكنولوجيا",
+      "question": "ما نوع الملف الشائع استخدامه للصور؟",
+      "options": [
+        "JPEG",
+        "MP3",
+        "DOCX",
+        "EXE"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_211",
+      "difficulty": "medium",
+      "category": "التكنولوجيا",
+      "question": "ما الذي يمثله RAM؟",
+      "options": [
+        "ذاكرة الوصول العشوائي",
+        "وحدة العمل السريع",
+        "قراءة جميع وسائل الإعلام",
+        "وقت التشغيل Auوضع dio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_212",
+      "difficulty": "medium",
+      "category": "التكنولوجيا",
+      "question": "ما هو استخدام التخزين السحابي؟",
+      "options": [
+        "حفظ الملفات على الانترنت",
+        "شاشات التنظيف",
+        "تبريد أجهزة الكمبيوتر المحمولة",
+        "شحن الهواتف"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_213",
+      "difficulty": "medium",
+      "category": "التكنولوجيا",
+      "question": "ما الذي يساعد GPS في تحديده؟",
+      "options": [
+        "الموقع",
+        "عمر البطارية",
+        "حجم الشاشة",
+        "قوة كلمة المرور"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_214",
+      "difficulty": "medium",
+      "category": "التكنولوجيا",
+      "question": "ما هي التكنولوجيا المستخدمة للمدفوعات اللاتلامسية؟",
+      "options": [
+        "NFC",
+        "VHS",
+        "CRT",
+        "DVD"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_215",
+      "difficulty": "hard",
+      "category": "التكنولوجيا",
+      "question": "ما الذي يمثله HTML؟",
+      "options": [
+        "لغة ترميز النص التشعبي",
+        "منطق آلة النقل العالي",
+        "رابط ترميز الأداة الرئيسية",
+        "القائمة الرئيسية لنص الارتباط التشعبي"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_216",
+      "difficulty": "hard",
+      "category": "التكنولوجيا",
+      "question": "ما هي المصادقة الثنائية المصممة لتحسينها؟",
+      "options": [
+        "سطوع الشاشة",
+        "أمان الحساب",
+        "سرعة التحميل",
+        "Auجودة الصوت"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_217",
+      "difficulty": "hard",
+      "category": "التكنولوجيا",
+      "question": "ما هو نظام الأرقام الذي يستخدم 0 و 1 فقط؟",
+      "options": [
+        "عشري",
+        "ثنائي",
+        "سداسي عشري",
+        "روماني"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_218",
+      "difficulty": "hard",
+      "category": "التكنولوجيا",
+      "question": "ما الذي تعنيه واجهة برمجة التطبيقات (API)؟",
+      "options": [
+        "واجهة برمجة التطبيقات",
+        "Auفهرس البرامج التلقائي",
+        "تطبيق إدخال البكسل",
+        "عملية الإنترنت المتقدمة"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_219",
+      "difficulty": "hard",
+      "category": "التكنولوجيا",
+      "question": "ما الذي يمثله SSD؟",
+      "options": [
+        "محرك الحالة الصلبة",
+        "قرص تخزين النظام",
+        "جهاز البرمجيات الذكية",
+        "محرك إشارة آمن"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_220",
+      "difficulty": "hard",
+      "category": "التكنولوجيا",
+      "question": "ما هو البروتوكول الشائع استخدامه لتحميل مواقع الويب الآمنة؟",
+      "options": [
+        "HTTP",
+        "HTTPS",
+        "FTP",
+        "SMTP"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_221",
       "difficulty": "easy",
       "category": "الإنترنت",
-      "question": "ماذا تعني DM عادة؟",
+      "question": "ما الذي يمثله DM عادةً؟",
       "options": [
         "رسالة مباشرة",
-        "ميم يومي",
-        "وضع رقمي",
-        "وسائط عميقة"
+        "خريطة رقمية",
+        "الوضع اليومي",
+        "ذاكرة البيانات"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_ar_132",
+      "id": "tb_ar_222",
       "difficulty": "easy",
       "category": "الإنترنت",
-      "question": "أي منصة تشتهر بالفيديوهات العمودية القصيرة؟",
+      "question": "ما هو الرمز الذي يبدأ الهاشتاج؟",
       "options": [
-        "تيك توك",
+        "@",
+        "#",
+        "&",
+        "*"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_223",
+      "difficulty": "easy",
+      "category": "الإنترنت",
+      "question": "ما هي الصورة الشخصية؟",
+      "options": [
+        "صورة لنفسك",
+        "كلمة مرور",
+        "نتيجة بحث",
+        "لعبة فيديو"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_224",
+      "difficulty": "easy",
+      "category": "الإنترنت",
+      "question": "ما هي المنصة الأكثر شهرة لمقاطع الفيديو العمودية القصيرة؟",
+      "options": [
+        "TikTok",
         "ويكيبيديا",
-        "إكسل",
-        "الخرائط"
+        "دروببوإكس",
+        "سلاك"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_ar_133",
+      "id": "tb_ar_225",
       "difficulty": "easy",
       "category": "الإنترنت",
-      "question": "ما الاستخدام الأساسي للقطة الشاشة؟",
+      "question": "ما هو الرمز التعبيري؟",
       "options": [
-        "حفظ صورة الشاشة",
-        "حفظ كلمة مرور",
-        "حفظ بطارية",
-        "حفظ نغمة رنين"
+        "أيقونة رقمية صغيرة",
+        "متصفح ويب",
+        "تنسيق ملف",
+        "نوع من الكابلات"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_226",
+      "difficulty": "easy",
+      "category": "الإنترنت",
+      "question": "ماذا يعني LOL عادةً عبر الإنترنت؟",
+      "options": [
+        "الكثير من الأضواء",
+        "يضحك بصوت عال",
+        "قائمة الروابط",
+        "قليل الحظ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ar_227",
+      "difficulty": "easy",
+      "category": "الإنترنت",
+      "question": "ما هي لقطة الشاشة المستخدمة للحفظ؟",
+      "options": [
+        "ما هو على الشاشة",
+        "شحنة بطارية",
+        "مكالمة هاتفية",
+        "كلمة مرور Wi-Fi فقط"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_228",
+      "difficulty": "medium",
+      "category": "الإنترنت",
+      "question": "ما هو Clickbait المصمم للحصول عليه؟",
+      "options": [
+        "النقرات",
+        "النوم",
+        "بيانات الطقس",
+        "كلمات المرور فقط"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_229",
+      "difficulty": "medium",
+      "category": "الإنترنت",
+      "question": "ماذا يعني URL في الاستخدام اليومي للإنترنت؟",
+      "options": [
+        "عنوان ويب",
+        "ملف موسيقى",
+        "وضع الكاميرا",
+        "بطارية هاتف"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_230",
+      "difficulty": "medium",
+      "category": "الإنترنت",
+      "question": "ما هو ميمي؟",
+      "options": [
+        "نكتة أو فكرة قابلة للمشاركة",
+        "نوع من لوحة المفاتيح",
+        "كلمة مرور خاصة",
+        "خادم سحابي"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_231",
+      "difficulty": "medium",
+      "category": "الإنترنت",
+      "question": "ما هو التصيد؟",
+      "options": [
+        "عملية احتيال لسرقة المعلومات",
+        "طريقة لتعديل الصور",
+        "نوع الموسيقى",
+        "مرشح الفيديو"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_232",
+      "difficulty": "medium",
+      "category": "الإنترنت",
+      "question": "ماذا يعني البث المباشر؟",
+      "options": [
+        "البث في الوقت الحقيقي",
+        "حفظ ملف",
+        "كتابة التعليمات البرمجية حاليا",
+        "طباعة الصور"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_233",
+      "difficulty": "medium",
+      "category": "الإنترنت",
+      "question": "ما هو اسم المستخدم؟",
+      "options": [
+        "اسم الحساب العام",
+        "فيروس كمبيوتر",
+        "كابل الشاشة",
+        "بطاقة دفع"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_234",
+      "difficulty": "medium",
+      "category": "الإنترنت",
+      "question": "ما هو المتصفح المستخدم ل؟",
+      "options": [
+        "الوصول إلى المواقع",
+        "خلط الموسيقى",
+        "أجهزة الشحن",
+        "رسم الخرائط"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_235",
+      "difficulty": "hard",
+      "category": "الإنترنت",
+      "question": "ما الذي يمثله SEO؟",
+      "options": [
+        "تحسين محرك البحث",
+        "تأمين إخراج البريد الإلكتروني",
+        "خيار التحرير الاجتماعي",
+        "أمر دخول النظام"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_236",
+      "difficulty": "hard",
+      "category": "الإنترنت",
+      "question": "ما هو ملف تعريف الارتباط في تصفح الويب؟",
+      "options": [
+        "بيانات الموقع المخزنة",
+        "اختصار لوحة المفاتيح",
+        "مرشح الصور",
+        "رد فعل الدردشة"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_237",
+      "difficulty": "hard",
+      "category": "الإنترنت",
+      "question": "ما الذي يمثله HTTP؟",
+      "options": [
+        "بروتوكول نقل النص التشعبي",
+        "برنامج نص عالي التقنية",
+        "منفذ أداة نقل المنزل",
+        "صفحة تتبع الارتباط التشعبي"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_238",
+      "difficulty": "hard",
+      "category": "الإنترنت",
+      "question": "ما الذي يمثله VPN؟",
+      "options": [
+        "الشبكة الخاصة الافتراضية",
+        "الاسم العام الذي تم التحقق منه",
+        "رقم الصفحة المرئية",
+        "عقدة معالجة الفيديو"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_239",
+      "difficulty": "hard",
+      "category": "الإنترنت",
+      "question": "ما هو الاسم الشائع للاتصال المرئي ثنائي الاتجاه؟",
+      "options": [
+        "مكالمة فيديو",
+        "لقطة الشاشة",
+        "إشارة مرجعية",
+        "كلمة التحقق"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ar_240",
+      "difficulty": "hard",
+      "category": "الإنترنت",
+      "question": "ما هو رمز التحقق الذي يستخدم بشكل أساسي للكشف؟",
+      "options": [
+        "الروبوتات",
+        "الألوان",
+        "حجم الشاشة",
+        "مستوى البطارية"
       ],
       "correctIndex": 0
     }

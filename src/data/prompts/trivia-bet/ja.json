@@ -1,18 +1,18 @@
 {
   "gameId": "trivia-bet",
   "locale": "ja",
-  "version": 1,
+  "version": 2,
   "questions": [
     {
       "id": "tb_ja_001",
       "difficulty": "easy",
       "category": "科学",
-      "question": "赤い惑星として知られる惑星は？",
+      "question": "植物が光合成中に空気から吸収するガスは何ですか?",
       "options": [
-        "金星",
-        "火星",
-        "木星",
-        "土星"
+        "酸素",
+        "二酸化炭素",
+        "水素",
+        "窒素"
       ],
       "correctIndex": 1
     },
@@ -20,280 +20,267 @@
       "id": "tb_ja_002",
       "difficulty": "easy",
       "category": "科学",
-      "question": "H2Oは一般に何と呼ばれる？",
+      "question": "水の化学記号は何ですか?",
       "options": [
-        "塩",
-        "水",
-        "酸素",
-        "砂糖"
+        "WO",
+        "H2O",
+        "O2H",
+        "HO2"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_003",
       "difficulty": "easy",
-      "category": "地理",
-      "question": "世界最大の海洋は？",
+      "category": "科学",
+      "question": "赤い惑星として知られている惑星はどれですか?",
       "options": [
-        "大西洋",
-        "インド洋",
-        "太平洋",
-        "北極海"
+        "金星",
+        "火星",
+        "ジュピター",
+        "水星"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_ja_004",
       "difficulty": "easy",
-      "category": "地理",
-      "question": "東京がある国は？",
+      "category": "科学",
+      "question": "昆虫の足は何本ありますか?",
       "options": [
-        "日本",
-        "中国",
-        "韓国",
-        "タイ"
+        "4",
+        "6",
+        "8",
+        "10"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_ja_005",
       "difficulty": "easy",
-      "category": "歴史",
-      "question": "モナ・リザを描いたのは誰？",
+      "category": "科学",
+      "question": "物体を地球に引き寄せる力は何ですか?",
       "options": [
-        "ピカソ",
-        "レオナルド・ダ・ヴィンチ",
-        "ゴッホ",
-        "モネ"
+        "磁性",
+        "重力",
+        "摩擦",
+        "電気"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_006",
       "difficulty": "easy",
-      "category": "文化",
-      "question": "「千と千尋の神隠し」を制作したスタジオは？",
+      "category": "科学",
+      "question": "血液を体中に送り出す器官はどれですか?",
       "options": [
-        "ピクサー",
-        "スタジオジブリ",
-        "ディズニー",
-        "ドリームワークス"
+        "肝臓",
+        "ハート",
+        "肺",
+        "腎臓"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_007",
       "difficulty": "easy",
-      "category": "スポーツ",
-      "question": "サッカーでフィールドに出る1チームの人数は？",
+      "category": "科学",
+      "question": "原子の中心は何と呼ばれますか?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "核",
+        "セル",
+        "軌道",
+        "シェル"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_008",
+      "difficulty": "medium",
+      "category": "科学",
+      "question": "金の元素記号は何ですか?",
+      "options": [
+        "行く",
+        "Gd",
+        "Au",
+        "Ag"
       ],
       "correctIndex": 2
     },
     {
-      "id": "tb_ja_008",
-      "difficulty": "easy",
-      "category": "食べ物",
-      "question": "生の魚を切り身で出す日本料理は？",
-      "options": [
-        "天ぷら",
-        "刺身",
-        "うどん",
-        "餅"
-      ],
-      "correctIndex": 1
-    },
-    {
       "id": "tb_ja_009",
-      "difficulty": "easy",
-      "category": "文化",
-      "question": "ハングルで書かれる言語は？",
+      "difficulty": "medium",
+      "category": "科学",
+      "question": "海面での水の沸点は摂氏で何度ですか?",
       "options": [
-        "日本語",
-        "韓国語",
-        "ポーランド語",
-        "スウェーデン語"
+        "90",
+        "95",
+        "100",
+        "110"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "tb_ja_010",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "category": "科学",
-      "question": "植物が光合成で吸収する気体は？",
+      "question": "細胞のどの部分にその DNA がほとんど含まれていますか?",
       "options": [
-        "酸素",
-        "二酸化炭素",
-        "窒素",
-        "水素"
+        "リボソーム",
+        "核",
+        "細胞壁",
+        "ミトコンドリア"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_011",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "category": "科学",
-      "question": "赤い惑星として知られる惑星は？",
+      "question": "伸びた輪ゴムにはどのようなエネルギーが蓄えられているのでしょうか?",
       "options": [
-        "金星",
-        "火星",
-        "木星",
-        "土星"
+        "化学",
+        "弾性ポテンシャル",
+        "熱",
+        "核"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_012",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "category": "科学",
-      "question": "H2Oは一般に何と呼ばれる？",
+      "question": "皮膚が日光にさらされると生成されるビタミンはどれですか?",
       "options": [
-        "塩",
-        "水",
-        "酸素",
-        "砂糖"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_ja_013",
-      "difficulty": "easy",
-      "category": "地理",
-      "question": "世界最大の海洋は？",
-      "options": [
-        "大西洋",
-        "インド洋",
-        "太平洋",
-        "北極海"
+        "ビタミンA",
+        "ビタミンC",
+        "ビタミンD",
+        "ビタミンK"
       ],
       "correctIndex": 2
     },
     {
-      "id": "tb_ja_014",
-      "difficulty": "easy",
-      "category": "地理",
-      "question": "東京がある国は？",
+      "id": "tb_ja_013",
+      "difficulty": "medium",
+      "category": "科学",
+      "question": "地震を測定するために使用される機器は何ですか?",
       "options": [
-        "日本",
-        "中国",
-        "韓国",
-        "タイ"
+        "バロメーター",
+        "地震計",
+        "湿度計",
+        "高度計"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_014",
+      "difficulty": "medium",
+      "category": "科学",
+      "question": "地球上で最も硬い天然物質は何ですか?",
+      "options": [
+        "クォーツ",
+        "ダイヤモンド",
+        "花崗岩",
+        "鉄"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_015",
+      "difficulty": "hard",
+      "category": "科学",
+      "question": "電流のSI単位とは何ですか?",
+      "options": [
+        "ボルト",
+        "ワット",
+        "アンペア",
+        "オーム"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_016",
+      "difficulty": "hard",
+      "category": "科学",
+      "question": "3 つの運動法則を提案した科学者は誰ですか?",
+      "options": [
+        "アイザック・ニュートン",
+        "アルバート・アインシュタイン",
+        "ガリレオ・ガリレイ",
+        "ニコラ・テスラ"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_ja_015",
-      "difficulty": "easy",
-      "category": "歴史",
-      "question": "モナ・リザを描いたのは誰？",
-      "options": [
-        "ピカソ",
-        "レオナルド・ダ・ヴィンチ",
-        "ゴッホ",
-        "モネ"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_ja_016",
-      "difficulty": "easy",
-      "category": "文化",
-      "question": "「千と千尋の神隠し」を制作したスタジオは？",
-      "options": [
-        "ピクサー",
-        "スタジオジブリ",
-        "ディズニー",
-        "ドリームワークス"
-      ],
-      "correctIndex": 1
-    },
-    {
       "id": "tb_ja_017",
-      "difficulty": "easy",
-      "category": "スポーツ",
-      "question": "サッカーでフィールドに出る1チームの人数は？",
+      "difficulty": "hard",
+      "category": "科学",
+      "question": "地球の大気中に最も多く存在するガスは何ですか?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "酸素",
+        "二酸化炭素",
+        "窒素",
+        "アルゴン"
       ],
       "correctIndex": 2
     },
     {
       "id": "tb_ja_018",
-      "difficulty": "easy",
-      "category": "食べ物",
-      "question": "生の魚を切り身で出す日本料理は？",
+      "difficulty": "hard",
+      "category": "科学",
+      "question": "マイナスの電荷を持つ粒子は何ですか?",
       "options": [
-        "天ぷら",
-        "刺身",
-        "うどん",
-        "餅"
+        "プロトン",
+        "中性子",
+        "電子",
+        "フォトン"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "tb_ja_019",
-      "difficulty": "easy",
-      "category": "文化",
-      "question": "ハングルで書かれる言語は？",
+      "difficulty": "hard",
+      "category": "科学",
+      "question": "室温における中性溶液の pH 値はどれくらいですか?",
       "options": [
-        "日本語",
-        "韓国語",
-        "ポーランド語",
-        "スウェーデン語"
+        "0",
+        "5",
+        "7",
+        "14"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "tb_ja_020",
-      "difficulty": "easy",
+      "difficulty": "hard",
       "category": "科学",
-      "question": "植物が光合成で吸収する気体は？",
+      "question": "体が感染症と戦うのを助ける血球はどれですか?",
       "options": [
-        "酸素",
-        "二酸化炭素",
-        "窒素",
-        "水素"
+        "赤血球",
+        "白血球",
+        "血小板",
+        "形質細胞"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_021",
       "difficulty": "easy",
-      "category": "科学",
-      "question": "赤い惑星として知られる惑星は？",
+      "category": "地理",
+      "question": "フランスの首都はどこですか?",
       "options": [
-        "金星",
-        "火星",
-        "木星",
-        "土星"
+        "リヨン",
+        "パリ",
+        "マルセイユ",
+        "素敵です"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_022",
       "difficulty": "easy",
-      "category": "科学",
-      "question": "H2Oは一般に何と呼ばれる？",
-      "options": [
-        "塩",
-        "水",
-        "酸素",
-        "砂糖"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_ja_023",
-      "difficulty": "easy",
       "category": "地理",
-      "question": "世界最大の海洋は？",
+      "question": "どの海が一番大きいですか?",
       "options": [
         "大西洋",
         "インド洋",
@@ -303,1349 +290,1440 @@
       "correctIndex": 2
     },
     {
+      "id": "tb_ja_023",
+      "difficulty": "easy",
+      "category": "地理",
+      "question": "ギザのピラミッドで有名な国はどこですか?",
+      "options": [
+        "メキシコ",
+        "エジプト",
+        "ギリシャ",
+        "インド"
+      ],
+      "correctIndex": 1
+    },
+    {
       "id": "tb_ja_024",
       "difficulty": "easy",
       "category": "地理",
-      "question": "東京がある国は？",
+      "question": "日本の首都はどこですか?",
       "options": [
-        "日本",
-        "中国",
-        "韓国",
-        "タイ"
+        "京都",
+        "大阪",
+        "東京",
+        "広島"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "tb_ja_025",
       "difficulty": "easy",
-      "category": "歴史",
-      "question": "モナ・リザを描いたのは誰？",
+      "category": "地理",
+      "question": "ブラジルはどの大陸にありますか?",
       "options": [
-        "ピカソ",
-        "レオナルド・ダ・ヴィンチ",
-        "ゴッホ",
-        "モネ"
+        "アフリカ",
+        "南アメリカ",
+        "ヨーロッパ",
+        "アジア"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_026",
       "difficulty": "easy",
-      "category": "文化",
-      "question": "「千と千尋の神隠し」を制作したスタジオは？",
+      "category": "地理",
+      "question": "陸地面積が最も大きい国はどこですか?",
       "options": [
-        "ピクサー",
-        "スタジオジブリ",
-        "ディズニー",
-        "ドリームワークス"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_ja_027",
-      "difficulty": "easy",
-      "category": "スポーツ",
-      "question": "サッカーでフィールドに出る1チームの人数は？",
-      "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "カナダ",
+        "中国",
+        "ロシア",
+        "米国"
       ],
       "correctIndex": 2
     },
     {
-      "id": "tb_ja_028",
+      "id": "tb_ja_027",
       "difficulty": "easy",
-      "category": "食べ物",
-      "question": "生の魚を切り身で出す日本料理は？",
+      "category": "地理",
+      "question": "ロンドンを流れる川はどれですか?",
       "options": [
-        "天ぷら",
-        "刺身",
-        "うどん",
-        "餅"
+        "セーヌ川",
+        "テムズ川",
+        "ドナウ川",
+        "ライン川"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_ja_029",
-      "difficulty": "easy",
-      "category": "文化",
-      "question": "ハングルで書かれる言語は？",
+      "id": "tb_ja_028",
+      "difficulty": "medium",
+      "category": "地理",
+      "question": "Australia の首都はどこですか?",
       "options": [
-        "日本語",
-        "韓国語",
-        "ポーランド語",
-        "スウェーデン語"
+        "シドニー",
+        "メルボルン",
+        "キャンベラ",
+        "ブリスベン"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_029",
+      "difficulty": "medium",
+      "category": "地理",
+      "question": "キリマンジャロ山はどこの国にありますか?",
+      "options": [
+        "ケニア",
+        "タンザニア",
+        "ウガンダ",
+        "エチオピア"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_030",
-      "difficulty": "easy",
-      "category": "科学",
-      "question": "植物が光合成で吸収する気体は？",
+      "difficulty": "medium",
+      "category": "地理",
+      "question": "世界で最大の暑い砂漠はどの砂漠ですか?",
       "options": [
-        "酸素",
-        "二酸化炭素",
-        "窒素",
-        "水素"
+        "ゴビ",
+        "サハラ",
+        "カラハリ砂漠",
+        "モハベ"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_031",
-      "difficulty": "easy",
-      "category": "科学",
-      "question": "赤い惑星として知られる惑星は？",
+      "difficulty": "medium",
+      "category": "地理",
+      "question": "マラケシュという都市がある国はどこですか?",
       "options": [
-        "金星",
-        "火星",
-        "木星",
-        "土星"
+        "チュニジア",
+        "モロッコ",
+        "アルジェリア",
+        "エジプト"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_032",
-      "difficulty": "easy",
-      "category": "科学",
-      "question": "H2Oは一般に何と呼ばれる？",
+      "difficulty": "medium",
+      "category": "地理",
+      "question": "ヨーロッパとアフリカを隔てる海は何ですか?",
       "options": [
-        "塩",
-        "水",
-        "酸素",
-        "砂糖"
+        "紅海",
+        "地中海",
+        "黒海",
+        "バルト海"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_033",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "category": "地理",
-      "question": "世界最大の海洋は？",
+      "question": "サンシャインステートとして知られる米国の州はどこですか?",
       "options": [
-        "大西洋",
-        "インド洋",
-        "太平洋",
-        "北極海"
+        "カリフォルニア",
+        "フロリダ",
+        "アリゾナ",
+        "ハワイ"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_ja_034",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "category": "地理",
-      "question": "東京がある国は？",
+      "question": "自然の湖が最も多い国はどこですか?",
       "options": [
-        "日本",
-        "中国",
-        "韓国",
-        "タイ"
+        "カナダ",
+        "ブラジル",
+        "ロシア",
+        "フィンランド"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_ja_035",
-      "difficulty": "easy",
-      "category": "歴史",
-      "question": "モナ・リザを描いたのは誰？",
+      "difficulty": "hard",
+      "category": "地理",
+      "question": "カザフスタンの首都はどこですか?",
       "options": [
-        "ピカソ",
-        "レオナルド・ダ・ヴィンチ",
-        "ゴッホ",
-        "モネ"
+        "アルマトイ",
+        "アスタナ",
+        "ビシュケク",
+        "タシケント"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_036",
-      "difficulty": "easy",
-      "category": "文化",
-      "question": "「千と千尋の神隠し」を制作したスタジオは？",
+      "difficulty": "hard",
+      "category": "地理",
+      "question": "ブレッド湖がある国はどこですか?",
       "options": [
-        "ピクサー",
-        "スタジオジブリ",
-        "ディズニー",
-        "ドリームワークス"
+        "スロベニア",
+        "クロアチア",
+        "Auストリア",
+        "スロバキア"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_ja_037",
-      "difficulty": "easy",
-      "category": "スポーツ",
-      "question": "サッカーでフィールドに出る1チームの人数は？",
+      "difficulty": "hard",
+      "category": "地理",
+      "question": "アタカマ砂漠は主にどこの国にありますか?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_ja_038",
-      "difficulty": "easy",
-      "category": "食べ物",
-      "question": "生の魚を切り身で出す日本料理は？",
-      "options": [
-        "天ぷら",
-        "刺身",
-        "うどん",
-        "餅"
+        "ペルー",
+        "チリ",
+        "ボリビア",
+        "アルゼンチン"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_ja_039",
-      "difficulty": "easy",
-      "category": "文化",
-      "question": "ハングルで書かれる言語は？",
+      "id": "tb_ja_038",
+      "difficulty": "hard",
+      "category": "地理",
+      "question": "ヨーロッパとアジアに分かれているのはどの都市ですか?",
       "options": [
-        "日本語",
-        "韓国語",
-        "ポーランド語",
-        "スウェーデン語"
+        "イスタンブール",
+        "アテネ",
+        "カイロ",
+        "リスボン"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_039",
+      "difficulty": "hard",
+      "category": "地理",
+      "question": "世界で一番長い山脈は何ですか?",
+      "options": [
+        "ヒマラヤ",
+        "アンデス",
+        "ロッキー山脈",
+        "アルプス"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_040",
-      "difficulty": "easy",
-      "category": "科学",
-      "question": "植物が光合成で吸収する気体は？",
+      "difficulty": "hard",
+      "category": "地理",
+      "question": "クローネを通貨として使用している国はどこですか?",
       "options": [
-        "酸素",
-        "二酸化炭素",
-        "窒素",
-        "水素"
+        "ノルウェー",
+        "ポーランド",
+        "ハンガリー",
+        "ルーマニア"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_ja_041",
       "difficulty": "easy",
-      "category": "科学",
-      "question": "赤い惑星として知られる惑星は？",
+      "category": "歴史",
+      "question": "タイタニック号が沈没したのは何年ですか?",
       "options": [
-        "金星",
-        "火星",
-        "木星",
-        "土星"
+        "1908",
+        "1912",
+        "1916",
+        "1920"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_042",
       "difficulty": "easy",
-      "category": "科学",
-      "question": "H2Oは一般に何と呼ばれる？",
+      "category": "歴史",
+      "question": "アメリカの初代大統領は誰ですか?",
       "options": [
-        "塩",
-        "水",
-        "酸素",
-        "砂糖"
+        "トーマス・ジェファーソン",
+        "ジョージ・ワシントン",
+        "エイブラハム・リンカーン",
+        "ジョン・アダムス"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_043",
       "difficulty": "easy",
-      "category": "地理",
-      "question": "世界最大の海洋は？",
+      "category": "歴史",
+      "question": "万里の長城は主にどの国と関係がありますか?",
       "options": [
-        "大西洋",
-        "インド洋",
-        "太平洋",
-        "北極海"
+        "日本",
+        "中国",
+        "インド",
+        "モンゴル"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_ja_044",
       "difficulty": "easy",
-      "category": "地理",
-      "question": "東京がある国は？",
+      "category": "歴史",
+      "question": "オルレアンの乙女として知られていたのは誰ですか?",
       "options": [
-        "日本",
-        "中国",
-        "韓国",
-        "タイ"
+        "クレオパトラ",
+        "ジャンヌ・ダルク",
+        "ヴィクトリア女王",
+        "マリー・キュリー"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_ja_045",
       "difficulty": "easy",
       "category": "歴史",
-      "question": "モナ・リザを描いたのは誰？",
+      "question": "コロッセオを建てたのはどの古代文明ですか?",
       "options": [
-        "ピカソ",
-        "レオナルド・ダ・ヴィンチ",
-        "ゴッホ",
-        "モネ"
+        "ギリシャ語",
+        "ローマ人",
+        "マヤ語",
+        "ペルシア語"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_046",
-      "difficulty": "medium",
-      "category": "文化",
-      "question": "「千と千尋の神隠し」を制作したスタジオは？",
+      "difficulty": "easy",
+      "category": "歴史",
+      "question": "1945 年に終わったのはどの戦争ですか?",
       "options": [
-        "ピクサー",
-        "スタジオジブリ",
-        "ディズニー",
-        "ドリームワークス"
+        "第一次世界大戦",
+        "第二次世界大戦",
+        "朝鮮戦争",
+        "ベトナム戦争"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_047",
-      "difficulty": "medium",
-      "category": "スポーツ",
-      "question": "サッカーでフィールドに出る1チームの人数は？",
+      "difficulty": "easy",
+      "category": "歴史",
+      "question": "ペニシリンを発見したのは誰ですか?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "アレクサンダー・フレミング",
+        "ルイ・パスツール",
+        "マリー・キュリー",
+        "チャールズ・ダーウィン"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "tb_ja_048",
       "difficulty": "medium",
-      "category": "食べ物",
-      "question": "生の魚を切り身で出す日本料理は？",
+      "category": "歴史",
+      "question": "大西洋を単独飛行した最初の女性は誰ですか?",
       "options": [
-        "天ぷら",
-        "刺身",
-        "うどん",
-        "餅"
+        "アメリア・イアハート",
+        "ベッシー・コールマン",
+        "ヴァレンティーナ・テレシコワ",
+        "サリー・ライド"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_ja_049",
       "difficulty": "medium",
-      "category": "文化",
-      "question": "ハングルで書かれる言語は？",
+      "category": "歴史",
+      "question": "ベルリンの壁が崩壊したのは何年ですか?",
       "options": [
-        "日本語",
-        "韓国語",
-        "ポーランド語",
-        "スウェーデン語"
+        "1987",
+        "1989",
+        "1991",
+        "1993"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_050",
       "difficulty": "medium",
-      "category": "科学",
-      "question": "植物が光合成で吸収する気体は？",
+      "category": "歴史",
+      "question": "チンギス・ハーンが統治した帝国はどれですか?",
       "options": [
-        "酸素",
-        "二酸化炭素",
-        "窒素",
-        "水素"
+        "オスマン帝国",
+        "モンゴル帝国",
+        "ローマ帝国",
+        "ペルシア帝国"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_051",
       "difficulty": "medium",
-      "category": "科学",
-      "question": "赤い惑星として知られる惑星は？",
+      "category": "歴史",
+      "question": "初めて月面を歩いた人は誰ですか?",
       "options": [
-        "金星",
-        "火星",
-        "木星",
-        "土星"
+        "バズ・オルドリン",
+        "ユーリ・ガガーリン",
+        "ニール・アームストロング",
+        "マイケル・コリンズ"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "tb_ja_052",
       "difficulty": "medium",
-      "category": "科学",
-      "question": "H2Oは一般に何と呼ばれる？",
+      "category": "歴史",
+      "question": "ルネッサンスは現代のどの国で始まりましたか?",
       "options": [
-        "塩",
-        "水",
-        "酸素",
-        "砂糖"
+        "フランス",
+        "イタリア",
+        "ドイツ",
+        "スペイン"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_053",
       "difficulty": "medium",
-      "category": "地理",
-      "question": "世界最大の海洋は？",
+      "category": "歴史",
+      "question": "「We the People」という言葉で始まる文書はどれですか?",
       "options": [
-        "大西洋",
-        "インド洋",
-        "太平洋",
-        "北極海"
+        "マグナカルタ",
+        "米国憲法",
+        "独立宣言",
+        "権利章典"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_ja_054",
       "difficulty": "medium",
-      "category": "地理",
-      "question": "東京がある国は？",
+      "category": "歴史",
+      "question": "ビクトリア朝時代の大部分にわたってイングランドを統治した女王は誰ですか?",
       "options": [
-        "日本",
-        "中国",
-        "韓国",
-        "タイ"
+        "エリザベス1世",
+        "メアリー1世",
+        "ビクトリア",
+        "アン"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "tb_ja_055",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "category": "歴史",
-      "question": "モナ・リザを描いたのは誰？",
+      "question": "ロゼッタ ストーンは学者が古代文字を読むのに役立ったのはどれですか?",
       "options": [
-        "ピカソ",
-        "レオナルド・ダ・ヴィンチ",
-        "ゴッホ",
-        "モネ"
+        "楔形文字",
+        "象形文字",
+        "サンスクリット語",
+        "リニアB"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_056",
-      "difficulty": "medium",
-      "category": "文化",
-      "question": "「千と千尋の神隠し」を制作したスタジオは？",
+      "difficulty": "hard",
+      "category": "歴史",
+      "question": "ハイチ革命を主導したのは誰ですか?",
       "options": [
-        "ピクサー",
-        "スタジオジブリ",
-        "ディズニー",
-        "ドリームワークス"
+        "トゥサン ルーベルチュール",
+        "シモン・ボリバル",
+        "ミゲル・イダルゴ",
+        "ホセ・デ・サン・マルティン"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_057",
+      "difficulty": "hard",
+      "category": "歴史",
+      "question": "第一次世界大戦を終わらせた条約はどれですか?",
+      "options": [
+        "パリ条約",
+        "ベルサイユ条約",
+        "トルデシリャス条約",
+        "ユトレヒト条約"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_ja_057",
-      "difficulty": "medium",
-      "category": "スポーツ",
-      "question": "サッカーでフィールドに出る1チームの人数は？",
+      "id": "tb_ja_058",
+      "difficulty": "hard",
+      "category": "歴史",
+      "question": "ビザンチン帝国の首都はどこの都市でしたか?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "ローマ",
+        "アテネ",
+        "コンスタンティノープル",
+        "アレクサンドリア"
       ],
       "correctIndex": 2
     },
     {
-      "id": "tb_ja_058",
-      "difficulty": "medium",
-      "category": "食べ物",
-      "question": "生の魚を切り身で出す日本料理は？",
-      "options": [
-        "天ぷら",
-        "刺身",
-        "うどん",
-        "餅"
-      ],
-      "correctIndex": 1
-    },
-    {
       "id": "tb_ja_059",
-      "difficulty": "medium",
-      "category": "文化",
-      "question": "ハングルで書かれる言語は？",
+      "difficulty": "hard",
+      "category": "歴史",
+      "question": "古代エジプト最後のファラオは誰ですか?",
       "options": [
-        "日本語",
-        "韓国語",
-        "ポーランド語",
-        "スウェーデン語"
+        "ネフェルティティ",
+        "クレオパトラ 7 世",
+        "ハトシェプスト女王葬祭",
+        "ラムセス２世"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_060",
-      "difficulty": "medium",
-      "category": "科学",
-      "question": "植物が光合成で吸収する気体は？",
+      "difficulty": "hard",
+      "category": "歴史",
+      "question": "どの文明がハンムラビ法典を作成しましたか?",
       "options": [
-        "酸素",
-        "二酸化炭素",
-        "窒素",
-        "水素"
+        "バビロニア文明",
+        "アッシリア人",
+        "フェニキア人",
+        "ヒッタイト"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_ja_061",
-      "difficulty": "medium",
-      "category": "科学",
-      "question": "赤い惑星として知られる惑星は？",
+      "difficulty": "easy",
+      "category": "ポップカルチャー",
+      "question": "バットマンの執事の名前は何ですか?",
       "options": [
-        "金星",
-        "火星",
-        "木星",
-        "土星"
+        "ジェームス",
+        "アルフレッド",
+        "ジョージ",
+        "エドワード"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_062",
-      "difficulty": "medium",
-      "category": "科学",
-      "question": "H2Oは一般に何と呼ばれる？",
+      "difficulty": "easy",
+      "category": "ポップカルチャー",
+      "question": "ホグワーツを題材にしたフランチャイズはどれですか?",
       "options": [
-        "塩",
-        "水",
-        "酸素",
-        "砂糖"
+        "Star Wars",
+        "Harry Potter",
+        "The Matrix",
+        "アバター"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_063",
-      "difficulty": "medium",
-      "category": "地理",
-      "question": "世界最大の海洋は？",
+      "difficulty": "easy",
+      "category": "ポップカルチャー",
+      "question": "シュレックのキャラクターは何色ですか?",
       "options": [
-        "大西洋",
-        "インド洋",
-        "太平洋",
-        "北極海"
+        "ブルー",
+        "緑",
+        "紫",
+        "オレンジ"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_ja_064",
-      "difficulty": "medium",
-      "category": "地理",
-      "question": "東京がある国は？",
+      "difficulty": "easy",
+      "category": "ポップカルチャー",
+      "question": "ポップの女王として知られる歌手は誰ですか?",
       "options": [
-        "日本",
-        "中国",
-        "韓国",
-        "タイ"
+        "マドンナ",
+        "アデル",
+        "リアーナ",
+        "デュア・リパ"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_ja_065",
-      "difficulty": "medium",
-      "category": "歴史",
-      "question": "モナ・リザを描いたのは誰？",
+      "difficulty": "easy",
+      "category": "ポップカルチャー",
+      "question": "ピーター・パーカーとしても知られるスーパーヒーローは誰ですか?",
       "options": [
-        "ピカソ",
-        "レオナルド・ダ・ヴィンチ",
-        "ゴッホ",
-        "モネ"
+        "バットマン",
+        "スパイダーマン",
+        "スーパーマン",
+        "アイアンマン"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_066",
-      "difficulty": "medium",
-      "category": "文化",
-      "question": "「千と千尋の神隠し」を制作したスタジオは？",
+      "difficulty": "easy",
+      "category": "ポップカルチャー",
+      "question": "エルサという名前のキャラクターが登場する映画はどれですか?",
       "options": [
-        "ピクサー",
-        "スタジオジブリ",
-        "ディズニー",
-        "ドリームワークス"
+        "モアナ",
+        "冷凍",
+        "勇敢な",
+        "もつれた"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_067",
-      "difficulty": "medium",
-      "category": "スポーツ",
-      "question": "サッカーでフィールドに出る1チームの人数は？",
+      "difficulty": "easy",
+      "category": "ポップカルチャー",
+      "question": "短いバイラルビデオで知られるアプリはどれですか?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "TikTok",
+        "リンクトイン",
+        "ドロップボックス",
+        "ズーム"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "tb_ja_068",
       "difficulty": "medium",
-      "category": "食べ物",
-      "question": "生の魚を切り身で出す日本料理は？",
+      "category": "ポップカルチャー",
+      "question": "バットマンが住んでいる架空の都市は何ですか?",
       "options": [
-        "天ぷら",
-        "刺身",
-        "うどん",
-        "餅"
+        "メトロポリス",
+        "ゴッサムシティ",
+        "スターシティ",
+        "セントラルシティ"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_069",
       "difficulty": "medium",
-      "category": "文化",
-      "question": "ハングルで書かれる言語は？",
+      "category": "ポップカルチャー",
+      "question": "「アビイ・ロード」というアルバムをリリースしたバンドはどこですか?",
       "options": [
-        "日本語",
-        "韓国語",
-        "ポーランド語",
-        "スウェーデン語"
+        "ビートルズ",
+        "女王",
+        "ABBA",
+        "ローリング・ストーンズ"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_ja_070",
       "difficulty": "medium",
-      "category": "科学",
-      "question": "植物が光合成で吸収する気体は？",
+      "category": "ポップカルチャー",
+      "question": "1997 年の映画『タイタニック』でジャックを演じたのは誰ですか?",
       "options": [
-        "酸素",
-        "二酸化炭素",
-        "窒素",
-        "水素"
+        "ブラッド・ピット",
+        "レオナルド・ディカプリオ",
+        "トム・クルーズ",
+        "マット・デイモン"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_071",
       "difficulty": "medium",
-      "category": "科学",
-      "question": "赤い惑星として知られる惑星は？",
+      "category": "ポップカルチャー",
+      "question": "コーヒー ショップ Central Perk を特集するテレビ番組はどれですか?",
       "options": [
-        "金星",
-        "火星",
-        "木星",
-        "土星"
+        "友達",
+        "サインフェルド",
+        "The Office",
+        "あなたのお母さんと出会ったきっかけ"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_ja_072",
       "difficulty": "medium",
-      "category": "科学",
-      "question": "H2Oは一般に何と呼ばれる？",
+      "category": "ポップカルチャー",
+      "question": "リンクというキャラクターが登場するゲーム シリーズはどれですか?",
       "options": [
-        "塩",
-        "水",
-        "酸素",
-        "砂糖"
+        "ファイナルファンタジー",
+        "ゼルダの伝説",
+        "ポケモン",
+        "ソニック"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_073",
       "difficulty": "medium",
-      "category": "地理",
-      "question": "世界最大の海洋は？",
+      "category": "ポップカルチャー",
+      "question": "「May the Force be with you」という言葉が含まれている映画はどれですか?",
       "options": [
-        "大西洋",
-        "インド洋",
-        "太平洋",
-        "北極海"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_ja_074",
-      "difficulty": "medium",
-      "category": "地理",
-      "question": "東京がある国は？",
-      "options": [
-        "日本",
-        "中国",
-        "韓国",
-        "タイ"
+        "Star Wars",
+        "スタートレック",
+        "砂丘",
+        "ブレードランナー"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_ja_075",
+      "id": "tb_ja_074",
       "difficulty": "medium",
-      "category": "歴史",
-      "question": "モナ・リザを描いたのは誰？",
+      "category": "ポップカルチャー",
+      "question": "Toy Story に登場するおもちゃのカウボーイの名前は何ですか?",
       "options": [
-        "ピカソ",
-        "レオナルド・ダ・ヴィンチ",
-        "ゴッホ",
-        "モネ"
+        "バズる",
+        "ウッディ",
+        "アンディ",
+        "レックス"
       ],
       "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_075",
+      "difficulty": "hard",
+      "category": "ポップカルチャー",
+      "question": "The Matrix でネオを演じた俳優は誰ですか?",
+      "options": [
+        "キアヌ・リーブス",
+        "ジョニー・デップ",
+        "ニコラス・ケイジ",
+        "ウィル・スミス"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "tb_ja_076",
-      "difficulty": "medium",
-      "category": "文化",
-      "question": "「千と千尋の神隠し」を制作したスタジオは？",
+      "difficulty": "hard",
+      "category": "ポップカルチャー",
+      "question": "レモネードというアルバムをリリースしたアーティストは誰ですか?",
       "options": [
-        "ピクサー",
-        "スタジオジブリ",
-        "ディズニー",
-        "ドリームワークス"
+        "ビヨンセ",
+        "テイラー・スウィフト",
+        "アリアナ・グランデ",
+        "レディー・ガガ"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_ja_077",
-      "difficulty": "medium",
-      "category": "スポーツ",
-      "question": "サッカーでフィールドに出る1チームの人数は？",
+      "difficulty": "hard",
+      "category": "ポップカルチャー",
+      "question": "Lord of the Rings では、ゴラムの元の名前は何ですか?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "スメアゴル",
+        "ビルボ",
+        "デアゴル",
+        "ファラミア"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "tb_ja_078",
-      "difficulty": "medium",
-      "category": "食べ物",
-      "question": "生の魚を切り身で出す日本料理は？",
+      "difficulty": "hard",
+      "category": "ポップカルチャー",
+      "question": "「リメンバー・ミー」という曲が登場するアニメ映画はどれですか?",
       "options": [
-        "天ぷら",
-        "刺身",
-        "うどん",
-        "餅"
+        "ココ",
+        "エンカント",
+        "ソウル",
+        "ルカ"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_ja_079",
-      "difficulty": "medium",
-      "category": "文化",
-      "question": "ハングルで書かれる言語は？",
+      "difficulty": "hard",
+      "category": "ポップカルチャー",
+      "question": "Black Panther に登場する架空の金属の名前は何ですか?",
       "options": [
-        "日本語",
-        "韓国語",
-        "ポーランド語",
-        "スウェーデン語"
+        "アダマンチウム",
+        "ヴィブラニウム",
+        "ミスリル",
+        "アンオブタニウム"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_080",
-      "difficulty": "medium",
-      "category": "科学",
-      "question": "植物が光合成で吸収する気体は？",
+      "difficulty": "hard",
+      "category": "ポップカルチャー",
+      "question": "ドラマ「The Office」の舞台になる会社はどれですか?",
       "options": [
-        "酸素",
-        "二酸化炭素",
-        "窒素",
-        "水素"
+        "公園とレクリエーション",
+        "The Office",
+        "ブルックリン ナインナイン",
+        "コミュニティ"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_081",
-      "difficulty": "medium",
-      "category": "科学",
-      "question": "赤い惑星として知られる惑星は？",
+      "difficulty": "easy",
+      "category": "食べ物",
+      "question": "伝統的にワカモレを作るために使用される果物はどれですか?",
       "options": [
-        "金星",
-        "火星",
-        "木星",
-        "土星"
+        "バナナ",
+        "アボカド",
+        "マンゴー",
+        "キウイ"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_082",
-      "difficulty": "medium",
-      "category": "科学",
-      "question": "H2Oは一般に何と呼ばれる？",
+      "difficulty": "easy",
+      "category": "食べ物",
+      "question": "寿司と最も一般的に関連付けられるものは何ですか?",
       "options": [
-        "塩",
-        "水",
-        "酸素",
-        "砂糖"
+        "日本",
+        "メキシコ",
+        "イタリア",
+        "モロッコ"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_ja_083",
-      "difficulty": "medium",
-      "category": "地理",
-      "question": "世界最大の海洋は？",
+      "difficulty": "easy",
+      "category": "食べ物",
+      "question": "マジパンの製造に使用されるナッツはどれですか?",
       "options": [
-        "大西洋",
-        "インド洋",
-        "太平洋",
-        "北極海"
+        "ウォールナット",
+        "ヘーゼルナッツ",
+        "アーモンド",
+        "ピーナッツ"
       ],
       "correctIndex": 2
     },
     {
       "id": "tb_ja_084",
-      "difficulty": "medium",
-      "category": "地理",
-      "question": "東京がある国は？",
+      "difficulty": "easy",
+      "category": "食べ物",
+      "question": "フムスの主成分は何ですか？",
       "options": [
-        "日本",
-        "中国",
-        "韓国",
-        "タイ"
+        "レンズ豆",
+        "ひよこ豆",
+        "ジャガイモ",
+        "米"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_ja_085",
-      "difficulty": "medium",
-      "category": "歴史",
-      "question": "モナ・リザを描いたのは誰？",
+      "difficulty": "easy",
+      "category": "食べ物",
+      "question": "焙煎した豆を醸造して作られる飲み物はどれですか?",
       "options": [
-        "ピカソ",
-        "レオナルド・ダ・ヴィンチ",
-        "ゴッホ",
-        "モネ"
+        "お茶",
+        "コーヒー",
+        "レモネード",
+        "コーラ"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_086",
-      "difficulty": "medium",
-      "category": "文化",
-      "question": "「千と千尋の神隠し」を制作したスタジオは？",
+      "difficulty": "easy",
+      "category": "食べ物",
+      "question": "小さな筒状のパスタの種類は何ですか?",
       "options": [
-        "ピクサー",
-        "スタジオジブリ",
-        "ディズニー",
-        "ドリームワークス"
+        "ペンネ",
+        "スパゲッティ",
+        "ファルファッレ",
+        "ラザニア"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_ja_087",
-      "difficulty": "medium",
-      "category": "スポーツ",
-      "question": "サッカーでフィールドに出る1チームの人数は？",
+      "difficulty": "easy",
+      "category": "食べ物",
+      "question": "タコスで有名な国はどこですか?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "イタリア",
+        "メキシコ",
+        "タイ",
+        "ギリシャ"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_ja_088",
       "difficulty": "medium",
       "category": "食べ物",
-      "question": "生の魚を切り身で出す日本料理は？",
+      "question": "カレーの黄色の原因となっているスパイスは何ですか?",
       "options": [
-        "天ぷら",
-        "刺身",
-        "うどん",
-        "餅"
+        "クミン",
+        "ターメリック",
+        "パプリカ",
+        "シナモン"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_089",
       "difficulty": "medium",
-      "category": "文化",
-      "question": "ハングルで書かれる言語は？",
+      "category": "食べ物",
+      "question": "伝統的にマルゲリータピザに使用されるチーズはどれですか?",
       "options": [
-        "日本語",
-        "韓国語",
-        "ポーランド語",
-        "スウェーデン語"
+        "チェダー",
+        "モッツァレラ",
+        "フェタ",
+        "ゴーダ"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_090",
       "difficulty": "medium",
-      "category": "科学",
-      "question": "植物が光合成で吸収する気体は？",
+      "category": "食べ物",
+      "question": "豆腐は主に何から作られていますか?",
       "options": [
-        "酸素",
-        "二酸化炭素",
-        "窒素",
-        "水素"
+        "大豆",
+        "米",
+        "トウモロコシ",
+        "ピーナッツ"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_ja_091",
-      "difficulty": "hard",
-      "category": "科学",
-      "question": "赤い惑星として知られる惑星は？",
+      "difficulty": "medium",
+      "category": "食べ物",
+      "question": "コーヒーに浸したレディフィンガーを何層にも重ねて作るデザートはどれですか?",
       "options": [
-        "金星",
-        "火星",
-        "木星",
-        "土星"
+        "バクラヴァ",
+        "ティラミス",
+        "パブロワ",
+        "クレームブリュレ"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_092",
-      "difficulty": "hard",
-      "category": "科学",
-      "question": "H2Oは一般に何と呼ばれる？",
+      "difficulty": "medium",
+      "category": "食べ物",
+      "question": "ザワークラウトの主成分は何ですか？",
       "options": [
-        "塩",
-        "水",
-        "酸素",
-        "砂糖"
+        "キャベツ",
+        "ニンジン",
+        "キュウリ",
+        "タマネギ"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_ja_093",
-      "difficulty": "hard",
-      "category": "地理",
-      "question": "世界最大の海洋は？",
+      "difficulty": "medium",
+      "category": "食べ物",
+      "question": "レーズンを作るために乾燥させた果物はどれですか?",
       "options": [
-        "大西洋",
-        "インド洋",
-        "太平洋",
-        "北極海"
+        "ブドウ",
+        "プラム",
+        "アプリコット",
+        "イチジク"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "tb_ja_094",
-      "difficulty": "hard",
-      "category": "地理",
-      "question": "東京がある国は？",
+      "difficulty": "medium",
+      "category": "食べ物",
+      "question": "バジル、松の実、ニンニク、オリーブオイル、チーズを使って伝統的に作られるソースはどれですか?",
       "options": [
-        "日本",
-        "中国",
-        "韓国",
-        "タイ"
+        "ペスト",
+        "サルサ",
+        "海信",
+        "タヒニ"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_ja_095",
       "difficulty": "hard",
-      "category": "歴史",
-      "question": "モナ・リザを描いたのは誰？",
+      "category": "食べ物",
+      "question": "伝統的なリゾットを作るために使用される穀物は何ですか?",
       "options": [
-        "ピカソ",
-        "レオナルド・ダ・ヴィンチ",
-        "ゴッホ",
-        "モネ"
+        "バスマティ",
+        "アルボリオ米",
+        "キヌア",
+        "ブルグール"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_096",
       "difficulty": "hard",
-      "category": "文化",
-      "question": "「千と千尋の神隠し」を制作したスタジオは？",
+      "category": "食べ物",
+      "question": "キムチの発祥の国はどこですか?",
       "options": [
-        "ピクサー",
-        "スタジオジブリ",
-        "ディズニー",
-        "ドリームワークス"
+        "日本",
+        "中国",
+        "韓国",
+        "ベトナム"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "tb_ja_097",
       "difficulty": "hard",
-      "category": "スポーツ",
-      "question": "サッカーでフィールドに出る1チームの人数は？",
+      "category": "食べ物",
+      "question": "フランス語で薄いパンケーキを何という？",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "クレープ",
+        "ブリオッシュ",
+        "エクレア",
+        "マカロン"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "tb_ja_098",
       "difficulty": "hard",
       "category": "食べ物",
-      "question": "生の魚を切り身で出す日本料理は？",
+      "question": "酢に酸味を与えているのはどの酸ですか?",
       "options": [
-        "天ぷら",
-        "刺身",
-        "うどん",
-        "餅"
+        "クエン酸",
+        "酢酸",
+        "乳酸",
+        "リンゴ酸"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_099",
       "difficulty": "hard",
-      "category": "文化",
-      "question": "ハングルで書かれる言語は？",
+      "category": "食べ物",
+      "question": "伝統的なファラフェルの主な材料は何ですか?",
       "options": [
-        "日本語",
-        "韓国語",
-        "ポーランド語",
-        "スウェーデン語"
+        "ひよこ豆",
+        "牛肉",
+        "ナス",
+        "米"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_ja_100",
       "difficulty": "hard",
-      "category": "科学",
-      "question": "植物が光合成で吸収する気体は？",
+      "category": "食べ物",
+      "question": "バクラヴァ作りに使われる生地はどれですか?",
       "options": [
-        "酸素",
-        "二酸化炭素",
-        "窒素",
-        "水素"
+        "パイ生地",
+        "フィロ生地",
+        "ショートクラスト",
+        "シュー菓子"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_101",
-      "difficulty": "hard",
-      "category": "科学",
-      "question": "赤い惑星として知られる惑星は？",
+      "difficulty": "easy",
+      "category": "動物",
+      "question": "最大の陸上動物は何ですか?",
       "options": [
-        "金星",
-        "火星",
-        "木星",
-        "土星"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_ja_102",
-      "difficulty": "hard",
-      "category": "科学",
-      "question": "H2Oは一般に何と呼ばれる？",
-      "options": [
-        "塩",
-        "水",
-        "酸素",
-        "砂糖"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_ja_103",
-      "difficulty": "hard",
-      "category": "地理",
-      "question": "世界最大の海洋は？",
-      "options": [
-        "大西洋",
-        "インド洋",
-        "太平洋",
-        "北極海"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_ja_104",
-      "difficulty": "hard",
-      "category": "地理",
-      "question": "東京がある国は？",
-      "options": [
-        "日本",
-        "中国",
-        "韓国",
-        "タイ"
+        "ゾウ",
+        "カバ",
+        "サイ",
+        "キリン"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_ja_105",
-      "difficulty": "hard",
-      "category": "歴史",
-      "question": "モナ・リザを描いたのは誰？",
+      "id": "tb_ja_102",
+      "difficulty": "easy",
+      "category": "動物",
+      "question": "黒と白の縞模様で知られる動物はどれですか?",
       "options": [
-        "ピカソ",
-        "レオナルド・ダ・ヴィンチ",
-        "ゴッホ",
-        "モネ"
+        "ゼブラ",
+        "タイガー",
+        "パンダ",
+        "スカンク"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_103",
+      "difficulty": "easy",
+      "category": "動物",
+      "question": "ミツバチは何を作るのですか？",
+      "options": [
+        "牛乳",
+        "ハニー",
+        "シルク",
+        "ワックスのみ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_104",
+      "difficulty": "easy",
+      "category": "動物",
+      "question": "どの動物が哺乳類ですか?",
+      "options": [
+        "サメ",
+        "カエル",
+        "イルカ",
+        "ワニ"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_105",
+      "difficulty": "easy",
+      "category": "動物",
+      "question": "赤ちゃん猫は何と呼ばれますか？",
+      "options": [
+        "子犬",
+        "子猫",
+        "ふくらはぎ",
+        "子馬"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_106",
-      "difficulty": "hard",
-      "category": "文化",
-      "question": "「千と千尋の神隠し」を制作したスタジオは？",
+      "difficulty": "easy",
+      "category": "動物",
+      "question": "物語の中で赤ちゃんの出産によく登場する鳥は何ですか?",
       "options": [
-        "ピクサー",
-        "スタジオジブリ",
-        "ディズニー",
-        "ドリームワークス"
+        "イーグル",
+        "コウノトリ",
+        "フクロウ",
+        "白鳥"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_107",
-      "difficulty": "hard",
-      "category": "スポーツ",
-      "question": "サッカーでフィールドに出る1チームの人数は？",
+      "difficulty": "easy",
+      "category": "動物",
+      "question": "色が変わることで有名な動物は何ですか?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_ja_108",
-      "difficulty": "hard",
-      "category": "食べ物",
-      "question": "生の魚を切り身で出す日本料理は？",
-      "options": [
-        "天ぷら",
-        "刺身",
-        "うどん",
-        "餅"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_ja_109",
-      "difficulty": "hard",
-      "category": "文化",
-      "question": "ハングルで書かれる言語は？",
-      "options": [
-        "日本語",
-        "韓国語",
-        "ポーランド語",
-        "スウェーデン語"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_ja_110",
-      "difficulty": "hard",
-      "category": "科学",
-      "question": "植物が光合成で吸収する気体は？",
-      "options": [
-        "酸素",
-        "二酸化炭素",
-        "窒素",
-        "水素"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_ja_111",
-      "difficulty": "hard",
-      "category": "科学",
-      "question": "赤い惑星として知られる惑星は？",
-      "options": [
-        "金星",
-        "火星",
-        "木星",
-        "土星"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_ja_112",
-      "difficulty": "hard",
-      "category": "科学",
-      "question": "H2Oは一般に何と呼ばれる？",
-      "options": [
-        "塩",
-        "水",
-        "酸素",
-        "砂糖"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_ja_113",
-      "difficulty": "hard",
-      "category": "地理",
-      "question": "世界最大の海洋は？",
-      "options": [
-        "大西洋",
-        "インド洋",
-        "太平洋",
-        "北極海"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_ja_114",
-      "difficulty": "hard",
-      "category": "地理",
-      "question": "東京がある国は？",
-      "options": [
-        "日本",
-        "中国",
-        "韓国",
-        "タイ"
+        "カメレオン",
+        "コアラ",
+        "ペンギン",
+        "ラクダ"
       ],
       "correctIndex": 0
     },
     {
+      "id": "tb_ja_108",
+      "difficulty": "medium",
+      "category": "動物",
+      "question": "陸上で最速の動物は何ですか?",
+      "options": [
+        "チーター",
+        "ライオン",
+        "馬",
+        "カンガルー"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_109",
+      "difficulty": "medium",
+      "category": "動物",
+      "question": "首が一番長い動物はどれですか?",
+      "options": [
+        "キリン",
+        "ダチョウ",
+        "ラクダ",
+        "ラマ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_110",
+      "difficulty": "medium",
+      "category": "動物",
+      "question": "英語でライオンの群れは何と呼ばれますか?",
+      "options": [
+        "Pack",
+        "Herd",
+        "Pride",
+        "Flock"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_111",
+      "difficulty": "medium",
+      "category": "動物",
+      "question": "心臓が 3 つある海洋動物はどれですか?",
+      "options": [
+        "タコ",
+        "イルカ",
+        "ウミガメ",
+        "クラゲ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_112",
+      "difficulty": "medium",
+      "category": "動物",
+      "question": "パンダは主に何を食べますか?",
+      "options": [
+        "竹",
+        "魚",
+        "草",
+        "フルーツ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_113",
+      "difficulty": "medium",
+      "category": "動物",
+      "question": "最も大きな卵を産む動物はどれですか?",
+      "options": [
+        "ダチョウ",
+        "イーグル",
+        "ペンギン",
+        "アホウドリ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_114",
+      "difficulty": "medium",
+      "category": "動物",
+      "question": "自分の体重の何倍ものものを持ち上げることができる昆虫はどれですか?",
+      "options": [
+        "蝶",
+        "アリ",
+        "蚊",
+        "てんとう虫"
+      ],
+      "correctIndex": 1
+    },
+    {
       "id": "tb_ja_115",
       "difficulty": "hard",
-      "category": "歴史",
-      "question": "モナ・リザを描いたのは誰？",
+      "category": "動物",
+      "question": "本物の飛行が可能な唯一の哺乳類は何ですか?",
       "options": [
-        "ピカソ",
-        "レオナルド・ダ・ヴィンチ",
-        "ゴッホ",
-        "モネ"
+        "モモンガ",
+        "コウモリ",
+        "フクロモモンガ",
+        "キツネザル"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_116",
       "difficulty": "hard",
-      "category": "文化",
-      "question": "「千と千尋の神隠し」を制作したスタジオは？",
+      "category": "動物",
+      "question": "砂漠の船とも呼ばれる動物はどれですか?",
       "options": [
-        "ピクサー",
-        "スタジオジブリ",
-        "ディズニー",
-        "ドリームワークス"
+        "ラクダ",
+        "ロバ",
+        "馬",
+        "ヤク"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_ja_117",
       "difficulty": "hard",
-      "category": "スポーツ",
-      "question": "サッカーでフィールドに出る1チームの人数は？",
+      "category": "動物",
+      "question": "最大のサメの種は何ですか?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_ja_118",
-      "difficulty": "hard",
-      "category": "食べ物",
-      "question": "生の魚を切り身で出す日本料理は？",
-      "options": [
-        "天ぷら",
-        "刺身",
-        "うどん",
-        "餅"
+        "ホホジロザメ",
+        "ジンベエザメ",
+        "シュモクザメ",
+        "イタチザメ"
       ],
       "correctIndex": 1
     },
     {
+      "id": "tb_ja_118",
+      "difficulty": "hard",
+      "category": "動物",
+      "question": "人間の言葉を特に上手に真似できる鳥はどれですか?",
+      "options": [
+        "オウム",
+        "ペンギン",
+        "フラミンゴ",
+        "スズメ"
+      ],
+      "correctIndex": 0
+    },
+    {
       "id": "tb_ja_119",
       "difficulty": "hard",
-      "category": "文化",
-      "question": "ハングルで書かれる言語は？",
+      "category": "動物",
+      "question": "鳥の研究は何と呼ばれますか?",
       "options": [
-        "日本語",
-        "韓国語",
-        "ポーランド語",
-        "スウェーデン語"
+        "昆虫学",
+        "鳥類学",
+        "魚類学",
+        "爬虫類学"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_120",
       "difficulty": "hard",
-      "category": "科学",
-      "question": "植物が光合成で吸収する気体は？",
+      "category": "動物",
+      "question": "人間によく似た指紋を持つ動物はどれですか?",
       "options": [
-        "酸素",
-        "二酸化炭素",
-        "窒素",
-        "水素"
+        "コアラ",
+        "カンガルー",
+        "パンダ",
+        "ナマケモノ"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_ja_121",
-      "difficulty": "hard",
-      "category": "科学",
-      "question": "赤い惑星として知られる惑星は？",
+      "difficulty": "easy",
+      "category": "数学",
+      "question": "9 かける 9 とは何ですか?",
       "options": [
-        "金星",
-        "火星",
-        "木星",
-        "土星"
+        "72",
+        "81",
+        "90",
+        "99"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_122",
-      "difficulty": "hard",
-      "category": "科学",
-      "question": "H2Oは一般に何と呼ばれる？",
+      "difficulty": "easy",
+      "category": "数学",
+      "question": "三角形には辺が何個ありますか?",
       "options": [
-        "塩",
-        "水",
-        "酸素",
-        "砂糖"
+        "2",
+        "3",
+        "4",
+        "5"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ja_123",
-      "difficulty": "hard",
-      "category": "地理",
-      "question": "世界最大の海洋は？",
+      "difficulty": "easy",
+      "category": "数学",
+      "question": "100の半分って何ですか？",
       "options": [
-        "大西洋",
-        "インド洋",
-        "太平洋",
-        "北極海"
+        "25",
+        "40",
+        "50",
+        "75"
       ],
       "correctIndex": 2
     },
     {
       "id": "tb_ja_124",
-      "difficulty": "hard",
-      "category": "地理",
-      "question": "東京がある国は？",
+      "difficulty": "easy",
+      "category": "数学",
+      "question": "12 プラス 15 とは何ですか?",
       "options": [
-        "日本",
-        "中国",
-        "韓国",
-        "タイ"
+        "25",
+        "27",
+        "29",
+        "31"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_ja_125",
-      "difficulty": "hard",
-      "category": "歴史",
-      "question": "モナ・リザを描いたのは誰？",
+      "difficulty": "easy",
+      "category": "数学",
+      "question": "1時間は何分ですか?",
       "options": [
-        "ピカソ",
-        "レオナルド・ダ・ヴィンチ",
-        "ゴッホ",
-        "モネ"
+        "30",
+        "45",
+        "60",
+        "90"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "tb_ja_126",
-      "difficulty": "hard",
-      "category": "文化",
-      "question": "「千と千尋の神隠し」を制作したスタジオは？",
+      "difficulty": "easy",
+      "category": "数学",
+      "question": "7の2乗って何ですか？",
       "options": [
-        "ピクサー",
-        "スタジオジブリ",
-        "ディズニー",
-        "ドリームワークス"
+        "14",
+        "21",
+        "49",
+        "77"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_127",
+      "difficulty": "easy",
+      "category": "数学",
+      "question": "直角は何度ですか?",
+      "options": [
+        "45",
+        "60",
+        "90",
+        "180"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_128",
+      "difficulty": "medium",
+      "category": "数学",
+      "question": "小数点以下第 2 位を四捨五入した円周率の値は何ですか?",
+      "options": [
+        "3.12",
+        "3.14",
+        "3.16",
+        "3.18"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_ja_127",
-      "difficulty": "hard",
-      "category": "スポーツ",
-      "question": "サッカーでフィールドに出る1チームの人数は？",
+      "id": "tb_ja_129",
+      "difficulty": "medium",
+      "category": "数学",
+      "question": "200 の 15 パーセントとは何ですか?",
+      "options": [
+        "15",
+        "20",
+        "30",
+        "40"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_130",
+      "difficulty": "medium",
+      "category": "数学",
+      "question": "六角形には辺が何個ありますか?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_131",
+      "difficulty": "medium",
+      "category": "数学",
+      "question": "144の平方根は何ですか?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_132",
+      "difficulty": "medium",
+      "category": "数学",
+      "question": "3の3乗って何ですか？",
+      "options": [
+        "9",
+        "18",
+        "27",
+        "81"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_133",
+      "difficulty": "medium",
+      "category": "数学",
+      "question": "7の次の素数は何ですか?",
       "options": [
         "9",
         "10",
@@ -1655,80 +1733,1393 @@
       "correctIndex": 2
     },
     {
-      "id": "tb_ja_128",
-      "difficulty": "hard",
-      "category": "食べ物",
-      "question": "生の魚を切り身で出す日本料理は？",
+      "id": "tb_ja_134",
+      "difficulty": "medium",
+      "category": "数学",
+      "question": "1メートルは何センチですか?",
       "options": [
-        "天ぷら",
-        "刺身",
-        "うどん",
-        "餅"
+        "10",
+        "100",
+        "1000",
+        "10000"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_ja_129",
+      "id": "tb_ja_135",
       "difficulty": "hard",
-      "category": "文化",
-      "question": "ハングルで書かれる言語は？",
+      "category": "数学",
+      "question": "三角形の内角の和は何ですか?",
       "options": [
-        "日本語",
-        "韓国語",
-        "ポーランド語",
-        "スウェーデン語"
+        "90度",
+        "180度",
+        "270度",
+        "360度"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_ja_130",
+      "id": "tb_ja_136",
       "difficulty": "hard",
-      "category": "科学",
-      "question": "植物が光合成で吸収する気体は？",
+      "category": "数学",
+      "question": "2の10乗って何ですか?",
       "options": [
-        "酸素",
-        "二酸化炭素",
-        "窒素",
-        "水素"
+        "512",
+        "1024",
+        "2048",
+        "4096"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_ja_131",
+      "id": "tb_ja_137",
+      "difficulty": "hard",
+      "category": "数学",
+      "question": "最小の素数は何ですか?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_138",
+      "difficulty": "hard",
+      "category": "数学",
+      "question": "1 を 4 で割った値を小数で表すと何ですか?",
+      "options": [
+        "0.2",
+        "0.25",
+        "0.4",
+        "0.5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_139",
+      "difficulty": "hard",
+      "category": "数学",
+      "question": "立方体にはいくつの面がありますか?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_140",
+      "difficulty": "hard",
+      "category": "数学",
+      "question": "50を表すローマ数字は何ですか?",
+      "options": [
+        "L",
+        "C",
+        "D",
+        "M"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_141",
       "difficulty": "easy",
-      "category": "ネット",
-      "question": "DMは普通何の略？",
+      "category": "音楽",
+      "question": "標準的なギターには通常何本の弦がありますか?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_142",
+      "difficulty": "easy",
+      "category": "音楽",
+      "question": "黒鍵と白鍵がある楽器はどれですか?",
+      "options": [
+        "ギター",
+        "ピアノ",
+        "ヴァイオリン",
+        "ドラム"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_143",
+      "difficulty": "easy",
+      "category": "音楽",
+      "question": "キング・オブ・ポップとして知られているのは誰ですか?",
+      "options": [
+        "エルヴィス・プレスリー",
+        "マイケル・ジャクソン",
+        "プリンス",
+        "スティービー・ワンダー"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_144",
+      "difficulty": "easy",
+      "category": "音楽",
+      "question": "歌手のグループを何と呼びますか?",
+      "options": [
+        "合唱団",
+        "包帯",
+        "キャスト",
+        "乗組員"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_145",
+      "difficulty": "easy",
+      "category": "音楽",
+      "question": "弓で演奏する楽器はどれですか?",
+      "options": [
+        "トランペット",
+        "ヴァイオリン",
+        "ピアノ",
+        "フルート"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_146",
+      "difficulty": "easy",
+      "category": "音楽",
+      "question": "音楽の速さの名前は何ですか?",
+      "options": [
+        "テンポ",
+        "ピッチ",
+        "ハーモニー",
+        "リズム"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_147",
+      "difficulty": "easy",
+      "category": "音楽",
+      "question": "多くのリスナーにとって CD よりも前に登場した音楽フォーマットはどれですか?",
+      "options": [
+        "カセット",
+        "ブルーレイ",
+        "ポッドキャスト",
+        "電子書籍"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_148",
+      "difficulty": "medium",
+      "category": "音楽",
+      "question": "月光ソナタを書いた作曲家は誰ですか?",
+      "options": [
+        "モーツァルト",
+        "ベートーベン",
+        "バッハ",
+        "ショパン"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_149",
+      "difficulty": "medium",
+      "category": "音楽",
+      "question": "標準的なメジャースケールには何つの音がありますか?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_150",
+      "difficulty": "medium",
+      "category": "音楽",
+      "question": "フレディ・マーキュリーがリード・シンガーを務めていたバンドはどれですか?",
+      "options": [
+        "女王",
+        "U2",
+        "涅槃",
+        "オアシス"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_151",
+      "difficulty": "medium",
+      "category": "音楽",
+      "question": "DJって何の略ですか？",
+      "options": [
+        "ディスクジョッキー",
+        "ダンス審査員",
+        "デジタルジャム",
+        "ドラムジャンパー"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_152",
+      "difficulty": "medium",
+      "category": "音楽",
+      "question": "ヨーヨーマが演奏することで有名な楽器は何ですか?",
+      "options": [
+        "チェロ",
+        "ヴァイオリン",
+        "ピアノ",
+        "クラリネット"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_153",
+      "difficulty": "medium",
+      "category": "音楽",
+      "question": "デュエットとは何ですか？",
+      "options": [
+        "二人の演奏家のための曲",
+        "速いドラムビート",
+        "音楽賞",
+        "ステージライト"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_154",
+      "difficulty": "medium",
+      "category": "音楽",
+      "question": "即興演奏やスイングとよく関連付けられるジャンルはどれですか?",
+      "options": [
+        "ジャズ",
+        "金属",
+        "オペラ",
+        "レゲエ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_155",
+      "difficulty": "hard",
+      "category": "音楽",
+      "question": "「四季」を書いたクラシック時代の作曲家は誰ですか?",
+      "options": [
+        "ヴィヴァルディ",
+        "ヘンデル",
+        "ハイドン",
+        "シューベルト"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_156",
+      "difficulty": "hard",
+      "category": "音楽",
+      "question": "男性の最低基準の歌声とは何ですか？",
+      "options": [
+        "テノール",
+        "バリトン",
+        "低音",
+        "アルト"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_157",
+      "difficulty": "hard",
+      "category": "音楽",
+      "question": "Cより半音上の音はどれですか?",
+      "options": [
+        "B",
+        "Cシャープ",
+        "D",
+        "Eフラット"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_158",
+      "difficulty": "hard",
+      "category": "音楽",
+      "question": "徐々に声が大きくなることを何といいますか？",
+      "options": [
+        "クレッシェンド",
+        "ディミヌエンド",
+        "レガート",
+        "スタッカート"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_159",
+      "difficulty": "hard",
+      "category": "音楽",
+      "question": "ジャズの誕生と深い関わりのある都市はどこですか?",
+      "options": [
+        "ニューオーリンズ",
+        "シアトル",
+        "ナッシュビル",
+        "デトロイト"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_160",
+      "difficulty": "hard",
+      "category": "音楽",
+      "question": "五線譜の先頭にある記号の名前は何ですか?",
+      "options": [
+        "音部記号",
+        "フレット",
+        "橋",
+        "バルブ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_161",
+      "difficulty": "easy",
+      "category": "アート",
+      "question": "モナリザを描いたのは誰ですか?",
+      "options": [
+        "フィンセント・ファン・ゴッホ",
+        "レオナルド・ダ・ヴィンチ",
+        "パブロ・ピカソ",
+        "クロード・モネ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_162",
+      "difficulty": "easy",
+      "category": "アート",
+      "question": "赤と青を混ぜると何色になりますか?",
+      "options": [
+        "緑",
+        "紫",
+        "オレンジ",
+        "ブラウン"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_163",
+      "difficulty": "easy",
+      "category": "アート",
+      "question": "キャンバスに絵の具を塗るのに使う道具は何ですか?",
+      "options": [
+        "ハンマー",
+        "絵筆",
+        "コンパス",
+        "針"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_164",
+      "difficulty": "easy",
+      "category": "アート",
+      "question": "通常立体的な彫刻とは何でしょうか？",
+      "options": [
+        "はい",
+        "いいえ",
+        "写真のみ",
+        "紙上のみ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_165",
+      "difficulty": "easy",
+      "category": "アート",
+      "question": "モナリザが展示されている美術館はどこですか?",
+      "options": [
+        "ルーブル美術館",
+        "プラド",
+        "テート・モダン",
+        "ウフィツィ美術館"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_166",
+      "difficulty": "easy",
+      "category": "アート",
+      "question": "紙を折る技術は何と呼ばれますか?",
+      "options": [
+        "折り紙",
+        "書道",
+        "モザイク",
+        "落書き"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_167",
+      "difficulty": "easy",
+      "category": "アート",
+      "question": "赤と黄色を混ぜると何色になりますか?",
+      "options": [
+        "ブルー",
+        "オレンジ",
+        "紫",
+        "ホワイト"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_168",
+      "difficulty": "medium",
+      "category": "アート",
+      "question": "星月夜を描いたのは誰ですか?",
+      "options": [
+        "パブロ・ピカソ",
+        "フィンセント・ファン・ゴッホ",
+        "サルバドール・ダリ",
+        "レンブラント"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_169",
+      "difficulty": "medium",
+      "category": "アート",
+      "question": "溶ける時計で有名なアーティストは誰ですか?",
+      "options": [
+        "サルバドール・ダリ",
+        "フリーダ・カーロ",
+        "アンディ・ウォーホル",
+        "バンクシー"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_170",
+      "difficulty": "medium",
+      "category": "アート",
+      "question": "書道とは何ですか？",
+      "options": [
+        "装飾的な手書き文字",
+        "石の彫刻",
+        "壁画",
+        "写真編集"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_171",
+      "difficulty": "medium",
+      "category": "アート",
+      "question": "クロード・モネと関連のある芸術運動はどれですか?",
+      "options": [
+        "キュビズム",
+        "印象派",
+        "シュルレアリスム",
+        "ポップアート"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_172",
+      "difficulty": "medium",
+      "category": "アート",
+      "question": "自画像とは何ですか？",
+      "options": [
+        "アーティストによるアーティストの絵",
+        "風景",
+        "集合写真",
+        "彫刻ベース"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_173",
+      "difficulty": "medium",
+      "category": "アート",
+      "question": "陶器によく使われる素材は何ですか?",
+      "options": [
+        "粘土",
+        "ガラスのみ",
+        "ゴム",
+        "紙"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_174",
+      "difficulty": "medium",
+      "category": "アート",
+      "question": "モノクロ作品の主な色は何ですか?",
+      "options": [
+        "1色",
+        "2色",
+        "全色",
+        "色なし"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_175",
+      "difficulty": "hard",
+      "category": "アート",
+      "question": "ゲルニカを描いた画家は誰ですか?",
+      "options": [
+        "パブロ・ピカソ",
+        "アンリ・マティス",
+        "ポール・セザンヌ",
+        "エドヴァルド・ムンク"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_176",
+      "difficulty": "hard",
+      "category": "アート",
+      "question": "ルネッサンス芸術とウフィツィ美術館で有名なイタリアの都市はどこですか?",
+      "options": [
+        "フィレンツェ",
+        "ヴェネツィア",
+        "ミラノ",
+        "ナポリ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_177",
+      "difficulty": "hard",
+      "category": "アート",
+      "question": "フレスコ画は何に描かれているのですか？",
+      "options": [
+        "湿った石膏",
+        "ガラス",
+        "金属",
+        "シルク"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_178",
+      "difficulty": "hard",
+      "category": "アート",
+      "question": "「記憶の永続性」を作成したアーティストは誰ですか?",
+      "options": [
+        "サルバドール・ダリ",
+        "ジョアン・ミロ",
+        "ルネ・マグリット",
+        "ジャクソン・ポロック"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_179",
+      "difficulty": "hard",
+      "category": "アート",
+      "question": "彫刻された版木を使用する版画方法はどれですか?",
+      "options": [
+        "木版画",
+        "水彩",
+        "コラージュ",
+        "エアブラシ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_180",
+      "difficulty": "hard",
+      "category": "アート",
+      "question": "明暗法とは何ですか?",
+      "options": [
+        "光と影",
+        "音とリズム",
+        "カラーのみ",
+        "パースグリッド"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_181",
+      "difficulty": "easy",
+      "category": "スポーツ",
+      "question": "1 つのサッカー チームのフィールドには何人の選手がいますか?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_182",
+      "difficulty": "easy",
+      "category": "スポーツ",
+      "question": "ラケットとシャトルを使用するスポーツはどれですか?",
+      "options": [
+        "テニス",
+        "バドミントン",
+        "スカッシュ",
+        "卓球"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_183",
+      "difficulty": "easy",
+      "category": "スポーツ",
+      "question": "バスケットボールでは、フリースローは何点に相当しますか?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_184",
+      "difficulty": "easy",
+      "category": "スポーツ",
+      "question": "ウィンブルドンではどのスポーツが行われますか?",
+      "options": [
+        "クリケット",
+        "テニス",
+        "ゴルフ",
+        "ラグビー"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_185",
+      "difficulty": "easy",
+      "category": "スポーツ",
+      "question": "オリンピック旗にはリングが何個ありますか?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_186",
+      "difficulty": "easy",
+      "category": "スポーツ",
+      "question": "パックを使用するスポーツはどれですか?",
+      "options": [
+        "アイスホッケー",
+        "野球",
+        "バレーボール",
+        "ボクシング"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_187",
+      "difficulty": "easy",
+      "category": "スポーツ",
+      "question": "駅伝でランナーは何を追いますか?",
+      "options": [
+        "ボール",
+        "バトン",
+        "旗",
+        "手袋"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_188",
+      "difficulty": "medium",
+      "category": "スポーツ",
+      "question": "ツール・ド・フランスはどのスポーツのレースですか?",
+      "options": [
+        "ランニング",
+        "サイクリング",
+        "水泳",
+        "スキー"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_189",
+      "difficulty": "medium",
+      "category": "スポーツ",
+      "question": "標準的な野球チームのフィールドには何人の選手がいますか?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_190",
+      "difficulty": "medium",
+      "category": "スポーツ",
+      "question": "男子サッカーのFIFAワールドカップで最も多く優勝した国はどこですか?",
+      "options": [
+        "ドイツ",
+        "アルゼンチン",
+        "ブラジル",
+        "イタリア"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ja_191",
+      "difficulty": "medium",
+      "category": "スポーツ",
+      "question": "テニスでデュースの後に来るスコアは何ですか?",
+      "options": [
+        "アドバンテージ",
+        "ラブ",
+        "セットポイント",
+        "ブレーク"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_192",
+      "difficulty": "medium",
+      "category": "スポーツ",
+      "question": "あん馬が特徴的なスポーツはどれですか?",
+      "options": [
+        "体操",
+        "馬術",
+        "ポロ",
+        "フェンシング"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_193",
+      "difficulty": "medium",
+      "category": "スポーツ",
+      "question": "サッカーにおけるハットトリックとは何ですか?",
+      "options": [
+        "1人の選手による3ゴール",
+        "イエローカード3枚",
+        "3人の交代",
+        "三つの角"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_194",
+      "difficulty": "medium",
+      "category": "スポーツ",
+      "question": "スタンレーカップに関連するスポーツはどれですか?",
+      "options": [
+        "バスケットボール",
+        "アイスホッケー",
+        "野球",
+        "ラグビー"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_195",
+      "difficulty": "hard",
+      "category": "スポーツ",
+      "question": "オリンピックのプールの長さはどのくらいですか?",
+      "options": [
+        "25メートル",
+        "50メートル",
+        "75メートル",
+        "100メートル"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_196",
+      "difficulty": "hard",
+      "category": "スポーツ",
+      "question": "ゴルフにおいて、パーより1打下のことを何といいますか?",
+      "options": [
+        "ボギー",
+        "バーディー",
+        "イーグル",
+        "アホウドリ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_197",
+      "difficulty": "hard",
+      "category": "スポーツ",
+      "question": "1896 年に最初の近代オリンピックが開催された国はどこでしょう?",
+      "options": [
+        "フランス",
+        "ギリシャ",
+        "イギリス",
+        "イタリア"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_198",
+      "difficulty": "hard",
+      "category": "スポーツ",
+      "question": "スヌーカーの最大休憩時間はどれくらいですか?",
+      "options": [
+        "120",
+        "147",
+        "155",
+        "180"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_199",
+      "difficulty": "hard",
+      "category": "スポーツ",
+      "question": "「ゼロへの愛」という言葉を使用するスポーツはどれですか?",
+      "options": [
+        "クリケット",
+        "テニス",
+        "ボクシング",
+        "ゴルフ"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_200",
+      "difficulty": "hard",
+      "category": "スポーツ",
+      "question": "ボクシングでKOとは何の略ですか?",
+      "options": [
+        "ノックアウト",
+        "キックアウト",
+        "開いたままにしてください",
+        "ナックルオーダー"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_201",
+      "difficulty": "easy",
+      "category": "テクノロジー",
+      "question": "CPU は何の略ですか?",
+      "options": [
+        "中央処理装置",
+        "コンピュータ電源ユニット",
+        "中央プログラムユーティリティ",
+        "コア処理ユーザー"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_202",
+      "difficulty": "easy",
+      "category": "テクノロジー",
+      "question": "コンピュータ上でカーソルを移動するために使用されるデバイスは何ですか?",
+      "options": [
+        "マウス",
+        "スピーカー",
+        "プリンター",
+        "ルーター"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_203",
+      "difficulty": "easy",
+      "category": "テクノロジー",
+      "question": "Wi-Fi ではデバイスは何に接続できますか?",
+      "options": [
+        "水",
+        "無線ネットワーク",
+        "紙",
+        "電気モーター"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_204",
+      "difficulty": "easy",
+      "category": "テクノロジー",
+      "question": "iPhoneを作っている会社はどこですか?",
+      "options": [
+        "サムスン",
+        "アップル",
+        "ソニー",
+        "ノキア"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_205",
+      "difficulty": "easy",
+      "category": "テクノロジー",
+      "question": "パスワードは何に使用されますか?",
+      "options": [
+        "セキュリティ",
+        "印刷",
+        "充電中",
+        "冷却"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_206",
+      "difficulty": "easy",
+      "category": "テクノロジー",
+      "question": "USB は一般的に何を接続しますか?",
+      "options": [
+        "デバイスとコンピューター",
+        "靴と靴下",
+        "本とページ",
+        "植物と土壌"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_207",
+      "difficulty": "easy",
+      "category": "テクノロジー",
+      "question": "アプリとは何の略ですか?",
+      "options": [
+        "アプリケーション",
+        "予約",
+        "承認",
+        "付録"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_208",
+      "difficulty": "medium",
+      "category": "テクノロジー",
+      "question": "URL は何の略ですか?",
+      "options": [
+        "ユニフォーム リソース ロケーター",
+        "ユニバーサル読み取りライン",
+        "ユーザーランタイムリンク",
+        "統合レコードリスト"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_209",
+      "difficulty": "medium",
+      "category": "テクノロジー",
+      "question": "ルーターの主な仕事は何ですか?",
+      "options": [
+        "写真を保存する",
+        "直接ネットワークトラフィック",
+        "文書を印刷する",
+        "ウイルスのみをスキャンする"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_210",
+      "difficulty": "medium",
+      "category": "テクノロジー",
+      "question": "画像によく使用されるファイルの種類はどれですか?",
+      "options": [
+        "JPEG",
+        "MP3",
+        "DOCX",
+        "EXE"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_211",
+      "difficulty": "medium",
+      "category": "テクノロジー",
+      "question": "RAM は何の略ですか?",
+      "options": [
+        "ランダムアクセスメモリ",
+        "ラピッドアクションモジュール",
+        "すべてのメディアを読む",
+        "ランタイム Audio モード"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_212",
+      "difficulty": "medium",
+      "category": "テクノロジー",
+      "question": "クラウド ストレージは何に使用されますか?",
+      "options": [
+        "ファイルをオンラインで保存する",
+        "スクリーンの掃除",
+        "ラップトップの冷却",
+        "電話の充電"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_213",
+      "difficulty": "medium",
+      "category": "テクノロジー",
+      "question": "GPS は何を判断するのに役立ちますか?",
+      "options": [
+        "場所",
+        "バッテリー寿命",
+        "画面サイズ",
+        "パスワードの強度"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_214",
+      "difficulty": "medium",
+      "category": "テクノロジー",
+      "question": "非接触型決済にはどのテクノロジーが使用されていますか?",
+      "options": [
+        "NFC",
+        "VHS",
+        "CRT",
+        "DVD"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_215",
+      "difficulty": "hard",
+      "category": "テクノロジー",
+      "question": "HTML は何の略ですか?",
+      "options": [
+        "ハイパーテキストマークアップ言語",
+        "高転送マシンロジック",
+        "ホームツールマークアップリンク",
+        "ハイパーリンクテキストのメインリスト"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_216",
+      "difficulty": "hard",
+      "category": "テクノロジー",
+      "question": "2 要素認証は何を改善するために設計されていますか?",
+      "options": [
+        "画面の明るさ",
+        "アカウントのセキュリティ",
+        "ダウンロード速度",
+        "Audio の品質"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_217",
+      "difficulty": "hard",
+      "category": "テクノロジー",
+      "question": "0 と 1 だけを使用する数体系はどれですか?",
+      "options": [
+        "10進数",
+        "バイナリ",
+        "16進数",
+        "ローマ人"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_218",
+      "difficulty": "hard",
+      "category": "テクノロジー",
+      "question": "API とは何の略ですか?",
+      "options": [
+        "アプリケーションプログラミングインターフェース",
+        "Automatic プログラム インデックス",
+        "適用されたピクセル入力",
+        "高度なプロセスインターネット"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_219",
+      "difficulty": "hard",
+      "category": "テクノロジー",
+      "question": "SSD は何の略ですか?",
+      "options": [
+        "ソリッドステートドライブ",
+        "システムストレージディスク",
+        "スマートソフトウェアデバイス",
+        "安全な信号ドライブ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_220",
+      "difficulty": "hard",
+      "category": "テクノロジー",
+      "question": "安全な Web サイトを読み込むために一般的に使用されるプロトコルはどれですか?",
+      "options": [
+        "HTTP",
+        "HTTPS",
+        "FTP",
+        "SMTP"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_221",
+      "difficulty": "easy",
+      "category": "インターネット",
+      "question": "DM は通常何を表しますか?",
       "options": [
         "ダイレクトメッセージ",
-        "デイリーミーム",
-        "デジタルモード",
-        "ディープメディア"
+        "デジタル地図",
+        "デイリーモード",
+        "データメモリ"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_ja_132",
+      "id": "tb_ja_222",
       "difficulty": "easy",
-      "category": "ネット",
-      "question": "短い縦型動画で有名なプラットフォームは？",
+      "category": "インターネット",
+      "question": "ハッシュタグを開始する記号はどれですか?",
+      "options": [
+        "@",
+        "#",
+        "&",
+        "*"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_223",
+      "difficulty": "easy",
+      "category": "インターネット",
+      "question": "セルフィーとは何ですか?",
+      "options": [
+        "自分の写真",
+        "パスワード",
+        "検索結果",
+        "ビデオゲーム"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_224",
+      "difficulty": "easy",
+      "category": "インターネット",
+      "question": "短い縦型動画で最もよく知られているプラットフォームはどれですか?",
       "options": [
         "TikTok",
-        "Wikipedia",
-        "Excel",
-        "地図"
+        "ウィキペディア",
+        "ドロップボックス",
+        "たるみ"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_ja_133",
+      "id": "tb_ja_225",
       "difficulty": "easy",
-      "category": "ネット",
-      "question": "スクショは主に何を保存するもの？",
+      "category": "インターネット",
+      "question": "絵文字とは何ですか?",
       "options": [
-        "画面の画像",
-        "パスワード",
-        "バッテリー",
-        "着信音"
+        "小さなデジタルアイコン",
+        "ウェブブラウザ",
+        "ファイル形式",
+        "ケーブルの種類"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_226",
+      "difficulty": "easy",
+      "category": "インターネット",
+      "question": "オンラインでの LOL とは通常何を意味しますか?",
+      "options": [
+        "たくさんのライト",
+        "大声で笑う",
+        "リンク一覧",
+        "運が低い"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ja_227",
+      "difficulty": "easy",
+      "category": "インターネット",
+      "question": "保存に使用されるスクリーンショットとは何ですか?",
+      "options": [
+        "画面上にあるもの",
+        "バッテリーの充電",
+        "電話",
+        "Wi-Fi パスワードのみ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_228",
+      "difficulty": "medium",
+      "category": "インターネット",
+      "question": "クリックベイトは何を得るために設計されていますか?",
+      "options": [
+        "クリック数",
+        "睡眠",
+        "気象データ",
+        "パスワードのみ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_229",
+      "difficulty": "medium",
+      "category": "インターネット",
+      "question": "日常のインターネット使用において、URL は何を意味しますか?",
+      "options": [
+        "ウェブアドレス",
+        "音楽ファイル",
+        "カメラモード",
+        "携帯電話のバッテリー"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_230",
+      "difficulty": "medium",
+      "category": "インターネット",
+      "question": "ミームとは何ですか?",
+      "options": [
+        "共有可能なジョークやアイデア",
+        "キーボードの一種",
+        "プライベートパスワード",
+        "クラウドサーバー"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_231",
+      "difficulty": "medium",
+      "category": "インターネット",
+      "question": "フィッシングとは何ですか?",
+      "options": [
+        "情報を盗む詐欺",
+        "写真を編集する方法",
+        "音楽ジャンル",
+        "ビデオフィルター"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_232",
+      "difficulty": "medium",
+      "category": "インターネット",
+      "question": "ライブストリーミングとはどういう意味ですか?",
+      "options": [
+        "リアルタイムで放送する",
+        "ファイルを保存する",
+        "オフラインでコードを書く",
+        "写真を印刷する"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_233",
+      "difficulty": "medium",
+      "category": "インターネット",
+      "question": "ユーザー名とは何ですか?",
+      "options": [
+        "公開アカウント名",
+        "コンピューターウイルス",
+        "スクリーンケーブル",
+        "支払いカード"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_234",
+      "difficulty": "medium",
+      "category": "インターネット",
+      "question": "ブラウザは何に使われますか?",
+      "options": [
+        "ウェブサイトへのアクセス",
+        "音楽をミキシングする",
+        "デバイスの充電",
+        "地図を描く"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_235",
+      "difficulty": "hard",
+      "category": "インターネット",
+      "question": "SEO は何の略ですか?",
+      "options": [
+        "検索エンジンの最適化",
+        "安全な電子メール出力",
+        "ソーシャル編集オプション",
+        "システムエントリー順序"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_236",
+      "difficulty": "hard",
+      "category": "インターネット",
+      "question": "Web ブラウジングにおける Cookie とは何ですか?",
+      "options": [
+        "保存されたサイトデータ",
+        "キーボードショートカット",
+        "写真フィルター",
+        "チャットの反応"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_237",
+      "difficulty": "hard",
+      "category": "インターネット",
+      "question": "HTTP は何の略ですか?",
+      "options": [
+        "ハイパーテキスト転送プロトコル",
+        "ハイテクテキストプログラム",
+        "ホーム転送ツールポート",
+        "ハイパーリンク追跡ページ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_238",
+      "difficulty": "hard",
+      "category": "インターネット",
+      "question": "VPN は何の略ですか?",
+      "options": [
+        "仮想プライベートネットワーク",
+        "検証済みの公開名",
+        "視覚的なページ番号",
+        "ビデオ処理ノード"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_239",
+      "difficulty": "hard",
+      "category": "インターネット",
+      "question": "双方向ビデオ通信は一般的に何と呼ばれていますか?",
+      "options": [
+        "ビデオ通話",
+        "スクリーンショット",
+        "ブックマーク",
+        "キャプチャ"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ja_240",
+      "difficulty": "hard",
+      "category": "インターネット",
+      "question": "CAPTCHAは主に何を検出するために使われますか?",
+      "options": [
+        "ボット",
+        "色",
+        "画面サイズ",
+        "バッテリー残量"
       ],
       "correctIndex": 0
     }

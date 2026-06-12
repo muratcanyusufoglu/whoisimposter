@@ -1,1009 +1,1687 @@
 {
   "gameId": "would-you-rather",
   "locale": "zh-Hant",
-  "version": 1,
+  "version": 2,
   "prompts": [
     {
-      "id": "wyr_zhh_001",
+      "id": "wyr_zh-Hant_001",
+      "text": "每次聚會都有吃不完的小點心，還是永遠都能選音樂，你選哪個？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願一輩子珍奶免費，還是一輩子鹹酥雞免費？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_002",
+      "id": "wyr_zh-Hant_002",
+      "text": "你願意總是能找到完美的停車位還是不再排隊等候？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願可以瞬間移動，還是時間倒退10分鐘？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_003",
+      "id": "wyr_zh-Hant_003",
+      "text": "你願意一覺醒來擁有完美的頭髮，還是總是在一分鐘內挑選完美的服裝？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願能和貓說話，還是能和狗說話？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_004",
+      "id": "wyr_zh-Hant_004",
+      "text": "你想要永遠免費的咖啡還是永遠免費的甜點？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願一天變透明人，還是一天可以飛？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_005",
+      "id": "wyr_zh-Hant_005",
+      "text": "你想在卡拉 OK 中表現出色，還是在棋盤遊戲中無與倫比？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願每天完美起床，還是熬夜也不累？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_006",
+      "id": "wyr_zh-Hant_006",
+      "text": "你願意住在海灘旁邊還是住在你最喜歡的城市中心？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願KTV一定高分，還是什麼料理都會做？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_007",
+      "id": "wyr_zh-Hant_007",
+      "text": "你願意始終擁有充滿電的手機還是始終擁有完美的Wi-Fi？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願永遠不錯過末班車，還是旅行永遠不迷路？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_008",
+      "id": "wyr_zh-Hant_008",
+      "text": "你是否願意再也不會丟失鑰匙或永遠不會忘記你走進房間的原因？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願手機永遠滿電，還是自拍永遠好看？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_009",
+      "id": "wyr_zh-Hant_009",
+      "text": "你願意在任何事件發生後傳送到工作地點還是傳送回家？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願一輩子珍奶免費，還是一輩子鹹酥雞免費？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_010",
+      "id": "wyr_zh-Hant_010",
+      "text": "你想要私人廚師當早餐還是週末有私人司機？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願可以瞬間移動，還是時間倒退10分鐘？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_011",
+      "id": "wyr_zh-Hant_011",
+      "text": "你願意一年只看喜劇還是一年只聽快樂的音樂？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願能和貓說話，還是能和狗說話？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_012",
+      "id": "wyr_zh-Hant_012",
+      "text": "你願意贏得每場比賽之夜還是總是讓每個人在比賽之夜都開懷大笑？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願一天變透明人，還是一天可以飛？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_013",
+      "id": "wyr_zh-Hant_013",
+      "text": "你願意擁有一間風景優美的小公寓還是在一個無聊的地方擁有一棟大房子？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願每天完美起床，還是熬夜也不累？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_014",
+      "id": "wyr_zh-Hant_014",
+      "text": "你願意因烹飪而出名還是因舞蹈而出名？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願KTV一定高分，還是什麼料理都會做？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_015",
+      "id": "wyr_zh-Hant_015",
+      "text": "你願意總是知道菜單上最好的東西還是總是選擇最好的電影？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願永遠不錯過末班車，還是旅行永遠不迷路？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_016",
+      "id": "wyr_zh-Hant_016",
+      "text": "你願意參加自發性的一日遊還是規劃一個完美的週末？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願手機永遠滿電，還是自拍永遠好看？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_017",
+      "id": "wyr_zh-Hant_017",
+      "text": "你想要一個可以自行設計的衣櫃還是可以自行補充物品的冰箱？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願一輩子珍奶免費，還是一輩子鹹酥雞免費？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_018",
+      "id": "wyr_zh-Hant_018",
+      "text": "你寧願不再洗衣服或不再洗碗嗎？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願可以瞬間移動，還是時間倒退10分鐘？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_019",
+      "id": "wyr_zh-Hant_019",
+      "text": "你願意總是吃到最後一片披薩還是總是能獲得最好的座位？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願能和貓說話，還是能和狗說話？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_020",
+      "id": "wyr_zh-Hant_020",
+      "text": "你寧願有一個能把吵雜場所靜音的魔法按鈕，還是能跳過尷尬閒聊的按鈕？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願一天變透明人，還是一天可以飛？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_021",
+      "id": "wyr_zh-Hant_021",
+      "text": "你願意在任何地方小睡還是每天早上醒來時精神煥發？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願每天完美起床，還是熬夜也不累？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_022",
+      "id": "wyr_zh-Hant_022",
+      "text": "你願意在休息日始終擁有完美的天氣，還是希望在遲到時永遠不會遇到交通擁堵？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願KTV一定高分，還是什麼料理都會做？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_023",
+      "id": "wyr_zh-Hant_023",
+      "text": "你願意永遠獲得免費音樂會門票還是永遠免費電影票？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願永遠不錯過末班車，還是旅行永遠不迷路？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_024",
+      "id": "wyr_zh-Hant_024",
+      "text": "你比較願意擅長拍照還是擅長在照片中？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願手機永遠滿電，還是自拍永遠好看？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_025",
+      "id": "wyr_zh-Hant_025",
+      "text": "你願意永遠記得名字還是永遠記得生日？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願一輩子珍奶免費，還是一輩子鹹酥雞免費？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_026",
+      "id": "wyr_zh-Hant_026",
+      "text": "你想要一個有秘密房間的家還是一個屋頂聚會場所？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願可以瞬間移動，還是時間倒退10分鐘？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_027",
+      "id": "wyr_zh-Hant_027",
+      "text": "你願意只搭火車旅行還是只搭公路旅行？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願能和貓說話，還是能和狗說話？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_028",
+      "id": "wyr_zh-Hant_028",
+      "text": "你願意住沒有電梯還是沒有自動扶梯？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願一天變透明人，還是一天可以飛？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_029",
+      "id": "wyr_zh-Hant_029",
+      "text": "你是願意永遠完美復出還是在壓力下永遠保持冷靜？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願每天完美起床，還是熬夜也不累？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_030",
+      "id": "wyr_zh-Hant_030",
+      "text": "你願意成為朋友圈中最好的廚師還是最好的說故事的人？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願KTV一定高分，還是什麼料理都會做？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_031",
+      "id": "wyr_zh-Hant_031",
+      "text": "你願意為尷尬時刻設定快退按鈕，還是為完美時刻設定暫停按鈕？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願永遠不錯過末班車，還是旅行永遠不迷路？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_032",
+      "id": "wyr_zh-Hant_032",
+      "text": "你願意永遠只穿你最喜歡的顏色還是不再重複穿一套衣服？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願手機永遠滿電，還是自拍永遠好看？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_033",
+      "id": "wyr_zh-Hant_033",
+      "text": "你想要無限的書籍還是無限的遊戲？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願一輩子珍奶免費，還是一輩子鹹酥雞免費？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_034",
+      "id": "wyr_zh-Hant_034",
+      "text": "你希望能夠立即學習任何食譜或立即學習任何歌曲嗎？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願可以瞬間移動，還是時間倒退10分鐘？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_035",
+      "id": "wyr_zh-Hant_035",
+      "text": "你願意總是有空間吃甜點還是永遠不會感到太飽？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願能和貓說話，還是能和狗說話？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_036",
+      "id": "wyr_zh-Hant_036",
+      "text": "你願意主持每個聚會還是被邀請參加每個聚會？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願一天變透明人，還是一天可以飛？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_037",
+      "id": "wyr_zh-Hant_037",
+      "text": "你想要一間有大廚房的房子還是有大遊戲室的房子？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願每天完美起床，還是熬夜也不累？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_038",
+      "id": "wyr_zh-Hant_038",
+      "text": "你願意在一周內只使用語音註釋還是只使用表情符號？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願KTV一定高分，還是什麼料理都會做？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_039",
+      "id": "wyr_zh-Hant_039",
+      "text": "你願意早到還是每次都準時到達？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願永遠不錯過末班車，還是旅行永遠不迷路？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_040",
+      "id": "wyr_zh-Hant_040",
+      "text": "你更願意對臉孔或方向擁有完美的記憶力嗎？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願手機永遠滿電，還是自拍永遠好看？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_041",
+      "id": "wyr_zh-Hant_041",
+      "text": "你願意暫停廣告還是跳過家事嗎？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願一輩子珍奶免費，還是一輩子鹹酥雞免費？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_042",
+      "id": "wyr_zh-Hant_042",
+      "text": "你願意總是在舊口袋裡找到錢還是總是獲得驚喜折扣？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願可以瞬間移動，還是時間倒退10分鐘？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_043",
+      "id": "wyr_zh-Hant_043",
+      "text": "你想要擁有夢想的臥室還是夢想的廚房？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願能和貓說話，還是能和狗說話？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_044",
+      "id": "wyr_zh-Hant_044",
+      "text": "你願意完美地製作任何飲料或完美的零食嗎？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願一天變透明人，還是一天可以飛？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_045",
+      "id": "wyr_zh-Hant_045",
+      "text": "你寧願永遠不需要雨傘還是永遠不需要防曬霜？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願每天完美起床，還是熬夜也不累？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_046",
+      "id": "wyr_zh-Hant_046",
+      "text": "你願意每天早上多花一小時還是每晚多花一小時？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願KTV一定高分，還是什麼料理都會做？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_047",
+      "id": "wyr_zh-Hant_047",
+      "text": "你願意住在麵包店樓上還是電影院旁邊？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願永遠不錯過末班車，還是旅行永遠不迷路？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_048",
+      "id": "wyr_zh-Hant_048",
+      "text": "你願意總是選擇餐廳還是總是選擇活動？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願手機永遠滿電，還是自拍永遠好看？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_049",
+      "id": "wyr_zh-Hant_049",
+      "text": "你願意擁有適合每種心情的個人播放清單還是適合每種計劃的完美服裝？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願一輩子珍奶免費，還是一輩子鹹酥雞免費？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_050",
+      "id": "wyr_zh-Hant_050",
+      "text": "你願意成為提供最好建議的朋友還是提供最好零食的朋友？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願可以瞬間移動，還是時間倒退10分鐘？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_051",
+      "id": "wyr_zh-Hant_051",
+      "text": "你願意晚餐只吃早餐還是早餐吃晚餐？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願能和貓說話，還是能和狗說話？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_052",
+      "id": "wyr_zh-Hant_052",
+      "text": "你是否寧願永遠不必為設備充電或永遠不必更新應用程式？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願一天變透明人，還是一天可以飛？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_053",
+      "id": "wyr_zh-Hant_053",
+      "text": "你想要完美的筆跡還是完美的禮物包裝技巧？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願每天完美起床，還是熬夜也不累？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_054",
+      "id": "wyr_zh-Hant_054",
+      "text": "你願意立即打掃房間還是立即整理手機照片？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "你寧願KTV一定高分，還是什麼料理都會做？"
+      "minAge": 4
     },
     {
-      "id": "wyr_zhh_055",
+      "id": "wyr_zh-Hant_055",
+      "text": "你願意總是有乾淨的床單還是總是有乾淨的毛巾？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_056",
+      "text": "你願意在瑣事上無與倫比還是在猜謎遊戲中無與倫比？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_057",
+      "text": "你想要一個觀景陽台還是一個適合聚會的客廳？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_058",
+      "text": "你願意不再把飲料打翻或不再掉落手機嗎？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_059",
+      "text": "你願意永遠記得你的夢想還是永遠不做惡夢？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_060",
+      "text": "你願意每年一次免費航班還是每年兩次免費飯店？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_061",
+      "text": "你願意一夜之間精通一門新語言還是一夜之間掌握新樂器？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_062",
+      "text": "你願意始終擁有完美的照片照明還是在照片中永遠不眨眼？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_063",
+      "text": "你願意每個月都有一個驚喜的休息日還是每年都有一個驚喜的假期？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_064",
+      "text": "你願意只使用小寫字母文字還是只使用帶有完美標點符號的文字？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_065",
+      "text": "你想要度過一個舒適的小屋週末還是繁忙的城市週末？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_066",
+      "text": "你願意以自己的風格還是幽默感而聞名？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_067",
+      "text": "你願意總是選擇最快的結帳隊伍還是總是立即搭乘電梯？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_068",
+      "text": "你願意永遠不會用完手機上的儲存空間還是永遠不會耗盡電池嗎？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_069",
+      "text": "你願意完美地裝飾任何房間或完美地包裝任何行李箱嗎？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_070",
+      "text": "你願意永遠只喝水還是永遠只喝一種最喜歡的飲料？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_071",
+      "text": "你想要永遠擁有完美的睡眠還是總是以良好的心情醒來？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_072",
+      "text": "你願意成為每個人都要求推薦的人還是每個人都要求計劃旅行的人？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_073",
+      "text": "你想要一個永遠正確的個人天氣預報還是一個自動規劃的日曆？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_074",
+      "text": "你寧願永遠不必打掃浴室或永遠不必打掃廚房嗎？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_075",
+      "text": "你寧願擅長烘焙還是擅長燒烤？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_076",
+      "text": "你願意每年一次獲得前排座位還是每次都獲得 VIP 小吃？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_077",
+      "text": "你願意總是找到最好的隱藏咖啡館還是總是找到最好的視角？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_078",
+      "text": "你想要一週完美的服裝還是一週完美的餐點？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_079",
+      "text": "你願意贏得終身供應的鞋子還是終身供應的耳機？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_080",
+      "text": "你願意永遠知道歌詞還是永遠知道舞蹈？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_081",
+      "text": "你是否願意在沒有說明的情況下解決任何技術問題或組裝任何家具？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_082",
+      "text": "你想要一個永遠不會重的神奇背包還是一個可以自動打包的行李箱？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_083",
+      "text": "你想要永遠擁有一頭漂亮的髮型還是永遠擁有潔淨的肌膚？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_084",
+      "text": "你願意拍最好的集體自拍照還是製定最好的集體計劃？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_085",
+      "text": "你願意每天跳過一項無聊的任務還是每天獲得一個有趣的驚喜？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_086",
+      "text": "你願意住在有無盡夏天的地方還是無盡舒適天氣的地方？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_087",
+      "text": "你寧願永遠不要在線廣告或永遠不要收到垃圾郵件嗎？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_088",
+      "text": "你願意總是選擇一個好的用戶名還是總是寫一個好的標題？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_089",
+      "text": "你願意成為最擅長包裝禮物的人還是最擅長選擇禮物的人？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_090",
+      "text": "你願意在家中享受無限量的電影之夜還是無限量的外出早午餐？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_091",
+      "text": "你想要一個小型私人花園還是一個巨大的共享屋頂？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_092",
+      "text": "你願意永遠只用小湯匙還是總是用小杯子喝水？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_093",
+      "text": "你想讓任何房間變得舒適或讓任何播放清單完美嗎？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_094",
+      "text": "你願意始終擁有正確的充電器還是始終擁有正確的密碼？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_095",
+      "text": "你願意永遠不會忘記密碼還是永遠不會忘記停車地點？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_096",
+      "text": "你想要一個井井有條的衣櫃還是一個井井有條的相機膠卷？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_097",
+      "text": "你願意成為第一個嘗試某種趨勢的人，還是最後一個感到厭倦的人？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_098",
+      "text": "你願意在餐廳總是有空位還是總是獲得免費甜點？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_099",
+      "text": "你想要一首個人炒作歌曲還是個人入口燈？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_100",
+      "text": "你寧願第一印象超加分，還是道別擁抱超溫暖？",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_zh-Hant_101",
+      "text": "你願意被所有人尊重還是被少數人深刻理解？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願永遠不錯過末班車，還是旅行永遠不迷路？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_056",
+      "id": "wyr_zh-Hant_102",
+      "text": "你願意知道某人在撒謊，還是願意在你說真話時總是被相信？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願手機永遠滿電，還是自拍永遠好看？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_057",
+      "id": "wyr_zh-Hant_103",
+      "text": "你願意擁有夢想中的低薪工作還是擁有令人驚嘆的薪水的無聊工作？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願一輩子珍奶免費，還是一輩子鹹酥雞免費？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_058",
+      "id": "wyr_zh-Hant_104",
+      "text": "你願意獨自移居國外還是永遠留在家鄉？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願可以瞬間移動，還是時間倒退10分鐘？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_059",
+      "id": "wyr_zh-Hant_105",
+      "text": "你願意成為房間裡最聰明的人還是每個人最信任的人？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願能和貓說話，還是能和狗說話？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_060",
+      "id": "wyr_zh-Hant_106",
+      "text": "你願意永遠知道真相還是永遠知道該說什麼？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願一天變透明人，還是一天可以飛？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_061",
+      "id": "wyr_zh-Hant_107",
+      "text": "你願意擁有一小群忠實的朋友還是擁有龐大的休閒朋友網絡？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願每天完美起床，還是熬夜也不累？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_062",
+      "id": "wyr_zh-Hant_108",
+      "text": "你願意因為善良還是因為野心而被人們記得？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願KTV一定高分，還是什麼料理都會做？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_063",
+      "id": "wyr_zh-Hant_109",
+      "text": "你願意早點成功並精疲力盡，還是慢慢成功並享受這個過程？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願永遠不錯過末班車，還是旅行永遠不迷路？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_064",
+      "id": "wyr_zh-Hant_110",
+      "text": "你願意忘記每一個錯誤還是記得每一個善行？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願手機永遠滿電，還是自拍永遠好看？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_065",
+      "id": "wyr_zh-Hant_111",
+      "text": "你願意重溫完美的一天還是抹去糟糕的一天？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願一輩子珍奶免費，還是一輩子鹹酥雞免費？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_066",
+      "id": "wyr_zh-Hant_112",
+      "text": "你願意立即原諒還是永遠不再被愚弄？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願可以瞬間移動，還是時間倒退10分鐘？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_067",
+      "id": "wyr_zh-Hant_113",
+      "text": "你想要更多的信心還是更多的紀律？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願能和貓說話，還是能和狗說話？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_068",
+      "id": "wyr_zh-Hant_114",
+      "text": "你想知道人們對你的第一印像是什麼，還是你離開後他們說了什麼？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願一天變透明人，還是一天可以飛？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_069",
+      "id": "wyr_zh-Hant_115",
+      "text": "你願意因為現在的樣子而被愛，還是因為未來的樣子而受到欽佩？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願每天完美起床，還是熬夜也不累？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_070",
+      "id": "wyr_zh-Hant_116",
+      "text": "你願意一直忙於自己喜歡的事情，還是總是有空閒時間但感到無聊？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願KTV一定高分，還是什麼料理都會做？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_071",
+      "id": "wyr_zh-Hant_117",
+      "text": "你願意冒著一切風險去爭取一次大機會，還是願意在緩慢進展的情況下獲得許多小機會？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願永遠不錯過末班車，還是旅行永遠不迷路？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_072",
+      "id": "wyr_zh-Hant_118",
+      "text": "你願意成名五年還是受人尊敬一輩子？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願手機永遠滿電，還是自拍永遠好看？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_073",
+      "id": "wyr_zh-Hant_119",
+      "text": "你願意丟失所有照片還是所有訊息？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願一輩子珍奶免費，還是一輩子鹹酥雞免費？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_074",
+      "id": "wyr_zh-Hant_120",
+      "text": "你願意公開你的搜尋紀錄還是公開你的相機膠卷？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願可以瞬間移動，還是時間倒退10分鐘？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_075",
+      "id": "wyr_zh-Hant_121",
+      "text": "你願意總是說出你的想法還是總是保持平靜？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願能和貓說話，還是能和狗說話？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_076",
+      "id": "wyr_zh-Hant_122",
+      "text": "你願意有一位極度誠實的朋友還是一位永遠支持你的朋友？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願一天變透明人，還是一天可以飛？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_077",
+      "id": "wyr_zh-Hant_123",
+      "text": "你願意成為每個團體的計劃者還是永遠不需要計劃的人？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願每天完美起床，還是熬夜也不累？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_078",
+      "id": "wyr_zh-Hant_124",
+      "text": "你願意在深入的對話中表現出色，還是在讓人們感到舒適方面表現出色？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願KTV一定高分，還是什麼料理都會做？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_079",
+      "id": "wyr_zh-Hant_125",
+      "text": "你想確切地知道自己的生活將走向何方，還是對此感到驚訝？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願永遠不錯過末班車，還是旅行永遠不迷路？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_080",
+      "id": "wyr_zh-Hant_126",
+      "text": "你願意放棄社群媒體一年還是串流一年？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願手機永遠滿電，還是自拍永遠好看？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_081",
+      "id": "wyr_zh-Hant_127",
+      "text": "你願意一年的帶薪休假還是你真正想要的晉升？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願一輩子珍奶免費，還是一輩子鹹酥雞免費？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_082",
+      "id": "wyr_zh-Hant_128",
+      "text": "你願意永遠被低估還是永遠被高估？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願可以瞬間移動，還是時間倒退10分鐘？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_083",
+      "id": "wyr_zh-Hant_129",
+      "text": "你想讓每個人都知道你最大的目標還是你最大的恐懼嗎？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願能和貓說話，還是能和狗說話？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_084",
+      "id": "wyr_zh-Hant_130",
+      "text": "你願意重新開始你的職業生涯還是重新開始一段友誼？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願一天變透明人，還是一天可以飛？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_085",
+      "id": "wyr_zh-Hant_131",
+      "text": "你願意成為人們在危機中打電話的人還是他們打電話慶祝的人？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願每天完美起床，還是熬夜也不累？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_086",
+      "id": "wyr_zh-Hant_132",
+      "text": "你寧願永遠不感到尷尬或永遠不感到嫉妒嗎？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願KTV一定高分，還是什麼料理都會做？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_087",
+      "id": "wyr_zh-Hant_133",
+      "text": "你願意隨時刪除一段記憶還是重播一段記憶嗎？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願永遠不錯過末班車，還是旅行永遠不迷路？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_088",
+      "id": "wyr_zh-Hant_134",
+      "text": "你想知道每部電影的結局還是每個決定的結果？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願手機永遠滿電，還是自拍永遠好看？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_089",
+      "id": "wyr_zh-Hant_135",
+      "text": "你願意在陌生人面前擁有完美的聲譽，還是在朋友面前擁有真正的誠實？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願一輩子珍奶免費，還是一輩子鹹酥雞免費？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_090",
+      "id": "wyr_zh-Hant_136",
+      "text": "你願意總是贏得爭論還是總是讓爭論感到平靜？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願可以瞬間移動，還是時間倒退10分鐘？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_091",
+      "id": "wyr_zh-Hant_137",
+      "text": "你比較願意擅長賺錢還是擅長理財？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願能和貓說話，還是能和狗說話？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_092",
+      "id": "wyr_zh-Hant_138",
+      "text": "你願意讓明智的人來規劃你的未來，還是自己在沒有建議的情況下選擇一切？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願一天變透明人，還是一天可以飛？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_093",
+      "id": "wyr_zh-Hant_139",
+      "text": "你願意成為團隊中最有趣的人還是危機中最冷靜的人？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願每天完美起床，還是熬夜也不累？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_094",
+      "id": "wyr_zh-Hant_140",
+      "text": "你願意現在實現一個夢想，還是隨著時間的推移實現五個較小的夢想？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願KTV一定高分，還是什麼料理都會做？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_095",
+      "id": "wyr_zh-Hant_141",
+      "text": "你願意完全讀懂一個人還是完全理解群眾？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願永遠不錯過末班車，還是旅行永遠不迷路？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_096",
+      "id": "wyr_zh-Hant_142",
+      "text": "你願意為每個結局都獲得結局，還是在一個結局中獲得第二次機會？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願手機永遠滿電，還是自拍永遠好看？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_097",
+      "id": "wyr_zh-Hant_143",
+      "text": "你願意被認為是神秘的還是完全透明的？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願一輩子珍奶免費，還是一輩子鹹酥雞免費？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_098",
+      "id": "wyr_zh-Hant_144",
+      "text": "你想要一份給人留下深刻印象的工作還是平靜的生活？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願可以瞬間移動，還是時間倒退10分鐘？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_099",
+      "id": "wyr_zh-Hant_145",
+      "text": "你寧願太重感情，還是太獨立？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願能和貓說話，還是能和狗說話？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_100",
+      "id": "wyr_zh-Hant_146",
+      "text": "你願意始終有勇氣開始還是有耐心完成？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願一天變透明人，還是一天可以飛？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_101",
+      "id": "wyr_zh-Hant_147",
+      "text": "你願意完美地道歉還是無所畏懼地面對某人？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願每天完美起床，還是熬夜也不累？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_102",
+      "id": "wyr_zh-Hant_148",
+      "text": "你願意永遠在線上最大的失敗還是在群組聊天中最大的秘密？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願KTV一定高分，還是什麼料理都會做？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_103",
+      "id": "wyr_zh-Hant_149",
+      "text": "你願意生活在擁有更多隱私的過去，還是生活在擁有更多便利的未來？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願永遠不錯過末班車，還是旅行永遠不迷路？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_104",
+      "id": "wyr_zh-Hant_150",
+      "text": "你願意永遠承擔責任，還是永遠不被信任負責？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願手機永遠滿電，還是自拍永遠好看？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_105",
+      "id": "wyr_zh-Hant_151",
+      "text": "你願意能夠改變你做出的一項決定還是看到你幾乎做出的決定？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願一輩子珍奶免費，還是一輩子鹹酥雞免費？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_106",
+      "id": "wyr_zh-Hant_152",
+      "text": "你願意失去舒適圈還是失去野心？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願可以瞬間移動，還是時間倒退10分鐘？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_107",
+      "id": "wyr_zh-Hant_153",
+      "text": "你願意被遠方的欽佩還是近距離的愛？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願能和貓說話，還是能和狗說話？"
+      "minAge": 13
     },
     {
-      "id": "wyr_zhh_108",
+      "id": "wyr_zh-Hant_154",
+      "text": "你是否寧願從不將自己與他人進行比較或從不關心他人的想法？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_155",
+      "text": "你願意在每一個錯誤的決定之前得到警告，還是在每一個勇敢的決定之後得到獎勵？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_156",
+      "text": "你願意讓任何人發笑還是讓任何人感到安全嗎？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_157",
+      "text": "你願意擁有完美的記憶力還是完美的繼續前進的能力？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_158",
+      "text": "你願意花一年的時間來鍛鍊你的身體還是你的思想？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_159",
+      "text": "你願意成為一個安靜故事的主角還是史詩故事中的配角？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_160",
+      "text": "你願意知道某人離開的原因還是永遠不知道並更快地康復？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_161",
+      "text": "你願意始終誠實地表達自己的感受還是始終保護他人的感受？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_162",
+      "text": "你想要無限的動力還是無限的耐心？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_163",
+      "text": "你願意立即發現危險信號還是立即發現隱藏的潛力？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_164",
+      "text": "你願意修復過去的一段關係還是避免未來的錯誤？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_165",
+      "text": "你願意總是選擇舒適還是總是選擇成長？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_166",
+      "text": "你願意被挑戰你的人還是安慰你的人包圍？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_167",
+      "text": "你想要完美的日常生活還是完美的千載難逢的冒險？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_168",
+      "text": "你願意秘密地有才華還是公開地平庸？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_169",
+      "text": "你寧願永遠不需要批准還是總是受到鼓勵？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_170",
+      "text": "你願意有一個記得每個細節的朋友還是一個每次都會出現的朋友？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_171",
+      "text": "你願意立即戒除任何習慣還是立即養成任何習慣？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_172",
+      "text": "你願意讓年輕的自己看到現在的生活還是未來的自己回一句話？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_173",
+      "text": "你願意成為改變群體的人還是讓群體變得更好的人？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_174",
+      "text": "你願意始終知道選擇的成本還是始終知道選擇的好處？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_175",
+      "text": "你願意無所畏懼一年還是明智一生？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_176",
+      "text": "你想要網路上看起來令人興奮的生活還是離線感覺令人興奮的生活？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_177",
+      "text": "你願意停止過度思考或停止拖延嗎？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_178",
+      "text": "你願意因一部傑作而聞名，還是因多項紮實的努力而聞名？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_179",
+      "text": "你願意打開每一扇門但沒有明確的方向，還是選擇一條明確的道路而沒有其他選擇？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_180",
+      "text": "你寧願永遠先原諒，還是永遠先轉身離開？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_181",
+      "text": "你願意有一位導師來解決所有問題，還是有一位朋友來解決每一個艱難的日子？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_182",
+      "text": "你願意預測你明天的心情還是了解你今天的心情？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_183",
+      "text": "你願意默默致富還是公開有影響力？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_184",
+      "text": "你願意永遠不會感到孤單或永遠不會被誤解嗎？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_185",
+      "text": "你是否願意立即贏得人們的支持，或立即知道誰值得你花時間？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_186",
+      "text": "你願意因冒險還是以做出明智的選擇而聞名？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_187",
+      "text": "你願意始終有備份計劃還是永遠不需要備份計劃？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_188",
+      "text": "你願意改掉一項壞習慣還是獲得一項令人印象深刻的技能？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_189",
+      "text": "你願意過平靜、少有驚喜的生活，還是喜歡混亂、充滿難忘故事的生活？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_190",
+      "text": "你願意在生命中最美好的時刻發生之前就知道它，還是在事後才意識到它？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_191",
+      "text": "你願意擅長開始對話還是擅長優雅地結束對話？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_192",
+      "text": "你願意永遠成為提供建議的人還是勇敢接受建議的人？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_193",
+      "text": "你願意擁有一個遠離所有人的夢想家園，還是一個靠近你最喜歡的人的簡單家園？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_194",
+      "text": "你願意與任何人和睦相處還是在任何地方重新開始？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_195",
+      "text": "你願意成為每個人都表白的朋友還是每個人都與之聚會的朋友？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_196",
+      "text": "你想要一個月的完全自由還是一年的穩定進步？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_197",
+      "text": "你願意因為一次大膽的舉動而被人們記住，還是願意因為一生的默默忠誠而被人們記住？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_198",
+      "text": "你願意了解自己聲譽的真相還是保持信心不受影響？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_199",
+      "text": "你是否願意毫無罪惡感地拒絕或毫無羞恥地尋求幫助？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_200",
+      "text": "你想要完美的時機還是完美的直覺？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_zh-Hant_201",
+      "text": "你寧願讓朋友審核你的交友 App 個人檔案，還是讓一個信任的人大聲讀出你的私訊？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願一天變透明人，還是一天可以飛？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_109",
+      "id": "wyr_zh-Hant_202",
+      "text": "你願意進行一次沒有化學反應的完美第一次約會，還是一次混亂但有明顯火花的第一次約會？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願每天完美起床，還是熬夜也不累？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_110",
+      "id": "wyr_zh-Hant_203",
+      "text": "你願意始終知道某人何時在調情，還是永遠不意外地回調情？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願KTV一定高分，還是什麼料理都會做？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_111",
+      "id": "wyr_zh-Hant_204",
+      "text": "你願意和一個人人都愛但你卻不確定的人約會，還是和一個人人都懷疑但你卻確信的人約會？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願永遠不錯過末班車，還是旅行永遠不迷路？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_112",
+      "id": "wyr_zh-Hant_205",
+      "text": "你願意在一次美妙的約會後被鬼魂籠罩，還是願意慢慢度過一個月的麵包屑？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願手機永遠滿電，還是自拍永遠好看？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_113",
+      "id": "wyr_zh-Hant_206",
+      "text": "你願意當面表白你的暗戀，還是讓你的群聊無意間告白？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願一輩子珍奶免費，還是一輩子鹹酥雞免費？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_114",
+      "id": "wyr_zh-Hant_207",
+      "text": "你想讓你的前任看到你看起來很漂亮，還是真的不在乎他們是否如此？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願可以瞬間移動，還是時間倒退10分鐘？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_115",
+      "id": "wyr_zh-Hant_208",
+      "text": "你願意在深夜收到一條危險的短信，還是發送一條後立即後悔？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願能和貓說話，還是能和狗說話？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_116",
+      "id": "wyr_zh-Hant_209",
+      "text": "你願意有一個非常誠實的伴侶還是一個避免每一次艱難對話的伴侶？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願一天變透明人，還是一天可以飛？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_117",
+      "id": "wyr_zh-Hant_210",
+      "text": "你願意和愛開玩笑的人還是情感成熟的人約會？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願每天完美起床，還是熬夜也不累？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_118",
+      "id": "wyr_zh-Hant_211",
+      "text": "你是否願意被發現跟踪某人的個人資料，或者意外喜歡一個非常舊的帖子？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願KTV一定高分，還是什麼料理都會做？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_119",
+      "id": "wyr_zh-Hant_212",
+      "text": "你想要一段難忘的夏日浪漫，還是一段緩慢燃燒的愛情故事？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願永遠不錯過末班車，還是旅行永遠不迷路？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_120",
+      "id": "wyr_zh-Hant_213",
+      "text": "你願意認識你的伴侶曾經喜歡過的每一個人，還是一無所知並保持平靜？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願手機永遠滿電，還是自拍永遠好看？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_121",
+      "id": "wyr_zh-Hant_214",
+      "text": "你願意成為一個嫉妒的人，還是一個不努力就讓人嫉妒的人？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願一輩子珍奶免費，還是一輩子鹹酥雞免費？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_122",
+      "id": "wyr_zh-Hant_215",
+      "text": "你寧願時機很糟但超有火花，還是時機完美但來電感普通？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願可以瞬間移動，還是時間倒退10分鐘？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_123",
+      "id": "wyr_zh-Hant_216",
+      "text": "你願意第一個說“我愛你”，還是等到你完全確定之後才說“我愛你”？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願能和貓說話，還是能和狗說話？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_124",
+      "id": "wyr_zh-Hant_217",
+      "text": "你願意進行沒有手機的約會還是沒有閒聊的約會？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願一天變透明人，還是一天可以飛？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_125",
+      "id": "wyr_zh-Hant_218",
+      "text": "你願意暴露最大的危險信號還是發現每個人都已經知道它？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願每天完美起床，還是熬夜也不累？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_126",
+      "id": "wyr_zh-Hant_219",
+      "text": "你願意成為某人的秘密迷戀者還是某人公開的痴迷者？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願KTV一定高分，還是什麼料理都會做？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_127",
+      "id": "wyr_zh-Hant_220",
+      "text": "你願意有一個戲劇性的分手故事，還是因為沒有任何事情變得嚴重而沒有分手故事？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願永遠不錯過末班車，還是旅行永遠不迷路？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_128",
+      "id": "wyr_zh-Hant_221",
+      "text": "你願意和一個發布所有內容的人約會還是一個什麼都不發布的人約會？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願手機永遠滿電，還是自拍永遠好看？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_129",
+      "id": "wyr_zh-Hant_222",
+      "text": "你願意和一個非常自發性的人還是一個非常一致的人在一起？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願一輩子珍奶免費，還是一輩子鹹酥雞免費？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_130",
+      "id": "wyr_zh-Hant_223",
+      "text": "你願意共享密碼還是共享位置？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願可以瞬間移動，還是時間倒退10分鐘？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_131",
+      "id": "wyr_zh-Hant_224",
+      "text": "你願意收到一封來自錯誤的人的情書還是來自正確的人的一句話短信？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願能和貓說話，還是能和狗說話？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_132",
+      "id": "wyr_zh-Hant_225",
+      "text": "你想讓你的暗戀對象聽到你最糟糕的語音還是看到你最糟糕的自拍照？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願一天變透明人，還是一天可以飛？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_133",
+      "id": "wyr_zh-Hant_226",
+      "text": "你喜歡當面調情還是傳簡訊？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願每天完美起床，還是熬夜也不累？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_134",
+      "id": "wyr_zh-Hant_227",
+      "text": "你願意始終知道約會對像是否喜歡你，還是始終知道他們是否在浪費你的時間？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願KTV一定高分，還是什麼料理都會做？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_135",
+      "id": "wyr_zh-Hant_228",
+      "text": "你願意擁有一段充滿激情和混亂的關係，還是擁有較少煙火的平靜愛情？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願永遠不錯過末班車，還是旅行永遠不迷路？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_136",
+      "id": "wyr_zh-Hant_229",
+      "text": "你願意成為更在乎的人還是第一個承認的人？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願手機永遠滿電，還是自拍永遠好看？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_137",
+      "id": "wyr_zh-Hant_230",
+      "text": "你願意發現一個朋友喜歡你的暗戀對象還是你的暗戀對象喜歡你的朋友？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願一輩子珍奶免費，還是一輩子鹹酥雞免費？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_138",
+      "id": "wyr_zh-Hant_231",
+      "text": "你願意和每個人都喜歡的人約會還是只有你了解的人約會？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願可以瞬間移動，還是時間倒退10分鐘？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_139",
+      "id": "wyr_zh-Hant_232",
+      "text": "你願意讓你的處境決定這段關係還是永遠消失？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願能和貓說話，還是能和狗說話？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_140",
+      "id": "wyr_zh-Hant_233",
+      "text": "你願意從前任那裡得到終結，還是從你從未約會過的人那裡得到道歉？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願一天變透明人，還是一天可以飛？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_141",
+      "id": "wyr_zh-Hant_234",
+      "text": "你願意有一個沒有未來的完美之吻，還是一個笨拙的開始卻成為真愛？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願每天完美起床，還是熬夜也不累？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_142",
+      "id": "wyr_zh-Hant_235",
+      "text": "你希望能夠立即看到某人的綠旗還是紅旗？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願KTV一定高分，還是什麼料理都會做？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_143",
+      "id": "wyr_zh-Hant_236",
+      "text": "你願意自信地調情但卻失敗，還是表現得冷靜錯失機會？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願永遠不錯過末班車，還是旅行永遠不迷路？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_144",
+      "id": "wyr_zh-Hant_237",
+      "text": "你願意讓你的朋友回顧每一次第一次約會或每一次分手嗎？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願手機永遠滿電，還是自拍永遠好看？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_145",
+      "id": "wyr_zh-Hant_238",
+      "text": "你願意和一個記得每個細節的人還是一個不斷給你驚喜的人約會？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願一輩子珍奶免費，還是一輩子鹹酥雞免費？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_146",
+      "id": "wyr_zh-Hant_239",
+      "text": "你願意和前任複合一週還是連續五次相親？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願可以瞬間移動，還是時間倒退10分鐘？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_147",
+      "id": "wyr_zh-Hant_240",
+      "text": "你寧願讓朋友選你的下一個約會對象，還是讓搜尋紀錄幫你選？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願能和貓說話，還是能和狗說話？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_148",
+      "id": "wyr_zh-Hant_241",
+      "text": "你願意在公開場合大聲地愛你，還是私下以只有你自己注意到的方式被愛？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願一天變透明人，還是一天可以飛？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_149",
+      "id": "wyr_zh-Hant_242",
+      "text": "你願意永遠成為令人心碎的人還是永遠成為無可救藥的浪漫者？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願每天完美起床，還是熬夜也不累？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_150",
+      "id": "wyr_zh-Hant_243",
+      "text": "你願意有一個太黏人的伴侶還是太神秘的伴侶？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願KTV一定高分，還是什麼料理都會做？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_151",
+      "id": "wyr_zh-Hant_244",
+      "text": "你願意發現有人寫了一首關於你的歌曲還是一篇關於你的長筆記應用程式咆哮？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願永遠不錯過末班車，還是旅行永遠不迷路？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_152",
+      "id": "wyr_zh-Hant_245",
+      "text": "你願意收到「我們需要談談」的簡訊還是不小心將簡訊發送給錯誤的人？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願手機永遠滿電，還是自拍永遠好看？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_153",
+      "id": "wyr_zh-Hant_246",
+      "text": "你願意和一個計劃好每一個細節的人約會，還是和一個即興創作的人約會？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願一輩子珍奶免費，還是一輩子鹹酥雞免費？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_154",
+      "id": "wyr_zh-Hant_247",
+      "text": "你願意與你的對手產生不可否認的化學反應，還是與像你一樣的人產生舒適的化學反應？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願可以瞬間移動，還是時間倒退10分鐘？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_155",
+      "id": "wyr_zh-Hant_248",
+      "text": "你願意被抓到排練認罪還是被抓到練習分手演講？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願能和貓說話，還是能和狗說話？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_156",
+      "id": "wyr_zh-Hant_249",
+      "text": "你願意讓舊日暗戀對象突然傳簡訊給你還是當前暗戀對象突然取消追蹤你？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願一天變透明人，還是一天可以飛？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_157",
+      "id": "wyr_zh-Hant_250",
+      "text": "你願意總是跌倒得太快還是總是太晚才意識到自己的感受？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願每天完美起床，還是熬夜也不累？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_158",
+      "id": "wyr_zh-Hant_251",
+      "text": "你願意成為別人改變的人，還是成為別人無法忘記的人？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願KTV一定高分，還是什麼料理都會做？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_159",
+      "id": "wyr_zh-Hant_252",
+      "text": "你寧願擁有一個言語驚人的伴侶還是行動驚人的伴侶？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願永遠不錯過末班車，還是旅行永遠不迷路？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_160",
+      "id": "wyr_zh-Hant_253",
+      "text": "你願意和一個讓你經常開懷大笑的人約會還是一個讓你感到完全平靜的人約會？",
       "intensity": "spicy",
-      "minAge": 18,
-      "text": "你寧願手機永遠滿電，還是自拍永遠好看？"
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_161",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願失去所有存的迷因，還是所有播放清單？"
+      "id": "wyr_zh-Hant_254",
+      "text": "你想知道你喜歡的人是否夢見你，還是想知道他們是否在談論你？",
+      "intensity": "spicy",
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_162",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願每個錯字都公開，還是每個草稿都自動送出？"
+      "id": "wyr_zh-Hant_255",
+      "text": "你願意發送第一則訊息還是親自踏出第一步？",
+      "intensity": "spicy",
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_163",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願跳舞爆紅，還是跌倒爆紅？"
+      "id": "wyr_zh-Hant_256",
+      "text": "你願意維持三個月的秘密關係還是所有人都評論的公開關係？",
+      "intensity": "spicy",
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_164",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願只能用 GIF 聊天，還是只能用語音訊息？"
+      "id": "wyr_zh-Hant_257",
+      "text": "你願意讓你的朋友評價你的調情風格，還是讓你的暗戀對象評價你的簡訊風格？",
+      "intensity": "spicy",
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_165",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "無限電量，還是一輩子完美 Wi‑Fi？"
+      "id": "wyr_zh-Hant_258",
+      "text": "你願意成為嚴肅的反彈手還是他們永遠不會忘記的人？",
+      "intensity": "spicy",
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_166",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願每次都主辦派對，還是每次都負責收拾？"
+      "id": "wyr_zh-Hant_259",
+      "text": "你願意和一個跟你有同樣幽默感的人約會還是跟你有同樣野心的人約會？",
+      "intensity": "spicy",
+      "minAge": 18
     },
     {
-      "id": "wyr_zhh_167",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "你寧願每次都解釋規則，還是每次都被懷疑作弊？"
+      "id": "wyr_zh-Hant_260",
+      "text": "你寧願喜歡上一個得不到的人，還是讓一個得不到的人喜歡你？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_zh-Hant_261",
+      "text": "你願意收到醉酒後的告白還是花了一週時間寫的清醒的訊息？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_zh-Hant_262",
+      "text": "你願意每次約會都以深入的對話還是以可笑的故事結束？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_zh-Hant_263",
+      "text": "你願意和挑戰你的人還是崇拜你的人在一起？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_zh-Hant_264",
+      "text": "你願意保留一點神秘感還是立即了解一切？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_zh-Hant_265",
+      "text": "你願意擁有一位與你的朋友成為最好朋友的伴侶，還是一位將你的世界分開的伴侶？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_zh-Hant_266",
+      "text": "你願意和一個從不嫉妒的人約會還是一個誠實承認這一點的人約會？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_zh-Hant_267",
+      "text": "你願意有一次強烈的眼神交流還是一次完美時機的握手？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_zh-Hant_268",
+      "text": "你是否願意過早保存婚禮創意或過晚刪除約會應用程式？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_zh-Hant_269",
+      "text": "你願意擁有一段永遠不會變得更多的調情友誼，還是一段從尷尬的調情開始的關係？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_zh-Hant_270",
+      "text": "你希望能夠撤銷一封已發送的訊息或親自撤銷一句話嗎？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_zh-Hant_271",
+      "text": "你願意讓你最好的朋友認同你的暗戀對象，還是讓你暗戀的人認同你最好的朋友？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_zh-Hant_272",
+      "text": "你願意和一個喜歡被關注的人約會，還是和一個完全迴避關注的人約會？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_zh-Hant_273",
+      "text": "你願意成為某人對著手機微笑的原因還是他們整天無法集中註意力的原因？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_zh-Hant_274",
+      "text": "你願意在尷尬的沉默中享用浪漫的晚餐，還是在充滿活力的混亂夜晚度過？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_zh-Hant_275",
+      "text": "你比較願意被人以盛大的姿態約出去，還是簡單誠實的一句話？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_zh-Hant_276",
+      "text": "你願意擁有一種人人羨慕的關係，還是一種除了你之外沒有人理解的關係？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_zh-Hant_277",
+      "text": "你寧願永遠不知道誰暗戀你，還是知道卻無能為力？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_zh-Hant_278",
+      "text": "你願意給你喜歡的人發送語音留言還是給你的前任留下語音郵件？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_zh-Hant_279",
+      "text": "你願意讓你的伴侶讀一天你的想法還是讀你的筆記應用程式一分鐘？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_zh-Hant_280",
+      "text": "你寧願成為某人的安全選擇，還是讓人難以抗拒的冒險選擇？",
+      "intensity": "spicy",
+      "minAge": 18
     }
   ]
 }

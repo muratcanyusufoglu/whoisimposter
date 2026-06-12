@@ -1,0 +1,1009 @@
+{
+  "gameId": "never-have-i-ever",
+  "locale": "da",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "nhie_da_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldrig nogensinde spist en hel pizza alene."
+    },
+    {
+      "id": "nhie_da_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde holdt mig vågen i mere end 24 timer."
+    },
+    {
+      "id": "nhie_da_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde grint så meget, at jeg græd."
+    },
+    {
+      "id": "nhie_da_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde ladet som om jeg kunne en sang og helt opdigtet ordene."
+    },
+    {
+      "id": "nhie_da_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde binged en hel tv-sæson på én dag."
+    },
+    {
+      "id": "nhie_da_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldrig haft pyjamas på hele dagen."
+    },
+    {
+      "id": "nhie_da_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde spist mad, der faldt på gulvet."
+    },
+    {
+      "id": "nhie_da_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldrig nogensinde genbrugt en kop uden at have vasket den."
+    },
+    {
+      "id": "nhie_da_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde talt til mig selv offentligt uden at være klar over det."
+    },
+    {
+      "id": "nhie_da_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde glemt nogens navn lige efter at være blevet introduceret."
+    },
+    {
+      "id": "nhie_da_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldrig læst slutningen af en bog, før jeg har afsluttet den."
+    },
+    {
+      "id": "nhie_da_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde ved et uheld kaldt en lærer 'mor' eller 'far'."
+    },
+    {
+      "id": "nhie_da_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde spillet videospil i mere end 8 timer i træk."
+    },
+    {
+      "id": "nhie_da_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldrig nogensinde vundet et væddemål."
+    },
+    {
+      "id": "nhie_da_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde danset offentligt alene."
+    },
+    {
+      "id": "nhie_da_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde sneget mad ind i en biograf."
+    },
+    {
+      "id": "nhie_da_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig er jeg nogensinde gået helt vild i en by, jeg kender."
+    },
+    {
+      "id": "nhie_da_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldrig nogensinde købt noget, bare fordi det var på udsalg."
+    },
+    {
+      "id": "nhie_da_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldrig nogensinde sendt en talebesked ved et uheld."
+    },
+    {
+      "id": "nhie_da_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldrig sprunget over at børste mine tænder før sengetid."
+    },
+    {
+      "id": "nhie_da_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde stalket en eks på sociale medier efter et brud."
+    },
+    {
+      "id": "nhie_da_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig er jeg nogensinde blevet fanget i en løgn og gjort det værre med en anden løgn."
+    },
+    {
+      "id": "nhie_da_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde dramatisk foregivet, at jeg ikke så nogen offentligt."
+    },
+    {
+      "id": "nhie_da_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde grædt, da jeg så en reklame."
+    },
+    {
+      "id": "nhie_da_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldrig googlet mig selv."
+    },
+    {
+      "id": "nhie_da_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldrig forfalsket at have travlt for at undgå nogen."
+    },
+    {
+      "id": "nhie_da_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldrig kunne lide mit eget indlæg fra en anden konto."
+    },
+    {
+      "id": "nhie_da_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde afluret en samtale, der ikke er beregnet til mig."
+    },
+    {
+      "id": "nhie_da_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde købt noget dyrt på impuls og fortrudt det."
+    },
+    {
+      "id": "nhie_da_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldrig nogensinde gjort nogen uvenner og håbet, at de ikke ville bemærke det."
+    },
+    {
+      "id": "nhie_da_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde grinet af noget, jeg ikke burde have gjort."
+    },
+    {
+      "id": "nhie_da_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde taget æren for en andens arbejde."
+    },
+    {
+      "id": "nhie_da_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde i hemmelighed dømt nogen ud fra deres musiksmag."
+    },
+    {
+      "id": "nhie_da_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde øvet en samtale i mit hoved, før jeg havde den."
+    },
+    {
+      "id": "nhie_da_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldrig foregivet at falde i søvn for at undgå en samtale."
+    },
+    {
+      "id": "nhie_da_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldrig nogensinde givet et falsk nummer til nogen."
+    },
+    {
+      "id": "nhie_da_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde misforstået en situation og troet, at nogen kunne lide mig tilbage."
+    },
+    {
+      "id": "nhie_da_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldrig nogensinde sendt et skærmbillede til den person, det handlede om."
+    },
+    {
+      "id": "nhie_da_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldrig nogensinde startet en gruppechat og derefter ikke deltaget."
+    },
+    {
+      "id": "nhie_da_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldrig nogensinde slettet en kommentar umiddelbart efter at have postet den."
+    },
+    {
+      "id": "nhie_da_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig har jeg nogensinde været på date med mere end én person i samme uge."
+    },
+    {
+      "id": "nhie_da_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig har jeg nogensinde kysset en, hvis efternavn jeg ikke kendte."
+    },
+    {
+      "id": "nhie_da_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jeg har aldrig nogensinde udviklet følelser for min bedste ven."
+    },
+    {
+      "id": "nhie_da_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jeg har aldrig nogensinde været tiltrukket af nogen i dette rum."
+    },
+    {
+      "id": "nhie_da_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig har jeg nogensinde indledt en flirtende samtale og derefter sluppet ud."
+    },
+    {
+      "id": "nhie_da_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig er jeg nogensinde blevet afvist og spillede det fuldstændig af, som om jeg lavede sjov."
+    },
+    {
+      "id": "nhie_da_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig har jeg nogensinde sendt en risikabel besked kl. 2 og fortrudt det om morgenen."
+    },
+    {
+      "id": "nhie_da_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig er jeg nogensinde blevet ved med at tale med nogen, bare fordi opmærksomheden føltes rar."
+    },
+    {
+      "id": "nhie_da_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig har jeg nogensinde fundet på en historie for at imponere en, jeg kunne lide."
+    },
+    {
+      "id": "nhie_da_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig er jeg nogensinde gået tilbage til en eks, jeg svor, jeg var færdig med."
+    },
+    {
+      "id": "nhie_da_051",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig har jeg nogensinde fortalt nogen, at jeg elskede dem, når jeg ikke var sikker på, at jeg mente det."
+    },
+    {
+      "id": "nhie_da_052",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig har jeg nogensinde opholdt mig i et forhold, jeg vidste, ikke virkede kun for komfort."
+    },
+    {
+      "id": "nhie_da_053",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig har jeg nogensinde haft et dramatisk skænderi med en bedste ven over en, vi begge kunne lide."
+    },
+    {
+      "id": "nhie_da_054",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jeg har aldrig brugt mit udseende til at komme ud af problemer."
+    },
+    {
+      "id": "nhie_da_055",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig har jeg nogensinde glidet ind i nogens DM'er på et indfald."
+    },
+    {
+      "id": "nhie_da_056",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig har jeg nogensinde grædt efter et brud, jeg indledte."
+    },
+    {
+      "id": "nhie_da_057",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig har jeg nogensinde været jaloux på nogen, jeg ikke burde have været jaloux på."
+    },
+    {
+      "id": "nhie_da_058",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jeg har aldrig nogensinde spillet hårdt for at få og overdrevet det."
+    },
+    {
+      "id": "nhie_da_059",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig har jeg nogensinde tilstået følelser på en meget pinlig måde."
+    },
+    {
+      "id": "nhie_da_060",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig har jeg nogensinde været fristet til at læse en partners telefon."
+    },
+    {
+      "id": "nhie_da_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldrig nogensinde glemt min egen telefon derhjemme."
+    },
+    {
+      "id": "nhie_da_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg er aldrig gået ind i den forkerte bus eller tog."
+    },
+    {
+      "id": "nhie_da_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde spist dessert før aftensmaden."
+    },
+    {
+      "id": "nhie_da_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde sovet igennem en alarm."
+    },
+    {
+      "id": "nhie_da_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldrig ved et uheld båret strømper, der ikke matcher hinanden."
+    },
+    {
+      "id": "nhie_da_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde grinet i et alvorligt øjeblik."
+    },
+    {
+      "id": "nhie_da_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde spildt en drink på mig selv offentligt."
+    },
+    {
+      "id": "nhie_da_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldrig nogensinde gået og handlet, mens jeg var sulten."
+    },
+    {
+      "id": "nhie_da_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldrig mistet mine nøgler i mere end en dag."
+    },
+    {
+      "id": "nhie_da_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde brugt det samme outfit to dage i træk."
+    },
+    {
+      "id": "nhie_da_071",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldrig nogensinde glemt at oplade min telefon natten over."
+    },
+    {
+      "id": "nhie_da_072",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldrig nogensinde sunget højt alene i bilen."
+    },
+    {
+      "id": "nhie_da_073",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde spist korn til aftensmad."
+    },
+    {
+      "id": "nhie_da_074",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldrig nogensinde fået en klipning, jeg hadede."
+    },
+    {
+      "id": "nhie_da_075",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldrig prøvet at reparere noget og gjort det værre."
+    },
+    {
+      "id": "nhie_da_076",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig er jeg nogensinde gået ind i det forkerte klasseværelse eller møde."
+    },
+    {
+      "id": "nhie_da_077",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig er jeg nogensinde faldet i søvn under en film i biografen."
+    },
+    {
+      "id": "nhie_da_078",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldrig nogensinde sendt en besked til den forkerte gruppechat."
+    },
+    {
+      "id": "nhie_da_079",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde bagt noget, der blev forfærdeligt."
+    },
+    {
+      "id": "nhie_da_080",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldrig nogensinde haft en kæledyrsfisk."
+    },
+    {
+      "id": "nhie_da_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde slumret en alarm mere end fem gange."
+    },
+    {
+      "id": "nhie_da_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde løjet om at være på vej."
+    },
+    {
+      "id": "nhie_da_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde glemt en nær vens fødselsdag."
+    },
+    {
+      "id": "nhie_da_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg er aldrig nogensinde blevet taget i at aflytte."
+    },
+    {
+      "id": "nhie_da_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde ladet, som om min telefon døde for at afslutte et opkald."
+    },
+    {
+      "id": "nhie_da_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde været forelsket i en kollega eller klassekammerat."
+    },
+    {
+      "id": "nhie_da_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldrig nogensinde genlæst en gammel chat for at overtænke det."
+    },
+    {
+      "id": "nhie_da_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldrig nogensinde slettet en besked umiddelbart efter afsendelse."
+    },
+    {
+      "id": "nhie_da_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde forfulgt nogens profil af nysgerrighed."
+    },
+    {
+      "id": "nhie_da_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde været så flov, at jeg ville forlade en fest."
+    },
+    {
+      "id": "nhie_da_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde løjet på et CV."
+    },
+    {
+      "id": "nhie_da_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldrig nogensinde lånt noget og ikke returneret det."
+    },
+    {
+      "id": "nhie_da_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde blokeret nogen og derefter fjernet blokeringen for at tjekke."
+    },
+    {
+      "id": "nhie_da_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde brugt et falsk navn på en café."
+    },
+    {
+      "id": "nhie_da_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde spøgt en gruppechat."
+    },
+    {
+      "id": "nhie_da_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde bebrejdet min forsinkelse på trafikken, da jeg lige gik for sent."
+    },
+    {
+      "id": "nhie_da_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde sagt 'set det' uden at se det."
+    },
+    {
+      "id": "nhie_da_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldrig nogensinde glemt en adgangskode og oprettet en ny konto."
+    },
+    {
+      "id": "nhie_da_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde ligget i sengen hele dagen med vilje."
+    },
+    {
+      "id": "nhie_da_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde i hemmelighed ikke kunne lide en vens partner."
+    },
+    {
+      "id": "nhie_da_101",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig har jeg nogensinde kysset nogen, jeg mødte den aften."
+    },
+    {
+      "id": "nhie_da_102",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig har jeg nogensinde haft en hemmelig slynge."
+    },
+    {
+      "id": "nhie_da_103",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jeg har aldrig nogensinde sendt et risikabelt billede."
+    },
+    {
+      "id": "nhie_da_104",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig har jeg nogensinde løjet om min forholdsstatus."
+    },
+    {
+      "id": "nhie_da_105",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig har jeg nogensinde været på date kun for gratis mad."
+    },
+    {
+      "id": "nhie_da_106",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jeg er aldrig nogensinde blevet taget i at snige mig ud."
+    },
+    {
+      "id": "nhie_da_107",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jeg har aldrig nogensinde haft følelser for to mennesker på én gang."
+    },
+    {
+      "id": "nhie_da_108",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig har jeg nogensinde været jaloux på en vens forhold."
+    },
+    {
+      "id": "nhie_da_109",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jeg har aldrig nogensinde slettet beskeder for at skjule noget."
+    },
+    {
+      "id": "nhie_da_110",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig har jeg nogensinde flirtet for at få en tjeneste."
+    },
+    {
+      "id": "nhie_da_111",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde bagt småkager fra bunden."
+    },
+    {
+      "id": "nhie_da_112",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg er aldrig faldet i søvn i klassen."
+    },
+    {
+      "id": "nhie_da_113",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde misset en bus med vilje."
+    },
+    {
+      "id": "nhie_da_114",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldrig nogensinde bygget en snemand."
+    },
+    {
+      "id": "nhie_da_115",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde gået en hel dag uden min telefon."
+    },
+    {
+      "id": "nhie_da_116",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde båret det samme outfit to dage i træk."
+    },
+    {
+      "id": "nhie_da_117",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde glemt, hvor jeg parkerede."
+    },
+    {
+      "id": "nhie_da_118",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldrig nogensinde sunget højt i bruseren."
+    },
+    {
+      "id": "nhie_da_119",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde faret vild i et indkøbscenter."
+    },
+    {
+      "id": "nhie_da_120",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde prøvet en ny mad og elskede det med det samme."
+    },
+    {
+      "id": "nhie_da_121",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldrig nogensinde lånt en bog og ikke returneret den."
+    },
+    {
+      "id": "nhie_da_122",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde overset et show på en weekend."
+    },
+    {
+      "id": "nhie_da_123",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde spildt kaffe på min skjorte."
+    },
+    {
+      "id": "nhie_da_124",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldrig nogensinde lavet en DIY-gave."
+    },
+    {
+      "id": "nhie_da_125",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldrig været oppe hele natten og snakket."
+    },
+    {
+      "id": "nhie_da_126",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde sprunget en træning over, jeg havde planlagt at lave."
+    },
+    {
+      "id": "nhie_da_127",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde løjet om at være \"fem minutter væk.\""
+    },
+    {
+      "id": "nhie_da_128",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldrig nogensinde sendt en besked til den forkerte person."
+    },
+    {
+      "id": "nhie_da_129",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldrig har jeg nogensinde brudt noget og bebrejdet det på en anden."
+    },
+    {
+      "id": "nhie_da_130",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldrig nogensinde fået en fartbøde."
+    },
+    {
+      "id": "nhie_da_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg foregivet at kunne lide en gave, jeg ikke kunne."
+    },
+    {
+      "id": "nhie_da_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde forfulgt en menu online, før jeg gik ud."
+    },
+    {
+      "id": "nhie_da_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldrig nogensinde været syg, når jeg ikke var det."
+    },
+    {
+      "id": "nhie_da_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde taget på en tur uden nogen plan overhovedet."
+    },
+    {
+      "id": "nhie_da_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig er jeg nogensinde blevet taget i at synge i bilen ved rødt lys."
+    },
+    {
+      "id": "nhie_da_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde trukket en all-nighter for at afslutte et projekt."
+    },
+    {
+      "id": "nhie_da_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde grædt ved en offentlig film."
+    },
+    {
+      "id": "nhie_da_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde ignoreret en tekst med vilje."
+    },
+    {
+      "id": "nhie_da_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde følt mig skyldig over at have annulleret planer."
+    },
+    {
+      "id": "nhie_da_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde været flov over min egen ringetone."
+    },
+    {
+      "id": "nhie_da_141",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde ignoreret min alarm og faldet i søvn igen."
+    },
+    {
+      "id": "nhie_da_142",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldrig forfalsket at kunne en sang."
+    },
+    {
+      "id": "nhie_da_143",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde snuset gennem nogens køleskab."
+    },
+    {
+      "id": "nhie_da_144",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldrig prøvet at lære et sprog og holde op."
+    },
+    {
+      "id": "nhie_da_145",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde skrevet \"lol\" uden at grine."
+    },
+    {
+      "id": "nhie_da_146",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde været på en date, jeg vidste ikke ville gå nogen steder."
+    },
+    {
+      "id": "nhie_da_147",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldrig nogensinde været forelsket i en kollega."
+    },
+    {
+      "id": "nhie_da_148",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldrig nogensinde været i en situation."
+    },
+    {
+      "id": "nhie_da_149",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig er jeg nogensinde blevet fanget i at flirte."
+    },
+    {
+      "id": "nhie_da_150",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde spøgt nogen efter en date."
+    },
+    {
+      "id": "nhie_da_151",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jeg har aldrig nogensinde sendt en risikabel sms og fortrudt det øjeblikkeligt."
+    },
+    {
+      "id": "nhie_da_152",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig har jeg nogensinde løjet om min alder."
+    },
+    {
+      "id": "nhie_da_153",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig har jeg nogensinde kysset en, jeg lige har mødt."
+    },
+    {
+      "id": "nhie_da_154",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jeg har aldrig nogensinde haft følelser for en ven."
+    },
+    {
+      "id": "nhie_da_155",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jeg har aldrig nogensinde været på en dating-app."
+    },
+    {
+      "id": "nhie_da_156",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig har jeg nogensinde skrevet til en eks sent om aftenen."
+    },
+    {
+      "id": "nhie_da_157",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig er jeg nogensinde faldet i søvn under en date."
+    },
+    {
+      "id": "nhie_da_158",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig er jeg nogensinde gået tidligt hjem for at undgå en dårlig date."
+    },
+    {
+      "id": "nhie_da_159",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig har jeg nogensinde været jaloux på en vens forhold."
+    },
+    {
+      "id": "nhie_da_160",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldrig har jeg nogensinde slettet en besked, før de så den."
+    },
+    {
+      "id": "nhie_da_161",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldrig ved et uheld kunne lide et gammelt indlæg."
+    },
+    {
+      "id": "nhie_da_162",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde slået lyden fra i en gruppechat for fred."
+    },
+    {
+      "id": "nhie_da_163",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldrig nogensinde øvet en stemmebesked, før jeg sendte den."
+    },
+    {
+      "id": "nhie_da_164",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldrig nogensinde gemt et meme til at bruge senere."
+    },
+    {
+      "id": "nhie_da_165",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldrig nogensinde slettet en historie lige efter at have postet den."
+    },
+    {
+      "id": "nhie_da_166",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldrig har jeg nogensinde forladt en fest uden at sige farvel."
+    },
+    {
+      "id": "nhie_da_167",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldrig nogensinde rage-sluttet en venskabskamp."
+    }
+  ]
+}

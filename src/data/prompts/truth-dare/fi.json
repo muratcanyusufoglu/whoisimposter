@@ -1,0 +1,1232 @@
+{
+  "gameId": "truth-dare",
+  "locale": "fi",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "td_fi_001",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mikä on noloin lapsuusmuistosi?"
+    },
+    {
+      "id": "td_fi_002",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mikä on viimeisin valhe, jonka kerroit?"
+    },
+    {
+      "id": "td_fi_003",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mikä on suurin lemmikkipiinasi?"
+    },
+    {
+      "id": "td_fi_004",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mistä tottumuksesta toivoisit pääseväsi eroon?"
+    },
+    {
+      "id": "td_fi_005",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Oletko koskaan syyttänyt jotakuta toista tekemästäsi?"
+    },
+    {
+      "id": "td_fi_006",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mikä on kykysi, josta kukaan ei tiedä?"
+    },
+    {
+      "id": "td_fi_007",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mikä on lapsellisin asia mitä teet edelleen?"
+    },
+    {
+      "id": "td_fi_008",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mitä ruokaa vihaat salaa mutta pidät siitä?"
+    },
+    {
+      "id": "td_fi_009",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Oletko koskaan kävellyt lasioveen?"
+    },
+    {
+      "id": "td_fi_010",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mikä on eniten käyttämäsi emoji?"
+    },
+    {
+      "id": "td_fi_011",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mikä on syyllinen ilo-TV-ohjelmasi?"
+    },
+    {
+      "id": "td_fi_012",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Oletko koskaan antanut lahjaa uudelleen?"
+    },
+    {
+      "id": "td_fi_013",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mikä on noloin kappale soittolistallasi?"
+    },
+    {
+      "id": "td_fi_014",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Oletko koskaan teeskennellyt olevasi sairas päästäksesi eroon suunnitelmista?"
+    },
+    {
+      "id": "td_fi_015",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mikä on oudoin uni, jonka olet nähnyt viime aikoina?"
+    },
+    {
+      "id": "td_fi_016",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mikä on pahin lahja jonka olet koskaan saanut?"
+    },
+    {
+      "id": "td_fi_017",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "laulatko suihkussa? Mitä kappaleita?"
+    },
+    {
+      "id": "td_fi_018",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Oletko koskaan nukahtanut töissä tai koulussa?"
+    },
+    {
+      "id": "td_fi_019",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mikä on naurettavin asia, jonka olet ostanut?"
+    },
+    {
+      "id": "td_fi_020",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Missä asioissa olet kauhea, mutta jatka yrittämistä?"
+    },
+    {
+      "id": "td_fi_021",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mikä on suurin salaisuus, jonka olet salannut vanhemmiltasi?"
+    },
+    {
+      "id": "td_fi_022",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka oli ensimmäinen ihastuksesi ja tietävätkö he?"
+    },
+    {
+      "id": "td_fi_023",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mikä on noloin asia, joka sinulle on tapahtunut julkisesti?"
+    },
+    {
+      "id": "td_fi_024",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Oletko koskaan haaveillut ketään? WHO?"
+    },
+    {
+      "id": "td_fi_025",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mikä on pienin asia, jonka olet koskaan tehnyt kostaaksesi?"
+    },
+    {
+      "id": "td_fi_026",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mikä on irrationaalisin pelkosi?"
+    },
+    {
+      "id": "td_fi_027",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Oletko koskaan seurannut jonkun sosiaalista mediaa tuntikausia?"
+    },
+    {
+      "id": "td_fi_028",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mikä on kallein asia, jonka olet rikkonut etkä myöntänyt?"
+    },
+    {
+      "id": "td_fi_029",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Oletko koskaan teeskennellyt rakastavasi jotakuta saadakseen heiltä jotain?"
+    },
+    {
+      "id": "td_fi_030",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mikä on ärsyttävin vaihe tai aikakausi, jonka olet käynyt läpi?"
+    },
+    {
+      "id": "td_fi_031",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Milloin itkit viimeksi ja miksi?"
+    },
+    {
+      "id": "td_fi_032",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mikä on valhe, jonka kerrot itsellesi?"
+    },
+    {
+      "id": "td_fi_033",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Oletko koskaan pettänyt pelissä?"
+    },
+    {
+      "id": "td_fi_034",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mikä on pahin treffi, jolla olet koskaan ollut?"
+    },
+    {
+      "id": "td_fi_035",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Oletko koskaan lähettänyt viestiä väärälle henkilölle?"
+    },
+    {
+      "id": "td_fi_036",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mikä on noloin automaattisen korjauksen hetkisi?"
+    },
+    {
+      "id": "td_fi_037",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mikä on kiusallisin tilanne, jossa olet ollut viime aikoina?"
+    },
+    {
+      "id": "td_fi_038",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Oletko koskaan sanonut olevasi jossain, jossa et ollut?"
+    },
+    {
+      "id": "td_fi_039",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mikä on pahin asia, jonka olet koskaan tehnyt uskalluksella?"
+    },
+    {
+      "id": "td_fi_040",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mikä on mielipiteesi, josta useimmat ihmiset eivät olisi samaa mieltä?"
+    },
+    {
+      "id": "td_fi_041",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mikä on skandaalisin tekosi, josta kukaan ei tiedä?"
+    },
+    {
+      "id": "td_fi_042",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Oletko koskaan ollut kiinnostunut kenestäkään tässä huoneessa?"
+    },
+    {
+      "id": "td_fi_043",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mikä on rohkein asia, jonka olet koskaan tehnyt ihastukselle?"
+    },
+    {
+      "id": "td_fi_044",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mikä on noloin teksti, jonka olet lähettänyt väärälle henkilölle?"
+    },
+    {
+      "id": "td_fi_045",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Oletko koskaan kehittänyt tunteita jotakuta kohtaan, joka on otettu?"
+    },
+    {
+      "id": "td_fi_046",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mikä on suurin virhe, jonka olet tehnyt suhteessa?"
+    },
+    {
+      "id": "td_fi_047",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jos sinun pitäisi suudella jotakuta tässä huoneessa, ketä se olisi?"
+    },
+    {
+      "id": "td_fi_048",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mistä olet tehnyt jotain, josta et ole ylpeä?"
+    },
+    {
+      "id": "td_fi_049",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Oletko koskaan vahingossa tykännyt vanhasta valokuvasta, kun vainoot jotakuta?"
+    },
+    {
+      "id": "td_fi_050",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mikä on epäluonnollisin asia, jonka olet koskaan tehnyt?"
+    },
+    {
+      "id": "td_fi_051",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mikä on kateellisin, mitä olet koskaan ollut?"
+    },
+    {
+      "id": "td_fi_052",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Oletko koskaan puhunut jonkun kanssa vain pitääksesi vaihtoehtosi avoimina?"
+    },
+    {
+      "id": "td_fi_053",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mikä on seikkailunhaluisin asia, jonka olet tehnyt mielijohteesta?"
+    },
+    {
+      "id": "td_fi_054",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka täällä on mielestäsi suurin flirtti?"
+    },
+    {
+      "id": "td_fi_055",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Oletko koskaan flirttaillut ulos vaikeasta tilanteesta?"
+    },
+    {
+      "id": "td_fi_056",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mikä on salaisuus, jonka olet säilyttänyt ja josta tunnet syyllisyyttä?"
+    },
+    {
+      "id": "td_fi_057",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Oletko koskaan valehdellut ikäsi?"
+    },
+    {
+      "id": "td_fi_058",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mikä on noloin asia, jonka joku on saanut sinusta kiinni?"
+    },
+    {
+      "id": "td_fi_059",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Oletko koskaan ollut ihastunut johonkin paljon nuorempaan tai nuorempaan?"
+    },
+    {
+      "id": "td_fi_060",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mitä tekisit jos tietäisit ettei kukaan koskaan saisi tietää?"
+    },
+    {
+      "id": "td_fi_061",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tee paras vaikutelmasi huoneessa olevasta henkilöstä."
+    },
+    {
+      "id": "td_fi_062",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Puhu aksentilla seuraavat 3 minuuttia."
+    },
+    {
+      "id": "td_fi_063",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tee 10 hyppäämistä juuri nyt."
+    },
+    {
+      "id": "td_fi_064",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Anna jonkun lähettää tekstiviestejä kenelle tahansa yhteystiedoissasi."
+    },
+    {
+      "id": "td_fi_065",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Laula suosikkikappaleesi kuoro."
+    },
+    {
+      "id": "td_fi_066",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tanssi parasta robottitanssia 30 sekuntia."
+    },
+    {
+      "id": "td_fi_067",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Anna ryhmän tehdä sinulle uusi kampaus 5 minuutin ajan."
+    },
+    {
+      "id": "td_fi_068",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Puhu vain seuraavan kierroksen kysymyksissä."
+    },
+    {
+      "id": "td_fi_069",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tee parhaasi catwalk huoneen poikki."
+    },
+    {
+      "id": "td_fi_070",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kerro vitsi, joka saa jonkun nauramaan."
+    },
+    {
+      "id": "td_fi_071",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Soita perheenjäsenelle ja sano, että halusit vain kuulla hänen äänensä."
+    },
+    {
+      "id": "td_fi_072",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Syö keittiöstä lusikallinen jotain, josta et pidä."
+    },
+    {
+      "id": "td_fi_073",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Piirrä muotokuva vasemmalla olevasta henkilöstä nostamatta kynääsi."
+    },
+    {
+      "id": "td_fi_074",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Anna ryhmän julkaista status sosiaalisessa mediassa."
+    },
+    {
+      "id": "td_fi_075",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lue dramaattisesti viimeinen tekstikeskustelu."
+    },
+    {
+      "id": "td_fi_076",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Yritä nuolla kyynärpäätäsi 30 sekunnin ajan."
+    },
+    {
+      "id": "td_fi_077",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "High Five kaikki huoneessa olevat sanoessaan nimensä."
+    },
+    {
+      "id": "td_fi_078",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Naura parhaasi pahalle konnalle."
+    },
+    {
+      "id": "td_fi_079",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Esitä uutisankkuri ja raportoi nykyinen kohtaus."
+    },
+    {
+      "id": "td_fi_080",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Esittele elokuvan kohtaus puhumatta ja anna muiden arvata se."
+    },
+    {
+      "id": "td_fi_081",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Anna jonkun käydä kamerarullasi läpi 30 sekunnin ajan."
+    },
+    {
+      "id": "td_fi_082",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Soita satunnaiselle yhteyshenkilölle ja sano \"Tiedän mitä teit viime kesänä.\""
+    },
+    {
+      "id": "td_fi_083",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lähetä tarinaasi 10 minuutin ajan nolo selfie."
+    },
+    {
+      "id": "td_fi_084",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Anna jonkun lukea viimeiset 10 tekstiäsi ääneen."
+    },
+    {
+      "id": "td_fi_085",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Käytä vaatetta nurinpäin koko pelin ajan."
+    },
+    {
+      "id": "td_fi_086",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Puhu vain riimeillä seuraavat 5 minuuttia."
+    },
+    {
+      "id": "td_fi_087",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Tee freestyle-räppi vastakkaisesta henkilöstä."
+    },
+    {
+      "id": "td_fi_088",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Istu lattialla loppupelin ajan."
+    },
+    {
+      "id": "td_fi_089",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kehu jokaista huoneessa olevaa henkilöä erityisellä ja henkilökohtaisella kohtuudella."
+    },
+    {
+      "id": "td_fi_090",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Anna ryhmän valita sana, jota et voi sanoa 10 minuuttiin."
+    },
+    {
+      "id": "td_fi_091",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lähetä puheviesti jollekin yhteystiedoissasi sanomalla \"Kaipaan sinua\"."
+    },
+    {
+      "id": "td_fi_092",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vaihda vaatetta oikealla olevan henkilön kanssa 5 minuutin ajaksi."
+    },
+    {
+      "id": "td_fi_093",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Anna jonkun valita sinulle uusi profiilikuva tunnin ajan."
+    },
+    {
+      "id": "td_fi_094",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Tee vaikutelma suosikkijulkkiksestasi, kunnes joku arvaa sen."
+    },
+    {
+      "id": "td_fi_095",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sano jotain mukavaa jokaisesta huoneessa olevasta henkilöstä, mutta viimeisen täytyy olla paahdettua."
+    },
+    {
+      "id": "td_fi_096",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kerro kaikki tekemäsi seuraavat 3 minuuttia kolmannessa persoonassa."
+    },
+    {
+      "id": "td_fi_097",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Tanssi TikTok-tyyliin minkä tahansa ryhmän valitseman kappaleen mukaan."
+    },
+    {
+      "id": "td_fi_098",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Syö jotain ryhmän valitsemassa keittiössä katsomatta sitä ensin."
+    },
+    {
+      "id": "td_fi_099",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Anna jonkun piirtää kasvoillesi pestävällä tussilla."
+    },
+    {
+      "id": "td_fi_100",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Paljasta 5 eniten soitettua kappalettasi."
+    },
+    {
+      "id": "td_fi_101",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Anna ryhmän kirjoittaa postaus tärkeimpään sosiaaliseen mediaasi ja pitää sitä 30 minuuttia."
+    },
+    {
+      "id": "td_fi_102",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lähetä flirttaileva emoji henkilölle, jolle viimeksi lähetit tekstiviestin."
+    },
+    {
+      "id": "td_fi_103",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Anna 1 minuutin selkähieronta valitsemallesi henkilölle."
+    },
+    {
+      "id": "td_fi_104",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Paljasta henkilö, jota viimeksi katsoit sosiaalisessa mediassa ja miksi."
+    },
+    {
+      "id": "td_fi_105",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Anna kaikkien nähdä viimeksi poistettu tekstisi."
+    },
+    {
+      "id": "td_fi_106",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lähetä 'Hei, ajattelen sinua!' uusimmalle exällesi."
+    },
+    {
+      "id": "td_fi_107",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Tee houkuttelevin kävelysi huoneen poikki, kun kaikki katsovat."
+    },
+    {
+      "id": "td_fi_108",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Anna ryhmän luoda treffiprofiilisi bio."
+    },
+    {
+      "id": "td_fi_109",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Vietä 60 sekuntia yrittääksesi saada joku huoneessa olevasta lähtemään treffeille kanssasi."
+    },
+    {
+      "id": "td_fi_110",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Anna jonkun esittää sinulle 5 henkilökohtaista kysymystä, joihin sinun on vastattava rehellisesti."
+    },
+    {
+      "id": "td_fi_111",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Serenaadi valitsemallesi henkilölle millä tahansa kappaleella 30 sekunnin ajan."
+    },
+    {
+      "id": "td_fi_112",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Anna ryhmän järjestää sinut sokkotreffeille valitsemalla yhteystietosi."
+    },
+    {
+      "id": "td_fi_113",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kerro ryhmälle 3-pisteen tarkistuslistasi mahdolliselle kumppanille."
+    },
+    {
+      "id": "td_fi_114",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Anna ryhmän muotoilla itsellesi sopiva asu omasta vaatekaapistasi."
+    },
+    {
+      "id": "td_fi_115",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jaa kuvakaappaus kiusallisimmasta flirttailukeskustelustasi."
+    },
+    {
+      "id": "td_fi_116",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Silmäile jokaiselle puhuvalle henkilölle seuraavan 5 minuutin ajan."
+    },
+    {
+      "id": "td_fi_117",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Anna jonkun paistaa sinua 60 sekuntia reagoimatta."
+    },
+    {
+      "id": "td_fi_118",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kerro itsestäsi salaisuus, jota kukaan huoneessa oleva ei tiedä."
+    },
+    {
+      "id": "td_fi_119",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Esitä paras noutolinjasi ja toimita se vieressäsi olevalle henkilölle."
+    },
+    {
+      "id": "td_fi_120",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Anna ryhmän luokitella kaikki houkuttelevuuden mukaan ja lukea lista ääneen."
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mitä etsit viimeksi verkosta?",
+      "id": "td_fi_121"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Minkä kappaleen kaikki sanat tiedät?",
+      "id": "td_fi_122"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mikä on eniten käyttämäsi sovelluksesi?",
+      "id": "td_fi_123"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mitä ruokaa voisit syödä joka päivä?",
+      "id": "td_fi_124"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mikä on paras kohteliaisuus, jonka olet saanut?",
+      "id": "td_fi_125"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mikä on sinun suosikkielokuvasi tai -ohjelmasi?",
+      "id": "td_fi_126"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mistä olet ylpeä tänä vuonna?",
+      "id": "td_fi_127"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mikä on oudoin tapasi?",
+      "id": "td_fi_128"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mikä on lempi tapasi rentoutua?",
+      "id": "td_fi_129"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mikä on lahja, jonka toivoisit?",
+      "id": "td_fi_130"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tee paras vaikutelmasi julkkiksesta 10 sekunnin ajan.",
+      "id": "td_fi_131"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Puhu kuiskaten seuraavaa kierrosta varten.",
+      "id": "td_fi_132"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Näytä viimeksi puhelimella ottamasi valokuva.",
+      "id": "td_fi_133"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tee 10 hyppäämistä.",
+      "id": "td_fi_134"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Anna jonkun muun valita profiilikuvasi 24 tunnin ajan.",
+      "id": "td_fi_135"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jaa hauska fakta itsestäsi.",
+      "id": "td_fi_136"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pyöritä noin 5 kertaa ja kävele suorassa linjassa.",
+      "id": "td_fi_137"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lähetä ystävällinen emoji viimeksi sinulle tekstiviestin lähettäneelle henkilölle.",
+      "id": "td_fi_138"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Teeskentele olevasi uutistoimittaja 20 sekuntia.",
+      "id": "td_fi_139"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Anna ryhmän valita sana, jota sinun tulee käyttää jokaisessa lauseessa 3 minuutin ajan.",
+      "id": "td_fi_140"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mikä on hankalin lähettämäsi teksti?",
+      "id": "td_fi_141"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kenelle kirjoitat tällä hetkellä eniten?",
+      "id": "td_fi_142"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mikä on lupaus, jota kadut?",
+      "id": "td_fi_143"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mistä teeskentelet, että pidät, mutta et pidä?",
+      "id": "td_fi_144"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Milloin olit viimeksi kateellinen?",
+      "id": "td_fi_145"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Minkä salaisuuden olet salannut ystäviltäsi?",
+      "id": "td_fi_146"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mikä on pahin neuvo, jota olet koskaan noudattanut?",
+      "id": "td_fi_147"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mikä on kallein asia jonka olet rikkonut?",
+      "id": "td_fi_148"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mikä on pelko, jota et ole kertonut kenellekään?",
+      "id": "td_fi_149"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka on viimeinen henkilö, jonka mykisit tai lopetit seuraamisen?",
+      "id": "td_fi_150"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lähetä tarinaasi satunnainen laulun sana.",
+      "id": "td_fi_151"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lähetä tekstiviesti jollekulle kohteliaisuus heti.",
+      "id": "td_fi_152"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Syö välipala ilman käsiäsi.",
+      "id": "td_fi_153"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Anna jonkun muotoilla hiuksesi.",
+      "id": "td_fi_154"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lue dramaattisesti viimeksi lähettämäsi viesti.",
+      "id": "td_fi_155"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Yritä typerää tanssia 20 sekuntia.",
+      "id": "td_fi_156"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Puhu minuutin ajan ryhmän valitsemalla aksentilla.",
+      "id": "td_fi_157"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Piirrä nopea muotokuva jostain ryhmään kuuluvasta.",
+      "id": "td_fi_158"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jaa näyttösi 10 sekuntia.",
+      "id": "td_fi_159"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vaihda paikkaa jonkun kanssa seuraavaan vuoroosi asti.",
+      "id": "td_fi_160"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Oletko koskaan pitänyt kahdesta ihmisestä samaan aikaan?",
+      "id": "td_fi_161"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mikä on suurin treffin punainen lippusi?",
+      "id": "td_fi_162"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mikä on flirttailevin asia, jonka olet tehnyt viime aikoina?",
+      "id": "td_fi_163"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mitä olet salannut kumppaniltasi?",
+      "id": "td_fi_164"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mikä on rohkein viesti, jonka olet lähettänyt?",
+      "id": "td_fi_165"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Näytä viimeisin tallennettu valokuvasi kameran rullalle.",
+      "id": "td_fi_166"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lue viimeisin saamasi DM ääneen.",
+      "id": "td_fi_167"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lähetä flirttaileva GIF jollekulle, johon luotat.",
+      "id": "td_fi_168"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Anna ryhmän tarkastella eniten käytettyjä emojiluetteloasi.",
+      "id": "td_fi_169"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Tunnusta uusin ihastuksesi (ei nimiä, vain nimikirjaimet).",
+      "id": "td_fi_170"
+    },
+    {
+      "id": "td_fi_171",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mikä on noloin asia hakuhistoriassasi?"
+    },
+    {
+      "id": "td_fi_172",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mikä sovellus varastaa suurimman osan ajasta?"
+    },
+    {
+      "id": "td_fi_173",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Minkä viestin kirjoitit etkä koskaan lähettänyt?"
+    },
+    {
+      "id": "td_fi_174",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Näytä ryhmälle viimeisin tallennettu meemi."
+    },
+    {
+      "id": "td_fi_175",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuvaile viimeistä selfietäsi ikään kuin se olisi museoesine."
+    }
+  ]
+}

@@ -1,0 +1,1309 @@
+{
+  "gameId": "most-likely-to",
+  "locale": "nb",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "mlt_nb_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å være oppe hele natten og se videoer?"
+    },
+    {
+      "id": "mlt_nb_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å spise den siste pizzabiten uten å spørre?"
+    },
+    {
+      "id": "mlt_nb_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å bli en kjent kokk?"
+    },
+    {
+      "id": "mlt_nb_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å snuble over ingenting offentlig?"
+    },
+    {
+      "id": "mlt_nb_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å glemme telefonen hjemme hver dag?"
+    },
+    {
+      "id": "mlt_nb_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig en profesjonell napper?"
+    },
+    {
+      "id": "mlt_nb_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å starte en viral dansetrend?"
+    },
+    {
+      "id": "mlt_nb_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å gråte på en reklamefilm?"
+    },
+    {
+      "id": "mlt_nb_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å gå seg vill i en by de bor i?"
+    },
+    {
+      "id": "mlt_nb_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å bli en reiseinfluenser?"
+    },
+    {
+      "id": "mlt_nb_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig den siste klar når du går ut?"
+    },
+    {
+      "id": "mlt_nb_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å ha en hemmelig samling av kosedyr?"
+    },
+    {
+      "id": "mlt_nb_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å bli venn med en fullstendig fremmed innen 5 minutter?"
+    },
+    {
+      "id": "mlt_nb_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å dukke opp på en fest de ikke ble invitert til?"
+    },
+    {
+      "id": "mlt_nb_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å gjøre en hobby til en bedrift?"
+    },
+    {
+      "id": "mlt_nb_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å vinne en stavebi?"
+    },
+    {
+      "id": "mlt_nb_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å glemme bursdagen din?"
+    },
+    {
+      "id": "mlt_nb_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å snakke med kjæledyret sitt i en fullstendig samtale?"
+    },
+    {
+      "id": "mlt_nb_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å bli en reality-TV-stjerne?"
+    },
+    {
+      "id": "mlt_nb_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem har mest sannsynlig 100 uleste e-poster akkurat nå?"
+    },
+    {
+      "id": "mlt_nb_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å spøke noen etter en flott første date?"
+    },
+    {
+      "id": "mlt_nb_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å krangle med en fremmed på internett?"
+    },
+    {
+      "id": "mlt_nb_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å like et 3 år gammelt bilde mens han forfølger noen?"
+    },
+    {
+      "id": "mlt_nb_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å ha en hemmelig finsta?"
+    },
+    {
+      "id": "mlt_nb_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å sykemelde seg på jobb for å være hjemme og overvåke?"
+    },
+    {
+      "id": "mlt_nb_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å vekke drama ved et uhell?"
+    },
+    {
+      "id": "mlt_nb_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å sende en tekst til feil person?"
+    },
+    {
+      "id": "mlt_nb_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig den som ødelegger slutten på et show?"
+    },
+    {
+      "id": "mlt_nb_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å fortsette å snakke med en eks lenger enn de burde?"
+    },
+    {
+      "id": "mlt_nb_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å kansellere planer i siste liten?"
+    },
+    {
+      "id": "mlt_nb_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å ta opp eksen sin i en urelatert samtale?"
+    },
+    {
+      "id": "mlt_nb_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å steke noen og så si \"bare tuller\" etterpå?"
+    },
+    {
+      "id": "mlt_nb_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å kjenne alles personlige saker?"
+    },
+    {
+      "id": "mlt_nb_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem har mest sannsynlig en svært mistenkelig søkehistorikk?"
+    },
+    {
+      "id": "mlt_nb_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å gjøre en dramatisk exit fra en fest?"
+    },
+    {
+      "id": "mlt_nb_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å ta opp alt på telefonen sin?"
+    },
+    {
+      "id": "mlt_nb_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å si \"Jeg er på vei\" når de ikke har reist ennå?"
+    },
+    {
+      "id": "mlt_nb_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig til å ødelegge en overraskelsesfest ved et uhell?"
+    },
+    {
+      "id": "mlt_nb_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem har mest sannsynlig prøvd alle diettene som finnes?"
+    },
+    {
+      "id": "mlt_nb_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å overdele på sosiale medier?"
+    },
+    {
+      "id": "mlt_nb_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å ha kysset noen i dette rommet?"
+    },
+    {
+      "id": "mlt_nb_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å ha en hemmelig beundrer akkurat nå?"
+    },
+    {
+      "id": "mlt_nb_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å date noen mye yngre eller eldre?"
+    },
+    {
+      "id": "mlt_nb_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å flørte seg ut av en fartsbot?"
+    },
+    {
+      "id": "mlt_nb_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å gli inn i en kjendis DM?"
+    },
+    {
+      "id": "mlt_nb_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å gå på et datingprogram?"
+    },
+    {
+      "id": "mlt_nb_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å falle for noen de ikke burde?"
+    },
+    {
+      "id": "mlt_nb_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å ha mer enn 5 uleste flørtende meldinger akkurat nå?"
+    },
+    {
+      "id": "mlt_nb_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å gifte seg med noen de nettopp har møtt på en reise?"
+    },
+    {
+      "id": "mlt_nb_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig den som alltid blir brutt med?"
+    },
+    {
+      "id": "mlt_nb_051",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å ha den mest dramatiske forholdshistorien?"
+    },
+    {
+      "id": "mlt_nb_052",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å ha datet to personer i samme vennegruppe?"
+    },
+    {
+      "id": "mlt_nb_053",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å sende en tørstefelle til feil gruppechat?"
+    },
+    {
+      "id": "mlt_nb_054",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å snakke med eksen på videregående?"
+    },
+    {
+      "id": "mlt_nb_055",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem har mest sannsynlig en situasjon de ikke har fortalt noen om?"
+    },
+    {
+      "id": "mlt_nb_056",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å bli forelsket i en fremmed på et fly?"
+    },
+    {
+      "id": "mlt_nb_057",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig den største flørten i en ny gruppe?"
+    },
+    {
+      "id": "mlt_nb_058",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å fange følelser og umiddelbart benekte det?"
+    },
+    {
+      "id": "mlt_nb_059",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å ha en hel personlighet på grunn av en eks?"
+    },
+    {
+      "id": "mlt_nb_060",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å ende opp på et reality-datingshow og vinne?"
+    },
+    {
+      "id": "mlt_nb_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem glemmer mest sannsynlig å lade telefonen sin over natten?"
+    },
+    {
+      "id": "mlt_nb_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem tar mest sannsynlig med snacks til en film uten at noen spør?"
+    },
+    {
+      "id": "mlt_nb_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å snuble på et flatt fortau?"
+    },
+    {
+      "id": "mlt_nb_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å ta bilder av hvert måltid?"
+    },
+    {
+      "id": "mlt_nb_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å miste nøklene sine to ganger i løpet av en uke?"
+    },
+    {
+      "id": "mlt_nb_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å starte en gruppechat og deretter dempe den?"
+    },
+    {
+      "id": "mlt_nb_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å sovne under en film hjemme?"
+    },
+    {
+      "id": "mlt_nb_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å overpakke for en helgetur?"
+    },
+    {
+      "id": "mlt_nb_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å adoptere et bortkommen kjæledyr?"
+    },
+    {
+      "id": "mlt_nb_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å bli venn med baristaen på dag én?"
+    },
+    {
+      "id": "mlt_nb_071",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å dukke opp med en gjenbrukspose hver gang?"
+    },
+    {
+      "id": "mlt_nb_072",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å ta med et brettspill på en piknik?"
+    },
+    {
+      "id": "mlt_nb_073",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å le i feil øyeblikk?"
+    },
+    {
+      "id": "mlt_nb_074",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å bli solbrent på en overskyet dag?"
+    },
+    {
+      "id": "mlt_nb_075",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å lage spillelister for alt?"
+    },
+    {
+      "id": "mlt_nb_076",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig den utpekte DJ-en på hangouts?"
+    },
+    {
+      "id": "mlt_nb_077",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å huske alles bursdager?"
+    },
+    {
+      "id": "mlt_nb_078",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å ta en lur hvor som helst, når som helst?"
+    },
+    {
+      "id": "mlt_nb_079",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å prøve hver nye kafé i byen?"
+    },
+    {
+      "id": "mlt_nb_080",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å beholde hver kvittering i tilfelle?"
+    },
+    {
+      "id": "mlt_nb_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å kansellere planer i siste liten og føle seg skyldig?"
+    },
+    {
+      "id": "mlt_nb_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig til å sende en melding til feil person?"
+    },
+    {
+      "id": "mlt_nb_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å spøke en gruppeplan og dukke opp igjen senere?"
+    },
+    {
+      "id": "mlt_nb_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig til å starte et sidekjas fra en hobby?"
+    },
+    {
+      "id": "mlt_nb_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å overstadig en hel serie på en dag?"
+    },
+    {
+      "id": "mlt_nb_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å krangle med fremmede på nettet?"
+    },
+    {
+      "id": "mlt_nb_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å overdele i en gruppechat?"
+    },
+    {
+      "id": "mlt_nb_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å starte en podcast og glemme den?"
+    },
+    {
+      "id": "mlt_nb_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å gå seg vill selv med GPS på?"
+    },
+    {
+      "id": "mlt_nb_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem har mest sannsynlig 200 uleste e-poster?"
+    },
+    {
+      "id": "mlt_nb_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å ta skjermdump av meldinger for senere?"
+    },
+    {
+      "id": "mlt_nb_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å søle en drink på en fest?"
+    },
+    {
+      "id": "mlt_nb_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å starte en dansetrend i gruppen?"
+    },
+    {
+      "id": "mlt_nb_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem svarer mest sannsynlig bare med stemmenotater?"
+    },
+    {
+      "id": "mlt_nb_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å bestille en spontan helgetur?"
+    },
+    {
+      "id": "mlt_nb_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å holde en hemmelighet i årevis?"
+    },
+    {
+      "id": "mlt_nb_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å komme for sent, men fortsatt se perfekt ut?"
+    },
+    {
+      "id": "mlt_nb_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig starter en ny spilleliste for hvert humør."
+    },
+    {
+      "id": "mlt_nb_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å steke noen og si \"bare tuller\"?"
+    },
+    {
+      "id": "mlt_nb_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å kjenne de beste skjulte matstedene?"
+    },
+    {
+      "id": "mlt_nb_101",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å ha en hemmelig forelsket i noen her?"
+    },
+    {
+      "id": "mlt_nb_102",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sannsynlig fører journal hver dag."
+    },
+    {
+      "id": "mlt_nb_103",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å falle for noen de nettopp har møtt?"
+    },
+    {
+      "id": "mlt_nb_104",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å fortsette å snakke med en eks?"
+    },
+    {
+      "id": "mlt_nb_105",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å flørte seg ut av problemer?"
+    },
+    {
+      "id": "mlt_nb_106",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å ha en situasjon de ikke vil definere?"
+    },
+    {
+      "id": "mlt_nb_107",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å bli tatt for å like et gammelt bilde?"
+    },
+    {
+      "id": "mlt_nb_108",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sannsynlig planlegger en overraskelsestur for en venn."
+    },
+    {
+      "id": "mlt_nb_109",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å date noen mye eldre eller yngre?"
+    },
+    {
+      "id": "mlt_nb_110",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å ha den dristigeste datingprofilen?"
+    },
+    {
+      "id": "mlt_nb_111",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig glemmer sin egen bursdag."
+    },
+    {
+      "id": "mlt_nb_112",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig å starte en bedrift og faktisk lykkes."
+    },
+    {
+      "id": "mlt_nb_113",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig mister telefonen sin i en uke."
+    },
+    {
+      "id": "mlt_nb_114",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig adoptere et kjæledyr på impuls."
+    },
+    {
+      "id": "mlt_nb_115",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig planlegger en overraskelsesfest perfekt."
+    },
+    {
+      "id": "mlt_nb_116",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig å vinne en karaokekonkurranse."
+    },
+    {
+      "id": "mlt_nb_117",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig å flytte til en annen by uten å fortelle det til noen."
+    },
+    {
+      "id": "mlt_nb_118",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig å gå seg vill i sitt eget nabolag."
+    },
+    {
+      "id": "mlt_nb_119",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig å bli kjent på internett."
+    },
+    {
+      "id": "mlt_nb_120",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig sovner under en filmdate."
+    },
+    {
+      "id": "mlt_nb_121",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig lage et komplett måltid fra bunnen av."
+    },
+    {
+      "id": "mlt_nb_122",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig å bestille en reise i siste liten."
+    },
+    {
+      "id": "mlt_nb_123",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig sender et skjermbilde til feil person ved et uhell."
+    },
+    {
+      "id": "mlt_nb_124",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig holde en hemmelighet i årevis."
+    },
+    {
+      "id": "mlt_nb_125",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig å snakke seg ut av en billett."
+    },
+    {
+      "id": "mlt_nb_126",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig glemmer å svare i flere dager."
+    },
+    {
+      "id": "mlt_nb_127",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig bruker en time på å velge en spilleliste."
+    },
+    {
+      "id": "mlt_nb_128",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig å bli med på et maraton uten trening."
+    },
+    {
+      "id": "mlt_nb_129",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig blir venner med en fremmed i kø."
+    },
+    {
+      "id": "mlt_nb_130",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig å vinne en triviakveld."
+    },
+    {
+      "id": "mlt_nb_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig spøkelse for en gruppechat."
+    },
+    {
+      "id": "mlt_nb_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig å ha et rotete rom, men et rent skrivebord."
+    },
+    {
+      "id": "mlt_nb_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig å si nei og faktisk mene det."
+    },
+    {
+      "id": "mlt_nb_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig å komme for sent til sitt eget parti."
+    },
+    {
+      "id": "mlt_nb_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig å få en tatovering på et innfall."
+    },
+    {
+      "id": "mlt_nb_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig å ha et skjult talent."
+    },
+    {
+      "id": "mlt_nb_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig å overpakke for en helg."
+    },
+    {
+      "id": "mlt_nb_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig ødelegger telefonens skjerm."
+    },
+    {
+      "id": "mlt_nb_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig være den første til å be om unnskyldning."
+    },
+    {
+      "id": "mlt_nb_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig starter en bok og fullfører den på én dag."
+    },
+    {
+      "id": "mlt_nb_141",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Har mest sannsynlig den rareste drømmen."
+    },
+    {
+      "id": "mlt_nb_142",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig lage en spilleliste for en forelskelse."
+    },
+    {
+      "id": "mlt_nb_143",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig for å unngå konflikt for enhver pris."
+    },
+    {
+      "id": "mlt_nb_144",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig husker hver sangtekst."
+    },
+    {
+      "id": "mlt_nb_145",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig å prøve hver mat på menyen."
+    },
+    {
+      "id": "mlt_nb_146",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig glemmer et passord umiddelbart."
+    },
+    {
+      "id": "mlt_nb_147",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig å bli et morgenmenneske."
+    },
+    {
+      "id": "mlt_nb_148",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig søler kaffe på seg selv."
+    },
+    {
+      "id": "mlt_nb_149",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig kansellerer planene i siste liten."
+    },
+    {
+      "id": "mlt_nb_150",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig vil du lagre hver kvittering."
+    },
+    {
+      "id": "mlt_nb_151",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sannsynlig å være den mest konkurransedyktige i spill."
+    },
+    {
+      "id": "mlt_nb_152",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sannsynlig falle for noen på ferie."
+    },
+    {
+      "id": "mlt_nb_153",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sannsynlig å ha en hemmelig beundrer."
+    },
+    {
+      "id": "mlt_nb_154",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sannsynlig å bli tatt i å snakke med seg selv."
+    },
+    {
+      "id": "mlt_nb_155",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sannsynlig å gråte under en reklamefilm."
+    },
+    {
+      "id": "mlt_nb_156",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sannsynlig starter en trend."
+    },
+    {
+      "id": "mlt_nb_157",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sannsynlig å være den mest dramatiske historiefortelleren."
+    },
+    {
+      "id": "mlt_nb_158",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sannsynlig mister bagasjen på flyplassen."
+    },
+    {
+      "id": "mlt_nb_159",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sannsynlig vil du lage en gruppechat for noe."
+    },
+    {
+      "id": "mlt_nb_160",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sannsynlig å være best til å gi råd."
+    },
+    {
+      "id": "mlt_nb_161",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig å ha snacks i vesken til enhver tid."
+    },
+    {
+      "id": "mlt_nb_162",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig melder seg frivillig til å være vertskap for neste sammenkomst."
+    },
+    {
+      "id": "mlt_nb_163",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig fargekode kalenderen deres."
+    },
+    {
+      "id": "mlt_nb_164",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig å ta en lur hvor som helst."
+    },
+    {
+      "id": "mlt_nb_165",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig tar du med et brettspill til hver hangout."
+    },
+    {
+      "id": "mlt_nb_166",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig mister solbrillene to ganger i løpet av sommeren."
+    },
+    {
+      "id": "mlt_nb_167",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig huske alles bursdag uten påminnelser."
+    },
+    {
+      "id": "mlt_nb_168",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig bli venn med kassereren i en hvilken som helst butikk."
+    },
+    {
+      "id": "mlt_nb_169",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig har 30 nettleserfaner åpne."
+    },
+    {
+      "id": "mlt_nb_170",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig tar bilder av hvert måltid."
+    },
+    {
+      "id": "mlt_nb_171",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig å bære en ekstra telefonlader."
+    },
+    {
+      "id": "mlt_nb_172",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig å gå seg vill selv med GPS."
+    },
+    {
+      "id": "mlt_nb_173",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig å synge med på hver sang i bilen."
+    },
+    {
+      "id": "mlt_nb_174",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig sovner på offentlig transport."
+    },
+    {
+      "id": "mlt_nb_175",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig planlegger du et temaantrekk for en fest."
+    },
+    {
+      "id": "mlt_nb_176",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig holder en plante i live i årevis."
+    },
+    {
+      "id": "mlt_nb_177",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig å kjenne en snarvei overalt."
+    },
+    {
+      "id": "mlt_nb_178",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig å starte en bokklubb."
+    },
+    {
+      "id": "mlt_nb_179",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig å pakke ekstra snacks for en biltur."
+    },
+    {
+      "id": "mlt_nb_180",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sannsynlig å være tidlig ute med alt."
+    },
+    {
+      "id": "mlt_nb_181",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig vil starte et sidekjas og holde seg til det."
+    },
+    {
+      "id": "mlt_nb_182",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig å overse en hel sesong på en natt."
+    },
+    {
+      "id": "mlt_nb_183",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig å overtenke en tekstmelding."
+    },
+    {
+      "id": "mlt_nb_184",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig å omorganisere rommet sitt klokken 02.00."
+    },
+    {
+      "id": "mlt_nb_185",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig å lage en detaljert reiseplan."
+    },
+    {
+      "id": "mlt_nb_186",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig å prøve en kald dukkert og elsker det."
+    },
+    {
+      "id": "mlt_nb_187",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig å ta en spontan biltur."
+    },
+    {
+      "id": "mlt_nb_188",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig vil du bruke timer på å velge den perfekte gaven."
+    },
+    {
+      "id": "mlt_nb_189",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig å melde seg på en klasse bare for moro skyld."
+    },
+    {
+      "id": "mlt_nb_190",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig starter en ny hobby hver måned."
+    },
+    {
+      "id": "mlt_nb_191",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig blir du hektet på en tilfeldig podcast."
+    },
+    {
+      "id": "mlt_nb_192",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig glemmer å spise lunsj når det er travelt."
+    },
+    {
+      "id": "mlt_nb_193",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig å vinne en tilfeldig giveaway på nettet."
+    },
+    {
+      "id": "mlt_nb_194",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig er gruppens fotograf."
+    },
+    {
+      "id": "mlt_nb_195",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig å bestille det samme hver gang."
+    },
+    {
+      "id": "mlt_nb_196",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig sovner under en film hjemme."
+    },
+    {
+      "id": "mlt_nb_197",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig lage et regneark for en tur."
+    },
+    {
+      "id": "mlt_nb_198",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig å ha billettstumper i en boks."
+    },
+    {
+      "id": "mlt_nb_199",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig legger du igjen talenotater i stedet for å sende tekstmeldinger."
+    },
+    {
+      "id": "mlt_nb_200",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sannsynlig å øve på en samtale på forhånd."
+    },
+    {
+      "id": "mlt_nb_201",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sannsynlig dobbelttekst etter å ha blitt lest."
+    },
+    {
+      "id": "mlt_nb_202",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sannsynlig flørte for å få rabatt."
+    },
+    {
+      "id": "mlt_nb_203",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sannsynlig vil de beholde datingapper på telefonen."
+    },
+    {
+      "id": "mlt_nb_204",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sannsynlig falle for noen på en helgetur."
+    },
+    {
+      "id": "mlt_nb_205",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sannsynlig gjør det første trekk."
+    },
+    {
+      "id": "mlt_nb_206",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sannsynlig å ha en hemmelig forelsket i en venn."
+    },
+    {
+      "id": "mlt_nb_207",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sannsynlig sender du SMS til en eks sent på kvelden."
+    },
+    {
+      "id": "mlt_nb_208",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sannsynlig å gå på date for gratismiddagen."
+    },
+    {
+      "id": "mlt_nb_209",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sannsynlig å bli tatt for å sjekke telefonen sin på en date."
+    },
+    {
+      "id": "mlt_nb_210",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sannsynlig vil jeg si \"Jeg elsker deg\" først."
+    },
+    {
+      "id": "mlt_nb_211",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å starte et meme i gruppechatten?"
+    },
+    {
+      "id": "mlt_nb_212",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem vil tilfeldigvis like et veldig gammelt innlegg?"
+    },
+    {
+      "id": "mlt_nb_213",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville blitt streamer i en uke og tatt det seriøst?"
+    },
+    {
+      "id": "mlt_nb_214",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville sende den perfekte reaksjons-GIF?"
+    },
+    {
+      "id": "mlt_nb_215",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville tapt en time på å redigere en selfie?"
+    },
+    {
+      "id": "mlt_nb_216",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem kontrollerer spillelisten for seriøst?"
+    },
+    {
+      "id": "mlt_nb_217",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem gjør regelforklaringer til en TED Talk?"
+    }
+  ]
+}

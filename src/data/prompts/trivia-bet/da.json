@@ -1,0 +1,3127 @@
+{
+  "gameId": "trivia-bet",
+  "locale": "da",
+  "version": 2,
+  "questions": [
+    {
+      "id": "tb_da_001",
+      "difficulty": "easy",
+      "category": "Videnskab",
+      "question": "Hvilken gas optager planter fra luften under fotosyntesen?",
+      "options": [
+        "Ilt",
+        "Kuldioxid",
+        "Brint",
+        "Nitrogen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_002",
+      "difficulty": "easy",
+      "category": "Videnskab",
+      "question": "Hvad er det kemiske symbol for vand?",
+      "options": [
+        "WO",
+        "H2O",
+        "O2H",
+        "HO2"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_003",
+      "difficulty": "easy",
+      "category": "Videnskab",
+      "question": "Hvilken planet er kendt som den røde planet?",
+      "options": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Merkur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_004",
+      "difficulty": "easy",
+      "category": "Videnskab",
+      "question": "Hvor mange ben har et insekt?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_005",
+      "difficulty": "easy",
+      "category": "Videnskab",
+      "question": "Hvilken kraft trækker objekter mod Jorden?",
+      "options": [
+        "Magnetisme",
+        "Tyngdekraften",
+        "Friktion",
+        "Elektricitet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_006",
+      "difficulty": "easy",
+      "category": "Videnskab",
+      "question": "Hvilket organ pumper blod rundt i kroppen?",
+      "options": [
+        "Lever",
+        "Hjerte",
+        "Lunge",
+        "Nyre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_007",
+      "difficulty": "easy",
+      "category": "Videnskab",
+      "question": "Hvad kaldes et atoms centrum?",
+      "options": [
+        "Nucleus",
+        "Celle",
+        "Orbit",
+        "Shell"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_008",
+      "difficulty": "medium",
+      "category": "Videnskab",
+      "question": "Hvad er det kemiske symbol for guld?",
+      "options": [
+        "Gå",
+        "Gd",
+        "Au",
+        "Ag"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_009",
+      "difficulty": "medium",
+      "category": "Videnskab",
+      "question": "Hvad er kogepunktet for vand ved havoverfladen i Celsius?",
+      "options": [
+        "90",
+        "95",
+        "100",
+        "110"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_010",
+      "difficulty": "medium",
+      "category": "Videnskab",
+      "question": "Hvilken del af en celle indeholder det meste af dens DNA?",
+      "options": [
+        "Ribosom",
+        "Nucleus",
+        "Cellevæg",
+        "Mitokondrien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_011",
+      "difficulty": "medium",
+      "category": "Videnskab",
+      "question": "Hvilken type energi er lagret i et strakt gummibånd?",
+      "options": [
+        "Kemisk",
+        "Elastisk potentiale",
+        "Termisk",
+        "Nuklear"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_012",
+      "difficulty": "medium",
+      "category": "Videnskab",
+      "question": "Hvilket vitamin produceres, når huden udsættes for sollys?",
+      "options": [
+        "Vitamin A",
+        "C-vitamin",
+        "D-vitamin",
+        "Vitamin K"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_013",
+      "difficulty": "medium",
+      "category": "Videnskab",
+      "question": "Hvilket instrument bruges til at måle jordskælv?",
+      "options": [
+        "Barometer",
+        "Seismograf",
+        "Hygrometer",
+        "Højdemåler"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_014",
+      "difficulty": "medium",
+      "category": "Videnskab",
+      "question": "Hvad er det hårdeste naturlige stof på jorden?",
+      "options": [
+        "Kvarts",
+        "Diamant",
+        "Granit",
+        "Jern"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_015",
+      "difficulty": "hard",
+      "category": "Videnskab",
+      "question": "Hvad er SI-enheden for elektrisk strøm?",
+      "options": [
+        "Volt",
+        "Watt",
+        "Ampere",
+        "Ohm"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_016",
+      "difficulty": "hard",
+      "category": "Videnskab",
+      "question": "Hvilken videnskabsmand foreslog de tre love om bevægelse?",
+      "options": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Nikola Tesla"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_017",
+      "difficulty": "hard",
+      "category": "Videnskab",
+      "question": "Hvad er den mest udbredte gas i jordens atmosfære?",
+      "options": [
+        "Ilt",
+        "Kuldioxid",
+        "Nitrogen",
+        "Argon"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_018",
+      "difficulty": "hard",
+      "category": "Videnskab",
+      "question": "Hvilken partikel har en negativ elektrisk ladning?",
+      "options": [
+        "Proton",
+        "Neutron",
+        "Elektron",
+        "Foton"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_019",
+      "difficulty": "hard",
+      "category": "Videnskab",
+      "question": "Hvad er pH-værdien af en neutral opløsning ved stuetemperatur?",
+      "options": [
+        "0",
+        "5",
+        "7",
+        "14"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_020",
+      "difficulty": "hard",
+      "category": "Videnskab",
+      "question": "Hvilke blodceller hjælper kroppen med at bekæmpe infektioner?",
+      "options": [
+        "Røde blodlegemer",
+        "Hvide blodlegemer",
+        "Blodplader",
+        "Plasmaceller"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_021",
+      "difficulty": "easy",
+      "category": "Geografi",
+      "question": "Hvad er hovedstaden i Frankrig?",
+      "options": [
+        "Lyon",
+        "Paris",
+        "Marseille",
+        "Dejligt"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_022",
+      "difficulty": "easy",
+      "category": "Geografi",
+      "question": "Hvilket hav er det største?",
+      "options": [
+        "Atlanterhavet",
+        "Indiske Ocean",
+        "Stillehavet",
+        "Ishavet"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_023",
+      "difficulty": "easy",
+      "category": "Geografi",
+      "question": "Hvilket land er berømt for pyramiderne i Giza?",
+      "options": [
+        "Mexico",
+        "Egypten",
+        "Grækenland",
+        "Indien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_024",
+      "difficulty": "easy",
+      "category": "Geografi",
+      "question": "Hvad er hovedstaden i Japan?",
+      "options": [
+        "Kyoto",
+        "Osaka",
+        "Tokyo",
+        "Hiroshima"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_025",
+      "difficulty": "easy",
+      "category": "Geografi",
+      "question": "Hvilket kontinent ligger Brasilien på?",
+      "options": [
+        "Afrika",
+        "Sydamerika",
+        "Europa",
+        "Asien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_026",
+      "difficulty": "easy",
+      "category": "Geografi",
+      "question": "Hvad er det største land efter landareal?",
+      "options": [
+        "Canada",
+        "Kina",
+        "Rusland",
+        "USA"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_027",
+      "difficulty": "easy",
+      "category": "Geografi",
+      "question": "Hvilken flod løber gennem London?",
+      "options": [
+        "Seine",
+        "Themsen",
+        "Donau",
+        "Rhinen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_028",
+      "difficulty": "medium",
+      "category": "Geografi",
+      "question": "Hvad er hovedstaden i Australia?",
+      "options": [
+        "Sydney",
+        "Melbourne",
+        "Canberra",
+        "Brisbane"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_029",
+      "difficulty": "medium",
+      "category": "Geografi",
+      "question": "I hvilket land ligger Kilimanjaro-bjerget?",
+      "options": [
+        "Kenya",
+        "Tanzania",
+        "Uganda",
+        "Etiopien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_030",
+      "difficulty": "medium",
+      "category": "Geografi",
+      "question": "Hvilken ørken er den største varme ørken i verden?",
+      "options": [
+        "Gobi",
+        "Sahara",
+        "Kalahari",
+        "Mojave"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_031",
+      "difficulty": "medium",
+      "category": "Geografi",
+      "question": "Hvilket land har byen Marrakech?",
+      "options": [
+        "Tunesien",
+        "Marokko",
+        "Algeriet",
+        "Egypten"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_032",
+      "difficulty": "medium",
+      "category": "Geografi",
+      "question": "Hvilket hav adskiller Europa og Afrika?",
+      "options": [
+        "Røde Hav",
+        "Middelhavet",
+        "Sortehavet",
+        "Østersøen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_033",
+      "difficulty": "medium",
+      "category": "Geografi",
+      "question": "Hvilken amerikansk stat er kendt som Sunshine State?",
+      "options": [
+        "Californien",
+        "Florida",
+        "Arizona",
+        "Hawaii"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_034",
+      "difficulty": "medium",
+      "category": "Geografi",
+      "question": "Hvilket land har de mest naturlige søer?",
+      "options": [
+        "Canada",
+        "Brasilien",
+        "Rusland",
+        "Finland"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_035",
+      "difficulty": "hard",
+      "category": "Geografi",
+      "question": "Hvad er hovedstaden i Kasakhstan?",
+      "options": [
+        "Almaty",
+        "Astana",
+        "Bishkek",
+        "Tasjkent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_036",
+      "difficulty": "hard",
+      "category": "Geografi",
+      "question": "Hvilket land er hjemsted for Bled-søen?",
+      "options": [
+        "Slovenien",
+        "Kroatien",
+        "Austria",
+        "Slovakiet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_037",
+      "difficulty": "hard",
+      "category": "Geografi",
+      "question": "Atacama-ørkenen ligger hovedsageligt i hvilket land?",
+      "options": [
+        "Peru",
+        "Chile",
+        "Bolivia",
+        "Argentina"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_038",
+      "difficulty": "hard",
+      "category": "Geografi",
+      "question": "Hvilken by er delt mellem Europa og Asien?",
+      "options": [
+        "Istanbul",
+        "Athen",
+        "Cairo",
+        "Lissabon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_039",
+      "difficulty": "hard",
+      "category": "Geografi",
+      "question": "Hvad er den længste bjergkæde i verden?",
+      "options": [
+        "Himalaya",
+        "Andesbjergene",
+        "Rocky Mountains",
+        "Alperne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_040",
+      "difficulty": "hard",
+      "category": "Geografi",
+      "question": "Hvilket land bruger kronen som valuta?",
+      "options": [
+        "Norge",
+        "Polen",
+        "Ungarn",
+        "Rumænien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_041",
+      "difficulty": "easy",
+      "category": "Historie",
+      "question": "I hvilket år sank Titanic?",
+      "options": [
+        "1908",
+        "1912",
+        "1916",
+        "1920"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_042",
+      "difficulty": "easy",
+      "category": "Historie",
+      "question": "Hvem var den første præsident i USA?",
+      "options": [
+        "Thomas Jefferson",
+        "George Washington",
+        "Abraham Lincoln",
+        "John Adams"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_043",
+      "difficulty": "easy",
+      "category": "Historie",
+      "question": "Den Kinesiske Mur er hovedsageligt forbundet med hvilket land?",
+      "options": [
+        "Japan",
+        "Kina",
+        "Indien",
+        "Mongoliet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_044",
+      "difficulty": "easy",
+      "category": "Historie",
+      "question": "Hvem var kendt som Maid of Orleans?",
+      "options": [
+        "Kleopatra",
+        "Jeanne d'Arc",
+        "Dronning Victoria",
+        "Marie Curie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_045",
+      "difficulty": "easy",
+      "category": "Historie",
+      "question": "Hvilken gammel civilisation byggede Colosseum?",
+      "options": [
+        "græsk",
+        "romersk",
+        "Maya",
+        "persisk"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_046",
+      "difficulty": "easy",
+      "category": "Historie",
+      "question": "Hvilken krig sluttede i 1945?",
+      "options": [
+        "Første Verdenskrig",
+        "Anden Verdenskrig",
+        "Koreakrigen",
+        "Vietnamkrigen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_047",
+      "difficulty": "easy",
+      "category": "Historie",
+      "question": "Hvem opdagede penicillin?",
+      "options": [
+        "Alexander Fleming",
+        "Louis Pasteur",
+        "Marie Curie",
+        "Charles Darwin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_048",
+      "difficulty": "medium",
+      "category": "Historie",
+      "question": "Hvem var den første kvinde, der fløj solo over Atlanterhavet?",
+      "options": [
+        "Amelia Earhart",
+        "Bessie Coleman",
+        "Valentina Tereshkova",
+        "Sally Ride"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_049",
+      "difficulty": "medium",
+      "category": "Historie",
+      "question": "Hvilket år faldt Berlinmuren?",
+      "options": [
+        "1987",
+        "1989",
+        "1991",
+        "1993"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_050",
+      "difficulty": "medium",
+      "category": "Historie",
+      "question": "Hvilket imperium blev styret af Djengis Khan?",
+      "options": [
+        "Osmanniske Rige",
+        "Mongolske imperium",
+        "Romerriget",
+        "Persiske Rige"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_051",
+      "difficulty": "medium",
+      "category": "Historie",
+      "question": "Hvem var den første person, der gik på Månen?",
+      "options": [
+        "Buzz Aldrin",
+        "Yuri Gagarin",
+        "Neil Armstrong",
+        "Michael Collins"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_052",
+      "difficulty": "medium",
+      "category": "Historie",
+      "question": "Renæssancen begyndte i hvilket moderne land?",
+      "options": [
+        "Frankrig",
+        "Italien",
+        "Tyskland",
+        "Spanien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_053",
+      "difficulty": "medium",
+      "category": "Historie",
+      "question": "Hvilket dokument begynder med ordene Vi Folket?",
+      "options": [
+        "Magna Carta",
+        "USA's forfatning",
+        "Uafhængighedserklæring",
+        "Bill of Rights"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_054",
+      "difficulty": "medium",
+      "category": "Historie",
+      "question": "Hvilken dronning regerede England i store dele af den victorianske æra?",
+      "options": [
+        "Elizabeth I",
+        "Mary I",
+        "Victoria",
+        "Anne"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_055",
+      "difficulty": "hard",
+      "category": "Historie",
+      "question": "Rosettastenen hjalp forskere med at læse hvilket gammelt skrift?",
+      "options": [
+        "Kileskrift",
+        "Hieroglyffer",
+        "Sanskrit",
+        "Lineær B"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_056",
+      "difficulty": "hard",
+      "category": "Historie",
+      "question": "Hvem ledede den haitiske revolution?",
+      "options": [
+        "Toussaint Louverture",
+        "Simon Bolivar",
+        "Miguel Hidalgo",
+        "José de San Martin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_057",
+      "difficulty": "hard",
+      "category": "Historie",
+      "question": "Hvilken traktat afsluttede Første Verdenskrig?",
+      "options": [
+        "Paris-traktaten",
+        "Versailles-traktaten",
+        "Tordesillas-traktaten",
+        "Utrecht-traktaten"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_058",
+      "difficulty": "hard",
+      "category": "Historie",
+      "question": "Hvilken by var hovedstaden i det byzantinske imperium?",
+      "options": [
+        "Rom",
+        "Athen",
+        "Konstantinopel",
+        "Alexandria"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_059",
+      "difficulty": "hard",
+      "category": "Historie",
+      "question": "Hvem var den sidste farao i det gamle Egypten?",
+      "options": [
+        "Nefertiti",
+        "Kleopatra VII",
+        "Hatshepsut",
+        "Ramses II"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_060",
+      "difficulty": "hard",
+      "category": "Historie",
+      "question": "Hvilken civilisation skabte Hammurabis kodeks?",
+      "options": [
+        "babylonsk",
+        "assyrisk",
+        "fønikisk",
+        "Hittit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_061",
+      "difficulty": "easy",
+      "category": "Popkultur",
+      "question": "Hvad er navnet på Batmans butler?",
+      "options": [
+        "James",
+        "Alfred",
+        "George",
+        "Edward"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_062",
+      "difficulty": "easy",
+      "category": "Popkultur",
+      "question": "Hvilken franchise har Hogwarts?",
+      "options": [
+        "Star Wars",
+        "Harry Potter",
+        "The Matrix",
+        "Avatar"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_063",
+      "difficulty": "easy",
+      "category": "Popkultur",
+      "question": "Hvilken farve har karakteren Shrek?",
+      "options": [
+        "Blå",
+        "Grøn",
+        "Lilla",
+        "Orange"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_064",
+      "difficulty": "easy",
+      "category": "Popkultur",
+      "question": "Hvilken sanger er kendt som Queen of Pop?",
+      "options": [
+        "Madonna",
+        "Adele",
+        "Rihanna",
+        "Dua Lipa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_065",
+      "difficulty": "easy",
+      "category": "Popkultur",
+      "question": "Hvilken superhelt er også kendt som Peter Parker?",
+      "options": [
+        "Batman",
+        "Spider-Man",
+        "Superman",
+        "Iron Man"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_066",
+      "difficulty": "easy",
+      "category": "Popkultur",
+      "question": "Hvilken film har en karakter ved navn Elsa?",
+      "options": [
+        "Moana",
+        "Frosset",
+        "Modig",
+        "Sammenfiltret"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_067",
+      "difficulty": "easy",
+      "category": "Popkultur",
+      "question": "Hvilken app er kendt for korte virale videoer?",
+      "options": [
+        "TikTok",
+        "LinkedIn",
+        "Dropbox",
+        "Zoom"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_068",
+      "difficulty": "medium",
+      "category": "Popkultur",
+      "question": "Hvad er den fiktive by, hvor Batman bor?",
+      "options": [
+        "Metropolis",
+        "Gotham City",
+        "Stjernebyen",
+        "Central City"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_069",
+      "difficulty": "medium",
+      "category": "Popkultur",
+      "question": "Hvilket band udgav albummet Abbey Road?",
+      "options": [
+        "The Beatles",
+        "Dronning",
+        "ABBA",
+        "Rolling Stones"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_070",
+      "difficulty": "medium",
+      "category": "Popkultur",
+      "question": "Hvem spiller Jack i filmen Titanic fra 1997?",
+      "options": [
+        "Brad Pitt",
+        "Leonardo DiCaprio",
+        "Tom Cruise",
+        "Matt Damon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_071",
+      "difficulty": "medium",
+      "category": "Popkultur",
+      "question": "Hvilket tv-program viser kaffebaren Central Perk?",
+      "options": [
+        "Venner",
+        "Seinfeld",
+        "The Office",
+        "Hvordan jeg mødte din mor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_072",
+      "difficulty": "medium",
+      "category": "Popkultur",
+      "question": "Hvilken spilserie indeholder karakteren Link?",
+      "options": [
+        "Final Fantasy",
+        "Legenden om Zelda",
+        "Pokemon",
+        "Sonic"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_073",
+      "difficulty": "medium",
+      "category": "Popkultur",
+      "question": "Hvilken film indeholder citatet May the Force be with you?",
+      "options": [
+        "Star Wars",
+        "Star Trek",
+        "Dune",
+        "Blade Runner"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_074",
+      "difficulty": "medium",
+      "category": "Popkultur",
+      "question": "Hvad hedder legetøjscowboyen i Toy Story?",
+      "options": [
+        "Buzz",
+        "Woody",
+        "Andy",
+        "Rex"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_075",
+      "difficulty": "hard",
+      "category": "Popkultur",
+      "question": "Hvilken skuespiller spillede Neo i The Matrix?",
+      "options": [
+        "Keanu Reeves",
+        "Johnny Depp",
+        "Nicolas Cage",
+        "Will Smith"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_076",
+      "difficulty": "hard",
+      "category": "Popkultur",
+      "question": "Hvilken kunstner udgav albummet Lemonade?",
+      "options": [
+        "Beyonce",
+        "Taylor Swift",
+        "Ariana Grande",
+        "Lady Gaga"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_077",
+      "difficulty": "hard",
+      "category": "Popkultur",
+      "question": "Hvad er Gollums oprindelige navn i Lord of the Rings?",
+      "options": [
+        "Smeagol",
+        "Bilbo",
+        "Deagol",
+        "Faramir"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_078",
+      "difficulty": "hard",
+      "category": "Popkultur",
+      "question": "Hvilken animationsfilm indeholder sangen Remember Me?",
+      "options": [
+        "Coco",
+        "Encanto",
+        "Sjæl",
+        "Luca"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_079",
+      "difficulty": "hard",
+      "category": "Popkultur",
+      "question": "Hvad er navnet på det fiktive metal i Black Panther?",
+      "options": [
+        "Adamantium",
+        "Vibranium",
+        "Mithril",
+        "Unobtanium"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_080",
+      "difficulty": "hard",
+      "category": "Popkultur",
+      "question": "Hvilken sitcom foregår hos Dunder Mifflin?",
+      "options": [
+        "Parker og rekreation",
+        "The Office",
+        "Brooklyn Nine-Nine",
+        "Fællesskab"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_081",
+      "difficulty": "easy",
+      "category": "Mad",
+      "question": "Hvilken frugt bruges traditionelt til at lave guacamole?",
+      "options": [
+        "Banan",
+        "Avocado",
+        "Mango",
+        "Kiwi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_082",
+      "difficulty": "easy",
+      "category": "Mad",
+      "question": "Hvad forbindes sushi mest med?",
+      "options": [
+        "Japan",
+        "Mexico",
+        "Italien",
+        "Marokko"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_083",
+      "difficulty": "easy",
+      "category": "Mad",
+      "question": "Hvilken nød bruges til at lave marcipan?",
+      "options": [
+        "Valnød",
+        "Hasselnød",
+        "Mandel",
+        "Jordnød"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_084",
+      "difficulty": "easy",
+      "category": "Mad",
+      "question": "Hvad er hovedingrediensen i hummus?",
+      "options": [
+        "Linser",
+        "Kikærter",
+        "Kartofler",
+        "Ris"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_085",
+      "difficulty": "easy",
+      "category": "Mad",
+      "question": "Hvilken drik fremstilles ved at brygge ristede bønner?",
+      "options": [
+        "Te",
+        "Kaffe",
+        "Lemonade",
+        "Cola"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_086",
+      "difficulty": "easy",
+      "category": "Mad",
+      "question": "Hvilken type pasta er formet som små rør?",
+      "options": [
+        "Penne",
+        "Spaghetti",
+        "Farfalle",
+        "Lasagne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_087",
+      "difficulty": "easy",
+      "category": "Mad",
+      "question": "Hvilket land er kendt for tacos?",
+      "options": [
+        "Italien",
+        "Mexico",
+        "Thailand",
+        "Grækenland"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_088",
+      "difficulty": "medium",
+      "category": "Mad",
+      "question": "Hvilket krydderi giver karry sin gule farve?",
+      "options": [
+        "Spidskommen",
+        "Gurkemeje",
+        "Paprika",
+        "Kanel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_089",
+      "difficulty": "medium",
+      "category": "Mad",
+      "question": "Hvilken ost bruges traditionelt på en Margherita-pizza?",
+      "options": [
+        "Cheddar",
+        "Mozzarella",
+        "Feta",
+        "Gouda"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_090",
+      "difficulty": "medium",
+      "category": "Mad",
+      "question": "Hvad er tofu primært lavet af?",
+      "options": [
+        "Sojabønner",
+        "Ris",
+        "Majs",
+        "Jordnødder"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_091",
+      "difficulty": "medium",
+      "category": "Mad",
+      "question": "Hvilken dessert er lavet med lag af kaffe-gennemvædede ladyfingers?",
+      "options": [
+        "Baklava",
+        "Tiramisu",
+        "Pavlova",
+        "Creme brulee"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_092",
+      "difficulty": "medium",
+      "category": "Mad",
+      "question": "Hvad er hovedingrediensen i surkål?",
+      "options": [
+        "Kål",
+        "Gulerod",
+        "Agurk",
+        "Løg"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_093",
+      "difficulty": "medium",
+      "category": "Mad",
+      "question": "Hvilken frugt tørres for at lave rosiner?",
+      "options": [
+        "Druer",
+        "Blommer",
+        "Abrikoser",
+        "Fig"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_094",
+      "difficulty": "medium",
+      "category": "Mad",
+      "question": "Hvilken sauce laves traditionelt med basilikum, pinjekerner, hvidløg, olivenolie og ost?",
+      "options": [
+        "Pesto",
+        "Salsa",
+        "Hoisin",
+        "Tahini"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_095",
+      "difficulty": "hard",
+      "category": "Mad",
+      "question": "Hvilket korn bruges til at lave traditionel risotto?",
+      "options": [
+        "Basmati",
+        "Arborio ris",
+        "Quinoa",
+        "Bulgur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_096",
+      "difficulty": "hard",
+      "category": "Mad",
+      "question": "Hvilket land er oprindelsen af kimchi?",
+      "options": [
+        "Japan",
+        "Kina",
+        "Korea",
+        "Vietnam"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_097",
+      "difficulty": "hard",
+      "category": "Mad",
+      "question": "Hvad er den franske betegnelse for en tynd pandekage?",
+      "options": [
+        "Crepe",
+        "Brioche",
+        "Eclair",
+        "Macaron"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_098",
+      "difficulty": "hard",
+      "category": "Mad",
+      "question": "Hvilken syre giver eddike dens sure smag?",
+      "options": [
+        "Citronsyre",
+        "Eddikesyre",
+        "Mælkesyre",
+        "Æblesyre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_099",
+      "difficulty": "hard",
+      "category": "Mad",
+      "question": "Hvad er hovedingrediensen i traditionel falafel?",
+      "options": [
+        "Kikærter",
+        "Oksekød",
+        "Aubergine",
+        "Ris"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_100",
+      "difficulty": "hard",
+      "category": "Mad",
+      "question": "Hvilket wienerbrød bruges til at lave baklava?",
+      "options": [
+        "Butterdej",
+        "Filo wienerbrød",
+        "Sandskorpe",
+        "Choux wienerbrød"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_101",
+      "difficulty": "easy",
+      "category": "Dyr",
+      "question": "Hvad er det største landdyr?",
+      "options": [
+        "Elefant",
+        "Flodhest",
+        "Rhino",
+        "Giraf"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_102",
+      "difficulty": "easy",
+      "category": "Dyr",
+      "question": "Hvilket dyr er kendt for sorte og hvide striber?",
+      "options": [
+        "Zebra",
+        "Tiger",
+        "Panda",
+        "Skunk"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_103",
+      "difficulty": "easy",
+      "category": "Dyr",
+      "question": "Hvad laver bier?",
+      "options": [
+        "Mælk",
+        "Skat",
+        "Silke",
+        "Kun voks"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_104",
+      "difficulty": "easy",
+      "category": "Dyr",
+      "question": "Hvilket dyr er et pattedyr?",
+      "options": [
+        "Haj",
+        "Frø",
+        "Delfin",
+        "Krokodille"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_105",
+      "difficulty": "easy",
+      "category": "Dyr",
+      "question": "Hvad hedder en babykat?",
+      "options": [
+        "Hvalp",
+        "Killing",
+        "Kalv",
+        "Føl"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_106",
+      "difficulty": "easy",
+      "category": "Dyr",
+      "question": "Hvilken fugl forbindes ofte med at føde babyer i historier?",
+      "options": [
+        "Ørn",
+        "Stork",
+        "Ugle",
+        "Svane"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_107",
+      "difficulty": "easy",
+      "category": "Dyr",
+      "question": "Hvilket dyr er kendt for at skifte farve?",
+      "options": [
+        "Kamæleon",
+        "Koala",
+        "Pingvin",
+        "Kamel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_108",
+      "difficulty": "medium",
+      "category": "Dyr",
+      "question": "Hvad er det hurtigste landdyr?",
+      "options": [
+        "Gepard",
+        "Løve",
+        "Hest",
+        "Kænguru"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_109",
+      "difficulty": "medium",
+      "category": "Dyr",
+      "question": "Hvilket dyr har den længste hals?",
+      "options": [
+        "Giraf",
+        "Struds",
+        "Kamel",
+        "Lama"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_110",
+      "difficulty": "medium",
+      "category": "Dyr",
+      "question": "Hvad kaldes en gruppe løver på engelsk?",
+      "options": [
+        "Pack",
+        "Herd",
+        "Pride",
+        "Flock"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_111",
+      "difficulty": "medium",
+      "category": "Dyr",
+      "question": "Hvilket havdyr har tre hjerter?",
+      "options": [
+        "Blæksprutte",
+        "Delfin",
+        "Havskildpadde",
+        "Vandmænd"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_112",
+      "difficulty": "medium",
+      "category": "Dyr",
+      "question": "Hvad spiser pandaer mest?",
+      "options": [
+        "Bambus",
+        "Fisk",
+        "Græs",
+        "Frugt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_113",
+      "difficulty": "medium",
+      "category": "Dyr",
+      "question": "Hvilket dyr lægger de største æg?",
+      "options": [
+        "Struds",
+        "Ørn",
+        "Pingvin",
+        "Albatros"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_114",
+      "difficulty": "medium",
+      "category": "Dyr",
+      "question": "Hvilket insekt kan løfte mange gange sin egen kropsvægt?",
+      "options": [
+        "Sommerfugl",
+        "Ant",
+        "Myg",
+        "Mariehøne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_115",
+      "difficulty": "hard",
+      "category": "Dyr",
+      "question": "Hvad er det eneste pattedyr, der er i stand til at flyve?",
+      "options": [
+        "Flyvende egern",
+        "Bat",
+        "Sukker svævefly",
+        "Lemur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_116",
+      "difficulty": "hard",
+      "category": "Dyr",
+      "question": "Hvilket dyr kaldes også ørkenens skib?",
+      "options": [
+        "Kamel",
+        "Æsel",
+        "Hest",
+        "Yak"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_117",
+      "difficulty": "hard",
+      "category": "Dyr",
+      "question": "Hvad er den største hajart?",
+      "options": [
+        "Stor hvid haj",
+        "Hvalhaj",
+        "Hammerhaj",
+        "Tigerhaj"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_118",
+      "difficulty": "hard",
+      "category": "Dyr",
+      "question": "Hvilken fugl kan efterligne menneskelig tale særligt godt?",
+      "options": [
+        "Papegøje",
+        "Pingvin",
+        "Flamingo",
+        "Spurv"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_119",
+      "difficulty": "hard",
+      "category": "Dyr",
+      "question": "Hvad kaldes undersøgelsen af fugle?",
+      "options": [
+        "Entomologi",
+        "Ornitologi",
+        "Iktyologi",
+        "Herpetologi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_120",
+      "difficulty": "hard",
+      "category": "Dyr",
+      "question": "Hvilket dyr har fingeraftryk meget lig mennesker?",
+      "options": [
+        "Koala",
+        "Kænguru",
+        "Panda",
+        "Dovendyr"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_121",
+      "difficulty": "easy",
+      "category": "Matematik",
+      "question": "Hvad er 9 gange 9?",
+      "options": [
+        "72",
+        "81",
+        "90",
+        "99"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_122",
+      "difficulty": "easy",
+      "category": "Matematik",
+      "question": "Hvor mange sider har en trekant?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_123",
+      "difficulty": "easy",
+      "category": "Matematik",
+      "question": "Hvad er halvdelen af 100?",
+      "options": [
+        "25",
+        "40",
+        "50",
+        "75"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_124",
+      "difficulty": "easy",
+      "category": "Matematik",
+      "question": "Hvad er 12 plus 15?",
+      "options": [
+        "25",
+        "27",
+        "29",
+        "31"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_125",
+      "difficulty": "easy",
+      "category": "Matematik",
+      "question": "Hvor mange minutter er der på en time?",
+      "options": [
+        "30",
+        "45",
+        "60",
+        "90"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_126",
+      "difficulty": "easy",
+      "category": "Matematik",
+      "question": "Hvad er 7 i kvadrat?",
+      "options": [
+        "14",
+        "21",
+        "49",
+        "77"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_127",
+      "difficulty": "easy",
+      "category": "Matematik",
+      "question": "Hvor mange grader er der i en ret vinkel?",
+      "options": [
+        "45",
+        "60",
+        "90",
+        "180"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_128",
+      "difficulty": "medium",
+      "category": "Matematik",
+      "question": "Hvad er værdien af pi afrundet til to decimaler?",
+      "options": [
+        "3.12",
+        "3.14",
+        "3.16",
+        "3.18"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_129",
+      "difficulty": "medium",
+      "category": "Matematik",
+      "question": "Hvad er 15 procent af 200?",
+      "options": [
+        "15",
+        "20",
+        "30",
+        "40"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_130",
+      "difficulty": "medium",
+      "category": "Matematik",
+      "question": "Hvor mange sider har en sekskant?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_131",
+      "difficulty": "medium",
+      "category": "Matematik",
+      "question": "Hvad er kvadratroden af 144?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_132",
+      "difficulty": "medium",
+      "category": "Matematik",
+      "question": "Hvad er 3 terninger?",
+      "options": [
+        "9",
+        "18",
+        "27",
+        "81"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_133",
+      "difficulty": "medium",
+      "category": "Matematik",
+      "question": "Hvad er det næste primtal efter 7?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_134",
+      "difficulty": "medium",
+      "category": "Matematik",
+      "question": "Hvor mange centimeter er der i en meter?",
+      "options": [
+        "10",
+        "100",
+        "1000",
+        "10000"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_135",
+      "difficulty": "hard",
+      "category": "Matematik",
+      "question": "Hvad er summen af de indre vinkler i en trekant?",
+      "options": [
+        "90 grader",
+        "180 grader",
+        "270 grader",
+        "360 grader"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_136",
+      "difficulty": "hard",
+      "category": "Matematik",
+      "question": "Hvad er 2 i 10 potens?",
+      "options": [
+        "512",
+        "1024",
+        "2048",
+        "4096"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_137",
+      "difficulty": "hard",
+      "category": "Matematik",
+      "question": "Hvad er det mindste primtal?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_138",
+      "difficulty": "hard",
+      "category": "Matematik",
+      "question": "Hvad er 1 divideret med 4 som en decimal?",
+      "options": [
+        "0.2",
+        "0.25",
+        "0.4",
+        "0.5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_139",
+      "difficulty": "hard",
+      "category": "Matematik",
+      "question": "Hvor mange ansigter har en terning?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_140",
+      "difficulty": "hard",
+      "category": "Matematik",
+      "question": "Hvad er det romerske tal for 50?",
+      "options": [
+        "L",
+        "C",
+        "D",
+        "M"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_141",
+      "difficulty": "easy",
+      "category": "Musik",
+      "question": "Hvor mange strenge har en standardguitar normalt?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_142",
+      "difficulty": "easy",
+      "category": "Musik",
+      "question": "Hvilket instrument har sorte og hvide tangenter?",
+      "options": [
+        "Guitar",
+        "Klaver",
+        "Violin",
+        "Tromme"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_143",
+      "difficulty": "easy",
+      "category": "Musik",
+      "question": "Hvem er kendt som kongen af pop?",
+      "options": [
+        "Elvis Presley",
+        "Michael Jackson",
+        "Prins",
+        "Stevie Wonder"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_144",
+      "difficulty": "easy",
+      "category": "Musik",
+      "question": "Hvad kalder man en gruppe sangere?",
+      "options": [
+        "Kor",
+        "Bandage",
+        "Cast",
+        "Besætning"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_145",
+      "difficulty": "easy",
+      "category": "Musik",
+      "question": "Hvilket instrument spilles med en bue?",
+      "options": [
+        "Trompet",
+        "Violin",
+        "Klaver",
+        "fløjte"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_146",
+      "difficulty": "easy",
+      "category": "Musik",
+      "question": "Hvad hedder musikkens hastighed?",
+      "options": [
+        "Tempo",
+        "Pitch",
+        "Harmoni",
+        "Rytme"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_147",
+      "difficulty": "easy",
+      "category": "Musik",
+      "question": "Hvilket musikformat kom før cd'er for mange lyttere?",
+      "options": [
+        "Kassette",
+        "Blu-ray",
+        "Podcast",
+        "E-bog"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_148",
+      "difficulty": "medium",
+      "category": "Musik",
+      "question": "Hvilken komponist skrev Moonlight Sonata?",
+      "options": [
+        "Mozart",
+        "Beethoven",
+        "Bach",
+        "Chopin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_149",
+      "difficulty": "medium",
+      "category": "Musik",
+      "question": "Hvor mange toner er der i en standard dur-skala?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_150",
+      "difficulty": "medium",
+      "category": "Musik",
+      "question": "Hvilket band havde Freddie Mercury som forsanger?",
+      "options": [
+        "Dronning",
+        "U2",
+        "Nirvana",
+        "Oase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_151",
+      "difficulty": "medium",
+      "category": "Musik",
+      "question": "Hvad står DJ for?",
+      "options": [
+        "Disc jockey",
+        "Dansedommer",
+        "Digital jam",
+        "Tromme jumper"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_152",
+      "difficulty": "medium",
+      "category": "Musik",
+      "question": "Hvilket instrument er Yo-Yo Ma berømt for at spille?",
+      "options": [
+        "Cello",
+        "Violin",
+        "Klaver",
+        "Klarinet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_153",
+      "difficulty": "medium",
+      "category": "Musik",
+      "question": "Hvad er en duet?",
+      "options": [
+        "En sang for to kunstnere",
+        "Et hurtigt trommeslag",
+        "En musikpris",
+        "Et scenelys"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_154",
+      "difficulty": "medium",
+      "category": "Musik",
+      "question": "Hvilken genre forbindes ofte med improvisation og swing?",
+      "options": [
+        "Jazz",
+        "Metal",
+        "Opera",
+        "Reggae"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_155",
+      "difficulty": "hard",
+      "category": "Musik",
+      "question": "Hvilken klassisk periodekomponist skrev De fire årstider?",
+      "options": [
+        "Vivaldi",
+        "Handel",
+        "Haydn",
+        "Schubert"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_156",
+      "difficulty": "hard",
+      "category": "Musik",
+      "question": "Hvad er den laveste standard sangstemme for mænd?",
+      "options": [
+        "Tenor",
+        "Baryton",
+        "Bas",
+        "Alto"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_157",
+      "difficulty": "hard",
+      "category": "Musik",
+      "question": "Hvilken tone er en halvtone over C?",
+      "options": [
+        "B",
+        "C skarp",
+        "D",
+        "E flad"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_158",
+      "difficulty": "hard",
+      "category": "Musik",
+      "question": "Hvad er betegnelsen for gradvist at blive højere?",
+      "options": [
+        "Crescendo",
+        "Diminuendo",
+        "Legato",
+        "Staccato"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_159",
+      "difficulty": "hard",
+      "category": "Musik",
+      "question": "Hvilken by er stærkt forbundet med jazzens fødsel?",
+      "options": [
+        "New Orleans",
+        "Seattle",
+        "Nashville",
+        "Detroit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_160",
+      "difficulty": "hard",
+      "category": "Musik",
+      "question": "Hvad er navnet på symbolet placeret i starten af en musikalsk stav?",
+      "options": [
+        "Nøgle",
+        "Fret",
+        "Bro",
+        "Ventil"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_161",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Hvem malede Mona Lisa?",
+      "options": [
+        "Vincent van Gogh",
+        "Leonardo da Vinci",
+        "Pablo Picasso",
+        "Claude Monet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_162",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Hvilken farve får du ved at blande rød og blå?",
+      "options": [
+        "Grøn",
+        "Lilla",
+        "Orange",
+        "Brun"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_163",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Hvilket værktøj bruges til at påføre maling på et lærred?",
+      "options": [
+        "Hammer",
+        "Pensel",
+        "Kompas",
+        "nål"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_164",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Hvad er en skulptur normalt tredimensionel?",
+      "options": [
+        "Ja",
+        "Nej",
+        "Kun på billeder",
+        "Kun på papiret"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_165",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Hvilket museum er hjemsted for Mona Lisa?",
+      "options": [
+        "Louvre",
+        "Prado",
+        "Tate Modern",
+        "Uffizi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_166",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Hvad hedder kunsten at folde papir?",
+      "options": [
+        "Origami",
+        "Kalligrafi",
+        "Mosaik",
+        "Graffiti"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_167",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Hvilken farve laves ved at blande rød og gul?",
+      "options": [
+        "Blå",
+        "Orange",
+        "Lilla",
+        "Hvid"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_168",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Hvem malede Starry Night?",
+      "options": [
+        "Pablo Picasso",
+        "Vincent van Gogh",
+        "Salvador Dali",
+        "Rembrandt"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_169",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Hvilken kunstner er berømt for at smelte ure?",
+      "options": [
+        "Salvador Dali",
+        "Frida Kahlo",
+        "Andy Warhol",
+        "Banksy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_170",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Hvad er kalligrafi?",
+      "options": [
+        "Dekorativ håndskrift",
+        "Stenudskæring",
+        "Vægmaleri",
+        "Fotoredigering"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_171",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Hvilken kunstbevægelse er forbundet med Claude Monet?",
+      "options": [
+        "Kubisme",
+        "impressionisme",
+        "Surrealisme",
+        "Pop Art"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_172",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Hvad er et selvportræt?",
+      "options": [
+        "Et billede af kunstneren af kunstneren",
+        "Et landskab",
+        "Et gruppebillede",
+        "En skulptur base"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_173",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Hvilket materiale bruges ofte i keramik?",
+      "options": [
+        "Ler",
+        "Kun glas",
+        "Gummi",
+        "Papir"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_174",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Hvad er hovedfarven i et monokromt kunstværk?",
+      "options": [
+        "Én farve",
+        "To farver",
+        "Alle farver",
+        "Ingen farve"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_175",
+      "difficulty": "hard",
+      "category": "Art",
+      "question": "Hvilken kunstner malede Guernica?",
+      "options": [
+        "Pablo Picasso",
+        "Henri Matisse",
+        "Paul Cezanne",
+        "Edvard Munch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_176",
+      "difficulty": "hard",
+      "category": "Art",
+      "question": "Hvilken italiensk by er berømt for renæssancekunst og Uffizi-galleriet?",
+      "options": [
+        "Firenze",
+        "Venedig",
+        "Milano",
+        "Napoli"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_177",
+      "difficulty": "hard",
+      "category": "Art",
+      "question": "Hvad er der malet freskomaleri på?",
+      "options": [
+        "Våd gips",
+        "Glas",
+        "Metal",
+        "Silke"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_178",
+      "difficulty": "hard",
+      "category": "Art",
+      "question": "Hvilken kunstner skabte The Persistence of Memory?",
+      "options": [
+        "Salvador Dali",
+        "Joan Miro",
+        "Rene Magritte",
+        "Jackson Pollock"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_179",
+      "difficulty": "hard",
+      "category": "Art",
+      "question": "Hvilken trykmetode bruger en udskåret blok?",
+      "options": [
+        "Træsnit",
+        "Akvarel",
+        "Collage",
+        "Airbrush"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_180",
+      "difficulty": "hard",
+      "category": "Art",
+      "question": "Hvad handler chiaroscuro om?",
+      "options": [
+        "Lys og skygge",
+        "Lyd og rytme",
+        "Kun farve",
+        "Perspektivgitter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_181",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Hvor mange spillere er på banen for et fodboldhold?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_182",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Hvilken sport bruger en ketsjer og en fjerbold?",
+      "options": [
+        "Tennis",
+        "Badminton",
+        "Squash",
+        "Bordtennis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_183",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Hvor mange point er et frikast værd i basketball?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_184",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Hvilken sport spilles i Wimbledon?",
+      "options": [
+        "Cricket",
+        "Tennis",
+        "Golf",
+        "Rugby"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_185",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Hvor mange ringe er der på det olympiske flag?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_186",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Hvilken sport bruger en puck?",
+      "options": [
+        "Ishockey",
+        "Baseball",
+        "Volleyball",
+        "Boksning"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_187",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Hvad passerer løbere i et stafetløb?",
+      "options": [
+        "Bold",
+        "Baton",
+        "Flag",
+        "Handske"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_188",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Tour de France er et løb i hvilken sport?",
+      "options": [
+        "Løb",
+        "Cykling",
+        "Svømning",
+        "Skiløb"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_189",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Hvor mange spillere er på et standard baseballhold på banen?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_190",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Hvilket land har vundet flest FIFA World Cups i herrefodbold?",
+      "options": [
+        "Tyskland",
+        "Argentina",
+        "Brasilien",
+        "Italien"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_da_191",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "I tennis, hvilken score kommer efter deuce?",
+      "options": [
+        "Fordel",
+        "Kærlighed",
+        "Sætpunkt",
+        "Pause"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_192",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Hvilken sport byder på en pommelhest?",
+      "options": [
+        "Gymnastik",
+        "Ridesport",
+        "Polo",
+        "Fægtning"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_193",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Hvad er et hattrick i fodbold?",
+      "options": [
+        "Tre mål af én spiller",
+        "Tre gule kort",
+        "Tre udskiftninger",
+        "Tre hjørner"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_194",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Hvilken sport er forbundet med Stanley Cup?",
+      "options": [
+        "Basketball",
+        "Ishockey",
+        "Baseball",
+        "Rugby"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_195",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Hvor lang er en olympisk swimmingpool?",
+      "options": [
+        "25 meter",
+        "50 meter",
+        "75 meter",
+        "100 meter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_196",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Hvad kaldes et slag under par i golf?",
+      "options": [
+        "Bogey",
+        "Birdie",
+        "Ørn",
+        "Albatros"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_197",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Hvilket land var vært for de første moderne olympiske lege i 1896?",
+      "options": [
+        "Frankrig",
+        "Grækenland",
+        "Storbritannien",
+        "Italien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_198",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Hvad er den maksimale pause i snooker?",
+      "options": [
+        "120",
+        "147",
+        "155",
+        "180"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_199",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Hvilken sport bruger udtrykket kærlighed om nul?",
+      "options": [
+        "Cricket",
+        "Tennis",
+        "Boksning",
+        "Golf"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_200",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Hvad står KO for i boksning?",
+      "options": [
+        "Knockout",
+        "Spark ud",
+        "Hold åbent",
+        "Knæk rækkefølge"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_201",
+      "difficulty": "easy",
+      "category": "Teknologi",
+      "question": "Hvad står CPU for?",
+      "options": [
+        "Central Processing Unit",
+        "Computer Power Unit",
+        "Central Program Utility",
+        "Kernebehandlingsbruger"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_202",
+      "difficulty": "easy",
+      "category": "Teknologi",
+      "question": "Hvilken enhed bruges til at flytte en markør på en computer?",
+      "options": [
+        "Mus",
+        "Højttaler",
+        "Printer",
+        "Router"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_203",
+      "difficulty": "easy",
+      "category": "Teknologi",
+      "question": "Hvad tillader Wi-Fi enheder at oprette forbindelse til?",
+      "options": [
+        "Vand",
+        "Trådløse netværk",
+        "Papir",
+        "Elektriske motorer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_204",
+      "difficulty": "easy",
+      "category": "Teknologi",
+      "question": "Hvilket firma fremstiller iPhone?",
+      "options": [
+        "Samsung",
+        "Æble",
+        "Sony",
+        "Nokia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_205",
+      "difficulty": "easy",
+      "category": "Teknologi",
+      "question": "Hvad bruges en adgangskode til?",
+      "options": [
+        "Sikkerhed",
+        "Udskrivning",
+        "Opladning",
+        "Køling"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_206",
+      "difficulty": "easy",
+      "category": "Teknologi",
+      "question": "Hvad forbinder USB almindeligvis?",
+      "options": [
+        "Enheder og computere",
+        "Sko og sokker",
+        "Bøger og sider",
+        "Planter og jord"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_207",
+      "difficulty": "easy",
+      "category": "Teknologi",
+      "question": "Hvad er en app en forkortelse for?",
+      "options": [
+        "Ansøgning",
+        "Udnævnelse",
+        "Godkendelse",
+        "Tillæg"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_208",
+      "difficulty": "medium",
+      "category": "Teknologi",
+      "question": "Hvad står URL for?",
+      "options": [
+        "Uniform Resource Locator",
+        "Universal læselinje",
+        "Bruger Runtime Link",
+        "Unified Record List"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_209",
+      "difficulty": "medium",
+      "category": "Teknologi",
+      "question": "Hvad er hovedopgaven for en router?",
+      "options": [
+        "Gem billeder",
+        "Direkte netværkstrafik",
+        "Udskriv dokumenter",
+        "Scan kun vira"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_210",
+      "difficulty": "medium",
+      "category": "Teknologi",
+      "question": "Hvilken filtype bruges almindeligvis til billeder?",
+      "options": [
+        "JPEG",
+        "MP3",
+        "DOCX",
+        "EXE"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_211",
+      "difficulty": "medium",
+      "category": "Teknologi",
+      "question": "Hvad står RAM for?",
+      "options": [
+        "Random Access Memory",
+        "Hurtig handlingsmodul",
+        "Læs alle medier",
+        "Runtime Audio-tilstand"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_212",
+      "difficulty": "medium",
+      "category": "Teknologi",
+      "question": "Hvad bruges cloud storage til?",
+      "options": [
+        "Lagring af filer online",
+        "Rengøring af skærme",
+        "Kølende bærbare computere",
+        "Oplader telefoner"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_213",
+      "difficulty": "medium",
+      "category": "Teknologi",
+      "question": "Hvad hjælper GPS med at bestemme?",
+      "options": [
+        "Beliggenhed",
+        "Batterilevetid",
+        "Skærmstørrelse",
+        "Adgangskodestyrke"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_214",
+      "difficulty": "medium",
+      "category": "Teknologi",
+      "question": "Hvilken teknologi bruges til kontaktløse betalinger?",
+      "options": [
+        "NFC",
+        "VHS",
+        "CRT",
+        "DVD"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_215",
+      "difficulty": "hard",
+      "category": "Teknologi",
+      "question": "Hvad står HTML for?",
+      "options": [
+        "HyperText Markup Language",
+        "High Transfer Machine Logic",
+        "Hjem Værktøj Markup Link",
+        "Hyperlink Tekst Hovedliste"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_216",
+      "difficulty": "hard",
+      "category": "Teknologi",
+      "question": "Hvad er to-faktor-godkendelse designet til at forbedre?",
+      "options": [
+        "Skærmens lysstyrke",
+        "Kontosikkerhed",
+        "Download hastighed",
+        "Audio kvalitet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_217",
+      "difficulty": "hard",
+      "category": "Teknologi",
+      "question": "Hvilket talsystem bruger kun 0 og 1?",
+      "options": [
+        "Decimal",
+        "Binær",
+        "Hexadecimal",
+        "romersk"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_218",
+      "difficulty": "hard",
+      "category": "Teknologi",
+      "question": "Hvad står API for?",
+      "options": [
+        "Applikationsprogrammeringsgrænseflade",
+        "Automatisk programindeks",
+        "Anvendt Pixel-input",
+        "Avanceret proces internet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_219",
+      "difficulty": "hard",
+      "category": "Teknologi",
+      "question": "Hvad står SSD for?",
+      "options": [
+        "Solid State Drive",
+        "Systemlagerdisk",
+        "Smart softwareenhed",
+        "Sikkert signaldrev"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_220",
+      "difficulty": "hard",
+      "category": "Teknologi",
+      "question": "Hvilken protokol bruges almindeligvis til at indlæse sikre websteder?",
+      "options": [
+        "HTTP",
+        "HTTPS",
+        "FTP",
+        "SMTP"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_221",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Hvad står DM normalt for?",
+      "options": [
+        "Direkte besked",
+        "Digitalt kort",
+        "Daglig tilstand",
+        "Datahukommelse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_222",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Hvilket symbol starter et hashtag?",
+      "options": [
+        "@",
+        "#",
+        "&",
+        "*"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_223",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Hvad er en selfie?",
+      "options": [
+        "Et foto af dig selv",
+        "En adgangskode",
+        "Et søgeresultat",
+        "Et videospil"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_224",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Hvilken platform er bedst kendt for korte vertikale videoer?",
+      "options": [
+        "TikTok",
+        "Wikipedia",
+        "Dropbox",
+        "Slap"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_225",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Hvad er en emoji?",
+      "options": [
+        "Et lille digitalt ikon",
+        "En webbrowser",
+        "Et filformat",
+        "En type kabel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_226",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Hvad betyder LOL normalt online?",
+      "options": [
+        "Masser af lys",
+        "Griner højt",
+        "Liste over links",
+        "Lavt om held"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_da_227",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Hvad bruges et skærmbillede til at gemme?",
+      "options": [
+        "Hvad er på en skærm",
+        "En batteriopladning",
+        "Et telefonopkald",
+        "Kun en Wi-Fi adgangskode"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_228",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Hvad er clickbait designet til at få?",
+      "options": [
+        "Klik",
+        "Sov",
+        "Vejrdata",
+        "Kun adgangskoder"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_229",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Hvad betyder URL i daglig internetbrug?",
+      "options": [
+        "En webadresse",
+        "En musikfil",
+        "En kameratilstand",
+        "Et telefonbatteri"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_230",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Hvad er en meme?",
+      "options": [
+        "En delbar joke eller idé",
+        "En type tastatur",
+        "En privat adgangskode",
+        "En cloud-server"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_231",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Hvad er phishing?",
+      "options": [
+        "En fidus for at stjæle information",
+        "En måde at redigere billeder på",
+        "En musikgenre",
+        "Et videofilter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_232",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Hvad betyder livestreaming?",
+      "options": [
+        "Udsendelse i realtid",
+        "Gemmer en fil",
+        "Skrive kode offline",
+        "Udskrivning af fotos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_233",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Hvad er et brugernavn?",
+      "options": [
+        "Et offentligt kontonavn",
+        "En computervirus",
+        "Et skærmkabel",
+        "Et betalingskort"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_234",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Hvad bruges en browser til?",
+      "options": [
+        "Adgang til hjemmesider",
+        "Blander musik",
+        "Oplader enheder",
+        "Tegning af kort"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_235",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Hvad står SEO for?",
+      "options": [
+        "Søgemaskineoptimering",
+        "Sikker e-mail-output",
+        "Mulighed for social redigering",
+        "Ordre for systemindtastning"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_236",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Hvad er en cookie i web-browsing?",
+      "options": [
+        "Gemte webstedsdata",
+        "En tastaturgenvej",
+        "Et fotofilter",
+        "En chatreaktion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_237",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Hvad står HTTP for?",
+      "options": [
+        "HyperText Transfer Protocol",
+        "Højteknologisk tekstprogram",
+        "Home Transfer Tool Port",
+        "Hyperlinksporingsside"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_238",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Hvad står VPN for?",
+      "options": [
+        "Virtuelt privat netværk",
+        "Bekræftet offentligt navn",
+        "Visuelt sidenummer",
+        "Videobehandlingsknude"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_239",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Hvad kaldes to-vejs videokommunikation almindeligvis?",
+      "options": [
+        "Videoopkald",
+        "Skærmbillede",
+        "Bogmærke",
+        "Captcha"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_da_240",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Hvad bruges en captcha primært til at opdage?",
+      "options": [
+        "Bots",
+        "Farver",
+        "Skærmstørrelse",
+        "Batteriniveau"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

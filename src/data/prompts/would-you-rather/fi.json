@@ -1,0 +1,1687 @@
+{
+  "gameId": "would-you-rather",
+  "locale": "fi",
+  "version": 2,
+  "prompts": [
+    {
+      "id": "wyr_fi_001",
+      "text": "Ottaisitko mieluummin rajattomat naposteltavat jokaiseen hengailuun vai oikeuden valita musiikin joka kerta?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_002",
+      "text": "Löysitkö mieluummin aina täydellisen parkkipaikan vai et koskaan jono enää?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_003",
+      "text": "Haluatko mieluummin herätä täydellisillä hiuksilla vai valita aina täydellisen asun yhdessä minuutissa?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_004",
+      "text": "Haluaisitko mieluummin ilmaista kahvia ikuisesti vai ilmaisia jälkiruokia ikuisesti?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_005",
+      "text": "Olisitko mieluummin upea karaokessa vai lyömätön lautapeleissä?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_006",
+      "text": "Asuisitko mieluummin rannan vieressä vai keskellä suosikkikaupunkiasi?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_007",
+      "text": "Haluatko mieluummin aina täyteen ladatun puhelimen vai aina täydellisen Wi-Fi?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_008",
+      "text": "Haluaisitko koskaan hukata avaimiasi enää tai unohtaa miksi kävelit huoneeseen?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_009",
+      "text": "Pystyisitkö mieluummin teleportaamaan töihin tai kotiin minkä tahansa tapahtuman jälkeen?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_010",
+      "text": "Haluaisitko mieluummin henkilökohtaisen kokin aamiaiseksi tai henkilökohtaisen kuljettajan viikonloppuisin?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_011",
+      "text": "Katsoisitko mieluummin vain komedioita vuoden vai kuunteletko vain vuoden ajan iloista musiikkia?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_012",
+      "text": "Haluatko mieluummin voittaa jokaisen peli-iltana vai saada kaikki nauramaan peli-iltana?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_013",
+      "text": "Haluaisitko mieluummin pienen asunnon upealla näköalalla tai suuren talon tylsässä paikassa?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_014",
+      "text": "Olisitko mieluummin kuuluisa ruoanlaitosta tai tanssiliikkeistäsi?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_015",
+      "text": "Tietäisitkö mieluummin aina valikon parhaan asian vai valitsetko aina parhaan elokuvan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_016",
+      "text": "Lähtisitkö mieluummin spontaanille päiväretkelle tai suunnitteletko täydellisen viikonlopun?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_017",
+      "text": "Haluaisitko mieluummin kaapin, joka muotoilee itsensä, vai jääkaapin, joka täyttää itse itsensä?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_018",
+      "text": "Haluaisitko koskaan pestä pyykkiä tai koskaan pestä astioita?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_019",
+      "text": "Haluaisitko mieluummin aina viimeisen pizzapalan vai aina parhaan paikan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_020",
+      "text": "Ottaisitko mieluummin taikamykkäyksen meluisiin paikkoihin vai ohitusnapin kiusalliseen small talkiin?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_021",
+      "text": "Pystyisitkö mieluummin nukkumaan nokoset missä tahansa tai herätä heti virkeänä joka aamu?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_022",
+      "text": "Haluaisitko mieluummin aina täydellisen sään vapaapäivinäsi vai et koskaan liikennettä, kun olet myöhässä?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_023",
+      "text": "Haluatko mieluummin ilmaisia konserttilippuja ikuisesti vai ilmaisia elokuvalippuja ikuisesti?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_024",
+      "text": "Olisitko mieluummin hyvä valokuvaamaan vai valokuvaamaan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_025",
+      "text": "Muistatko mieluummin aina nimet vai aina syntymäpäivät?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_026",
+      "text": "Haluaisitko mieluummin kodin, jossa on salainen huone, tai katolla olevan ajanviettopaikan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_027",
+      "text": "Matkustaisitko mieluummin vain junalla vai vain maantiematkoilla?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_028",
+      "text": "Elätkö mieluummin ilman hissejä vai ilman liukuportaita?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_029",
+      "text": "Haluaisitko mieluummin aina täydellisen paluun vai pysytkö aina rauhallisena paineen alla?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_030",
+      "text": "Olisitko mieluummin kaveriporukkasi paras kokki vai paras tarinankertoja?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_031",
+      "text": "Haluaisitko mieluummin kelauspainikkeen kiusallisiin hetkiin tai taukopainikkeen täydellisiin hetkiin?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_032",
+      "text": "Käytätkö mieluummin vain suosikkiväriäsi ikuisesti vai et koskaan toista asua?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_033",
+      "text": "Haluaisitko mieluummin rajattomasti kirjoja vai pelejä?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_034",
+      "text": "Haluaisitko mieluummin oppia minkä tahansa reseptin välittömästi tai minkä tahansa kappaleen välittömästi?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_035",
+      "text": "Haluaisitko mieluummin aina tilaa jälkiruoalle vai koskaan tunteisitko itsesi liian täyteläiseksi?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_036",
+      "text": "Isäntätkö mieluummin jokaista juhlia vai kutsuisitko sinut kaikkiin juhliin?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_037",
+      "text": "Haluaisitko mieluummin talon, jossa on jättiläinen keittiö, vai jättimäisen pelihuoneen?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_038",
+      "text": "Käyttäisitkö mieluummin vain äänimuistiinpanoja vai vain hymiöitä viikon ajan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_039",
+      "text": "Olisitko mieluummin aikaisin kaikkeen vai saapuisitko joka kerta täsmälleen ajoissa?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_040",
+      "text": "Haluaisitko mieluummin täydellisen muistin kasvoille tai ohjeille?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_041",
+      "text": "Pystyisitkö mieluummin keskeyttämään mainokset tai ohittamaan askareita?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_042",
+      "text": "Löydätkö mieluummin aina rahaa vanhoista taskuista vai saat aina yllätysalennuksia?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_043",
+      "text": "Haluaisitko mieluummin unelmiesi makuuhuoneen tai unelmiesi keittiön?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_044",
+      "text": "Pystyisitkö mieluummin valmistamaan minkä tahansa juoman täydellisesti tai minkä tahansa välipalan täydellisesti?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_045",
+      "text": "Haluaisitko et koskaan tarvitsisi sateenvarjoa vai et koskaan tarvitse aurinkovoidetta?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_046",
+      "text": "Haluaisitko mieluummin yhden ylimääräisen tunnin joka aamu vai yhden ylimääräisen tunnin joka ilta?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_047",
+      "text": "Asutko mieluummin leipomon yläpuolella vai elokuvateatterin vieressä?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_048",
+      "text": "Valitsitko mieluummin aina ravintolan vai aina toiminnan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_049",
+      "text": "Haluaisitko mieluummin henkilökohtaisen soittolistan jokaiseen tunnelmaan tai täydellisen asun jokaiseen suunnitelmaan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_050",
+      "text": "Haluaisitko mieluummin olla parhaiden neuvojen ystävä vai parhaiden välipalojen ystävä?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_051",
+      "text": "Syötkö mieluummin vain aamiaisruokaa illalliseksi vai illallista aamiaiseksi?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_052",
+      "text": "Haluaisitko, ettet koskaan joutuisi lataamaan laitteita tai päivittämään sovelluksia?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_053",
+      "text": "Haluaisitko mieluummin täydellisen käsialan vai täydellisen lahjapaketointitaidon?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_054",
+      "text": "Haluaisitko mieluummin siivota huoneesi välittömästi vai järjestellä puhelimesi valokuvat välittömästi?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_055",
+      "text": "Haluatko mieluummin aina puhtaat lakanat vai aina raikkaat pyyhkeet?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_056",
+      "text": "Olisitko mieluummin lyömätön triviassa vai lyömätön charadesissa?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_057",
+      "text": "Haluaisitko mieluummin parvekkeen näköalalla tai olohuoneen juhliin?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_058",
+      "text": "Haluaisitko koskaan kaataa juomaa enää tai pudottaa puhelintasi?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_059",
+      "text": "Muistatko mieluummin aina unelmasi vai et koskaan näe painajaista?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_060",
+      "text": "Haluaisitko mieluummin ilmaisia lentoja kerran vuodessa tai ilmaisia hotelleja kahdesti vuodessa?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_061",
+      "text": "Haluaisitko mieluummin puhua uutta kieltä yhdessä yössä vai hallita uutta instrumenttia yhdessä yössä?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_062",
+      "text": "Haluaisitko mieluummin aina täydellisen valaistuksen valokuville vai et koskaan räpyttele valokuvissa?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_063",
+      "text": "Haluatko mieluummin yllätysvapaan joka kuukausi tai yllätysloman joka vuosi?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_064",
+      "text": "Haluatko mieluummin kirjoittaa vain pienillä kirjaimilla vai vain tekstin, jossa on täydelliset välimerkit?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_065",
+      "text": "Viettäisitkö mieluummin viihtyisän mökkiviikonlopun vai kiireisen kaupunkiviikonlopun?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_066",
+      "text": "Haluaisitko olla tunnettu tyylistäsi vai huumorintajustasi?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_067",
+      "text": "Valitsetko mieluummin aina nopeimman kassalinjan vai nousetko aina hissiin heti?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_068",
+      "text": "Haluatko, että puhelimesi tallennustila ei lopu koskaan tai akku ei lopu koskaan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_069",
+      "text": "Haluaisitko mieluummin sisustaa minkä tahansa huoneen täydellisesti tai pakata minkä tahansa matkalaukun täydellisesti?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_070",
+      "text": "Juotko mieluummin vain vettä ikuisesti vai vain yhtä suosikkijuomaa ikuisesti?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_071",
+      "text": "Nukkuisitko mieluummin aina täydellisesti vai heräätkö aina hyvällä tuulella?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_072",
+      "text": "Olisitko mieluummin henkilö, jolta kaikki kysyvät suosituksia, vai henkilö, jota kaikki pyytävät suunnittelemaan matkoja?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_073",
+      "text": "Haluatko mieluummin henkilökohtaisen sääennusteen, joka on aina oikea, vai kalenterin, joka suunnittelee itsensä?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_074",
+      "text": "Haluaisitko koskaan siivota kylpyhuonetta vai koskaan siivota keittiötä?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_075",
+      "text": "Olisitko mieluummin hyvä leipomaan vai grillaamaan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_076",
+      "text": "Haluaisitko mieluummin eturivin istuimet kerran vuodessa tai VIP-välipaloja joka kerta?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_077",
+      "text": "Löydätkö mieluummin aina parhaan piilotetun kahvilan vai aina parhaan näkökulman?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_078",
+      "text": "Haluaisitko mieluummin viikon täydellisiä asuja vai täydellisiä aterioita?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_079",
+      "text": "Voisitteko mieluummin elinikäisen kengäntarvikkeen vai elinikäisen kuulokkeet?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_080",
+      "text": "Tietäisitkö mieluummin aina sanat vai aina tanssin?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_081",
+      "text": "Voisitko mieluummin korjata minkä tahansa teknisen ongelman tai koota huonekaluja ilman ohjeita?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_082",
+      "text": "Haluaisitko mieluummin taikareppun, joka ei ole koskaan raskas, tai matkalaukun, joka pakkaa itseensä?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_083",
+      "text": "Haluaisitko mieluummin aina hyvän hiuspäivän vai aina kirkkaan ihon?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_084",
+      "text": "Ottaisitko mieluummin parhaat ryhmäselfiet vai teetkö parhaat ryhmäsuunnitelmat?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_085",
+      "text": "Voisitko mieluummin ohittaa yhden tylsän tehtävän päivässä tai saada yhden hauskan yllätyksen päivässä?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_086",
+      "text": "Asuisitko mieluummin jossain, jossa on loputon kesä tai loputon mukava sää?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_087",
+      "text": "Haluaisitko mieluummin olla mainoksia verkossa tai et saada roskapostiviestejä?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_088",
+      "text": "Valitsetko mieluummin aina hyvän käyttäjätunnuksen vai kirjoitatko aina upean kuvatekstin?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_089",
+      "text": "Haluaisitko mieluummin olla paras pakkaamaan lahjoja vai paras valitsemaan lahjoja?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_090",
+      "text": "Haluaisitko mieluummin rajoittamattomasti elokuvailtoja kotona vai rajattomasti brunsseja ulkona?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_091",
+      "text": "Haluaisitko mieluummin pienen yksityisen puutarhan vai suuren yhteisen kattokerroksen?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_092",
+      "text": "Käytätkö mieluummin vain pientä lusikkaa ikuisesti vai juotko aina pienestä kupista?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_093",
+      "text": "Haluaisitko mieluummin tehdä mistä tahansa huoneesta viihtyisän tai tehdä mistä tahansa soittolistasta täydellisen?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_094",
+      "text": "Haluatko mieluummin aina oikean laturin vai aina oikean salasanan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_095",
+      "text": "Haluaisitko koskaan unohtaa salasanaa vai koskaan unohtaa mihin pysäköit?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_096",
+      "text": "Haluaisitko mieluummin täydellisesti järjestetyn kaapin vai täydellisesti järjestetyn kamerarullan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_097",
+      "text": "Haluatko mieluummin olla ensimmäinen, joka kokeilee trendiä, vai viimeinen, joka kyllästyy siihen?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_098",
+      "text": "Haluaisitko mieluummin aina pöydän ravintoloissa vai saatko aina ilmaisen jälkiruoan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_099",
+      "text": "Haluaisitko mieluummin henkilökohtaisen hype-laulun vai henkilökohtaisen sisääntulovalon?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_100",
+      "text": "Olisitko mieluummin loistava ensivaikutelmissa vai jäähyväishaleissa?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_fi_101",
+      "text": "Haluaisitko mieluummin kaikkien kunnioittaa vai muutaman ihmisen syvästi ymmärtämän?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_102",
+      "text": "Haluaisitko mieluummin tietää, kun joku valehtelee, vai uskotko aina, kun kerrot totuuden?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_103",
+      "text": "Haluaisitko mieluummin unelmatyön alhaisella palkalla vai tylsän työn upealla palkalla?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_104",
+      "text": "Muutatko mieluummin yksin ulkomaille vai pysyisitkö kotikaupungissasi ikuisesti?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_105",
+      "text": "Olisitko mieluummin huoneen älykkäin henkilö vai henkilö, johon kaikki luottavat eniten?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_106",
+      "text": "Tietäisitkö mieluummin aina totuuden vai aina oikean asian sanoa?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_107",
+      "text": "Haluaisitko mieluummin pienen ryhmän uskollisia ystäviä vai valtavan satunnaisten ystävien verkoston?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_108",
+      "text": "Muistettaisiinko sinut mieluummin ystävällisyydestä vai kunnianhimosta?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_109",
+      "text": "Menestytkö mieluummin aikaisin ja palaisi loppuun vai menestyisitkö hitaasti ja nautit prosessista?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_110",
+      "text": "Haluaisitko mieluummin, että jokainen virhe unohdetaan vai muistetaan jokainen hyvä teko?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_111",
+      "text": "Haluaisitko mieluummin elää yhden täydellisen päivän uudelleen vai pyyhkiä pois yhden kauhean päivän?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_112",
+      "text": "Pystyisitkö mieluummin antamaan anteeksi välittömästi vai et koskaan tule huijatuksi kahdesti?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_113",
+      "text": "Haluaisitko enemmän itseluottamusta vai kurinalaisuutta?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_114",
+      "text": "Haluaisitko mieluummin tietää, mitä ihmiset ajattelevat sinusta ensin tai mitä he sanovat lähdön jälkeen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_115",
+      "text": "Haluaisitko mieluummin olla rakastettu sellaisena kuin olet nyt vai ihailtu sellaisena, joka sinusta voisi tulla?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_116",
+      "text": "Olisitko mieluummin aina kiireinen asioiden kanssa, joita rakastat, vai onko sinulla aina vapaa-aikaa, mutta oletko tylsistynyt?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_117",
+      "text": "Haluaisitko mieluummin yhden suuren mahdollisuuden ja riskeerata kaiken vai monta pientä mahdollisuutta hitaasti etenemällä?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_118",
+      "text": "Olisitko mieluummin kuuluisa viisi vuotta vai arvostettu koko elämän?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_119",
+      "text": "Haluatko mieluummin menettää kaikki valokuvasi vai kaikki viestisi?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_120",
+      "text": "Haluatko mieluummin julkistaa hakuhistoriasi vai kamerasi?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_121",
+      "text": "Sanotko mieluummin aina mitä ajattelet vai pysytkö aina rauhassa?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_122",
+      "text": "Haluaisitko mieluummin ystävän, joka on raa'asti rehellinen, vai sellaisen, joka tukee loputtomasti?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_123",
+      "text": "Olisitko mieluummin suunnittelija jokaisessa ryhmässä vai henkilö, jonka ei koskaan tarvitse suunnitella?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_124",
+      "text": "Olisitko mieluummin hämmästyttävä syvällisissä keskusteluissa vai hämmästyttävä saamaan ihmiset tuntemaan olonsa mukavaksi?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_125",
+      "text": "Haluaisitko mieluummin tietää tarkalleen, mihin elämäsi on menossa, vai hämmästytkö siitä?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_126",
+      "text": "Luopuisitko mieluummin sosiaalisesta mediasta vuodeksi tai striimauksesta vuodeksi?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_127",
+      "text": "Haluaisitko mieluummin vuoden loman palkalla tai ylennyksellä, jonka todella haluat?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_128",
+      "text": "Olisitko mieluummin aina aliarvioitu vai aina yliarvioitu?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_129",
+      "text": "Haluaisitko mieluummin, että kaikki tietävät suurimman tavoitteesi tai suurimman pelkosi?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_130",
+      "text": "Haluaisitko mieluummin aloittaa urasi uudelleen vai aloittaa yhden ystävyyden?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_131",
+      "text": "Haluaisitko olla mieluummin se henkilö, johon ihmiset soittavat kriisissä, vai henkilö, jolla he soittavat juhlimaan?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_132",
+      "text": "Haluaisitko mieluummin koskaan olla nolostunut tai olla koskaan kateellinen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_133",
+      "text": "Voisitko mieluummin poistaa yhden muistin tai toistaa yhden muistin milloin haluat?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_134",
+      "text": "Haluaisitko tietää mieluummin jokaisen elokuvan lopun vai jokaisen päätöksen tuloksen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_135",
+      "text": "Haluaisitko mieluummin täydellisen maineen tuntemattomien ihmisten kanssa vai aitoa rehellisyyttä ystävien kanssa?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_136",
+      "text": "Voisitteko mieluummin aina riidat vai jättäisittekö riidat aina rauhalliseksi?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_137",
+      "text": "Olisitko mieluummin hyvä tienaamaan vai hallitsemaan rahaa?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_138",
+      "text": "Haluaisitko mieluummin jonkun viisaan suunnitteleman tulevaisuutesi vai valitsetko kaiken itse ilman neuvoja?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_139",
+      "text": "Olisitko mieluummin ryhmäsi hauskin henkilö vai rauhallisin henkilö kriisissä?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_140",
+      "text": "Haluaisitko mieluummin yhden unelman toteutumisen nyt vai viiden pienemmän unelman toteutuvan ajan myötä?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_141",
+      "text": "Pystyisitkö mieluummin lukemaan yhden henkilön kokonaan vai ymmärtämään väkijoukkoja täydellisesti?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_142",
+      "text": "Haluaisitko mieluummin sulkemisen jokaiselle lopulle vai toisen mahdollisuuden yhdessä lopussa?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_143",
+      "text": "Haluaisitko sinut mieluummin tunnetuksi salaperäisenä vai täysin läpinäkyvänä?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_144",
+      "text": "Haluaisitko mieluummin työpaikan, joka tekee vaikutuksen ihmisiin, tai elämää, joka tuntuu rauhalliselta?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_145",
+      "text": "Olisitko mieluummin vähän liian lojaali vai vähän liian itsenäinen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_146",
+      "text": "Haluaisitko mieluummin aina rohkeutta aloittaa vai kärsivällisyyttä lopettaa?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_147",
+      "text": "Pystyisitkö mieluummin pyytämään anteeksi täydellisesti vai kohtaamaan jonkun ilman pelkoa?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_148",
+      "text": "Haluaisitko mieluummin suurimman epäonnistumisesi verkossa ikuisesti vai suurimman salaisuutesi ryhmäkeskustelussa?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_149",
+      "text": "Elätkö mieluummin menneisyydessä enemmän yksityisyyttä vai tulevaisuudessa enemmän mukavuutta?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_150",
+      "text": "Olisitko mieluummin aina vastuullinen vai eikö koskaan luottaisi sinuun vastuuta?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_151",
+      "text": "Voisitko mieluummin muuttaa yhtä tekemääsi päätöstä vai nähdä yhden päätöksen, jonka olet melkein tehnyt?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_152",
+      "text": "Menetätkö mieluummin mukavuusalueesi vai menettäisitkö kunnianhimosi?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_153",
+      "text": "Haluaisitko mieluummin olla ihailtu kaukaa vai rakastettu läheltä?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_154",
+      "text": "Etkö mieluummin vertaisi itseäsi muihin tai et välitä siitä, mitä muut ajattelevat?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_155",
+      "text": "Haluaisitko mieluummin varoituksen ennen jokaista huonoa päätöstä tai palkinnon jokaisen rohkean päätöksen jälkeen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_156",
+      "text": "Pystyisitkö mieluummin nauramaan tai saada kenet tahansa tuntemaan olonsa turvalliseksi?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_157",
+      "text": "Haluaisitko mieluummin täydellisen muistin vai täydellisen kyvyn mennä eteenpäin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_158",
+      "text": "Vietätkö mieluummin vuoden kehosi tai mielesi rakentamiseen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_159",
+      "text": "Olisitko mieluummin päähenkilö hiljaisessa tarinassa vai sivuhenkilö eeppisessä tarinassa?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_160",
+      "text": "Haluaisitko mieluummin tietää, miksi joku lähti, vai ei koskaan tiedä ja parantuisi nopeammin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_161",
+      "text": "Olisitko mieluummin aina rehellinen tunteistasi vai suojeletko aina muiden tunteita?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_162",
+      "text": "Haluaisitko mieluummin rajattoman motivaation vai rajattoman kärsivällisyyden?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_163",
+      "text": "Pystyisitkö mieluummin havaitsemaan punaiset liput välittömästi vai näkemään piilotetut mahdollisuudet välittömästi?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_164",
+      "text": "Pystyisitkö mieluummin korjaamaan yhden menneen suhteen tai ehkäisemään yhden tulevan virheen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_165",
+      "text": "Valitsitko mieluummin aina mukavuuden vai aina kasvun?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_166",
+      "text": "Haluaisitko olla mieluummin ihmisten ympäröimä, jotka haastavat sinut vai jotka lohduttavat sinua?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_167",
+      "text": "Haluaisitko mieluummin täydellisen päivittäisen rutiinin vai täydellisen kerran elämässä -seikkailun?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_168",
+      "text": "Olisitko mieluummin salalahjakas vai julkisesti keskinkertainen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_169",
+      "text": "Haluaisitko et koskaan tarvitsisi hyväksyntää vai saisitko aina rohkaisua?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_170",
+      "text": "Haluaisitko mieluummin ystävän, joka muistaa jokaisen yksityiskohdan, vai sellaisen, joka ilmestyy joka kerta?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_171",
+      "text": "Haluaisitko mieluummin lopettaa minkä tahansa tavan heti tai rakentaa minkä tahansa tavan välittömästi?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_172",
+      "text": "Haluaisitko mieluummin, että nuorempi itsesi näkee elämäsi nyt tai tuleva itsesi lähettää yhden lauseen takaisin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_173",
+      "text": "Olisitko mieluummin henkilö, joka muuttaa ryhmää vai henkilö, jonka ryhmä muuttaa parempaan suuntaan?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_174",
+      "text": "Tietäisitkö mieluummin aina valinnan kustannukset vai aina hyödyt?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_175",
+      "text": "Olisitko mieluummin peloton yhden vuoden vai viisas loppuelämäsi?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_176",
+      "text": "Haluaisitko mieluummin elämän, joka näyttää jännittävältä verkossa tai tuntuu jännittävältä offline-tilassa?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_177",
+      "text": "Pystyisitkö mieluummin lopettamaan liiallisen ajattelun vai lopettamaan viivyttelyn?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_178",
+      "text": "Haluaisitko olla tunnettu yhdestä mestariteoksesta vai monista vankoista ponnisteluista?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_179",
+      "text": "Haluaisitko mieluummin, että kaikki ovet ovat auki, mutta ilman selkeää suuntaa tai yhtä selkeää polkua ilman vaihtoehtoja?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_180",
+      "text": "Olisitko mieluummin aina ensimmäinen, joka antaa anteeksi, vai ensimmäinen, joka lähtee pois?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_181",
+      "text": "Haluaisitko mieluummin mentorin jokaiseen ongelmaan tai ystävän jokaiseen vaikeaan päivään?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_182",
+      "text": "Pystyisitkö mieluummin ennustamaan mielentilaasi huomenna vai ymmärtämään tämän päivän?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_183",
+      "text": "Rikastutko mieluummin hiljaa vai vaikuttaisitko julkisesti?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_184",
+      "text": "Haluaisitko koskaan tuntea olosi yksinäiseksi tai et tulisi koskaan tuntemaan olosi väärinymmärretyksi?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_185",
+      "text": "Haluaisitko mieluummin voittaa ihmisiä välittömästi tai tietää, kuka on aikasi arvoinen välittömästi?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_186",
+      "text": "Haluaisitko tulla tunnetuksi riskin ottamisesta tai viisaiden valintojen tekemisestä?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_187",
+      "text": "Haluatko mieluummin aina varasuunnitelman vai et koskaan tarvitse sitä?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_188",
+      "text": "Haluatko mieluummin menettää yhden huonon tavan vai hankkia yhden vaikuttavan taidon?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_189",
+      "text": "Haluaisitko mieluummin rauhallisen elämän, jossa on vähän yllätyksiä, vai kaoottista elämää unohtumattomien tarinoiden kera?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_190",
+      "text": "Haluaisitko mieluummin tietää elämäsi parhaan hetken ennen kuin se tapahtuu vai tunnistatko sen vasta jälkeenpäin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_191",
+      "text": "Olisitko mieluummin erinomainen aloittamaan keskustelut vai erinomainen lopettamaan ne sulavasti?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_192",
+      "text": "Haluaisitko mieluummin aina olla se henkilö, joka antaa neuvoja, vai henkilö, joka uskaltaa ottaa ne vastaan?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_193",
+      "text": "Haluaisitko mieluummin unelmiesi kodin kaukana kaikista vai yksinkertaisen kodin lähellä suosikkiihmisiäsi?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_194",
+      "text": "Voisitko mieluummin tehdä rauhan kenen tahansa kanssa tai aloittaa uuden alun missä tahansa?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_195",
+      "text": "Olisitko mieluummin se ystävä, jonka kaikki tunnustavat, vai ystävä, jonka kanssa kaikki juhlivat?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_196",
+      "text": "Haluaisitko mieluummin kuukauden täydellistä vapautta vai vuoden tasaista edistystä?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_197",
+      "text": "Haluaisitko mieluummin muistella yhdestä rohkeasta liikkeestä vai elämäsi hiljaisesta uskollisuudesta?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_198",
+      "text": "Haluaisitko mieluummin tietää totuuden mainestasi vai pitäätkö itseluottamuksesi koskemattomana?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_199",
+      "text": "Voisitko mieluummin sanoa ei ilman syyllisyyttä tai pyytää apua ilman häpeää?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_200",
+      "text": "Haluaisitko mieluummin täydellisen ajoituksen vai täydelliset vaistot?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fi_201",
+      "text": "Haluaisitko mieluummin, että ystäväsi arvioivat deittiprofiilisi vai että luotettava henkilö lukee DM-viestisi ääneen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_202",
+      "text": "Menisitkö mieluummin täydelliselle ensimmäiselle treffeille ilman kemiaa tai sotkuisille ensitreffeille, joissa on ilmeisiä kipinöitä?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_203",
+      "text": "Tietäisitkö mieluummin aina, kun joku flirttailee, vai etkö koskaan vahingossa flirttaile takaisin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_204",
+      "text": "Haluaisitko seurustella mieluummin jonkun kanssa, jota kaikki rakastavat, mutta olet epävarma, tai jonkun kanssa, jota kaikki epäilevät, mutta olet varma?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_205",
+      "text": "Haluaisitko mieluummin haamukuvitella yhden hämmästyttävän treffin jälkeen vai olla hitaasti leivänmurussa kuukauden ajan?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_206",
+      "text": "Tunnustaisitko mieluummin ihastuksesi henkilökohtaisesti vai annatko ryhmäkeskustelun paljastaa sen vahingossa?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_207",
+      "text": "Haluaisitko mieluummin, että exäsi näkee sinut upean näköisenä vai etkö välitä, jos he näkevät?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_208",
+      "text": "Haluatko mieluummin vastaanottaa vaarallisen myöhäisillan tekstiviestin vai lähettää sen ja katua sitä välittömästi?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_209",
+      "text": "Haluaisitko mieluummin kumppanin, joka on tuskallisen rehellinen vai joka välttelee jokaista kovaa keskustelua?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_210",
+      "text": "Haluaisitko seurustella mieluummin jonkun kanssa, jolla on täydellinen pilailu tai täydellinen tunnekypsyys?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_211",
+      "text": "Haluaisitko mieluummin jäädä kiinni jonkun profiilin vainoamisesta tai pidätkö vahingossa hyvin vanhasta viestistä?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_212",
+      "text": "Haluaisitko mieluummin yhden unohtumattoman kesäromantiikan vai yhden hitaasti palavan rakkaustarinan?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_213",
+      "text": "Haluaisitko mieluummin tuntea jokaisen henkilön, josta kumppanisi on koskaan pitänyt tai tietääkö mitään ja pysyt rauhallisena?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_214",
+      "text": "Olisitko mieluummin mustasukkainen vai se, joka saa ihmiset mustasukkaisiksi yrittämättä?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_215",
+      "text": "Haluaisitko mieluummin huonon ajoituksen mutta valtavan kipinän, vai täydellisen ajoituksen mutta laimeamman kemian?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_216",
+      "text": "Haluatko mieluummin olla ensimmäinen, joka sanoo \"rakastan sinua\" vai odottaa, kunnes olet täysin varma?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_217",
+      "text": "Menisitkö mieluummin treffeille ilman puhelimia tai treffeille ilman small talkia?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_218",
+      "text": "Haluatko mieluummin paljastaa suurimman punaisen lippusi vai tietää, että kaikki jo tietävät sen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_219",
+      "text": "Olisitko mieluummin jonkun salainen ihastus vai jonkun hyvin julkinen pakkomielle?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_220",
+      "text": "Haluaisitko mieluummin dramaattisen erotarinan vai ei erotarinaa, koska mikään ei koskaan muuttunut vakavaksi?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_221",
+      "text": "Haluaisitko seurustella mieluummin jonkun kanssa, joka julkaisee kaiken vai jonkun, joka ei julkaise mitään?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_222",
+      "text": "Olisitko mieluummin jonkun villisti spontaanin vai jonkun syvästi johdonmukaisen kanssa?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_223",
+      "text": "Haluatko mieluummin jakaa salasanat vai sijainnit?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_224",
+      "text": "Haluaisitko mieluummin rakkauskirjeen väärältä henkilöltä tai yhden sanan tekstin oikealta henkilöltä?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_225",
+      "text": "Haluaisitko mieluummin, että ihastuksesi kuulee huonoimman äänesi tai näkisi pahimman selfieesi?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_226",
+      "text": "Olisitko mieluummin hyvä flirttailemaan henkilökohtaisesti vai lähettämään tekstiviestejä?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_227",
+      "text": "Haluaisitko aina mieluummin tietää, pitävätkö treffit sinusta vai aina, haaskaavatko he aikaasi?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_228",
+      "text": "Haluaisitko mieluummin parisuhteen, jossa on voimakasta intohimoa ja kaaosta, vai rauhallista rakkautta vähemmällä ilotulituksella?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_229",
+      "text": "Olisitko mieluummin se, joka välittää enemmän, vai se, joka myöntää sen ensin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_230",
+      "text": "Haluaisitko mieluummin tietää, että ystäväsi pitää ihastuksestasi vai ihastuksesi pitää ystävästäsi?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_231",
+      "text": "Seurusteletko mieluummin jonkun kanssa, joka on kaikkien tyyppiä, vai jonkun kanssa, jonka vain ymmärrät?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_232",
+      "text": "Haluaisitko mieluummin, että tilanteesi määrittelee suhteen vai katoaisi ikuisesti?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_233",
+      "text": "Haluaisitko mieluummin sulkemisen exiltä tai anteeksipyynnön joltakulta, jota et ole koskaan seurustellut?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_234",
+      "text": "Haluaisitko mieluummin yhden täydellisen suudelman ilman tulevaisuutta tai kömpelön alun, josta tulee todellinen rakkaus?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_235",
+      "text": "Haluaisitko mieluummin nähdä jonkun vihreät liput välittömästi tai punaiset liput välittömästi?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_236",
+      "text": "Haluaisitko mieluummin flirttailla itsevarmasti ja epäonnistua vai pelata hillittyä ja menettää tilaisuutesi?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_237",
+      "text": "Haluaisitko mieluummin, että ystäväsi arvioivat jokaisen ensimmäisen treffin tai jokaisen eron?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_238",
+      "text": "Haluaisitko seurustella mieluummin jonkun kanssa, joka muistaa kaikki yksityiskohdat, vai jonkun, joka yllättää sinut jatkuvasti?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_239",
+      "text": "Haluaisitko mieluummin palata exän kanssa viikoksi vai mennä viidelle sokkotreffille peräkkäin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_240",
+      "text": "Haluaisitko mieluummin, että ystäväsi valitsevat seuraavat treffisi vai hakuhistoriasi?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_241",
+      "text": "Haluaisitko mieluummin olla rakastettu äänekkäästi julkisesti vai yksityisesti tavalla, jonka vain huomaat?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_242",
+      "text": "Olisitko mieluummin aina sydämenmurtaja vai aina toivoton romantikko?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_243",
+      "text": "Haluaisitko mieluummin kumppanin, joka on liian takertuva tai liian salaperäinen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_244",
+      "text": "Haluaisitko mieluummin saada tietää, että joku kirjoitti sinusta laulun tai pitkiä muistiinpanoja sinusta?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_245",
+      "text": "Haluatko mieluummin saada \"meidän täytyy puhua\" -tekstiviestin vai lähettääkö sen vahingossa väärälle henkilölle?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_246",
+      "text": "Haluaisitko seurustella mieluummin jonkun kanssa, joka suunnittelee jokaisen yksityiskohdan vai jonkun, joka improvisoi kaiken?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_247",
+      "text": "Haluaisitko mieluummin kiistatonta kemiaa vastakohtasi kanssa tai mukavaa kemiaa jonkun kaltaisen kanssa?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_248",
+      "text": "Haluatko mieluummin jäädä kiinni tunnustuksen harjoittelemisesta vai eropuheen harjoittamisesta?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_249",
+      "text": "Haluaisitko mieluummin, että vanha ihastuksesi yhtäkkiä lähettää sinulle tekstiviestin vai nykyinen ihastuksesi yhtäkkiä lopettaa seuraamisen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_250",
+      "text": "Pudotisitko mieluummin aina liian nopeasti vai tajuaisitko tunteesi aina liian myöhään?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_251",
+      "text": "Haluaisitko mieluummin olla henkilö, jonka vuoksi joku muuttuu, vai henkilö, jota kukaan ei voi ylittää?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_252",
+      "text": "Haluaisitko mieluummin kumppanin, joka on hämmästyttävä sanoilla tai hämmästyttävä teoilla?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_253",
+      "text": "Haluaisitko seurustella mieluummin jonkun kanssa, joka saa sinut nauramaan jatkuvasti, vai sellaisen kanssa, joka saa sinut tuntemaan olosi täysin rauhalliseksi?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_254",
+      "text": "Haluaisitko mieluummin tietää, haaveileeko ihastuksesi sinusta vai puhuvatko he sinusta?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_255",
+      "text": "Lähetätkö mieluummin ensimmäisen viestin vai teet ensimmäisen liikkeen henkilökohtaisesti?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_256",
+      "text": "Haluaisitko mieluummin kolmen kuukauden salaisen suhteen vai julkisen suhteen, jota kaikki kommentoivat?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_257",
+      "text": "Haluaisitko mieluummin, että ystäväsi arvioivat flirttaustyylisi tai ihastuksesi?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_258",
+      "text": "Haluaisitko mieluummin olla vakavaksi muuttuva rebound vai se, jota he eivät koskaan unohda?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_259",
+      "text": "Haluaisitko seurustella mieluummin jonkun kanssa, jolla on tarkka huumori tai tarkka kunnianhimo?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_260",
+      "text": "Ihastuisitko mieluummin ihmiseen, jota et voi saada, vai ihastuisiko sellainen ihminen sinuun?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_261",
+      "text": "Haluaisitko mieluummin humalassa tunnustuksen tai raittiin viestin, jonka kirjoittamiseen meni viikko?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_262",
+      "text": "Haluaisitko mieluummin, että jokainen treffi päättyy syvään keskusteluun vai naurettavaan tarinaan?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_263",
+      "text": "Olisitko mieluummin jonkun kanssa, joka haastaa sinut vai jonkun, joka palvoo sinua?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_264",
+      "text": "Pidätkö mieluummin vähän mysteeriä vai tietäisitkö kaiken heti?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_265",
+      "text": "Haluaisitko mieluummin kumppanin, joka on paras ystävä ystäviesi kanssa, vai sellaisen, joka pitää maailmasi erillään?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_266",
+      "text": "Haluaisitko seurustella mieluummin jonkun kanssa, joka ei koskaan ole mustasukkainen, tai jonkun, joka myöntää sen rehellisesti?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_267",
+      "text": "Haluaisitko mieluummin yhden intensiivisen katsekontaktin vai yhden täydellisesti ajoitetun käden kosketuksen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_268",
+      "text": "Jäätkö mieluummin kiinni hääideoiden tallentamisesta liian aikaisin tai treffisovelluksen poistamisesta liian myöhään?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_269",
+      "text": "Haluaisitko mieluummin flirttailevan ystävyyden, josta ei koskaan tule enempää, tai suhteen, joka alkaa kiusallisesta flirttailusta?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_270",
+      "text": "Voisitko mieluummin perua yhden lähetetyn viestin tai olla sanomatta yhden lauseen henkilökohtaisesti?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_271",
+      "text": "Haluaisitko mieluummin, että paras ystäväsi hyväksyy ihastuksesi vai ihastuksesi hyväksyy parhaan ystäväsi?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_272",
+      "text": "Haluaisitko seurustella mieluummin jonkun kanssa, joka rakastaa huomiota, vai jonkun, joka välttää sitä kokonaan?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_273",
+      "text": "Haluaisitko olla mieluummin syy, miksi joku hymyilee puhelimelleen vai miksi hän ei voi keskittyä koko päivää?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_274",
+      "text": "Haluaisitko mieluummin romanttisen illallisen kiusallisessa hiljaisuudessa tai kaoottisen illan, jossa on hämmästyttävä energia?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_275",
+      "text": "Pyytäisitkö sinut mieluummin ulos suurella eleellä vai yksinkertaisella rehellisellä lauseella?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_276",
+      "text": "Haluaisitko mieluummin suhteen, jota kaikki kadehtivat, vai sellaisen, jota kukaan ei ymmärrä paitsi sinä?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_277",
+      "text": "Haluaisitko koskaan tietää, kuka on ihastunut sinuun vai tietäisitkö etkä voisi tehdä asialle mitään?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_278",
+      "text": "Lähetätkö mieluummin ääniviestin ihastuksellesi vai jätätkö vastaajaviestin exällesi?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_279",
+      "text": "Haluaisitko mieluummin kumppanisi lukea ajatuksesi yhden päivän tai lukea muistiinpanosovellustasi minuutin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fi_280",
+      "text": "Olisitko mieluummin jonkun turvallinen valinta vai riskialtis mutta vastustamaton valinta?",
+      "intensity": "spicy",
+      "minAge": 18
+    }
+  ]
+}

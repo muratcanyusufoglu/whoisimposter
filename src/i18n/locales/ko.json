@@ -46,8 +46,8 @@
       "benefit2": "원하는 때 게임 나이트 알림",
       "enable": "알림 켜기",
       "skip": "나중에",
-      "discount_title": "🎉 Exclusive Offer Just for You!",
-      "discount_body": "Your 50% discount expires in 48 hours. Tap to claim!"
+      "discount_title": "🎉 당신만을 위한 독점 제안!",
+      "discount_body": "50% 할인은 48시간 후에 만료됩니다. 탭하여 청구하세요!"
     }
   },
   "home": {
@@ -75,7 +75,7 @@
   },
   "customTheme": {
     "label": "커스텀",
-    "customPlus": "Custom +",
+    "customPlus": "맞춤 +",
     "pickBase": "기본 테마",
     "pickAccent": "포인트 색상",
     "apply": "적용"
@@ -145,7 +145,7 @@
     "accessibilityLabel": "특별 혜택. 탭해서 할인 확인"
   },
   "paywall": {
-    "title": "WHO’S THE IMPOSTER PRO",
+    "title": "Who's the Imposter? PRO",
     "benefit1": "20개 전체 카테고리",
     "benefit2": "임포스터 2명 모드",
     "benefit3": "12가지 파티 게임 전체",
@@ -155,27 +155,27 @@
     "yearly": "연간",
     "bestValue": "최고 혜택",
     "savings": "{{percent}}% 절약",
-    "cta": "Start {{days}}-Day Free Trial",
+    "cta": "{{days}}일 무료 평가판 시작",
     "cancelAnytime": "언제든 해지 가능",
     "restore": "구매 복원",
     "privacy": "개인정보 처리방침",
     "terms": "이용 약관",
-    "socialProof": "4.8 · 18K ratings",
+    "socialProof": "4.8 · 평점 1.8만 개",
     "close": "닫기",
-    "ratings": "ratings",
+    "ratings": "평점",
     "monthlyPrice": "$4.99/mo",
     "yearlyPrice": "$2.49/mo",
-    "savePct": "Save 50%",
+    "savePct": "50% 할인",
     "dailyLimitTitle": "오늘의 제한에 도달했어요",
     "dailyLimitSubtitle": "오늘 무료 게임 5회를 모두 플레이했어요. PRO로 무제한 플레이하세요!",
     "ctaNoTrial": "지금 PRO 시작",
     "headline": "파티는 더 재밌어질 수 있어요.",
     "subheadline": "모든 게임. 제한 없이. 재미만 가득.",
     "noPaymentToday": "오늘 결제 없음 · 언제든 해지",
-    "yearlyBilled": "Billed {{price}}/year",
-    "perMonth": "/ mo",
-    "perYear": "/ yr",
-    "freeTrial": "{{days}}-Day Free Trial",
+    "yearlyBilled": "청구액: {{price}}/년",
+    "perMonth": "/ 월",
+    "perYear": "/년",
+    "freeTrial": "{{days}}일 무료 평가판",
     "heroTag": "🎭 PRO"
   },
   "rating": {
@@ -193,8 +193,8 @@
   "settings": {
     "title": "설정",
     "theme": "테마",
-    "themeDark": "Dark",
-    "themeLight": "Light",
+    "themeDark": "어둠",
+    "themeLight": "빛",
     "themeNeon": "Neon",
     "themeNeonLocked": "Neon (PRO)",
     "themeCandy": "Candy",
@@ -206,72 +206,72 @@
     "rate": "앱 평가하기",
     "privacy": "개인정보 처리방침",
     "terms": "이용 약관",
-    "version": "Version {{version}}",
+    "version": "버전 {{version}}",
     "stats": "통계와 업적",
     "themeEmber": "Ember",
     "themeParty": "Party",
     "themeSunset": "Sunset",
     "themeGolden": "Golden",
     "themeAurora": "Aurora",
-    "themeCustom": "Custom"
+    "themeCustom": "맞춤"
   },
   "scoreboard": {
-    "title": "Session Scoreboard",
-    "roundsPlayed_one": "{{count}} round played",
-    "roundsPlayed_other": "{{count}} rounds played",
-    "pts": "pts",
+    "title": "세션 점수판",
+    "roundsPlayed_one": "{{count}} 라운드 진행",
+    "roundsPlayed_other": "{{count}} 라운드 진행",
+    "pts": "포인트",
     "delta": "+{{count}}",
-    "final": "Final Scores"
+    "final": "최종 점수"
   },
   "streak": {
-    "crewStreak": "🔥 Crew on a {{count}}-win streak!",
-    "imposterStreak": "🕵️ Imposter on a {{count}}-win streak!"
+    "crewStreak": "🔥 팀이 {{count}}연승을 거두었습니다!",
+    "imposterStreak": "🕵️ {{count}}연승을 거두는 임포스터입니다!"
   },
   "achievements": {
-    "unlockedTitle": "Achievement Unlocked!",
+    "unlockedTitle": "업적 잠금 해제!",
     "first_blood": {
-      "title": "First Blood",
-      "desc": "Win your first round as crew"
+      "title": "퍼스트 블러드",
+      "desc": "크루로 첫 라운드 승리"
     },
     "ghost": {
-      "title": "Ghost",
-      "desc": "Win as imposter 3 times in a row"
+      "title": "유령",
+      "desc": "임포스터으로 3번 연속 승리하세요"
     },
     "mind_reader": {
-      "title": "Mind Reader",
-      "desc": "Guess the secret word after being caught"
+      "title": "마인드 리더",
+      "desc": "잡힌 후 비밀 단어를 추측"
     },
     "unanimous": {
-      "title": "Unanimous",
-      "desc": "Every crew member voted for you"
+      "title": "만장일치",
+      "desc": "모든 승무원이 당신에게 투표했습니다"
     },
     "social_butterfly": {
-      "title": "Social Butterfly",
-      "desc": "Play 10 games total"
+      "title": "소셜 나비",
+      "desc": "총 10게임 플레이"
     },
     "sharp_eye": {
-      "title": "Sharp Eye",
-      "desc": "Vote for the imposter correctly 5 times"
+      "title": "날카로운 눈",
+      "desc": "임포스터에게 5번 정확하게 투표하세요"
     },
     "survivor": {
-      "title": "Survivor",
-      "desc": "Win as crew 10 times"
+      "title": "생존자",
+      "desc": "승무원으로 10번 승리하세요"
     },
     "master_disguise": {
-      "title": "Master of Disguise",
-      "desc": "Win as imposter 5 times"
+      "title": "변장의 대가",
+      "desc": "임포스터으로 5번 승리하세요"
     },
-    "locked": "Locked"
+    "locked": "잠김"
   },
   "stats": {
-    "title": "Stats & Achievements",
-    "myStats": "My Stats",
-    "achievements": "Achievements",
-    "noStats": "No games played yet",
-    "gamesPlayed": "Games",
-    "wins": "Wins",
-    "timesImposter": "Imposter",
-    "timesCaught": "Caught"
+    "title": "통계 및 성과",
+    "myStats": "내 통계",
+    "achievements": "업적",
+    "noStats": "아직 플레이한 게임이 없습니다.",
+    "gamesPlayed": "게임",
+    "wins": "승리",
+    "timesImposter": "임포스터",
+    "timesCaught": "붙잡힌"
   },
   "categories": {
     "food": "음식·음료",
@@ -309,242 +309,242 @@
     "party_life": "파티 라이프"
   },
   "howToPlay": {
-    "title": "How to Play",
-    "close": "Got it!"
+    "title": "플레이 방법",
+    "close": "알았어요!"
   },
   "games": {
     "imposter": {
-      "name": "Who’s the Imposter?",
+      "name": "Who's the Imposter?",
       "description": "하나의 비밀 단어. 한 명의 거짓말쟁이. 찾아내세요.",
       "howToPlay": {
-        "intro": "One player is secretly the Imposter — they don't know the secret word. Can the crew sniff them out?",
-        "step1_title": "Everyone sees the word",
-        "step1_desc": "Pass the phone around. Each player taps their name to secretly see the word — or discover they're the Imposter.",
-        "step2_title": "Give clues, spot the liar",
-        "step2_desc": "Take turns giving one clue about the secret word. The Imposter must bluff. Listen carefully for vague or wrong clues!",
-        "step3_title": "Vote & reveal",
-        "step3_desc": "After all clues, vote for who you think the Imposter is. Catch them to win — but beware, they can still guess the word to escape!"
+        "intro": "플레이어 한 명은 몰래 임포스터입니다. 임포스터만 비밀 단어를 모릅니다. 크루가 찾아낼 수 있을까요?",
+        "step1_title": "모두가 그 단어를 본다.",
+        "step1_desc": "휴대폰을 차례대로 넘기세요. 각 플레이어는 자신의 이름을 탭해 비밀 단어를 보거나, 자신이 임포스터인지 몰래 확인합니다.",
+        "step2_title": "단서를 제공하고 거짓말쟁이를 찾아내세요",
+        "step2_desc": "차례대로 비밀 단어에 대한 힌트를 하나씩 말하세요. 임포스터는 모르는 티를 내지 않고 버텨야 합니다. 애매하거나 어긋난 힌트를 잘 들어보세요!",
+        "step3_title": "투표 및 공개",
+        "step3_desc": "모든 힌트가 끝나면 누가 임포스터인지 투표하세요. 찾아내면 크루의 승리입니다. 하지만 임포스터가 비밀 단어를 맞히면 빠져나갈 수 있어요!"
       }
     },
     "truth_dare": {
       "name": "진실 혹은 도전",
-      "description": "Answer honestly or face a dare.",
+      "description": "솔직하게 대답하거나 도전에 직면하십시오.",
       "howToPlay": {
-        "intro": "Answer an honest question or complete a bold challenge. Will you tell the truth — or take the dare?",
-        "step1_title": "Pick your fate",
-        "step1_desc": "On your turn, choose Truth (answer a question honestly) or Dare (complete a physical or social challenge).",
-        "step2_title": "Complete the task",
-        "step2_desc": "The app shows a random truth question or dare challenge. No skipping — you must commit!",
-        "step3_title": "Pass it on",
-        "step3_desc": "Hand the phone to the next player when done. Keep playing as long as you want!"
+        "intro": "솔직한 질문에 답하거나 과감한 도전을 완료해보세요. 진실을 말하시겠습니까? 아니면 과감히 도전하시겠습니까?",
+        "step1_title": "당신의 운명을 선택하세요",
+        "step1_desc": "자신의 차례에는 진실(질문에 솔직하게 대답) 또는 도전(신체적 또는 사회적 도전 완료)을 선택하세요.",
+        "step2_title": "작업을 완료하세요",
+        "step2_desc": "이 앱은 무작위 진실 질문이나 도전 과제를 보여줍니다. 건너뛰지 마세요. 커밋해야 합니다!",
+        "step3_title": "전달하세요",
+        "step3_desc": "완료되면 다음 플레이어에게 전화기를 건네줍니다. 원하는 만큼 계속 플레이하세요!"
       }
     },
     "nhie": {
       "name": "나 한 번도 안 해봤다",
-      "description": "Find out what your friends have done.",
+      "description": "친구들이 무엇을 했는지 알아보세요.",
       "howToPlay": {
-        "intro": "Find out what your friends have really done. The more embarrassing the confessions, the better!",
-        "step1_title": "Start with 5 fingers",
-        "step1_desc": "Everyone holds up 5 fingers. You'll be putting them down one by one.",
-        "step2_title": "Read the statement",
-        "step2_desc": "The app shows a 'Never Have I Ever...' statement. If you HAVE done it, put a finger down and confess!",
-        "step3_title": "Last one standing wins",
-        "step3_desc": "The player who loses all fingers first loses the round — and must share their wildest story!"
+        "intro": "친구들이 실제로 무엇을 했는지 알아보세요. 부끄러운 고백일수록 좋습니다!",
+        "step1_title": "다섯 손가락으로 시작하세요",
+        "step1_desc": "모두 다섯 손가락을 들고 있습니다. 하나씩 내려놓으시면 됩니다.",
+        "step2_title": "성명서를 읽으십시오",
+        "step2_desc": "앱에 '본 적이 없습니다...'라는 문구가 표시됩니다. 만약 그렇게 했다면, 손가락을 내려놓고 고백하세요!",
+        "step3_title": "마지막 한 사람이 승리합니다.",
+        "step3_desc": "손가락을 모두 잃은 플레이어가 먼저 라운드에서 패배하게 되며, 가장 거친 이야기를 공유해야 합니다!"
       }
     },
     "mlt": {
       "name": "가장 그럴 사람은?",
-      "description": "Who in the group is most likely to...?",
+      "description": "그룹에서 가장 가능성이 높은 사람은 누구입니까?",
       "howToPlay": {
-        "intro": "Find out what your friends really think about you. Brace yourself!",
-        "step1_title": "Read the question",
-        "step1_desc": "The app shows a 'Most Likely To...' question, like 'Most likely to become famous.'",
-        "step2_title": "Point together",
-        "step2_desc": "On the count of 3, everyone points at the person they think is most likely. No hesitating!",
-        "step3_title": "Tally & move on",
-        "step3_desc": "The person with the most fingers pointed at them wins (or loses?) the round. They can respond before the next question!"
+        "intro": "친구들이 당신에 대해 어떻게 생각하는지 알아보세요. 힘내세요!",
+        "step1_title": "질문을 읽어보세요",
+        "step1_desc": "앱에는 '유명해질 가능성이 가장 높음'과 같은 '가장 가능성이...' 질문이 표시됩니다.",
+        "step2_title": "함께 가리키다",
+        "step2_desc": "3을 세면 모든 사람은 자신이 가장 가능성이 높다고 생각하는 사람을 가리킵니다. 망설이지 마세요!",
+        "step3_title": "집계 및 이동",
+        "step3_desc": "가장 많은 손가락을 가리키는 사람이 라운드에서 승리(또는 패배)합니다. 다음 질문 전에 응답할 수 있습니다!"
       }
     },
     "hot_takes": {
       "name": "핫테이크",
-      "description": "Agree or disagree — debate it out.",
+      "description": "동의하거나 반대합니다. 토론해 보세요.",
       "howToPlay": {
-        "intro": "Share your boldest opinions and spark a debate. No neutral ground allowed!",
-        "step1_title": "Read the hot take",
-        "step1_desc": "The app reveals a controversial statement or opinion for the group to react to.",
-        "step2_title": "Take a side",
-        "step2_desc": "Each player declares whether they strongly agree or disagree — and must defend their position!",
-        "step3_title": "Debate & vote",
-        "step3_desc": "After the debate, vote for the best argument. The most convincing player wins the round!"
+        "intro": "가장 대담한 의견을 공유하고 토론을 촉발하세요. 중립 접지는 허용되지 않습니다!",
+        "step1_title": "핫테이크 읽기",
+        "step1_desc": "앱은 그룹이 반응해야 할 논란의 여지가 있는 진술이나 의견을 공개합니다.",
+        "step2_title": "편을 들다",
+        "step2_desc": "각 플레이어는 자신의 강력한 동의 여부를 선언하고 자신의 입장을 방어해야 합니다!",
+        "step3_title": "토론 및 투표",
+        "step3_desc": "토론이 끝난 후 가장 좋은 주장에 투표하세요. 가장 설득력 있는 플레이어가 라운드에서 승리합니다!"
       }
     },
     "wyr": {
       "name": "둘 중 하나",
-      "description": "Two impossible choices. Which would you pick?",
+      "description": "불가능한 두 가지 선택. 당신은 어느 것을 선택하시겠습니까?",
       "howToPlay": {
-        "intro": "Two equally terrible (or amazing) choices. There's no right answer — only your answer.",
-        "step1_title": "The dilemma appears",
-        "step1_desc": "The app shows a 'Would You Rather...' question with two options. Think carefully!",
-        "step2_title": "Vote in secret",
-        "step2_desc": "Each player picks their option without revealing it. Hold your choice close!",
-        "step3_title": "Reveal & debate",
-        "step3_desc": "Everyone reveals at once. Discuss your choices and argue your case — majority wins bragging rights!"
+        "intro": "똑같이 끔찍한(또는 놀라운) 두 가지 선택. 정답은 없습니다. 오직 당신의 답만 있을 뿐입니다.",
+        "step1_title": "딜레마가 나타난다",
+        "step1_desc": "앱에는 두 가지 옵션이 있는 '차라리...' 질문이 표시됩니다. 신중하게 생각해보세요!",
+        "step2_title": "비밀투표",
+        "step2_desc": "각 플레이어는 옵션을 공개하지 않고 선택합니다. 당신의 선택을 가까이에 두십시오!",
+        "step3_title": "공개 및 토론",
+        "step3_desc": "모두가 한꺼번에 공개합니다. 귀하의 선택에 대해 토론하고 귀하의 주장을 주장하십시오. 대다수가 자랑할 권리를 얻습니다!"
       }
     },
     "two_truths": {
-      "name": "Two Truths One Lie",
-      "description": "Guess which statement is the lie.",
+      "name": "두 가지 진실 하나는 거짓말",
+      "description": "어떤 말이 거짓말인지 맞춰보세요.",
       "howToPlay": {
-        "intro": "Share two true things and one convincing lie about yourself. Can your friends tell the difference?",
-        "step1_title": "Write your statements",
-        "step1_desc": "Type two things that are true about yourself and one believable lie into the app.",
-        "step2_title": "Read them aloud",
-        "step2_desc": "Read all three statements to the group in any order. Keep a straight face!",
-        "step3_title": "Everyone guesses",
-        "step3_desc": "Players vote for which statement is the lie. Score a point for every person you fool!"
+        "intro": "자신에 대한 두 가지 진실과 한 가지 설득력 있는 거짓말을 공유해 보세요. 친구들이 차이점을 알 수 있나요?",
+        "step1_title": "당신의 진술을 작성",
+        "step1_desc": "자신에 대해 사실인 두 가지 사실과 믿을 수 있는 거짓말 한 가지를 앱에 입력하세요.",
+        "step2_title": "큰 소리로 읽어 보세요",
+        "step2_desc": "순서에 관계없이 그룹에 세 가지 진술을 모두 읽어주세요. 똑바로 얼굴을 유지!",
+        "step3_title": "모두가 추측",
+        "step3_desc": "플레이어는 어떤 진술이 거짓말인지 투표합니다. 당신이 속이는 모든 사람에 대해 점수를 얻으십시오!"
       }
     },
     "heads_up": {
       "name": "헤즈업!",
-      "description": "Hold the phone on your forehead. Get clues!",
+      "description": "전화기를 이마에 대세요. 단서를 얻으세요!",
       "howToPlay": {
-        "intro": "Hold the phone to your forehead and guess the word on the screen — only your friends can see it!",
-        "step1_title": "Hold it up",
-        "step1_desc": "The active player holds the phone face-out on their forehead without peeking at the screen.",
-        "step2_title": "Give clues",
-        "step2_desc": "All other players shout clues to help guess the word. No spelling it out or saying the word itself!",
-        "step3_title": "Tilt to score",
-        "step3_desc": "Tilt the phone down to skip a word, tilt up to confirm a correct guess. Score as many as you can before time runs out!"
+        "intro": "휴대폰을 이마에 대고 화면에 표시된 단어를 맞춰보세요. 친구만 볼 수 있습니다!",
+        "step1_title": "잠깐만",
+        "step1_desc": "활성 플레이어는 화면을 엿보지 않고 이마에 전화기를 뒤집어 놓습니다.",
+        "step2_title": "단서를 제공",
+        "step2_desc": "다른 모든 플레이어는 단어를 추측하는 데 도움이 되는 단서를 외칩니다. 철자를 쓰거나 단어 자체를 말하지 마세요!",
+        "step3_title": "기울여 점수를 매기세요",
+        "step3_desc": "단어를 건너뛰려면 전화기를 아래로 기울이고, 정확한 추측을 확인하려면 위로 기울입니다. 시간이 다 떨어지기 전에 최대한 많은 점수를 획득하세요!"
       }
     },
     "word_chain": {
       "name": "끝말잇기",
-      "description": "Last letter starts the next word. Don't break the chain!",
+      "description": "마지막 문자는 다음 단어를 시작합니다. 사슬을 끊지 마십시오!",
       "howToPlay": {
-        "intro": "Every word must start with the last letter of the previous one. Hesitate and you're eliminated!",
-        "step1_title": "Start the chain",
-        "step1_desc": "The first player says any word. The next player must say a word starting with its last letter.",
-        "step2_title": "Keep the pace",
-        "step2_desc": "You have a time limit to respond. No repeating words that have already been used in this round.",
-        "step3_title": "Last one standing wins",
-        "step3_desc": "Hesitate too long, say an invalid word, or repeat a word — and you're out! Last player left wins."
+        "intro": "모든 단어는 이전 단어의 마지막 문자로 시작해야 합니다. 망설이면 탈락!",
+        "step1_title": "체인을 시작하세요",
+        "step1_desc": "첫 번째 플레이어는 아무 단어나 말합니다. 다음 플레이어는 마지막 문자로 시작하는 단어를 말해야 합니다.",
+        "step2_title": "속도를 유지하세요",
+        "step2_desc": "응답하는 데 시간 제한이 있습니다. 이번 라운드에 이미 사용된 반복 단어는 없습니다.",
+        "step3_title": "마지막 한 사람이 승리합니다.",
+        "step3_desc": "너무 오래 주저하거나, 잘못된 단어를 말하거나, 단어를 반복하면 탈락합니다! 마지막 남은 플레이어가 승리합니다."
       }
     },
     "trivia": {
       "name": "베팅 퀴즈",
-      "description": "Bet on your answer. More confidence = more points.",
+      "description": "당신의 대답에 베팅하세요. 더 많은 자신감 = 더 많은 포인트.",
       "howToPlay": {
-        "intro": "Answer trivia questions and bet your points based on how confident you are. High risk, high reward!",
-        "step1_title": "Read the question",
-        "step1_desc": "The app shows a trivia question for the current player. Think before you answer!",
-        "step2_title": "Place your bet",
-        "step2_desc": "Before answering, bet your points. Low bet = safe play. High bet = big risk, big reward!",
-        "step3_title": "Reveal the answer",
-        "step3_desc": "Correct answer earns your bet. Wrong answer loses it. The player with the most points at the end wins!"
+        "intro": "퀴즈 질문에 답하고 자신감에 따라 포인트를 베팅하세요. 하이 리스크, 하이 리워드!",
+        "step1_title": "질문을 읽어보세요",
+        "step1_desc": "앱은 현재 플레이어에 대한 퀴즈 질문을 표시합니다. 대답하기 전에 생각해보세요!",
+        "step2_title": "베팅하기",
+        "step2_desc": "대답하기 전에 포인트를 베팅하세요. 낮은 베팅 = 안전한 플레이. 높은 베팅 = 큰 위험, 큰 보상!",
+        "step3_title": "답을 공개하세요",
+        "step3_desc": "정답을 맞히면 내기를 하게 됩니다. 잘못된 대답은 그것을 잃습니다. 마지막에 가장 많은 점수를 얻은 플레이어가 승리합니다!"
       }
     },
     "charades": {
       "name": "몸으로 말해요",
-      "description": "Act it out — no words allowed!",
+      "description": "행동해 보세요. 말은 허용되지 않습니다!",
       "howToPlay": {
-        "intro": "Act out the secret word using only gestures and expressions. No speaking, no sounds — pure mime!",
-        "step1_title": "See your word",
-        "step1_desc": "The acting player secretly sees the word on the phone. Don't show anyone — keep a poker face!",
-        "step2_title": "Act it out",
-        "step2_desc": "Use gestures, expressions, and body language only. No words, no mouthing, no sounds!",
-        "step3_title": "Shout it out",
-        "step3_desc": "Other players guess aloud. Score a point when they get it right, then the next player takes their turn!"
+        "intro": "몸짓과 표정만을 사용하여 비밀 단어를 연기하세요. 말도 없고 소리도 없습니다. 순수한 마임입니다!",
+        "step1_title": "당신의 말을 참조하십시오",
+        "step1_desc": "연기하는 플레이어는 몰래 전화로 그 단어를 본다. 아무에게도 보여주지 마세요. 포커페이스를 유지하세요!",
+        "step2_title": "행동해 보세요",
+        "step2_desc": "몸짓, 표정, 몸짓만 사용하세요. 말도 없고, 입도 없고, 소리도 없습니다!",
+        "step3_title": "소리쳐봐",
+        "step3_desc": "다른 플레이어들은 큰 소리로 추측합니다. 정답을 맞추면 점수를 획득하고 다음 플레이어가 자신의 차례를 맡습니다!"
       }
     },
     "paranoia": {
       "name": "파라노이아",
-      "description": "Whispered questions. Mysterious answers.",
+      "description": "속삭이는 질문. 신비한 답변.",
       "howToPlay": {
-        "intro": "Someone whispers a question. Someone points in secret. Will the answer ever be revealed?",
-        "step1_title": "Whisper a question",
-        "step1_desc": "One player whispers a 'Who in this group...' question to the player on their right.",
-        "step2_title": "Point in secret",
-        "step2_desc": "That player silently points at whoever they think fits the answer — no explaining!",
-        "step3_title": "Flip to reveal",
-        "step3_desc": "Flip a coin — heads reveals the question to everyone, tails keeps it secret forever. The paranoia builds!"
+        "intro": "누군가가 질문을 속삭입니다. 누군가가 비밀리에 지적합니다. 과연 답이 공개될까요?",
+        "step1_title": "질문을 속삭여",
+        "step1_desc": "한 플레이어가 오른쪽에 있는 플레이어에게 '이 그룹에는 누구...'라는 질문을 속삭입니다.",
+        "step2_title": "비밀 포인트",
+        "step2_desc": "그 플레이어는 대답에 적합하다고 생각하는 사람을 조용히 가리키며 설명하지 않습니다!",
+        "step3_title": "뒤집어서 공개",
+        "step3_desc": "동전 던지기 — 앞면은 모든 사람에게 질문을 공개하고, 뒷면은 영원히 비밀을 유지합니다. 편집증이 쌓입니다!"
       }
     }
   },
   "promptGame": {
-    "playerTurn": "{{name}}'s turn",
-    "chooseTruthOrDare": "Choose your fate",
-    "truth": "Truth",
-    "dare": "Dare",
-    "mild": "Mild",
-    "medium": "Medium",
-    "spicy": "Spicy 🌶️",
-    "nextPrompt": "Next Prompt →",
-    "endGame": "End Game",
-    "skip": "Skip"
+    "playerTurn": "{{name}}님 차례",
+    "chooseTruthOrDare": "당신의 운명을 선택하세요",
+    "truth": "진실",
+    "dare": "감히",
+    "mild": "약한",
+    "medium": "중간",
+    "spicy": "매워요 🌶️",
+    "nextPrompt": "다음 프롬프트 →",
+    "endGame": "게임 종료",
+    "skip": "건너뛰기"
   },
   "headsUp": {
     "title": "Heads Up!",
-    "holdPhone": "Hold phone to forehead",
-    "yourTurn": "{{name}}'s turn",
-    "correct": "✓ Got it!",
-    "pass": "↩ Pass",
-    "score": "Score: {{count}}",
-    "timeUp": "Time's up!",
-    "nextPlayer": "Next Player →",
-    "nextRound": "Next Round →",
-    "roundOf": "Round {{current}} / {{total}}",
-    "endGame": "End Game",
-    "readyTitle": "Ready?",
-    "readySubtitle": "Pass the phone and hold it to your forehead",
-    "startTimer": "Start!",
-    "emptyTitle": "No more words",
-    "emptySubtitle": "Try different categories to keep playing."
+    "holdPhone": "휴대전화를 이마에 갖다 대세요.",
+    "yourTurn": "{{name}}님 차례",
+    "correct": "✓ 알겠습니다!",
+    "pass": "↩ 합격",
+    "score": "점수: {{count}}",
+    "timeUp": "시간이 다 됐어!",
+    "nextPlayer": "다음 플레이어 →",
+    "nextRound": "다음 라운드 →",
+    "roundOf": "라운드 {{current}} / {{total}}",
+    "endGame": "게임 종료",
+    "readyTitle": "준비됐나요?",
+    "readySubtitle": "전화기를 넘겨 이마에 대고",
+    "startTimer": "시작하세요!",
+    "emptyTitle": "더 이상 단어가 없습니다",
+    "emptySubtitle": "계속해서 플레이하려면 다양한 카테고리를 시도해 보세요."
   },
   "wordChain": {
-    "title": "Word Chain",
-    "startWith": "Start any word",
-    "continueWith": "Word starting with «{{letter}}»",
-    "placeholder": "Type a word…",
-    "submit": "Submit",
-    "wrongLetter": "Must start with «{{letter}}»",
-    "alreadyUsed": "Already used!",
-    "tooShort": "Too short",
-    "invalidChars": "Letters only",
-    "eliminated": "{{name}} is out!",
-    "timerOut": "Time's up! {{name}} is eliminated.",
-    "winner": "🏆 {{name}} wins!",
-    "endGame": "End Game",
-    "playersLeft": "{{count}} left"
+    "title": "워드 체인",
+    "startWith": "아무 단어나 시작하세요",
+    "continueWith": "«{{letter}}»으로 시작하는 단어",
+    "placeholder": "단어를 입력하세요…",
+    "submit": "제출",
+    "wrongLetter": "«{{letter}}»으로 시작해야 합니다.",
+    "alreadyUsed": "이미 사용되었습니다!",
+    "tooShort": "너무 짧음",
+    "invalidChars": "문자만",
+    "eliminated": "{{name}} 탈락!",
+    "timerOut": "시간 종료! {{name}} 탈락.",
+    "winner": "🏆 {{name}} 승리!",
+    "endGame": "게임 종료",
+    "playersLeft": "{{count}} 남음"
   },
   "triviaBet": {
-    "title": "Trivia Bet",
-    "tokens": "{{count}} tokens",
-    "yourBet": "Your bet",
-    "placeBet": "Place Bet",
-    "question": "Question {{number}}",
-    "reveal": "Reveal Answer",
-    "correct": "Correct! +{{count}} tokens",
-    "wrong": "Wrong! -{{count}} tokens",
-    "nextQuestion": "Next Question →",
-    "endGame": "End Game",
-    "leaderboard": "Leaderboard",
-    "winner": "{{name}} wins with {{count}} tokens!"
+    "title": "퀴즈 베팅",
+    "tokens": "{{count}} 토큰",
+    "yourBet": "당신의 내기",
+    "placeBet": "베팅하기",
+    "question": "질문 {{number}}",
+    "reveal": "답변 공개",
+    "correct": "맞습니다! +{{count}} 토큰",
+    "wrong": "틀렸어! -{{count}} 토큰",
+    "nextQuestion": "다음 질문 →",
+    "endGame": "게임 종료",
+    "leaderboard": "리더보드",
+    "winner": "{{name}}님이 {{count}} 토큰으로 승리!"
   },
   "twoTruths": {
-    "title": "Two Truths One Lie",
-    "tellerInstruction": "Write 2 truths and 1 lie about yourself",
-    "statement1": "Statement 1",
-    "statement2": "Statement 2",
-    "statement3": "Statement 3",
-    "markedLie": "LIE",
-    "markLie": "Which one is the LIE?",
-    "submitStatements": "Done — Pass the phone",
-    "voting": "Which statement is the lie?",
-    "revealLie": "Reveal the Lie",
-    "lieWas": "The lie was #{{number}}",
-    "fooled": "{{name}} fooled {{count}} people! +{{count}} points",
-    "nextPlayer": "Next Player →",
-    "endGame": "End Game"
+    "title": "두 가지 진실 하나는 거짓말",
+    "tellerInstruction": "자신에 대한 진실 2개와 거짓말 1개를 적어보세요.",
+    "statement1": "진술 1",
+    "statement2": "진술 2",
+    "statement3": "진술 3",
+    "markedLie": "거짓말",
+    "markLie": "어느 것이 거짓말인가요?",
+    "submitStatements": "완료 — 전화를 건네주세요",
+    "voting": "어떤 말이 거짓말인가요?",
+    "revealLie": "거짓말을 밝혀라",
+    "lieWas": "거짓말은 #{{number}}이었습니다",
+    "fooled": "{{name}}님이 {{count}}명을 속였어요! +{{count}} 포인트",
+    "nextPlayer": "다음 플레이어 →",
+    "endGame": "게임 종료"
   },
   "common": {
     "pro": "PRO",
@@ -565,23 +565,23 @@
     "tag": "특별 혜택",
     "title": "할인가로 PRO 잠금 해제.",
     "subtitle": "더 낮은 가격으로 PRO 전체 이용.",
-    "originalPriceLabel": "Regular price",
-    "originalPrice": "$4.99/mo",
-    "discountPriceLabel": "Annual Plan",
-    "discountPrice": "$1.67/mo",
-    "billedAnnually": "Billed once a year at {{total}}",
-    "saving": "You save {{percent}}%",
+    "originalPriceLabel": "정가",
+    "originalPrice": "$4.99/월",
+    "discountPriceLabel": "연간 요금제",
+    "discountPrice": "$1.67/월",
+    "billedAnnually": "1년에 한 번 {{total}}에 청구됩니다.",
+    "saving": "{{percent}}% 절감",
     "cta": "이 혜택 받기 →",
-    "decline": "No thanks",
-    "restore": "Restore Purchases",
-    "close": "Close"
+    "decline": "아니요",
+    "restore": "구매 복원",
+    "close": "닫기"
   },
   "customWords": {
     "title": "내 커스텀 목록",
     "placeholder": "단어 추가...",
-    "wordCount": "{{count}} words",
-    "emptyHint": "Add at least {{min}} words to use this category",
-    "needMore": "{{count}} more needed",
+    "wordCount": "{{count}} 단어",
+    "emptyHint": "이 카테고리를 사용하려면 최소 {{min}} 단어를 추가하세요.",
+    "needMore": "{{count}} 더 필요함",
     "empty": "아직 단어가 없어요. 추가해보세요!"
   }
 }

@@ -1,1009 +1,1687 @@
 {
   "gameId": "would-you-rather",
   "locale": "de",
-  "version": 1,
+  "version": 2,
   "prompts": [
     {
       "id": "wyr_de_001",
+      "text": "Lieber bei jedem Treffen unbegrenzt Snacks haben oder immer die Musik auswählen dürfen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber immer einen vollen Akku oder überall kostenloses WLAN?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_002",
+      "text": "Würdest du lieber immer den perfekten Parkplatz finden oder nie wieder in der Schlange stehen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber am Strand oder in den Bergen leben?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_003",
+      "text": "Würdest du lieber mit perfektem Haar aufwachen oder immer in einer Minute das perfekte Outfit auswählen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber jeden Tag kochen oder nie wieder kochen?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_004",
+      "text": "Würdest du lieber für immer kostenlosen Kaffee oder für immer kostenlose Desserts?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber der Lustigste oder der Klügste im Raum sein?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_005",
+      "text": "Würdest du lieber beim Karaoke großartig oder bei Brettspielen unschlagbar sein?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber ein Haustier-Drache oder ein Einhorn?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_006",
+      "text": "Würdest du lieber direkt am Strand oder mitten in deiner Lieblingsstadt wohnen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber Gedanken lesen oder jede Sprache sprechen?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_007",
+      "text": "Würdest du lieber immer ein voll aufgeladenes Telefon oder immer perfektes Wi-Fi haben?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber nie wieder Schlüssel verlieren oder nie wieder das Handy?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_008",
+      "text": "Würdest du lieber nie wieder deine Schlüssel verlieren oder nie vergessen, warum Sie ein Zimmer betreten haben?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber Fotos machen oder auf Fotos sein?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_009",
+      "text": "Würdest du sich nach einem Ereignis lieber zur Arbeit oder nach Hause teleportieren?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber mit dem Zug reisen oder einen Roadtrip machen?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_010",
+      "text": "Würdest du lieber einen persönlichen Koch zum Frühstück oder einen persönlichen Fahrer am Wochenende?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber früh mit Energie aufstehen oder spät ohne Schuldgefühl schlafen?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_011",
+      "text": "Würdest du lieber ein Jahr lang nur Komödien schauen oder ein Jahr lang nur fröhliche Musik hören?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber unbegrenzt Kaffee oder unbegrenzt Snacks?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_012",
+      "text": "Würdest du lieber jeden Spieleabend gewinnen oder am Spieleabend immer alle zum Lachen bringen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber ohne Musik oder ohne Filme leben?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_013",
+      "text": "Würdest du lieber eine kleine Wohnung mit atemberaubender Aussicht oder ein riesiges Haus an einem langweiligen Ort?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber großartig kochen können oder großartig singen?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_014",
+      "text": "Würdest du lieber für deine Kochkünste oder deine Tanzbewegungen berühmt werden?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber immer vorne sitzen oder immer die Musik aussuchen?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_015",
+      "text": "Würdest du lieber immer das Beste auf der Speisekarte wissen oder immer den besten Film auswählen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber einen Privatkoch oder einen Privatfahrer?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_016",
+      "text": "Würdest du lieber einen spontanen Tagesausflug unternehmen oder einen perfekten Wochenendausflug planen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber die Zeit anhalten oder vorspulen?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_017",
+      "text": "Würdest du lieber einen Schrank, der sich selbst gestaltet, oder einen Kühlschrank, der sich selbst auffüllt?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber in Sport oder in Kunst richtig gut sein?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_018",
+      "text": "Würdest du lieber nie wieder Wäsche waschen oder nie wieder Geschirr spülen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber nur Komödien oder nur Dramen schauen?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_019",
+      "text": "Würdest du lieber immer das letzte Stück Pizza oder immer den besten Platz bekommen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber den Ozean erforschen oder den Weltraum?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_020",
+      "text": "Hättest du lieber eine magische Stummschalttaste für laute Orte oder eine Überspringen-Taste für unangenehmen Smalltalk?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber ein Haus am See oder in der Großstadt?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_021",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber ein Jahr ohne Social Media oder ein Jahr ohne Streaming?"
+      "text": "Würdest du lieber irgendwo ein Nickerchen machen oder jeden Morgen sofort erfrischt aufwachen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_022",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber allein in eine neue Stadt ziehen oder für immer in deiner Stadt bleiben?"
+      "text": "Würdest du an deinen freien Tagen lieber immer perfektes Wetter haben oder nie Stau haben, wenn Sie zu spät kommen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_023",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber immer 20 Minuten zu früh oder 20 Minuten zu spät sein?"
+      "text": "Würdest du lieber für immer kostenlose Konzertkarten oder für immer kostenlose Kinokarten erhalten?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_024",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber deinen Suchverlauf oder deine DMs öffentlich?"
+      "text": "Würdest du lieber gut fotografieren oder gut fotografieren können?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_025",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber für dein Talent oder für dein Aussehen bekannt sein?"
+      "text": "Würdest du sich lieber immer Namen merken oder sich immer an Geburtstage erinnern?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_026",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber alle Fotos verlieren oder alle Nachrichten?"
+      "text": "Würdest du lieber ein Zuhause mit einem geheimen Raum oder einem Treffpunkt auf dem Dach?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_027",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber die Person sein, die zuerst schreibt, oder die, die nie schreibt?"
+      "text": "Würdest du lieber nur mit der Bahn reisen oder nur Roadtrips unternehmen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_028",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber einen kleinen engen Freundeskreis oder viele Bekanntschaften?"
+      "text": "Würdest du lieber ohne Aufzüge oder ohne Rolltreppen leben?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_029",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber über Nacht berühmt oder langsam respektiert werden?"
+      "text": "Würdest du lieber immer das perfekte Comeback haben oder unter Druck immer ruhig bleiben?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_030",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber nie lügen können oder nie jemandem vertrauen?"
+      "text": "Würdest du lieber der beste Koch in deiner Freundesgruppe oder der beste Geschichtenerzähler sein?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_031",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber Traumjob mit wenig Geld oder langweiligen Job mit viel Geld?"
+      "text": "Würdest du lieber eine Rückspultaste für peinliche Momente oder eine Pausetaste für perfekte Momente?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_032",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber immer beschäftigt oder immer gelangweilt sein?"
+      "text": "Würdest du lieber immer nur deine Lieblingsfarbe tragen oder nie ein Outfit wiederholen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_033",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber in der Vergangenheit ohne Internet oder in der Zukunft ohne Privatsphäre leben?"
+      "text": "Würdest du lieber unbegrenzte Bücher oder unbegrenzte Spiele?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_034",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber der Planer in der Gruppe oder der Spontane?"
+      "text": "Würdest du lieber sofort jedes Rezept oder jedes Lied sofort lernen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_035",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber dein größtes Scheitern auf einem Plakat oder dein größtes Geheimnis im Gruppenchat?"
+      "text": "Würdest du lieber immer Platz für den Nachtisch haben oder sich nie zu satt fühlen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_036",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber großartig im Smalltalk oder in tiefen Gesprächen?"
+      "text": "Würdest du lieber jede Party veranstalten oder zu jeder Party eingeladen werden?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_037",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber die Wahrheit hören, auch wenn sie weh tut, oder mit Notlügen geschützt werden?"
+      "text": "Würdest du lieber ein Haus mit einer riesigen Küche oder einem riesigen Spielzimmer?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_038",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber nie schlafen müssen oder immer 12 Stunden Schlaf brauchen?"
+      "text": "Würdest du lieber eine Woche lang nur Sprachnotizen oder nur Emojis verwenden?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_039",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber eine Rückspultaste für einen Tag oder eine Pausetaste für eine Stunde?"
+      "text": "Würdest du lieber früh dran sein oder jedes Mal pünktlich ankommen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_040",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber für die Liebe oder für den Job ins Ausland ziehen?"
+      "text": "Würdest du lieber ein perfektes Gedächtnis für Gesichter oder Wegbeschreibungen haben?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_041",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber jemanden Berühmtes daten oder jemanden, dem du alles erzählen kannst?"
+      "text": "Würdest du lieber Werbespots pausieren oder Aufgaben überspringen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_042",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber ein tolles erstes Date ohne zweites oder ein mieses erstes Date, das großartig wird?"
+      "text": "Würdest du lieber immer Geld in alten Taschen finden oder immer Überraschungsrabatte erhalten?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_043",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber derjenige sein, der mehr liebt, oder der mehr geliebt wird?"
+      "text": "Würdest du lieber dein Traumschlafzimmer oder deine Traumküche?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_044",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber dein Datingleben privat halten oder alles mit Freunden teilen?"
+      "text": "Würdest du lieber jedes Getränk oder jeden Snack perfekt zubereiten?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_045",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber jede Woche ein Blind Date oder nie wieder daten?"
+      "text": "Würdest du lieber nie einen Regenschirm oder nie Sonnencreme brauchen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_046",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber erfahren, dass dein Partner lügt oder dein Freund lügt?"
+      "text": "Würdest du lieber jeden Morgen eine zusätzliche Stunde oder jeden Abend eine zusätzliche Stunde haben?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_047",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber eine Sommerromanze, die endet, oder eine langsame Liebe, die Jahre braucht?"
+      "text": "Würdest du lieber über einer Bäckerei oder neben einem Kino wohnen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_048",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber single und bewundert oder vergeben und entspannt?"
+      "text": "Würdest du lieber immer das Restaurant oder immer die Aktivität wählen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_049",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber die Person, die zuerst schreibt, oder die, die ignoriert?"
+      "text": "Würdest du lieber eine persönliche Playlist für jede Stimmung oder ein perfektes Outfit für jeden Plan?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_050",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber eine sofortige Verbindung, die verfliegt, oder eine langsame, die hält?"
+      "text": "Würdest du lieber der Freund mit den besten Ratschlägen oder der Freund mit den besten Snacks sein?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_051",
+      "text": "Würdest du lieber nur Frühstücksspeisen zum Abendessen oder Abendspeisen zum Frühstück essen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Würdest du lieber immer flüstern oder immer schreien?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_052",
+      "text": "Würdest du lieber nie Geräte aufladen oder Apps aktualisieren?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber nie wieder Social Media oder nie wieder TV?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_053",
+      "text": "Würdest du lieber eine perfekte Handschrift oder perfekte Fähigkeiten im Verpacken von Geschenken haben?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber einen Privatkoch oder einen Personal Trainer?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_054",
+      "text": "Würdest du dein Zimmer lieber sofort aufräumen oder deine Handyfotos sofort organisieren?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber am Meer leben oder in den Bergen?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_055",
+      "text": "Würdest du lieber immer frische Bettwäsche oder immer frische Handtücher haben?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber die Zeit anhalten oder 10 Minuten zurückspulen?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_056",
+      "text": "Würdest du lieber unschlagbar bei Quizfragen oder unschlagbar bei Scharaden sein?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber ein Handy mit unendlichem Akku oder überall unbegrenztes Datenvolumen?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_057",
+      "text": "Würdest du lieber einen Balkon mit Aussicht oder ein Wohnzimmer, das für Partys geeignet ist?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber für dein Talent berühmt sein oder für dein Aussehen?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_058",
+      "text": "Würdest du lieber nie wieder ein Getränk verschütten oder dein Telefon nie wieder fallen lassen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber kostenlos reisen oder in jedem Restaurant gratis essen?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_059",
+      "text": "Würdest du sich lieber immer an deine Träume erinnern oder nie einen Albtraum haben?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber immer leicht zu spät oder immer sehr früh?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_060",
+      "text": "Würdest du lieber einmal im Jahr kostenlose Flüge oder zweimal im Jahr kostenlose Hotels?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber ein Jahr lang nur einen Künstler hören oder für immer nur ein Genre?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_061",
+      "text": "Würdest du lieber über Nacht fließend eine neue Sprache sprechen oder über Nacht ein neues Instrument erlernen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber ein perfektes Gedächtnis oder alles vergessen können?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_062",
+      "text": "Würdest du lieber immer die perfekte Beleuchtung für Fotos haben oder bei Fotos nie blinzeln?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber großartig kochen oder großartig öffentlich reden?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_063",
+      "text": "Würdest du lieber jeden Monat einen Überraschungstag frei haben oder jedes Jahr einen Überraschungsurlaub?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber ohne Kaffee oder ohne Desserts leben?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_064",
+      "text": "Würdest du lieber nur Text in Kleinbuchstaben oder nur Text mit perfekter Interpunktion schreiben?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber für immer Treppen steigen oder nie wieder rennen?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_065",
+      "text": "Würdest du lieber ein gemütliches Hüttenwochenende oder ein geschäftiges Wochenende in der Stadt verbringen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber kleines Haus mit großem Garten oder großes Haus ohne Garten?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_066",
+      "text": "Würdest du lieber für deinen Stil oder deinen Sinn für Humor bekannt sein?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber nie im Stau stehen oder nie in der Schlange warten?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_067",
+      "text": "Würdest du lieber immer die schnellste Kassenschlange wählen oder immer gleich den Aufzug nehmen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber immer perfektes Wetter oder immer perfekten Schlaf?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_068",
+      "text": "Würdest du lieber, dass Ihnen nie der Speicherplatz oder der Akku deines Telefons ausgeht?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber der Klügste im Raum oder der Lustigste?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_069",
+      "text": "Würdest du lieber jeden Raum perfekt dekorieren oder jeden Koffer perfekt packen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber dein Handy verlieren oder deine Brieftasche?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_070",
+      "text": "Würdest du lieber für immer nur Wasser trinken oder für immer nur ein Lieblingsgetränk?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber Gedanken lesen oder die Zukunft sehen?"
+      "minAge": 4
     },
     {
       "id": "wyr_de_071",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber einen Zurückspul-Knopf für den Tag oder einen Vorspul-Knopf?"
+      "text": "Würdest du lieber immer perfekt schlafen oder immer gut gelaunt aufwachen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_072",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber eine große Party hosten oder einen ruhigen Trip planen?"
+      "text": "Würdest du lieber die Person sein, die jeder um Empfehlungen bittet, oder die Person, die jeder um die Planung von Reisen bittet?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_073",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber kostenlose Flüge oder kostenlose Hotels?"
+      "text": "Würdest du lieber eine persönliche Wettervorhersage, die immer stimmt, oder einen Kalender, der sich selbst plant?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_074",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber ein bezahltes Jahr frei oder die gewünschte Beförderung?"
+      "text": "Würdest du lieber nie das Badezimmer oder die Küche putzen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_075",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber wunderschön singen oder jedes Instrument spielen können?"
+      "text": "Würdest du lieber gut backen oder gut grillen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_076",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber erste Eindrücke immer richtig oder zweite Chancen immer bekommen?"
+      "text": "Würdest du lieber einmal im Jahr in der ersten Reihe sitzen oder jedes Mal VIP-Snacks genießen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_077",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber großartig in Fotos oder großartig in Videos?"
+      "text": "Würdest du lieber immer das beste versteckte Café oder immer den besten Aussichtspunkt finden?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_078",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber immer Snacks oder immer Kaffee?"
+      "text": "Würdest du lieber eine Woche mit perfekten Outfits oder eine Woche mit perfekten Mahlzeiten?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_079",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber jeden Tag 10 Minuten trainieren oder einmal pro Woche lang?"
+      "text": "Würdest du lieber einen lebenslangen Vorrat an Schuhen oder einen lebenslangen Vorrat an Kopfhörern gewinnen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_080",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber alle Sprachen sprechen oder Tiere verstehen?"
+      "text": "Würdest du lieber immer den Text kennen oder immer den Tanz?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_081",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber viele Fotos machen oder im Moment leben?"
+      "text": "Würdest du lieber jedes technische Problem beheben oder Möbel ohne Anleitung zusammenbauen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_082",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber nie putzen müssen oder nie kochen müssen?"
+      "text": "Würdest du lieber einen magischen Rucksack, der nie schwer ist, oder einen Koffer, der sich selbst packt?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_083",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber garantiert bester Freund oder garantierte Seelenverwandte?"
+      "text": "Würdest du lieber immer einen Good-Hair-Day haben oder immer eine klare Haut haben?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_084",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber in deiner Traumstadt leben oder nah bei der Familie?"
+      "text": "Würdest du lieber die besten Gruppen-Selfies machen oder die besten Gruppenpläne erstellen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_085",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber immer Spiele gewinnen oder immer schnell neue Skills lernen?"
+      "text": "Würdest du lieber eine langweilige Aufgabe pro Tag überspringen oder eine lustige Überraschung pro Tag erleben?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_086",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber nie eine Deadline verpassen oder nie Stress fühlen?"
+      "text": "Würdest du lieber an einem Ort leben, an dem es endlosen Sommer oder endloses, gemütliches Wetter gibt?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_087",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber der Planer sein oder der Spontane?"
+      "text": "Würdest du lieber keine Werbung online schalten oder keine Spam-Nachrichten erhalten?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_088",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber minimalistischer Kleiderschrank oder unbegrenzte Kleidung?"
+      "text": "Würdest du lieber immer einen tollen Benutzernamen wählen oder immer eine tolle Bildunterschrift schreiben?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_089",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber ohne Musik oder ohne Filme?"
+      "text": "Würdest du lieber der Beste im Geschenkeverpacken oder der Beste in der Geschenkeauswahl sein?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_090",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber nur süß oder nur salzig essen?"
+      "text": "Würdest du lieber unbegrenzt Filmabende zu Hause oder unbegrenzt Brunch außerhalb haben?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_091",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber eine kurze, intensive Romanze oder eine langsame, stabile Liebe?"
+      "text": "Würdest du lieber einen kleinen privaten Garten oder eine riesige gemeinsame Dachterrasse?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_092",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber zuerst texten oder zuerst anrufen?"
+      "text": "Würdest du lieber immer nur einen winzigen Löffel verwenden oder immer aus einer winzigen Tasse trinken?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_093",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber Partner als bester Freund oder größter Fan?"
+      "text": "Würdest du lieber jeden Raum gemütlich machen oder jede Playlist perfekt machen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_094",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber ein Date ohne Handys oder ohne Reden?"
+      "text": "Würdest du lieber immer das richtige Ladegerät oder immer das richtige Passwort haben?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_095",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber eine Playlist teilen oder einen Kalender teilen?"
+      "text": "Würdest du lieber nie ein Passwort vergessen oder nie vergessen, wo Sie geparkt haben?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_096",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber immer wissen, was jemand fühlt, oder was jemand will?"
+      "text": "Würdest du lieber einen perfekt organisierten Kleiderschrank oder eine perfekt organisierte Kamerarolle?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_097",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber für Freundlichkeit oder für Ehrgeiz in Erinnerung bleiben?"
+      "text": "Würdest du lieber der Erste sein, der einen Trend ausprobiert, oder der Letzte, dem es langweilig wird?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_098",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber für immer von zu Hause arbeiten oder immer draußen?"
+      "text": "Würdest du in Restaurants lieber immer einen Tisch frei haben oder immer ein kostenloses Dessert bekommen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_099",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber ohne Spiegel oder ohne Fotos leben?"
+      "text": "Würdest du lieber einen persönlichen Hype-Song oder eine persönliche Eingangsbeleuchtung?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_100",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber wild spontan oder akribisch geplant?"
+      "text": "Würdest du lieber beim ersten Eindruck glänzen oder bei Abschiedsumarmungen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_de_101",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber mit jemand Berühmtem ausgehen oder mit jemandem, dem du alles erzählen kannst?"
+      "text": "Würdest du lieber von allen respektiert oder von einigen wenigen Menschen zutiefst verstanden werden?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_102",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber ein tolles erstes Date ohne zweites oder ein furchtbares erstes Date, das später großartig wird?"
+      "text": "Würdest du lieber wissen, wenn jemand lügt, oder lieber immer glauben, wenn Sie die Wahrheit sagen?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_103",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber der oder die sein, der oder die mehr liebt, oder der oder die mehr geliebt wird?"
+      "text": "Würdest du lieber deinen Traumjob mit niedriger Bezahlung oder einen langweiligen Job mit toller Bezahlung haben?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_104",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber eine leidenschaftliche Kurzromanze oder eine ruhige, tiefe Beziehung?"
+      "text": "Würdest du lieber alleine ins Ausland ziehen oder für immer in deiner Heimatstadt bleiben?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_105",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber jemanden daten, der sehr eifersüchtig ist, oder jemanden, der extrem unabhängig ist?"
+      "text": "Würdest du lieber die klügste Person im Raum sein oder die Person, der jeder am meisten vertraut?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_106",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber herausfinden, dass dein Partner gelogen hat, oder dass ein Freund gelogen hat?"
+      "text": "Würdest du lieber immer die Wahrheit wissen oder immer das Richtige wissen?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_107",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber die große Liebe finden, aber sie weit weg wohnen lassen, oder eine gute Liebe direkt um die Ecke?"
+      "text": "Würdest du lieber eine kleine Gruppe treuer Freunde oder ein riesiges Netzwerk zufälliger Freunde haben?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_108",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber single und angehimmelt oder vergeben und entspannt?"
+      "text": "Würdest du lieber wegen deiner Freundlichkeit oder wegen deines Ehrgeizes in Erinnerung bleiben?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_109",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber die Person sein, die zuerst schreibt, oder die, die ignoriert?"
+      "text": "Würdest du lieber früh erfolgreich sein und ausbrennen oder langsam Erfolg haben und den Prozess genießen?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_110",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber eine sofortige Verbindung, die verblasst, oder eine langsame Bindung, die bleibt?"
+      "text": "Würdest du lieber jeden Fehler vergessen oder sich an jede gute Tat erinnern?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_111",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber immer flüstern müssen oder immer schreien müssen?"
+      "text": "Würdest du lieber einen perfekten Tag noch einmal erleben oder einen schrecklichen Tag ausradieren?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_112",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber immer Kopfhörer tragen müssen oder sie nie benutzen dürfen?"
+      "text": "Würdest du lieber sofort vergeben können oder sich nie zweimal täuschen lassen?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_113",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber einen persönlichen Koch oder einen persönlichen Trainer?"
+      "text": "Würdest du lieber mehr Selbstvertrauen oder mehr Disziplin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_114",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber am Meer oder in den Bergen leben?"
+      "text": "Würdest du lieber wissen, was die Leute zuerst über Sie denken oder was sie sagen, nachdem Sie gegangen sind?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_115",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber die Zeit anhalten können oder 10 Minuten zurückspulen?"
+      "text": "Würdest du lieber dafür geliebt werden, wer Sie jetzt sind, oder dafür bewundert werden, wer Sie werden könnten?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_116",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber eine Woche ohne Smartphone oder eine Woche ohne Musik?"
+      "text": "Würdest du lieber immer mit Dingen beschäftigt sein, die Sie lieben, oder immer Freizeit haben, sich aber langweilen?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_117",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber jeden Tag eine Stunde früher aufstehen oder eine Stunde später schlafen gehen?"
+      "text": "Würdest du lieber eine große Chance haben und alles riskieren oder viele kleine Chancen mit langsamem Fortschritt?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_118",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber kostenlos reisen oder in jedem Restaurant kostenlos essen?"
+      "text": "Würdest du lieber fünf Jahre lang berühmt oder ein Leben lang respektiert werden?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_119",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber immer ein bisschen zu spät oder immer viel zu früh?"
+      "text": "Würdest du lieber alle deine Fotos oder alle deine Nachrichten verlieren?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_120",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber ein Jahr lang nur eine*n Künstler*in hören oder für immer nur ein Genre?"
+      "text": "Würdest du deinen Suchverlauf oder deine Kamerarolle lieber öffentlich machen?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_121",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber ein perfektes Gedächtnis oder alles vergessen können, was du willst?"
+      "text": "Würdest du lieber immer sagen, was Sie denken, oder lieber immer den Frieden bewahren?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_122",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber großartig kochen können oder großartig öffentlich sprechen?"
+      "text": "Würdest du lieber einen Freund haben, der absolut ehrlich ist, oder einen, der Sie endlos unterstützt?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_123",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber nie wieder Werbung sehen oder nie wieder in Warteschlangen stehen?"
+      "text": "Würdest du lieber der Planer in jeder Gruppe sein oder die Person, die nie planen muss?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_124",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber in einer kleinen Stadt mit viel Natur oder in einer großen Stadt mit vielen Möglichkeiten leben?"
+      "text": "Würdest du lieber tiefgründige Gespräche führen oder dafür sorgen, dass sich Menschen wohl fühlen?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_125",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber ein winziges Haus mit großem Garten oder ein großes Haus ohne Garten?"
+      "text": "Würdest du lieber genau wissen, wohin dein Leben führt, oder sich davon überraschen lassen?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_126",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber nie im Stau stehen oder nie in einer Schlange warten?"
+      "text": "Würdest du lieber ein Jahr lang auf Social Media oder ein Jahr lang auf Streaming verzichten?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_127",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber immer ein bisschen zu früh kommen oder immer ein bisschen zu spät kommen?"
+      "text": "Würdest du lieber ein Jahr frei haben mit Bezahlung oder einer Beförderung, die Sie wirklich wollen?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_128",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber der oder die Klügste im Raum oder der oder die Lustigste?"
+      "text": "Würdest du lieber immer unterschätzt oder immer überschätzt werden?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_129",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber dein Handy verlieren oder dein Portemonnaie?"
+      "text": "Würdest du lieber, dass jeder dein größtes Ziel oder deine größte Angst kennt?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_130",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Lieber einmal am Tag teleportieren oder zehn Minuten am Tag fliegen?"
+      "text": "Würdest du lieber deine Karriere neu starten oder eine Freundschaft neu starten?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_131",
+      "text": "Würdest du lieber die Person sein, die die Leute in einer Krise anrufen, oder die Person, die sie zum Feiern anrufen?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber einen Zurückspul-Knopf für deinen Tag oder einen Vorspul-Knopf?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_132",
+      "text": "Würdest du sich lieber nie schämen oder nie eifersüchtig sein?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber eine große Party hosten oder eine ruhige Reise planen?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_133",
+      "text": "Würdest du lieber jederzeit eine Erinnerung löschen oder wiedergeben können?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber mehr Gehalt oder mehr Freizeit?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_134",
+      "text": "Würdest du lieber das Ende jedes Films oder das Ergebnis jeder Entscheidung erfahren?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber ein bezahltes Jahr frei oder die Beförderung, die du wirklich willst?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_135",
+      "text": "Würdest du lieber einen perfekten Ruf bei Fremden oder echte Ehrlichkeit bei Freunden haben?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber ein Jahr ohne Social Media oder ein Jahr ohne Serien?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_136",
+      "text": "Würdest du lieber immer einen Streit gewinnen oder ihn immer mit einem friedlichen Gefühl verlassen?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber immer beim ersten Eindruck richtigliegen oder immer eine zweite Chance bekommen?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_137",
+      "text": "Würdest du lieber gut im Geldverdienen oder im Umgang mit Geld sein?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber großartig fotografieren oder großartige Videos machen?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_138",
+      "text": "Würdest du deine Zukunft lieber von jemandem planen lassen, der klug ist, oder alles selbst und ohne Rat entscheiden?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber jeden Tag Sport machen oder jeden Tag meditieren?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_139",
+      "text": "Würdest du lieber der lustigste Mensch in deiner Gruppe oder der ruhigste Mensch in einer Krise sein?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber jeden Tag 10-Minuten-Workouts oder einmal pro Woche ein langes Training?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_140",
+      "text": "Würdest du lieber, dass jetzt ein Traum wahr wird oder dass im Laufe der Zeit fünf kleinere Träume wahr werden?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber jede Sprache sprechen oder Tiere verstehen?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_141",
+      "text": "Würdest du lieber in der Lage sein, eine Person vollständig zu lesen oder Menschenmengen perfekt zu verstehen?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber viele Fotos machen oder komplett im Moment leben?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_142",
+      "text": "Würdest du lieber einen Abschluss für jedes Ende oder eine zweite Chance an einem Ende?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber ständig neue Hobbys ausprobieren oder eines perfektionieren?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_143",
+      "text": "Würdest du lieber als geheimnisvoll oder völlig transparent gelten?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber garantiert beste Freundschaft oder garantiert Seelenverwandte*n?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_144",
+      "text": "Würdest du lieber einen Job haben, der Menschen beeindruckt, oder ein Leben, das sich friedlich anfühlt?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber in deiner Traumstadt leben oder in der Nähe der Familie bleiben?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_145",
+      "text": "Wärst du lieber zu loyal oder zu unabhängig?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber immer bei Spielen gewinnen oder immer schnell neue Skills lernen?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_146",
+      "text": "Hätten Sie lieber immer den Mut zum Anfang oder die Geduld zum Ende?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber nie eine Deadline verpassen oder nie gestresst sein?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_147",
+      "text": "Würdest du sich lieber perfekt entschuldigen oder jemanden ohne Angst konfrontieren?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber die Person sein, die plant, oder die, die mit dem Flow geht?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_148",
+      "text": "Würdest du deinen größten Misserfolg lieber für immer online oder dein größtes Geheimnis in einem Gruppenchat haben?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber einen minimalistischen Kleiderschrank oder unbegrenzte Kleidung?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_149",
+      "text": "Würdest du lieber in der Vergangenheit mit mehr Privatsphäre oder in der Zukunft mit mehr Komfort leben?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber auf Musik verzichten oder auf Filme?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_150",
+      "text": "Würdest du lieber immer der Verantwortliche sein oder Ihnen niemals Verantwortung anvertrauen?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber nur Süßes essen oder nur Salziges?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_151",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber eine kurze, intensive Romanze oder eine langsame, beständige Liebe?"
+      "text": "Würdest du lieber eine Entscheidung, die Sie getroffen haben, ändern oder eine Entscheidung sehen, die Sie fast getroffen hätten?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_152",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber zuerst schreiben oder zuerst anrufen?"
+      "text": "Würdest du lieber deine Komfortzone oder deinen Ehrgeiz verlieren?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_153",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber dass dein Partner dein bester Freund ist oder dein größter Fan?"
+      "text": "Würdest du lieber aus der Ferne bewundert oder aus der Nähe geliebt werden?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_154",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber ein Date ohne Handys oder ein Date ohne Reden?"
+      "text": "Würdest du sich lieber nie mit anderen vergleichen oder sich nicht darum kümmern, was andere denken?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_155",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber ein Date ohne Handys oder ein Date ohne Worte?"
+      "text": "Würdest du lieber vor jeder schlechten Entscheidung eine Warnung oder nach jeder mutigen Entscheidung eine Belohnung erhalten?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_156",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber immer wissen, was jemand fühlt, oder immer wissen, was jemand will?"
+      "text": "Würdest du lieber jemanden zum Lachen bringen oder jemandem das Gefühl geben, sicher zu sein?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_157",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber für Freundlichkeit in Erinnerung bleiben oder für Ehrgeiz?"
+      "text": "Hätten Sie lieber ein perfektes Gedächtnis oder eine perfekte Fähigkeit, weiterzumachen?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_158",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber für immer von zu Hause arbeiten oder für immer draußen arbeiten?"
+      "text": "Würdest du lieber ein Jahr damit verbringen, deinen Körper oder deinen Geist aufzubauen?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_159",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber ohne Spiegel leben oder ohne Fotos?"
+      "text": "Würdest du lieber die Hauptfigur in einer ruhigen Geschichte oder eine Nebenfigur in einer epischen Geschichte sein?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_160",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Lieber total spontan oder akribisch geplant?"
+      "text": "Würdest du lieber wissen, warum jemand gegangen ist, oder es nie erfahren und schneller heilen?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_de_161",
+      "text": "Würdest du lieber immer ehrlich zu deinen Gefühlen sein oder die Gefühle anderer Menschen immer schützen?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Würdest du lieber alle gespeicherten Memes oder alle Playlists verlieren?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_162",
+      "text": "Würdest du lieber grenzenlose Motivation oder grenzenlose Geduld?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber jeder Tippfehler öffentlich oder jeder Entwurf automatisch gesendet?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_163",
+      "text": "Würdest du lieber sofort Warnsignale erkennen oder verborgene Potenziale sofort erkennen?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber fürs Tanzen viral gehen oder fürs Hinfallen?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_164",
+      "text": "Würdest du lieber eine vergangene Beziehung reparieren oder einen zukünftigen Fehler verhindern?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Nur mit GIFs kommunizieren oder nur mit Sprachnachrichten?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_165",
+      "text": "Würden Sie sich lieber immer für Komfort oder immer für Wachstum entscheiden?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Unendlicher Akku oder perfektes WLAN für immer?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_166",
+      "text": "Würdest du lieber von Menschen umgeben sein, die Sie herausfordern, oder von Menschen, die Sie trösten?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber jede Party hosten oder nach jeder Party aufräumen?"
+      "minAge": 13
     },
     {
       "id": "wyr_de_167",
+      "text": "Würdest du lieber den perfekten Tagesablauf oder das perfekte einmalige Abenteuer?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Lieber immer Regeln erklären oder immer des Schummelns verdächtigt werden?"
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_168",
+      "text": "Würdest du lieber insgeheim talentiert oder öffentlich durchschnittlich sein?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_169",
+      "text": "Würdest du lieber nie eine Genehmigung benötigen oder immer Ermutigung erhalten?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_170",
+      "text": "Würdest du lieber einen Freund haben, der sich an jedes Detail erinnert, oder einen, der jedes Mal auftaucht?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_171",
+      "text": "Würdest du lieber sofort jede Gewohnheit aufgeben oder sofort eine neue Gewohnheit aufbauen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_172",
+      "text": "Würdest du lieber, dass dein jüngeres Ich dein Leben jetzt sieht, oder dass dein zukünftiges Ich einen Satz zurückschickt?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_173",
+      "text": "Würdest du lieber die Person sein, die eine Gruppe verändert, oder die Person, die eine Gruppe zum Besseren verändert?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_174",
+      "text": "Würdest du lieber immer die Kosten einer Wahl kennen oder immer den Nutzen kennen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_175",
+      "text": "Würdest du lieber ein Jahr lang furchtlos oder für den Rest deines Lebens weise sein?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_176",
+      "text": "Würdest du lieber ein Leben führen, das online aufregend aussieht oder sich offline aufregend anfühlt?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_177",
+      "text": "Würdest du lieber mit dem Überdenken oder dem Aufschieben aufhören?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_178",
+      "text": "Würdest du lieber für ein Meisterwerk oder für mehrere solide Leistungen bekannt sein?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_179",
+      "text": "Hätten Sie lieber alle Türen offen, aber keine klare Richtung oder einen klaren Weg ohne Alternativen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_180",
+      "text": "Würdest du lieber immer der Erste sein, der vergibt, oder der Erste, der weggeht?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_181",
+      "text": "Würdest du lieber einen Mentor für jedes Problem oder einen Freund für jeden harten Tag haben?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_182",
+      "text": "Würdest du lieber deine Stimmung von morgen vorhersagen oder deine Stimmung heute verstehen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_183",
+      "text": "Würdest du lieber im Stillen reich werden oder öffentlich einflussreich werden?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_184",
+      "text": "Würdest du sich lieber nie einsam fühlen oder sich nie missverstanden fühlen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_185",
+      "text": "Würdest du lieber sofort Menschen für sich gewinnen oder sofort wissen, wer deine Zeit wert ist?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_186",
+      "text": "Würdest du lieber dafür bekannt sein, Risiken einzugehen oder kluge Entscheidungen zu treffen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_187",
+      "text": "Würdest du lieber immer einen Backup-Plan haben oder nie einen brauchen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_188",
+      "text": "Würdest du lieber eine schlechte Angewohnheit aufgeben oder eine beeindruckende Fähigkeit erwerben?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_189",
+      "text": "Würdest du lieber ein ruhiges Leben mit wenigen Überraschungen oder ein chaotisches Leben mit unvergesslichen Geschichten?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_190",
+      "text": "Würdest du den schönsten Moment deines Lebens lieber schon im Vorhinein kennen oder ihn erst im Nachhinein erkennen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_191",
+      "text": "Würden Sie lieber gut darin sein, Gespräche zu beginnen oder sie elegant zu beenden?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_192",
+      "text": "Würdest du lieber immer die Person sein, die Ratschläge gibt, oder die Person, die mutig genug ist, sie anzunehmen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_193",
+      "text": "Würdest du dein Traumhaus lieber weit weg von allen haben oder lieber ein einfaches Zuhause in der Nähe deiner Lieblingsmenschen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_194",
+      "text": "Würdest du lieber mit irgendjemandem Frieden schließen oder irgendwo einen Neuanfang wagen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_195",
+      "text": "Wärst du lieber der Freund, dem jeder gesteht, oder der Freund, mit dem jeder feiert?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_196",
+      "text": "Würdest du lieber einen Monat völliger Freiheit oder ein Jahr stetigen Fortschritts haben?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_197",
+      "text": "Würdest du lieber durch einen einzigen mutigen Schritt in Erinnerung bleiben oder durch ein Leben voller stiller Treue?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_198",
+      "text": "Würdest du lieber die Wahrheit über deinen Ruf erfahren oder dein Vertrauen unangetastet lassen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_199",
+      "text": "Würdest du lieber ohne Schuldgefühle „Nein“ sagen oder ohne Scham um Hilfe bitten?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_200",
+      "text": "Hätten Sie lieber perfektes Timing oder perfekte Instinkte?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_de_201",
+      "text": "Lieber dein Dating-App-Profil von Freunden bewerten lassen oder deine DMs von einer vertrauten Person laut vorlesen lassen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_202",
+      "text": "Würdest du lieber ein perfektes erstes Date ohne Chemie oder ein chaotisches erstes Date mit offensichtlichen Funken erleben?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_203",
+      "text": "Würdest du lieber immer wissen, wann jemand flirtet, oder nie versehentlich zurückflirten?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_204",
+      "text": "Würdest du lieber mit jemandem ausgehen, den jeder liebt, bei dem Sie sich aber unsicher fühlen, oder mit jemandem, an dem alle zweifeln, bei dem Sie sich aber sicher fühlen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_205",
+      "text": "Würdest du lieber nach einem fantastischen Date in Ohnmacht fallen oder einen Monat lang langsam paniert werden?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_206",
+      "text": "Möchtest du deine Schwärmerei lieber persönlich gestehen oder es versehentlich in deinem Gruppenchat verraten?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_207",
+      "text": "Würdest du lieber, dass dein Ex Sie umwerfend sieht, oder wäre es Ihnen wirklich egal, wenn er es sieht?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_208",
+      "text": "Würdest du lieber spät in der Nacht eine riskante SMS erhalten oder eine senden und es sofort bereuen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_209",
+      "text": "Würdest du lieber einen Partner haben, der schmerzlich ehrlich ist, oder einen, der jedes schwierige Gespräch vermeidet?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_210",
+      "text": "Würdest du lieber mit jemandem ausgehen, der über perfektes Geplänkel oder perfekte emotionale Reife verfügt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_211",
+      "text": "Würdest du lieber dabei erwischt werden, wie Sie jemandes Profil stalken oder versehentlich einen sehr alten Beitrag liken?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_212",
+      "text": "Würdest du lieber eine unvergessliche Sommerromanze oder eine langsame Liebesgeschichte?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_213",
+      "text": "Würdest du lieber jede Person kennen, die dein Partner jemals gemocht hat, oder nichts wissen und ruhig bleiben?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_214",
+      "text": "Wäre es dir lieber, der Eifersüchtige zu sein oder derjenige, der die Leute eifersüchtig macht, ohne es zu versuchen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_215",
+      "text": "Lieber starke Chemie zum falschen Zeitpunkt oder perfektes Timing mit weniger Funken?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_216",
+      "text": "Würdest du lieber der Erste sein, der „Ich liebe dich“ sagt, oder warten, bis Sie sich ganz sicher sind?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_217",
+      "text": "Würdest du lieber ein Date ohne Telefon oder ein Date ohne Smalltalk haben?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_218",
+      "text": "Würdest du lieber dein größtes Warnsignal enthüllen oder herausfinden, dass es bereits jeder weiß?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_219",
+      "text": "Würdest du lieber jemandes heimliche Schwärmerei oder jemandes ganz öffentliche Besessenheit sein?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_220",
+      "text": "Würdest du lieber eine dramatische Trennungsgeschichte oder keine Trennungsgeschichte, weil nie etwas Ernstes wurde?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_221",
+      "text": "Würdest du lieber mit jemandem ausgehen, der alles postet, oder mit jemandem, der überhaupt nichts postet?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_222",
+      "text": "Würdest du lieber mit jemandem zusammen sein, der völlig spontan ist, oder mit jemandem, der zutiefst konsequent ist?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_223",
+      "text": "Würdest du lieber Passwörter oder Standorte teilen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_224",
+      "text": "Würdest du lieber einen Liebesbrief von der falschen Person oder eine Ein-Wort-Textnachricht von der richtigen Person erhalten?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_225",
+      "text": "Würdest du lieber, dass dein Schwarm deine schlechteste Sprachnotiz hört oder dein schlechtestes Selfie sieht?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_226",
+      "text": "Würdest du lieber persönlich flirten oder gut SMS schreiben können?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_227",
+      "text": "Würdest du lieber immer wissen, ob ein Date auf Sie steht, oder immer wissen, ob es deine Zeit verschwendet?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_228",
+      "text": "Würden Sie lieber eine Beziehung mit intensiver Leidenschaft und Chaos oder eine ruhige Liebe mit weniger Feuerwerk führen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_229",
+      "text": "Würdest du lieber derjenige sein, der sich mehr darum kümmert, oder derjenige, der es zuerst zugibt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_230",
+      "text": "Würdest du lieber herausfinden, dass ein Freund deinen Schwarm mag oder dass dein Schwarm deinen Freund mag?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_231",
+      "text": "Würdest du lieber mit jemandem ausgehen, der jedermanns Typ ist, oder mit jemandem, den nur du verstehst?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_232",
+      "text": "Würdest du lieber, dass deine Situation die Beziehung definiert oder für immer verschwindet?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_233",
+      "text": "Würdest du lieber einen Abschluss von einem Ex oder eine Entschuldigung von jemandem erhalten, mit dem Sie nie ausgegangen sind?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_234",
+      "text": "Würdest du lieber einen perfekten Kuss ohne Zukunft oder einen ungeschickten Anfang, der zu echter Liebe wird?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_235",
+      "text": "Würdest du lieber sofort die grünen Flaggen oder die roten Flaggen einer Person sehen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_236",
+      "text": "Würden Sie lieber mit Selbstvertrauen flirten und scheitern oder lieber cool bleiben und deine Chance verpassen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_237",
+      "text": "Würdest du lieber jedes erste Date filmen oder jede Trennung von deinen Freunden Revue passieren lassen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_238",
+      "text": "Würdest du lieber mit jemandem ausgehen, der sich an jedes Detail erinnert, oder mit jemandem, der Sie ständig überrascht?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_239",
+      "text": "Würdest du lieber eine Woche lang mit deinem Ex zusammen sein oder fünf Blind Dates hintereinander machen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_240",
+      "text": "Sollen lieber deine Freunde dein nächstes Date aussuchen oder dein Suchverlauf?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_241",
+      "text": "Würdest du lieber lautstark in der Öffentlichkeit oder privat auf eine Weise geliebt werden, die nur Sie bemerken?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_242",
+      "text": "Würdest du lieber immer der Herzensbrecher oder immer der hoffnungslose Romantiker sein?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_243",
+      "text": "Würdest du lieber einen Partner haben, der zu anhänglich oder zu geheimnisvoll ist?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_244",
+      "text": "Würdest du lieber herausfinden, dass jemand ein Lied über Sie geschrieben hat oder eine lange Notiz über Sie geschrieben hat?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_245",
+      "text": "Würdest du lieber eine „Wir müssen reden“-SMS erhalten oder versehentlich eine an die falsche Person senden?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_246",
+      "text": "Würdest du lieber mit jemandem ausgehen, der jedes Detail plant, oder mit jemandem, der alles improvisiert?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_247",
+      "text": "Hätten Sie lieber eine unbestreitbare Chemie mit Ihrem Gegenüber oder eine angenehme Chemie mit jemandem wie Ihnen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_248",
+      "text": "Würdest du lieber beim Einstudieren eines Geständnisses oder beim Üben einer Trennungsrede erwischt werden?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_249",
+      "text": "Würdest du lieber, dass dein alter Schwarm Ihnen plötzlich eine SMS schreibt oder dass dein aktueller Schwarm Ihnen plötzlich nicht mehr folgt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_250",
+      "text": "Würdest du lieber immer zu schnell fallen oder deine Gefühle immer zu spät erkennen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_251",
+      "text": "Würdest du lieber die Person sein, für die sich jemand verändert, oder die Person, über die jemand nicht hinwegkommt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_252",
+      "text": "Würdest du lieber einen Partner haben, der mit Worten oder Taten erstaunlich ist?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_253",
+      "text": "Würdest du lieber mit jemandem ausgehen, der dich ständig zum Lachen bringt, oder mit jemandem, der dir völlige Ruhe gibt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_254",
+      "text": "Würdest du lieber wissen, ob dein Schwarm von Ihnen träumt oder ob er über Sie spricht?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_255",
+      "text": "Würdest du lieber die erste Nachricht senden oder den ersten Schritt persönlich machen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_256",
+      "text": "Würdest du lieber drei Monate lang eine geheime Beziehung führen oder eine öffentliche Beziehung, die jeder kommentiert?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_257",
+      "text": "Würdest du deinen Flirtstil lieber von deinen Freunden oder deinen SMS-Stil von Ihrem Schwarm bewerten lassen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_258",
+      "text": "Würdest du lieber der Rebound sein, der ernst wird, oder der, den sie nie vergessen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_259",
+      "text": "Würdest du lieber mit jemandem ausgehen, der genau deinen Humor oder genau deinen Ehrgeiz hat?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_260",
+      "text": "Lieber in jemanden verknallt sein, den du nicht haben kannst, oder dass so jemand in dich verknallt ist?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_261",
+      "text": "Würdest du lieber ein betrunkenes Geständnis oder eine nüchterne Nachricht erhalten, deren Schreiben eine Woche gedauert hat?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_262",
+      "text": "Würdest du lieber, dass jedes Date mit einem intensiven Gespräch oder einer lächerlichen Geschichte endet?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_263",
+      "text": "Würdest du lieber mit jemandem zusammen sein, der Sie herausfordert, oder mit jemandem, der Sie verehrt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_264",
+      "text": "Würdest du lieber ein kleines Geheimnis bewahren oder alles sofort wissen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_265",
+      "text": "Würdest du lieber einen Partner haben, der mit deinen Freunden am besten befreundet ist, oder einen, der deine Welt getrennt hält?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_266",
+      "text": "Würdest du lieber mit jemandem ausgehen, der niemals eifersüchtig wird, oder mit jemandem, der es ehrlich zugibt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_267",
+      "text": "Würdest du lieber einen intensiven Blickkontakt oder eine perfekt getimte Handberührung haben?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_268",
+      "text": "Würdest du lieber erwischt werden, wie Sie Hochzeitsideen zu früh speichern oder eine Dating-App zu spät löschen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_269",
+      "text": "Würdest du lieber eine flirtende Freundschaft führen, aus der nie mehr wird, oder eine Beziehung, die mit unangenehmem Flirten beginnt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_270",
+      "text": "Würdest du lieber persönlich eine gesendete Nachricht rückgängig machen oder einen Satz rückgängig machen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_271",
+      "text": "Würdest du lieber, dass dein bester Freund deinen Schwarm gutheißt oder dass dein Schwarm deinen besten Freund gutheißt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_272",
+      "text": "Würdest du lieber mit jemandem ausgehen, der Aufmerksamkeit liebt, oder mit jemandem, der sie komplett vermeidet?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_273",
+      "text": "Würdest du lieber der Grund dafür sein, dass jemand sein Telefon anlächelt, oder der Grund dafür, dass er sich den ganzen Tag nicht konzentrieren kann?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_274",
+      "text": "Würdest du lieber ein romantisches Abendessen mit unangenehmer Stille oder einen chaotischen Abend mit erstaunlicher Energie?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_275",
+      "text": "Würdest du lieber mit einer großen Geste oder einem einfachen, ehrlichen Satz um ein Date gebeten werden?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_276",
+      "text": "Würdest du lieber eine Beziehung haben, um die Sie alle beneiden oder die niemand außer Ihnen versteht?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_277",
+      "text": "Würdest du lieber nie erfahren, wer in Sie verknallt war, oder es wissen und nichts dagegen tun können?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_278",
+      "text": "Würdest du Ihrem Schwarm lieber eine Sprachnachricht senden oder Ihrem Ex eine Sprachnachricht hinterlassen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_279",
+      "text": "Würdest du lieber, dass dein Partner einen Tag lang deine Gedanken liest oder eine Minute lang deine Notizen-App liest?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_de_280",
+      "text": "Wärst du lieber jemandes sichere Wahl oder die riskante Wahl, die reizt?",
+      "intensity": "spicy",
+      "minAge": 18
     }
   ]
 }

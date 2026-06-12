@@ -1,1009 +1,1687 @@
 {
   "gameId": "would-you-rather",
   "locale": "ja",
-  "version": 1,
+  "version": 2,
   "prompts": [
     {
       "id": "wyr_ja_001",
+      "text": "友達と集まるたびにお菓子が食べ放題なのと、いつも音楽を選べるの、どっちがいい？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "一生ラーメン無料、それとも一生寿司無料？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_002",
+      "text": "常に完璧な駐車場を見つけたいと思いますか? それとも、もう列に並ぶ必要はありませんか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "どこでも瞬間移動、それとも時間を10分戻せる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_003",
+      "text": "完璧な髪で目覚めたいですか、それとも常に 1 分で完璧な服を選びたいですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "猫と話せる、それとも犬と話せる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_004",
+      "text": "永久に無料のコーヒーを飲みたいですか、それとも永久に無料のデザートを飲みたいですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "一日だけ透明人間、それとも一日だけ空を飛べる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_005",
+      "text": "カラオケですごい人になるのと、ボードゲームで無敵になるのと、どちらが好きですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "毎朝完璧に起きられる、それとも夜更かししても疲れない？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_006",
+      "text": "ビーチの隣に住みたいですか、それともお気に入りの街の真ん中に住みたいですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "カラオケで必ず高得点、それともどんな料理も作れる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_007",
+      "text": "常にフル充電された携帯電話を使用するのと、常に完璧な Wi-Fi を使用するのとではどちらが良いでしょうか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "終電を絶対逃さない、それとも旅行先で迷わない？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_008",
+      "text": "二度と鍵をなくさないほうがいいですか、それとも部屋に入った理由を忘れないほうがいいですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "スマホの充電が無限、それとも写真写りが常に最高？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_009",
+      "text": "イベント後に職場にテレポートできるのと、家にテレポートできるのとどちらがよいでしょうか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "一生ラーメン無料、それとも一生寿司無料？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_010",
+      "text": "朝食に専属のシェフを雇うのと、週末に専属の運転手を雇うのと、どちらを希望しますか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "どこでも瞬間移動、それとも時間を10分戻せる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_011",
+      "text": "1 年間コメディだけを見るのと、明るい音楽だけを 1 年間聞くのはどちらが良いですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "猫と話せる、それとも犬と話せる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_012",
+      "text": "試合の夜に毎回勝つのと、試合の夜にいつもみんなを笑わせたいと思いますか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "一日だけ透明人間、それとも一日だけ空を飛べる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_013",
+      "text": "素晴らしい景色を望む小さなアパートと、退屈な場所にある大きな家、どちらが好きですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "毎朝完璧に起きられる、それとも夜更かししても疲れない？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_014",
+      "text": "料理で有名になりたいですか、それともダンスで有名になりたいですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "カラオケで必ず高得点、それともどんな料理も作れる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_015",
+      "text": "メニューで最高のものを常に知っているのと、常に最高の映画を選択したいですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "終電を絶対逃さない、それとも旅行先で迷わない？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_016",
+      "text": "思いつきの日帰り旅行をしたいですか、それとも完璧な週末の計画を立てたいですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "スマホの充電が無限、それとも写真写りが常に最高？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_017",
+      "text": "自動的にスタイルが決まるクローゼットと、自動的に補充される冷蔵庫のどちらが良いでしょうか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "一生ラーメン無料、それとも一生寿司無料？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_018",
+      "text": "もう洗濯をしないほうがいいですか、あるいは食器を洗わないほうがいいですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "どこでも瞬間移動、それとも時間を10分戻せる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_019",
+      "text": "常にピザの最後のスライスを手に入れるのと、常に最高の席に座るのとではどちらが良いでしょうか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "猫と話せる、それとも犬と話せる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_020",
+      "text": "騒がしい場所を一瞬でミュートできるボタンと、気まずい雑談をスキップできるボタン、どっちが欲しい？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "一日だけ透明人間、それとも一日だけ空を飛べる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_021",
+      "text": "どこでも昼寝ができるのと、毎朝すぐにリフレッシュして目覚めることのどちらが好きですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "毎朝完璧に起きられる、それとも夜更かししても疲れない？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_022",
+      "text": "休日は常に完璧な天気に恵まれたいと思いますか? それとも、遅くなっても渋滞に巻き込まれないほうが良いでしょうか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "カラオケで必ず高得点、それともどんな料理も作れる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_023",
+      "text": "永久に無料のコンサートチケットを手に入れたいですか、それとも永久に無料の映画チケットを手に入れたいですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "終電を絶対逃さない、それとも旅行先で迷わない？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_024",
+      "text": "写真を撮るのが得意ですか、それとも写真に映るのが得意ですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "スマホの充電が無限、それとも写真写りが常に最高？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_025",
+      "text": "名前を常に覚えているのと、誕生日を常に覚えているのとではどちらが良いでしょうか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "一生ラーメン無料、それとも一生寿司無料？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_026",
+      "text": "秘密の部屋のある家と屋上のたまり場のある家、どちらが好きですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "どこでも瞬間移動、それとも時間を10分戻せる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_027",
+      "text": "電車だけで旅行したいですか、それともドライブ旅行だけしたいですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "猫と話せる、それとも犬と話せる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_028",
+      "text": "エレベーターのない生活とエスカレーターのない生活、どちらがいいですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "一日だけ透明人間、それとも一日だけ空を飛べる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_029",
+      "text": "常に完璧なカムバックをしたいですか、それともプレッシャーの下でも常に冷静でいたいですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "毎朝完璧に起きられる、それとも夜更かししても疲れない？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_030",
+      "text": "友達グループで一番料理がうまい人になるのと、一番話が面白い人になるの、どっちがいい？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "カラオケで必ず高得点、それともどんな料理も作れる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_031",
+      "text": "恥ずかしい瞬間には巻き戻しボタンが欲しいですか、それとも完璧な瞬間には一時停止ボタンが欲しいですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "終電を絶対逃さない、それとも旅行先で迷わない？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_032",
+      "text": "お気に入りの色だけを永遠に着たいですか、それとも同じ服を着ないほうがいいですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "スマホの充電が無限、それとも写真写りが常に最高？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_033",
+      "text": "無制限の本と無制限のゲームのどちらを希望しますか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "一生ラーメン無料、それとも一生寿司無料？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_034",
+      "text": "どんなレシピでもすぐに覚えられるほうがいいですか、それともどんな曲でもすぐに覚えられるほうがいいですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "どこでも瞬間移動、それとも時間を10分戻せる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_035",
+      "text": "常にデザートを食べる余地があるほうがいいですか、それとも満腹感を感じないほうがいいですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "猫と話せる、それとも犬と話せる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_036",
+      "text": "すべてのパーティーを主催するのと、すべてのパーティーに招待されるのとではどちらが良いでしょうか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "一日だけ透明人間、それとも一日だけ空を飛べる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_037",
+      "text": "巨大なキッチンと巨大なゲームルームのある家とどちらが好きですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "毎朝完璧に起きられる、それとも夜更かししても疲れない？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_038",
+      "text": "1 週間は音声メモのみを使用しますか、それとも絵文字のみを使用しますか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "カラオケで必ず高得点、それともどんな料理も作れる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_039",
+      "text": "何事にも早く到着するのと、毎回時間通りに到着するのとではどちらが良いでしょうか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "終電を絶対逃さない、それとも旅行先で迷わない？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_040",
+      "text": "顔と道順を完璧に記憶したいと思いませんか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "スマホの充電が無限、それとも写真写りが常に最高？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_041",
+      "text": "コマーシャルを一時停止したり、雑務をスキップしたりしたいと思いませんか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "一生ラーメン無料、それとも一生寿司無料？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_042",
+      "text": "いつも古いポケットからお金を見つけ出すのと、いつも驚きの割引を受けたいですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "どこでも瞬間移動、それとも時間を10分戻せる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_043",
+      "text": "夢のベッドルームと夢のキッチン、どちらを持ちたいですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "猫と話せる、それとも犬と話せる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_044",
+      "text": "飲み物や軽食を完璧に作れるようになりたいと思いませんか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "一日だけ透明人間、それとも一日だけ空を飛べる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_045",
+      "text": "傘を必要としない、または日焼け止めを必要としない方が良いと思いますか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "毎朝完璧に起きられる、それとも夜更かししても疲れない？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_046",
+      "text": "毎朝 1 時間余分に過ごしたいですか、それとも毎晩 1 時間余分に過ごしたいですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "カラオケで必ず高得点、それともどんな料理も作れる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_047",
+      "text": "パン屋の上に住むのと映画館の隣に住むのはどちらがいいですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "終電を絶対逃さない、それとも旅行先で迷わない？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_048",
+      "text": "常にレストランを選択するのと、常にアクティビティを選択するのはどちらが良いでしょうか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "スマホの充電が無限、それとも写真写りが常に最高？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_049",
+      "text": "あらゆる気分に合わせた個人的なプレイリストや、あらゆる計画に最適な服装を持ちたいですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "一生ラーメン無料、それとも一生寿司無料？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_050",
+      "text": "最高のアドバイスをくれる友達になるのと、最高のお菓子を持ってくる友達になるの、どっちがいい？",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "どこでも瞬間移動、それとも時間を10分戻せる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_051",
+      "text": "夕食には朝食用の食べ物だけを食べますか、それとも朝食には夕食用の食べ物を食べますか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "猫と話せる、それとも犬と話せる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_052",
+      "text": "デバイスを充電したり、アプリを更新したりしたくないですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "一日だけ透明人間、それとも一日だけ空を飛べる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_053",
+      "text": "完璧な手書きのスキルと、完璧なギフト包装のスキルのどちらが欲しいですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "毎朝完璧に起きられる、それとも夜更かししても疲れない？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_054",
+      "text": "部屋をすぐに掃除したいですか、それとも携帯電話の写真をすぐに整理したいですか?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "カラオケで必ず高得点、それともどんな料理も作れる？"
+      "minAge": 4
     },
     {
       "id": "wyr_ja_055",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "終電を絶対逃さない、それとも旅行先で迷わない？"
+      "text": "常に新鮮なシーツを使用するのと、常に新鮮なタオルを使用するのとではどちらが良いでしょうか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_056",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "スマホの充電が無限、それとも写真写りが常に最高？"
+      "text": "トリビアで無敵になりたいですか、それともシャレードで無敵になりたいですか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_057",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "一生ラーメン無料、それとも一生寿司無料？"
+      "text": "眺めの良いバルコニーとパーティー用のリビングルームどちらがいいですか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_058",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "どこでも瞬間移動、それとも時間を10分戻せる？"
+      "text": "二度と飲み物をこぼしたり、携帯電話を落としたりしたくないと思いませんか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_059",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "猫と話せる、それとも犬と話せる？"
+      "text": "夢をいつも覚えているほうがいいですか、それとも悪夢を見ないほうがいいですか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_060",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "一日だけ透明人間、それとも一日だけ空を飛べる？"
+      "text": "年に 1 回の無料航空券と、年 2 回の無料ホテルのどちらを希望しますか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_061",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "毎朝完璧に起きられる、それとも夜更かししても疲れない？"
+      "text": "新しい言語を一晩で流暢に話せるようになるのと、新しい楽器を一晩でマスターするのとではどちらが良いでしょうか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_062",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "カラオケで必ず高得点、それともどんな料理も作れる？"
+      "text": "写真に最適な照明を常に使用したいですか、それとも写真中に瞬きをしないほうがいいですか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_063",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "終電を絶対逃さない、それとも旅行先で迷わない？"
+      "text": "毎月サプライズ休暇を取得したいですか、それとも毎年サプライズ休暇を取得したいですか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_064",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "スマホの充電が無限、それとも写真写りが常に最高？"
+      "text": "小文字のテキストのみを使用しますか、それとも完全な句読点を含むテキストのみを使用しますか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_065",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "一生ラーメン無料、それとも一生寿司無料？"
+      "text": "居心地の良いキャビンでの週末と、忙しい都会での週末のどちらを過ごしたいですか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_066",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "どこでも瞬間移動、それとも時間を10分戻せる？"
+      "text": "センスの良さで知られるのと、ユーモアで知られるの、どっちがいい？",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_067",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "猫と話せる、それとも犬と話せる？"
+      "text": "常に最速のチェックアウト列を選択するのと、常にすぐにエレベーターに乗るのとではどちらが良いでしょうか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_068",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "一日だけ透明人間、それとも一日だけ空を飛べる？"
+      "text": "携帯電話のストレージが不足したり、バッテリーが不足したりしたくないですか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_069",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "毎朝完璧に起きられる、それとも夜更かししても疲れない？"
+      "text": "どの部屋も完璧に装飾したり、スーツケースを完璧に梱包したりしたいと思いませんか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_070",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "カラオケで必ず高得点、それともどんな料理も作れる？"
+      "text": "永遠に水だけを飲むのと、好きな飲み物を 1 つだけ永遠に飲むのとではどちらが良いでしょうか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_071",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "終電を絶対逃さない、それとも旅行先で迷わない？"
+      "text": "常に完璧な睡眠をとりたいですか、それとも常に良い気分で目覚めたいですか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_072",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "スマホの充電が無限、それとも写真写りが常に最高？"
+      "text": "あなたは、みんなからおすすめを尋ねられる人になりたいですか、それともみんなから旅行の計画を尋ねられる人になりたいですか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_073",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "一生ラーメン無料、それとも一生寿司無料？"
+      "text": "常に正確な個人用天気予報と、自動的に計画を立ててくれるカレンダーのどちらがよいでしょうか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_074",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "どこでも瞬間移動、それとも時間を10分戻せる？"
+      "text": "バスルームやキッチンの掃除をしたくないと思いますか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_075",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "猫と話せる、それとも犬と話せる？"
+      "text": "パン作りが得意ですか、それともグリルが得意ですか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_076",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "一日だけ透明人間、それとも一日だけ空を飛べる？"
+      "text": "年に一度最前列の席を手に入れるのと、毎回VIPの軽食を手に入れるのとどちらがいいでしょうか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_077",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "毎朝完璧に起きられる、それとも夜更かししても疲れない？"
+      "text": "常に最高の隠れ家カフェを見つけるのと、常に最高の視点を見つけるのはどちらが良いでしょうか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_078",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "カラオケで必ず高得点、それともどんな料理も作れる？"
+      "text": "完璧な服装で一週間過ごすのと、完璧な食事で一週間過ごすのとどちらがいいでしょうか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_079",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "終電を絶対逃さない、それとも旅行先で迷わない？"
+      "text": "生涯分の靴を獲得するのと、生涯分のヘッドフォンを獲得したいのはどちらですか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_080",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "スマホの充電が無限、それとも写真写りが常に最高？"
+      "text": "歌詞を常に知っているほうがいいですか、それともダンスを常に知っているほうがいいですか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_081",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "一生ラーメン無料、それとも一生寿司無料？"
+      "text": "技術的な問題を解決したり、指示なしで家具を組み立てたりできるようになりたいですか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_082",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "どこでも瞬間移動、それとも時間を10分戻せる？"
+      "text": "決して重くならない魔法のバックパックと、自動的に荷物が詰め込まれるスーツケースのどちらが欲しいですか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_083",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "猫と話せる、それとも犬と話せる？"
+      "text": "いつも髪がきれいな日を過ごしたいですか、それとも肌がいつもきれいな日を過ごしたいですか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_084",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "一日だけ透明人間、それとも一日だけ空を飛べる？"
+      "text": "最高のグループセルフィーを撮りたいですか?それとも最高のグループ計画を立てますか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_085",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "毎朝完璧に起きられる、それとも夜更かししても疲れない？"
+      "text": "退屈なタスクを 1 日に 1 つスキップできるのと、1 日に 1 つ楽しいサプライズが得られるのとではどちらが良いでしょうか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_086",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "カラオケで必ず高得点、それともどんな料理も作れる？"
+      "text": "終わらない夏と終わらない快適な気候のどちらに住みたいですか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_087",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "終電を絶対逃さない、それとも旅行先で迷わない？"
+      "text": "オンラインに広告を掲載したり、スパム メッセージを受信したりしたくないですか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_088",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "スマホの充電が無限、それとも写真写りが常に最高？"
+      "text": "常に優れたユーザー名を選択するのと、常に優れたキャプションを作成するのとではどちらが良いでしょうか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_089",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "一生ラーメン無料、それとも一生寿司無料？"
+      "text": "あなたはプレゼントのラッピングが一番上手になりたいですか、それともプレゼントを選ぶのが一番得意になりたいですか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_090",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "どこでも瞬間移動、それとも時間を10分戻せる？"
+      "text": "家で無制限に映画鑑賞するのと、無制限に外でブランチを楽しむのとどちらがいいですか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_091",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "猫と話せる、それとも犬と話せる？"
+      "text": "小さなプライベートガーデンと巨大な共有屋上、どちらがいいですか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_092",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "一日だけ透明人間、それとも一日だけ空を飛べる？"
+      "text": "ずっと小さなスプーンだけを使うのと、いつも小さなカップで飲むのとどちらがいいですか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_093",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "毎朝完璧に起きられる、それとも夜更かししても疲れない？"
+      "text": "部屋を居心地よくしたり、プレイリストを完璧にしたりしたいと思いませんか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_094",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "カラオケで必ず高得点、それともどんな料理も作れる？"
+      "text": "常に正しい充電器を使用するのと、常に正しいパスワードを使用するのとではどちらが良いでしょうか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_095",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "終電を絶対逃さない、それとも旅行先で迷わない？"
+      "text": "パスワードを絶対に忘れないほうがいいですか、それとも駐車した場所を絶対に忘れないほうがいいですか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_096",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "スマホの充電が無限、それとも写真写りが常に最高？"
+      "text": "完璧に整理されたクローゼットと完璧に整理されたカメラロールのどちらが良いでしょうか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_097",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "一生ラーメン無料、それとも一生寿司無料？"
+      "text": "トレンドを最初に試すのと、最後に飽きるのはどちらが好きですか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_098",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "どこでも瞬間移動、それとも時間を10分戻せる？"
+      "text": "レストランでいつでもテーブルを利用できるようにしたいですか、それとも常に無料のデザートを食べたいですか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_099",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "猫と話せる、それとも犬と話せる？"
+      "text": "個人的な誇大宣伝ソングと個人的なエントランスライトのどちらが良いでしょうか?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_100",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "一日だけ透明人間、それとも一日だけ空を飛べる？"
+      "text": "第一印象が最高な人になるのと、別れ際のハグが最高な人になるの、どっちがいい？",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ja_101",
+      "text": "みんなに尊敬されるのと、少人数に深く理解されるの、どっちがいい？",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "毎朝完璧に起きられる、それとも夜更かししても疲れない？"
+      "minAge": 13
     },
     {
       "id": "wyr_ja_102",
+      "text": "誰かが嘘をついているときはそれが分かるのと、真実を言えば常に信じてもらえるのとではどちらが良いでしょうか?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "カラオケで必ず高得点、それともどんな料理も作れる？"
+      "minAge": 13
     },
     {
       "id": "wyr_ja_103",
+      "text": "低賃金で夢のような仕事に就くのと、驚くほどの給料で退屈な仕事に就くのとではどちらが良いでしょうか?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "終電を絶対逃さない、それとも旅行先で迷わない？"
+      "minAge": 13
     },
     {
       "id": "wyr_ja_104",
+      "text": "一人で海外に移住したいですか、それとも故郷にずっと留まりたいですか?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "スマホの充電が無限、それとも写真写りが常に最高？"
+      "minAge": 13
     },
     {
       "id": "wyr_ja_105",
+      "text": "あなたは、その場で最も賢い人になるのと、みんなが最も信頼する人になるのとではどちらが良いでしょうか?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "一生ラーメン無料、それとも一生寿司無料？"
+      "minAge": 13
     },
     {
       "id": "wyr_ja_106",
+      "text": "常に真実を知っているほうがいいですか、それとも常に正しいことを言っているのかを知っているほうがいいですか?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "どこでも瞬間移動、それとも時間を10分戻せる？"
+      "minAge": 13
     },
     {
       "id": "wyr_ja_107",
+      "text": "忠実な友人からなる少数のグループと、カジュアルな友人からなる巨大なネットワークのどちらが良いでしょうか?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "猫と話せる、それとも犬と話せる？"
+      "minAge": 13
     },
     {
       "id": "wyr_ja_108",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "一日だけ透明人間、それとも一日だけ空を飛べる？"
+      "text": "あなたは優しさで記憶に残るのと、野心で記憶に残るのとではどちらが良いでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_109",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "毎朝完璧に起きられる、それとも夜更かししても疲れない？"
+      "text": "早く成功して燃え尽きてしまうのと、ゆっくり成功してその過程を楽しむのとではどちらが良いでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_110",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "カラオケで必ず高得点、それともどんな料理も作れる？"
+      "text": "すべての間違いを忘れてもらいたいですか、それともすべての善行を覚えていてほしいですか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_111",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "終電を絶対逃さない、それとも旅行先で迷わない？"
+      "text": "完璧な一日をもう一度体験したいですか、それともひどい一日を消し去りたいですか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_112",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "スマホの充電が無限、それとも写真写りが常に最高？"
+      "text": "すぐに許せるほうがいいですか、それとも二度と騙されないほうがいいですか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_113",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "一生ラーメン無料、それとも一生寿司無料？"
+      "text": "もっと自信を持つべきですか、それとももっと規律を持つべきですか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_114",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "どこでも瞬間移動、それとも時間を10分戻せる？"
+      "text": "人々があなたのことを最初にどう思うか、あるいはあなたが去った後に彼らが何を言うかを知りたいと思いませんか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_115",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "猫と話せる、それとも犬と話せる？"
+      "text": "あなたは、今の自分で愛されるのと、将来の自分で賞賛されるのとではどちらが良いでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_116",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "一日だけ透明人間、それとも一日だけ空を飛べる？"
+      "text": "好きなことでいつも忙しいのと、いつも自由な時間はあるのに退屈を感じるのと、どちらを好みますか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_117",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "毎朝完璧に起きられる、それとも夜更かししても疲れない？"
+      "text": "大きなチャンスを 1 つだけ掴んですべてを賭けるのと、小さなチャンスをたくさん抱えてゆっくりと前進するのと、どちらを選びますか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_118",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "カラオケで必ず高得点、それともどんな料理も作れる？"
+      "text": "5年間有名になるのと、一生尊敬されるのとどちらがいいでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_119",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "終電を絶対逃さない、それとも旅行先で迷わない？"
+      "text": "すべての写真またはすべてのメッセージを失ったほうがよいでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_120",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "スマホの充電が無限、それとも写真写りが常に最高？"
+      "text": "検索履歴を公開したいですか、それともカメラロールを公開したいですか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_121",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "一生ラーメン無料、それとも一生寿司無料？"
+      "text": "常に自分の考えを言うのと、常に平和を保つのとではどちらが良いでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_122",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "どこでも瞬間移動、それとも時間を10分戻せる？"
+      "text": "あなたには、残酷なまでに正直な友人と、絶えず協力してくれる友人のどちらがいいでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_123",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "猫と話せる、それとも犬と話せる？"
+      "text": "あなたは、すべてのグループのプランナーになりたいですか、それともまったく計画を立てる必要のない人になりたいですか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_124",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "一日だけ透明人間、それとも一日だけ空を飛べる？"
+      "text": "あなたは深い会話が得意ですか、それとも人々を快適にさせるのが得意ですか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_125",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "毎朝完璧に起きられる、それとも夜更かししても疲れない？"
+      "text": "自分の人生がどこに向かっているのかを正確に知りたいですか、それともそれに驚かされたいですか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_126",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "カラオケで必ず高得点、それともどんな料理も作れる？"
+      "text": "ソーシャル メディアを 1 年間やめるか、ストリーミングを 1 年間やめるか、どちらを選びますか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_127",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "終電を絶対逃さない、それとも旅行先で迷わない？"
+      "text": "給与が得られる1年間の休暇と、本当に望む昇進のどちらを希望しますか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_128",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "スマホの充電が無限、それとも写真写りが常に最高？"
+      "text": "常に過小評価されるのと常に過大評価されるのとどちらが良いでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_129",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "一生ラーメン無料、それとも一生寿司無料？"
+      "text": "あなたの最大の目標と最大の恐怖をみんなに知ってもらいたいですか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_130",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "どこでも瞬間移動、それとも時間を10分戻せる？"
+      "text": "キャリアをやり直すのと、友情をもう一度やり直すのと、どちらがいいでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_131",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "猫と話せる、それとも犬と話せる？"
+      "text": "あなたは、危機のときに人々から電話を受ける人になりたいですか、それともお祝いのために電話をかけられる人になりたいですか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_132",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "一日だけ透明人間、それとも一日だけ空を飛べる？"
+      "text": "恥ずかしいと感じたり、嫉妬したりしたくないと思いませんか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_133",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "毎朝完璧に起きられる、それとも夜更かししても疲れない？"
+      "text": "いつでも好きな時に 1 つのメモリを削除したり、1 つのメモリを再生したりできますか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_134",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "カラオケで必ず高得点、それともどんな料理も作れる？"
+      "text": "すべての映画の結末を知りたいですか、それともすべての決断の結果を知りたいですか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_135",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "終電を絶対逃さない、それとも旅行先で迷わない？"
+      "text": "見知らぬ人たちから完璧な評判を得たいと思いますか、それとも友人たちに対して真の誠実さを保ちたいと思いますか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_136",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "スマホの充電が無限、それとも写真写りが常に最高？"
+      "text": "常に議論に勝つのと、常に平和な気分で議論を終えるのとではどちらが良いでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_137",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "一生ラーメン無料、それとも一生寿司無料？"
+      "text": "あなたはお金を稼ぐのが得意ですか、それともお金の管理が得意ですか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_138",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "どこでも瞬間移動、それとも時間を10分戻せる？"
+      "text": "賢い人に将来の計画を立ててもらうのと、何のアドバイスも受けずに自分ですべてを選択するのとではどちらが良いでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_139",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "猫と話せる、それとも犬と話せる？"
+      "text": "あなたは、グループの中で一番面白い人になりたいですか、それとも危機のときに最も穏やかな人になりたいですか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_140",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "一日だけ透明人間、それとも一日だけ空を飛べる？"
+      "text": "今すぐ 1 つの夢が叶うのと、時間が経てば 5 つの小さな夢が叶うのとではどちらが良いでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_141",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "毎朝完璧に起きられる、それとも夜更かししても疲れない？"
+      "text": "一人の人物を完全に読めるようになりたいですか、それとも群衆を完全に理解できるようになりたいですか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_142",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "カラオケで必ず高得点、それともどんな料理も作れる？"
+      "text": "すべてのエンディングでクロージャを得たいですか、それとも 1 つのエンディングで 2 回目のチャンスを得たいですか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_143",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "終電を絶対逃さない、それとも旅行先で迷わない？"
+      "text": "あなたは、神秘的であると知られるのと、完全に透明であると知られるのとでは、どちらを好みますか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_144",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "スマホの充電が無限、それとも写真写りが常に最高？"
+      "text": "人々に感動を与える仕事と、平和を感じる人生、どちらが好きですか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_145",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "一生ラーメン無料、それとも一生寿司無料？"
+      "text": "欠点があってもとことん義理堅い人になるのと、欠点があっても自立した人になるの、どっちがいい？",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_146",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "どこでも瞬間移動、それとも時間を10分戻せる？"
+      "text": "常に始める勇気と、終わらせる忍耐、どちらを持ちたいですか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_147",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "猫と話せる、それとも犬と話せる？"
+      "text": "あなたは完璧に謝ることができるのと、恐れることなく誰かに立ち向かうことができるのとではどちらが良いでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_148",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "一日だけ透明人間、それとも一日だけ空を飛べる？"
+      "text": "最大の失敗をオンラインで永遠に公開するのと、最大の秘密をグループ チャットで保存するのと、どちらを好みますか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_149",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "毎朝完璧に起きられる、それとも夜更かししても疲れない？"
+      "text": "よりプライバシーのある過去に生きるのと、より便利な未来に生きるのとではどちらが良いでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_150",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "カラオケで必ず高得点、それともどんな料理も作れる？"
+      "text": "あなたは、常に責任を負う人間でありたいと思いますか、それとも決して責任を負って信頼されないほうが良いでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_151",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "終電を絶対逃さない、それとも旅行先で迷わない？"
+      "text": "自分が下した 1 つの決定を変更できるようにしたいですか、それとも、ほぼ下した決定を 1 つ確認できるようにしたいですか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_152",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "スマホの充電が無限、それとも写真写りが常に最高？"
+      "text": "快適ゾーンを失うのと、野心を失うのとではどちらが良いでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_153",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "一生ラーメン無料、それとも一生寿司無料？"
+      "text": "遠くから賞賛されるのと、近くで愛されるのと、どちらが好きですか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_154",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "どこでも瞬間移動、それとも時間を10分戻せる？"
+      "text": "自分を他の人と比較したり、他の人が何を考えているか気にしたりしない方が良いと思いますか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_155",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "猫と話せる、それとも犬と話せる？"
+      "text": "悪い決断をする前に警告を受け取るのと、勇敢な決断をした後に報酬を受け取るのとではどちらが良いでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_156",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "一日だけ透明人間、それとも一日だけ空を飛べる？"
+      "text": "誰かを笑わせたり、安心させたりすることができればどちらが良いでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_157",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "毎朝完璧に起きられる、それとも夜更かししても疲れない？"
+      "text": "完璧な記憶力と、完璧に前進する能力、どちらが欲しいでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_158",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "カラオケで必ず高得点、それともどんな料理も作れる？"
+      "text": "1 年かけて体を鍛えるのと、心を鍛えるのはどっちがいいですか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_159",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "終電を絶対逃さない、それとも旅行先で迷わない？"
+      "text": "あなたは静かな物語の主人公になりたいですか、それとも壮大な物語の脇役になりたいですか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_160",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "スマホの充電が無限、それとも写真写りが常に最高？"
+      "text": "誰かが辞めた理由を知りたいですか、それとも知らないで早く治したいですか?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ja_161",
+      "text": "自分の感情に対して常に正直でありたいと思いますか、それとも他の人の感情を常に守りたいと思いますか?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "保存したミーム全部を失うか、プレイリスト全部を失うか？"
+      "minAge": 13
     },
     {
       "id": "wyr_ja_162",
+      "text": "無限のモチベーションと無限の忍耐、どちらを持ちたいですか?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "すべての誤字が公開されるか、下書きが全部自動送信されるか？"
+      "minAge": 13
     },
     {
       "id": "wyr_ja_163",
+      "text": "危険信号を瞬時に発見できるほうがいいでしょうか、それとも隠れた可能性を瞬時に見出せるほうがいいでしょうか?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "踊ってバズるか、転んでバズるか？"
+      "minAge": 13
     },
     {
       "id": "wyr_ja_164",
+      "text": "過去の関係を修復することと、将来の間違いを防ぐこと、どちらができますか?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "GIFだけで会話するか、ボイスメッセージだけで会話するか？"
+      "minAge": 13
     },
     {
       "id": "wyr_ja_165",
+      "text": "常に快適さを選択しますか、それとも常に成長を選択しますか?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "無限バッテリーか、一生完璧なWi-Fiか？"
+      "minAge": 13
     },
     {
       "id": "wyr_ja_166",
+      "text": "あなたは、自分に挑戦してくれる人に囲まれたいですか、それとも、自分を慰めてくれる人に囲まれたいですか?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "毎回パーティーを主催するか、毎回片付けるか？"
+      "minAge": 13
     },
     {
       "id": "wyr_ja_167",
+      "text": "完璧な日常生活と、完璧な一生に一度の冒険のどちらが好きですか?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "毎回ルール説明係になるか、毎回ズルを疑われるか？"
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_168",
+      "text": "あなたは隠れて才能があるほうがいいですか、それとも公的に平均的であるほうがいいですか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_169",
+      "text": "承認を必要としないほうがいいですか、それとも常に励ましを受けたいですか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_170",
+      "text": "細かいことまで覚えている友達と、毎回現れる友達のどちらがいいでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_171",
+      "text": "どのような習慣でもすぐにやめられるのと、すぐに習慣を構築できるのとどちらが良いでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_172",
+      "text": "若い頃の自分に今の自分の人生を見てもらいたいですか、それとも未来の自分に一文を送ってもらいたいですか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_173",
+      "text": "あなたはグループを変える人になりたいですか、それともグループがより良い方向に変わる人になりたいですか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_174",
+      "text": "選択のコストを常に知っているのと、利点を常に知っているのとではどちらが良いでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_175",
+      "text": "1年間恐れ知らずでいるのと、残りの人生で賢明でいるのとではどちらがいいでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_176",
+      "text": "オンラインでエキサイティングに見える人生とオフラインでエキサイティングに感じる人生、どちらが好きですか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_177",
+      "text": "考えすぎるのをやめたいですか、それとも先延ばしをやめたいですか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_178",
+      "text": "あなたは、1 つの傑作で知られるのと、多くの堅実な取り組みで知られるのと、どちらを好みますか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_179",
+      "text": "すべてのドアは開いているが明確な方向性がない、または代替手段がない 1 つの明確な道を選択しますか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_180",
+      "text": "いつも先に許す人になるのと、いつも先に離れる人になるの、どっちがいい？",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_181",
+      "text": "あらゆる問題を解決してくれる指導者がいるのと、大変な毎日をサポートしてくれる友人がいるのとではどちらがいいでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_182",
+      "text": "明日の気分を予測できるようになりたいですか、それとも今日の気分を理解できるようになりたいですか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_183",
+      "text": "静かにお金持ちになるのと、公の場で影響力を持つようになりたいですか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_184",
+      "text": "孤独を感じたり、誤解されたりしたくないと思いませんか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_185",
+      "text": "すぐに人々を魅了できるようになりたいですか、それとも、誰が時間をかける価値があるかを即座に知ることができるようになりたいですか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_186",
+      "text": "あなたは、リスクを冒すことで知られることと、賢明な選択をすることで知られることのどちらを好みますか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_187",
+      "text": "常にバックアップ計画を立てておきたいですか、それともまったく必要としないほうがいいですか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_188",
+      "text": "悪い習慣を 1 つなくすか、それとも素晴らしいスキルを 1 つ身につけるか、どちらを選びますか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_189",
+      "text": "あなたは、驚きの少ない穏やかな人生と、忘れられない物語のある混沌とした人生のどちらを好みますか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_190",
+      "text": "人生で最高の瞬間をその瞬間が起こる前に知りたいですか、それとも後から知りたいですか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_191",
+      "text": "会話を始めるのが得意ですか、それとも会話を優雅に終わらせるのが得意ですか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_192",
+      "text": "あなたは常にアドバイスを与える人でありたいですか、それとも、それを勇敢に受け入れる人でありたいですか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_193",
+      "text": "みんなから遠く離れた夢のマイホームと、大切な人の近くにシンプルなマイホームを持ちたいですか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_194",
+      "text": "誰とでも和解できるほうがいいですか、それともどこでも再スタートできるほうがいいですか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_195",
+      "text": "あなたは、みんなに告白される友達と、みんなでパーティをする友達、どちらになりたいですか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_196",
+      "text": "完全に自由な 1 か月間と、着実に進歩する 1 年間のどちらを好みますか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_197",
+      "text": "あなたは、一度の大胆な行動で記憶に残るのと、生涯にわたる静かな忠誠心で記憶に残るのとではどちらが良いでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_198",
+      "text": "自分の評判について真実を知りたいですか、それとも自信をそのままにしておきたいですか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_199",
+      "text": "罪悪感なくノーと言えるのと、恥ずかしがらずに助けを求めるのと、どちらがいいでしょうか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_200",
+      "text": "完璧なタイミングと完璧な直感のどちらを持ちたいですか?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ja_201",
+      "text": "マッチングアプリのプロフィールを友達に見てもらうのと、信頼できる1人にDMを読み上げられるの、どっちがいい？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_202",
+      "text": "相性のない完璧な初デートと、明らかに火花が散る厄介な初デートのどちらを選びますか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_203",
+      "text": "誰かがいちゃいちゃしているときを常に知っているほうがいいですか、それとも誤って浮気し返さないほうがいいですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_204",
+      "text": "みんなに愛されているけど自信がない人とデートするのと、みんなに疑われているけど自信がある人とデートするのとではどちらがいいでしょうか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_205",
+      "text": "素晴らしいデートを 1 回行った後でゴースト化されるのと、1 か月間ゆっくりとパンくずリストに登録されるのとではどちらが良いでしょうか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_206",
+      "text": "好きな人を直接告白するのと、グループ チャットで誤って告白するのとではどちらが好きですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_207",
+      "text": "元彼にあなたが素晴らしく見えるのを見てもらいたいですか、それとも、元彼が見てくれても本当に気にしないのですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_208",
+      "text": "深夜に危険なテキストメッセージを受信するのと、送信してすぐに後悔するのとではどちらが良いでしょうか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_209",
+      "text": "あなたは、痛いほど正直なパートナーと、難しい会話をすべて避けてくれるパートナーのどちらを好みますか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_210",
+      "text": "完璧な冗談を言う人、または完璧に感情的に成熟した人とデートしたいですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_211",
+      "text": "誰かのプロフィールをストーキングしているのが見つかるのと、非常に古い投稿に誤って「いいね！」をしたのとどちらが良いでしょうか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_212",
+      "text": "忘れられない夏のロマンスと、ゆっくりと燃え上がるラブストーリーのどちらがいいでしょうか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_213",
+      "text": "あなたのパートナーがこれまでに好きだった人すべてを知っているほうがいいですか、それとも何も知らずに平穏でいるほうがいいですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_214",
+      "text": "あなたは嫉妬深い人になりたいですか、それとも努力せずに人を嫉妬させる人になりたいですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_215",
+      "text": "タイミングは最悪だけど相性抜群なのと、タイミングは完璧だけどときめきは弱めなの、どっちがいい？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_216",
+      "text": "最初に「愛しています」と言いたいですか、それとも完全に確信が持てるまで待ちますか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_217",
+      "text": "電話のないデートと世間話のないデート、どちらを選びますか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_218",
+      "text": "最大の危険信号が暴露されることを好みますか、それとも誰もがすでにそれを知っていることを知りたいですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_219",
+      "text": "誰かの秘密の片想い相手になるのと、堂々と夢中になられる相手になるの、どっちがいい？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_220",
+      "text": "劇的な別れの物語を持ちたいですか、それとも何も深刻にはならなかったので別れの物語を持たないほうがいいですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_221",
+      "text": "すべてを投稿する人とデートするのと、まったく投稿しない人とデートするのとではどちらが好きですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_222",
+      "text": "めちゃくちゃ自由奔放な人と、すごく安定している人、付き合うならどっち？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_223",
+      "text": "パスワードを共有しますか?それとも場所を共有しますか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_224",
+      "text": "間違った人からラブレターを受け取るのと、正しい人から一言メッセージを受け取るのとではどちらが良いでしょうか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_225",
+      "text": "好きな人に最悪のボイスメモを聞いてもらうのと、最悪のセルフィーを見てもらいたいですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_226",
+      "text": "直接会ってイチャイチャするのが得意ですか、それともテキストメッセージを送信するのが得意ですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_227",
+      "text": "デート相手が自分に興味を持っているかどうかを常に知っているのと、相手が時間を無駄にしているかどうかを常に知っているほうが良いでしょうか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_228",
+      "text": "激しい情熱と混乱のある恋愛と、花火の少ない穏やかな恋愛のどちらを好みますか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_229",
+      "text": "自分のほうが好きでいる側と、それを先に認める側、どっちがいい？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_230",
+      "text": "友達があなたの好きな人を好きだと知るのと、好きな人があなたの友達を好きだと知るのはどちらが良いでしょうか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_231",
+      "text": "誰でもタイプの人と付き合うのと、自分だけが理解できる人と付き合うのはどちらがいいですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_232",
+      "text": "あなたの状況が関係を決定づけるものとしますか、それとも永遠に消えてしまいますか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_233",
+      "text": "元恋人から別れを告げられるのと、付き合ったことのない人から謝罪を受けるのとどちらがいいでしょうか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_234",
+      "text": "未来のない完璧なキスをするのと、不器用なスタートから本当の愛になるのと、どちらを好みますか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_235",
+      "text": "誰かの青信号をすぐに確認できるのと、赤信号をすぐに確認できるほうが良いでしょうか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_236",
+      "text": "自信を持って浮気して失敗するか、それとも冷静に行動してチャンスを逃すか、どちらを選びますか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_237",
+      "text": "最初のデートをすべて撮影するのと、別れのたびに友達にレビューしてもらうのとどちらがいいでしょうか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_238",
+      "text": "細部まで覚えている人とデートするのと、常に驚かせてくれる人とデートするのとではどちらがいいでしょうか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_239",
+      "text": "元彼と1週間だけ復縁したいですか、それとも5回連続ブラインドデートをしたいですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_240",
+      "text": "次のデート相手を友達に選ばれるのと、検索履歴に選ばれるの、どっちがいい？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_241",
+      "text": "あなたは、公の場で大声で愛されるのと、あなただけが気づく形でプライベートで愛されるのと、どちらを好みますか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_242",
+      "text": "いつも振る側になるのと、いつも恋に全力なロマンチストになるの、どっちがいい？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_243",
+      "text": "あなたは、あまりにもしがみつきすぎるパートナー、またはあまりにも神秘的すぎるパートナーを持ちたいですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_244",
+      "text": "誰かがあなたについての歌を書いたのか、それともあなたについて長々とメモアプリで暴言を吐いたのか、どちらを知りたいですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_245",
+      "text": "「話したいことがあります」というテキストを受け取るのと、誤って間違った相手に送信してしまうのとではどちらが良いでしょうか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_246",
+      "text": "細部まで計画を立てる人と、それともすべてを即興で行う人と、どちらとデートしますか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_247",
+      "text": "あなたは、自分とは正反対の相手と間違いなく相性が良いのと、自分と同じような相手と快適な相性が良いと思いますか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_248",
+      "text": "告白のリハーサルをしているところを捕らえられるのと、別れのスピーチの練習をしているのを捕らえられるのはどちらが良いでしょうか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_249",
+      "text": "昔の好きな人から突然メールが来るのと、現在の好きな人から突然フォローを外されるのと、どちらが好きですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_250",
+      "text": "いつも好きになるのが早すぎるのと、いつも気づくのが遅すぎるの、どっちがいい？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_251",
+      "text": "誰かが変わるきっかけになる人と、誰かが忘れられない人、どっちになりたい？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_252",
+      "text": "あなたは、言葉で素晴らしいパートナーと行動で素晴らしいパートナーのどちらを持ちたいですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_253",
+      "text": "いつも笑わせてくれる人とデートするのと、完全に穏やかな気持ちにさせてくれる人と、どちらとデートしたいですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_254",
+      "text": "好きな人があなたの夢を見ているかどうか、それとも相手があなたのことを話しているか知りたいと思いませんか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_255",
+      "text": "最初のメッセージを送信しますか、それとも直接最初の行動を起こしますか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_256",
+      "text": "3 か月間の秘密の関係と、誰もがコメントする公開の関係のどちらを好みますか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_257",
+      "text": "あなたのいちゃいちゃするスタイルを友達に評価してもらいたいですか、それともテキストメッセージのスタイルを好きな人に評価してもらいたいですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_258",
+      "text": "本気になるリバウンド相手になるのと、ずっと忘れられない相手になるの、どっちがいい？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_259",
+      "text": "あなたの正確なユーモアとあなたの正確な野心を持った人とデートしたいですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_260",
+      "text": "手の届かない相手を好きになるのと、手の届かない相手に好かれるの、どっちがいい？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_261",
+      "text": "酔って告白するのと、1週間かけて書いた冷静なメッセージを受け取るのとどちらがいいでしょうか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_262",
+      "text": "あなたは、毎回のデートが深い会話で終わるのと、ばかばかしい話で終わるの、どちらを好みますか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_263",
+      "text": "あなたは、あなたに挑戦する人と、それともあなたを崇拝する人、どちらと一緒にいたいですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_264",
+      "text": "少し謎を残しておいたほうがいいですか、それともすぐにすべてを知りたいですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_265",
+      "text": "あなたは、友達と親友であるパートナーと、自分の世界を切り離してくれるパートナーのどちらが良いでしょうか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_266",
+      "text": "決して嫉妬しない人と、それとも素直に認めてくれる人と、どちらと付き合いますか？",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_267",
+      "text": "激しいアイコンタクトの瞬間と、完璧なタイミングでのハンドタッチのどちらを好みますか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_268",
+      "text": "結婚式のアイデアを保存するのが早すぎると、出会い系アプリを削除するのが遅すぎると、どちらの方が逮捕されますか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_269",
+      "text": "あなたは、決してそれ以上にならないいちゃつく友情と、ぎこちないいちゃつきから始まる関係のどちらを好みますか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_270",
+      "text": "送信したメッセージを 1 つ取り消すことができるのと、直接発言を 1 つ取り消すことができたらどちらが良いでしょうか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_271",
+      "text": "親友があなたの片思いを認めてくれるのと、片思いがあなたの親友を認めてくれるのはどちらがいいでしょうか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_272",
+      "text": "注目を集めるのが好きな人と、それとも注目を完全に避ける人と、どちらとデートしますか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_273",
+      "text": "あなたは、誰かが携帯電話に向かって微笑む理由になるのと、一日中集中できない理由になるのとどちらが好きですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_274",
+      "text": "気まずい沈黙のあるロマンチックなディナーと、素晴らしいエネルギーに満ちた混沌とした夜のどちらを楽しみたいですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_275",
+      "text": "あなたは、盛大なジェスチャーでデートに誘われるのと、単純な正直な言葉でデートに誘われるのと、どちらを好みますか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_276",
+      "text": "誰もがうらやむような関係と、あなた以外誰も理解できない関係のどちらが好きですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_277",
+      "text": "誰があなたに片思いをしていたのか、決して知らないほうがいいですか、それとも知っていても何もできないほうがいいですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_278",
+      "text": "好きな人にボイスメモを送信しますか、それとも元恋人にボイスメールを残しますか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_279",
+      "text": "パートナーにあなたの心を 1 日読んでもらうのと、メモ アプリを 1 分間読んでもらいたいですか?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ja_280",
+      "text": "誰かの安心できる相手になるのと、危険だけど惹かれる相手になるの、どっちがいい？",
+      "intensity": "spicy",
+      "minAge": 18
     }
   ]
 }

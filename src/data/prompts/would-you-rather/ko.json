@@ -1,1009 +1,1687 @@
 {
   "gameId": "would-you-rather",
   "locale": "ko",
-  "version": 1,
+  "version": 2,
   "prompts": [
     {
       "id": "wyr_ko_001",
+      "text": "친구들과 모일 때마다 간식이 무제한인 것과 항상 음악을 고를 수 있는 것 중 뭐가 나아?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_002",
+      "text": "항상 완벽한 주차 공간을 찾으시겠습니까, 아니면 다시는 줄을 서서 기다리지 않으시겠습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_003",
+      "text": "아침에 일어나서 완벽한 머리를 하고 싶으신가요, 아니면 항상 1분 안에 완벽한 옷을 고르시겠습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "고양이와 대화, 아니면 강아지와 대화?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_004",
+      "text": "영원히 무료 커피를 원하시나요, 아니면 영원히 무료 디저트를 원하시나요?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_005",
+      "text": "노래방을 찢는 사람과 보드게임에서 절대 안 지는 사람 중 뭐가 나아?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_006",
+      "text": "해변 옆에 살고 싶나요, 아니면 좋아하는 도시 한가운데에 살고 싶나요?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_007",
+      "text": "항상 완전히 충전된 전화기를 갖고 싶습니까, 아니면 항상 완벽한 Wi-Fi를 갖고 싶습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_008",
+      "text": "다시는 열쇠를 잃어버리지 않으시겠습니까, 아니면 방에 들어온 이유를 결코 잊지 않으시겠습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_009",
+      "text": "어떤 행사가 끝난 후 직장으로 순간이동하거나 집으로 순간이동하는 것을 선호하시나요?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_010",
+      "text": "아침 식사를 위해 개인 요리사를 원하시나요, 아니면 주말에 개인 운전기사를 원하시나요?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_011",
+      "text": "1년 동안 코미디만 시청하시겠습니까, 아니면 1년 동안 신나는 음악만 들으시겠습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "고양이와 대화, 아니면 강아지와 대화?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_012",
+      "text": "매일 밤 게임에서 승리하시겠습니까, 아니면 게임 밤에 항상 모두를 웃게 만드시겠습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_013",
+      "text": "멋진 전망을 갖춘 작은 아파트를 원하시나요, 아니면 지루한 곳에 있는 거대한 집을 원하시나요?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_014",
+      "text": "요리로 유명해지고 싶나요, 아니면 춤으로 유명해지고 싶나요?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_015",
+      "text": "항상 메뉴에서 가장 좋은 것을 알고 싶습니까, 아니면 항상 최고의 영화를 고르겠습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_016",
+      "text": "즉흥적으로 당일 여행을 떠나시겠습니까, 아니면 완벽한 주말 여행을 계획하시겠습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_017",
+      "text": "스스로 스타일을 정하는 옷장을 원하시나요, 아니면 스스로 채워지는 냉장고를 원하시나요?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_018",
+      "text": "다시는 빨래를 하지 않겠습니까, 아니면 다시는 설거지를 하지 않겠습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_019",
+      "text": "항상 피자의 마지막 조각을 선택하시겠습니까, 아니면 항상 가장 좋은 자리를 선택하시겠습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "고양이와 대화, 아니면 강아지와 대화?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_020",
+      "text": "시끄러운 곳을 음소거하는 마법 버튼과 어색한 잡담을 건너뛰는 버튼 중 뭐가 나아?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_021",
+      "text": "어디에서나 낮잠을 잘 수 있고, 아니면 매일 아침 상쾌하게 일어날 수 있습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_022",
+      "text": "쉬는 날에는 항상 완벽한 날씨를 누리고 싶으신가요, 아니면 늦을 때 교통 정체가 전혀 없길 원하시나요?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_023",
+      "text": "영원히 무료 콘서트 티켓을 받겠습니까, 아니면 영원히 무료 영화 티켓을 받겠습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_024",
+      "text": "사진을 잘 찍는 사람과 사진에 잘 나오는 사람 중 뭐가 나아?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_025",
+      "text": "항상 이름을 기억하시겠습니까, 아니면 항상 생일을 기억하시겠습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_026",
+      "text": "비밀의 방이 있는 집을 원하시나요, 아니면 옥상에 있는 모임 장소를 원하시나요?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_027",
+      "text": "기차로만 여행하시겠습니까, 아니면 자동차 여행만 하시겠습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "고양이와 대화, 아니면 강아지와 대화?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_028",
+      "text": "엘리베이터 없이 살겠습니까, 아니면 에스컬레이터 없이 살겠습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_029",
+      "text": "항상 완벽한 복귀를 원하십니까, 아니면 압박감 속에서도 항상 침착함을 유지하시겠습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_030",
+      "text": "친구들 중 요리를 제일 잘하는 사람과 이야기를 제일 재밌게 하는 사람 중 뭐가 나아?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_031",
+      "text": "당황스러운 순간을 위한 되감기 버튼을 원하시나요, 아니면 완벽한 순간을 위한 일시 정지 버튼을 원하시나요?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_032",
+      "text": "좋아하는 색상만 영원히 입으시겠습니까, 아니면 한 번도 입지 않으시겠습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_033",
+      "text": "무제한 책을 원하시나요, 아니면 무제한 게임을 원하시나요?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_034",
+      "text": "어떤 요리법이든 즉시 배울 수 있거나 노래를 즉시 배울 수 있습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_035",
+      "text": "항상 디저트를 먹을 수 있는 공간을 갖고 싶나요, 아니면 너무 포만감을 느끼지 않겠습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "고양이와 대화, 아니면 강아지와 대화?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_036",
+      "text": "모든 파티를 주최하시겠습니까, 아니면 모든 파티에 초대하시겠습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_037",
+      "text": "거대한 주방이 있는 집을 원하시나요, 아니면 거대한 게임룸이 있는 집을 원하시나요?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_038",
+      "text": "일주일 동안 음성 메모만 사용하시겠습니까, 아니면 이모티콘만 사용하시겠습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_039",
+      "text": "모든 일에 일찍 도착하시겠습니까, 아니면 매번 정확히 정시에 도착하시겠습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_040",
+      "text": "얼굴을 완벽하게 기억하는 능력과 길을 완벽하게 기억하는 능력 중 뭐가 나아?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_041",
+      "text": "광고를 일시 중지하거나 집안일을 건너뛸 수 있습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_042",
+      "text": "항상 낡은 주머니에서 돈을 찾겠습니까, 아니면 항상 깜짝 할인을 받겠습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_043",
+      "text": "꿈의 침실을 갖고 싶나요, 아니면 꿈의 주방을 갖고 싶나요?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "고양이와 대화, 아니면 강아지와 대화?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_044",
+      "text": "음료를 완벽하게 만들거나 간식을 완벽하게 만들고 싶나요?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_045",
+      "text": "우산이 전혀 필요하지 않거나 자외선 차단제가 전혀 필요하지 않습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_046",
+      "text": "매일 아침에 한 시간을 더 갖고 싶습니까, 아니면 매일 밤에 한 시간을 더 갖고 싶습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_047",
+      "text": "빵집 위에 살겠습니까 아니면 영화관 옆에 살겠습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_048",
+      "text": "항상 레스토랑을 선택하시겠습니까, 아니면 항상 활동을 선택하시겠습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_049",
+      "text": "모든 기분에 맞는 개인 재생목록을 갖고 싶나요, 아니면 모든 계획에 딱 맞는 의상을 갖고 싶나요?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_050",
+      "text": "최고의 조언을 해주는 친구가 되고 싶나요, 아니면 최고의 간식을 주는 친구가 되고 싶나요?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_051",
+      "text": "저녁에는 아침밥만 먹겠습니까, 아니면 아침에 저녁밥을 먹겠습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "고양이와 대화, 아니면 강아지와 대화?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_052",
+      "text": "기기를 충전할 필요가 없거나 앱을 업데이트할 필요가 전혀 없길 원하시나요?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_053",
+      "text": "완벽한 손글씨를 원하시나요, 아니면 완벽한 선물 포장 기술을 원하시나요?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_054",
+      "text": "즉시 방을 청소하시겠습니까, 아니면 휴대폰 사진을 즉시 정리하시겠습니까?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+      "minAge": 4
     },
     {
       "id": "wyr_ko_055",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+      "text": "항상 새 시트를 갖고 싶나요, 아니면 항상 새 수건을 갖고 싶나요?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_056",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+      "text": "상식 퀴즈 최강자와 몸으로 말해요 최강자 중 뭐가 나아?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_057",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+      "text": "전망이 있는 발코니를 원하시나요, 아니면 파티를 위해 만들어진 거실을 원하시나요?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_058",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+      "text": "다시는 음료수를 흘리지 않겠습니까, 아니면 다시는 휴대폰을 떨어뜨리지 않겠습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_059",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "고양이와 대화, 아니면 강아지와 대화?"
+      "text": "꿈을 항상 기억하시겠습니까, 아니면 악몽을 꾸지 않으시겠습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_060",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+      "text": "1년에 한 번 무료 항공편을 이용하시겠습니까, 아니면 1년에 두 번 무료 호텔을 이용하시겠습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_061",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+      "text": "하룻밤 사이에 새로운 언어에 유창해지시겠습니까, 아니면 하룻밤 사이에 새로운 악기를 마스터하시겠습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_062",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+      "text": "사진을 찍을 때 항상 완벽한 조명을 사용하시겠습니까, 아니면 사진을 찍을 때 눈을 깜박이지 않으시겠습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_063",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+      "text": "매달 깜짝 휴가를 받는 것이 좋나요, 아니면 매년 깜짝 휴가를 받는 것이 좋나요?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_064",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+      "text": "소문자 텍스트만 사용하시겠습니까, 아니면 구두점이 완벽한 텍스트만 사용하시겠습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_065",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+      "text": "아늑한 오두막 주말을 보내시겠습니까, 아니면 바쁜 도시 주말을 보내시겠습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_066",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+      "text": "당신의 스타일로 알려지고 싶나요, 아니면 유머 감각으로 알려지고 싶나요?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_067",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "고양이와 대화, 아니면 강아지와 대화?"
+      "text": "항상 가장 빠른 계산대를 선택하시겠습니까, 아니면 항상 바로 엘리베이터를 타시겠습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_068",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+      "text": "휴대폰 저장 공간이 부족하지 않거나 배터리가 부족하지 않으시겠습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_069",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+      "text": "방을 완벽하게 장식하고 싶거나 여행 가방을 완벽하게 포장하고 싶나요?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_070",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+      "text": "영원히 물만 마시시겠습니까, 아니면 좋아하는 음료 하나만 영원히 마시시겠습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_071",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+      "text": "항상 완벽한 잠을 자고 싶나요, 아니면 항상 좋은 기분으로 일어나기를 원하시나요?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_072",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+      "text": "모두가 추천을 요청하는 사람이 되겠습니까, 아니면 모두가 여행 계획을 세우라고 요청하는 사람이 되겠습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_073",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+      "text": "항상 맞는 개인 일기예보를 갖고 싶나요, 아니면 스스로 계획을 세우는 달력을 갖고 싶나요?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_074",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+      "text": "화장실을 청소할 필요가 전혀 없겠습니까, 아니면 부엌을 청소할 필요가 없겠습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_075",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "고양이와 대화, 아니면 강아지와 대화?"
+      "text": "베이킹을 잘하시겠습니까, 아니면 굽는 것을 잘하시겠습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_076",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+      "text": "1년에 한 번 맨 앞줄 좌석을 선택하시겠습니까, 아니면 매번 VIP 간식을 선택하시겠습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_077",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+      "text": "항상 최고의 숨겨진 카페를 찾겠습니까, 아니면 항상 최고의 시점을 찾겠습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_078",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+      "text": "일주일 동안 완벽한 옷을 입고 싶나요, 아니면 일주일 동안 완벽한 식사를 하고 싶나요?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_079",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+      "text": "평생 공급되는 신발을 받겠습니까, 아니면 평생 공급되는 헤드폰을 받겠습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_080",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+      "text": "항상 가사를 알고 싶습니까, 아니면 항상 춤을 알고 싶습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_081",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+      "text": "기술적인 문제를 해결하거나 지침 없이 가구를 조립할 수 있습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_082",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+      "text": "결코 무겁지 않은 마법의 백팩을 원하시나요, 아니면 저절로 짐을 담을 수 있는 여행가방을 원하시나요?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_083",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "고양이와 대화, 아니면 강아지와 대화?"
+      "text": "항상 머리가 좋은 날을 원하시나요, 아니면 항상 깨끗한 피부를 갖고 싶으신가요?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_084",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+      "text": "최고의 그룹 셀카를 찍으시겠습니까, 아니면 최고의 그룹 계획을 세우시겠습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_085",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+      "text": "하루에 하나의 지루한 작업을 건너뛰고 싶습니까, 아니면 하루에 하나의 재미있는 깜짝 선물을 받고 싶습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_086",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+      "text": "끝없이 여름이 계속되는 곳이나 끝없이 포근한 날씨가 있는 곳에서 살고 싶나요?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_087",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+      "text": "온라인에 광고를 게재하지 않거나 스팸 메시지를 받지 않으시겠습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_088",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+      "text": "항상 멋진 사용자 이름을 선택하시겠습니까, 아니면 항상 멋진 캡션을 작성하시겠습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_089",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+      "text": "당신은 선물 포장의 최고가 되고 싶나요, 아니면 선물 선택의 최고가 되고 싶나요?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_090",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+      "text": "집에서 무제한 영화 감상을 원하십니까, 아니면 무제한 브런치를 즐기시겠습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_091",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "고양이와 대화, 아니면 강아지와 대화?"
+      "text": "작은 개인 정원을 원하시나요, 아니면 거대한 공용 옥상을 원하시나요?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_092",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+      "text": "영원히 작은 숟가락만 사용하시겠습니까, 아니면 항상 작은 컵으로 마시시겠습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_093",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+      "text": "방을 아늑하게 만들거나 재생목록을 완벽하게 만들고 싶나요?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_094",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+      "text": "항상 올바른 충전기를 사용하시겠습니까, 아니면 항상 올바른 비밀번호를 사용하시겠습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_095",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+      "text": "비밀번호를 절대 잊어버리지 않거나 주차한 장소를 절대 잊어버리지 않으시겠습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_096",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+      "text": "완벽하게 정리된 옷장을 원하시나요, 아니면 완벽하게 정리된 카메라 롤을 원하시나요?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_097",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+      "text": "트렌드를 가장 먼저 시도하는 것이 좋을까요, 아니면 가장 늦게 지루해하는 것이 좋을까요?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_098",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+      "text": "레스토랑에 항상 테이블을 마련하시겠습니까, 아니면 항상 무료 디저트를 받으시겠습니까?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_099",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "고양이와 대화, 아니면 강아지와 대화?"
+      "text": "개인용 흥겨운 노래를 원하시나요, 아니면 개인용 입구 조명을 원하시나요?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_100",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+      "text": "첫인상이 좋은 사람과 작별 인사가 따뜻한 사람 중 뭐가 나아?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_ko_101",
+      "text": "모든 사람에게 존경받는 것이 좋겠습니까, 아니면 소수의 사람에게 깊이 이해받는 것이 좋겠습니까?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+      "minAge": 13
     },
     {
       "id": "wyr_ko_102",
+      "text": "누군가가 거짓말을 하고 있는지 알겠습니까, 아니면 진실을 말할 때 항상 믿어주겠습니까?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+      "minAge": 13
     },
     {
       "id": "wyr_ko_103",
+      "text": "급여가 낮은 꿈의 직업을 택하시겠습니까, 아니면 급여가 높지만 지루한 직업을 택하시겠습니까?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+      "minAge": 13
     },
     {
       "id": "wyr_ko_104",
+      "text": "혼자 해외로 이사하시겠습니까, 아니면 영원히 고향에 머물시겠습니까?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+      "minAge": 13
     },
     {
       "id": "wyr_ko_105",
+      "text": "당신은 방에서 가장 똑똑한 사람이 되고 싶나요, 아니면 모두가 가장 신뢰하는 사람이 되고 싶나요?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+      "minAge": 13
     },
     {
       "id": "wyr_ko_106",
+      "text": "항상 진실을 알고 싶습니까, 아니면 항상 옳은 말을 알고 싶습니까?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+      "minAge": 13
     },
     {
       "id": "wyr_ko_107",
+      "text": "충성스러운 친구로 구성된 소규모 그룹을 원하십니까, 아니면 캐주얼한 친구로 구성된 대규모 네트워크를 원하십니까?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "고양이와 대화, 아니면 강아지와 대화?"
+      "minAge": 13
     },
     {
       "id": "wyr_ko_108",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+      "text": "당신은 친절함으로 기억되겠습니까, 아니면 야망으로 기억되겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_109",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+      "text": "일찍 성공하고 지쳐버리고 싶나요, 아니면 천천히 성공하고 그 과정을 즐기겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_110",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+      "text": "모든 실수를 잊어버리고 싶나요, 아니면 모든 선행을 기억하고 싶나요?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_111",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+      "text": "완벽한 하루를 재현하시겠습니까, 아니면 끔찍한 하루를 지우시겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_112",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+      "text": "즉시 용서할 수 있습니까, 아니면 두 번 속지 않겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_113",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+      "text": "더 많은 자신감을 갖고 싶습니까, 아니면 더 많은 규율을 갖고 싶습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_114",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+      "text": "사람들이 당신에 대해 처음 어떻게 생각하는지, 아니면 당신이 떠난 후에 뭐라고 말하는지 알고 싶나요?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_115",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "고양이와 대화, 아니면 강아지와 대화?"
+      "text": "당신은 지금의 모습으로 사랑받고 싶나요, 아니면 미래의 모습으로 존경받고 싶나요?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_116",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+      "text": "좋아하는 일로 항상 바쁘게 지내시겠습니까, 아니면 항상 자유 시간이 있지만 지루함을 느끼시겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_117",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+      "text": "하나의 큰 기회를 갖고 모든 것을 위험에 빠뜨리는 것이 낫습니까, 아니면 천천히 진행하면서 작은 기회를 많이 갖는 것이 좋습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_118",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+      "text": "5년 동안 유명해지겠습니까, 아니면 평생 존경받겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_119",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+      "text": "사진을 모두 잃어버리시겠습니까, 아니면 메시지를 모두 잃어버리시겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_120",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+      "text": "검색 기록을 공개로 설정하시겠습니까, 아니면 카메라 롤을 공개로 설정하시겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_121",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+      "text": "항상 자신의 생각을 말하시겠습니까, 아니면 항상 평화를 유지하시겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_122",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+      "text": "잔인할 정도로 정직한 친구를 원하십니까, 아니면 끝없이 지지해 주는 친구를 원하십니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_123",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "고양이와 대화, 아니면 강아지와 대화?"
+      "text": "당신은 모든 그룹의 계획자가 되겠습니까, 아니면 계획을 세울 필요가 전혀 없는 사람이 되겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_124",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+      "text": "당신은 깊은 대화를 나누는 데 뛰어난 사람이 되겠습니까, 아니면 사람들을 편안하게 만드는 데 뛰어난 사람이 되겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_125",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+      "text": "당신의 인생이 어디로 가고 있는지 정확히 알고 싶습니까, 아니면 그것에 놀라겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_126",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+      "text": "소셜 미디어를 1년 동안 포기하시겠습니까, 아니면 스트리밍을 1년 동안 포기하시겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_127",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+      "text": "급여를 받고 1년을 쉬고 싶나요, 아니면 정말로 원하는 승진을 하고 싶나요?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_128",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+      "text": "당신은 항상 과소평가되고 싶나요, 아니면 항상 과대평가되고 싶나요?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_129",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+      "text": "당신의 가장 큰 목표나 가장 큰 두려움을 모든 사람에게 알리고 싶습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_130",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+      "text": "경력을 다시 시작하거나 우정을 다시 시작하고 싶습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_131",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "고양이와 대화, 아니면 강아지와 대화?"
+      "text": "당신은 위기 상황에서 사람들이 부르는 사람이 되겠습니까, 아니면 축하하기 위해 부르는 사람이 되겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_132",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+      "text": "부끄러움을 느끼지 않거나 질투심을 느끼지 않으시겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_133",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+      "text": "원할 때마다 하나의 추억을 삭제하거나 하나의 추억을 다시 재생할 수 있습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_134",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+      "text": "모든 영화의 결말을 알고 싶나요, 아니면 모든 결정의 결과를 알고 싶나요?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_135",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+      "text": "낯선 사람 앞에서 완벽한 평판을 누리고 싶나요, 아니면 친구들 앞에서 진정한 정직함을 누리고 싶나요?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_136",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+      "text": "논쟁에서 항상 승리하시겠습니까, 아니면 항상 평화롭게 논쟁을 하시겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_137",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+      "text": "당신은 돈을 잘 버는 사람이 되고 싶나요, 아니면 돈을 잘 관리하는 사람이 되고 싶은가요?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_138",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+      "text": "현명한 사람이 미래를 계획하도록 하시겠습니까, 아니면 조언 없이 모든 것을 스스로 선택하시겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_139",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "고양이와 대화, 아니면 강아지와 대화?"
+      "text": "당신은 그룹에서 가장 재미있는 사람이 되고 싶나요, 아니면 위기 상황에서 가장 차분한 사람이 되고 싶나요?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_140",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+      "text": "지금 하나의 꿈을 실현하시겠습니까, 아니면 시간이 지남에 따라 5개의 작은 꿈을 실현하시겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_141",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+      "text": "한 사람을 완전히 읽을 수 있습니까, 아니면 군중을 완벽하게 이해할 수 있습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_142",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+      "text": "모든 엔딩을 끝내시겠습니까, 아니면 한 엔딩에서 두 번째 기회를 얻으시겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_143",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+      "text": "당신은 신비한 사람으로 알려지기를 원합니까, 아니면 완전히 투명하게 알려지기를 원합니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_144",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+      "text": "사람들에게 감동을 주는 직업을 택하시겠습니까, 아니면 평화로운 삶을 누리시겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_145",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+      "text": "단점이 있어도 의리가 강한 사람과 단점이 있어도 독립적인 사람 중 뭐가 나아?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_146",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+      "text": "항상 시작하는 용기를 갖고 싶나요, 아니면 끝낼 수 있는 인내심을 갖고 싶나요?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_147",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "고양이와 대화, 아니면 강아지와 대화?"
+      "text": "완벽하게 사과할 수 있을까요, 아니면 두려움 없이 누군가와 맞서고 싶나요?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_148",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+      "text": "온라인에서 가장 큰 실패를 영원히 갖고 싶습니까, 아니면 그룹 채팅에서 가장 큰 비밀을 갖고 싶습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_149",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+      "text": "당신은 과거에 더 많은 프라이버시를 누리며 살고 싶습니까, 아니면 더 편리하게 살 수 있는 미래에 살고 싶습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_150",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+      "text": "당신은 항상 책임 있는 사람이 되겠습니까, 아니면 책임을 맡을 수 없는 사람이 되겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_151",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+      "text": "당신이 내린 결정 하나를 변경하거나 거의 내릴 뻔한 결정 하나를 볼 수 있습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_152",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+      "text": "당신은 편안함을 잃겠습니까, 아니면 야망을 잃겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_153",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "평생 떡볶이 무료, 아니면 평생 치킨 무료?"
+      "text": "멀리서 존경받고 싶나요, 아니면 가까이서 사랑받고 싶나요?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_154",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "어디든 순간이동, 아니면 시간을 10분 되돌리기?"
+      "text": "자신을 다른 사람과 비교하지 않거나 다른 사람이 어떻게 생각하는지 전혀 신경 쓰지 않겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_155",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "고양이와 대화, 아니면 강아지와 대화?"
+      "text": "나쁜 결정을 내리기 전에 경고를 받겠습니까, 아니면 용감한 결정을 내린 후에 보상을 받겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_156",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "하루 동안 투명인간, 아니면 하루 동안 하늘 날기?"
+      "text": "누군가를 웃게 만들거나 누군가를 안전하다고 느끼게 만들고 싶나요?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_157",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "매일 완벽하게 기상, 아니면 밤새도 피곤하지 않기?"
+      "text": "당신은 완벽한 기억력을 갖고 싶나요, 아니면 앞으로 나아갈 수 있는 완벽한 능력을 갖고 싶나요?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_158",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "노래방 100점 보장, 아니면 어떤 요리든 잘하기?"
+      "text": "몸을 키우는 데 1년을 투자하시겠습니까, 아니면 정신을 키우는 데 1년을 쓰시겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_159",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "막차 절대 안 놓치기, 아니면 여행지에서 절대 안 헤매기?"
+      "text": "당신은 조용한 이야기의 주인공이 되고 싶나요, 아니면 서사적인 이야기의 보조 캐릭터가 되고 싶나요?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_160",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "휴대폰 배터리 무한, 아니면 셀카가 항상 잘 나오기?"
+      "text": "누군가가 떠난 이유를 알고 싶나요, 아니면 전혀 모르고 더 빨리 치유되겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_ko_161",
+      "text": "당신은 항상 자신의 감정에 솔직해지겠습니까, 아니면 항상 다른 사람의 감정을 보호하시겠습니까?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "저장한 밈을 모두 잃기, 플레이리스트를 모두 잃기?"
+      "minAge": 13
     },
     {
       "id": "wyr_ko_162",
+      "text": "무한한 동기 부여를 원하시나요, 아니면 무한한 인내심을 원하시나요?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "모든 오타가 공개되기, 모든 임시저장이 자동 전송되기?"
+      "minAge": 13
     },
     {
       "id": "wyr_ko_163",
+      "text": "위험 신호를 즉시 발견할 수 있습니까, 아니면 숨겨진 잠재력을 즉시 확인할 수 있습니까?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "춤추다 바이럴되기, 넘어져서 바이럴되기?"
+      "minAge": 13
     },
     {
       "id": "wyr_ko_164",
+      "text": "과거의 관계를 바로잡을 수 있거나 미래의 실수를 예방할 수 있습니까?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "GIF로만 대화하기, 음성 메시지로만 대화하기?"
+      "minAge": 13
     },
     {
       "id": "wyr_ko_165",
+      "text": "항상 편안함을 선택하시겠습니까, 아니면 항상 성장을 선택하시겠습니까?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "무한 배터리, 평생 완벽한 Wi-Fi?"
+      "minAge": 13
     },
     {
       "id": "wyr_ko_166",
+      "text": "당신은 당신에게 도전하는 사람들과 당신을 위로하는 사람들 중 어느 쪽을 선택하시겠습니까?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "매번 파티를 주최하기, 매번 파티 뒤를 치우기?"
+      "minAge": 13
     },
     {
       "id": "wyr_ko_167",
+      "text": "완벽한 일상을 원하시나요, 아니면 일생에 한 번뿐인 완벽한 모험을 원하시나요?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "매번 규칙 설명하기, 매번 반칙 의심받기?"
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_168",
+      "text": "당신은 비밀스러운 재능을 갖고 싶나요, 아니면 공개적으로 평균적인 사람이 되고 싶나요?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_169",
+      "text": "승인이 전혀 필요하지 않거나 항상 격려를 받고 싶습니까?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_170",
+      "text": "모든 세부 사항을 기억하는 친구를 원하십니까, 아니면 매번 나타나는 친구를 원하십니까?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_171",
+      "text": "어떤 습관이든 즉시 끊을 수 있습니까, 아니면 즉시 습관을 만들 수 있습니까?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_172",
+      "text": "당신의 어린 자신이 지금 당신의 삶을 보게 하시겠습니까, 아니면 미래의 자신이 한 문장을 다시 보내도록 하시겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_173",
+      "text": "당신은 그룹을 바꾸는 사람이 되겠습니까, 아니면 그룹이 더 나은 방향으로 바뀌는 사람이 되겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_174",
+      "text": "선택의 비용을 항상 알고 싶습니까, 아니면 항상 이점을 알고 싶습니까?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_175",
+      "text": "1년 동안 두려움 없이 지내시겠습니까, 아니면 평생 현명하게 지내시겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_176",
+      "text": "온라인에서 신나는 삶을 살고 싶나요, 오프라인에서 신나는 삶을 살고 싶나요?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_177",
+      "text": "지나치게 생각하는 것을 멈추거나 미루는 것을 멈출 수 있습니까?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_178",
+      "text": "하나의 걸작으로 알려지겠습니까, 아니면 많은 노력으로 알려지겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_179",
+      "text": "모든 문은 열려 있지만 명확한 방향이 없거나 대안이 없는 하나의 명확한 길을 선택하시겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_180",
+      "text": "항상 먼저 용서하는 사람과 항상 먼저 떠나는 사람 중 뭐가 나아?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_181",
+      "text": "모든 문제에 대해 멘토를 갖고 싶습니까, 아니면 힘든 날마다 친구를 갖고 싶습니까?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_182",
+      "text": "내일 기분을 예측할 수 있을까요, 아니면 오늘 기분을 이해할 수 있을까요?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_183",
+      "text": "조용히 부자가 되시겠습니까, 아니면 공개적으로 영향력을 행사하시겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_184",
+      "text": "결코 외로움을 느끼지 않거나 오해를 느끼지 않고 싶습니까?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_185",
+      "text": "즉시 사람들의 마음을 사로잡을 수 있습니까, 아니면 시간을 투자할 가치가 있는 사람이 누구인지 즉시 알 수 있습니까?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_186",
+      "text": "당신은 위험을 감수하는 사람으로 알려지고 싶습니까, 아니면 현명한 선택을 하는 사람으로 알려지고 싶습니까?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_187",
+      "text": "항상 백업 계획을 갖고 싶습니까, 아니면 전혀 필요하지 않습니까?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_188",
+      "text": "나쁜 습관 하나를 버리시겠습니까, 아니면 인상적인 기술 하나를 얻으시겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_189",
+      "text": "놀라움이 거의 없는 평온한 삶을 선택하시겠습니까, 아니면 잊을 수 없는 이야기가 있는 혼란스러운 삶을 선택하시겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_190",
+      "text": "인생 최고의 순간을 그 일이 일어나기 전에 알고 싶나요, 아니면 나중에 알아보고 싶나요?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_191",
+      "text": "대화를 시작하는 데 능숙하시겠습니까, 아니면 우아하게 끝내는 데 능숙하시겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_192",
+      "text": "당신은 항상 조언을 하는 사람이 되겠습니까, 아니면 그것을 받아들일 만큼 용감한 사람이 되겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_193",
+      "text": "모든 사람에게서 멀리 떨어진 꿈의 집을 갖고 싶나요, 아니면 좋아하는 사람들 근처에 소박한 집을 갖고 싶나요?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_194",
+      "text": "누구와도 화해할 수 있고, 어디서든 새로운 출발을 할 수 있을까요?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_195",
+      "text": "모두가 고백하는 친구가 되고 싶나요, 아니면 모두가 함께 파티하는 친구가 되고 싶나요?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_196",
+      "text": "한 달의 완전한 자유를 누리시겠습니까, 아니면 1년의 꾸준한 발전을 누리시겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_197",
+      "text": "당신은 한 번의 대담한 행동으로 기억되겠습니까, 아니면 평생 조용한 충성심으로 기억되겠습니까?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_198",
+      "text": "당신의 평판에 대한 진실을 알고 싶습니까, 아니면 자신감을 그대로 유지하고 싶습니까?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_199",
+      "text": "죄책감 없이 거절하거나 부끄러움 없이 도움을 요청할 수 있습니까?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_200",
+      "text": "당신은 완벽한 타이밍을 원하시나요, 아니면 완벽한 본능을 원하시나요?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_ko_201",
+      "text": "친구들이 내 데이트 앱 프로필을 평가하는 것과 믿는 사람 한 명이 내 DM을 소리 내어 읽는 것 중 뭐가 나아?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_202",
+      "text": "케미스트리 없이 완벽한 첫 데이트를 하시겠습니까, 아니면 뻔한 불꽃이 튀는 지저분한 첫 데이트를 하시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_203",
+      "text": "누군가가 유혹할 때 항상 알 수 있습니까, 아니면 실수로 유혹하지 않을 것입니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_204",
+      "text": "모두가 사랑하지만 확신이 없는 사람이나 모두가 의심하지만 확신이 있는 사람과 데이트하고 싶나요?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_205",
+      "text": "멋진 데이트를 한 후 유령이 되시겠습니까, 아니면 한 달 동안 천천히 이동 경로를 확인하시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_206",
+      "text": "좋아하는 사람을 직접 고백하고 싶나요, 아니면 그룹 채팅에서 우연히 공개하게 하시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_207",
+      "text": "전 애인이 당신의 멋진 모습을 보게 하시겠습니까, 아니면 진심으로 신경 쓰지 않겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_208",
+      "text": "위험한 심야 문자를 받겠습니까, 아니면 문자를 보내고 즉시 후회하시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_209",
+      "text": "고통스러울 정도로 정직한 파트너를 원하십니까, 아니면 모든 힘든 대화를 피하는 사람을 원하십니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_210",
+      "text": "완벽한 농담을 하는 사람과 완벽한 감정적 성숙을 갖춘 사람과 데이트하시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_211",
+      "text": "다른 사람의 프로필을 스토킹하다 걸리거나 우연히 아주 오래된 게시물에 좋아요를 누르는 것이 좋나요?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_212",
+      "text": "잊을 수 없는 여름 로맨스 중 하나를 선택하시겠습니까, 아니면 서서히 타오르는 사랑 이야기를 선택하시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_213",
+      "text": "당신의 파트너가 좋아했던 모든 사람을 알고 싶습니까, 아니면 아무것도 모르고 평화롭게 지내고 싶습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_214",
+      "text": "당신은 질투하는 사람이 되겠습니까, 아니면 노력하지 않고도 사람들을 질투하게 만드는 사람이 되겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_215",
+      "text": "타이밍은 별로지만 케미가 엄청난 쪽과 타이밍은 완벽하지만 케미가 약한 쪽 중 뭐가 나아?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_216",
+      "text": "\"사랑해\"라고 가장 먼저 말하시겠습니까, 아니면 완전히 확신할 때까지 기다리시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_217",
+      "text": "전화 없이 데이트를 하시겠습니까, 아니면 잡담도 없이 데이트를 하시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_218",
+      "text": "가장 큰 위험 신호를 노출시키시겠습니까, 아니면 이미 모든 사람이 알고 있는지 알아보시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_219",
+      "text": "누군가의 비밀 crush가 되는 것과 모두가 아는 집착 상대가 되는 것 중 뭐가 나아?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_220",
+      "text": "드라마틱한 이별 이야기를 원하시나요, 아니면 아무것도 심각하지 않았기 때문에 이별 이야기를 하지 않으시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_221",
+      "text": "모든 것을 게시하는 사람과 데이트하시겠습니까, 아니면 전혀 게시하지 않는 사람과 데이트하시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_222",
+      "text": "엄청 즉흥적인 사람과 엄청 한결같은 사람 중 누구와 함께하고 싶어?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_223",
+      "text": "비밀번호를 공유하시겠습니까, 아니면 위치를 공유하시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_224",
+      "text": "엉뚱한 사람에게서 러브레터를 받겠습니까, 아니면 맞는 사람에게서 한 단어로 된 문자를 받겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_225",
+      "text": "당신의 짝사랑이 당신의 최악의 음성 메모를 듣게 하시겠습니까, 아니면 최악의 셀카를 보게 하시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_226",
+      "text": "직접 대면하는 걸 좋아하시나요, 아니면 문자 메시지를 보내는 걸 좋아하시나요?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_227",
+      "text": "데이트가 당신에게 관심이 있는지 항상 알고 싶습니까, 아니면 그들이 당신의 시간을 낭비하고 있는지 항상 알고 싶습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_228",
+      "text": "강렬한 열정과 혼돈이 있는 관계를 선택하시겠습니까, 아니면 적은 불꽃놀이로 잔잔한 사랑을 선택하시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_229",
+      "text": "더 많이 좋아하는 쪽과 먼저 인정하는 쪽 중 뭐가 나아?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_230",
+      "text": "친구가 당신의 짝사랑을 좋아하는지, 아니면 당신의 짝사랑이 친구를 좋아하는지 알아보고 싶나요?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_231",
+      "text": "당신은 모든 유형의 사람과 데이트하고 싶습니까, 아니면 당신 만 이해하는 사람과 데이트하고 싶습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_232",
+      "text": "당신의 상황이 관계를 정의하게 하시겠습니까, 아니면 영원히 사라지게 하시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_233",
+      "text": "전 애인으로부터 관계를 정리하고 싶나요, 아니면 데이트한 적 없는 사람으로부터 사과를 받고 싶나요?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_234",
+      "text": "미래가 없는 완벽한 키스를 원하십니까, 아니면 진정한 사랑이 되는 서투른 시작을 원하십니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_235",
+      "text": "누군가의 녹색 깃발을 즉시 볼 수 있습니까, 아니면 빨간색 깃발을 즉시 볼 수 있습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_236",
+      "text": "자신감을 가지고 장난을 치고 실패하시겠습니까, 아니면 냉정하게 행동하고 기회를 놓치시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_237",
+      "text": "모든 첫 데이트를 촬영하거나 모든 이별을 친구들에게 검토받길 원하시나요?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_238",
+      "text": "모든 세부 사항을 기억하는 사람과 데이트하시겠습니까, 아니면 끊임없이 당신을 놀라게 하는 사람과 데이트하시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_239",
+      "text": "일주일 동안 전 애인과 다시 돌아가시겠습니까, 아니면 5번 연속 소개팅을 하시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_240",
+      "text": "다음 데이트 상대를 친구들이 고르는 것과 검색 기록이 고르는 것 중 뭐가 나아?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_241",
+      "text": "당신은 공개적으로 큰 소리로 사랑받고 싶나요, 아니면 당신만이 알아챌 수 있는 개인적으로 사랑받고 싶나요?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_242",
+      "text": "항상 마음을 아프게 하는 쪽과 항상 사랑에 진심인 로맨티스트 중 뭐가 나아?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_243",
+      "text": "너무 집착하거나 너무 신비스러운 파트너를 선택하시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_244",
+      "text": "누군가가 당신에 대해 노래를 썼다는 것을 알고 싶나요, 아니면 당신에 대해 긴 노트 앱의 호언장담을 하고 싶은가요?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_245",
+      "text": "\"대화가 필요해요\"라는 문자를 받겠습니까, 아니면 실수로 엉뚱한 사람에게 보내겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_246",
+      "text": "모든 세부 사항을 계획하는 사람과 즉흥적으로 모든 것을 계획하는 사람과 데이트하시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_247",
+      "text": "당신과 반대되는 거부할 수 없는 케미를 갖고 싶나요, 아니면 당신과 같은 사람과 편안한 케미를 갖고 싶나요?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_248",
+      "text": "고백 연습을 하다 들키거나 이별 연설을 연습하다 들키겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_249",
+      "text": "예전에 좋아했던 사람이 갑자기 문자를 보내게 하시겠습니까, 아니면 현재 좋아하는 사람이 갑자기 팔로우를 취소하게 하시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_250",
+      "text": "항상 너무 빨리 넘어지겠습니까, 아니면 항상 자신의 감정을 너무 늦게 깨닫겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_251",
+      "text": "누군가가 변하게 만드는 사람과 누군가가 못 잊는 사람 중 뭐가 되고 싶어?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_252",
+      "text": "당신은 말로 놀라운 파트너를 원하십니까, 아니면 행동으로 놀라운 파트너를 원하십니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_253",
+      "text": "당신을 끊임없이 웃게 만드는 사람과 데이트하고 싶나요, 아니면 당신을 완전히 차분하게 만드는 사람과 데이트하고 싶나요?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_254",
+      "text": "당신이 좋아하는 사람이 당신에 대해 꿈을 꾸는지, 아니면 그들이 당신에 대해 이야기하는지 알고 싶나요?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_255",
+      "text": "첫 번째 메시지를 보내시겠습니까, 아니면 직접 첫 번째 조치를 취하시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_256",
+      "text": "3개월 동안 비밀 연애를 하고 싶나요, 아니면 모두가 댓글을 다는 공개 연애를 하고 싶나요?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_257",
+      "text": "친구가 당신의 유혹 스타일을 평가하거나, 좋아하는 사람이 문자 메시지 스타일을 평가하고 싶습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_258",
+      "text": "심각해지는 리바운드가 되시겠습니까, 아니면 결코 잊지 못할 리바운드가 되시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_259",
+      "text": "유머 코드가 완벽히 맞는 사람과 야망이 완벽히 맞는 사람 중 누구와 데이트하고 싶어?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_260",
+      "text": "가질 수 없는 사람을 좋아하는 것과 그런 사람이 나를 좋아하는 것 중 뭐가 나아?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_261",
+      "text": "취한 고백을 받겠습니까, 아니면 작성하는 데 일주일이 걸린 진지한 메시지를 받겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_262",
+      "text": "모든 데이트를 깊은 대화로 마무리하고 싶나요, 아니면 우스꽝스러운 이야기로 마무리하고 싶나요?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_263",
+      "text": "당신에게 도전하는 사람과 함께 있고 싶나요, 아니면 당신을 숭배하는 사람과 함께 있고 싶나요?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_264",
+      "text": "약간의 미스터리를 유지하고 싶습니까, 아니면 모든 것을 즉시 알고 싶습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_265",
+      "text": "친구와 가장 친한 친구가 되는 파트너를 원하시나요, 아니면 세상을 분리시켜주는 파트너를 원하시나요?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_266",
+      "text": "절대 질투하지 않는 사람과 데이트하고 싶나요, 아니면 솔직히 인정하는 사람과 데이트하고 싶나요?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_267",
+      "text": "강렬한 눈맞춤 순간을 원하십니까, 아니면 완벽하게 타이밍에 맞는 손 터치를 원하십니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_268",
+      "text": "결혼식 아이디어를 너무 일찍 저장하거나 데이트 앱을 너무 늦게 삭제하는 것이 걸리겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_269",
+      "text": "결코 더해지지 않는 시시덕거리는 우정을 원하시나요, 아니면 어색한 시시덕거림으로 시작되는 관계를 원하시나요?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_270",
+      "text": "보낸 메시지 하나를 취소하거나 직접 문장 하나를 취소할 수 있습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_271",
+      "text": "당신의 가장 친한 친구가 당신의 짝사랑을 인정하게 하시겠습니까, 아니면 당신의 짝사랑이 당신의 가장 친한 친구를 인정하게 하시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_272",
+      "text": "관심을 좋아하는 사람과 데이트하고 싶나요, 아니면 아예 관심을 피하는 사람과 데이트하고 싶나요?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_273",
+      "text": "당신은 누군가가 휴대폰을 보며 웃는 이유가 되고 싶나요, 아니면 하루 종일 집중할 수 없는 이유가 되고 싶나요?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_274",
+      "text": "어색한 침묵 속에서 낭만적인 저녁 식사를 하고 싶나요, 아니면 놀라운 에너지가 넘치는 혼란스러운 밤을 보내고 싶나요?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_275",
+      "text": "당신은 거창한 몸짓으로 데이트 신청을 받겠습니까, 아니면 단순하고 솔직한 문장으로 부탁을 받겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_276",
+      "text": "모두가 부러워하는 관계를 갖고 싶나요, 아니면 당신 외에는 아무도 이해하지 못하는 관계를 갖고 싶나요?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_277",
+      "text": "누가 당신에게 반했는지 전혀 알 수 없겠습니까, 아니면 그것에 대해 아무것도 할 수 없는지 알고 싶습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_278",
+      "text": "좋아하는 사람에게 음성 메모를 보내시겠습니까, 아니면 전 애인에게 음성 메일을 남기시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_279",
+      "text": "파트너가 하루 동안 당신의 마음을 읽도록 하시겠습니까, 아니면 1분 동안 메모 앱을 읽도록 하시겠습니까?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_ko_280",
+      "text": "누군가의 안정적인 선택이 되는 것과 위험하지만 끌리는 선택이 되는 것 중 뭐가 나아?",
+      "intensity": "spicy",
+      "minAge": 18
     }
   ]
 }

@@ -1,1009 +1,1687 @@
 {
   "gameId": "would-you-rather",
   "locale": "fr",
-  "version": 1,
+  "version": 2,
   "prompts": [
     {
       "id": "wyr_fr_001",
+      "text": "Tu préfères avoir des snacks à volonté à chaque soirée ou toujours choisir la musique ?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères toujours avoir la batterie pleine ou toujours du Wi‑Fi gratuit ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_002",
+      "text": "Tu préfères toujours trouver la place de parking idéale ou ne plus jamais faire la queue?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères vivre près de la mer ou à la montagne ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_003",
+      "text": "Préférez-vous vous réveiller avec des cheveux parfaits ou toujours choisir la tenue parfaite en une minute?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères cuisiner tous les jours ou ne plus jamais cuisiner ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_004",
+      "text": "Tu préfères avoir du café gratuit pour toujours ou des desserts gratuits pour toujours?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères être la personne la plus drôle ou la plus intelligente de la pièce ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_005",
+      "text": "Préférez-vous être incroyable au karaoké ou imbattable aux jeux de société?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères un dragon de compagnie ou une licorne ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_006",
+      "text": "Préférez-vous vivre à côté de la plage ou au milieu de ton ville préférée?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères lire dans les pensées ou parler toutes les langues ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_007",
+      "text": "Tu préfères toujours avoir un téléphone complètement chargé ou toujours avoir un Wi-Fi parfait?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères ne jamais perdre tes clés ou ne jamais perdre ton téléphone ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_008",
+      "text": "Tu préfères ne plus jamais perdre tes clés ou ne jamais oublier pourquoi vous êtes entré dans une pièce?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères prendre des photos ou être sur les photos ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_009",
+      "text": "Tu préfères pouvoir vous téléporter au travail ou vous téléporter chez vous après un événement?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères voyager en train ou faire un road trip ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_010",
+      "text": "Préférez-vous avoir un chef personnel pour le petit-déjeuner ou un chauffeur personnel le week-end?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères te lever tôt en forme ou dormir tard sans culpabilité ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_011",
+      "text": "Tu préfères uniquement regarder des comédies pendant un an ou écouter uniquement de la musique entraînante pendant un an?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères café illimité ou snacks illimités ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_012",
+      "text": "Tu préfères gagner tous les soirs de match ou toujours faire rire tout le monde lors des soirs de match?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères vivre sans musique ou sans films ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_013",
+      "text": "Préférez-vous un petit appartement avec une vue imprenable ou une immense maison dans un endroit ennuyeux?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères être très bon en cuisine ou en chant ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_014",
+      "text": "Tu préfères être célèbre pour ton cuisine ou pour tes pas de danse?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères toujours la place avant ou toujours choisir la musique ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_015",
+      "text": "Tu préfères toujours savoir ce qu’il y a de mieux au menu ou toujours choisir le meilleur film?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères un chef perso ou un chauffeur perso ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_016",
+      "text": "Préférez-vous faire une excursion spontanée d’une journée ou planifier un week-end parfait?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères mettre le temps sur pause ou l’accélérer ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_017",
+      "text": "Préférez-vous un placard qui se style tout seul ou un réfrigérateur qui se réapprovisionne tout seul?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères être très bon en sport ou en art ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_018",
+      "text": "Tu préfères ne plus jamais faire de lessive ou ne plus jamais faire la vaisselle?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères ne regarder que des comédies ou que des drames ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_019",
+      "text": "Préférez-vous toujours avoir la dernière part de pizza ou toujours avoir la meilleure place?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères explorer l’océan ou l’espace ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_020",
+      "text": "Tu préfères un bouton muet magique pour les endroits bruyants ou un bouton skip pour les conversations gênantes ?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères une maison au bord d’un lac ou en grande ville ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_021",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères un an sans réseaux sociaux ou un an sans streaming ?"
+      "text": "Tu préfères pouvoir faire une sieste n'importe où ou vous réveiller instantanément rafraîchi chaque matin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_022",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères déménager seul dans une nouvelle ville ou rester dans ta ville pour toujours ?"
+      "text": "Préférez-vous toujours avoir une météo parfaite pendant tes jours de congé ou ne jamais avoir de trafic lorsque vous êtes en retard?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_023",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères être toujours en avance de 20 minutes ou toujours en retard de 20 minutes ?"
+      "text": "Tu préfères obtenir des billets de concert gratuits pour toujours ou des billets de cinéma gratuits pour toujours?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_024",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères que ton historique de recherche soit public ou tes DM ?"
+      "text": "Préférez-vous être doué pour prendre des photos ou doué pour être en photo?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_025",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères être connu pour ton talent ou pour ton apparence ?"
+      "text": "Tu préfères toujours vous souvenir des noms ou toujours vous souvenir des anniversaires?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_026",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères perdre toutes tes photos ou tous tes messages ?"
+      "text": "Tu préfères avoir une maison avec une pièce secrète ou un lieu de rencontre sur le toit?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_027",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères être celui qui écrit en premier ou celui qui n’écrit jamais ?"
+      "text": "Préférez-vous voyager uniquement en train ou uniquement faire des voyages en voiture?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_028",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères un petit cercle d’amis proches ou un grand cercle de connaissances ?"
+      "text": "Tu préfères vivre sans ascenseurs ou sans escalators?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_029",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères devenir célèbre du jour au lendemain ou être respecté avec le temps ?"
+      "text": "Préférez-vous toujours réaliser un retour parfait ou toujours rester calme sous la pression?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_030",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères ne jamais pouvoir mentir ou ne jamais pouvoir faire confiance ?"
+      "text": "Tu préfères être le meilleur cuisinier de ton groupe d'amis ou le meilleur conteur?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_031",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères le job de tes rêves mal payé ou un job ennuyeux très bien payé ?"
+      "text": "Préférez-vous avoir un bouton de rembobinage pour les moments embarrassants ou un bouton pause pour les moments parfaits?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_032",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères être toujours occupé ou toujours ennuyé ?"
+      "text": "Tu préfères porter uniquement ton couleur préférée pour toujours ou ne jamais répéter une tenue?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_033",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères vivre dans le passé sans internet ou dans le futur sans vie privée ?"
+      "text": "Préférez-vous avoir des livres illimités ou des jeux illimités?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_034",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères être le planificateur du groupe ou l’improvisateur ?"
+      "text": "Tu préfères pouvoir apprendre n'importe quelle recette instantanément ou n'importe quelle chanson instantanément?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_035",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères ton plus grand échec sur un panneau ou ton plus grand secret dans un chat de groupe ?"
+      "text": "Préférez-vous toujours avoir de la place pour le dessert ou ne jamais vous sentir trop rassasié?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_036",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères être excellent en small talk ou en conversations profondes ?"
+      "text": "Tu préfères organiser chaque fête ou être invité à chaque fête?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_037",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères entendre la vérité même si elle fait mal ou être protégé par des petits mensonges ?"
+      "text": "Tu préfères une maison avec une cuisine géante ou une salle de jeux géante?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_038",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères ne plus jamais dormir ou devoir dormir 12 heures ?"
+      "text": "Tu préfères utiliser uniquement des notes vocales ou n’utiliser des emojis que pendant une semaine?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_039",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères un bouton retour arrière pour une journée ou un bouton pause pour une heure ?"
+      "text": "Préférez-vous être en avance pour tout ou arriver exactement à l’heure à chaque fois?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_040",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères partir à l’étranger pour l’amour ou pour le travail ?"
+      "text": "Préférez-vous avoir une mémoire parfaite des visages ou des directions?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_041",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères sortir avec une célébrité ou avec quelqu’un à qui tu peux tout dire ?"
+      "text": "Tu préfères pouvoir mettre en pause les publicités ou sauter des tâches?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_042",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères un super premier date sans second ou un mauvais premier date qui devient incroyable ?"
+      "text": "Tu préfères toujours trouver de l’argent dans tes vieilles poches ou toujours bénéficier de réductions surprises?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_043",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères être celui qui aime le plus ou celui qui est le plus aimé ?"
+      "text": "Préférez-vous avoir la chambre de tes rêves ou la cuisine de tes rêves?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_044",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères garder ta vie amoureuse privée ou tout partager avec tes amis ?"
+      "text": "Tu préfères pouvoir préparer parfaitement n'importe quelle boisson ou n'importe quelle collation?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_045",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères un blind date chaque semaine ou ne plus jamais dater ?"
+      "text": "Tu préfères ne jamais avoir besoin de parapluie ou de crème solaire?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_046",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères apprendre que ton partenaire a menti ou que ton ami a menti ?"
+      "text": "Préférez-vous avoir une heure supplémentaire chaque matin ou une heure supplémentaire chaque soir?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_047",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères une romance d’été qui se termine ou un amour lent qui met des années ?"
+      "text": "Préférez-vous vivre au-dessus d'une boulangerie ou à côté d'un cinéma?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_048",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères être célibataire et admiré ou en couple et apaisé ?"
+      "text": "Préférez-vous toujours choisir le restaurant ou toujours choisir l'activité?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_049",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères être celui qui écrit en premier ou celui qui ignore ?"
+      "text": "Préférez-vous avoir une playlist personnelle pour chaque humeur ou une tenue parfaite pour chaque projet?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_050",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères une connexion instantanée qui s’efface ou un lien lent qui dure ?"
+      "text": "Préférez-vous être l’ami qui donne les meilleurs conseils ou celui qui offre les meilleures collations?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_051",
+      "text": "Tu préfères manger uniquement des plats de petit-déjeuner pour le dîner ou des plats de dîner pour le petit-déjeuner?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères toujours chuchoter ou toujours crier ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_052",
+      "text": "Tu préfères ne jamais avoir à recharger tes appareils ou à ne jamais avoir à mettre à jour tes applications?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères ne plus jamais utiliser les réseaux sociaux ou ne plus jamais regarder la télé ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_053",
+      "text": "Tu préfères avoir une écriture parfaite ou des compétences parfaites en matière d'emballage de cadeaux?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères un chef perso ou un coach sportif perso ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_054",
+      "text": "Préférez-vous nettoyer instantanément ton chambre ou organiser instantanément les photos de ton téléphone?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères vivre au bord de l’océan ou à la montagne ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_055",
+      "text": "Préférez-vous toujours avoir des draps propres ou toujours des serviettes propres?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères pouvoir arrêter le temps ou remonter de 10 minutes ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_056",
+      "text": "Préférez-vous être imbattable aux jeux-questionnaires ou imbattable aux charades?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères un téléphone avec batterie infinie ou data illimitée partout ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_057",
+      "text": "Préférez-vous un balcon avec vue ou un salon fait pour les fêtes?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères être célèbre pour ton talent ou pour ton physique ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_058",
+      "text": "Tu préfères ne plus jamais renverser un verre ou ne plus jamais laisser tomber ton téléphone?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères voyager gratuitement ou manger gratis dans n’importe quel resto ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_059",
+      "text": "Tu préfères toujours vous souvenir de tes rêves ou ne jamais faire de cauchemars?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères être toujours un peu en retard ou toujours très en avance ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_060",
+      "text": "Préférez-vous avoir des vols gratuits une fois par an ou des hôtels gratuits deux fois par an?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères n’écouter qu’un seul artiste pendant un an ou un seul genre pour toujours ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_061",
+      "text": "Tu préfères parler couramment une nouvelle langue du jour au lendemain ou maîtriser un nouvel instrument du jour au lendemain?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères une mémoire parfaite ou pouvoir tout oublier ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_062",
+      "text": "Tu préfères toujours avoir l’éclairage parfait pour les photos ou ne jamais cligner des yeux sur les photos?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères être excellent en cuisine ou en prise de parole ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_063",
+      "text": "Préférez-vous avoir un jour de congé surprise chaque mois ou des vacances surprises chaque année?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères vivre sans café ou sans desserts ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_064",
+      "text": "Préférez-vous uniquement du texte en minuscules ou uniquement du texte avec une ponctuation parfaite?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères prendre les escaliers pour toujours ou ne plus courir ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_065",
+      "text": "Préférez-vous un week-end confortable en chalet ou un week-end chargé en ville?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères une petite maison avec grand jardin ou une grande maison sans jardin ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_066",
+      "text": "Préférez-vous être connu pour ton style ou pour ton sens de l’humour?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères ne jamais être dans les embouteillages ou ne jamais faire la queue ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_067",
+      "text": "Tu préfères toujours choisir la file d’attente la plus rapide ou toujours prendre l’ascenseur tout de suite?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères toujours une météo parfaite ou toujours un sommeil parfait ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_068",
+      "text": "Tu préfères ne jamais manquer de stockage sur ton téléphone ou ne jamais manquer de batterie?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères être le plus intelligent de la pièce ou le plus drôle ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_069",
+      "text": "Tu préfères pouvoir décorer parfaitement n’importe quelle pièce ou emballer parfaitement n’importe quelle valise?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères perdre ton téléphone ou ton portefeuille ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_070",
+      "text": "Tu préfères ne boire que de l’eau pour toujours ou ne boire qu’une seule boisson préférée pour toujours?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères lire dans les pensées ou voir le futur ?"
+      "minAge": 4
     },
     {
       "id": "wyr_fr_071",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères un bouton “retour” pour ta journée ou un bouton “avance rapide” ?"
+      "text": "Préférez-vous toujours dormir parfaitement ou toujours vous réveiller de bonne humeur?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_072",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères organiser une grosse soirée ou planifier un voyage tranquille ?"
+      "text": "Tu préfères être la personne à qui tout le monde demande des recommandations ou celle à qui tout le monde demande de planifier des voyages?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_073",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères des vols gratuits ou des hôtels gratuits ?"
+      "text": "Préférez-vous avoir une prévision météo personnelle toujours exacte ou un calendrier qui se planifie tout seul?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_074",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères une année sabbatique payée ou la promo que tu veux ?"
+      "text": "Tu préfères ne jamais avoir à nettoyer la salle de bain ou ne jamais avoir à nettoyer la cuisine?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_075",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères chanter magnifiquement ou jouer de n’importe quel instrument ?"
+      "text": "Préférez-vous être doué en pâtisserie ou doué en grillades?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_076",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères toujours réussir la première impression ou toujours avoir une seconde chance ?"
+      "text": "Préférez-vous avoir des places au premier rang une fois par an ou des collations VIP à chaque fois?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_077",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères être top en photo ou en vidéo ?"
+      "text": "Préférez-vous toujours trouver le meilleur café caché ou toujours trouver le meilleur point de vue?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_078",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères avoir toujours des snacks ou toujours du café ?"
+      "text": "Préférez-vous une semaine de tenues parfaites ou une semaine de repas parfaits?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_079",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères faire 10 minutes de sport par jour ou une longue séance par semaine ?"
+      "text": "Préférez-vous gagner un approvisionnement à vie en chaussures ou un approvisionnement à vie en écouteurs?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_080",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères parler toutes les langues ou comprendre les animaux ?"
+      "text": "Tu préfères toujours connaître les paroles ou toujours connaître la danse?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_081",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères prendre plein de photos ou vivre à fond le moment ?"
+      "text": "Tu préfères pouvoir résoudre n’importe quel problème technique ou assembler n’importe quel meuble sans instructions?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_082",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères ne jamais nettoyer ou ne jamais cuisiner ?"
+      "text": "Préférez-vous un sac à dos magique qui n'est jamais lourd ou une valise qui se replie toute seule?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_083",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères un meilleur ami garanti ou une âme sœur garantie ?"
+      "text": "Préférez-vous toujours avoir une bonne journée de coiffure ou toujours avoir une peau claire?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_084",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères vivre dans ta ville de rêve ou près de ta famille ?"
+      "text": "Préférez-vous prendre les meilleurs selfies de groupe ou faire les meilleurs plans de groupe?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_085",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères toujours gagner aux jeux ou être fort pour apprendre de nouvelles choses ?"
+      "text": "Tu préfères pouvoir sauter une tâche ennuyeuse par jour ou avoir une surprise amusante par jour?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_086",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères ne jamais rater une deadline ou ne jamais stresser ?"
+      "text": "Tu préfères vivre dans un endroit avec un été sans fin ou un temps agréable sans fin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_087",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères être celui qui planifie ou celui qui suit le flow ?"
+      "text": "Tu préfères ne jamais avoir de publicité en ligne ou ne jamais recevoir de spam?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_088",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères un dressing minimaliste ou des vêtements illimités ?"
+      "text": "Tu préfères toujours choisir un bon nom d’utilisateur ou toujours écrire une belle légende?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_089",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères pouvoir te téléporter une fois par jour ou voler dix minutes par jour ?"
+      "text": "Préférez-vous être le meilleur pour emballer des cadeaux ou le meilleur pour choisir des cadeaux?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_090",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères ne manger que sucré ou que salé ?"
+      "text": "Préférez-vous avoir des soirées cinéma illimitées à la maison ou des brunchs illimités à l’extérieur?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_091",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères une romance courte et intense ou un amour lent et solide ?"
+      "text": "Préférez-vous avoir un petit jardin privé ou un immense toit partagé?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_092",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères envoyer le premier message ou passer le premier appel ?"
+      "text": "Tu préfères utiliser uniquement une petite cuillère pour toujours ou toujours boire dans une petite tasse?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_093",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères que ton/ta partenaire soit ton meilleur ami ou ton plus grand fan ?"
+      "text": "Tu préfères pouvoir rendre n’importe quelle pièce confortable ou rendre n’importe quelle playlist parfaite?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_094",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères un date sans téléphone ou sans parler ?"
+      "text": "Préférez-vous toujours avoir le bon chargeur ou toujours le bon mot de passe?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_095",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères partager une playlist ou un calendrier ?"
+      "text": "Préférez-vous ne jamais oublier ton mot de passe ou ne jamais oublier où vous vous êtes garé?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_096",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères toujours savoir ce que quelqu’un ressent ou ce qu’il veut ?"
+      "text": "Préférez-vous avoir un placard parfaitement organisé ou une pellicule parfaitement organisée?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_097",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères être souvenu pour ta gentillesse ou pour ton ambition ?"
+      "text": "Préférez-vous être le premier à essayer une tendance ou le dernier à vous en lasser?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_098",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères travailler de chez toi pour toujours ou travailler dehors pour toujours ?"
+      "text": "Tu préfères toujours avoir une table disponible au restaurant ou toujours avoir un dessert gratuit?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_099",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères vivre sans miroirs ou sans photos ?"
+      "text": "Préférez-vous avoir une chanson hype personnelle ou une lumière d’entrée personnelle?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_100",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères être ultra spontané ou ultra planifié ?"
+      "text": "Tu préfères être excellent pour faire bonne impression ou pour les câlins d’au revoir ?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_fr_101",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères sortir avec quelqu’un de célèbre ou avec quelqu’un à qui tu peux tout dire ?"
+      "text": "Tu préfères être respecté par tout le monde ou profondément compris par quelques personnes?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_102",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères un super premier date sans second date ou un premier date nul qui devient génial ?"
+      "text": "Tu préfères savoir quand quelqu'un ment ou être toujours cru lorsque vous dites la vérité?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_103",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères une romance brûlante mais courte ou une relation calme et profonde ?"
+      "text": "Tu préfères avoir le travail de tes rêves avec un faible salaire ou un travail ennuyeux avec un salaire incroyable?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_104",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères quelqu’un de très jaloux ou quelqu’un de très indépendant ?"
+      "text": "Tu préfères partir seul à l’étranger ou rester dans ton ville natale pour toujours?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_105",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères un date à l’aveugle chaque semaine ou ne plus jamais dater ?"
+      "text": "Tu préfères être la personne la plus intelligente de la pièce ou la personne en qui tout le monde a le plus confiance?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_106",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères découvrir que ton/ta partenaire a menti ou que ton/ta ami(e) a menti ?"
+      "text": "Tu préfères toujours connaître la vérité ou toujours savoir ce qu’il faut dire?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_107",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères une romance d’été qui se termine ou un amour lent qui prend des années ?"
+      "text": "Préférez-vous avoir un petit groupe d’amis fidèles ou un vaste réseau d’amis occasionnels?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_108",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères être célibataire et adulé(e) ou en couple et tranquille ?"
+      "text": "Préférez-vous qu’on se souvienne de vous pour ton gentillesse ou pour ton ambition?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_109",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères un rendez‑vous improvisé à minuit ou un dîner romantique planifié ?"
+      "text": "Tu préfères réussir tôt et vous épuiser ou réussir lentement et profiter du processus?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_110",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères une connexion instantanée qui s’éteint ou un lien lent qui dure ?"
+      "text": "Tu préfères que chaque erreur soit oubliée ou que chaque bonne action se souvienne?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_111",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères devoir toujours chuchoter ou toujours crier ?"
+      "text": "Préférez-vous revivre une journée parfaite ou effacer une journée terrible?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_112",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères devoir toujours porter des écouteurs ou ne jamais pouvoir en utiliser ?"
+      "text": "Tu préfères pouvoir pardonner instantanément ou ne jamais vous laisser tromper deux fois?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_113",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères un chef personnel ou un coach personnel ?"
+      "text": "Tu préfères avoir plus de confiance ou plus de discipline?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_114",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères ne plus jamais perdre tes clés ou ne plus jamais manquer de batterie ?"
+      "text": "Tu préfères savoir ce que les gens pensent de vous en premier ou ce qu’ils disent après ton départ?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_115",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères pouvoir mettre le temps sur pause ou remonter le temps de 10 minutes ?"
+      "text": "Tu préfères être aimé pour ce que vous êtes maintenant ou admiré pour ce que vous pourriez devenir?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_116",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères un téléphone à batterie infinie ou des données illimitées partout ?"
+      "text": "Tu préfères toujours être occupé avec les choses que vous aimez ou avoir toujours du temps libre mais vous ennuyer?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_117",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères être célèbre pour ton talent ou pour ton apparence ?"
+      "text": "Tu préfères avoir une grande chance et tout risquer ou plusieurs petites chances avec des progrès lents?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_118",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères voyager gratuitement ou manger gratuitement dans n’importe quel resto ?"
+      "text": "Tu préfères être célèbre pendant cinq ans ou respecté toute ton vie?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_119",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères un petit appart au centre ou une grande maison en périphérie ?"
+      "text": "Vous préférez perdre toutes tes photos ou tous tes messages?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_120",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères apprendre un instrument ou apprendre une nouvelle langue ?"
+      "text": "Tu préfères que ton historique de recherche soit public ou que ton pellicule soit publique?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_121",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères une mémoire parfaite ou pouvoir oublier n’importe quoi ?"
+      "text": "Tu préfères toujours dire ce que vous pensez ou toujours garder la paix?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_122",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères être incroyable en cuisine ou incroyable en prise de parole ?"
+      "text": "Tu préfères avoir un ami brutalement honnête ou un ami qui vous soutient sans cesse?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_123",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères la pluie toute l’année ou la chaleur toute l’année ?"
+      "text": "Tu préfères être le planificateur de chaque groupe ou la personne qui n’a jamais à planifier?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_124",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères prendre les escaliers pour toujours ou ne plus jamais courir ?"
+      "text": "Tu préfères être doué pour les conversations profondes ou doué pour mettre les gens à l'aise?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_125",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères une petite maison avec un grand jardin ou une grande maison sans jardin ?"
+      "text": "Préférez-vous savoir exactement où va ton vie ou en être surpris?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_126",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères ne jamais être bloqué dans les embouteillages ou ne jamais faire la queue ?"
+      "text": "Tu préfères abandonner les réseaux sociaux pendant un an ou le streaming pendant un an?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_127",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères toujours un temps parfait ou toujours un sommeil parfait ?"
+      "text": "Préférez-vous avoir une année de congé payée ou une promotion que vous souhaitez vraiment?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_128",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères avoir une journée surprise de congé chaque mois ou un bonus fixe chaque mois ?"
+      "text": "Tu préfères toujours être sous-estimé ou toujours surestimé?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_129",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères perdre ton téléphone ou perdre ton portefeuille ?"
+      "text": "Tu préfères que tout le monde connaisse ton plus grand objectif ou ton plus grande peur?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_130",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Tu préfères te téléporter une fois par jour ou voler dix minutes par jour ?"
+      "text": "Tu préfères pouvoir redémarrer ton carrière ou relancer une amitié?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_131",
+      "text": "Tu préfères être la personne que les gens appellent en cas de crise ou la personne qu’ils appellent pour célébrer?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères un bouton pour rembobiner ta journée ou un bouton pour avancer vite ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_132",
+      "text": "Tu préfères ne jamais vous sentir gêné ou ne jamais vous sentir jaloux?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères organiser une grosse fête ou planifier un voyage tranquille ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_133",
+      "text": "Tu préfères pouvoir supprimer une mémoire ou rejouer une mémoire quand vous le souhaitez?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères créer ton propre projet ou devenir expert dans une grande entreprise ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_134",
+      "text": "Tu préfères connaître la fin de chaque film ou le résultat de chaque décision?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères une année payée off ou la promotion que tu veux vraiment ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_135",
+      "text": "Préférez-vous avoir une réputation parfaite auprès des étrangers ou une réelle honnêteté auprès des amis?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères chanter magnifiquement ou jouer n’importe quel instrument ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_136",
+      "text": "Tu préfères toujours gagner les disputes ou toujours laisser les disputes tranquilles?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères travailler quatre jours par semaine ou avoir des journées plus courtes ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_137",
+      "text": "Tu préfères être doué pour gagner de l’argent ou doué pour gérer de l’argent?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères être super en photo ou super en vidéo ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_138",
+      "text": "Tu préfères que ton avenir soit planifié par quelqu'un de sage ou que vous choisissiez tout vous-même sans aucun conseil?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères toujours avoir des snacks ou toujours avoir du café ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_139",
+      "text": "Préférez-vous être la personne la plus drôle de ton groupe ou la personne la plus calme en cas de crise?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères des entraînements de 10 minutes chaque jour ou un long entraînement par semaine ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_140",
+      "text": "Tu préfères qu’un rêve se réalise maintenant ou que cinq petits rêves se réalisent au fil du temps?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères être connu pour ta créativité ou pour ta fiabilité ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_141",
+      "text": "Tu préfères pouvoir lire complètement une personne ou comprendre parfaitement les foules?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères prendre plein de photos ou vivre totalement l’instant ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_142",
+      "text": "Tu préfères obtenir une clôture pour chaque fin ou une seconde chance pour une fin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères ne jamais avoir à nettoyer ou ne jamais avoir à cuisiner ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_143",
+      "text": "Préférez-vous être connu comme mystérieux ou complètement transparent?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères un(e) meilleur(e) ami(e) garanti(e) ou une âme sœur garantie ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_144",
+      "text": "Tu préfères avoir un travail qui impressionne les gens ou une vie paisible?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères vivre dans ta ville de rêve ou rester près de la famille ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_145",
+      "text": "Tu préfères être trop loyal ou trop indépendant ?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères toujours gagner aux jeux ou toujours être bon dans les nouvelles compétences ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_146",
+      "text": "Préférez-vous toujours avoir le courage de commencer ou la patience de finir?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères ne jamais rater une deadline ou ne jamais te sentir stressé ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_147",
+      "text": "Tu préfères pouvoir vous excuser parfaitement ou affronter quelqu’un sans crainte?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères vivre un an sans réseaux sociaux ou un an sans séries ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_148",
+      "text": "Tu préfères avoir ton plus gros échec en ligne pour toujours ou ton plus grand secret dans une discussion de groupe?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères une garde-robe minimaliste ou des vêtements illimités ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_149",
+      "text": "Préférez-vous vivre dans le passé avec plus d’intimité ou dans le futur avec plus de confort?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères renoncer à la musique ou renoncer aux films ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_150",
+      "text": "Tu préfères toujours être responsable ou ne jamais se voir confier de responsabilités?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères ne manger que sucré ou ne manger que salé ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_151",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères une romance courte et intense ou un amour lent et stable ?"
+      "text": "Tu préfères pouvoir modifier une décision que vous avez prise ou voir une décision que vous avez presque prise?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_152",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères être le/la premier/ère à écrire ou le/la premier/ère à appeler ?"
+      "text": "Tu préfères perdre ton zone de confort ou perdre ton ambition?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_153",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères une alchimie immédiate ou une alchimie qui se construit lentement ?"
+      "text": "Préférez-vous être admiré de loin ou aimé de près?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_154",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères un date sans téléphones ou un date sans parler ?"
+      "text": "Tu préfères ne jamais vous comparer aux autres ou ne jamais vous soucier de ce que pensent les autres?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_155",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères partager une playlist ou partager un calendrier ?"
+      "text": "Tu préfères recevoir un avertissement avant chaque mauvaise décision ou une récompense après chaque décision courageuse?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_156",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères toujours savoir ce que quelqu’un ressent ou toujours savoir ce qu’il veut ?"
+      "text": "Tu préfères pouvoir faire rire ou faire en sorte que tout le monde se sente en sécurité?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_157",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères qu’on se souvienne de toi pour ta gentillesse ou pour ton ambition ?"
+      "text": "Préférez-vous avoir une mémoire parfaite ou une parfaite capacité à avancer?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_158",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères un partenaire très romantique ou très aventurier ?"
+      "text": "Préférez-vous passer un an à développer ton corps ou ton esprit?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_159",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères un baiser sous la pluie ou un slow lors d’une fête ?"
+      "text": "Tu préfères être le personnage principal d’une histoire tranquille ou un personnage secondaire dans une histoire épique?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_160",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tu préfères être ultra spontané ou méticuleusement organisé ?"
+      "text": "Tu préfères savoir pourquoi quelqu'un est parti ou ne jamais le savoir et guérir plus vite?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_fr_161",
+      "text": "Tu préfères toujours être honnête au sujet de tes sentiments ou toujours protéger les sentiments des autres?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères perdre tous tes mèmes sauvegardés ou toutes tes playlists ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_162",
+      "text": "Préférez-vous avoir une motivation illimitée ou une patience illimitée?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères que toutes tes fautes soient publiées ou que tous tes brouillons soient envoyés ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_163",
+      "text": "Tu préfères pouvoir repérer instantanément les signaux d’alarme ou voir instantanément le potentiel caché?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères devenir viral en dansant ou en tombant ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_164",
+      "text": "Tu préfères pouvoir réparer une relation passée ou éviter une erreur future?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères communiquer seulement en GIFs ou seulement en vocaux ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_165",
+      "text": "Préférez-vous toujours choisir le confort ou toujours choisir la croissance?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Batterie illimitée ou Wi-Fi parfait à vie ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_166",
+      "text": "Tu préfères être entouré de personnes qui vous mettent au défi ou de personnes qui vous réconfortent?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères organiser toutes les soirées ou ranger après toutes les soirées ?"
+      "minAge": 13
     },
     {
       "id": "wyr_fr_167",
+      "text": "Préférez-vous avoir la routine quotidienne parfaite ou l’aventure parfaite d’une vie?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tu préfères toujours expliquer les règles ou être toujours accusé de tricher ?"
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_168",
+      "text": "Tu préfères être secrètement talentueux ou publiquement moyen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_169",
+      "text": "Tu préfères ne jamais avoir besoin d’approbation ou toujours recevoir des encouragements?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_170",
+      "text": "Tu préfères avoir un ami qui se souvient de chaque détail ou qui se présente à chaque fois?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_171",
+      "text": "Tu préfères pouvoir abandonner n’importe quelle habitude instantanément ou créer n’importe quelle habitude instantanément?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_172",
+      "text": "Tu préfères que ton jeune moi voie ton vie maintenant ou que ton futur moi vous renvoie une phrase?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_173",
+      "text": "Tu préfères être la personne qui change un groupe ou la personne qu’un groupe change pour le mieux?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_174",
+      "text": "Tu préfères toujours connaître le coût d’un choix ou toujours connaître les avantages?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_175",
+      "text": "Tu préfères être intrépide pendant un an ou sage pour le reste de ton vie?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_176",
+      "text": "Tu préfères avoir une vie qui semble passionnante en ligne ou qui semble passionnante hors ligne?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_177",
+      "text": "Tu préfères arrêter de trop réfléchir ou arrêter de tergiverser?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_178",
+      "text": "Tu préfères être connu pour un chef-d’œuvre ou de nombreux efforts solides?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_179",
+      "text": "Tu préfères que toutes les portes soient ouvertes mais pas de direction claire ou un chemin clair sans alternative?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_180",
+      "text": "Tu préfères toujours être le premier à pardonner ou le premier à s’en aller?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_181",
+      "text": "Tu préfères avoir un mentor pour chaque problème ou un ami pour chaque journée difficile?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_182",
+      "text": "Tu préfères pouvoir prédire ton humeur de demain ou comprendre ton humeur d’aujourd’hui?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_183",
+      "text": "Tu préfères devenir riche tranquillement ou influent publiquement?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_184",
+      "text": "Tu préfères ne jamais vous sentir seul ou ne jamais vous sentir incompris?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_185",
+      "text": "Tu préfères pouvoir convaincre les gens instantanément ou savoir instantanément qui vaut ton temps?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_186",
+      "text": "Tu préfères être connu pour prendre des risques ou pour faire des choix judicieux?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_187",
+      "text": "Tu préfères toujours avoir un plan de sauvegarde ou ne jamais en avoir besoin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_188",
+      "text": "Tu préfères perdre une mauvaise habitude ou acquérir une compétence impressionnante?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_189",
+      "text": "Préférez-vous une vie calme avec peu de surprises ou une vie chaotique avec des histoires inoubliables?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_190",
+      "text": "Tu préfères connaître le meilleur moment de ton vie avant qu’il ne se produise ou ne le reconnaître qu’après coup?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_191",
+      "text": "Tu préfères être excellent pour démarrer des conversations ou excellent pour les terminer avec grâce?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_192",
+      "text": "Tu préfères toujours être la personne qui donne des conseils ou la personne assez courageuse pour les suivre?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_193",
+      "text": "Préférez-vous avoir la maison de tes rêves loin de tout le monde ou une maison simple près de tes personnes préférées?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_194",
+      "text": "Tu préfères pouvoir faire la paix avec n’importe qui ou prendre un nouveau départ n’importe où?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_195",
+      "text": "Tu préfères être l'ami à qui tout le monde se confesse ou l'ami avec qui tout le monde fait la fête?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_196",
+      "text": "Préférez-vous un mois de liberté totale ou une année de progrès constant?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_197",
+      "text": "Tu préfères qu’on se souvienne de vous pour un geste audacieux ou pour toute une vie de loyauté discrète?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_198",
+      "text": "Tu préfères connaître la vérité sur ton réputation ou garder ton confiance intacte?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_199",
+      "text": "Tu préfères pouvoir dire non sans culpabilité ou demander de l’aide sans honte?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_200",
+      "text": "Préférez-vous avoir un timing parfait ou un instinct parfait?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_fr_201",
+      "text": "Tu préfères que tes amis examinent ton profil d’appli de rencontre ou qu’une personne de confiance lise tes DM à voix haute ?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_202",
+      "text": "Tu préfères un premier rendez-vous parfait sans alchimie ou un premier rendez-vous désordonné avec des étincelles évidentes?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_203",
+      "text": "Tu préfères toujours savoir quand quelqu'un flirte ou ne jamais flirter accidentellement en retour?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_204",
+      "text": "Tu préfères sortir avec quelqu'un que tout le monde aime mais dont vous n'êtes pas sûr ou avec quelqu'un dont tout le monde doute mais dont vous êtes sûr?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_205",
+      "text": "Tu préfères être fantôme après un rendez-vous incroyable ou être lentement filé pendant un mois?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_206",
+      "text": "Tu préfères avouer ton béguin en personne ou laisser ton discussion de groupe le révéler accidentellement?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_207",
+      "text": "Tu préfères que ton ex vous voie magnifique ou ne s’en soucie vraiment pas s’il le fait?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_208",
+      "text": "Tu préfères recevoir un SMS risqué en fin de soirée ou en envoyer un et le regretter instantanément?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_209",
+      "text": "Tu préfères avoir un partenaire douloureusement honnête ou qui évite toute conversation difficile?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_210",
+      "text": "Tu préfères sortir avec quelqu’un avec une parfaite plaisanterie ou une parfaite maturité émotionnelle?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_211",
+      "text": "Tu préfères être surpris en train de traquer le profil de quelqu’un ou d’aimer accidentellement un très vieux message?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_212",
+      "text": "Préférez-vous vivre une romance estivale inoubliable ou une histoire d’amour à combustion lente?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_213",
+      "text": "Tu préfères connaître toutes les personnes que ton partenaire a aimées ou ne rien savoir et rester en paix?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_214",
+      "text": "Tu préfères être le jaloux ou celui qui rend les gens jaloux sans essayer?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_215",
+      "text": "Tu préfères une alchimie incroyable au mauvais moment ou le bon timing avec moins d’étincelles ?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_216",
+      "text": "Tu préfères être le premier à dire « je t'aime » ou attendre d'être complètement sûr?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_217",
+      "text": "Tu préfères avoir un rendez-vous sans téléphone ou un rendez-vous sans bavardage?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_218",
+      "text": "Tu préfères que ton plus gros signal d’alarme soit exposé ou que tout le monde le sache déjà?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_219",
+      "text": "Tu préfères être le béguin secret de quelqu’un ou l’obsession très publique de quelqu’un?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_220",
+      "text": "Tu préfères avoir une histoire de rupture dramatique ou pas d’histoire de rupture parce que rien n’est jamais devenu sérieux?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_221",
+      "text": "Tu préfères sortir avec quelqu’un qui publie tout ou avec quelqu’un qui ne publie rien du tout?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_222",
+      "text": "Tu préfères être avec quelqu’un de très spontané ou avec quelqu’un de profondément cohérent?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_223",
+      "text": "Préférez-vous partager des mots de passe ou partager des emplacements?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_224",
+      "text": "Tu préfères recevoir une lettre d’amour de la mauvaise personne ou un texte d’un seul mot de la bonne personne?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_225",
+      "text": "Tu préfères que ton béguin entende ton pire note vocale ou voie ton pire selfie?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_226",
+      "text": "Tu préfères être doué pour flirter en personne ou doué pour envoyer des SMS?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_227",
+      "text": "Tu préfères toujours savoir si un rendez-vous vous intéresse ou toujours savoir s'il vous fait perdre ton temps?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_228",
+      "text": "Tu préfères avoir une relation avec une passion intense et le chaos ou un amour calme avec moins de feux d’artifice?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_229",
+      "text": "Tu préfères être celui qui s’en soucie le plus ou celui qui l’admet en premier?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_230",
+      "text": "Tu préfères découvrir qu’un ami aime ton béguin ou que ton béguin aime ton ami?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_231",
+      "text": "Tu préfères sortir avec quelqu’un qui est le type de tout le monde ou avec quelqu’un que vous seul comprenez?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_232",
+      "text": "Tu préfères que ton situation définisse la relation ou disparaisse à jamais?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_233",
+      "text": "Tu préfères obtenir la clôture d’un ex ou des excuses de quelqu’un avec qui vous n’êtes jamais sorti?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_234",
+      "text": "Préférez-vous un baiser parfait sans avenir ou un début maladroit qui se transforme en véritable amour?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_235",
+      "text": "Tu préfères pouvoir voir instantanément les drapeaux verts de quelqu’un ou ses drapeaux rouges?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_236",
+      "text": "Tu préfères flirter avec confiance et échouer ou jouer cool et rater ton chance?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_237",
+      "text": "Tu préfères que chaque premier rendez-vous soit filmé ou chaque rupture revue par tes amis?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_238",
+      "text": "Tu préfères sortir avec quelqu’un qui se souvient de chaque détail ou avec quelqu’un qui vous surprend constamment?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_239",
+      "text": "Tu préfères vous remettre avec un ex pendant une semaine ou faire cinq rendez-vous à l'aveugle d'affilée?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_240",
+      "text": "Tu préfères que tes amis choisissent ton prochain rendez-vous ou que ton historique de recherche s’en charge ?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_241",
+      "text": "Tu préfères être aimé bruyamment en public ou en privé d’une manière que vous seul remarquez?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_242",
+      "text": "Tu préfères toujours être le briseur de cœur ou toujours le romantique désespéré?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_243",
+      "text": "Préférez-vous avoir un partenaire trop collant ou trop mystérieux?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_244",
+      "text": "Tu préfères découvrir que quelqu'un a écrit une chanson sur vous ou une longue diatribe sur vous?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_245",
+      "text": "Tu préfères recevoir un SMS « nous devons parler » ou en envoyer un accidentellement à la mauvaise personne?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_246",
+      "text": "Tu préfères sortir avec quelqu’un qui planifie chaque détail ou avec quelqu’un qui improvise tout?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_247",
+      "text": "Tu préfères avoir une alchimie indéniable avec ton opposé ou une alchimie confortable avec quelqu’un comme vous?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_248",
+      "text": "Tu préfères être surpris en train de répéter une confession ou de pratiquer un discours de rupture?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_249",
+      "text": "Tu préfères que ton ancien béguin vous envoie soudainement un message ou que ton béguin actuel ne vous suive plus soudainement?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_250",
+      "text": "Tu préfères toujours tomber trop vite ou toujours réaliser tes sentiments trop tard?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_251",
+      "text": "Tu préfères être la personne pour laquelle on change ou la personne dont on ne peut pas se remettre?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_252",
+      "text": "Tu préfères avoir un partenaire époustouflant en paroles ou époustouflant en actions?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_253",
+      "text": "Tu préfères sortir avec quelqu’un qui vous fait rire constamment ou avec quelqu’un qui vous rend complètement calme?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_254",
+      "text": "Tu préfères savoir si ton béguin rêve de vous ou savoir s'il parle de vous?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_255",
+      "text": "Préférez-vous envoyer le premier message ou faire le premier pas en personne?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_256",
+      "text": "Préférez-vous avoir une relation secrète pendant trois mois ou une relation publique sur laquelle tout le monde commente?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_257",
+      "text": "Tu préfères que ton style de flirt soit évalué par tes amis ou ton style d'envoi de SMS par ton béguin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_258",
+      "text": "Préférez-vous être le rebond qui devient sérieux ou celui qu'on n'oublie jamais?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_259",
+      "text": "Tu préfères sortir avec quelqu’un avec exactement ton humour ou ton ambition exacte?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_260",
+      "text": "Tu préfères craquer pour quelqu’un d’inaccessible ou qu’une personne inaccessible craque pour toi ?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_261",
+      "text": "Tu préfères recevoir une confession ivre ou un message sobre qui a pris une semaine à écrire?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_262",
+      "text": "Tu préfères que chaque rendez-vous se termine par une conversation profonde ou par une histoire ridicule?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_263",
+      "text": "Tu préfères être avec quelqu’un qui vous défie ou quelqu’un qui vous vénère?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_264",
+      "text": "Préférez-vous garder un peu de mystère ou tout savoir immédiatement?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_265",
+      "text": "Tu préfères avoir un partenaire qui est le meilleur ami de tes amis ou qui garde ton monde séparé?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_266",
+      "text": "Tu préfères sortir avec quelqu’un qui ne devient jamais jaloux ou avec quelqu’un qui l’admet honnêtement?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_267",
+      "text": "Préférez-vous avoir un moment de contact visuel intense ou un contact de la main parfaitement synchronisé?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_268",
+      "text": "Tu préfères vous faire prendre à sauvegarder des idées de mariage trop tôt ou à supprimer une application de rencontres trop tard?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_269",
+      "text": "Tu préfères avoir une amitié affectueuse qui ne devient jamais plus ou une relation qui commence par un flirt maladroit?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_270",
+      "text": "Tu préfères pouvoir annuler un message envoyé ou annuler une phrase en personne?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_271",
+      "text": "Tu préfères que ton meilleur ami approuve ton béguin ou que ton béguin approuve ton meilleur ami?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_272",
+      "text": "Tu préfères sortir avec quelqu’un qui aime l’attention ou avec quelqu’un qui l’évite complètement?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_273",
+      "text": "Tu préfères être la raison pour laquelle quelqu'un sourit à son téléphone ou la raison pour laquelle il ne peut pas se concentrer toute la journée?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_274",
+      "text": "Préférez-vous un dîner romantique avec un silence gênant ou une soirée chaotique avec une énergie incroyable?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_275",
+      "text": "Tu préfères qu’on vous invite à sortir avec un grand geste ou une simple phrase honnête?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_276",
+      "text": "Tu préfères avoir une relation que tout le monde envie ou que personne ne comprend à part vous?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_277",
+      "text": "Tu préfères ne jamais savoir qui a le béguin pour vous ou savoir et être incapable de faire quoi que ce soit à ce sujet?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_278",
+      "text": "Tu préfères envoyer une note vocale à ton béguin ou laisser un message vocal à ton ex?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_279",
+      "text": "Tu préfères que ton partenaire lise dans tes pensées pendant une journée ou lise ton application de notes pendant une minute?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_fr_280",
+      "text": "Tu préfères être le choix rassurant de quelqu’un ou son choix risqué mais irrésistible ?",
+      "intensity": "spicy",
+      "minAge": 18
     }
   ]
 }

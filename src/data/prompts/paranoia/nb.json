@@ -1,0 +1,949 @@
+{
+  "gameId": "paranoia",
+  "locale": "nb",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "par_nb_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville overleve en zombieapokalypse lengst?"
+    },
+    {
+      "id": "par_nb_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville vært best til å lage en fem-retters middag?"
+    },
+    {
+      "id": "par_nb_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville vinne en stirrekonkurranse?"
+    },
+    {
+      "id": "par_nb_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville blitt millionær først?"
+    },
+    {
+      "id": "par_nb_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville vært den morsomste reisefølget?"
+    },
+    {
+      "id": "par_nb_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville gråte først under en trist film?"
+    },
+    {
+      "id": "par_nb_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville vinne en triviakonkurranse?"
+    },
+    {
+      "id": "par_nb_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sannsynlig å bli berømt?"
+    },
+    {
+      "id": "par_nb_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville vært den beste forelderen?"
+    },
+    {
+      "id": "par_nb_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville være den første til å tatovere seg?"
+    },
+    {
+      "id": "par_nb_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er best til å holde på hemmeligheter?"
+    },
+    {
+      "id": "par_nb_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er den mest eventyrlystne her?"
+    },
+    {
+      "id": "par_nb_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville vart lengst uten å bruke telefonen sin?"
+    },
+    {
+      "id": "par_nb_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville vinne en sangkonkurranse?"
+    },
+    {
+      "id": "par_nb_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville vært den beste superhelten?"
+    },
+    {
+      "id": "par_nb_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem har den mest interessante livshistorien?"
+    },
+    {
+      "id": "par_nb_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville vært den verste sjefen?"
+    },
+    {
+      "id": "par_nb_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er den mest organiserte personen her?"
+    },
+    {
+      "id": "par_nb_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville være den første til å flytte til et annet land?"
+    },
+    {
+      "id": "par_nb_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville vært den beste game show-deltakeren?"
+    },
+    {
+      "id": "par_nb_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem har de mest interessante hemmelighetene?"
+    },
+    {
+      "id": "par_nb_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å arrangere en overraskelsesfest for noen?"
+    },
+    {
+      "id": "par_nb_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville vært verst å dele hotellrom med?"
+    },
+    {
+      "id": "par_nb_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem vil være den siste personen som står i en debatt?"
+    },
+    {
+      "id": "par_nb_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville bli stemt bort først på Survivor?"
+    },
+    {
+      "id": "par_nb_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville vinne et pokerspill?"
+    },
+    {
+      "id": "par_nb_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er den største dramamagneten her?"
+    },
+    {
+      "id": "par_nb_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem vil være den beste forhandleren?"
+    },
+    {
+      "id": "par_nb_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville vært verst til å lyve?"
+    },
+    {
+      "id": "par_nb_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig å løpe maraton?"
+    },
+    {
+      "id": "par_nb_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem sier alltid ja når de skal si nei?"
+    },
+    {
+      "id": "par_nb_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville være den første til å gråte i en kamp?"
+    },
+    {
+      "id": "par_nb_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville vært den morsomste standup-komikeren?"
+    },
+    {
+      "id": "par_nb_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sannsynlig til å gi bort hemmelighetene dine?"
+    },
+    {
+      "id": "par_nb_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville være den verste personen å sitte fast i en heis med?"
+    },
+    {
+      "id": "par_nb_036",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem har den mest kaotiske datinghistorien?"
+    },
+    {
+      "id": "par_nb_037",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er den beste flørten i gruppen?"
+    },
+    {
+      "id": "par_nb_038",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem har kysset flest mennesker her?"
+    },
+    {
+      "id": "par_nb_039",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å skli inn i noens DM i kveld?"
+    },
+    {
+      "id": "par_nb_040",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem ville gått på date med en helt fremmed uten å nøle?"
+    },
+    {
+      "id": "par_nb_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem har den beste rizzen her?"
+    },
+    {
+      "id": "par_nb_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å ha en hemmelig beundrer i dette rommet?"
+    },
+    {
+      "id": "par_nb_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem ville vært den mest dramatiske eksen?"
+    },
+    {
+      "id": "par_nb_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem har hatt flest situasjoner?"
+    },
+    {
+      "id": "par_nb_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem ville forelsket seg raskest?"
+    },
+    {
+      "id": "par_nb_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å sende en risikabel tekstmelding og umiddelbart angre?"
+    },
+    {
+      "id": "par_nb_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem kunne sjarmere seg ut av enhver situasjon?"
+    },
+    {
+      "id": "par_nb_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem har flest uleste DM-er akkurat nå?"
+    },
+    {
+      "id": "par_nb_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem blir lettest sjalu?"
+    },
+    {
+      "id": "par_nb_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sannsynlig å fortsatt snakke med eksen sin akkurat nå?"
+    },
+    {
+      "id": "par_nb_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville vært best til å gi veibeskrivelse uten kart?"
+    },
+    {
+      "id": "par_nb_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville adoptere et herreløst dyr først?"
+    },
+    {
+      "id": "par_nb_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville starte en ny hobby og holde fast ved den?"
+    },
+    {
+      "id": "par_nb_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville vært den beste lagkapteinen?"
+    },
+    {
+      "id": "par_nb_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville vinne en bakekonkurranse?"
+    },
+    {
+      "id": "par_nb_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville bli venner med fremmede på tur?"
+    },
+    {
+      "id": "par_nb_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville være den første til å planlegge en overraskelsesfest?"
+    },
+    {
+      "id": "par_nb_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville overlevd en uke uten telefonen sin?"
+    },
+    {
+      "id": "par_nb_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville vært best til å budsjettere penger?"
+    },
+    {
+      "id": "par_nb_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville glemme paraplyen sin på en regnværsdag?"
+    },
+    {
+      "id": "par_nb_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville være den første til å danse i et bryllup?"
+    },
+    {
+      "id": "par_nb_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville ha den beste musikksmaken?"
+    },
+    {
+      "id": "par_nb_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville gå seg vill selv med GPS?"
+    },
+    {
+      "id": "par_nb_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville være best til å holde på hemmeligheter?"
+    },
+    {
+      "id": "par_nb_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem vil frivillig hjelpe en nabo?"
+    },
+    {
+      "id": "par_nb_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem skulle organisere gruppens timeplan?"
+    },
+    {
+      "id": "par_nb_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville overstad et helt show på en dag?"
+    },
+    {
+      "id": "par_nb_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville vært best til å lage mat til en mengde?"
+    },
+    {
+      "id": "par_nb_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville tatt flest bilder på en tur?"
+    },
+    {
+      "id": "par_nb_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville være den siste til å forlate en fest?"
+    },
+    {
+      "id": "par_nb_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem vil spøke en gruppechat i flere uker?"
+    },
+    {
+      "id": "par_nb_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville kansellere planer med den svakeste unnskyldningen?"
+    },
+    {
+      "id": "par_nb_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville overtenke en enkelt tekst i timevis?"
+    },
+    {
+      "id": "par_nb_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville brukt mest på en første date?"
+    },
+    {
+      "id": "par_nb_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville falle for noen raskest?"
+    },
+    {
+      "id": "par_nb_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville holdt en forelskelse hemmelig lengst?"
+    },
+    {
+      "id": "par_nb_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville ha størst sannsynlighet for å starte et rykte ved et uhell?"
+    },
+    {
+      "id": "par_nb_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville vært den første til å skrive om et brudd?"
+    },
+    {
+      "id": "par_nb_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville date noen helt annerledes enn deres vanlige type?"
+    },
+    {
+      "id": "par_nb_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville vært venner med en eks?"
+    },
+    {
+      "id": "par_nb_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville vært mest konkurransedyktig under spill?"
+    },
+    {
+      "id": "par_nb_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville vært den største flørten på en fest?"
+    },
+    {
+      "id": "par_nb_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville gjort en dristig karrierebytte uten å fortelle det til noen?"
+    },
+    {
+      "id": "par_nb_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem vil ha størst sannsynlighet for å flytte til et annet land?"
+    },
+    {
+      "id": "par_nb_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville overpakke for en helgetur?"
+    },
+    {
+      "id": "par_nb_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville dukket opp en time for tidlig?"
+    },
+    {
+      "id": "par_nb_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville glemme å svare selv etter å ha lest meldingen?"
+    },
+    {
+      "id": "par_nb_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville beholde skjermbilder \"i tilfelle\"?"
+    },
+    {
+      "id": "par_nb_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville valgt den mest dramatiske filmen?"
+    },
+    {
+      "id": "par_nb_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville vært den mest sta i en krangel?"
+    },
+    {
+      "id": "par_nb_091",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem ville ha den rotete datinghistorien?"
+    },
+    {
+      "id": "par_nb_092",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem vil mest sannsynlig ha en hemmelig beundrer?"
+    },
+    {
+      "id": "par_nb_093",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem ville være den første til å si \"Jeg elsker deg\"?"
+    },
+    {
+      "id": "par_nb_094",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem vil fortsette å flørte selv når det er åpenbart?"
+    },
+    {
+      "id": "par_nb_095",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem ville mest sannsynlig gå gjennom en partners telefon?"
+    },
+    {
+      "id": "par_nb_096",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem ville ha en retur raskest?"
+    },
+    {
+      "id": "par_nb_097",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem ville vært mest sjalu i et forhold?"
+    },
+    {
+      "id": "par_nb_098",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem ville date to mennesker samtidig?"
+    },
+    {
+      "id": "par_nb_099",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem ville skjule en situasjon for venner?"
+    },
+    {
+      "id": "par_nb_100",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem vil mest sannsynlig knuse hjerter uten å merke det?"
+    },
+    {
+      "id": "par_nb_101",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville meldt seg frivillig til å lede et gruppeprosjekt?"
+    },
+    {
+      "id": "par_nb_102",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville overlevd lengst uten telefonen sin?"
+    },
+    {
+      "id": "par_nb_103",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville være den første til å danse på en fest?"
+    },
+    {
+      "id": "par_nb_104",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville gå seg vill på en enkel tur?"
+    },
+    {
+      "id": "par_nb_105",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem vil huske alles kaffebestilling?"
+    },
+    {
+      "id": "par_nb_106",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem tar med snacks til hele gruppen?"
+    },
+    {
+      "id": "par_nb_107",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville starte en samtale med en fremmed?"
+    },
+    {
+      "id": "par_nb_108",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville vært best til å roe alle ned?"
+    },
+    {
+      "id": "par_nb_109",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville fullført et puslespill raskest?"
+    },
+    {
+      "id": "par_nb_110",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville komme for sent selv med påminnelser?"
+    },
+    {
+      "id": "par_nb_111",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville lage en detaljert plan for en tur?"
+    },
+    {
+      "id": "par_nb_112",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville vinne en kokkekonkurranse?"
+    },
+    {
+      "id": "par_nb_113",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem vil vite de beste fotostedene?"
+    },
+    {
+      "id": "par_nb_114",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem vil ha størst sannsynlighet for å adoptere et kjæledyr?"
+    },
+    {
+      "id": "par_nb_115",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem blir raskest solbrent?"
+    },
+    {
+      "id": "par_nb_116",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville glemme lommeboken hjemme?"
+    },
+    {
+      "id": "par_nb_117",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville være den første til å prøve en ny trend?"
+    },
+    {
+      "id": "par_nb_118",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville brukt alle pengene sine på reiser?"
+    },
+    {
+      "id": "par_nb_119",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville tilfeldigvis ødelegge en overraskelse?"
+    },
+    {
+      "id": "par_nb_120",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem ville være best til å holde på en hemmelighet?"
+    },
+    {
+      "id": "par_nb_121",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville sende en melding umiddelbart hver gang?"
+    },
+    {
+      "id": "par_nb_122",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville blitt viral for noe dumt?"
+    },
+    {
+      "id": "par_nb_123",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville bli kjent i byen deres?"
+    },
+    {
+      "id": "par_nb_124",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville tatt en risiko og flyttet til utlandet?"
+    },
+    {
+      "id": "par_nb_125",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville sagt opp en jobb for å jage en drøm?"
+    },
+    {
+      "id": "par_nb_126",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville gjøre en hobby til en bedrift?"
+    },
+    {
+      "id": "par_nb_127",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville bli tatt for å dagdrømme i et møte?"
+    },
+    {
+      "id": "par_nb_128",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem vil krangle seg ut av en billett?"
+    },
+    {
+      "id": "par_nb_129",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville miste nøklene sine to ganger i løpet av en uke?"
+    },
+    {
+      "id": "par_nb_130",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville starte et rykte uten å mene det?"
+    },
+    {
+      "id": "par_nb_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville fått de mest dramatiske reaksjonene?"
+    },
+    {
+      "id": "par_nb_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville flørte seg til å få et bord?"
+    },
+    {
+      "id": "par_nb_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville ha en hemmelig forelskelse i rommet?"
+    },
+    {
+      "id": "par_nb_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville spøke en date etter en flott kveld?"
+    },
+    {
+      "id": "par_nb_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville være den første til å si \"Jeg elsker deg\"?"
+    },
+    {
+      "id": "par_nb_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville beholde dating-apper i tilfelle?"
+    },
+    {
+      "id": "par_nb_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville i all hemmelighet nyte sladder?"
+    },
+    {
+      "id": "par_nb_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville falle for noen på en kort tur?"
+    },
+    {
+      "id": "par_nb_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville vært den som dobbelttekst?"
+    },
+    {
+      "id": "par_nb_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville bli tatt for å sjekke telefonen sin under en date?"
+    },
+    {
+      "id": "par_nb_141",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem ville kansellere planene i siste liten?"
+    },
+    {
+      "id": "par_nb_142",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem ville låne noe og glemme å returnere det?"
+    },
+    {
+      "id": "par_nb_143",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem ville gråte på en reklamefilm?"
+    },
+    {
+      "id": "par_nb_144",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem ville starte en debatt om ingenting?"
+    },
+    {
+      "id": "par_nb_145",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem ville ta med en lader til alle?"
+    },
+    {
+      "id": "par_nb_146",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem ville vært den siste som forlot en fest?"
+    },
+    {
+      "id": "par_nb_147",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem vil vite alle tekstene til en sang?"
+    },
+    {
+      "id": "par_nb_148",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem ville ta en lur på et offentlig sted?"
+    },
+    {
+      "id": "par_nb_149",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem ville starte en gruppechat for alt?"
+    },
+    {
+      "id": "par_nb_150",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem ville holde den beste improviserte talen?"
+    },
+    {
+      "id": "par_nb_151",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem har den mest kaotiske kamerarullen?"
+    },
+    {
+      "id": "par_nb_152",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem vil bli avslørt av søkehistorikken deres?"
+    },
+    {
+      "id": "par_nb_153",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem sjekker i hemmelighet hvem som så historien deres?"
+    },
+    {
+      "id": "par_nb_154",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville overlevd en dag uten telefonen sin verst?"
+    },
+    {
+      "id": "par_nb_155",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem har det sterkeste memearkivet?"
+    },
+    {
+      "id": "par_nb_156",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville gjøre en rolig spillekveld til et dansegulv?"
+    },
+    {
+      "id": "par_nb_157",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem holder mål som en advokat?"
+    }
+  ]
+}

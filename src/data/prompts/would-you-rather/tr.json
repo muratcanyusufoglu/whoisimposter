@@ -1,1009 +1,1687 @@
 {
   "gameId": "would-you-rather",
   "locale": "tr",
-  "version": 1,
+  "version": 2,
   "prompts": [
     {
       "id": "wyr_tr_001",
+      "text": "Her buluşmada sınırsız atıştırmalık yemeyi mi yoksa her zaman müziği seçmeyi mi tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Uçabilmeyi mi yoksa görünmez olmayı mı seçerdin?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_002",
+      "text": "Her zaman mükemmel park yerini bulmayı mı yoksa bir daha hiç sıra beklememeyi mi tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "10 dakika erken gelmeyi mi yoksa 20 dakika geç kalmayı mı seçerdin?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_003",
+      "text": "Mükemmel saçlarla mı uyanmayı yoksa her zaman bir dakika içinde mükemmel kıyafeti seçmeyi mi tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Manzaralı küçük evde yaşamayı mı yoksa penceresiz büyük villada yaşamayı mı seçerdin?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_004",
+      "text": "Sonsuza kadar bedava kahve mi yoksa sonsuza kadar bedava tatlı mı yemeyi tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Sadece tatlı yemeyi mi yoksa sadece tuzlu yemeyi mi seçerdin?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_005",
+      "text": "Karaokede harika olmayı mı yoksa masa oyunlarında yenilmez olmayı mı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Hayvanlarla konuşabilmeyi mi yoksa her dili konuşabilmeyi mi seçerdin?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_006",
+      "text": "Plajın yanında mı yoksa en sevdiğin şehrin ortasında mı yaşamayı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Hayatı duraklatabilmeyi mi yoksa geri sarabilmeyi mi seçerdin?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_007",
+      "text": "Her zaman tam şarjlı bir telefona mı sahip olmayı yoksa her zaman mükemmel bir Wi-Fi'ye mi sahip olmayı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Sonsuz para ama arkadaşsız bir hayatı mı yoksa parasız ama harika bir sosyal hayatı mı seçerdin?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_008",
+      "text": "Bir daha anahtarlarınızı kaybetmemeyi mi yoksa bir odaya neden girdiğini asla unutmamayı mı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zihin okuyabilmeyi mi yoksa geleceği görebilmeyi mi seçerdin?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_009",
+      "text": "Herhangi bir olaydan sonra işe ışınlanmayı mı yoksa eve ışınlanmayı mı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Her zaman üşümeyi mi yoksa her zaman sıcaktan bunalmayı mı seçerdin?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_010",
+      "text": "Kahvaltı için kişisel bir şefi mi, yoksa hafta sonları kişisel bir şoförü mü tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Fotoğrafik belleği mi yoksa istediğin şeyleri unutabilme yeteneğini mi seçerdin?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_011",
+      "text": "Bir yıl boyunca yalnızca komedi izlemeyi mi, yoksa bir yıl boyunca yalnızca hareketli müzik dinlemeyi mi tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Sadece tek bir şarkıyı dinlemeyi mi yoksa hiç müzik dinlememeyi mi seçerdin?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_012",
+      "text": "Her oyun gecesinde kazanmayı mı yoksa oyun gecesinde her zaman herkesi güldürmeyi mi tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Derin okyanusu keşfetmeyi mi yoksa uzay boşluğunu keşfetmeyi mi seçerdin?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_013",
+      "text": "Muhteşem manzaralı küçük bir daireyi mi yoksa sıkıcı bir yerde kocaman bir evi mi tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Geçmişte yaşamayı mı yoksa gelecekte yaşamayı mı seçerdin?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_014",
+      "text": "Yemeklerinle mi yoksa dans hareketlerinle mi ünlü olmayı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Büyü dolu bir dünyada yaşamayı mı yoksa çok ileri teknolojili bir dünyada yaşamayı mı seçerdin?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_015",
+      "text": "Her zaman menüdeki en iyi şeyi bilmeyi mi yoksa her zaman en iyi filmi seçmeyi mi tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Utanç verici bir şeyle ünlü olmayı mı yoksa tamamen bilinmez kalmayı mı seçerdin?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_016",
+      "text": "Spontane bir günlük gezi yapmayı mı yoksa mükemmel bir hafta sonu kaçamağı mı planlamayı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Süper gücü mü yoksa süper hızı mı seçerdin?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_017",
+      "text": "Kendi kendine şekillenen bir dolabı mı yoksa kendi kendini yenileyen bir buzdolabını mı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Hayatın boyunca sosyal medya kullanmamayı mı yoksa hiç TV izlememeyi mi seçerdin?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_018",
+      "text": "Bir daha asla çamaşır yıkamamayı mı yoksa bir daha bulaşık yıkamamayı mı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Ömür boyu hıçkırık tutmayı mı yoksa sürekli hapşıracak gibi olmayı mı seçerdin?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_019",
+      "text": "Her zaman pizzanın son dilimini mi almayı yoksa her zaman en iyi koltuğu almayı mı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Hayatını keyifli ama sıradan geçirmeyi mi yoksa heyecanlı ama belirsiz geçirmeyi mi seçerdin?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_020",
+      "text": "Gürültülü yerler için sihirli bir sessize alma düğmesi mi, yoksa garip small talkları atlama düğmesi mi?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Her şeyin ne zaman olacağını bilmeyi mi yoksa hep sürprizlerle karşılaşmayı mı seçerdin?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_021",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Ölüm tarihini bilmeyi mi yoksa bilmeyip 20 yıl daha yaşamayı mı seçerdin?"
+      "text": "Herhangi bir yerde kısa uyku çekmeyi mı yoksa her sabah anında yenilenmiş olarak uyanmayı mı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_022",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Aklından geçen her şeyi söylemek zorunda kalmayı mı yoksa bir daha asla konuşamamayı mı seçerdin?"
+      "text": "İzin günlerinde havanın her zaman mükemmel olmasını mı yoksa geç kaldığınızda trafiğin olmamasını mı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_023",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "En utanç verici anının herkese yayılmasını mı yoksa tüm paranı kaybetmeyi mi seçerdin?"
+      "text": "Sonsuza kadar ücretsiz konser bileti almayı mı yoksa sonsuza kadar ücretsiz sinema bileti almayı mı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_024",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Sevmediğin biri tarafından sevilmeyi mi yoksa sevmediğin birine aşık olmayı mı seçerdin?"
+      "text": "Fotoğraf çekmede harika olmayı mı, yoksa fotoğraflarda harika olmayı mı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_025",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Herkesin en büyük sırrını bilmeyi mi yoksa kimsenin sırrını asla öğrenememeyi mi seçerdin?"
+      "text": "Her zaman isimleri hatırlamayı mı yoksa her zaman doğum günlerini hatırlamayı mı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_026",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Son beş yılının anılarını mı yoksa tüm fotoğraf ve videolarını mı kaybetmeyi seçerdin?"
+      "text": "Gizli bir odası olan bir ev mi yoksa çatı katında takılma yeri mi tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_027",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Her ortamda en zeki kişi olmayı mı yoksa en sevilen kişi olmayı mı seçerdin?"
+      "text": "Sadece trenle mi seyahat etmeyi yoksa sadece karayoluyla seyahat etmeyi mi tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_028",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Hayalindeki iş için sevmediğin şehirde yaşamayı mı yoksa istediğin yerde kötü bir işte çalışmayı mı seçerdin?"
+      "text": "Asansörsüz mü yoksa yürüyen merdivensiz mi yaşamayı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_029",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Birinin yalan söylediğini her zaman bilmeyi mi yoksa ne dersen inanılmayı mı seçerdin?"
+      "text": "Her zaman mükemmel bir geri dönüş yapmayı mı yoksa baskı altında daima sakin kalmayı mı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_030",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tüm yakın arkadaşlarını yarın kaybetmeyi mi yoksa bir daha yeni arkadaş edinememeyi mi seçerdin?"
+      "text": "Arkadaş grubunuzdaki en iyi aşçı olmayı mı yoksa en iyi hikaye anlatıcısı olmayı mı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_031",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "İnanılmaz çekici ama sıkıcı biriyle çıkmayı mı yoksa sıradan görünümlü ama çok ilginç biriyle çıkmayı mı seçerdin?"
+      "text": "Utanç verici anlar için geri sarma düğmesini mi yoksa mükemmel anlar için duraklatma düğmesini mi tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_032",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Partnerinin daha önce ilgi duyduğu herkesi bilmeyi mi yoksa hiçbirini bilmemeyi mi seçerdin?"
+      "text": "Sonsuza kadar sadece en sevdiğin rengi giymeyi mi yoksa bir kıyafeti asla tekrarlamamayı mı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_033",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Harika bir aşk yaşayıp kalp kırıklığıyla bitirmeyi mi yoksa sıradan ilişkiler yaşayıp hiç acı çekmemeyi mi seçerdin?"
+      "text": "Sınırsız kitap mı yoksa sınırsız oyun mu tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_034",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Tutkusuz ama güvenli bir ilişkiyi mi yoksa yoğun ama belirsiz bir ilişkiyi mi seçerdin?"
+      "text": "Herhangi bir tarifi anında öğrenmeyi mi, yoksa herhangi bir şarkıyı anında öğrenmeyi mi tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_035",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Birinin seni çekici bulup bulmadığını anında bilmeyi mi yoksa asla bilmemeyi mi seçerdin?"
+      "text": "Her zaman tatlıya yer açmayı mı yoksa asla tok hissetmemeyi mi tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_036",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Bir ilişkide daha çok seven taraf olmayı mı yoksa daha çok sevilen taraf olmayı mı seçerdin?"
+      "text": "Her partiye ev sahipliği yapmayı mı yoksa her partiye davet edilmeyi mi tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_037",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Duygularını itiraf edip reddedilmeyi mi yoksa hiç itiraf etmeyip hep merakta kalmayı mı seçerdin?"
+      "text": "Devasa mutfağı olan bir ev mi, yoksa dev bir oyun odası mı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_038",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "İki yıl parlayıp sönen bir aşkı mı yoksa sessizce ömür boyu süren bir ilişkiyi mi seçerdin?"
+      "text": "Bir hafta boyunca yalnızca sesli notları mı yoksa yalnızca emojileri mi kullanmayı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_039",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Herkesin beğendiği ama seni görünmez kılan biriyle olmayı mı yoksa kimsenin sevmediği ama sana mükemmel gelen biriyle olmayı mı seçerdin?"
+      "text": "Her şeye erken mi gitmeyi yoksa her seferinde tam zamanında varmayı mı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_040",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Aşık olmak için yıllarca beklemeyi mi yoksa şimdi hissedip sonra gerçek olmadığını anlamayı mı seçerdin?"
+      "text": "Yüzler için mi yoksa yönler için mi mükemmel bir hafızaya sahip olmayı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_041",
+      "text": "Reklamları duraklatmayı mı yoksa ev işlerini atlamayı mı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Her zaman dolu bir şarj mı, yoksa her yerde ücretsiz Wi‑Fi mı?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_042",
+      "text": "Her zaman eski ceplerinde para bulmayı mı yoksa her zaman sürpriz indirimler almayı mı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Sahil kenarında mı, dağlarda mı yaşamak isterdin?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_043",
+      "text": "Hayalindeki yatak odasına mı yoksa hayalinizdeki mutfağa mı sahip olmayı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Her gün yemek yapmak mı, bir daha hiç yemek yapmamak mı?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_044",
+      "text": "Herhangi bir içeceği mükemmel bir şekilde hazırlamayı mı, yoksa herhangi bir atıştırmayı mükemmel bir şekilde yapmayı mı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Odada en komik kişi mi, en zeki kişi mi olmak isterdin?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_045",
+      "text": "Hiç şemsiyeye ihtiyaç duymamayı mı yoksa güneş kremine hiç ihtiyaç duymamayı mı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Evcil ejderha mı, evcil tekboynuz mu?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_046",
+      "text": "Her sabah fazladan bir saatiniz olmasını mı yoksa her gece fazladan bir saatiniz olmasını mı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zihin okumak mı, her dili konuşmak mı?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_047",
+      "text": "Bir fırının üstünde mi yoksa bir sinemanın yanında mı yaşamayı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Anahtarını hiç kaybetmemek mi, telefonunu hiç kaybetmemek mi?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_048",
+      "text": "Her zaman restoranı mı yoksa her zaman aktiviteyi mi seçmeyi tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Fotoğraf çekmek mi, fotoğraflarda olmak mı?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_049",
+      "text": "Her ruh hali için kişisel bir playliste mi yoksa her plan için mükemmel bir kıyafete mi sahip olmayı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Tren yolculuğu mu, road trip mi?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_050",
+      "text": "En iyi tavsiyeyi veren arkadaş mı yoksa en iyi atıştırmalıkları sunan arkadaş mı olmayı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Erken kalkıp enerjik olmak mı, geç kalkıp suçluluk duymamak mı?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_051",
+      "text": "Akşam yemeğinde sadece kahvaltı yemeğini mi yoksa kahvaltıda akşam yemeği yemeğini mi yemeyi tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Sınırsız kahve mi, sınırsız atıştırmalık mı?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_052",
+      "text": "Cihazları asla şarj etmek zorunda kalmamayı mı yoksa uygulamaları asla güncellemek zorunda kalmamayı mı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Müziksiz mi, filmsiz mi yaşamak isterdin?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_053",
+      "text": "Mükemmel el yazısına mı yoksa mükemmel hediye paketleme becerisine mi sahip olmayı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Yemek yapmada mı, şarkı söylemede mi çok iyi olmak?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_054",
+      "text": "Odanı anında temizlemeyi mi yoksa telefon fotoğraflarını anında düzenlemeyi mi tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Ön koltukta hep sen mi oturasın, müziği hep sen mi seçesin?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_055",
+      "text": "Her zaman temiz çarşafları mı yoksa her zaman temiz havluları mı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Özel şef mi, özel şoför mü?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_056",
+      "text": "Trivia'da yenilmez olmayı mı yoksa sessiz sinemada yenilmez olmayı mı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zamanı durdurmak mı, ileri sarmak mı?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_057",
+      "text": "Manzaralı bir balkonu mu yoksa partiler için tasarlanmış bir oturma odasını mı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Sporlarda mı, sanatta mı çok iyi olmak?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_058",
+      "text": "Bir daha asla içecek dökmemeyi mi, yoksa bir daha telefonunu düşürmemeyi mi tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Sadece komedi mi, sadece dram mı izlemek?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_059",
+      "text": "Rüyalarını her zaman hatırlamayı mı yoksa hiç kabus görmemeyi mi tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Okyanusu mu, uzayı mı keşfetmek?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_060",
+      "text": "Yılda bir kez ücretsiz uçuş mu yoksa yılda iki kez ücretsiz otel mi tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Göl kenarı ev mi, büyük şehir evi mi?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_061",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Bir yıl sosyal medya kullanmamak mı, bir yıl dizi/film izlememek mi?"
+      "text": "Bir gecede yeni bir dilde akıcı olmayı mı yoksa bir gecede yeni bir enstrümanda ustalaşmayı mı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_062",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Yalnız başına yeni bir şehre taşınmak mı, hep bulunduğun şehirde kalmak mı?"
+      "text": "Fotoğraflar için her zaman mükemmel aydınlatmayı mı tercih ederdin yoksa fotoğraflarda hiç göz kırpmamayı mı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_063",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Her zaman 20 dakika erken mi, 20 dakika geç mi?"
+      "text": "Her ay sürpriz bir izin günü mü yoksa her yıl sürpriz bir tatil mi tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_064",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Arama geçmişin mi, DM'lerin mi herkese açık olsun?"
+      "text": "Yalnızca küçük harflerle mi yoksa yalnızca mükemmel noktalama işaretlerine sahip metinlerle mi yazmayı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_065",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Yeteneklerinle mi, görünüşünle mi tanınmak isterdin?"
+      "text": "Rahat bir kabin hafta sonu mu yoksa yoğun bir şehir hafta sonu mu geçirmeyi tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_066",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Tüm fotoğraflarını mı, tüm mesajlarını mı kaybetmek?"
+      "text": "Tarzınızla mı yoksa mizah anlayışınızla mı tanınmayı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_067",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "İlk mesajı atan mı, asla atmayan mı olmak?"
+      "text": "Her zaman en hızlı ödeme hattını mı seçmeyi yoksa her zaman asansöre hemen yetişmeyi mi tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_068",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Az ama çok yakın arkadaş mı, çok ama yüzeysel arkadaş mı?"
+      "text": "Telefonunuzun depolama alanının hiç bitmemesini mi, yoksa pilinin hiç bitmemesini mi tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_069",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Bir gecede ünlü olmak mı, zamanla saygı kazanmak mı?"
+      "text": "Herhangi bir odayı mükemmel bir şekilde dekore edebilmeyi mi yoksa bir valizi mükemmel bir şekilde paketlemeyi mi tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_070",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Asla yalan söyleyememek mi, asla kimseye güvenememek mi?"
+      "text": "Sonsuza kadar sadece su içmeyi mi yoksa sonsuza kadar sadece en sevdiğin içeceği içmeyi mi tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_071",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Az maaşlı hayal iş mi, yüksek maaşlı sıkıcı iş mi?"
+      "text": "Her zaman mükemmel bir uyku çekmeyi mi yoksa her zaman iyi bir ruh halinde uyanmayı mı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_072",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Hep meşgul olmak mı, hep boş olmak mı?"
+      "text": "Herkesin tavsiye istediği kişi olmayı mı yoksa herkesin gezi planlamak istediği kişi olmayı mı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_073",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "İnternetsiz geçmişte mi, gizliliği olmayan gelecekte mi yaşamak?"
+      "text": "Her zaman doğru olan kişisel bir hava durumu tahminini mi yoksa kendi kendini planlayan bir takvimi mi tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_074",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Grubun planlayıcısı mı, spontane olan mı olmak?"
+      "text": "Hiç banyoyu temizlememeyi mi yoksa mutfağı hiç temizlememeyi mi tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_075",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "En büyük hatanın billboard’da mı, en büyük sırrın grup sohbetinde mi yayınlansın?"
+      "text": "Pişirmede mi yoksa ızgarada mı harika olmayı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_076",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Small talk’ta mı, derin sohbetlerde mi harika olmak?"
+      "text": "Yılda bir kez ön sıralarda oturmayı mı yoksa her seferinde VIP atıştırmalıkları mı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_077",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Acıtsa bile gerçeği duymak mı, beyaz yalanla korunmak mı?"
+      "text": "Her zaman en iyi gizli kafeyi mi bulmayı yoksa her zaman en iyi bakış açısını mı bulmayı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_078",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Hiç uyumamak mı, her gün 12 saat uyumak mı?"
+      "text": "Bir hafta boyunca mükemmel kıyafetler mi yoksa bir hafta boyunca mükemmel yemekler mi yemeyi tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_079",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Bir gün geri sarma mı, bir saat durdurma düğmesi mi?"
+      "text": "Ömür boyu ayakkabı mı yoksa ömür boyu kulaklık mı kazanmayı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_080",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Aşk için mi, iş için mi yurt dışına taşınmak?"
+      "text": "Her zaman şarkı sözlerini bilmeyi mi yoksa her zaman dansı bilmeyi mi tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_081",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Ünlü biriyle mi, her şeyi anlatabileceğin biriyle mi çıkmak?"
+      "text": "Talimatlar olmadan herhangi bir teknik sorunu çözmeyi veya herhangi bir mobilyayı monte edebilmeyi mi tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_082",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Harika bir ilk buluşma ama ikinci yok mu, berbat bir ilk buluşma ama sonra müthiş mi?"
+      "text": "Hiçbir zaman ağır olmayan sihirli bir sırt çantanızı mı, yoksa kendi kendine toplanabilen bir çantayı mı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_083",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Daha çok seven taraf mı, daha çok sevilen taraf mı olmak?"
+      "text": "Her zaman saçlarınızın güzel olmasını mı yoksa her zaman temiz bir cilde sahip olmayı mı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_084",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Flört hayatını gizli mi tutmak, yoksa her şeyi arkadaşlara anlatmak mı?"
+      "text": "En iyi grup özçekimlerini mi yoksa en iyi grup planlarını yapmayı mı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_085",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Her hafta kör randevu mu, bir daha hiç randevuya çıkmamak mı?"
+      "text": "Günde sıkıcı bir görevi atlamayı mı yoksa eğlenceli bir sürprizle karşılaşmayı mı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_086",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Partnerinin mi yalan söylediğini, arkadaşının mı yalan söylediğini öğrenmek?"
+      "text": "Sonsuz yazların olduğu bir yerde mi, yoksa sonsuz sıcak havaların olduğu bir yerde mi yaşamayı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_087",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Yazlık bir aşk mı, yıllar alan sakin bir aşk mı?"
+      "text": "Hiçbir zaman çevrimiçi reklam yayınlamamayı mı, yoksa hiçbir zaman spam mesajları almamayı mı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_088",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Bekâr ama hayranlık görülen mi, ilişkide ama huzurlu mu olmak?"
+      "text": "Her zaman harika bir kullanıcı adı seçmeyi mi yoksa her zaman harika bir başlık yazmayı mı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_089",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "İlk mesajı atan mı, görmezden gelen mi olmak?"
+      "text": "Hediye paketlemede en iyi olmayı mı yoksa hediye seçmede en iyi olmayı mı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_090",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Anında kıvılcım ama hızlı sönen mi, yavaş ama kalıcı bağ mı?"
+      "text": "Evde sınırsız film gecesi mi yoksa dışarıda sınırsız brunch mı yapmayı tercih ederdin?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_tr_091",
+      "text": "Küçük bir özel bahçeniz mi yoksa büyük bir ortak çatınız mı olmasını tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Fısıltıyla konuşmak mı, sürekli bağırmak mı?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_092",
+      "text": "Sonsuza kadar sadece küçük bir kaşık kullanmayı mı yoksa her zaman küçük bir fincandan mı içmeyi tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Sosyal medyayı bir daha hiç kullanmamak mı, televizyon izlememek mi?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_093",
+      "text": "Herhangi bir odayı konforlu hale getirmeyi mi, yoksa herhangi bir çalma listesini mükemmelleştirmeyi mi tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Özel aşçı mı, kişisel antrenör mü?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_094",
+      "text": "Her zaman doğru şarj cihazına mı sahip olmayı yoksa her zaman doğru şifreye mi sahip olmayı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Deniz kenarında mı, dağda mı yaşamak?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_095",
+      "text": "Bir şifreyi asla unutmamayı mı yoksa park ettiğiniz yeri asla unutmamayı mı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zamanı durdurmak mı, 10 dakika geri sarmak mı?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_096",
+      "text": "Mükemmel organize edilmiş bir dolaba mı yoksa mükemmel organize edilmiş bir film rulosuna mı sahip olmayı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Sonsuz bataryalı telefon mu, her yerde sınırsız internet mi?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_097",
+      "text": "Bir trendi ilk deneyen olmayı mı yoksa ondan sıkılan son olmayı mı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Yeteneklerinle mi, görünüşünle mi ünlü olmak?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_098",
+      "text": "Restoranlarda her zaman bir masanın olmasını mı yoksa her zaman bedava tatlı almayı mı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Ücretsiz seyahat mi, istediğin restoranda ücretsiz yemek mi?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_099",
+      "text": "Kişisel bir heyecan verici şarkı mı yoksa kişisel bir giriş ışığı mı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Hep biraz geç kalmak mı, hep çok erken gelmek mi?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_100",
+      "text": "İlk izlenimlerde harika olmayı mı, yoksa vedalaşmada harika olmayı mı tercih ederdin?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Bir yıl sadece tek sanatçı mı, ömür boyu tek tür mü?"
+      "minAge": 4
     },
     {
       "id": "wyr_tr_101",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Kusursuz hafıza mı, istediğini unutabilmek mi?"
+      "text": "Herkes tarafından saygı görmeyi mi yoksa birkaç kişi tarafından derinlemesine anlaşılmayı mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_102",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Yemekte usta olmak mı, topluluk önünde konuşmada usta olmak mı?"
+      "text": "Birinin yalan söylediğini bilmeyi mi yoksa doğruyu söylediğinizde ona her zaman inanılmasını mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_103",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Kahvesiz mi, tatlısız mı yaşamak?"
+      "text": "Hayalindeki işi düşük maaşla mı yoksa inanılmaz maaşla sıkıcı bir işi mi tercih ederdiniz?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_104",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Sürekli merdiven mi, bir daha koşmamak mı?"
+      "text": "Yurt dışına tek başınıza taşınmayı mı yoksa sonsuza kadar memleketinizde kalmayı mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_105",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Büyük bahçeli küçük ev mi, bahçesiz büyük ev mi?"
+      "text": "Odadaki en akıllı kişi olmayı mı yoksa herkesin en çok güvendiği kişi olmayı mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_106",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Trafiğe hiç takılmamak mı, hiç sıra beklememek mi?"
+      "text": "Her zaman gerçeği bilmeyi mi yoksa her zaman söylenecek doğru şeyi bilmeyi mi tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_107",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Hep mükemmel hava mı, hep mükemmel uyku mu?"
+      "text": "Küçük bir sadık arkadaş grubuna mı yoksa sıradan arkadaşlardan oluşan büyük bir ağa mı sahip olmayı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_108",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Odadaki en zeki kişi mi, en komik kişi mi?"
+      "text": "Nezaketinizle mi yoksa hırsınızla mı hatırlanmayı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_109",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Telefonunu mu kaybetmek, cüzdanını mı kaybetmek?"
+      "text": "Erkenden başarılı olup tükenmeyi mi, yoksa yavaş yavaş başarıp sürecin tadını çıkarmayı mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_110",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Zihin okumak mı, geleceği görmek mi?"
+      "text": "Her hatanın unutulmasını mı yoksa her iyiliğin hatırlanmasını mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_111",
+      "text": "Mükemmel bir günü yeniden yaşamayı mı yoksa berbat bir günü silmeyi mi tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Günü geri sarma düğmesi mi, ileri sarma düğmesi mi?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_112",
+      "text": "Anında affedebilmeyi mi yoksa asla iki kez kandırılmamayı mı tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Büyük bir parti vermek mi, sakin bir gezi planlamak mı?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_113",
+      "text": "Daha fazla güvene mi yoksa daha fazla disipline mi sahip olmayı tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Ücretsiz uçuşlar mı, ücretsiz oteller mi?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_114",
+      "text": "İnsanların sizin hakkınızda ilk ne düşündüğünü mü yoksa ayrıldıktan sonra ne söylediklerini mi bilmek istersiniz?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Maaşlı bir yıl izin mi, istediğin terfi mi?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_115",
+      "text": "Şu an olduğunuz kişi olarak sevilmeyi mi, yoksa olabileceğiniz kişi olarak takdir edilmeyi mi tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Güzel şarkı söylemek mi, her enstrümanı çalmak mı?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_116",
+      "text": "Her zaman sevdiğin şeylerle meşgul olmayı mı yoksa her zaman boş vaktiniz olup sıkılmayı mı tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "İlk izlenimleri hep doğru yapmak mı, ikinci şansları hep yakalamak mı?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_117",
+      "text": "Büyük bir şansa sahip olmayı ve her şeyi riske atmayı mı yoksa yavaş ilerlemeyle birçok küçük şansı mı tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Fotoğrafta mı, videoda mı çok iyi olmak?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_118",
+      "text": "Beş yıl boyunca ünlü olmayı mı yoksa bir ömür boyu saygı görmeyi mi tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Her zaman atıştırmalık mı, her zaman kahve mi?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_119",
+      "text": "Tüm fotoğraflarını mı yoksa tüm mesajlarınızı mı kaybetmeyi tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Her gün 10 dakikalık egzersiz mi, haftada bir uzun egzersiz mi?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_120",
+      "text": "Arama geçmişinizin herkese açık olmasını mı yoksa film rulonuzun herkese açık olmasını mı tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tüm dilleri konuşmak mı, hayvanları anlamak mı?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_121",
+      "text": "Her zaman ne düşündüğünü söylemeyi mi yoksa her zaman huzuru korumayı mı tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Bol bol fotoğraf çekmek mi, anı tamamen yaşamak mı?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_122",
+      "text": "Acımasızca dürüst bir arkadaşınızı mı yoksa sonsuz destekleyici bir arkadaşınızı mı tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Temizliğe hiç gerek kalmaması mı, yemek yapmaya hiç gerek kalmaması mı?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_123",
+      "text": "Her grupta planlayıcı olmayı mı yoksa hiçbir zaman planlamak zorunda olmayan kişi olmayı mı tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Garantili en iyi arkadaş mı, garantili ruh eşi mi?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_124",
+      "text": "Derin sohbetlerde harika olmayı mı yoksa insanları rahat hissettirmede harika olmayı mı tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Hayalindeki şehirde mi, ailenin yakınında mı yaşamak?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_125",
+      "text": "Hayatınızın tam olarak nereye gittiğini bilmek mi yoksa buna şaşırmak mı istersiniz?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Oyunları hep kazanmak mı, yeni şeylerde hep iyi olmak mı?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_126",
+      "text": "Bir yıl boyunca sosyal medyadan vazgeçmeyi mi yoksa bir yıl boyunca yayın yapmayı mı tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Hiç deadline kaçırmamak mı, hiç stres hissetmemek mi?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_127",
+      "text": "Bir yıl ücretli izin almayı mı, yoksa gerçekten istediğiniz bir terfiyi mi tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Planlayan olmak mı, akışa bırakan olmak mı?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_128",
+      "text": "Her zaman küçümsenmeyi mi yoksa her zaman abartılmayı mı tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Minimal dolap mı, sınırsız kıyafet mi?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_129",
+      "text": "Herkesin en büyük hedefinizi mi yoksa en büyük korkunuzu bilmesini mi tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Müziksiz mi, filmsiz mi yaşamak?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_130",
+      "text": "Kariyerinize yeniden başlamayı mı yoksa bir arkadaşlığı yeniden başlatmayı mı tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Sadece tatlı mı, sadece tuzlu mu yemek?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_131",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Kısa ama yoğun bir aşk mı, yavaş ve sağlam bir aşk mı?"
+      "text": "İnsanların bir kriz anında aradıkları kişi mi olmayı yoksa kutlamak için aradıkları kişi mi olmayı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_132",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "İlk mesaj atan mı, ilk arayan mı olmak?"
+      "text": "Hiç utanmamayı mı yoksa hiç kıskanmamayı mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_133",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Partnerinin en iyi arkadaşın mı, en büyük hayranın mı olması?"
+      "text": "İstediğiniz zaman bir anıyı silmeyi veya bir anıyı yeniden oynatmayı mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_134",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Telefonsuz mu, konuşmadan mı randevu?"
+      "text": "Her filmin sonunu mu yoksa her kararın sonucunu mu bilmek istersiniz?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_135",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Çalma listesi mi, ortak takvim mi paylaşmak?"
+      "text": "Yabancılarla mükemmel bir itibara sahip olmayı mı, yoksa arkadaşlarına karşı gerçek dürüstlüğü mü tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_136",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "İnsanların ne hissettiğini mi, ne istediğini mi bilmek?"
+      "text": "Tartışmaları her zaman kazanmayı mı yoksa tartışmaları her zaman huzurlu hissederek bırakmayı mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_137",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "İyilikle mi, hırsla mı hatırlanmak?"
+      "text": "Para kazanmada mükemmel olmayı mı yoksa parayı yönetmede mükemmel olmayı mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_138",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Sonsuza kadar evden çalışmak mı, hep dışarıda çalışmak mı?"
+      "text": "Geleceğinizin bilge biri tarafından planlanmasını mı yoksa tavsiye almadan her şeyi kendiniz mi seçmeyi tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_139",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Aynasız mı, fotosuz mu yaşamak?"
+      "text": "Grubunuzdaki en komik kişi olmayı mı yoksa bir kriz anında en sakin kişi olmayı mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_140",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Aşırı spontane olmak mı, aşırı planlı olmak mı?"
+      "text": "Şimdi bir hayalin gerçekleşmesini mi yoksa beş küçük hayalin zaman içinde gerçekleşmesini mi tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_141",
+      "text": "Bir kişiyi tamamen okuyabilmeyi mi yoksa kalabalıkları mükemmel bir şekilde anlamayı mı tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Gününü geri sarma düğmesi mi yoksa ileri sarma düğmesi mi isterdin?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_142",
+      "text": "Her sonun kapanmasını mı yoksa bir son için ikinci bir şansı mı tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Büyük bir parti düzenlemeyi mi yoksa sakin bir gezi planlamayı mı seçerdin?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_143",
+      "text": "Gizemli olarak mı yoksa tamamen şeffaf olarak mı bilinmeyi tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Ücretsiz uçuşları mı yoksa ücretsiz otelleri mi seçerdin?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_144",
+      "text": "İnsanları etkileyen bir işi mi yoksa huzurlu bir yaşamı mı tercih ederdiniz?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Maaşlı bir yıl izin mi yoksa gerçekten istediğin terfi mi?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_145",
+      "text": "Biraz fazla sadık biri mi olurdun, yoksa biraz fazla bağımsız biri mi?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Çok güzel şarkı söylemeyi mi yoksa herhangi bir enstrüman çalabilmeyi mi isterdin?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_146",
+      "text": "Her zaman başlama cesaretine mi yoksa bitirme sabrına mı sahip olmayı tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "İlk izlenimleri hep doğru tutturmayı mı yoksa her zaman ikinci şans almayı mı seçerdin?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_147",
+      "text": "Mükemmel bir şekilde özür dilemeyi mi yoksa birisiyle korkmadan yüzleşmeyi mi tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Fotoğraflarda mı yoksa videolarda mı çok iyi olmayı isterdin?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_148",
+      "text": "En büyük başarısızlığınızı sonsuza kadar çevrimiçi ortamda mı saklamak istersiniz, yoksa en büyük sırrınızı grup sohbetinde mi?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Her zaman atıştırmalık mı yoksa her zaman kahve mi?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_149",
+      "text": "Geçmişte daha fazla mahremiyetle mi yoksa gelecekte daha rahat bir şekilde mi yaşamayı tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Her gün 10 dakikalık egzersiz mi yoksa haftada bir uzun antrenman mı?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_150",
+      "text": "Her zaman sorumlu kişi olmayı mı yoksa hiçbir zaman sorumluluk konusunda size güvenilmemeyi mi tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tüm dilleri konuşmayı mı yoksa hayvanları anlamayı mı isterdin?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_151",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Kısa ama yoğun bir romantizm mi yoksa yavaş ve sağlam bir aşk mı?"
+      "text": "Verdiğiniz bir kararı değiştirmeyi mi, yoksa vermek üzere olduğunuz bir kararı görmeyi mi tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_152",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "İlk mesajı atan mı yoksa ilk arayan mı olmayı seçerdin?"
+      "text": "Konfor alanınızı mı yoksa hırsınızı mı kaybetmeyi tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_153",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Partnerinin en iyi arkadaşın olmasını mı yoksa en büyük hayranın olmasını mı isterdin?"
+      "text": "Uzaktan sevilmeyi mi yoksa yakından sevilmeyi mi tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_154",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Telefonsuz bir randevu mu yoksa konuşmadan bir randevu mu?"
+      "text": "Kendinizi asla başkalarıyla karşılaştırmamayı veya başkalarının ne düşündüğünü asla umursamamayı mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_155",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Bir playlist paylaşmayı mı yoksa takvim paylaşmayı mı seçerdin?"
+      "text": "Her kötü karardan önce bir uyarı almayı mı, yoksa her cesur karardan sonra bir ödülü mü tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_156",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Birinin ne hissettiğini her zaman bilmeyi mi yoksa ne istediğini her zaman bilmeyi mi seçerdin?"
+      "text": "Herhangi birini güldürmeyi mi, yoksa birinin güvende hissetmesini mi tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_157",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "İnsanların seni nezaketinle mi yoksa hırsınla mı hatırlamasını isterdin?"
+      "text": "Mükemmel bir hafızaya mı yoksa devam etmek için mükemmel bir yeteneğe mi sahip olmayı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_158",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Sonsuza kadar evden çalışmayı mı yoksa sonsuza kadar dışarıda çalışmayı mı seçerdin?"
+      "text": "Bir yılınızı bedeninizi mi yoksa zihninizi mi geliştirmekle geçirmeyi tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_159",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Aynasız bir hayat mı yoksa fotoğrafsız bir hayat mı?"
+      "text": "Sessiz bir hikayenin ana karakteri olmayı mı yoksa destansı bir hikayenin yan karakteri olmayı mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_160",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Çok spontane biri olmayı mı yoksa aşırı planlı biri olmayı mı isterdin?"
+      "text": "Birinin neden gittiğini bilmeyi mi yoksa hiç bilmemeyi ve daha hızlı iyileşmeyi mi tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_tr_161",
+      "text": "Duygularınız konusunda her zaman dürüst olmayı mı yoksa her zaman başkalarının duygularını korumayı mı tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Tüm kayıtlı memelerini mi kaybedersin, tüm playlistlerini mi?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_162",
+      "text": "Sınırsız motivasyona mı yoksa sınırsız sabra mı sahip olmayı tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Her yazım hatan herkese açık paylaşılır mı, yoksa her taslağın otomatik gönderilir mi?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_163",
+      "text": "Tehlike işaretlerini anında tespit etmeyi mi yoksa gizli potansiyeli anında görmeyi mi tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Dans ederken mi viral olursun, düşerken mi?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_164",
+      "text": "Geçmişteki bir ilişkiyi düzeltmeyi mi yoksa gelecekteki bir hatayı önlemeyi mi tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Sadece GIF ile mi konuşursun, sadece sesli mesajla mı?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_165",
+      "text": "Her zaman rahatlığı mı tercih ederdin yoksa her zaman büyümeyi mi seçersiniz?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Sonsuz batarya mı, sonsuza kadar kusursuz Wi-Fi mı?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_166",
+      "text": "Size meydan okuyan insanlarla mı yoksa sizi rahatlatan insanlarla mı çevrili olmayı tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Her partiyi sen mi düzenlersin, her partiden sonra sen mi toplarsın?"
+      "minAge": 13
     },
     {
       "id": "wyr_tr_167",
+      "text": "Mükemmel bir günlük rutini mi yoksa hayatta bir kez yaşanacak mükemmel bir macerayı mı tercih ederdin?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Kuralları hep sen mi anlatırsın, yoksa hep hile yapmakla mı suçlanırsın?"
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_168",
+      "text": "Gizlice yetenekli olmayı mı yoksa herkesin önünde ortalama olmayı mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_169",
+      "text": "Hiçbir zaman onaya ihtiyaç duymamayı mı yoksa her zaman teşvik almayı mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_170",
+      "text": "Her ayrıntıyı hatırlayan bir arkadaşınızı mı, yoksa her seferinde ortaya çıkan bir arkadaşınızı mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_171",
+      "text": "Herhangi bir alışkanlığı anında bırakmayı mı yoksa anında herhangi bir alışkanlık kazanmayı mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_172",
+      "text": "Şimdiki genç halinizin hayatınızı görmesini mi yoksa gelecekteki halinizin bir cümle geri göndermesini mi tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_173",
+      "text": "Bir grubu değiştiren kişi olmayı mı yoksa grubun iyiye doğru değiştirdiği kişi olmayı mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_174",
+      "text": "Bir seçimin maliyetini her zaman bilmeyi mi yoksa her zaman faydasını bilmeyi mi tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_175",
+      "text": "Bir yıl boyunca korkusuz olmayı mı, yoksa hayatının geri kalanında akıllı olmayı mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_176",
+      "text": "Çevrimiçi ortamda heyecan verici görünen bir hayatı mı, yoksa çevrimdışıyken de heyecan verici hissettiren bir hayatı mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_177",
+      "text": "Fazla düşünmeyi mi yoksa ertelemeyi mi tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_178",
+      "text": "Bir başyapıtla mı yoksa birçok sağlam çabayla mı tanınmayı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_179",
+      "text": "Her kapının açık olmasını ama net bir yön olmamasını mı yoksa alternatifi olmayan tek bir açık yolun olmasını mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_180",
+      "text": "Hep ilk affeden kişi mi olurdun, yoksa ilk uzaklaşan kişi mi?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_181",
+      "text": "Her sorun için bir akıl hocanız mı yoksa her zor gün için bir arkadaşınız mı olmasını tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_182",
+      "text": "Yarınki ruh halinizi tahmin edebilmeyi mi, yoksa bugünkü ruh halinizi anlamayı mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_183",
+      "text": "Sessizce zengin olmayı mı yoksa herkesin önünde etkili olmayı mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_184",
+      "text": "Asla yalnız hissetmemeyi mi yoksa asla yanlış anlaşılmamayı mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_185",
+      "text": "İnsanları anında kazanmayı mı yoksa kimin zaman ayırmaya değer olduğunu anında öğrenmeyi mi tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_186",
+      "text": "Risk aldığın için mi yoksa akıllıca seçimler yaptığın için mi tanınmayı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_187",
+      "text": "Her zaman bir yedekleme planınızın olmasını mı yoksa hiç ihtiyacınız olmamasını mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_188",
+      "text": "Kötü bir alışkanlığınızı kaybetmeyi mi yoksa etkileyici bir beceri kazanmayı mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_189",
+      "text": "Birkaç sürprizle dolu sakin bir hayatı mı yoksa unutulmaz hikayelerle dolu kaotik bir hayatı mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_190",
+      "text": "Hayatınızın en güzel anını gerçekleşmeden önce bilmeyi mi yoksa daha sonra fark etmeyi mi tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_191",
+      "text": "Konuşmaları başlatmada mükemmel olmayı mı yoksa onları zarif bir şekilde bitirmeyi mi tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_192",
+      "text": "Her zaman tavsiye veren kişi olmayı mı yoksa tavsiyeyi alacak kadar cesur olan kişi olmayı mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_193",
+      "text": "Hayalindeki evi herkesten uzakta mı yoksa en sevdiğin insanların yakınında sade bir evde mi tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_194",
+      "text": "Herhangi biriyle barışmayı mı yoksa herhangi bir yerde yeni bir başlangıç yapmayı mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_195",
+      "text": "Herkesin itiraf ettiği arkadaş mı yoksa herkesin parti yaptığı arkadaş mı olmayı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_196",
+      "text": "Bir ay boyunca tamamen özgür olmayı mı, yoksa bir yıl boyunca istikrarlı bir ilerlemeyi mi tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_197",
+      "text": "Tek bir cesur hareketle mi yoksa ömür boyu sessiz bir sadakatle mi hatırlanmayı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_198",
+      "text": "İtibarınız hakkındaki gerçeği öğrenmeyi mi yoksa güveninize dokunulmamasını mı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_199",
+      "text": "Suçluluk duymadan hayır diyebilmeyi mi yoksa utanmadan yardım istemeyi mi tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_200",
+      "text": "Mükemmel zamanlamaya mı yoksa mükemmel içgüdülere mi sahip olmayı tercih ederdin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_tr_201",
+      "text": "Flört uygulaması profilini arkadaşların incelesin mi, yoksa DM’lerin güvendiğin biri tarafından yüksek sesle okunsun mu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_202",
+      "text": "Hiçbir kimyanın olmadığı mükemmel bir ilk buluşmayı mı, yoksa bariz kıvılcımların olduğu karmaşık bir ilk buluşmayı mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_203",
+      "text": "Birisinin flört ettiğini her zaman bilmeyi mi, yoksa asla kazara flört etmemeyi mi tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_204",
+      "text": "Herkesin sevdiği ama emin olmadığınız biriyle mi yoksa herkesin şüphe duyduğu ama emin olduğunuz biriyle mi çıkmayı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_205",
+      "text": "Harika bir randevudan sonra hayalet olmayı mı yoksa bir ay boyunca yavaş yavaş ekmek kırıntılarını mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_206",
+      "text": "Aşkınızı şahsen itiraf etmeyi mi yoksa grup sohbetinizin bunu yanlışlıkla açığa çıkarmasını mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_207",
+      "text": "Eski sevgilinizin harika göründüğünüzü görmesini mi yoksa gerçekten umursamamasını mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_208",
+      "text": "Gece geç saatlerde riskli bir mesaj almayı mı yoksa bir mesaj gönderip anında pişman olmayı mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_209",
+      "text": "Acı verici derecede dürüst bir partneriniz mi yoksa her zorlu konuşmadan kaçınan bir partneriniz mi olmasını tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_210",
+      "text": "Mükemmel şakacı biriyle mi yoksa mükemmel duygusal olgunluğa sahip biriyle mi çıkmayı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_211",
+      "text": "Birinin profilini takip ederken yakalanmayı mı yoksa yanlışlıkla çok eski bir gönderiyi beğenmeyi mi tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_212",
+      "text": "Unutulmaz bir yaz aşkını mı yoksa yavaş yavaş ilerleyen bir aşk hikayesini mi tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_213",
+      "text": "Partnerinizin hoşlandığı herkesi tanımayı mı yoksa hiçbir şey bilmemeyi ve huzurlu kalmayı mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_214",
+      "text": "Kıskanan olmayı mı yoksa denemeden insanları kıskandıran olmayı mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_215",
+      "text": "Zamanlama kötü olsa da müthiş bir çekim mi, yoksa zamanlama mükemmel ama çekim daha hafif mi?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_216",
+      "text": "\"Seni seviyorum\" diyen ilk kişi olmayı mı yoksa tamamen emin olana kadar beklemeyi mi tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_217",
+      "text": "Telefonsuz bir randevuya mı yoksa sohbetsiz bir randevuya mı çıkmayı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_218",
+      "text": "En büyük tehlike işaretinizin açığa çıkmasını mı yoksa herkesin bunu zaten bildiğini öğrenmeyi mi tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_219",
+      "text": "Birinin gizli aşkı olmayı mı yoksa birinin herkese açık takıntısı olmayı mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_220",
+      "text": "Hiçbir şey ciddileşmediği için dramatik bir ayrılık hikayesi mi yoksa hiç ayrılık hikayesi olmamasını mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_221",
+      "text": "Her şeyi paylaşan biriyle mi yoksa hiçbir şey göndermeyen biriyle mi çıkmayı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_222",
+      "text": "Çılgınca spontan biriyle mi yoksa son derece tutarlı biriyle mi olmayı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_223",
+      "text": "Şifreleri mi yoksa konumları mı paylaşmayı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_224",
+      "text": "Yanlış kişiden aşk mektubu almayı mı yoksa doğru kişiden tek kelimelik bir mesajı mı almayı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_225",
+      "text": "Hoşlandığınız kişinin en kötü sesli notunuzu duymasını mı yoksa en kötü özçekiminizi görmesini mi tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_226",
+      "text": "Şahsen flört etmede harika olmayı mı yoksa mesaj atmada harika olmayı mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_227",
+      "text": "Bir randevunun sizinle ilgilenip ilgilenmediğini her zaman bilmeyi mi yoksa zamanınızı boşa mı harcadıklarını her zaman bilmeyi mi tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_228",
+      "text": "Yoğun tutku ve kaosun olduğu bir ilişkiyi mi yoksa daha az havai fişek içeren sakin bir aşkı mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_229",
+      "text": "Daha çok önemseyen mi yoksa bunu ilk itiraf eden mi olmayı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_230",
+      "text": "Bir arkadaşınızın hoşlandığınızı mı, yoksa hoşlandığınız kişinin arkadaşınızdan hoşlandığını mı öğrenmeyi tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_231",
+      "text": "Herkesin tipi olan biriyle mi yoksa yalnızca sizin anladığınız biriyle mi çıkmayı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_232",
+      "text": "Durumsallığınızın ilişkiyi tanımlamasını mı yoksa sonsuza kadar ortadan kaybolmasını mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_233",
+      "text": "Eski sevgilinizden kapanmayı mı yoksa hiç çıkmadığınız birinden özür dilemeyi mi tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_234",
+      "text": "Geleceği olmayan mükemmel bir öpücüğü mü yoksa gerçek aşka dönüşen beceriksiz bir başlangıcı mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_235",
+      "text": "Birisinin yeşil bayraklarını anında görmeyi mi, yoksa kırmızı bayraklarını anında görmeyi mi tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_236",
+      "text": "Kendine güvenerek flört edip başarısız olmayı mı yoksa soğukkanlı davranıp şansını kaçırmayı mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_237",
+      "text": "Her ilk randevunuzun filme alınmasını mı yoksa her ayrılığın arkadaşların tarafından incelenmesini mi tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_238",
+      "text": "Her ayrıntıyı hatırlayan biriyle mi yoksa sizi sürekli şaşırtan biriyle mi çıkmayı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_239",
+      "text": "Eski sevgilinizle bir haftalığına geri dönmeyi mi yoksa art arda beş randevuya çıkmayı mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_240",
+      "text": "Bir sonraki randevunu arkadaşların mı seçsin, yoksa arama geçmişin mi?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_241",
+      "text": "Toplum içinde yüksek sesle mi yoksa özel olarak yalnızca sizin fark ettiğiniz şekilde sevilmeyi mi tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_242",
+      "text": "Her zaman kalp kıran olmayı mı yoksa her zaman umutsuz romantik olmayı mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_243",
+      "text": "Çok yapışkan veya çok gizemli bir partneriniz olmasını mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_244",
+      "text": "Birinin sizin hakkınızda bir şarkı yazmasını mı yoksa sizin hakkınızda uzun bir not uygulaması söylentisini mi öğrenmeyi tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_245",
+      "text": "\"Konuşmamız lazım\" mesajı almayı mı yoksa yanlışlıkla yanlış kişiye göndermeyi mi tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_246",
+      "text": "Her ayrıntıyı planlayan biriyle mi yoksa her şeyi doğaçlama yapan biriyle mi çıkmayı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_247",
+      "text": "Tam tersinizle inkar edilemez bir kimyayı mı yoksa sizin gibi biriyle rahat bir kimyayı mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_248",
+      "text": "Bir itirafın provasını yaparken yakalanmayı mı yoksa bir ayrılık konuşması yaparken yakalanmayı mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_249",
+      "text": "Eski aşkınızın aniden size mesaj atmasını mı yoksa şu anki aşkınızın aniden sizi takip etmeyi bırakmasını mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_250",
+      "text": "Her zaman çok hızlı düşmeyi mi yoksa hislerinin her zaman çok geç farkına varmayı mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_251",
+      "text": "Birinin değiştiği kişi olmayı mı yoksa birinin unutamadığı kişi olmayı mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_252",
+      "text": "Sözleri harika olan mı yoksa eylemleri harika olan bir partneriniz mi olmasını tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_253",
+      "text": "Seni sürekli güldüren biriyle mi yoksa tamamen sakin hissetmeni sağlayan biriyle mi çıkmayı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_254",
+      "text": "Hoşlandığınız kişinin sizin hakkınızda rüya görüp görmediğini mi yoksa sizin hakkınızda konuşup konuşmadığını mı bilmek istersiniz?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_255",
+      "text": "İlk mesajı göndermeyi mi yoksa ilk hamleyi bizzat yapmayı mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_256",
+      "text": "Üç ay boyunca gizli bir ilişki mi yoksa herkesin yorum yaptığı halka açık bir ilişki mi tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_257",
+      "text": "Flört tarzınızın arkadaşların tarafından mı yoksa mesajlaşma tarzınızın hoşlandığınız kişi tarafından mı değerlendirilmesini tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_258",
+      "text": "Ciddileşen geri dönüş olmayı mı, yoksa asla unutamayacaklarını mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_259",
+      "text": "Tam olarak sizin mizah anlayışınıza sahip biriyle mi yoksa tam olarak hırsınızla mı çıkmayı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_260",
+      "text": "Ulaşılması imkânsız birinden hoşlanmak mı, yoksa ulaşılması imkânsız birinin senden hoşlanması mı?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_261",
+      "text": "Sarhoş bir itiraf almayı mı yoksa yazması bir hafta süren ayık bir mesajı mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_262",
+      "text": "Her randevunun derin bir sohbetle mi yoksa saçma bir hikayeyle bitmesini mi tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_263",
+      "text": "Size meydan okuyan biriyle mi yoksa size tapan biriyle mi olmayı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_264",
+      "text": "Biraz gizemi korumayı mı yoksa her şeyi anında öğrenmeyi mi tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_265",
+      "text": "Arkadaşlarınızla en iyi arkadaş olan bir partneri mi yoksa dünyanızı ayrı tutan bir partneri mi tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_266",
+      "text": "Hiç kıskanmayan biriyle mi yoksa bunu dürüstçe itiraf eden biriyle mi çıkmayı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_267",
+      "text": "Yoğun bir göz teması anını mı yoksa mükemmel zamanlanmış bir el dokunuşunu mu tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_268",
+      "text": "Düğün fikirlerini çok erken kaydetmeyi mi, yoksa bir flört uygulamasını çok geç silmeyi mi tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_269",
+      "text": "Hiçbir zaman devam etmeyen cilveli bir arkadaşlığı mı yoksa tuhaf flörtlerle başlayan bir ilişkiyi mi tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_270",
+      "text": "Gönderilen bir mesajı geri almayı mı yoksa şahsen bir cümleyi geri almayı mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_271",
+      "text": "En yakın arkadaşınızın hoşlandığınızı onaylamasını mı tercih ederdin, yoksa hoşlandığınız kişinin en yakın arkadaşınızı onaylamasını mı?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_272",
+      "text": "Dikkat çekmeyi seven biriyle mi yoksa ilgiden tamamen kaçınan biriyle mi çıkmayı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_273",
+      "text": "Birinin telefonuna gülümsemesinin nedeni olmayı mı, yoksa bütün gün odaklanamamasının nedeni olmayı mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_274",
+      "text": "Tuhaf bir sessizlikle romantik bir akşam yemeği mi yoksa inanılmaz enerjiyle dışarıda kaotik bir gece mi yemeyi tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_275",
+      "text": "Büyük bir jestle mi yoksa basit, dürüst bir cümleyle mi çıkma teklif edilmesini tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_276",
+      "text": "Herkesin imrendiği bir ilişki mi yoksa sizden başka kimsenin anlamadığı bir ilişki mi tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_277",
+      "text": "Kimin sana aşık olduğunu asla bilmemeyi mi, yoksa bilip bu konuda hiçbir şey yapamamayı mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_278",
+      "text": "Hoşlandığınız kişiye sesli not göndermeyi mi yoksa eski sevgilinize sesli mesaj bırakmayı mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_279",
+      "text": "Partnerinizin bir gün boyunca zihninizi okumasını mı yoksa bir dakika boyunca not uygulamanızı okumasını mı tercih ederdin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_tr_280",
+      "text": "Birinin güvenli limanı olmak mı, yoksa riskli ama aklından çıkaramadığı kişi olmak mı?",
+      "intensity": "spicy",
+      "minAge": 18
     }
   ]
 }

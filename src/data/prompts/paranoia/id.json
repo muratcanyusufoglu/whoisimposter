@@ -1,0 +1,949 @@
+{
+  "gameId": "paranoia",
+  "locale": "id",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "par_id_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling lama bertahan dari kiamat zombie?"
+    },
+    {
+      "id": "par_id_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang terbaik dalam memasak lima hidangan?"
+    },
+    {
+      "id": "par_id_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang akan memenangkan kontes menatap?"
+    },
+    {
+      "id": "par_id_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang pertama kali menjadi jutawan?"
+    },
+    {
+      "id": "par_id_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa teman perjalanan yang paling menyenangkan?"
+    },
+    {
+      "id": "par_id_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang pertama kali menangis saat menonton film sedih?"
+    },
+    {
+      "id": "par_id_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang akan memenangkan kompetisi trivia?"
+    },
+    {
+      "id": "par_id_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin menjadi terkenal?"
+    },
+    {
+      "id": "par_id_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang akan menjadi orang tua terbaik?"
+    },
+    {
+      "id": "par_id_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang pertama kali membuat tato?"
+    },
+    {
+      "id": "par_id_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling pandai menyimpan rahasia?"
+    },
+    {
+      "id": "par_id_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa orang yang paling suka bertualang di sini?"
+    },
+    {
+      "id": "par_id_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang akan bertahan paling lama tanpa menggunakan ponselnya?"
+    },
+    {
+      "id": "par_id_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang akan memenangkan kompetisi menyanyi?"
+    },
+    {
+      "id": "par_id_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang akan menjadi pahlawan super terbaik?"
+    },
+    {
+      "id": "par_id_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang memiliki kisah hidup paling menarik?"
+    },
+    {
+      "id": "par_id_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa bos terburuk?"
+    },
+    {
+      "id": "par_id_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa orang yang paling terorganisir di sini?"
+    },
+    {
+      "id": "par_id_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang pertama kali pindah ke negara lain?"
+    },
+    {
+      "id": "par_id_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang akan menjadi kontestan acara permainan terbaik?"
+    },
+    {
+      "id": "par_id_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang punya rahasia paling menarik?"
+    },
+    {
+      "id": "par_id_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin mengadakan pesta kejutan untuk seseorang?"
+    },
+    {
+      "id": "par_id_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Dengan siapa orang terburuk berbagi kamar hotel?"
+    },
+    {
+      "id": "par_id_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan menjadi orang terakhir yang berdiri dalam sebuah debat?"
+    },
+    {
+      "id": "par_id_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan terpilih pertama kali di Survivor?"
+    },
+    {
+      "id": "par_id_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan memenangkan permainan poker?"
+    },
+    {
+      "id": "par_id_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa magnet drama terbesar di sini?"
+    },
+    {
+      "id": "par_id_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan menjadi negosiator terbaik?"
+    },
+    {
+      "id": "par_id_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling buruk dalam berbohong?"
+    },
+    {
+      "id": "par_id_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin lari maraton?"
+    },
+    {
+      "id": "par_id_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang selalu mengatakan ya padahal seharusnya mengatakan tidak?"
+    },
+    {
+      "id": "par_id_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang pertama kali menangis saat berkelahi?"
+    },
+    {
+      "id": "par_id_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa stand-up comedian paling lucu?"
+    },
+    {
+      "id": "par_id_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin membocorkan rahasia Anda?"
+    },
+    {
+      "id": "par_id_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa orang terburuk yang terjebak di dalam lift?"
+    },
+    {
+      "id": "par_id_036",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang memiliki riwayat kencan paling kacau?"
+    },
+    {
+      "id": "par_id_037",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa penggoda terbaik di grup?"
+    },
+    {
+      "id": "par_id_038",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling banyak mencium orang di sini?"
+    },
+    {
+      "id": "par_id_039",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin masuk ke DM seseorang malam ini?"
+    },
+    {
+      "id": "par_id_040",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang akan berkencan dengan orang asing tanpa ragu-ragu?"
+    },
+    {
+      "id": "par_id_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang memiliki rizz terbaik di sini?"
+    },
+    {
+      "id": "par_id_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin mempunyai pengagum rahasia di ruangan ini?"
+    },
+    {
+      "id": "par_id_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa mantan yang paling dramatis?"
+    },
+    {
+      "id": "par_id_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling banyak mengalami situasi?"
+    },
+    {
+      "id": "par_id_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling cepat jatuh cinta?"
+    },
+    {
+      "id": "par_id_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin mengirim SMS berisiko dan langsung menyesalinya?"
+    },
+    {
+      "id": "par_id_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang dapat menemukan jalan keluar dari situasi apa pun?"
+    },
+    {
+      "id": "par_id_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang memiliki DM paling banyak yang belum dibaca saat ini?"
+    },
+    {
+      "id": "par_id_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mudah cemburu?"
+    },
+    {
+      "id": "par_id_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang kemungkinan besar masih berbicara dengan mantannya saat ini?"
+    },
+    {
+      "id": "par_id_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling baik dalam memberikan petunjuk arah tanpa peta?"
+    },
+    {
+      "id": "par_id_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang pertama kali mengadopsi hewan liar?"
+    },
+    {
+      "id": "par_id_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang akan memulai hobi baru dan terus melakukannya?"
+    },
+    {
+      "id": "par_id_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang akan menjadi kapten tim terbaik?"
+    },
+    {
+      "id": "par_id_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang akan memenangkan kontes membuat kue?"
+    },
+    {
+      "id": "par_id_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang akan berteman dengan orang asing dalam perjalanan?"
+    },
+    {
+      "id": "par_id_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa orang pertama yang merencanakan pesta kejutan?"
+    },
+    {
+      "id": "par_id_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang bisa bertahan seminggu tanpa ponselnya?"
+    },
+    {
+      "id": "par_id_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang terbaik dalam menganggarkan uang?"
+    },
+    {
+      "id": "par_id_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang akan melupakan payungnya di hari hujan?"
+    },
+    {
+      "id": "par_id_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang pertama kali menari di pesta pernikahan?"
+    },
+    {
+      "id": "par_id_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang memiliki selera musik terbaik?"
+    },
+    {
+      "id": "par_id_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang akan tersesat bahkan dengan GPS?"
+    },
+    {
+      "id": "par_id_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling baik dalam menyimpan rahasia?"
+    },
+    {
+      "id": "par_id_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang mau dengan sukarela membantu tetangganya?"
+    },
+    {
+      "id": "par_id_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang akan mengatur jadwal grup?"
+    },
+    {
+      "id": "par_id_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang akan menonton seluruh pertunjukan dalam satu hari?"
+    },
+    {
+      "id": "par_id_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling jago memasak untuk orang banyak?"
+    },
+    {
+      "id": "par_id_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling banyak mengambil foto dalam perjalanan?"
+    },
+    {
+      "id": "par_id_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang terakhir meninggalkan pesta?"
+    },
+    {
+      "id": "par_id_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan menghantui obrolan grup selama berminggu-minggu?"
+    },
+    {
+      "id": "par_id_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan membatalkan rencana dengan alasan paling lemah?"
+    },
+    {
+      "id": "par_id_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan terlalu memikirkan satu teks selama berjam-jam?"
+    },
+    {
+      "id": "par_id_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang menghabiskan uang paling banyak pada kencan pertama?"
+    },
+    {
+      "id": "par_id_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling cepat jatuh cinta pada seseorang?"
+    },
+    {
+      "id": "par_id_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling lama menyimpan rahasia cintanya?"
+    },
+    {
+      "id": "par_id_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin memulai rumor secara tidak sengaja?"
+    },
+    {
+      "id": "par_id_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang pertama kali memposting tentang perpisahan?"
+    },
+    {
+      "id": "par_id_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan berkencan dengan seseorang yang sangat berbeda dari tipe biasanya?"
+    },
+    {
+      "id": "par_id_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan tetap berteman dengan mantan?"
+    },
+    {
+      "id": "par_id_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling kompetitif selama pertandingan?"
+    },
+    {
+      "id": "par_id_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan menjadi penggoda terbesar di sebuah pesta?"
+    },
+    {
+      "id": "par_id_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang berani berpindah karier tanpa memberi tahu siapa pun?"
+    },
+    {
+      "id": "par_id_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin pindah ke negara lain?"
+    },
+    {
+      "id": "par_id_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang mau berkemas berlebihan untuk perjalanan akhir pekan?"
+    },
+    {
+      "id": "par_id_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan datang satu jam lebih awal?"
+    },
+    {
+      "id": "par_id_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang lupa membalas bahkan setelah membaca pesannya?"
+    },
+    {
+      "id": "par_id_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan menyimpan tangkapan layar 'berjaga-jaga'?"
+    },
+    {
+      "id": "par_id_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang memilih film paling dramatis?"
+    },
+    {
+      "id": "par_id_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling keras kepala dalam suatu argumen?"
+    },
+    {
+      "id": "par_id_091",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang memiliki riwayat kencan paling berantakan?"
+    },
+    {
+      "id": "par_id_092",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin mempunyai pengagum rahasia?"
+    },
+    {
+      "id": "par_id_093",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang pertama kali mengatakan 'Aku cinta kamu'?"
+    },
+    {
+      "id": "par_id_094",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang akan terus menggoda meski sudah jelas?"
+    },
+    {
+      "id": "par_id_095",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin mengakses ponsel pasangannya?"
+    },
+    {
+      "id": "par_id_096",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling cepat melakukan rebound?"
+    },
+    {
+      "id": "par_id_097",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling cemburu dalam suatu hubungan?"
+    },
+    {
+      "id": "par_id_098",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang akan berkencan dengan dua orang sekaligus?"
+    },
+    {
+      "id": "par_id_099",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang akan menyembunyikan situasi dari teman?"
+    },
+    {
+      "id": "par_id_100",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin patah hati tanpa menyadarinya?"
+    },
+    {
+      "id": "par_id_101",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang mau secara sukarela memimpin proyek kelompok?"
+    },
+    {
+      "id": "par_id_102",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang bisa bertahan paling lama tanpa ponselnya?"
+    },
+    {
+      "id": "par_id_103",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang pertama kali menari di sebuah pesta?"
+    },
+    {
+      "id": "par_id_104",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang akan tersesat saat berjalan-jalan sederhana?"
+    },
+    {
+      "id": "par_id_105",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang akan mengingat pesanan kopi semua orang?"
+    },
+    {
+      "id": "par_id_106",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang akan membawakan makanan ringan untuk seluruh kelompok?"
+    },
+    {
+      "id": "par_id_107",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang akan memulai percakapan dengan orang asing?"
+    },
+    {
+      "id": "par_id_108",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling baik dalam menenangkan semua orang?"
+    },
+    {
+      "id": "par_id_109",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling cepat menyelesaikan teka-teki?"
+    },
+    {
+      "id": "par_id_110",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang akan terlambat bahkan jika ada pengingat?"
+    },
+    {
+      "id": "par_id_111",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang akan membuat rencana rinci untuk sebuah perjalanan?"
+    },
+    {
+      "id": "par_id_112",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang akan memenangkan kompetisi memasak?"
+    },
+    {
+      "id": "par_id_113",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang tahu spot foto terbaik?"
+    },
+    {
+      "id": "par_id_114",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin mengadopsi hewan peliharaan?"
+    },
+    {
+      "id": "par_id_115",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling cepat terkena sengatan matahari?"
+    },
+    {
+      "id": "par_id_116",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang akan melupakan dompetnya di rumah?"
+    },
+    {
+      "id": "par_id_117",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang pertama kali mencoba tren baru?"
+    },
+    {
+      "id": "par_id_118",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang akan menghabiskan seluruh uangnya untuk perjalanan?"
+    },
+    {
+      "id": "par_id_119",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang secara tidak sengaja merusak kejutan?"
+    },
+    {
+      "id": "par_id_120",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling baik dalam menjaga rahasia?"
+    },
+    {
+      "id": "par_id_121",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan segera membalas SMS setiap saat?"
+    },
+    {
+      "id": "par_id_122",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan menjadi viral karena sesuatu yang konyol?"
+    },
+    {
+      "id": "par_id_123",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan menjadi terkenal di kota mereka?"
+    },
+    {
+      "id": "par_id_124",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang mau mengambil risiko dan pindah ke luar negeri?"
+    },
+    {
+      "id": "par_id_125",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan berhenti dari pekerjaan untuk mengejar impian?"
+    },
+    {
+      "id": "par_id_126",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang mengubah hobi menjadi bisnis?"
+    },
+    {
+      "id": "par_id_127",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang ketahuan sedang melamun saat rapat?"
+    },
+    {
+      "id": "par_id_128",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan berdebat untuk mendapatkan tiket?"
+    },
+    {
+      "id": "par_id_129",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan kehilangan kuncinya dua kali dalam satu minggu?"
+    },
+    {
+      "id": "par_id_130",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan memulai rumor tanpa sengaja?"
+    },
+    {
+      "id": "par_id_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang mempunyai reaksi paling dramatis?"
+    },
+    {
+      "id": "par_id_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan menggoda mereka untuk mendapatkan meja?"
+    },
+    {
+      "id": "par_id_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang naksir rahasia di dalam ruangan?"
+    },
+    {
+      "id": "par_id_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan mengadakan kencan setelah malam yang menyenangkan?"
+    },
+    {
+      "id": "par_id_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang pertama kali mengatakan “Aku cinta kamu”?"
+    },
+    {
+      "id": "par_id_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan menyimpan aplikasi kencan untuk berjaga-jaga?"
+    },
+    {
+      "id": "par_id_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang diam-diam menikmati gosip?"
+    },
+    {
+      "id": "par_id_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan jatuh cinta pada seseorang dalam perjalanan singkat?"
+    },
+    {
+      "id": "par_id_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan mengirim pesan ganda?"
+    },
+    {
+      "id": "par_id_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang ketahuan memeriksa ponselnya saat berkencan?"
+    },
+    {
+      "id": "par_id_141",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang akan membatalkan rencana di saat-saat terakhir?"
+    },
+    {
+      "id": "par_id_142",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang meminjam sesuatu dan lupa mengembalikannya?"
+    },
+    {
+      "id": "par_id_143",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang akan menangis saat menonton iklan?"
+    },
+    {
+      "id": "par_id_144",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang akan memulai perdebatan tanpa alasan?"
+    },
+    {
+      "id": "par_id_145",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang akan membawakan pengisi daya untuk semua orang?"
+    },
+    {
+      "id": "par_id_146",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa orang terakhir yang meninggalkan pesta?"
+    },
+    {
+      "id": "par_id_147",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang tahu semua lirik lagu apa pun?"
+    },
+    {
+      "id": "par_id_148",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang mau tidur siang di tempat umum?"
+    },
+    {
+      "id": "par_id_149",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang akan memulai obrolan grup untuk semuanya?"
+    },
+    {
+      "id": "par_id_150",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang bisa menyampaikan pidato dadakan terbaik?"
+    },
+    {
+      "id": "par_id_151",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang memiliki rol kamera paling kacau?"
+    },
+    {
+      "id": "par_id_152",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan terekspos oleh riwayat pencarian mereka?"
+    },
+    {
+      "id": "par_id_153",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang diam-diam memeriksa siapa yang menonton cerita mereka?"
+    },
+    {
+      "id": "par_id_154",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling bisa bertahan hidup sehari tanpa ponselnya?"
+    },
+    {
+      "id": "par_id_155",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang memiliki arsip meme terkuat?"
+    },
+    {
+      "id": "par_id_156",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan mengubah malam permainan yang tenang menjadi lantai dansa?"
+    },
+    {
+      "id": "par_id_157",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang mencatat skor seperti pengacara?"
+    }
+  ]
+}

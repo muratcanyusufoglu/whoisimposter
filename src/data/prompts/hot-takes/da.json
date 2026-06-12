@@ -1,0 +1,1309 @@
+{
+  "gameId": "hot-takes",
+  "locale": "da",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "ht_da_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ananas hører absolut til pizza."
+    },
+    {
+      "id": "ht_da_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Morgenmad er det mest overvurderede måltid på dagen."
+    },
+    {
+      "id": "ht_da_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Katte er objektivt set bedre kæledyr end hunde."
+    },
+    {
+      "id": "ht_da_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Biografer dør, og det er en god ting."
+    },
+    {
+      "id": "ht_da_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "SMS'er er bedre end at ringe hver eneste gang."
+    },
+    {
+      "id": "ht_da_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sociale medier har samlet set gjort mere skade end gavn."
+    },
+    {
+      "id": "ht_da_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "At arbejde hjemmefra er strengt taget bedre end at gå på et kontor."
+    },
+    {
+      "id": "ht_da_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Folk, der siger, at de ikke ser tv, er de mest kedelige mennesker."
+    },
+    {
+      "id": "ht_da_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "At være tidligt er lige så uhøfligt som at komme for sent."
+    },
+    {
+      "id": "ht_da_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Den bedste pizza er kold pizzarester."
+    },
+    {
+      "id": "ht_da_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Online venskaber kan være lige så meningsfulde som personlige venskaber."
+    },
+    {
+      "id": "ht_da_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Weekender skal være 3 dage, og alle, der er uenige, arbejder for meget."
+    },
+    {
+      "id": "ht_da_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fastfood er faktisk bedre end de fleste smarte restauranter."
+    },
+    {
+      "id": "ht_da_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Introverte er mere interessante end udadvendte."
+    },
+    {
+      "id": "ht_da_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Napping er en supermagt, som samfundet ikke respekterer nok."
+    },
+    {
+      "id": "ht_da_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En stille aften derhjemme er mere romantisk end en fancy restaurant."
+    },
+    {
+      "id": "ht_da_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "De bedste venskaber kræver meget lidt vedligeholdelse."
+    },
+    {
+      "id": "ht_da_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "At læse bøger som et personlighedstræk er ekstremt overvurderet."
+    },
+    {
+      "id": "ht_da_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "At betale for et fitnessmedlemskab, du næsten ikke bruger, er stadig det værd psykologisk."
+    },
+    {
+      "id": "ht_da_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "At give uopfordret rådgivning handler næsten altid om rådgiveren, ikke den person, de rådgiver."
+    },
+    {
+      "id": "ht_da_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Du kan fortælle alt, hvad du behøver at vide om en person fra deres Spotify-playliste."
+    },
+    {
+      "id": "ht_da_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ghosting er nogle gange den bedste måde at afslutte tingene på."
+    },
+    {
+      "id": "ht_da_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Alle har en type og at lade som om du ikke gør det, er at lyve for dig selv."
+    },
+    {
+      "id": "ht_da_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Stjernetegn er lige så gyldige som personlighedstests for at forstå mennesker."
+    },
+    {
+      "id": "ht_da_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Folk, der er evigt forsinket, respekterer ikke din tid - det er hele sandheden."
+    },
+    {
+      "id": "ht_da_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vennen, der altid aflyser planer, er i al hemmelighed den smarteste i gruppen."
+    },
+    {
+      "id": "ht_da_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Førstehåndsindtryk er næsten altid forkerte."
+    },
+    {
+      "id": "ht_da_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Humor er mere attraktivt end udseende - enhver, der er uenig, har ikke mødt nok sjove mennesker."
+    },
+    {
+      "id": "ht_da_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "De fleste rejsebilleder er til andre mennesker, ikke til den rejsende."
+    },
+    {
+      "id": "ht_da_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "At være single er undervurderet, og de fleste skynder sig ind i forhold af frygt."
+    },
+    {
+      "id": "ht_da_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Gruppechats er mere udmattende, end de er værd."
+    },
+    {
+      "id": "ht_da_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Folk bekymrer sig langt mindre om dig, end du tror, og det er faktisk befriende."
+    },
+    {
+      "id": "ht_da_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Dyr kaffe er et fupnummer, og enhver, der siger andet, er offer for branding."
+    },
+    {
+      "id": "ht_da_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Den måde, nogen behandler en tjener på, fortæller dig alt om deres karakter."
+    },
+    {
+      "id": "ht_da_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Loyalitet er vigtigere end ærlighed i nære venskaber."
+    },
+    {
+      "id": "ht_da_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "De fleste, der siger, at de elsker at rejse, vil bare have Instagram-billederne."
+    },
+    {
+      "id": "ht_da_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "At sige 'undskyld, at du har det sådan' er den mest manipulerende ikke-undskyldning, der findes."
+    },
+    {
+      "id": "ht_da_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Den farligste type person er en, der aldrig indrømmer, at de tager fejl."
+    },
+    {
+      "id": "ht_da_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hver person har mindst én virkelig pinlig hemmelighed, de vil bære i graven."
+    },
+    {
+      "id": "ht_da_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "At kunne lide den samme musik som nogen er vigtigere for kompatibilitet end at kunne lide deres personlighed."
+    },
+    {
+      "id": "ht_da_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Langsigtede forhold handler mere om kompatibilitet og vaner end egentlig kærlighed."
+    },
+    {
+      "id": "ht_da_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Det er umuligt at blive bare venner med en, du engang var romantisk tiltrukket af."
+    },
+    {
+      "id": "ht_da_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Folk, der siger, at de ikke spiller spil i dating, lyver - det gør alle."
+    },
+    {
+      "id": "ht_da_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En fuldstændig mangel på jalousi i et forhold er faktisk et rødt flag."
+    },
+    {
+      "id": "ht_da_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvis nogen snyder én gang, vil de altid være en snyder - folk ændrer sig ikke rigtig."
+    },
+    {
+      "id": "ht_da_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Det er helt normalt at undersøge en potentiel partners hele sociale medier inden en første date."
+    },
+    {
+      "id": "ht_da_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Samtalefasen bør ikke vare længere end to uger - derefter spilder du tid."
+    },
+    {
+      "id": "ht_da_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "De fleste mennesker er i forhold, fordi de er bange for at være alene, ikke på grund af kærlighed."
+    },
+    {
+      "id": "ht_da_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Den måde, du kæmper med nogen på, er mere sigende, end hvordan du har det, når tingene er gode."
+    },
+    {
+      "id": "ht_da_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Det er berettiget at gå gennem din partners telefon, hvis din mavefornemmelse fortæller dig, at der er noget galt."
+    },
+    {
+      "id": "ht_da_051",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Du kan oprigtigt elske nogen og stadig falde for en anden på samme tid."
+    },
+    {
+      "id": "ht_da_052",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Situationer eksisterer, fordi den ene person er for komfortabel, og den anden er for bange."
+    },
+    {
+      "id": "ht_da_053",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Den person, der afslutter forholdet først, havde altid mere magt i det."
+    },
+    {
+      "id": "ht_da_054",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Langdistanceforhold virker næsten aldrig, og folk prøver dem kun, fordi de hader slutninger."
+    },
+    {
+      "id": "ht_da_055",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Det er et rødt flag, hvis nogen ikke har nære venner fra deres fortid."
+    },
+    {
+      "id": "ht_da_056",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ekser kan aldrig rigtig være bare venner - én person er altid stadig en lille smule i det."
+    },
+    {
+      "id": "ht_da_057",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "At have en arbejdsægtefælle er fuldstændig harmløst, og folk, der er uenige, er bare usikre."
+    },
+    {
+      "id": "ht_da_058",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Folk, der siger, at de elsker alle, danner ingen dybe forbindelser med nogen."
+    },
+    {
+      "id": "ht_da_059",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Den måde, du føler dig alene på kl. 3, er mere dig end den version, du viser verden."
+    },
+    {
+      "id": "ht_da_060",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Alle har en ideel partner i hovedet, og næsten ingen i det virkelige liv lever op til det."
+    },
+    {
+      "id": "ht_da_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kolde brusere er bedre end varme, selv om vinteren."
+    },
+    {
+      "id": "ht_da_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Brætspil slår videospil til gruppeaftener."
+    },
+    {
+      "id": "ht_da_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Brunch er bare overpris morgenmad."
+    },
+    {
+      "id": "ht_da_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "At se trailere ødelægger film."
+    },
+    {
+      "id": "ht_da_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Flip-flops er ikke rigtige sko."
+    },
+    {
+      "id": "ht_da_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Planter er sværere at holde i live end kæledyr."
+    },
+    {
+      "id": "ht_da_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "At læse bogen er ikke altid bedre end filmen."
+    },
+    {
+      "id": "ht_da_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mousserende vand smager af fortrydelse."
+    },
+    {
+      "id": "ht_da_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Det bedste sæde er gangen, ikke vinduet."
+    },
+    {
+      "id": "ht_da_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Det er kaotisk at lytte til podcasts med 2x hastighed."
+    },
+    {
+      "id": "ht_da_071",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Airfryers er bare trendy konvektionsovne."
+    },
+    {
+      "id": "ht_da_072",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Suppe er en drink."
+    },
+    {
+      "id": "ht_da_073",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "At tage billeder til koncerter er spild af tid."
+    },
+    {
+      "id": "ht_da_074",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Crocs er behagelige, og det er det, der betyder noget."
+    },
+    {
+      "id": "ht_da_075",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Solnedgange er overvurderede sammenlignet med solopgange."
+    },
+    {
+      "id": "ht_da_076",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Stilhed er den bedste baggrundsmusik."
+    },
+    {
+      "id": "ht_da_077",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Buffeter er stressende, ikke sjove."
+    },
+    {
+      "id": "ht_da_078",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Papirbøger dufter godt, men e-læsere er overlegne."
+    },
+    {
+      "id": "ht_da_079",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Folk bør holde op med at sige 'ingen bekymringer' på arbejdet."
+    },
+    {
+      "id": "ht_da_080",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "De midterste sædearmlæn tilhører den midterste passager."
+    },
+    {
+      "id": "ht_da_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvis du ikke svarer i en dag, ignorerer du nogen."
+    },
+    {
+      "id": "ht_da_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Bedste venner bør kende din telefons adgangskode."
+    },
+    {
+      "id": "ht_da_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "At poste en fitness-selfie er ikke 'for motivation'."
+    },
+    {
+      "id": "ht_da_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "De fleste mennesker vil hellere have ret end at være glade."
+    },
+    {
+      "id": "ht_da_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "At annullere planer i sidste øjeblik er værre end at komme for sent."
+    },
+    {
+      "id": "ht_da_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Folk, der praler med at have travlt, er usikre."
+    },
+    {
+      "id": "ht_da_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "At dele din placering i et forhold burde være normalt."
+    },
+    {
+      "id": "ht_da_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Grupperejser er, hvor venskaber går for at dø."
+    },
+    {
+      "id": "ht_da_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvis du skal 'soft launch' et forhold, er det ikke rigtigt."
+    },
+    {
+      "id": "ht_da_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "At komme til tiden er et kærlighedssprog."
+    },
+    {
+      "id": "ht_da_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvis du hader small talk, er du ikke så dyb, som du tror."
+    },
+    {
+      "id": "ht_da_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "De fleste undskyldninger er blot forhandlingsforsøg."
+    },
+    {
+      "id": "ht_da_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Den ven, der aldrig poster, er den mest interessante."
+    },
+    {
+      "id": "ht_da_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "De bedste relationer er bygget på lave forventninger."
+    },
+    {
+      "id": "ht_da_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Højlydte restauranter er en designfejl."
+    },
+    {
+      "id": "ht_da_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Folk, der siger 'Jeg får ikke drama', starter dramaet."
+    },
+    {
+      "id": "ht_da_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "De første dates skal altid være korte."
+    },
+    {
+      "id": "ht_da_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Du kan se kompatibilitet ved, hvordan nogen bestiller kaffe."
+    },
+    {
+      "id": "ht_da_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Venner, der forsvinder, når de dater, er egoistiske."
+    },
+    {
+      "id": "ht_da_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Holder man ikke ferie, er man dårlig til livsledelse."
+    },
+    {
+      "id": "ht_da_101",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "De fleste slår sig ned, fordi de er trætte af at date."
+    },
+    {
+      "id": "ht_da_102",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jalousi er en form for ego, ikke kærlighed."
+    },
+    {
+      "id": "ht_da_103",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvis du snoker én gang, gør du det igen."
+    },
+    {
+      "id": "ht_da_104",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "'Snakkestadiet' er blot frygt for engagement."
+    },
+    {
+      "id": "ht_da_105",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Folk tilgiver snyd mere, end de indrømmer."
+    },
+    {
+      "id": "ht_da_106",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En 'pause' i et forhold er bare et langsomt brud."
+    },
+    {
+      "id": "ht_da_107",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "De mest selvsikre mennesker er de mest skrøbelige."
+    },
+    {
+      "id": "ht_da_108",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Du har ikke 'for travlt' - du er bare ikke interesseret."
+    },
+    {
+      "id": "ht_da_109",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "De fleste forelskelser handler om opmærksomhed, ikke tiltrækning."
+    },
+    {
+      "id": "ht_da_110",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Romantisk kemi er for det meste god timing."
+    },
+    {
+      "id": "ht_da_111",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Is i sodavand ødelægger drinken."
+    },
+    {
+      "id": "ht_da_112",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vinduessæder er overvurderede på flyvninger."
+    },
+    {
+      "id": "ht_da_113",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Casual billeder er bedre end poserede."
+    },
+    {
+      "id": "ht_da_114",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Folk bør svare med faktiske tal, ikke \"måske\"."
+    },
+    {
+      "id": "ht_da_115",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Adgangskodeadministratorer bør være standard på alle telefoner."
+    },
+    {
+      "id": "ht_da_116",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Natbyger er overlegne i forhold til morgenbyger."
+    },
+    {
+      "id": "ht_da_117",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "At poste madhistorier hver dag er overdrevet."
+    },
+    {
+      "id": "ht_da_118",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Filmgenindspilninger skal retfærdiggøre deres eksistens."
+    },
+    {
+      "id": "ht_da_119",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "\"Spring intro\"-knappen er den bedste opfindelse."
+    },
+    {
+      "id": "ht_da_120",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Cold brew er bare kaffe, der har glemt at være varm."
+    },
+    {
+      "id": "ht_da_121",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Loyalitetsprogrammer er normalt ikke det værd."
+    },
+    {
+      "id": "ht_da_122",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Baggrundsmusik på caféer er for høj."
+    },
+    {
+      "id": "ht_da_123",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "To-faktor autentificering bør være obligatorisk."
+    },
+    {
+      "id": "ht_da_124",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nye telefonkameraer er ikke blevet så meget bedre på det seneste."
+    },
+    {
+      "id": "ht_da_125",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "At være \"lav vedligeholdelse\" er ikke et personlighedstræk."
+    },
+    {
+      "id": "ht_da_126",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "De fleste abonnementstjenester bør inkludere en gratis uge."
+    },
+    {
+      "id": "ht_da_127",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Folk bør medbringe en lille gave, når de overnatter."
+    },
+    {
+      "id": "ht_da_128",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Den bedste måde at rejse på er uden en tætpakket tidsplan."
+    },
+    {
+      "id": "ht_da_129",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Udklædning til teatret burde komme tilbage."
+    },
+    {
+      "id": "ht_da_130",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Dessert skal bestilles først."
+    },
+    {
+      "id": "ht_da_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "At forlade en gruppechat er mere ærligt end spøgelse."
+    },
+    {
+      "id": "ht_da_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Office small talk er mere trættende end arbejde."
+    },
+    {
+      "id": "ht_da_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Møder skal altid have et sluttidspunkt."
+    },
+    {
+      "id": "ht_da_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Regnlyde er bedre end hvid støj."
+    },
+    {
+      "id": "ht_da_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Det er fint at bruge emojis i arbejdsmails."
+    },
+    {
+      "id": "ht_da_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Folk overbruger ordet \"ikonisk\"."
+    },
+    {
+      "id": "ht_da_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Et rodet skrivebord betyder ikke, at du er kreativ."
+    },
+    {
+      "id": "ht_da_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "At gemme hvert billede er digital hamstring."
+    },
+    {
+      "id": "ht_da_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Folk bør stoppe med at sende \"K\" som svar."
+    },
+    {
+      "id": "ht_da_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Det er unødvendigt at klappe med fly."
+    },
+    {
+      "id": "ht_da_141",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Returpolitik bør være længere end 14 dage."
+    },
+    {
+      "id": "ht_da_142",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Matchende outfits er søde, ikke krybende."
+    },
+    {
+      "id": "ht_da_143",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Voksne kan stadig elske animerede film."
+    },
+    {
+      "id": "ht_da_144",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Knappen \"accepter alle cookies\" burde være ulovlig."
+    },
+    {
+      "id": "ht_da_145",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ekstra puder på sengen er meningsløse."
+    },
+    {
+      "id": "ht_da_146",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Frugt hører til i salater."
+    },
+    {
+      "id": "ht_da_147",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "At købe en planner betyder ikke, at du vil bruge den."
+    },
+    {
+      "id": "ht_da_148",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "\"Balance mellem arbejde og privatliv\" burde være en reel målestok."
+    },
+    {
+      "id": "ht_da_149",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Små huse er ikke praktiske."
+    },
+    {
+      "id": "ht_da_150",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Offentlige bænke har brug for mere skygge."
+    },
+    {
+      "id": "ht_da_151",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Det er ubetænksomt at tage imod opkald uden høretelefoner."
+    },
+    {
+      "id": "ht_da_152",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ren indbakke er overvurderet."
+    },
+    {
+      "id": "ht_da_153",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "De bedste lur er 20 minutter eller mindre."
+    },
+    {
+      "id": "ht_da_154",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "At gense et show er mere afslappende end at starte et nyt."
+    },
+    {
+      "id": "ht_da_155",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "E-mailsignaturer er for lange."
+    },
+    {
+      "id": "ht_da_156",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "De fleste \"limited edition\" drops er falske haster."
+    },
+    {
+      "id": "ht_da_157",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Gratis forsendelse bør være standard."
+    },
+    {
+      "id": "ht_da_158",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Folk bør normalisere at sige \"Jeg har brug for en fridag.\""
+    },
+    {
+      "id": "ht_da_159",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "\"Indtastning...\"-indikatoren forårsager angst."
+    },
+    {
+      "id": "ht_da_160",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Åbne kontorer er dårligt design."
+    },
+    {
+      "id": "ht_da_161",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kold pizza er bedre end varm pizza."
+    },
+    {
+      "id": "ht_da_162",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Filmplakater er mere spændende end trailere."
+    },
+    {
+      "id": "ht_da_163",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Gruppechats skal være slået fra som standard."
+    },
+    {
+      "id": "ht_da_164",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Brunch er bare en undskyldning for at betale for meget for æg."
+    },
+    {
+      "id": "ht_da_165",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sokker og sandaler er helt fine."
+    },
+    {
+      "id": "ht_da_166",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Regnfulde dage er mere afslappende end solrige dage."
+    },
+    {
+      "id": "ht_da_167",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Karaoke er sjovere, når du er dårlig til det."
+    },
+    {
+      "id": "ht_da_168",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "At gå tidligt i seng er undervurderet."
+    },
+    {
+      "id": "ht_da_169",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Telefoner skal have en \"forstyr ikke\" for bestemte personer."
+    },
+    {
+      "id": "ht_da_170",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lange stemmenoter er uhøflige."
+    },
+    {
+      "id": "ht_da_171",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Biblioteker er de mest undervurderede steder i en by."
+    },
+    {
+      "id": "ht_da_172",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Brætspil er bedre end videospil til fester."
+    },
+    {
+      "id": "ht_da_173",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Papirbøger slår e-læsere."
+    },
+    {
+      "id": "ht_da_174",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "De bedste koncertpladser er bagerst med plads til at danse."
+    },
+    {
+      "id": "ht_da_175",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Den sidste skive må aldrig stå uberørt."
+    },
+    {
+      "id": "ht_da_176",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "At lære at lave mad er mere nyttigt end at lære at køre bil."
+    },
+    {
+      "id": "ht_da_177",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Bjerge > strande."
+    },
+    {
+      "id": "ht_da_178",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Små bryllupper er sjovere end store bryllupper."
+    },
+    {
+      "id": "ht_da_179",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Par bør nogle gange holde separate ferier."
+    },
+    {
+      "id": "ht_da_180",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Venner, der aflyser i sidste øjeblik, skylder snacks næste gang."
+    },
+    {
+      "id": "ht_da_181",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Midnatssnacks er bedre end morgenmad."
+    },
+    {
+      "id": "ht_da_182",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sociale medier \"synes godt om\" bør ikke være offentlige."
+    },
+    {
+      "id": "ht_da_183",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Det burde være ulovligt at bruge højttalertelefoner offentligt."
+    },
+    {
+      "id": "ht_da_184",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Måltidsforberedelse er overvurderet."
+    },
+    {
+      "id": "ht_da_185",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "De bedste billeder er de ærlige."
+    },
+    {
+      "id": "ht_da_186",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Dyre sneakers er spild af penge."
+    },
+    {
+      "id": "ht_da_187",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Søndag bør være en tre-dages weekend."
+    },
+    {
+      "id": "ht_da_188",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Overraskelsesbesøg er ubetænksomme."
+    },
+    {
+      "id": "ht_da_189",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ananasjuice hører til i enhver smoothie."
+    },
+    {
+      "id": "ht_da_190",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "At tage noter i hånden slår skrivning."
+    },
+    {
+      "id": "ht_da_191",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Online dating har gjort folk mere kræsne."
+    },
+    {
+      "id": "ht_da_192",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "At bo alene gør folk mere kreative."
+    },
+    {
+      "id": "ht_da_193",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "\"Hot take\" er normalt bare sund fornuft."
+    },
+    {
+      "id": "ht_da_194",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Du bør altid medbringe din egen genanvendelige kop."
+    },
+    {
+      "id": "ht_da_195",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Gademad er bedre end restaurantmad."
+    },
+    {
+      "id": "ht_da_196",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "De \"sete\" flueben forårsager mere drama, end de løser."
+    },
+    {
+      "id": "ht_da_197",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En delt playliste er en relationstest."
+    },
+    {
+      "id": "ht_da_198",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "At have separate tæpper er sundere for par."
+    },
+    {
+      "id": "ht_da_199",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Den bedste del af en rejse er planlægningen."
+    },
+    {
+      "id": "ht_da_200",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Det er et must at have høretelefoner på i fitnesscenteret."
+    },
+    {
+      "id": "ht_da_201",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Folk burde give baristaer mere drikkepenge."
+    },
+    {
+      "id": "ht_da_202",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Tatoveringer bør være tilladt på alle arbejdspladser."
+    },
+    {
+      "id": "ht_da_203",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Folk har brug for færre notifikationer, ikke flere."
+    },
+    {
+      "id": "ht_da_204",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kæledyr bør tillades på flere cafeer."
+    },
+    {
+      "id": "ht_da_205",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Helligdage bør vælges ved folkeafstemning."
+    },
+    {
+      "id": "ht_da_206",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Alle bør lære grundlæggende førstehjælp."
+    },
+    {
+      "id": "ht_da_207",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Fancy restauranter bør have en børnemenu."
+    },
+    {
+      "id": "ht_da_208",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Biografer bør bringe pauser tilbage."
+    },
+    {
+      "id": "ht_da_209",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Læsekvitteringer bør være valgfrie for hver app."
+    },
+    {
+      "id": "ht_da_210",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "At komme for sent er et valg, ikke en personlighed."
+    },
+    {
+      "id": "ht_da_211",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "At ignorere gruppechatmeddelelser er egenomsorg."
+    },
+    {
+      "id": "ht_da_212",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En god meme kan ordne en dårlig dag."
+    },
+    {
+      "id": "ht_da_213",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Stemmenoter bør have en tidsbegrænsning."
+    },
+    {
+      "id": "ht_da_214",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Skærmbilleder er moderne kvitteringer."
+    },
+    {
+      "id": "ht_da_215",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "At gå viralt lyder mere stressende end sjovt."
+    },
+    {
+      "id": "ht_da_216",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Et brætspil kan afsløre en persons sande personlighed."
+    },
+    {
+      "id": "ht_da_217",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Husregler er bedre end officielle regler."
+    }
+  ]
+}

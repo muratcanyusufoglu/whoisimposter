@@ -17,6 +17,11 @@ const PROMPTS: Record<string, PromptItem[]> = {
   'zh-Hant': require('@/data/prompts/hot-takes/zh-Hant.json').prompts as PromptItem[],
   sv: require('@/data/prompts/hot-takes/sv.json').prompts as PromptItem[],
   pl: require('@/data/prompts/hot-takes/pl.json').prompts as PromptItem[],
+  da: require('@/data/prompts/hot-takes/da.json').prompts as PromptItem[],
+  nb: require('@/data/prompts/hot-takes/nb.json').prompts as PromptItem[],
+  fi: require('@/data/prompts/hot-takes/fi.json').prompts as PromptItem[],
+  hi: require('@/data/prompts/hot-takes/hi.json').prompts as PromptItem[],
+  id: require('@/data/prompts/hot-takes/id.json').prompts as PromptItem[],
 }
 
 function loadPrompts(locale: string): PromptItem[] {

@@ -1,0 +1,1009 @@
+{
+  "gameId": "never-have-i-ever",
+  "locale": "fi",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "nhie_fi_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan syönyt kokonaista pizzaa yksin."
+    },
+    {
+      "id": "nhie_fi_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan ollut hereillä yli 24 tuntia."
+    },
+    {
+      "id": "nhie_fi_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan nauranut niin lujaa, että itkin."
+    },
+    {
+      "id": "nhie_fi_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan teeskennellyt tietäväni laulua ja keksinyt sanoja kokonaan."
+    },
+    {
+      "id": "nhie_fi_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan syönyt koko tv-kautta yhdessä päivässä."
+    },
+    {
+      "id": "nhie_fi_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan käyttänyt pyjamaa koko päivän."
+    },
+    {
+      "id": "nhie_fi_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan syönyt ruokaa, joka putosi lattialle."
+    },
+    {
+      "id": "nhie_fi_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan käyttänyt kuppia uudelleen pesemättä sitä."
+    },
+    {
+      "id": "nhie_fi_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan puhunut itselleni julkisesti ymmärtämättä sitä."
+    },
+    {
+      "id": "nhie_fi_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan unohtanut kenenkään nimeä heti esittelyn jälkeen."
+    },
+    {
+      "id": "nhie_fi_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan lukenut kirjan loppua ennen kuin olen saanut sen valmiiksi."
+    },
+    {
+      "id": "nhie_fi_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan vahingossa kutsunut opettajaa \"äidiksi\" tai \"isäksi\"."
+    },
+    {
+      "id": "nhie_fi_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan pelannut videopelejä yli 8 tuntia putkeen."
+    },
+    {
+      "id": "nhie_fi_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan voittanut vetoa."
+    },
+    {
+      "id": "nhie_fi_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan tanssinut julkisesti yksin."
+    },
+    {
+      "id": "nhie_fi_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan hiipinyt ruokaa elokuvateatteriin."
+    },
+    {
+      "id": "nhie_fi_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan eksynyt täysin tuntemaani kaupunkiin."
+    },
+    {
+      "id": "nhie_fi_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan ostanut mitään vain siksi, että se oli alennuksessa."
+    },
+    {
+      "id": "nhie_fi_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan lähettänyt ääniviestiä vahingossa."
+    },
+    {
+      "id": "nhie_fi_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan jättänyt hampaiden pesua ennen nukkumaanmenoa väliin."
+    },
+    {
+      "id": "nhie_fi_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan seurannut exiä sosiaalisessa mediassa eron jälkeen."
+    },
+    {
+      "id": "nhie_fi_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan jäänyt kiinni valheesta ja pahentanut sitä toisella valheella."
+    },
+    {
+      "id": "nhie_fi_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan dramaattisesti esittänyt etten näe ketään julkisesti."
+    },
+    {
+      "id": "nhie_fi_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan itkenyt mainosta katsoessani."
+    },
+    {
+      "id": "nhie_fi_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan googlettanut itseäni."
+    },
+    {
+      "id": "nhie_fi_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan teeskennellyt olevani kiireinen välttääkseni jotakuta."
+    },
+    {
+      "id": "nhie_fi_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan pitänyt omasta viestistäni toiselta tililtä."
+    },
+    {
+      "id": "nhie_fi_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan kuunnellut keskustelua, jota ei ole tarkoitettu minulle."
+    },
+    {
+      "id": "nhie_fi_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan ostanut mitään kallista mielihalulla ja katunut sitä."
+    },
+    {
+      "id": "nhie_fi_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan poistanut ystävyyttä ketään ja toivonut, että he eivät huomaisi."
+    },
+    {
+      "id": "nhie_fi_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan nauranut asialle, jota minun ei olisi pitänyt."
+    },
+    {
+      "id": "nhie_fi_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan ottanut kunniaa kenenkään muun työstä."
+    },
+    {
+      "id": "nhie_fi_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan salaa arvostellut ketään hänen musiikkimakunsa perusteella."
+    },
+    {
+      "id": "nhie_fi_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan harjoitellut keskustelua päässäni ennen sen aloittamista."
+    },
+    {
+      "id": "nhie_fi_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan teeskennellyt nukahtavan välttääkseni keskustelua."
+    },
+    {
+      "id": "nhie_fi_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan antanut väärennettyä numeroa kenellekään."
+    },
+    {
+      "id": "nhie_fi_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan ymmärtänyt tilannetta väärin ja luullut jonkun pitävän minusta takaisin."
+    },
+    {
+      "id": "nhie_fi_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan lähettänyt kuvakaappausta henkilölle, josta kyse oli."
+    },
+    {
+      "id": "nhie_fi_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan aloittanut ryhmächattia enkä sitten osallistunut."
+    },
+    {
+      "id": "nhie_fi_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan poistanut kommenttia heti sen julkaisemisen jälkeen."
+    },
+    {
+      "id": "nhie_fi_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan ollut treffeillä useamman kuin yhden ihmisen kanssa samalla viikolla."
+    },
+    {
+      "id": "nhie_fi_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan suudellut ketään, jonka sukunimeä en tiennyt."
+    },
+    {
+      "id": "nhie_fi_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan kehittänyt tunteita parasta ystävääni kohtaan."
+    },
+    {
+      "id": "nhie_fi_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan ollut kiinnostunut kenestäkään tässä huoneessa."
+    },
+    {
+      "id": "nhie_fi_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan aloittanut flirttailevaa keskustelua ja sitten irtisanoutunut."
+    },
+    {
+      "id": "nhie_fi_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Minua ei ole koskaan hylätty ja hylätty kokonaan kuin vitsailin."
+    },
+    {
+      "id": "nhie_fi_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan lähettänyt vaarallista viestiä kello 2 yöllä ja katunut sitä aamulla."
+    },
+    {
+      "id": "nhie_fi_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan puhunut kenellekään vain siksi, että huomio tuntui mukavalta."
+    },
+    {
+      "id": "nhie_fi_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan keksinyt tarinaa tehdäkseni vaikutuksen ihmiseen, josta pidin."
+    },
+    {
+      "id": "nhie_fi_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan palannut exän luo, jonka kanssa vannoin olevani loppu."
+    },
+    {
+      "id": "nhie_fi_051",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan kertonut kenellekään rakastavani häntä, kun en ollut varma, tarkoitinko sitä."
+    },
+    {
+      "id": "nhie_fi_052",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan pysynyt suhteessa, jonka tiesin, ettei se toimi vain mukavuuden vuoksi."
+    },
+    {
+      "id": "nhie_fi_053",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Minulla ei ole koskaan ollut dramaattista erimielisyyttä parhaan ystäväni kanssa jonkun takia, josta pidimme molemmat."
+    },
+    {
+      "id": "nhie_fi_054",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan käyttänyt ulkonäköäni päästäkseni vaikeuksista."
+    },
+    {
+      "id": "nhie_fi_055",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan pudonnut kenenkään DM-viestiin mielijohteesta."
+    },
+    {
+      "id": "nhie_fi_056",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan itkenyt aloittamani eron jälkeen."
+    },
+    {
+      "id": "nhie_fi_057",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan ollut kateellinen kenellekään, jolle minun ei olisi pitänyt olla kateellinen."
+    },
+    {
+      "id": "nhie_fi_058",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan pelannut lujasti saadakseni ja liioitella sitä."
+    },
+    {
+      "id": "nhie_fi_059",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan tunnustanut tunteitani kovin kiusallisella tavalla."
+    },
+    {
+      "id": "nhie_fi_060",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Minulla ei ole koskaan ollut houkutusta lukea kumppanin puhelinta."
+    },
+    {
+      "id": "nhie_fi_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan unohtanut omaa puhelintani kotiin."
+    },
+    {
+      "id": "nhie_fi_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan päässyt väärään bussiin tai junaan."
+    },
+    {
+      "id": "nhie_fi_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan syönyt jälkiruokaa ennen illallista."
+    },
+    {
+      "id": "nhie_fi_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan nukkunut hälytyksen läpi."
+    },
+    {
+      "id": "nhie_fi_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan vahingossa käyttänyt yhteensopimattomia sukkia."
+    },
+    {
+      "id": "nhie_fi_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan nauranut vakavalla hetkellä."
+    },
+    {
+      "id": "nhie_fi_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan vuotanut juomaa päälleni julkisesti."
+    },
+    {
+      "id": "nhie_fi_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan käynyt ruokaostoksilla nälkäisenä."
+    },
+    {
+      "id": "nhie_fi_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan hukannut avaimiani päivää pidemmäksi ajaksi."
+    },
+    {
+      "id": "nhie_fi_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan käyttänyt samaa asua kahtena päivänä peräkkäin."
+    },
+    {
+      "id": "nhie_fi_071",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan unohtanut ladata puhelintani yössä."
+    },
+    {
+      "id": "nhie_fi_072",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan laulanut äänekkäästi autossa yksin."
+    },
+    {
+      "id": "nhie_fi_073",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan syönyt muroja illalliseksi."
+    },
+    {
+      "id": "nhie_fi_074",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan leikannut hiusta, jota vihasin."
+    },
+    {
+      "id": "nhie_fi_075",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan yrittänyt korjata mitään ja pahentaa sitä."
+    },
+    {
+      "id": "nhie_fi_076",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan kävellyt väärään luokkaan tai kokoukseen."
+    },
+    {
+      "id": "nhie_fi_077",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan nukahtanut elokuvateatterin aikana."
+    },
+    {
+      "id": "nhie_fi_078",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan lähettänyt viestiä väärään ryhmäkeskusteluun."
+    },
+    {
+      "id": "nhie_fi_079",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan leiponut mitään, mikä osoittautui kauheaksi."
+    },
+    {
+      "id": "nhie_fi_080",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Minulla ei ole koskaan ollut lemmikkikalaa."
+    },
+    {
+      "id": "nhie_fi_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan torkkunut herätystä useammin kuin viisi kertaa."
+    },
+    {
+      "id": "nhie_fi_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan valehdellut ollessani matkalla."
+    },
+    {
+      "id": "nhie_fi_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan unohtanut läheisen ystäväni syntymäpäivää."
+    },
+    {
+      "id": "nhie_fi_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan jäänyt salakuunteluun."
+    },
+    {
+      "id": "nhie_fi_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan teeskennellyt puhelimeni kuolevan lopettaakseni puhelun."
+    },
+    {
+      "id": "nhie_fi_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan ollut ihastunut työtovereihin tai luokkatovereihin."
+    },
+    {
+      "id": "nhie_fi_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan lukenut vanhaa keskustelua uudelleen ajatellakseni sitä liikaa."
+    },
+    {
+      "id": "nhie_fi_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan poistanut viestiä heti lähettämisen jälkeen."
+    },
+    {
+      "id": "nhie_fi_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan seurannut kenenkään profiilia uteliaisuudesta."
+    },
+    {
+      "id": "nhie_fi_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan ollut niin nolostunut, että olisin halunnut lähteä juhlista."
+    },
+    {
+      "id": "nhie_fi_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan valehdellut ansioluettelossa."
+    },
+    {
+      "id": "nhie_fi_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan lainannut mitään enkä palauttanut sitä."
+    },
+    {
+      "id": "nhie_fi_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan estänyt ketään ja sitten poistanut estoa tarkistaakseni."
+    },
+    {
+      "id": "nhie_fi_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan käyttänyt väärennettyä nimeä kahvilassa."
+    },
+    {
+      "id": "nhie_fi_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan haaveillut ryhmäkeskusteluja."
+    },
+    {
+      "id": "nhie_fi_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan syyttänyt liikennettä myöhästymisestäni, kun lähdin juuri myöhässä."
+    },
+    {
+      "id": "nhie_fi_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan sanonut \"nähnyt sitä\" katsomatta sitä."
+    },
+    {
+      "id": "nhie_fi_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan unohtanut salasanaa ja tehnyt uutta tiliä."
+    },
+    {
+      "id": "nhie_fi_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan ollut tarkoituksella sängyssä koko päivää."
+    },
+    {
+      "id": "nhie_fi_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan salaa pitänyt ystäväni kumppanista."
+    },
+    {
+      "id": "nhie_fi_101",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan suudellut ketään, jonka tapasin sinä yönä."
+    },
+    {
+      "id": "nhie_fi_102",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Minulla ei ole koskaan ollut salailua."
+    },
+    {
+      "id": "nhie_fi_103",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan lähettänyt riskialtista kuvaa."
+    },
+    {
+      "id": "nhie_fi_104",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan valehdellut suhteestani."
+    },
+    {
+      "id": "nhie_fi_105",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan ollut treffeillä vain ilmaisen ruoan takia."
+    },
+    {
+      "id": "nhie_fi_106",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan jäänyt kiinni livahtelemasta ulos."
+    },
+    {
+      "id": "nhie_fi_107",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Minulla ei ole koskaan ollut tunteita kahta ihmistä kohtaan yhtä aikaa."
+    },
+    {
+      "id": "nhie_fi_108",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan ollut kateellinen ystäväni suhteesta."
+    },
+    {
+      "id": "nhie_fi_109",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan poistanut viestejä piilottaakseni jotain."
+    },
+    {
+      "id": "nhie_fi_110",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan flirttaillut saadakseni palveluksen."
+    },
+    {
+      "id": "nhie_fi_111",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan leiponut keksejä tyhjästä."
+    },
+    {
+      "id": "nhie_fi_112",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan nukahtanut luokassa."
+    },
+    {
+      "id": "nhie_fi_113",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan missannut bussia tarkoituksella."
+    },
+    {
+      "id": "nhie_fi_114",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan rakentanut lumiukkoa."
+    },
+    {
+      "id": "nhie_fi_115",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan ollut koko päivää ilman puhelinta."
+    },
+    {
+      "id": "nhie_fi_116",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan käyttänyt samaa asua kahtena päivänä peräkkäin."
+    },
+    {
+      "id": "nhie_fi_117",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan unohtanut mihin pysäköin."
+    },
+    {
+      "id": "nhie_fi_118",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan laulanut äänekkäästi suihkussa."
+    },
+    {
+      "id": "nhie_fi_119",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan eksynyt kauppakeskukseen."
+    },
+    {
+      "id": "nhie_fi_120",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan kokeillut uutta ruokaa ja rakastuin siihen välittömästi."
+    },
+    {
+      "id": "nhie_fi_121",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan lainannut kirjaa enkä palauttanut sitä."
+    },
+    {
+      "id": "nhie_fi_122",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan katsonut ohjelmaa yhden viikonlopun aikana."
+    },
+    {
+      "id": "nhie_fi_123",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan vuotanut kahvia paidalleni."
+    },
+    {
+      "id": "nhie_fi_124",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan tehnyt tee-se-itse-lahjaa."
+    },
+    {
+      "id": "nhie_fi_125",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan valvonut koko yötä puhumassa."
+    },
+    {
+      "id": "nhie_fi_126",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan jättänyt väliin treeniä, jonka suunnittelin tehdä."
+    },
+    {
+      "id": "nhie_fi_127",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan valehdellut olevani \"viiden minuutin päässä\"."
+    },
+    {
+      "id": "nhie_fi_128",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan lähettänyt viestiä väärälle henkilölle."
+    },
+    {
+      "id": "nhie_fi_129",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan rikkonut mitään ja syyttänyt siitä ketään muuta."
+    },
+    {
+      "id": "nhie_fi_130",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En ole koskaan saanut ylinopeussakkoa."
+    },
+    {
+      "id": "nhie_fi_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan teeskennellyt pitäväni lahjasta, josta en ole saanut."
+    },
+    {
+      "id": "nhie_fi_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan katsellut menua verkossa ennen ulos menoa."
+    },
+    {
+      "id": "nhie_fi_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan soittanut sairaaksi, kun en ollut."
+    },
+    {
+      "id": "nhie_fi_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan lähtenyt matkalle ilman suunnitelmia."
+    },
+    {
+      "id": "nhie_fi_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan jäänyt kiinni laulamasta autossa punaisessa valossa."
+    },
+    {
+      "id": "nhie_fi_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan kestänyt koko yötä saadakseni projektin päätökseen."
+    },
+    {
+      "id": "nhie_fi_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan itkenyt elokuvassa julkisesti."
+    },
+    {
+      "id": "nhie_fi_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan jättänyt tekstiä tarkoituksella huomioimatta."
+    },
+    {
+      "id": "nhie_fi_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan tuntenut syyllisyyttä suunnitelmien peruuttamisesta."
+    },
+    {
+      "id": "nhie_fi_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan ollut nolostunut omasta soittoäänestäni."
+    },
+    {
+      "id": "nhie_fi_141",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan jättänyt hälytystäni huomiotta ja nukahtanut takaisin."
+    },
+    {
+      "id": "nhie_fi_142",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan teeskennellyt tietäväni yhtään kappaletta."
+    },
+    {
+      "id": "nhie_fi_143",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan nuuskinut kenenkään jääkaapin läpi."
+    },
+    {
+      "id": "nhie_fi_144",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan yrittänyt oppia kieltä ja lopettaa."
+    },
+    {
+      "id": "nhie_fi_145",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan lähettänyt tekstiviestiä \"lol\" nauramatta."
+    },
+    {
+      "id": "nhie_fi_146",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan käynyt treffeillä, joista en tiennyt menevän minnekään."
+    },
+    {
+      "id": "nhie_fi_147",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan ollut ihastunut työtovereihin."
+    },
+    {
+      "id": "nhie_fi_148",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan ollut tilanteessa."
+    },
+    {
+      "id": "nhie_fi_149",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan jäänyt kiinni flirttailemasta."
+    },
+    {
+      "id": "nhie_fi_150",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan haaveillut ketään treffien jälkeen."
+    },
+    {
+      "id": "nhie_fi_151",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan lähettänyt riskialtista tekstiä ja katunut sitä välittömästi."
+    },
+    {
+      "id": "nhie_fi_152",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan valehdellut iästäni."
+    },
+    {
+      "id": "nhie_fi_153",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan suudellut ketään, jonka juuri tapasin."
+    },
+    {
+      "id": "nhie_fi_154",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Minulla ei ole koskaan ollut tunteita ystävää kohtaan."
+    },
+    {
+      "id": "nhie_fi_155",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan ollut treffisovelluksessa."
+    },
+    {
+      "id": "nhie_fi_156",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan lähettänyt exalle tekstiviestiä myöhään illalla."
+    },
+    {
+      "id": "nhie_fi_157",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan nukahtanut treffeillä."
+    },
+    {
+      "id": "nhie_fi_158",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan mennyt kotiin aikaisin välttääkseni huonoja treffejä."
+    },
+    {
+      "id": "nhie_fi_159",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan ollut kateellinen ystäväni suhteesta."
+    },
+    {
+      "id": "nhie_fi_160",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ole koskaan poistanut viestiä ennen kuin he näkivät sen."
+    },
+    {
+      "id": "nhie_fi_161",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan vahingossa tykännyt vanhasta postauksesta."
+    },
+    {
+      "id": "nhie_fi_162",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan mykisttänyt ryhmäkeskusteluja rauhan vuoksi."
+    },
+    {
+      "id": "nhie_fi_163",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan harjoitellut äänimuistiinpanoa ennen sen lähettämistä."
+    },
+    {
+      "id": "nhie_fi_164",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan tallentanut meemiä myöhempää käyttöä varten."
+    },
+    {
+      "id": "nhie_fi_165",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan poistanut tarinaa heti sen julkaisemisen jälkeen."
+    },
+    {
+      "id": "nhie_fi_166",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan lähtenyt juhlista sanomatta hyvästit."
+    },
+    {
+      "id": "nhie_fi_167",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En ole koskaan raivonnut - lopettanut ystävyysottelun."
+    }
+  ]
+}

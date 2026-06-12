@@ -1,0 +1,3127 @@
+{
+  "gameId": "trivia-bet",
+  "locale": "id",
+  "version": 2,
+  "questions": [
+    {
+      "id": "tb_id_001",
+      "difficulty": "easy",
+      "category": "Sains",
+      "question": "Gas apa yang diserap tumbuhan dari udara selama fotosintesis?",
+      "options": [
+        "Oksigen",
+        "Karbon dioksida",
+        "Hidrogen",
+        "Nitrogen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_002",
+      "difficulty": "easy",
+      "category": "Sains",
+      "question": "Apa lambang kimia air?",
+      "options": [
+        "WO",
+        "H2O",
+        "O2H",
+        "HO2"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_003",
+      "difficulty": "easy",
+      "category": "Sains",
+      "question": "Planet manakah yang disebut Planet Merah?",
+      "options": [
+        "Venus",
+        "Mars",
+        "Yupiter",
+        "Merkuri"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_004",
+      "difficulty": "easy",
+      "category": "Sains",
+      "question": "Berapa banyak kaki yang dimiliki seekor serangga?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_005",
+      "difficulty": "easy",
+      "category": "Sains",
+      "question": "Gaya apa yang menarik benda ke arah bumi?",
+      "options": [
+        "magnetisme",
+        "Gravitasi",
+        "Gesekan",
+        "Listrik"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_006",
+      "difficulty": "easy",
+      "category": "Sains",
+      "question": "Organ manakah yang memompa darah ke seluruh tubuh?",
+      "options": [
+        "hati",
+        "Hati",
+        "Paru-paru",
+        "Ginjal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_007",
+      "difficulty": "easy",
+      "category": "Sains",
+      "question": "Pusat atom disebut?",
+      "options": [
+        "Inti",
+        "Sel",
+        "mengorbit",
+        "cangkang"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_008",
+      "difficulty": "medium",
+      "category": "Sains",
+      "question": "Apa simbol kimia emas?",
+      "options": [
+        "Pergi",
+        "Gd",
+        "Au",
+        "Ag"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_009",
+      "difficulty": "medium",
+      "category": "Sains",
+      "question": "Berapa titik didih air di permukaan laut dalam Celcius?",
+      "options": [
+        "90",
+        "95",
+        "100",
+        "110"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_010",
+      "difficulty": "medium",
+      "category": "Sains",
+      "question": "Bagian sel manakah yang mengandung sebagian besar DNA-nya?",
+      "options": [
+        "Ribosom",
+        "Inti",
+        "Dinding sel",
+        "Mitokondria"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_011",
+      "difficulty": "medium",
+      "category": "Sains",
+      "question": "Jenis energi apa yang disimpan dalam karet gelang yang diregangkan?",
+      "options": [
+        "Kimia",
+        "Potensi elastis",
+        "Termal",
+        "Nuklir"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_012",
+      "difficulty": "medium",
+      "category": "Sains",
+      "question": "Vitamin apa yang diproduksi saat kulit terkena sinar matahari?",
+      "options": [
+        "vitamin A",
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin K"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_013",
+      "difficulty": "medium",
+      "category": "Sains",
+      "question": "Alat apa yang digunakan untuk mengukur gempa bumi?",
+      "options": [
+        "Barometer",
+        "Seismograf",
+        "Higrometer",
+        "Altimeter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_014",
+      "difficulty": "medium",
+      "category": "Sains",
+      "question": "Apa bahan alami yang paling keras di bumi?",
+      "options": [
+        "Kuarsa",
+        "berlian",
+        "Granit",
+        "Besi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_015",
+      "difficulty": "hard",
+      "category": "Sains",
+      "question": "Apa satuan SI untuk arus listrik?",
+      "options": [
+        "Volt",
+        "watt",
+        "Ampere",
+        "Ohm"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_016",
+      "difficulty": "hard",
+      "category": "Sains",
+      "question": "Ilmuwan manakah yang mengusulkan tiga hukum gerak?",
+      "options": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Nikola Tesla"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_017",
+      "difficulty": "hard",
+      "category": "Sains",
+      "question": "Gas apa yang paling melimpah di atmosfer bumi?",
+      "options": [
+        "Oksigen",
+        "Karbon dioksida",
+        "Nitrogen",
+        "Argon"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_018",
+      "difficulty": "hard",
+      "category": "Sains",
+      "question": "Partikel apa yang bermuatan listrik negatif?",
+      "options": [
+        "proton",
+        "neutron",
+        "elektron",
+        "Foton"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_019",
+      "difficulty": "hard",
+      "category": "Sains",
+      "question": "Berapa nilai pH larutan netral pada suhu kamar?",
+      "options": [
+        "0",
+        "5",
+        "7",
+        "14"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_020",
+      "difficulty": "hard",
+      "category": "Sains",
+      "question": "Sel darah manakah yang membantu tubuh melawan infeksi?",
+      "options": [
+        "Sel darah merah",
+        "Sel darah putih",
+        "Trombosit",
+        "Sel plasma"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_021",
+      "difficulty": "easy",
+      "category": "Geografi",
+      "question": "Apa ibu kota Perancis?",
+      "options": [
+        "Lyon",
+        "Paris",
+        "Marseille",
+        "Bagus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_022",
+      "difficulty": "easy",
+      "category": "Geografi",
+      "question": "Laut manakah yang terluas?",
+      "options": [
+        "Samudera Atlantik",
+        "Samudera Hindia",
+        "Samudera Pasifik",
+        "Samudera Arktik"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_023",
+      "difficulty": "easy",
+      "category": "Geografi",
+      "question": "Negara manakah yang terkenal dengan piramida Giza?",
+      "options": [
+        "Meksiko",
+        "Mesir",
+        "Yunani",
+        "India"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_024",
+      "difficulty": "easy",
+      "category": "Geografi",
+      "question": "Apa ibu kota Jepang?",
+      "options": [
+        "Kyoto",
+        "Osaka",
+        "Tokyo",
+        "Hiroshima"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_025",
+      "difficulty": "easy",
+      "category": "Geografi",
+      "question": "Brazil berada di benua manakah?",
+      "options": [
+        "Afrika",
+        "Amerika Selatan",
+        "Eropa",
+        "Asia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_026",
+      "difficulty": "easy",
+      "category": "Geografi",
+      "question": "Apa negara terluas berdasarkan luas daratan?",
+      "options": [
+        "Kanada",
+        "Cina",
+        "Rusia",
+        "Amerika Serikat"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_027",
+      "difficulty": "easy",
+      "category": "Geografi",
+      "question": "Sungai manakah yang mengalir melalui London?",
+      "options": [
+        "pukat",
+        "Sungai Thames",
+        "Danube",
+        "Rhein"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_028",
+      "difficulty": "medium",
+      "category": "Geografi",
+      "question": "Apa ibu kota Australia?",
+      "options": [
+        "Sidney",
+        "Melbourne",
+        "Canberra",
+        "Brisbane"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_029",
+      "difficulty": "medium",
+      "category": "Geografi",
+      "question": "Gunung Kilimanjaro berada di negara manakah?",
+      "options": [
+        "Kenya",
+        "Tanzania",
+        "Uganda",
+        "Etiopia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_030",
+      "difficulty": "medium",
+      "category": "Geografi",
+      "question": "Gurun manakah yang merupakan gurun panas terluas di dunia?",
+      "options": [
+        "Gobi",
+        "Sahara",
+        "Kalahari",
+        "Mojave"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_031",
+      "difficulty": "medium",
+      "category": "Geografi",
+      "question": "Negara manakah yang memiliki kota Marrakesh?",
+      "options": [
+        "Tunisia",
+        "Maroko",
+        "Aljazair",
+        "Mesir"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_032",
+      "difficulty": "medium",
+      "category": "Geografi",
+      "question": "Laut apa yang memisahkan Eropa dan Afrika?",
+      "options": [
+        "Laut Merah",
+        "Laut Mediterania",
+        "Laut Hitam",
+        "Laut Baltik"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_033",
+      "difficulty": "medium",
+      "category": "Geografi",
+      "question": "Negara bagian AS mana yang dikenal sebagai Sunshine State?",
+      "options": [
+        "Kalifornia",
+        "Florida",
+        "Arizona",
+        "Hawai"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_034",
+      "difficulty": "medium",
+      "category": "Geografi",
+      "question": "Negara mana yang memiliki danau paling alami?",
+      "options": [
+        "Kanada",
+        "Brasil",
+        "Rusia",
+        "Finlandia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_035",
+      "difficulty": "hard",
+      "category": "Geografi",
+      "question": "Apa ibu kota Kazakstan?",
+      "options": [
+        "Almaty",
+        "Astana",
+        "Bishkek",
+        "Tashkent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_036",
+      "difficulty": "hard",
+      "category": "Geografi",
+      "question": "Negara manakah yang memiliki Danau Bled?",
+      "options": [
+        "Slovenia",
+        "Kroasia",
+        "Austria",
+        "Slowakia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_037",
+      "difficulty": "hard",
+      "category": "Geografi",
+      "question": "Gurun Atacama sebagian besar terletak di negara manakah?",
+      "options": [
+        "Peru",
+        "Chili",
+        "Bolivia",
+        "Argentina"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_038",
+      "difficulty": "hard",
+      "category": "Geografi",
+      "question": "Kota manakah yang terbagi antara Eropa dan Asia?",
+      "options": [
+        "Istambul",
+        "Athena",
+        "Kairo",
+        "Lisboa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_039",
+      "difficulty": "hard",
+      "category": "Geografi",
+      "question": "Apa pegunungan terpanjang di dunia?",
+      "options": [
+        "Himalaya",
+        "Andes",
+        "Pegunungan Rocky",
+        "pegunungan Alpen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_040",
+      "difficulty": "hard",
+      "category": "Geografi",
+      "question": "Negara mana yang menggunakan krone sebagai mata uangnya?",
+      "options": [
+        "Norwegia",
+        "Polandia",
+        "Hongaria",
+        "Rumania"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_041",
+      "difficulty": "easy",
+      "category": "Sejarah",
+      "question": "Pada tahun berapa kapal Titanic tenggelam?",
+      "options": [
+        "1908",
+        "1912",
+        "1916",
+        "1920"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_042",
+      "difficulty": "easy",
+      "category": "Sejarah",
+      "question": "Siapa presiden pertama Amerika Serikat?",
+      "options": [
+        "Thomas Jefferson",
+        "George Washington",
+        "Abraham Lincoln",
+        "John Adams"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_043",
+      "difficulty": "easy",
+      "category": "Sejarah",
+      "question": "Tembok Besar terutama dikaitkan dengan negara mana?",
+      "options": [
+        "Jepang",
+        "Cina",
+        "India",
+        "Mongolia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_044",
+      "difficulty": "easy",
+      "category": "Sejarah",
+      "question": "Siapa yang dikenal sebagai Maid of Orleans?",
+      "options": [
+        "Cleopatra",
+        "Joan dari Arc",
+        "Ratu Victoria",
+        "Marie Curie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_045",
+      "difficulty": "easy",
+      "category": "Sejarah",
+      "question": "Peradaban kuno manakah yang membangun Colosseum?",
+      "options": [
+        "Yunani",
+        "Romawi",
+        "Maya",
+        "Persia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_046",
+      "difficulty": "easy",
+      "category": "Sejarah",
+      "question": "Perang manakah yang berakhir pada tahun 1945?",
+      "options": [
+        "Perang Dunia I",
+        "Perang Dunia II",
+        "Perang Korea",
+        "Perang Vietnam"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_047",
+      "difficulty": "easy",
+      "category": "Sejarah",
+      "question": "Siapa yang menemukan penisilin?",
+      "options": [
+        "Alexander Fleming",
+        "Louis Pasteur",
+        "Marie Curie",
+        "Charles Darwin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_048",
+      "difficulty": "medium",
+      "category": "Sejarah",
+      "question": "Siapa wanita pertama yang terbang sendirian melintasi Samudera Atlantik?",
+      "options": [
+        "Amelia Earhart",
+        "Bessie Coleman",
+        "Valentina Tereshkova",
+        "Sally naik"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_049",
+      "difficulty": "medium",
+      "category": "Sejarah",
+      "question": "Tahun berapa runtuhnya Tembok Berlin?",
+      "options": [
+        "1987",
+        "1989",
+        "1991",
+        "1993"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_050",
+      "difficulty": "medium",
+      "category": "Sejarah",
+      "question": "Kerajaan manakah yang diperintah oleh Jenghis Khan?",
+      "options": [
+        "Kekaisaran Ottoman",
+        "Kekaisaran Mongol",
+        "Kekaisaran Romawi",
+        "Kekaisaran Persia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_051",
+      "difficulty": "medium",
+      "category": "Sejarah",
+      "question": "Siapa orang pertama yang berjalan di Bulan?",
+      "options": [
+        "Buzz Aldrin",
+        "Yuri Gagarin",
+        "Neil Amstrong",
+        "Michael Collins"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_052",
+      "difficulty": "medium",
+      "category": "Sejarah",
+      "question": "Renaisans dimulai di negara modern manakah?",
+      "options": [
+        "Perancis",
+        "Italia",
+        "Jerman",
+        "Spanyol"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_053",
+      "difficulty": "medium",
+      "category": "Sejarah",
+      "question": "Dokumen manakah yang diawali dengan kata Kami Rakyat?",
+      "options": [
+        "Magna Carta",
+        "Konstitusi AS",
+        "Deklarasi Kemerdekaan",
+        "RUU Hak Asasi Manusia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_054",
+      "difficulty": "medium",
+      "category": "Sejarah",
+      "question": "Ratu mana yang memerintah Inggris hampir sepanjang era Victoria?",
+      "options": [
+        "Elizabeth I",
+        "Maria I",
+        "Victoria",
+        "Anne"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_055",
+      "difficulty": "hard",
+      "category": "Sejarah",
+      "question": "Batu Rosetta membantu para sarjana membaca aksara kuno yang mana?",
+      "options": [
+        "tulisan paku",
+        "Hieroglif",
+        "Sansekerta",
+        "Linier B"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_056",
+      "difficulty": "hard",
+      "category": "Sejarah",
+      "question": "Siapa yang memimpin Revolusi Haiti?",
+      "options": [
+        "Toussaint Louverture",
+        "Simon Bolivar",
+        "Miguel Hidalgo",
+        "Jose de San Martin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_057",
+      "difficulty": "hard",
+      "category": "Sejarah",
+      "question": "Perjanjian manakah yang mengakhiri Perang Dunia I?",
+      "options": [
+        "Perjanjian Paris",
+        "Perjanjian Versailles",
+        "Perjanjian Tordesillas",
+        "Perjanjian Utrecht"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_058",
+      "difficulty": "hard",
+      "category": "Sejarah",
+      "question": "Kota apa yang merupakan ibu kota Kekaisaran Bizantium?",
+      "options": [
+        "Roma",
+        "Athena",
+        "Konstantinopel",
+        "Aleksandria"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_059",
+      "difficulty": "hard",
+      "category": "Sejarah",
+      "question": "Siapa firaun terakhir Mesir kuno?",
+      "options": [
+        "Nefertiti",
+        "Kleopatra VII",
+        "Hatshepsut",
+        "Ramses II"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_060",
+      "difficulty": "hard",
+      "category": "Sejarah",
+      "question": "Peradaban manakah yang menciptakan Kode Hammurabi?",
+      "options": [
+        "Babilonia",
+        "Asiria",
+        "Fenisia",
+        "orang Het"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_061",
+      "difficulty": "easy",
+      "category": "Budaya Pop",
+      "question": "Siapa nama kepala pelayan Batman?",
+      "options": [
+        "Yakobus",
+        "Alfred",
+        "George",
+        "Edward"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_062",
+      "difficulty": "easy",
+      "category": "Budaya Pop",
+      "question": "Waralaba mana yang menampilkan Hogwarts?",
+      "options": [
+        "Star Wars",
+        "Harry Potter",
+        "The Matrix",
+        "Avatar"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_063",
+      "difficulty": "easy",
+      "category": "Budaya Pop",
+      "question": "Apa warna karakter Shrek?",
+      "options": [
+        "Biru",
+        "Hijau",
+        "Ungu",
+        "Oranye"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_064",
+      "difficulty": "easy",
+      "category": "Budaya Pop",
+      "question": "Penyanyi mana yang dikenal sebagai Ratu Pop?",
+      "options": [
+        "Madonna",
+        "Adele",
+        "Rihanna",
+        "Dua Lipa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_065",
+      "difficulty": "easy",
+      "category": "Budaya Pop",
+      "question": "Pahlawan super apa yang juga dikenal sebagai Peter Parker?",
+      "options": [
+        "Batman",
+        "Manusia laba-laba",
+        "manusia unggul",
+        "Manusia Besi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_066",
+      "difficulty": "easy",
+      "category": "Budaya Pop",
+      "question": "Film manakah yang menampilkan karakter bernama Elsa?",
+      "options": [
+        "Moana",
+        "Beku",
+        "Berani",
+        "Kusut"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_067",
+      "difficulty": "easy",
+      "category": "Budaya Pop",
+      "question": "Aplikasi mana yang terkenal dengan video viral pendek?",
+      "options": [
+        "TikTok",
+        "LinkedIn",
+        "Dropbox",
+        "Perbesar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_068",
+      "difficulty": "medium",
+      "category": "Budaya Pop",
+      "question": "Apa kota fiksi tempat tinggal Batman?",
+      "options": [
+        "kota metropolitan",
+        "Kota Gotham",
+        "Kota Bintang",
+        "Pusat Kota"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_069",
+      "difficulty": "medium",
+      "category": "Budaya Pop",
+      "question": "Band mana yang merilis album Abbey Road?",
+      "options": [
+        "The Beatles",
+        "Ratu",
+        "ABBA",
+        "Batu Bergulir"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_070",
+      "difficulty": "medium",
+      "category": "Budaya Pop",
+      "question": "Siapa yang memerankan Jack dalam film Titanic tahun 1997?",
+      "options": [
+        "Brad Pitt",
+        "Leonardo DiCaprio",
+        "Tom Cruise",
+        "Matt Damon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_071",
+      "difficulty": "medium",
+      "category": "Budaya Pop",
+      "question": "Acara TV manakah yang menampilkan kedai kopi Central Perk?",
+      "options": [
+        "Teman",
+        "Seinfeld",
+        "The Office",
+        "Bagaimana Aku Bertemu Ibumu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_072",
+      "difficulty": "medium",
+      "category": "Budaya Pop",
+      "question": "Seri game manakah yang menyertakan karakter Link?",
+      "options": [
+        "Fantasi Terakhir",
+        "Legenda Zelda",
+        "Pokemon",
+        "sonik"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_073",
+      "difficulty": "medium",
+      "category": "Budaya Pop",
+      "question": "Film manakah yang memuat kutipan May the Force be with you?",
+      "options": [
+        "Star Wars",
+        "Perjalanan Bintang",
+        "bukit pasir",
+        "Pelari Pedang"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_074",
+      "difficulty": "medium",
+      "category": "Budaya Pop",
+      "question": "Apa nama mainan koboi di Toy Story?",
+      "options": [
+        "Buzz",
+        "kayu",
+        "andi",
+        "Rex"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_075",
+      "difficulty": "hard",
+      "category": "Budaya Pop",
+      "question": "Aktor mana yang memerankan Neo di The Matrix?",
+      "options": [
+        "Keanu Reeves",
+        "Johnny Depp",
+        "Nicolas Cage",
+        "Akankah Smith"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_076",
+      "difficulty": "hard",
+      "category": "Budaya Pop",
+      "question": "Artis mana yang merilis album Lemonade?",
+      "options": [
+        "Beyonce",
+        "Taylor Swift",
+        "Ariana Grande",
+        "Nyonya Gaga"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_077",
+      "difficulty": "hard",
+      "category": "Budaya Pop",
+      "question": "Di Lord of the Rings, siapa nama asli Gollum?",
+      "options": [
+        "noda",
+        "Bilbo",
+        "Deagol",
+        "Faramir"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_078",
+      "difficulty": "hard",
+      "category": "Budaya Pop",
+      "question": "Film animasi manakah yang menampilkan lagu Remember Me?",
+      "options": [
+        "kelapa",
+        "Encanto",
+        "Jiwa",
+        "Luka"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_079",
+      "difficulty": "hard",
+      "category": "Budaya Pop",
+      "question": "Apa nama logam fiksi di Black Panther?",
+      "options": [
+        "Adamantium",
+        "Vibranium",
+        "Mithril",
+        "Unotanium"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_080",
+      "difficulty": "hard",
+      "category": "Budaya Pop",
+      "question": "Komedi situasi mana yang berlatar Dunder Mifflin?",
+      "options": [
+        "Taman dan Rekreasi",
+        "The Office",
+        "Brooklyn Sembilan-Sembilan",
+        "Komunitas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_081",
+      "difficulty": "easy",
+      "category": "Makanan",
+      "question": "Buah apa yang secara tradisional digunakan untuk membuat guacamole?",
+      "options": [
+        "Pisang",
+        "Alpukat",
+        "Mangga",
+        "Kiwi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_082",
+      "difficulty": "easy",
+      "category": "Makanan",
+      "question": "Sushi paling sering dikaitkan dengan apa?",
+      "options": [
+        "Jepang",
+        "Meksiko",
+        "Italia",
+        "Maroko"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_083",
+      "difficulty": "easy",
+      "category": "Makanan",
+      "question": "Kacang apa yang digunakan untuk membuat marzipan?",
+      "options": [
+        "kenari",
+        "Kemiri",
+        "kacang almond",
+        "kacang tanah"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_084",
+      "difficulty": "easy",
+      "category": "Makanan",
+      "question": "Apa bahan utama hummus?",
+      "options": [
+        "Lentil",
+        "buncis",
+        "kentang",
+        "Beras"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_085",
+      "difficulty": "easy",
+      "category": "Makanan",
+      "question": "Minuman apa yang dibuat dengan menyeduh kacang panggang?",
+      "options": [
+        "Teh",
+        "Kopi",
+        "limun",
+        "kola"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_086",
+      "difficulty": "easy",
+      "category": "Makanan",
+      "question": "Jenis pasta apa yang bentuknya seperti tabung kecil?",
+      "options": [
+        "penne",
+        "Spageti",
+        "Farfalle",
+        "Lasagna"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_087",
+      "difficulty": "easy",
+      "category": "Makanan",
+      "question": "Negara mana yang terkenal dengan taco?",
+      "options": [
+        "Italia",
+        "Meksiko",
+        "Thailand",
+        "Yunani"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_088",
+      "difficulty": "medium",
+      "category": "Makanan",
+      "question": "Bumbu apa yang memberi warna kuning pada kari?",
+      "options": [
+        "Jintan",
+        "Kunyit",
+        "paprika",
+        "kayu manis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_089",
+      "difficulty": "medium",
+      "category": "Makanan",
+      "question": "Keju apa yang biasanya digunakan pada pizza Margherita?",
+      "options": [
+        "keju cheddar",
+        "keju mozzarella",
+        "Feta",
+        "Gouda"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_090",
+      "difficulty": "medium",
+      "category": "Makanan",
+      "question": "Tahu terbuat dari apa?",
+      "options": [
+        "Kedelai",
+        "Beras",
+        "Jagung",
+        "kacang tanah"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_091",
+      "difficulty": "medium",
+      "category": "Makanan",
+      "question": "Makanan penutup manakah yang dibuat dengan lapisan ladyfinger yang direndam kopi?",
+      "options": [
+        "baklava",
+        "Tiramisu",
+        "Pavlova",
+        "krim brulee"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_092",
+      "difficulty": "medium",
+      "category": "Makanan",
+      "question": "Apa bahan utama asinan kubis?",
+      "options": [
+        "Kubis",
+        "wortel",
+        "Mentimun",
+        "Bawang"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_093",
+      "difficulty": "medium",
+      "category": "Makanan",
+      "question": "Buah apa yang dikeringkan untuk dijadikan kismis?",
+      "options": [
+        "Anggur",
+        "buah plum",
+        "Aprikot",
+        "Gambar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_094",
+      "difficulty": "medium",
+      "category": "Makanan",
+      "question": "Saus manakah yang secara tradisional dibuat dengan kemangi, kacang pinus, bawang putih, minyak zaitun, dan keju?",
+      "options": [
+        "Pesto",
+        "Salsa",
+        "Hoisin",
+        "Tahini"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_095",
+      "difficulty": "hard",
+      "category": "Makanan",
+      "question": "Biji-bijian apa yang digunakan untuk membuat risotto tradisional?",
+      "options": [
+        "Basmati",
+        "Nasi Arborio",
+        "biji gandum",
+        "Bulgur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_096",
+      "difficulty": "hard",
+      "category": "Makanan",
+      "question": "Negara manakah asal usul kimchi?",
+      "options": [
+        "Jepang",
+        "Cina",
+        "Korea",
+        "Vietnam"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_097",
+      "difficulty": "hard",
+      "category": "Makanan",
+      "question": "Apa istilah Perancis untuk pancake tipis?",
+      "options": [
+        "krep",
+        "Brioche",
+        "kue sus",
+        "kue serabi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_098",
+      "difficulty": "hard",
+      "category": "Makanan",
+      "question": "Asam manakah yang memberi rasa asam pada cuka?",
+      "options": [
+        "Asam sitrat",
+        "Asam asetat",
+        "Asam laktat",
+        "Asam malat"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_099",
+      "difficulty": "hard",
+      "category": "Makanan",
+      "question": "Apa bahan utama falafel tradisional?",
+      "options": [
+        "buncis",
+        "Daging sapi",
+        "Terong",
+        "Beras"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_100",
+      "difficulty": "hard",
+      "category": "Makanan",
+      "question": "Kue apa yang digunakan untuk membuat baklava?",
+      "options": [
+        "kue lapis",
+        "kue filo",
+        "kerak pendek",
+        "kue choux"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_101",
+      "difficulty": "easy",
+      "category": "Hewan",
+      "question": "Apa hewan darat terbesar?",
+      "options": [
+        "Gajah",
+        "kuda nil",
+        "Badak",
+        "Jerapah"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_102",
+      "difficulty": "easy",
+      "category": "Hewan",
+      "question": "Hewan apa yang terkenal dengan belang hitam putihnya?",
+      "options": [
+        "zebra",
+        "Harimau",
+        "Panda",
+        "sigung"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_103",
+      "difficulty": "easy",
+      "category": "Hewan",
+      "question": "Apa yang dihasilkan lebah?",
+      "options": [
+        "Susu",
+        "Sayang",
+        "Sutra",
+        "Hanya lilin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_104",
+      "difficulty": "easy",
+      "category": "Hewan",
+      "question": "Hewan apa yang termasuk mamalia?",
+      "options": [
+        "Hiu",
+        "Katak",
+        "Lumba-lumba",
+        "Buaya"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_105",
+      "difficulty": "easy",
+      "category": "Hewan",
+      "question": "Apa nama bayi kucing?",
+      "options": [
+        "Anak anjing",
+        "anak kucing",
+        "Betis",
+        "Anak kuda"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_106",
+      "difficulty": "easy",
+      "category": "Hewan",
+      "question": "Burung apa yang sering dikaitkan dengan persalinan bayi dalam cerita?",
+      "options": [
+        "Elang",
+        "Bangau",
+        "burung hantu",
+        "Angsa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_107",
+      "difficulty": "easy",
+      "category": "Hewan",
+      "question": "Hewan apa yang terkenal bisa berubah warna?",
+      "options": [
+        "Bunglon",
+        "Koala",
+        "pinguin",
+        "Unta"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_108",
+      "difficulty": "medium",
+      "category": "Hewan",
+      "question": "Hewan darat apa yang tercepat?",
+      "options": [
+        "Cheetah",
+        "Singa",
+        "Kuda",
+        "Kanguru"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_109",
+      "difficulty": "medium",
+      "category": "Hewan",
+      "question": "Hewan apa yang lehernya paling panjang?",
+      "options": [
+        "Jerapah",
+        "burung unta",
+        "Unta",
+        "lama"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_110",
+      "difficulty": "medium",
+      "category": "Hewan",
+      "question": "Dalam bahasa Inggris, sekelompok singa disebut apa?",
+      "options": [
+        "Pack",
+        "Herd",
+        "Pride",
+        "Flock"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_111",
+      "difficulty": "medium",
+      "category": "Hewan",
+      "question": "Hewan laut manakah yang memiliki tiga hati?",
+      "options": [
+        "Gurita",
+        "Lumba-lumba",
+        "Penyu",
+        "Ubur-ubur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_112",
+      "difficulty": "medium",
+      "category": "Hewan",
+      "question": "Apa yang kebanyakan dimakan panda?",
+      "options": [
+        "Bambu",
+        "Ikan",
+        "Rumput",
+        "Buah"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_113",
+      "difficulty": "medium",
+      "category": "Hewan",
+      "question": "Hewan apa yang bertelur paling besar?",
+      "options": [
+        "burung unta",
+        "Elang",
+        "pinguin",
+        "elang laut"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_114",
+      "difficulty": "medium",
+      "category": "Hewan",
+      "question": "Serangga manakah yang dapat mengangkat beban tubuhnya berkali-kali lipat?",
+      "options": [
+        "kupu-kupu",
+        "Semut",
+        "Nyamuk",
+        "Kepik"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_115",
+      "difficulty": "hard",
+      "category": "Hewan",
+      "question": "Apa satu-satunya mamalia yang mampu terbang sebenarnya?",
+      "options": [
+        "Tupai terbang",
+        "Kelelawar",
+        "Pesawat layang gula",
+        "lemur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_116",
+      "difficulty": "hard",
+      "category": "Hewan",
+      "question": "Hewan apa yang disebut juga kapal gurun?",
+      "options": [
+        "Unta",
+        "Keledai",
+        "Kuda",
+        "Yak"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_117",
+      "difficulty": "hard",
+      "category": "Hewan",
+      "question": "Apa spesies hiu terbesar?",
+      "options": [
+        "Hiu putih besar",
+        "Hiu paus",
+        "Hiu martil",
+        "Hiu macan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_118",
+      "difficulty": "hard",
+      "category": "Hewan",
+      "question": "Burung apa yang bisa meniru ucapan manusia dengan sangat baik?",
+      "options": [
+        "burung beo",
+        "pinguin",
+        "Flamingo",
+        "burung pipit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_119",
+      "difficulty": "hard",
+      "category": "Hewan",
+      "question": "Ilmu yang mempelajari tentang burung disebut?",
+      "options": [
+        "Entomologi",
+        "Ornitologi",
+        "ilmu pengetahuan tentang ikan",
+        "Herpetologi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_120",
+      "difficulty": "hard",
+      "category": "Hewan",
+      "question": "Hewan apa yang sidik jarinya sangat mirip dengan manusia?",
+      "options": [
+        "Koala",
+        "Kanguru",
+        "Panda",
+        "Kemalasan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_121",
+      "difficulty": "easy",
+      "category": "Matematika",
+      "question": "Berapakah 9 dikali 9?",
+      "options": [
+        "72",
+        "81",
+        "90",
+        "99"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_122",
+      "difficulty": "easy",
+      "category": "Matematika",
+      "question": "Berapa banyak sisi yang dimiliki sebuah segitiga?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_123",
+      "difficulty": "easy",
+      "category": "Matematika",
+      "question": "Berapa setengah dari 100?",
+      "options": [
+        "25",
+        "40",
+        "50",
+        "75"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_124",
+      "difficulty": "easy",
+      "category": "Matematika",
+      "question": "Berapakah 12 ditambah 15?",
+      "options": [
+        "25",
+        "27",
+        "29",
+        "31"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_125",
+      "difficulty": "easy",
+      "category": "Matematika",
+      "question": "Berapa menit dalam satu jam?",
+      "options": [
+        "30",
+        "45",
+        "60",
+        "90"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_126",
+      "difficulty": "easy",
+      "category": "Matematika",
+      "question": "Berapakah 7 kuadrat?",
+      "options": [
+        "14",
+        "21",
+        "49",
+        "77"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_127",
+      "difficulty": "easy",
+      "category": "Matematika",
+      "question": "Berapa derajat sudut siku-siku?",
+      "options": [
+        "45",
+        "60",
+        "90",
+        "180"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_128",
+      "difficulty": "medium",
+      "category": "Matematika",
+      "question": "Berapakah nilai pi yang dibulatkan menjadi dua desimal?",
+      "options": [
+        "3.12",
+        "3.14",
+        "3.16",
+        "3.18"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_129",
+      "difficulty": "medium",
+      "category": "Matematika",
+      "question": "Berapa 15 persen dari 200?",
+      "options": [
+        "15",
+        "20",
+        "30",
+        "40"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_130",
+      "difficulty": "medium",
+      "category": "Matematika",
+      "question": "Berapa banyak sisi yang dimiliki segi enam?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_131",
+      "difficulty": "medium",
+      "category": "Matematika",
+      "question": "Berapakah akar kuadrat dari 144?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_132",
+      "difficulty": "medium",
+      "category": "Matematika",
+      "question": "Berapa 3 kubus?",
+      "options": [
+        "9",
+        "18",
+        "27",
+        "81"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_133",
+      "difficulty": "medium",
+      "category": "Matematika",
+      "question": "Berapakah bilangan prima berikutnya setelah 7?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_134",
+      "difficulty": "medium",
+      "category": "Matematika",
+      "question": "Berapa sentimeter dalam satu meter?",
+      "options": [
+        "10",
+        "100",
+        "1000",
+        "10000"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_135",
+      "difficulty": "hard",
+      "category": "Matematika",
+      "question": "Berapa jumlah sudut dalam suatu segitiga?",
+      "options": [
+        "90 derajat",
+        "180 derajat",
+        "270 derajat",
+        "360 derajat"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_136",
+      "difficulty": "hard",
+      "category": "Matematika",
+      "question": "Berapakah 2 pangkat 10?",
+      "options": [
+        "512",
+        "1024",
+        "2048",
+        "4096"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_137",
+      "difficulty": "hard",
+      "category": "Matematika",
+      "question": "Berapakah bilangan prima terkecil?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_138",
+      "difficulty": "hard",
+      "category": "Matematika",
+      "question": "Berapakah 1 dibagi 4 sebagai desimal?",
+      "options": [
+        "0.2",
+        "0.25",
+        "0.4",
+        "0.5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_139",
+      "difficulty": "hard",
+      "category": "Matematika",
+      "question": "Berapa banyak muka yang dimiliki sebuah kubus?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_140",
+      "difficulty": "hard",
+      "category": "Matematika",
+      "question": "Berapa angka romawi untuk 50?",
+      "options": [
+        "L",
+        "C",
+        "D",
+        "M"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_141",
+      "difficulty": "easy",
+      "category": "Musik",
+      "question": "Berapa banyak senar yang biasanya dimiliki gitar standar?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_142",
+      "difficulty": "easy",
+      "category": "Musik",
+      "question": "Alat musik apa yang tutsnya hitam putih?",
+      "options": [
+        "Gitar",
+        "piano",
+        "Biola",
+        "gendang"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_143",
+      "difficulty": "easy",
+      "category": "Musik",
+      "question": "Siapa yang dikenal sebagai Raja Pop?",
+      "options": [
+        "Elvis Presley",
+        "Michael Jackson",
+        "Pangeran",
+        "Stevie bertanya-tanya"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_144",
+      "difficulty": "easy",
+      "category": "Musik",
+      "question": "Apa yang Anda sebut sekelompok penyanyi?",
+      "options": [
+        "paduan suara",
+        "Perban",
+        "Pemeran",
+        "kru"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_145",
+      "difficulty": "easy",
+      "category": "Musik",
+      "question": "Alat musik apa yang dimainkan dengan busur?",
+      "options": [
+        "Terompet",
+        "Biola",
+        "piano",
+        "seruling"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_146",
+      "difficulty": "easy",
+      "category": "Musik",
+      "question": "Apa nama kecepatan musik?",
+      "options": [
+        "Tempo",
+        "Pitch",
+        "Harmoni",
+        "Irama"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_147",
+      "difficulty": "easy",
+      "category": "Musik",
+      "question": "Format musik apa yang ada sebelum CD bagi banyak pendengar?",
+      "options": [
+        "Kaset",
+        "Blu-ray",
+        "Podcast",
+        "Buku elektronik"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_148",
+      "difficulty": "medium",
+      "category": "Musik",
+      "question": "Komposer mana yang menulis Moonlight Sonata?",
+      "options": [
+        "Mozart",
+        "Beethoven",
+        "Bach",
+        "Chopin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_149",
+      "difficulty": "medium",
+      "category": "Musik",
+      "question": "Berapa banyak nada dalam tangga nada mayor standar?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_150",
+      "difficulty": "medium",
+      "category": "Musik",
+      "question": "Band mana yang memiliki Freddie Mercury sebagai penyanyi utamanya?",
+      "options": [
+        "Ratu",
+        "U2",
+        "Nirwana",
+        "Oasis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_151",
+      "difficulty": "medium",
+      "category": "Musik",
+      "question": "Apa kepanjangan dari DJ?",
+      "options": [
+        "Disk joki",
+        "Juri tari",
+        "Kemacetan digital",
+        "Pelompat drum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_152",
+      "difficulty": "medium",
+      "category": "Musik",
+      "question": "Alat musik manakah yang terkenal dimainkan oleh Yo-Yo Ma?",
+      "options": [
+        "selo",
+        "Biola",
+        "piano",
+        "Klarinet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_153",
+      "difficulty": "medium",
+      "category": "Musik",
+      "question": "Apa itu duet?",
+      "options": [
+        "Sebuah lagu untuk dua pemain",
+        "Ketukan drum yang cepat",
+        "Penghargaan musik",
+        "Lampu panggung"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_154",
+      "difficulty": "medium",
+      "category": "Musik",
+      "question": "Genre manakah yang sering dikaitkan dengan improvisasi dan swing?",
+      "options": [
+        "jaz",
+        "Logam",
+        "Opera",
+        "Reggae"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_155",
+      "difficulty": "hard",
+      "category": "Musik",
+      "question": "Komposer zaman klasik manakah yang menulis The Four Seasons?",
+      "options": [
+        "Vivaldi",
+        "Handel",
+        "Haydn",
+        "Schubert"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_156",
+      "difficulty": "hard",
+      "category": "Musik",
+      "question": "Apa standar suara nyanyian terendah untuk pria?",
+      "options": [
+        "Tenor",
+        "Bariton",
+        "Bas",
+        "Alto"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_157",
+      "difficulty": "hard",
+      "category": "Musik",
+      "question": "Nada manakah yang seminada di atas C?",
+      "options": [
+        "B",
+        "C tajam",
+        "D",
+        "E datar"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_158",
+      "difficulty": "hard",
+      "category": "Musik",
+      "question": "Apa istilah semakin keras secara bertahap?",
+      "options": [
+        "Crescendo",
+        "Diminuendo",
+        "utusan",
+        "Staccato"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_159",
+      "difficulty": "hard",
+      "category": "Musik",
+      "question": "Kota manakah yang sangat erat kaitannya dengan lahirnya musik jazz?",
+      "options": [
+        "New Orleans",
+        "Seattle",
+        "Nashville",
+        "Detroit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_160",
+      "difficulty": "hard",
+      "category": "Musik",
+      "question": "Apa nama lambang yang diletakkan pada awal tongkat musik?",
+      "options": [
+        "Kunci musik",
+        "resah",
+        "Jembatan",
+        "katup"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_161",
+      "difficulty": "easy",
+      "category": "Seni",
+      "question": "Siapa yang melukis Mona Lisa?",
+      "options": [
+        "Vincent van Gogh",
+        "Leonardo da Vinci",
+        "Pablo Picasso",
+        "Claude Monet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_162",
+      "difficulty": "easy",
+      "category": "Seni",
+      "question": "Warna apa yang Anda dapatkan dengan mencampurkan merah dan biru?",
+      "options": [
+        "Hijau",
+        "Ungu",
+        "Oranye",
+        "coklat"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_163",
+      "difficulty": "easy",
+      "category": "Seni",
+      "question": "Alat apa yang digunakan untuk mengaplikasikan cat pada kanvas?",
+      "options": [
+        "Palu",
+        "Kuas",
+        "Kompas",
+        "Jarum"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_164",
+      "difficulty": "easy",
+      "category": "Seni",
+      "question": "Patung apakah yang biasanya berbentuk tiga dimensi?",
+      "options": [
+        "Ya",
+        "Tidak",
+        "Hanya di foto",
+        "Hanya di atas kertas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_165",
+      "difficulty": "easy",
+      "category": "Seni",
+      "question": "Museum manakah yang menjadi rumah bagi Mona Lisa?",
+      "options": [
+        "Louvre",
+        "Prado",
+        "Tate Modern",
+        "Uffizi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_166",
+      "difficulty": "easy",
+      "category": "Seni",
+      "question": "Seni melipat kertas disebut apa?",
+      "options": [
+        "Origami",
+        "Kaligrafi",
+        "Mosaik",
+        "Grafiti"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_167",
+      "difficulty": "easy",
+      "category": "Seni",
+      "question": "Warna apa yang dibuat dengan mencampurkan merah dan kuning?",
+      "options": [
+        "Biru",
+        "Oranye",
+        "Ungu",
+        "Putih"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_168",
+      "difficulty": "medium",
+      "category": "Seni",
+      "question": "Siapa yang melukis Malam Berbintang?",
+      "options": [
+        "Pablo Picasso",
+        "Vincent van Gogh",
+        "Salvador Dali",
+        "Rembrandt"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_169",
+      "difficulty": "medium",
+      "category": "Seni",
+      "question": "Artis mana yang terkenal dengan jam lelehnya?",
+      "options": [
+        "Salvador Dali",
+        "Frida Kahlo",
+        "Andy Warhol",
+        "Banksy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_170",
+      "difficulty": "medium",
+      "category": "Seni",
+      "question": "Apa itu kaligrafi?",
+      "options": [
+        "Tulisan tangan dekoratif",
+        "Ukiran batu",
+        "Lukisan dinding",
+        "Pengeditan foto"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_171",
+      "difficulty": "medium",
+      "category": "Seni",
+      "question": "Gerakan seni manakah yang dikaitkan dengan Claude Monet?",
+      "options": [
+        "Kubisme",
+        "Impresionisme",
+        "Surealisme",
+        "Seni Pop"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_172",
+      "difficulty": "medium",
+      "category": "Seni",
+      "question": "Apa itu potret diri?",
+      "options": [
+        "Gambar artis oleh artis",
+        "Sebuah lanskap",
+        "Foto grup",
+        "Basis patung"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_173",
+      "difficulty": "medium",
+      "category": "Seni",
+      "question": "Bahan apa yang sering digunakan dalam gerabah?",
+      "options": [
+        "Tanah liat",
+        "Hanya kaca",
+        "Karet",
+        "Kertas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_174",
+      "difficulty": "medium",
+      "category": "Seni",
+      "question": "Apa warna utama dalam karya seni monokrom?",
+      "options": [
+        "Satu warna",
+        "Dua warna",
+        "Semua warna",
+        "Tidak ada warna"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_175",
+      "difficulty": "hard",
+      "category": "Seni",
+      "question": "Seniman mana yang melukis Guernica?",
+      "options": [
+        "Pablo Picasso",
+        "Henri Matisse",
+        "Paul Cezanne",
+        "Edward Munch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_176",
+      "difficulty": "hard",
+      "category": "Seni",
+      "question": "Kota Italia manakah yang terkenal dengan seni Renaisans dan Galeri Uffizi?",
+      "options": [
+        "Florence",
+        "Venesia",
+        "Milan",
+        "Napoli"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_177",
+      "difficulty": "hard",
+      "category": "Seni",
+      "question": "Lukisan fresco dilakukan pada apa?",
+      "options": [
+        "Plester basah",
+        "Kaca",
+        "Logam",
+        "Sutra"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_178",
+      "difficulty": "hard",
+      "category": "Seni",
+      "question": "Artis mana yang menciptakan The Persistence of Memory?",
+      "options": [
+        "Salvador Dali",
+        "Joan Miro",
+        "Rene Magritte",
+        "Jackson Pollock"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_179",
+      "difficulty": "hard",
+      "category": "Seni",
+      "question": "Metode seni grafis manakah yang menggunakan balok berukir?",
+      "options": [
+        "Potongan kayu",
+        "Cat air",
+        "Kolase",
+        "sikat udara"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_180",
+      "difficulty": "hard",
+      "category": "Seni",
+      "question": "Tentang apa chiaroscuro?",
+      "options": [
+        "Cahaya dan bayangan",
+        "Suara dan ritme",
+        "Hanya warna",
+        "Grid perspektif"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_181",
+      "difficulty": "easy",
+      "category": "Olahraga",
+      "question": "Berapa banyak pemain di lapangan untuk satu tim sepak bola?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_182",
+      "difficulty": "easy",
+      "category": "Olahraga",
+      "question": "Olahraga apa yang menggunakan raket dan shuttlecock?",
+      "options": [
+        "Tenis",
+        "Bulutangkis",
+        "labu",
+        "Tenis meja"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_183",
+      "difficulty": "easy",
+      "category": "Olahraga",
+      "question": "Dalam bola basket, berapa nilai sebuah lemparan bebas?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_184",
+      "difficulty": "easy",
+      "category": "Olahraga",
+      "question": "Olahraga apa yang dimainkan di Wimbledon?",
+      "options": [
+        "Kriket",
+        "Tenis",
+        "golf",
+        "rugbi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_185",
+      "difficulty": "easy",
+      "category": "Olahraga",
+      "question": "Berapa banyak cincin pada bendera Olimpiade?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_186",
+      "difficulty": "easy",
+      "category": "Olahraga",
+      "question": "Olahraga apa yang menggunakan keping?",
+      "options": [
+        "Hoki es",
+        "Bisbol",
+        "Bola voli",
+        "Tinju"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_187",
+      "difficulty": "easy",
+      "category": "Olahraga",
+      "question": "Apa yang dilewati pelari dalam perlombaan estafet?",
+      "options": [
+        "Bola",
+        "tongkat",
+        "Bendera",
+        "Sarung tangan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_188",
+      "difficulty": "medium",
+      "category": "Olahraga",
+      "question": "Tour de France adalah perlombaan olahraga apa?",
+      "options": [
+        "Berlari",
+        "Bersepeda",
+        "Berenang",
+        "Bermain ski"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_189",
+      "difficulty": "medium",
+      "category": "Olahraga",
+      "question": "Berapa banyak pemain dalam tim bisbol standar di lapangan?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_190",
+      "difficulty": "medium",
+      "category": "Olahraga",
+      "question": "Negara mana yang paling banyak memenangkan Piala Dunia FIFA dalam sepak bola pria?",
+      "options": [
+        "Jerman",
+        "Argentina",
+        "Brasil",
+        "Italia"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_id_191",
+      "difficulty": "medium",
+      "category": "Olahraga",
+      "question": "Dalam tenis, berapa skor yang didapat setelah deuce?",
+      "options": [
+        "Keuntungan",
+        "Cinta",
+        "Titik setel",
+        "Istirahat"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_192",
+      "difficulty": "medium",
+      "category": "Olahraga",
+      "question": "Olahraga apa yang menampilkan kuda pukulan?",
+      "options": [
+        "Senam",
+        "Berkuda",
+        "Polos",
+        "Anggar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_193",
+      "difficulty": "medium",
+      "category": "Olahraga",
+      "question": "Apa yang dimaksud dengan hat-trick dalam sepak bola?",
+      "options": [
+        "Tiga gol oleh satu pemain",
+        "Tiga kartu kuning",
+        "Tiga pergantian pemain",
+        "Tiga sudut"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_194",
+      "difficulty": "medium",
+      "category": "Olahraga",
+      "question": "Olahraga apa yang dikaitkan dengan Piala Stanley?",
+      "options": [
+        "Bola Basket",
+        "Hoki es",
+        "Bisbol",
+        "rugbi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_195",
+      "difficulty": "hard",
+      "category": "Olahraga",
+      "question": "Berapa panjang kolam renang Olimpiade?",
+      "options": [
+        "25 meter",
+        "50 meter",
+        "75 meter",
+        "100 meter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_196",
+      "difficulty": "hard",
+      "category": "Olahraga",
+      "question": "Dalam golf, apa yang disebut dengan satu pukulan di bawah par?",
+      "options": [
+        "momok",
+        "burung",
+        "Elang",
+        "elang laut"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_197",
+      "difficulty": "hard",
+      "category": "Olahraga",
+      "question": "Negara manakah yang menjadi tuan rumah Olimpiade modern pertama pada tahun 1896?",
+      "options": [
+        "Perancis",
+        "Yunani",
+        "Inggris Raya",
+        "Italia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_198",
+      "difficulty": "hard",
+      "category": "Olahraga",
+      "question": "Berapa waktu istirahat maksimum dalam snooker?",
+      "options": [
+        "120",
+        "147",
+        "155",
+        "180"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_199",
+      "difficulty": "hard",
+      "category": "Olahraga",
+      "question": "Olahraga apa yang menggunakan istilah love for zero?",
+      "options": [
+        "Kriket",
+        "Tenis",
+        "Tinju",
+        "golf"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_200",
+      "difficulty": "hard",
+      "category": "Olahraga",
+      "question": "Dalam tinju, apa kepanjangan KO?",
+      "options": [
+        "KO",
+        "Tendang keluar",
+        "Tetap terbuka",
+        "Urutan buku jari"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_201",
+      "difficulty": "easy",
+      "category": "Teknologi",
+      "question": "Apa kepanjangan dari CPU?",
+      "options": [
+        "Unit Pengolahan Pusat",
+        "Unit Daya Komputer",
+        "Utilitas Program Pusat",
+        "Pengguna Pemrosesan Inti"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_202",
+      "difficulty": "easy",
+      "category": "Teknologi",
+      "question": "Alat apa yang digunakan untuk menggerakkan kursor pada komputer?",
+      "options": [
+        "Tikus",
+        "Pembicara",
+        "pencetak",
+        "Perute"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_203",
+      "difficulty": "easy",
+      "category": "Teknologi",
+      "question": "Wi-Fi mengizinkan perangkat untuk terhubung dengan apa?",
+      "options": [
+        "Air",
+        "Jaringan nirkabel",
+        "Kertas",
+        "Motor listrik"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_204",
+      "difficulty": "easy",
+      "category": "Teknologi",
+      "question": "Perusahaan mana yang membuat iPhone?",
+      "options": [
+        "Samsung",
+        "apel",
+        "Sony",
+        "Nokia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_205",
+      "difficulty": "easy",
+      "category": "Teknologi",
+      "question": "Untuk apa kata sandi digunakan?",
+      "options": [
+        "Keamanan",
+        "Percetakan",
+        "Mengisi daya",
+        "Pendinginan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_206",
+      "difficulty": "easy",
+      "category": "Teknologi",
+      "question": "Apa yang biasanya dihubungkan dengan USB?",
+      "options": [
+        "Perangkat dan komputer",
+        "Sepatu dan kaus kaki",
+        "Buku dan halaman",
+        "Tumbuhan dan tanah"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_207",
+      "difficulty": "easy",
+      "category": "Teknologi",
+      "question": "Apa kependekan dari aplikasi?",
+      "options": [
+        "Aplikasi",
+        "Janji temu",
+        "Persetujuan",
+        "Lampiran"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_208",
+      "difficulty": "medium",
+      "category": "Teknologi",
+      "question": "Apa kepanjangan dari URL?",
+      "options": [
+        "Pencari Sumber Daya Seragam",
+        "Jalur Baca Universal",
+        "Tautan Waktu Proses Pengguna",
+        "Daftar Rekaman Terpadu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_209",
+      "difficulty": "medium",
+      "category": "Teknologi",
+      "question": "Apa tugas utama router?",
+      "options": [
+        "Simpan foto",
+        "Lalu lintas jaringan langsung",
+        "Cetak dokumen",
+        "Pindai virus saja"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_210",
+      "difficulty": "medium",
+      "category": "Teknologi",
+      "question": "Jenis file apa yang biasa digunakan untuk gambar?",
+      "options": [
+        "JPEG",
+        "MP3",
+        "DOCX",
+        "EXE"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_211",
+      "difficulty": "medium",
+      "category": "Teknologi",
+      "question": "Apa kepanjangan dari RAM?",
+      "options": [
+        "Memori Akses Acak",
+        "Modul Tindakan Cepat",
+        "Baca Semua Media",
+        "Mode Waktu Proses Audio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_212",
+      "difficulty": "medium",
+      "category": "Teknologi",
+      "question": "Untuk apa penyimpanan cloud digunakan?",
+      "options": [
+        "Menyimpan file secara online",
+        "Membersihkan layar",
+        "Mendinginkan laptop",
+        "Mengisi daya ponsel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_213",
+      "difficulty": "medium",
+      "category": "Teknologi",
+      "question": "Apa yang GPS bantu tentukan?",
+      "options": [
+        "Lokasi",
+        "Daya tahan baterai",
+        "Ukuran layar",
+        "Kekuatan kata sandi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_214",
+      "difficulty": "medium",
+      "category": "Teknologi",
+      "question": "Teknologi apa yang digunakan untuk pembayaran nirsentuh?",
+      "options": [
+        "NFC",
+        "VHS",
+        "CRT",
+        "DVD"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_215",
+      "difficulty": "hard",
+      "category": "Teknologi",
+      "question": "Apa kepanjangan dari HTML?",
+      "options": [
+        "Bahasa Markup HyperTeks",
+        "Logika Mesin Transfer Tinggi",
+        "Tautan Markup Alat Beranda",
+        "Daftar Utama Teks Hyperlink"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_216",
+      "difficulty": "hard",
+      "category": "Teknologi",
+      "question": "Apa yang dirancang untuk ditingkatkan dengan autentikasi dua faktor?",
+      "options": [
+        "Kecerahan layar",
+        "Keamanan akun",
+        "Kecepatan unduh",
+        "Aukualitas audio"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_217",
+      "difficulty": "hard",
+      "category": "Teknologi",
+      "question": "Sistem bilangan manakah yang hanya menggunakan 0 dan 1?",
+      "options": [
+        "Desimal",
+        "Biner",
+        "Heksadesimal",
+        "Romawi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_218",
+      "difficulty": "hard",
+      "category": "Teknologi",
+      "question": "Apa kepanjangan dari API?",
+      "options": [
+        "Antarmuka Pemrograman Aplikasi",
+        "AuIndeks Program Otomatis",
+        "Masukan Piksel Terapan",
+        "Internet Proses Lanjutan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_219",
+      "difficulty": "hard",
+      "category": "Teknologi",
+      "question": "Apa kepanjangan dari SSD?",
+      "options": [
+        "Penggerak Solid State",
+        "Disk Penyimpanan Sistem",
+        "Perangkat Perangkat Lunak Cerdas",
+        "Penggerak Sinyal Aman"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_220",
+      "difficulty": "hard",
+      "category": "Teknologi",
+      "question": "Protokol manakah yang biasa digunakan untuk memuat situs web aman?",
+      "options": [
+        "HTTP",
+        "HTTPS",
+        "FTP",
+        "SMTP"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_221",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Apa kepanjangan dari DM biasanya?",
+      "options": [
+        "Pesan langsung",
+        "Peta digital",
+        "Modus harian",
+        "Memori data"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_222",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Simbol manakah yang memulai hashtag?",
+      "options": [
+        "@",
+        "#",
+        "&",
+        "*"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_223",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Apa itu selfie?",
+      "options": [
+        "Foto dirimu sendiri",
+        "Sebuah kata sandi",
+        "Hasil pencarian",
+        "Sebuah permainan video"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_224",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Platform mana yang paling terkenal dengan video vertikal pendek?",
+      "options": [
+        "TikTok",
+        "Wikipedia",
+        "Dropbox",
+        "Kendur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_225",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Apa itu emoji?",
+      "options": [
+        "Ikon digital kecil",
+        "Peramban web",
+        "Format file",
+        "Suatu jenis kabel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_226",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Apa yang biasanya dimaksud dengan LOL secara online?",
+      "options": [
+        "Banyak lampu",
+        "Tertawa terbahak-bahak",
+        "Daftar tautan",
+        "Kurang beruntung"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_id_227",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Tangkapan layar apa yang digunakan untuk menyimpan?",
+      "options": [
+        "Apa yang ada di layar",
+        "Biaya baterai",
+        "Panggilan telepon",
+        "Hanya kata sandi Wi-Fi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_228",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Clickbait dirancang untuk mendapatkan apa?",
+      "options": [
+        "Klik",
+        "Tidur",
+        "Data cuaca",
+        "Hanya kata sandi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_229",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Apa arti URL dalam penggunaan internet sehari-hari?",
+      "options": [
+        "Sebuah alamat web",
+        "File musik",
+        "Modus kamera",
+        "Baterai telepon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_230",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Apa itu meme?",
+      "options": [
+        "Lelucon atau ide yang bisa dibagikan",
+        "Suatu jenis papan ketik",
+        "Kata sandi pribadi",
+        "Server awan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_231",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Apa itu phishing?",
+      "options": [
+        "Penipuan untuk mencuri informasi",
+        "Sebuah cara untuk mengedit foto",
+        "Sebuah genre musik",
+        "Filter video"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_232",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Apa yang dimaksud dengan streaming langsung?",
+      "options": [
+        "Menyiarkan secara real-time",
+        "Menyimpan file",
+        "Menulis kode secara offline",
+        "Mencetak foto"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_233",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Apa itu nama pengguna?",
+      "options": [
+        "Nama akun publik",
+        "Virus komputer",
+        "Kabel layar",
+        "Kartu pembayaran"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_234",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Untuk apa peramban digunakan?",
+      "options": [
+        "Mengakses situs web",
+        "Mencampur musik",
+        "Perangkat pengisi daya",
+        "Menggambar peta"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_235",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Apa kepanjangan dari SEO?",
+      "options": [
+        "Optimasi Mesin Pencari",
+        "Keluaran Email Aman",
+        "Opsi Pengeditan Sosial",
+        "Urutan Masuk Sistem"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_236",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Apa itu cookie dalam penjelajahan web?",
+      "options": [
+        "Data situs yang disimpan",
+        "Pintasan keyboard",
+        "Filter foto",
+        "Reaksi obrolan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_237",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Apa kepanjangan dari HTTP?",
+      "options": [
+        "Protokol Transfer Hiperteks",
+        "Program Teks Teknologi Tinggi",
+        "Port Alat Transfer Rumah",
+        "Halaman Pelacakan Hyperlink"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_238",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Apa kepanjangan dari VPN?",
+      "options": [
+        "Jaringan Pribadi Virtual",
+        "Nama Publik Terverifikasi",
+        "Nomor Halaman Visual",
+        "Node Pemrosesan Video"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_239",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Komunikasi video dua arah biasa disebut?",
+      "options": [
+        "Panggilan video",
+        "Tangkapan layar",
+        "Penanda buku",
+        "Captcha"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_id_240",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Captcha terutama digunakan untuk mendeteksi apa?",
+      "options": [
+        "Bot",
+        "Warna",
+        "Ukuran layar",
+        "Tingkat baterai"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,1309 @@
+{
+  "gameId": "hot-takes",
+  "locale": "nb",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "ht_nb_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ananas hører absolutt hjemme på pizza."
+    },
+    {
+      "id": "ht_nb_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Frokost er dagens mest overvurderte måltid."
+    },
+    {
+      "id": "ht_nb_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Katter er objektivt sett bedre kjæledyr enn hunder."
+    },
+    {
+      "id": "ht_nb_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kinoene dør, og det er en god ting."
+    },
+    {
+      "id": "ht_nb_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "SMS er bedre enn å ringe hver eneste gang."
+    },
+    {
+      "id": "ht_nb_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sosiale medier har totalt sett gjort mer skade enn nytte."
+    },
+    {
+      "id": "ht_nb_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Å jobbe hjemmefra er strengt tatt bedre enn å gå til et kontor."
+    },
+    {
+      "id": "ht_nb_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Folk som sier at de ikke ser på TV er de kjedeligste menneskene."
+    },
+    {
+      "id": "ht_nb_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Å være tidlig ute er like frekt som å komme for sent."
+    },
+    {
+      "id": "ht_nb_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Den beste pizzaen er kald pizzarester."
+    },
+    {
+      "id": "ht_nb_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nettvennskap kan være like meningsfylte som personlige."
+    },
+    {
+      "id": "ht_nb_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Helger skal være 3 dager og alle som er uenige jobber for mye."
+    },
+    {
+      "id": "ht_nb_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hurtigmat er faktisk bedre enn de fleste fancy restauranter."
+    },
+    {
+      "id": "ht_nb_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Introverte er mer interessante enn ekstroverte."
+    },
+    {
+      "id": "ht_nb_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Napping er en supermakt som samfunnet ikke respekterer nok."
+    },
+    {
+      "id": "ht_nb_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "En rolig kveld hjemme er mer romantisk enn en fancy restaurant."
+    },
+    {
+      "id": "ht_nb_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "De beste vennskapene krever svært lite vedlikehold."
+    },
+    {
+      "id": "ht_nb_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Å lese bøker som et personlighetstrekk er ekstremt overvurdert."
+    },
+    {
+      "id": "ht_nb_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Å betale for et treningsmedlemskap du knapt bruker er fortsatt verdt det psykologisk."
+    },
+    {
+      "id": "ht_nb_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Å gi uoppfordret råd handler nesten alltid om rådgiveren, ikke personen de gir råd."
+    },
+    {
+      "id": "ht_nb_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Du kan fortelle alt du trenger å vite om en person fra deres Spotify-spilleliste."
+    },
+    {
+      "id": "ht_nb_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ghosting er noen ganger den snilleste måten å avslutte ting på."
+    },
+    {
+      "id": "ht_nb_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Alle har en type og å late som du ikke gjør det er å lyve for deg selv."
+    },
+    {
+      "id": "ht_nb_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Stjernetegn er like gyldige som personlighetstester for å forstå mennesker."
+    },
+    {
+      "id": "ht_nb_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Folk som er evig forsinket, respekterer ikke tiden din - det er hele sannheten."
+    },
+    {
+      "id": "ht_nb_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vennen som alltid kansellerer planer er i hemmelighet den smarteste i gruppen."
+    },
+    {
+      "id": "ht_nb_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Førsteinntrykket er nesten alltid feil."
+    },
+    {
+      "id": "ht_nb_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Humor er mer attraktivt enn utseende - alle som er uenige har ikke møtt nok morsomme mennesker."
+    },
+    {
+      "id": "ht_nb_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "De fleste reisebilder er for andre mennesker, ikke for den reisende."
+    },
+    {
+      "id": "ht_nb_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Å være singel er undervurdert og de fleste skynder seg inn i forhold av frykt."
+    },
+    {
+      "id": "ht_nb_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Gruppechatter er mer utmattende enn de er verdt."
+    },
+    {
+      "id": "ht_nb_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Folk bryr seg langt mindre om deg enn du tror, og det er faktisk befriende."
+    },
+    {
+      "id": "ht_nb_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Dyr kaffe er en svindel, og alle som sier noe annet er offer for merkevarebygging."
+    },
+    {
+      "id": "ht_nb_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Måten noen behandler en kelner på forteller deg alt om karakteren deres."
+    },
+    {
+      "id": "ht_nb_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lojalitet er viktigere enn ærlighet i nære vennskap."
+    },
+    {
+      "id": "ht_nb_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "De fleste som sier de elsker å reise vil bare ha Instagram-bildene."
+    },
+    {
+      "id": "ht_nb_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Å si \"beklager at du føler det slik\" er den mest manipulerende ikke-unnskyldningen som finnes."
+    },
+    {
+      "id": "ht_nb_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Den farligste typen person er en som aldri innrømmer at de tar feil."
+    },
+    {
+      "id": "ht_nb_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hver person har minst én virkelig pinlig hemmelighet de vil bære til graven."
+    },
+    {
+      "id": "ht_nb_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Å like den samme musikken som noen er viktigere for kompatibilitet enn å like personligheten deres."
+    },
+    {
+      "id": "ht_nb_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Langsiktige forhold handler mer om kompatibilitet og vaner enn ekte kjærlighet."
+    },
+    {
+      "id": "ht_nb_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Det er umulig å bare være venner med noen du en gang var romantisk tiltrukket av."
+    },
+    {
+      "id": "ht_nb_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Folk som sier at de ikke spiller spill i dating lyver - det gjør alle."
+    },
+    {
+      "id": "ht_nb_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En fullstendig mangel på sjalusi i et forhold er faktisk et rødt flagg."
+    },
+    {
+      "id": "ht_nb_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvis noen jukser en gang, vil de alltid være en jukser - folk forandrer seg egentlig ikke."
+    },
+    {
+      "id": "ht_nb_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Det er helt normalt å undersøke en potensiell partners hele sosiale medier før en første date."
+    },
+    {
+      "id": "ht_nb_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Samtalestadiet bør ikke vare lenger enn to uker - etter det kaster du bort tid."
+    },
+    {
+      "id": "ht_nb_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "De fleste er i forhold fordi de er redde for å være alene, ikke på grunn av kjærlighet."
+    },
+    {
+      "id": "ht_nb_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Måten du slåss med noen på er mer talende enn hvordan du har det når ting er bra."
+    },
+    {
+      "id": "ht_nb_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Å gå gjennom partnerens telefon er berettiget hvis magen din forteller deg at noe er galt."
+    },
+    {
+      "id": "ht_nb_051",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Du kan oppriktig elske noen og fortsatt falle for noen andre på samme tid."
+    },
+    {
+      "id": "ht_nb_052",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Situasjoner eksisterer fordi en person er for komfortabel og den andre er for redd."
+    },
+    {
+      "id": "ht_nb_053",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Personen som avslutter forholdet først hadde alltid mer makt i det."
+    },
+    {
+      "id": "ht_nb_054",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Langdistanseforhold fungerer nesten aldri, og folk prøver dem bare fordi de hater avslutninger."
+    },
+    {
+      "id": "ht_nb_055",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Det er et rødt flagg hvis noen ikke har nære venner fra fortiden."
+    },
+    {
+      "id": "ht_nb_056",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ekser kan aldri virkelig bare være venner - én person er alltid fortsatt litt i det."
+    },
+    {
+      "id": "ht_nb_057",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Å ha en arbeidsmake er helt ufarlig og folk som er uenige er bare usikre."
+    },
+    {
+      "id": "ht_nb_058",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Folk som sier at de elsker alle, danner ingen dype forbindelser med noen."
+    },
+    {
+      "id": "ht_nb_059",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Måten du føler deg alene klokken 03.00 er mer deg enn versjonen du viser verden."
+    },
+    {
+      "id": "ht_nb_060",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Alle har en ideell partner i hodet, og nesten ingen i det virkelige liv lever opp til det."
+    },
+    {
+      "id": "ht_nb_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kalde dusjer er bedre enn varme, selv om vinteren."
+    },
+    {
+      "id": "ht_nb_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Brettspill slår videospill for gruppekvelder."
+    },
+    {
+      "id": "ht_nb_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Brunsj er bare overpriset frokost."
+    },
+    {
+      "id": "ht_nb_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Å se trailere ødelegger filmer."
+    },
+    {
+      "id": "ht_nb_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Flip-flops er ikke ekte sko."
+    },
+    {
+      "id": "ht_nb_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Planter er vanskeligere å holde i live enn kjæledyr."
+    },
+    {
+      "id": "ht_nb_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Å lese boken er ikke alltid bedre enn filmen."
+    },
+    {
+      "id": "ht_nb_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sprudlende vann smaker som anger."
+    },
+    {
+      "id": "ht_nb_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Det beste setet er midtgangen, ikke vinduet."
+    },
+    {
+      "id": "ht_nb_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Å lytte til podcaster med 2x hastighet er kaotisk."
+    },
+    {
+      "id": "ht_nb_071",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Airfryers er bare trendy konveksjonsovner."
+    },
+    {
+      "id": "ht_nb_072",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Suppe er en drink."
+    },
+    {
+      "id": "ht_nb_073",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Å ta bilder på konserter er bortkastet tid."
+    },
+    {
+      "id": "ht_nb_074",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Crocs er komfortable og det er det som betyr noe."
+    },
+    {
+      "id": "ht_nb_075",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Solnedganger er overvurdert sammenlignet med soloppganger."
+    },
+    {
+      "id": "ht_nb_076",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Stillhet er den beste bakgrunnsmusikken."
+    },
+    {
+      "id": "ht_nb_077",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Buffeer er stressende, ikke morsomme."
+    },
+    {
+      "id": "ht_nb_078",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Papirbøker lukter godt, men e-lesere er overlegne."
+    },
+    {
+      "id": "ht_nb_079",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Folk bør slutte å si «ingen bekymringer» på jobben."
+    },
+    {
+      "id": "ht_nb_080",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "De midterste setets armlener tilhører midtpassasjeren."
+    },
+    {
+      "id": "ht_nb_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvis du ikke svarer på en dag, ignorerer du noen."
+    },
+    {
+      "id": "ht_nb_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Bestevenner bør kjenne passordet til telefonen din."
+    },
+    {
+      "id": "ht_nb_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Å legge ut en treningsselfie er ikke \"for motivasjon\"."
+    },
+    {
+      "id": "ht_nb_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "De fleste vil heller ha rett enn å være lykkelige."
+    },
+    {
+      "id": "ht_nb_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Å kansellere planer i siste liten er verre enn å komme for sent."
+    },
+    {
+      "id": "ht_nb_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Folk som skryter av å ha det travelt er usikre."
+    },
+    {
+      "id": "ht_nb_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Å dele posisjonen din i et forhold bør være normalt."
+    },
+    {
+      "id": "ht_nb_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Gruppeturer er der vennskap går for å dø."
+    },
+    {
+      "id": "ht_nb_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvis du må \"myke lansere\" et forhold, er det ikke ekte."
+    },
+    {
+      "id": "ht_nb_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Å være i tide er et kjærlighetsspråk."
+    },
+    {
+      "id": "ht_nb_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvis du hater småprat, er du ikke så dyp som du tror."
+    },
+    {
+      "id": "ht_nb_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "De fleste unnskyldninger er bare forhandlingsforsøk."
+    },
+    {
+      "id": "ht_nb_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vennen som aldri legger ut innlegg er den mest interessante."
+    },
+    {
+      "id": "ht_nb_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "De beste relasjonene er bygget på lave forventninger."
+    },
+    {
+      "id": "ht_nb_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Høylytte restauranter er en designfeil."
+    },
+    {
+      "id": "ht_nb_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Folk som sier \"Jeg får ikke drama\" starter dramaet."
+    },
+    {
+      "id": "ht_nb_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Første dater bør alltid være korte."
+    },
+    {
+      "id": "ht_nb_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Du kan se kompatibilitet ved hvordan noen bestiller kaffe."
+    },
+    {
+      "id": "ht_nb_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Venner som forsvinner når de dater er egoistiske."
+    },
+    {
+      "id": "ht_nb_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Tar du ikke ferie, er du dårlig på livsledelse."
+    },
+    {
+      "id": "ht_nb_101",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "De fleste slår seg til ro fordi de er lei av dating."
+    },
+    {
+      "id": "ht_nb_102",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Sjalusi er en form for ego, ikke kjærlighet."
+    },
+    {
+      "id": "ht_nb_103",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvis du snoker en gang, gjør du det igjen."
+    },
+    {
+      "id": "ht_nb_104",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "'Snakkestadiet' er bare frykt for engasjement."
+    },
+    {
+      "id": "ht_nb_105",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Folk tilgir juks mer enn de innrømmer."
+    },
+    {
+      "id": "ht_nb_106",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En \"pause\" i et forhold er bare et sakte brudd."
+    },
+    {
+      "id": "ht_nb_107",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "De mest selvsikre menneskene er de mest skjøre."
+    },
+    {
+      "id": "ht_nb_108",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Du er ikke \"for opptatt\" - du er bare ikke interessert."
+    },
+    {
+      "id": "ht_nb_109",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "De fleste forelskelser handler om oppmerksomhet, ikke tiltrekning."
+    },
+    {
+      "id": "ht_nb_110",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Romantisk kjemi er stort sett god timing."
+    },
+    {
+      "id": "ht_nb_111",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Is i brus ødelegger drinken."
+    },
+    {
+      "id": "ht_nb_112",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vindusseter er overvurdert på flyreiser."
+    },
+    {
+      "id": "ht_nb_113",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Uformelle bilder er bedre enn poserte bilder."
+    },
+    {
+      "id": "ht_nb_114",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Folk bør svare med faktiske tall, ikke «kanskje»."
+    },
+    {
+      "id": "ht_nb_115",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Passordadministratorer bør være standard på alle telefoner."
+    },
+    {
+      "id": "ht_nb_116",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nattdusjer er overlegne morgendusjer."
+    },
+    {
+      "id": "ht_nb_117",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Å legge ut mathistorier hver dag er overdreven."
+    },
+    {
+      "id": "ht_nb_118",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nyinnspilling av filmer burde rettferdiggjøre deres eksistens."
+    },
+    {
+      "id": "ht_nb_119",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "\"Hopp over intro\"-knappen er den beste oppfinnelsen."
+    },
+    {
+      "id": "ht_nb_120",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Cold brew er bare kaffe som har glemt å være varm."
+    },
+    {
+      "id": "ht_nb_121",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lojalitetsprogrammer er vanligvis ikke verdt det."
+    },
+    {
+      "id": "ht_nb_122",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Bakgrunnsmusikken på kafeer er for høy."
+    },
+    {
+      "id": "ht_nb_123",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tofaktorautentisering bør være obligatorisk."
+    },
+    {
+      "id": "ht_nb_124",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nye telefonkameraer har ikke blitt så mye bedre i det siste."
+    },
+    {
+      "id": "ht_nb_125",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Å være \"lav vedlikehold\" er ikke et personlighetstrekk."
+    },
+    {
+      "id": "ht_nb_126",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "De fleste abonnementstjenester bør inkludere en gratis uke."
+    },
+    {
+      "id": "ht_nb_127",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Folk bør ta med en liten gave når de overnatter."
+    },
+    {
+      "id": "ht_nb_128",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Den beste måten å reise på er uten en fullpakket timeplan."
+    },
+    {
+      "id": "ht_nb_129",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Utkledning til teater bør komme tilbake."
+    },
+    {
+      "id": "ht_nb_130",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Dessert bør bestilles først."
+    },
+    {
+      "id": "ht_nb_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Å forlate en gruppechat er mer ærlig enn spøkelse."
+    },
+    {
+      "id": "ht_nb_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Småprat på kontoret er mer slitsomt enn jobb."
+    },
+    {
+      "id": "ht_nb_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Møter skal alltid ha en sluttid."
+    },
+    {
+      "id": "ht_nb_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Regnlyder er bedre enn hvit støy."
+    },
+    {
+      "id": "ht_nb_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Å bruke emojis i jobbe-e-poster er greit."
+    },
+    {
+      "id": "ht_nb_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Folk overbruker ordet «ikonisk»."
+    },
+    {
+      "id": "ht_nb_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Et rotete skrivebord betyr ikke at du er kreativ."
+    },
+    {
+      "id": "ht_nb_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Å lagre hvert bilde er digital hamstring."
+    },
+    {
+      "id": "ht_nb_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Folk bør slutte å sende \"K\" som svar."
+    },
+    {
+      "id": "ht_nb_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Flyklapping er unødvendig."
+    },
+    {
+      "id": "ht_nb_141",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Returregler bør være lengre enn 14 dager."
+    },
+    {
+      "id": "ht_nb_142",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Matchende antrekk er søte, ikke krypende."
+    },
+    {
+      "id": "ht_nb_143",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Voksne kan fortsatt elske animasjonsfilmer."
+    },
+    {
+      "id": "ht_nb_144",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "\"Godta alle informasjonskapsler\"-knappen burde være ulovlig."
+    },
+    {
+      "id": "ht_nb_145",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ekstra puter på sengen er meningsløst."
+    },
+    {
+      "id": "ht_nb_146",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Frukt hører hjemme i salater."
+    },
+    {
+      "id": "ht_nb_147",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Å kjøpe en planlegger betyr ikke at du vil bruke den."
+    },
+    {
+      "id": "ht_nb_148",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "\"Balanse mellom arbeid og privatliv\" bør være en reell beregning."
+    },
+    {
+      "id": "ht_nb_149",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Små hus er ikke praktiske."
+    },
+    {
+      "id": "ht_nb_150",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Offentlige benker trenger mer skygge."
+    },
+    {
+      "id": "ht_nb_151",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Å ta anrop uten hodetelefoner er hensynsløst."
+    },
+    {
+      "id": "ht_nb_152",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "En ren innboks er overvurdert."
+    },
+    {
+      "id": "ht_nb_153",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "De beste lurene er 20 minutter eller mindre."
+    },
+    {
+      "id": "ht_nb_154",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Å se et program på nytt er mer avslappende enn å starte et nytt."
+    },
+    {
+      "id": "ht_nb_155",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "E-postsignaturer er for lange."
+    },
+    {
+      "id": "ht_nb_156",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "De fleste \"limited edition\" drops er falske haster."
+    },
+    {
+      "id": "ht_nb_157",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Gratis frakt skal være standard."
+    },
+    {
+      "id": "ht_nb_158",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Folk bør normalisere å si \"Jeg trenger en fridag.\""
+    },
+    {
+      "id": "ht_nb_159",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "\"Tasting...\"-indikatoren forårsaker angst."
+    },
+    {
+      "id": "ht_nb_160",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Åpne kontorer er dårlig design."
+    },
+    {
+      "id": "ht_nb_161",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kald pizza er bedre enn varm pizza."
+    },
+    {
+      "id": "ht_nb_162",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Filmplakater er mer spennende enn trailere."
+    },
+    {
+      "id": "ht_nb_163",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Gruppechatter skal være dempet som standard."
+    },
+    {
+      "id": "ht_nb_164",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Brunsj er bare en unnskyldning for å betale for mye for egg."
+    },
+    {
+      "id": "ht_nb_165",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sokker og sandaler er helt fine."
+    },
+    {
+      "id": "ht_nb_166",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Regnværsdager er mer avslappende enn solfylte dager."
+    },
+    {
+      "id": "ht_nb_167",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Karaoke er morsommere når du er dårlig til det."
+    },
+    {
+      "id": "ht_nb_168",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Å legge seg tidlig er undervurdert."
+    },
+    {
+      "id": "ht_nb_169",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Telefoner bør ha en \"ikke forstyrr\" for bestemte personer."
+    },
+    {
+      "id": "ht_nb_170",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lange stemmenotater er frekke."
+    },
+    {
+      "id": "ht_nb_171",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Biblioteker er de mest undervurderte stedene i en by."
+    },
+    {
+      "id": "ht_nb_172",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Brettspill er bedre enn videospill for fester."
+    },
+    {
+      "id": "ht_nb_173",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Papirbøker slår e-lesere."
+    },
+    {
+      "id": "ht_nb_174",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "De beste konsertsetene er bakerst med plass til å danse."
+    },
+    {
+      "id": "ht_nb_175",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Den siste skiven skal aldri stå urørt."
+    },
+    {
+      "id": "ht_nb_176",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Å lære å lage mat er mer nyttig enn å lære å kjøre bil."
+    },
+    {
+      "id": "ht_nb_177",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fjell > strender."
+    },
+    {
+      "id": "ht_nb_178",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Små bryllup er morsommere enn store bryllup."
+    },
+    {
+      "id": "ht_nb_179",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Par bør ta separate ferier noen ganger."
+    },
+    {
+      "id": "ht_nb_180",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Venner som kansellerer i siste liten, skylder snacks neste gang."
+    },
+    {
+      "id": "ht_nb_181",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Midnattssnacks er bedre enn frokost."
+    },
+    {
+      "id": "ht_nb_182",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sosiale medier «likes» bør ikke være offentlige."
+    },
+    {
+      "id": "ht_nb_183",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Å bruke høyttalertelefoner offentlig burde være ulovlig."
+    },
+    {
+      "id": "ht_nb_184",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Måltidsforberedelse er overvurdert."
+    },
+    {
+      "id": "ht_nb_185",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "De beste bildene er de ærlige."
+    },
+    {
+      "id": "ht_nb_186",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Dyre joggesko er bortkastede penger."
+    },
+    {
+      "id": "ht_nb_187",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Søndager bør være en tredagers helg."
+    },
+    {
+      "id": "ht_nb_188",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Overraskelsesbesøk er hensynsløse."
+    },
+    {
+      "id": "ht_nb_189",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ananasjuice hører hjemme i hver smoothie."
+    },
+    {
+      "id": "ht_nb_190",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Å ta notater for hånd slår skriving."
+    },
+    {
+      "id": "ht_nb_191",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nettdating har gjort folk mer kresne."
+    },
+    {
+      "id": "ht_nb_192",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Å bo alene gjør folk mer kreative."
+    },
+    {
+      "id": "ht_nb_193",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "\"Hot take\" er vanligvis bare sunn fornuft."
+    },
+    {
+      "id": "ht_nb_194",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Du bør alltid ta med din egen gjenbrukbare kopp."
+    },
+    {
+      "id": "ht_nb_195",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Gatemat er bedre enn restaurantmat."
+    },
+    {
+      "id": "ht_nb_196",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "De \"sett\" hakene forårsaker mer dramatikk enn de løser."
+    },
+    {
+      "id": "ht_nb_197",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En delt spilleliste er en relasjonstest."
+    },
+    {
+      "id": "ht_nb_198",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Å ha separate tepper er sunnere for par."
+    },
+    {
+      "id": "ht_nb_199",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Den beste delen av en tur er planleggingen."
+    },
+    {
+      "id": "ht_nb_200",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Å bruke hodetelefoner i treningsstudioet er et must."
+    },
+    {
+      "id": "ht_nb_201",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Folk burde tipse baristaer mer."
+    },
+    {
+      "id": "ht_nb_202",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Tatoveringer bør være tillatt på alle arbeidsplasser."
+    },
+    {
+      "id": "ht_nb_203",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Folk trenger færre varsler, ikke mer."
+    },
+    {
+      "id": "ht_nb_204",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Husdyr bør tillates på flere kafeer."
+    },
+    {
+      "id": "ht_nb_205",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Helligdager bør velges ved folkeavstemning."
+    },
+    {
+      "id": "ht_nb_206",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Alle bør lære grunnleggende førstehjelp."
+    },
+    {
+      "id": "ht_nb_207",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Fancy restauranter bør ha en barnemeny."
+    },
+    {
+      "id": "ht_nb_208",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kinoer bør bringe tilbake pauser."
+    },
+    {
+      "id": "ht_nb_209",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lesebekreftelser bør være valgfrie for hver app."
+    },
+    {
+      "id": "ht_nb_210",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Å komme for sent er et valg, ikke en personlighet."
+    },
+    {
+      "id": "ht_nb_211",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Å dempe gruppechatvarsler er egenomsorg."
+    },
+    {
+      "id": "ht_nb_212",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "En god meme kan fikse en dårlig dag."
+    },
+    {
+      "id": "ht_nb_213",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Talenotater bør ha en tidsbegrensning."
+    },
+    {
+      "id": "ht_nb_214",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Skjermbilder er moderne kvitteringer."
+    },
+    {
+      "id": "ht_nb_215",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Å bli viral høres mer stressende ut enn moro."
+    },
+    {
+      "id": "ht_nb_216",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Et brettspill kan avsløre noens sanne personlighet."
+    },
+    {
+      "id": "ht_nb_217",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Husregler er bedre enn offisielle regler."
+    }
+  ]
+}

@@ -46,6 +46,11 @@ const QUESTIONS: Record<string, TriviaQuestion[]> = {
   'zh-Hant': require('@/data/prompts/trivia-bet/zh-Hant.json').questions as TriviaQuestion[],
   sv: require('@/data/prompts/trivia-bet/sv.json').questions as TriviaQuestion[],
   pl: require('@/data/prompts/trivia-bet/pl.json').questions as TriviaQuestion[],
+  da: require('@/data/prompts/trivia-bet/da.json').questions as TriviaQuestion[],
+  nb: require('@/data/prompts/trivia-bet/nb.json').questions as TriviaQuestion[],
+  fi: require('@/data/prompts/trivia-bet/fi.json').questions as TriviaQuestion[],
+  hi: require('@/data/prompts/trivia-bet/hi.json').questions as TriviaQuestion[],
+  id: require('@/data/prompts/trivia-bet/id.json').questions as TriviaQuestion[],
 }
 
 function loadQuestions(locale: string): TriviaQuestion[] {

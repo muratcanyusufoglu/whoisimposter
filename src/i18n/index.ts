@@ -19,6 +19,11 @@ import ko from './locales/ko.json'
 import zhHant from './locales/zh-Hant.json'
 import sv from './locales/sv.json'
 import pl from './locales/pl.json'
+import da from './locales/da.json'
+import nb from './locales/nb.json'
+import fi from './locales/fi.json'
+import hi from './locales/hi.json'
+import id from './locales/id.json'
 
 const LANGUAGE_KEY = '@selected_language'
 
@@ -42,6 +47,11 @@ export const SUPPORTED_LOCALES = [
   'zh-Hant',
   'sv',
   'pl',
+  'da',
+  'nb',
+  'fi',
+  'hi',
+  'id',
 ] as const
 export type SupportedLocale = (typeof SUPPORTED_LOCALES)[number]
 
@@ -61,6 +71,17 @@ export const LOCALE_META: Record<SupportedLocale, { flag: string; nativeName: st
   'zh-Hant': { flag: '🇹🇼', nativeName: '繁體中文' },
   sv: { flag: '🇸🇪', nativeName: 'Svenska' },
   pl: { flag: '🇵🇱', nativeName: 'Polski' },
+  da: { flag: '🇩🇰', nativeName: 'Dansk' },
+  nb: { flag: '🇳🇴', nativeName: 'Norsk' },
+  fi: { flag: '🇫🇮', nativeName: 'Suomi' },
+  hi: { flag: '🇮🇳', nativeName: 'हिन्दी' },
+  id: { flag: '🇮🇩', nativeName: 'Bahasa Indonesia' },
+}
+
+function normalizeDeviceLanguage(locale: Localization.Locale | undefined): string {
+  if (locale?.languageTag?.startsWith('zh-Hant')) return 'zh-Hant'
+  if (locale?.languageCode === 'no') return 'nb'
+  return locale?.languageCode ?? 'en'
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -79,12 +100,15 @@ export function initI18n(): void {
 
   // Determine initial language from device locale (EN fallback)
   const locale = Localization.getLocales()[0]
-  const deviceLocale = locale?.languageTag?.startsWith('zh-Hant')
-    ? 'zh-Hant'
-    : locale?.languageCode ?? 'en'
+  const deviceLocale = normalizeDeviceLanguage(locale)
   const initialLang = SUPPORTED_LOCALES.includes(deviceLocale as SupportedLocale)
     ? deviceLocale
     : 'en'
+
+  // Enforce layout direction at startup, before the root renders. forceRTL only
+  // takes effect on a fresh launch (before first layout), so this is the only
+  // place a stuck native RTL flag from a previous session can be corrected.
+  applyRTL(initialLang)
 
   i18n.use(initReactI18next).init({
     lng: initialLang,
@@ -105,6 +129,11 @@ export function initI18n(): void {
       'zh-Hant': { translation: zhHant },
       sv: { translation: sv },
       pl: { translation: pl },
+      da: { translation: da },
+      nb: { translation: nb },
+      fi: { translation: fi },
+      hi: { translation: hi },
+      id: { translation: id },
     },
     interpolation: { escapeValue: false },
     compatibilityJSON: 'v4',

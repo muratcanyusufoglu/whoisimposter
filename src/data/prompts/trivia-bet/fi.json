@@ -1,0 +1,3127 @@
+{
+  "gameId": "trivia-bet",
+  "locale": "fi",
+  "version": 2,
+  "questions": [
+    {
+      "id": "tb_fi_001",
+      "difficulty": "easy",
+      "category": "Tiede",
+      "question": "Mitä kaasua kasvit imevät ilmasta fotosynteesin aikana?",
+      "options": [
+        "Happi",
+        "Hiilidioksidi",
+        "Vety",
+        "Typpi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_002",
+      "difficulty": "easy",
+      "category": "Tiede",
+      "question": "Mikä on veden kemiallinen symboli?",
+      "options": [
+        "WO",
+        "H2O",
+        "O2H",
+        "HO2"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_003",
+      "difficulty": "easy",
+      "category": "Tiede",
+      "question": "Mikä planeetta tunnetaan nimellä Punainen planeetta?",
+      "options": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Merkurius"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_004",
+      "difficulty": "easy",
+      "category": "Tiede",
+      "question": "Kuinka monta jalkaa hyönteisellä on?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_005",
+      "difficulty": "easy",
+      "category": "Tiede",
+      "question": "Mikä voima vetää esineitä Maata kohti?",
+      "options": [
+        "Magnetismi",
+        "Painovoima",
+        "Kitka",
+        "Sähkö"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_006",
+      "difficulty": "easy",
+      "category": "Tiede",
+      "question": "Mikä elin pumppaa verta ympäri kehoa?",
+      "options": [
+        "Maksa",
+        "Sydän",
+        "Lung",
+        "Munuainen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_007",
+      "difficulty": "easy",
+      "category": "Tiede",
+      "question": "Mitä kutsutaan atomin keskustaksi?",
+      "options": [
+        "Nucleus",
+        "Cell",
+        "Rata",
+        "Shell"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_008",
+      "difficulty": "medium",
+      "category": "Tiede",
+      "question": "Mikä on kullan kemiallinen symboli?",
+      "options": [
+        "Mene",
+        "Gd",
+        "Au",
+        "Ag"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_009",
+      "difficulty": "medium",
+      "category": "Tiede",
+      "question": "Mikä on veden kiehumispiste merenpinnan tasolla Celsius-asteissa?",
+      "options": [
+        "90",
+        "95",
+        "100",
+        "110"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_010",
+      "difficulty": "medium",
+      "category": "Tiede",
+      "question": "Mikä solun osa sisältää suurimman osan sen DNA:sta?",
+      "options": [
+        "Ribosomi",
+        "Nucleus",
+        "Soluseinä",
+        "Mitokondrio"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_011",
+      "difficulty": "medium",
+      "category": "Tiede",
+      "question": "Millaista energiaa venytettyyn kuminauhaan varastoituu?",
+      "options": [
+        "Kemiallinen",
+        "Elastinen potentiaali",
+        "Lämpö",
+        "Ydinvoima"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_012",
+      "difficulty": "medium",
+      "category": "Tiede",
+      "question": "Mitä vitamiinia syntyy, kun iho altistuu auringonvalolle?",
+      "options": [
+        "A-vitamiini",
+        "C-vitamiini",
+        "D-vitamiini",
+        "K-vitamiini"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_013",
+      "difficulty": "medium",
+      "category": "Tiede",
+      "question": "Mitä laitetta käytetään maanjäristysten mittaamiseen?",
+      "options": [
+        "Barometri",
+        "Seismografi",
+        "Kosteusmittari",
+        "Korkeusmittari"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_014",
+      "difficulty": "medium",
+      "category": "Tiede",
+      "question": "Mikä on maapallon kovin luonnollinen aine?",
+      "options": [
+        "Kvartsi",
+        "Timantti",
+        "Graniitti",
+        "Rauta"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_015",
+      "difficulty": "hard",
+      "category": "Tiede",
+      "question": "Mikä on sähkövirran SI-yksikkö?",
+      "options": [
+        "Volt",
+        "Watt",
+        "Ampere",
+        "Ohm"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_016",
+      "difficulty": "hard",
+      "category": "Tiede",
+      "question": "Kuka tiedemies ehdotti kolme liikelakia?",
+      "options": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Nikola Tesla"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_017",
+      "difficulty": "hard",
+      "category": "Tiede",
+      "question": "Mikä on runsain kaasu maapallon ilmakehässä?",
+      "options": [
+        "Happi",
+        "Hiilidioksidi",
+        "Typpi",
+        "Argon"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_018",
+      "difficulty": "hard",
+      "category": "Tiede",
+      "question": "Millä hiukkasella on negatiivinen sähkövaraus?",
+      "options": [
+        "Protoni",
+        "Neutron",
+        "Elektroni",
+        "Photon"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_019",
+      "difficulty": "hard",
+      "category": "Tiede",
+      "question": "Mikä on neutraalin liuoksen pH-arvo huoneenlämpötilassa?",
+      "options": [
+        "0",
+        "5",
+        "7",
+        "14"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_020",
+      "difficulty": "hard",
+      "category": "Tiede",
+      "question": "Mitkä verisolut auttavat kehoa torjumaan infektioita?",
+      "options": [
+        "Punasolut",
+        "Valkosolut",
+        "Verihiutaleet",
+        "Plasmasolut"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_021",
+      "difficulty": "easy",
+      "category": "Maantiede",
+      "question": "Mikä on Ranskan pääkaupunki?",
+      "options": [
+        "Lyon",
+        "Pariisi",
+        "Marseille",
+        "Hienoa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_022",
+      "difficulty": "easy",
+      "category": "Maantiede",
+      "question": "Mikä valtameri on suurin?",
+      "options": [
+        "Atlantin valtameri",
+        "Intian valtameri",
+        "Tyynellämerellä",
+        "Jäämeri"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_023",
+      "difficulty": "easy",
+      "category": "Maantiede",
+      "question": "Mikä maa on kuuluisa Gizan pyramideista?",
+      "options": [
+        "Meksiko",
+        "Egypti",
+        "Kreikka",
+        "Intia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_024",
+      "difficulty": "easy",
+      "category": "Maantiede",
+      "question": "Mikä on Japanin pääkaupunki?",
+      "options": [
+        "Kioto",
+        "Osaka",
+        "Tokio",
+        "Hiroshima"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_025",
+      "difficulty": "easy",
+      "category": "Maantiede",
+      "question": "Millä mantereella Brasilia sijaitsee?",
+      "options": [
+        "Afrikka",
+        "Etelä-Amerikka",
+        "Euroopassa",
+        "Aasiassa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_026",
+      "difficulty": "easy",
+      "category": "Maantiede",
+      "question": "Mikä on pinta-alaltaan suurin maa?",
+      "options": [
+        "Kanada",
+        "Kiina",
+        "Venäjä",
+        "Yhdysvallat"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_027",
+      "difficulty": "easy",
+      "category": "Maantiede",
+      "question": "Mikä joki virtaa Lontoon läpi?",
+      "options": [
+        "Seine",
+        "Thames",
+        "Tonava",
+        "Rein"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_028",
+      "difficulty": "medium",
+      "category": "Maantiede",
+      "question": "Mikä on Australian pääoma?",
+      "options": [
+        "Sydney",
+        "Melbourne",
+        "Canberra",
+        "Brisbane"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_029",
+      "difficulty": "medium",
+      "category": "Maantiede",
+      "question": "Missä maassa Kilimanjaro on?",
+      "options": [
+        "Kenia",
+        "Tansania",
+        "Uganda",
+        "Etiopia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_030",
+      "difficulty": "medium",
+      "category": "Maantiede",
+      "question": "Mikä aavikko on maailman suurin kuuma aavikko?",
+      "options": [
+        "Gobi",
+        "Sahara",
+        "Kalahari",
+        "Mojave"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_031",
+      "difficulty": "medium",
+      "category": "Maantiede",
+      "question": "Missä maassa on Marrakechin kaupunki?",
+      "options": [
+        "Tunisia",
+        "Marokko",
+        "Algeria",
+        "Egypti"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_032",
+      "difficulty": "medium",
+      "category": "Maantiede",
+      "question": "Mikä meri erottaa Euroopan ja Afrikan?",
+      "options": [
+        "Punainen meri",
+        "Välimeri",
+        "Musta meri",
+        "Itämeri"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_033",
+      "difficulty": "medium",
+      "category": "Maantiede",
+      "question": "Mikä Yhdysvaltain osavaltio tunnetaan Sunshine Statena?",
+      "options": [
+        "Kalifornia",
+        "Florida",
+        "Arizona",
+        "Havaiji"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_034",
+      "difficulty": "medium",
+      "category": "Maantiede",
+      "question": "Missä maassa on luonnollisimmat järvet?",
+      "options": [
+        "Kanada",
+        "Brasilia",
+        "Venäjä",
+        "Suomi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_035",
+      "difficulty": "hard",
+      "category": "Maantiede",
+      "question": "Mikä on Kazakstanin pääkaupunki?",
+      "options": [
+        "Almaty",
+        "Astana",
+        "Biškek",
+        "Taškent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_036",
+      "difficulty": "hard",
+      "category": "Maantiede",
+      "question": "Missä maassa Bledjärvi sijaitsee?",
+      "options": [
+        "Slovenia",
+        "Kroatia",
+        "Austria",
+        "Slovakia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_037",
+      "difficulty": "hard",
+      "category": "Maantiede",
+      "question": "Missä maassa Atacaman autiomaa pääasiassa sijaitsee?",
+      "options": [
+        "Peru",
+        "Chile",
+        "Bolivia",
+        "Argentiina"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_038",
+      "difficulty": "hard",
+      "category": "Maantiede",
+      "question": "Mikä kaupunki on jaettu Euroopan ja Aasian kesken?",
+      "options": [
+        "Istanbul",
+        "Ateena",
+        "Kairo",
+        "Lissabon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_039",
+      "difficulty": "hard",
+      "category": "Maantiede",
+      "question": "Mikä on maailman pisin vuorijono?",
+      "options": [
+        "Himalaja",
+        "Andit",
+        "Kalliovuoret",
+        "Alpit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_040",
+      "difficulty": "hard",
+      "category": "Maantiede",
+      "question": "Mikä maa käyttää kruunua valuuttanaan?",
+      "options": [
+        "Norja",
+        "Puola",
+        "Unkari",
+        "Romania"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_041",
+      "difficulty": "easy",
+      "category": "Historia",
+      "question": "Minä vuonna Titanic upposi?",
+      "options": [
+        "1908",
+        "1912",
+        "1916",
+        "1920"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_042",
+      "difficulty": "easy",
+      "category": "Historia",
+      "question": "Kuka oli Yhdysvaltain ensimmäinen presidentti?",
+      "options": [
+        "Thomas Jefferson",
+        "George Washington",
+        "Abraham Lincoln",
+        "John Adams"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_043",
+      "difficulty": "easy",
+      "category": "Historia",
+      "question": "Mihin maahan muuri liittyy pääasiassa?",
+      "options": [
+        "Japani",
+        "Kiina",
+        "Intia",
+        "Mongolia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_044",
+      "difficulty": "easy",
+      "category": "Historia",
+      "question": "Kuka tunnettiin Orleansin piikaksi?",
+      "options": [
+        "Kleopatra",
+        "Jeanne d'Arc",
+        "Kuningatar Victoria",
+        "Marie Curie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_045",
+      "difficulty": "easy",
+      "category": "Historia",
+      "question": "Mikä muinainen sivilisaatio rakensi Colosseumin?",
+      "options": [
+        "kreikkalainen",
+        "Roman",
+        "Maya",
+        "persialainen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_046",
+      "difficulty": "easy",
+      "category": "Historia",
+      "question": "Mikä sota päättyi vuonna 1945?",
+      "options": [
+        "Ensimmäinen maailmansota",
+        "Toinen maailmansota",
+        "Korean sota",
+        "Vietnamin sota"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_047",
+      "difficulty": "easy",
+      "category": "Historia",
+      "question": "Kuka keksi penisilliinin?",
+      "options": [
+        "Alexander Fleming",
+        "Louis Pasteur",
+        "Marie Curie",
+        "Charles Darwin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_048",
+      "difficulty": "medium",
+      "category": "Historia",
+      "question": "Kuka oli ensimmäinen nainen, joka lensi yksin Atlantin valtameren yli?",
+      "options": [
+        "Amelia Earhart",
+        "Bessie Coleman",
+        "Valentina Tereškova",
+        "Sally Ride"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_049",
+      "difficulty": "medium",
+      "category": "Historia",
+      "question": "Minä vuonna Berliinin muuri kaatui?",
+      "options": [
+        "1987",
+        "1989",
+        "1991",
+        "1993"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_050",
+      "difficulty": "medium",
+      "category": "Historia",
+      "question": "Mitä valtakuntaa hallitsi Tšingis-kaani?",
+      "options": [
+        "Ottomaanien valtakunta",
+        "Mongolien valtakunta",
+        "Rooman valtakunta",
+        "Persian valtakunta"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_051",
+      "difficulty": "medium",
+      "category": "Historia",
+      "question": "Kuka oli ensimmäinen ihminen, joka käveli Kuussa?",
+      "options": [
+        "Buzz Aldrin",
+        "Juri Gagarin",
+        "Neil Armstrong",
+        "Michael Collins"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_052",
+      "difficulty": "medium",
+      "category": "Historia",
+      "question": "Missä nykyajan maassa renessanssi alkoi?",
+      "options": [
+        "Ranska",
+        "Italia",
+        "Saksa",
+        "Espanja"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_053",
+      "difficulty": "medium",
+      "category": "Historia",
+      "question": "Mikä asiakirja alkaa sanoilla We the People?",
+      "options": [
+        "Magna Carta",
+        "Yhdysvaltain perustuslaki",
+        "Itsenäisyysjulistus",
+        "Bill of Rights"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_054",
+      "difficulty": "medium",
+      "category": "Historia",
+      "question": "Mikä kuningatar hallitsi Englantia suuren osan viktoriaanisesta ajasta?",
+      "options": [
+        "Elizabeth I",
+        "Mary I",
+        "Victoria",
+        "Anne"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_055",
+      "difficulty": "hard",
+      "category": "Historia",
+      "question": "Minkä muinaisen käsikirjoituksen Rosettan kivi auttoi tutkijoita lukemaan?",
+      "options": [
+        "Nuolenkirjoitus",
+        "Hieroglyfit",
+        "sanskriti",
+        "Lineaarinen B"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_056",
+      "difficulty": "hard",
+      "category": "Historia",
+      "question": "Kuka johti Haitin vallankumousta?",
+      "options": [
+        "Toussaint Louverture",
+        "Simon Bolivar",
+        "Miguel Hidalgo",
+        "Jose de San Martin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_057",
+      "difficulty": "hard",
+      "category": "Historia",
+      "question": "Mikä sopimus päätti ensimmäisen maailmansodan?",
+      "options": [
+        "Pariisin sopimus",
+        "Versaillesin sopimus",
+        "Tordesillasin sopimus",
+        "Utrechtin sopimus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_058",
+      "difficulty": "hard",
+      "category": "Historia",
+      "question": "Mikä kaupunki oli Bysantin valtakunnan pääkaupunki?",
+      "options": [
+        "Rooma",
+        "Ateena",
+        "Konstantinopoli",
+        "Aleksandria"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_059",
+      "difficulty": "hard",
+      "category": "Historia",
+      "question": "Kuka oli muinaisen Egyptin viimeinen faarao?",
+      "options": [
+        "Nefertiti",
+        "Kleopatra VII",
+        "Hatshepsut",
+        "Ramses II"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_060",
+      "difficulty": "hard",
+      "category": "Historia",
+      "question": "Mikä sivilisaatio loi Hammurabin lain?",
+      "options": [
+        "Babylonialaiset",
+        "assyrialainen",
+        "foinikialainen",
+        "Hettiläinen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_061",
+      "difficulty": "easy",
+      "category": "Pop Kulttuuri",
+      "question": "Mikä on Batmans Butlerin nimi?",
+      "options": [
+        "James",
+        "Alfred",
+        "George",
+        "Edward"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_062",
+      "difficulty": "easy",
+      "category": "Pop Kulttuuri",
+      "question": "Mikä franchising sisältää Tylypahkan?",
+      "options": [
+        "Star Wars",
+        "Harry Potter",
+        "The Matrix",
+        "Avatar"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_063",
+      "difficulty": "easy",
+      "category": "Pop Kulttuuri",
+      "question": "Minkä värinen hahmo Shrek on?",
+      "options": [
+        "Sininen",
+        "Vihreä",
+        "Violetti",
+        "Oranssi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_064",
+      "difficulty": "easy",
+      "category": "Pop Kulttuuri",
+      "question": "Kuka laulaja tunnetaan popin kuningattarena?",
+      "options": [
+        "Madonna",
+        "Adele",
+        "Rihanna",
+        "Dua Lipa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_065",
+      "difficulty": "easy",
+      "category": "Pop Kulttuuri",
+      "question": "Mikä supersankari tunnetaan myös nimellä Peter Parker?",
+      "options": [
+        "Batman",
+        "Hämähäkkimies",
+        "Superman",
+        "Iron Man"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_066",
+      "difficulty": "easy",
+      "category": "Pop Kulttuuri",
+      "question": "Missä elokuvassa on Elsa-niminen hahmo?",
+      "options": [
+        "Moana",
+        "Jäätynyt",
+        "Rohkea",
+        "Sekava"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_067",
+      "difficulty": "easy",
+      "category": "Pop Kulttuuri",
+      "question": "Mikä sovellus tunnetaan lyhyistä virusvideoista?",
+      "options": [
+        "TikTok",
+        "LinkedIn",
+        "Dropbox",
+        "Zoomaa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_068",
+      "difficulty": "medium",
+      "category": "Pop Kulttuuri",
+      "question": "Mikä on kuvitteellinen kaupunki, jossa Batman asuu?",
+      "options": [
+        "Metropoli",
+        "Gotham City",
+        "Tähtikaupunki",
+        "Keskikaupunki"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_069",
+      "difficulty": "medium",
+      "category": "Pop Kulttuuri",
+      "question": "Mikä bändi julkaisi albumin Abbey Road?",
+      "options": [
+        "The Beatles",
+        "Kuningatar",
+        "ABBA",
+        "Rolling Stones"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_070",
+      "difficulty": "medium",
+      "category": "Pop Kulttuuri",
+      "question": "Kuka näyttelee Jackia vuoden 1997 elokuvassa Titanic?",
+      "options": [
+        "Brad Pitt",
+        "Leonardo DiCaprio",
+        "Tom Cruise",
+        "Matt Damon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_071",
+      "difficulty": "medium",
+      "category": "Pop Kulttuuri",
+      "question": "Missä TV-ohjelmassa on kahvila Central Perk?",
+      "options": [
+        "Ystävät",
+        "Seinfeld",
+        "The Office",
+        "Kuinka tapasin äitisi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_072",
+      "difficulty": "medium",
+      "category": "Pop Kulttuuri",
+      "question": "Mikä pelisarja sisältää Linkin hahmon?",
+      "options": [
+        "Final Fantasy",
+        "Legend of Zelda",
+        "Pokemon",
+        "Sonic"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_073",
+      "difficulty": "medium",
+      "category": "Pop Kulttuuri",
+      "question": "Mikä elokuva sisältää lainauksen Voiko voima olla kanssasi?",
+      "options": [
+        "Star Wars",
+        "Star Trek",
+        "Dyyni",
+        "Blade Runner"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_074",
+      "difficulty": "medium",
+      "category": "Pop Kulttuuri",
+      "question": "Mikä on lelu cowboyn nimi kohteessa Toy Story?",
+      "options": [
+        "Buzz",
+        "Woody",
+        "Andy",
+        "Rex"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_075",
+      "difficulty": "hard",
+      "category": "Pop Kulttuuri",
+      "question": "Kuka näyttelijä esitti Neoa elokuvassa The Matrix?",
+      "options": [
+        "Keanu Reeves",
+        "Johnny Depp",
+        "Nicolas Cage",
+        "Will Smith"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_076",
+      "difficulty": "hard",
+      "category": "Pop Kulttuuri",
+      "question": "Mikä artisti julkaisi albumin Lemonade?",
+      "options": [
+        "Beyonce",
+        "Taylor Swift",
+        "Ariana Grande",
+        "Lady Gaga"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_077",
+      "difficulty": "hard",
+      "category": "Pop Kulttuuri",
+      "question": "Mikä on Gollumsin alkuperäinen nimi julkaisussa Lord of the Rings?",
+      "options": [
+        "Smeagol",
+        "Bilbo",
+        "Deagol",
+        "Faramir"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_078",
+      "difficulty": "hard",
+      "category": "Pop Kulttuuri",
+      "question": "Missä animaatioelokuvassa on kappale Remember Me?",
+      "options": [
+        "Coco",
+        "Encanto",
+        "sielu",
+        "Luca"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_079",
+      "difficulty": "hard",
+      "category": "Pop Kulttuuri",
+      "question": "Mikä on kuvitteellisen metallin nimi kohteessa Black Panther?",
+      "options": [
+        "Adamantium",
+        "Vibranium",
+        "Mithril",
+        "Unobtanium"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_080",
+      "difficulty": "hard",
+      "category": "Pop Kulttuuri",
+      "question": "Mihin yritykseen sitcom The Office sijoittuu?",
+      "options": [
+        "Puistot ja virkistys",
+        "The Office",
+        "Brooklyn Nine-Nine",
+        "yhteisössä"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_081",
+      "difficulty": "easy",
+      "category": "Ruokaa",
+      "question": "Mitä hedelmiä perinteisesti käytetään guacamoleen valmistukseen?",
+      "options": [
+        "Banaani",
+        "Avokado",
+        "Mango",
+        "Kiivi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_082",
+      "difficulty": "easy",
+      "category": "Ruokaa",
+      "question": "Mihin sushiin liittyy yleisimmin?",
+      "options": [
+        "Japani",
+        "Meksiko",
+        "Italia",
+        "Marokko"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_083",
+      "difficulty": "easy",
+      "category": "Ruokaa",
+      "question": "Mitä pähkinää käytetään marsipaanin valmistukseen?",
+      "options": [
+        "Pähkinä",
+        "Hasselpähkinä",
+        "Manteli",
+        "Maapähkinä"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_084",
+      "difficulty": "easy",
+      "category": "Ruokaa",
+      "question": "Mikä on hummuksen pääainesosa?",
+      "options": [
+        "Linssit",
+        "Kikherneet",
+        "Perunat",
+        "Riisi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_085",
+      "difficulty": "easy",
+      "category": "Ruokaa",
+      "question": "Mikä juoma valmistetaan keittämällä paahdettuja papuja?",
+      "options": [
+        "Teetä",
+        "Kahvia",
+        "Limonadi",
+        "Cola"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_086",
+      "difficulty": "easy",
+      "category": "Ruokaa",
+      "question": "Minkä tyyppinen pasta on pienten putkien muotoinen?",
+      "options": [
+        "Penne",
+        "Spagetti",
+        "Farfalle",
+        "Lasagne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_087",
+      "difficulty": "easy",
+      "category": "Ruokaa",
+      "question": "Mikä maa on kuuluisa tacoista?",
+      "options": [
+        "Italia",
+        "Meksiko",
+        "Thaimaa",
+        "Kreikka"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_088",
+      "difficulty": "medium",
+      "category": "Ruokaa",
+      "question": "Mikä mauste antaa currylle sen keltaisen värin?",
+      "options": [
+        "Kumina",
+        "Kurkuma",
+        "Paprika",
+        "Kaneli"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_089",
+      "difficulty": "medium",
+      "category": "Ruokaa",
+      "question": "Mitä juustoa käytetään perinteisesti Margherita-pizzassa?",
+      "options": [
+        "Cheddar",
+        "Mozzarella",
+        "Feta",
+        "Gouda"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_090",
+      "difficulty": "medium",
+      "category": "Ruokaa",
+      "question": "Mistä tofu pääasiassa tehdään?",
+      "options": [
+        "Soijapavut",
+        "Riisi",
+        "Maissi",
+        "Maapähkinät"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_091",
+      "difficulty": "medium",
+      "category": "Ruokaa",
+      "question": "Mikä jälkiruoka on valmistettu kerroksittain kahvissa liotetuista ladyfingersistä?",
+      "options": [
+        "Baklava",
+        "Tiramisu",
+        "Pavlova",
+        "Creme brulee"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_092",
+      "difficulty": "medium",
+      "category": "Ruokaa",
+      "question": "Mikä on hapankaalin pääainesosa?",
+      "options": [
+        "Kaali",
+        "Porkkana",
+        "Kurkku",
+        "Sipuli"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_093",
+      "difficulty": "medium",
+      "category": "Ruokaa",
+      "question": "Mitkä hedelmät kuivataan rusinoiden valmistamiseksi?",
+      "options": [
+        "Rypäleet",
+        "Luumut",
+        "Aprikoosit",
+        "kuviot"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_094",
+      "difficulty": "medium",
+      "category": "Ruokaa",
+      "question": "Mikä kastike on perinteisesti valmistettu basilikasta, pinjansiemenistä, valkosipulista, oliiviöljystä ja juustosta?",
+      "options": [
+        "Pesto",
+        "Salsa",
+        "Hoisin",
+        "Tahini"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_095",
+      "difficulty": "hard",
+      "category": "Ruokaa",
+      "question": "Mitä viljaa käytetään perinteisen risoton valmistukseen?",
+      "options": [
+        "Basmati",
+        "Arborio riisi",
+        "Quinoa",
+        "Bulgur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_096",
+      "difficulty": "hard",
+      "category": "Ruokaa",
+      "question": "Mistä maasta kimchi on peräisin?",
+      "options": [
+        "Japani",
+        "Kiina",
+        "Korea",
+        "Vietnam"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_097",
+      "difficulty": "hard",
+      "category": "Ruokaa",
+      "question": "Mikä on ranskankielinen termi ohuelle pannukakulle?",
+      "options": [
+        "Kreppi",
+        "Briossi",
+        "Eclair",
+        "Macaron"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_098",
+      "difficulty": "hard",
+      "category": "Ruokaa",
+      "question": "Mikä happo antaa etikalle sen hapan maun?",
+      "options": [
+        "Sitruunahappo",
+        "Etikkahappo",
+        "Maitohappo",
+        "Omenahappo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_099",
+      "difficulty": "hard",
+      "category": "Ruokaa",
+      "question": "Mikä on perinteisen falafelin pääainesosa?",
+      "options": [
+        "Kikherneet",
+        "Naudanlihaa",
+        "Munakoiso",
+        "Riisi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_100",
+      "difficulty": "hard",
+      "category": "Ruokaa",
+      "question": "Mitä taikinaa käytetään baklavan valmistuksessa?",
+      "options": [
+        "Lehtitaikina",
+        "Filotaikina",
+        "Muretti",
+        "Choux-taikina"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_101",
+      "difficulty": "easy",
+      "category": "Eläimet",
+      "question": "Mikä on suurin maaeläin?",
+      "options": [
+        "Elefantti",
+        "Virtahepo",
+        "Rhino",
+        "kirahvi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_102",
+      "difficulty": "easy",
+      "category": "Eläimet",
+      "question": "Mikä eläin tunnetaan mustista ja valkoisista raidoista?",
+      "options": [
+        "Seepra",
+        "Tiger",
+        "Panda",
+        "Skunk"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_103",
+      "difficulty": "easy",
+      "category": "Eläimet",
+      "question": "Mitä mehiläiset tekevät?",
+      "options": [
+        "Maito",
+        "Kulta",
+        "Silkki",
+        "Vain vaha"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_104",
+      "difficulty": "easy",
+      "category": "Eläimet",
+      "question": "Mikä eläin on nisäkäs?",
+      "options": [
+        "Hai",
+        "Sammakko",
+        "Delfiini",
+        "Krokotiili"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_105",
+      "difficulty": "easy",
+      "category": "Eläimet",
+      "question": "Mikä on kissanvauvan nimi?",
+      "options": [
+        "Pentu",
+        "Kissanpentu",
+        "Vasikka",
+        "Varsa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_106",
+      "difficulty": "easy",
+      "category": "Eläimet",
+      "question": "Mikä lintu liittyy tarinoissa usein vauvojen synnyttämiseen?",
+      "options": [
+        "Eagle",
+        "Stork",
+        "Pöllö",
+        "Joutsen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_107",
+      "difficulty": "easy",
+      "category": "Eläimet",
+      "question": "Mikä eläin on kuuluisa värin vaihtamisesta?",
+      "options": [
+        "Kameleontti",
+        "Koala",
+        "Pingviini",
+        "Kameli"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_108",
+      "difficulty": "medium",
+      "category": "Eläimet",
+      "question": "Mikä on nopein maaeläin?",
+      "options": [
+        "Gepardi",
+        "Leijona",
+        "Hevonen",
+        "Kenguru"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_109",
+      "difficulty": "medium",
+      "category": "Eläimet",
+      "question": "Millä eläimellä on pisin kaula?",
+      "options": [
+        "kirahvi",
+        "Strutsi",
+        "Kameli",
+        "Laama"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_110",
+      "difficulty": "medium",
+      "category": "Eläimet",
+      "question": "Miksi leijonalaumaa kutsutaan englanniksi?",
+      "options": [
+        "Pack",
+        "Herd",
+        "Pride",
+        "Flock"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_111",
+      "difficulty": "medium",
+      "category": "Eläimet",
+      "question": "Millä merieläimellä on kolme sydäntä?",
+      "options": [
+        "Mustekala",
+        "Delfiini",
+        "Merikilpikonna",
+        "Meduusat"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_112",
+      "difficulty": "medium",
+      "category": "Eläimet",
+      "question": "Mitä pandat enimmäkseen syövät?",
+      "options": [
+        "Bambu",
+        "Kala",
+        "Ruoho",
+        "Hedelmä"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_113",
+      "difficulty": "medium",
+      "category": "Eläimet",
+      "question": "Mikä eläin munii suurimmat munat?",
+      "options": [
+        "Strutsi",
+        "Eagle",
+        "Pingviini",
+        "Albatrossi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_114",
+      "difficulty": "medium",
+      "category": "Eläimet",
+      "question": "Mikä hyönteinen pystyy nostamaan monta kertaa oman painonsa?",
+      "options": [
+        "Perhonen",
+        "Ant",
+        "Hyttynen",
+        "Leppäkerttu"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_115",
+      "difficulty": "hard",
+      "category": "Eläimet",
+      "question": "Mikä on ainoa nisäkäs, joka pystyy todelliseen lentoon?",
+      "options": [
+        "Liito-orava",
+        "Bat",
+        "Sokeriliitin",
+        "Lemur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_116",
+      "difficulty": "hard",
+      "category": "Eläimet",
+      "question": "Mitä eläintä kutsutaan myös erämaan laivaksi?",
+      "options": [
+        "Kameli",
+        "Aasi",
+        "Hevonen",
+        "Jak"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_117",
+      "difficulty": "hard",
+      "category": "Eläimet",
+      "question": "Mikä on suurin hailaji?",
+      "options": [
+        "Suuri valkohai",
+        "Valashai",
+        "Vasarahai",
+        "Tiikerihai"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_118",
+      "difficulty": "hard",
+      "category": "Eläimet",
+      "question": "Mikä lintu voi matkia ihmisen puhetta erityisen hyvin?",
+      "options": [
+        "Papukaija",
+        "Pingviini",
+        "Flamingo",
+        "Sparrow"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_119",
+      "difficulty": "hard",
+      "category": "Eläimet",
+      "question": "Mitä kutsutaan lintututkimukseksi?",
+      "options": [
+        "Entomologia",
+        "Ornitologia",
+        "Iktyologia",
+        "Herpetologia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_120",
+      "difficulty": "hard",
+      "category": "Eläimet",
+      "question": "Minkä eläimen sormenjäljet ovat hyvin samankaltaisia kuin ihmisillä?",
+      "options": [
+        "Koala",
+        "Kenguru",
+        "Panda",
+        "Laiskuus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_121",
+      "difficulty": "easy",
+      "category": "Math",
+      "question": "Mikä on 9 kertaa 9?",
+      "options": [
+        "72",
+        "81",
+        "90",
+        "99"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_122",
+      "difficulty": "easy",
+      "category": "Math",
+      "question": "Kuinka monta sivua kolmiolla on?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_123",
+      "difficulty": "easy",
+      "category": "Math",
+      "question": "Mikä on puolet 100:sta?",
+      "options": [
+        "25",
+        "40",
+        "50",
+        "75"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_124",
+      "difficulty": "easy",
+      "category": "Math",
+      "question": "Mikä on 12 plus 15?",
+      "options": [
+        "25",
+        "27",
+        "29",
+        "31"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_125",
+      "difficulty": "easy",
+      "category": "Math",
+      "question": "Kuinka monta minuuttia on yhdessä tunnissa?",
+      "options": [
+        "30",
+        "45",
+        "60",
+        "90"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_126",
+      "difficulty": "easy",
+      "category": "Math",
+      "question": "Mikä on 7 neliötä?",
+      "options": [
+        "14",
+        "21",
+        "49",
+        "77"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_127",
+      "difficulty": "easy",
+      "category": "Math",
+      "question": "Kuinka monta astetta on suorassa kulmassa?",
+      "options": [
+        "45",
+        "60",
+        "90",
+        "180"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_128",
+      "difficulty": "medium",
+      "category": "Math",
+      "question": "Mikä on pi:n arvo pyöristettynä kahteen desimaaliin?",
+      "options": [
+        "3.12",
+        "3.14",
+        "3.16",
+        "3.18"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_129",
+      "difficulty": "medium",
+      "category": "Math",
+      "question": "Mikä on 15 prosenttia 200:sta?",
+      "options": [
+        "15",
+        "20",
+        "30",
+        "40"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_130",
+      "difficulty": "medium",
+      "category": "Math",
+      "question": "Kuinka monta sivua kuusikulmiolla on?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_131",
+      "difficulty": "medium",
+      "category": "Math",
+      "question": "Mikä on luvun 144 neliöjuuri?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_132",
+      "difficulty": "medium",
+      "category": "Math",
+      "question": "Mikä on 3 kuutiota?",
+      "options": [
+        "9",
+        "18",
+        "27",
+        "81"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_133",
+      "difficulty": "medium",
+      "category": "Math",
+      "question": "Mikä on seuraava alkuluku 7:n jälkeen?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_134",
+      "difficulty": "medium",
+      "category": "Math",
+      "question": "Kuinka monta senttimetriä on yhdessä metrissä?",
+      "options": [
+        "10",
+        "100",
+        "1000",
+        "10000"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_135",
+      "difficulty": "hard",
+      "category": "Math",
+      "question": "Mikä on kolmion sisäkulmien summa?",
+      "options": [
+        "90 astetta",
+        "180 astetta",
+        "270 astetta",
+        "360 astetta"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_136",
+      "difficulty": "hard",
+      "category": "Math",
+      "question": "Mikä on 2 potenssilla 10?",
+      "options": [
+        "512",
+        "1024",
+        "2048",
+        "4096"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_137",
+      "difficulty": "hard",
+      "category": "Math",
+      "question": "Mikä on pienin alkuluku?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_138",
+      "difficulty": "hard",
+      "category": "Math",
+      "question": "Mikä on 1 jaettuna 4:llä desimaalilukuna?",
+      "options": [
+        "0.2",
+        "0.25",
+        "0.4",
+        "0.5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_139",
+      "difficulty": "hard",
+      "category": "Math",
+      "question": "Kuinka monta kasvoa kuutiolla on?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_140",
+      "difficulty": "hard",
+      "category": "Math",
+      "question": "Mikä on roomalainen numero 50:lle?",
+      "options": [
+        "L",
+        "C",
+        "D",
+        "M"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_141",
+      "difficulty": "easy",
+      "category": "Musiikki",
+      "question": "Kuinka monta kieltä tavallisessa kitarassa yleensä on?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_142",
+      "difficulty": "easy",
+      "category": "Musiikki",
+      "question": "Missä instrumentissa on mustavalkoiset näppäimet?",
+      "options": [
+        "kitara",
+        "Piano",
+        "Viulu",
+        "Rumpu"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_143",
+      "difficulty": "easy",
+      "category": "Musiikki",
+      "question": "Kuka tunnetaan popin kuninkaana?",
+      "options": [
+        "Elvis Presley",
+        "Michael Jackson",
+        "Prinssi",
+        "Stevie Wonder"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_144",
+      "difficulty": "easy",
+      "category": "Musiikki",
+      "question": "Mitä sinä kutsut laulajaryhmäksi?",
+      "options": [
+        "kuoro",
+        "Side",
+        "Cast",
+        "Miehistö"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_145",
+      "difficulty": "easy",
+      "category": "Musiikki",
+      "question": "Mitä instrumenttia soitetaan jousella?",
+      "options": [
+        "Trumpetti",
+        "Viulu",
+        "Piano",
+        "Huilu"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_146",
+      "difficulty": "easy",
+      "category": "Musiikki",
+      "question": "Mikä on musiikin nopeuden nimi?",
+      "options": [
+        "Tempo",
+        "Pitch",
+        "Harmonia",
+        "Rytmi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_147",
+      "difficulty": "easy",
+      "category": "Musiikki",
+      "question": "Mikä musiikkiformaatti tuli monille kuuntelijoille ennen CD-levyjä?",
+      "options": [
+        "Kasetti",
+        "Blu-ray",
+        "Podcast",
+        "E-kirja"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_148",
+      "difficulty": "medium",
+      "category": "Musiikki",
+      "question": "Kuka säveltäjä kirjoitti Moonlight Sonatan?",
+      "options": [
+        "Mozart",
+        "Beethoven",
+        "Bach",
+        "Chopin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_149",
+      "difficulty": "medium",
+      "category": "Musiikki",
+      "question": "Kuinka monta nuottia on tavallisessa duuriasteikossa?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_150",
+      "difficulty": "medium",
+      "category": "Musiikki",
+      "question": "Minkä bändin laulaja oli Freddie Mercury?",
+      "options": [
+        "Kuningatar",
+        "U2",
+        "Nirvana",
+        "Oasis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_151",
+      "difficulty": "medium",
+      "category": "Musiikki",
+      "question": "Mitä DJ tarkoittaa?",
+      "options": [
+        "Levyjockey",
+        "Tanssituomari",
+        "Digitaalinen jammi",
+        "Rummun jumpperi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_152",
+      "difficulty": "medium",
+      "category": "Musiikki",
+      "question": "Minkä soittimen soittamisesta Yo-Yo Ma on kuuluisa?",
+      "options": [
+        "sello",
+        "Viulu",
+        "Piano",
+        "Klarinetti"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_153",
+      "difficulty": "medium",
+      "category": "Musiikki",
+      "question": "Mikä on duetto?",
+      "options": [
+        "Laulu kahdelle esiintyjälle",
+        "Nopea rumpu",
+        "Musiikkipalkinto",
+        "Lavavalo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_154",
+      "difficulty": "medium",
+      "category": "Musiikki",
+      "question": "Mikä genre liittyy usein improvisaatioon ja swingiin?",
+      "options": [
+        "Jazz",
+        "Metallia",
+        "Ooppera",
+        "Reggae"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_155",
+      "difficulty": "hard",
+      "category": "Musiikki",
+      "question": "Mikä klassisen aikakauden säveltäjä kirjoitti The Four Seasons?",
+      "options": [
+        "Vivaldi",
+        "Händel",
+        "Haydn",
+        "Schubert"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_156",
+      "difficulty": "hard",
+      "category": "Musiikki",
+      "question": "Mikä on miesten alin lauluääni?",
+      "options": [
+        "Tenori",
+        "Baritoni",
+        "Basso",
+        "Alto"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_157",
+      "difficulty": "hard",
+      "category": "Musiikki",
+      "question": "Mikä nuotti on puolisävel C:n yläpuolella?",
+      "options": [
+        "B",
+        "C terävä",
+        "D",
+        "E tasainen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_158",
+      "difficulty": "hard",
+      "category": "Musiikki",
+      "question": "Mikä on termi asteittaiselle äänekkäämmälle?",
+      "options": [
+        "Crescendo",
+        "Diminuendo",
+        "Legato",
+        "Staccato"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_159",
+      "difficulty": "hard",
+      "category": "Musiikki",
+      "question": "Mikä kaupunki liittyy vahvasti jazzin syntymiseen?",
+      "options": [
+        "New Orleans",
+        "Seattle",
+        "Nashville",
+        "Detroit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_160",
+      "difficulty": "hard",
+      "category": "Musiikki",
+      "question": "Mikä on nuottiviivaston alkuun merkittävän symbolin nimi?",
+      "options": [
+        "Nuottiavain",
+        "Fret",
+        "Silta",
+        "Venttiili"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_161",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Kuka maalasi Mona Lisan?",
+      "options": [
+        "Vincent van Gogh",
+        "Leonardo da Vinci",
+        "Pablo Picasso",
+        "Claude Monet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_162",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Minkä värin saat sekoittamalla punaista ja sinistä?",
+      "options": [
+        "Vihreä",
+        "Violetti",
+        "Oranssi",
+        "Ruskea"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_163",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Mitä työkalua käytetään maalin levittämiseen kankaalle?",
+      "options": [
+        "Vasara",
+        "Sivellin",
+        "Kompassi",
+        "Neula"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_164",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Mikä on yleensä kolmiulotteinen veistos?",
+      "options": [
+        "Kyllä",
+        "Ei",
+        "Vain kuvissa",
+        "Vain paperilla"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_165",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Missä museossa Mona Lisa sijaitsee?",
+      "options": [
+        "Louvre",
+        "Prado",
+        "Tate Moderni",
+        "Uffizi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_166",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Mitä kutsutaan paperin taittamisen taiteeksi?",
+      "options": [
+        "Origami",
+        "Kalligrafia",
+        "Mosaiikki",
+        "Graffiti"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_167",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Mikä väri saadaan sekoittamalla punaista ja keltaista?",
+      "options": [
+        "Sininen",
+        "Oranssi",
+        "Violetti",
+        "Valkoinen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_168",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Kuka maalasi Starry Night?",
+      "options": [
+        "Pablo Picasso",
+        "Vincent van Gogh",
+        "Salvador Dali",
+        "Rembrandt"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_169",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Kuka taiteilija on kuuluisa kellojen sulamisesta?",
+      "options": [
+        "Salvador Dali",
+        "Frida Kahlo",
+        "Andy Warhol",
+        "Banksy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_170",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Mitä on kalligrafia?",
+      "options": [
+        "Koristeellinen käsiala",
+        "Kiven veistäminen",
+        "Seinämaalaus",
+        "Valokuvien muokkaus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_171",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Mikä taideliike liittyy Claude Monetiin?",
+      "options": [
+        "Kubismi",
+        "Impressionismia",
+        "Surrealismi",
+        "Pop Art"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_172",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Mikä on omakuva?",
+      "options": [
+        "Taiteilijan kuva taiteilijasta",
+        "Maisema",
+        "Ryhmäkuva",
+        "Veistoksen pohja"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_173",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Mitä materiaalia käytetään usein keramiikassa?",
+      "options": [
+        "Savi",
+        "Vain lasia",
+        "Kumi",
+        "Paperi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_174",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Mikä on yksivärisen taiteen pääväri?",
+      "options": [
+        "Yksi väri",
+        "Kaksi väriä",
+        "Kaikki värit",
+        "Ei väriä"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_175",
+      "difficulty": "hard",
+      "category": "Art",
+      "question": "Kuka taiteilija maalasi Guernican?",
+      "options": [
+        "Pablo Picasso",
+        "Henri Matisse",
+        "Paul Cezanne",
+        "Edvard Munch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_176",
+      "difficulty": "hard",
+      "category": "Art",
+      "question": "Mikä italialainen kaupunki on kuuluisa renessanssin taiteesta ja Uffizi-galleriasta?",
+      "options": [
+        "Firenze",
+        "Venetsia",
+        "Milano",
+        "Napoli"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_177",
+      "difficulty": "hard",
+      "category": "Art",
+      "question": "Mihin freskomaalauksia tehdään?",
+      "options": [
+        "Märkä kipsi",
+        "Lasi",
+        "Metallia",
+        "Silkki"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_178",
+      "difficulty": "hard",
+      "category": "Art",
+      "question": "Kuka taiteilija loi The Persistence of Memory?",
+      "options": [
+        "Salvador Dali",
+        "Joan Miro",
+        "Rene Magritte",
+        "Jackson Pollock"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_179",
+      "difficulty": "hard",
+      "category": "Art",
+      "question": "Millä painomenetelmällä käytetään veistettyä lohkoa?",
+      "options": [
+        "Puupiirros",
+        "Vesiväri",
+        "Kollaasi",
+        "Airbrush"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_180",
+      "difficulty": "hard",
+      "category": "Art",
+      "question": "Mistä chiaroscurossa on kyse?",
+      "options": [
+        "Valo ja varjo",
+        "Ääni ja rytmi",
+        "Vain väri",
+        "Perspektiiviruudukot"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_181",
+      "difficulty": "easy",
+      "category": "Urheilu",
+      "question": "Kuinka monta pelaajaa on kentällä yhdessä jalkapallojoukkueessa?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_182",
+      "difficulty": "easy",
+      "category": "Urheilu",
+      "question": "Missä urheilulajeissa käytetään mailaa ja sulkapalloa?",
+      "options": [
+        "Tennis",
+        "Sulkapallo",
+        "Squash",
+        "Pöytätennis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_183",
+      "difficulty": "easy",
+      "category": "Urheilu",
+      "question": "Kuinka monen pisteen arvoinen vapaaheitto on koripallossa?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_184",
+      "difficulty": "easy",
+      "category": "Urheilu",
+      "question": "Mitä urheilua Wimbledonissa pelataan?",
+      "options": [
+        "Kriketti",
+        "Tennis",
+        "Golf",
+        "Rugby"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_185",
+      "difficulty": "easy",
+      "category": "Urheilu",
+      "question": "Kuinka monta rengasta on olympialipussa?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_186",
+      "difficulty": "easy",
+      "category": "Urheilu",
+      "question": "Mikä urheilulaji käyttää kiekkoa?",
+      "options": [
+        "Jääkiekko",
+        "Baseball",
+        "Lentopallo",
+        "Nyrkkeily"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_187",
+      "difficulty": "easy",
+      "category": "Urheilu",
+      "question": "Mitä juoksijat läpäisevät viestikilpailussa?",
+      "options": [
+        "Pallo",
+        "Baton",
+        "Lippu",
+        "Käsine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_188",
+      "difficulty": "medium",
+      "category": "Urheilu",
+      "question": "Missä lajissa Tour de France on kilpailu?",
+      "options": [
+        "Juoksemassa",
+        "Pyöräily",
+        "Uinti",
+        "Hiihto"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_189",
+      "difficulty": "medium",
+      "category": "Urheilu",
+      "question": "Kuinka monta pelaajaa on tavallisessa baseballjoukkueessa kentällä?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_190",
+      "difficulty": "medium",
+      "category": "Urheilu",
+      "question": "Mikä maa on voittanut eniten miesten jalkapallon MM-kisoja?",
+      "options": [
+        "Saksa",
+        "Argentiina",
+        "Brasilia",
+        "Italia"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_fi_191",
+      "difficulty": "medium",
+      "category": "Urheilu",
+      "question": "Mikä pistemäärä tulee tenniksessä kakkosen jälkeen?",
+      "options": [
+        "Etu",
+        "Rakkaus",
+        "Aseta piste",
+        "Tauko"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_192",
+      "difficulty": "medium",
+      "category": "Urheilu",
+      "question": "Missä urheilulajissa on pommihevonen?",
+      "options": [
+        "Voimistelu",
+        "Hevosurheilu",
+        "Polo",
+        "Miekkailu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_193",
+      "difficulty": "medium",
+      "category": "Urheilu",
+      "question": "Mikä on hattutemppu jalkapallossa?",
+      "options": [
+        "Kolme maalia yhdeltä pelaajalta",
+        "Kolme keltaista korttia",
+        "Kolme vaihtoa",
+        "Kolme kulmaa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_194",
+      "difficulty": "medium",
+      "category": "Urheilu",
+      "question": "Mikä urheilulaji liittyy Stanley Cupiin?",
+      "options": [
+        "Koripallo",
+        "Jääkiekko",
+        "Baseball",
+        "Rugby"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_195",
+      "difficulty": "hard",
+      "category": "Urheilu",
+      "question": "Kuinka pitkä olympiauima-allas on?",
+      "options": [
+        "25 metriä",
+        "50 metriä",
+        "75 metriä",
+        "100 metriä"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_196",
+      "difficulty": "hard",
+      "category": "Urheilu",
+      "question": "Mitä kutsutaan golfissa yhtä alle parin lyöntiä?",
+      "options": [
+        "Bogey",
+        "Birdie",
+        "Eagle",
+        "Albatrossi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_197",
+      "difficulty": "hard",
+      "category": "Urheilu",
+      "question": "Mikä maa isännöi ensimmäiset nykyaikaiset olympialaiset vuonna 1896?",
+      "options": [
+        "Ranska",
+        "Kreikka",
+        "Yhdistynyt kuningaskunta",
+        "Italia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_198",
+      "difficulty": "hard",
+      "category": "Urheilu",
+      "question": "Mikä on suurin tauko snookerissa?",
+      "options": [
+        "120",
+        "147",
+        "155",
+        "180"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_199",
+      "difficulty": "hard",
+      "category": "Urheilu",
+      "question": "Mikä urheilulaji käyttää termiä rakkaus nollasta?",
+      "options": [
+        "Kriketti",
+        "Tennis",
+        "Nyrkkeily",
+        "Golf"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_200",
+      "difficulty": "hard",
+      "category": "Urheilu",
+      "question": "Mitä KO tarkoittaa nyrkkeilyssä?",
+      "options": [
+        "Pudotus",
+        "Potkaise ulos",
+        "Pidä auki",
+        "Rystysten järjestys"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_201",
+      "difficulty": "easy",
+      "category": "Tekniikka",
+      "question": "Mitä CPU tarkoittaa?",
+      "options": [
+        "Keskuskäsittelyyksikkö",
+        "Tietokoneen virtayksikkö",
+        "Central Program Utility",
+        "Ydinkäsittelykäyttäjä"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_202",
+      "difficulty": "easy",
+      "category": "Tekniikka",
+      "question": "Mitä laitetta käytetään kohdistimen siirtämiseen tietokoneessa?",
+      "options": [
+        "Hiiri",
+        "Kaiutin",
+        "Tulostin",
+        "Reititin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_203",
+      "difficulty": "easy",
+      "category": "Tekniikka",
+      "question": "Mihin Wi-Fi sallii laitteiden muodostamisen?",
+      "options": [
+        "Vesi",
+        "Langattomat verkot",
+        "Paperi",
+        "Sähkömoottorit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_204",
+      "difficulty": "easy",
+      "category": "Tekniikka",
+      "question": "Mikä yritys valmistaa iPhonea?",
+      "options": [
+        "Samsung",
+        "Apple",
+        "Sony",
+        "Nokia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_205",
+      "difficulty": "easy",
+      "category": "Tekniikka",
+      "question": "Mihin salasanaa käytetään?",
+      "options": [
+        "Turvallisuus",
+        "Tulostus",
+        "Lataus",
+        "Jäähdytys"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_206",
+      "difficulty": "easy",
+      "category": "Tekniikka",
+      "question": "Mitä USB yhdistää yleensä?",
+      "options": [
+        "Laitteet ja tietokoneet",
+        "Kengät ja sukat",
+        "Kirjat ja sivut",
+        "Kasvit ja maaperä"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_207",
+      "difficulty": "easy",
+      "category": "Tekniikka",
+      "question": "Mitä sovellus tarkoittaa?",
+      "options": [
+        "Sovellus",
+        "Tapaaminen",
+        "Hyväksyntä",
+        "Liite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_208",
+      "difficulty": "medium",
+      "category": "Tekniikka",
+      "question": "Mitä URL tarkoittaa?",
+      "options": [
+        "Uniform Resource Locator",
+        "Universal Read Line",
+        "User Runtime Link",
+        "Yhtenäinen tietueluettelo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_209",
+      "difficulty": "medium",
+      "category": "Tekniikka",
+      "question": "Mikä on reitittimen päätehtävä?",
+      "options": [
+        "Tallenna valokuvia",
+        "Suora verkkoliikenne",
+        "Tulosta asiakirjoja",
+        "Tarkista vain virukset"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_210",
+      "difficulty": "medium",
+      "category": "Tekniikka",
+      "question": "Mitä tiedostotyyppiä käytetään yleisesti kuvissa?",
+      "options": [
+        "JPEG",
+        "MP3",
+        "DOCX",
+        "EXE"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_211",
+      "difficulty": "medium",
+      "category": "Tekniikka",
+      "question": "Mitä RAM tarkoittaa?",
+      "options": [
+        "Random Access Memory",
+        "Nopean toiminnan moduuli",
+        "Lue kaikki tiedotusvälineet",
+        "Ajonaikainen Audiotila"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_212",
+      "difficulty": "medium",
+      "category": "Tekniikka",
+      "question": "Mihin pilvitallennustilaa käytetään?",
+      "options": [
+        "Tiedostojen tallentaminen verkossa",
+        "Näytöjen puhdistus",
+        "Kannettavien tietokoneiden jäähdytys",
+        "Puhelinten lataus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_213",
+      "difficulty": "medium",
+      "category": "Tekniikka",
+      "question": "Mitä GPS auttaa määrittämään?",
+      "options": [
+        "Sijainti",
+        "Akun kesto",
+        "Näytön koko",
+        "Salasanan vahvuus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_214",
+      "difficulty": "medium",
+      "category": "Tekniikka",
+      "question": "Mitä tekniikkaa lähimaksuissa käytetään?",
+      "options": [
+        "NFC",
+        "VHS",
+        "CRT",
+        "DVD"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_215",
+      "difficulty": "hard",
+      "category": "Tekniikka",
+      "question": "Mitä HTML tarkoittaa?",
+      "options": [
+        "Hypertekstin merkintäkieli",
+        "High Transfer Machine Logic",
+        "Kotityökalun merkintälinkki",
+        "Hyperlinkin tekstin pääluettelo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_216",
+      "difficulty": "hard",
+      "category": "Tekniikka",
+      "question": "Mitä kaksivaiheinen todennus on suunniteltu parantamaan?",
+      "options": [
+        "Näytön kirkkaus",
+        "Tilin turvallisuus",
+        "Latausnopeus",
+        "Audiolaatu"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_217",
+      "difficulty": "hard",
+      "category": "Tekniikka",
+      "question": "Mikä numerojärjestelmä käyttää vain 0:ta ja 1:tä?",
+      "options": [
+        "Desimaali",
+        "Binääri",
+        "Heksadesimaali",
+        "Roman"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_218",
+      "difficulty": "hard",
+      "category": "Tekniikka",
+      "question": "Mitä API tarkoittaa?",
+      "options": [
+        "Sovellusohjelmointiliittymä",
+        "Automaattinen ohjelmahakemisto",
+        "Sovellettu pikselisyöttö",
+        "Advanced Process Internet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_219",
+      "difficulty": "hard",
+      "category": "Tekniikka",
+      "question": "Mitä SSD tarkoittaa?",
+      "options": [
+        "Solid State Drive",
+        "Järjestelmän tallennuslevy",
+        "Älykäs ohjelmistolaite",
+        "Suojattu signaaliasema"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_220",
+      "difficulty": "hard",
+      "category": "Tekniikka",
+      "question": "Mitä protokollaa käytetään yleisesti suojattujen verkkosivustojen lataamiseen?",
+      "options": [
+        "HTTP",
+        "HTTPS",
+        "FTP",
+        "SMTP"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_221",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Mitä DM yleensä tarkoittaa?",
+      "options": [
+        "Suora viesti",
+        "Digitaalinen kartta",
+        "Päivittäinen tila",
+        "Datamuisti"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_222",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Mikä symboli aloittaa hashtagin?",
+      "options": [
+        "@",
+        "#",
+        "&",
+        "*"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_223",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Mikä on selfie?",
+      "options": [
+        "Valokuva itsestäsi",
+        "Salasana",
+        "Hakutulos",
+        "Videopeli"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_224",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Mikä alusta tunnetaan parhaiten lyhyistä pystysuuntaisista videoista?",
+      "options": [
+        "TikTok",
+        "Wikipedia",
+        "Dropbox",
+        "löysä"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_225",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Mikä on emoji?",
+      "options": [
+        "Pieni digitaalinen kuvake",
+        "Verkkoselain",
+        "Tiedostomuoto",
+        "Eräänlainen kaapeli"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_226",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Mitä LOL yleensä tarkoittaa verkossa?",
+      "options": [
+        "Paljon valoja",
+        "Nauraa ääneen",
+        "Lista linkeistä",
+        "Onnea vähissä"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_fi_227",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Mitä kuvakaappausta käytetään tallentamiseen?",
+      "options": [
+        "Mikä on näytöllä",
+        "Akun lataus",
+        "Puhelinsoitto",
+        "Vain Wi-Fi salasana"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_228",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Mitä clickbait on suunniteltu saamaan?",
+      "options": [
+        "Napsautukset",
+        "Nuku",
+        "Säätiedot",
+        "Vain salasanat"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_229",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Mitä URL tarkoittaa jokapäiväisessä internetin käytössä?",
+      "options": [
+        "Verkko-osoite",
+        "Musiikkitiedosto",
+        "Kameratila",
+        "Puhelimen akku"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_230",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Mikä on meemi?",
+      "options": [
+        "Jaettava vitsi tai idea",
+        "Näppäimistön tyyppi",
+        "Yksityinen salasana",
+        "Pilvipalvelin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_231",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Mitä on tietojenkalastelu?",
+      "options": [
+        "Huijaus tietojen varastamiseksi",
+        "Tapa muokata valokuvia",
+        "Musiikin genre",
+        "Videon suodatin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_232",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Mitä suoratoisto tarkoittaa?",
+      "options": [
+        "Lähetys reaaliajassa",
+        "Tiedoston tallentaminen",
+        "Koodin kirjoittaminen offline-tilassa",
+        "Valokuvien tulostaminen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_233",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Mikä on käyttäjätunnus?",
+      "options": [
+        "Julkinen tilin nimi",
+        "Tietokonevirus",
+        "Näytön kaapeli",
+        "Maksukortti"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_234",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Mihin selainta käytetään?",
+      "options": [
+        "Pääsy verkkosivuille",
+        "Musiikin miksaus",
+        "Latauslaitteet",
+        "Karttojen piirtäminen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_235",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Mitä SEO tarkoittaa?",
+      "options": [
+        "Hakukoneoptimointi",
+        "Suojattu sähköpostin ulostulo",
+        "Sosiaalinen muokkausvaihtoehto",
+        "Järjestelmän sisääntulojärjestys"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_236",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Mikä eväste on verkkoselailussa?",
+      "options": [
+        "Tallennetut sivustotiedot",
+        "Pikanäppäin",
+        "Valokuvasuodatin",
+        "Chat-reaktio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_237",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Mitä HTTP tarkoittaa?",
+      "options": [
+        "Hypertekstin siirtoprotokolla",
+        "High Tech -tekstiohjelma",
+        "Kotisiirtotyökalun portti",
+        "Hyperlinkin seurantasivu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_238",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Mitä VPN tarkoittaa?",
+      "options": [
+        "Virtuaalinen yksityinen verkko",
+        "Vahvistettu julkinen nimi",
+        "Visuaalinen sivunumero",
+        "Videonkäsittelysolmu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_239",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Mitä kutsutaan kaksisuuntaiseksi videoviestinnäksi?",
+      "options": [
+        "Videopuhelu",
+        "Kuvakaappaus",
+        "Kirjanmerkki",
+        "Captcha"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_fi_240",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Mitä captcha on tarkoitettu ensisijaisesti tunnistamaan?",
+      "options": [
+        "Botit",
+        "värit",
+        "Näytön koko",
+        "Akun varaustaso"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,113 +1,36 @@
 {
   "gameId": "trivia-bet",
   "locale": "nl",
-  "version": 1,
+  "version": 2,
   "questions": [
     {
+      "id": "tb_nl_001",
       "difficulty": "easy",
       "category": "Wetenschap",
-      "question": "Wat is de grootste planeet in ons zonnestelsel?",
-      "options": [
-        "Aarde",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctIndex": 2,
-      "id": "tb_nl_001"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Welke oceaan is het grootst?",
-      "options": [
-        "Atlantische",
-        "Indische",
-        "Arctische",
-        "Stille"
-      ],
-      "correctIndex": 3,
-      "id": "tb_nl_002"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Dieren",
-      "question": "Hoeveel poten heeft een spin?",
-      "options": [
-        "6",
-        "8",
-        "10",
-        "12"
-      ],
-      "correctIndex": 1,
-      "id": "tb_nl_003"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Wetenschap",
-      "question": "Welk gas nemen planten op?",
+      "question": "Welk gas absorberen planten uit de lucht tijdens fotosynthese?",
       "options": [
         "Zuurstof",
-        "Koolstofdioxide",
-        "Stikstof",
-        "Helium"
+        "Kooldioxide",
+        "Waterstof",
+        "Stikstof"
       ],
-      "correctIndex": 1,
-      "id": "tb_nl_004"
+      "correctIndex": 1
     },
     {
+      "id": "tb_nl_002",
       "difficulty": "easy",
-      "category": "Muziek",
-      "question": "Welk instrument heeft 88 toetsen?",
+      "category": "Wetenschap",
+      "question": "Wat is het chemische symbool voor water?",
       "options": [
-        "Gitaar",
-        "Viool",
-        "Piano",
-        "Fluit"
+        "WO",
+        "H2O",
+        "O2H",
+        "HO2"
       ],
-      "correctIndex": 2,
-      "id": "tb_nl_005"
+      "correctIndex": 1
     },
     {
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Wat is de hoofdstad van Canada?",
-      "options": [
-        "Toronto",
-        "Ottawa",
-        "Vancouver",
-        "Montreal"
-      ],
-      "correctIndex": 1,
-      "id": "tb_nl_006"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Dieren",
-      "question": "Welk dier staat bekend om zijn zwart-witte strepen?",
-      "options": [
-        "Tijger",
-        "Zebra",
-        "Panda",
-        "Stinkdier"
-      ],
-      "correctIndex": 1,
-      "id": "tb_nl_007"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Kunst",
-      "question": "Welke kleur krijg je als je rood en blauw mengt?",
-      "options": [
-        "Oranje",
-        "Paars",
-        "Groen",
-        "Roze"
-      ],
-      "correctIndex": 1,
-      "id": "tb_nl_008"
-    },
-    {
+      "id": "tb_nl_003",
       "difficulty": "easy",
       "category": "Wetenschap",
       "question": "Welke planeet staat bekend als de Rode Planeet?",
@@ -115,705 +38,1692 @@
         "Venus",
         "Mars",
         "Jupiter",
-        "Saturnus"
-      ],
-      "correctIndex": 1,
-      "id": "tb_nl_009"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Kunst",
-      "question": "Wie schreef 'Romeo en Julia'?",
-      "options": [
-        "Charles Dickens",
-        "William Shakespeare",
-        "Jane Austen",
-        "Mark Twain"
-      ],
-      "correctIndex": 1,
-      "id": "tb_nl_010"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Eten",
-      "question": "Wat is het hoofdingrediënt van guacamole?",
-      "options": [
-        "Erwt",
-        "Avocado",
-        "Komkommer",
-        "Courgette"
-      ],
-      "correctIndex": 1,
-      "id": "tb_nl_011"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Dieren",
-      "question": "Wat is het hoogste zoogdier?",
-      "options": [
-        "Olifant",
-        "Giraf",
-        "Paard",
-        "Kameel"
-      ],
-      "correctIndex": 1,
-      "id": "tb_nl_012"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Op welk continent ligt Egypte?",
-      "options": [
-        "Azië",
-        "Afrika",
-        "Europa",
-        "Zuid-Amerika"
-      ],
-      "correctIndex": 1,
-      "id": "tb_nl_013"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Wiskunde",
-      "question": "Hoeveel dagen heeft een schrikkeljaar?",
-      "options": [
-        "364",
-        "365",
-        "366",
-        "367"
-      ],
-      "correctIndex": 2,
-      "id": "tb_nl_014"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Wetenschap",
-      "question": "Wat is de hardste natuurlijke stof?",
-      "options": [
-        "Goud",
-        "Ijzer",
-        "Diamant",
-        "Kwarts"
-      ],
-      "correctIndex": 2,
-      "id": "tb_nl_015"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Wetenschap",
-      "question": "Wat meet een thermometer?",
-      "options": [
-        "Druk",
-        "Temperatuur",
-        "Snelheid",
-        "Volume"
-      ],
-      "correctIndex": 1,
-      "id": "tb_nl_016"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Sport",
-      "question": "Welke sport gebruikt een racket en een shuttle?",
-      "options": [
-        "Tennis",
-        "Badminton",
-        "Squash",
-        "Tafeltennis"
-      ],
-      "correctIndex": 1,
-      "id": "tb_nl_017"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Wat is de munteenheid van het Verenigd Koninkrijk?",
-      "options": [
-        "Euro",
-        "Dollar",
-        "Pond sterling",
-        "Krona"
-      ],
-      "correctIndex": 2,
-      "id": "tb_nl_018"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Wetenschap",
-      "question": "Welke planeet is beroemd om zijn ringen?",
-      "options": [
-        "Mars",
-        "Saturnus",
-        "Neptunus",
         "Mercurius"
       ],
-      "correctIndex": 1,
-      "id": "tb_nl_019"
+      "correctIndex": 1
     },
     {
+      "id": "tb_nl_004",
       "difficulty": "easy",
-      "category": "Dieren",
-      "question": "Wat is het grootste zoogdier?",
-      "options": [
-        "Olifant",
-        "Blauwe vinvis",
-        "Giraf",
-        "Nijlpaard"
-      ],
-      "correctIndex": 1,
-      "id": "tb_nl_020"
-    },
-    {
-      "difficulty": "medium",
       "category": "Wetenschap",
-      "question": "Welk element heeft het symbool Fe?",
+      "question": "Hoeveel poten heeft een insect?",
       "options": [
-        "Fluor",
-        "IJzer",
-        "Zilver",
-        "Tin"
-      ],
-      "correctIndex": 1,
-      "id": "tb_nl_021"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Geschiedenis",
-      "question": "In welke stad staat het Colosseum?",
-      "options": [
-        "Athene",
-        "Rome",
-        "Parijs",
-        "Istanbul"
-      ],
-      "correctIndex": 1,
-      "id": "tb_nl_022"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Kunst",
-      "question": "Wie schilderde 'De Sterrennacht'?",
-      "options": [
-        "Van Gogh",
-        "Picasso",
-        "Monet",
-        "Rembrandt"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_023"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Aardrijkskunde",
-      "question": "Wat is de hoofdstad van Zuid-Korea?",
-      "options": [
-        "Seoul",
-        "Busan",
-        "Tokio",
-        "Peking"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_024"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Geschiedenis",
-      "question": "Welk land vond papier uit?",
-      "options": [
-        "Griekenland",
-        "China",
-        "Egypte",
-        "India"
-      ],
-      "correctIndex": 1,
-      "id": "tb_nl_025"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Sport",
-      "question": "Hoeveel spelers staan er op het veld bij een honkbalteam?",
-      "options": [
-        "7",
+        "4",
+        "6",
         "8",
-        "9",
         "10"
       ],
-      "correctIndex": 2,
-      "id": "tb_nl_026"
+      "correctIndex": 1
     },
     {
+      "id": "tb_nl_005",
+      "difficulty": "easy",
+      "category": "Wetenschap",
+      "question": "Welke kracht trekt objecten naar de aarde?",
+      "options": [
+        "Magnetisme",
+        "Zwaartekracht",
+        "Wrijving",
+        "Elektriciteit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_006",
+      "difficulty": "easy",
+      "category": "Wetenschap",
+      "question": "Welk orgaan pompt bloed door het lichaam?",
+      "options": [
+        "Lever",
+        "Hart",
+        "Long",
+        "Nier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_007",
+      "difficulty": "easy",
+      "category": "Wetenschap",
+      "question": "Hoe wordt het centrum van een atoom genoemd?",
+      "options": [
+        "Kern",
+        "Cel",
+        "Baan",
+        "Schelp"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_008",
       "difficulty": "medium",
       "category": "Wetenschap",
-      "question": "Wat is het langste bot in het menselijk lichaam?",
+      "question": "Wat is het chemische symbool voor goud?",
       "options": [
-        "Femur",
-        "Tibia",
-        "Humerus",
-        "Radius"
+        "Ga",
+        "Gd",
+        "Au",
+        "Ag"
       ],
-      "correctIndex": 0,
-      "id": "tb_nl_027"
+      "correctIndex": 2
     },
     {
-      "difficulty": "medium",
-      "category": "Dieren",
-      "question": "Wat is de snelste vogel ter wereld?",
-      "options": [
-        "Adelaar",
-        "Slechtvalk",
-        "Struisvogel",
-        "Valk"
-      ],
-      "correctIndex": 1,
-      "id": "tb_nl_028"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Aardrijkskunde",
-      "question": "Welke taal heeft de meeste moedertaalsprekers?",
-      "options": [
-        "Engels",
-        "Spaans",
-        "Mandarijn",
-        "Hindi"
-      ],
-      "correctIndex": 2,
-      "id": "tb_nl_029"
-    },
-    {
+      "id": "tb_nl_009",
       "difficulty": "medium",
       "category": "Wetenschap",
-      "question": "Wat is de kleinste planeet in ons zonnestelsel?",
+      "question": "Wat is het kookpunt van water op zeeniveau in graden Celsius?",
       "options": [
-        "Mercurius",
-        "Mars",
-        "Venus",
-        "Neptunus"
+        "90",
+        "95",
+        "100",
+        "110"
       ],
-      "correctIndex": 0,
-      "id": "tb_nl_030"
+      "correctIndex": 2
     },
     {
-      "difficulty": "medium",
-      "category": "Geschiedenis",
-      "question": "Wie ontdekte penicilline?",
-      "options": [
-        "Marie Curie",
-        "Alexander Fleming",
-        "Louis Pasteur",
-        "Isaac Newton"
-      ],
-      "correctIndex": 1,
-      "id": "tb_nl_031"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Aardrijkskunde",
-      "question": "Wat is de hoofdstad van Argentinië?",
-      "options": [
-        "Lima",
-        "Buenos Aires",
-        "Santiago",
-        "Montevideo"
-      ],
-      "correctIndex": 1,
-      "id": "tb_nl_032"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Aardrijkskunde",
-      "question": "Welk land is beroemd om zijn tulpenvelden?",
-      "options": [
-        "België",
-        "Nederland",
-        "Denemarken",
-        "Zwitserland"
-      ],
-      "correctIndex": 1,
-      "id": "tb_nl_033"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Technologie",
-      "question": "Waar staat HTTP voor?",
-      "options": [
-        "Hypertext Transfer Protocol",
-        "High Transfer Text Process",
-        "Hyperlink Transmission Program",
-        "Host Transfer Protocol"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_034"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Muziek",
-      "question": "Welk instrument wordt geassocieerd met Louis Armstrong?",
-      "options": [
-        "Saxofoon",
-        "Trompet",
-        "Piano",
-        "Klarinet"
-      ],
-      "correctIndex": 1,
-      "id": "tb_nl_035"
-    },
-    {
+      "id": "tb_nl_010",
       "difficulty": "medium",
       "category": "Wetenschap",
-      "question": "Wat is de energiecentrale van de cel?",
+      "question": "Welk deel van een cel bevat het grootste deel van zijn DNA?",
       "options": [
-        "Celkern",
-        "Mitochondriën",
         "Ribosoom",
-        "Golgi-apparaat"
+        "Kern",
+        "Celwand",
+        "Mitochondrion"
       ],
-      "correctIndex": 1,
-      "id": "tb_nl_036"
+      "correctIndex": 1
     },
     {
+      "id": "tb_nl_011",
+      "difficulty": "medium",
+      "category": "Wetenschap",
+      "question": "Welk type energie wordt opgeslagen in een uitgerekt elastiekje?",
+      "options": [
+        "Chemisch",
+        "Elastisch potentieel",
+        "Thermisch",
+        "Nucleair"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_012",
+      "difficulty": "medium",
+      "category": "Wetenschap",
+      "question": "Welke vitamine wordt aangemaakt als de huid wordt blootgesteld aan zonlicht?",
+      "options": [
+        "Vitamine A",
+        "Vitamine C",
+        "Vitamine D",
+        "Vitamine K"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_013",
+      "difficulty": "medium",
+      "category": "Wetenschap",
+      "question": "Welk instrument wordt gebruikt om aardbevingen te meten?",
+      "options": [
+        "Barometer",
+        "Seismograaf",
+        "Hygrometer",
+        "Hoogtemeter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_014",
+      "difficulty": "medium",
+      "category": "Wetenschap",
+      "question": "Wat is de hardste natuurlijke substantie op aarde?",
+      "options": [
+        "Kwarts",
+        "Diamant",
+        "Graniet",
+        "Ijzer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_015",
+      "difficulty": "hard",
+      "category": "Wetenschap",
+      "question": "Wat is de SI-eenheid van elektrische stroom?",
+      "options": [
+        "Volt",
+        "Watt",
+        "Ampère",
+        "Ohm"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_016",
+      "difficulty": "hard",
+      "category": "Wetenschap",
+      "question": "Welke wetenschapper heeft de drie bewegingswetten voorgesteld?",
+      "options": [
+        "Isaak Newton",
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Nikola Tesla"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_017",
+      "difficulty": "hard",
+      "category": "Wetenschap",
+      "question": "Wat is het meest voorkomende gas in de atmosfeer van de aarde?",
+      "options": [
+        "Zuurstof",
+        "Kooldioxide",
+        "Stikstof",
+        "Argon"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_018",
+      "difficulty": "hard",
+      "category": "Wetenschap",
+      "question": "Welk deeltje heeft een negatieve elektrische lading?",
+      "options": [
+        "Proton",
+        "Neutron",
+        "Elektron",
+        "Foton"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_019",
+      "difficulty": "hard",
+      "category": "Wetenschap",
+      "question": "Wat is de pH-waarde van een neutrale oplossing bij kamertemperatuur?",
+      "options": [
+        "0",
+        "5",
+        "7",
+        "14"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_020",
+      "difficulty": "hard",
+      "category": "Wetenschap",
+      "question": "Welke bloedcellen helpen het lichaam infecties te bestrijden?",
+      "options": [
+        "Rode bloedcellen",
+        "Witte bloedcellen",
+        "Bloedplaatjes",
+        "Plasmacellen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_021",
+      "difficulty": "easy",
+      "category": "Aardrijkskunde",
+      "question": "Wat is de hoofdstad van Frankrijk?",
+      "options": [
+        "Lyon",
+        "Parijs",
+        "Marseille",
+        "Leuk"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_022",
+      "difficulty": "easy",
+      "category": "Aardrijkskunde",
+      "question": "Welke oceaan is de grootste?",
+      "options": [
+        "Atlantische Oceaan",
+        "Indische Oceaan",
+        "Stille Oceaan",
+        "Noordelijke IJszee"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_023",
+      "difficulty": "easy",
+      "category": "Aardrijkskunde",
+      "question": "Welk land is beroemd om de piramides van Gizeh?",
+      "options": [
+        "Mexico",
+        "Egypte",
+        "Griekenland",
+        "Indië"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_024",
+      "difficulty": "easy",
+      "category": "Aardrijkskunde",
+      "question": "Wat is de hoofdstad van Japan?",
+      "options": [
+        "Kioto",
+        "Osaka",
+        "Tokio",
+        "Hiroshima"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_025",
+      "difficulty": "easy",
+      "category": "Aardrijkskunde",
+      "question": "In welk continent ligt Brazilië?",
+      "options": [
+        "Afrika",
+        "Zuid-Amerika",
+        "Europa",
+        "Azië"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_026",
+      "difficulty": "easy",
+      "category": "Aardrijkskunde",
+      "question": "Wat is het grootste land qua landoppervlak?",
+      "options": [
+        "Canada",
+        "China",
+        "Rusland",
+        "Verenigde Staten"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_027",
+      "difficulty": "easy",
+      "category": "Aardrijkskunde",
+      "question": "Welke rivier stroomt door Londen?",
+      "options": [
+        "Seine",
+        "Theems",
+        "Donau",
+        "Rijn"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_028",
       "difficulty": "medium",
       "category": "Aardrijkskunde",
-      "question": "Wat is de grootste hete woestijn?",
+      "question": "Wat is de hoofdstad van Australia?",
+      "options": [
+        "Sydney",
+        "Melbourne",
+        "Canberra",
+        "Brisbane"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_029",
+      "difficulty": "medium",
+      "category": "Aardrijkskunde",
+      "question": "In welk land ligt de Kilimanjaro?",
+      "options": [
+        "Kenia",
+        "Tanzania",
+        "Oeganda",
+        "Ethiopië"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_030",
+      "difficulty": "medium",
+      "category": "Aardrijkskunde",
+      "question": "Welke woestijn is de grootste hete woestijn ter wereld?",
       "options": [
         "Gobi",
         "Sahara",
         "Kalahari",
-        "Atacama"
+        "Mojave"
       ],
-      "correctIndex": 1,
-      "id": "tb_nl_037"
+      "correctIndex": 1
     },
     {
+      "id": "tb_nl_031",
       "difficulty": "medium",
-      "category": "Wiskunde",
-      "question": "Welke Griekse letter lijkt op een driehoek?",
+      "category": "Aardrijkskunde",
+      "question": "Welk land heeft de stad Marrakech?",
       "options": [
-        "Alfa",
-        "Delta",
-        "Sigma",
-        "Omega"
+        "Tunesië",
+        "Marokko",
+        "Algerije",
+        "Egypte"
       ],
-      "correctIndex": 1,
-      "id": "tb_nl_038"
+      "correctIndex": 1
     },
     {
+      "id": "tb_nl_032",
       "difficulty": "medium",
-      "category": "Sport",
-      "question": "Welke stad organiseerde de Olympische Zomerspelen van 2012?",
+      "category": "Aardrijkskunde",
+      "question": "Welke zee scheidt Europa en Afrika?",
       "options": [
-        "Peking",
-        "Londen",
-        "Rio de Janeiro",
-        "Athene"
+        "Rode Zee",
+        "Middellandse Zee",
+        "Zwarte Zee",
+        "Baltische Zee"
       ],
-      "correctIndex": 1,
-      "id": "tb_nl_039"
+      "correctIndex": 1
     },
     {
+      "id": "tb_nl_033",
       "difficulty": "medium",
-      "category": "Wetenschap",
-      "question": "Wat is de chemische formule van ozon?",
+      "category": "Aardrijkskunde",
+      "question": "Welke Amerikaanse staat staat bekend als de Sunshine State?",
       "options": [
-        "O2",
-        "O3",
-        "CO2",
-        "O4"
+        "Californië",
+        "Florida",
+        "Arizona",
+        "Hawaï"
       ],
-      "correctIndex": 1,
-      "id": "tb_nl_040"
+      "correctIndex": 1
     },
     {
-      "difficulty": "hard",
-      "category": "Kunst",
-      "question": "Wie schreef 'Honderd jaar eenzaamheid'?",
+      "id": "tb_nl_034",
+      "difficulty": "medium",
+      "category": "Aardrijkskunde",
+      "question": "Welk land heeft de meest natuurlijke meren?",
       "options": [
-        "Mario Vargas Llosa",
-        "Gabriel García Márquez",
-        "Isabel Allende",
-        "Jorge Luis Borges"
+        "Canada",
+        "Brazilië",
+        "Rusland",
+        "Finland"
       ],
-      "correctIndex": 1,
-      "id": "tb_nl_041"
+      "correctIndex": 0
     },
     {
+      "id": "tb_nl_035",
       "difficulty": "hard",
       "category": "Aardrijkskunde",
       "question": "Wat is de hoofdstad van Kazachstan?",
       "options": [
         "Almaty",
         "Astana",
-        "Tashkent",
-        "Bishkek"
+        "Bisjkek",
+        "Tasjkent"
       ],
-      "correctIndex": 1,
-      "id": "tb_nl_042"
+      "correctIndex": 1
     },
     {
+      "id": "tb_nl_036",
       "difficulty": "hard",
-      "category": "Wetenschap",
-      "question": "Welke planeet heeft de kortste dag?",
+      "category": "Aardrijkskunde",
+      "question": "In welk land ligt het meer van Bled?",
       "options": [
-        "Aarde",
-        "Jupiter",
-        "Mars",
-        "Uranus"
+        "Slovenië",
+        "Kroatië",
+        "Austria",
+        "Slowakije"
       ],
-      "correctIndex": 1,
-      "id": "tb_nl_043"
+      "correctIndex": 0
     },
     {
+      "id": "tb_nl_037",
       "difficulty": "hard",
+      "category": "Aardrijkskunde",
+      "question": "In welk land ligt de Atacama-woestijn voornamelijk?",
+      "options": [
+        "Peru",
+        "Chili",
+        "Bolivia",
+        "Argentinië"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_038",
+      "difficulty": "hard",
+      "category": "Aardrijkskunde",
+      "question": "Welke stad is verdeeld tussen Europa en Azië?",
+      "options": [
+        "Istanboel",
+        "Athene",
+        "Caïro",
+        "Lissabon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_039",
+      "difficulty": "hard",
+      "category": "Aardrijkskunde",
+      "question": "Wat is de langste bergketen ter wereld?",
+      "options": [
+        "Himalaya",
+        "Andes",
+        "Rockies",
+        "Alpen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_040",
+      "difficulty": "hard",
+      "category": "Aardrijkskunde",
+      "question": "Welk land gebruikt de kroon als munteenheid?",
+      "options": [
+        "Noorwegen",
+        "Polen",
+        "Hongarije",
+        "Roemenië"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_041",
+      "difficulty": "easy",
+      "category": "Geschiedenis",
+      "question": "In welk jaar zonk de Titanic?",
+      "options": [
+        "1908",
+        "1912",
+        "1916",
+        "1920"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_042",
+      "difficulty": "easy",
+      "category": "Geschiedenis",
+      "question": "Wie was de eerste president van de Verenigde Staten?",
+      "options": [
+        "Thomas Jefferson",
+        "George Washington",
+        "Abraham Lincoln",
+        "Johannes Adams"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_043",
+      "difficulty": "easy",
+      "category": "Geschiedenis",
+      "question": "Met welk land wordt de Grote Muur vooral geassocieerd?",
+      "options": [
+        "Japan",
+        "China",
+        "Indië",
+        "Mongolië"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_044",
+      "difficulty": "easy",
+      "category": "Geschiedenis",
+      "question": "Wie stond bekend als de Maagd van Orleans?",
+      "options": [
+        "Cleopatra",
+        "Jeanne d'Arc",
+        "Koningin Victoria",
+        "Marie Curie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_045",
+      "difficulty": "easy",
+      "category": "Geschiedenis",
+      "question": "Welke oude beschaving heeft het Colosseum gebouwd?",
+      "options": [
+        "Grieks",
+        "Romeins",
+        "Maya",
+        "Perzisch"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_046",
+      "difficulty": "easy",
+      "category": "Geschiedenis",
+      "question": "Welke oorlog eindigde in 1945?",
+      "options": [
+        "Eerste Wereldoorlog",
+        "Tweede Wereldoorlog",
+        "Koreaanse oorlog",
+        "Vietnamoorlog"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_047",
+      "difficulty": "easy",
+      "category": "Geschiedenis",
+      "question": "Wie heeft penicilline ontdekt?",
+      "options": [
+        "Alexander Fleming",
+        "Lodewijk Pasteur",
+        "Marie Curie",
+        "Charles Darwin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_048",
+      "difficulty": "medium",
+      "category": "Geschiedenis",
+      "question": "Wie was de eerste vrouw die solo over de Atlantische Oceaan vloog?",
+      "options": [
+        "Amelia Earhart",
+        "Bessie Coleman",
+        "Valentina Teresjkova",
+        "Sally Rit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_049",
+      "difficulty": "medium",
       "category": "Geschiedenis",
       "question": "In welk jaar viel de Berlijnse Muur?",
       "options": [
         "1987",
-        "1988",
         "1989",
-        "1990"
+        "1991",
+        "1993"
       ],
-      "correctIndex": 2,
-      "id": "tb_nl_044"
+      "correctIndex": 1
     },
     {
-      "difficulty": "hard",
-      "category": "Wetenschap",
-      "question": "Wat is de SI-eenheid van elektrische stroom?",
+      "id": "tb_nl_050",
+      "difficulty": "medium",
+      "category": "Geschiedenis",
+      "question": "Welk rijk werd geregeerd door Genghis Khan?",
       "options": [
-        "Volt",
-        "Ampère",
-        "Ohm",
-        "Watt"
+        "Ottomaanse Rijk",
+        "Mongoolse rijk",
+        "Romeinse Rijk",
+        "Perzische Rijk"
       ],
-      "correctIndex": 1,
-      "id": "tb_nl_045"
+      "correctIndex": 1
     },
     {
-      "difficulty": "hard",
-      "category": "Muziek",
-      "question": "Welke componist schreef de opera 'De Toverfluit'?",
+      "id": "tb_nl_051",
+      "difficulty": "medium",
+      "category": "Geschiedenis",
+      "question": "Wie was de eerste persoon die op de maan liep?",
       "options": [
-        "Mozart",
-        "Verdi",
-        "Puccini",
-        "Wagner"
+        "Buzz Aldrin",
+        "Joeri Gagarin",
+        "Neil Armstrong",
+        "Michaël Collins"
       ],
-      "correctIndex": 0,
-      "id": "tb_nl_046"
+      "correctIndex": 2
     },
     {
-      "difficulty": "hard",
-      "category": "Wiskunde",
-      "question": "Wat is de vierkantswortel van 256?",
+      "id": "tb_nl_052",
+      "difficulty": "medium",
+      "category": "Geschiedenis",
+      "question": "In welk hedendaags land begon de Renaissance?",
       "options": [
-        "14",
-        "16",
-        "18",
-        "20"
-      ],
-      "correctIndex": 1,
-      "id": "tb_nl_047"
-    },
-    {
-      "difficulty": "hard",
-      "category": "Aardrijkskunde",
-      "question": "Welk land heeft de meeste tijdzones?",
-      "options": [
-        "Verenigde Staten",
         "Frankrijk",
-        "Rusland",
-        "Australië"
+        "Italië",
+        "Duitsland",
+        "Spanje"
       ],
-      "correctIndex": 1,
-      "id": "tb_nl_048"
+      "correctIndex": 1
     },
     {
-      "difficulty": "hard",
-      "category": "Aardrijkskunde",
-      "question": "Wat is de langste rivier van Europa?",
+      "id": "tb_nl_053",
+      "difficulty": "medium",
+      "category": "Geschiedenis",
+      "question": "Welk document begint met de woorden We the People?",
       "options": [
-        "Donau",
-        "Wolga",
-        "Rijn",
-        "Seine"
+        "Magna Carta",
+        "Amerikaanse grondwet",
+        "Verklaring van onafhankelijkheid",
+        "Bill van rechten"
       ],
-      "correctIndex": 1,
-      "id": "tb_nl_049"
-    },
-    {
-      "difficulty": "hard",
-      "category": "Kunst",
-      "question": "Wie schilderde 'De volharding der herinnering'?",
-      "options": [
-        "Salvador Dalí",
-        "Pablo Picasso",
-        "Claude Monet",
-        "Edvard Munch"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_050"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Wat is de hoofdstad van Canada?",
-      "options": [
-        "Ottawa",
-        "Toronto",
-        "Vancouver",
-        "Montreal"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_051"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Wetenschap",
-      "question": "Welke planeet staat bekend als de Rode Planeet?",
-      "options": [
-        "Mars",
-        "Venus",
-        "Jupiter",
-        "Mercurius"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_052"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Muziek",
-      "question": "Welk instrument heeft 88 toetsen?",
-      "options": [
-        "Piano",
-        "Gitaar",
-        "Viool",
-        "Fluit"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_053"
+      "correctIndex": 1
     },
     {
       "id": "tb_nl_054",
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Wat is de hoofdstad van Spanje?",
+      "difficulty": "medium",
+      "category": "Geschiedenis",
+      "question": "Welke koningin regeerde Engeland gedurende een groot deel van het Victoriaanse tijdperk?",
       "options": [
-        "Madrid",
-        "Barcelona",
-        "Sevilla",
-        "Valencia"
+        "Elizabeth I",
+        "Maria ik",
+        "Victoria",
+        "Anne"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "tb_nl_055",
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Wat is de hoofdstad van Brazilië?",
+      "difficulty": "hard",
+      "category": "Geschiedenis",
+      "question": "Welk eeuwenoud schrift heeft de Steen van Rosetta geleerden kunnen lezen?",
       "options": [
-        "Brasilia",
-        "Rio de Janeiro",
-        "São Paulo",
-        "Salvador"
+        "Spijkerschrift",
+        "Hiërogliefen",
+        "Sanskriet",
+        "Lineair B"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_nl_056",
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Wat is de hoofdstad van India?",
+      "difficulty": "hard",
+      "category": "Geschiedenis",
+      "question": "Wie leidde de Haïtiaanse revolutie?",
       "options": [
-        "New Delhi",
-        "Mumbai",
-        "Bangalore",
-        "Kolkata"
+        "Toussaint Louverture",
+        "Simon Bolivar",
+        "Miguel Hidalgo",
+        "José de San Martin"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_nl_057",
-      "difficulty": "easy",
-      "category": "Wetenschap",
-      "question": "Wat is het chemische symbool voor kalium?",
+      "difficulty": "hard",
+      "category": "Geschiedenis",
+      "question": "Welk verdrag maakte een einde aan de Eerste Wereldoorlog?",
       "options": [
-        "K",
-        "P",
-        "Po",
-        "Pt"
+        "Verdrag van Parijs",
+        "Verdrag van Versailles",
+        "Verdrag van Tordesillas",
+        "Verdrag van Utrecht"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_nl_058",
-      "difficulty": "easy",
-      "category": "Wetenschap",
-      "question": "Wat is het chemische symbool voor zuurstof?",
+      "difficulty": "hard",
+      "category": "Geschiedenis",
+      "question": "Welke stad was de hoofdstad van het Byzantijnse rijk?",
       "options": [
-        "O",
-        "Ox",
-        "Og",
-        "Oz"
+        "Rome",
+        "Athene",
+        "Constantinopel",
+        "Alexandrië"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "tb_nl_059",
-      "difficulty": "easy",
+      "difficulty": "hard",
       "category": "Geschiedenis",
-      "question": "In welk jaar begon de Eerste Wereldoorlog?",
+      "question": "Wie was de laatste farao van het oude Egypte?",
       "options": [
-        "1912",
-        "1914",
-        "1916",
-        "1918"
+        "Nefertiti",
+        "Cleopatra VII",
+        "Hatsjepsoet",
+        "Ramses II"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_nl_060",
-      "difficulty": "easy",
+      "difficulty": "hard",
       "category": "Geschiedenis",
-      "question": "Wie was de eerste president van de Verenigde Staten?",
+      "question": "Welke beschaving heeft de Code van Hammurabi gecreëerd?",
       "options": [
-        "George Washington",
-        "Thomas Jefferson",
-        "Abraham Lincoln",
-        "John Adams"
+        "Babylonisch",
+        "Assyrisch",
+        "Fenicisch",
+        "Hettitische"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_nl_061",
       "difficulty": "easy",
-      "category": "Kunst",
-      "question": "Wie maakte het beeld David?",
+      "category": "Popcultuur",
+      "question": "Hoe heet de butler van Batman?",
       "options": [
-        "Michelangelo",
-        "Donatello",
-        "Bernini",
-        "Rodin"
+        "Jakobus",
+        "Alfred",
+        "George",
+        "Eduard"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_nl_062",
       "difficulty": "easy",
-      "category": "Kunst",
-      "question": "Wie schreef '1984'?",
+      "category": "Popcultuur",
+      "question": "Welke franchise bevat Hogwarts?",
       "options": [
-        "George Orwell",
-        "Aldous Huxley",
-        "Ray Bradbury",
-        "J.K. Rowling"
+        "Star Wars",
+        "Harry Potter",
+        "The Matrix",
+        "Avatar"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_nl_063",
       "difficulty": "easy",
-      "category": "Sport",
-      "question": "Hoeveel spelers staan er bij voetbal per team op het veld?",
+      "category": "Popcultuur",
+      "question": "Welke kleur heeft het personage Shrek?",
+      "options": [
+        "Blauw",
+        "Groen",
+        "Paars",
+        "Oranje"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_064",
+      "difficulty": "easy",
+      "category": "Popcultuur",
+      "question": "Welke zanger staat bekend als de Queen of Pop?",
+      "options": [
+        "Madonna",
+        "Adèle",
+        "Rihanna",
+        "Dua Lipa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_065",
+      "difficulty": "easy",
+      "category": "Popcultuur",
+      "question": "Welke superheld wordt ook wel Peter Parker genoemd?",
+      "options": [
+        "Batman",
+        "Spider-Man",
+        "Superman",
+        "IJzeren man"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_066",
+      "difficulty": "easy",
+      "category": "Popcultuur",
+      "question": "In welke film speelt een personage met de naam Elsa?",
+      "options": [
+        "Moana",
+        "Bevroren",
+        "Dapper",
+        "Verward"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_067",
+      "difficulty": "easy",
+      "category": "Popcultuur",
+      "question": "Welke app staat bekend om korte virale video's?",
+      "options": [
+        "TikTok",
+        "LinkedIn",
+        "Dropbox",
+        "Zoomen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_068",
+      "difficulty": "medium",
+      "category": "Popcultuur",
+      "question": "Wat is de fictieve stad waar Batman woont?",
+      "options": [
+        "Metropool",
+        "Gotham-stad",
+        "Sterren stad",
+        "Centrale stad"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_069",
+      "difficulty": "medium",
+      "category": "Popcultuur",
+      "question": "Welke band heeft het album Abbey Road uitgebracht?",
+      "options": [
+        "De Beatles",
+        "Koningin",
+        "ABBA",
+        "De Rollende Stenen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_070",
+      "difficulty": "medium",
+      "category": "Popcultuur",
+      "question": "Wie speelt Jack in de film Titanic uit 1997?",
+      "options": [
+        "Brad Pitt",
+        "Leonardo DiCaprio",
+        "Tom Kruis",
+        "Matt Damon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_071",
+      "difficulty": "medium",
+      "category": "Popcultuur",
+      "question": "In welk tv-programma is koffiebar Central Perk te zien?",
+      "options": [
+        "Vrienden",
+        "Seinfeld",
+        "The Office",
+        "Hoe ik je moeder ontmoette"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_072",
+      "difficulty": "medium",
+      "category": "Popcultuur",
+      "question": "In welke gameserie zit het personage Link?",
+      "options": [
+        "Finale fantasie",
+        "De legende van Zelda",
+        "Pokémon",
+        "Sonisch"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_073",
+      "difficulty": "medium",
+      "category": "Popcultuur",
+      "question": "In welke film staat het citaat May the Force be with you?",
+      "options": [
+        "Star Wars",
+        "StarTrek",
+        "Duin",
+        "Blade Runner"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_074",
+      "difficulty": "medium",
+      "category": "Popcultuur",
+      "question": "Hoe heet de speelgoedcowboy in Toy Story?",
+      "options": [
+        "Zoem",
+        "Bosrijk",
+        "Andy",
+        "Rex"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_075",
+      "difficulty": "hard",
+      "category": "Popcultuur",
+      "question": "Welke acteur speelde Neo in The Matrix?",
+      "options": [
+        "Keanu Reeves",
+        "Johnny Depp",
+        "Nicolaas Cage",
+        "Wil Smit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_076",
+      "difficulty": "hard",
+      "category": "Popcultuur",
+      "question": "Welke artiest heeft het album Lemonade uitgebracht?",
+      "options": [
+        "Beyoncé",
+        "Taylor Swift",
+        "Ariana Grande",
+        "Dame Gaga"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_077",
+      "difficulty": "hard",
+      "category": "Popcultuur",
+      "question": "Wat is de oorspronkelijke naam van Gollum in The Lord of the Rings?",
+      "options": [
+        "Smeagol",
+        "Bilbo",
+        "Deagol",
+        "Faramir"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_078",
+      "difficulty": "hard",
+      "category": "Popcultuur",
+      "question": "In welke animatiefilm staat het nummer Remember Me?",
+      "options": [
+        "Kokos",
+        "Encanto",
+        "Ziel",
+        "Luca"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_079",
+      "difficulty": "hard",
+      "category": "Popcultuur",
+      "question": "Wat is de naam van het fictieve metaal in Black Panther?",
+      "options": [
+        "Adamantium",
+        "Vibranium",
+        "Mithril",
+        "Unobtanium"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_080",
+      "difficulty": "hard",
+      "category": "Popcultuur",
+      "question": "Welke sitcom speelt zich af op Dunder Mifflin?",
+      "options": [
+        "Parken en recreatie",
+        "The Office",
+        "Brooklyn Negen-Negen",
+        "Gemeenschap"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_081",
+      "difficulty": "easy",
+      "category": "Voedsel",
+      "question": "Van welke vrucht wordt traditioneel guacamole gemaakt?",
+      "options": [
+        "Banaan",
+        "Avocado",
+        "Mango",
+        "Kiwi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_082",
+      "difficulty": "easy",
+      "category": "Voedsel",
+      "question": "Waar wordt sushi het meest mee geassocieerd?",
+      "options": [
+        "Japan",
+        "Mexico",
+        "Italië",
+        "Marokko"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_083",
+      "difficulty": "easy",
+      "category": "Voedsel",
+      "question": "Van welke noot wordt marsepein gemaakt?",
+      "options": [
+        "Walnoot",
+        "Hazelnoot",
+        "Amandel",
+        "Pinda"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_084",
+      "difficulty": "easy",
+      "category": "Voedsel",
+      "question": "Wat is het hoofdingrediënt van hummus?",
+      "options": [
+        "Linzen",
+        "Kikkererwten",
+        "Aardappelen",
+        "Rijst"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_085",
+      "difficulty": "easy",
+      "category": "Voedsel",
+      "question": "Welke drank wordt gemaakt door geroosterde bonen te brouwen?",
+      "options": [
+        "Thee",
+        "Koffie",
+        "Limonade",
+        "Cola"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_086",
+      "difficulty": "easy",
+      "category": "Voedsel",
+      "question": "Welk type pasta heeft de vorm van kleine buisjes?",
+      "options": [
+        "Penne",
+        "Spaghetti",
+        "Farfalle",
+        "Lasagne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_087",
+      "difficulty": "easy",
+      "category": "Voedsel",
+      "question": "Welk land staat bekend om taco's?",
+      "options": [
+        "Italië",
+        "Mexico",
+        "Thailand",
+        "Griekenland"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_088",
+      "difficulty": "medium",
+      "category": "Voedsel",
+      "question": "Welk kruid geeft curry zijn gele kleur?",
+      "options": [
+        "Komijn",
+        "Kurkuma",
+        "Paprikapoeder",
+        "Kaneel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_089",
+      "difficulty": "medium",
+      "category": "Voedsel",
+      "question": "Welke kaas wordt traditioneel gebruikt op een Margherita-pizza?",
+      "options": [
+        "Cheddar",
+        "Mozzarella",
+        "Feta",
+        "Gouda"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_090",
+      "difficulty": "medium",
+      "category": "Voedsel",
+      "question": "Waar wordt tofu voornamelijk van gemaakt?",
+      "options": [
+        "Sojabonen",
+        "Rijst",
+        "Maïs",
+        "Pinda's"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_091",
+      "difficulty": "medium",
+      "category": "Voedsel",
+      "question": "Welk dessert is gemaakt met laagjes in koffie gedrenkte lange vingers?",
+      "options": [
+        "Baklava",
+        "Tiramisu",
+        "Pavlova",
+        "Crème brulee"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_092",
+      "difficulty": "medium",
+      "category": "Voedsel",
+      "question": "Wat is het hoofdbestanddeel van zuurkool?",
+      "options": [
+        "Kool",
+        "Wortel",
+        "Komkommer",
+        "Ui"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_093",
+      "difficulty": "medium",
+      "category": "Voedsel",
+      "question": "Welk fruit wordt gedroogd om rozijnen van te maken?",
+      "options": [
+        "Druiven",
+        "Pruimen",
+        "Abrikozen",
+        "Vijgen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_094",
+      "difficulty": "medium",
+      "category": "Voedsel",
+      "question": "Welke saus wordt traditioneel gemaakt met basilicum, pijnboompitten, knoflook, olijfolie en kaas?",
+      "options": [
+        "Pesto",
+        "Salsa",
+        "Hoisin",
+        "Tahin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_095",
+      "difficulty": "hard",
+      "category": "Voedsel",
+      "question": "Welk graan wordt gebruikt om traditionele risotto te maken?",
+      "options": [
+        "Basmati",
+        "Arborio-rijst",
+        "Quinoa",
+        "Bulgur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_096",
+      "difficulty": "hard",
+      "category": "Voedsel",
+      "question": "Welk land is de oorsprong van kimchi?",
+      "options": [
+        "Japan",
+        "China",
+        "Korea",
+        "Vietnam"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_097",
+      "difficulty": "hard",
+      "category": "Voedsel",
+      "question": "Wat is de Franse term voor een dunne pannenkoek?",
+      "options": [
+        "Crêpe",
+        "Brioche",
+        "Eclair",
+        "Macaron"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_098",
+      "difficulty": "hard",
+      "category": "Voedsel",
+      "question": "Welk zuur geeft azijn zijn zure smaak?",
+      "options": [
+        "Citroenzuur",
+        "Azijnzuur",
+        "Melkzuur",
+        "Appelzuur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_099",
+      "difficulty": "hard",
+      "category": "Voedsel",
+      "question": "Wat is het hoofdingrediënt van traditionele falafel?",
+      "options": [
+        "Kikkererwten",
+        "Rundvlees",
+        "Aubergine",
+        "Rijst"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_100",
+      "difficulty": "hard",
+      "category": "Voedsel",
+      "question": "Welk gebak wordt gebruikt om baklava te maken?",
+      "options": [
+        "Bladerdeeg",
+        "Filodeeg",
+        "Zandkorst",
+        "Choux-gebak"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_101",
+      "difficulty": "easy",
+      "category": "Dieren",
+      "question": "Wat is het grootste landdier?",
+      "options": [
+        "Olifant",
+        "Nijlpaard",
+        "Neushoorn",
+        "Giraf"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_102",
+      "difficulty": "easy",
+      "category": "Dieren",
+      "question": "Welk dier staat bekend om zijn zwart-witte strepen?",
+      "options": [
+        "Zebra",
+        "Tijger",
+        "Panda",
+        "Stinkdier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_103",
+      "difficulty": "easy",
+      "category": "Dieren",
+      "question": "Wat maken bijen?",
+      "options": [
+        "Melk",
+        "Honing",
+        "Zijde",
+        "Alleen was"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_104",
+      "difficulty": "easy",
+      "category": "Dieren",
+      "question": "Welk dier is een zoogdier?",
+      "options": [
+        "Haai",
+        "Kikker",
+        "Dolfijn",
+        "Krokodil"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_105",
+      "difficulty": "easy",
+      "category": "Dieren",
+      "question": "Hoe heet een babykat?",
+      "options": [
+        "Pup",
+        "Katje",
+        "Kalf",
+        "Veulen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_106",
+      "difficulty": "easy",
+      "category": "Dieren",
+      "question": "Welke vogel wordt in verhalen vaak geassocieerd met het ter wereld brengen van baby's?",
+      "options": [
+        "Adelaar",
+        "Ooievaar",
+        "Uil",
+        "Zwaan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_107",
+      "difficulty": "easy",
+      "category": "Dieren",
+      "question": "Welk dier staat bekend om zijn kleurverandering?",
+      "options": [
+        "Kameleon",
+        "Koala",
+        "Pinguïn",
+        "Kameel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_108",
+      "difficulty": "medium",
+      "category": "Dieren",
+      "question": "Wat is het snelste landdier?",
+      "options": [
+        "Cheetah",
+        "Leeuw",
+        "Paard",
+        "Kangoeroe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_109",
+      "difficulty": "medium",
+      "category": "Dieren",
+      "question": "Welk dier heeft de langste nek?",
+      "options": [
+        "Giraf",
+        "Struisvogel",
+        "Kameel",
+        "Lama"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_110",
+      "difficulty": "medium",
+      "category": "Dieren",
+      "question": "Hoe heet een groep leeuwen in het Engels?",
+      "options": [
+        "Pack",
+        "Herd",
+        "Pride",
+        "Flock"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_111",
+      "difficulty": "medium",
+      "category": "Dieren",
+      "question": "Welk zeedier heeft drie harten?",
+      "options": [
+        "Octopus",
+        "Dolfijn",
+        "Zeeschildpad",
+        "Kwallen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_112",
+      "difficulty": "medium",
+      "category": "Dieren",
+      "question": "Wat eten panda's vooral?",
+      "options": [
+        "Bamboe",
+        "Vis",
+        "Gras",
+        "Vruchten"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_113",
+      "difficulty": "medium",
+      "category": "Dieren",
+      "question": "Welk dier legt de grootste eieren?",
+      "options": [
+        "Struisvogel",
+        "Adelaar",
+        "Pinguïn",
+        "Albatros"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_114",
+      "difficulty": "medium",
+      "category": "Dieren",
+      "question": "Welk insect kan vele malen zijn eigen lichaamsgewicht tillen?",
+      "options": [
+        "Vlinder",
+        "Mier",
+        "Mug",
+        "Lieveheersbeestje"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_115",
+      "difficulty": "hard",
+      "category": "Dieren",
+      "question": "Wat is het enige zoogdier dat echt kan vliegen?",
+      "options": [
+        "Vliegende eekhoorn",
+        "Vleermuis",
+        "Suiker zweefvliegtuig",
+        "Maki"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_116",
+      "difficulty": "hard",
+      "category": "Dieren",
+      "question": "Welk dier wordt ook wel het schip van de woestijn genoemd?",
+      "options": [
+        "Kameel",
+        "Ezel",
+        "Paard",
+        "Jak"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_117",
+      "difficulty": "hard",
+      "category": "Dieren",
+      "question": "Wat is de grootste haaiensoort?",
+      "options": [
+        "Grote witte haai",
+        "Walvishaai",
+        "Hamerhaai",
+        "Tijgerhaai"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_118",
+      "difficulty": "hard",
+      "category": "Dieren",
+      "question": "Welke vogel kan menselijke spraak bijzonder goed nabootsen?",
+      "options": [
+        "Papegaai",
+        "Pinguïn",
+        "Flamingo",
+        "Mus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_119",
+      "difficulty": "hard",
+      "category": "Dieren",
+      "question": "Hoe heet de studie van vogels?",
+      "options": [
+        "Entomologie",
+        "Ornithologie",
+        "Ichtyologie",
+        "Herpetologie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_120",
+      "difficulty": "hard",
+      "category": "Dieren",
+      "question": "Welk dier heeft vingerafdrukken die erg op mensen lijken?",
+      "options": [
+        "Koala",
+        "Kangoeroe",
+        "Panda",
+        "Luiaard"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_121",
+      "difficulty": "easy",
+      "category": "Wiskunde",
+      "question": "Hoeveel is 9 keer 9?",
+      "options": [
+        "72",
+        "81",
+        "90",
+        "99"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_122",
+      "difficulty": "easy",
+      "category": "Wiskunde",
+      "question": "Hoeveel zijden heeft een driehoek?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_123",
+      "difficulty": "easy",
+      "category": "Wiskunde",
+      "question": "Wat is de helft van 100?",
+      "options": [
+        "25",
+        "40",
+        "50",
+        "75"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_124",
+      "difficulty": "easy",
+      "category": "Wiskunde",
+      "question": "Hoeveel is 12 plus 15?",
+      "options": [
+        "25",
+        "27",
+        "29",
+        "31"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_125",
+      "difficulty": "easy",
+      "category": "Wiskunde",
+      "question": "Hoeveel minuten zitten er in één uur?",
+      "options": [
+        "30",
+        "45",
+        "60",
+        "90"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_126",
+      "difficulty": "easy",
+      "category": "Wiskunde",
+      "question": "Wat is 7 kwadraat?",
+      "options": [
+        "14",
+        "21",
+        "49",
+        "77"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_127",
+      "difficulty": "easy",
+      "category": "Wiskunde",
+      "question": "Hoeveel graden zijn er in een rechte hoek?",
+      "options": [
+        "45",
+        "60",
+        "90",
+        "180"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_128",
+      "difficulty": "medium",
+      "category": "Wiskunde",
+      "question": "Wat is de waarde van pi, afgerond op twee decimalen?",
+      "options": [
+        "3.12",
+        "3.14",
+        "3.16",
+        "3.18"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_129",
+      "difficulty": "medium",
+      "category": "Wiskunde",
+      "question": "Hoeveel is 15 procent van 200?",
+      "options": [
+        "15",
+        "20",
+        "30",
+        "40"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_130",
+      "difficulty": "medium",
+      "category": "Wiskunde",
+      "question": "Hoeveel zijden heeft een zeshoek?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_131",
+      "difficulty": "medium",
+      "category": "Wiskunde",
+      "question": "Wat is de wortel van 144?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_132",
+      "difficulty": "medium",
+      "category": "Wiskunde",
+      "question": "Wat is 3 in blokjes?",
+      "options": [
+        "9",
+        "18",
+        "27",
+        "81"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_133",
+      "difficulty": "medium",
+      "category": "Wiskunde",
+      "question": "Wat is het volgende priemgetal na 7?",
       "options": [
         "9",
         "10",
@@ -823,912 +1733,1393 @@
       "correctIndex": 2
     },
     {
-      "id": "tb_nl_064",
-      "difficulty": "easy",
-      "category": "Dieren",
-      "question": "Welke vogel is het grootst?",
-      "options": [
-        "Struisvogel",
-        "Arend",
-        "Pinguïn",
-        "Zwaan"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_nl_065",
-      "difficulty": "easy",
-      "category": "Wetenschap",
-      "question": "Wat is H2O?",
-      "options": [
-        "Water",
-        "Waterstof",
-        "Zuurstof",
-        "Zout"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_nl_066",
-      "difficulty": "easy",
-      "category": "Technologie",
-      "question": "Waar staat GPS voor?",
-      "options": [
-        "Global Positioning System",
-        "General Packet Service",
-        "Geographic Positioning Software",
-        "Global Postal Service"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_nl_067",
-      "difficulty": "easy",
+      "id": "tb_nl_134",
+      "difficulty": "medium",
       "category": "Wiskunde",
-      "question": "Wat is 12 x 12?",
+      "question": "Hoeveel centimeter zitten er in één meter?",
       "options": [
-        "124",
-        "132",
-        "144",
-        "156"
+        "10",
+        "100",
+        "1000",
+        "10000"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_135",
+      "difficulty": "hard",
+      "category": "Wiskunde",
+      "question": "Wat is de som van de binnenhoeken van een driehoek?",
+      "options": [
+        "90 graden",
+        "180 graden",
+        "270 graden",
+        "360 graden"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_136",
+      "difficulty": "hard",
+      "category": "Wiskunde",
+      "question": "Wat is 2 tot de macht 10?",
+      "options": [
+        "512",
+        "1024",
+        "2048",
+        "4096"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_137",
+      "difficulty": "hard",
+      "category": "Wiskunde",
+      "question": "Wat is het kleinste priemgetal?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
       ],
       "correctIndex": 2
     },
     {
-      "id": "tb_nl_068",
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Op welk continent ligt Brazilië?",
-      "options": [
-        "Zuid-Amerika",
-        "Noord-Amerika",
-        "Europa",
-        "Afrika"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_nl_069",
-      "difficulty": "easy",
-      "category": "Eten",
-      "question": "Wat is het hoofdingrediënt van hummus?",
-      "options": [
-        "Kikkererwten",
-        "Linzen",
-        "Aardappelen",
-        "Rijst"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_nl_070",
-      "difficulty": "easy",
-      "category": "Wetenschap",
-      "question": "Hoeveel planeten heeft ons zonnestelsel?",
-      "options": [
-        "7",
-        "8",
-        "9",
-        "10"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_nl_071",
-      "difficulty": "easy",
-      "category": "Kunst",
-      "question": "Wie schilderde 'De Schreeuw'?",
-      "options": [
-        "Edvard Munch",
-        "Pablo Picasso",
-        "Vincent van Gogh",
-        "Claude Monet"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_nl_072",
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Wat is de hoofdstad van Egypte?",
-      "options": [
-        "Caïro",
-        "Alexandrië",
-        "Gizeh",
-        "Luxor"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_nl_073",
-      "difficulty": "easy",
-      "category": "Technologie",
-      "question": "Waar staat USB voor?",
-      "options": [
-        "Universal Serial Bus",
-        "Unified System Board",
-        "Universal Sync Bridge",
-        "United Serial Base"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_nl_074",
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Wat is de hoofdstad van Noorwegen?",
-      "options": [
-        "Oslo",
-        "Bergen",
-        "Trondheim",
-        "Stavanger"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_nl_075",
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Wat is de hoofdstad van Thailand?",
-      "options": [
-        "Bangkok",
-        "Chiang Mai",
-        "Phuket",
-        "Pattaya"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_nl_076",
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Wat is de munteenheid van Canada?",
-      "options": [
-        "Canadese dollar",
-        "Euro",
-        "Peso",
-        "Yen"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_nl_077",
-      "difficulty": "easy",
-      "category": "Wetenschap",
-      "question": "Welk deel van een plant is vooral verantwoordelijk voor fotosynthese?",
-      "options": [
-        "Blad",
-        "Wortel",
-        "Stengel",
-        "Bloem"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_nl_078",
-      "difficulty": "easy",
-      "category": "Technologie",
-      "question": "Wie heeft de telefoon uitgevonden?",
-      "options": [
-        "Alexander Graham Bell",
-        "Thomas Edison",
-        "Nikola Tesla",
-        "Guglielmo Marconi"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_nl_079",
-      "difficulty": "easy",
-      "category": "Kunst",
-      "question": "Wie schilderde Meisje met de parel?",
-      "options": [
-        "Johannes Vermeer",
-        "Rembrandt",
-        "Vincent van Gogh",
-        "Pablo Picasso"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_nl_080",
-      "difficulty": "easy",
-      "category": "Dieren",
-      "question": "Welk dier staat bekend om het bouwen van dammen?",
-      "options": [
-        "Bever",
-        "Otter",
-        "Vos",
-        "Hert"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_nl_081",
-      "difficulty": "easy",
-      "category": "Sport",
-      "question": "Wimbledon is een toernooi in welke sport?",
-      "options": [
-        "Tennis",
-        "Golf",
-        "Cricket",
-        "Rugby"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_nl_082",
-      "difficulty": "easy",
+      "id": "tb_nl_138",
+      "difficulty": "hard",
       "category": "Wiskunde",
-      "question": "Wat is 7 x 8?",
+      "question": "Wat is 1 gedeeld door 4 als decimaal?",
       "options": [
-        "54",
-        "56",
-        "58",
-        "64"
+        "0.2",
+        "0.25",
+        "0.4",
+        "0.5"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_nl_083",
-      "difficulty": "easy",
-      "category": "Eten",
-      "question": "Waarvan wordt tofu gemaakt?",
+      "id": "tb_nl_139",
+      "difficulty": "hard",
+      "category": "Wiskunde",
+      "question": "Hoeveel vlakken heeft een kubus?",
       "options": [
-        "Sojabonen",
-        "Rijst",
-        "Tarwe",
-        "Kikkererwten"
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_140",
+      "difficulty": "hard",
+      "category": "Wiskunde",
+      "question": "Wat is het Romeinse cijfer voor 50?",
+      "options": [
+        "L",
+        "C",
+        "D",
+        "M"
       ],
       "correctIndex": 0
     },
     {
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Wat is de hoofdstad van Nieuw-Zeeland?",
-      "options": [
-        "Wellington",
-        "Auckland",
-        "Christchurch",
-        "Queenstown"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_084"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Wetenschap",
-      "question": "Welk element heeft het chemisch symbool K?",
-      "options": [
-        "Kalium",
-        "Krypton",
-        "Calcium",
-        "Zink"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_085"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Geschiedenis",
-      "question": "Welke beschaving bouwde Machu Picchu?",
-      "options": [
-        "Inca",
-        "Maya",
-        "Azteken",
-        "Olmeken"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_086"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Kunst",
-      "question": "Hoe heet de Japanse kunst van papiervouwen?",
-      "options": [
-        "Origami",
-        "Ikebana",
-        "Kalligrafie",
-        "Kabuki"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_087"
-    },
-    {
+      "id": "tb_nl_141",
       "difficulty": "easy",
       "category": "Muziek",
-      "question": "Hoeveel snaren heeft een standaardviool?",
+      "question": "Hoeveel snaren heeft een standaardgitaar meestal?",
       "options": [
         "4",
         "5",
         "6",
         "7"
       ],
-      "correctIndex": 0,
-      "id": "tb_nl_088"
+      "correctIndex": 2
     },
     {
+      "id": "tb_nl_142",
       "difficulty": "easy",
-      "category": "Technologie",
-      "question": "Waar staat de afkorting CPU voor?",
+      "category": "Muziek",
+      "question": "Welk instrument heeft zwarte en witte toetsen?",
       "options": [
-        "Central Processing Unit",
-        "Computer Power Unit",
-        "Core Performance Utility",
-        "Central Program User"
+        "Gitaar",
+        "Piano",
+        "Viool",
+        "Trommel"
       ],
-      "correctIndex": 0,
-      "id": "tb_nl_089"
+      "correctIndex": 1
     },
     {
+      "id": "tb_nl_143",
       "difficulty": "easy",
-      "category": "Eten",
-      "question": "Welke specerij komt van gedroogde bloemknoppen?",
+      "category": "Muziek",
+      "question": "Wie staat bekend als de King of Pop?",
       "options": [
-        "Kruidnagel",
-        "Peper",
-        "Kaneel",
-        "Nootmuskaat"
+        "Elvis Presley",
+        "Michaël Jackson",
+        "Prins",
+        "Stevie Wonder"
       ],
-      "correctIndex": 0,
-      "id": "tb_nl_090"
+      "correctIndex": 1
     },
     {
+      "id": "tb_nl_144",
       "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Welke zee ligt tussen Afrika en het Arabisch Schiereiland?",
+      "category": "Muziek",
+      "question": "Hoe noem je een groep zangers?",
       "options": [
-        "Rode Zee",
-        "Zwarte Zee",
-        "Kaspische Zee",
-        "Adriatische Zee"
+        "Koor",
+        "Verband",
+        "Gegoten",
+        "Bemanning"
       ],
-      "correctIndex": 0,
-      "id": "tb_nl_091"
+      "correctIndex": 0
     },
     {
+      "id": "tb_nl_145",
       "difficulty": "easy",
-      "category": "Wetenschap",
-      "question": "Welk instrument registreert aardbevingen?",
+      "category": "Muziek",
+      "question": "Welk instrument wordt met een strijkstok bespeeld?",
       "options": [
-        "Seismograaf",
-        "Barometer",
-        "Anemometer",
-        "Hygrometer"
+        "Trompet",
+        "Viool",
+        "Piano",
+        "Fluit"
       ],
-      "correctIndex": 0,
-      "id": "tb_nl_092"
+      "correctIndex": 1
     },
     {
+      "id": "tb_nl_146",
       "difficulty": "easy",
-      "category": "Sport",
-      "question": "De Tour de France is een wedstrijd in welke sport?",
+      "category": "Muziek",
+      "question": "Wat is de naam voor de snelheid van muziek?",
       "options": [
-        "Wielrennen",
-        "Tennis",
-        "Rugby",
-        "Skiën"
+        "Tempo",
+        "Standplaats",
+        "Harmonie",
+        "Ritme"
       ],
-      "correctIndex": 0,
-      "id": "tb_nl_093"
+      "correctIndex": 0
     },
     {
+      "id": "tb_nl_147",
       "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Wat is de hoofdstad van Portugal?",
+      "category": "Muziek",
+      "question": "Welk muziekformaat ging voor veel luisteraars vóór cd's?",
       "options": [
-        "Lissabon",
-        "Porto",
-        "Faro",
-        "Braga"
+        "Cassette",
+        "Blu-ray",
+        "Podcast",
+        "E-boek"
       ],
-      "correctIndex": 0,
-      "id": "tb_nl_094"
+      "correctIndex": 0
     },
     {
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Wat is de hoofdstad van Griekenland?",
+      "id": "tb_nl_148",
+      "difficulty": "medium",
+      "category": "Muziek",
+      "question": "Welke componist schreef de Maanlichtsonate?",
       "options": [
-        "Athene",
-        "Thessaloniki",
-        "Patras",
-        "Heraklion"
+        "Mozart",
+        "Beethoven",
+        "Bach",
+        "Chopin"
       ],
-      "correctIndex": 0,
-      "id": "tb_nl_095"
+      "correctIndex": 1
     },
     {
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Wat is de hoofdstad van Peru?",
+      "id": "tb_nl_149",
+      "difficulty": "medium",
+      "category": "Muziek",
+      "question": "Hoeveel noten zitten er in een standaard majeur toonladder?",
       "options": [
-        "Lima",
-        "Cusco",
-        "Arequipa",
-        "Trujillo"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_096"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Wat is de hoofdstad van Zweden?",
-      "options": [
-        "Stockholm",
-        "Göteborg",
-        "Malmö",
-        "Uppsala"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_097"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Wat is de hoofdstad van Ierland?",
-      "options": [
-        "Dublin",
-        "Cork",
-        "Galway",
-        "Limerick"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_098"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Welke munt gebruikt Zwitserland?",
-      "options": [
-        "Zwitserse frank",
-        "euro",
-        "kroon",
-        "dollar"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_099"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Welke munt gebruikt China?",
-      "options": [
-        "yuan",
-        "yen",
-        "won",
-        "baht"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_100"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Welke munt gebruikt Mexico?",
-      "options": [
-        "peso",
-        "real",
-        "sol",
-        "roepie"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_101"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Welk continent is het grootst qua oppervlakte?",
-      "options": [
-        "Azië",
-        "Afrika",
-        "Europa",
-        "Zuid-Amerika"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_102"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Welk continent is het kleinst?",
-      "options": [
-        "Australië",
-        "Europa",
-        "Zuid-Amerika",
-        "Afrika"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_103"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Welke oceaan is het kleinst?",
-      "options": [
-        "Noordelijke IJszee",
-        "Atlantische Oceaan",
-        "Stille Oceaan",
-        "Indische Oceaan"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_104"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Welke berg is de hoogste ter wereld?",
-      "options": [
-        "Mount Everest",
-        "K2",
-        "Kangchenjunga",
-        "Lhotse"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_105"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Welke zee ligt tussen Europa en Afrika?",
-      "options": [
-        "Middellandse Zee",
-        "Zwarte Zee",
-        "Rode Zee",
-        "Caribische Zee"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_106"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Op welk continent ligt de Sahara?",
-      "options": [
-        "Afrika",
-        "Azië",
-        "Europa",
-        "Zuid-Amerika"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_107"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "Welke rivier stroomt door Parijs?",
-      "options": [
-        "Seine",
-        "Rijn",
-        "Donau",
-        "Elbe"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_108"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "In welke regio ligt de Gobi-woestijn?",
-      "options": [
-        "Mongolië en China",
-        "India en Pakistan",
-        "Iran en Irak",
-        "Egypte en Libië"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_109"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "In welk land ligt Petra?",
-      "options": [
-        "Jordanië",
-        "Libanon",
-        "Syrië",
-        "Irak"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_110"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Aardrijkskunde",
-      "question": "In welk land staat de Eiffeltoren?",
-      "options": [
-        "Frankrijk",
-        "Italië",
-        "Spanje",
-        "België"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_111"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Wetenschap",
-      "question": "Welke planeet wordt de ‘Blauwe Planeet’ genoemd?",
-      "options": [
-        "Aarde",
-        "Neptunus",
-        "Uranus",
-        "Mars"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_112"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Wetenschap",
-      "question": "Welke vitamine maakt het lichaam aan door zonlicht?",
-      "options": [
-        "Vitamine D",
-        "Vitamine C",
-        "Vitamine A",
-        "Vitamine B12"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_113"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Wetenschap",
-      "question": "Wat is het chemische symbool voor natrium?",
-      "options": [
-        "Na",
-        "Ni",
-        "Sn",
-        "Ne"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_114"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Wetenschap",
-      "question": "Welk element heeft atoomnummer 6?",
-      "options": [
-        "Koolstof",
-        "Zuurstof",
-        "Stikstof",
-        "Boor"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_115"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Wetenschap",
-      "question": "Hoe heet het proces waarmee planten voedsel maken?",
-      "options": [
-        "Fotosynthese",
-        "Gisting",
-        "Verdamping",
-        "Ademhaling"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_116"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Wetenschap",
-      "question": "Welk deel van het oog regelt de hoeveelheid licht?",
-      "options": [
-        "Iris",
-        "Lens",
-        "Netvlies",
-        "Hoornvlies"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_117"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Wetenschap",
-      "question": "Welk orgaan filtert het bloed?",
-      "options": [
-        "Nieren",
-        "Lever",
-        "Longen",
-        "Maag"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_118"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Wetenschap",
-      "question": "Wat is het grootste orgaan van het menselijk lichaam?",
-      "options": [
-        "Huid",
-        "Lever",
-        "Hart",
-        "Longen"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_119"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Wetenschap",
-      "question": "Welk gas hebben mensen nodig om te ademen?",
-      "options": [
-        "Zuurstof",
-        "Koolstofdioxide",
-        "Helium",
-        "Stikstof"
-      ],
-      "correctIndex": 0,
-      "id": "tb_nl_120"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Wiskunde",
-      "question": "Hoeveel zijden heeft een zeshoek?",
-      "options": [
-        "6",
         "5",
+        "6",
         "7",
         "8"
       ],
-      "correctIndex": 0,
-      "id": "tb_nl_121"
+      "correctIndex": 2
     },
     {
-      "difficulty": "easy",
-      "category": "Wiskunde",
-      "question": "Wat is 15 + 27?",
+      "id": "tb_nl_150",
+      "difficulty": "medium",
+      "category": "Muziek",
+      "question": "Welke band had Freddie Mercury als leadzanger?",
       "options": [
-        "42",
-        "32",
-        "40",
-        "45"
+        "Koningin",
+        "U2",
+        "Nirvana",
+        "Oase"
       ],
-      "correctIndex": 0,
-      "id": "tb_nl_122"
+      "correctIndex": 0
     },
     {
-      "difficulty": "easy",
-      "category": "Eten",
-      "question": "Waarvan wordt pesto traditioneel gemaakt?",
+      "id": "tb_nl_151",
+      "difficulty": "medium",
+      "category": "Muziek",
+      "question": "Waar staat DJ voor?",
       "options": [
-        "Basilicum",
-        "Peterselie",
-        "Koriander",
-        "Dille"
+        "Discjockey",
+        "Dans rechter",
+        "Digitale jam",
+        "Drum-jumper"
       ],
-      "correctIndex": 0,
-      "id": "tb_nl_123"
+      "correctIndex": 0
     },
     {
-      "difficulty": "easy",
-      "category": "Eten",
-      "question": "Sushi wordt traditioneel gemaakt met welk graan?",
+      "id": "tb_nl_152",
+      "difficulty": "medium",
+      "category": "Muziek",
+      "question": "Welk instrument is Yo-Yo Ma beroemd om zijn bespeling?",
       "options": [
-        "Rijst",
-        "Tarwe",
-        "Gerst",
-        "Maïs"
+        "Cello",
+        "Viool",
+        "Piano",
+        "Klarinet"
       ],
-      "correctIndex": 0,
-      "id": "tb_nl_124"
+      "correctIndex": 0
     },
     {
-      "difficulty": "easy",
-      "category": "Sport",
-      "question": "In welke sport gebruik je een puck?",
+      "id": "tb_nl_153",
+      "difficulty": "medium",
+      "category": "Muziek",
+      "question": "Wat is een duet?",
       "options": [
-        "IJshockey",
-        "Basketbal",
-        "Handbal",
-        "Honkbal"
+        "Een lied voor twee artiesten",
+        "Een snelle drumbeat",
+        "Een muziekprijs",
+        "Een podiumlicht"
       ],
-      "correctIndex": 0,
-      "id": "tb_nl_125"
+      "correctIndex": 0
     },
     {
-      "difficulty": "easy",
-      "category": "Sport",
-      "question": "De Super Bowl is de finale van welke sport?",
+      "id": "tb_nl_154",
+      "difficulty": "medium",
+      "category": "Muziek",
+      "question": "Welk genre wordt vaak geassocieerd met improvisatie en swing?",
       "options": [
-        "American football",
-        "Honkbal",
-        "Basketbal",
-        "IJshockey"
+        "Jazz",
+        "Metaal",
+        "Oper",
+        "Reggae"
       ],
-      "correctIndex": 0,
-      "id": "tb_nl_126"
+      "correctIndex": 0
     },
     {
-      "difficulty": "easy",
-      "category": "Sport",
-      "question": "In welke sport sla je vanaf een tee met een club?",
+      "id": "tb_nl_155",
+      "difficulty": "hard",
+      "category": "Muziek",
+      "question": "Welke componist uit de klassieke periode schreef De Vier Jaargetijden?",
       "options": [
-        "Golf",
-        "Cricket",
-        "Hockey",
-        "Polo"
+        "Vivaldi",
+        "Händel",
+        "Haydn",
+        "Schubert"
       ],
-      "correctIndex": 0,
-      "id": "tb_nl_127"
+      "correctIndex": 0
     },
     {
+      "id": "tb_nl_156",
+      "difficulty": "hard",
+      "category": "Muziek",
+      "question": "Wat is de laagste standaard zangstem voor mannen?",
+      "options": [
+        "Tenor",
+        "Bariton",
+        "Bas",
+        "Alt"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_157",
+      "difficulty": "hard",
+      "category": "Muziek",
+      "question": "Welke noot ligt een halve toon boven C?",
+      "options": [
+        "B",
+        "C scherp",
+        "D",
+        "E plat"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_158",
+      "difficulty": "hard",
+      "category": "Muziek",
+      "question": "Wat is de term voor geleidelijk luider worden?",
+      "options": [
+        "Crescendo",
+        "Verkleining",
+        "Legato",
+        "Staccato"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_159",
+      "difficulty": "hard",
+      "category": "Muziek",
+      "question": "Welke stad wordt sterk geassocieerd met de geboorte van de jazz?",
+      "options": [
+        "Nieuw-Orleans",
+        "Seattle",
+        "Nashville",
+        "Detroit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_160",
+      "difficulty": "hard",
+      "category": "Muziek",
+      "question": "Hoe heet het symbool dat aan het begin van een notenbalk staat?",
+      "options": [
+        "Sleutel",
+        "Fret",
+        "Brug",
+        "Klep"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_161",
       "difficulty": "easy",
       "category": "Kunst",
-      "question": "Wie schreef «The Hobbit»?",
+      "question": "Wie schilderde de Mona Lisa?",
       "options": [
-        "J.R.R. Tolkien",
-        "C.S. Lewis",
-        "J.K. Rowling",
-        "George R.R. Martin"
+        "Vincent van Gogh",
+        "Leonardo da Vinci",
+        "Pablo Picasso",
+        "Claude Monet"
       ],
-      "correctIndex": 0,
-      "id": "tb_nl_128"
+      "correctIndex": 1
     },
     {
+      "id": "tb_nl_162",
       "difficulty": "easy",
       "category": "Kunst",
-      "question": "Wie schilderde «Guernica»?",
+      "question": "Welke kleur krijg je door rood en blauw te mengen?",
+      "options": [
+        "Groen",
+        "Paars",
+        "Oranje",
+        "Bruin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_163",
+      "difficulty": "easy",
+      "category": "Kunst",
+      "question": "Welk gereedschap wordt gebruikt om verf op een canvas aan te brengen?",
+      "options": [
+        "Hamer",
+        "Penseel",
+        "Kompas",
+        "Naald"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_164",
+      "difficulty": "easy",
+      "category": "Kunst",
+      "question": "Wat is een sculptuur meestal driedimensionaal?",
+      "options": [
+        "Ja",
+        "Nee",
+        "Alleen op foto's",
+        "Alleen op papier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_165",
+      "difficulty": "easy",
+      "category": "Kunst",
+      "question": "Welk museum herbergt de Mona Lisa?",
+      "options": [
+        "Louvre",
+        "Prado",
+        "Tate Modern",
+        "Uffizi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_166",
+      "difficulty": "easy",
+      "category": "Kunst",
+      "question": "Hoe heet de kunst van het vouwen van papier?",
+      "options": [
+        "Origami",
+        "Kalligrafie",
+        "Mozaïek",
+        "Graffiti"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_167",
+      "difficulty": "easy",
+      "category": "Kunst",
+      "question": "Welke kleur ontstaat door rood en geel te mengen?",
+      "options": [
+        "Blauw",
+        "Oranje",
+        "Paars",
+        "Wit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_168",
+      "difficulty": "medium",
+      "category": "Kunst",
+      "question": "Wie schilderde Sterrennacht?",
       "options": [
         "Pablo Picasso",
-        "Salvador Dalí",
-        "Claude Monet",
-        "Vincent van Gogh"
+        "Vincent van Gogh",
+        "Salvador Dali",
+        "Rembrandt"
       ],
-      "correctIndex": 0,
-      "id": "tb_nl_129"
+      "correctIndex": 1
     },
     {
-      "difficulty": "easy",
+      "id": "tb_nl_169",
+      "difficulty": "medium",
       "category": "Kunst",
-      "question": "Wie schreef «De kleine prins»?",
+      "question": "Welke kunstenaar staat bekend om het smelten van klokken?",
       "options": [
-        "Antoine de Saint-Exupéry",
-        "Jules Verne",
-        "Victor Hugo",
-        "Albert Camus"
+        "Salvador Dali",
+        "Frida Kahlo",
+        "Andy Warhol",
+        "Banksy"
       ],
-      "correctIndex": 0,
-      "id": "tb_nl_130"
+      "correctIndex": 0
     },
     {
-      "id": "tb_nl_131",
+      "id": "tb_nl_170",
+      "difficulty": "medium",
+      "category": "Kunst",
+      "question": "Wat is kalligrafie?",
+      "options": [
+        "Decoratief handschrift",
+        "Steenhouwen",
+        "Muurschildering",
+        "Fotobewerking"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_171",
+      "difficulty": "medium",
+      "category": "Kunst",
+      "question": "Welke kunststroming wordt geassocieerd met Claude Monet?",
+      "options": [
+        "Kubisme",
+        "Impressionisme",
+        "Surrealisme",
+        "Pop-art"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_172",
+      "difficulty": "medium",
+      "category": "Kunst",
+      "question": "Wat is een zelfportret?",
+      "options": [
+        "Een foto van de kunstenaar door de kunstenaar",
+        "Een landschap",
+        "Een groepsfoto",
+        "Een sculptuurbasis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_173",
+      "difficulty": "medium",
+      "category": "Kunst",
+      "question": "Welk materiaal wordt vaak gebruikt in aardewerk?",
+      "options": [
+        "Klei",
+        "Alleen glas",
+        "Rubber",
+        "Papier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_174",
+      "difficulty": "medium",
+      "category": "Kunst",
+      "question": "Wat is de hoofdkleur in een monochroom kunstwerk?",
+      "options": [
+        "Eén kleur",
+        "Twee kleuren",
+        "Alle kleuren",
+        "Geen kleur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_175",
+      "difficulty": "hard",
+      "category": "Kunst",
+      "question": "Welke kunstenaar schilderde Guernica?",
+      "options": [
+        "Pablo Picasso",
+        "Henri Matisse",
+        "Paul Cezanne",
+        "Edvard Munch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_176",
+      "difficulty": "hard",
+      "category": "Kunst",
+      "question": "Welke Italiaanse stad is beroemd om de renaissancekunst en de Galleria degli Uffizi?",
+      "options": [
+        "Firenze",
+        "Venetië",
+        "Milaan",
+        "Napels"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_177",
+      "difficulty": "hard",
+      "category": "Kunst",
+      "question": "Waarop wordt fresco geschilderd?",
+      "options": [
+        "Natte gips",
+        "Glas",
+        "Metaal",
+        "Zijde"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_178",
+      "difficulty": "hard",
+      "category": "Kunst",
+      "question": "Welke kunstenaar heeft The Persistence of Memory gemaakt?",
+      "options": [
+        "Salvador Dali",
+        "Joan Miro",
+        "René Magritte",
+        "Jackson Pollock"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_179",
+      "difficulty": "hard",
+      "category": "Kunst",
+      "question": "Welke drukmethode maakt gebruik van een uitgesneden blok?",
+      "options": [
+        "Houtsnede",
+        "Waterverf",
+        "Collage",
+        "Airbrush"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_180",
+      "difficulty": "hard",
+      "category": "Kunst",
+      "question": "Waar gaat clair-obscur over?",
+      "options": [
+        "Licht en schaduw",
+        "Geluid en ritme",
+        "Alleen kleur",
+        "Perspectiefrasters"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_181",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Hoeveel spelers staan er op het veld voor één voetbalteam?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_182",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Welke sport maakt gebruik van een racket en een shuttle?",
+      "options": [
+        "Tennis",
+        "Badminton",
+        "Pompoen",
+        "Tafeltennis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_183",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Hoeveel punten is een vrije worp waard bij basketbal?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_184",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Welke sport wordt er gespeeld op Wimbledon?",
+      "options": [
+        "Krekel",
+        "Tennis",
+        "Golfen",
+        "Rugby"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_185",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Hoeveel ringen staan er op de Olympische vlag?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_186",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Welke sport gebruikt een puck?",
+      "options": [
+        "IJshockey",
+        "Honkbal",
+        "Volleybal",
+        "Boksen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_187",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Wat passeren lopers tijdens een estafetteloop?",
+      "options": [
+        "Bal",
+        "Baton",
+        "Vlag",
+        "Handschoen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_188",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "In welke sport is de Tour de France een wedstrijd?",
+      "options": [
+        "Rennen",
+        "Fietsen",
+        "Zwemmen",
+        "Skiën"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_189",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Hoeveel spelers zitten er in een standaard honkbalteam op het veld?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_190",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Welk land heeft de meeste FIFA Wereldbekers in herenvoetbal gewonnen?",
+      "options": [
+        "Duitsland",
+        "Argentinië",
+        "Brazilië",
+        "Italië"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_nl_191",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Welke score komt bij tennis na deuce?",
+      "options": [
+        "Voordeel",
+        "Liefde",
+        "Stel punt in",
+        "Pauze"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_192",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Bij welke sport wordt een paard met bogen gebruikt?",
+      "options": [
+        "Gymnastiek",
+        "Paardensport",
+        "Polo",
+        "Schermen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_193",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Wat is een hattrick in het voetbal?",
+      "options": [
+        "Drie doelpunten van één speler",
+        "Drie gele kaarten",
+        "Drie vervangingen",
+        "Drie hoeken"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_194",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Welke sport wordt geassocieerd met de Stanley Cup?",
+      "options": [
+        "Basketbal",
+        "IJshockey",
+        "Honkbal",
+        "Rugby"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_195",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Hoe lang is een Olympisch zwembad?",
+      "options": [
+        "25 meter",
+        "50 meter",
+        "75 meter",
+        "100 meter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_196",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Hoe heet één slag onder par bij golf?",
+      "options": [
+        "Bogey",
+        "Vogeltje",
+        "Adelaar",
+        "Albatros"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_197",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Welk land organiseerde in 1896 de eerste moderne Olympische Spelen?",
+      "options": [
+        "Frankrijk",
+        "Griekenland",
+        "Verenigd Koninkrijk",
+        "Italië"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_198",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Wat is de maximale break bij snooker?",
+      "options": [
+        "120",
+        "147",
+        "155",
+        "180"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_199",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Welke sport gebruikt de term love for zero?",
+      "options": [
+        "Krekel",
+        "Tennis",
+        "Boksen",
+        "Golfen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_200",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Waar staat KO in het boksen voor?",
+      "options": [
+        "Knock-out",
+        "Schop eruit",
+        "Openhouden",
+        "Knokkel volgorde"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_201",
+      "difficulty": "easy",
+      "category": "Technologie",
+      "question": "Waar staat CPU voor?",
+      "options": [
+        "Centrale verwerkingseenheid",
+        "Computervoedingseenheid",
+        "Centraal programmahulpprogramma",
+        "Kernverwerkingsgebruiker"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_202",
+      "difficulty": "easy",
+      "category": "Technologie",
+      "question": "Welk apparaat wordt gebruikt om een cursor op een computer te verplaatsen?",
+      "options": [
+        "Muis",
+        "Spreker",
+        "Printer",
+        "Router"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_203",
+      "difficulty": "easy",
+      "category": "Technologie",
+      "question": "Waarmee kunnen apparaten met Wi-Fi verbinding maken?",
+      "options": [
+        "Water",
+        "Draadloze netwerken",
+        "Papier",
+        "Elektrische motoren"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_204",
+      "difficulty": "easy",
+      "category": "Technologie",
+      "question": "Welk bedrijf maakt de iPhone?",
+      "options": [
+        "Samsung",
+        "Appel",
+        "Sony",
+        "Nokia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_205",
+      "difficulty": "easy",
+      "category": "Technologie",
+      "question": "Waar wordt een wachtwoord voor gebruikt?",
+      "options": [
+        "Beveiliging",
+        "Afdrukken",
+        "Opladen",
+        "Koeling"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_206",
+      "difficulty": "easy",
+      "category": "Technologie",
+      "question": "Waarmee wordt gewoonlijk verbinding gemaakt met USB?",
+      "options": [
+        "Apparaten en computers",
+        "Schoenen en sokken",
+        "Boeken en pagina's",
+        "Planten en grond"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_207",
+      "difficulty": "easy",
+      "category": "Technologie",
+      "question": "Waar is een app een afkorting voor?",
+      "options": [
+        "Toepassing",
+        "Afspraak",
+        "Goedkeuring",
+        "Bijlage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_208",
+      "difficulty": "medium",
+      "category": "Technologie",
+      "question": "Waar staat URL voor?",
+      "options": [
+        "Uniforme bronzoeker",
+        "Universele leesregel",
+        "Gebruiker Runtime-link",
+        "Uniforme recordlijst"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_209",
+      "difficulty": "medium",
+      "category": "Technologie",
+      "question": "Wat is de belangrijkste taak van een router?",
+      "options": [
+        "Foto's opslaan",
+        "Direct netwerkverkeer",
+        "Documenten afdrukken",
+        "Alleen virussen scannen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_210",
+      "difficulty": "medium",
+      "category": "Technologie",
+      "question": "Welk bestandstype wordt vaak gebruikt voor afbeeldingen?",
+      "options": [
+        "JPEG",
+        "MP3",
+        "DOCX",
+        "EXE"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_211",
+      "difficulty": "medium",
+      "category": "Technologie",
+      "question": "Waar staat RAM voor?",
+      "options": [
+        "Willekeurig toegankelijk geheugen",
+        "Snelle actiemodule",
+        "Lees alle media",
+        "Runtime Audio-modus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_212",
+      "difficulty": "medium",
+      "category": "Technologie",
+      "question": "Waar wordt cloudopslag voor gebruikt?",
+      "options": [
+        "Bestanden online opslaan",
+        "Schermen schoonmaken",
+        "Laptops koelen",
+        "Telefoons opladen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_213",
+      "difficulty": "medium",
+      "category": "Technologie",
+      "question": "Wat helpt GPS bepalen?",
+      "options": [
+        "Locatie",
+        "Levensduur van de batterij",
+        "Schermgrootte",
+        "Wachtwoordsterkte"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_214",
+      "difficulty": "medium",
+      "category": "Technologie",
+      "question": "Welke technologie wordt gebruikt voor contactloos betalen?",
+      "options": [
+        "NFC",
+        "VHS",
+        "CRT",
+        "DVD"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_215",
+      "difficulty": "hard",
+      "category": "Technologie",
+      "question": "Waar staat HTML voor?",
+      "options": [
+        "HyperText-opmaaktaal",
+        "Hoge overdrachtmachinelogica",
+        "Home Tool Markup-link",
+        "Hyperlinktekst Hoofdlijst"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_216",
+      "difficulty": "hard",
+      "category": "Technologie",
+      "question": "Wat moet tweefactorauthenticatie verbeteren?",
+      "options": [
+        "Helderheid van het scherm",
+        "Accountbeveiliging",
+        "Downloadsnelheid",
+        "Audio-kwaliteit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_217",
+      "difficulty": "hard",
+      "category": "Technologie",
+      "question": "Welk getallensysteem gebruikt alleen 0 en 1?",
+      "options": [
+        "Decimaal",
+        "Binair",
+        "Hexadecimaal",
+        "Romeins"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_218",
+      "difficulty": "hard",
+      "category": "Technologie",
+      "question": "Waar staat API voor?",
+      "options": [
+        "Applicatieprogrammeringsinterface",
+        "Automatische programma-index",
+        "Toegepaste pixelinvoer",
+        "Geavanceerd procesinternet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_219",
+      "difficulty": "hard",
+      "category": "Technologie",
+      "question": "Waar staat SSD voor?",
+      "options": [
+        "Solid State-schijf",
+        "Systeemopslagschijf",
+        "Slim softwareapparaat",
+        "Veilige signaalaandrijving"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_220",
+      "difficulty": "hard",
+      "category": "Technologie",
+      "question": "Welk protocol wordt vaak gebruikt om beveiligde websites te laden?",
+      "options": [
+        "HTTP",
+        "HTTPS",
+        "FTP",
+        "SMTP"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_221",
       "difficulty": "easy",
       "category": "Internet",
       "question": "Waar staat DM meestal voor?",
       "options": [
         "Direct bericht",
-        "Dagelijkse meme",
-        "Digitale modus",
-        "Diepe media"
+        "Digitale kaart",
+        "Dagelijkse modus",
+        "Gegevensgeheugen"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_nl_132",
+      "id": "tb_nl_222",
       "difficulty": "easy",
       "category": "Internet",
-      "question": "Welk platform staat bekend om korte verticale video’s?",
+      "question": "Welk symbool begint een hashtag?",
+      "options": [
+        "@",
+        "#",
+        "&",
+        "*"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_223",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Wat is een selfie?",
+      "options": [
+        "Een foto van jezelf",
+        "Een wachtwoord",
+        "Een zoekresultaat",
+        "Een videogame"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_224",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Welk platform is het meest bekend voor korte verticale video's?",
       "options": [
         "TikTok",
         "Wikipedia",
-        "Excel",
-        "Kaarten"
+        "Dropbox",
+        "Slank"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_nl_133",
+      "id": "tb_nl_225",
       "difficulty": "easy",
       "category": "Internet",
-      "question": "Waarvoor gebruik je vooral een screenshot?",
+      "question": "Wat is een emoji?",
       "options": [
-        "Een schermbeeld opslaan",
-        "Een wachtwoord opslaan",
-        "Een batterij opslaan",
-        "Een ringtone opslaan"
+        "Een klein digitaal icoon",
+        "Een webbrowser",
+        "Een bestandsformaat",
+        "Een soort kabel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_226",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Wat betekent LOL meestal online?",
+      "options": [
+        "Veel licht",
+        "Hardop lachen",
+        "Lijst met koppelingen",
+        "Weinig geluk"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_nl_227",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Wat wordt een screenshot gebruikt om op te slaan?",
+      "options": [
+        "Wat staat er op een scherm",
+        "Een batterijlading",
+        "Een telefoontje",
+        "Alleen een Wi-Fi wachtwoord"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_228",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Waar is clickbait voor bedoeld?",
+      "options": [
+        "Klikken",
+        "Slaap",
+        "Weergegevens",
+        "Alleen wachtwoorden"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_229",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Wat betekent URL in het dagelijks internetgebruik?",
+      "options": [
+        "Een webadres",
+        "Een muziekbestand",
+        "Een cameramodus",
+        "Een telefoonbatterij"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_230",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Wat is een meme?",
+      "options": [
+        "Een deelbare grap of idee",
+        "Een soort toetsenbord",
+        "Een privéwachtwoord",
+        "Een cloudserver"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_231",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Wat is phishing?",
+      "options": [
+        "Een oplichterij om informatie te stelen",
+        "Een manier om foto's te bewerken",
+        "Een muziekgenre",
+        "Een videofilter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_232",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Wat betekent livestreaming?",
+      "options": [
+        "Uitzending in realtime",
+        "Een bestand opslaan",
+        "Offline code schrijven",
+        "Foto's afdrukken"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_233",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Wat is een gebruikersnaam?",
+      "options": [
+        "Een openbare accountnaam",
+        "Een computervirus",
+        "Een schermkabel",
+        "Een betaalkaart"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_234",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Waar wordt een browser voor gebruikt?",
+      "options": [
+        "Toegang tot websites",
+        "Muziek mixen",
+        "Apparaten opladen",
+        "Kaarten tekenen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_235",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Waar staat SEO voor?",
+      "options": [
+        "Zoekmachineoptimalisatie",
+        "Veilige e-mailuitvoer",
+        "Sociale bewerkingsoptie",
+        "Systeeminvoervolgorde"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_236",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Wat is een cookie bij surfen op het web?",
+      "options": [
+        "Opgeslagen sitegegevens",
+        "Een sneltoets",
+        "Een fotofilter",
+        "Een chatreactie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_237",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Waar staat HTTP voor?",
+      "options": [
+        "HyperText-overdrachtsprotocol",
+        "High Tech tekstprogramma",
+        "Poort voor thuisoverdrachttool",
+        "Hyperlink-trackingpagina"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_238",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Waar staat VPN voor?",
+      "options": [
+        "Virtueel particulier netwerk",
+        "Geverifieerde openbare naam",
+        "Visueel paginanummer",
+        "Videoverwerkingsknooppunt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_239",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Hoe wordt tweerichtingsvideocommunicatie gewoonlijk genoemd?",
+      "options": [
+        "Videogesprek",
+        "Schermafbeelding",
+        "Bladwijzer",
+        "Captcha"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_nl_240",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Waarvoor wordt een captcha vooral gebruikt?",
+      "options": [
+        "Botten",
+        "Kleuren",
+        "Schermgrootte",
+        "Batterijniveau"
       ],
       "correctIndex": 0
     }

@@ -39,6 +39,14 @@ Re-upload only the previously-failed screenshots (append, no delete)
 
 Upload localized App Store screenshots (no binary, no metadata)
 
+### ios upload_screenshots_new5
+
+```sh
+[bundle exec] fastlane ios upload_screenshots_new5
+```
+
+Upload screenshots for the 5 new locales only (da, no, fi, hi, id)
+
 ----
 
 This README.md is auto-generated and will be re-generated every time [_fastlane_](https://fastlane.tools) is run.

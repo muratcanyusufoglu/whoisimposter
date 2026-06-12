@@ -1,0 +1,1309 @@
+{
+  "gameId": "most-likely-to",
+  "locale": "da",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "mlt_da_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelig til at være vågen hele natten og se videoer?"
+    },
+    {
+      "id": "mlt_da_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelig til at spise det sidste stykke pizza uden at spørge?"
+    },
+    {
+      "id": "mlt_da_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelig til at blive en berømt kok?"
+    },
+    {
+      "id": "mlt_da_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelig til at snuble over ingenting offentligt?"
+    },
+    {
+      "id": "mlt_da_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelig til at glemme sin telefon derhjemme hver dag?"
+    },
+    {
+      "id": "mlt_da_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sandsynligt en professionel napper?"
+    },
+    {
+      "id": "mlt_da_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelig til at starte en viral dansetrend?"
+    },
+    {
+      "id": "mlt_da_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelig til at græde ved en reklame?"
+    },
+    {
+      "id": "mlt_da_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelige til at fare vild i en by, de bor i?"
+    },
+    {
+      "id": "mlt_da_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelig til at blive en rejseinfluencer?"
+    },
+    {
+      "id": "mlt_da_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sandsynligt den sidste klar, når du går ud?"
+    },
+    {
+      "id": "mlt_da_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem har størst sandsynlighed for en hemmelig samling af udstoppede dyr?"
+    },
+    {
+      "id": "mlt_da_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelig til at blive ven med en fuldstændig fremmed inden for 5 minutter?"
+    },
+    {
+      "id": "mlt_da_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelig til at dukke op til en fest, de ikke var inviteret til?"
+    },
+    {
+      "id": "mlt_da_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelig til at gøre en hobby til en forretning?"
+    },
+    {
+      "id": "mlt_da_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem har størst sandsynlighed for at vinde en stavebi?"
+    },
+    {
+      "id": "mlt_da_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelig til at glemme din fødselsdag?"
+    },
+    {
+      "id": "mlt_da_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelig til at tale med deres kæledyr i en fuld samtale?"
+    },
+    {
+      "id": "mlt_da_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er størst sandsynlighed for at blive en reality-tv-stjerne?"
+    },
+    {
+      "id": "mlt_da_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem har størst sandsynlighed for at have 100 ulæste e-mails lige nu?"
+    },
+    {
+      "id": "mlt_da_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelig til at spøge nogen efter en fantastisk første date?"
+    },
+    {
+      "id": "mlt_da_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelig til at skændes med en fremmed på internettet?"
+    },
+    {
+      "id": "mlt_da_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelig til at kunne lide et 3-årigt billede, mens han stalker nogen?"
+    },
+    {
+      "id": "mlt_da_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem har størst sandsynlighed for at have en hemmelig finsta?"
+    },
+    {
+      "id": "mlt_da_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelig til at ringe sig syg på arbejde for at blive hjemme og overvåge?"
+    },
+    {
+      "id": "mlt_da_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelige til at sætte gang i drama ved et uheld?"
+    },
+    {
+      "id": "mlt_da_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelig til at sende en sms til den forkerte person?"
+    },
+    {
+      "id": "mlt_da_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest sandsynligt den, der ødelægger slutningen af et show?"
+    },
+    {
+      "id": "mlt_da_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelig til at blive ved med at tale med en eks længere, end de burde?"
+    },
+    {
+      "id": "mlt_da_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelige til at annullere planer i sidste øjeblik?"
+    },
+    {
+      "id": "mlt_da_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelig til at bringe deres eks op i en ikke-relateret samtale?"
+    },
+    {
+      "id": "mlt_da_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelig til at stege nogen og så sige 'bare kidding' bagefter?"
+    },
+    {
+      "id": "mlt_da_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem kender mest sandsynligt alles personlige sager?"
+    },
+    {
+      "id": "mlt_da_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem har størst sandsynlighed for en meget mistænkelig søgehistorik?"
+    },
+    {
+      "id": "mlt_da_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelig til at gøre et dramatisk exit fra en fest?"
+    },
+    {
+      "id": "mlt_da_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem optager mest sandsynligt alt på deres telefon?"
+    },
+    {
+      "id": "mlt_da_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelig til at sige 'Jeg er på vej', når de ikke er rejst endnu?"
+    },
+    {
+      "id": "mlt_da_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelige til at ødelægge en overraskelsesfest ved et uheld?"
+    },
+    {
+      "id": "mlt_da_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem har størst sandsynlighed for at have prøvet enhver slankekur, der findes?"
+    },
+    {
+      "id": "mlt_da_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelig til at overdele på sociale medier?"
+    },
+    {
+      "id": "mlt_da_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem har størst sandsynlighed for at have kysset nogen i dette rum?"
+    },
+    {
+      "id": "mlt_da_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem har størst sandsynlighed for en hemmelig beundrer lige nu?"
+    },
+    {
+      "id": "mlt_da_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest tilbøjelig til at date en meget yngre eller ældre?"
+    },
+    {
+      "id": "mlt_da_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest tilbøjelig til at flirte sig ud af en fartbøde?"
+    },
+    {
+      "id": "mlt_da_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest tilbøjelig til at glide ind i en berømtheds DM'er?"
+    },
+    {
+      "id": "mlt_da_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest tilbøjelig til at gå på et datingshow?"
+    },
+    {
+      "id": "mlt_da_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest tilbøjelig til at falde for en, de ikke burde?"
+    },
+    {
+      "id": "mlt_da_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest tilbøjelig til at have mere end 5 ulæste flirtende beskeder lige nu?"
+    },
+    {
+      "id": "mlt_da_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest tilbøjelig til at gifte sig med en, de lige har mødt på en rejse?"
+    },
+    {
+      "id": "mlt_da_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sandsynligt den, der altid bliver slået op med?"
+    },
+    {
+      "id": "mlt_da_051",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem har størst sandsynlighed for at have den mest dramatiske forholdshistorie?"
+    },
+    {
+      "id": "mlt_da_052",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sandsynligt, der har datet to mennesker i den samme vennegruppe?"
+    },
+    {
+      "id": "mlt_da_053",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest tilbøjelig til at sende en tørstfælde til den forkerte gruppechat?"
+    },
+    {
+      "id": "mlt_da_054",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sandsynligt, der stadig taler med deres high school-eks?"
+    },
+    {
+      "id": "mlt_da_055",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem har størst sandsynlighed for at have en situation, de ikke har fortalt nogen om?"
+    },
+    {
+      "id": "mlt_da_056",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest tilbøjelig til at forelske sig i en fremmed på et fly?"
+    },
+    {
+      "id": "mlt_da_057",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sandsynligt den største flirt i en ny gruppe?"
+    },
+    {
+      "id": "mlt_da_058",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest tilbøjelig til at fange følelser og straks benægte det?"
+    },
+    {
+      "id": "mlt_da_059",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem har størst sandsynlighed for at have en hel personlighed på grund af én eks?"
+    },
+    {
+      "id": "mlt_da_060",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest tilbøjelige til at ende på et reality-datingshow og vinde?"
+    },
+    {
+      "id": "mlt_da_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem glemmer mest sandsynligt at oplade sin telefon natten over?"
+    },
+    {
+      "id": "mlt_da_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelig til at tage snacks med til en film uden at nogen spørger?"
+    },
+    {
+      "id": "mlt_da_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelig til at snuble på et fladt fortov?"
+    },
+    {
+      "id": "mlt_da_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelige til at tage billeder af hvert måltid?"
+    },
+    {
+      "id": "mlt_da_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem har størst sandsynlighed for at miste deres nøgler to gange på en uge?"
+    },
+    {
+      "id": "mlt_da_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelig til at starte en gruppechat og derefter slå den fra?"
+    },
+    {
+      "id": "mlt_da_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelige til at falde i søvn under en film derhjemme?"
+    },
+    {
+      "id": "mlt_da_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelig til at overpakke til en weekendtur?"
+    },
+    {
+      "id": "mlt_da_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelig til at adoptere et omstrejfende kæledyr?"
+    },
+    {
+      "id": "mlt_da_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelig til at blive ven med baristaen på dag ét?"
+    },
+    {
+      "id": "mlt_da_071",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem dukker mest op med en genanvendelig taske hver gang?"
+    },
+    {
+      "id": "mlt_da_072",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelig til at tage et brætspil med til en picnic?"
+    },
+    {
+      "id": "mlt_da_073",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelig til at grine på det forkerte tidspunkt?"
+    },
+    {
+      "id": "mlt_da_074",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelig til at blive solskoldet på en overskyet dag?"
+    },
+    {
+      "id": "mlt_da_075",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem laver mest sandsynligt playlister til alt?"
+    },
+    {
+      "id": "mlt_da_076",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest sandsynligt den udpegede DJ ved hangouts?"
+    },
+    {
+      "id": "mlt_da_077",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelig til at huske alles fødselsdage?"
+    },
+    {
+      "id": "mlt_da_078",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelige til at tage en lur hvor som helst, når som helst?"
+    },
+    {
+      "id": "mlt_da_079",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem er mest tilbøjelig til at prøve hver eneste nye cafe i byen?"
+    },
+    {
+      "id": "mlt_da_080",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvem har størst sandsynlighed for at beholde hver kvittering for en sikkerheds skyld?"
+    },
+    {
+      "id": "mlt_da_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelige til at annullere planer i sidste øjeblik og føle sig skyldig?"
+    },
+    {
+      "id": "mlt_da_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelig til at skrive til den forkerte person ved et uheld?"
+    },
+    {
+      "id": "mlt_da_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelig til at spøge en gruppeplan og dukke op igen senere?"
+    },
+    {
+      "id": "mlt_da_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelig til at starte en sidejagt fra en hobby?"
+    },
+    {
+      "id": "mlt_da_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelig til at binge en hel serie på én dag?"
+    },
+    {
+      "id": "mlt_da_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelig til at skændes med fremmede online?"
+    },
+    {
+      "id": "mlt_da_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelig til at overdele i en gruppechat?"
+    },
+    {
+      "id": "mlt_da_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelig til at starte en podcast og glemme det?"
+    },
+    {
+      "id": "mlt_da_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelige til at fare vild selv med GPS på?"
+    },
+    {
+      "id": "mlt_da_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem har størst sandsynlighed for at have 200 ulæste e-mails?"
+    },
+    {
+      "id": "mlt_da_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelig til at screenshotte beskeder til senere?"
+    },
+    {
+      "id": "mlt_da_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelige til at spilde en drink til en fest?"
+    },
+    {
+      "id": "mlt_da_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelig til at starte en dansetrend i gruppen?"
+    },
+    {
+      "id": "mlt_da_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem svarer mest sandsynligt kun med stemmenoter?"
+    },
+    {
+      "id": "mlt_da_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelig til at bestille en spontan weekendrejse?"
+    },
+    {
+      "id": "mlt_da_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem har størst sandsynlighed for at holde en hemmelighed i årevis?"
+    },
+    {
+      "id": "mlt_da_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelig til at komme for sent, men stadig se perfekt ud?"
+    },
+    {
+      "id": "mlt_da_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt starter en ny afspilningsliste for enhver stemning."
+    },
+    {
+      "id": "mlt_da_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelig til at stege nogen og sige \"bare for sjov\"?"
+    },
+    {
+      "id": "mlt_da_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem kender mest sandsynligt de bedste skjulte madsteder?"
+    },
+    {
+      "id": "mlt_da_101",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest sandsynligt, der er hemmeligt forelsket i nogen her?"
+    },
+    {
+      "id": "mlt_da_102",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sandsynligt at føre dagbog hver dag."
+    },
+    {
+      "id": "mlt_da_103",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest tilbøjelig til at falde for en, de lige har mødt?"
+    },
+    {
+      "id": "mlt_da_104",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest tilbøjelig til at blive ved med at tale med en eks?"
+    },
+    {
+      "id": "mlt_da_105",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest tilbøjelig til at flirte sig ud af problemer?"
+    },
+    {
+      "id": "mlt_da_106",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem har størst sandsynlighed for at have en situation, de ikke vil definere?"
+    },
+    {
+      "id": "mlt_da_107",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest tilbøjelige til at blive fanget af at kunne lide et gammelt billede?"
+    },
+    {
+      "id": "mlt_da_108",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sandsynligt planlægger en overraskelsestur for en ven."
+    },
+    {
+      "id": "mlt_da_109",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem er mest tilbøjelig til at date en meget ældre eller yngre?"
+    },
+    {
+      "id": "mlt_da_110",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem har størst sandsynlighed for at have den fedeste datingprofil?"
+    },
+    {
+      "id": "mlt_da_111",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt glemmer deres egen fødselsdag."
+    },
+    {
+      "id": "mlt_da_112",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at starte en virksomhed og faktisk få succes."
+    },
+    {
+      "id": "mlt_da_113",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at miste deres telefon i en uge."
+    },
+    {
+      "id": "mlt_da_114",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at adoptere et kæledyr på impuls."
+    },
+    {
+      "id": "mlt_da_115",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt planlægger en overraskelsesfest perfekt."
+    },
+    {
+      "id": "mlt_da_116",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at vinde en karaokekonkurrence."
+    },
+    {
+      "id": "mlt_da_117",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at flytte til en anden by uden at fortælle det til nogen."
+    },
+    {
+      "id": "mlt_da_118",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest tilbøjelige til at fare vild i deres eget nabolag."
+    },
+    {
+      "id": "mlt_da_119",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at blive berømt på internettet."
+    },
+    {
+      "id": "mlt_da_120",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at falde i søvn under en filmdate."
+    },
+    {
+      "id": "mlt_da_121",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at tilberede et komplet måltid fra bunden."
+    },
+    {
+      "id": "mlt_da_122",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at bestille en rejse i sidste øjeblik."
+    },
+    {
+      "id": "mlt_da_123",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt ved et uheld at sende et skærmbillede til den forkerte person."
+    },
+    {
+      "id": "mlt_da_124",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at holde en hemmelighed i årevis."
+    },
+    {
+      "id": "mlt_da_125",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest tilbøjelige til at tale sig ud af en billet."
+    },
+    {
+      "id": "mlt_da_126",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt glemmer at svare i dagevis."
+    },
+    {
+      "id": "mlt_da_127",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at bruge en time på at vælge en playliste."
+    },
+    {
+      "id": "mlt_da_128",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at deltage i et maraton uden træning."
+    },
+    {
+      "id": "mlt_da_129",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at blive venner med en fremmed i kø."
+    },
+    {
+      "id": "mlt_da_130",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at vinde en trivia-aften."
+    },
+    {
+      "id": "mlt_da_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest tilbøjelige til at spøge en gruppechat."
+    },
+    {
+      "id": "mlt_da_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at have et rodet værelse, men et rent skrivebord."
+    },
+    {
+      "id": "mlt_da_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at sige nej og faktisk mene det."
+    },
+    {
+      "id": "mlt_da_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at komme for sent til deres egen fest."
+    },
+    {
+      "id": "mlt_da_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at få en tatovering på et indfald."
+    },
+    {
+      "id": "mlt_da_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at have et skjult talent."
+    },
+    {
+      "id": "mlt_da_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at overpakke for en weekend."
+    },
+    {
+      "id": "mlt_da_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest tilbøjelige til at bryde deres telefonskærm."
+    },
+    {
+      "id": "mlt_da_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at være den første til at undskylde."
+    },
+    {
+      "id": "mlt_da_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt starter en bog og afslutter den på én dag."
+    },
+    {
+      "id": "mlt_da_141",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at have den mærkeligste drøm."
+    },
+    {
+      "id": "mlt_da_142",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at lave en playliste for et crush."
+    },
+    {
+      "id": "mlt_da_143",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt for at undgå konflikt for enhver pris."
+    },
+    {
+      "id": "mlt_da_144",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at huske hver sang."
+    },
+    {
+      "id": "mlt_da_145",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at prøve hver mad på menuen."
+    },
+    {
+      "id": "mlt_da_146",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at glemme en adgangskode med det samme."
+    },
+    {
+      "id": "mlt_da_147",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at blive et morgenmenneske."
+    },
+    {
+      "id": "mlt_da_148",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest tilbøjelige til at spilde kaffe på sig selv."
+    },
+    {
+      "id": "mlt_da_149",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at annullere planer i sidste øjeblik."
+    },
+    {
+      "id": "mlt_da_150",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt gemmer hver kvittering."
+    },
+    {
+      "id": "mlt_da_151",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sandsynligt at være den mest konkurrencedygtige i spil."
+    },
+    {
+      "id": "mlt_da_152",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sandsynligt at falde for nogen på ferie."
+    },
+    {
+      "id": "mlt_da_153",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sandsynligt at have en hemmelig beundrer."
+    },
+    {
+      "id": "mlt_da_154",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sandsynligt at blive fanget i at tale med sig selv."
+    },
+    {
+      "id": "mlt_da_155",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sandsynligt at græde under en reklame."
+    },
+    {
+      "id": "mlt_da_156",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sandsynligt starter en trend."
+    },
+    {
+      "id": "mlt_da_157",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sandsynligt den mest dramatiske historiefortæller."
+    },
+    {
+      "id": "mlt_da_158",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sandsynligt at miste deres bagage i lufthavnen."
+    },
+    {
+      "id": "mlt_da_159",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest tilbøjelige til at lave en gruppechat til noget."
+    },
+    {
+      "id": "mlt_da_160",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sandsynligt at være den bedste til at give råd."
+    },
+    {
+      "id": "mlt_da_161",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at have snacks i tasken hele tiden."
+    },
+    {
+      "id": "mlt_da_162",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt melde sig frivilligt til at være vært for næste komsammen."
+    },
+    {
+      "id": "mlt_da_163",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt farvekode deres kalender."
+    },
+    {
+      "id": "mlt_da_164",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at tage en lur hvor som helst."
+    },
+    {
+      "id": "mlt_da_165",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at bringe et brætspil til hvert hangout."
+    },
+    {
+      "id": "mlt_da_166",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at miste deres solbriller to gange om sommeren."
+    },
+    {
+      "id": "mlt_da_167",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at huske alles fødselsdag uden påmindelser."
+    },
+    {
+      "id": "mlt_da_168",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at blive ven med kassereren i enhver butik."
+    },
+    {
+      "id": "mlt_da_169",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt har 30 browserfaner åbne."
+    },
+    {
+      "id": "mlt_da_170",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at tage billeder af hvert måltid."
+    },
+    {
+      "id": "mlt_da_171",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at bære en ekstra telefonoplader."
+    },
+    {
+      "id": "mlt_da_172",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at fare vild selv med GPS."
+    },
+    {
+      "id": "mlt_da_173",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at synge med på hver sang i bilen."
+    },
+    {
+      "id": "mlt_da_174",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt falder i søvn på offentlig transport."
+    },
+    {
+      "id": "mlt_da_175",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt planlægger et tema-outfit til en fest."
+    },
+    {
+      "id": "mlt_da_176",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at holde en plante i live i årevis."
+    },
+    {
+      "id": "mlt_da_177",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at kende en genvej overalt."
+    },
+    {
+      "id": "mlt_da_178",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at starte en bogklub."
+    },
+    {
+      "id": "mlt_da_179",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at pakke ekstra snacks til en roadtrip."
+    },
+    {
+      "id": "mlt_da_180",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mest sandsynligt at være tidligt på alt."
+    },
+    {
+      "id": "mlt_da_181",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at starte en side-jag og holde fast i det."
+    },
+    {
+      "id": "mlt_da_182",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at binge-se en hel sæson på en nat."
+    },
+    {
+      "id": "mlt_da_183",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at overtænke en sms."
+    },
+    {
+      "id": "mlt_da_184",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at omorganisere deres værelse kl. 02.00."
+    },
+    {
+      "id": "mlt_da_185",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at lave en detaljeret rejseplan."
+    },
+    {
+      "id": "mlt_da_186",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at prøve et koldt spring og elske det."
+    },
+    {
+      "id": "mlt_da_187",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at tage en spontan roadtrip."
+    },
+    {
+      "id": "mlt_da_188",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest tilbøjelige til at bruge timer på at vælge den perfekte gave."
+    },
+    {
+      "id": "mlt_da_189",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt tilmelder du dig en klasse bare for sjov."
+    },
+    {
+      "id": "mlt_da_190",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt starter en ny hobby hver måned."
+    },
+    {
+      "id": "mlt_da_191",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at blive hooked på en tilfældig podcast."
+    },
+    {
+      "id": "mlt_da_192",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt glemmer at spise frokost, når der er travlt."
+    },
+    {
+      "id": "mlt_da_193",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at vinde en tilfældig giveaway online."
+    },
+    {
+      "id": "mlt_da_194",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at være gruppens fotograf."
+    },
+    {
+      "id": "mlt_da_195",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at bestille det samme hver gang."
+    },
+    {
+      "id": "mlt_da_196",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at falde i søvn under en film derhjemme."
+    },
+    {
+      "id": "mlt_da_197",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at lave et regneark til en tur."
+    },
+    {
+      "id": "mlt_da_198",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at opbevare billetstumper i en æske."
+    },
+    {
+      "id": "mlt_da_199",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest tilbøjelige til at efterlade stemmebeskeder i stedet for at sende sms'er."
+    },
+    {
+      "id": "mlt_da_200",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mest sandsynligt at øve en samtale på forhånd."
+    },
+    {
+      "id": "mlt_da_201",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sandsynligt dobbelttekst efter at være blevet læst."
+    },
+    {
+      "id": "mlt_da_202",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest tilbøjelige til at flirte for at få rabat."
+    },
+    {
+      "id": "mlt_da_203",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest tilbøjelige til at beholde dating-apps på deres telefon."
+    },
+    {
+      "id": "mlt_da_204",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sandsynligt at falde for nogen på en weekendtur."
+    },
+    {
+      "id": "mlt_da_205",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sandsynligt at tage det første træk."
+    },
+    {
+      "id": "mlt_da_206",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sandsynligt at have et hemmeligt forelsket i en ven."
+    },
+    {
+      "id": "mlt_da_207",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sandsynligt at sende en tekst til en eks sent om aftenen."
+    },
+    {
+      "id": "mlt_da_208",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sandsynligt at gå på date til den gratis middag."
+    },
+    {
+      "id": "mlt_da_209",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest tilbøjelige til at blive taget i at tjekke deres telefon på en date."
+    },
+    {
+      "id": "mlt_da_210",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mest sandsynligt at sige \"Jeg elsker dig\" først."
+    },
+    {
+      "id": "mlt_da_211",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er mest tilbøjelig til at starte et meme i gruppechatten?"
+    },
+    {
+      "id": "mlt_da_212",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville ved et uheld gerne have et meget gammelt indlæg?"
+    },
+    {
+      "id": "mlt_da_213",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville blive streamer i en uge og tage det seriøst?"
+    },
+    {
+      "id": "mlt_da_214",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville sende den perfekte reaktion GIF?"
+    },
+    {
+      "id": "mlt_da_215",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem ville miste en time på at redigere en selfie?"
+    },
+    {
+      "id": "mlt_da_216",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem kontrollerer afspilningslisten for seriøst?"
+    },
+    {
+      "id": "mlt_da_217",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem gør regelforklaringer til en TED Talk?"
+    }
+  ]
+}

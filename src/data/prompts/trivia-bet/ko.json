@@ -1,18 +1,18 @@
 {
   "gameId": "trivia-bet",
   "locale": "ko",
-  "version": 1,
+  "version": 2,
   "questions": [
     {
       "id": "tb_ko_001",
       "difficulty": "easy",
       "category": "과학",
-      "question": "붉은 행성으로 알려진 행성은?",
+      "question": "식물은 광합성 과정에서 공기 중에서 어떤 가스를 흡수합니까?",
       "options": [
-        "금성",
-        "화성",
-        "목성",
-        "토성"
+        "산소",
+        "이산화탄소",
+        "수소",
+        "질소"
       ],
       "correctIndex": 1
     },
@@ -20,280 +20,267 @@
       "id": "tb_ko_002",
       "difficulty": "easy",
       "category": "과학",
-      "question": "H2O는 보통 무엇이라고 부르나요?",
+      "question": "물의 화학 기호는 무엇입니까?",
       "options": [
-        "소금",
-        "물",
-        "산소",
-        "설탕"
+        "WO",
+        "H2O",
+        "O2H",
+        "HO2"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_003",
       "difficulty": "easy",
-      "category": "지리",
-      "question": "가장 큰 바다는?",
+      "category": "과학",
+      "question": "붉은 행성으로 알려진 행성은 무엇입니까?",
       "options": [
-        "대서양",
-        "인도양",
-        "태평양",
-        "북극해"
+        "비너스",
+        "화성",
+        "목성",
+        "수성"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_ko_004",
       "difficulty": "easy",
-      "category": "지리",
-      "question": "도쿄가 있는 나라는?",
+      "category": "과학",
+      "question": "곤충의 다리는 몇 개입니까?",
       "options": [
-        "일본",
-        "중국",
-        "한국",
-        "태국"
+        "4",
+        "6",
+        "8",
+        "10"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_ko_005",
       "difficulty": "easy",
-      "category": "역사",
-      "question": "모나리자를 그린 사람은?",
+      "category": "과학",
+      "question": "물체를 지구쪽으로 끌어당기는 힘은 무엇입니까?",
       "options": [
-        "피카소",
-        "레오나르도 다빈치",
-        "고흐",
-        "모네"
+        "자기",
+        "중력",
+        "마찰",
+        "전기"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_006",
       "difficulty": "easy",
-      "category": "문화",
-      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
+      "category": "과학",
+      "question": "몸 전체에 혈액을 펌프질하는 기관은 무엇입니까?",
       "options": [
-        "픽사",
-        "스튜디오 지브리",
-        "디즈니",
-        "드림웍스"
+        "간",
+        "하트",
+        "폐",
+        "신장"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_007",
       "difficulty": "easy",
-      "category": "스포츠",
-      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
+      "category": "과학",
+      "question": "원자의 중심을 무엇이라고 합니까?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_ko_008",
-      "difficulty": "easy",
-      "category": "음식",
-      "question": "한국의 발효 배추 음식은?",
-      "options": [
-        "김치",
-        "초밥",
-        "피에로기",
-        "타코"
+        "핵",
+        "셀",
+        "궤도",
+        "쉘"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_ko_009",
-      "difficulty": "easy",
-      "category": "문화",
-      "question": "한글로 쓰는 언어는?",
+      "id": "tb_ko_008",
+      "difficulty": "medium",
+      "category": "과학",
+      "question": "금의 화학 기호는 무엇입니까?",
       "options": [
-        "일본어",
-        "한국어",
-        "폴란드어",
-        "스웨덴어"
+        "이동",
+        "Gd",
+        "Au",
+        "Ag"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_009",
+      "difficulty": "medium",
+      "category": "과학",
+      "question": "해수면에서 물의 끓는점은 섭씨로 얼마입니까?",
+      "options": [
+        "90",
+        "95",
+        "100",
+        "110"
+      ],
+      "correctIndex": 2
     },
     {
       "id": "tb_ko_010",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "category": "과학",
-      "question": "식물이 광합성할 때 흡수하는 기체는?",
+      "question": "세포의 어느 부분에 DNA가 가장 많이 포함되어 있습니까?",
       "options": [
-        "산소",
-        "이산화탄소",
-        "질소",
-        "수소"
+        "리보솜",
+        "핵",
+        "세포벽",
+        "미토콘드리아"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_011",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "category": "과학",
-      "question": "붉은 행성으로 알려진 행성은?",
+      "question": "늘어난 고무밴드에는 어떤 종류의 에너지가 저장되어 있나요?",
       "options": [
-        "금성",
-        "화성",
-        "목성",
-        "토성"
+        "화학",
+        "탄력적 잠재력",
+        "열",
+        "핵"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_012",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "category": "과학",
-      "question": "H2O는 보통 무엇이라고 부르나요?",
+      "question": "피부가 햇빛에 노출되면 어떤 비타민이 생성됩니까?",
       "options": [
-        "소금",
-        "물",
-        "산소",
-        "설탕"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_ko_013",
-      "difficulty": "easy",
-      "category": "지리",
-      "question": "가장 큰 바다는?",
-      "options": [
-        "대서양",
-        "인도양",
-        "태평양",
-        "북극해"
+        "비타민 A",
+        "비타민C",
+        "비타민 D",
+        "비타민 K"
       ],
       "correctIndex": 2
     },
     {
-      "id": "tb_ko_014",
-      "difficulty": "easy",
-      "category": "지리",
-      "question": "도쿄가 있는 나라는?",
+      "id": "tb_ko_013",
+      "difficulty": "medium",
+      "category": "과학",
+      "question": "지진을 측정하는 데 사용되는 도구는 무엇입니까?",
       "options": [
-        "일본",
-        "중국",
-        "한국",
-        "태국"
+        "기압계",
+        "지진계",
+        "습도계",
+        "고도계"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_014",
+      "difficulty": "medium",
+      "category": "과학",
+      "question": "지구상에서 가장 단단한 천연 물질은 무엇입니까?",
+      "options": [
+        "석영",
+        "다이아몬드",
+        "화강암",
+        "철"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_015",
+      "difficulty": "hard",
+      "category": "과학",
+      "question": "전류의 SI 단위는 무엇입니까?",
+      "options": [
+        "볼트",
+        "와트",
+        "암페어",
+        "옴"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_016",
+      "difficulty": "hard",
+      "category": "과학",
+      "question": "세 가지 운동 법칙을 제안한 과학자는 누구입니까?",
+      "options": [
+        "아이작 뉴턴",
+        "알베르트 아인슈타인",
+        "갈릴레오 갈릴레이",
+        "니콜라 테슬라"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_ko_015",
-      "difficulty": "easy",
-      "category": "역사",
-      "question": "모나리자를 그린 사람은?",
-      "options": [
-        "피카소",
-        "레오나르도 다빈치",
-        "고흐",
-        "모네"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_ko_016",
-      "difficulty": "easy",
-      "category": "문화",
-      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
-      "options": [
-        "픽사",
-        "스튜디오 지브리",
-        "디즈니",
-        "드림웍스"
-      ],
-      "correctIndex": 1
-    },
-    {
       "id": "tb_ko_017",
-      "difficulty": "easy",
-      "category": "스포츠",
-      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
+      "difficulty": "hard",
+      "category": "과학",
+      "question": "지구 대기에 가장 풍부한 가스는 무엇입니까?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "산소",
+        "이산화탄소",
+        "질소",
+        "아르곤"
       ],
       "correctIndex": 2
     },
     {
       "id": "tb_ko_018",
-      "difficulty": "easy",
-      "category": "음식",
-      "question": "한국의 발효 배추 음식은?",
+      "difficulty": "hard",
+      "category": "과학",
+      "question": "음전하를 띠는 입자는 무엇입니까?",
       "options": [
-        "김치",
-        "초밥",
-        "피에로기",
-        "타코"
+        "양성자",
+        "중성자",
+        "전자",
+        "광자"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "tb_ko_019",
-      "difficulty": "easy",
-      "category": "문화",
-      "question": "한글로 쓰는 언어는?",
+      "difficulty": "hard",
+      "category": "과학",
+      "question": "실온에서 중성 용액의 pH 값은 얼마입니까?",
       "options": [
-        "일본어",
-        "한국어",
-        "폴란드어",
-        "스웨덴어"
+        "0",
+        "5",
+        "7",
+        "14"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "tb_ko_020",
-      "difficulty": "easy",
+      "difficulty": "hard",
       "category": "과학",
-      "question": "식물이 광합성할 때 흡수하는 기체는?",
+      "question": "어떤 혈액 세포가 신체가 감염과 싸우는 데 도움이 됩니까?",
       "options": [
-        "산소",
-        "이산화탄소",
-        "질소",
-        "수소"
+        "적혈구",
+        "백혈구",
+        "혈소판",
+        "혈장 세포"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_021",
       "difficulty": "easy",
-      "category": "과학",
-      "question": "붉은 행성으로 알려진 행성은?",
+      "category": "지리",
+      "question": "프랑스의 수도는 무엇입니까?",
       "options": [
-        "금성",
-        "화성",
-        "목성",
-        "토성"
+        "리옹",
+        "파리",
+        "마르세유",
+        "좋은"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_022",
       "difficulty": "easy",
-      "category": "과학",
-      "question": "H2O는 보통 무엇이라고 부르나요?",
-      "options": [
-        "소금",
-        "물",
-        "산소",
-        "설탕"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_ko_023",
-      "difficulty": "easy",
       "category": "지리",
-      "question": "가장 큰 바다는?",
+      "question": "어느 바다가 가장 크나요?",
       "options": [
         "대서양",
         "인도양",
@@ -303,1349 +290,1440 @@
       "correctIndex": 2
     },
     {
+      "id": "tb_ko_023",
+      "difficulty": "easy",
+      "category": "지리",
+      "question": "기자의 피라미드로 유명한 나라는 어디일까요?",
+      "options": [
+        "멕시코",
+        "이집트",
+        "그리스",
+        "인도"
+      ],
+      "correctIndex": 1
+    },
+    {
       "id": "tb_ko_024",
       "difficulty": "easy",
       "category": "지리",
-      "question": "도쿄가 있는 나라는?",
+      "question": "일본의 수도는 무엇입니까?",
       "options": [
-        "일본",
-        "중국",
-        "한국",
-        "태국"
+        "교토",
+        "오사카",
+        "도쿄",
+        "히로시마"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "tb_ko_025",
       "difficulty": "easy",
-      "category": "역사",
-      "question": "모나리자를 그린 사람은?",
+      "category": "지리",
+      "question": "브라질은 어느 대륙에 있나요?",
       "options": [
-        "피카소",
-        "레오나르도 다빈치",
-        "고흐",
-        "모네"
+        "아프리카",
+        "남미",
+        "유럽",
+        "아시아"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_026",
       "difficulty": "easy",
-      "category": "문화",
-      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
+      "category": "지리",
+      "question": "국토면적 기준으로 가장 큰 국가는 어디입니까?",
       "options": [
-        "픽사",
-        "스튜디오 지브리",
-        "디즈니",
-        "드림웍스"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_ko_027",
-      "difficulty": "easy",
-      "category": "스포츠",
-      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
-      "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "캐나다",
+        "중국",
+        "러시아",
+        "미국"
       ],
       "correctIndex": 2
     },
     {
-      "id": "tb_ko_028",
+      "id": "tb_ko_027",
       "difficulty": "easy",
-      "category": "음식",
-      "question": "한국의 발효 배추 음식은?",
+      "category": "지리",
+      "question": "런던을 가로질러 흐르는 강은 무엇인가요?",
       "options": [
-        "김치",
-        "초밥",
-        "피에로기",
-        "타코"
+        "세느강",
+        "템스강",
+        "다뉴브강",
+        "라인강"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_028",
+      "difficulty": "medium",
+      "category": "지리",
+      "question": "Australia의 수도는 무엇입니까?",
+      "options": [
+        "시드니",
+        "멜버른",
+        "캔버라",
+        "브리즈번"
+      ],
+      "correctIndex": 2
     },
     {
       "id": "tb_ko_029",
-      "difficulty": "easy",
-      "category": "문화",
-      "question": "한글로 쓰는 언어는?",
+      "difficulty": "medium",
+      "category": "지리",
+      "question": "킬리만자로산은 어느 나라에 있나요?",
       "options": [
-        "일본어",
-        "한국어",
-        "폴란드어",
-        "스웨덴어"
+        "케냐",
+        "탄자니아",
+        "우간다",
+        "에티오피아"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_030",
-      "difficulty": "easy",
-      "category": "과학",
-      "question": "식물이 광합성할 때 흡수하는 기체는?",
+      "difficulty": "medium",
+      "category": "지리",
+      "question": "세계에서 가장 큰 뜨거운 사막은 어느 사막입니까?",
       "options": [
-        "산소",
-        "이산화탄소",
-        "질소",
-        "수소"
+        "고비",
+        "사하라",
+        "칼라하리",
+        "모하비"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_031",
-      "difficulty": "easy",
-      "category": "과학",
-      "question": "붉은 행성으로 알려진 행성은?",
+      "difficulty": "medium",
+      "category": "지리",
+      "question": "마라케시라는 도시가 있는 나라는 어디일까요?",
       "options": [
-        "금성",
-        "화성",
-        "목성",
-        "토성"
+        "튀니지",
+        "모로코",
+        "알제리",
+        "이집트"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_032",
-      "difficulty": "easy",
-      "category": "과학",
-      "question": "H2O는 보통 무엇이라고 부르나요?",
+      "difficulty": "medium",
+      "category": "지리",
+      "question": "유럽과 아프리카를 구분하는 바다는 무엇입니까?",
       "options": [
-        "소금",
-        "물",
-        "산소",
-        "설탕"
+        "홍해",
+        "지중해",
+        "흑해",
+        "발트해"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_033",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "category": "지리",
-      "question": "가장 큰 바다는?",
+      "question": "미국의 어느 주가 선샤인 스테이트(Sunshine State)로 알려져 있나요?",
       "options": [
-        "대서양",
-        "인도양",
-        "태평양",
-        "북극해"
+        "캘리포니아",
+        "플로리다",
+        "애리조나",
+        "하와이"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_ko_034",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "category": "지리",
-      "question": "도쿄가 있는 나라는?",
+      "question": "자연 호수가 가장 많은 나라는 어디인가요?",
       "options": [
-        "일본",
-        "중국",
-        "한국",
-        "태국"
+        "캐나다",
+        "브라질",
+        "러시아",
+        "핀란드"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_ko_035",
-      "difficulty": "easy",
-      "category": "역사",
-      "question": "모나리자를 그린 사람은?",
+      "difficulty": "hard",
+      "category": "지리",
+      "question": "카자흐스탄의 수도는 무엇입니까?",
       "options": [
-        "피카소",
-        "레오나르도 다빈치",
-        "고흐",
-        "모네"
+        "알마티",
+        "아스타나",
+        "비슈케크",
+        "타슈켄트"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_036",
-      "difficulty": "easy",
-      "category": "문화",
-      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
+      "difficulty": "hard",
+      "category": "지리",
+      "question": "블레드 호수가 있는 나라는 어디일까요?",
       "options": [
-        "픽사",
-        "스튜디오 지브리",
-        "디즈니",
-        "드림웍스"
+        "슬로베니아",
+        "크로아티아",
+        "Au스트리아",
+        "슬로바키아"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_037",
+      "difficulty": "hard",
+      "category": "지리",
+      "question": "아타카마 사막은 주로 어느 나라에 있습니까?",
+      "options": [
+        "페루",
+        "칠레",
+        "볼리비아",
+        "아르헨티나"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_ko_037",
-      "difficulty": "easy",
-      "category": "스포츠",
-      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
-      "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
       "id": "tb_ko_038",
-      "difficulty": "easy",
-      "category": "음식",
-      "question": "한국의 발효 배추 음식은?",
+      "difficulty": "hard",
+      "category": "지리",
+      "question": "유럽과 아시아로 나누어진 도시는 어디인가요?",
       "options": [
-        "김치",
-        "초밥",
-        "피에로기",
-        "타코"
+        "이스탄불",
+        "아테네",
+        "카이로",
+        "리스본"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_ko_039",
-      "difficulty": "easy",
-      "category": "문화",
-      "question": "한글로 쓰는 언어는?",
+      "difficulty": "hard",
+      "category": "지리",
+      "question": "세계에서 가장 긴 산맥은 무엇입니까?",
       "options": [
-        "일본어",
-        "한국어",
-        "폴란드어",
-        "스웨덴어"
+        "히말라야",
+        "안데스",
+        "로키산맥",
+        "알프스"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_040",
-      "difficulty": "easy",
-      "category": "과학",
-      "question": "식물이 광합성할 때 흡수하는 기체는?",
+      "difficulty": "hard",
+      "category": "지리",
+      "question": "크로네를 통화로 사용하는 나라는 어디일까요?",
       "options": [
-        "산소",
-        "이산화탄소",
-        "질소",
-        "수소"
+        "노르웨이",
+        "폴란드",
+        "헝가리",
+        "루마니아"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_ko_041",
       "difficulty": "easy",
-      "category": "과학",
-      "question": "붉은 행성으로 알려진 행성은?",
+      "category": "역사",
+      "question": "타이타닉호는 몇 년에 침몰했습니까?",
       "options": [
-        "금성",
-        "화성",
-        "목성",
-        "토성"
+        "1908",
+        "1912",
+        "1916",
+        "1920"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_042",
       "difficulty": "easy",
-      "category": "과학",
-      "question": "H2O는 보통 무엇이라고 부르나요?",
+      "category": "역사",
+      "question": "미국의 초대 대통령은 누구였나요?",
       "options": [
-        "소금",
-        "물",
-        "산소",
-        "설탕"
+        "토마스 제퍼슨",
+        "조지 워싱턴",
+        "에이브러햄 링컨",
+        "존 아담스"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_043",
       "difficulty": "easy",
-      "category": "지리",
-      "question": "가장 큰 바다는?",
+      "category": "역사",
+      "question": "만리장성은 주로 어느 나라와 연관되어 있습니까?",
       "options": [
-        "대서양",
-        "인도양",
-        "태평양",
-        "북극해"
+        "일본",
+        "중국",
+        "인도",
+        "몽골"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_ko_044",
       "difficulty": "easy",
-      "category": "지리",
-      "question": "도쿄가 있는 나라는?",
+      "category": "역사",
+      "question": "올리언스의 하녀로 알려진 사람은 누구입니까?",
       "options": [
-        "일본",
-        "중국",
-        "한국",
-        "태국"
+        "클레오파트라",
+        "잔다르크",
+        "빅토리아 여왕",
+        "마리 퀴리"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_ko_045",
       "difficulty": "easy",
       "category": "역사",
-      "question": "모나리자를 그린 사람은?",
+      "question": "콜로세움을 건설한 고대 문명은 어느 것입니까?",
       "options": [
-        "피카소",
-        "레오나르도 다빈치",
-        "고흐",
-        "모네"
+        "그리스어",
+        "로마인",
+        "마야인",
+        "페르시아어"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_046",
-      "difficulty": "medium",
-      "category": "문화",
-      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
+      "difficulty": "easy",
+      "category": "역사",
+      "question": "1945년에 어느 전쟁이 끝났습니까?",
       "options": [
-        "픽사",
-        "스튜디오 지브리",
-        "디즈니",
-        "드림웍스"
+        "제1차 세계대전",
+        "제2차 세계 대전",
+        "한국전쟁",
+        "베트남 전쟁"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_047",
-      "difficulty": "medium",
-      "category": "스포츠",
-      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
+      "difficulty": "easy",
+      "category": "역사",
+      "question": "페니실린을 발견한 사람은 누구입니까?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "알렉산더 플레밍",
+        "루이 파스퇴르",
+        "마리 퀴리",
+        "찰스 다윈"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "tb_ko_048",
       "difficulty": "medium",
-      "category": "음식",
-      "question": "한국의 발효 배추 음식은?",
+      "category": "역사",
+      "question": "대서양을 단독으로 횡단한 최초의 여성은 누구였습니까?",
       "options": [
-        "김치",
-        "초밥",
-        "피에로기",
-        "타코"
+        "아멜리아 에어하트",
+        "베시 콜먼",
+        "발렌티나 테레시코바",
+        "샐리 라이드"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_ko_049",
       "difficulty": "medium",
-      "category": "문화",
-      "question": "한글로 쓰는 언어는?",
+      "category": "역사",
+      "question": "베를린 장벽이 무너진 해는 몇 년입니까?",
       "options": [
-        "일본어",
-        "한국어",
-        "폴란드어",
-        "스웨덴어"
+        "1987",
+        "1989",
+        "1991",
+        "1993"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_050",
       "difficulty": "medium",
-      "category": "과학",
-      "question": "식물이 광합성할 때 흡수하는 기체는?",
+      "category": "역사",
+      "question": "징기스칸이 통치했던 제국은 어디입니까?",
       "options": [
-        "산소",
-        "이산화탄소",
-        "질소",
-        "수소"
+        "오스만 제국",
+        "몽골제국",
+        "로마 제국",
+        "페르시아 제국"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_051",
       "difficulty": "medium",
-      "category": "과학",
-      "question": "붉은 행성으로 알려진 행성은?",
+      "category": "역사",
+      "question": "최초로 달에 발을 디딘 사람은 누구였나요?",
       "options": [
-        "금성",
-        "화성",
-        "목성",
-        "토성"
+        "버즈 올드린",
+        "유리 가가린",
+        "닐 암스트롱",
+        "마이클 콜린스"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "tb_ko_052",
       "difficulty": "medium",
-      "category": "과학",
-      "question": "H2O는 보통 무엇이라고 부르나요?",
+      "category": "역사",
+      "question": "르네상스가 시작된 현대 국가는 어디일까요?",
       "options": [
-        "소금",
-        "물",
-        "산소",
-        "설탕"
+        "프랑스",
+        "이탈리아",
+        "독일",
+        "스페인"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_053",
       "difficulty": "medium",
-      "category": "지리",
-      "question": "가장 큰 바다는?",
+      "category": "역사",
+      "question": "We the People이라는 단어로 시작하는 문서는 무엇입니까?",
       "options": [
-        "대서양",
-        "인도양",
-        "태평양",
-        "북극해"
+        "마그나 카르타",
+        "미국 헌법",
+        "독립선언서",
+        "권리 장전"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_ko_054",
       "difficulty": "medium",
-      "category": "지리",
-      "question": "도쿄가 있는 나라는?",
+      "category": "역사",
+      "question": "빅토리아 시대 대부분 동안 영국을 통치한 여왕은 누구입니까?",
       "options": [
-        "일본",
-        "중국",
-        "한국",
-        "태국"
+        "엘리자베스 1세",
+        "메리 1세",
+        "빅토리아",
+        "앤"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "tb_ko_055",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "category": "역사",
-      "question": "모나리자를 그린 사람은?",
+      "question": "로제타스톤은 학자들이 어떤 고대 문자를 읽는 데 도움이 되었습니까?",
       "options": [
-        "피카소",
-        "레오나르도 다빈치",
-        "고흐",
-        "모네"
+        "설형문자",
+        "상형문자",
+        "산스크리트어",
+        "선형 B"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_056",
-      "difficulty": "medium",
-      "category": "문화",
-      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
+      "difficulty": "hard",
+      "category": "역사",
+      "question": "아이티 혁명을 주도한 사람은 누구입니까?",
       "options": [
-        "픽사",
-        "스튜디오 지브리",
-        "디즈니",
-        "드림웍스"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_ko_057",
-      "difficulty": "medium",
-      "category": "스포츠",
-      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
-      "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_ko_058",
-      "difficulty": "medium",
-      "category": "음식",
-      "question": "한국의 발효 배추 음식은?",
-      "options": [
-        "김치",
-        "초밥",
-        "피에로기",
-        "타코"
+        "투생 루베르튀르",
+        "시몬 볼리바르",
+        "미구엘 이달고",
+        "호세 데 산 마르틴"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_ko_059",
-      "difficulty": "medium",
-      "category": "문화",
-      "question": "한글로 쓰는 언어는?",
+      "id": "tb_ko_057",
+      "difficulty": "hard",
+      "category": "역사",
+      "question": "제1차 세계대전을 종식시킨 조약은 무엇입니까?",
       "options": [
-        "일본어",
-        "한국어",
-        "폴란드어",
-        "스웨덴어"
+        "파리 조약",
+        "베르사유 조약",
+        "토르데시야스 조약",
+        "위트레흐트 조약"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_058",
+      "difficulty": "hard",
+      "category": "역사",
+      "question": "비잔틴 제국의 수도는 어느 도시였습니까?",
+      "options": [
+        "로마",
+        "아테네",
+        "콘스탄티노플",
+        "알렉산드리아"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_059",
+      "difficulty": "hard",
+      "category": "역사",
+      "question": "고대 이집트의 마지막 파라오는 누구였습니까?",
+      "options": [
+        "네페르티티",
+        "클레오파트라 7세",
+        "하트셉수트",
+        "람세스 2세"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_060",
-      "difficulty": "medium",
-      "category": "과학",
-      "question": "식물이 광합성할 때 흡수하는 기체는?",
+      "difficulty": "hard",
+      "category": "역사",
+      "question": "함무라비 법전을 만든 문명은 어디입니까?",
       "options": [
-        "산소",
-        "이산화탄소",
-        "질소",
-        "수소"
+        "바빌로니아 문명",
+        "아시리아의",
+        "페니키아인",
+        "히타이트"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_ko_061",
-      "difficulty": "medium",
-      "category": "과학",
-      "question": "붉은 행성으로 알려진 행성은?",
+      "difficulty": "easy",
+      "category": "대중문화",
+      "question": "배트맨 집사 이름이 뭔가요?",
       "options": [
-        "금성",
-        "화성",
-        "목성",
-        "토성"
+        "제임스",
+        "알프레드",
+        "조지",
+        "에드워드"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_062",
-      "difficulty": "medium",
-      "category": "과학",
-      "question": "H2O는 보통 무엇이라고 부르나요?",
+      "difficulty": "easy",
+      "category": "대중문화",
+      "question": "호그와트가 있는 프랜차이즈는 무엇입니까?",
       "options": [
-        "소금",
-        "물",
-        "산소",
-        "설탕"
+        "Star Wars",
+        "Harry Potter",
+        "The Matrix",
+        "아바타"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_063",
-      "difficulty": "medium",
-      "category": "지리",
-      "question": "가장 큰 바다는?",
+      "difficulty": "easy",
+      "category": "대중문화",
+      "question": "슈렉이라는 캐릭터는 무슨 색인가요?",
       "options": [
-        "대서양",
-        "인도양",
-        "태평양",
-        "북극해"
+        "블루",
+        "녹색",
+        "보라색",
+        "오렌지"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_ko_064",
-      "difficulty": "medium",
-      "category": "지리",
-      "question": "도쿄가 있는 나라는?",
+      "difficulty": "easy",
+      "category": "대중문화",
+      "question": "팝의 여왕으로 알려진 가수는 누구인가요?",
       "options": [
-        "일본",
-        "중국",
-        "한국",
-        "태국"
+        "마돈나",
+        "아델",
+        "리한나",
+        "두아 리파"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_ko_065",
-      "difficulty": "medium",
-      "category": "역사",
-      "question": "모나리자를 그린 사람은?",
+      "difficulty": "easy",
+      "category": "대중문화",
+      "question": "피터 파커라고도 알려진 슈퍼 히어로는 누구입니까?",
       "options": [
-        "피카소",
-        "레오나르도 다빈치",
-        "고흐",
-        "모네"
+        "배트맨",
+        "스파이더맨",
+        "슈퍼맨",
+        "아이언맨"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_066",
-      "difficulty": "medium",
-      "category": "문화",
-      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
+      "difficulty": "easy",
+      "category": "대중문화",
+      "question": "엘사라는 캐릭터가 등장하는 영화는 무엇인가요?",
       "options": [
-        "픽사",
-        "스튜디오 지브리",
-        "디즈니",
-        "드림웍스"
+        "모아나",
+        "냉동",
+        "용감한",
+        "얽힌"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_067",
-      "difficulty": "medium",
-      "category": "스포츠",
-      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
+      "difficulty": "easy",
+      "category": "대중문화",
+      "question": "짧은 바이럴 동영상으로 유명한 앱은 무엇인가요?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_ko_068",
-      "difficulty": "medium",
-      "category": "음식",
-      "question": "한국의 발효 배추 음식은?",
-      "options": [
-        "김치",
-        "초밥",
-        "피에로기",
-        "타코"
+        "TikTok",
+        "링크드인",
+        "드롭박스",
+        "줌"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_ko_069",
+      "id": "tb_ko_068",
       "difficulty": "medium",
-      "category": "문화",
-      "question": "한글로 쓰는 언어는?",
+      "category": "대중문화",
+      "question": "배트맨이 사는 가상의 도시는 어디인가요?",
       "options": [
-        "일본어",
-        "한국어",
-        "폴란드어",
-        "스웨덴어"
+        "메트로폴리스",
+        "고담시티",
+        "스타시티",
+        "센트럴시티"
       ],
       "correctIndex": 1
     },
     {
+      "id": "tb_ko_069",
+      "difficulty": "medium",
+      "category": "대중문화",
+      "question": "어느 밴드가 Abbey Road 앨범을 발매했나요?",
+      "options": [
+        "비틀즈",
+        "여왕",
+        "ABBA",
+        "롤링 스톤즈"
+      ],
+      "correctIndex": 0
+    },
+    {
       "id": "tb_ko_070",
       "difficulty": "medium",
-      "category": "과학",
-      "question": "식물이 광합성할 때 흡수하는 기체는?",
+      "category": "대중문화",
+      "question": "1997년 영화 타이타닉에서 잭 역을 맡은 사람은 누구입니까?",
       "options": [
-        "산소",
-        "이산화탄소",
-        "질소",
-        "수소"
+        "브래드 피트",
+        "레오나르도 디카프리오",
+        "톰 크루즈",
+        "맷 데이먼"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_071",
       "difficulty": "medium",
-      "category": "과학",
-      "question": "붉은 행성으로 알려진 행성은?",
+      "category": "대중문화",
+      "question": "커피숍 Central Perk이 등장하는 TV 프로그램은 무엇인가요?",
       "options": [
-        "금성",
-        "화성",
-        "목성",
-        "토성"
+        "친구",
+        "사인펠트",
+        "The Office",
+        "내가 네 어머니를 만난 방법"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_ko_072",
       "difficulty": "medium",
-      "category": "과학",
-      "question": "H2O는 보통 무엇이라고 부르나요?",
+      "category": "대중문화",
+      "question": "Link라는 캐릭터가 포함된 게임 시리즈는 무엇인가요?",
       "options": [
-        "소금",
-        "물",
-        "산소",
-        "설탕"
+        "파이널 판타지",
+        "젤다의 전설",
+        "포켓몬",
+        "소닉"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_073",
       "difficulty": "medium",
-      "category": "지리",
-      "question": "가장 큰 바다는?",
+      "category": "대중문화",
+      "question": "포스가 당신과 함께하기를(May the Force be with you)라는 문구가 포함된 영화는 무엇입니까?",
       "options": [
-        "대서양",
-        "인도양",
-        "태평양",
-        "북극해"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_ko_074",
-      "difficulty": "medium",
-      "category": "지리",
-      "question": "도쿄가 있는 나라는?",
-      "options": [
-        "일본",
-        "중국",
-        "한국",
-        "태국"
+        "Star Wars",
+        "스타 트렉",
+        "모래 언덕",
+        "블레이드 러너"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_ko_075",
+      "id": "tb_ko_074",
       "difficulty": "medium",
-      "category": "역사",
-      "question": "모나리자를 그린 사람은?",
+      "category": "대중문화",
+      "question": "Toy Story에 나오는 장난감 카우보이 이름은 무엇인가요?",
       "options": [
-        "피카소",
-        "레오나르도 다빈치",
-        "고흐",
-        "모네"
+        "버즈",
+        "우디",
+        "앤디",
+        "렉스"
       ],
       "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_075",
+      "difficulty": "hard",
+      "category": "대중문화",
+      "question": "The Matrix에서 네오 역을 맡은 배우는 누구인가요?",
+      "options": [
+        "키아누 리브스",
+        "조니 뎁",
+        "니콜라스 케이지",
+        "윌 스미스"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "tb_ko_076",
-      "difficulty": "medium",
-      "category": "문화",
-      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
+      "difficulty": "hard",
+      "category": "대중문화",
+      "question": "Lemonade 앨범을 발매한 아티스트는 누구인가요?",
       "options": [
-        "픽사",
-        "스튜디오 지브리",
-        "디즈니",
-        "드림웍스"
+        "비욘세",
+        "테일러 스위프트",
+        "아리아나 그란데",
+        "레이디 가가"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_ko_077",
-      "difficulty": "medium",
-      "category": "스포츠",
-      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
+      "difficulty": "hard",
+      "category": "대중문화",
+      "question": "Lord of the Rings에서 골룸의 원래 이름은 무엇입니까?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "스미골",
+        "빌보",
+        "데아골",
+        "파라미르"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "tb_ko_078",
-      "difficulty": "medium",
-      "category": "음식",
-      "question": "한국의 발효 배추 음식은?",
+      "difficulty": "hard",
+      "category": "대중문화",
+      "question": "Remember Me라는 노래가 포함된 애니메이션 영화는 무엇인가요?",
       "options": [
-        "김치",
-        "초밥",
-        "피에로기",
-        "타코"
+        "코코",
+        "엔칸토",
+        "소울",
+        "루카"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_ko_079",
-      "difficulty": "medium",
-      "category": "문화",
-      "question": "한글로 쓰는 언어는?",
+      "difficulty": "hard",
+      "category": "대중문화",
+      "question": "Black Panther에 나오는 가상의 금속 이름은 무엇입니까?",
       "options": [
-        "일본어",
-        "한국어",
-        "폴란드어",
-        "스웨덴어"
+        "아다만티움",
+        "비브라늄",
+        "미스릴",
+        "유놉타늄"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_080",
-      "difficulty": "medium",
-      "category": "과학",
-      "question": "식물이 광합성할 때 흡수하는 기체는?",
+      "difficulty": "hard",
+      "category": "대중문화",
+      "question": "시트콤 The Office의 배경이 되는 회사는 어디인가요?",
       "options": [
-        "산소",
-        "이산화탄소",
-        "질소",
-        "수소"
+        "공원 및 휴양",
+        "The Office",
+        "브루클린 나인나인",
+        "커뮤니티"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_081",
-      "difficulty": "medium",
-      "category": "과학",
-      "question": "붉은 행성으로 알려진 행성은?",
+      "difficulty": "easy",
+      "category": "음식",
+      "question": "과카몰리를 만드는 데 전통적으로 사용되는 과일은 무엇입니까?",
       "options": [
-        "금성",
-        "화성",
-        "목성",
-        "토성"
+        "바나나",
+        "아보카도",
+        "망고",
+        "키위"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_082",
-      "difficulty": "medium",
-      "category": "과학",
-      "question": "H2O는 보통 무엇이라고 부르나요?",
+      "difficulty": "easy",
+      "category": "음식",
+      "question": "초밥은 무엇과 가장 일반적으로 연관되어 있습니까?",
       "options": [
-        "소금",
-        "물",
-        "산소",
-        "설탕"
+        "일본",
+        "멕시코",
+        "이탈리아",
+        "모로코"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_ko_083",
-      "difficulty": "medium",
-      "category": "지리",
-      "question": "가장 큰 바다는?",
+      "difficulty": "easy",
+      "category": "음식",
+      "question": "마지팬을 만드는 데 어떤 견과류가 사용되나요?",
       "options": [
-        "대서양",
-        "인도양",
-        "태평양",
-        "북극해"
+        "호두",
+        "헤이즐넛",
+        "아몬드",
+        "땅콩"
       ],
       "correctIndex": 2
     },
     {
       "id": "tb_ko_084",
-      "difficulty": "medium",
-      "category": "지리",
-      "question": "도쿄가 있는 나라는?",
+      "difficulty": "easy",
+      "category": "음식",
+      "question": "후무스의 주성분은 무엇인가요?",
       "options": [
-        "일본",
-        "중국",
-        "한국",
-        "태국"
+        "렌즈콩",
+        "병아리콩",
+        "감자",
+        "쌀"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_ko_085",
-      "difficulty": "medium",
-      "category": "역사",
-      "question": "모나리자를 그린 사람은?",
+      "difficulty": "easy",
+      "category": "음식",
+      "question": "볶은 콩을 끓여서 만드는 음료는 무엇입니까?",
       "options": [
-        "피카소",
-        "레오나르도 다빈치",
-        "고흐",
-        "모네"
+        "차",
+        "커피",
+        "레모네이드",
+        "콜라"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_086",
-      "difficulty": "medium",
-      "category": "문화",
-      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
+      "difficulty": "easy",
+      "category": "음식",
+      "question": "작은 튜브 모양의 파스타는 무엇입니까?",
       "options": [
-        "픽사",
-        "스튜디오 지브리",
-        "디즈니",
-        "드림웍스"
+        "펜네",
+        "스파게티",
+        "파르팔레",
+        "라자냐"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_ko_087",
-      "difficulty": "medium",
-      "category": "스포츠",
-      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
+      "difficulty": "easy",
+      "category": "음식",
+      "question": "타코로 유명한 나라는 어디일까요?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "이탈리아",
+        "멕시코",
+        "태국",
+        "그리스"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_ko_088",
       "difficulty": "medium",
       "category": "음식",
-      "question": "한국의 발효 배추 음식은?",
+      "question": "카레에 노란색을 띠게 하는 향신료는 무엇입니까?",
       "options": [
-        "김치",
-        "초밥",
-        "피에로기",
-        "타코"
+        "커민",
+        "강황",
+        "파프리카",
+        "계피"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_ko_089",
       "difficulty": "medium",
-      "category": "문화",
-      "question": "한글로 쓰는 언어는?",
+      "category": "음식",
+      "question": "마르게리타 피자에 전통적으로 사용되는 치즈는 무엇입니까?",
       "options": [
-        "일본어",
-        "한국어",
-        "폴란드어",
-        "스웨덴어"
+        "체다치즈",
+        "모짜렐라",
+        "페타",
+        "고다"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_090",
       "difficulty": "medium",
-      "category": "과학",
-      "question": "식물이 광합성할 때 흡수하는 기체는?",
+      "category": "음식",
+      "question": "두부는 주로 무엇으로 만들어지나요?",
       "options": [
-        "산소",
-        "이산화탄소",
-        "질소",
-        "수소"
+        "콩",
+        "쌀",
+        "옥수수",
+        "땅콩"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_ko_091",
-      "difficulty": "hard",
-      "category": "과학",
-      "question": "붉은 행성으로 알려진 행성은?",
+      "difficulty": "medium",
+      "category": "음식",
+      "question": "커피에 흠뻑 젖은 레이디핑거를 겹겹이 쌓아 만든 디저트는 무엇인가요?",
       "options": [
-        "금성",
-        "화성",
-        "목성",
-        "토성"
+        "바클라바",
+        "티라미수",
+        "파블로바",
+        "크렘 브륄레"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_092",
-      "difficulty": "hard",
-      "category": "과학",
-      "question": "H2O는 보통 무엇이라고 부르나요?",
+      "difficulty": "medium",
+      "category": "음식",
+      "question": "사우어크라우트의 주성분은 무엇인가요?",
       "options": [
-        "소금",
-        "물",
-        "산소",
-        "설탕"
+        "양배추",
+        "당근",
+        "오이",
+        "양파"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_ko_093",
-      "difficulty": "hard",
-      "category": "지리",
-      "question": "가장 큰 바다는?",
+      "difficulty": "medium",
+      "category": "음식",
+      "question": "건포도를 만들기 위해 어떤 과일을 말려야 할까요?",
       "options": [
-        "대서양",
-        "인도양",
-        "태평양",
-        "북극해"
+        "포도",
+        "자두",
+        "살구",
+        "무화과"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "tb_ko_094",
-      "difficulty": "hard",
-      "category": "지리",
-      "question": "도쿄가 있는 나라는?",
+      "difficulty": "medium",
+      "category": "음식",
+      "question": "전통적으로 바질, 잣, 마늘, 올리브 오일, 치즈로 만드는 소스는 무엇입니까?",
       "options": [
-        "일본",
-        "중국",
-        "한국",
-        "태국"
+        "페스토",
+        "살사",
+        "호이신",
+        "타히니"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_ko_095",
       "difficulty": "hard",
-      "category": "역사",
-      "question": "모나리자를 그린 사람은?",
+      "category": "음식",
+      "question": "전통적인 리조또를 만드는 데 어떤 곡물이 사용됩니까?",
       "options": [
-        "피카소",
-        "레오나르도 다빈치",
-        "고흐",
-        "모네"
+        "바스마티어",
+        "아르보리오 쌀",
+        "퀴노아",
+        "불가르"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_096",
       "difficulty": "hard",
-      "category": "문화",
-      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
+      "category": "음식",
+      "question": "김치의 원산지는 어느 나라인가요?",
       "options": [
-        "픽사",
-        "스튜디오 지브리",
-        "디즈니",
-        "드림웍스"
+        "일본",
+        "중국",
+        "한국",
+        "베트남"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "tb_ko_097",
       "difficulty": "hard",
-      "category": "스포츠",
-      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
+      "category": "음식",
+      "question": "얇은 팬케이크를 뜻하는 프랑스어는 무엇인가요?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "크레이프",
+        "브리오슈",
+        "에클레어",
+        "마카롱"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "tb_ko_098",
       "difficulty": "hard",
       "category": "음식",
-      "question": "한국의 발효 배추 음식은?",
+      "question": "식초에 신맛을 주는 산은 무엇입니까?",
       "options": [
-        "김치",
-        "초밥",
-        "피에로기",
-        "타코"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_ko_099",
-      "difficulty": "hard",
-      "category": "문화",
-      "question": "한글로 쓰는 언어는?",
-      "options": [
-        "일본어",
-        "한국어",
-        "폴란드어",
-        "스웨덴어"
+        "구연산",
+        "아세트산",
+        "젖산",
+        "말산"
       ],
       "correctIndex": 1
     },
     {
+      "id": "tb_ko_099",
+      "difficulty": "hard",
+      "category": "음식",
+      "question": "전통 팔라펠의 주성분은 무엇인가요?",
+      "options": [
+        "병아리콩",
+        "쇠고기",
+        "가지",
+        "쌀"
+      ],
+      "correctIndex": 0
+    },
+    {
       "id": "tb_ko_100",
       "difficulty": "hard",
-      "category": "과학",
-      "question": "식물이 광합성할 때 흡수하는 기체는?",
+      "category": "음식",
+      "question": "바클라바를 만들 때 쓰는 반죽은 무엇인가요?",
       "options": [
-        "산소",
-        "이산화탄소",
-        "질소",
-        "수소"
+        "퍼프 페이스트리",
+        "필로 반죽",
+        "쇼트크러스트",
+        "슈 페이스트리"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_101",
-      "difficulty": "hard",
-      "category": "과학",
-      "question": "붉은 행성으로 알려진 행성은?",
+      "difficulty": "easy",
+      "category": "동물",
+      "question": "가장 큰 육상 동물은 무엇입니까?",
       "options": [
-        "금성",
-        "화성",
-        "목성",
-        "토성"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_ko_102",
-      "difficulty": "hard",
-      "category": "과학",
-      "question": "H2O는 보통 무엇이라고 부르나요?",
-      "options": [
-        "소금",
-        "물",
-        "산소",
-        "설탕"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_ko_103",
-      "difficulty": "hard",
-      "category": "지리",
-      "question": "가장 큰 바다는?",
-      "options": [
-        "대서양",
-        "인도양",
-        "태평양",
-        "북극해"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_ko_104",
-      "difficulty": "hard",
-      "category": "지리",
-      "question": "도쿄가 있는 나라는?",
-      "options": [
-        "일본",
-        "중국",
-        "한국",
-        "태국"
+        "코끼리",
+        "하마",
+        "코뿔소",
+        "기린"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_ko_105",
-      "difficulty": "hard",
-      "category": "역사",
-      "question": "모나리자를 그린 사람은?",
+      "id": "tb_ko_102",
+      "difficulty": "easy",
+      "category": "동물",
+      "question": "검은색과 흰색 줄무늬로 유명한 동물은 무엇인가요?",
       "options": [
-        "피카소",
-        "레오나르도 다빈치",
-        "고흐",
-        "모네"
+        "얼룩말",
+        "호랑이",
+        "팬더",
+        "스컹크"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_103",
+      "difficulty": "easy",
+      "category": "동물",
+      "question": "꿀벌은 무엇을 만드나요?",
+      "options": [
+        "우유",
+        "여보",
+        "실크",
+        "왁스만"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_104",
+      "difficulty": "easy",
+      "category": "동물",
+      "question": "포유류는 어떤 동물인가요?",
+      "options": [
+        "상어",
+        "개구리",
+        "돌고래",
+        "악어"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_105",
+      "difficulty": "easy",
+      "category": "동물",
+      "question": "아기 고양이를 뭐라고 부르나요?",
+      "options": [
+        "강아지",
+        "새끼 고양이",
+        "송아지",
+        "망아지"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_106",
-      "difficulty": "hard",
-      "category": "문화",
-      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
+      "difficulty": "easy",
+      "category": "동물",
+      "question": "이야기에서 아기를 출산하는 것과 자주 연관되는 새는 무엇입니까?",
       "options": [
-        "픽사",
-        "스튜디오 지브리",
-        "디즈니",
-        "드림웍스"
+        "독수리",
+        "황새",
+        "올빼미",
+        "백조"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_107",
-      "difficulty": "hard",
-      "category": "스포츠",
-      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
+      "difficulty": "easy",
+      "category": "동물",
+      "question": "색깔이 변하는 것으로 유명한 동물은 누구인가요?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "카멜레온",
+        "코알라",
+        "펭귄",
+        "낙타"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "tb_ko_108",
-      "difficulty": "hard",
-      "category": "음식",
-      "question": "한국의 발효 배추 음식은?",
+      "difficulty": "medium",
+      "category": "동물",
+      "question": "가장 빠른 육상 동물은 무엇입니까?",
       "options": [
-        "김치",
-        "초밥",
-        "피에로기",
-        "타코"
+        "치타",
+        "사자",
+        "말",
+        "캥거루"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_ko_109",
-      "difficulty": "hard",
-      "category": "문화",
-      "question": "한글로 쓰는 언어는?",
+      "difficulty": "medium",
+      "category": "동물",
+      "question": "목이 가장 긴 동물은 누구일까요?",
       "options": [
-        "일본어",
-        "한국어",
-        "폴란드어",
-        "스웨덴어"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_ko_110",
-      "difficulty": "hard",
-      "category": "과학",
-      "question": "식물이 광합성할 때 흡수하는 기체는?",
-      "options": [
-        "산소",
-        "이산화탄소",
-        "질소",
-        "수소"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_ko_111",
-      "difficulty": "hard",
-      "category": "과학",
-      "question": "붉은 행성으로 알려진 행성은?",
-      "options": [
-        "금성",
-        "화성",
-        "목성",
-        "토성"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_ko_112",
-      "difficulty": "hard",
-      "category": "과학",
-      "question": "H2O는 보통 무엇이라고 부르나요?",
-      "options": [
-        "소금",
-        "물",
-        "산소",
-        "설탕"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_ko_113",
-      "difficulty": "hard",
-      "category": "지리",
-      "question": "가장 큰 바다는?",
-      "options": [
-        "대서양",
-        "인도양",
-        "태평양",
-        "북극해"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_ko_114",
-      "difficulty": "hard",
-      "category": "지리",
-      "question": "도쿄가 있는 나라는?",
-      "options": [
-        "일본",
-        "중국",
-        "한국",
-        "태국"
+        "기린",
+        "타조",
+        "낙타",
+        "라마"
       ],
       "correctIndex": 0
     },
     {
+      "id": "tb_ko_110",
+      "difficulty": "medium",
+      "category": "동물",
+      "question": "영어로 사자 무리를 무엇이라고 부르나요?",
+      "options": [
+        "Pack",
+        "Herd",
+        "Pride",
+        "Flock"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_111",
+      "difficulty": "medium",
+      "category": "동물",
+      "question": "심장이 세 개 있는 해양 동물은 누구일까요?",
+      "options": [
+        "문어",
+        "돌고래",
+        "바다거북",
+        "해파리"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_112",
+      "difficulty": "medium",
+      "category": "동물",
+      "question": "팬더는 주로 무엇을 먹나요?",
+      "options": [
+        "대나무",
+        "물고기",
+        "잔디",
+        "과일"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_113",
+      "difficulty": "medium",
+      "category": "동물",
+      "question": "어떤 동물이 가장 큰 알을 낳나요?",
+      "options": [
+        "타조",
+        "독수리",
+        "펭귄",
+        "알바트로스"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_114",
+      "difficulty": "medium",
+      "category": "동물",
+      "question": "자기 몸무게의 몇 배나 되는 물건을 들어올릴 수 있는 곤충은 무엇입니까?",
+      "options": [
+        "나비",
+        "개미",
+        "모기",
+        "무당벌레"
+      ],
+      "correctIndex": 1
+    },
+    {
       "id": "tb_ko_115",
       "difficulty": "hard",
-      "category": "역사",
-      "question": "모나리자를 그린 사람은?",
+      "category": "동물",
+      "question": "진정한 비행을 할 수 있는 유일한 포유류는 무엇입니까?",
       "options": [
-        "피카소",
-        "레오나르도 다빈치",
-        "고흐",
-        "모네"
+        "날다람쥐",
+        "박쥐",
+        "슈가 글라이더",
+        "여우원숭이"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_116",
       "difficulty": "hard",
-      "category": "문화",
-      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
+      "category": "동물",
+      "question": "사막의 배라고도 불리는 동물은 무엇인가요?",
       "options": [
-        "픽사",
-        "스튜디오 지브리",
-        "디즈니",
-        "드림웍스"
+        "낙타",
+        "당나귀",
+        "말",
+        "야크"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_ko_117",
       "difficulty": "hard",
-      "category": "스포츠",
-      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
+      "category": "동물",
+      "question": "상어의 가장 큰 종은 무엇입니까?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "백상아리",
+        "고래상어",
+        "귀상어 상어",
+        "호랑이 상어"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_ko_118",
       "difficulty": "hard",
-      "category": "음식",
-      "question": "한국의 발효 배추 음식은?",
+      "category": "동물",
+      "question": "인간의 말을 유난히 잘 흉내낼 수 있는 새는 누구일까요?",
       "options": [
-        "김치",
-        "초밥",
-        "피에로기",
-        "타코"
+        "앵무새",
+        "펭귄",
+        "플라밍고",
+        "참새"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_ko_119",
       "difficulty": "hard",
-      "category": "문화",
-      "question": "한글로 쓰는 언어는?",
+      "category": "동물",
+      "question": "새에 대한 연구를 무엇이라고 합니까?",
       "options": [
-        "일본어",
-        "한국어",
-        "폴란드어",
-        "스웨덴어"
+        "곤충학",
+        "조류학",
+        "어류학",
+        "파충류학"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_120",
       "difficulty": "hard",
-      "category": "과학",
-      "question": "식물이 광합성할 때 흡수하는 기체는?",
+      "category": "동물",
+      "question": "인간과 매우 유사한 지문을 가진 동물은 무엇입니까?",
       "options": [
-        "산소",
-        "이산화탄소",
-        "질소",
-        "수소"
+        "코알라",
+        "캥거루",
+        "팬더",
+        "나무늘보"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_ko_121",
-      "difficulty": "hard",
-      "category": "과학",
-      "question": "붉은 행성으로 알려진 행성은?",
+      "difficulty": "easy",
+      "category": "수학",
+      "question": "9 곱하기 9는 무엇입니까?",
       "options": [
-        "금성",
-        "화성",
-        "목성",
-        "토성"
+        "72",
+        "81",
+        "90",
+        "99"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_122",
-      "difficulty": "hard",
-      "category": "과학",
-      "question": "H2O는 보통 무엇이라고 부르나요?",
+      "difficulty": "easy",
+      "category": "수학",
+      "question": "삼각형의 변은 몇 개입니까?",
       "options": [
-        "소금",
-        "물",
-        "산소",
-        "설탕"
+        "2",
+        "3",
+        "4",
+        "5"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_ko_123",
-      "difficulty": "hard",
-      "category": "지리",
-      "question": "가장 큰 바다는?",
+      "difficulty": "easy",
+      "category": "수학",
+      "question": "100의 절반은 얼마입니까?",
       "options": [
-        "대서양",
-        "인도양",
-        "태평양",
-        "북극해"
+        "25",
+        "40",
+        "50",
+        "75"
       ],
       "correctIndex": 2
     },
     {
       "id": "tb_ko_124",
-      "difficulty": "hard",
-      "category": "지리",
-      "question": "도쿄가 있는 나라는?",
+      "difficulty": "easy",
+      "category": "수학",
+      "question": "12 더하기 15는 무엇입니까?",
       "options": [
-        "일본",
-        "중국",
-        "한국",
-        "태국"
+        "25",
+        "27",
+        "29",
+        "31"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_ko_125",
-      "difficulty": "hard",
-      "category": "역사",
-      "question": "모나리자를 그린 사람은?",
+      "difficulty": "easy",
+      "category": "수학",
+      "question": "1시간은 몇 분인가요?",
       "options": [
-        "피카소",
-        "레오나르도 다빈치",
-        "고흐",
-        "모네"
+        "30",
+        "45",
+        "60",
+        "90"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "tb_ko_126",
-      "difficulty": "hard",
-      "category": "문화",
-      "question": "센과 치히로의 행방불명을 만든 스튜디오는?",
+      "difficulty": "easy",
+      "category": "수학",
+      "question": "7의 제곱은 무엇입니까?",
       "options": [
-        "픽사",
-        "스튜디오 지브리",
-        "디즈니",
-        "드림웍스"
+        "14",
+        "21",
+        "49",
+        "77"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_127",
+      "difficulty": "easy",
+      "category": "수학",
+      "question": "직각은 몇 도인가요?",
+      "options": [
+        "45",
+        "60",
+        "90",
+        "180"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_128",
+      "difficulty": "medium",
+      "category": "수학",
+      "question": "소수점 이하 두 자리까지 반올림한 파이의 값은 얼마입니까?",
+      "options": [
+        "3.12",
+        "3.14",
+        "3.16",
+        "3.18"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_ko_127",
-      "difficulty": "hard",
-      "category": "스포츠",
-      "question": "축구에서 한 팀은 필드에 몇 명이 뛰나요?",
+      "id": "tb_ko_129",
+      "difficulty": "medium",
+      "category": "수학",
+      "question": "200의 15%는 얼마입니까?",
+      "options": [
+        "15",
+        "20",
+        "30",
+        "40"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_130",
+      "difficulty": "medium",
+      "category": "수학",
+      "question": "육각형은 변이 몇 개 있나요?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_131",
+      "difficulty": "medium",
+      "category": "수학",
+      "question": "144의 제곱근은 얼마입니까?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_132",
+      "difficulty": "medium",
+      "category": "수학",
+      "question": "3입방체란 무엇인가?",
+      "options": [
+        "9",
+        "18",
+        "27",
+        "81"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_133",
+      "difficulty": "medium",
+      "category": "수학",
+      "question": "7 다음의 소수는 무엇입니까?",
       "options": [
         "9",
         "10",
@@ -1655,80 +1733,1393 @@
       "correctIndex": 2
     },
     {
-      "id": "tb_ko_128",
-      "difficulty": "hard",
-      "category": "음식",
-      "question": "한국의 발효 배추 음식은?",
+      "id": "tb_ko_134",
+      "difficulty": "medium",
+      "category": "수학",
+      "question": "1미터는 몇 센티미터인가요?",
       "options": [
-        "김치",
-        "초밥",
-        "피에로기",
-        "타코"
+        "10",
+        "100",
+        "1000",
+        "10000"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_135",
+      "difficulty": "hard",
+      "category": "수학",
+      "question": "삼각형의 내각의 합은 얼마입니까?",
+      "options": [
+        "90도",
+        "180도",
+        "270도",
+        "360도"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_136",
+      "difficulty": "hard",
+      "category": "수학",
+      "question": "2의 10제곱은 무엇인가요?",
+      "options": [
+        "512",
+        "1024",
+        "2048",
+        "4096"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_137",
+      "difficulty": "hard",
+      "category": "수학",
+      "question": "가장 작은 소수는 무엇입니까?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_138",
+      "difficulty": "hard",
+      "category": "수학",
+      "question": "1을 4로 나눈 소수는 무엇입니까?",
+      "options": [
+        "0.2",
+        "0.25",
+        "0.4",
+        "0.5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_139",
+      "difficulty": "hard",
+      "category": "수학",
+      "question": "큐브에는 면이 몇 개 있나요?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_140",
+      "difficulty": "hard",
+      "category": "수학",
+      "question": "50의 로마숫자는 무엇입니까?",
+      "options": [
+        "L",
+        "C",
+        "D",
+        "M"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_ko_129",
-      "difficulty": "hard",
-      "category": "문화",
-      "question": "한글로 쓰는 언어는?",
+      "id": "tb_ko_141",
+      "difficulty": "easy",
+      "category": "음악",
+      "question": "표준 기타에는 일반적으로 몇 개의 현이 있습니까?",
       "options": [
-        "일본어",
-        "한국어",
-        "폴란드어",
-        "스웨덴어"
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_142",
+      "difficulty": "easy",
+      "category": "음악",
+      "question": "흑백 건반이 있는 악기는 무엇인가요?",
+      "options": [
+        "기타",
+        "피아노",
+        "바이올린",
+        "드럼"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_ko_130",
-      "difficulty": "hard",
-      "category": "과학",
-      "question": "식물이 광합성할 때 흡수하는 기체는?",
+      "id": "tb_ko_143",
+      "difficulty": "easy",
+      "category": "음악",
+      "question": "팝의 왕으로 알려진 사람은 누구입니까?",
       "options": [
-        "산소",
-        "이산화탄소",
-        "질소",
-        "수소"
+        "엘비스 프레슬리",
+        "마이클 잭슨",
+        "프린스",
+        "스티비 원더"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_ko_131",
+      "id": "tb_ko_144",
+      "difficulty": "easy",
+      "category": "음악",
+      "question": "가수 그룹을 뭐라고 부르나요?",
+      "options": [
+        "합창단",
+        "붕대",
+        "캐스트",
+        "승무원"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_145",
+      "difficulty": "easy",
+      "category": "음악",
+      "question": "활과 함께 연주되는 악기는 무엇입니까?",
+      "options": [
+        "트럼펫",
+        "바이올린",
+        "피아노",
+        "플루트"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_146",
+      "difficulty": "easy",
+      "category": "음악",
+      "question": "음악의 속도에 대한 이름은 무엇입니까?",
+      "options": [
+        "템포",
+        "피치",
+        "하모니",
+        "리듬"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_147",
+      "difficulty": "easy",
+      "category": "음악",
+      "question": "많은 청취자들에게 CD보다 먼저 나온 음악 형식은 무엇입니까?",
+      "options": [
+        "카세트",
+        "블루레이",
+        "팟캐스트",
+        "전자책"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_148",
+      "difficulty": "medium",
+      "category": "음악",
+      "question": "월광 소나타를 작곡한 작곡가는 누구입니까?",
+      "options": [
+        "모차르트",
+        "베토벤",
+        "바흐",
+        "쇼팽"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_149",
+      "difficulty": "medium",
+      "category": "음악",
+      "question": "표준 메이저 스케일에는 몇 개의 음표가 있습니까?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_150",
+      "difficulty": "medium",
+      "category": "음악",
+      "question": "프레디 머큐리가 리드 싱어로 활동한 밴드는 어디인가요?",
+      "options": [
+        "여왕",
+        "U2",
+        "너바나",
+        "오아시스"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_151",
+      "difficulty": "medium",
+      "category": "음악",
+      "question": "DJ는 무엇을 뜻하나요?",
+      "options": [
+        "디스크자키",
+        "댄스 심사위원",
+        "디지털 잼",
+        "드럼 점퍼"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_152",
+      "difficulty": "medium",
+      "category": "음악",
+      "question": "요요마는 어떤 악기를 연주하는 것으로 유명합니까?",
+      "options": [
+        "첼로",
+        "바이올린",
+        "피아노",
+        "클라리넷"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_153",
+      "difficulty": "medium",
+      "category": "음악",
+      "question": "듀엣이란 무엇입니까?",
+      "options": [
+        "두 연주자를 위한 노래",
+        "빠른 드럼 비트",
+        "음악상",
+        "무대 조명"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_154",
+      "difficulty": "medium",
+      "category": "음악",
+      "question": "즉흥 연주 및 스윙과 자주 연관되는 장르는 무엇입니까?",
+      "options": [
+        "재즈",
+        "금속",
+        "오페라",
+        "레게"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_155",
+      "difficulty": "hard",
+      "category": "음악",
+      "question": "Four Seasons를 작곡한 고전 시대 작곡가는 누구인가요?",
+      "options": [
+        "비발디",
+        "헨델",
+        "하이든",
+        "슈베르트"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_156",
+      "difficulty": "hard",
+      "category": "음악",
+      "question": "남자의 가장 낮은 표준 노래 목소리는 무엇입니까?",
+      "options": [
+        "테너",
+        "바리톤",
+        "베이스",
+        "알토"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_157",
+      "difficulty": "hard",
+      "category": "음악",
+      "question": "C 위의 반음은 무엇입니까?",
+      "options": [
+        "B",
+        "C 샤프",
+        "D",
+        "E 플랫"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_158",
+      "difficulty": "hard",
+      "category": "음악",
+      "question": "점점 소리가 커진다는 말은 무엇인가요?",
+      "options": [
+        "크레센도",
+        "디미누엔도",
+        "레가토",
+        "스타카토"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_159",
+      "difficulty": "hard",
+      "category": "음악",
+      "question": "재즈의 탄생과 밀접한 관련이 있는 도시는 어디인가요?",
+      "options": [
+        "뉴올리언스",
+        "시애틀",
+        "내슈빌",
+        "디트로이트"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_160",
+      "difficulty": "hard",
+      "category": "음악",
+      "question": "악보의 시작 부분에 있는 기호의 이름은 무엇입니까?",
+      "options": [
+        "음자리표",
+        "초조함",
+        "다리",
+        "밸브"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_161",
+      "difficulty": "easy",
+      "category": "예술",
+      "question": "모나리자는 누가 그렸나요?",
+      "options": [
+        "빈센트 반 고흐",
+        "레오나르도 다 빈치",
+        "파블로 피카소",
+        "클로드 모네"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_162",
+      "difficulty": "easy",
+      "category": "예술",
+      "question": "빨간색과 파란색을 섞으면 어떤 색이 나올까요?",
+      "options": [
+        "녹색",
+        "보라색",
+        "오렌지",
+        "브라운"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_163",
+      "difficulty": "easy",
+      "category": "예술",
+      "question": "캔버스에 페인트를 칠하는 데 사용되는 도구는 무엇입니까?",
+      "options": [
+        "망치",
+        "붓",
+        "나침반",
+        "바늘"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_164",
+      "difficulty": "easy",
+      "category": "예술",
+      "question": "일반적으로 입체적인 조각품이란 무엇입니까?",
+      "options": [
+        "예",
+        "아니요",
+        "사진에서만",
+        "종이에만"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_165",
+      "difficulty": "easy",
+      "category": "예술",
+      "question": "모나리자가 있는 박물관은 어디인가요?",
+      "options": [
+        "루브르",
+        "프라도",
+        "테이트 모던",
+        "우피치"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_166",
+      "difficulty": "easy",
+      "category": "예술",
+      "question": "종이를 접는 기술을 무엇이라고 하나요?",
+      "options": [
+        "종이접기",
+        "서예",
+        "모자이크",
+        "낙서"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_167",
+      "difficulty": "easy",
+      "category": "예술",
+      "question": "빨간색과 노란색을 섞으면 어떤 색이 만들어지나요?",
+      "options": [
+        "블루",
+        "오렌지",
+        "보라색",
+        "화이트"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_168",
+      "difficulty": "medium",
+      "category": "예술",
+      "question": "별이 빛나는 밤을 그린 사람은 누구인가요?",
+      "options": [
+        "파블로 피카소",
+        "빈센트 반 고흐",
+        "살바도르 달리",
+        "렘브란트"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_169",
+      "difficulty": "medium",
+      "category": "예술",
+      "question": "시계를 녹이는 것으로 유명한 예술가는 누구인가요?",
+      "options": [
+        "살바도르 달리",
+        "프리다 칼로",
+        "앤디 워홀",
+        "뱅크시"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_170",
+      "difficulty": "medium",
+      "category": "예술",
+      "question": "캘리그라피란 무엇인가요?",
+      "options": [
+        "장식적인 필기",
+        "돌 조각",
+        "벽화",
+        "사진 편집"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_171",
+      "difficulty": "medium",
+      "category": "예술",
+      "question": "클로드 모네와 관련된 미술 운동은 무엇입니까?",
+      "options": [
+        "입체파",
+        "인상주의",
+        "초현실주의",
+        "팝아트"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_172",
+      "difficulty": "medium",
+      "category": "예술",
+      "question": "자화상이란 무엇입니까?",
+      "options": [
+        "작가가 찍은 작가의 사진",
+        "풍경",
+        "단체 사진",
+        "조각 베이스"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_173",
+      "difficulty": "medium",
+      "category": "예술",
+      "question": "도자기에 자주 사용되는 재료는 무엇입니까?",
+      "options": [
+        "점토",
+        "유리만",
+        "고무",
+        "종이"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_174",
+      "difficulty": "medium",
+      "category": "예술",
+      "question": "흑백 작품의 주요 색상은 무엇입니까?",
+      "options": [
+        "단색",
+        "두 가지 색상",
+        "모든 색상",
+        "색상 없음"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_175",
+      "difficulty": "hard",
+      "category": "예술",
+      "question": "게르니카를 그린 화가는 누구일까요?",
+      "options": [
+        "파블로 피카소",
+        "앙리 마티스",
+        "폴 세잔",
+        "에드워드 뭉크"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_176",
+      "difficulty": "hard",
+      "category": "예술",
+      "question": "르네상스 예술과 우피치 미술관으로 유명한 이탈리아 도시는 어디인가요?",
+      "options": [
+        "피렌체",
+        "베니스",
+        "밀라노",
+        "나폴리"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_177",
+      "difficulty": "hard",
+      "category": "예술",
+      "question": "프레스코화는 무엇에 그려지나요?",
+      "options": [
+        "젖은 석고",
+        "유리",
+        "금속",
+        "실크"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_178",
+      "difficulty": "hard",
+      "category": "예술",
+      "question": "<기억의 지속성>을 만든 예술가는 누구인가요?",
+      "options": [
+        "살바도르 달리",
+        "호안 미로",
+        "르네 마그리트",
+        "잭슨 폴록"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_179",
+      "difficulty": "hard",
+      "category": "예술",
+      "question": "조각된 블록을 사용하는 판화 제작 방법은 무엇입니까?",
+      "options": [
+        "목판화",
+        "수채화",
+        "콜라주",
+        "에어브러쉬"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_180",
+      "difficulty": "hard",
+      "category": "예술",
+      "question": "명암대비란 무엇인가요?",
+      "options": [
+        "빛과 그림자",
+        "소리와 리듬",
+        "색상만",
+        "원근감 그리드"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_181",
+      "difficulty": "easy",
+      "category": "스포츠",
+      "question": "한 축구팀에 몇 명의 선수가 경기장에 있습니까?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_182",
+      "difficulty": "easy",
+      "category": "스포츠",
+      "question": "라켓과 셔틀콕을 사용하는 스포츠는 무엇입니까?",
+      "options": [
+        "테니스",
+        "배드민턴",
+        "스쿼시",
+        "탁구"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_183",
+      "difficulty": "easy",
+      "category": "스포츠",
+      "question": "농구에서 자유투의 가치는 몇 점인가요?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_184",
+      "difficulty": "easy",
+      "category": "스포츠",
+      "question": "윔블던에서는 어떤 스포츠가 진행되나요?",
+      "options": [
+        "크리켓",
+        "테니스",
+        "골프",
+        "럭비"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_185",
+      "difficulty": "easy",
+      "category": "스포츠",
+      "question": "올림픽 깃발에는 몇 개의 고리가 있습니까?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_186",
+      "difficulty": "easy",
+      "category": "스포츠",
+      "question": "퍽을 사용하는 스포츠는 무엇입니까?",
+      "options": [
+        "아이스하키",
+        "야구",
+        "배구",
+        "복싱"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_187",
+      "difficulty": "easy",
+      "category": "스포츠",
+      "question": "주자들은 릴레이 경주에서 무엇을 통과합니까?",
+      "options": [
+        "공",
+        "배턴",
+        "깃발",
+        "장갑"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_188",
+      "difficulty": "medium",
+      "category": "스포츠",
+      "question": "투르 드 프랑스는 어떤 스포츠 경주인가요?",
+      "options": [
+        "달리기",
+        "사이클링",
+        "수영",
+        "스키"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_189",
+      "difficulty": "medium",
+      "category": "스포츠",
+      "question": "경기장에 있는 표준 야구팀에는 몇 명의 선수가 있습니까?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_190",
+      "difficulty": "medium",
+      "category": "스포츠",
+      "question": "남자 축구에서 FIFA 월드컵을 가장 많이 우승한 국가는 어디인가요?",
+      "options": [
+        "독일",
+        "아르헨티나",
+        "브라질",
+        "이탈리아"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_ko_191",
+      "difficulty": "medium",
+      "category": "스포츠",
+      "question": "테니스에서 듀스 다음에는 어떤 점수가 나오나요?",
+      "options": [
+        "장점",
+        "사랑",
+        "세트 포인트",
+        "휴식"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_192",
+      "difficulty": "medium",
+      "category": "스포츠",
+      "question": "안마를 사용하는 스포츠는 무엇입니까?",
+      "options": [
+        "체조",
+        "승마",
+        "폴로",
+        "펜싱"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_193",
+      "difficulty": "medium",
+      "category": "스포츠",
+      "question": "축구에서 해트트릭이란?",
+      "options": [
+        "한 선수의 세 골",
+        "옐로카드 3장",
+        "세 가지 교체",
+        "세 모퉁이"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_194",
+      "difficulty": "medium",
+      "category": "스포츠",
+      "question": "스탠리 컵과 관련된 스포츠는 무엇입니까?",
+      "options": [
+        "농구",
+        "아이스하키",
+        "야구",
+        "럭비"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_195",
+      "difficulty": "hard",
+      "category": "스포츠",
+      "question": "올림픽 수영장의 길이는 얼마나 되나요?",
+      "options": [
+        "25미터",
+        "50미터",
+        "75미터",
+        "100미터"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_196",
+      "difficulty": "hard",
+      "category": "스포츠",
+      "question": "골프에서 1타수 언더파를 무엇이라고 하나요?",
+      "options": [
+        "보기",
+        "버디",
+        "독수리",
+        "알바트로스"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_197",
+      "difficulty": "hard",
+      "category": "스포츠",
+      "question": "1896년에 최초의 근대 올림픽을 개최한 국가는 어디입니까?",
+      "options": [
+        "프랑스",
+        "그리스",
+        "영국",
+        "이탈리아"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_198",
+      "difficulty": "hard",
+      "category": "스포츠",
+      "question": "스누커의 최대 휴식 시간은 얼마입니까?",
+      "options": [
+        "120",
+        "147",
+        "155",
+        "180"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_199",
+      "difficulty": "hard",
+      "category": "스포츠",
+      "question": "제로에 대한 사랑이라는 용어를 사용하는 스포츠는 무엇입니까?",
+      "options": [
+        "크리켓",
+        "테니스",
+        "복싱",
+        "골프"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_200",
+      "difficulty": "hard",
+      "category": "스포츠",
+      "question": "복싱에서 KO는 무엇을 의미하나요?",
+      "options": [
+        "녹아웃",
+        "킥아웃",
+        "열어두세요",
+        "너클 순서"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_201",
+      "difficulty": "easy",
+      "category": "기술",
+      "question": "CPU은(는) 무엇을 의미하나요?",
+      "options": [
+        "중앙처리장치",
+        "컴퓨터 전원 장치",
+        "중앙 프로그램 유틸리티",
+        "핵심 처리 사용자"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_202",
+      "difficulty": "easy",
+      "category": "기술",
+      "question": "컴퓨터에서 커서를 이동하는 데 사용되는 장치는 무엇입니까?",
+      "options": [
+        "마우스",
+        "스피커",
+        "프린터",
+        "라우터"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_203",
+      "difficulty": "easy",
+      "category": "기술",
+      "question": "Wi-Fi을 사용하면 장치를 무엇에 연결할 수 있나요?",
+      "options": [
+        "물",
+        "무선 네트워크",
+        "종이",
+        "전기 모터"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_204",
+      "difficulty": "easy",
+      "category": "기술",
+      "question": "아이폰을 만드는 회사는 어디일까요?",
+      "options": [
+        "삼성",
+        "사과",
+        "소니",
+        "노키아"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_205",
+      "difficulty": "easy",
+      "category": "기술",
+      "question": "비밀번호는 어떤 용도로 사용되나요?",
+      "options": [
+        "보안",
+        "인쇄",
+        "충전 중",
+        "냉각"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_206",
+      "difficulty": "easy",
+      "category": "기술",
+      "question": "USB은(는) 일반적으로 무엇을 연결합니까?",
+      "options": [
+        "장치 및 컴퓨터",
+        "신발과 양말",
+        "책과 페이지",
+        "식물과 토양"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_207",
+      "difficulty": "easy",
+      "category": "기술",
+      "question": "앱의 줄임말은 무엇인가요?",
+      "options": [
+        "신청",
+        "약속",
+        "승인",
+        "부록"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_208",
+      "difficulty": "medium",
+      "category": "기술",
+      "question": "URL은(는) 무엇을 의미하나요?",
+      "options": [
+        "유니폼 리소스 로케이터",
+        "범용 읽기 라인",
+        "사용자 런타임 링크",
+        "통합기록목록"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_209",
+      "difficulty": "medium",
+      "category": "기술",
+      "question": "라우터의 주요 업무는 무엇인가요?",
+      "options": [
+        "사진 저장",
+        "직접 네트워크 트래픽",
+        "문서 인쇄",
+        "바이러스만 검사"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_210",
+      "difficulty": "medium",
+      "category": "기술",
+      "question": "이미지에 일반적으로 사용되는 파일 형식은 무엇입니까?",
+      "options": [
+        "JPEG",
+        "MP3",
+        "DOCX",
+        "EXE"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_211",
+      "difficulty": "medium",
+      "category": "기술",
+      "question": "RAM은(는) 무엇을 의미하나요?",
+      "options": [
+        "랜덤 액세스 메모리",
+        "신속한 조치 모듈",
+        "모든 미디어 읽기",
+        "런타임 Audio 모드"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_212",
+      "difficulty": "medium",
+      "category": "기술",
+      "question": "클라우드 스토리지는 어떤 용도로 사용되나요?",
+      "options": [
+        "온라인으로 파일 저장",
+        "스크린 청소",
+        "노트북 냉각",
+        "휴대폰 충전"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_213",
+      "difficulty": "medium",
+      "category": "기술",
+      "question": "GPS은 무엇을 결정하는 데 도움이 됩니까?",
+      "options": [
+        "위치",
+        "배터리 수명",
+        "화면 크기",
+        "비밀번호 강도"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_214",
+      "difficulty": "medium",
+      "category": "기술",
+      "question": "비접촉 결제에는 어떤 기술이 사용됩니까?",
+      "options": [
+        "NFC",
+        "VHS",
+        "CRT",
+        "DVD"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_215",
+      "difficulty": "hard",
+      "category": "기술",
+      "question": "HTML은(는) 무엇을 의미하나요?",
+      "options": [
+        "하이퍼텍스트 마크업 언어",
+        "하이 트랜스퍼 머신 로직",
+        "홈 도구 마크업 링크",
+        "하이퍼링크 텍스트 기본 목록"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_216",
+      "difficulty": "hard",
+      "category": "기술",
+      "question": "이중 인증은 무엇을 개선하도록 설계되었나요?",
+      "options": [
+        "화면 밝기",
+        "계정 보안",
+        "다운로드 속도",
+        "Au디오 품질"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_217",
+      "difficulty": "hard",
+      "category": "기술",
+      "question": "0과 1만 사용하는 숫자 체계는 무엇인가요?",
+      "options": [
+        "소수",
+        "바이너리",
+        "16진수",
+        "로마인"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_218",
+      "difficulty": "hard",
+      "category": "기술",
+      "question": "API는 무엇을 의미하나요?",
+      "options": [
+        "응용 프로그래밍 인터페이스",
+        "Automatic 프로그램 색인",
+        "적용된 픽셀 입력",
+        "고급 프로세스 인터넷"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_219",
+      "difficulty": "hard",
+      "category": "기술",
+      "question": "SSD은(는) 무엇을 의미하나요?",
+      "options": [
+        "솔리드 스테이트 드라이브",
+        "시스템 스토리지 디스크",
+        "스마트 소프트웨어 장치",
+        "보안 신호 드라이브"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_220",
+      "difficulty": "hard",
+      "category": "기술",
+      "question": "보안 웹사이트를 로드하는 데 일반적으로 사용되는 프로토콜은 무엇입니까?",
+      "options": [
+        "HTTP",
+        "HTTPS",
+        "FTP",
+        "SMTP"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_221",
       "difficulty": "easy",
       "category": "인터넷",
-      "question": "DM은 보통 무엇의 약자인가요?",
+      "question": "DM은(는) 일반적으로 무엇을 의미하나요?",
       "options": [
         "다이렉트 메시지",
-        "데일리 밈",
-        "디지털 모드",
-        "딥 미디어"
+        "디지털 지도",
+        "일일 모드",
+        "데이터 메모리"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_ko_132",
+      "id": "tb_ko_222",
       "difficulty": "easy",
       "category": "인터넷",
-      "question": "짧은 세로 영상으로 유명한 플랫폼은?",
+      "question": "해시태그를 시작하는 기호는 무엇인가요?",
       "options": [
-        "틱톡",
-        "위키백과",
-        "엑셀",
-        "지도"
+        "@",
+        "#",
+        "&",
+        "*"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
-      "id": "tb_ko_133",
+      "id": "tb_ko_223",
       "difficulty": "easy",
       "category": "인터넷",
-      "question": "스크린샷은 주로 무엇을 저장하나요?",
+      "question": "셀카 란 무엇입니까?",
       "options": [
-        "화면 이미지",
+        "본인 사진",
         "비밀번호",
-        "배터리",
-        "벨소리"
+        "검색결과",
+        "비디오 게임"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_224",
+      "difficulty": "easy",
+      "category": "인터넷",
+      "question": "짧은 세로 동영상으로 가장 잘 알려진 플랫폼은 무엇인가요?",
+      "options": [
+        "TikTok",
+        "위키피디아",
+        "드롭박스",
+        "슬랙"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_225",
+      "difficulty": "easy",
+      "category": "인터넷",
+      "question": "이모티콘이란 무엇입니까?",
+      "options": [
+        "작은 디지털 아이콘",
+        "웹 브라우저",
+        "파일 형식",
+        "케이블의 종류"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_226",
+      "difficulty": "easy",
+      "category": "인터넷",
+      "question": "LOL은 일반적으로 온라인에서 무엇을 의미하나요?",
+      "options": [
+        "많은 조명",
+        "크게 웃다",
+        "링크 목록",
+        "운이 좋지 않음"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_ko_227",
+      "difficulty": "easy",
+      "category": "인터넷",
+      "question": "저장에 사용되는 스크린샷은 무엇인가요?",
+      "options": [
+        "화면에는 무엇이 있나요?",
+        "배터리 충전",
+        "전화",
+        "Wi-Fi 비밀번호만"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_228",
+      "difficulty": "medium",
+      "category": "인터넷",
+      "question": "클릭베이트는 무엇을 얻도록 설계되었나요?",
+      "options": [
+        "클릭수",
+        "수면",
+        "날씨 데이터",
+        "비밀번호만"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_229",
+      "difficulty": "medium",
+      "category": "인터넷",
+      "question": "일상적인 인터넷 사용에서 URL은(는) 무엇을 의미하나요?",
+      "options": [
+        "웹 주소",
+        "음악 파일",
+        "카메라 모드",
+        "휴대폰 배터리"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_230",
+      "difficulty": "medium",
+      "category": "인터넷",
+      "question": "밈이란 무엇입니까?",
+      "options": [
+        "공유할 수 있는 농담이나 아이디어",
+        "키보드의 종류",
+        "개인 비밀번호",
+        "클라우드 서버"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_231",
+      "difficulty": "medium",
+      "category": "인터넷",
+      "question": "피싱이란 무엇입니까?",
+      "options": [
+        "정보를 훔치려는 사기",
+        "사진을 편집하는 방법",
+        "음악 장르",
+        "비디오 필터"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_232",
+      "difficulty": "medium",
+      "category": "인터넷",
+      "question": "라이브스트리밍은 무슨 뜻인가요?",
+      "options": [
+        "실시간 방송",
+        "파일 저장",
+        "오프라인으로 코드 작성",
+        "사진 인쇄"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_233",
+      "difficulty": "medium",
+      "category": "인터넷",
+      "question": "사용자 이름이란 무엇입니까?",
+      "options": [
+        "공개 계정 이름",
+        "컴퓨터 바이러스",
+        "스크린 케이블",
+        "결제 카드"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_234",
+      "difficulty": "medium",
+      "category": "인터넷",
+      "question": "브라우저는 어떤 용도로 사용되나요?",
+      "options": [
+        "웹사이트 접속",
+        "음악 믹싱",
+        "충전 장치",
+        "지도 그리기"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_235",
+      "difficulty": "hard",
+      "category": "인터넷",
+      "question": "SEO은(는) 무엇을 의미하나요?",
+      "options": [
+        "검색 엔진 최적화",
+        "보안 이메일 출력",
+        "소셜 편집 옵션",
+        "시스템 진입 순서"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_236",
+      "difficulty": "hard",
+      "category": "인터넷",
+      "question": "웹 브라우징에서 쿠키란 무엇입니까?",
+      "options": [
+        "저장된 사이트 데이터",
+        "키보드 단축키",
+        "사진 필터",
+        "채팅 반응"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_237",
+      "difficulty": "hard",
+      "category": "인터넷",
+      "question": "HTTP은(는) 무엇을 의미하나요?",
+      "options": [
+        "하이퍼텍스트 전송 프로토콜",
+        "하이테크 텍스트 프로그램",
+        "홈 전송 도구 포트",
+        "하이퍼링크 추적 페이지"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_238",
+      "difficulty": "hard",
+      "category": "인터넷",
+      "question": "VPN은(는) 무엇을 의미하나요?",
+      "options": [
+        "가상 사설망",
+        "확인된 공개 이름",
+        "시각적 페이지 번호",
+        "비디오 처리 노드"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_239",
+      "difficulty": "hard",
+      "category": "인터넷",
+      "question": "일반적으로 양방향 영상통신을 무엇이라고 합니까?",
+      "options": [
+        "영상통화",
+        "스크린샷",
+        "북마크",
+        "보안 문자"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_ko_240",
+      "difficulty": "hard",
+      "category": "인터넷",
+      "question": "CAPTCHA는 주로 무엇을 감지하기 위해 사용되나요?",
+      "options": [
+        "봇",
+        "색상",
+        "화면 크기",
+        "배터리 잔량"
       ],
       "correctIndex": 0
     }

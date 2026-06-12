@@ -1,39 +1,286 @@
 {
   "gameId": "trivia-bet",
   "locale": "zh-Hant",
-  "version": 1,
+  "version": 2,
   "questions": [
     {
-      "id": "tb_zhh_001",
+      "id": "tb_zh-Hant_001",
       "difficulty": "easy",
       "category": "科學",
-      "question": "哪顆行星被稱為紅色星球？",
+      "question": "植物在光合作用過程中會從空氣中吸收什麼氣體？",
+      "options": [
+        "氧氣",
+        "二氧化碳",
+        "氫氣",
+        "氮氣"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_002",
+      "difficulty": "easy",
+      "category": "科學",
+      "question": "水的化學符號是什麼？",
+      "options": [
+        "WO",
+        "H2O",
+        "O2H",
+        "HO2"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_003",
+      "difficulty": "easy",
+      "category": "科學",
+      "question": "哪一顆行星被稱為紅色星球？",
       "options": [
         "金星",
         "火星",
         "木星",
-        "土星"
+        "水星"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_zhh_002",
+      "id": "tb_zh-Hant_004",
       "difficulty": "easy",
       "category": "科學",
-      "question": "H2O通常稱為什麼？",
+      "question": "昆蟲有幾條腿？",
       "options": [
-        "鹽",
-        "水",
-        "氧氣",
-        "糖"
+        "4",
+        "6",
+        "8",
+        "10"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_zhh_003",
+      "id": "tb_zh-Hant_005",
+      "difficulty": "easy",
+      "category": "科學",
+      "question": "什麼力將物體拉向地球？",
+      "options": [
+        "磁性",
+        "重力",
+        "摩擦力",
+        "電力"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_006",
+      "difficulty": "easy",
+      "category": "科學",
+      "question": "哪個器官會將血液輸送到全身？",
+      "options": [
+        "肝臟",
+        "心",
+        "肺",
+        "腎"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_007",
+      "difficulty": "easy",
+      "category": "科學",
+      "question": "原子的中心叫什麼？",
+      "options": [
+        "細胞核",
+        "細胞",
+        "軌道",
+        "殼牌"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_008",
+      "difficulty": "medium",
+      "category": "科學",
+      "question": "黃金的化學符號是什麼？",
+      "options": [
+        "去",
+        "Gd",
+        "Au",
+        "Ag"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_009",
+      "difficulty": "medium",
+      "category": "科學",
+      "question": "海平面處水的沸點是攝氏多少度？",
+      "options": [
+        "90",
+        "95",
+        "100",
+        "110"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_010",
+      "difficulty": "medium",
+      "category": "科學",
+      "question": "細胞的哪一部分含有大部分 DNA？",
+      "options": [
+        "核醣體",
+        "細胞核",
+        "細胞壁",
+        "粒線體"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_011",
+      "difficulty": "medium",
+      "category": "科學",
+      "question": "拉伸的橡皮筋中儲存著什麼類型的能量？",
+      "options": [
+        "化學",
+        "彈性勢",
+        "熱學",
+        "核能"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_012",
+      "difficulty": "medium",
+      "category": "科學",
+      "question": "皮膚暴露在陽光下會產生哪種維生素？",
+      "options": [
+        "維生素A",
+        "維生素C",
+        "維生素D",
+        "維生素K"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_013",
+      "difficulty": "medium",
+      "category": "科學",
+      "question": "測量地震用什麼儀器？",
+      "options": [
+        "晴雨表",
+        "地震儀",
+        "濕度計",
+        "高度計"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_014",
+      "difficulty": "medium",
+      "category": "科學",
+      "question": "地球上最硬的天然物質是什麼？",
+      "options": [
+        "石英",
+        "鑽石",
+        "花崗岩",
+        "鐵"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_015",
+      "difficulty": "hard",
+      "category": "科學",
+      "question": "電流的SI單位是什麼？",
+      "options": [
+        "伏特",
+        "瓦特",
+        "安培",
+        "歐姆"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_016",
+      "difficulty": "hard",
+      "category": "科學",
+      "question": "運動三大定律是哪位科學家提出的？",
+      "options": [
+        "艾薩克·牛頓",
+        "阿爾伯特愛因斯坦",
+        "伽利略·伽利萊",
+        "尼古拉·特斯拉"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_017",
+      "difficulty": "hard",
+      "category": "科學",
+      "question": "地球大氣層中含量最多的氣體是什麼？",
+      "options": [
+        "氧氣",
+        "二氧化碳",
+        "氮氣",
+        "氬氣"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_018",
+      "difficulty": "hard",
+      "category": "科學",
+      "question": "什麼粒子帶負電荷？",
+      "options": [
+        "質子",
+        "中子",
+        "電子",
+        "光子"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_019",
+      "difficulty": "hard",
+      "category": "科學",
+      "question": "室溫下中性溶液的pH值是多少？",
+      "options": [
+        "0",
+        "5",
+        "7",
+        "14"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_020",
+      "difficulty": "hard",
+      "category": "科學",
+      "question": "哪些血球有助於身體抵抗感染？",
+      "options": [
+        "紅血球",
+        "白血球",
+        "血小板",
+        "漿細胞"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_021",
       "difficulty": "easy",
       "category": "地理",
-      "question": "世界最大的海洋是？",
+      "question": "法國的首都是哪裡？",
+      "options": [
+        "里昂",
+        "巴黎",
+        "馬賽",
+        "尼斯"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_022",
+      "difficulty": "easy",
+      "category": "地理",
+      "question": "哪個海洋最大？",
       "options": [
         "大西洋",
         "印度洋",
@@ -43,1692 +290,2836 @@
       "correctIndex": 2
     },
     {
-      "id": "tb_zhh_004",
+      "id": "tb_zh-Hant_023",
       "difficulty": "easy",
       "category": "地理",
-      "question": "東京位於哪個國家？",
+      "question": "哪個國家因吉薩金字塔而聞名？",
+      "options": [
+        "墨西哥",
+        "埃及",
+        "希臘",
+        "印度"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_024",
+      "difficulty": "easy",
+      "category": "地理",
+      "question": "日本的首都是哪裡？",
+      "options": [
+        "京都",
+        "大阪",
+        "東京",
+        "廣島"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_025",
+      "difficulty": "easy",
+      "category": "地理",
+      "question": "巴西位於哪一洲？",
+      "options": [
+        "非洲",
+        "南美洲",
+        "歐洲",
+        "亞洲"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_026",
+      "difficulty": "easy",
+      "category": "地理",
+      "question": "陸地面積最大的國家是哪個國家？",
+      "options": [
+        "加拿大",
+        "中國",
+        "俄羅斯",
+        "美國"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_027",
+      "difficulty": "easy",
+      "category": "地理",
+      "question": "哪條河流經倫敦？",
+      "options": [
+        "塞納河",
+        "泰晤士河",
+        "多瑙河",
+        "萊茵河"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_028",
+      "difficulty": "medium",
+      "category": "地理",
+      "question": "Australia 的首都是哪裡？",
+      "options": [
+        "雪梨",
+        "墨爾本",
+        "坎培拉",
+        "布里斯班"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_029",
+      "difficulty": "medium",
+      "category": "地理",
+      "question": "乞力馬扎羅山在哪個國家？",
+      "options": [
+        "肯亞",
+        "坦尚尼亞",
+        "烏幹達",
+        "衣索比亞"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_030",
+      "difficulty": "medium",
+      "category": "地理",
+      "question": "世界上最大的熱沙漠是哪個沙漠？",
+      "options": [
+        "戈壁",
+        "撒哈拉",
+        "卡拉哈里",
+        "莫哈維"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_031",
+      "difficulty": "medium",
+      "category": "地理",
+      "question": "馬拉喀什是哪個國家的城市？",
+      "options": [
+        "突尼西亞",
+        "摩洛哥",
+        "阿爾及利亞",
+        "埃及"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_032",
+      "difficulty": "medium",
+      "category": "地理",
+      "question": "歐洲和非洲之間的海是什麼海？",
+      "options": [
+        "紅海",
+        "地中海",
+        "蒙特內哥羅",
+        "波羅的海"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_033",
+      "difficulty": "medium",
+      "category": "地理",
+      "question": "美國哪個州稱為「陽光之州」？",
+      "options": [
+        "加州",
+        "佛羅裡達州",
+        "亞利桑那州",
+        "夏威夷"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_034",
+      "difficulty": "medium",
+      "category": "地理",
+      "question": "哪個國家擁有最多的天然湖泊？",
+      "options": [
+        "加拿大",
+        "巴西",
+        "俄羅斯",
+        "芬蘭"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_035",
+      "difficulty": "hard",
+      "category": "地理",
+      "question": "哈薩克的首都是哪裡？",
+      "options": [
+        "阿拉木圖",
+        "阿斯塔納",
+        "比斯凱克",
+        "塔什幹"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_036",
+      "difficulty": "hard",
+      "category": "地理",
+      "question": "布萊德湖是哪個國家的？",
+      "options": [
+        "斯洛維尼亞",
+        "克羅埃西亞",
+        "Au紋",
+        "斯洛伐克"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_037",
+      "difficulty": "hard",
+      "category": "地理",
+      "question": "阿塔卡馬沙漠主要分佈在哪個國家？",
+      "options": [
+        "秘魯",
+        "智利",
+        "玻利維亞",
+        "阿根廷"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_038",
+      "difficulty": "hard",
+      "category": "地理",
+      "question": "哪個城市位於歐洲和亞洲之間？",
+      "options": [
+        "伊斯坦堡",
+        "雅典",
+        "開羅",
+        "里斯本"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_039",
+      "difficulty": "hard",
+      "category": "地理",
+      "question": "世界上最長的山脈是什麼？",
+      "options": [
+        "喜馬拉雅山",
+        "安第斯山脈",
+        "洛磯山脈",
+        "阿爾卑斯山"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_040",
+      "difficulty": "hard",
+      "category": "地理",
+      "question": "哪個國家使用克朗作為其貨幣？",
+      "options": [
+        "挪威",
+        "波蘭",
+        "匈牙利",
+        "羅馬尼亞"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_041",
+      "difficulty": "easy",
+      "category": "歷史",
+      "question": "泰坦尼克號是哪一年沈沒的？",
+      "options": [
+        "1908",
+        "1912",
+        "1916",
+        "1920"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_042",
+      "difficulty": "easy",
+      "category": "歷史",
+      "question": "美國第一任總統是誰？",
+      "options": [
+        "托馬斯·傑斐遜",
+        "喬治華盛頓",
+        "亞伯拉罕·林肯",
+        "約翰·亞當斯"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_043",
+      "difficulty": "easy",
+      "category": "歷史",
+      "question": "長城主要與哪個國家有關？",
       "options": [
         "日本",
         "中國",
-        "韓國",
-        "泰國"
+        "印度",
+        "蒙古"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
-      "id": "tb_zhh_005",
+      "id": "tb_zh-Hant_044",
       "difficulty": "easy",
       "category": "歷史",
-      "question": "蒙娜麗莎是誰畫的？",
+      "question": "誰被稱為奧爾良少女？",
       "options": [
-        "畢卡索",
-        "達文西",
-        "梵谷",
-        "莫內"
+        "克莉奧佩特拉",
+        "聖女貞德",
+        "維多利亞女王",
+        "瑪麗·居里"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_zhh_006",
-      "difficulty": "easy",
-      "category": "文化",
-      "question": "神隱少女是哪個工作室製作的？",
-      "options": [
-        "皮克斯",
-        "吉卜力工作室",
-        "迪士尼",
-        "夢工廠"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_007",
-      "difficulty": "easy",
-      "category": "運動",
-      "question": "足球比賽中一隊場上有幾名球員？",
-      "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_zhh_008",
-      "difficulty": "easy",
-      "category": "美食",
-      "question": "哪種飲料常有珍珠？",
-      "options": [
-        "珍珠奶茶",
-        "濃縮咖啡",
-        "檸檬水",
-        "汽水"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_zhh_009",
-      "difficulty": "easy",
-      "category": "文化",
-      "question": "哪種語言使用韓文字母書寫？",
-      "options": [
-        "日文",
-        "韓文",
-        "波蘭文",
-        "瑞典文"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_010",
-      "difficulty": "easy",
-      "category": "科學",
-      "question": "植物行光合作用會吸收哪種氣體？",
-      "options": [
-        "氧氣",
-        "二氧化碳",
-        "氮氣",
-        "氫氣"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_011",
-      "difficulty": "easy",
-      "category": "科學",
-      "question": "哪顆行星被稱為紅色星球？",
-      "options": [
-        "金星",
-        "火星",
-        "木星",
-        "土星"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_012",
-      "difficulty": "easy",
-      "category": "科學",
-      "question": "H2O通常稱為什麼？",
-      "options": [
-        "鹽",
-        "水",
-        "氧氣",
-        "糖"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_013",
-      "difficulty": "easy",
-      "category": "地理",
-      "question": "世界最大的海洋是？",
-      "options": [
-        "大西洋",
-        "印度洋",
-        "太平洋",
-        "北冰洋"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_zhh_014",
-      "difficulty": "easy",
-      "category": "地理",
-      "question": "東京位於哪個國家？",
-      "options": [
-        "日本",
-        "中國",
-        "韓國",
-        "泰國"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_zhh_015",
+      "id": "tb_zh-Hant_045",
       "difficulty": "easy",
       "category": "歷史",
-      "question": "蒙娜麗莎是誰畫的？",
+      "question": "羅馬競技場是哪個古文明建造的？",
       "options": [
-        "畢卡索",
-        "達文西",
-        "梵谷",
-        "莫內"
+        "希臘文",
+        "羅馬",
+        "瑪雅人",
+        "波斯語"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_zhh_016",
-      "difficulty": "easy",
-      "category": "文化",
-      "question": "神隱少女是哪個工作室製作的？",
-      "options": [
-        "皮克斯",
-        "吉卜力工作室",
-        "迪士尼",
-        "夢工廠"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_017",
-      "difficulty": "easy",
-      "category": "運動",
-      "question": "足球比賽中一隊場上有幾名球員？",
-      "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_zhh_018",
-      "difficulty": "easy",
-      "category": "美食",
-      "question": "哪種飲料常有珍珠？",
-      "options": [
-        "珍珠奶茶",
-        "濃縮咖啡",
-        "檸檬水",
-        "汽水"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_zhh_019",
-      "difficulty": "easy",
-      "category": "文化",
-      "question": "哪種語言使用韓文字母書寫？",
-      "options": [
-        "日文",
-        "韓文",
-        "波蘭文",
-        "瑞典文"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_020",
-      "difficulty": "easy",
-      "category": "科學",
-      "question": "植物行光合作用會吸收哪種氣體？",
-      "options": [
-        "氧氣",
-        "二氧化碳",
-        "氮氣",
-        "氫氣"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_021",
-      "difficulty": "easy",
-      "category": "科學",
-      "question": "哪顆行星被稱為紅色星球？",
-      "options": [
-        "金星",
-        "火星",
-        "木星",
-        "土星"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_022",
-      "difficulty": "easy",
-      "category": "科學",
-      "question": "H2O通常稱為什麼？",
-      "options": [
-        "鹽",
-        "水",
-        "氧氣",
-        "糖"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_023",
-      "difficulty": "easy",
-      "category": "地理",
-      "question": "世界最大的海洋是？",
-      "options": [
-        "大西洋",
-        "印度洋",
-        "太平洋",
-        "北冰洋"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_zhh_024",
-      "difficulty": "easy",
-      "category": "地理",
-      "question": "東京位於哪個國家？",
-      "options": [
-        "日本",
-        "中國",
-        "韓國",
-        "泰國"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_zhh_025",
+      "id": "tb_zh-Hant_046",
       "difficulty": "easy",
       "category": "歷史",
-      "question": "蒙娜麗莎是誰畫的？",
+      "question": "哪場戰爭在 1945 年結束？",
       "options": [
-        "畢卡索",
-        "達文西",
-        "梵谷",
-        "莫內"
+        "第一次世界大戰",
+        "第二次世界大戰",
+        "韓戰",
+        "越戰"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_zhh_026",
-      "difficulty": "easy",
-      "category": "文化",
-      "question": "神隱少女是哪個工作室製作的？",
-      "options": [
-        "皮克斯",
-        "吉卜力工作室",
-        "迪士尼",
-        "夢工廠"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_027",
-      "difficulty": "easy",
-      "category": "運動",
-      "question": "足球比賽中一隊場上有幾名球員？",
-      "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_zhh_028",
-      "difficulty": "easy",
-      "category": "美食",
-      "question": "哪種飲料常有珍珠？",
-      "options": [
-        "珍珠奶茶",
-        "濃縮咖啡",
-        "檸檬水",
-        "汽水"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_zhh_029",
-      "difficulty": "easy",
-      "category": "文化",
-      "question": "哪種語言使用韓文字母書寫？",
-      "options": [
-        "日文",
-        "韓文",
-        "波蘭文",
-        "瑞典文"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_030",
-      "difficulty": "easy",
-      "category": "科學",
-      "question": "植物行光合作用會吸收哪種氣體？",
-      "options": [
-        "氧氣",
-        "二氧化碳",
-        "氮氣",
-        "氫氣"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_031",
-      "difficulty": "easy",
-      "category": "科學",
-      "question": "哪顆行星被稱為紅色星球？",
-      "options": [
-        "金星",
-        "火星",
-        "木星",
-        "土星"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_032",
-      "difficulty": "easy",
-      "category": "科學",
-      "question": "H2O通常稱為什麼？",
-      "options": [
-        "鹽",
-        "水",
-        "氧氣",
-        "糖"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_033",
-      "difficulty": "easy",
-      "category": "地理",
-      "question": "世界最大的海洋是？",
-      "options": [
-        "大西洋",
-        "印度洋",
-        "太平洋",
-        "北冰洋"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_zhh_034",
-      "difficulty": "easy",
-      "category": "地理",
-      "question": "東京位於哪個國家？",
-      "options": [
-        "日本",
-        "中國",
-        "韓國",
-        "泰國"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_zhh_035",
+      "id": "tb_zh-Hant_047",
       "difficulty": "easy",
       "category": "歷史",
-      "question": "蒙娜麗莎是誰畫的？",
+      "question": "誰發現了青黴素？",
       "options": [
-        "畢卡索",
-        "達文西",
-        "梵谷",
-        "莫內"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_036",
-      "difficulty": "easy",
-      "category": "文化",
-      "question": "神隱少女是哪個工作室製作的？",
-      "options": [
-        "皮克斯",
-        "吉卜力工作室",
-        "迪士尼",
-        "夢工廠"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_037",
-      "difficulty": "easy",
-      "category": "運動",
-      "question": "足球比賽中一隊場上有幾名球員？",
-      "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_zhh_038",
-      "difficulty": "easy",
-      "category": "美食",
-      "question": "哪種飲料常有珍珠？",
-      "options": [
-        "珍珠奶茶",
-        "濃縮咖啡",
-        "檸檬水",
-        "汽水"
+        "亞歷山大·弗萊明",
+        "路易斯·巴斯德",
+        "瑪麗·居里",
+        "查爾斯·達爾文"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_zhh_039",
-      "difficulty": "easy",
-      "category": "文化",
-      "question": "哪種語言使用韓文字母書寫？",
-      "options": [
-        "日文",
-        "韓文",
-        "波蘭文",
-        "瑞典文"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_040",
-      "difficulty": "easy",
-      "category": "科學",
-      "question": "植物行光合作用會吸收哪種氣體？",
-      "options": [
-        "氧氣",
-        "二氧化碳",
-        "氮氣",
-        "氫氣"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_041",
-      "difficulty": "easy",
-      "category": "科學",
-      "question": "哪顆行星被稱為紅色星球？",
-      "options": [
-        "金星",
-        "火星",
-        "木星",
-        "土星"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_042",
-      "difficulty": "easy",
-      "category": "科學",
-      "question": "H2O通常稱為什麼？",
-      "options": [
-        "鹽",
-        "水",
-        "氧氣",
-        "糖"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_043",
-      "difficulty": "easy",
-      "category": "地理",
-      "question": "世界最大的海洋是？",
-      "options": [
-        "大西洋",
-        "印度洋",
-        "太平洋",
-        "北冰洋"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_zhh_044",
-      "difficulty": "easy",
-      "category": "地理",
-      "question": "東京位於哪個國家？",
-      "options": [
-        "日本",
-        "中國",
-        "韓國",
-        "泰國"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_zhh_045",
-      "difficulty": "easy",
-      "category": "歷史",
-      "question": "蒙娜麗莎是誰畫的？",
-      "options": [
-        "畢卡索",
-        "達文西",
-        "梵谷",
-        "莫內"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_046",
-      "difficulty": "medium",
-      "category": "文化",
-      "question": "神隱少女是哪個工作室製作的？",
-      "options": [
-        "皮克斯",
-        "吉卜力工作室",
-        "迪士尼",
-        "夢工廠"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_047",
-      "difficulty": "medium",
-      "category": "運動",
-      "question": "足球比賽中一隊場上有幾名球員？",
-      "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_zhh_048",
-      "difficulty": "medium",
-      "category": "美食",
-      "question": "哪種飲料常有珍珠？",
-      "options": [
-        "珍珠奶茶",
-        "濃縮咖啡",
-        "檸檬水",
-        "汽水"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_zhh_049",
-      "difficulty": "medium",
-      "category": "文化",
-      "question": "哪種語言使用韓文字母書寫？",
-      "options": [
-        "日文",
-        "韓文",
-        "波蘭文",
-        "瑞典文"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_050",
-      "difficulty": "medium",
-      "category": "科學",
-      "question": "植物行光合作用會吸收哪種氣體？",
-      "options": [
-        "氧氣",
-        "二氧化碳",
-        "氮氣",
-        "氫氣"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_051",
-      "difficulty": "medium",
-      "category": "科學",
-      "question": "哪顆行星被稱為紅色星球？",
-      "options": [
-        "金星",
-        "火星",
-        "木星",
-        "土星"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_052",
-      "difficulty": "medium",
-      "category": "科學",
-      "question": "H2O通常稱為什麼？",
-      "options": [
-        "鹽",
-        "水",
-        "氧氣",
-        "糖"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_053",
-      "difficulty": "medium",
-      "category": "地理",
-      "question": "世界最大的海洋是？",
-      "options": [
-        "大西洋",
-        "印度洋",
-        "太平洋",
-        "北冰洋"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_zhh_054",
-      "difficulty": "medium",
-      "category": "地理",
-      "question": "東京位於哪個國家？",
-      "options": [
-        "日本",
-        "中國",
-        "韓國",
-        "泰國"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_zhh_055",
+      "id": "tb_zh-Hant_048",
       "difficulty": "medium",
       "category": "歷史",
-      "question": "蒙娜麗莎是誰畫的？",
+      "question": "誰是第一個獨自飛越大西洋的女性？",
       "options": [
-        "畢卡索",
-        "達文西",
-        "梵谷",
-        "莫內"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_056",
-      "difficulty": "medium",
-      "category": "文化",
-      "question": "神隱少女是哪個工作室製作的？",
-      "options": [
-        "皮克斯",
-        "吉卜力工作室",
-        "迪士尼",
-        "夢工廠"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_057",
-      "difficulty": "medium",
-      "category": "運動",
-      "question": "足球比賽中一隊場上有幾名球員？",
-      "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_zhh_058",
-      "difficulty": "medium",
-      "category": "美食",
-      "question": "哪種飲料常有珍珠？",
-      "options": [
-        "珍珠奶茶",
-        "濃縮咖啡",
-        "檸檬水",
-        "汽水"
+        "阿米莉亞埃爾哈特",
+        "貝西·科爾曼",
+        "瓦倫蒂娜·捷列什科娃",
+        "莎莉·賴德"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_zhh_059",
-      "difficulty": "medium",
-      "category": "文化",
-      "question": "哪種語言使用韓文字母書寫？",
-      "options": [
-        "日文",
-        "韓文",
-        "波蘭文",
-        "瑞典文"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_060",
-      "difficulty": "medium",
-      "category": "科學",
-      "question": "植物行光合作用會吸收哪種氣體？",
-      "options": [
-        "氧氣",
-        "二氧化碳",
-        "氮氣",
-        "氫氣"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_061",
-      "difficulty": "medium",
-      "category": "科學",
-      "question": "哪顆行星被稱為紅色星球？",
-      "options": [
-        "金星",
-        "火星",
-        "木星",
-        "土星"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_062",
-      "difficulty": "medium",
-      "category": "科學",
-      "question": "H2O通常稱為什麼？",
-      "options": [
-        "鹽",
-        "水",
-        "氧氣",
-        "糖"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_063",
-      "difficulty": "medium",
-      "category": "地理",
-      "question": "世界最大的海洋是？",
-      "options": [
-        "大西洋",
-        "印度洋",
-        "太平洋",
-        "北冰洋"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_zhh_064",
-      "difficulty": "medium",
-      "category": "地理",
-      "question": "東京位於哪個國家？",
-      "options": [
-        "日本",
-        "中國",
-        "韓國",
-        "泰國"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_zhh_065",
+      "id": "tb_zh-Hant_049",
       "difficulty": "medium",
       "category": "歷史",
-      "question": "蒙娜麗莎是誰畫的？",
+      "question": "柏林圍牆是哪一年倒塌的？",
       "options": [
-        "畢卡索",
-        "達文西",
-        "梵谷",
-        "莫內"
+        "1987",
+        "1989",
+        "1991",
+        "1993"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_zhh_066",
-      "difficulty": "medium",
-      "category": "文化",
-      "question": "神隱少女是哪個工作室製作的？",
-      "options": [
-        "皮克斯",
-        "吉卜力工作室",
-        "迪士尼",
-        "夢工廠"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_067",
-      "difficulty": "medium",
-      "category": "運動",
-      "question": "足球比賽中一隊場上有幾名球員？",
-      "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_zhh_068",
-      "difficulty": "medium",
-      "category": "美食",
-      "question": "哪種飲料常有珍珠？",
-      "options": [
-        "珍珠奶茶",
-        "濃縮咖啡",
-        "檸檬水",
-        "汽水"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_zhh_069",
-      "difficulty": "medium",
-      "category": "文化",
-      "question": "哪種語言使用韓文字母書寫？",
-      "options": [
-        "日文",
-        "韓文",
-        "波蘭文",
-        "瑞典文"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_070",
-      "difficulty": "medium",
-      "category": "科學",
-      "question": "植物行光合作用會吸收哪種氣體？",
-      "options": [
-        "氧氣",
-        "二氧化碳",
-        "氮氣",
-        "氫氣"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_071",
-      "difficulty": "medium",
-      "category": "科學",
-      "question": "哪顆行星被稱為紅色星球？",
-      "options": [
-        "金星",
-        "火星",
-        "木星",
-        "土星"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_072",
-      "difficulty": "medium",
-      "category": "科學",
-      "question": "H2O通常稱為什麼？",
-      "options": [
-        "鹽",
-        "水",
-        "氧氣",
-        "糖"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_073",
-      "difficulty": "medium",
-      "category": "地理",
-      "question": "世界最大的海洋是？",
-      "options": [
-        "大西洋",
-        "印度洋",
-        "太平洋",
-        "北冰洋"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_zhh_074",
-      "difficulty": "medium",
-      "category": "地理",
-      "question": "東京位於哪個國家？",
-      "options": [
-        "日本",
-        "中國",
-        "韓國",
-        "泰國"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_zhh_075",
+      "id": "tb_zh-Hant_050",
       "difficulty": "medium",
       "category": "歷史",
-      "question": "蒙娜麗莎是誰畫的？",
+      "question": "成吉思汗統治過哪個帝國？",
       "options": [
-        "畢卡索",
-        "達文西",
-        "梵谷",
-        "莫內"
+        "奧斯曼帝國",
+        "蒙古帝國",
+        "羅馬帝國",
+        "波斯帝國"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_zhh_076",
-      "difficulty": "medium",
-      "category": "文化",
-      "question": "神隱少女是哪個工作室製作的？",
-      "options": [
-        "皮克斯",
-        "吉卜力工作室",
-        "迪士尼",
-        "夢工廠"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_077",
-      "difficulty": "medium",
-      "category": "運動",
-      "question": "足球比賽中一隊場上有幾名球員？",
-      "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_zhh_078",
-      "difficulty": "medium",
-      "category": "美食",
-      "question": "哪種飲料常有珍珠？",
-      "options": [
-        "珍珠奶茶",
-        "濃縮咖啡",
-        "檸檬水",
-        "汽水"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_zhh_079",
-      "difficulty": "medium",
-      "category": "文化",
-      "question": "哪種語言使用韓文字母書寫？",
-      "options": [
-        "日文",
-        "韓文",
-        "波蘭文",
-        "瑞典文"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_080",
-      "difficulty": "medium",
-      "category": "科學",
-      "question": "植物行光合作用會吸收哪種氣體？",
-      "options": [
-        "氧氣",
-        "二氧化碳",
-        "氮氣",
-        "氫氣"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_081",
-      "difficulty": "medium",
-      "category": "科學",
-      "question": "哪顆行星被稱為紅色星球？",
-      "options": [
-        "金星",
-        "火星",
-        "木星",
-        "土星"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_082",
-      "difficulty": "medium",
-      "category": "科學",
-      "question": "H2O通常稱為什麼？",
-      "options": [
-        "鹽",
-        "水",
-        "氧氣",
-        "糖"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_083",
-      "difficulty": "medium",
-      "category": "地理",
-      "question": "世界最大的海洋是？",
-      "options": [
-        "大西洋",
-        "印度洋",
-        "太平洋",
-        "北冰洋"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_zhh_084",
-      "difficulty": "medium",
-      "category": "地理",
-      "question": "東京位於哪個國家？",
-      "options": [
-        "日本",
-        "中國",
-        "韓國",
-        "泰國"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_zhh_085",
+      "id": "tb_zh-Hant_051",
       "difficulty": "medium",
       "category": "歷史",
-      "question": "蒙娜麗莎是誰畫的？",
+      "question": "第一個在月球上行走的人是誰？",
       "options": [
-        "畢卡索",
-        "達文西",
-        "梵谷",
-        "莫內"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_086",
-      "difficulty": "medium",
-      "category": "文化",
-      "question": "神隱少女是哪個工作室製作的？",
-      "options": [
-        "皮克斯",
-        "吉卜力工作室",
-        "迪士尼",
-        "夢工廠"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_087",
-      "difficulty": "medium",
-      "category": "運動",
-      "question": "足球比賽中一隊場上有幾名球員？",
-      "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "巴茲·奧爾德林",
+        "尤里·加加林",
+        "尼爾·阿姆斯特朗",
+        "麥可‧柯林斯"
       ],
       "correctIndex": 2
     },
     {
-      "id": "tb_zhh_088",
+      "id": "tb_zh-Hant_052",
       "difficulty": "medium",
-      "category": "美食",
-      "question": "哪種飲料常有珍珠？",
+      "category": "歷史",
+      "question": "文藝復興始於現代哪個國家？",
       "options": [
-        "珍珠奶茶",
-        "濃縮咖啡",
-        "檸檬水",
-        "汽水"
+        "法國",
+        "義大利",
+        "德國",
+        "西班牙"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
-      "id": "tb_zhh_089",
+      "id": "tb_zh-Hant_053",
       "difficulty": "medium",
-      "category": "文化",
-      "question": "哪種語言使用韓文字母書寫？",
+      "category": "歷史",
+      "question": "哪一份文件以「我們人民」一詞開頭？",
       "options": [
-        "日文",
-        "韓文",
-        "波蘭文",
-        "瑞典文"
+        "大憲章",
+        "美國憲法",
+        "獨立宣言",
+        "權利法案"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_zhh_090",
+      "id": "tb_zh-Hant_054",
       "difficulty": "medium",
-      "category": "科學",
-      "question": "植物行光合作用會吸收哪種氣體？",
+      "category": "歷史",
+      "question": "哪位女王在維多利亞時代的大部分時間裡統治著英格蘭？",
       "options": [
-        "氧氣",
-        "二氧化碳",
-        "氮氣",
-        "氫氣"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_091",
-      "difficulty": "hard",
-      "category": "科學",
-      "question": "哪顆行星被稱為紅色星球？",
-      "options": [
-        "金星",
-        "火星",
-        "木星",
-        "土星"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_092",
-      "difficulty": "hard",
-      "category": "科學",
-      "question": "H2O通常稱為什麼？",
-      "options": [
-        "鹽",
-        "水",
-        "氧氣",
-        "糖"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_093",
-      "difficulty": "hard",
-      "category": "地理",
-      "question": "世界最大的海洋是？",
-      "options": [
-        "大西洋",
-        "印度洋",
-        "太平洋",
-        "北冰洋"
+        "伊莉莎白一世",
+        "瑪麗一世",
+        "維多利亞",
+        "安妮"
       ],
       "correctIndex": 2
     },
     {
-      "id": "tb_zhh_094",
-      "difficulty": "hard",
-      "category": "地理",
-      "question": "東京位於哪個國家？",
-      "options": [
-        "日本",
-        "中國",
-        "韓國",
-        "泰國"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_zhh_095",
+      "id": "tb_zh-Hant_055",
       "difficulty": "hard",
       "category": "歷史",
-      "question": "蒙娜麗莎是誰畫的？",
+      "question": "羅塞塔石碑幫助學者閱讀了哪些古代文字？",
       "options": [
-        "畢卡索",
-        "達文西",
-        "梵谷",
-        "莫內"
+        "楔形文字",
+        "象形文字",
+        "梵文",
+        "線性B"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_zhh_096",
-      "difficulty": "hard",
-      "category": "文化",
-      "question": "神隱少女是哪個工作室製作的？",
-      "options": [
-        "皮克斯",
-        "吉卜力工作室",
-        "迪士尼",
-        "夢工廠"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_097",
-      "difficulty": "hard",
-      "category": "運動",
-      "question": "足球比賽中一隊場上有幾名球員？",
-      "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_zhh_098",
-      "difficulty": "hard",
-      "category": "美食",
-      "question": "哪種飲料常有珍珠？",
-      "options": [
-        "珍珠奶茶",
-        "濃縮咖啡",
-        "檸檬水",
-        "汽水"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_zhh_099",
-      "difficulty": "hard",
-      "category": "文化",
-      "question": "哪種語言使用韓文字母書寫？",
-      "options": [
-        "日文",
-        "韓文",
-        "波蘭文",
-        "瑞典文"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_100",
-      "difficulty": "hard",
-      "category": "科學",
-      "question": "植物行光合作用會吸收哪種氣體？",
-      "options": [
-        "氧氣",
-        "二氧化碳",
-        "氮氣",
-        "氫氣"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_101",
-      "difficulty": "hard",
-      "category": "科學",
-      "question": "哪顆行星被稱為紅色星球？",
-      "options": [
-        "金星",
-        "火星",
-        "木星",
-        "土星"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_102",
-      "difficulty": "hard",
-      "category": "科學",
-      "question": "H2O通常稱為什麼？",
-      "options": [
-        "鹽",
-        "水",
-        "氧氣",
-        "糖"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_103",
-      "difficulty": "hard",
-      "category": "地理",
-      "question": "世界最大的海洋是？",
-      "options": [
-        "大西洋",
-        "印度洋",
-        "太平洋",
-        "北冰洋"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_zhh_104",
-      "difficulty": "hard",
-      "category": "地理",
-      "question": "東京位於哪個國家？",
-      "options": [
-        "日本",
-        "中國",
-        "韓國",
-        "泰國"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_zhh_105",
+      "id": "tb_zh-Hant_056",
       "difficulty": "hard",
       "category": "歷史",
-      "question": "蒙娜麗莎是誰畫的？",
+      "question": "誰領導了海地革命？",
       "options": [
-        "畢卡索",
-        "達文西",
-        "梵谷",
-        "莫內"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_106",
-      "difficulty": "hard",
-      "category": "文化",
-      "question": "神隱少女是哪個工作室製作的？",
-      "options": [
-        "皮克斯",
-        "吉卜力工作室",
-        "迪士尼",
-        "夢工廠"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_107",
-      "difficulty": "hard",
-      "category": "運動",
-      "question": "足球比賽中一隊場上有幾名球員？",
-      "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_zhh_108",
-      "difficulty": "hard",
-      "category": "美食",
-      "question": "哪種飲料常有珍珠？",
-      "options": [
-        "珍珠奶茶",
-        "濃縮咖啡",
-        "檸檬水",
-        "汽水"
+        "杜桑·盧維杜爾",
+        "西蒙·玻利瓦爾",
+        "米格爾·伊達爾戈",
+        "何塞·德·聖馬丁"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_zhh_109",
-      "difficulty": "hard",
-      "category": "文化",
-      "question": "哪種語言使用韓文字母書寫？",
-      "options": [
-        "日文",
-        "韓文",
-        "波蘭文",
-        "瑞典文"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_110",
-      "difficulty": "hard",
-      "category": "科學",
-      "question": "植物行光合作用會吸收哪種氣體？",
-      "options": [
-        "氧氣",
-        "二氧化碳",
-        "氮氣",
-        "氫氣"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_111",
-      "difficulty": "hard",
-      "category": "科學",
-      "question": "哪顆行星被稱為紅色星球？",
-      "options": [
-        "金星",
-        "火星",
-        "木星",
-        "土星"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_112",
-      "difficulty": "hard",
-      "category": "科學",
-      "question": "H2O通常稱為什麼？",
-      "options": [
-        "鹽",
-        "水",
-        "氧氣",
-        "糖"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_113",
-      "difficulty": "hard",
-      "category": "地理",
-      "question": "世界最大的海洋是？",
-      "options": [
-        "大西洋",
-        "印度洋",
-        "太平洋",
-        "北冰洋"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_zhh_114",
-      "difficulty": "hard",
-      "category": "地理",
-      "question": "東京位於哪個國家？",
-      "options": [
-        "日本",
-        "中國",
-        "韓國",
-        "泰國"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_zhh_115",
+      "id": "tb_zh-Hant_057",
       "difficulty": "hard",
       "category": "歷史",
-      "question": "蒙娜麗莎是誰畫的？",
+      "question": "哪個條約結束了第一次世界大戰？",
       "options": [
-        "畢卡索",
-        "達文西",
-        "梵谷",
-        "莫內"
+        "巴黎條約",
+        "凡爾賽條約",
+        "托德西拉斯條約",
+        "烏得勒支條約"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_zhh_116",
-      "difficulty": "hard",
-      "category": "文化",
-      "question": "神隱少女是哪個工作室製作的？",
-      "options": [
-        "皮克斯",
-        "吉卜力工作室",
-        "迪士尼",
-        "夢工廠"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_117",
-      "difficulty": "hard",
-      "category": "運動",
-      "question": "足球比賽中一隊場上有幾名球員？",
-      "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_zhh_118",
-      "difficulty": "hard",
-      "category": "美食",
-      "question": "哪種飲料常有珍珠？",
-      "options": [
-        "珍珠奶茶",
-        "濃縮咖啡",
-        "檸檬水",
-        "汽水"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_zhh_119",
-      "difficulty": "hard",
-      "category": "文化",
-      "question": "哪種語言使用韓文字母書寫？",
-      "options": [
-        "日文",
-        "韓文",
-        "波蘭文",
-        "瑞典文"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_120",
-      "difficulty": "hard",
-      "category": "科學",
-      "question": "植物行光合作用會吸收哪種氣體？",
-      "options": [
-        "氧氣",
-        "二氧化碳",
-        "氮氣",
-        "氫氣"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_121",
-      "difficulty": "hard",
-      "category": "科學",
-      "question": "哪顆行星被稱為紅色星球？",
-      "options": [
-        "金星",
-        "火星",
-        "木星",
-        "土星"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_122",
-      "difficulty": "hard",
-      "category": "科學",
-      "question": "H2O通常稱為什麼？",
-      "options": [
-        "鹽",
-        "水",
-        "氧氣",
-        "糖"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_123",
-      "difficulty": "hard",
-      "category": "地理",
-      "question": "世界最大的海洋是？",
-      "options": [
-        "大西洋",
-        "印度洋",
-        "太平洋",
-        "北冰洋"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_zhh_124",
-      "difficulty": "hard",
-      "category": "地理",
-      "question": "東京位於哪個國家？",
-      "options": [
-        "日本",
-        "中國",
-        "韓國",
-        "泰國"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_zhh_125",
+      "id": "tb_zh-Hant_058",
       "difficulty": "hard",
       "category": "歷史",
-      "question": "蒙娜麗莎是誰畫的？",
+      "question": "拜占庭帝國的首都是哪個城市？",
       "options": [
-        "畢卡索",
-        "達文西",
-        "梵谷",
-        "莫內"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_126",
-      "difficulty": "hard",
-      "category": "文化",
-      "question": "神隱少女是哪個工作室製作的？",
-      "options": [
-        "皮克斯",
-        "吉卜力工作室",
-        "迪士尼",
-        "夢工廠"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_127",
-      "difficulty": "hard",
-      "category": "運動",
-      "question": "足球比賽中一隊場上有幾名球員？",
-      "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "羅馬",
+        "雅典",
+        "君士坦丁堡",
+        "亞歷山大港"
       ],
       "correctIndex": 2
     },
     {
-      "id": "tb_zhh_128",
+      "id": "tb_zh-Hant_059",
       "difficulty": "hard",
-      "category": "美食",
-      "question": "哪種飲料常有珍珠？",
+      "category": "歷史",
+      "question": "古埃及最後一位法老是誰？",
       "options": [
-        "珍珠奶茶",
-        "濃縮咖啡",
-        "檸檬水",
-        "汽水"
+        "娜芙蒂蒂",
+        "克莉奧佩特拉七世",
+        "哈特謝普蘇特",
+        "拉丁美洲西斯二世"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_060",
+      "difficulty": "hard",
+      "category": "歷史",
+      "question": "哪個文明創造了《漢摩拉比法典》？",
+      "options": [
+        "巴比倫文明",
+        "亞述人",
+        "腓尼基人",
+        "赫梯人"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_zhh_129",
-      "difficulty": "hard",
-      "category": "文化",
-      "question": "哪種語言使用韓文字母書寫？",
-      "options": [
-        "日文",
-        "韓文",
-        "波蘭文",
-        "瑞典文"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_130",
-      "difficulty": "hard",
-      "category": "科學",
-      "question": "植物行光合作用會吸收哪種氣體？",
-      "options": [
-        "氧氣",
-        "二氧化碳",
-        "氮氣",
-        "氫氣"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_zhh_131",
+      "id": "tb_zh-Hant_061",
       "difficulty": "easy",
-      "category": "網路",
-      "question": "DM通常是什麼意思？",
+      "category": "流行文化",
+      "question": "蝙蝠俠的管家叫什麼名字？",
       "options": [
-        "私訊",
-        "每日迷因",
-        "數位模式",
-        "深層媒體"
+        "詹姆斯",
+        "阿爾弗雷德",
+        "喬治",
+        "愛德華"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_062",
+      "difficulty": "easy",
+      "category": "流行文化",
+      "question": "哪個系列以霍格華茲為特色？",
+      "options": [
+        "Star Wars",
+        "Harry Potter",
+        "The Matrix",
+        "阿凡達"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_063",
+      "difficulty": "easy",
+      "category": "流行文化",
+      "question": "怪物史萊克這個角色是什麼顏色的？",
+      "options": [
+        "藍色",
+        "綠色",
+        "紫色",
+        "橘色"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_064",
+      "difficulty": "easy",
+      "category": "流行文化",
+      "question": "哪位歌手被稱為流行天后？",
+      "options": [
+        "麥當娜",
+        "阿黛爾",
+        "蕾哈娜",
+        "杜阿·利帕"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_zhh_132",
+      "id": "tb_zh-Hant_065",
       "difficulty": "easy",
-      "category": "網路",
-      "question": "哪個平台以短直式影片聞名？",
+      "category": "流行文化",
+      "question": "哪個超級英雄也稱為彼得帕克？",
+      "options": [
+        "蝙蝠俠",
+        "蜘蛛人",
+        "超人",
+        "鋼鐵人"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_066",
+      "difficulty": "easy",
+      "category": "流行文化",
+      "question": "哪部電影中有一個名叫艾爾莎的角色？",
+      "options": [
+        "莫阿娜",
+        "冷凍",
+        "勇敢",
+        "糾結"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_067",
+      "difficulty": "easy",
+      "category": "流行文化",
+      "question": "哪個應用程式以病毒短視頻而聞名？",
       "options": [
         "TikTok",
-        "Wikipedia",
-        "Excel",
-        "地圖"
+        "領英",
+        "Dropbox",
+        "變焦"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_zhh_133",
-      "difficulty": "easy",
-      "category": "網路",
-      "question": "截圖主要用來保存什麼？",
+      "id": "tb_zh-Hant_068",
+      "difficulty": "medium",
+      "category": "流行文化",
+      "question": "蝙蝠俠居住的虛構城市是哪一座？",
       "options": [
-        "螢幕畫面",
-        "密碼",
-        "電池",
-        "鈴聲"
+        "大都會",
+        "高譚市",
+        "星城",
+        "中心城"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_069",
+      "difficulty": "medium",
+      "category": "流行文化",
+      "question": "哪支樂團發行了專輯《Abbey Road》？",
+      "options": [
+        "披頭四樂團",
+        "女王",
+        "ABBA",
+        "滾石樂隊"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_070",
+      "difficulty": "medium",
+      "category": "流行文化",
+      "question": "1997 年電影《鐵達尼號》中傑克的飾演者是誰？",
+      "options": [
+        "布萊德彼特",
+        "萊昂納多·迪卡普里奧",
+        "湯姆克魯斯",
+        "馬特達蒙"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_071",
+      "difficulty": "medium",
+      "category": "流行文化",
+      "question": "哪個電視節目以咖啡店 Central Perk 為主角？",
+      "options": [
+        "朋友",
+        "宋飛傳",
+        "The Office",
+        "我如何認識你媽媽"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_072",
+      "difficulty": "medium",
+      "category": "流行文化",
+      "question": "哪個遊戲系列包含林克這個角色？",
+      "options": [
+        "最終幻想",
+        "薩爾達傳說",
+        "神奇寶貝",
+        "索尼克"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_073",
+      "difficulty": "medium",
+      "category": "流行文化",
+      "question": "哪部電影中有台詞「願原力與你同在」？",
+      "options": [
+        "Star Wars",
+        "星際爭霸戰",
+        "沙丘",
+        "銀翼殺手"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_074",
+      "difficulty": "medium",
+      "category": "流行文化",
+      "question": "Toy Story 中的玩具牛仔叫什麼名字？",
+      "options": [
+        "嗡嗡聲",
+        "伍迪",
+        "安迪",
+        "雷克斯"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_075",
+      "difficulty": "hard",
+      "category": "流行文化",
+      "question": "The Matrix 中的尼奧由哪位演員飾演？",
+      "options": [
+        "基努·李維斯",
+        "強尼戴普",
+        "尼可拉斯凱吉",
+        "威爾史密斯"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_076",
+      "difficulty": "hard",
+      "category": "流行文化",
+      "question": "哪位藝術家發行了專輯《Lemonade》？",
+      "options": [
+        "碧昂絲",
+        "泰勒絲",
+        "阿麗亞娜·格蘭德",
+        "女神卡卡"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_077",
+      "difficulty": "hard",
+      "category": "流行文化",
+      "question": "在 Lord of the Rings 中，咕嚕的原名是什麼？",
+      "options": [
+        "斯麥戈",
+        "比爾博",
+        "迪戈",
+        "法拉米爾"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_078",
+      "difficulty": "hard",
+      "category": "流行文化",
+      "question": "哪部動畫電影中有歌曲 Remember Me？",
+      "options": [
+        "可可",
+        "恩坎托",
+        "靈魂",
+        "盧卡"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_079",
+      "difficulty": "hard",
+      "category": "流行文化",
+      "question": "Black Panther 中的虛構金屬的名稱是什麼？",
+      "options": [
+        "金剛砂",
+        "振金",
+        "秘銀",
+        "尤奧塔尼姆"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_080",
+      "difficulty": "hard",
+      "category": "流行文化",
+      "question": "哪部情境喜劇的背景設定為 Dunder Mifflin？",
+      "options": [
+        "公園和休閒",
+        "The Office",
+        "布魯克林九點九",
+        "社群"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_081",
+      "difficulty": "easy",
+      "category": "食品",
+      "question": "傳統上使用哪種水果製作酪梨醬？",
+      "options": [
+        "香蕉",
+        "酪梨",
+        "芒果",
+        "奇異果"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_082",
+      "difficulty": "easy",
+      "category": "食品",
+      "question": "壽司最常與什麼連結在一起？",
+      "options": [
+        "日本",
+        "墨西哥",
+        "義大利",
+        "摩洛哥"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_083",
+      "difficulty": "easy",
+      "category": "食品",
+      "question": "哪一種堅果用來製作杏仁糖？",
+      "options": [
+        "胡桃木",
+        "榛子",
+        "杏仁",
+        "花生"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_084",
+      "difficulty": "easy",
+      "category": "食品",
+      "question": "鷹嘴豆泥的主要成分是什麼？",
+      "options": [
+        "扁豆",
+        "鷹嘴豆",
+        "馬鈴薯",
+        "米飯"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_085",
+      "difficulty": "easy",
+      "category": "食品",
+      "question": "哪一種飲料是用烤豆沖泡而成的？",
+      "options": [
+        "茶",
+        "咖啡",
+        "檸檬水",
+        "可樂"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_086",
+      "difficulty": "easy",
+      "category": "食品",
+      "question": "什麼類型的麵食形狀像小管？",
+      "options": [
+        "通心粉",
+        "義大利麵",
+        "法法勒",
+        "烤寬麵條"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_087",
+      "difficulty": "easy",
+      "category": "食品",
+      "question": "哪個國家的玉米餅很有名？",
+      "options": [
+        "義大利",
+        "墨西哥",
+        "泰國",
+        "希臘"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_088",
+      "difficulty": "medium",
+      "category": "食品",
+      "question": "什麼香料讓咖哩呈現黃色？",
+      "options": [
+        "小茴香",
+        "薑黃",
+        "辣椒粉",
+        "肉桂"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_089",
+      "difficulty": "medium",
+      "category": "食品",
+      "question": "玛格丽特披萨传统上使用哪种奶酪？",
+      "options": [
+        "切達乾酪",
+        "馬蘇里拉起司",
+        "羊乳酪",
+        "豪達"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_090",
+      "difficulty": "medium",
+      "category": "食品",
+      "question": "豆腐主要由什么材料制成？",
+      "options": [
+        "大豆",
+        "米飯",
+        "玉米",
+        "花生"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_091",
+      "difficulty": "medium",
+      "category": "食品",
+      "question": "哪一種甜點是用一層層浸泡過咖啡的手指餅乾製成的？",
+      "options": [
+        "果仁蜜餅",
+        "提拉米蘇",
+        "巴甫洛娃",
+        "焦糖布丁"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_092",
+      "difficulty": "medium",
+      "category": "食品",
+      "question": "酸菜的主要成分是什么？",
+      "options": [
+        "高麗菜",
+        "紅蘿蔔",
+        "黃瓜",
+        "洋蔥"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_093",
+      "difficulty": "medium",
+      "category": "食品",
+      "question": "哪種水果曬乾後可以製成葡萄乾？",
+      "options": [
+        "葡萄",
+        "李子",
+        "杏子",
+        "無花果"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_094",
+      "difficulty": "medium",
+      "category": "食品",
+      "question": "哪種醬汁傳統上是用羅勒、松子、大蒜、橄欖油和起司製成的？",
+      "options": [
+        "香蒜醬",
+        "薩爾薩舞",
+        "海鮮",
+        "芝麻醬"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_095",
+      "difficulty": "hard",
+      "category": "食品",
+      "question": "傳統燴飯用什麼穀物製作？",
+      "options": [
+        "印度香米",
+        "喬木米",
+        "藜麥",
+        "乾小麥"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_096",
+      "difficulty": "hard",
+      "category": "食品",
+      "question": "泡菜的原產地是哪個國家？",
+      "options": [
+        "日本",
+        "中國",
+        "韓國",
+        "越南"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_097",
+      "difficulty": "hard",
+      "category": "食品",
+      "question": "薄煎饼的法语术语是什么？",
+      "options": [
+        "縐紗",
+        "奶油蛋捲",
+        "閃電泡芙",
+        "馬卡龍"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_098",
+      "difficulty": "hard",
+      "category": "食品",
+      "question": "哪种酸使醋具有酸味？",
+      "options": [
+        "檸檬酸",
+        "醋酸",
+        "乳酸",
+        "蘋果酸"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_099",
+      "difficulty": "hard",
+      "category": "食品",
+      "question": "传统沙拉三明治的主要成分是什么？",
+      "options": [
+        "鷹嘴豆",
+        "牛肉",
+        "茄子",
+        "米飯"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_100",
+      "difficulty": "hard",
+      "category": "食品",
+      "question": "製作果仁蜜餅會用哪種麵皮？",
+      "options": [
+        "酥皮點心",
+        "菲羅麵皮",
+        "脆皮",
+        "泡芙糕點"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_101",
+      "difficulty": "easy",
+      "category": "動物",
+      "question": "最大的陸地動物是什麼？",
+      "options": [
+        "大象",
+        "河馬",
+        "犀牛",
+        "長頸鹿"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_102",
+      "difficulty": "easy",
+      "category": "動物",
+      "question": "哪種動物以黑白條紋而聞名？",
+      "options": [
+        "斑馬",
+        "虎",
+        "貓熊",
+        "臭鼬"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_103",
+      "difficulty": "easy",
+      "category": "動物",
+      "question": "蜜蜂做什麼？",
+      "options": [
+        "牛奶",
+        "蜂蜜",
+        "絲綢",
+        "僅蠟"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_104",
+      "difficulty": "easy",
+      "category": "動物",
+      "question": "哪種動物是哺乳類動物？",
+      "options": [
+        "鯊魚",
+        "青蛙",
+        "海豚",
+        "鱷魚"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_105",
+      "difficulty": "easy",
+      "category": "動物",
+      "question": "小貓叫什麼？",
+      "options": [
+        "小狗",
+        "小貓",
+        "小牛",
+        "小馬駒"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_106",
+      "difficulty": "easy",
+      "category": "動物",
+      "question": "在故事中，哪種鳥經常與生孩子連結在一起？",
+      "options": [
+        "鷹",
+        "鸛",
+        "貓頭鷹",
+        "天鵝"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_107",
+      "difficulty": "easy",
+      "category": "動物",
+      "question": "哪種動物以變色而聞名？",
+      "options": [
+        "變色龍",
+        "無尾熊",
+        "企鵝",
+        "駱駝"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_108",
+      "difficulty": "medium",
+      "category": "動物",
+      "question": "跑得最快的陸地動物是？",
+      "options": [
+        "獵豹",
+        "獅子",
+        "馬",
+        "袋鼠"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_109",
+      "difficulty": "medium",
+      "category": "動物",
+      "question": "什麼動物的脖子最長？",
+      "options": [
+        "長頸鹿",
+        "鴕鳥",
+        "駱駝",
+        "羊駝"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_110",
+      "difficulty": "medium",
+      "category": "動物",
+      "question": "英文中一群獅子叫做什麼？",
+      "options": [
+        "Pack",
+        "Herd",
+        "Pride",
+        "Flock"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_111",
+      "difficulty": "medium",
+      "category": "動物",
+      "question": "哪種海洋動物有三顆心臟？",
+      "options": [
+        "章魚",
+        "海豚",
+        "海龜",
+        "水母"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_112",
+      "difficulty": "medium",
+      "category": "動物",
+      "question": "大貓熊主要吃什麼？",
+      "options": [
+        "竹子",
+        "魚",
+        "草",
+        "水果"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_113",
+      "difficulty": "medium",
+      "category": "動物",
+      "question": "哪種動物產的蛋最大？",
+      "options": [
+        "鴕鳥",
+        "鷹",
+        "企鵝",
+        "信天翁"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_114",
+      "difficulty": "medium",
+      "category": "動物",
+      "question": "哪種昆蟲能舉起自身體重數倍的物體？",
+      "options": [
+        "蝴蝶",
+        "螞蟻",
+        "蚊子",
+        "瓢蟲"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_115",
+      "difficulty": "hard",
+      "category": "動物",
+      "question": "唯一能夠真正飛行的哺乳動物是什麼？",
+      "options": [
+        "飛鼠",
+        "蝙蝠",
+        "蜜袋鼯",
+        "狐猴"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_116",
+      "difficulty": "hard",
+      "category": "動物",
+      "question": "哪一種動物又被稱為沙漠之船？",
+      "options": [
+        "駱駝",
+        "驢子",
+        "馬",
+        "犛牛"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_117",
+      "difficulty": "hard",
+      "category": "動物",
+      "question": "最大的鯊魚種類是什麼？",
+      "options": [
+        "大白鯊",
+        "鯨鯊",
+        "鎚頭鯊",
+        "虎鯊"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_118",
+      "difficulty": "hard",
+      "category": "動物",
+      "question": "哪種鳥能模仿人類的語言特別好？",
+      "options": [
+        "鸚鵡",
+        "企鵝",
+        "火烈鳥",
+        "麻雀"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_119",
+      "difficulty": "hard",
+      "category": "動物",
+      "question": "對鳥類的研究叫什麼？",
+      "options": [
+        "昆蟲學",
+        "鳥類學",
+        "魚類學",
+        "爬蟲學"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_120",
+      "difficulty": "hard",
+      "category": "動物",
+      "question": "哪一種動物的指紋與人類非常相似？",
+      "options": [
+        "無尾熊",
+        "袋鼠",
+        "貓熊",
+        "樹懶"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_121",
+      "difficulty": "easy",
+      "category": "數學",
+      "question": "9乘以9等於多少？",
+      "options": [
+        "72",
+        "81",
+        "90",
+        "99"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_122",
+      "difficulty": "easy",
+      "category": "數學",
+      "question": "三角形有幾條邊？",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_123",
+      "difficulty": "easy",
+      "category": "數學",
+      "question": "100 的一半是多少？",
+      "options": [
+        "25",
+        "40",
+        "50",
+        "75"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_124",
+      "difficulty": "easy",
+      "category": "數學",
+      "question": "12加15等於多少？",
+      "options": [
+        "25",
+        "27",
+        "29",
+        "31"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_125",
+      "difficulty": "easy",
+      "category": "數學",
+      "question": "一小時有多少分鐘？",
+      "options": [
+        "30",
+        "45",
+        "60",
+        "90"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_126",
+      "difficulty": "easy",
+      "category": "數學",
+      "question": "7的平方是多少？",
+      "options": [
+        "14",
+        "21",
+        "49",
+        "77"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_127",
+      "difficulty": "easy",
+      "category": "數學",
+      "question": "直角有多少度？",
+      "options": [
+        "45",
+        "60",
+        "90",
+        "180"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_128",
+      "difficulty": "medium",
+      "category": "數學",
+      "question": "pi 的值四捨五入到小數點後兩位是多少？",
+      "options": [
+        "3.12",
+        "3.14",
+        "3.16",
+        "3.18"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_129",
+      "difficulty": "medium",
+      "category": "數學",
+      "question": "200 的 15% 是多少？",
+      "options": [
+        "15",
+        "20",
+        "30",
+        "40"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_130",
+      "difficulty": "medium",
+      "category": "數學",
+      "question": "六邊形有幾條邊？",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_131",
+      "difficulty": "medium",
+      "category": "數學",
+      "question": "144 的平方根是多少？",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_132",
+      "difficulty": "medium",
+      "category": "數學",
+      "question": "3的立方是多少？",
+      "options": [
+        "9",
+        "18",
+        "27",
+        "81"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_133",
+      "difficulty": "medium",
+      "category": "數學",
+      "question": "7之後的下一個質數是什麼？",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_134",
+      "difficulty": "medium",
+      "category": "數學",
+      "question": "一米等於多少公分？",
+      "options": [
+        "10",
+        "100",
+        "1000",
+        "10000"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_135",
+      "difficulty": "hard",
+      "category": "數學",
+      "question": "三角形的內角和是多少？",
+      "options": [
+        "90度",
+        "180度",
+        "270度",
+        "360度"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_136",
+      "difficulty": "hard",
+      "category": "數學",
+      "question": "2的10次方是多少？",
+      "options": [
+        "512",
+        "1024",
+        "2048",
+        "4096"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_137",
+      "difficulty": "hard",
+      "category": "數學",
+      "question": "最小的質數是多少？",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_138",
+      "difficulty": "hard",
+      "category": "數學",
+      "question": "1除以4化成小數等於多少？",
+      "options": [
+        "0.2",
+        "0.25",
+        "0.4",
+        "0.5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_139",
+      "difficulty": "hard",
+      "category": "數學",
+      "question": "正方體有幾個面？",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_140",
+      "difficulty": "hard",
+      "category": "數學",
+      "question": "50 的羅馬數字是什麼？",
+      "options": [
+        "L",
+        "C",
+        "D",
+        "M"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_141",
+      "difficulty": "easy",
+      "category": "音樂",
+      "question": "標準吉他通常有多少弦？",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_142",
+      "difficulty": "easy",
+      "category": "音樂",
+      "question": "哪一種樂器有黑鍵和白鍵？",
+      "options": [
+        "吉他",
+        "鋼琴",
+        "小提琴",
+        "鼓"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_143",
+      "difficulty": "easy",
+      "category": "音樂",
+      "question": "誰被稱為流行音樂之王？",
+      "options": [
+        "貓王貓王",
+        "麥可傑克森",
+        "王子",
+        "史蒂夫旺德"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_144",
+      "difficulty": "easy",
+      "category": "音樂",
+      "question": "一群歌手怎麼稱呼？",
+      "options": [
+        "合唱團",
+        "繃帶",
+        "演員陣容",
+        "船員"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_145",
+      "difficulty": "easy",
+      "category": "音樂",
+      "question": "哪一種樂器是用弓演奏的？",
+      "options": [
+        "小號",
+        "小提琴",
+        "鋼琴",
+        "長笛"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_146",
+      "difficulty": "easy",
+      "category": "音樂",
+      "question": "音樂的速度叫什麼名字？",
+      "options": [
+        "速度",
+        "音高",
+        "和聲",
+        "節奏"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_147",
+      "difficulty": "easy",
+      "category": "音樂",
+      "question": "對許多聽眾來說，哪種音樂格式先於 CD 出現？",
+      "options": [
+        "卡式磁帶",
+        "藍光",
+        "podcast",
+        "電子書"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_148",
+      "difficulty": "medium",
+      "category": "音樂",
+      "question": "月光奏鳴曲是哪位作曲家創作的？",
+      "options": [
+        "莫札特",
+        "貝多芬",
+        "巴哈",
+        "蕭邦"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_149",
+      "difficulty": "medium",
+      "category": "音樂",
+      "question": "標準大調音階有幾個音？",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_150",
+      "difficulty": "medium",
+      "category": "音樂",
+      "question": "Freddie Mercury 是哪個樂團的主唱？",
+      "options": [
+        "女王",
+        "U2",
+        "涅槃",
+        "綠洲"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_151",
+      "difficulty": "medium",
+      "category": "音樂",
+      "question": "DJ 代表什麼？",
+      "options": [
+        "唱片騎師",
+        "舞蹈評審",
+        "數位果醬",
+        "鼓跳線"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_152",
+      "difficulty": "medium",
+      "category": "音樂",
+      "question": "馬友友以演奏哪種樂器而聞名？",
+      "options": [
+        "大提琴",
+        "小提琴",
+        "鋼琴",
+        "單簧管"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_153",
+      "difficulty": "medium",
+      "category": "音樂",
+      "question": "什麼是二重唱？",
+      "options": [
+        "一首為兩位表演者創作的歌曲",
+        "快速的鼓聲",
+        "一個音樂獎",
+        "舞檯燈"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_154",
+      "difficulty": "medium",
+      "category": "音樂",
+      "question": "哪種流派經常與即興創作和搖擺樂聯繫在一起？",
+      "options": [
+        "爵士樂",
+        "金屬",
+        "歌劇",
+        "雷鬼音樂"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_155",
+      "difficulty": "hard",
+      "category": "音樂",
+      "question": "哪位古典時期作曲家創作了《四個季節》？",
+      "options": [
+        "韋瓦第",
+        "韓德爾",
+        "海頓",
+        "舒伯特"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_156",
+      "difficulty": "hard",
+      "category": "音樂",
+      "question": "男性歌聲最低標準是多少？",
+      "options": [
+        "男高音",
+        "男中音",
+        "貝斯",
+        "阿爾托"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_157",
+      "difficulty": "hard",
+      "category": "音樂",
+      "question": "哪一個音符是C以上的半音？",
+      "options": [
+        "B",
+        "升C",
+        "D",
+        "降E調"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_158",
+      "difficulty": "hard",
+      "category": "音樂",
+      "question": "逐漸變大的詞語是什麼",
+      "options": [
+        "漸強",
+        "漸弱",
+        "連奏",
+        "斷奏"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_159",
+      "difficulty": "hard",
+      "category": "音樂",
+      "question": "哪個城市與爵士樂的誕生有密切關係？",
+      "options": [
+        "新奧爾良",
+        "西雅圖",
+        "納許維爾",
+        "底特律"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_160",
+      "difficulty": "hard",
+      "category": "音樂",
+      "question": "位於五線譜開頭的符號的名稱是什麼？",
+      "options": [
+        "譜號",
+        "煩惱",
+        "橋",
+        "閥門"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_161",
+      "difficulty": "easy",
+      "category": "藝術",
+      "question": "蒙娜麗莎是誰畫的？",
+      "options": [
+        "文森梵谷",
+        "達文西",
+        "巴勃羅·畢卡索",
+        "克勞德·莫奈"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_162",
+      "difficulty": "easy",
+      "category": "藝術",
+      "question": "紅色和藍色混合會得到什麼顏色？",
+      "options": [
+        "綠色",
+        "紫色",
+        "橘色",
+        "棕色"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_163",
+      "difficulty": "easy",
+      "category": "藝術",
+      "question": "使用什麼工具將顏料塗抹到畫布上？",
+      "options": [
+        "錘子",
+        "畫筆",
+        "指南針",
+        "針"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_164",
+      "difficulty": "easy",
+      "category": "藝術",
+      "question": "通常是立體雕塑是什麼？",
+      "options": [
+        "是的",
+        "否",
+        "僅在照片中",
+        "僅在紙上"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_165",
+      "difficulty": "easy",
+      "category": "藝術",
+      "question": "蒙娜麗莎的收藏是哪個博物館？",
+      "options": [
+        "羅浮宮",
+        "普拉多",
+        "泰特現代美術館",
+        "烏菲茲"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_166",
+      "difficulty": "easy",
+      "category": "藝術",
+      "question": "摺紙藝術叫什麼？",
+      "options": [
+        "摺紙",
+        "書法",
+        "馬賽克",
+        "塗鴉"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_167",
+      "difficulty": "easy",
+      "category": "藝術",
+      "question": "紅色和黃色混合而成什麼顏色？",
+      "options": [
+        "藍色",
+        "橘色",
+        "紫色",
+        "白色"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_168",
+      "difficulty": "medium",
+      "category": "藝術",
+      "question": "《星夜》是誰畫的？",
+      "options": [
+        "巴勃羅·畢卡索",
+        "文森梵谷",
+        "薩爾瓦多·達利",
+        "林布蘭"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_169",
+      "difficulty": "medium",
+      "category": "藝術",
+      "question": "哪位藝術家以融化鐘錶而聞名？",
+      "options": [
+        "薩爾瓦多·達利",
+        "弗里達·卡羅",
+        "安迪沃荷",
+        "班克斯"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_170",
+      "difficulty": "medium",
+      "category": "藝術",
+      "question": "什麼是書法？",
+      "options": [
+        "裝潢手寫",
+        "石雕",
+        "壁畫",
+        "照片編輯"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_171",
+      "difficulty": "medium",
+      "category": "藝術",
+      "question": "哪項藝術運動與克勞德·莫奈有關？",
+      "options": [
+        "立體主義",
+        "印象派",
+        "超現實主義",
+        "普普藝術"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_172",
+      "difficulty": "medium",
+      "category": "藝術",
+      "question": "什麼是自畫像？",
+      "options": [
+        "藝術家為藝術家拍攝的照片",
+        "一道風景",
+        "合照一張",
+        "雕塑基地"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_173",
+      "difficulty": "medium",
+      "category": "藝術",
+      "question": "陶藝常用什麼材質？",
+      "options": [
+        "黏土",
+        "僅玻璃",
+        "橡膠",
+        "紙"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_174",
+      "difficulty": "medium",
+      "category": "藝術",
+      "question": "單色藝術品的主要顏色是什麼？",
+      "options": [
+        "一種顏色",
+        "兩種顏色",
+        "所有顏色",
+        "無顏色"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_175",
+      "difficulty": "hard",
+      "category": "藝術",
+      "question": "格爾尼卡是哪位藝術家畫的？",
+      "options": [
+        "巴勃羅·畢卡索",
+        "亨利·馬蒂斯",
+        "保羅·塞尚",
+        "愛德華‧蒙克"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_176",
+      "difficulty": "hard",
+      "category": "藝術",
+      "question": "哪個義大利城市以文藝復興藝術和烏菲茲美術館聞名？",
+      "options": [
+        "佛羅倫斯",
+        "威尼斯",
+        "米蘭",
+        "那不勒斯"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_177",
+      "difficulty": "hard",
+      "category": "藝術",
+      "question": "壁畫是用什麼畫的？",
+      "options": [
+        "濕石膏",
+        "玻璃",
+        "金屬",
+        "絲綢"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_178",
+      "difficulty": "hard",
+      "category": "藝術",
+      "question": "哪位藝術家創作了《記憶的永恆》？",
+      "options": [
+        "薩爾瓦多·達利",
+        "瓊·米羅",
+        "雷內·馬格里特",
+        "傑克森·波洛克"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_179",
+      "difficulty": "hard",
+      "category": "藝術",
+      "question": "哪一種版畫方法使用雕版？",
+      "options": [
+        "木刻",
+        "水彩",
+        "拼貼畫",
+        "噴槍"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_180",
+      "difficulty": "hard",
+      "category": "藝術",
+      "question": "明暗對比是什麼？",
+      "options": [
+        "光與影",
+        "聲音和節奏",
+        "僅顏色",
+        "透視網格"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_181",
+      "difficulty": "easy",
+      "category": "體育運動",
+      "question": "一支足球隊場上有多少名球員？",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_182",
+      "difficulty": "easy",
+      "category": "體育運動",
+      "question": "哪項運動使用球拍和羽球？",
+      "options": [
+        "網球",
+        "羽毛球",
+        "壁球",
+        "乒乓球"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_183",
+      "difficulty": "easy",
+      "category": "體育運動",
+      "question": "在籃球比賽中，一次罰球值多少分？",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_184",
+      "difficulty": "easy",
+      "category": "體育運動",
+      "question": "溫布頓網球公開賽進行哪一項運動？",
+      "options": [
+        "板球",
+        "網球",
+        "高爾夫",
+        "橄欖球"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_185",
+      "difficulty": "easy",
+      "category": "體育運動",
+      "question": "奧林匹克會旗上有幾個圓環？",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_186",
+      "difficulty": "easy",
+      "category": "體育運動",
+      "question": "哪項運動使用冰球？",
+      "options": [
+        "冰上曲棍球",
+        "棒球",
+        "排球",
+        "拳擊"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_187",
+      "difficulty": "easy",
+      "category": "體育運動",
+      "question": "接力賽跑者要傳什麼？",
+      "options": [
+        "球",
+        "接力棒",
+        "旗幟",
+        "手套"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_188",
+      "difficulty": "medium",
+      "category": "體育運動",
+      "question": "環法自行車賽是哪一項運動的比賽？",
+      "options": [
+        "跑步",
+        "騎自行車",
+        "游泳",
+        "滑雪"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_189",
+      "difficulty": "medium",
+      "category": "體育運動",
+      "question": "球場上一支標準棒球隊有多少名球員？",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_190",
+      "difficulty": "medium",
+      "category": "體育運動",
+      "question": "哪個國家贏得最多的男足世界盃冠軍？",
+      "options": [
+        "德國",
+        "阿根廷",
+        "巴西",
+        "義大利"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_zh-Hant_191",
+      "difficulty": "medium",
+      "category": "體育運動",
+      "question": "網球比賽中，平手後的比數是多少？",
+      "options": [
+        "優勢",
+        "愛",
+        "設定點",
+        "休息"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_192",
+      "difficulty": "medium",
+      "category": "體育運動",
+      "question": "哪項運動以鞍馬為特色？",
+      "options": [
+        "體操",
+        "馬術",
+        "馬球",
+        "擊劍"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_193",
+      "difficulty": "medium",
+      "category": "體育運動",
+      "question": "足球比賽中什麼是帽子戲法？",
+      "options": [
+        "一名球員打進三球",
+        "三張黃牌",
+        "三個換人",
+        "三個角"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_194",
+      "difficulty": "medium",
+      "category": "體育運動",
+      "question": "哪項運動與史丹利盃相關？",
+      "options": [
+        "籃球",
+        "冰上曲棍球",
+        "棒球",
+        "橄欖球"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_195",
+      "difficulty": "hard",
+      "category": "體育運動",
+      "question": "奧林匹克游泳池有多長？",
+      "options": [
+        "25米",
+        "50米",
+        "75米",
+        "100米"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_196",
+      "difficulty": "hard",
+      "category": "體育運動",
+      "question": "在高爾夫中，低於標準桿一桿稱為什麼？",
+      "options": [
+        "柏忌",
+        "小鳥",
+        "鷹",
+        "信天翁"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_197",
+      "difficulty": "hard",
+      "category": "體育運動",
+      "question": "1896 年哪個國家主辦了第一屆現代奧運？",
+      "options": [
+        "法國",
+        "希臘",
+        "英國",
+        "義大利"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_198",
+      "difficulty": "hard",
+      "category": "體育運動",
+      "question": "斯諾克比賽的最大分球是多少？",
+      "options": [
+        "120",
+        "147",
+        "155",
+        "180"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_199",
+      "difficulty": "hard",
+      "category": "體育運動",
+      "question": "哪項運動使用了「愛零」這個字？",
+      "options": [
+        "板球",
+        "網球",
+        "拳擊",
+        "高爾夫"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_200",
+      "difficulty": "hard",
+      "category": "體育運動",
+      "question": "拳擊中KO代表什麼？",
+      "options": [
+        "擊倒",
+        "踢出",
+        "保持開放",
+        "指節順序"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_201",
+      "difficulty": "easy",
+      "category": "科技",
+      "question": "CPU 代表什麼？",
+      "options": [
+        "中央處理器",
+        "電腦電源裝置",
+        "中央程式實用程式",
+        "核心處理用戶"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_202",
+      "difficulty": "easy",
+      "category": "科技",
+      "question": "電腦上使用什麼設備來移動遊標？",
+      "options": [
+        "滑鼠",
+        "揚聲器",
+        "印表機",
+        "路由器"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_203",
+      "difficulty": "easy",
+      "category": "科技",
+      "question": "Wi-Fi 允許設備連接到什麼？",
+      "options": [
+        "水",
+        "無線網路",
+        "紙",
+        "電動機"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_204",
+      "difficulty": "easy",
+      "category": "科技",
+      "question": "iPhone是哪家公司生產的？",
+      "options": [
+        "三星",
+        "蘋果",
+        "索尼",
+        "諾基亞"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_205",
+      "difficulty": "easy",
+      "category": "科技",
+      "question": "密碼有什麼用？",
+      "options": [
+        "安全性",
+        "印刷",
+        "充電",
+        "冷卻"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_206",
+      "difficulty": "easy",
+      "category": "科技",
+      "question": "USB 通常連接什麼？",
+      "options": [
+        "設備和計算機",
+        "鞋子和襪子",
+        "書籍和頁面",
+        "植物和土壤"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_207",
+      "difficulty": "easy",
+      "category": "科技",
+      "question": "應用程式是什麼的縮寫？",
+      "options": [
+        "應用",
+        "預約",
+        "核准",
+        "附錄"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_208",
+      "difficulty": "medium",
+      "category": "科技",
+      "question": "URL 代表什麼？",
+      "options": [
+        "統一資源定位器",
+        "通用讀取線",
+        "用戶運行時連結",
+        "統一記錄列表"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_209",
+      "difficulty": "medium",
+      "category": "科技",
+      "question": "路由器的主要工作是什麼？",
+      "options": [
+        "店鋪照片",
+        "直接網路流量",
+        "列印文件",
+        "僅掃描病毒"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_210",
+      "difficulty": "medium",
+      "category": "科技",
+      "question": "影像常用哪種文件類型？",
+      "options": [
+        "JPEG",
+        "MP3",
+        "DOCX",
+        "EXE"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_211",
+      "difficulty": "medium",
+      "category": "科技",
+      "question": "RAM 代表什麼？",
+      "options": [
+        "隨機存取記憶體",
+        "快速行動模組",
+        "閱讀所有媒體",
+        "運行時 Audio 模式"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_212",
+      "difficulty": "medium",
+      "category": "科技",
+      "question": "雲端儲存有什麼用？",
+      "options": [
+        "在線保存文件",
+        "清潔螢幕",
+        "冷卻筆記型電腦",
+        "為手機充電"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_213",
+      "difficulty": "medium",
+      "category": "科技",
+      "question": "GPS 有助於確定什麼？",
+      "options": [
+        "地點",
+        "電池壽命",
+        "螢幕尺寸",
+        "密碼強度"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_214",
+      "difficulty": "medium",
+      "category": "科技",
+      "question": "非接觸式支付使用哪種技術？",
+      "options": [
+        "NFC",
+        "VHS",
+        "CRT",
+        "DVD"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_215",
+      "difficulty": "hard",
+      "category": "科技",
+      "question": "HTML 代表什麼？",
+      "options": [
+        "超文本標記語言",
+        "高傳輸機器邏輯",
+        "主頁工具標記鏈接",
+        "超連結文字主列表"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_216",
+      "difficulty": "hard",
+      "category": "科技",
+      "question": "雙重身份驗證旨在改進什麼？",
+      "options": [
+        "螢幕亮度",
+        "帳戶安全",
+        "下載速度",
+        "Audio 質量"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_217",
+      "difficulty": "hard",
+      "category": "科技",
+      "question": "哪种数制只使用 0 和 1？",
+      "options": [
+        "十進位",
+        "二進位",
+        "十六進位",
+        "羅馬"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_218",
+      "difficulty": "hard",
+      "category": "科技",
+      "question": "API代表什麼？",
+      "options": [
+        "應用程式介面",
+        "Au自动程序索引",
+        "應用像素輸入",
+        "先進工藝互聯網"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_219",
+      "difficulty": "hard",
+      "category": "科技",
+      "question": "SSD 代表什麼？",
+      "options": [
+        "固態硬碟",
+        "系統儲存碟",
+        "智慧型軟體裝置",
+        "安全訊號驅動"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_220",
+      "difficulty": "hard",
+      "category": "科技",
+      "question": "哪種協定常用來載入安全網站？",
+      "options": [
+        "HTTP",
+        "HTTPS",
+        "FTP",
+        "SMTP"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_221",
+      "difficulty": "easy",
+      "category": "網際網路",
+      "question": "DM 通常代表什麼？",
+      "options": [
+        "直接留言",
+        "數位地圖",
+        "日常模式",
+        "資料記憶體"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_222",
+      "difficulty": "easy",
+      "category": "網際網路",
+      "question": "哪個符號開始主題標籤？",
+      "options": [
+        "@",
+        "#",
+        "&",
+        "*"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_223",
+      "difficulty": "easy",
+      "category": "網際網路",
+      "question": "什麼是自拍？",
+      "options": [
+        "你自己的照片",
+        "一個密碼",
+        "搜尋結果",
+        "一款電玩遊戲"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_224",
+      "difficulty": "easy",
+      "category": "網際網路",
+      "question": "哪個平台以短影片最出名？",
+      "options": [
+        "TikTok",
+        "維基百科",
+        "Dropbox",
+        "鬆弛"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_225",
+      "difficulty": "easy",
+      "category": "網際網路",
+      "question": "什麼是表情符號？",
+      "options": [
+        "一個小數字圖標",
+        "網路瀏覽器",
+        "一種文件格式",
+        "電纜的一種"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_226",
+      "difficulty": "easy",
+      "category": "網際網路",
+      "question": "LOL 在網路上通常代表什麼？",
+      "options": [
+        "很多燈",
+        "大笑出聲",
+        "連結列表",
+        "運氣不佳"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_zh-Hant_227",
+      "difficulty": "easy",
+      "category": "網際網路",
+      "question": "截圖是用來保存的？",
+      "options": [
+        "螢幕上有什麼",
+        "電池充電一次",
+        "一個電話",
+        "僅 Wi-Fi 密碼"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_228",
+      "difficulty": "medium",
+      "category": "網際網路",
+      "question": "點擊誘餌的目的是什麼？",
+      "options": [
+        "點擊次數",
+        "睡眠",
+        "天氣數據",
+        "僅密碼"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_229",
+      "difficulty": "medium",
+      "category": "網際網路",
+      "question": "URL 在日常網路使用上意味著什麼？",
+      "options": [
+        "一個網址",
+        "一個音樂檔案",
+        "相機模式",
+        "一顆手機電池"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_230",
+      "difficulty": "medium",
+      "category": "網際網路",
+      "question": "什麼是模因？",
+      "options": [
+        "一個可分享的笑話或想法",
+        "鍵盤的一種",
+        "私人密碼",
+        "雲端伺服器"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_231",
+      "difficulty": "medium",
+      "category": "網際網路",
+      "question": "什麼是網路釣魚？",
+      "options": [
+        "竊取資訊的騙局",
+        "一種編輯照片的方法",
+        "一種音樂流派",
+        "視訊濾鏡"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_232",
+      "difficulty": "medium",
+      "category": "網際網路",
+      "question": "直播是什麼意思？",
+      "options": [
+        "即時廣播",
+        "儲存檔案",
+        "離線編寫程式碼",
+        "列印照片"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_233",
+      "difficulty": "medium",
+      "category": "網際網路",
+      "question": "什麼是用戶名？",
+      "options": [
+        "公有帳號名稱",
+        "電腦病毒",
+        "一條螢幕線",
+        "一張支付卡"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_234",
+      "difficulty": "medium",
+      "category": "網際網路",
+      "question": "瀏覽器是用來做什麼的？",
+      "options": [
+        "造訪網站",
+        "混合音樂",
+        "充電裝置",
+        "繪製地圖"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_235",
+      "difficulty": "hard",
+      "category": "網際網路",
+      "question": "SEO 代表什麼？",
+      "options": [
+        "搜尋引擎優化",
+        "安全電子郵件輸出",
+        "社交編輯選項",
+        "系統輸入指令"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_236",
+      "difficulty": "hard",
+      "category": "網際網路",
+      "question": "網頁瀏覽中的 cookie 是什麼？",
+      "options": [
+        "儲存的站點數據",
+        "鍵盤快速鍵",
+        "照片濾鏡",
+        "聊天反應"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_237",
+      "difficulty": "hard",
+      "category": "網際網路",
+      "question": "HTTP 代表什麼？",
+      "options": [
+        "超文本傳輸協定",
+        "高科技文本程序",
+        "家庭傳輸工具端口",
+        "超連結追蹤頁面"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_238",
+      "difficulty": "hard",
+      "category": "網際網路",
+      "question": "VPN 代表什麼？",
+      "options": [
+        "虛擬私人網路",
+        "已驗證的公眾名稱",
+        "視覺頁碼",
+        "視訊處理節點"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_239",
+      "difficulty": "hard",
+      "category": "網際網路",
+      "question": "雙向視訊通訊俗稱什麼？",
+      "options": [
+        "視訊通話",
+        "截圖",
+        "書籤",
+        "驗證碼"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_zh-Hant_240",
+      "difficulty": "hard",
+      "category": "網際網路",
+      "question": "驗證碼主要用來檢測什麼？",
+      "options": [
+        "機器人程式",
+        "顏色",
+        "螢幕尺寸",
+        "電池電量"
       ],
       "correctIndex": 0
     }

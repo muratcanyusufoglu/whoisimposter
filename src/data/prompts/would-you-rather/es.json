@@ -1,1009 +1,1687 @@
 {
   "gameId": "would-you-rather",
   "locale": "es",
-  "version": 1,
+  "version": 2,
   "prompts": [
     {
       "id": "wyr_es_001",
+      "text": "¿Preferirías tener refrigerios ilimitados en cada reunión o elegir siempre la música?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres tener siempre la batería llena o tener Wi‑Fi gratis en todas partes?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_002",
+      "text": "¿Preferirías encontrar siempre el lugar de estacionamiento perfecto o no volver a hacer cola nunca más?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres vivir cerca de la playa o en la montaña?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_003",
+      "text": "¿Prefieres despertarte con el cabello perfecto o elegir siempre el outfit perfecto en un minuto?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres cocinar todos los días o no cocinar nunca más?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_004",
+      "text": "¿Preferirías tener café gratis para siempre o postres gratis para siempre?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres ser la persona más divertida o la más lista de la sala?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_005",
+      "text": "¿Preferirías ser increíble en el karaoke o imbatible en los juegos de mesa?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres tener un dragón o un unicornio de mascota?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_006",
+      "text": "¿Preferirías vivir al lado de la playa o en medio de tu ciudad favorita?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres leer mentes o hablar todos los idiomas?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_007",
+      "text": "¿Preferirías tener siempre un teléfono completamente cargado o tener siempre un Wi-Fi perfecto?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres no perder nunca las llaves o no perder nunca el móvil?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_008",
+      "text": "¿Preferirías no volver a perder tus llaves o no olvidar nunca por qué entraste en una habitación?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres hacer fotos o salir en las fotos?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_009",
+      "text": "¿Preferirías poder teletransportarte al trabajo o teletransportarte a casa después de cualquier evento?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres viajar en tren o hacer un road trip?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_010",
+      "text": "¿Preferiría tener un chef personal para el desayuno o un conductor personal los fines de semana?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres levantarte temprano con energía o dormir tarde sin culpa?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_011",
+      "text": "¿Prefieres ver sólo comedias durante un año o escuchar música alegre durante un año?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres café ilimitado o snacks ilimitados?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_012",
+      "text": "¿Preferirías ganar todas las noches de juego o hacer reír a todos siempre en la noche de juego?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres vivir sin música o sin películas?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_013",
+      "text": "¿Preferirías tener un pequeño apartamento con una vista increíble o una casa enorme en un lugar aburrido?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres ser buenísimo cocinando o cantando?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_014",
+      "text": "¿Preferirías ser famoso por tu cocina o por tus movimientos de baile?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres ir siempre delante o elegir siempre la música?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_015",
+      "text": "¿Prefieres saber siempre lo mejor del menú o elegir siempre la mejor película?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres un chef personal o un conductor personal?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_016",
+      "text": "¿Prefieres hacer una excursión espontánea de un día o planificar un fin de semana perfecto?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres poder pausar el tiempo o adelantarlo?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_017",
+      "text": "¿Preferirías tener un armario que se estilice solo o un refrigerador que se reabastezca solo?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres ser muy bueno en deportes o en arte?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_018",
+      "text": "¿Preferirías no volver a lavar la ropa o no volver a lavar los platos?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres ver solo comedias o solo dramas?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_019",
+      "text": "¿Preferirías conseguir siempre el último trozo de pizza o conseguir siempre el mejor asiento?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres explorar el océano o el espacio?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_020",
+      "text": "¿Preferirías tener un botón de silencio mágico para lugares ruidosos o un botón de salto para conversaciones triviales incómodas?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres una casa junto al lago o en una gran ciudad?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_021",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres un año sin redes sociales o un año sin streaming?"
+      "text": "¿Preferirías poder tomar una siesta en cualquier lugar o despertarte renovado instantáneamente cada mañana?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_022",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres mudarte solo a una ciudad nueva o quedarte en tu ciudad para siempre?"
+      "text": "¿Preferirías tener siempre un clima perfecto en tus días libres o nunca tener tráfico cuando llegas tarde?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_023",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres ir siempre 20 minutos antes o 20 minutos tarde?"
+      "text": "¿Preferirías obtener entradas gratis para conciertos para siempre o entradas gratis para el cine para siempre?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_024",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres que tu historial de búsqueda sea público o tus DMs?"
+      "text": "¿Prefieres ser excelente tomando fotografías o ser excelente en las fotografías?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_025",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres ser conocido por tu talento o por tu físico?"
+      "text": "¿Preferirías recordar siempre los nombres o recordar siempre los cumpleaños?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_026",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres perder todas tus fotos o todos tus mensajes?"
+      "text": "¿Preferirías tener una casa con una habitación secreta o un lugar de reunión en la azotea?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_027",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres ser quien escribe primero o quien nunca escribe?"
+      "text": "¿Prefieres viajar únicamente en tren o únicamente viajar por carretera?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_028",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres un círculo pequeño de amigos cercanos o muchos conocidos?"
+      "text": "¿Preferirías vivir sin ascensores o sin escaleras mecánicas?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_029",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres hacerte famoso de golpe o ganarte respeto con el tiempo?"
+      "text": "¿Preferirías tener siempre la respuesta perfecta o mantener siempre la calma bajo presión?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_030",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres no poder mentir nunca o no poder confiar en nadie?"
+      "text": "¿Preferirías ser el mejor cocinero de tu grupo de amigos o el mejor narrador?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_031",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres el trabajo de tus sueños mal pagado o un trabajo aburrido bien pagado?"
+      "text": "¿Preferirías tener un botón de rebobinado para momentos embarazosos o un botón de pausa para momentos perfectos?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_032",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres estar siempre ocupado o siempre aburrido?"
+      "text": "¿Preferirías usar solo tu color favorito para siempre o no repetir nunca un outfit?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_033",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres vivir en el pasado sin internet o en el futuro sin privacidad?"
+      "text": "¿Preferirías tener libros ilimitados o juegos ilimitados?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_034",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres ser el planificador del grupo o el espontáneo?"
+      "text": "¿Preferirías poder aprender cualquier receta al instante o cualquier canción al instante?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_035",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres que tu mayor fracaso esté en una valla o tu mayor secreto en un chat de grupo?"
+      "text": "¿Preferirías tener siempre espacio para el postre o no sentirte nunca demasiado lleno?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_036",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres ser increíble en el small talk o en conversaciones profundas?"
+      "text": "¿Preferirías ser el anfitrión de todas las fiestas o que te invitaran a todas las fiestas?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_037",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres que te digan la verdad aunque duela o que te protejan con mentiras piadosas?"
+      "text": "¿Preferirías tener una casa con una cocina gigante o una sala de juegos gigante?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_038",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres no tener que dormir nunca o necesitar siempre 12 horas de sueño?"
+      "text": "¿Preferirías usar solo notas de voz o solo emojis durante una semana?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_039",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres un botón de rebobinar un día o un botón de pausa una hora?"
+      "text": "¿Preferirías llegar temprano a todo o llegar exactamente a tiempo cada vez?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_040",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres mudarte al extranjero por amor o por trabajo?"
+      "text": "¿Preferirías tener una memoria perfecta para las caras o para las direcciones?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_041",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres salir con alguien famoso o con alguien a quien puedas contárselo todo?"
+      "text": "¿Preferirías poder pausar los comerciales o saltarte las tareas del hogar?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_042",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres una primera cita genial sin segunda o una primera cita terrible que se vuelve increíble?"
+      "text": "¿Preferirías encontrar siempre dinero en bolsillos viejos o recibir siempre descuentos sorpresa?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_043",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres ser quien ama más o quien es más amado?"
+      "text": "¿Preferirías tener el dormitorio de tus sueños o la cocina de tus sueños?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_044",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres mantener tu vida amorosa en privado o contarlo todo a tus amigos?"
+      "text": "¿Preferirías poder preparar perfectamente cualquier bebida o cualquier refrigerio?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_045",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres tener una cita a ciegas cada semana o no salir nunca más?"
+      "text": "¿Preferirías no necesitar nunca un paraguas o nunca necesitar protector solar?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_046",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres descubrir que tu pareja mintió o que tu amigo mintió?"
+      "text": "¿Preferirías tener una hora extra cada mañana o una hora extra cada noche?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_047",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres un romance de verano que termina o un amor lento que tarda años?"
+      "text": "¿Preferirías vivir encima de una panadería o al lado de un cine?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_048",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres estar soltero y admirado o en pareja y tranquilo?"
+      "text": "¿Prefieres elegir siempre el restaurante o elegir siempre la actividad?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_049",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres ser quien escribe primero o quien ignora?"
+      "text": "¿Prefieres tener una lista de reproducción personal para cada estado de ánimo o un conjunto perfecto para cada plan?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_050",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres una conexión instantánea que se apaga o un vínculo lento que dura?"
+      "text": "¿Preferirías ser el amigo con los mejores consejos o el amigo con los mejores bocadillos?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_051",
+      "text": "¿Preferirías comer solo la comida del desayuno en la cena o la comida de la cena en el desayuno?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Preferirías tener que susurrar siempre o gritar siempre?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_052",
+      "text": "¿Preferirías no tener que cargar dispositivos nunca o no tener que actualizar aplicaciones?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Preferirías no usar redes sociales nunca más o no ver TV nunca más?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_053",
+      "text": "¿Preferirías tener una escritura perfecta o habilidades perfectas para envolver regalos?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Preferirías un chef personal o un entrenador personal?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_054",
+      "text": "¿Preferirías limpiar instantáneamente tu habitación u organizar instantáneamente las fotos de tu teléfono?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Preferirías vivir junto al océano o en la montaña?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_055",
+      "text": "¿Prefieres tener siempre sábanas limpias o tener siempre toallas limpias?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Preferirías poder pausar el tiempo o rebobinar 10 minutos?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_056",
+      "text": "¿Preferirías ser imbatible en trivia o imbatible en charadas?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Preferirías un móvil con batería infinita o datos ilimitados en todas partes?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_057",
+      "text": "¿Preferirías tener un balcón con vista o una sala de estar hecha para fiestas?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Preferirías ser famoso por tu talento o por tu aspecto?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_058",
+      "text": "¿Preferirías no volver a derramar una bebida o no dejar caer tu teléfono nunca más?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Preferirías viajar gratis o comer gratis en cualquier restaurante?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_059",
+      "text": "¿Preferirías recordar siempre tus sueños o no tener nunca una pesadilla?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Preferirías llegar siempre un poco tarde o siempre muy temprano?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_060",
+      "text": "¿Preferirías tener vuelos gratis una vez al año u hoteles gratis dos veces al año?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Preferirías escuchar a un solo artista durante un año o un solo género para siempre?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_061",
+      "text": "¿Preferirías dominar un nuevo idioma de la noche a la mañana o dominar un nuevo instrumento de la noche a la mañana?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Preferirías tener memoria perfecta o poder olvidar lo que quieras?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_062",
+      "text": "¿Preferirías tener siempre la iluminación perfecta para las fotos o no parpadear nunca en las fotos?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Preferirías ser increíble cocinando o hablando en público?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_063",
+      "text": "¿Preferirías tener un día libre sorpresa cada mes o unas vacaciones sorpresa cada año?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Preferirías vivir sin café o sin postres?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_064",
+      "text": "¿Prefieres sólo texto en minúsculas o sólo texto con puntuación perfecta?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Preferirías subir escaleras para siempre o no volver a correr?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_065",
+      "text": "¿Preferirías pasar un fin de semana en una acogedora cabaña o un fin de semana ajetreado en la ciudad?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Preferirías una casa pequeña con gran jardín o una casa grande sin jardín?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_066",
+      "text": "¿Preferirías ser conocido por tu estilo o por tu sentido del humor?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Preferirías no quedarte nunca en atascos o no hacer nunca cola?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_067",
+      "text": "¿Preferirías elegir siempre la fila de caja más rápida o tomar siempre el ascensor de inmediato?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Preferirías clima perfecto siempre o sueño perfecto siempre?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_068",
+      "text": "¿Preferirías nunca quedarte sin almacenamiento en tu teléfono o nunca quedarte sin batería?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Preferirías ser el más inteligente de la sala o el más divertido?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_069",
+      "text": "¿Preferirías poder decorar cualquier habitación a la perfección o empacar cualquier maleta a la perfección?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Preferirías perder el móvil o la cartera?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_070",
+      "text": "¿Preferirías beber sólo agua para siempre o beber sólo una bebida favorita para siempre?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Preferirías leer mentes o ver el futuro?"
+      "minAge": 4
     },
     {
       "id": "wyr_es_071",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Preferirías un botón de rebobinar tu día o de avanzar rápido?"
+      "text": "¿Preferirías tener siempre un sueño perfecto o despertarte siempre de buen humor?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_072",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Preferirías organizar una gran fiesta o planear un viaje tranquilo?"
+      "text": "¿Preferirías ser la persona a la que todos piden recomendaciones o la persona a la que todos piden que planifique viajes?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_073",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Preferirías vuelos gratis o hoteles gratis?"
+      "text": "¿Preferirías tener un pronóstico meteorológico personal que siempre sea correcto o un calendario que se planifique solo?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_074",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Preferirías un año libre pagado o el ascenso que deseas?"
+      "text": "¿Preferirías no tener que limpiar nunca el baño o no tener que limpiar nunca la cocina?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_075",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Preferirías cantar precioso o tocar cualquier instrumento?"
+      "text": "¿Preferirías ser excelente horneando o asando a la parrilla?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_076",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Preferirías acertar siempre la primera impresión o tener siempre segundas oportunidades?"
+      "text": "¿Preferirías tener asientos en primera fila una vez al año o refrigerios VIP cada vez?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_077",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Preferirías ser buenísimo en fotos o en vídeos?"
+      "text": "¿Preferirías encontrar siempre el mejor café escondido o encontrar siempre el mejor mirador?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_078",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Preferirías tener siempre snacks o siempre café?"
+      "text": "¿Preferirías tener una semana de outfits perfectos o una semana de comidas perfectas?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_079",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Preferirías hacer 10 minutos de ejercicio diarios o uno largo a la semana?"
+      "text": "¿Preferirías ganar un suministro de zapatos de por vida o un suministro de auriculares de por vida?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_080",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Preferirías hablar todos los idiomas o entender a los animales?"
+      "text": "¿Prefieres saber siempre la letra o saber siempre el baile?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_081",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Preferirías hacer muchas fotos o vivir el momento a tope?"
+      "text": "¿Preferirías poder solucionar cualquier problema técnico o montar cualquier mueble sin instrucciones?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_082",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Preferirías no tener que limpiar nunca o no tener que cocinar nunca?"
+      "text": "¿Preferirías tener una mochila mágica que nunca sea pesada o una maleta que se haga sola?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_083",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Preferirías un mejor amigo garantizado o un alma gemela garantizada?"
+      "text": "¿Preferirías tener siempre un buen cabello o tener siempre la piel clara?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_084",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Preferirías vivir en tu ciudad soñada o cerca de tu familia?"
+      "text": "¿Prefieres hacerte los mejores selfies grupales o hacer los mejores planes grupales?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_085",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Preferirías ganar siempre en los juegos o ser bueno aprendiendo cosas nuevas?"
+      "text": "¿Preferirías poder saltarte una tarea aburrida al día o recibir una sorpresa divertida al día?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_086",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Preferirías no perder nunca un plazo o no sentir nunca estrés?"
+      "text": "¿Preferirías vivir en un lugar con un verano interminable o un clima acogedor e interminable?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_087",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Preferirías ser quien planifica o quien se deja llevar?"
+      "text": "¿Preferirías nunca tener anuncios en línea o no recibir nunca mensajes de spam?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_088",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Preferirías un armario minimalista o ropa ilimitada?"
+      "text": "¿Preferirías elegir siempre un buen nombre de usuario o escribir siempre un buen título?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_089",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Preferirías vivir sin música o sin películas?"
+      "text": "¿Prefieres ser el mejor envolviendo regalos o el mejor escogiendo regalos?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_090",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Preferirías comer solo dulce o solo salado?"
+      "text": "¿Preferirías tener noches de cine ilimitadas en casa o brunch ilimitados?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_091",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Preferirías una romance corto e intenso o un amor lento y estable?"
+      "text": "¿Preferirías tener un pequeño jardín privado o una enorme azotea compartida?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_092",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Preferirías enviar el primer mensaje o hacer la primera llamada?"
+      "text": "¿Preferirías usar siempre una cuchara pequeña o beber siempre de una taza pequeña?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_093",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Preferirías que tu pareja sea tu mejor amigo o tu mayor fan?"
+      "text": "¿Preferirías poder hacer que cualquier habitación sea acogedora o que cualquier lista de reproducción sea perfecta?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_094",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Preferirías una cita sin móviles o sin hablar?"
+      "text": "¿Prefieres tener siempre el cargador adecuado o tener siempre la contraseña correcta?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_095",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Preferirías compartir una playlist o compartir un calendario?"
+      "text": "¿Preferirías nunca olvidar una contraseña o nunca olvidar dónde estacionaste?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_096",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Preferirías saber siempre lo que alguien siente o lo que quiere?"
+      "text": "¿Preferirías tener un armario perfectamente organizado o un carrete de cámara perfectamente organizado?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_097",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Preferirías que te recuerden por tu bondad o por tu ambición?"
+      "text": "¿Preferirías ser el primero en probar una tendencia o el último en aburrirte de ella?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_098",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Preferirías trabajar desde casa para siempre o trabajar al aire libre para siempre?"
+      "text": "¿Preferirías tener siempre una mesa disponible en los restaurantes o recibir siempre postre gratis?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_099",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Preferirías vivir sin espejos o sin fotos?"
+      "text": "¿Preferirías tener una canción exagerada personal o una luz de entrada personal?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_100",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Preferirías ser súper espontáneo o súper planificado?"
+      "text": "¿Preferirías ser genial con las primeras impresiones o genial con los abrazos de despedida?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_es_101",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres salir con alguien famoso o con alguien a quien puedas contarle todo?"
+      "text": "¿Preferirías ser respetado por todos o profundamente comprendido por unas pocas personas?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_102",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres una primera cita genial y ninguna segunda o una primera cita fatal que luego se vuelve increíble?"
+      "text": "¿Preferirías saber cuándo alguien miente o que siempre te crean cuando dices la verdad?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_103",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres ser quien quiere más o quien es más querido?"
+      "text": "¿Preferirías tener el trabajo de tus sueños con un salario bajo o un trabajo aburrido con un salario increíble?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_104",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres mantener tu vida de citas en privado o contarlo todo a tus amigos?"
+      "text": "¿Preferirías mudarte solo al extranjero o quedarte en tu ciudad natal para siempre?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_105",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres tener una cita a ciegas cada semana o no volver a salir con nadie?"
+      "text": "¿Preferirías ser la persona más inteligente de la sala o la persona en la que todos confían más?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_106",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres enterarte de que tu pareja mintió o de que tu amigo mintió?"
+      "text": "¿Preferirías saber siempre la verdad o saber siempre lo correcto que decir?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_107",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres un beso robado en público o un abrazo largo en privado?"
+      "text": "¿Preferirías tener un pequeño grupo de amigos leales o una enorme red de amigos casuales?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_108",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres salir con alguien muy reservado o con alguien muy intenso y expresivo?"
+      "text": "¿Preferirías ser recordado por tu bondad o por tu ambición?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_109",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres ser quien escribe primero o quien deja en visto?"
+      "text": "¿Preferirías tener éxito temprano y agotarte o triunfar lentamente y disfrutar el proceso?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_110",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres una relación a distancia muy apasionada o una relación cercana pero más tranquila?"
+      "text": "¿Preferirías olvidar cada error o recordar cada buena acción?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_111",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres tener que susurrar siempre o tener que gritar siempre?"
+      "text": "¿Preferirías revivir un día perfecto o borrar un día terrible?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_112",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres tener que llevar auriculares siempre o no poder usarlos nunca?"
+      "text": "¿Preferirías poder perdonar al instante o no dejarte engañar dos veces?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_113",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres un chef personal o un entrenador personal?"
+      "text": "¿Preferirías tener más confianza o más disciplina?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_114",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres vivir junto al mar o en la montaña?"
+      "text": "¿Prefieres saber qué piensa la gente primero de ti o qué dicen después de que te vas?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_115",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres poder pausar el tiempo o rebobinar 10 minutos?"
+      "text": "¿Preferirías ser amado por lo que eres ahora o admirado por lo que podrías llegar a ser?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_116",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres un móvil con batería infinita o datos ilimitados en todas partes?"
+      "text": "¿Preferirías estar siempre ocupado con las cosas que amas o tener siempre tiempo libre pero aburrirte?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_117",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres ser famoso por tu talento o por tu físico?"
+      "text": "¿Preferirías tener una gran oportunidad y arriesgarlo todo o muchas pequeñas oportunidades con un progreso lento?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_118",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres viajar gratis o comer gratis en cualquier restaurante?"
+      "text": "¿Preferirías ser famoso durante cinco años o respetado toda la vida?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_119",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres llegar siempre un poco tarde o siempre muy temprano?"
+      "text": "¿Preferirías perder todas tus fotos o todos tus mensajes?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_120",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres escuchar solo a un artista durante un año o un solo género para siempre?"
+      "text": "¿Preferirías tener público tu historial de búsqueda o el carrete de tu cámara?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_121",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres una memoria perfecta o poder olvidar lo que quieras?"
+      "text": "¿Prefieres decir siempre lo que piensas o mantener siempre la paz?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_122",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres ser increíble cocinando o increíble hablando en público?"
+      "text": "¿Preferirías tener un amigo que sea brutalmente honesto o uno que te apoye infinitamente?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_123",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres vivir sin café o sin postres?"
+      "text": "¿Preferirías ser el planificador de cada grupo o la persona que nunca tiene que planificar?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_124",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres subir escaleras para siempre o no volver a correr?"
+      "text": "¿Preferirías ser increíble en conversaciones profundas o increíble en hacer que la gente se sienta cómoda?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_125",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres una casa pequeña con jardín grande o una casa grande sin jardín?"
+      "text": "¿Preferirías saber exactamente hacia dónde va tu vida o sorprenderte?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_126",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres no quedarte nunca atascado en tráfico o no hacer nunca cola?"
+      "text": "¿Preferirías dejar las redes sociales por un año o el streaming por un año?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_127",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres tener siempre el clima perfecto o dormir siempre perfecto?"
+      "text": "¿Preferirías tener un año libre con sueldo o un ascenso que realmente deseas?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_128",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres ser el más inteligente de la sala o el más gracioso?"
+      "text": "¿Preferirías que siempre te subestimen o que te sobreestimen siempre?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_129",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres perder el móvil o perder la cartera?"
+      "text": "¿Preferirías que todos conocieran tu mayor objetivo o tu mayor temor?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_130",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "¿Prefieres teletransportarte una vez al día o volar diez minutos al día?"
+      "text": "¿Preferirías poder reiniciar tu carrera o reiniciar una amistad?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_131",
+      "text": "¿Preferirías ser la persona a la que la gente llama en una crisis o la persona a la que llaman para celebrar?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres un botón de rebobinar tu día o uno de avanzar rápido?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_132",
+      "text": "¿Preferirías nunca sentirte avergonzado o nunca sentir celos?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres organizar una gran fiesta o planear un viaje tranquilo?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_133",
+      "text": "¿Preferirías poder borrar un recuerdo o reproducir un recuerdo cuando quieras?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres vuelos gratis o hoteles gratis?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_134",
+      "text": "¿Preferirías saber el final de cada película o el resultado de cada decisión?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres un año libre pagado o el ascenso que realmente quieres?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_135",
+      "text": "¿Preferirías tener una reputación perfecta con los extraños o una verdadera honestidad con los amigos?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres cantar precioso o tocar cualquier instrumento?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_136",
+      "text": "¿Preferirías ganar siempre las discusiones o dejarlas siempre sintiéndote pacífico?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres acertar siempre en las primeras impresiones o tener siempre segundas oportunidades?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_137",
+      "text": "¿Preferirías ser excelente para ganar dinero o excelente para administrarlo?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres ser buenísimo en fotos o buenísimo en videos?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_138",
+      "text": "¿Preferirías que alguien sabio planificara tu futuro o elegirlo todo tú mismo sin ningún consejo?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres tener siempre snacks o siempre café?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_139",
+      "text": "¿Preferirías ser la persona más divertida de tu grupo o la persona más tranquila en una crisis?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres entrenamientos de 10 minutos cada día o uno largo a la semana?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_140",
+      "text": "¿Preferirías tener un sueño hecho realidad ahora o cinco sueños más pequeños con el tiempo?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres poder hablar todos los idiomas o entender a los animales?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_141",
+      "text": "¿Preferirías poder leer completamente a una persona o comprender perfectamente a las multitudes?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres sacar muchas fotos o vivir totalmente el momento?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_142",
+      "text": "¿Preferirías cerrar cada final o tener una segunda oportunidad para un final?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres no tener que limpiar nunca o no tener que cocinar nunca?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_143",
+      "text": "¿Preferirías ser conocido como misterioso o completamente transparente?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres un mejor amigo garantizado o un alma gemela garantizada?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_144",
+      "text": "¿Preferirías tener un trabajo que impresione a la gente o una vida que te haga sentir tranquila?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres vivir en tu ciudad soñada o quedarte cerca de la familia?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_145",
+      "text": "¿Preferirías ser leal hasta el extremo o independiente hasta el extremo?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres ganar siempre en juegos o ser bueno siempre en habilidades nuevas?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_146",
+      "text": "¿Preferirías tener siempre el coraje de empezar o la paciencia para terminar?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres no perder nunca un plazo o no sentir estrés nunca?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_147",
+      "text": "¿Preferirías poder disculparte perfectamente o confrontar a alguien sin miedo?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres ser quien planea o quien improvisa?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_148",
+      "text": "¿Preferirías tener tu mayor fracaso en línea para siempre o tu mayor secreto en un chat grupal?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres un armario minimalista o ropa ilimitada?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_149",
+      "text": "¿Preferirías vivir en el pasado con más privacidad o en el futuro con más comodidad?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres renunciar a la música o renunciar a las películas?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_150",
+      "text": "¿Preferirías ser siempre el responsable o nunca confiarte la responsabilidad?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres comer solo dulce o solo salado?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_151",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres un romance corto e intenso o un amor lento y estable?"
+      "text": "¿Preferirías poder cambiar una decisión que tomaste o ver una decisión que casi tomaste?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_152",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres ser el primero en escribir o el primero en llamar?"
+      "text": "¿Preferirías perder tu zona de confort o perder tu ambición?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_153",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres que tu pareja sea tu mejor amigo o tu mayor fan?"
+      "text": "¿Prefieres ser admirado desde lejos o amado de cerca?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_154",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres una cita sin móviles o una cita sin hablar?"
+      "text": "¿Preferirías nunca compararte con los demás o no preocuparte nunca por lo que piensen los demás?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_155",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres compartir una playlist o compartir un calendario?"
+      "text": "¿Preferirías recibir una advertencia antes de cada mala decisión o una recompensa después de cada decisión valiente?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_156",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres saber siempre lo que alguien siente o saber siempre lo que quiere?"
+      "text": "¿Preferirías poder hacer reír a alguien o hacer que alguien se sienta seguro?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_157",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres que te recuerden por tu bondad o por tu ambición?"
+      "text": "¿Preferirías tener una memoria perfecta o una capacidad perfecta para seguir adelante?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_158",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres trabajar desde casa para siempre o trabajar al aire libre para siempre?"
+      "text": "¿Preferirías pasar un año desarrollando tu cuerpo o tu mente?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_159",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres vivir sin espejos o sin fotos?"
+      "text": "¿Preferirías ser el personaje principal de una historia tranquila o un personaje secundario en una épica?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_160",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "¿Prefieres ser súper espontáneo o meticulosamente planeado?"
+      "text": "¿Preferirías saber por qué alguien se fue o nunca saberlo y sanar más rápido?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_es_161",
+      "text": "¿Preferirías ser siempre honesto acerca de tus sentimientos o proteger siempre los sentimientos de otras personas?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Preferirías perder todos tus memes guardados o todas tus playlists?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_162",
+      "text": "¿Preferirías tener una motivación ilimitada o una paciencia ilimitada?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Preferirías que cada error de tipeo se publique o que cada borrador se envíe solo?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_163",
+      "text": "¿Preferiría poder detectar señales de alerta al instante o ver el potencial oculto al instante?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Preferirías hacerte viral bailando o cayéndote?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_164",
+      "text": "¿Preferirías poder arreglar una relación pasada o evitar un error futuro?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Preferirías comunicarte solo con GIFs o solo con audios?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_165",
+      "text": "¿Preferirías elegir siempre la comodidad o elegir siempre el crecimiento?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Batería infinita o Wi-Fi perfecto para siempre?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_166",
+      "text": "¿Preferirías estar rodeado de personas que te desafíen o de personas que te consuelen?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres organizar todas las fiestas o limpiar después de todas?"
+      "minAge": 13
     },
     {
       "id": "wyr_es_167",
+      "text": "¿Preferirías tener la rutina diaria perfecta o la aventura perfecta única en la vida?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "¿Prefieres explicar siempre las reglas o que siempre te acusen de hacer trampa?"
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_168",
+      "text": "¿Preferirías ser secretamente talentoso o públicamente promedio?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_169",
+      "text": "¿Preferirías no necesitar nunca aprobación o recibir siempre aliento?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_170",
+      "text": "¿Preferirías tener un amigo que recuerde cada detalle o uno que aparezca siempre?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_171",
+      "text": "¿Preferirías poder dejar cualquier hábito al instante o desarrollar cualquier hábito al instante?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_172",
+      "text": "¿Preferirías que tu yo más joven vea tu vida ahora o que tu yo futuro te devuelva una frase?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_173",
+      "text": "¿Preferirías ser la persona que cambia un grupo o la persona que un grupo cambia para mejor?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_174",
+      "text": "¿Preferiría saber siempre el coste de una elección o saber siempre el beneficio?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_175",
+      "text": "¿Preferirías ser valiente por un año o sabio por el resto de tu vida?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_176",
+      "text": "¿Preferirías tener una vida que parezca emocionante en línea o que parezca emocionante fuera de línea?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_177",
+      "text": "¿Preferirías poder dejar de pensar demasiado o dejar de procrastinar?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_178",
+      "text": "¿Preferirías ser conocido por una obra maestra o por muchos esfuerzos sólidos?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_179",
+      "text": "¿Preferirías tener todas las puertas abiertas pero ninguna dirección clara o un camino claro sin alternativas?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_180",
+      "text": "¿Preferirías ser siempre el primero en perdonar o el primero en alejarte?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_181",
+      "text": "¿Preferirías tener un mentor para cada problema o un amigo para cada día difícil?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_182",
+      "text": "¿Preferiría poder predecir su estado de ánimo mañana o comprender su estado de ánimo hoy?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_183",
+      "text": "¿Preferirías hacerte rico en silencio o ser influyente públicamente?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_184",
+      "text": "¿Preferirías nunca sentirte solo o nunca sentirte incomprendido?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_185",
+      "text": "¿Preferirías poder conquistar a la gente al instante o saber quién merece tu tiempo al instante?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_186",
+      "text": "¿Preferirías ser conocido por correr riesgos o por tomar decisiones acertadas?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_187",
+      "text": "¿Preferirías tener siempre un plan de respaldo o no necesitar nunca uno?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_188",
+      "text": "¿Preferirías perder un mal hábito o adquirir una habilidad impresionante?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_189",
+      "text": "¿Preferirías tener una vida tranquila con pocas sorpresas o una vida caótica con historias inolvidables?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_190",
+      "text": "¿Preferirías saber cuál es el mejor momento de tu vida antes de que suceda o sólo reconocerlo después?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_191",
+      "text": "¿Preferirías ser excelente iniciando conversaciones o finalizándolas con elegancia?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_192",
+      "text": "¿Preferirías ser siempre la persona que da consejos o la persona lo suficientemente valiente para seguirlos?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_193",
+      "text": "¿Preferirías tener la casa de tus sueños lejos de todos o una casa sencilla cerca de tus personas favoritas?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_194",
+      "text": "¿Preferirías poder hacer las paces con alguien o empezar de nuevo en cualquier lugar?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_195",
+      "text": "¿Preferirías ser el amigo con el que todos se confiesan o el amigo con el que todos salen de fiesta?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_196",
+      "text": "¿Preferirías tener un mes de total libertad o un año de progreso constante?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_197",
+      "text": "¿Preferirías ser recordado por un movimiento audaz o por toda una vida de lealtad silenciosa?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_198",
+      "text": "¿Preferiría saber la verdad sobre su reputación o mantener intacta su confianza?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_199",
+      "text": "¿Preferirías poder decir que no sin sentirte culpable o pedir ayuda sin sentirte avergonzado?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_200",
+      "text": "¿Preferirías tener una sincronización perfecta o instintos perfectos?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_es_201",
+      "text": "¿Prefieres que tus amigos revisen tu perfil de app de citas o que alguien de confianza lea tus DMs en voz alta?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_202",
+      "text": "¿Preferirías tener una primera cita perfecta sin química o una primera cita desordenada con chispas obvias?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_203",
+      "text": "¿Preferirías saber siempre cuándo alguien está coqueteando o no coquetear nunca accidentalmente?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_204",
+      "text": "¿Preferirías salir con alguien que todos aman pero de quien no estás seguro o alguien de quien todos dudan pero de quien estás seguro?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_205",
+      "text": "¿Prefieres que te engañen después de una cita increíble o que te desanimen lentamente durante un mes?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_206",
+      "text": "¿Preferirías confesar a la persona que te gusta en persona o que tu chat grupal lo revele accidentalmente?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_207",
+      "text": "¿Preferirías que tu ex te vea increíble o que realmente no te importe si lo hace?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_208",
+      "text": "¿Preferirías recibir un mensaje de texto arriesgado a altas horas de la noche o enviar uno y arrepentirte al instante?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_209",
+      "text": "¿Preferirías tener una pareja que sea tremendamente honesta o una que evite toda conversación difícil?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_210",
+      "text": "¿Preferirías salir con alguien con bromas perfectas o madurez emocional perfecta?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_211",
+      "text": "¿Preferirías que te pillen acechando el perfil de alguien o que te guste accidentalmente una publicación muy antigua?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_212",
+      "text": "¿Preferirías tener un romance de verano inolvidable o una historia de amor lenta?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_213",
+      "text": "¿Preferirías conocer a todas las personas que alguna vez le han gustado a tu pareja o no saber nada y permanecer en paz?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_214",
+      "text": "¿Preferirías ser el celoso o el que pone celosas a las personas sin proponérselo?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_215",
+      "text": "¿Preferirías tener una química increíble con un mal momento o un momento perfecto con una química suave?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_216",
+      "text": "¿Preferirías ser el primero en decir “te amo” o esperar hasta estar completamente seguro?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_217",
+      "text": "¿Preferirías tener una cita sin teléfonos o una cita sin conversaciones triviales?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_218",
+      "text": "¿Preferirías exponer tu mayor señal de alerta o descubrir que todo el mundo ya lo sabe?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_219",
+      "text": "¿Preferirías ser el amor secreto de alguien o la obsesión pública de alguien?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_220",
+      "text": "¿Preferirías tener una historia dramática de ruptura o ninguna historia de ruptura porque nada se puso serio?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_221",
+      "text": "¿Preferirías salir con alguien que publica todo o con alguien que no publica nada en absoluto?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_222",
+      "text": "¿Preferirías estar con alguien tremendamente espontáneo o alguien profundamente coherente?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_223",
+      "text": "¿Prefieres compartir contraseñas o ubicaciones?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_224",
+      "text": "¿Preferirías recibir una carta de amor de la persona equivocada o un mensaje de texto de una sola palabra de la persona adecuada?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_225",
+      "text": "¿Preferirías que la persona que te gusta escuche tu peor nota de voz o vea tu peor selfie?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_226",
+      "text": "¿Preferirías ser excelente coqueteando en persona o enviando mensajes de texto?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_227",
+      "text": "¿Preferirías saber siempre si le gustas a una cita o saber siempre si te están haciendo perder el tiempo?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_228",
+      "text": "¿Preferirías tener una relación con intensa pasión y caos o un amor tranquilo con menos fuegos artificiales?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_229",
+      "text": "¿Preferirías ser el que más se preocupa o el que lo admite primero?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_230",
+      "text": "¿Preferirías descubrir que a un amigo le gusta la persona que te gusta o que a la persona que te gusta le gusta tu amigo?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_231",
+      "text": "¿Preferirías salir con alguien que sea del tipo de todos o con alguien que sólo tú entiendas?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_232",
+      "text": "¿Preferirías que tu situación defina la relación o desaparezca para siempre?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_233",
+      "text": "¿Preferirías obtener un cierre de un ex o una disculpa de alguien con quien nunca saliste?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_234",
+      "text": "¿Preferirías tener un beso perfecto sin futuro o un comienzo torpe que se convierta en amor verdadero?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_235",
+      "text": "¿Preferirías poder ver las banderas verdes de alguien al instante o sus banderas rojas al instante?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_236",
+      "text": "¿Preferirías coquetear con confianza y fracasar o actuar con calma y perder la oportunidad?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_237",
+      "text": "¿Preferirías que tus amigos filmaran cada primera cita o revisaran cada ruptura?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_238",
+      "text": "¿Preferirías salir con alguien que recuerde cada detalle o alguien que te sorprenda constantemente?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_239",
+      "text": "¿Preferirías volver con tu ex durante una semana o tener cinco citas a ciegas seguidas?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_240",
+      "text": "¿Preferirías que tus amigos elijan tu próxima fecha o que tu historial de búsqueda la elija?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_241",
+      "text": "¿Preferirías que te amen en voz alta en público o en privado de una manera que sólo tú te des cuenta?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_242",
+      "text": "¿Preferirías ser siempre el rompecorazones o ser siempre el romántico empedernido?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_243",
+      "text": "¿Preferirías tener una pareja demasiado pegajosa o demasiado misteriosa?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_244",
+      "text": "¿Preferirías descubrir que alguien escribió una canción sobre ti o una larga perorata sobre ti en una aplicación de notas?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_245",
+      "text": "¿Preferirías recibir un mensaje de texto que diga \"tenemos que hablar\" o enviar uno accidentalmente a la persona equivocada?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_246",
+      "text": "¿Preferirías salir con alguien que planifica cada detalle o alguien que improvisa todo?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_247",
+      "text": "¿Preferirías tener una química innegable con tu opuesto o una química cómoda con alguien como tú?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_248",
+      "text": "¿Preferirías que te pillen ensayando una confesión o practicando un discurso de ruptura?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_249",
+      "text": "¿Preferirías que la persona que te gusta de repente te envíe un mensaje de texto o que la persona que te gusta actualmente deje de seguirte de repente?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_250",
+      "text": "¿Preferirías caer siempre demasiado rápido o darte cuenta de tus sentimientos siempre demasiado tarde?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_251",
+      "text": "¿Preferirías ser la persona por la que alguien cambia o la persona que alguien no puede superar?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_252",
+      "text": "¿Preferirías tener un compañero que sea asombroso con las palabras o asombroso con las acciones?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_253",
+      "text": "¿Preferirías salir con alguien que te haga reír constantemente o con alguien que te haga sentir completamente tranquilo?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_254",
+      "text": "¿Preferirías saber si la persona que te gusta sueña contigo o saber si habla de ti?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_255",
+      "text": "¿Prefieres enviar el primer mensaje o dar el primer paso en persona?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_256",
+      "text": "¿Preferirías tener una relación secreta durante tres meses o una relación pública que todos comenten?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_257",
+      "text": "¿Preferirías que tus amigos calificaran tu estilo de coqueteo o la persona que te gusta califica tu estilo de mensajes de texto?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_258",
+      "text": "¿Prefieres ser el rebote que se vuelve serio o el que nunca olvidan?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_259",
+      "text": "¿Preferirías salir con alguien con tu mismo humor o tu misma ambición?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_260",
+      "text": "¿Preferirías estar enamorado de alguien que no está disponible o que alguien que no está disponible está enamorado de ti?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_261",
+      "text": "¿Preferirías recibir una confesión borracha o un mensaje sobrio que te llevó una semana escribir?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_262",
+      "text": "¿Preferirías que cada cita terminara con una conversación profunda o con una historia ridícula?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_263",
+      "text": "¿Preferirías estar con alguien que te desafíe o alguien que te adore?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_264",
+      "text": "¿Prefieres guardar un poco de misterio o saberlo todo de inmediato?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_265",
+      "text": "¿Preferirías tener una pareja que sea la mejor amiga de tus amigos o una que mantenga vuestro mundo separado?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_266",
+      "text": "¿Preferirías salir con alguien que nunca se pone celoso o con alguien que lo admite honestamente?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_267",
+      "text": "¿Preferirías tener un momento de contacto visual intenso o un toque con la mano en el momento perfecto?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_268",
+      "text": "¿Preferirías que te pillen guardando ideas de boda demasiado pronto o eliminando una aplicación de citas demasiado tarde?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_269",
+      "text": "¿Preferirías tener una amistad coqueta que nunca crezca o una relación que comience con un coqueteo incómodo?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_270",
+      "text": "¿Preferirías poder deshacer un mensaje enviado o anular una frase en persona?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_271",
+      "text": "¿Preferirías que tu mejor amigo apruebe a la persona que te gusta o que la persona que te gusta apruebe a tu mejor amigo?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_272",
+      "text": "¿Preferirías salir con alguien a quien le encanta llamar la atención o con alguien que la evita por completo?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_273",
+      "text": "¿Preferirías ser la razón por la que alguien le sonríe a su teléfono o la razón por la que no puede concentrarse en todo el día?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_274",
+      "text": "¿Preferirías tener una cena romántica con un silencio incómodo o una noche caótica con una energía increíble?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_275",
+      "text": "¿Preferirías que te invitaran a salir con un gran gesto o con una simple frase honesta?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_276",
+      "text": "¿Preferirías tener una relación que todos envidian o una que nadie más que tú entiende?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_277",
+      "text": "¿Preferirías no saber nunca quién está enamorado de ti o saberlo y no poder hacer nada al respecto?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_278",
+      "text": "¿Preferirías enviarle una nota de voz a la persona que te gusta o dejarle un mensaje de voz a tu ex?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_279",
+      "text": "¿Preferirías que tu pareja lea tu mente por un día o lea tu aplicación de notas por un minuto?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_es_280",
+      "text": "¿Preferirías ser la elección segura de alguien o su elección arriesgada?",
+      "intensity": "spicy",
+      "minAge": 18
     }
   ]
 }

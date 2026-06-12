@@ -1,0 +1,1232 @@
+{
+  "gameId": "truth-dare",
+  "locale": "hi",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "td_hi_001",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "आपके बचपन की सबसे शर्मनाक स्मृति क्या है?"
+    },
+    {
+      "id": "td_hi_002",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "आपने जो आखिरी झूठ बोला था वह क्या है?"
+    },
+    {
+      "id": "td_hi_003",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "आपका सबसे बड़ा पालतू जानवर कौन सा है?"
+    },
+    {
+      "id": "td_hi_004",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "आप कौन सी आदत छोड़ना चाहते हैं?"
+    },
+    {
+      "id": "td_hi_005",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "क्या आपने कभी अपने किसी काम के लिए किसी और को दोषी ठहराया है?"
+    },
+    {
+      "id": "td_hi_006",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "आपके पास ऐसी कौन सी प्रतिभा है जिसके बारे में कोई नहीं जानता?"
+    },
+    {
+      "id": "td_hi_007",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "सबसे बचकानी बात क्या है जो आप अब भी करते हैं?"
+    },
+    {
+      "id": "td_hi_008",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "आप किस भोजन से गुप्त रूप से नफरत करते हैं लेकिन पसंद करने का दिखावा करते हैं?"
+    },
+    {
+      "id": "td_hi_009",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "क्या आप कभी शीशे के दरवाज़े से गुज़रे हैं?"
+    },
+    {
+      "id": "td_hi_010",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "आपका सबसे ज्यादा इस्तेमाल किया जाने वाला इमोजी कौन सा है?"
+    },
+    {
+      "id": "td_hi_011",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "आपका दोषी आनंद देने वाला टीवी शो कौन सा है?"
+    },
+    {
+      "id": "td_hi_012",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "क्या आपने कभी कोई उपहार दोबारा दिया है?"
+    },
+    {
+      "id": "td_hi_013",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "आपकी प्लेलिस्ट में सबसे शर्मनाक गाना कौन सा है?"
+    },
+    {
+      "id": "td_hi_014",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "क्या आपने कभी योजनाओं से बाहर निकलने के लिए बीमार होने का नाटक किया है?"
+    },
+    {
+      "id": "td_hi_015",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "आपने हाल ही में कौन सा सबसे अजीब सपना देखा है?"
+    },
+    {
+      "id": "td_hi_016",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "आपको अब तक मिला सबसे खराब उपहार क्या है?"
+    },
+    {
+      "id": "td_hi_017",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "क्या आप शॉवर में गाते हैं? कौन से गाने?"
+    },
+    {
+      "id": "td_hi_018",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "क्या आप कभी काम पर या स्कूल में सोये हैं?"
+    },
+    {
+      "id": "td_hi_019",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "आपने जो सबसे हास्यास्पद चीज़ खरीदी है वह क्या है?"
+    },
+    {
+      "id": "td_hi_020",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ऐसी कौन सी चीज़ है जिसमें आप बहुत डरे हुए हैं लेकिन कोशिश करते रहते हैं?"
+    },
+    {
+      "id": "td_hi_021",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "आपने अपने माता-पिता से सबसे बड़ा रहस्य क्या छुपाया है?"
+    },
+    {
+      "id": "td_hi_022",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "आपका पहला क्रश कौन था और क्या वे जानते हैं?"
+    },
+    {
+      "id": "td_hi_023",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "आपके साथ सार्वजनिक रूप से घटी सबसे शर्मनाक बात क्या है?"
+    },
+    {
+      "id": "td_hi_024",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "क्या आपने कभी किसी पर भूत-प्रेत डाला है? कौन?"
+    },
+    {
+      "id": "td_hi_025",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "बदला लेने के लिए आपने अब तक का सबसे तुच्छ कार्य क्या किया है?"
+    },
+    {
+      "id": "td_hi_026",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "आपका सबसे अतार्किक डर क्या है?"
+    },
+    {
+      "id": "td_hi_027",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "क्या आपने कभी किसी के सोशल मीडिया पर घंटों नज़र रखी है?"
+    },
+    {
+      "id": "td_hi_028",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "वह कौन सी सबसे महंगी चीज़ है जिसे आपने तोड़ दिया और स्वीकार नहीं किया?"
+    },
+    {
+      "id": "td_hi_029",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "क्या आपने कभी किसी से कुछ पाने के लिए उसे पसंद करने का नाटक किया है?"
+    },
+    {
+      "id": "td_hi_030",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "आपका सबसे कठिन चरण या युग कौन सा है जिससे आप गुजरे हैं?"
+    },
+    {
+      "id": "td_hi_031",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "आप आखिरी बार कब रोये थे और क्यों?"
+    },
+    {
+      "id": "td_hi_032",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "आप स्वयं से क्या झूठ बोलते हैं?"
+    },
+    {
+      "id": "td_hi_033",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "क्या आपने कभी खेल में धोखा दिया है?"
+    },
+    {
+      "id": "td_hi_034",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "आपकी अब तक की सबसे खराब डेट कौन सी है?"
+    },
+    {
+      "id": "td_hi_035",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "क्या आपने कभी गलत व्यक्ति को संदेश भेजा है?"
+    },
+    {
+      "id": "td_hi_036",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "आपका सबसे शर्मनाक स्वत: सुधार क्षण कौन सा है?"
+    },
+    {
+      "id": "td_hi_037",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "हाल ही में आप किस सबसे अजीब स्थिति में रहे हैं?"
+    },
+    {
+      "id": "td_hi_038",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "क्या आपने कभी कहा है कि आप कहीं ऐसे थे जहां आप नहीं थे?"
+    },
+    {
+      "id": "td_hi_039",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "आपने हिम्मत करके अब तक का सबसे बुरा काम क्या किया है?"
+    },
+    {
+      "id": "td_hi_040",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "आपकी ऐसी कौन सी राय है जिससे अधिकांश लोग असहमत होंगे?"
+    },
+    {
+      "id": "td_hi_041",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "आपने कौन सा सबसे निंदनीय कार्य किया है जिसके बारे में कोई नहीं जानता?"
+    },
+    {
+      "id": "td_hi_042",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "क्या आप कभी इस कमरे में किसी के प्रति आकर्षित हुए हैं?"
+    },
+    {
+      "id": "td_hi_043",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "किसी क्रश के लिए आपने अब तक का सबसे साहसी कार्य क्या किया है?"
+    },
+    {
+      "id": "td_hi_044",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "आपके द्वारा गलत व्यक्ति को भेजा गया सबसे शर्मनाक संदेश कौन सा है?"
+    },
+    {
+      "id": "td_hi_045",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "क्या आपने कभी किसी ऐसे व्यक्ति के लिए भावनाएं विकसित की हैं जिसे ले जाया गया हो?"
+    },
+    {
+      "id": "td_hi_046",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "किसी रिश्ते में आपने सबसे बड़ी गलती क्या की है?"
+    },
+    {
+      "id": "td_hi_047",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "यदि आपको इस कमरे में किसी को चूमना हो, तो वह कौन होगा?"
+    },
+    {
+      "id": "td_hi_048",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "आपने ऐसा क्या किया है जिस पर आपको गर्व नहीं है?"
+    },
+    {
+      "id": "td_hi_049",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "क्या आपने कभी किसी का पीछा करते समय गलती से कोई पुरानी तस्वीर पसंद कर ली है?"
+    },
+    {
+      "id": "td_hi_050",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "आपने अब तक का सबसे चरित्रहीन कार्य क्या किया है?"
+    },
+    {
+      "id": "td_hi_051",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "आपको अब तक सबसे अधिक ईर्ष्या किससे हुई है?"
+    },
+    {
+      "id": "td_hi_052",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "क्या आपने कभी अपने विकल्प खुले रखने के लिए किसी से बात करना जारी रखा है?"
+    },
+    {
+      "id": "td_hi_053",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "आपके द्वारा अचानक किया गया सबसे साहसिक कार्य कौन सा है?"
+    },
+    {
+      "id": "td_hi_054",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "आपके अनुसार यहाँ सबसे बड़ा फ़्लर्ट कौन है?"
+    },
+    {
+      "id": "td_hi_055",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "क्या आपने कभी किसी मुश्किल स्थिति से बाहर निकलने के लिए फ़्लर्ट किया है?"
+    },
+    {
+      "id": "td_hi_056",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "आपने ऐसा कौन सा रहस्य छिपा रखा है जिसके लिए आप दोषी महसूस करते हैं?"
+    },
+    {
+      "id": "td_hi_057",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "क्या आपने कभी अपनी उम्र के बारे में झूठ बोला है?"
+    },
+    {
+      "id": "td_hi_058",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "सबसे शर्मनाक चीज़ क्या है जो किसी ने आपको करते हुए पकड़ लिया है?"
+    },
+    {
+      "id": "td_hi_059",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "क्या आपको कभी अपने से अधिक उम्र या कम उम्र के किसी व्यक्ति पर क्रश हुआ है?"
+    },
+    {
+      "id": "td_hi_060",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "यदि आप जानते हों कि किसी को कभी पता नहीं चलेगा तो आप क्या करेंगे?"
+    },
+    {
+      "id": "td_hi_061",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "कमरे में मौजूद किसी व्यक्ति पर अपना सर्वश्रेष्ठ प्रभाव डालें।"
+    },
+    {
+      "id": "td_hi_062",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "अगले 3 मिनट तक एक लहजे में बोलें।"
+    },
+    {
+      "id": "td_hi_063",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "अभी 10 जंपिंग जैक करें।"
+    },
+    {
+      "id": "td_hi_064",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "किसी को अपने संपर्कों में से किसी को भी संदेश भेजने दें."
+    },
+    {
+      "id": "td_hi_065",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "अपने पसंदीदा गाने का कोरस गाएं."
+    },
+    {
+      "id": "td_hi_066",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "30 सेकंड के लिए अपना सर्वश्रेष्ठ रोबोट नृत्य करें।"
+    },
+    {
+      "id": "td_hi_067",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "समूह को 5 मिनट के लिए आपको एक नया हेयर स्टाइल देने दें।"
+    },
+    {
+      "id": "td_hi_068",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "अगले दौर के प्रश्नों में ही बोलें।"
+    },
+    {
+      "id": "td_hi_069",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "पूरे कमरे में अपना सर्वश्रेष्ठ कैटवॉक करें।"
+    },
+    {
+      "id": "td_hi_070",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "कोई ऐसा चुटकुला सुनाएँ जो किसी को हँसा दे।"
+    },
+    {
+      "id": "td_hi_071",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "परिवार के किसी सदस्य को कॉल करें और कहें कि आप बस उनकी आवाज़ सुनना चाहते थे।"
+    },
+    {
+      "id": "td_hi_072",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "रसोई से कोई ऐसी चीज़ जो आपको नापसंद हो, एक चम्मच खा लें।"
+    },
+    {
+      "id": "td_hi_073",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "अपनी कलम उठाए बिना अपनी बाईं ओर के व्यक्ति का चित्र बनाएं।"
+    },
+    {
+      "id": "td_hi_074",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "समूह को अपने सोशल मीडिया पर एक स्टेटस पोस्ट करने दें।"
+    },
+    {
+      "id": "td_hi_075",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "अपने अंतिम पाठ वार्तालाप का नाटकीय वाचन करें।"
+    },
+    {
+      "id": "td_hi_076",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "अपनी कोहनी को 30 सेकंड तक चाटने की कोशिश करें।"
+    },
+    {
+      "id": "td_hi_077",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "कमरे में उपस्थित सभी लोग अपना नाम बोलते हुए हाई फाइव।"
+    },
+    {
+      "id": "td_hi_078",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "अपना सर्वश्रेष्ठ दुष्ट खलनायक हँसें।"
+    },
+    {
+      "id": "td_hi_079",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "एक समाचार एंकर होने का नाटक करें और वर्तमान दृश्य की रिपोर्ट करें।"
+    },
+    {
+      "id": "td_hi_080",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "किसी फिल्म के दृश्य को बिना बोले अभिनय करें और दूसरों को इसका अनुमान लगाने दें।"
+    },
+    {
+      "id": "td_hi_081",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "किसी को 30 सेकंड के लिए अपना कैमरा रोल देखने दें।"
+    },
+    {
+      "id": "td_hi_082",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "किसी यादृच्छिक संपर्क को कॉल करें और कहें 'मुझे पता है कि आपने पिछली गर्मियों में क्या किया था।'"
+    },
+    {
+      "id": "td_hi_083",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "10 मिनट के लिए अपनी कहानी पर एक शर्मनाक सेल्फी पोस्ट करें।"
+    },
+    {
+      "id": "td_hi_084",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "किसी को अपने पिछले 10 पाठ ज़ोर से पढ़ने दें।"
+    },
+    {
+      "id": "td_hi_085",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "शेष खेल के लिए अंदर-बाहर कपड़े का एक टुकड़ा पहनें।"
+    },
+    {
+      "id": "td_hi_086",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "अगले 5 मिनट तक केवल तुकबंदी में बोलें।"
+    },
+    {
+      "id": "td_hi_087",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "अपने सामने वाले व्यक्ति के बारे में एक फ्रीस्टाइल रैप करें।"
+    },
+    {
+      "id": "td_hi_088",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "शेष खेल के लिए फर्श पर बैठें।"
+    },
+    {
+      "id": "td_hi_089",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "कमरे में मौजूद प्रत्येक व्यक्ति की विशिष्ट और व्यक्तिगत प्रशंसा करें।"
+    },
+    {
+      "id": "td_hi_090",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "समूह को एक ऐसा शब्द चुनने दें जिसे आप 10 मिनट तक नहीं कह सकें।"
+    },
+    {
+      "id": "td_hi_091",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "अपने संपर्कों में से किसी को 'मुझे आपकी याद आती है' कहते हुए एक ध्वनि नोट भेजें।"
+    },
+    {
+      "id": "td_hi_092",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "5 मिनट के लिए अपने दाहिनी ओर वाले व्यक्ति के साथ एक कपड़े की वस्तु की अदला-बदली करें।"
+    },
+    {
+      "id": "td_hi_093",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "किसी को एक घंटे के लिए आपके लिए एक नया प्रोफ़ाइल चित्र चुनने दें।"
+    },
+    {
+      "id": "td_hi_094",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "अपने पसंदीदा सेलेब्रिटी का तब तक आभास करें जब तक कोई उसका अनुमान न लगा ले।"
+    },
+    {
+      "id": "td_hi_095",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "कमरे में मौजूद हर व्यक्ति के बारे में कुछ अच्छा कहें, लेकिन आखिरी वाले को भुनाया जाना चाहिए।"
+    },
+    {
+      "id": "td_hi_096",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "अगले 3 मिनट में आप जो कुछ भी करते हैं उसे तीसरे व्यक्ति में बताएं।"
+    },
+    {
+      "id": "td_hi_097",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "समूह जो भी गाना चुने, उस पर टिकटॉक शैली में नृत्य करें।"
+    },
+    {
+      "id": "td_hi_098",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "समूह द्वारा चुनी गई रसोई में पहले बिना देखे कुछ खाएँ।"
+    },
+    {
+      "id": "td_hi_099",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "किसी को धोने योग्य मार्कर से आपके चेहरे पर चित्र बनाने दें।"
+    },
+    {
+      "id": "td_hi_100",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "अपने शीर्ष 5 सर्वाधिक बजाए गए गीतों का खुलासा करें।"
+    },
+    {
+      "id": "td_hi_101",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "समूह को अपने मुख्य सोशल मीडिया पर एक पोस्ट लिखने दें और इसे 30 मिनट तक जारी रखें।"
+    },
+    {
+      "id": "td_hi_102",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "जिस अंतिम व्यक्ति को आपने संदेश भेजा था उसे एक फ़्लर्टी इमोजी भेजें।"
+    },
+    {
+      "id": "td_hi_103",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "अपनी पसंद के व्यक्ति को 1 मिनट की पीठ की मालिश दें।"
+    },
+    {
+      "id": "td_hi_104",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "यह बताएं कि आपने सोशल मीडिया पर आखिरी बार किस व्यक्ति को देखा था और क्यों।"
+    },
+    {
+      "id": "td_hi_105",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "सभी को अपना सबसे हाल ही में हटाया गया टेक्स्ट देखने दें।"
+    },
+    {
+      "id": "td_hi_106",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "भेजें 'अरे, तुम्हारे बारे में सोच रहा हूँ!' आपके सबसे हाल के पूर्व साथी के लिए।"
+    },
+    {
+      "id": "td_hi_107",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "जब हर कोई देख रहा हो तब पूरे कमरे में अपनी सबसे आकर्षक सैर करें।"
+    },
+    {
+      "id": "td_hi_108",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "समूह को आपकी डेटिंग प्रोफ़ाइल बायो बनाने दें।"
+    },
+    {
+      "id": "td_hi_109",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "कमरे में मौजूद किसी व्यक्ति को अपने साथ डेट पर जाने के लिए मनाने में 60 सेकंड खर्च करें।"
+    },
+    {
+      "id": "td_hi_110",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "किसी को आपसे 5 व्यक्तिगत प्रश्न पूछने दीजिए जिनका आपको ईमानदारी से उत्तर देना चाहिए।"
+    },
+    {
+      "id": "td_hi_111",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "अपनी पसंद के व्यक्ति को 30 सेकंड के लिए किसी भी गाने से मंत्रमुग्ध करें।"
+    },
+    {
+      "id": "td_hi_112",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "समूह को आपके संपर्कों में से चुनकर आपके लिए एक ब्लाइंड डेट निर्धारित करने दें।"
+    },
+    {
+      "id": "td_hi_113",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "संभावित भागीदार के लिए समूह को अपनी 3-सूत्रीय चेकलिस्ट बताएं।"
+    },
+    {
+      "id": "td_hi_114",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "समूह को अपनी अलमारी से आपके लिए एक पोशाक तैयार करने दें।"
+    },
+    {
+      "id": "td_hi_115",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "अपनी सबसे आपत्तिजनक फ़्लर्टिंग बातचीत का स्क्रीनशॉट साझा करें।"
+    },
+    {
+      "id": "td_hi_116",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "अगले 5 मिनट तक बोलने वाले हर व्यक्ति को आँख मारो।"
+    },
+    {
+      "id": "td_hi_117",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "किसी को बिना प्रतिक्रिया किए आपको 60 सेकंड तक भूनने दें।"
+    },
+    {
+      "id": "td_hi_118",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "अपने बारे में एक रहस्य साझा करें जो कमरे में कोई नहीं जानता।"
+    },
+    {
+      "id": "td_hi_119",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "अपनी सर्वश्रेष्ठ पिकअप लाइन तैयार करें और इसे अपने बगल वाले व्यक्ति तक पहुंचाएं।"
+    },
+    {
+      "id": "td_hi_120",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "समूह को सभी को आकर्षण के आधार पर रैंक करने दें और सूची को ज़ोर से पढ़ें।"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "आखिरी बार आपने ऑनलाइन क्या खोजा था?",
+      "id": "td_hi_121"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "आप किस गाने के सभी शब्द जानते हैं?",
+      "id": "td_hi_122"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "आपका सबसे अधिक उपयोग किया जाने वाला ऐप कौन सा है?",
+      "id": "td_hi_123"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ऐसा कौन सा भोजन है जिसे आप प्रतिदिन खा सकते हैं?",
+      "id": "td_hi_124"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "आपको सबसे अच्छी प्रशंसा क्या मिली है?",
+      "id": "td_hi_125"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "आपकी पसंदीदा आरामदायक फिल्म या शो कौन सा है?",
+      "id": "td_hi_126"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "इस वर्ष ऐसी कौन सी चीज़ है जिस पर आपको गर्व है?",
+      "id": "td_hi_127"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "आपकी सबसे अजीब आदत क्या है?",
+      "id": "td_hi_128"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "आराम करने का आपका पसंदीदा तरीका क्या है?",
+      "id": "td_hi_129"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ऐसी कौन सी प्रतिभा है जो आप चाहते हैं कि आपके पास होती?",
+      "id": "td_hi_130"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "10 सेकंड के लिए किसी सेलिब्रिटी के बारे में अपना सर्वश्रेष्ठ प्रभाव डालें।",
+      "id": "td_hi_131"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "अगले दौर के लिए फुसफुसाकर बोलें।",
+      "id": "td_hi_132"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "अपने फ़ोन पर ली गई अंतिम फ़ोटो दिखाएँ।",
+      "id": "td_hi_133"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "10 जंपिंग जैक करें।",
+      "id": "td_hi_134"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "किसी अन्य व्यक्ति को 24 घंटे के लिए अपना प्रोफ़ाइल चित्र चुनने दें।",
+      "id": "td_hi_135"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "अपने बारे में एक मज़ेदार तथ्य साझा करें।",
+      "id": "td_hi_136"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "5 बार घूमें और सीधी रेखा में चलें।",
+      "id": "td_hi_137"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "आपको संदेश भेजने वाले अंतिम व्यक्ति को एक मित्रतापूर्ण इमोजी भेजें।",
+      "id": "td_hi_138"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "20 सेकंड के लिए यह दिखावा करें कि आप एक समाचार रिपोर्टर हैं।",
+      "id": "td_hi_139"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "समूह को एक शब्द चुनने दें जिसे आपको 3 मिनट के लिए प्रत्येक वाक्य में उपयोग करना होगा।",
+      "id": "td_hi_140"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "आपके द्वारा भेजा गया सबसे अजीब पाठ कौन सा है?",
+      "id": "td_hi_141"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "आप इस समय सबसे अधिक किसे संदेश भेजते हैं?",
+      "id": "td_hi_142"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ऐसा कौन सा वादा है जिसे करने पर आपको पछतावा होता है?",
+      "id": "td_hi_143"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ऐसी कौन सी चीज़ है जिसे आप पसंद करने का दिखावा करते हैं लेकिन पसंद नहीं करते?",
+      "id": "td_hi_144"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "आखिरी बार आपको कब ईर्ष्या हुई थी?",
+      "id": "td_hi_145"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ऐसा कौन सा रहस्य है जो आपने अपने दोस्तों से छुपा कर रखा है?",
+      "id": "td_hi_146"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "आपने अब तक कौन सी सबसे बुरी सलाह का पालन किया है?",
+      "id": "td_hi_147"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "आपने सबसे महंगी चीज़ कौन सी तोड़ी है?",
+      "id": "td_hi_148"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ऐसा कौन सा डर है जो आपने किसी को नहीं बताया?",
+      "id": "td_hi_149"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "वह अंतिम व्यक्ति कौन है जिसे आपने म्यूट किया था या अनफ़ॉलो किया था?",
+      "id": "td_hi_150"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "अपनी कहानी में एक यादृच्छिक गीत के बोल पोस्ट करें।",
+      "id": "td_hi_151"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "अभी किसी को बधाई संदेश भेजें।",
+      "id": "td_hi_152"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "अपने हाथों का उपयोग किए बिना नाश्ता करें।",
+      "id": "td_hi_153"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "किसी को अपने बालों को स्टाइल करने दें।",
+      "id": "td_hi_154"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "आपके द्वारा भेजे गए अंतिम संदेश का नाटकीय ढंग से वाचन करें।",
+      "id": "td_hi_155"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "20 सेकंड के लिए एक मूर्खतापूर्ण नृत्य का प्रयास करें।",
+      "id": "td_hi_156"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "एक मिनट के लिए समूह द्वारा चुने गए लहजे में बोलें।",
+      "id": "td_hi_157"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "समूह में किसी का त्वरित चित्र बनाएं।",
+      "id": "td_hi_158"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "10 सेकंड के लिए अपनी स्क्रीन साझा करें.",
+      "id": "td_hi_159"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "अपनी अगली बारी आने तक किसी के साथ सीटों की अदला-बदली करें।",
+      "id": "td_hi_160"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "क्या आपने कभी एक ही समय में दो लोगों को पसंद किया है?",
+      "id": "td_hi_161"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "आपका सबसे बड़ा डेटिंग लाल झंडा क्या है?",
+      "id": "td_hi_162"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "आपने हाल ही में सबसे फ़्लर्टी चीज़ क्या की है?",
+      "id": "td_hi_163"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ऐसी कौन सी बात है जो आपने अपने पार्टनर से छुपाई है?",
+      "id": "td_hi_164"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "आपके द्वारा भेजा गया सबसे साहसी संदेश कौन सा है?",
+      "id": "td_hi_165"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "अपने कैमरा रोल में अपना अंतिम सहेजा गया फ़ोटो प्रकट करें।",
+      "id": "td_hi_166"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "आपको प्राप्त अंतिम डीएम को ज़ोर से पढ़ें।",
+      "id": "td_hi_167"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "किसी ऐसे व्यक्ति को फ़्लर्टी GIF भेजें जिस पर आप भरोसा करते हैं।",
+      "id": "td_hi_168"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "समूह को आपकी सबसे अधिक उपयोग की जाने वाली इमोजी सूची देखने दें।",
+      "id": "td_hi_169"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "अपने सबसे हालिया क्रश को कबूल करें (कोई नाम नहीं, केवल शुरुआती अक्षर)।",
+      "id": "td_hi_170"
+    },
+    {
+      "id": "td_hi_171",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "आपके खोज इतिहास में सबसे शर्मनाक बात क्या है?"
+    },
+    {
+      "id": "td_hi_172",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "कौन सा ऐप आपका सबसे ज्यादा समय चुराता है?"
+    },
+    {
+      "id": "td_hi_173",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "आपने कौन सा संदेश टाइप किया और कभी नहीं भेजा?"
+    },
+    {
+      "id": "td_hi_174",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "समूह को अपना सबसे हाल ही में सहेजा गया मीम दिखाएँ।"
+    },
+    {
+      "id": "td_hi_175",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "अपनी आखिरी सेल्फी का वर्णन ऐसे करें जैसे कि वह कोई संग्रहालय का टुकड़ा हो।"
+    }
+  ]
+}

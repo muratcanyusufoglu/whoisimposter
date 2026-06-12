@@ -1,1009 +1,1687 @@
 {
   "gameId": "would-you-rather",
   "locale": "sv",
-  "version": 1,
+  "version": 2,
   "prompts": [
     {
       "id": "wyr_sv_001",
+      "text": "Skulle du hellre ha obegränsat med snacks vid varje häng eller alltid få välja musik?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha gratis kanelbullar resten av livet eller gratis kebabpizza resten av livet?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_002",
+      "text": "Skulle du hellre alltid hitta den perfekta parkeringsplatsen eller aldrig stå i kö igen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha kunna teleportera dig eller spola tillbaka tiden 10 minuter?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_003",
+      "text": "Skulle du hellre vakna med perfekt hår eller alltid välja den perfekta outfiten på en minut?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha kunna prata med katter eller kunna prata med hundar?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_004",
+      "text": "Skulle du hellre ha gratis kaffe för alltid eller gratis desserter för alltid?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha vara osynlig en dag eller kunna flyga en dag?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_005",
+      "text": "Skulle du hellre vara fantastisk på karaoke eller oslagbar på brädspel?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha vakna perfekt varje morgon eller aldrig bli trött av att vara uppe sent?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_006",
+      "text": "Vill du hellre bo intill stranden eller mitt i din favoritstad?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha alltid vinna på karaoke eller kunna laga vilken mat som helst?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_007",
+      "text": "Skulle du hellre alltid ha en fulladdad telefon eller alltid ha perfekt Wi-Fi?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha aldrig missa sista tåget eller aldrig gå vilse på resa?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_008",
+      "text": "Skulle du hellre aldrig tappa bort dina nycklar igen eller aldrig glömma varför du gick in i ett rum?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha ha oändligt mobilbatteri eller alltid bli bra på bild?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_009",
+      "text": "Skulle du hellre kunna teleportera till jobbet eller teleportera hem efter någon händelse?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha gratis kanelbullar resten av livet eller gratis kebabpizza resten av livet?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_010",
+      "text": "Vill du hellre ha en personlig kock till frukost eller en personlig chaufför på helgerna?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha kunna teleportera dig eller spola tillbaka tiden 10 minuter?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_011",
+      "text": "Skulle du hellre bara titta på komedier i ett år eller bara lyssna på optimistisk musik i ett år?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha kunna prata med katter eller kunna prata med hundar?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_012",
+      "text": "Skulle du hellre vinna varje spelkväll eller alltid få alla att skratta på spelkvällen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha vara osynlig en dag eller kunna flyga en dag?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_013",
+      "text": "Vill du hellre ha en liten lägenhet med en fantastisk utsikt eller ett stort hus på en tråkig plats?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha vakna perfekt varje morgon eller aldrig bli trött av att vara uppe sent?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_014",
+      "text": "Skulle du hellre vara känd för din matlagning eller för dina danssteg?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha alltid vinna på karaoke eller kunna laga vilken mat som helst?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_015",
+      "text": "Skulle du hellre alltid veta det bästa på menyn eller alltid välja den bästa filmen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha aldrig missa sista tåget eller aldrig gå vilse på resa?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_016",
+      "text": "Vill du hellre ta en spontan dagstur eller planera en perfekt helg?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha ha oändligt mobilbatteri eller alltid bli bra på bild?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_017",
+      "text": "Skulle du hellre ha en garderob som stylar sig själv eller ett kylskåp som fyller på sig själv?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha gratis kanelbullar resten av livet eller gratis kebabpizza resten av livet?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_018",
+      "text": "Skulle du hellre aldrig tvätta igen eller aldrig diska igen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha kunna teleportera dig eller spola tillbaka tiden 10 minuter?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_019",
+      "text": "Skulle du hellre alltid få den sista pizzabiten eller alltid få den bästa platsen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha kunna prata med katter eller kunna prata med hundar?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_020",
+      "text": "Skulle du hellre ha en magisk mute-knapp för bullriga platser eller en hoppa över-knapp för obekväma småprat?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha vara osynlig en dag eller kunna flyga en dag?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_021",
+      "text": "Skulle du hellre kunna sova var som helst eller vakna direkt utvilad varje morgon?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha vakna perfekt varje morgon eller aldrig bli trött av att vara uppe sent?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_022",
+      "text": "Skulle du hellre alltid ha perfekt väder på dina lediga dagar eller aldrig ha trafik när du är sen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha alltid vinna på karaoke eller kunna laga vilken mat som helst?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_023",
+      "text": "Skulle du hellre få gratis konsertbiljetter för alltid eller gratis biobiljetter för alltid?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha aldrig missa sista tåget eller aldrig gå vilse på resa?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_024",
+      "text": "Skulle du hellre vara bra på att fota eller bra på att vara med på bilder?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha ha oändligt mobilbatteri eller alltid bli bra på bild?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_025",
+      "text": "Skulle du hellre alltid komma ihåg namn eller alltid komma ihåg födelsedagar?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha gratis kanelbullar resten av livet eller gratis kebabpizza resten av livet?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_026",
+      "text": "Skulle du hellre ha ett hem med ett hemligt rum eller en hängplats på taket?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha kunna teleportera dig eller spola tillbaka tiden 10 minuter?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_027",
+      "text": "Skulle du hellre bara åka tåg eller bara åka bilresor?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha kunna prata med katter eller kunna prata med hundar?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_028",
+      "text": "Vill du hellre leva utan hissar eller utan rulltrappor?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha vara osynlig en dag eller kunna flyga en dag?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_029",
+      "text": "Skulle du hellre alltid ha den perfekta comebacken eller alltid vara lugn under press?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha vakna perfekt varje morgon eller aldrig bli trött av att vara uppe sent?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_030",
+      "text": "Skulle du hellre vara den bästa kocken i din vängrupp eller den bästa berättaren?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha alltid vinna på karaoke eller kunna laga vilken mat som helst?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_031",
+      "text": "Skulle du hellre ha en bakåtspolningsknapp för pinsamma ögonblick eller en pausknapp för perfekta stunder?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha aldrig missa sista tåget eller aldrig gå vilse på resa?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_032",
+      "text": "Skulle du hellre bara bära din favoritfärg för alltid eller aldrig upprepa en outfit?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha ha oändligt mobilbatteri eller alltid bli bra på bild?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_033",
+      "text": "Skulle du hellre ha obegränsade böcker eller obegränsade spel?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha gratis kanelbullar resten av livet eller gratis kebabpizza resten av livet?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_034",
+      "text": "Skulle du hellre kunna lära dig vilket recept som helst direkt eller vilken låt som helst direkt?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha kunna teleportera dig eller spola tillbaka tiden 10 minuter?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_035",
+      "text": "Skulle du hellre alltid ha plats för efterrätt eller aldrig känna dig för mätt?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha kunna prata med katter eller kunna prata med hundar?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_036",
+      "text": "Skulle du hellre vara värd för varje fest eller bli inbjuden till varje fest?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha vara osynlig en dag eller kunna flyga en dag?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_037",
+      "text": "Vill du hellre ha ett hus med ett gigantiskt kök eller ett gigantiskt spelrum?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha vakna perfekt varje morgon eller aldrig bli trött av att vara uppe sent?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_038",
+      "text": "Skulle du hellre bara använda röstanteckningar eller bara använda emojis i en vecka?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha alltid vinna på karaoke eller kunna laga vilken mat som helst?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_039",
+      "text": "Vill du hellre vara tidig med allt eller komma exakt i tid varje gång?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha aldrig missa sista tåget eller aldrig gå vilse på resa?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_040",
+      "text": "Skulle du hellre ha ett perfekt minne för ansikten eller för vägbeskrivningar?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha ha oändligt mobilbatteri eller alltid bli bra på bild?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_041",
+      "text": "Skulle du hellre kunna pausa reklam eller hoppa över sysslor?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha gratis kanelbullar resten av livet eller gratis kebabpizza resten av livet?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_042",
+      "text": "Vill du hellre alltid hitta pengar i gamla fickor eller alltid få överraskningsrabatter?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha kunna teleportera dig eller spola tillbaka tiden 10 minuter?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_043",
+      "text": "Vill du hellre ha ditt drömsovrum eller ditt drömkök?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha kunna prata med katter eller kunna prata med hundar?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_044",
+      "text": "Skulle du hellre kunna göra vilken drink som helst eller något mellanmål perfekt?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha vara osynlig en dag eller kunna flyga en dag?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_045",
+      "text": "Skulle du hellre aldrig behöva ett paraply eller aldrig behöva solkräm?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha vakna perfekt varje morgon eller aldrig bli trött av att vara uppe sent?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_046",
+      "text": "Skulle du hellre ha en extra timme varje morgon eller en extra timme varje kväll?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha alltid vinna på karaoke eller kunna laga vilken mat som helst?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_047",
+      "text": "Vill du hellre bo ovanför ett bageri eller bredvid en biograf?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha aldrig missa sista tåget eller aldrig gå vilse på resa?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_048",
+      "text": "Skulle du hellre alltid välja restaurang eller alltid välja aktivitet?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha ha oändligt mobilbatteri eller alltid bli bra på bild?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_049",
+      "text": "Skulle du hellre ha en personlig spellista för varje humör eller en perfekt outfit för varje plan?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha gratis kanelbullar resten av livet eller gratis kebabpizza resten av livet?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_050",
+      "text": "Skulle du hellre vara vännen med det bästa rådet eller vännen med de bästa mellanmålen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha kunna teleportera dig eller spola tillbaka tiden 10 minuter?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_051",
+      "text": "Skulle du hellre bara äta frukostmat till middag eller middagsmat till frukost?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha kunna prata med katter eller kunna prata med hundar?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_052",
+      "text": "Skulle du hellre aldrig behöva ladda enheter eller aldrig behöva uppdatera appar?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha vara osynlig en dag eller kunna flyga en dag?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_053",
+      "text": "Skulle du hellre ha perfekt handstil eller perfekta gåvoförpackningar?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha vakna perfekt varje morgon eller aldrig bli trött av att vara uppe sent?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_054",
+      "text": "Skulle du hellre städa ditt rum direkt eller omedelbart organisera dina telefonfoton?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Skulle du hellre ha alltid vinna på karaoke eller kunna laga vilken mat som helst?"
+      "minAge": 4
     },
     {
       "id": "wyr_sv_055",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha aldrig missa sista tåget eller aldrig gå vilse på resa?"
+      "text": "Skulle du hellre alltid ha fräscha lakan eller alltid ha fräscha handdukar?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_056",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha ha oändligt mobilbatteri eller alltid bli bra på bild?"
+      "text": "Skulle du hellre vara oslagbar på trivia eller oslagbar på charader?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_057",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha gratis kanelbullar resten av livet eller gratis kebabpizza resten av livet?"
+      "text": "Vill du hellre ha en balkong med utsikt eller ett vardagsrum gjort för fest?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_058",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha kunna teleportera dig eller spola tillbaka tiden 10 minuter?"
+      "text": "Skulle du hellre aldrig spilla ut en drink igen eller aldrig tappa telefonen igen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_059",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha kunna prata med katter eller kunna prata med hundar?"
+      "text": "Skulle du hellre alltid komma ihåg dina drömmar eller aldrig ha en mardröm?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_060",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha vara osynlig en dag eller kunna flyga en dag?"
+      "text": "Skulle du hellre ha gratis flyg en gång om året eller gratis hotell två gånger om året?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_061",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha vakna perfekt varje morgon eller aldrig bli trött av att vara uppe sent?"
+      "text": "Vill du hellre bli flytande i ett nytt språk över en natt eller behärska ett nytt instrument över en natt?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_062",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha alltid vinna på karaoke eller kunna laga vilken mat som helst?"
+      "text": "Skulle du hellre alltid ha den perfekta belysningen för foton eller aldrig blinka i bilder?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_063",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha aldrig missa sista tåget eller aldrig gå vilse på resa?"
+      "text": "Skulle du hellre få en överraskningsdag varje månad eller en överraskningssemester varje år?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_064",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha ha oändligt mobilbatteri eller alltid bli bra på bild?"
+      "text": "Vill du hellre bara texta med små bokstäver eller bara text med perfekt interpunktion?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_065",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha gratis kanelbullar resten av livet eller gratis kebabpizza resten av livet?"
+      "text": "Vill du hellre ha en mysig stugweekend eller en hektisk storstadsweekend?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_066",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha kunna teleportera dig eller spola tillbaka tiden 10 minuter?"
+      "text": "Skulle du hellre vara känd för din stil eller för ditt sinne för humor?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_067",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha kunna prata med katter eller kunna prata med hundar?"
+      "text": "Skulle du hellre alltid välja den snabbaste kassalinjen eller alltid ta hissen direkt?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_068",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha vara osynlig en dag eller kunna flyga en dag?"
+      "text": "Skulle du hellre aldrig få slut på lagringsutrymme på din telefon eller aldrig få slut på batteri?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_069",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha vakna perfekt varje morgon eller aldrig bli trött av att vara uppe sent?"
+      "text": "Skulle du hellre kunna inreda vilket rum som helst perfekt eller packa vilken resväska som helst perfekt?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_070",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha alltid vinna på karaoke eller kunna laga vilken mat som helst?"
+      "text": "Skulle du hellre bara dricka vatten för alltid eller bara dricka en favoritdrink för alltid?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_071",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha aldrig missa sista tåget eller aldrig gå vilse på resa?"
+      "text": "Skulle du hellre alltid sova perfekt eller alltid vakna upp på gott humör?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_072",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha ha oändligt mobilbatteri eller alltid bli bra på bild?"
+      "text": "Skulle du hellre vara den person som alla ber om rekommendationer eller den person som alla ber om att planera resor?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_073",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha gratis kanelbullar resten av livet eller gratis kebabpizza resten av livet?"
+      "text": "Vill du hellre ha en personlig väderprognos som alltid stämmer eller en kalender som planerar sig själv?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_074",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha kunna teleportera dig eller spola tillbaka tiden 10 minuter?"
+      "text": "Skulle du helst aldrig behöva städa badrummet eller aldrig behöva städa köket?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_075",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha kunna prata med katter eller kunna prata med hundar?"
+      "text": "Skulle du hellre vara bra på att baka eller bra på att grilla?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_076",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha vara osynlig en dag eller kunna flyga en dag?"
+      "text": "Skulle du hellre få platser på första raden en gång om året eller VIP-snacks varje gång?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_077",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha vakna perfekt varje morgon eller aldrig bli trött av att vara uppe sent?"
+      "text": "Skulle du hellre alltid hitta det bästa gömda kaféet eller alltid hitta den bästa utsiktsplatsen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_078",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha alltid vinna på karaoke eller kunna laga vilken mat som helst?"
+      "text": "Skulle du hellre ha en vecka med perfekta kläder eller en vecka med perfekta måltider?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_079",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha aldrig missa sista tåget eller aldrig gå vilse på resa?"
+      "text": "Skulle du hellre vinna en livslång leverans av skor eller en livslång leverans av hörlurar?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_080",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha ha oändligt mobilbatteri eller alltid bli bra på bild?"
+      "text": "Skulle du hellre alltid kunna texten eller alltid kunna dansen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_081",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha gratis kanelbullar resten av livet eller gratis kebabpizza resten av livet?"
+      "text": "Skulle du hellre kunna fixa eventuella tekniska problem eller montera möbler utan instruktioner?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_082",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha kunna teleportera dig eller spola tillbaka tiden 10 minuter?"
+      "text": "Vill du hellre ha en magisk ryggsäck som aldrig är tung eller en resväska som packar sig själv?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_083",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha kunna prata med katter eller kunna prata med hundar?"
+      "text": "Skulle du hellre alltid ha en bra hårdag eller alltid ha klar hy?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_084",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha vara osynlig en dag eller kunna flyga en dag?"
+      "text": "Skulle du hellre ta de bästa gruppselfiesna eller göra de bästa gruppplanerna?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_085",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha vakna perfekt varje morgon eller aldrig bli trött av att vara uppe sent?"
+      "text": "Skulle du hellre kunna hoppa över en tråkig uppgift om dagen eller få en rolig överraskning om dagen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_086",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha alltid vinna på karaoke eller kunna laga vilken mat som helst?"
+      "text": "Vill du hellre bo någonstans med oändlig sommar eller oändligt mysigt väder?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_087",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha aldrig missa sista tåget eller aldrig gå vilse på resa?"
+      "text": "Skulle du hellre aldrig ha annonser online eller aldrig få skräppostmeddelanden?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_088",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha ha oändligt mobilbatteri eller alltid bli bra på bild?"
+      "text": "Skulle du hellre alltid välja ett bra användarnamn eller alltid skriva en bra bildtext?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_089",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha gratis kanelbullar resten av livet eller gratis kebabpizza resten av livet?"
+      "text": "Skulle du hellre vara bäst på att slå in presenter eller bäst på att välja presenter?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_090",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha kunna teleportera dig eller spola tillbaka tiden 10 minuter?"
+      "text": "Skulle du hellre ha obegränsade filmkvällar hemma eller obegränsade bruncher ute?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_091",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha kunna prata med katter eller kunna prata med hundar?"
+      "text": "Skulle du hellre ha en liten privat trädgård eller ett stort gemensamt taktak?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_092",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha vara osynlig en dag eller kunna flyga en dag?"
+      "text": "Skulle du hellre bara använda en liten sked för alltid eller alltid dricka ur en liten kopp?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_093",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha vakna perfekt varje morgon eller aldrig bli trött av att vara uppe sent?"
+      "text": "Skulle du hellre kunna göra vilket rum som helst mysigt eller göra vilken spellista som helst perfekt?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_094",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha alltid vinna på karaoke eller kunna laga vilken mat som helst?"
+      "text": "Vill du helst alltid ha rätt laddare eller alltid ha rätt lösenord?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_095",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha aldrig missa sista tåget eller aldrig gå vilse på resa?"
+      "text": "Skulle du hellre aldrig glömma ett lösenord eller aldrig glömma var du parkerade?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_096",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha ha oändligt mobilbatteri eller alltid bli bra på bild?"
+      "text": "Skulle du hellre ha en perfekt organiserad garderob eller en perfekt organiserad kamerarulle?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_097",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha gratis kanelbullar resten av livet eller gratis kebabpizza resten av livet?"
+      "text": "Skulle du hellre vara den första som testar en trend eller den sista som blir uttråkad av den?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_098",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha kunna teleportera dig eller spola tillbaka tiden 10 minuter?"
+      "text": "Skulle du hellre alltid ha ett bord tillgängligt på restauranger eller alltid få gratis efterrätt?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_099",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha kunna prata med katter eller kunna prata med hundar?"
+      "text": "Vill du hellre ha en personlig hypelåt eller en personlig entrélampa?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_100",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha vara osynlig en dag eller kunna flyga en dag?"
+      "text": "Skulle du hellre vara bra vid första intryck eller bra på adjökramar?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_sv_101",
+      "text": "Skulle du hellre bli respekterad av alla eller djupt förstådd av ett fåtal personer?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha vakna perfekt varje morgon eller aldrig bli trött av att vara uppe sent?"
+      "minAge": 13
     },
     {
       "id": "wyr_sv_102",
+      "text": "Skulle du hellre veta när någon ljuger eller alltid bli trodd när du berättar sanningen?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha alltid vinna på karaoke eller kunna laga vilken mat som helst?"
+      "minAge": 13
     },
     {
       "id": "wyr_sv_103",
+      "text": "Vill du hellre ha ditt drömjobb med låg lön eller ett tråkigt jobb med fantastisk lön?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha aldrig missa sista tåget eller aldrig gå vilse på resa?"
+      "minAge": 13
     },
     {
       "id": "wyr_sv_104",
+      "text": "Vill du hellre flytta utomlands ensam eller stanna i din hemstad för alltid?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha ha oändligt mobilbatteri eller alltid bli bra på bild?"
+      "minAge": 13
     },
     {
       "id": "wyr_sv_105",
+      "text": "Skulle du hellre vara den smartaste personen i rummet eller den person som alla litar mest på?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha gratis kanelbullar resten av livet eller gratis kebabpizza resten av livet?"
+      "minAge": 13
     },
     {
       "id": "wyr_sv_106",
+      "text": "Skulle du hellre alltid veta sanningen eller alltid veta det rätta att säga?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha kunna teleportera dig eller spola tillbaka tiden 10 minuter?"
+      "minAge": 13
     },
     {
       "id": "wyr_sv_107",
+      "text": "Skulle du hellre ha en liten grupp lojala vänner eller ett stort nätverk av tillfälliga vänner?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Skulle du hellre ha kunna prata med katter eller kunna prata med hundar?"
+      "minAge": 13
     },
     {
       "id": "wyr_sv_108",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha vara osynlig en dag eller kunna flyga en dag?"
+      "text": "Skulle du hellre bli ihågkommen för vänlighet eller för ambition?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_109",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha vakna perfekt varje morgon eller aldrig bli trött av att vara uppe sent?"
+      "text": "Skulle du hellre lyckas tidigt och brinna ut eller lyckas långsamt och njuta av processen?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_110",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha alltid vinna på karaoke eller kunna laga vilken mat som helst?"
+      "text": "Skulle du hellre ha varje misstag glömt eller varje god gärning ihågkommen?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_111",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha aldrig missa sista tåget eller aldrig gå vilse på resa?"
+      "text": "Skulle du hellre återuppleva en perfekt dag eller radera en hemsk dag?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_112",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha ha oändligt mobilbatteri eller alltid bli bra på bild?"
+      "text": "Skulle du hellre kunna förlåta omedelbart eller aldrig bli lurad två gånger?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_113",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha gratis kanelbullar resten av livet eller gratis kebabpizza resten av livet?"
+      "text": "Skulle du hellre ha mer självförtroende eller mer disciplin?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_114",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha kunna teleportera dig eller spola tillbaka tiden 10 minuter?"
+      "text": "Skulle du hellre veta vad folk först tänker om dig eller vad de säger efter att du lämnat?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_115",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha kunna prata med katter eller kunna prata med hundar?"
+      "text": "Skulle du hellre bli älskad för den du är nu eller beundrad för den du skulle kunna bli?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_116",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha vara osynlig en dag eller kunna flyga en dag?"
+      "text": "Skulle du hellre alltid vara upptagen med saker du älskar eller alltid ha ledig tid men känner dig uttråkad?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_117",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha vakna perfekt varje morgon eller aldrig bli trött av att vara uppe sent?"
+      "text": "Skulle du hellre ha en stor chans och riskera allt eller många små chanser med långsam framgång?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_118",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha alltid vinna på karaoke eller kunna laga vilken mat som helst?"
+      "text": "Skulle du hellre vara känd i fem år eller respekterad för en livstid?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_119",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha aldrig missa sista tåget eller aldrig gå vilse på resa?"
+      "text": "Skulle du hellre förlora alla dina foton eller alla dina meddelanden?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_120",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha ha oändligt mobilbatteri eller alltid bli bra på bild?"
+      "text": "Skulle du hellre ha din sökhistorik offentlig eller din kamerarulle offentlig?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_121",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha gratis kanelbullar resten av livet eller gratis kebabpizza resten av livet?"
+      "text": "Skulle du hellre alltid säga vad du tycker eller alltid bevara lugnet?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_122",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha kunna teleportera dig eller spola tillbaka tiden 10 minuter?"
+      "text": "Skulle du hellre ha en vän som är brutalt ärlig eller en som är oändligt stödjande?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_123",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha kunna prata med katter eller kunna prata med hundar?"
+      "text": "Skulle du hellre vara planeraren i varje grupp eller personen som aldrig behöver planera?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_124",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha vara osynlig en dag eller kunna flyga en dag?"
+      "text": "Skulle du hellre vara fantastisk på djupa konversationer eller fantastisk på att få människor att känna sig bekväma?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_125",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha vakna perfekt varje morgon eller aldrig bli trött av att vara uppe sent?"
+      "text": "Skulle du hellre veta exakt vart ditt liv är på väg eller bli överraskad av det?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_126",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha alltid vinna på karaoke eller kunna laga vilken mat som helst?"
+      "text": "Skulle du hellre ge upp sociala medier i ett år eller streama i ett år?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_127",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha aldrig missa sista tåget eller aldrig gå vilse på resa?"
+      "text": "Skulle du hellre ha ett ledigt år med lön eller en kampanj du verkligen vill ha?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_128",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha ha oändligt mobilbatteri eller alltid bli bra på bild?"
+      "text": "Skulle du hellre alltid bli underskattad eller alltid överskattad?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_129",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha gratis kanelbullar resten av livet eller gratis kebabpizza resten av livet?"
+      "text": "Vill du hellre att alla ska veta ditt största mål eller din största rädsla?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_130",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha kunna teleportera dig eller spola tillbaka tiden 10 minuter?"
+      "text": "Skulle du hellre kunna starta om din karriär eller återuppta en vänskap?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_131",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha kunna prata med katter eller kunna prata med hundar?"
+      "text": "Skulle du hellre vara den som människor ringer i en kris eller personen de ringer för att fira?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_132",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha vara osynlig en dag eller kunna flyga en dag?"
+      "text": "Skulle du hellre aldrig känna dig generad eller aldrig känna dig avundsjuk?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_133",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha vakna perfekt varje morgon eller aldrig bli trött av att vara uppe sent?"
+      "text": "Skulle du hellre kunna radera ett minne eller spela upp ett minne när du vill?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_134",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha alltid vinna på karaoke eller kunna laga vilken mat som helst?"
+      "text": "Skulle du hellre veta slutet på varje film eller resultatet av varje beslut?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_135",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha aldrig missa sista tåget eller aldrig gå vilse på resa?"
+      "text": "Skulle du hellre ha ett perfekt rykte med främlingar eller verklig ärlighet med vänner?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_136",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha ha oändligt mobilbatteri eller alltid bli bra på bild?"
+      "text": "Skulle du hellre alltid vinna argument eller alltid låta argumenten kännas lugna?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_137",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha gratis kanelbullar resten av livet eller gratis kebabpizza resten av livet?"
+      "text": "Skulle du hellre vara bra på att tjäna pengar eller bra på att hantera pengar?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_138",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha kunna teleportera dig eller spola tillbaka tiden 10 minuter?"
+      "text": "Skulle du hellre ha din framtid planerad av någon klok eller välja allt själv utan råd?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_139",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha kunna prata med katter eller kunna prata med hundar?"
+      "text": "Skulle du hellre vara den roligaste personen i din grupp eller den lugnaste personen i en kris?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_140",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha vara osynlig en dag eller kunna flyga en dag?"
+      "text": "Skulle du hellre få en dröm som går i uppfyllelse nu eller fem mindre drömmar med tiden?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_141",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha vakna perfekt varje morgon eller aldrig bli trött av att vara uppe sent?"
+      "text": "Skulle du hellre kunna läsa en person helt eller förstå folkmassor perfekt?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_142",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha alltid vinna på karaoke eller kunna laga vilken mat som helst?"
+      "text": "Skulle du hellre få stängning för varje avslut eller en andra chans vid ett avslut?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_143",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha aldrig missa sista tåget eller aldrig gå vilse på resa?"
+      "text": "Skulle du hellre bli känd som mystisk eller helt transparent?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_144",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha ha oändligt mobilbatteri eller alltid bli bra på bild?"
+      "text": "Skulle du hellre ha ett jobb som imponerar på människor eller ett liv som känns lugnt?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_145",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha gratis kanelbullar resten av livet eller gratis kebabpizza resten av livet?"
+      "text": "Skulle du hellre vara lojal mot ett fel eller oberoende av ett fel?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_146",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha kunna teleportera dig eller spola tillbaka tiden 10 minuter?"
+      "text": "Skulle du hellre alltid ha modet att börja eller tålamodet att avsluta?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_147",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha kunna prata med katter eller kunna prata med hundar?"
+      "text": "Skulle du hellre kunna be om ursäkt perfekt eller konfrontera någon utan rädsla?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_148",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha vara osynlig en dag eller kunna flyga en dag?"
+      "text": "Skulle du hellre ha ditt största misslyckande online för alltid eller din största hemlighet i en gruppchatt?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_149",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha vakna perfekt varje morgon eller aldrig bli trött av att vara uppe sent?"
+      "text": "Skulle du hellre leva i det förflutna med mer avskildhet eller i framtiden med mer bekvämlighet?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_150",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha alltid vinna på karaoke eller kunna laga vilken mat som helst?"
+      "text": "Skulle du hellre alltid vara den ansvarige eller aldrig bli betrodd med ansvar?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_151",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha aldrig missa sista tåget eller aldrig gå vilse på resa?"
+      "text": "Skulle du hellre kunna ändra ett beslut du tog eller se ett beslut du nästan tog?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_152",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha ha oändligt mobilbatteri eller alltid bli bra på bild?"
+      "text": "Skulle du hellre tappa din komfortzon eller tappa ambitionen?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_153",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha gratis kanelbullar resten av livet eller gratis kebabpizza resten av livet?"
+      "text": "Skulle du hellre bli beundrad på långt håll eller älskad på nära håll?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_154",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha kunna teleportera dig eller spola tillbaka tiden 10 minuter?"
+      "text": "Skulle du hellre aldrig jämföra dig med andra eller aldrig bry dig om vad andra tycker?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_155",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha kunna prata med katter eller kunna prata med hundar?"
+      "text": "Skulle du hellre få en varning före varje dåligt beslut eller en belöning efter varje modig?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_156",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha vara osynlig en dag eller kunna flyga en dag?"
+      "text": "Skulle du hellre kunna få någon att skratta eller få någon att känna sig trygg?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_157",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha vakna perfekt varje morgon eller aldrig bli trött av att vara uppe sent?"
+      "text": "Skulle du hellre ha ett perfekt minne eller en perfekt förmåga att gå vidare?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_158",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha alltid vinna på karaoke eller kunna laga vilken mat som helst?"
+      "text": "Skulle du hellre ägna ett år åt att bygga din kropp eller ditt sinne?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_159",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha aldrig missa sista tåget eller aldrig gå vilse på resa?"
+      "text": "Skulle du hellre vara huvudpersonen i en tyst berättelse eller en bikaraktär i en episk?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_160",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Skulle du hellre ha ha oändligt mobilbatteri eller alltid bli bra på bild?"
+      "text": "Skulle du hellre veta varför någon lämnade eller aldrig veta och läka snabbare?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_sv_161",
+      "text": "Skulle du hellre alltid vara ärlig om dina känslor eller alltid skydda andra människors känslor?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Förlora alla sparade memes eller alla playlists?"
+      "minAge": 13
     },
     {
       "id": "wyr_sv_162",
+      "text": "Skulle du hellre ha obegränsad motivation eller obegränsat tålamod?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Alla stavfel publiceras eller alla utkast skickas automatiskt?"
+      "minAge": 13
     },
     {
       "id": "wyr_sv_163",
+      "text": "Skulle du hellre kunna se röda flaggor direkt eller se dold potential direkt?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Bli viral för att dansa eller för att ramla?"
+      "minAge": 13
     },
     {
       "id": "wyr_sv_164",
+      "text": "Skulle du hellre kunna fixa ett tidigare förhållande eller förhindra ett framtida misstag?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Kommunicera bara med GIF:ar eller bara med röstmeddelanden?"
+      "minAge": 13
     },
     {
       "id": "wyr_sv_165",
+      "text": "Skulle du hellre alltid välja komfort eller alltid välja tillväxt?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Oändligt batteri eller perfekt Wi‑Fi för alltid?"
+      "minAge": 13
     },
     {
       "id": "wyr_sv_166",
+      "text": "Skulle du hellre vara omgiven av människor som utmanar dig eller människor som tröstar dig?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Hellre hosta varje fest eller städa efter varje fest?"
+      "minAge": 13
     },
     {
       "id": "wyr_sv_167",
+      "text": "Vill du hellre ha den perfekta dagliga rutinen eller det perfekta äventyret en gång i livet?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Hellre alltid förklara reglerna eller alltid bli misstänkt för fusk?"
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_168",
+      "text": "Skulle du hellre vara hemligt begåvad eller offentligt medelmåttig?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_169",
+      "text": "Skulle du hellre aldrig behöva godkännande eller alltid få uppmuntran?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_170",
+      "text": "Skulle du hellre ha en vän som kommer ihåg varje detalj eller en som dyker upp varje gång?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_171",
+      "text": "Skulle du hellre kunna sluta med vilken vana som helst omedelbart eller bygga upp en vana direkt?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_172",
+      "text": "Vill du hellre att ditt yngre jag ska se ditt liv nu eller att ditt framtida jag skickar en mening tillbaka?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_173",
+      "text": "Skulle du hellre vara den person som förändrar en grupp eller den person som en grupp förändrar till det bättre?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_174",
+      "text": "Skulle du hellre alltid veta kostnaderna för ett val eller alltid veta fördelen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_175",
+      "text": "Skulle du hellre vara orädd i ett år eller klok resten av ditt liv?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_176",
+      "text": "Vill du hellre ha ett liv som ser spännande ut online eller känns spännande offline?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_177",
+      "text": "Skulle du hellre kunna sluta tänka för mycket eller sluta skjuta upp?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_178",
+      "text": "Skulle du hellre vara känd för ett mästerverk eller många gedigna insatser?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_179",
+      "text": "Skulle du hellre ha varje dörr öppen men ingen tydlig riktning eller en tydlig väg utan alternativ?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_180",
+      "text": "Skulle du hellre alltid vara den första att förlåta eller den första att gå därifrån?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_181",
+      "text": "Skulle du hellre ha en mentor för varje problem eller en vän för varje jobbig dag?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_182",
+      "text": "Skulle du hellre kunna förutsäga ditt humör i morgon eller förstå ditt humör idag?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_183",
+      "text": "Skulle du hellre bli rik i tysthet eller inflytelserik offentligt?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_184",
+      "text": "Skulle du hellre aldrig känna dig ensam eller aldrig känna dig missförstådd?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_185",
+      "text": "Skulle du hellre kunna vinna över människor direkt eller veta vem som är värd din tid direkt?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_186",
+      "text": "Skulle du hellre vara känd för att ta risker eller för att göra kloka val?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_187",
+      "text": "Skulle du hellre alltid ha en reservplan eller aldrig behöva en?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_188",
+      "text": "Skulle du hellre tappa en dålig vana eller få en imponerande färdighet?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_189",
+      "text": "Vill du hellre ha ett lugnt liv med få överraskningar eller ett kaotiskt liv med oförglömliga historier?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_190",
+      "text": "Skulle du hellre veta det bästa ögonblicket i ditt liv innan det händer eller bara känna igen det efteråt?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_191",
+      "text": "Skulle du hellre vara utmärkt på att starta konversationer eller utmärkt på att avsluta dem på ett elegant sätt?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_192",
+      "text": "Skulle du hellre alltid vara den person som ger råd eller den person som är modig nog att ta det?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_193",
+      "text": "Vill du hellre ha ditt drömhus långt ifrån alla eller ett enkelt hem nära dina favoritmänniskor?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_194",
+      "text": "Skulle du hellre kunna sluta fred med vem som helst eller göra en nystart var som helst?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_195",
+      "text": "Skulle du hellre vara vännen alla bekänner sig till eller vännen alla festar med?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_196",
+      "text": "Skulle du hellre ha en månad av total frihet eller ett år av stadiga framsteg?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_197",
+      "text": "Skulle du hellre bli ihågkommen för ett djärvt drag eller för en livstid av tyst lojalitet?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_198",
+      "text": "Skulle du hellre veta sanningen om ditt rykte eller behålla ditt självförtroende orörda?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_199",
+      "text": "Skulle du hellre kunna säga nej utan skuld eller be om hjälp utan att skämmas?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_200",
+      "text": "Skulle du hellre ha perfekt timing eller perfekta instinkter?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_sv_201",
+      "text": "Vill du helst låta vännerna granska din dejtingprofil eller låta någon du litar på läsa upp dina DM högt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_202",
+      "text": "Skulle du hellre gå på en perfekt första dejt utan kemi eller en rörig första dejt med uppenbara gnistor?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_203",
+      "text": "Skulle du hellre alltid veta när någon flirtar eller aldrig av misstag flirta tillbaka?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_204",
+      "text": "Skulle du hellre dejta någon som alla älskar men du känner dig osäker på eller någon som alla tvivlar på men du känner dig säker på?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_205",
+      "text": "Skulle du hellre bli spökad efter en fantastisk dejt eller bli sakta brödsmulad i en månad?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_206",
+      "text": "Skulle du hellre bekänna din kärlek personligen eller att din gruppchatt av misstag avslöja det?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_207",
+      "text": "Skulle du hellre vilja att ditt ex ser att du ser fantastisk ut eller att du verkligen inte bryr dig om de gör det?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_208",
+      "text": "Skulle du hellre få ett riskabelt sms sent på kvällen eller skicka ett och omedelbart ångra dig?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_209",
+      "text": "Skulle du hellre ha en partner som är smärtsamt ärlig eller en som undviker varje hård konversation?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_210",
+      "text": "Skulle du hellre dejta någon med perfekt skämt eller perfekt känslomässig mognad?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_211",
+      "text": "Skulle du hellre bli ertappad av att stalka någons profil eller av misstag gilla ett mycket gammalt inlägg?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_212",
+      "text": "Skulle du hellre ha en oförglömlig sommarromans eller en långsamt brännande kärlekshistoria?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_213",
+      "text": "Skulle du hellre känna varje person som din partner någonsin har gillat eller inte veta någonting och vara lugn?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_214",
+      "text": "Skulle du hellre vara den svartsjuka eller den som gör människor avundsjuka utan att försöka?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_215",
+      "text": "Skulle du hellre ha fantastisk kemi med dålig timing eller perfekt timing men svag gnista?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_216",
+      "text": "Skulle du hellre vara den första att säga \"jag älskar dig\" eller vänta tills du är helt säker?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_217",
+      "text": "Skulle du hellre gå på en dejt utan telefon eller en dejt utan småprat?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_218",
+      "text": "Skulle du hellre ha din största röda flagga exponerad eller ta reda på att alla redan vet den?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_219",
+      "text": "Skulle du hellre vara någons hemliga crush eller någons mycket offentliga besatthet?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_220",
+      "text": "Skulle du hellre ha en dramatisk uppbrottshistoria eller ingen uppbrottshistoria eftersom ingenting någonsin blev allvarligt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_221",
+      "text": "Skulle du hellre dejta någon som postar allt eller någon som inte postar något alls?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_222",
+      "text": "Skulle du hellre vara med någon vilt spontan eller någon som är djupt konsekvent?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_223",
+      "text": "Skulle du hellre dela lösenord eller dela platser?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_224",
+      "text": "Skulle du hellre få ett kärleksbrev från fel person eller en text på ett ord från rätt person?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_225",
+      "text": "Vill du hellre att din kär ska höra din värsta röstanteckning eller se din värsta selfie?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_226",
+      "text": "Skulle du hellre vara bra på att flirta personligen eller bra på att smsa?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_227",
+      "text": "Skulle du hellre alltid veta om en dejt är intresserad av dig eller alltid veta om de slösar bort din tid?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_228",
+      "text": "Skulle du hellre ha ett förhållande med intensiv passion och kaos eller lugn kärlek med färre fyrverkerier?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_229",
+      "text": "Skulle du hellre vara den som bryr sig mer eller den som erkänner det först?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_230",
+      "text": "Skulle du hellre få reda på att en vän gillar din crush eller din crush gillar din vän?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_231",
+      "text": "Skulle du hellre dejta någon som är allas typ eller någon som bara du förstår?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_232",
+      "text": "Vill du hellre att din situation definierar relationen eller försvinner för alltid?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_233",
+      "text": "Skulle du hellre få stängning från ett ex eller en ursäkt från någon du aldrig dejtat?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_234",
+      "text": "Skulle du hellre ha en perfekt kyss utan framtid eller en klumpig start som blir riktig kärlek?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_235",
+      "text": "Skulle du hellre kunna se någons gröna flaggor direkt eller deras röda flaggor direkt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_236",
+      "text": "Vill du hellre flirta med självförtroende och misslyckas eller spela coolt och missa din chans?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_237",
+      "text": "Skulle du hellre ha varje första dejt filmad eller varje uppbrott recenserad av dina vänner?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_238",
+      "text": "Skulle du hellre dejta någon som kommer ihåg varje detalj eller någon som överraskar dig hela tiden?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_239",
+      "text": "Skulle du hellre komma tillbaka med ett ex i en vecka eller gå på fem blinddejter i rad?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_240",
+      "text": "Vill du hellre att dina vänner väljer ditt nästa datum eller att din sökhistorik väljer det?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_241",
+      "text": "Skulle du hellre bli älskad högt offentligt eller privat på ett sätt som bara du märker?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_242",
+      "text": "Skulle du hellre alltid vara hjärtekrossaren eller alltid vara den hopplösa romantikern?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_243",
+      "text": "Skulle du hellre ha en partner som är för klängig eller för mystisk?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_244",
+      "text": "Skulle du hellre få reda på att någon skrev en låt om dig eller en lång anteckningsapp om dig?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_245",
+      "text": "Skulle du hellre få ett \"vi måste prata\" sms eller av misstag skicka ett till fel person?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_246",
+      "text": "Skulle du hellre dejta någon som planerar varje detalj eller någon som improviserar allt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_247",
+      "text": "Skulle du hellre ha obestridlig kemi med din motsats eller bekväm kemi med någon precis som du?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_248",
+      "text": "Skulle du hellre bli ertappad när du repeterade en bekännelse eller övade på ett uppbrottstal?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_249",
+      "text": "Skulle du hellre att din gamla crush plötsligt skulle skicka ett sms till dig eller att din nuvarande crush plötsligt slutar följa dig?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_250",
+      "text": "Skulle du hellre alltid falla för snabbt eller alltid inse dina känslor för sent?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_251",
+      "text": "Skulle du hellre vara den person som någon byter för eller personen någon inte kan komma över?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_252",
+      "text": "Skulle du hellre ha en partner som är fantastisk med ord eller fantastisk med handlingar?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_253",
+      "text": "Skulle du hellre dejta någon som får dig att skratta konstant eller någon som får dig att känna dig helt lugn?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_254",
+      "text": "Skulle du hellre veta om din crush drömmer om dig eller veta om de pratar om dig?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_255",
+      "text": "Skulle du hellre skicka det första meddelandet eller göra det första steget personligen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_256",
+      "text": "Skulle du hellre ha ett hemligt förhållande i tre månader eller ett offentligt förhållande som alla kommenterar?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_257",
+      "text": "Skulle du hellre få din flirtstil betygsatt av dina vänner eller din sms-stil av din crush?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_258",
+      "text": "Skulle du hellre vara rebounden som blir allvarlig eller den de aldrig glömmer?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_259",
+      "text": "Skulle du hellre dejta någon med din exakta humor eller din exakta ambition?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_260",
+      "text": "Skulle du hellre vara kär i någon otillgänglig eller ha någon otillgänglig kär i dig?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_261",
+      "text": "Skulle du hellre få en berusad bekännelse eller ett nyktert meddelande som tog en vecka att skriva?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_262",
+      "text": "Skulle du hellre få varje dejt att sluta med en djup konversation eller med en löjlig historia?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_263",
+      "text": "Skulle du hellre vara med någon som utmanar dig eller någon som dyrkar dig?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_264",
+      "text": "Vill du hellre hålla lite mystik eller veta allt omedelbart?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_265",
+      "text": "Skulle du hellre ha en partner som är bästa vän med dina vänner eller en som håller din värld åtskild?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_266",
+      "text": "Skulle du hellre dejta någon som aldrig blir svartsjuk eller någon som erkänner det ärligt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_267",
+      "text": "Skulle du hellre ha en intensiv ögonkontakt eller en handberöring vid exakt rätt ögonblick?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_268",
+      "text": "Skulle du hellre fastna för att spara bröllopsidéer för tidigt eller ta bort en dejtingapp för sent?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_269",
+      "text": "Skulle du hellre ha en flirtig vänskap som aldrig blir mer eller en relation som börjar med besvärlig flirtande?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_270",
+      "text": "Skulle du hellre kunna ångra ett skickat meddelande eller säga upp en mening personligen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_271",
+      "text": "Skulle du hellre ha din bästa vän att godkänna din crush eller din crush godkänna din bästa vän?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_272",
+      "text": "Skulle du hellre dejta någon som älskar uppmärksamhet eller någon som undviker det helt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_273",
+      "text": "Skulle du hellre vara anledningen till att någon ler mot sin telefon eller anledningen till att de inte kan fokusera hela dagen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_274",
+      "text": "Vill du hellre ha en romantisk middag med besvärlig tystnad eller en kaotisk utekväll med fantastisk energi?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_275",
+      "text": "Skulle du hellre bli tillfrågad med en storslagen gest eller en enkel ärlig mening?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_276",
+      "text": "Skulle du hellre ha ett förhållande som alla avundas eller en som ingen förstår utom du?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_277",
+      "text": "Skulle du hellre aldrig veta vem som var kär i dig eller veta och inte kunna göra något åt det?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_278",
+      "text": "Skulle du hellre skicka ett röstmeddelande till din crush eller lämna ett röstmeddelande till ditt ex?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_279",
+      "text": "Skulle du hellre låta din partner läsa dina tankar under en dag eller läsa din anteckningsapp i en minut?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_sv_280",
+      "text": "Skulle du hellre vara någons säkra val eller deras riskabla val?",
+      "intensity": "spicy",
+      "minAge": 18
     }
   ]
 }

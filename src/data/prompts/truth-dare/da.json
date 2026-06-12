@@ -1,0 +1,1232 @@
+{
+  "gameId": "truth-dare",
+  "locale": "da",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "td_da_001",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvad er dit mest pinlige barndomsminde?"
+    },
+    {
+      "id": "td_da_002",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvad er den sidste løgn, du fortalte?"
+    },
+    {
+      "id": "td_da_003",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvad er dit største kæledyr?"
+    },
+    {
+      "id": "td_da_004",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvilken vane ville du ønske, at du kunne bryde?"
+    },
+    {
+      "id": "td_da_005",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Har du nogensinde bebrejdet en anden for noget, du gjorde?"
+    },
+    {
+      "id": "td_da_006",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvad er et talent du har, som ingen kender til?"
+    },
+    {
+      "id": "td_da_007",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvad er det mest barnlige, du stadig gør?"
+    },
+    {
+      "id": "td_da_008",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvilken mad hader du i al hemmelighed, men lader som om du kan lide?"
+    },
+    {
+      "id": "td_da_009",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Har du nogensinde gået ind i en glasdør?"
+    },
+    {
+      "id": "td_da_010",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvad er din mest brugte emoji?"
+    },
+    {
+      "id": "td_da_011",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvad er dit guilty pleasure tv-program?"
+    },
+    {
+      "id": "td_da_012",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Har du nogensinde foræret en gave?"
+    },
+    {
+      "id": "td_da_013",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvad er den mest pinlige sang på din playliste?"
+    },
+    {
+      "id": "td_da_014",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Har du nogensinde ladet som om du var syg for at komme ud af planerne?"
+    },
+    {
+      "id": "td_da_015",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvad er den mærkeligste drøm, du har haft for nylig?"
+    },
+    {
+      "id": "td_da_016",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvad er den værste gave, du nogensinde har modtaget?"
+    },
+    {
+      "id": "td_da_017",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Synger du under bruseren? Hvilke sange?"
+    },
+    {
+      "id": "td_da_018",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Er du nogensinde faldet i søvn på arbejde eller skole?"
+    },
+    {
+      "id": "td_da_019",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvad er det mest latterlige, du har købt?"
+    },
+    {
+      "id": "td_da_020",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvad er noget du er forfærdelig til, men bliver ved med at prøve?"
+    },
+    {
+      "id": "td_da_021",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvad er den største hemmelighed, du har holdt for dine forældre?"
+    },
+    {
+      "id": "td_da_022",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem var dit første crush, og kender de det?"
+    },
+    {
+      "id": "td_da_023",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvad er det mest pinlige, der er sket for dig offentligt?"
+    },
+    {
+      "id": "td_da_024",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Har du nogensinde spøgt nogen? WHO?"
+    },
+    {
+      "id": "td_da_025",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvad er det småligste, du nogensinde har gjort for at få hævn?"
+    },
+    {
+      "id": "td_da_026",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvad er din mest irrationelle frygt?"
+    },
+    {
+      "id": "td_da_027",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Har du nogensinde stalket nogens sociale medier i timevis?"
+    },
+    {
+      "id": "td_da_028",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvad er den dyreste ting, du gik i stykker og ikke indrømmede?"
+    },
+    {
+      "id": "td_da_029",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Har du nogensinde ladet som om du kunne lide nogen for at få noget fra dem?"
+    },
+    {
+      "id": "td_da_030",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvad er din mest forvirrende fase eller æra, du har været igennem?"
+    },
+    {
+      "id": "td_da_031",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvornår græd du sidst og hvorfor?"
+    },
+    {
+      "id": "td_da_032",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvad er en løgn, du fortæller dig selv?"
+    },
+    {
+      "id": "td_da_033",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Har du nogensinde snydt i et spil?"
+    },
+    {
+      "id": "td_da_034",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvad er den værste date, du nogensinde har været på?"
+    },
+    {
+      "id": "td_da_035",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Har du nogensinde sendt en besked til den forkerte person?"
+    },
+    {
+      "id": "td_da_036",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvad er dit mest pinlige autokorrektur øjeblik?"
+    },
+    {
+      "id": "td_da_037",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvad er den mest akavede situation, du har været i for nylig?"
+    },
+    {
+      "id": "td_da_038",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Har du nogensinde sagt, at du var et sted, du ikke var?"
+    },
+    {
+      "id": "td_da_039",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvad er det værste, du nogensinde har gjort på en tur?"
+    },
+    {
+      "id": "td_da_040",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvilken mening har du, som de fleste er uenige i?"
+    },
+    {
+      "id": "td_da_041",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvad er det mest skandaløse, du har gjort, som ingen kender til?"
+    },
+    {
+      "id": "td_da_042",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Har du nogensinde været tiltrukket af nogen i dette rum?"
+    },
+    {
+      "id": "td_da_043",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvad er det mest vovede, du nogensinde har gjort for et crush?"
+    },
+    {
+      "id": "td_da_044",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvad er den mest pinlige tekst, du har sendt til den forkerte person?"
+    },
+    {
+      "id": "td_da_045",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Har du nogensinde udviklet følelser for en, der blev taget?"
+    },
+    {
+      "id": "td_da_046",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvad er den største fejl, du har begået i et forhold?"
+    },
+    {
+      "id": "td_da_047",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvis du skulle kysse nogen i dette rum, hvem skulle det så være?"
+    },
+    {
+      "id": "td_da_048",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvad er det, du har gjort, som du ikke er stolt af?"
+    },
+    {
+      "id": "td_da_049",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Har du nogensinde ved et uheld kunne lide et gammelt billede, mens du forfulgte nogen?"
+    },
+    {
+      "id": "td_da_050",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvad er det mest ude af karakter, du nogensinde har gjort?"
+    },
+    {
+      "id": "td_da_051",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvad er det mest jaloux du nogensinde har været?"
+    },
+    {
+      "id": "td_da_052",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Er du nogensinde blevet ved med at snakke med nogen bare for at holde dine muligheder åbne?"
+    },
+    {
+      "id": "td_da_053",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvad er det mest eventyrlige, du har gjort på et indfald?"
+    },
+    {
+      "id": "td_da_054",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvem synes du er den største flirt her?"
+    },
+    {
+      "id": "td_da_055",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Har du nogensinde flirtet dig ud af en klæbrig situation?"
+    },
+    {
+      "id": "td_da_056",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvad er en hemmelighed, du har holdt på, som du føler dig skyldig over?"
+    },
+    {
+      "id": "td_da_057",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Har du nogensinde løjet om din alder?"
+    },
+    {
+      "id": "td_da_058",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvad er det mest pinlige, nogen har fanget dig i at gøre?"
+    },
+    {
+      "id": "td_da_059",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Har du nogensinde været forelsket i nogen meget ældre eller yngre?"
+    },
+    {
+      "id": "td_da_060",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvad ville du gøre, hvis du vidste, at ingen nogensinde ville finde ud af det?"
+    },
+    {
+      "id": "td_da_061",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Gør dit bedste indtryk af nogen i rummet."
+    },
+    {
+      "id": "td_da_062",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tal med accent i de næste 3 minutter."
+    },
+    {
+      "id": "td_da_063",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lav 10 hoppestik lige nu."
+    },
+    {
+      "id": "td_da_064",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lad nogen sende sms'er til nogen i dine kontakter."
+    },
+    {
+      "id": "td_da_065",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Syng omkvædet af din yndlingssang."
+    },
+    {
+      "id": "td_da_066",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lav din bedste robotdans i 30 sekunder."
+    },
+    {
+      "id": "td_da_067",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lad gruppen give dig en ny frisure i 5 minutter."
+    },
+    {
+      "id": "td_da_068",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tal kun i spørgsmål til næste runde."
+    },
+    {
+      "id": "td_da_069",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lav din bedste catwalk på tværs af lokalet."
+    },
+    {
+      "id": "td_da_070",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fortæl en vittighed, der får nogen til at grine."
+    },
+    {
+      "id": "td_da_071",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ring til et familiemedlem og sig, at du bare ville høre deres stemme."
+    },
+    {
+      "id": "td_da_072",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Spis en skefuld af noget, du ikke kan lide fra køkkenet."
+    },
+    {
+      "id": "td_da_073",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tegn et portræt af personen til venstre uden at løfte pennen."
+    },
+    {
+      "id": "td_da_074",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lad gruppen skrive en status på dine sociale medier."
+    },
+    {
+      "id": "td_da_075",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lav en dramatisk læsning af din sidste tekstsamtale."
+    },
+    {
+      "id": "td_da_076",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Prøv at slikke din albue i 30 sekunder."
+    },
+    {
+      "id": "td_da_077",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "High five alle i lokalet, mens de siger deres navn."
+    },
+    {
+      "id": "td_da_078",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Gør din bedste onde skurk til at grine."
+    },
+    {
+      "id": "td_da_079",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lad som om du er et nyhedsanker og rapporter den aktuelle scene."
+    },
+    {
+      "id": "td_da_080",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Fremstil en filmscene uden at tale, og lad andre gætte det."
+    },
+    {
+      "id": "td_da_081",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lad nogen gå gennem din kamerarulle i 30 sekunder."
+    },
+    {
+      "id": "td_da_082",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ring til en tilfældig kontakt og sig 'Jeg ved, hvad du gjorde sidste sommer.'"
+    },
+    {
+      "id": "td_da_083",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Post en pinlig selfie på din historie i 10 minutter."
+    },
+    {
+      "id": "td_da_084",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lad nogen læse dine sidste 10 tekster højt."
+    },
+    {
+      "id": "td_da_085",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Bær et stykke tøj med vrangen ud i resten af spillet."
+    },
+    {
+      "id": "td_da_086",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Tal kun på rim i de næste 5 minutter."
+    },
+    {
+      "id": "td_da_087",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lav en freestyle-rap om personen overfor dig."
+    },
+    {
+      "id": "td_da_088",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sid på gulvet resten af spillet."
+    },
+    {
+      "id": "td_da_089",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Komplimenter hver person i rummet med en specifik og personlig kompliment."
+    },
+    {
+      "id": "td_da_090",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lad gruppen vælge et ord, du ikke kan sige i 10 minutter."
+    },
+    {
+      "id": "td_da_091",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Send en stemmebesked til en person i dine kontakter, hvor du siger \"Jeg savner dig\"."
+    },
+    {
+      "id": "td_da_092",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Skift et tøj med personen til højre i 5 minutter."
+    },
+    {
+      "id": "td_da_093",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lad nogen vælge et nyt profilbillede til dig i en time."
+    },
+    {
+      "id": "td_da_094",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lav et indtryk af din yndlingsberømthed, indtil nogen gætter det."
+    },
+    {
+      "id": "td_da_095",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sig noget pænt om hver person i rummet, men den sidste skal steges."
+    },
+    {
+      "id": "td_da_096",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Fortæl alt, hvad du gør de næste 3 minutter, i tredje person."
+    },
+    {
+      "id": "td_da_097",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lav en dans i TikTok-stil til den sang, gruppen vælger."
+    },
+    {
+      "id": "td_da_098",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Spis noget i køkkenet valgt af gruppen uden at se på det først."
+    },
+    {
+      "id": "td_da_099",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lad nogen tegne på dit ansigt med en vaskbar tusch."
+    },
+    {
+      "id": "td_da_100",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Afslør dine top 5 mest spillede sange."
+    },
+    {
+      "id": "td_da_101",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lad gruppen skrive et opslag på dit vigtigste sociale medie, og hold det oppe i 30 minutter."
+    },
+    {
+      "id": "td_da_102",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Send en flirtende emoji til den sidste person, du sendte en sms."
+    },
+    {
+      "id": "td_da_103",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Giv en 1 minuts rygmassage til den person du ønsker."
+    },
+    {
+      "id": "td_da_104",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Afslør den sidste person, du så op på sociale medier, og hvorfor."
+    },
+    {
+      "id": "td_da_105",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lad alle se din senest slettede tekst."
+    },
+    {
+      "id": "td_da_106",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Send 'Hej, tænker på dig!' til din seneste ex."
+    },
+    {
+      "id": "td_da_107",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Gå din mest attraktive tur på tværs af lokalet, mens alle ser på."
+    },
+    {
+      "id": "td_da_108",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lad gruppen oprette din dating profil bio."
+    },
+    {
+      "id": "td_da_109",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Brug 60 sekunder på at prøve at overbevise nogen i rummet om at gå på date med dig."
+    },
+    {
+      "id": "td_da_110",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lad nogen stille dig 5 personlige spørgsmål, som du skal besvare ærligt."
+    },
+    {
+      "id": "td_da_111",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Serenade personen efter eget valg med enhver sang i 30 sekunder."
+    },
+    {
+      "id": "td_da_112",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lad gruppen sætte dig op på en blind date ved at vælge fra dine kontakter."
+    },
+    {
+      "id": "td_da_113",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Fortæl gruppen din 3-punkts tjekliste for en potentiel partner."
+    },
+    {
+      "id": "td_da_114",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lad gruppen style et outfit til dig fra din egen garderobe."
+    },
+    {
+      "id": "td_da_115",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Del et skærmbillede af din mest skræmmende flirtende samtale."
+    },
+    {
+      "id": "td_da_116",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Blink til hver person, der taler i de næste 5 minutter."
+    },
+    {
+      "id": "td_da_117",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lad nogen stege dig i 60 sekunder uden at reagere."
+    },
+    {
+      "id": "td_da_118",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Del en hemmelighed om dig selv, som ingen i rummet kender."
+    },
+    {
+      "id": "td_da_119",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Find din bedste afhentningslinje og aflever den til personen ved siden af dig."
+    },
+    {
+      "id": "td_da_120",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lad gruppen rangere alle efter tiltrækningskraft og læs listen højt."
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvad er det sidste du søgte efter online?",
+      "id": "td_da_121"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvilken sang kender du alle ordene til?",
+      "id": "td_da_122"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvad er din mest brugte app?",
+      "id": "td_da_123"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvad er en mad, du kan spise hver dag?",
+      "id": "td_da_124"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvad er det bedste kompliment du har fået?",
+      "id": "td_da_125"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvad er din go-to komfort film eller show?",
+      "id": "td_da_126"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvad er noget du er stolt af fra i år?",
+      "id": "td_da_127"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvad er din mærkeligste vane?",
+      "id": "td_da_128"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvad er din foretrukne måde at slappe af på?",
+      "id": "td_da_129"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hvad er et talent, du ville ønske, du havde?",
+      "id": "td_da_130"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Gør dit bedste indtryk af en berømthed i 10 sekunder.",
+      "id": "td_da_131"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tal i en hvisken til næste runde.",
+      "id": "td_da_132"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vis det sidste billede, du tog på din telefon.",
+      "id": "td_da_133"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lav 10 hoppestik.",
+      "id": "td_da_134"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lad en anden vælge dit profilbillede i 24 timer.",
+      "id": "td_da_135"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Del en sjov fakta om dig selv.",
+      "id": "td_da_136"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Drej rundt 5 gange og gå i en lige linje.",
+      "id": "td_da_137"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Send en venlig emoji til den sidste person, der sendte dig en sms.",
+      "id": "td_da_138"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lad som om du er nyhedsreporter i 20 sekunder.",
+      "id": "td_da_139"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lad gruppen vælge et ord, du skal bruge i hver sætning i 3 minutter.",
+      "id": "td_da_140"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvad er den mest akavede tekst, du har sendt?",
+      "id": "td_da_141"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem sms'er du mest lige nu?",
+      "id": "td_da_142"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvad er et løfte, du fortryder at give?",
+      "id": "td_da_143"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvad er noget, du foregiver at kunne lide, men ikke gør?",
+      "id": "td_da_144"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvornår var du sidst jaloux?",
+      "id": "td_da_145"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvad er en hemmelighed, du har holdt for dine venner?",
+      "id": "td_da_146"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvad er det værste råd, du nogensinde har fulgt?",
+      "id": "td_da_147"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvad er den dyreste ting du har gået i stykker?",
+      "id": "td_da_148"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvad er en frygt, du ikke har fortalt nogen?",
+      "id": "td_da_149"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvem er den sidste person, du har slået lyden fra eller ophørt med at følge?",
+      "id": "td_da_150"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Send en tilfældig sangtekst til din historie.",
+      "id": "td_da_151"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Skriv en kompliment til nogen lige nu.",
+      "id": "td_da_152"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Spis en snack uden at bruge hænderne.",
+      "id": "td_da_153"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lad nogen style dit hår.",
+      "id": "td_da_154"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lav en dramatisk læsning af den sidste besked, du sendte.",
+      "id": "td_da_155"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Forsøg en dum dans i 20 sekunder.",
+      "id": "td_da_156"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Tal med en accent valgt af gruppen i et minut.",
+      "id": "td_da_157"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Tegn et hurtigt portræt af en i gruppen.",
+      "id": "td_da_158"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Del din skærm i 10 sekunder.",
+      "id": "td_da_159"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Byt plads med nogen, indtil din næste tur.",
+      "id": "td_da_160"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Har du nogensinde kunnet lide to mennesker på samme tid?",
+      "id": "td_da_161"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvad er dit største dating røde flag?",
+      "id": "td_da_162"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvad er det mest flirtende, du har gjort for nylig?",
+      "id": "td_da_163"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvad er noget du har skjult for en partner?",
+      "id": "td_da_164"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hvad er den fedeste besked, du har sendt?",
+      "id": "td_da_165"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Afslør dit sidst gemte billede i din kamerarulle.",
+      "id": "td_da_166"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Læs den sidste DM du modtog højt.",
+      "id": "td_da_167"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Send en flirtende GIF til en, du stoler på.",
+      "id": "td_da_168"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lad gruppen se på din mest brugte emoji-liste.",
+      "id": "td_da_169"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Indrøm dit seneste crush (ingen navne, kun initialer).",
+      "id": "td_da_170"
+    },
+    {
+      "id": "td_da_171",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvad er det mest pinlige i din søgehistorik?"
+    },
+    {
+      "id": "td_da_172",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvilken app stjæler mest af din tid?"
+    },
+    {
+      "id": "td_da_173",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hvilken besked har du skrevet og aldrig sendt?"
+    },
+    {
+      "id": "td_da_174",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vis gruppen dit senest gemte meme."
+    },
+    {
+      "id": "td_da_175",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Beskriv din sidste selfie, som om det var et museumsværk."
+    }
+  ]
+}

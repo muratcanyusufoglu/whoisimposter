@@ -13,7 +13,11 @@ import * as Localization from 'expo-localization'
 function getDeviceLanguage(): string {
   try {
     const locale = Localization.getLocales()[0]
-    const code = locale?.languageTag?.startsWith('zh-Hant') ? 'zh-Hant' : locale?.languageCode ?? 'en'
+    const code = locale?.languageTag?.startsWith('zh-Hant')
+      ? 'zh-Hant'
+      : locale?.languageCode === 'no'
+        ? 'nb'
+        : locale?.languageCode ?? 'en'
     return SUPPORTED_LOCALES.includes(code as (typeof SUPPORTED_LOCALES)[number]) ? code : 'en'
   } catch {
     return 'en'

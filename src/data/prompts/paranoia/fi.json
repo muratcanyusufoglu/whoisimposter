@@ -1,0 +1,949 @@
+{
+  "gameId": "paranoia",
+  "locale": "fi",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "par_fi_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka selviytyisi zombi-apokalypsista pisimpään?"
+    },
+    {
+      "id": "par_fi_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka olisi paras valmistamaan viiden ruokalajin aterian?"
+    },
+    {
+      "id": "par_fi_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka voittaisi tuijotuskilpailun?"
+    },
+    {
+      "id": "par_fi_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kenestä tulisi ensin miljonääri?"
+    },
+    {
+      "id": "par_fi_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka olisi hauskin matkakumppani?"
+    },
+    {
+      "id": "par_fi_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka itkisi ensimmäisenä surullisen elokuvan aikana?"
+    },
+    {
+      "id": "par_fi_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka voittaisi triviakilpailun?"
+    },
+    {
+      "id": "par_fi_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kenestä tulee todennäköisimmin kuuluisa?"
+    },
+    {
+      "id": "par_fi_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka olisi paras vanhempi?"
+    },
+    {
+      "id": "par_fi_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka ottaisi ensimmäisenä tatuoinnin?"
+    },
+    {
+      "id": "par_fi_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka on paras pitämään salaisuudet?"
+    },
+    {
+      "id": "par_fi_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka on seikkailunhaluisin henkilö täällä?"
+    },
+    {
+      "id": "par_fi_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka kestäisi pisimpään käyttämättä puhelintaan?"
+    },
+    {
+      "id": "par_fi_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka voittaisi laulukilpailun?"
+    },
+    {
+      "id": "par_fi_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka olisi paras supersankari?"
+    },
+    {
+      "id": "par_fi_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kenellä on mielenkiintoisin elämäntarina?"
+    },
+    {
+      "id": "par_fi_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka olisi huonoin pomo?"
+    },
+    {
+      "id": "par_fi_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka täällä on järjestäytynein henkilö?"
+    },
+    {
+      "id": "par_fi_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka muuttaisi ensimmäisenä toiseen maahan?"
+    },
+    {
+      "id": "par_fi_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka olisi paras peliohjelman kilpailija?"
+    },
+    {
+      "id": "par_fi_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kenellä on mielenkiintoisimmat salaisuudet?"
+    },
+    {
+      "id": "par_fi_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka todennäköisimmin järjestää yllätysjuhlat jollekin?"
+    },
+    {
+      "id": "par_fi_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kenen kanssa olisi huonoin jakaa hotellihuone?"
+    },
+    {
+      "id": "par_fi_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka olisi viimeinen henkilö, joka seisoisi keskustelussa?"
+    },
+    {
+      "id": "par_fi_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka äänestettäisiin ensimmäisenä Survivorista?"
+    },
+    {
+      "id": "par_fi_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka voittaisi pokeripelin?"
+    },
+    {
+      "id": "par_fi_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka on suurin draamamagneetti täällä?"
+    },
+    {
+      "id": "par_fi_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka olisi paras neuvottelija?"
+    },
+    {
+      "id": "par_fi_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka olisi huonoin valehtelemaan?"
+    },
+    {
+      "id": "par_fi_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka juoksee todennäköisimmin maratonin?"
+    },
+    {
+      "id": "par_fi_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka sanoo aina kyllä, kun heidän pitäisi sanoa ei?"
+    },
+    {
+      "id": "par_fi_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka itkeisi ensimmäisenä tappelussa?"
+    },
+    {
+      "id": "par_fi_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka olisi hauskin stand-up koomikko?"
+    },
+    {
+      "id": "par_fi_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka todennäköisimmin paljastaa salaisuutesi?"
+    },
+    {
+      "id": "par_fi_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka olisi pahin henkilö, jonka kanssa juuttuisi hissiin?"
+    },
+    {
+      "id": "par_fi_036",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kenellä on kaoottisin deittailuhistoria?"
+    },
+    {
+      "id": "par_fi_037",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka on ryhmän paras flirttailija?"
+    },
+    {
+      "id": "par_fi_038",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka on suudellut eniten ihmisiä täällä?"
+    },
+    {
+      "id": "par_fi_039",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka todennäköisimmin liukuu jonkun DM:ään tänä iltana?"
+    },
+    {
+      "id": "par_fi_040",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka menisi treffeille täysin tuntemattoman miehen kanssa epäröimättä?"
+    },
+    {
+      "id": "par_fi_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kenellä on paras rizz täällä?"
+    },
+    {
+      "id": "par_fi_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kenellä on todennäköisimmin salainen ihailija tässä huoneessa?"
+    },
+    {
+      "id": "par_fi_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka olisi dramaattisin ex?"
+    },
+    {
+      "id": "par_fi_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kenellä on ollut eniten tilanteita?"
+    },
+    {
+      "id": "par_fi_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka rakastuisi nopeimmin?"
+    },
+    {
+      "id": "par_fi_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka lähettää todennäköisimmin vaarallisen tekstin ja katuu sitä välittömästi?"
+    },
+    {
+      "id": "par_fi_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka voisi hurmata tiensä ulos mistä tahansa tilanteesta?"
+    },
+    {
+      "id": "par_fi_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kenellä on eniten lukemattomia DM-viestejä juuri nyt?"
+    },
+    {
+      "id": "par_fi_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka tulee helpoimmin mustasukkaiseksi?"
+    },
+    {
+      "id": "par_fi_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka todennäköisimmin edelleen puhuu exänsä kanssa juuri nyt?"
+    },
+    {
+      "id": "par_fi_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka olisi paras antamaan reittiohjeet ilman karttaa?"
+    },
+    {
+      "id": "par_fi_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka adoptoisi kulkueläimen ensimmäisenä?"
+    },
+    {
+      "id": "par_fi_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka aloittaisi uuden harrastuksen ja jatkaisi sitä?"
+    },
+    {
+      "id": "par_fi_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka olisi joukkueen paras kapteeni?"
+    },
+    {
+      "id": "par_fi_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka voittaisi leivontakilpailun?"
+    },
+    {
+      "id": "par_fi_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka ystävystyisi tuntemattomien kanssa matkalla?"
+    },
+    {
+      "id": "par_fi_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka suunnittelee ensimmäisenä yllätysjuhlat?"
+    },
+    {
+      "id": "par_fi_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka selviäisi viikon ilman puhelinta?"
+    },
+    {
+      "id": "par_fi_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka olisi paras budjetoimaan rahaa?"
+    },
+    {
+      "id": "par_fi_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka unohtaisi sateenvarjonsa sadepäivänä?"
+    },
+    {
+      "id": "par_fi_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka tanssiisi ensimmäisenä häissä?"
+    },
+    {
+      "id": "par_fi_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kenellä olisi paras musiikkimaku?"
+    },
+    {
+      "id": "par_fi_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka eksyisi edes GPS:n kanssa?"
+    },
+    {
+      "id": "par_fi_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka olisi paras pitämään salaisuudet?"
+    },
+    {
+      "id": "par_fi_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka vapaaehtoisesti auttaisi naapuria?"
+    },
+    {
+      "id": "par_fi_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka järjestäisi porukan aikataulun?"
+    },
+    {
+      "id": "par_fi_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka juo koko esityksen yhdessä päivässä?"
+    },
+    {
+      "id": "par_fi_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka olisi paras kokkaamaan yleisölle?"
+    },
+    {
+      "id": "par_fi_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka ottaisi eniten kuvia matkalla?"
+    },
+    {
+      "id": "par_fi_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka lähtisi juhlista viimeisenä?"
+    },
+    {
+      "id": "par_fi_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka haamuisi ryhmäkeskustelun viikkoja?"
+    },
+    {
+      "id": "par_fi_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka peruisi suunnitelmat heikoimmalla syyllä?"
+    },
+    {
+      "id": "par_fi_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka miettisi yhtä tekstiä tuntikausia?"
+    },
+    {
+      "id": "par_fi_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka kuluttaisi eniten ensitreffeillä?"
+    },
+    {
+      "id": "par_fi_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka rakastuisi johonkin nopeimmin?"
+    },
+    {
+      "id": "par_fi_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka säilyttäisi ihastuksen salaisuuden pisimpään?"
+    },
+    {
+      "id": "par_fi_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka todennäköisimmin aloittaa huhun vahingossa?"
+    },
+    {
+      "id": "par_fi_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka kirjoittaisi ensimmäisenä erosta?"
+    },
+    {
+      "id": "par_fi_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka seurustelee jonkun kanssa, joka on täysin erilainen kuin tavallinen?"
+    },
+    {
+      "id": "par_fi_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka pysyisi ystävänä exän kanssa?"
+    },
+    {
+      "id": "par_fi_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka olisi kilpailukykyisin pelien aikana?"
+    },
+    {
+      "id": "par_fi_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka olisi suurin flirttailija juhlissa?"
+    },
+    {
+      "id": "par_fi_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka tekisi rohkeaa uranvaihtoa kertomatta kenellekään?"
+    },
+    {
+      "id": "par_fi_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka todennäköisimmin muuttaa toiseen maahan?"
+    },
+    {
+      "id": "par_fi_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka pakkaaisi yli viikonlopun matkalle?"
+    },
+    {
+      "id": "par_fi_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka saapuisi tuntia aikaisemmin?"
+    },
+    {
+      "id": "par_fi_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka unohtaisi vastata vaikka viestin lukemisen jälkeen?"
+    },
+    {
+      "id": "par_fi_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka säilyttäisi kuvakaappaukset \"varmuuden vuoksi\"?"
+    },
+    {
+      "id": "par_fi_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka valitsisi dramaattisimmat elokuvat?"
+    },
+    {
+      "id": "par_fi_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka olisi itsepintaisin kiistassa?"
+    },
+    {
+      "id": "par_fi_091",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kenellä olisi sotkuisin treffihistoria?"
+    },
+    {
+      "id": "par_fi_092",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kenellä olisi todennäköisimmin salainen ihailija?"
+    },
+    {
+      "id": "par_fi_093",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka sanoisi ensimmäisenä \"rakastan sinua\"?"
+    },
+    {
+      "id": "par_fi_094",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka jatkaisi flirttailua, vaikka se olisi selvää?"
+    },
+    {
+      "id": "par_fi_095",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka todennäköisimmin käy läpi kumppanin puhelimen?"
+    },
+    {
+      "id": "par_fi_096",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kenellä palautuisi nopeimmin?"
+    },
+    {
+      "id": "par_fi_097",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka olisi kateellisin parisuhteessa?"
+    },
+    {
+      "id": "par_fi_098",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka seurustelee kahden ihmisen kanssa samaan aikaan?"
+    },
+    {
+      "id": "par_fi_099",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka piilottaisi tilanteen ystäviltä?"
+    },
+    {
+      "id": "par_fi_100",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka todennäköisimmin rikkoisi sydämet huomaamattaan?"
+    },
+    {
+      "id": "par_fi_101",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka lähtisi vapaaehtoisesti johtamaan ryhmäprojektia?"
+    },
+    {
+      "id": "par_fi_102",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka selviäisi pisimpään ilman puhelintaan?"
+    },
+    {
+      "id": "par_fi_103",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka tanssii ensimmäisenä juhlissa?"
+    },
+    {
+      "id": "par_fi_104",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka eksyisi yksinkertaisella kävelyllä?"
+    },
+    {
+      "id": "par_fi_105",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka muistaisi kaikkien kahvitilauksen?"
+    },
+    {
+      "id": "par_fi_106",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka toisi eväitä koko ryhmälle?"
+    },
+    {
+      "id": "par_fi_107",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka aloittaisi keskustelun tuntemattoman kanssa?"
+    },
+    {
+      "id": "par_fi_108",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka olisi paras rauhoittamaan kaikkia?"
+    },
+    {
+      "id": "par_fi_109",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka tekisi palapelin valmiiksi nopeimmin?"
+    },
+    {
+      "id": "par_fi_110",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka myöhästyisi muistutuksista huolimatta?"
+    },
+    {
+      "id": "par_fi_111",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka tekisi yksityiskohtaisen suunnitelman matkalle?"
+    },
+    {
+      "id": "par_fi_112",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka voittaisi ruoanlaittokilpailun?"
+    },
+    {
+      "id": "par_fi_113",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka tietäisi parhaat valokuvapaikat?"
+    },
+    {
+      "id": "par_fi_114",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka todennäköisimmin adoptoisi lemmikin?"
+    },
+    {
+      "id": "par_fi_115",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka palaisi auringossa nopeimmin?"
+    },
+    {
+      "id": "par_fi_116",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka unohtaisi lompakkonsa kotiin?"
+    },
+    {
+      "id": "par_fi_117",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka kokeilisi ensimmäisenä uutta trendiä?"
+    },
+    {
+      "id": "par_fi_118",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka käyttäisi kaikki rahansa matkustamiseen?"
+    },
+    {
+      "id": "par_fi_119",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka pilaa yllätyksen vahingossa?"
+    },
+    {
+      "id": "par_fi_120",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuka olisi paras pitämään salaisuudet?"
+    },
+    {
+      "id": "par_fi_121",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka kirjoittaisi heti takaisin joka kerta?"
+    },
+    {
+      "id": "par_fi_122",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka leviäisi jostain typerästä?"
+    },
+    {
+      "id": "par_fi_123",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kenestä tulisi kuuluisa kaupungissaan?"
+    },
+    {
+      "id": "par_fi_124",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka ottaisi riskin ja muuttaisi ulkomaille?"
+    },
+    {
+      "id": "par_fi_125",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka lopettaisi työnsä tavoittaakseen unelmaa?"
+    },
+    {
+      "id": "par_fi_126",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka muuttaisi harrastuksen bisnekseksi?"
+    },
+    {
+      "id": "par_fi_127",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka jää kiinni haaveilemasta kokouksessa?"
+    },
+    {
+      "id": "par_fi_128",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka väitteli tiensä ulos lipusta?"
+    },
+    {
+      "id": "par_fi_129",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka kadottaisi avaimensa kahdesti viikossa?"
+    },
+    {
+      "id": "par_fi_130",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka aloittaisi huhun ilman mitään merkitystä?"
+    },
+    {
+      "id": "par_fi_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kenellä olisi dramaattisimmat reaktiot?"
+    },
+    {
+      "id": "par_fi_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka flirttaili tiensä saadakseen pöydän?"
+    },
+    {
+      "id": "par_fi_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kenellä olisi salainen ihastus huoneessa?"
+    },
+    {
+      "id": "par_fi_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka katoaisi deitin elämästä hyvän illan jälkeen?"
+    },
+    {
+      "id": "par_fi_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka sanoisi ensimmäisenä \"rakastan sinua\"?"
+    },
+    {
+      "id": "par_fi_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka säilyttäisi treffisovelluksia varmuuden vuoksi?"
+    },
+    {
+      "id": "par_fi_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka nauttisi juoruista salaa?"
+    },
+    {
+      "id": "par_fi_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka ihastuisi johonkin lyhyellä matkalla?"
+    },
+    {
+      "id": "par_fi_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka lähettäisi tuplaviestin?"
+    },
+    {
+      "id": "par_fi_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka jäisi kiinni tarkistamasta puhelintaan treffeillä?"
+    },
+    {
+      "id": "par_fi_141",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka peruisi suunnitelmat viime hetkellä?"
+    },
+    {
+      "id": "par_fi_142",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka lainaisi jotain ja unohtaisi palauttaa?"
+    },
+    {
+      "id": "par_fi_143",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka itkisi mainoksessa?"
+    },
+    {
+      "id": "par_fi_144",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka aloittaisi keskustelun tyhjästä?"
+    },
+    {
+      "id": "par_fi_145",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka toisi laturin kaikille?"
+    },
+    {
+      "id": "par_fi_146",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka olisi viimeinen henkilö, joka lähtee puolueesta?"
+    },
+    {
+      "id": "par_fi_147",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka tietäisi minkä tahansa kappaleen sanat?"
+    },
+    {
+      "id": "par_fi_148",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka ottaisi nokoset julkisella paikalla?"
+    },
+    {
+      "id": "par_fi_149",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka aloittaisi ryhmäkeskustelun kaikesta?"
+    },
+    {
+      "id": "par_fi_150",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kuka pitäis parhaan improvisoidun puheen?"
+    },
+    {
+      "id": "par_fi_151",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kenellä on kaoottisin kamerarulla?"
+    },
+    {
+      "id": "par_fi_152",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka paljastuu heidän hakuhistoriastaan?"
+    },
+    {
+      "id": "par_fi_153",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka salaa tarkistaa, kuka katsoi heidän tarinansa?"
+    },
+    {
+      "id": "par_fi_154",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka selviytyisi pahimmin päivästä ilman puhelinta?"
+    },
+    {
+      "id": "par_fi_155",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kenellä on vahvin meemiarkisto?"
+    },
+    {
+      "id": "par_fi_156",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka muuttaisi hiljaisen peliillan tanssilattiaksi?"
+    },
+    {
+      "id": "par_fi_157",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuka pitää pisteet niin kuin asianajaja?"
+    }
+  ]
+}

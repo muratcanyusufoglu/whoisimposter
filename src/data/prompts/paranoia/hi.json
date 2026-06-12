@@ -1,0 +1,949 @@
+{
+  "gameId": "paranoia",
+  "locale": "hi",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "par_hi_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "ज़ोंबी सर्वनाश में सबसे लंबे समय तक कौन जीवित रहेगा?"
+    },
+    {
+      "id": "par_hi_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "पाँच-कोर्स भोजन पकाने में सर्वश्रेष्ठ कौन होगा?"
+    },
+    {
+      "id": "par_hi_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "घूरकर देखने की प्रतियोगिता कौन जीतेगा?"
+    },
+    {
+      "id": "par_hi_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "सबसे पहले करोड़पति कौन बनेगा?"
+    },
+    {
+      "id": "par_hi_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "सबसे मज़ेदार यात्रा साथी कौन होगा?"
+    },
+    {
+      "id": "par_hi_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "किसी दुखद फिल्म के दौरान सबसे पहले कौन रोएगा?"
+    },
+    {
+      "id": "par_hi_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "सामान्य ज्ञान प्रतियोगिता कौन जीतेगा?"
+    },
+    {
+      "id": "par_hi_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "किसके प्रसिद्ध होने की सबसे अधिक संभावना है?"
+    },
+    {
+      "id": "par_hi_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "सबसे अच्छे माता-पिता कौन होंगे?"
+    },
+    {
+      "id": "par_hi_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "टैटू बनवाने वाला पहला व्यक्ति कौन होगा?"
+    },
+    {
+      "id": "par_hi_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "राज़ छुपाने में सबसे अच्छा कौन है?"
+    },
+    {
+      "id": "par_hi_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "यहाँ सबसे साहसी व्यक्ति कौन है?"
+    },
+    {
+      "id": "par_hi_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "कौन अपने फोन का उपयोग किए बिना सबसे लंबे समय तक टिकेगा?"
+    },
+    {
+      "id": "par_hi_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "गायन प्रतियोगिता कौन जीतेगा?"
+    },
+    {
+      "id": "par_hi_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "सबसे अच्छा सुपरहीरो कौन होगा?"
+    },
+    {
+      "id": "par_hi_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "सबसे दिलचस्प जीवन कहानी किसकी है?"
+    },
+    {
+      "id": "par_hi_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "सबसे ख़राब बॉस कौन होगा?"
+    },
+    {
+      "id": "par_hi_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "यहाँ सबसे अधिक संगठित व्यक्ति कौन है?"
+    },
+    {
+      "id": "par_hi_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "दूसरे देश में जाने वाला पहला व्यक्ति कौन होगा?"
+    },
+    {
+      "id": "par_hi_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "सर्वश्रेष्ठ गेम शो प्रतियोगी कौन होगा?"
+    },
+    {
+      "id": "par_hi_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "सबसे दिलचस्प रहस्य किसके पास हैं?"
+    },
+    {
+      "id": "par_hi_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "किसी के लिए सरप्राइज़ पार्टी देने की सबसे अधिक संभावना कौन है?"
+    },
+    {
+      "id": "par_hi_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "होटल का कमरा किसके साथ साझा करना सबसे खराब होगा?"
+    },
+    {
+      "id": "par_hi_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "बहस में खड़ा होने वाला आखिरी व्यक्ति कौन होगा?"
+    },
+    {
+      "id": "par_hi_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "सर्वाइवर में सबसे पहले किसे वोट दिया जाएगा?"
+    },
+    {
+      "id": "par_hi_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "पोकर गेम कौन जीतेगा?"
+    },
+    {
+      "id": "par_hi_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "यहां सबसे बड़ा नाटक चुंबक कौन है?"
+    },
+    {
+      "id": "par_hi_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "सबसे अच्छा वार्ताकार कौन होगा?"
+    },
+    {
+      "id": "par_hi_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "झूठ बोलने में सबसे ख़राब कौन होगा?"
+    },
+    {
+      "id": "par_hi_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "मैराथन में दौड़ने की सबसे अधिक संभावना किसकी है?"
+    },
+    {
+      "id": "par_hi_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "कौन हमेशा हाँ कहता है जबकि उसे ना कहना चाहिए?"
+    },
+    {
+      "id": "par_hi_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "किसी लड़ाई में सबसे पहले रोने वाला कौन होगा?"
+    },
+    {
+      "id": "par_hi_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "सबसे मजेदार स्टैंड-अप कॉमेडियन कौन होगा?"
+    },
+    {
+      "id": "par_hi_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "आपके रहस्यों को उजागर करने की सबसे अधिक संभावना कौन है?"
+    },
+    {
+      "id": "par_hi_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "लिफ्ट में फंसने वाला सबसे बुरा व्यक्ति कौन होगा?"
+    },
+    {
+      "id": "par_hi_036",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "सबसे अराजक डेटिंग इतिहास किसका है?"
+    },
+    {
+      "id": "par_hi_037",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "समूह में सबसे अच्छा फ़्लर्ट कौन है?"
+    },
+    {
+      "id": "par_hi_038",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "यहां सबसे ज्यादा लोगों को किसने चूमा है?"
+    },
+    {
+      "id": "par_hi_039",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "आज रात किसी के डीएम में शामिल होने की सबसे अधिक संभावना किसकी है?"
+    },
+    {
+      "id": "par_hi_040",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "बिना किसी झिझक के किसी अजनबी के साथ डेट पर कौन जाएगा?"
+    },
+    {
+      "id": "par_hi_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "यहाँ सबसे अच्छा रिज़ किसके पास है?"
+    },
+    {
+      "id": "par_hi_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "इस कमरे में किसी गुप्त प्रशंसक के होने की सबसे अधिक संभावना किसकी है?"
+    },
+    {
+      "id": "par_hi_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "सबसे नाटकीय पूर्व कौन होगा?"
+    },
+    {
+      "id": "par_hi_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "सबसे अधिक परिस्थितियाँ किसके पास रही हैं?"
+    },
+    {
+      "id": "par_hi_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "कौन सबसे तेजी से प्यार में पड़ेगा?"
+    },
+    {
+      "id": "par_hi_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "जोखिम भरा संदेश भेजने और तुरंत पछताने की सबसे अधिक संभावना कौन है?"
+    },
+    {
+      "id": "par_hi_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "कौन उन्हें किसी भी स्थिति से बाहर निकलने के लिए आकर्षित कर सकता है?"
+    },
+    {
+      "id": "par_hi_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "इस समय सबसे अधिक अपठित डीएम किसके पास हैं?"
+    },
+    {
+      "id": "par_hi_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "सबसे आसानी से कौन ईर्ष्या करता है?"
+    },
+    {
+      "id": "par_hi_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "इस बात की सबसे अधिक संभावना कौन है कि वह अभी भी अपने पूर्व-साथी से बात कर रहा हो?"
+    },
+    {
+      "id": "par_hi_051",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "बिना मानचित्र के दिशा-निर्देश देने में सर्वश्रेष्ठ कौन होगा?"
+    },
+    {
+      "id": "par_hi_052",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "किसी आवारा जानवर को सबसे पहले कौन गोद लेगा?"
+    },
+    {
+      "id": "par_hi_053",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "कौन नया शौक शुरू करेगा और उस पर कायम रहेगा?"
+    },
+    {
+      "id": "par_hi_054",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "सर्वश्रेष्ठ टीम कप्तान कौन होगा?"
+    },
+    {
+      "id": "par_hi_055",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "बेकिंग प्रतियोगिता कौन जीतेगा?"
+    },
+    {
+      "id": "par_hi_056",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "यात्रा के दौरान अजनबियों से कौन दोस्ती करेगा?"
+    },
+    {
+      "id": "par_hi_057",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "सरप्राइज़ पार्टी की योजना बनाने वाला पहला व्यक्ति कौन होगा?"
+    },
+    {
+      "id": "par_hi_058",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "अपने फोन के बिना एक सप्ताह तक कौन जीवित रहेगा?"
+    },
+    {
+      "id": "par_hi_059",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "पैसे का बजट बनाने में सबसे अच्छा कौन होगा?"
+    },
+    {
+      "id": "par_hi_060",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "बरसात के दिन अपना छाता कौन भूलेगा?"
+    },
+    {
+      "id": "par_hi_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "किसी शादी में सबसे पहले नृत्य करने वाला कौन होगा?"
+    },
+    {
+      "id": "par_hi_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "संगीत में सबसे अच्छी रुचि किसकी होगी?"
+    },
+    {
+      "id": "par_hi_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "जीपीएस से भी कौन भटकेगा?"
+    },
+    {
+      "id": "par_hi_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "रहस्य छुपाने में सबसे अच्छा कौन होगा?"
+    },
+    {
+      "id": "par_hi_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "पड़ोसी की मदद के लिए स्वेच्छा से कौन आगे आएगा?"
+    },
+    {
+      "id": "par_hi_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "समूह का कार्यक्रम कौन व्यवस्थित करेगा?"
+    },
+    {
+      "id": "par_hi_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "एक दिन में पूरा शो कौन मनाएगा?"
+    },
+    {
+      "id": "par_hi_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "भीड़ के लिए खाना पकाने में सबसे अच्छा कौन होगा?"
+    },
+    {
+      "id": "par_hi_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "किसी यात्रा पर सबसे अधिक तस्वीरें कौन लेगा?"
+    },
+    {
+      "id": "par_hi_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "किसी पार्टी को छोड़ने वाला आखिरी व्यक्ति कौन होगा?"
+    },
+    {
+      "id": "par_hi_071",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "हफ़्तों तक समूह चैट पर कौन भूत सवार होगा?"
+    },
+    {
+      "id": "par_hi_072",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "सबसे कमज़ोर बहाने से कौन योजना रद्द करेगा?"
+    },
+    {
+      "id": "par_hi_073",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "एक ही पाठ पर घंटों तक कौन विचार करेगा?"
+    },
+    {
+      "id": "par_hi_074",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "पहली डेट पर सबसे ज्यादा खर्च कौन करेगा?"
+    },
+    {
+      "id": "par_hi_075",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "कौन किसी के प्यार में सबसे तेजी से गिरेगा?"
+    },
+    {
+      "id": "par_hi_076",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "कौन अपने क्रश को सबसे लंबे समय तक गुप्त रखेगा?"
+    },
+    {
+      "id": "par_hi_077",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "गलती से अफवाह शुरू करने की सबसे अधिक संभावना किसकी होगी?"
+    },
+    {
+      "id": "par_hi_078",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ब्रेकअप के बारे में पोस्ट करने वाला पहला व्यक्ति कौन होगा?"
+    },
+    {
+      "id": "par_hi_079",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "अपने सामान्य प्रकार से बिल्कुल अलग किसी व्यक्ति को कौन डेट करेगा?"
+    },
+    {
+      "id": "par_hi_080",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "एक पूर्व के साथ कौन दोस्ती रखेगा?"
+    },
+    {
+      "id": "par_hi_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "खेलों के दौरान सबसे अधिक प्रतिस्पर्धी कौन होगा?"
+    },
+    {
+      "id": "par_hi_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "किसी पार्टी में सबसे बड़ा फ़्लर्ट कौन होगा?"
+    },
+    {
+      "id": "par_hi_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "बिना किसी को बताए साहसिक करियर परिवर्तन कौन करेगा?"
+    },
+    {
+      "id": "par_hi_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "दूसरे देश में जाने की सबसे अधिक संभावना किसकी होगी?"
+    },
+    {
+      "id": "par_hi_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "सप्ताहांत की यात्रा के लिए ओवरपैकिंग कौन करेगा?"
+    },
+    {
+      "id": "par_hi_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "एक घंटा पहले कौन आएगा?"
+    },
+    {
+      "id": "par_hi_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "मैसेज पढ़ने के बाद भी रिप्लाई करना कौन भूलेगा?"
+    },
+    {
+      "id": "par_hi_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "'जरुरत पड़ने पर' स्क्रीनशॉट कौन रखेगा?"
+    },
+    {
+      "id": "par_hi_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "सबसे नाटकीय फिल्म कौन चुनेगा?"
+    },
+    {
+      "id": "par_hi_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "किसी बहस में सबसे जिद्दी कौन होगा?"
+    },
+    {
+      "id": "par_hi_091",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "सबसे गंदा डेटिंग इतिहास किसका होगा?"
+    },
+    {
+      "id": "par_hi_092",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "गुप्त प्रशंसक होने की सबसे अधिक संभावना किसकी होगी?"
+    },
+    {
+      "id": "par_hi_093",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "'आई लव यू' कहने वाला पहला व्यक्ति कौन होगा?"
+    },
+    {
+      "id": "par_hi_094",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "जाहिर होने पर भी कौन छेड़खानी करता रहेगा?"
+    },
+    {
+      "id": "par_hi_095",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "किसी साथी का फ़ोन देखने की सबसे अधिक संभावना किसकी होगी?"
+    },
+    {
+      "id": "par_hi_096",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "सबसे तेज़ रिबाउंड किसके पास होगा?"
+    },
+    {
+      "id": "par_hi_097",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "किसी रिश्ते में सबसे ज्यादा ईर्ष्यालु कौन होगा?"
+    },
+    {
+      "id": "par_hi_098",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "एक ही समय में दो लोगों को कौन डेट करेगा?"
+    },
+    {
+      "id": "par_hi_099",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "दोस्तों से सिचुएशनशिप को कौन छिपाएगा?"
+    },
+    {
+      "id": "par_hi_100",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "बिना ध्यान दिए दिल तोड़ने की सबसे अधिक संभावना किसकी होगी?"
+    },
+    {
+      "id": "par_hi_101",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "समूह परियोजना का नेतृत्व करने के लिए कौन स्वेच्छा से काम करेगा?"
+    },
+    {
+      "id": "par_hi_102",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "कौन अपने फ़ोन के बिना सबसे अधिक समय तक जीवित रहेगा?"
+    },
+    {
+      "id": "par_hi_103",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "किसी पार्टी में सबसे पहले नृत्य करने वाला कौन होगा?"
+    },
+    {
+      "id": "par_hi_104",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "साधारण सी सैर पर कौन खो जाएगा?"
+    },
+    {
+      "id": "par_hi_105",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "हर किसी का कॉफ़ी ऑर्डर कौन याद रखेगा?"
+    },
+    {
+      "id": "par_hi_106",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "पूरे समूह के लिए नाश्ता कौन लाएगा?"
+    },
+    {
+      "id": "par_hi_107",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "किसी अजनबी से बातचीत कौन शुरू करेगा?"
+    },
+    {
+      "id": "par_hi_108",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "हर किसी को शांत करने में सबसे अच्छा कौन होगा?"
+    },
+    {
+      "id": "par_hi_109",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "किसी पहेली को सबसे तेजी से कौन ख़त्म करेगा?"
+    },
+    {
+      "id": "par_hi_110",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "अनुस्मारक देकर भी कौन देर करेगा?"
+    },
+    {
+      "id": "par_hi_111",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "यात्रा की विस्तृत योजना कौन बनाएगा?"
+    },
+    {
+      "id": "par_hi_112",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "खाना पकाने की प्रतियोगिता कौन जीतेगा?"
+    },
+    {
+      "id": "par_hi_113",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "सर्वोत्तम फोटो स्पॉट कौन जानता होगा?"
+    },
+    {
+      "id": "par_hi_114",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "किसी पालतू जानवर को गोद लेने की सबसे अधिक संभावना किसकी होगी?"
+    },
+    {
+      "id": "par_hi_115",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "कौन सबसे जल्दी धूप से झुलसेगा?"
+    },
+    {
+      "id": "par_hi_116",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "कौन अपना बटुआ घर पर भूलेगा?"
+    },
+    {
+      "id": "par_hi_117",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "किसी नए चलन को आज़माने वाला पहला व्यक्ति कौन होगा?"
+    },
+    {
+      "id": "par_hi_118",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "यात्रा पर अपना सारा पैसा कौन खर्च करेगा?"
+    },
+    {
+      "id": "par_hi_119",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "कौन गलती से किसी आश्चर्य को खराब कर देगा?"
+    },
+    {
+      "id": "par_hi_120",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "रहस्य रखने में सबसे अच्छा कौन होगा?"
+    },
+    {
+      "id": "par_hi_121",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "हर बार तुरंत वापस संदेश कौन भेजेगा?"
+    },
+    {
+      "id": "par_hi_122",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "कौन किसी मूर्खतापूर्ण चीज़ को वायरल करेगा?"
+    },
+    {
+      "id": "par_hi_123",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "कौन बनेगा अपने शहर में मशहूर?"
+    },
+    {
+      "id": "par_hi_124",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "कौन जोखिम उठाएगा और विदेश जाएगा?"
+    },
+    {
+      "id": "par_hi_125",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "अपने सपने को पूरा करने के लिए कौन नौकरी छोड़ेगा?"
+    },
+    {
+      "id": "par_hi_126",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "शौक को व्यवसाय में कौन बदलेगा?"
+    },
+    {
+      "id": "par_hi_127",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "किसी मीटिंग में दिवास्वप्न देखते हुए कौन पकड़ा जाएगा?"
+    },
+    {
+      "id": "par_hi_128",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "टिकट के लिए कौन बहस करेगा?"
+    },
+    {
+      "id": "par_hi_129",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "एक सप्ताह में दो बार अपनी चाबियाँ कौन खोएगा?"
+    },
+    {
+      "id": "par_hi_130",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "बिना मतलब के अफवाह कौन उड़ाएगा?"
+    },
+    {
+      "id": "par_hi_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "सर्वाधिक नाटकीय प्रतिक्रियाएँ किसकी होंगी?"
+    },
+    {
+      "id": "par_hi_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "टेबल पाने के लिए कौन फ़्लर्ट करेगा?"
+    },
+    {
+      "id": "par_hi_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "कमरे में गुप्त क्रश कौन होगा?"
+    },
+    {
+      "id": "par_hi_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "एक बेहतरीन रात के बाद डेट पर जाने का मन कौन करेगा?"
+    },
+    {
+      "id": "par_hi_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "\"आई लव यू\" कहने वाला पहला व्यक्ति कौन होगा?"
+    },
+    {
+      "id": "par_hi_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "ऐसी स्थिति में डेटिंग ऐप्स कौन रखेगा?"
+    },
+    {
+      "id": "par_hi_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "गुप्त रूप से गपशप का आनंद कौन उठाएगा?"
+    },
+    {
+      "id": "par_hi_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "छोटी यात्रा पर कौन किसी के प्यार में पड़ जाएगा?"
+    },
+    {
+      "id": "par_hi_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "डबल-टेक्स्ट करने वाला कौन होगा?"
+    },
+    {
+      "id": "par_hi_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "डेट के दौरान अपना फोन चेक करते हुए कौन पकड़ा जाएगा?"
+    },
+    {
+      "id": "par_hi_141",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "अंतिम समय में योजनाएं कौन रद्द करेगा?"
+    },
+    {
+      "id": "par_hi_142",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "ऐसा कौन होगा जो कुछ उधार ले और उसे लौटाना भूल जाए?"
+    },
+    {
+      "id": "par_hi_143",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "विज्ञापन में कौन रोएगा?"
+    },
+    {
+      "id": "par_hi_144",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "शून्य पर बहस कौन शुरू करेगा?"
+    },
+    {
+      "id": "par_hi_145",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "सबके लिए चार्जर कौन लाएगा?"
+    },
+    {
+      "id": "par_hi_146",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "किसी पार्टी को छोड़ने वाला अंतिम व्यक्ति कौन होगा?"
+    },
+    {
+      "id": "par_hi_147",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "किसी भी गाने के सभी बोल कौन जानता होगा?"
+    },
+    {
+      "id": "par_hi_148",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "सार्वजनिक स्थान पर झपकी कौन लेगा?"
+    },
+    {
+      "id": "par_hi_149",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "हर चीज़ के लिए समूह चैट कौन शुरू करेगा?"
+    },
+    {
+      "id": "par_hi_150",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "सर्वोत्तम तात्कालिक भाषण कौन देगा?"
+    },
+    {
+      "id": "par_hi_151",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "सबसे अराजक कैमरा रोल किसके पास है?"
+    },
+    {
+      "id": "par_hi_152",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "उनकी सर्च हिस्ट्री से कौन होगा बेनकाब?"
+    },
+    {
+      "id": "par_hi_153",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "कौन गुप्त रूप से जाँचता है कि उनकी कहानी किसने देखी?"
+    },
+    {
+      "id": "par_hi_154",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "कौन अपने फोन के बिना एक दिन भी सबसे खराब तरीके से जीवित रहेगा?"
+    },
+    {
+      "id": "par_hi_155",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "सबसे मजबूत मीम संग्रह किसके पास है?"
+    },
+    {
+      "id": "par_hi_156",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "कौन एक शांत खेल रात को डांस फ्लोर में बदल देगा?"
+    },
+    {
+      "id": "par_hi_157",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "वकील की तरह हिसाब-किताब कौन रखता है?"
+    }
+  ]
+}

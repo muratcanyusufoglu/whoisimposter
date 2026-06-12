@@ -1,819 +1,1729 @@
 {
   "gameId": "trivia-bet",
   "locale": "es",
-  "version": 1,
+  "version": 2,
   "questions": [
     {
+      "id": "tb_es_001",
       "difficulty": "easy",
-      "category": "Ciencia",
-      "question": "¿Cuál es el planeta más grande del sistema solar?",
-      "options": [
-        "Tierra",
-        "Marte",
-        "Júpiter",
-        "Venus"
-      ],
-      "correctIndex": 2,
-      "id": "tb_es_001"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Cuál es el océano más grande?",
-      "options": [
-        "Atlántico",
-        "Índico",
-        "Ártico",
-        "Pacífico"
-      ],
-      "correctIndex": 3,
-      "id": "tb_es_002"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Animales",
-      "question": "¿Cuántas patas tiene una araña?",
-      "options": [
-        "6",
-        "8",
-        "10",
-        "12"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_003"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Ciencia",
-      "question": "¿Qué gas absorben las plantas?",
+      "category": "ciencia",
+      "question": "¿Qué gas absorben las plantas del aire durante la fotosíntesis?",
       "options": [
         "Oxígeno",
-        "Dióxido de carbono",
-        "Nitrógeno",
-        "Helio"
+        "dióxido de carbono",
+        "Hidrógeno",
+        "nitrógeno"
       ],
-      "correctIndex": 1,
-      "id": "tb_es_004"
+      "correctIndex": 1
     },
     {
+      "id": "tb_es_002",
       "difficulty": "easy",
-      "category": "Música",
-      "question": "¿Qué instrumento tiene 88 teclas?",
+      "category": "ciencia",
+      "question": "¿Cuál es el símbolo químico del agua?",
       "options": [
-        "Guitarra",
-        "Violín",
-        "Piano",
-        "Flauta"
+        "WO",
+        "H2O",
+        "O2H",
+        "HO2"
       ],
-      "correctIndex": 2,
-      "id": "tb_es_005"
+      "correctIndex": 1
     },
     {
+      "id": "tb_es_003",
       "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Cuál es la capital de Canadá?",
-      "options": [
-        "Toronto",
-        "Ottawa",
-        "Vancouver",
-        "Montreal"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_006"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Animales",
-      "question": "¿Qué animal es conocido por sus rayas negras y blancas?",
-      "options": [
-        "Tigre",
-        "Cebra",
-        "Panda",
-        "Mofeta"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_007"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Arte",
-      "question": "¿Qué color obtienes al mezclar rojo y azul?",
-      "options": [
-        "Naranja",
-        "Morado",
-        "Verde",
-        "Rosa"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_008"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Ciencia",
+      "category": "ciencia",
       "question": "¿Qué planeta se conoce como el Planeta Rojo?",
       "options": [
-        "Venus",
+        "venus",
         "Marte",
         "Júpiter",
-        "Saturno"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_009"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Arte",
-      "question": "¿Quién escribió 'Romeo y Julieta'?",
-      "options": [
-        "Charles Dickens",
-        "William Shakespeare",
-        "Jane Austen",
-        "Mark Twain"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_010"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Comida",
-      "question": "¿Cuál es el ingrediente principal del guacamole?",
-      "options": [
-        "Guisante",
-        "Aguacate",
-        "Pepino",
-        "Calabacín"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_011"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Animales",
-      "question": "¿Cuál es el mamífero más alto?",
-      "options": [
-        "Elefante",
-        "Jirafa",
-        "Caballo",
-        "Camello"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_012"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿En qué continente está Egipto?",
-      "options": [
-        "Asia",
-        "África",
-        "Europa",
-        "América del Sur"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_013"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Matemáticas",
-      "question": "¿Cuántos días tiene un año bisiesto?",
-      "options": [
-        "364",
-        "365",
-        "366",
-        "367"
-      ],
-      "correctIndex": 2,
-      "id": "tb_es_014"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Ciencia",
-      "question": "¿Cuál es la sustancia natural más dura?",
-      "options": [
-        "Oro",
-        "Hierro",
-        "Diamante",
-        "Cuarzo"
-      ],
-      "correctIndex": 2,
-      "id": "tb_es_015"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Ciencia",
-      "question": "¿Qué mide un termómetro?",
-      "options": [
-        "Presión",
-        "Temperatura",
-        "Velocidad",
-        "Volumen"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_016"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Deportes",
-      "question": "¿Qué deporte usa raqueta y volante?",
-      "options": [
-        "Tenis",
-        "Bádminton",
-        "Squash",
-        "Tenis de mesa"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_017"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Cuál es la moneda del Reino Unido?",
-      "options": [
-        "Euro",
-        "Dólar",
-        "Libra esterlina",
-        "Corona"
-      ],
-      "correctIndex": 2,
-      "id": "tb_es_018"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Ciencia",
-      "question": "¿Qué planeta es famoso por sus anillos?",
-      "options": [
-        "Marte",
-        "Saturno",
-        "Neptuno",
         "Mercurio"
       ],
-      "correctIndex": 1,
-      "id": "tb_es_019"
+      "correctIndex": 1
     },
     {
+      "id": "tb_es_004",
       "difficulty": "easy",
-      "category": "Animales",
-      "question": "¿Cuál es el mamífero más grande?",
+      "category": "ciencia",
+      "question": "¿Cuántas patas tiene un insecto?",
       "options": [
-        "Elefante",
-        "Ballena azul",
-        "Jirafa",
-        "Hipopótamo"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_020"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Ciencia",
-      "question": "¿Qué elemento tiene el símbolo Fe?",
-      "options": [
-        "Flúor",
-        "Hierro",
-        "Plata",
-        "Estaño"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_021"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Historia",
-      "question": "¿En qué ciudad está el Coliseo?",
-      "options": [
-        "Atenas",
-        "Roma",
-        "París",
-        "Estambul"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_022"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Arte",
-      "question": "¿Quién pintó 'La noche estrellada'?",
-      "options": [
-        "Van Gogh",
-        "Picasso",
-        "Monet",
-        "Rembrandt"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_023"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Geografía",
-      "question": "¿Cuál es la capital de Corea del Sur?",
-      "options": [
-        "Seúl",
-        "Busan",
-        "Tokio",
-        "Pekín"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_024"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Historia",
-      "question": "¿Qué país inventó el papel?",
-      "options": [
-        "Grecia",
-        "China",
-        "Egipto",
-        "India"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_025"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Deportes",
-      "question": "¿Cuántos jugadores hay en el campo en un equipo de béisbol?",
-      "options": [
-        "7",
+        "4",
+        "6",
         "8",
-        "9",
         "10"
       ],
-      "correctIndex": 2,
-      "id": "tb_es_026"
+      "correctIndex": 1
     },
     {
-      "difficulty": "medium",
-      "category": "Ciencia",
-      "question": "¿Cuál es el hueso más largo del cuerpo humano?",
+      "id": "tb_es_005",
+      "difficulty": "easy",
+      "category": "ciencia",
+      "question": "¿Qué fuerza atrae los objetos hacia la Tierra?",
       "options": [
-        "Fémur",
-        "Tibia",
-        "Húmero",
-        "Radio"
+        "Magnetismo",
+        "gravedad",
+        "Fricción",
+        "Electricidad"
       ],
-      "correctIndex": 0,
-      "id": "tb_es_027"
+      "correctIndex": 1
     },
     {
-      "difficulty": "medium",
-      "category": "Animales",
-      "question": "¿Cuál es el ave más rápida del mundo?",
+      "id": "tb_es_006",
+      "difficulty": "easy",
+      "category": "ciencia",
+      "question": "¿Qué órgano bombea sangre por el cuerpo?",
       "options": [
-        "Águila",
-        "Halcón peregrino",
-        "Avestruz",
-        "Halcón"
+        "hígado",
+        "corazón",
+        "pulmón",
+        "riñón"
       ],
-      "correctIndex": 1,
-      "id": "tb_es_028"
+      "correctIndex": 1
     },
     {
+      "id": "tb_es_007",
+      "difficulty": "easy",
+      "category": "ciencia",
+      "question": "¿Cómo se llama el centro de un átomo?",
+      "options": [
+        "Núcleo",
+        "celular",
+        "órbita",
+        "Concha"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_008",
+      "difficulty": "medium",
+      "category": "ciencia",
+      "question": "¿Cuál es el símbolo químico del oro?",
+      "options": [
+        "ir",
+        "Gd",
+        "Au",
+        "Ag"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_es_009",
+      "difficulty": "medium",
+      "category": "ciencia",
+      "question": "¿Cuál es el punto de ebullición del agua al nivel del mar en grados Celsius?",
+      "options": [
+        "90",
+        "95",
+        "100",
+        "110"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_es_010",
+      "difficulty": "medium",
+      "category": "ciencia",
+      "question": "¿Qué parte de una célula contiene la mayor parte de su ADN?",
+      "options": [
+        "ribosoma",
+        "Núcleo",
+        "pared celular",
+        "mitocondria"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_011",
+      "difficulty": "medium",
+      "category": "ciencia",
+      "question": "¿Qué tipo de energía se almacena en una banda elástica estirada?",
+      "options": [
+        "químico",
+        "potencial elástico",
+        "Térmica",
+        "nucleares"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_012",
+      "difficulty": "medium",
+      "category": "ciencia",
+      "question": "¿Qué vitamina se produce cuando la piel se expone a la luz solar?",
+      "options": [
+        "vitamina a",
+        "vitamina c",
+        "vitamina d",
+        "vitamina k"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_es_013",
+      "difficulty": "medium",
+      "category": "ciencia",
+      "question": "¿Qué instrumento se utiliza para medir los terremotos?",
+      "options": [
+        "Barómetro",
+        "Sismógrafo",
+        "Higrómetro",
+        "Altímetro"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_014",
+      "difficulty": "medium",
+      "category": "ciencia",
+      "question": "¿Cuál es la sustancia natural más dura de la Tierra?",
+      "options": [
+        "Cuarzo",
+        "diamante",
+        "granito",
+        "hierro"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_015",
+      "difficulty": "hard",
+      "category": "ciencia",
+      "question": "¿Cuál es la unidad SI de corriente eléctrica?",
+      "options": [
+        "voltio",
+        "vatio",
+        "amperio",
+        "ohmios"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_es_016",
+      "difficulty": "hard",
+      "category": "ciencia",
+      "question": "¿Qué científico propuso las tres leyes del movimiento?",
+      "options": [
+        "isaac newton",
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Nikola Tesla"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_017",
+      "difficulty": "hard",
+      "category": "ciencia",
+      "question": "¿Cuál es el gas más abundante en la atmósfera terrestre?",
+      "options": [
+        "Oxígeno",
+        "dióxido de carbono",
+        "nitrógeno",
+        "argón"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_es_018",
+      "difficulty": "hard",
+      "category": "ciencia",
+      "question": "¿Qué partícula tiene carga eléctrica negativa?",
+      "options": [
+        "Protón",
+        "Neutrón",
+        "electrón",
+        "fotón"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_es_019",
+      "difficulty": "hard",
+      "category": "ciencia",
+      "question": "¿Cuál es el valor del pH de una solución neutra a temperatura ambiente?",
+      "options": [
+        "0",
+        "5",
+        "7",
+        "14"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_es_020",
+      "difficulty": "hard",
+      "category": "ciencia",
+      "question": "¿Qué células sanguíneas ayudan al cuerpo a combatir las infecciones?",
+      "options": [
+        "glóbulos rojos",
+        "glóbulos blancos",
+        "Plaquetas",
+        "Células plasmáticas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_021",
+      "difficulty": "easy",
+      "category": "Geografía",
+      "question": "¿Cuál es la capital de Francia?",
+      "options": [
+        "León",
+        "París",
+        "Marsella",
+        "agradable"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_022",
+      "difficulty": "easy",
+      "category": "Geografía",
+      "question": "¿Qué océano es el más grande?",
+      "options": [
+        "Océano Atlántico",
+        "Océano Índico",
+        "Océano Pacífico",
+        "Océano Ártico"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_es_023",
+      "difficulty": "easy",
+      "category": "Geografía",
+      "question": "¿Qué país es famoso por las pirámides de Giza?",
+      "options": [
+        "México",
+        "Egipto",
+        "Grecia",
+        "India"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_024",
+      "difficulty": "easy",
+      "category": "Geografía",
+      "question": "¿Cuál es la capital de Japón?",
+      "options": [
+        "Kioto",
+        "Osaka",
+        "Tokio",
+        "Hiroshima"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_es_025",
+      "difficulty": "easy",
+      "category": "Geografía",
+      "question": "¿En qué continente está Brasil?",
+      "options": [
+        "África",
+        "américa del sur",
+        "Europa",
+        "Asia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_026",
+      "difficulty": "easy",
+      "category": "Geografía",
+      "question": "¿Cuál es el país más grande por superficie terrestre?",
+      "options": [
+        "Canadá",
+        "China",
+        "Rusia",
+        "Estados Unidos"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_es_027",
+      "difficulty": "easy",
+      "category": "Geografía",
+      "question": "¿Qué río atraviesa Londres?",
+      "options": [
+        "Sena",
+        "Támesis",
+        "Danubio",
+        "Rin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_028",
       "difficulty": "medium",
       "category": "Geografía",
-      "question": "¿Qué idioma tiene más hablantes nativos?",
+      "question": "¿Cuál es la capital de Australia?",
       "options": [
-        "Inglés",
-        "Español",
-        "Chino mandarín",
-        "Hindi"
+        "Sídney",
+        "Melbourne",
+        "Canberra",
+        "brisbane"
       ],
-      "correctIndex": 2,
-      "id": "tb_es_029"
+      "correctIndex": 2
     },
     {
+      "id": "tb_es_029",
       "difficulty": "medium",
-      "category": "Ciencia",
-      "question": "¿Cuál es el planeta más pequeño del sistema solar?",
+      "category": "Geografía",
+      "question": "¿En qué país se encuentra el monte Kilimanjaro?",
       "options": [
-        "Mercurio",
-        "Marte",
-        "Venus",
-        "Neptuno"
+        "Kenia",
+        "tanzanía",
+        "Uganda",
+        "Etiopía"
       ],
-      "correctIndex": 0,
-      "id": "tb_es_030"
+      "correctIndex": 1
     },
     {
+      "id": "tb_es_030",
       "difficulty": "medium",
+      "category": "Geografía",
+      "question": "¿Qué desierto es el desierto cálido más grande del mundo?",
+      "options": [
+        "Gobi",
+        "Sáhara",
+        "Kalahari",
+        "mojave"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_031",
+      "difficulty": "medium",
+      "category": "Geografía",
+      "question": "¿Qué país tiene la ciudad de Marrakech?",
+      "options": [
+        "Túnez",
+        "Marruecos",
+        "Argelia",
+        "Egipto"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_032",
+      "difficulty": "medium",
+      "category": "Geografía",
+      "question": "¿Qué mar separa Europa y África?",
+      "options": [
+        "mar rojo",
+        "Mar Mediterráneo",
+        "mar negro",
+        "Mar Báltico"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_033",
+      "difficulty": "medium",
+      "category": "Geografía",
+      "question": "¿Qué estado de EE. UU. se conoce como el Estado del Sol?",
+      "options": [
+        "California",
+        "florida",
+        "arizona",
+        "Hawái"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_034",
+      "difficulty": "medium",
+      "category": "Geografía",
+      "question": "¿Qué país tiene más lagos naturales?",
+      "options": [
+        "Canadá",
+        "Brasil",
+        "Rusia",
+        "Finlandia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_035",
+      "difficulty": "hard",
+      "category": "Geografía",
+      "question": "¿Cuál es la capital de Kazajstán?",
+      "options": [
+        "almatý",
+        "Astaná",
+        "Biskek",
+        "Taskent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_036",
+      "difficulty": "hard",
+      "category": "Geografía",
+      "question": "¿En qué país se encuentra el lago Bled?",
+      "options": [
+        "Eslovenia",
+        "Croacia",
+        "Austria",
+        "Eslovaquia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_037",
+      "difficulty": "hard",
+      "category": "Geografía",
+      "question": "¿En qué país se encuentra principalmente el desierto de Atacama?",
+      "options": [
+        "Perú",
+        "Chile",
+        "bolivia",
+        "Argentina"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_038",
+      "difficulty": "hard",
+      "category": "Geografía",
+      "question": "¿Qué ciudad se divide entre Europa y Asia?",
+      "options": [
+        "Estambul",
+        "Atenas",
+        "El Cairo",
+        "Lisboa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_039",
+      "difficulty": "hard",
+      "category": "Geografía",
+      "question": "¿Cuál es la cadena montañosa más larga del mundo?",
+      "options": [
+        "Himalaya",
+        "Andes",
+        "Montañas Rocosas",
+        "Alpes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_040",
+      "difficulty": "hard",
+      "category": "Geografía",
+      "question": "¿Qué país utiliza la corona como moneda?",
+      "options": [
+        "Noruega",
+        "Polonia",
+        "Hungría",
+        "Rumania"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_041",
+      "difficulty": "easy",
+      "category": "Historia",
+      "question": "¿En qué año se hundió el Titanic?",
+      "options": [
+        "1908",
+        "1912",
+        "1916",
+        "1920"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_042",
+      "difficulty": "easy",
+      "category": "Historia",
+      "question": "¿Quién fue el primer presidente de los Estados Unidos?",
+      "options": [
+        "Thomas Jefferson",
+        "George Washington",
+        "Abraham Lincoln",
+        "Juan Adams"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_043",
+      "difficulty": "easy",
+      "category": "Historia",
+      "question": "¿Con qué país se asocia principalmente la Gran Muralla?",
+      "options": [
+        "Japón",
+        "China",
+        "India",
+        "Mongolia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_044",
+      "difficulty": "easy",
+      "category": "Historia",
+      "question": "¿Quién fue conocida como la Doncella de Orleans?",
+      "options": [
+        "Cleopatra",
+        "Juana de Arco",
+        "reina victoria",
+        "María Curie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_045",
+      "difficulty": "easy",
+      "category": "Historia",
+      "question": "¿Qué civilización antigua construyó el Coliseo?",
+      "options": [
+        "griego",
+        "romano",
+        "maya",
+        "persa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_046",
+      "difficulty": "easy",
+      "category": "Historia",
+      "question": "¿Qué guerra terminó en 1945?",
+      "options": [
+        "Primera Guerra Mundial",
+        "Segunda Guerra Mundial",
+        "Guerra de Corea",
+        "Guerra de Vietnam"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_047",
+      "difficulty": "easy",
       "category": "Historia",
       "question": "¿Quién descubrió la penicilina?",
       "options": [
-        "Marie Curie",
-        "Alexander Fleming",
-        "Louis Pasteur",
-        "Isaac Newton"
+        "Alejandro Fleming",
+        "Luis Pasteur",
+        "María Curie",
+        "Carlos Darwin"
       ],
-      "correctIndex": 1,
-      "id": "tb_es_031"
+      "correctIndex": 0
     },
     {
+      "id": "tb_es_048",
       "difficulty": "medium",
-      "category": "Geografía",
-      "question": "¿Cuál es la capital de Argentina?",
-      "options": [
-        "Lima",
-        "Buenos Aires",
-        "Santiago",
-        "Montevideo"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_032"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Geografía",
-      "question": "¿Qué país es famoso por sus campos de tulipanes?",
-      "options": [
-        "Bélgica",
-        "Países Bajos",
-        "Dinamarca",
-        "Suiza"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_033"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Tecnología",
-      "question": "¿Qué significa HTTP?",
-      "options": [
-        "Hypertext Transfer Protocol",
-        "High Transfer Text Process",
-        "Hyperlink Transmission Program",
-        "Host Transfer Protocol"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_034"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Música",
-      "question": "¿Qué instrumento se asocia con Louis Armstrong?",
-      "options": [
-        "Saxofón",
-        "Trompeta",
-        "Piano",
-        "Clarinete"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_035"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Ciencia",
-      "question": "¿Cuál es la central energética de la célula?",
-      "options": [
-        "Núcleo",
-        "Mitocondria",
-        "Ribosoma",
-        "Aparato de Golgi"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_036"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Geografía",
-      "question": "¿Cuál es el desierto cálido más grande?",
-      "options": [
-        "Gobi",
-        "Sahara",
-        "Kalahari",
-        "Atacama"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_037"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Matemáticas",
-      "question": "¿Qué letra griega parece un triángulo?",
-      "options": [
-        "Alfa",
-        "Delta",
-        "Sigma",
-        "Omega"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_038"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Deportes",
-      "question": "¿Qué ciudad organizó los Juegos Olímpicos de Verano 2012?",
-      "options": [
-        "Pekín",
-        "Londres",
-        "Río de Janeiro",
-        "Atenas"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_039"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Ciencia",
-      "question": "¿Cuál es la fórmula química del ozono?",
-      "options": [
-        "O2",
-        "O3",
-        "CO2",
-        "O4"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_040"
-    },
-    {
-      "difficulty": "hard",
-      "category": "Arte",
-      "question": "¿Quién escribió 'Cien años de soledad'?",
-      "options": [
-        "Mario Vargas Llosa",
-        "Gabriel García Márquez",
-        "Isabel Allende",
-        "Jorge Luis Borges"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_041"
-    },
-    {
-      "difficulty": "hard",
-      "category": "Geografía",
-      "question": "¿Cuál es la capital de Kazajistán?",
-      "options": [
-        "Almaty",
-        "Astana",
-        "Taskent",
-        "Bishkek"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_042"
-    },
-    {
-      "difficulty": "hard",
-      "category": "Ciencia",
-      "question": "¿Qué planeta tiene el día más corto?",
-      "options": [
-        "Tierra",
-        "Júpiter",
-        "Marte",
-        "Urano"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_043"
-    },
-    {
-      "difficulty": "hard",
       "category": "Historia",
-      "question": "¿En qué año cayó el Muro de Berlín?",
+      "question": "¿Quién fue la primera mujer en volar sola a través del Océano Atlántico?",
+      "options": [
+        "Amelia Earhart",
+        "Bessie Coleman",
+        "Valentina Tereshkova",
+        "paseo sally"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_049",
+      "difficulty": "medium",
+      "category": "Historia",
+      "question": "¿En qué año cayó el muro de Berlín?",
       "options": [
         "1987",
-        "1988",
         "1989",
-        "1990"
+        "1991",
+        "1993"
       ],
-      "correctIndex": 2,
-      "id": "tb_es_044"
+      "correctIndex": 1
     },
     {
-      "difficulty": "hard",
-      "category": "Ciencia",
-      "question": "¿Cuál es la unidad SI de la corriente eléctrica?",
+      "id": "tb_es_050",
+      "difficulty": "medium",
+      "category": "Historia",
+      "question": "¿Qué imperio fue gobernado por Genghis Khan?",
       "options": [
-        "Voltio",
-        "Amperio",
-        "Ohmio",
-        "Vatio"
+        "imperio otomano",
+        "Imperio mongol",
+        "imperio romano",
+        "Imperio persa"
       ],
-      "correctIndex": 1,
-      "id": "tb_es_045"
+      "correctIndex": 1
     },
     {
-      "difficulty": "hard",
-      "category": "Música",
-      "question": "¿Qué compositor escribió la ópera 'La flauta mágica'?",
+      "id": "tb_es_051",
+      "difficulty": "medium",
+      "category": "Historia",
+      "question": "¿Quién fue la primera persona en caminar sobre la Luna?",
       "options": [
-        "Mozart",
-        "Verdi",
-        "Puccini",
-        "Wagner"
+        "Buzz Aldrin",
+        "Yuri Gagarin",
+        "Neil Armstrong",
+        "michael collins"
       ],
-      "correctIndex": 0,
-      "id": "tb_es_046"
+      "correctIndex": 2
     },
     {
-      "difficulty": "hard",
-      "category": "Matemáticas",
-      "question": "¿Cuál es la raíz cuadrada de 256?",
+      "id": "tb_es_052",
+      "difficulty": "medium",
+      "category": "Historia",
+      "question": "¿En qué país actual comenzó el Renacimiento?",
       "options": [
-        "14",
-        "16",
-        "18",
-        "20"
-      ],
-      "correctIndex": 1,
-      "id": "tb_es_047"
-    },
-    {
-      "difficulty": "hard",
-      "category": "Geografía",
-      "question": "¿Qué país tiene más husos horarios?",
-      "options": [
-        "Estados Unidos",
         "Francia",
-        "Rusia",
-        "Australia"
+        "Italia",
+        "Alemania",
+        "España"
       ],
-      "correctIndex": 1,
-      "id": "tb_es_048"
+      "correctIndex": 1
     },
     {
-      "difficulty": "hard",
-      "category": "Geografía",
-      "question": "¿Cuál es el río más largo de Europa?",
+      "id": "tb_es_053",
+      "difficulty": "medium",
+      "category": "Historia",
+      "question": "¿Qué documento comienza con las palabras Nosotros el Pueblo?",
       "options": [
-        "Danubio",
-        "Volga",
-        "Rin",
-        "Sena"
+        "Carta Magna",
+        "Constitución de Estados Unidos",
+        "Declaración de Independencia",
+        "Declaración de derechos"
       ],
-      "correctIndex": 1,
-      "id": "tb_es_049"
-    },
-    {
-      "difficulty": "hard",
-      "category": "Arte",
-      "question": "¿Quién pintó 'La persistencia de la memoria'?",
-      "options": [
-        "Salvador Dalí",
-        "Pablo Picasso",
-        "Claude Monet",
-        "Edvard Munch"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_050"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Cuál es la capital de Canadá?",
-      "options": [
-        "Ottawa",
-        "Toronto",
-        "Vancouver",
-        "Montreal"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_051"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Ciencia",
-      "question": "¿Qué planeta es conocido como el planeta rojo?",
-      "options": [
-        "Marte",
-        "Venus",
-        "Júpiter",
-        "Mercurio"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_052"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Música",
-      "question": "¿Qué instrumento tiene 88 teclas?",
-      "options": [
-        "Piano",
-        "Guitarra",
-        "Violín",
-        "Flauta"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_053"
+      "correctIndex": 1
     },
     {
       "id": "tb_es_054",
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Cuál es la capital de España?",
+      "difficulty": "medium",
+      "category": "Historia",
+      "question": "¿Qué reina gobernó Inglaterra durante gran parte de la era victoriana?",
       "options": [
-        "Madrid",
-        "Barcelona",
-        "Sevilla",
-        "Valencia"
+        "Isabel I",
+        "maria yo",
+        "Victoria",
+        "Ana"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "tb_es_055",
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Cuál es la capital de Brasil?",
+      "difficulty": "hard",
+      "category": "Historia",
+      "question": "¿Qué escritura antigua ayudó a los eruditos a leer la Piedra Rosetta?",
       "options": [
-        "Brasilia",
-        "Río de Janeiro",
-        "São Paulo",
-        "Salvador"
+        "cuneiforme",
+        "Jeroglíficos",
+        "sánscrito",
+        "Lineal B"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_es_056",
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Cuál es la capital de la India?",
+      "difficulty": "hard",
+      "category": "Historia",
+      "question": "¿Quién dirigió la revolución haitiana?",
       "options": [
-        "Nueva Delhi",
-        "Mumbai",
-        "Bangalore",
-        "Calcuta"
+        "Toussaint Louverture",
+        "Simón Bolívar",
+        "miguel hidalgo",
+        "José de San Martín"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_es_057",
-      "difficulty": "easy",
-      "category": "Ciencia",
-      "question": "¿Cuál es el símbolo químico del potasio?",
+      "difficulty": "hard",
+      "category": "Historia",
+      "question": "¿Qué tratado puso fin a la Primera Guerra Mundial?",
       "options": [
-        "K",
-        "P",
-        "Po",
-        "Pt"
+        "Tratado de París",
+        "Tratado de Versalles",
+        "Tratado de Tordesillas",
+        "Tratado de Utrecht"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_es_058",
-      "difficulty": "easy",
-      "category": "Ciencia",
-      "question": "¿Cuál es el símbolo químico del oxígeno?",
+      "difficulty": "hard",
+      "category": "Historia",
+      "question": "¿Qué ciudad fue la capital del imperio bizantino?",
       "options": [
-        "O",
-        "Ox",
-        "Og",
-        "Oz"
+        "Roma",
+        "Atenas",
+        "Constantinopla",
+        "Alejandría"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "tb_es_059",
-      "difficulty": "easy",
+      "difficulty": "hard",
       "category": "Historia",
-      "question": "¿En qué año comenzó la Primera Guerra Mundial?",
+      "question": "¿Quién fue el último faraón del antiguo Egipto?",
       "options": [
-        "1912",
-        "1914",
-        "1916",
-        "1918"
+        "Nefertiti",
+        "Cleopatra VII",
+        "Hatshepsut",
+        "Ramsés II"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_es_060",
-      "difficulty": "easy",
+      "difficulty": "hard",
       "category": "Historia",
-      "question": "¿Quién fue el primer presidente de Estados Unidos?",
+      "question": "¿Qué civilización creó el Código de Hammurabi?",
       "options": [
-        "George Washington",
-        "Thomas Jefferson",
-        "Abraham Lincoln",
-        "John Adams"
+        "babilónico",
+        "asirio",
+        "fenicio",
+        "hitita"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_es_061",
       "difficulty": "easy",
-      "category": "Arte",
-      "question": "¿Quién esculpió la estatua de David?",
+      "category": "Cultura pop",
+      "question": "¿Cómo se llama el mayordomo de Batman?",
       "options": [
-        "Miguel Ángel",
-        "Donatello",
-        "Bernini",
-        "Rodin"
+        "James",
+        "alfredo",
+        "jorge",
+        "Eduardo"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_es_062",
       "difficulty": "easy",
-      "category": "Arte",
-      "question": "¿Quién escribió 1984?",
+      "category": "Cultura pop",
+      "question": "¿Qué franquicia presenta Hogwarts?",
       "options": [
-        "George Orwell",
-        "Aldous Huxley",
-        "Ray Bradbury",
-        "J.K. Rowling"
+        "Star Wars",
+        "Harry Potter",
+        "The Matrix",
+        "Avatar"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_es_063",
       "difficulty": "easy",
-      "category": "Deportes",
-      "question": "¿Cuántos jugadores tiene un equipo de fútbol en el campo?",
+      "category": "Cultura pop",
+      "question": "¿De qué color es el personaje Shrek?",
+      "options": [
+        "azul",
+        "verde",
+        "Púrpura",
+        "naranja"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_064",
+      "difficulty": "easy",
+      "category": "Cultura pop",
+      "question": "¿Qué cantante es conocida como la Reina del Pop?",
+      "options": [
+        "virgen",
+        "Adela",
+        "Rihanna",
+        "Dua Lipa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_065",
+      "difficulty": "easy",
+      "category": "Cultura pop",
+      "question": "¿Qué superhéroe también se conoce como Peter Parker?",
+      "options": [
+        "batman",
+        "hombre araña",
+        "superhombre",
+        "hombre de hierro"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_066",
+      "difficulty": "easy",
+      "category": "Cultura pop",
+      "question": "¿Qué película presenta un personaje llamado Elsa?",
+      "options": [
+        "moana",
+        "congelado",
+        "Valiente",
+        "enredado"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_067",
+      "difficulty": "easy",
+      "category": "Cultura pop",
+      "question": "¿Qué aplicación es conocida por sus vídeos virales cortos?",
+      "options": [
+        "TikTok",
+        "LinkedIn",
+        "buzón",
+        "Ampliar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_068",
+      "difficulty": "medium",
+      "category": "Cultura pop",
+      "question": "¿Cuál es la ciudad ficticia donde vive Batman?",
+      "options": [
+        "Metrópolis",
+        "ciudad gótica",
+        "ciudad estrella",
+        "ciudad central"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_069",
+      "difficulty": "medium",
+      "category": "Cultura pop",
+      "question": "¿Qué banda lanzó el álbum Abbey Road?",
+      "options": [
+        "Los Beatles",
+        "reina",
+        "ABBA",
+        "Los Rolling Stones"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_070",
+      "difficulty": "medium",
+      "category": "Cultura pop",
+      "question": "¿Quién interpreta a Jack en la película Titanic de 1997?",
+      "options": [
+        "Brad Pitt",
+        "leonardo di caprio",
+        "Tom Crucero",
+        "Matt Damon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_071",
+      "difficulty": "medium",
+      "category": "Cultura pop",
+      "question": "¿Qué programa de televisión presenta la cafetería Central Perk?",
+      "options": [
+        "Amigos",
+        "Seinfeld",
+        "The Office",
+        "Cómo conocí a vuestra madre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_072",
+      "difficulty": "medium",
+      "category": "Cultura pop",
+      "question": "¿Qué serie de juegos incluye al personaje Link?",
+      "options": [
+        "fantasía final",
+        "La leyenda de Zelda",
+        "Pokémon",
+        "sonico"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_073",
+      "difficulty": "medium",
+      "category": "Cultura pop",
+      "question": "¿Qué película incluye la frase Que la fuerza te acompañe?",
+      "options": [
+        "Star Wars",
+        "viaje a las estrellas",
+        "duna",
+        "Cazador de espadas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_074",
+      "difficulty": "medium",
+      "category": "Cultura pop",
+      "question": "¿Cómo se llama el vaquero de juguete en Toy Story?",
+      "options": [
+        "Zumbido",
+        "leñoso",
+        "andy",
+        "rex"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_075",
+      "difficulty": "hard",
+      "category": "Cultura pop",
+      "question": "¿Qué actor interpretó a Neo en The Matrix?",
+      "options": [
+        "Keanu Reeves",
+        "Johnny Depp",
+        "Nicolas Cage",
+        "Will Smith"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_076",
+      "difficulty": "hard",
+      "category": "Cultura pop",
+      "question": "¿Qué artista lanzó el álbum Lemonade?",
+      "options": [
+        "Beyoncé",
+        "Taylor Swift",
+        "Ariana Grande",
+        "Lady Gaga"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_077",
+      "difficulty": "hard",
+      "category": "Cultura pop",
+      "question": "En The Lord of the Rings, ¿cuál es el nombre original de Gollum?",
+      "options": [
+        "Sméagol",
+        "bilbo",
+        "Deagol",
+        "Faramir"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_078",
+      "difficulty": "hard",
+      "category": "Cultura pop",
+      "question": "¿Qué película animada presenta la canción Remember Me?",
+      "options": [
+        "coco",
+        "Encanto",
+        "alma",
+        "Lucas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_079",
+      "difficulty": "hard",
+      "category": "Cultura pop",
+      "question": "¿Cuál es el nombre del metal ficticio en Black Panther?",
+      "options": [
+        "Adamantio",
+        "Vibranio",
+        "mitril",
+        "Unobtanio"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_080",
+      "difficulty": "hard",
+      "category": "Cultura pop",
+      "question": "¿Qué comedia de situación está ambientada en Dunder Mifflin?",
+      "options": [
+        "Parques y Recreación",
+        "The Office",
+        "Brooklyn nueve y nueve",
+        "Comunidad"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_081",
+      "difficulty": "easy",
+      "category": "comida",
+      "question": "¿Qué fruta se utiliza tradicionalmente para hacer guacamole?",
+      "options": [
+        "Plátano",
+        "aguacate",
+        "Mango",
+        "kiwi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_082",
+      "difficulty": "easy",
+      "category": "comida",
+      "question": "¿Con qué se asocia más comúnmente el sushi?",
+      "options": [
+        "Japón",
+        "México",
+        "Italia",
+        "Marruecos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_083",
+      "difficulty": "easy",
+      "category": "comida",
+      "question": "¿Qué nuez se utiliza para hacer mazapán?",
+      "options": [
+        "nuez",
+        "avellana",
+        "almendra",
+        "maní"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_es_084",
+      "difficulty": "easy",
+      "category": "comida",
+      "question": "¿Cuál es el ingrediente principal del hummus?",
+      "options": [
+        "Lentejas",
+        "garbanzos",
+        "patatas",
+        "Arroz"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_085",
+      "difficulty": "easy",
+      "category": "comida",
+      "question": "¿Qué bebida se elabora con granos tostados?",
+      "options": [
+        "té",
+        "cafe",
+        "limonada",
+        "cola"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_086",
+      "difficulty": "easy",
+      "category": "comida",
+      "question": "¿Qué tipo de pasta tiene forma de tubitos?",
+      "options": [
+        "Penne",
+        "espaguetis",
+        "farfalle",
+        "lasaña"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_087",
+      "difficulty": "easy",
+      "category": "comida",
+      "question": "¿Qué país es famoso por los tacos?",
+      "options": [
+        "Italia",
+        "México",
+        "Tailandia",
+        "Grecia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_088",
+      "difficulty": "medium",
+      "category": "comida",
+      "question": "¿Qué especia le da al curry su color amarillo?",
+      "options": [
+        "comino",
+        "cúrcuma",
+        "pimentón",
+        "canela"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_089",
+      "difficulty": "medium",
+      "category": "comida",
+      "question": "¿Qué queso se utiliza tradicionalmente en una pizza margarita?",
+      "options": [
+        "queso cheddar",
+        "mozzarella",
+        "queso feta",
+        "Gouda"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_090",
+      "difficulty": "medium",
+      "category": "comida",
+      "question": "¿De qué se elabora principalmente el tofu?",
+      "options": [
+        "soja",
+        "Arroz",
+        "maíz",
+        "maní"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_091",
+      "difficulty": "medium",
+      "category": "comida",
+      "question": "¿Qué postre se hace con capas de bizcochos empapados en café?",
+      "options": [
+        "baklava",
+        "Tiramisú",
+        "Pávlova",
+        "crema brulée"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_092",
+      "difficulty": "medium",
+      "category": "comida",
+      "question": "¿Cuál es el ingrediente principal del chucrut?",
+      "options": [
+        "repollo",
+        "Zanahoria",
+        "pepino",
+        "cebolla"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_093",
+      "difficulty": "medium",
+      "category": "comida",
+      "question": "¿Qué fruta se seca para hacer pasas?",
+      "options": [
+        "uvas",
+        "ciruelas",
+        "Albaricoques",
+        "higos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_094",
+      "difficulty": "medium",
+      "category": "comida",
+      "question": "¿Qué salsa se elabora tradicionalmente con albahaca, piñones, ajo, aceite de oliva y queso?",
+      "options": [
+        "pesto",
+        "salsa",
+        "Hoisin",
+        "tahini"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_095",
+      "difficulty": "hard",
+      "category": "comida",
+      "question": "¿Qué grano se utiliza para hacer el risotto tradicional?",
+      "options": [
+        "basmati",
+        "arroz arborio",
+        "Quinua",
+        "Bulgur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_096",
+      "difficulty": "hard",
+      "category": "comida",
+      "question": "¿De qué país es el origen del kimchi?",
+      "options": [
+        "Japón",
+        "China",
+        "Corea",
+        "Vietnam"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_es_097",
+      "difficulty": "hard",
+      "category": "comida",
+      "question": "¿Cuál es el término francés para un panqueque fino?",
+      "options": [
+        "crepé",
+        "brioche",
+        "Eclair",
+        "macarrón"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_098",
+      "difficulty": "hard",
+      "category": "comida",
+      "question": "¿Qué ácido le da al vinagre su sabor amargo?",
+      "options": [
+        "ácido cítrico",
+        "ácido acético",
+        "ácido láctico",
+        "ácido málico"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_099",
+      "difficulty": "hard",
+      "category": "comida",
+      "question": "¿Cuál es el ingrediente principal del falafel tradicional?",
+      "options": [
+        "garbanzos",
+        "carne de res",
+        "berenjena",
+        "Arroz"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_100",
+      "difficulty": "hard",
+      "category": "comida",
+      "question": "¿Qué masa se utiliza para hacer baklava?",
+      "options": [
+        "hojaldre",
+        "masa filo",
+        "masa quebrada",
+        "masa choux"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_101",
+      "difficulty": "easy",
+      "category": "animales",
+      "question": "¿Cuál es el animal terrestre más grande?",
+      "options": [
+        "elefante",
+        "hipopótamo",
+        "rinoceronte",
+        "Jirafa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_102",
+      "difficulty": "easy",
+      "category": "animales",
+      "question": "¿Qué animal es conocido por las rayas blancas y negras?",
+      "options": [
+        "cebra",
+        "tigre",
+        "panda",
+        "zorrillo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_103",
+      "difficulty": "easy",
+      "category": "animales",
+      "question": "¿Qué hacen las abejas?",
+      "options": [
+        "leche",
+        "miel",
+        "Seda",
+        "Sólo cera"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_104",
+      "difficulty": "easy",
+      "category": "animales",
+      "question": "¿Qué animal es un mamífero?",
+      "options": [
+        "tiburón",
+        "rana",
+        "delfín",
+        "cocodrilo"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_es_105",
+      "difficulty": "easy",
+      "category": "animales",
+      "question": "¿Cómo se llama un gato bebé?",
+      "options": [
+        "Cachorro",
+        "gatito",
+        "becerro",
+        "potro"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_106",
+      "difficulty": "easy",
+      "category": "animales",
+      "question": "¿Qué pájaro se asocia a menudo con el nacimiento de bebés en las historias?",
+      "options": [
+        "Águila",
+        "cigüeña",
+        "Búho",
+        "cisne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_107",
+      "difficulty": "easy",
+      "category": "animales",
+      "question": "¿Qué animal es famoso por cambiar de color?",
+      "options": [
+        "camaleón",
+        "Koala",
+        "pingüino",
+        "camello"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_108",
+      "difficulty": "medium",
+      "category": "animales",
+      "question": "¿Cuál es el animal terrestre más rápido?",
+      "options": [
+        "guepardo",
+        "león",
+        "caballo",
+        "canguro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_109",
+      "difficulty": "medium",
+      "category": "animales",
+      "question": "¿Qué animal tiene el cuello más largo?",
+      "options": [
+        "Jirafa",
+        "avestruz",
+        "camello",
+        "llama"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_110",
+      "difficulty": "medium",
+      "category": "animales",
+      "question": "En ingles, como se llama un grupo de leones?",
+      "options": [
+        "Pack",
+        "Herd",
+        "Pride",
+        "Flock"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_es_111",
+      "difficulty": "medium",
+      "category": "animales",
+      "question": "¿Qué animal marino tiene tres corazones?",
+      "options": [
+        "pulpo",
+        "delfín",
+        "tortuga marina",
+        "medusas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_112",
+      "difficulty": "medium",
+      "category": "animales",
+      "question": "¿Qué comen principalmente los pandas?",
+      "options": [
+        "Bambú",
+        "pescado",
+        "hierba",
+        "fruta"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_113",
+      "difficulty": "medium",
+      "category": "animales",
+      "question": "¿Qué animal pone los huevos más grandes?",
+      "options": [
+        "avestruz",
+        "Águila",
+        "pingüino",
+        "Albatros"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_114",
+      "difficulty": "medium",
+      "category": "animales",
+      "question": "¿Qué insecto puede levantar muchas veces su propio peso corporal?",
+      "options": [
+        "mariposa",
+        "hormiga",
+        "mosquito",
+        "Mariquita"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_115",
+      "difficulty": "hard",
+      "category": "animales",
+      "question": "¿Cuál es el único mamífero capaz de volar de verdad?",
+      "options": [
+        "Ardilla voladora",
+        "murciélago",
+        "planeador del azúcar",
+        "lémur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_116",
+      "difficulty": "hard",
+      "category": "animales",
+      "question": "¿A qué animal también se le llama el barco del desierto?",
+      "options": [
+        "camello",
+        "burro",
+        "caballo",
+        "Yak"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_117",
+      "difficulty": "hard",
+      "category": "animales",
+      "question": "¿Cuál es la especie de tiburón más grande?",
+      "options": [
+        "gran tiburón blanco",
+        "tiburón ballena",
+        "tiburón martillo",
+        "tiburón tigre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_118",
+      "difficulty": "hard",
+      "category": "animales",
+      "question": "¿Qué pájaro puede imitar especialmente bien el habla humana?",
+      "options": [
+        "loro",
+        "pingüino",
+        "flamenco",
+        "gorrión"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_119",
+      "difficulty": "hard",
+      "category": "animales",
+      "question": "¿Cómo se llama el estudio de las aves?",
+      "options": [
+        "Entomología",
+        "Ornitología",
+        "Ictiología",
+        "herpetología"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_120",
+      "difficulty": "hard",
+      "category": "animales",
+      "question": "¿Qué animal tiene huellas dactilares muy similares a las de los humanos?",
+      "options": [
+        "Koala",
+        "canguro",
+        "panda",
+        "Pereza"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_121",
+      "difficulty": "easy",
+      "category": "Matemáticas",
+      "question": "¿Cuánto es 9 por 9?",
+      "options": [
+        "72",
+        "81",
+        "90",
+        "99"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_122",
+      "difficulty": "easy",
+      "category": "Matemáticas",
+      "question": "¿Cuántos lados tiene un triángulo?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_123",
+      "difficulty": "easy",
+      "category": "Matemáticas",
+      "question": "¿Cuánto es la mitad de 100?",
+      "options": [
+        "25",
+        "40",
+        "50",
+        "75"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_es_124",
+      "difficulty": "easy",
+      "category": "Matemáticas",
+      "question": "¿Cuánto es 12 más 15?",
+      "options": [
+        "25",
+        "27",
+        "29",
+        "31"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_125",
+      "difficulty": "easy",
+      "category": "Matemáticas",
+      "question": "¿Cuantos minutos hay en una hora?",
+      "options": [
+        "30",
+        "45",
+        "60",
+        "90"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_es_126",
+      "difficulty": "easy",
+      "category": "Matemáticas",
+      "question": "¿Qué es 7 al cuadrado?",
+      "options": [
+        "14",
+        "21",
+        "49",
+        "77"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_es_127",
+      "difficulty": "easy",
+      "category": "Matemáticas",
+      "question": "¿Cuántos grados hay en un ángulo recto?",
+      "options": [
+        "45",
+        "60",
+        "90",
+        "180"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_es_128",
+      "difficulty": "medium",
+      "category": "Matemáticas",
+      "question": "¿Cuál es el valor de pi redondeado a dos decimales?",
+      "options": [
+        "3.12",
+        "3.14",
+        "3.16",
+        "3.18"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_129",
+      "difficulty": "medium",
+      "category": "Matemáticas",
+      "question": "¿Cuánto es el 15 por ciento de 200?",
+      "options": [
+        "15",
+        "20",
+        "30",
+        "40"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_es_130",
+      "difficulty": "medium",
+      "category": "Matemáticas",
+      "question": "¿Cuántos lados tiene un hexágono?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_131",
+      "difficulty": "medium",
+      "category": "Matemáticas",
+      "question": "¿Cuál es la raíz cuadrada de 144?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_es_132",
+      "difficulty": "medium",
+      "category": "Matemáticas",
+      "question": "¿Cuánto son 3 al cubo?",
+      "options": [
+        "9",
+        "18",
+        "27",
+        "81"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_es_133",
+      "difficulty": "medium",
+      "category": "Matemáticas",
+      "question": "¿Cuál es el siguiente número primo después del 7?",
       "options": [
         "9",
         "10",
@@ -823,912 +1733,1393 @@
       "correctIndex": 2
     },
     {
-      "id": "tb_es_064",
-      "difficulty": "easy",
-      "category": "Animales",
-      "question": "¿Cuál es el ave más grande?",
-      "options": [
-        "Avestruz",
-        "Águila",
-        "Pingüino",
-        "Cisne"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_es_065",
-      "difficulty": "easy",
-      "category": "Ciencia",
-      "question": "¿Qué es H2O?",
-      "options": [
-        "Agua",
-        "Hidrógeno",
-        "Oxígeno",
-        "Sal"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_es_066",
-      "difficulty": "easy",
-      "category": "Tecnología",
-      "question": "¿Qué significa GPS?",
-      "options": [
-        "Global Positioning System",
-        "General Packet Service",
-        "Geographic Positioning Software",
-        "Global Postal Service"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_es_067",
-      "difficulty": "easy",
+      "id": "tb_es_134",
+      "difficulty": "medium",
       "category": "Matemáticas",
-      "question": "¿Cuánto es 12 x 12?",
+      "question": "¿Cuántos centímetros hay en un metro?",
       "options": [
-        "124",
-        "132",
-        "144",
-        "156"
+        "10",
+        "100",
+        "1000",
+        "10000"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_135",
+      "difficulty": "hard",
+      "category": "Matemáticas",
+      "question": "¿Cuál es la suma de los ángulos internos de un triángulo?",
+      "options": [
+        "90 grados",
+        "180 grados",
+        "270 grados",
+        "360 grados"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_136",
+      "difficulty": "hard",
+      "category": "Matemáticas",
+      "question": "¿Cuánto es 2 elevado a 10?",
+      "options": [
+        "512",
+        "1024",
+        "2048",
+        "4096"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_137",
+      "difficulty": "hard",
+      "category": "Matemáticas",
+      "question": "¿Cuál es el número primo más pequeño?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
       ],
       "correctIndex": 2
     },
     {
-      "id": "tb_es_068",
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿En qué continente está Brasil?",
-      "options": [
-        "América del Sur",
-        "América del Norte",
-        "Europa",
-        "África"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_es_069",
-      "difficulty": "easy",
-      "category": "Comida",
-      "question": "¿Cuál es el ingrediente principal del hummus?",
-      "options": [
-        "Garbanzos",
-        "Lentejas",
-        "Patatas",
-        "Arroz"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_es_070",
-      "difficulty": "easy",
-      "category": "Ciencia",
-      "question": "¿Cuántos planetas hay en nuestro sistema solar?",
-      "options": [
-        "7",
-        "8",
-        "9",
-        "10"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_es_071",
-      "difficulty": "easy",
-      "category": "Arte",
-      "question": "¿Quién pintó El grito?",
-      "options": [
-        "Edvard Munch",
-        "Pablo Picasso",
-        "Vincent van Gogh",
-        "Claude Monet"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_es_072",
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Cuál es la capital de Egipto?",
-      "options": [
-        "El Cairo",
-        "Alejandría",
-        "Guiza",
-        "Luxor"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_es_073",
-      "difficulty": "easy",
-      "category": "Tecnología",
-      "question": "¿Qué significa USB?",
-      "options": [
-        "Universal Serial Bus",
-        "Unified System Board",
-        "Universal Sync Bridge",
-        "United Serial Base"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_es_074",
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Cuál es la capital de Noruega?",
-      "options": [
-        "Oslo",
-        "Bergen",
-        "Trondheim",
-        "Stavanger"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_es_075",
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Cuál es la capital de Tailandia?",
-      "options": [
-        "Bangkok",
-        "Chiang Mai",
-        "Phuket",
-        "Pattaya"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_es_076",
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Cuál es la moneda de Canadá?",
-      "options": [
-        "Dólar canadiense",
-        "Euro",
-        "Peso",
-        "Yen"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_es_077",
-      "difficulty": "easy",
-      "category": "Ciencia",
-      "question": "¿Qué parte de la planta es la principal responsable de la fotosíntesis?",
-      "options": [
-        "Hoja",
-        "Raíz",
-        "Tallo",
-        "Flor"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_es_078",
-      "difficulty": "easy",
-      "category": "Tecnología",
-      "question": "¿Quién inventó el teléfono?",
-      "options": [
-        "Alexander Graham Bell",
-        "Thomas Edison",
-        "Nikola Tesla",
-        "Guglielmo Marconi"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_es_079",
-      "difficulty": "easy",
-      "category": "Arte",
-      "question": "¿Quién pintó La joven de la perla?",
-      "options": [
-        "Johannes Vermeer",
-        "Rembrandt",
-        "Vincent van Gogh",
-        "Pablo Picasso"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_es_080",
-      "difficulty": "easy",
-      "category": "Animales",
-      "question": "¿Qué animal es conocido por construir presas?",
-      "options": [
-        "Castor",
-        "Nutria",
-        "Zorro",
-        "Ciervo"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_es_081",
-      "difficulty": "easy",
-      "category": "Deportes",
-      "question": "Wimbledon es un torneo de qué deporte?",
-      "options": [
-        "Tenis",
-        "Golf",
-        "Críquet",
-        "Rugby"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_es_082",
-      "difficulty": "easy",
+      "id": "tb_es_138",
+      "difficulty": "hard",
       "category": "Matemáticas",
-      "question": "¿Cuánto es 7 x 8?",
+      "question": "¿Cuánto es 1 dividido por 4 como decimal?",
       "options": [
-        "54",
-        "56",
-        "58",
-        "64"
+        "0.2",
+        "0.25",
+        "0.4",
+        "0.5"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_es_083",
-      "difficulty": "easy",
-      "category": "Comida",
-      "question": "¿De qué se hace el tofu?",
+      "id": "tb_es_139",
+      "difficulty": "hard",
+      "category": "Matemáticas",
+      "question": "¿Cuántas caras tiene un cubo?",
       "options": [
-        "Soja",
-        "Arroz",
-        "Trigo",
-        "Garbanzos"
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_140",
+      "difficulty": "hard",
+      "category": "Matemáticas",
+      "question": "¿Cuál es el número romano de 50?",
+      "options": [
+        "L",
+        "C",
+        "D",
+        "M"
       ],
       "correctIndex": 0
     },
     {
+      "id": "tb_es_141",
       "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Cuál es la capital de Nueva Zelanda?",
-      "options": [
-        "Wellington",
-        "Auckland",
-        "Christchurch",
-        "Queenstown"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_084"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Ciencia",
-      "question": "¿Qué elemento tiene el símbolo químico K?",
-      "options": [
-        "Potasio",
-        "Kriptón",
-        "Calcio",
-        "Zinc"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_085"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Historia",
-      "question": "¿Qué civilización construyó Machu Picchu?",
-      "options": [
-        "Inca",
-        "Maya",
-        "Azteca",
-        "Olmeca"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_086"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Arte",
-      "question": "¿Cómo se llama el arte japonés de plegar papel?",
-      "options": [
-        "Origami",
-        "Ikebana",
-        "Caligrafía",
-        "Kabuki"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_087"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Música",
-      "question": "¿Cuántas cuerdas tiene un violín estándar?",
+      "category": "musica",
+      "question": "¿Cuántas cuerdas suele tener una guitarra estándar?",
       "options": [
         "4",
         "5",
         "6",
         "7"
       ],
-      "correctIndex": 0,
-      "id": "tb_es_088"
+      "correctIndex": 2
     },
     {
+      "id": "tb_es_142",
       "difficulty": "easy",
-      "category": "Tecnología",
-      "question": "¿Qué significa la sigla CPU?",
+      "category": "musica",
+      "question": "¿Qué instrumento tiene teclas blancas y negras?",
       "options": [
-        "Unidad central de procesamiento",
-        "Unidad de potencia de computadora",
-        "Utilidad de rendimiento central",
-        "Usuario de programa central"
+        "guitarra",
+        "Piano",
+        "violín",
+        "tambor"
       ],
-      "correctIndex": 0,
-      "id": "tb_es_089"
+      "correctIndex": 1
     },
     {
+      "id": "tb_es_143",
       "difficulty": "easy",
-      "category": "Comida",
-      "question": "¿Qué especia proviene de botones florales secos?",
+      "category": "musica",
+      "question": "¿Quién es conocido como el Rey del Pop?",
       "options": [
-        "Clavo de olor",
-        "Pimienta",
-        "Canela",
-        "Nuez moscada"
+        "Elvis Presley",
+        "michael jackson",
+        "Príncipe",
+        "Stevie maravilla"
       ],
-      "correctIndex": 0,
-      "id": "tb_es_090"
+      "correctIndex": 1
     },
     {
+      "id": "tb_es_144",
       "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Qué mar está entre África y la península arábiga?",
+      "category": "musica",
+      "question": "¿Cómo se llama un grupo de cantantes?",
       "options": [
-        "Mar Rojo",
-        "Mar Negro",
-        "Mar Caspio",
-        "Mar Adriático"
+        "Coro",
+        "vendaje",
+        "Elenco",
+        "Tripulación"
       ],
-      "correctIndex": 0,
-      "id": "tb_es_091"
+      "correctIndex": 0
     },
     {
+      "id": "tb_es_145",
       "difficulty": "easy",
-      "category": "Ciencia",
-      "question": "¿Qué instrumento registra los terremotos?",
+      "category": "musica",
+      "question": "¿Qué instrumento se toca con arco?",
       "options": [
-        "Sismógrafo",
-        "Barómetro",
-        "Anemómetro",
-        "Higrómetro"
+        "trompeta",
+        "violín",
+        "Piano",
+        "flauta"
       ],
-      "correctIndex": 0,
-      "id": "tb_es_092"
+      "correctIndex": 1
     },
     {
+      "id": "tb_es_146",
       "difficulty": "easy",
-      "category": "Deportes",
-      "question": "El Tour de Francia es una carrera de ¿qué deporte?",
+      "category": "musica",
+      "question": "¿Cómo se llama la velocidad de la música?",
       "options": [
-        "Ciclismo",
-        "Tenis",
-        "Rugby",
-        "Esquí"
+        "tempo",
+        "Tono",
+        "Armonía",
+        "ritmo"
       ],
-      "correctIndex": 0,
-      "id": "tb_es_093"
+      "correctIndex": 0
     },
     {
+      "id": "tb_es_147",
       "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Cuál es la capital de Portugal?",
+      "category": "musica",
+      "question": "¿Qué formato de música fue anterior al CD para muchos oyentes?",
       "options": [
-        "Lisboa",
-        "Oporto",
-        "Faro",
-        "Braga"
+        "casete",
+        "Blu-ray",
+        "Pódcast",
+        "libro electrónico"
       ],
-      "correctIndex": 0,
-      "id": "tb_es_094"
+      "correctIndex": 0
     },
     {
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Cuál es la capital de Grecia?",
+      "id": "tb_es_148",
+      "difficulty": "medium",
+      "category": "musica",
+      "question": "¿Qué compositor escribió la Sonata Claro de luna?",
       "options": [
-        "Atenas",
-        "Tesalónica",
-        "Patras",
-        "Heraclión"
+        "mozart",
+        "beethoven",
+        "Bach",
+        "Chopin"
       ],
-      "correctIndex": 0,
-      "id": "tb_es_095"
+      "correctIndex": 1
     },
     {
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Cuál es la capital de Perú?",
+      "id": "tb_es_149",
+      "difficulty": "medium",
+      "category": "musica",
+      "question": "¿Cuántas notas hay en una escala mayor estándar?",
       "options": [
-        "Lima",
-        "Cuzco",
-        "Arequipa",
-        "Trujillo"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_096"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Cuál es la capital de Suecia?",
-      "options": [
-        "Estocolmo",
-        "Gotemburgo",
-        "Malmö",
-        "Uppsala"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_097"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Cuál es la capital de Irlanda?",
-      "options": [
-        "Dublín",
-        "Cork",
-        "Galway",
-        "Limerick"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_098"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Cuál es la moneda de Suiza?",
-      "options": [
-        "Franco suizo",
-        "Euro",
-        "Corona",
-        "Dólar"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_099"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Cuál es la moneda de China?",
-      "options": [
-        "Yuan",
-        "Yen",
-        "Won",
-        "Baht"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_100"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Cuál es la moneda de México?",
-      "options": [
-        "Peso",
-        "Real",
-        "Sol",
-        "Rupia"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_101"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Cuál es el continente más grande por superficie?",
-      "options": [
-        "Asia",
-        "África",
-        "Europa",
-        "América del Sur"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_102"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Cuál es el continente más pequeño?",
-      "options": [
-        "Australia",
-        "Europa",
-        "América del Sur",
-        "África"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_103"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Cuál es el océano más pequeño?",
-      "options": [
-        "Océano Ártico",
-        "Océano Atlántico",
-        "Océano Pacífico",
-        "Océano Índico"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_104"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Cuál es la montaña más alta del mundo?",
-      "options": [
-        "Everest",
-        "K2",
-        "Kangchenjunga",
-        "Lhotse"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_105"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Qué mar separa Europa y África?",
-      "options": [
-        "Mar Mediterráneo",
-        "Mar Negro",
-        "Mar Rojo",
-        "Mar Caribe"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_106"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿En qué continente está el Sahara?",
-      "options": [
-        "África",
-        "Asia",
-        "Europa",
-        "América del Sur"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_107"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿Qué río atraviesa París?",
-      "options": [
-        "Sena",
-        "Rin",
-        "Danubio",
-        "Elba"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_108"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿En qué región se encuentra el desierto del Gobi?",
-      "options": [
-        "Mongolia y China",
-        "India y Pakistán",
-        "Irán e Irak",
-        "Egipto y Libia"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_109"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿En qué país está Petra?",
-      "options": [
-        "Jordania",
-        "Líbano",
-        "Siria",
-        "Irak"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_110"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Geografía",
-      "question": "¿En qué país está la Torre Eiffel?",
-      "options": [
-        "Francia",
-        "Italia",
-        "España",
-        "Bélgica"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_111"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Ciencia",
-      "question": "¿Qué planeta es conocido como el «Planeta Azul»?",
-      "options": [
-        "La Tierra",
-        "Neptuno",
-        "Urano",
-        "Marte"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_112"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Ciencia",
-      "question": "¿Qué vitamina produce el cuerpo con la luz del sol?",
-      "options": [
-        "Vitamina D",
-        "Vitamina C",
-        "Vitamina A",
-        "Vitamina B12"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_113"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Ciencia",
-      "question": "¿Cuál es el símbolo químico del sodio?",
-      "options": [
-        "Na",
-        "Ni",
-        "Sn",
-        "Ne"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_114"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Ciencia",
-      "question": "¿Qué elemento tiene el número atómico 6?",
-      "options": [
-        "Carbono",
-        "Oxígeno",
-        "Nitrógeno",
-        "Boro"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_115"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Ciencia",
-      "question": "¿Cómo se llama el proceso con el que las plantas fabrican su alimento?",
-      "options": [
-        "Fotosíntesis",
-        "Fermentación",
-        "Evaporación",
-        "Respiración"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_116"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Ciencia",
-      "question": "¿Qué parte del ojo regula la entrada de luz?",
-      "options": [
-        "Iris",
-        "Lente",
-        "Retina",
-        "Córnea"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_117"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Ciencia",
-      "question": "¿Qué órgano filtra la sangre?",
-      "options": [
-        "Riñones",
-        "Hígado",
-        "Pulmones",
-        "Estómago"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_118"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Ciencia",
-      "question": "¿Cuál es el órgano más grande del cuerpo humano?",
-      "options": [
-        "Piel",
-        "Hígado",
-        "Corazón",
-        "Pulmones"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_119"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Ciencia",
-      "question": "¿Qué gas necesitan respirar los humanos?",
-      "options": [
-        "Oxígeno",
-        "Dióxido de carbono",
-        "Helio",
-        "Nitrógeno"
-      ],
-      "correctIndex": 0,
-      "id": "tb_es_120"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Matemáticas",
-      "question": "¿Cuántos lados tiene un hexágono?",
-      "options": [
-        "6",
         "5",
+        "6",
         "7",
         "8"
       ],
-      "correctIndex": 0,
-      "id": "tb_es_121"
+      "correctIndex": 2
     },
     {
-      "difficulty": "easy",
-      "category": "Matemáticas",
-      "question": "¿Cuánto es 15 + 27?",
+      "id": "tb_es_150",
+      "difficulty": "medium",
+      "category": "musica",
+      "question": "¿Qué banda tenía a Freddie Mercury como cantante principal?",
       "options": [
-        "42",
-        "32",
-        "40",
-        "45"
+        "reina",
+        "U2",
+        "Nirvana",
+        "oasis"
       ],
-      "correctIndex": 0,
-      "id": "tb_es_122"
+      "correctIndex": 0
     },
     {
-      "difficulty": "easy",
-      "category": "Comida",
-      "question": "¿Con qué hierba se prepara tradicionalmente el pesto?",
+      "id": "tb_es_151",
+      "difficulty": "medium",
+      "category": "musica",
+      "question": "¿Qué significa DJ?",
       "options": [
-        "Albahaca",
-        "Perejil",
-        "Cilantro",
-        "Eneldo"
+        "disc jockey",
+        "juez de baile",
+        "Atasco digital",
+        "saltador de tambor"
       ],
-      "correctIndex": 0,
-      "id": "tb_es_123"
+      "correctIndex": 0
     },
     {
-      "difficulty": "easy",
-      "category": "Comida",
-      "question": "El sushi se prepara tradicionalmente con ¿qué grano?",
+      "id": "tb_es_152",
+      "difficulty": "medium",
+      "category": "musica",
+      "question": "¿Qué instrumento es famoso por tocar Yo-Yo Ma?",
       "options": [
-        "Arroz",
-        "Trigo",
-        "Cebada",
-        "Maíz"
+        "violonchelo",
+        "violín",
+        "Piano",
+        "clarinete"
       ],
-      "correctIndex": 0,
-      "id": "tb_es_124"
+      "correctIndex": 0
     },
     {
-      "difficulty": "easy",
-      "category": "Deportes",
-      "question": "¿En qué deporte se usa un disco?",
+      "id": "tb_es_153",
+      "difficulty": "medium",
+      "category": "musica",
+      "question": "¿Qué es un dúo?",
       "options": [
-        "Hockey sobre hielo",
-        "Baloncesto",
-        "Balonmano",
-        "Béisbol"
+        "Una canción para dos intérpretes.",
+        "Un ritmo rápido de tambor",
+        "un premio de musica",
+        "Una luz de escenario"
       ],
-      "correctIndex": 0,
-      "id": "tb_es_125"
+      "correctIndex": 0
     },
     {
-      "difficulty": "easy",
-      "category": "Deportes",
-      "question": "El Super Bowl es la final de ¿qué deporte?",
+      "id": "tb_es_154",
+      "difficulty": "medium",
+      "category": "musica",
+      "question": "¿Qué género se asocia frecuentemente con la improvisación y el swing?",
       "options": [
-        "Fútbol americano",
-        "Béisbol",
-        "Baloncesto",
-        "Hockey sobre hielo"
+        "jazz",
+        "metales",
+        "ópera",
+        "Reggae"
       ],
-      "correctIndex": 0,
-      "id": "tb_es_126"
+      "correctIndex": 0
     },
     {
-      "difficulty": "easy",
-      "category": "Deportes",
-      "question": "¿En qué deporte se golpea desde un tee con un palo?",
+      "id": "tb_es_155",
+      "difficulty": "hard",
+      "category": "musica",
+      "question": "¿Qué compositor del período clásico escribió Las cuatro estaciones?",
       "options": [
-        "Golf",
-        "Críquet",
-        "Hockey",
-        "Polo"
+        "vivaldi",
+        "Händel",
+        "Haydn",
+        "Schubert"
       ],
-      "correctIndex": 0,
-      "id": "tb_es_127"
+      "correctIndex": 0
     },
     {
-      "difficulty": "easy",
-      "category": "Arte",
-      "question": "¿Quién escribió «El hobbit»?",
+      "id": "tb_es_156",
+      "difficulty": "hard",
+      "category": "musica",
+      "question": "¿Cuál es la voz de canto estándar más baja para hombres?",
       "options": [
-        "J.R.R. Tolkien",
-        "C.S. Lewis",
-        "J.K. Rowling",
-        "George R.R. Martin"
+        "Tenor",
+        "barítono",
+        "bajo",
+        "alto"
       ],
-      "correctIndex": 0,
-      "id": "tb_es_128"
+      "correctIndex": 2
     },
     {
+      "id": "tb_es_157",
+      "difficulty": "hard",
+      "category": "musica",
+      "question": "¿Qué nota está un semitono por encima de C?",
+      "options": [
+        "B",
+        "do sostenido",
+        "D",
+        "mi bemol"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_158",
+      "difficulty": "hard",
+      "category": "musica",
+      "question": "¿Cuál es el término para hacerse más ruidoso gradualmente?",
+      "options": [
+        "crescendo",
+        "diminuendo",
+        "legato",
+        "entrecortado"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_159",
+      "difficulty": "hard",
+      "category": "musica",
+      "question": "¿Qué ciudad está fuertemente asociada con el nacimiento del jazz?",
+      "options": [
+        "Nueva Orleans",
+        "seattle",
+        "Nashville",
+        "Detroit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_160",
+      "difficulty": "hard",
+      "category": "musica",
+      "question": "¿Cómo se llama el símbolo que se coloca al inicio de un pentagrama musical?",
+      "options": [
+        "clave",
+        "traste",
+        "puente",
+        "válvula"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_161",
       "difficulty": "easy",
-      "category": "Arte",
-      "question": "¿Quién pintó «Guernica»?",
+      "category": "arte",
+      "question": "¿Quién pintó la Mona Lisa?",
+      "options": [
+        "Vicente van Gogh",
+        "leonardo da vinci",
+        "Pablo Picasso",
+        "Claude Monet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_162",
+      "difficulty": "easy",
+      "category": "arte",
+      "question": "¿Qué color se obtiene mezclando rojo y azul?",
+      "options": [
+        "verde",
+        "Púrpura",
+        "naranja",
+        "Marrón"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_163",
+      "difficulty": "easy",
+      "category": "arte",
+      "question": "¿Qué herramienta se utiliza para aplicar pintura a un lienzo?",
+      "options": [
+        "Martillo",
+        "pincel",
+        "Brújula",
+        "Aguja"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_164",
+      "difficulty": "easy",
+      "category": "arte",
+      "question": "¿Qué suele ser una escultura tridimensional?",
+      "options": [
+        "si",
+        "No",
+        "solo en fotos",
+        "solo en papel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_165",
+      "difficulty": "easy",
+      "category": "arte",
+      "question": "¿Qué museo alberga la Mona Lisa?",
+      "options": [
+        "lumbrera",
+        "prado",
+        "Tate Moderno",
+        "Galería de los Uffizi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_166",
+      "difficulty": "easy",
+      "category": "arte",
+      "question": "¿Cómo se llama el arte de doblar papel?",
+      "options": [
+        "Origamis",
+        "Caligrafía",
+        "mosaico",
+        "Grafiti"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_167",
+      "difficulty": "easy",
+      "category": "arte",
+      "question": "¿Qué color se obtiene mezclando rojo y amarillo?",
+      "options": [
+        "azul",
+        "naranja",
+        "Púrpura",
+        "blanco"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_168",
+      "difficulty": "medium",
+      "category": "arte",
+      "question": "¿Quién pintó la noche estrellada?",
       "options": [
         "Pablo Picasso",
+        "Vicente van Gogh",
         "Salvador Dalí",
-        "Claude Monet",
-        "Vincent van Gogh"
+        "Rembrandt"
       ],
-      "correctIndex": 0,
-      "id": "tb_es_129"
+      "correctIndex": 1
     },
     {
-      "difficulty": "easy",
-      "category": "Arte",
-      "question": "¿Quién escribió «El Principito»?",
+      "id": "tb_es_169",
+      "difficulty": "medium",
+      "category": "arte",
+      "question": "¿Qué artista es famoso por fundir relojes?",
       "options": [
-        "Antoine de Saint-Exupéry",
-        "Julio Verne",
-        "Victor Hugo",
-        "Albert Camus"
+        "Salvador Dalí",
+        "Frida Kahlo",
+        "Andy Warhol",
+        "Banksy"
       ],
-      "correctIndex": 0,
-      "id": "tb_es_130"
+      "correctIndex": 0
     },
     {
-      "id": "tb_es_131",
+      "id": "tb_es_170",
+      "difficulty": "medium",
+      "category": "arte",
+      "question": "¿Qué es la caligrafía?",
+      "options": [
+        "Escritura decorativa",
+        "talla de piedra",
+        "pintura mural",
+        "edición de fotos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_171",
+      "difficulty": "medium",
+      "category": "arte",
+      "question": "¿Qué movimiento artístico está asociado con Claude Monet?",
+      "options": [
+        "cubismo",
+        "Impresionismo",
+        "Surrealismo",
+        "arte pop"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_172",
+      "difficulty": "medium",
+      "category": "arte",
+      "question": "¿Qué es un autorretrato?",
+      "options": [
+        "Una foto del artista hecha por el artista.",
+        "un paisaje",
+        "una foto de grupo",
+        "Una base de escultura"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_173",
+      "difficulty": "medium",
+      "category": "arte",
+      "question": "¿Qué material se utiliza frecuentemente en la cerámica?",
+      "options": [
+        "Arcilla",
+        "Sólo vidrio",
+        "caucho",
+        "papel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_174",
+      "difficulty": "medium",
+      "category": "arte",
+      "question": "¿Cuál es el color principal en una obra de arte monocromática?",
+      "options": [
+        "un color",
+        "dos colores",
+        "Todos los colores",
+        "sin color"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_175",
+      "difficulty": "hard",
+      "category": "arte",
+      "question": "¿Qué artista pintó Guernica?",
+      "options": [
+        "Pablo Picasso",
+        "Henri Matisse",
+        "Pablo Cézanne",
+        "Edvard Munch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_176",
+      "difficulty": "hard",
+      "category": "arte",
+      "question": "¿Qué ciudad italiana es famosa por el arte renacentista y la Galería de los Uffizi?",
+      "options": [
+        "Florencia",
+        "Venecia",
+        "Milán",
+        "Nápoles"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_177",
+      "difficulty": "hard",
+      "category": "arte",
+      "question": "¿Sobre qué se hace la pintura al fresco?",
+      "options": [
+        "Yeso mojado",
+        "vidrio",
+        "metales",
+        "Seda"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_178",
+      "difficulty": "hard",
+      "category": "arte",
+      "question": "¿Qué artista creó La persistencia de la memoria?",
+      "options": [
+        "Salvador Dalí",
+        "Joan Miró",
+        "René Magritte",
+        "Jackson Pollock"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_179",
+      "difficulty": "hard",
+      "category": "arte",
+      "question": "¿Qué método de grabado utiliza un bloque tallado?",
+      "options": [
+        "xilografía",
+        "acuarela",
+        "Collage",
+        "Aerógrafo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_180",
+      "difficulty": "hard",
+      "category": "arte",
+      "question": "¿De qué se trata el claroscuro?",
+      "options": [
+        "Luz y sombra",
+        "Sonido y ritmo",
+        "Sólo color",
+        "Cuadrículas de perspectiva"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_181",
+      "difficulty": "easy",
+      "category": "deportes",
+      "question": "¿Cuántos jugadores hay en el campo de un equipo de fútbol?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_es_182",
+      "difficulty": "easy",
+      "category": "deportes",
+      "question": "¿Qué deporte utiliza una raqueta y un volante?",
+      "options": [
+        "Tenis",
+        "bádminton",
+        "calabaza",
+        "tenis de mesa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_183",
+      "difficulty": "easy",
+      "category": "deportes",
+      "question": "En baloncesto, ¿cuántos puntos vale un tiro libre?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_184",
+      "difficulty": "easy",
+      "category": "deportes",
+      "question": "¿Qué deporte se juega en Wimbledon?",
+      "options": [
+        "Grillo",
+        "Tenis",
+        "golf",
+        "rugby"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_185",
+      "difficulty": "easy",
+      "category": "deportes",
+      "question": "¿Cuántos anillos hay en la bandera olímpica?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_186",
+      "difficulty": "easy",
+      "category": "deportes",
+      "question": "¿Qué deporte utiliza un disco?",
+      "options": [
+        "hockey sobre hielo",
+        "Béisbol",
+        "voleibol",
+        "boxeo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_187",
+      "difficulty": "easy",
+      "category": "deportes",
+      "question": "¿Qué pasan los corredores en una carrera de relevos?",
+      "options": [
+        "pelota",
+        "bastón",
+        "Bandera",
+        "Guante"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_188",
+      "difficulty": "medium",
+      "category": "deportes",
+      "question": "¿El Tour de Francia es una carrera en qué deporte?",
+      "options": [
+        "corriendo",
+        "Ciclismo",
+        "Natación",
+        "esquiar"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_189",
+      "difficulty": "medium",
+      "category": "deportes",
+      "question": "¿Cuántos jugadores hay en el campo de un equipo de béisbol estándar?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_es_190",
+      "difficulty": "medium",
+      "category": "deportes",
+      "question": "¿Qué país ha ganado más Copas Mundiales de la FIFA en fútbol masculino?",
+      "options": [
+        "Alemania",
+        "Argentina",
+        "Brasil",
+        "Italia"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_es_191",
+      "difficulty": "medium",
+      "category": "deportes",
+      "question": "En tenis, ¿qué puntuación viene después del dos?",
+      "options": [
+        "ventaja",
+        "amor",
+        "Punto de ajuste",
+        "descanso"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_192",
+      "difficulty": "medium",
+      "category": "deportes",
+      "question": "¿Qué deporte presenta un caballo con arcos?",
+      "options": [
+        "Gimnasia",
+        "ecuestre",
+        "Polo",
+        "Esgrima"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_193",
+      "difficulty": "medium",
+      "category": "deportes",
+      "question": "¿Qué es un hat-trick en el fútbol?",
+      "options": [
+        "Tres goles de un jugador",
+        "Tres tarjetas amarillas",
+        "Tres sustituciones",
+        "tres esquinas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_194",
+      "difficulty": "medium",
+      "category": "deportes",
+      "question": "¿Qué deporte está asociado con la Copa Stanley?",
+      "options": [
+        "baloncesto",
+        "hockey sobre hielo",
+        "Béisbol",
+        "rugby"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_195",
+      "difficulty": "hard",
+      "category": "deportes",
+      "question": "¿Cuánto mide una piscina olímpica?",
+      "options": [
+        "25 metros",
+        "50 metros",
+        "75 metros",
+        "100 metros"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_196",
+      "difficulty": "hard",
+      "category": "deportes",
+      "question": "En golf, ¿cómo se llama un golpe bajo par?",
+      "options": [
+        "fantasma",
+        "pajarito",
+        "Águila",
+        "Albatros"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_197",
+      "difficulty": "hard",
+      "category": "deportes",
+      "question": "¿Qué país fue sede de los primeros Juegos Olímpicos modernos en 1896?",
+      "options": [
+        "Francia",
+        "Grecia",
+        "Reino Unido",
+        "Italia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_198",
+      "difficulty": "hard",
+      "category": "deportes",
+      "question": "¿Cuál es la pausa máxima en el billar?",
+      "options": [
+        "120",
+        "147",
+        "155",
+        "180"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_199",
+      "difficulty": "hard",
+      "category": "deportes",
+      "question": "¿Qué deporte utiliza el término amor por cero?",
+      "options": [
+        "Grillo",
+        "Tenis",
+        "boxeo",
+        "golf"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_200",
+      "difficulty": "hard",
+      "category": "deportes",
+      "question": "¿Qué significa KO en el boxeo?",
+      "options": [
+        "nocaut",
+        "echar",
+        "mantener abierto",
+        "orden de nudillos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_201",
+      "difficulty": "easy",
+      "category": "Tecnología",
+      "question": "¿Qué significa CPU?",
+      "options": [
+        "Unidad Central de Procesamiento",
+        "Unidad de alimentación de computadora",
+        "Utilidad de programa central",
+        "Usuario de procesamiento principal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_202",
+      "difficulty": "easy",
+      "category": "Tecnología",
+      "question": "¿Qué dispositivo se utiliza para mover un cursor en una computadora?",
+      "options": [
+        "ratón",
+        "altavoz",
+        "Impresora",
+        "Enrutador"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_203",
+      "difficulty": "easy",
+      "category": "Tecnología",
+      "question": "¿A qué permite Wi-Fi que se conecten los dispositivos?",
+      "options": [
+        "agua",
+        "Redes inalámbricas",
+        "papel",
+        "motores electricos"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_204",
+      "difficulty": "easy",
+      "category": "Tecnología",
+      "question": "¿Qué empresa fabrica el iPhone?",
+      "options": [
+        "Samsung",
+        "manzana",
+        "sony",
+        "nokia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_205",
+      "difficulty": "easy",
+      "category": "Tecnología",
+      "question": "¿Para qué se utiliza una contraseña?",
+      "options": [
+        "Seguridad",
+        "Impresión",
+        "Cargando",
+        "Enfriamiento"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_206",
+      "difficulty": "easy",
+      "category": "Tecnología",
+      "question": "¿Qué conecta comúnmente USB?",
+      "options": [
+        "Dispositivos y computadoras",
+        "Zapatos y calcetines",
+        "Libros y paginas",
+        "Plantas y suelo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_207",
+      "difficulty": "easy",
+      "category": "Tecnología",
+      "question": "¿Para qué es la abreviatura de una aplicación?",
+      "options": [
+        "Solicitud",
+        "Cita",
+        "Aprobación",
+        "Apéndice"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_208",
+      "difficulty": "medium",
+      "category": "Tecnología",
+      "question": "¿Qué significa URL?",
+      "options": [
+        "Localizador uniforme de recursos",
+        "Línea de lectura universal",
+        "Enlace de tiempo de ejecución del usuario",
+        "Lista de registros unificada"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_209",
+      "difficulty": "medium",
+      "category": "Tecnología",
+      "question": "¿Cuál es el trabajo principal de un enrutador?",
+      "options": [
+        "almacenar fotos",
+        "Tráfico de red directo",
+        "imprimir documentos",
+        "Escanear solo virus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_210",
+      "difficulty": "medium",
+      "category": "Tecnología",
+      "question": "¿Qué tipo de archivo se utiliza comúnmente para las imágenes?",
+      "options": [
+        "JPEG",
+        "MP3",
+        "DOCX",
+        "EXE"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_211",
+      "difficulty": "medium",
+      "category": "Tecnología",
+      "question": "¿Qué significa RAM?",
+      "options": [
+        "Memoria de acceso aleatorio",
+        "Módulo de acción rápida",
+        "Leer todos los medios",
+        "Tiempo de ejecución Aumodo dio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_212",
+      "difficulty": "medium",
+      "category": "Tecnología",
+      "question": "¿Para qué se utiliza el almacenamiento en la nube?",
+      "options": [
+        "Guardar archivos en línea",
+        "Limpieza de mamparas",
+        "Enfriamiento de portátiles",
+        "Cargando teléfonos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_213",
+      "difficulty": "medium",
+      "category": "Tecnología",
+      "question": "¿Qué ayuda a determinar GPS?",
+      "options": [
+        "Ubicación",
+        "Duración de la batería",
+        "Tamaño de pantalla",
+        "Seguridad de la contraseña"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_214",
+      "difficulty": "medium",
+      "category": "Tecnología",
+      "question": "¿Qué tecnología se utiliza para los pagos sin contacto?",
+      "options": [
+        "NFC",
+        "VHS",
+        "CRT",
+        "DVD"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_215",
+      "difficulty": "hard",
+      "category": "Tecnología",
+      "question": "¿Qué significa HTML?",
+      "options": [
+        "Lenguaje de marcado de hipertexto",
+        "Lógica de la máquina de alta transferencia",
+        "Enlace de marcado de herramienta de inicio",
+        "Lista principal de texto de hipervínculo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_216",
+      "difficulty": "hard",
+      "category": "Tecnología",
+      "question": "¿Qué pretende mejorar la autenticación de dos factores?",
+      "options": [
+        "Brillo de la pantalla",
+        "Seguridad de la cuenta",
+        "Velocidad de descarga",
+        "Aucalidad de dio"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_217",
+      "difficulty": "hard",
+      "category": "Tecnología",
+      "question": "¿Qué sistema numérico usa solo 0 y 1?",
+      "options": [
+        "decimales",
+        "binario",
+        "hexadecimal",
+        "romano"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_218",
+      "difficulty": "hard",
+      "category": "Tecnología",
+      "question": "¿Qué significa API?",
+      "options": [
+        "Interfaz de programación de aplicaciones",
+        "Auíndice de programa tomático",
+        "Entrada de píxeles aplicada",
+        "Internet de proceso avanzado"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_219",
+      "difficulty": "hard",
+      "category": "Tecnología",
+      "question": "¿Qué significa SSD?",
+      "options": [
+        "Unidad de estado sólido",
+        "Disco de almacenamiento del sistema",
+        "Dispositivo de software inteligente",
+        "Unidad de señal segura"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_220",
+      "difficulty": "hard",
+      "category": "Tecnología",
+      "question": "¿Qué protocolo se utiliza habitualmente para cargar sitios web seguros?",
+      "options": [
+        "HTTP",
+        "HTTPS",
+        "FTP",
+        "SMTP"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_221",
       "difficulty": "easy",
       "category": "Internet",
       "question": "¿Qué suele significar DM?",
       "options": [
         "Mensaje directo",
-        "Meme diario",
-        "Modo digital",
-        "Medio profundo"
+        "mapa digital",
+        "Modo diario",
+        "memoria de datos"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_es_132",
+      "id": "tb_es_222",
       "difficulty": "easy",
       "category": "Internet",
-      "question": "¿Qué plataforma es conocida por videos verticales cortos?",
+      "question": "¿Qué símbolo inicia un hashtag?",
+      "options": [
+        "@",
+        "#",
+        "&",
+        "*"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_223",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "¿Qué es una selfie?",
+      "options": [
+        "Una foto tuya",
+        "una contraseña",
+        "Un resultado de búsqueda",
+        "un videojuego"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_224",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "¿Qué plataforma es más conocida por los vídeos verticales cortos?",
       "options": [
         "TikTok",
         "Wikipedia",
-        "Excel",
-        "Mapas"
+        "buzón",
+        "flojo"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_es_133",
+      "id": "tb_es_225",
       "difficulty": "easy",
       "category": "Internet",
-      "question": "¿Para qué sirve principalmente una captura de pantalla?",
+      "question": "¿Qué es un emoji?",
       "options": [
-        "Guardar una imagen de la pantalla",
-        "Guardar una contraseña",
-        "Guardar una batería",
-        "Guardar un tono"
+        "Un pequeño icono digital",
+        "Un navegador web",
+        "Un formato de archivo",
+        "un tipo de cable"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_226",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "¿Qué suele significar LOL en línea?",
+      "options": [
+        "muchas luces",
+        "riendo a carcajadas",
+        "Lista de enlaces",
+        "poca suerte"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_es_227",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "¿Para qué se guarda una captura de pantalla?",
+      "options": [
+        "¿Qué hay en una pantalla?",
+        "Una carga de batería",
+        "una llamada telefonica",
+        "Sólo una contraseña Wi-Fi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_228",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "¿Para qué está diseñado el clickbait?",
+      "options": [
+        "Clics",
+        "Dormir",
+        "Datos meteorológicos",
+        "Sólo contraseñas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_229",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "¿Qué significa URL en el uso diario de Internet?",
+      "options": [
+        "una dirección web",
+        "un archivo de música",
+        "Un modo de cámara",
+        "una bateria de telefono"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_230",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "¿Qué es un meme?",
+      "options": [
+        "Un chiste o idea para compartir.",
+        "Un tipo de teclado",
+        "Una contraseña privada",
+        "Un servidor en la nube"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_231",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "¿Qué es el phishing?",
+      "options": [
+        "Una estafa para robar información",
+        "Una forma de editar fotos.",
+        "un genero musical",
+        "Un filtro de vídeo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_232",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "¿Qué significa transmisión en vivo?",
+      "options": [
+        "Transmitiendo en tiempo real",
+        "Guardando un archivo",
+        "Escribir código sin conexión",
+        "Imprimir fotografías"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_233",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "¿Qué es un nombre de usuario?",
+      "options": [
+        "Un nombre de cuenta pública",
+        "un virus informático",
+        "Un cable de pantalla",
+        "una tarjeta de pago"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_234",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "¿Para qué se utiliza un navegador?",
+      "options": [
+        "Accediendo a sitios web",
+        "Mezclando música",
+        "Dispositivos de carga",
+        "Dibujar mapas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_235",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "¿Qué significa SEO?",
+      "options": [
+        "Optimización de motores de búsqueda",
+        "Salida segura de correo electrónico",
+        "Opción de edición social",
+        "Orden de entrada al sistema"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_236",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "¿Qué es una cookie en la navegación web?",
+      "options": [
+        "Datos del sitio almacenados",
+        "Un atajo de teclado",
+        "Un filtro de fotos",
+        "Una reacción de chat"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_237",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "¿Qué significa HTTP?",
+      "options": [
+        "Protocolo de transferencia de hipertexto",
+        "Programa de texto de alta tecnología",
+        "Puerto de herramienta de transferencia de inicio",
+        "Página de seguimiento de hipervínculos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_238",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "¿Qué significa VPN?",
+      "options": [
+        "Red privada virtual",
+        "Nombre público verificado",
+        "Número de página visual",
+        "Nodo de procesamiento de vídeo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_239",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "¿Cómo se llama comúnmente la comunicación por vídeo bidireccional?",
+      "options": [
+        "Videollamada",
+        "Captura de pantalla",
+        "Marcador",
+        "Captcha"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_es_240",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "¿Para qué se utiliza principalmente un captcha?",
+      "options": [
+        "robots",
+        "Colores",
+        "Tamaño de pantalla",
+        "Nivel de batería"
       ],
       "correctIndex": 0
     }

@@ -1,15 +1,106 @@
 {
   "gameId": "trivia-bet",
   "locale": "tr",
-  "version": 1,
+  "version": 2,
   "questions": [
     {
       "id": "tb_tr_001",
       "difficulty": "easy",
       "category": "Bilim",
-      "question": "Altının sembolü nedir?",
+      "question": "Bitkiler fotosentez sırasında havadan hangi gazı emer?",
       "options": [
-        "Go",
+        "Oksijen",
+        "Karbondioksit",
+        "Hidrojen",
+        "Azot"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_002",
+      "difficulty": "easy",
+      "category": "Bilim",
+      "question": "Suyun kimyasal sembolü nedir?",
+      "options": [
+        "WO",
+        "H2O",
+        "O2H",
+        "HO2"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_003",
+      "difficulty": "easy",
+      "category": "Bilim",
+      "question": "Kızıl Gezegen olarak bilinen gezegen hangisidir?",
+      "options": [
+        "Venüs",
+        "Mars",
+        "Jüpiter",
+        "Merkür"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_004",
+      "difficulty": "easy",
+      "category": "Bilim",
+      "question": "Bir böceğin kaç bacağı vardır?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_005",
+      "difficulty": "easy",
+      "category": "Bilim",
+      "question": "Nesneleri Dünya'ya doğru çeken kuvvet nedir?",
+      "options": [
+        "Manyetizma",
+        "Yerçekimi",
+        "Sürtünme",
+        "Elektrik"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_006",
+      "difficulty": "easy",
+      "category": "Bilim",
+      "question": "Kanı vücuda pompalayan organ hangisidir?",
+      "options": [
+        "Karaciğer",
+        "Kalp",
+        "Akciğer",
+        "Böbrek"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_007",
+      "difficulty": "easy",
+      "category": "Bilim",
+      "question": "Atomun merkezine ne ad verilir?",
+      "options": [
+        "çekirdek",
+        "Hücre",
+        "Yörünge",
+        "Kabuk"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_008",
+      "difficulty": "medium",
+      "category": "Bilim",
+      "question": "Altının kimyasal sembolü nedir?",
+      "options": [
+        "Git",
         "Gd",
         "Au",
         "Ag"
@@ -17,36 +108,426 @@
       "correctIndex": 2
     },
     {
-      "id": "tb_tr_002",
-      "difficulty": "easy",
-      "category": "Coğrafya",
-      "question": "Avustralya'nın başkenti?",
-      "options": [
-        "Sidney",
-        "Melbourne",
-        "Brisbane",
-        "Canberra"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "id": "tb_tr_003",
-      "difficulty": "easy",
+      "id": "tb_tr_009",
+      "difficulty": "medium",
       "category": "Bilim",
-      "question": "Güneş'e en yakın gezegen?",
+      "question": "Santigrat cinsinden suyun deniz seviyesinde kaynama noktası nedir?",
       "options": [
-        "Venüs",
-        "Mars",
-        "Merkür",
-        "Dünya"
+        "90",
+        "95",
+        "100",
+        "110"
       ],
       "correctIndex": 2
     },
     {
-      "id": "tb_tr_004",
+      "id": "tb_tr_010",
+      "difficulty": "medium",
+      "category": "Bilim",
+      "question": "Bir hücrenin hangi kısmı DNA'nın çoğunu içerir?",
+      "options": [
+        "Ribozom",
+        "çekirdek",
+        "Hücre duvarı",
+        "Mitokondri"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_011",
+      "difficulty": "medium",
+      "category": "Bilim",
+      "question": "Gerilmiş bir lastik bantta ne tür enerji depolanır?",
+      "options": [
+        "Kimyasal",
+        "Elastik potansiyel",
+        "Termal",
+        "Nükleer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_012",
+      "difficulty": "medium",
+      "category": "Bilim",
+      "question": "Cilt güneş ışığına maruz kaldığında hangi vitamin üretilir?",
+      "options": [
+        "A vitamini",
+        "C vitamini",
+        "D vitamini",
+        "K vitamini"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_tr_013",
+      "difficulty": "medium",
+      "category": "Bilim",
+      "question": "Depremleri ölçmek için hangi alet kullanılır?",
+      "options": [
+        "Barometre",
+        "Sismograf",
+        "Higrometre",
+        "Altimetre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_014",
+      "difficulty": "medium",
+      "category": "Bilim",
+      "question": "Dünyadaki en sert doğal madde nedir?",
+      "options": [
+        "Kuvars",
+        "Elmas",
+        "Granit",
+        "Demir"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_015",
+      "difficulty": "hard",
+      "category": "Bilim",
+      "question": "Elektrik akımının SI birimi nedir?",
+      "options": [
+        "Volt",
+        "Watt",
+        "Amper",
+        "Ohm"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_tr_016",
+      "difficulty": "hard",
+      "category": "Bilim",
+      "question": "Hangi bilim adamı üç hareket yasasını önerdi?",
+      "options": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Nikola Tesla"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_017",
+      "difficulty": "hard",
+      "category": "Bilim",
+      "question": "Dünya atmosferinde en çok bulunan gaz hangisidir?",
+      "options": [
+        "Oksijen",
+        "Karbondioksit",
+        "Azot",
+        "Argon"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_tr_018",
+      "difficulty": "hard",
+      "category": "Bilim",
+      "question": "Hangi parçacığın negatif elektrik yükü vardır?",
+      "options": [
+        "Proton",
+        "Nötron",
+        "Elektron",
+        "Foton"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_tr_019",
+      "difficulty": "hard",
+      "category": "Bilim",
+      "question": "Oda sıcaklığında nötr bir çözeltinin pH değeri nedir?",
+      "options": [
+        "0",
+        "5",
+        "7",
+        "14"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_tr_020",
+      "difficulty": "hard",
+      "category": "Bilim",
+      "question": "Hangi kan hücreleri vücudun enfeksiyonla savaşmasına yardımcı olur?",
+      "options": [
+        "Kırmızı kan hücreleri",
+        "Beyaz kan hücreleri",
+        "Trombositler",
+        "Plazma hücreleri"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_021",
+      "difficulty": "easy",
+      "category": "Coğrafya",
+      "question": "Fransa'nın başkenti neresidir?",
+      "options": [
+        "Lyon",
+        "Paris",
+        "Marsilya",
+        "güzel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_022",
+      "difficulty": "easy",
+      "category": "Coğrafya",
+      "question": "En büyük okyanus hangisidir?",
+      "options": [
+        "Atlantik Okyanusu",
+        "Hint Okyanusu",
+        "Pasifik Okyanusu",
+        "Arktik Okyanusu"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_tr_023",
+      "difficulty": "easy",
+      "category": "Coğrafya",
+      "question": "Gize piramitleriyle ünlü ülke hangisidir?",
+      "options": [
+        "Meksika",
+        "Mısır",
+        "Yunanistan",
+        "Hindistan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_024",
+      "difficulty": "easy",
+      "category": "Coğrafya",
+      "question": "Japonya'nın başkenti nedir?",
+      "options": [
+        "Kyoto",
+        "Osaka",
+        "Tokyo",
+        "Hiroşima"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_tr_025",
+      "difficulty": "easy",
+      "category": "Coğrafya",
+      "question": "Brezilya hangi kıtadadır?",
+      "options": [
+        "Afrika",
+        "Güney Amerika",
+        "Avrupa",
+        "Asya"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_026",
+      "difficulty": "easy",
+      "category": "Coğrafya",
+      "question": "Yüzölçümü bakımından en büyük ülke hangisidir?",
+      "options": [
+        "Kanada",
+        "Çin",
+        "Rusya",
+        "Amerika Birleşik Devletleri"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_tr_027",
+      "difficulty": "easy",
+      "category": "Coğrafya",
+      "question": "Londra'nın içinden hangi nehir geçiyor?",
+      "options": [
+        "Seine",
+        "Thames",
+        "Tuna",
+        "Ren"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_028",
+      "difficulty": "medium",
+      "category": "Coğrafya",
+      "question": "Australia'nın başkenti nedir?",
+      "options": [
+        "Sidney",
+        "Melbourne",
+        "Kanberra",
+        "Brisbane"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_tr_029",
+      "difficulty": "medium",
+      "category": "Coğrafya",
+      "question": "Kilimanjaro Dağı hangi ülkededir?",
+      "options": [
+        "Kenya",
+        "Tanzanya",
+        "Uganda",
+        "Etiyopya"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_030",
+      "difficulty": "medium",
+      "category": "Coğrafya",
+      "question": "Dünyanın en büyük sıcak çölü hangisidir?",
+      "options": [
+        "Gobi",
+        "Sahra",
+        "Kalahari",
+        "Mojave"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_031",
+      "difficulty": "medium",
+      "category": "Coğrafya",
+      "question": "Marakeş şehri hangi ülkededir?",
+      "options": [
+        "Tunus",
+        "Fas",
+        "Cezayir",
+        "Mısır"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_032",
+      "difficulty": "medium",
+      "category": "Coğrafya",
+      "question": "Avrupa ile Afrika'yı hangi deniz ayırıyor?",
+      "options": [
+        "Kızıldeniz",
+        "Akdeniz",
+        "Karadeniz",
+        "Baltık Denizi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_033",
+      "difficulty": "medium",
+      "category": "Coğrafya",
+      "question": "Hangi ABD eyaleti Güneş Işığı Eyaleti olarak bilinir?",
+      "options": [
+        "Kaliforniya",
+        "Florida",
+        "Arizona",
+        "Havai"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_034",
+      "difficulty": "medium",
+      "category": "Coğrafya",
+      "question": "En doğal göllere sahip ülke hangisidir?",
+      "options": [
+        "Kanada",
+        "Brezilya",
+        "Rusya",
+        "Finlandiya"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_035",
+      "difficulty": "hard",
+      "category": "Coğrafya",
+      "question": "Kazakistan'ın başkenti neresidir?",
+      "options": [
+        "Almatı",
+        "Astana",
+        "Bişkek",
+        "Taşkent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_036",
+      "difficulty": "hard",
+      "category": "Coğrafya",
+      "question": "Bled Gölü hangi ülkede bulunur?",
+      "options": [
+        "Slovenya",
+        "Hırvatistan",
+        "Austria",
+        "Slovakya"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_037",
+      "difficulty": "hard",
+      "category": "Coğrafya",
+      "question": "Atacama Çölü esas olarak hangi ülkededir?",
+      "options": [
+        "Peru",
+        "Şili",
+        "Bolivya",
+        "Arjantin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_038",
+      "difficulty": "hard",
+      "category": "Coğrafya",
+      "question": "Hangi şehir Avrupa ve Asya arasında bölünmüştür?",
+      "options": [
+        "İstanbul",
+        "Atina",
+        "Kahire",
+        "Lizbon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_039",
+      "difficulty": "hard",
+      "category": "Coğrafya",
+      "question": "Dünyanın en uzun dağ silsilesi nedir?",
+      "options": [
+        "Himalayalar",
+        "And Dağları",
+        "Kayalık Dağlar",
+        "Alpler"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_040",
+      "difficulty": "hard",
+      "category": "Coğrafya",
+      "question": "Hangi ülke para birimi olarak kronu kullanır?",
+      "options": [
+        "Norveç",
+        "Polonya",
+        "Macaristan",
+        "Romanya"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_041",
       "difficulty": "easy",
       "category": "Tarih",
-      "question": "Titanik hangi yıl battı?",
+      "question": "Titanik hangi yılda battı?",
       "options": [
         "1908",
         "1912",
@@ -56,128 +537,1167 @@
       "correctIndex": 1
     },
     {
-      "id": "tb_tr_005",
+      "id": "tb_tr_042",
       "difficulty": "easy",
-      "category": "Yiyecek",
-      "subject": "easy",
-      "question": "Marzipan hangi fıstıktan yapılır?",
+      "category": "Tarih",
+      "question": "Amerika Birleşik Devletleri'nin ilk başkanı kimdi?",
+      "options": [
+        "Thomas Jefferson",
+        "George Washington",
+        "İbrahim Lincoln",
+        "John Adams"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_043",
+      "difficulty": "easy",
+      "category": "Tarih",
+      "question": "Çin Seddi esas olarak hangi ülkeyle ilişkilidir?",
+      "options": [
+        "Japonya",
+        "Çin",
+        "Hindistan",
+        "Moğolistan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_044",
+      "difficulty": "easy",
+      "category": "Tarih",
+      "question": "Kim Orleans'ın Hizmetçisi olarak biliniyordu?",
+      "options": [
+        "Kleopatra",
+        "Joan of Arc",
+        "Kraliçe Victoria",
+        "Marie Curie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_045",
+      "difficulty": "easy",
+      "category": "Tarih",
+      "question": "Kolezyum'u hangi antik uygarlık inşa etti?",
+      "options": [
+        "Yunanca",
+        "Roma",
+        "Maya",
+        "Farsça"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_046",
+      "difficulty": "easy",
+      "category": "Tarih",
+      "question": "1945'te hangi savaş sona erdi?",
+      "options": [
+        "Birinci Dünya Savaşı",
+        "İkinci Dünya Savaşı",
+        "Kore Savaşı",
+        "Vietnam Savaşı"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_047",
+      "difficulty": "easy",
+      "category": "Tarih",
+      "question": "Penisilini kim keşfetti?",
+      "options": [
+        "Alexander Fleming",
+        "Louis Pasteur",
+        "Marie Curie",
+        "Charles Darwin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_048",
+      "difficulty": "medium",
+      "category": "Tarih",
+      "question": "Atlantik Okyanusu'nu tek başına uçan ilk kadın kimdi?",
+      "options": [
+        "Amelia Earhart",
+        "Bessie Coleman",
+        "Valentina Tereşkova",
+        "sally yolculuğu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_049",
+      "difficulty": "medium",
+      "category": "Tarih",
+      "question": "Berlin Duvarı hangi yılda yıkıldı?",
+      "options": [
+        "1987",
+        "1989",
+        "1991",
+        "1993"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_050",
+      "difficulty": "medium",
+      "category": "Tarih",
+      "question": "Cengiz Han hangi imparatorluğu yönetiyordu?",
+      "options": [
+        "Osmanlı İmparatorluğu",
+        "Moğol İmparatorluğu",
+        "Roma İmparatorluğu",
+        "Pers İmparatorluğu"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_051",
+      "difficulty": "medium",
+      "category": "Tarih",
+      "question": "Ay'da yürüyen ilk insan kimdi?",
+      "options": [
+        "Buzz Aldrin",
+        "Yuri Gagarin",
+        "Neil Armstrong",
+        "Michael Collins'in"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_tr_052",
+      "difficulty": "medium",
+      "category": "Tarih",
+      "question": "Rönesans hangi günümüz ülkesinde başladı?",
+      "options": [
+        "Fransa",
+        "İtalya",
+        "Almanya",
+        "İspanya"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_053",
+      "difficulty": "medium",
+      "category": "Tarih",
+      "question": "Hangi belge Biz İnsanlar sözleriyle başlıyor?",
+      "options": [
+        "Magna Karta",
+        "ABD Anayasası",
+        "Bağımsızlık Bildirgesi",
+        "Haklar Bildirgesi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_054",
+      "difficulty": "medium",
+      "category": "Tarih",
+      "question": "Viktorya döneminin büyük bölümünde İngiltere'yi hangi kraliçe yönetti?",
+      "options": [
+        "Elizabeth I",
+        "Meryem ben",
+        "Victoria",
+        "Anne"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_tr_055",
+      "difficulty": "hard",
+      "category": "Tarih",
+      "question": "Rosetta Taşı bilim adamlarının hangi eski yazıyı okumasına yardımcı oldu?",
+      "options": [
+        "Çivi yazısı",
+        "Hiyeroglifler",
+        "Sanskritçe",
+        "Doğrusal B"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_056",
+      "difficulty": "hard",
+      "category": "Tarih",
+      "question": "Haiti Devrimi'ne kim öncülük etti?",
+      "options": [
+        "Toussaint Panjuru",
+        "Simon Bolivar",
+        "Miguel Hidalgo",
+        "José de San Martin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_057",
+      "difficulty": "hard",
+      "category": "Tarih",
+      "question": "Birinci Dünya Savaşı'nı hangi antlaşma sonlandırdı?",
+      "options": [
+        "Paris Antlaşması",
+        "Versay Antlaşması",
+        "Tordesillas Antlaşması",
+        "Utrecht Antlaşması"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_058",
+      "difficulty": "hard",
+      "category": "Tarih",
+      "question": "Bizans İmparatorluğu'nun başkenti hangi şehirdi?",
+      "options": [
+        "Roma",
+        "Atina",
+        "Konstantinopolis",
+        "İskenderiye"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_tr_059",
+      "difficulty": "hard",
+      "category": "Tarih",
+      "question": "Eski Mısır'ın son firavunu kimdi?",
+      "options": [
+        "Nefertiti",
+        "Kleopatra VII",
+        "Hatşepsut",
+        "Ramses II"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_060",
+      "difficulty": "hard",
+      "category": "Tarih",
+      "question": "Hammurabi Kanunlarını hangi uygarlık yarattı?",
+      "options": [
+        "Babil",
+        "Asur",
+        "Fenike",
+        "Hitit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_061",
+      "difficulty": "easy",
+      "category": "Popüler Kültür",
+      "question": "Batman'in uşağının adı nedir?",
+      "options": [
+        "James",
+        "Alfred",
+        "George",
+        "Edward"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_062",
+      "difficulty": "easy",
+      "category": "Popüler Kültür",
+      "question": "Hogwarts hangi seride yer alıyor?",
+      "options": [
+        "Star Wars",
+        "Harry Potter",
+        "The Matrix",
+        "avatar"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_063",
+      "difficulty": "easy",
+      "category": "Popüler Kültür",
+      "question": "Shrek karakteri ne renk?",
+      "options": [
+        "Mavi",
+        "Yeşil",
+        "Mor",
+        "Turuncu"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_064",
+      "difficulty": "easy",
+      "category": "Popüler Kültür",
+      "question": "Popun Kraliçesi olarak bilinen şarkıcı hangisidir?",
+      "options": [
+        "Madonna",
+        "Adele",
+        "Rihanna",
+        "Dua Lipa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_065",
+      "difficulty": "easy",
+      "category": "Popüler Kültür",
+      "question": "Peter Parker olarak da bilinen süper kahraman hangisidir?",
+      "options": [
+        "yarasa Adam",
+        "Örümcek Adam",
+        "Süpermen",
+        "Demir Adam"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_066",
+      "difficulty": "easy",
+      "category": "Popüler Kültür",
+      "question": "Hangi filmde Elsa adında bir karakter yer alıyor?",
+      "options": [
+        "Moana",
+        "Dondurulmuş",
+        "Cesur",
+        "Karışık"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_067",
+      "difficulty": "easy",
+      "category": "Popüler Kültür",
+      "question": "Kısa viral videolarıyla tanınan uygulama hangisi?",
+      "options": [
+        "TikTok",
+        "LinkedIn",
+        "Dropbox",
+        "Yakınlaştır"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_068",
+      "difficulty": "medium",
+      "category": "Popüler Kültür",
+      "question": "Batman'in yaşadığı kurgusal şehir hangisidir?",
+      "options": [
+        "Metropolis",
+        "Gotham Şehri",
+        "Yıldız Şehri",
+        "Merkez Şehir"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_069",
+      "difficulty": "medium",
+      "category": "Popüler Kültür",
+      "question": "Abbey Road albümünü hangi grup çıkardı?",
+      "options": [
+        "Beatles",
+        "Kraliçe",
+        "ABBA",
+        "Yuvarlanan Taşlar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_070",
+      "difficulty": "medium",
+      "category": "Popüler Kültür",
+      "question": "1997 yapımı Titanik filminde Jack'i kim canlandırıyor?",
+      "options": [
+        "Brad Pitt",
+        "Leonardo DiCaprio",
+        "Tom Cruise",
+        "Matt Damon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_071",
+      "difficulty": "medium",
+      "category": "Popüler Kültür",
+      "question": "Central Perk adlı kahve dükkanı hangi TV şovunda yer alıyor?",
+      "options": [
+        "Arkadaşlar",
+        "Seinfeld",
+        "The Office",
+        "Annenle Nasıl Tanıştım"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_072",
+      "difficulty": "medium",
+      "category": "Popüler Kültür",
+      "question": "Link karakteri hangi oyun serisinde yer alıyor?",
+      "options": [
+        "Final Fantezi",
+        "Zelda Efsanesi",
+        "pokemon",
+        "sonik"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_073",
+      "difficulty": "medium",
+      "category": "Popüler Kültür",
+      "question": "Güç seninle olsun sözü hangi filmde yer alıyor?",
+      "options": [
+        "Star Wars",
+        "Uzay Yolu",
+        "Kumul",
+        "Bıçak Koşucusu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_074",
+      "difficulty": "medium",
+      "category": "Popüler Kültür",
+      "question": "Toy Story dizisindeki oyuncak kovboyun adı nedir?",
+      "options": [
+        "Vızıltı",
+        "odunsu",
+        "Andy",
+        "Rex"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_075",
+      "difficulty": "hard",
+      "category": "Popüler Kültür",
+      "question": "The Matrix dizisinde Neo'yu hangi oyuncu canlandırdı?",
+      "options": [
+        "Keanu Reeves",
+        "Johnny Depp",
+        "Nicolas Cage",
+        "Will Smith"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_076",
+      "difficulty": "hard",
+      "category": "Popüler Kültür",
+      "question": "Lemonade albümünü hangi sanatçı çıkardı?",
+      "options": [
+        "Beyoncé",
+        "Taylor Swift",
+        "Ariana Grande",
+        "Leydi Gaga"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_077",
+      "difficulty": "hard",
+      "category": "Popüler Kültür",
+      "question": "Lord of the Rings'da Gollum'un orijinal adı nedir?",
+      "options": [
+        "Smeagol",
+        "Bilbo",
+        "Deagol",
+        "Faramir"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_078",
+      "difficulty": "hard",
+      "category": "Popüler Kültür",
+      "question": "Remember Me şarkısı hangi animasyon filminde yer almaktadır?",
+      "options": [
+        "Hindistan cevizi",
+        "Encanto",
+        "Ruh",
+        "Luca"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_079",
+      "difficulty": "hard",
+      "category": "Popüler Kültür",
+      "question": "Black Panther'daki kurgusal metalin adı nedir?",
+      "options": [
+        "Adamantyum",
+        "Vibranyum",
+        "Mithril",
+        "Unobtanyum"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_080",
+      "difficulty": "hard",
+      "category": "Popüler Kültür",
+      "question": "Hangi sitcom Dunder Mifflin şirketinde geçer?",
+      "options": [
+        "Parklar ve Rekreasyon",
+        "The Office",
+        "Brooklyn Dokuz Dokuz",
+        "Topluluk"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_081",
+      "difficulty": "easy",
+      "category": "Gıda",
+      "question": "Guacamole yapımında geleneksel olarak hangi meyve kullanılır?",
+      "options": [
+        "Muz",
+        "Avokado",
+        "Mango",
+        "Kivi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_082",
+      "difficulty": "easy",
+      "category": "Gıda",
+      "question": "Suşi en çok neyle ilişkilendirilir?",
+      "options": [
+        "Japonya",
+        "Meksika",
+        "İtalya",
+        "Fas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_083",
+      "difficulty": "easy",
+      "category": "Gıda",
+      "question": "Badem ezmesi yapmak için hangi fındık kullanılır?",
       "options": [
         "Ceviz",
         "Fındık",
         "Badem",
-        "Yer fıstığı"
+        "Fıstık"
       ],
       "correctIndex": 2
     },
     {
-      "id": "tb_tr_006",
+      "id": "tb_tr_084",
+      "difficulty": "easy",
+      "category": "Gıda",
+      "question": "Humusun ana maddesi nedir?",
+      "options": [
+        "Mercimek",
+        "Nohut",
+        "Patates",
+        "Pirinç"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_085",
+      "difficulty": "easy",
+      "category": "Gıda",
+      "question": "Kavrulmuş fasulyenin demlenmesiyle hangi içecek yapılır?",
+      "options": [
+        "Çay",
+        "Kahve",
+        "Limonata",
+        "Kola"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_086",
+      "difficulty": "easy",
+      "category": "Gıda",
+      "question": "Küçük tüplere benzeyen makarna türü nedir?",
+      "options": [
+        "Penne",
+        "Spagetti",
+        "Farfalle",
+        "Lazanya"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_087",
+      "difficulty": "easy",
+      "category": "Gıda",
+      "question": "Hangi ülke tacosuyla ünlüdür?",
+      "options": [
+        "İtalya",
+        "Meksika",
+        "Tayland",
+        "Yunanistan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_088",
+      "difficulty": "medium",
+      "category": "Gıda",
+      "question": "Köriye sarı rengini hangi baharat verir?",
+      "options": [
+        "Kimyon",
+        "Zerdeçal",
+        "kırmızı biber",
+        "Tarçın"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_089",
+      "difficulty": "medium",
+      "category": "Gıda",
+      "question": "Margherita pizzasında geleneksel olarak hangi peynir kullanılır?",
+      "options": [
+        "Çedar",
+        "Mozarella",
+        "Beyaz peynir",
+        "Gouda"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_090",
+      "difficulty": "medium",
+      "category": "Gıda",
+      "question": "Tofu esas olarak neyden yapılır?",
+      "options": [
+        "Soya fasulyesi",
+        "Pirinç",
+        "Mısır",
+        "Fıstık"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_091",
+      "difficulty": "medium",
+      "category": "Gıda",
+      "question": "Kahveye batırılmış kedi dillerinden hangi tatlı yapılır?",
+      "options": [
+        "Baklava",
+        "Tiramisu",
+        "Pavlova",
+        "Krem brule"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_092",
+      "difficulty": "medium",
+      "category": "Gıda",
+      "question": "Lahana turşusunun ana maddesi nedir?",
+      "options": [
+        "Lahana",
+        "Havuç",
+        "Salatalık",
+        "Soğan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_093",
+      "difficulty": "medium",
+      "category": "Gıda",
+      "question": "Kuru üzüm yapmak için hangi meyve kurutulur?",
+      "options": [
+        "Üzüm",
+        "Erikler",
+        "Kayısı",
+        "İncir"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_094",
+      "difficulty": "medium",
+      "category": "Gıda",
+      "question": "Geleneksel olarak fesleğen, çam fıstığı, sarımsak, zeytinyağı ve peynirle yapılan sos hangisidir?",
+      "options": [
+        "Pesto",
+        "Salsa",
+        "Hoisin",
+        "Tahin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_095",
+      "difficulty": "hard",
+      "category": "Gıda",
+      "question": "Geleneksel risotto yapmak için hangi tahıl kullanılır?",
+      "options": [
+        "Basmati",
+        "Arborio pirinci",
+        "Kinoa",
+        "Bulgur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_096",
+      "difficulty": "hard",
+      "category": "Gıda",
+      "question": "Kimchi'nin menşei hangi ülkedir?",
+      "options": [
+        "Japonya",
+        "Çin",
+        "Kore",
+        "Vietnam"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_tr_097",
+      "difficulty": "hard",
+      "category": "Gıda",
+      "question": "İnce gözleme için Fransızca terim nedir?",
+      "options": [
+        "Krep",
+        "çörek",
+        "ekler",
+        "Makaron"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_098",
+      "difficulty": "hard",
+      "category": "Gıda",
+      "question": "Sirkeye ekşi tadını hangi asit verir?",
+      "options": [
+        "sitrik asit",
+        "Asetik asit",
+        "Laktik asit",
+        "Malik asit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_099",
+      "difficulty": "hard",
+      "category": "Gıda",
+      "question": "Geleneksel falafelin ana maddesi nedir?",
+      "options": [
+        "Nohut",
+        "Sığır eti",
+        "Patlıcan",
+        "Pirinç"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_100",
+      "difficulty": "hard",
+      "category": "Gıda",
+      "question": "Baklava yapmak için hangi hamur kullanılır?",
+      "options": [
+        "Puf böreği",
+        "Yufka",
+        "Kısa kabuk",
+        "Choux böreği"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_101",
       "difficulty": "easy",
       "category": "Hayvanlar",
-      "question": "Karada en hızlı hayvan?",
+      "question": "En büyük kara hayvanı nedir?",
       "options": [
-        "Aslan",
+        "Fil",
+        "Su aygırı",
+        "Gergedan",
+        "Zürafa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_102",
+      "difficulty": "easy",
+      "category": "Hayvanlar",
+      "question": "Hangi hayvan siyah beyaz çizgileriyle tanınır?",
+      "options": [
+        "Zebra",
+        "Kaplan",
+        "Panda",
+        "kokarca"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_103",
+      "difficulty": "easy",
+      "category": "Hayvanlar",
+      "question": "Arılar ne yapar?",
+      "options": [
+        "Süt",
+        "bal",
+        "İpek",
+        "Yalnızca balmumu"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_104",
+      "difficulty": "easy",
+      "category": "Hayvanlar",
+      "question": "Hangi hayvan memelidir?",
+      "options": [
+        "Köpekbalığı",
+        "Kurbağa",
+        "Yunus",
+        "Timsah"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_tr_105",
+      "difficulty": "easy",
+      "category": "Hayvanlar",
+      "question": "Yavru kediye ne denir?",
+      "options": [
+        "köpek yavrusu",
+        "yavru kedi",
+        "Buzağı",
+        "Tay"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_106",
+      "difficulty": "easy",
+      "category": "Hayvanlar",
+      "question": "Hikayelerde genellikle hangi kuş bebek doğurmakla ilişkilendirilir?",
+      "options": [
+        "Kartal",
+        "Leylek",
+        "Baykuş",
+        "Kuğu"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_107",
+      "difficulty": "easy",
+      "category": "Hayvanlar",
+      "question": "Hangi hayvan renk değiştirmesiyle ünlüdür?",
+      "options": [
+        "Bukalemun",
+        "Koala",
+        "Penguen",
+        "Deve"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_108",
+      "difficulty": "medium",
+      "category": "Hayvanlar",
+      "question": "En hızlı kara hayvanı hangisidir?",
+      "options": [
         "Çita",
+        "Aslan",
         "At",
-        "Devekuşu"
+        "Kanguru"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
-      "id": "tb_tr_007",
-      "difficulty": "easy",
-      "category": "Tarih",
-      "question": "Mona Lisa'yı kim yaptı?",
+      "id": "tb_tr_109",
+      "difficulty": "medium",
+      "category": "Hayvanlar",
+      "question": "Hangi hayvan en uzun boyuna sahiptir?",
       "options": [
-        "Michelangelo",
-        "Raphael",
-        "Leonardo da Vinci",
-        "Botticelli"
+        "Zürafa",
+        "Devekuşu",
+        "Deve",
+        "Lama"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_110",
+      "difficulty": "medium",
+      "category": "Hayvanlar",
+      "question": "İngilizcede bir aslan grubuna ne denir?",
+      "options": [
+        "Pack",
+        "Herd",
+        "Pride",
+        "Flock"
       ],
       "correctIndex": 2
     },
     {
-      "id": "tb_tr_008",
-      "difficulty": "easy",
-      "category": "Bilim",
-      "question": "Suyun kaynama noktası kaç °C?",
-      "options": [
-        "90°C",
-        "95°C",
-        "100°C",
-        "110°C"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_tr_009",
-      "difficulty": "easy",
-      "category": "Coğrafya",
-      "question": "En uzun nehir hangisi?",
-      "options": [
-        "Amazon",
-        "Mississippi",
-        "Yangtze",
-        "Nil"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "id": "tb_tr_010",
-      "difficulty": "easy",
-      "category": "Pop Kültür",
-      "question": "Darth Vader'ın kılıcı hangi renk?",
-      "options": [
-        "Yeşil",
-        "Mavi",
-        "Mor",
-        "Kırmızı"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "id": "tb_tr_011",
+      "id": "tb_tr_111",
       "difficulty": "medium",
-      "category": "Bilim",
-      "question": "Işığın hızı (km/s) kaç?",
+      "category": "Hayvanlar",
+      "question": "Hangi deniz hayvanının üç kalbi vardır?",
       "options": [
-        "200.000",
-        "300.000",
-        "400.000",
-        "500.000"
+        "Ahtapot",
+        "Yunus",
+        "Deniz kaplumbağası",
+        "Denizanası"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_112",
+      "difficulty": "medium",
+      "category": "Hayvanlar",
+      "question": "Pandalar çoğunlukla ne yer?",
+      "options": [
+        "Bambu",
+        "Balık",
+        "Çim",
+        "Meyve"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_113",
+      "difficulty": "medium",
+      "category": "Hayvanlar",
+      "question": "Hangi hayvan en büyük yumurtayı bırakır?",
+      "options": [
+        "Devekuşu",
+        "Kartal",
+        "Penguen",
+        "Albatros"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_114",
+      "difficulty": "medium",
+      "category": "Hayvanlar",
+      "question": "Hangi böcek kendi vücut ağırlığının kat kat fazlasını kaldırabilir?",
+      "options": [
+        "Kelebek",
+        "Karınca",
+        "Sivrisinek",
+        "Uğur böceği"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_tr_012",
-      "difficulty": "medium",
-      "category": "Tarih",
-      "question": "II. Dünya Savaşı hangi yıl bitti?",
+      "id": "tb_tr_115",
+      "difficulty": "hard",
+      "category": "Hayvanlar",
+      "question": "Gerçek uçuş yeteneğine sahip tek memeli hangisidir?",
       "options": [
-        "1943",
-        "1944",
-        "1945",
-        "1946"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_tr_013",
-      "difficulty": "medium",
-      "category": "Bilim",
-      "question": "Yetişkin insanda kaç kemik var?",
-      "options": [
-        "196",
-        "206",
-        "216",
-        "226"
+        "Uçan sincap",
+        "Yarasa",
+        "Şeker planör",
+        "Lemur"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_tr_014",
+      "id": "tb_tr_116",
+      "difficulty": "hard",
+      "category": "Hayvanlar",
+      "question": "Çöl gemisi olarak da adlandırılan hayvan hangisidir?",
+      "options": [
+        "Deve",
+        "Eşek",
+        "At",
+        "Yak"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_117",
+      "difficulty": "hard",
+      "category": "Hayvanlar",
+      "question": "Köpekbalığının en büyük türü nedir?",
+      "options": [
+        "Büyük beyaz köpekbalığı",
+        "Balina köpekbalığı",
+        "Çekiç kafalı köpekbalığı",
+        "Kaplan köpekbalığı"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_118",
+      "difficulty": "hard",
+      "category": "Hayvanlar",
+      "question": "Hangi kuş insan konuşmasını özellikle iyi taklit edebilir?",
+      "options": [
+        "Papağan",
+        "Penguen",
+        "Flamingo",
+        "Serçe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_119",
+      "difficulty": "hard",
+      "category": "Hayvanlar",
+      "question": "Kuşları inceleyen bilime ne ad verilir?",
+      "options": [
+        "Entomoloji",
+        "Ornitoloji",
+        "ihtiyoloji",
+        "Herpetoloji"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_120",
+      "difficulty": "hard",
+      "category": "Hayvanlar",
+      "question": "Hangi hayvanın parmak izleri insanlara çok benziyor?",
+      "options": [
+        "Koala",
+        "Kanguru",
+        "Panda",
+        "Tembellik"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_121",
+      "difficulty": "easy",
+      "category": "Matematik",
+      "question": "9 çarpı 9 nedir?",
+      "options": [
+        "72",
+        "81",
+        "90",
+        "99"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_122",
+      "difficulty": "easy",
+      "category": "Matematik",
+      "question": "Bir üçgenin kaç kenarı vardır?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_123",
+      "difficulty": "easy",
+      "category": "Matematik",
+      "question": "100'ün yarısı kaçtır?",
+      "options": [
+        "25",
+        "40",
+        "50",
+        "75"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_tr_124",
+      "difficulty": "easy",
+      "category": "Matematik",
+      "question": "12 artı 15 nedir?",
+      "options": [
+        "25",
+        "27",
+        "29",
+        "31"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_125",
+      "difficulty": "easy",
+      "category": "Matematik",
+      "question": "Bir saat kaç dakikadır?",
+      "options": [
+        "30",
+        "45",
+        "60",
+        "90"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_tr_126",
+      "difficulty": "easy",
+      "category": "Matematik",
+      "question": "7 kare nedir?",
+      "options": [
+        "14",
+        "21",
+        "49",
+        "77"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_tr_127",
+      "difficulty": "easy",
+      "category": "Matematik",
+      "question": "Bir dik açı kaç derecedir?",
+      "options": [
+        "45",
+        "60",
+        "90",
+        "180"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_tr_128",
       "difficulty": "medium",
       "category": "Matematik",
-      "question": "144'ün karekökü?",
+      "question": "Pi'nin iki ondalık basamağa yuvarlanmış değeri nedir?",
+      "options": [
+        "3.12",
+        "3.14",
+        "3.16",
+        "3.18"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_129",
+      "difficulty": "medium",
+      "category": "Matematik",
+      "question": "200'ün yüzde 15'i nedir?",
+      "options": [
+        "15",
+        "20",
+        "30",
+        "40"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_tr_130",
+      "difficulty": "medium",
+      "category": "Matematik",
+      "question": "Altıgenin kaç kenarı vardır?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_131",
+      "difficulty": "medium",
+      "category": "Matematik",
+      "question": "144'ün karekökü nedir?",
       "options": [
         "10",
         "11",
@@ -187,985 +1707,23 @@
       "correctIndex": 2
     },
     {
-      "id": "tb_tr_015",
+      "id": "tb_tr_132",
       "difficulty": "medium",
-      "category": "Hayvanlar",
-      "question": "Ahtapotun kaç kalbi var?",
-      "options": [
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_tr_016",
-      "difficulty": "medium",
-      "category": "Coğrafya",
-      "question": "En küçük ülke hangisi?",
-      "options": [
-        "Monako",
-        "San Marino",
-        "Lihtenştayn",
-        "Vatikan"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "id": "tb_tr_017",
-      "difficulty": "medium",
-      "category": "Bilim",
-      "question": "İnsülin hangi organda üretilir?",
-      "options": [
-        "Karaciğer",
-        "Böbrek",
-        "Pankreas",
-        "Dalak"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_tr_018",
-      "difficulty": "medium",
-      "category": "Pop Kültür",
-      "question": "İlk iPhone hangi yıl çıktı?",
-      "options": [
-        "2005",
-        "2006",
-        "2007",
-        "2008"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_tr_019",
-      "difficulty": "medium",
-      "category": "Bilim",
-      "question": "Atom numarası 1 olan element?",
-      "options": [
-        "Helyum",
-        "Hidrojen",
-        "Lityum",
-        "Karbon"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_tr_020",
-      "difficulty": "medium",
-      "category": "Coğrafya",
-      "question": "Japonya'nın para birimi?",
-      "options": [
-        "Won",
-        "Yuan",
-        "Yen",
-        "Ringgit"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_tr_021",
-      "difficulty": "hard",
-      "category": "Bilim",
-      "question": "Karbon-14'ün yarı ömrü?",
-      "options": [
-        "2.730 yıl",
-        "5.730 yıl",
-        "8.730 yıl",
-        "11.460 yıl"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_tr_022",
-      "difficulty": "hard",
-      "category": "Tarih",
-      "question": "Bizans hangi yıl sona erdi?",
-      "options": [
-        "1350",
-        "1453",
-        "1492",
-        "1521"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_tr_023",
-      "difficulty": "hard",
-      "category": "Coğrafya",
-      "question": "En derin göl hangisi?",
-      "options": [
-        "Hazar Denizi",
-        "Süperior Gölü",
-        "Baykal Gölü",
-        "Tanganyika Gölü"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_tr_024",
-      "difficulty": "hard",
-      "category": "Tarih",
-      "question": "'Savaş Sanatı' yazarı kim?",
-      "options": [
-        "Konfüçyüs",
-        "Sun Tzu",
-        "Lao Tzu",
-        "Mencius"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_tr_025",
-      "difficulty": "hard",
-      "category": "Bilim",
-      "question": "Sofra tuzunun formülü?",
-      "options": [
-        "NaCl",
-        "KCl",
-        "CaCl2",
-        "MgCl2"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_tr_026",
-      "difficulty": "hard",
-      "category": "Pop Kültür",
-      "question": "'Dört Mevsim'i kim besteledi?",
-      "options": [
-        "Bach",
-        "Mozart",
-        "Beethoven",
-        "Vivaldi"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "id": "tb_tr_027",
-      "difficulty": "hard",
-      "category": "Bilim",
-      "question": "İnsanda kaç kromozom vardır?",
-      "options": [
-        "23",
-        "44",
-        "46",
-        "48"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_tr_028",
-      "difficulty": "hard",
-      "category": "Tarih",
-      "question": "Fransız Devrimi hangi yıl başladı?",
-      "options": [
-        "1776",
-        "1783",
-        "1789",
-        "1799"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_tr_029",
-      "difficulty": "hard",
-      "category": "Bilim",
-      "question": "Atmosferde en bol gaz hangisi?",
-      "options": [
-        "Oksijen",
-        "Argon",
-        "Karbondioksit",
-        "Azot"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "id": "tb_tr_030",
-      "difficulty": "hard",
       "category": "Matematik",
-      "question": "Pi (4 ondalık) kaçtır?",
+      "question": "3 küp nedir?",
       "options": [
-        "3.1415",
-        "3.1416",
-        "3.1417",
-        "3.1418"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "difficulty": "easy",
-      "category": "Bilim",
-      "question": "Güneş Sistemi'ndeki en büyük gezegen hangisidir?",
-      "options": [
-        "Dünya",
-        "Mars",
-        "Jüpiter",
-        "Venüs"
-      ],
-      "correctIndex": 2,
-      "id": "tb_tr_031"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Coğrafya",
-      "question": "En büyük okyanus hangisidir?",
-      "options": [
-        "Atlas",
-        "Hint",
-        "Arktik",
-        "Pasifik"
-      ],
-      "correctIndex": 3,
-      "id": "tb_tr_032"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Hayvanlar",
-      "question": "Bir örümceğin kaç bacağı vardır?",
-      "options": [
-        "6",
-        "8",
-        "10",
-        "12"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_033"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Bilim",
-      "question": "Bitkiler hangi gazı içine alır?",
-      "options": [
-        "Oksijen",
-        "Karbondioksit",
-        "Azot",
-        "Helyum"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_034"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Müzik",
-      "question": "88 tuşlu enstrüman hangisidir?",
-      "options": [
-        "Gitar",
-        "Keman",
-        "Piyano",
-        "Flüt"
-      ],
-      "correctIndex": 2,
-      "id": "tb_tr_035"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Coğrafya",
-      "question": "Kanada'nın başkenti neresidir?",
-      "options": [
-        "Toronto",
-        "Ottawa",
-        "Vancouver",
-        "Montreal"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_036"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Hayvanlar",
-      "question": "Siyah-beyaz çizgileriyle bilinen hayvan hangisidir?",
-      "options": [
-        "Kaplan",
-        "Zebra",
-        "Panda",
-        "Kokarca"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_037"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Sanat",
-      "question": "Kırmızı ile mavi karışınca hangi renk olur?",
-      "options": [
-        "Turuncu",
-        "Mor",
-        "Yeşil",
-        "Pembe"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_038"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Bilim",
-      "question": "Kızıl Gezegen hangisidir?",
-      "options": [
-        "Venüs",
-        "Mars",
-        "Jüpiter",
-        "Satürn"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_039"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Sanat",
-      "question": "Romeo ve Juliet'i kim yazdı?",
-      "options": [
-        "Charles Dickens",
-        "William Shakespeare",
-        "Jane Austen",
-        "Mark Twain"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_040"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Yiyecek",
-      "question": "Guacamole'nin ana malzemesi nedir?",
-      "options": [
-        "Bezelye",
-        "Avokado",
-        "Salatalık",
-        "Kabak"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_041"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Hayvanlar",
-      "question": "En uzun boylu memeli hangisidir?",
-      "options": [
-        "Fil",
-        "Zürafa",
-        "At",
-        "Deve"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_042"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Coğrafya",
-      "question": "Mısır hangi kıtadadır?",
-      "options": [
-        "Asya",
-        "Afrika",
-        "Avrupa",
-        "Güney Amerika"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_043"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Matematik",
-      "question": "Artık yıl kaç gündür?",
-      "options": [
-        "364",
-        "365",
-        "366",
-        "367"
-      ],
-      "correctIndex": 2,
-      "id": "tb_tr_044"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Bilim",
-      "question": "Doğal olarak en sert madde nedir?",
-      "options": [
-        "Altın",
-        "Demir",
-        "Elmas",
-        "Kuvars"
-      ],
-      "correctIndex": 2,
-      "id": "tb_tr_045"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Bilim",
-      "question": "Termometre neyi ölçer?",
-      "options": [
-        "Basınç",
-        "Sıcaklık",
-        "Hız",
-        "Hacim"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_046"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Spor",
-      "question": "Raket ve tüytop kullanılan spor hangisidir?",
-      "options": [
-        "Tenis",
-        "Badminton",
-        "Squash",
-        "Masa tenisi"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_047"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Coğrafya",
-      "question": "Birleşik Krallık'ın para birimi nedir?",
-      "options": [
-        "Euro",
-        "Dolar",
-        "Sterlin",
-        "Krona"
-      ],
-      "correctIndex": 2,
-      "id": "tb_tr_048"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Bilim",
-      "question": "Halkalarıyla en ünlü gezegen hangisidir?",
-      "options": [
-        "Mars",
-        "Satürn",
-        "Neptün",
-        "Merkür"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_049"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Hayvanlar",
-      "question": "En büyük memeli hangisidir?",
-      "options": [
-        "Fil",
-        "Mavi balina",
-        "Zürafa",
-        "Su aygırı"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_050"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Bilim",
-      "question": "Fe sembolü hangi elementtir?",
-      "options": [
-        "Flor",
-        "Demir",
-        "Gümüş",
-        "Kalay"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_051"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Tarih",
-      "question": "Kolezyum hangi şehirde?",
-      "options": [
-        "Atina",
-        "Roma",
-        "Paris",
-        "İstanbul"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_052"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Sanat",
-      "question": "Yıldızlı Gece'yi kim yaptı?",
-      "options": [
-        "Van Gogh",
-        "Picasso",
-        "Monet",
-        "Rembrandt"
-      ],
-      "correctIndex": 0,
-      "id": "tb_tr_053"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Coğrafya",
-      "question": "Güney Kore'nin başkenti neresidir?",
-      "options": [
-        "Seul",
-        "Busan",
-        "Tokyo",
-        "Pekin"
-      ],
-      "correctIndex": 0,
-      "id": "tb_tr_054"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Tarih",
-      "question": "Kağıdı hangi ülke icat etti?",
-      "options": [
-        "Yunanistan",
-        "Çin",
-        "Mısır",
-        "Hindistan"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_055"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Spor",
-      "question": "Beyzbol sahasında bir takımda kaç oyuncu olur?",
-      "options": [
-        "7",
-        "8",
         "9",
-        "10"
-      ],
-      "correctIndex": 2,
-      "id": "tb_tr_056"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Bilim",
-      "question": "İnsan vücudundaki en uzun kemik hangisidir?",
-      "options": [
-        "Femur",
-        "Tibia",
-        "Humerus",
-        "Radius"
-      ],
-      "correctIndex": 0,
-      "id": "tb_tr_057"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Hayvanlar",
-      "question": "Dünyanın en hızlı kuşu hangisidir?",
-      "options": [
-        "Kartal",
-        "Gökdoğan",
-        "Devekuşu",
-        "Şahin"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_058"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Coğrafya",
-      "question": "Ana dili en çok konuşulan dil hangisidir?",
-      "options": [
-        "İngilizce",
-        "İspanyolca",
-        "Mandarin Çincesi",
-        "Hintçe"
-      ],
-      "correctIndex": 2,
-      "id": "tb_tr_059"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Bilim",
-      "question": "Güneş Sistemi'ndeki en küçük gezegen hangisidir?",
-      "options": [
-        "Merkür",
-        "Mars",
-        "Venüs",
-        "Neptün"
-      ],
-      "correctIndex": 0,
-      "id": "tb_tr_060"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Tarih",
-      "question": "Penisilini kim keşfetti?",
-      "options": [
-        "Marie Curie",
-        "Alexander Fleming",
-        "Louis Pasteur",
-        "Isaac Newton"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_061"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Coğrafya",
-      "question": "Arjantin'in başkenti neresidir?",
-      "options": [
-        "Lima",
-        "Buenos Aires",
-        "Santiago",
-        "Montevideo"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_062"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Coğrafya",
-      "question": "Lale tarlalarıyla ünlü ülke hangisidir?",
-      "options": [
-        "Belçika",
-        "Hollanda",
-        "Danimarka",
-        "İsviçre"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_063"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Teknoloji",
-      "question": "HTTP neyin kısaltmasıdır?",
-      "options": [
-        "Hypertext Transfer Protocol",
-        "High Transfer Text Process",
-        "Hyperlink Transmission Program",
-        "Host Transfer Protocol"
-      ],
-      "correctIndex": 0,
-      "id": "tb_tr_064"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Müzik",
-      "question": "Louis Armstrong hangi enstrümanla bilinir?",
-      "options": [
-        "Saksafon",
-        "Trompet",
-        "Piyano",
-        "Klarnet"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_065"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Bilim",
-      "question": "Hücrenin enerji merkezi hangisidir?",
-      "options": [
-        "Çekirdek",
-        "Mitokondri",
-        "Ribozom",
-        "Golgi aygıtı"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_066"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Coğrafya",
-      "question": "En büyük sıcak çöl hangisidir?",
-      "options": [
-        "Gobi",
-        "Sahra",
-        "Kalahari",
-        "Atacama"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_067"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Matematik",
-      "question": "Üçgene benzeyen Yunan harfi hangisidir?",
-      "options": [
-        "Alfa",
-        "Delta",
-        "Sigma",
-        "Omega"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_068"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Spor",
-      "question": "2012 Yaz Olimpiyatları hangi şehirde yapıldı?",
-      "options": [
-        "Pekin",
-        "Londra",
-        "Rio de Janeiro",
-        "Atina"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_069"
-    },
-    {
-      "difficulty": "medium",
-      "category": "Bilim",
-      "question": "Ozonun kimyasal formülü nedir?",
-      "options": [
-        "O2",
-        "O3",
-        "CO2",
-        "O4"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_070"
-    },
-    {
-      "difficulty": "hard",
-      "category": "Sanat",
-      "question": "'Yüzyıllık Yalnızlık'ın yazarı kimdir?",
-      "options": [
-        "Mario Vargas Llosa",
-        "Gabriel García Márquez",
-        "Isabel Allende",
-        "Jorge Luis Borges"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_071"
-    },
-    {
-      "difficulty": "hard",
-      "category": "Coğrafya",
-      "question": "Kazakistan'ın başkenti neresidir?",
-      "options": [
-        "Almatı",
-        "Astana",
-        "Taşkent",
-        "Bişkek"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_072"
-    },
-    {
-      "difficulty": "hard",
-      "category": "Bilim",
-      "question": "En kısa gün süresine sahip gezegen hangisidir?",
-      "options": [
-        "Dünya",
-        "Jüpiter",
-        "Mars",
-        "Uranüs"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_073"
-    },
-    {
-      "difficulty": "hard",
-      "category": "Tarih",
-      "question": "Berlin Duvarı hangi yıl yıkıldı?",
-      "options": [
-        "1987",
-        "1988",
-        "1989",
-        "1990"
-      ],
-      "correctIndex": 2,
-      "id": "tb_tr_074"
-    },
-    {
-      "difficulty": "hard",
-      "category": "Bilim",
-      "question": "Elektrik akımının SI birimi nedir?",
-      "options": [
-        "Volt",
-        "Amper",
-        "Ohm",
-        "Watt"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_075"
-    },
-    {
-      "difficulty": "hard",
-      "category": "Müzik",
-      "question": "'Sihirli Flüt' operasını kim bestelemiştir?",
-      "options": [
-        "Mozart",
-        "Verdi",
-        "Puccini",
-        "Wagner"
-      ],
-      "correctIndex": 0,
-      "id": "tb_tr_076"
-    },
-    {
-      "difficulty": "hard",
-      "category": "Matematik",
-      "question": "256'nın karekökü nedir?",
-      "options": [
-        "14",
-        "16",
         "18",
-        "20"
+        "27",
+        "81"
       ],
-      "correctIndex": 1,
-      "id": "tb_tr_077"
+      "correctIndex": 2
     },
     {
-      "difficulty": "hard",
-      "category": "Coğrafya",
-      "question": "En fazla saat dilimine sahip ülke hangisidir?",
-      "options": [
-        "ABD",
-        "Fransa",
-        "Rusya",
-        "Avustralya"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_078"
-    },
-    {
-      "difficulty": "hard",
-      "category": "Coğrafya",
-      "question": "Avrupa'nın en uzun nehri hangisidir?",
-      "options": [
-        "Tuna",
-        "Volga",
-        "Ren",
-        "Sen"
-      ],
-      "correctIndex": 1,
-      "id": "tb_tr_079"
-    },
-    {
-      "difficulty": "hard",
-      "category": "Sanat",
-      "question": "'Belleğin Azmi' tablosunu kim yaptı?",
-      "options": [
-        "Salvador Dalí",
-        "Pablo Picasso",
-        "Claude Monet",
-        "Edvard Munch"
-      ],
-      "correctIndex": 0,
-      "id": "tb_tr_080"
-    },
-    {
-      "id": "tb_tr_081",
-      "difficulty": "easy",
-      "category": "Coğrafya",
-      "question": "İspanya'nın başkenti hangisidir?",
-      "options": [
-        "Madrid",
-        "Barselona",
-        "Sevilla",
-        "Valensiya"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_tr_082",
-      "difficulty": "easy",
-      "category": "Coğrafya",
-      "question": "Brezilya'nın başkenti hangisidir?",
-      "options": [
-        "Brasilia",
-        "Rio de Janeiro",
-        "São Paulo",
-        "Salvador"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_tr_083",
-      "difficulty": "easy",
-      "category": "Coğrafya",
-      "question": "Hindistan'ın başkenti hangisidir?",
-      "options": [
-        "Yeni Delhi",
-        "Mumbai",
-        "Bangalore",
-        "Kolkata"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_tr_084",
-      "difficulty": "easy",
-      "category": "Bilim",
-      "question": "Potasyumun kimyasal sembolü nedir?",
-      "options": [
-        "K",
-        "P",
-        "Po",
-        "Pt"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_tr_085",
-      "difficulty": "easy",
-      "category": "Bilim",
-      "question": "Oksijenin kimyasal sembolü nedir?",
-      "options": [
-        "O",
-        "Ox",
-        "Og",
-        "Oz"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_tr_086",
-      "difficulty": "easy",
-      "category": "Tarih",
-      "question": "I. Dünya Savaşı hangi yılda başladı?",
-      "options": [
-        "1912",
-        "1914",
-        "1916",
-        "1918"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_tr_087",
-      "difficulty": "easy",
-      "category": "Tarih",
-      "question": "Amerika Birleşik Devletleri'nin ilk başkanı kimdir?",
-      "options": [
-        "George Washington",
-        "Thomas Jefferson",
-        "Abraham Lincoln",
-        "John Adams"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_tr_088",
-      "difficulty": "easy",
-      "category": "Sanat",
-      "question": "David heykelini kim yaptı?",
-      "options": [
-        "Michelangelo",
-        "Donatello",
-        "Bernini",
-        "Rodin"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_tr_089",
-      "difficulty": "easy",
-      "category": "Sanat",
-      "question": "'1984' romanını kim yazdı?",
-      "options": [
-        "George Orwell",
-        "Aldous Huxley",
-        "Ray Bradbury",
-        "J.K. Rowling"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_tr_090",
-      "difficulty": "easy",
-      "category": "Spor",
-      "question": "Sahada bir futbol takımında kaç oyuncu vardır?",
+      "id": "tb_tr_133",
+      "difficulty": "medium",
+      "category": "Matematik",
+      "question": "7'den sonraki asal sayı nedir?",
       "options": [
         "9",
         "10",
@@ -1175,561 +1733,1393 @@
       "correctIndex": 2
     },
     {
-      "id": "tb_tr_091",
-      "difficulty": "easy",
-      "category": "Hayvanlar",
-      "question": "En büyük kuş hangisidir?",
-      "options": [
-        "Devekuşu",
-        "Kartal",
-        "Penguen",
-        "Kuğu"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_tr_092",
-      "difficulty": "easy",
-      "category": "Bilim",
-      "question": "H2O nedir?",
-      "options": [
-        "Su",
-        "Hidrojen",
-        "Oksijen",
-        "Tuz"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_tr_093",
-      "difficulty": "easy",
-      "category": "Teknoloji",
-      "question": "GPS kısaltması neyin açılımıdır?",
-      "options": [
-        "Global Positioning System",
-        "General Packet Service",
-        "Geographic Positioning Software",
-        "Global Postal Service"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_tr_094",
-      "difficulty": "easy",
+      "id": "tb_tr_134",
+      "difficulty": "medium",
       "category": "Matematik",
-      "question": "12 x 12 kaçtır?",
+      "question": "Bir metrede kaç santimetre var?",
       "options": [
-        "124",
-        "132",
-        "144",
-        "156"
+        "10",
+        "100",
+        "1000",
+        "10000"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_135",
+      "difficulty": "hard",
+      "category": "Matematik",
+      "question": "Bir üçgenin iç açılarının toplamı nedir?",
+      "options": [
+        "90 derece",
+        "180 derece",
+        "270 derece",
+        "360 derece"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_136",
+      "difficulty": "hard",
+      "category": "Matematik",
+      "question": "2 üssü 10 kaçtır?",
+      "options": [
+        "512",
+        "1024",
+        "2048",
+        "4096"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_137",
+      "difficulty": "hard",
+      "category": "Matematik",
+      "question": "En küçük asal sayı nedir?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
       ],
       "correctIndex": 2
     },
     {
-      "id": "tb_tr_095",
-      "difficulty": "easy",
-      "category": "Coğrafya",
-      "question": "Brezilya hangi kıtadadır?",
-      "options": [
-        "Güney Amerika",
-        "Kuzey Amerika",
-        "Avrupa",
-        "Afrika"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_tr_096",
-      "difficulty": "easy",
-      "category": "Yiyecek",
-      "question": "Humusun ana malzemesi nedir?",
-      "options": [
-        "Nohut",
-        "Mercimek",
-        "Patates",
-        "Pirinç"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_tr_097",
-      "difficulty": "easy",
-      "category": "Bilim",
-      "question": "Güneş Sistemi'nde kaç gezegen vardır?",
-      "options": [
-        "7",
-        "8",
-        "9",
-        "10"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_tr_098",
-      "difficulty": "easy",
-      "category": "Sanat",
-      "question": "'Çığlık' tablosunu kim yaptı?",
-      "options": [
-        "Edvard Munch",
-        "Pablo Picasso",
-        "Vincent van Gogh",
-        "Claude Monet"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_tr_099",
-      "difficulty": "easy",
-      "category": "Coğrafya",
-      "question": "Mısır'ın başkenti hangisidir?",
-      "options": [
-        "Kahire",
-        "İskenderiye",
-        "Gize",
-        "Luksor"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_tr_100",
-      "difficulty": "easy",
-      "category": "Teknoloji",
-      "question": "USB kısaltması neyin açılımıdır?",
-      "options": [
-        "Universal Serial Bus",
-        "Unified System Board",
-        "Universal Sync Bridge",
-        "United Serial Base"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_tr_101",
-      "difficulty": "easy",
-      "category": "Coğrafya",
-      "question": "Norveç'in başkenti hangisidir?",
-      "options": [
-        "Oslo",
-        "Bergen",
-        "Trondheim",
-        "Stavanger"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_tr_102",
-      "difficulty": "easy",
-      "category": "Coğrafya",
-      "question": "Tayland'ın başkenti hangisidir?",
-      "options": [
-        "Bangkok",
-        "Chiang Mai",
-        "Phuket",
-        "Pattaya"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_tr_103",
-      "difficulty": "easy",
-      "category": "Coğrafya",
-      "question": "Kanada'nın para birimi nedir?",
-      "options": [
-        "Kanada doları",
-        "Euro",
-        "Peso",
-        "Yen"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_tr_104",
-      "difficulty": "easy",
-      "category": "Bilim",
-      "question": "Fotosentezden en çok sorumlu bitki kısmı hangisidir?",
-      "options": [
-        "Yaprak",
-        "Kök",
-        "Gövde",
-        "Çiçek"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_tr_105",
-      "difficulty": "easy",
-      "category": "Teknoloji",
-      "question": "Telefonu kim icat etti?",
-      "options": [
-        "Alexander Graham Bell",
-        "Thomas Edison",
-        "Nikola Tesla",
-        "Guglielmo Marconi"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_tr_106",
-      "difficulty": "easy",
-      "category": "Sanat",
-      "question": "İnci Küpeli Kız tablosunu kim yaptı?",
-      "options": [
-        "Johannes Vermeer",
-        "Rembrandt",
-        "Vincent van Gogh",
-        "Pablo Picasso"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_tr_107",
-      "difficulty": "easy",
-      "category": "Hayvanlar",
-      "question": "Baraj yapmasıyla bilinen hayvan hangisidir?",
-      "options": [
-        "Kunduz",
-        "Su samuru",
-        "Tilki",
-        "Geyik"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_tr_108",
-      "difficulty": "easy",
-      "category": "Spor",
-      "question": "Wimbledon hangi spor dalının turnuvasıdır?",
-      "options": [
-        "Tenis",
-        "Golf",
-        "Kriket",
-        "Ragbi"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_tr_109",
-      "difficulty": "easy",
+      "id": "tb_tr_138",
+      "difficulty": "hard",
       "category": "Matematik",
-      "question": "7 x 8 kaçtır?",
+      "question": "Ondalık sayı olarak 1'in 4'e bölümü nedir?",
       "options": [
-        "54",
-        "56",
-        "58",
-        "64"
+        "0.2",
+        "0.25",
+        "0.4",
+        "0.5"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_tr_110",
-      "difficulty": "easy",
-      "category": "Yiyecek",
-      "question": "Tofu hangi malzemeden yapılır?",
+      "id": "tb_tr_139",
+      "difficulty": "hard",
+      "category": "Matematik",
+      "question": "Bir küpün kaç yüzü vardır?",
       "options": [
-        "Soya fasulyesi",
-        "Pirinç",
-        "Buğday",
-        "Nohut"
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_140",
+      "difficulty": "hard",
+      "category": "Matematik",
+      "question": "50'nin Roma rakamı nedir?",
+      "options": [
+        "L",
+        "C",
+        "D",
+        "M"
       ],
       "correctIndex": 0
     },
     {
-      "difficulty": "easy",
-      "category": "Coğrafya",
-      "question": "Yeni Zelanda'nın başkenti hangisidir?",
-      "options": [
-        "Wellington",
-        "Auckland",
-        "Christchurch",
-        "Queenstown"
-      ],
-      "correctIndex": 0,
-      "id": "tb_tr_111"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Bilim",
-      "question": "Kimyasal sembolü K olan element hangisidir?",
-      "options": [
-        "Potasyum",
-        "Kripton",
-        "Kalsiyum",
-        "Çinko"
-      ],
-      "correctIndex": 0,
-      "id": "tb_tr_112"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Tarih",
-      "question": "Machu Picchu'yu hangi uygarlık inşa etmiştir?",
-      "options": [
-        "İnka",
-        "Maya",
-        "Aztek",
-        "Olmek"
-      ],
-      "correctIndex": 0,
-      "id": "tb_tr_113"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Sanat",
-      "question": "Japon kâğıt katlama sanatı ne olarak adlandırılır?",
-      "options": [
-        "Origami",
-        "İkebana",
-        "Kaligrafi",
-        "Kabuki"
-      ],
-      "correctIndex": 0,
-      "id": "tb_tr_114"
-    },
-    {
+      "id": "tb_tr_141",
       "difficulty": "easy",
       "category": "Müzik",
-      "question": "Standart bir kemanın kaç teli vardır?",
+      "question": "Standart bir gitarın genellikle kaç teli vardır?",
       "options": [
         "4",
         "5",
         "6",
         "7"
       ],
-      "correctIndex": 0,
-      "id": "tb_tr_115"
+      "correctIndex": 2
     },
     {
+      "id": "tb_tr_142",
       "difficulty": "easy",
-      "category": "Teknoloji",
-      "question": "CPU kısaltması neyin açılımıdır?",
+      "category": "Müzik",
+      "question": "Hangi enstrümanın siyah ve beyaz tuşları vardır?",
       "options": [
-        "Merkezi İşlem Birimi",
-        "Bilgisayar Güç Ünitesi",
-        "Çekirdek Performans Birimi",
-        "Merkezi Program Kullanıcısı"
+        "Gitar",
+        "Piyano",
+        "Keman",
+        "Davul"
       ],
-      "correctIndex": 0,
-      "id": "tb_tr_116"
+      "correctIndex": 1
     },
     {
+      "id": "tb_tr_143",
       "difficulty": "easy",
-      "category": "Yiyecek",
-      "question": "Kurumuş çiçek tomurcuklarından elde edilen baharat hangisidir?",
+      "category": "Müzik",
+      "question": "Popun Kralı olarak bilinen kim?",
       "options": [
-        "Karanfil",
-        "Karabiber",
-        "Tarçın",
-        "Muskat"
+        "Elvis Presley",
+        "Michael Jackson",
+        "Prens",
+        "Stevie Wonder"
       ],
-      "correctIndex": 0,
-      "id": "tb_tr_117"
+      "correctIndex": 1
     },
     {
+      "id": "tb_tr_144",
       "difficulty": "easy",
-      "category": "Coğrafya",
-      "question": "Afrika ile Arap Yarımadası arasındaki deniz hangisidir?",
+      "category": "Müzik",
+      "question": "Bir grup şarkıcıya ne denir?",
       "options": [
-        "Kızıldeniz",
-        "Karadeniz",
-        "Hazar Denizi",
-        "Adriyatik Denizi"
+        "Koro",
+        "Bandaj",
+        "Oyuncular",
+        "Mürettebat"
       ],
-      "correctIndex": 0,
-      "id": "tb_tr_118"
+      "correctIndex": 0
     },
     {
+      "id": "tb_tr_145",
       "difficulty": "easy",
-      "category": "Bilim",
-      "question": "Depremleri kaydeden aletin adı nedir?",
+      "category": "Müzik",
+      "question": "Yay ile hangi enstrüman çalınır?",
       "options": [
-        "Sismograf",
-        "Barometre",
-        "Anemometre",
-        "Higrometre"
+        "Trompet",
+        "Keman",
+        "Piyano",
+        "Flüt"
       ],
-      "correctIndex": 0,
-      "id": "tb_tr_119"
+      "correctIndex": 1
     },
     {
+      "id": "tb_tr_146",
       "difficulty": "easy",
-      "category": "Spor",
-      "question": "Tour de France hangi sporda yapılan bir yarıştır?",
+      "category": "Müzik",
+      "question": "Müziğin hızına ne ad verilir?",
       "options": [
-        "Bisiklet",
-        "Tenis",
-        "Ragbi",
-        "Kayak"
+        "Tempo",
+        "Saha",
+        "Uyum",
+        "Ritim"
       ],
-      "correctIndex": 0,
-      "id": "tb_tr_120"
+      "correctIndex": 0
     },
     {
+      "id": "tb_tr_147",
       "difficulty": "easy",
-      "category": "Coğrafya",
-      "question": "Portekiz'in başkenti hangisidir?",
+      "category": "Müzik",
+      "question": "Birçok dinleyici için CD'lerden önce hangi müzik formatı geldi?",
       "options": [
-        "Lizbon",
-        "Porto",
-        "Faro",
-        "Braga"
+        "Kaset",
+        "Bluray",
+        "Podcast",
+        "E-kitap"
       ],
-      "correctIndex": 0,
-      "id": "tb_tr_121"
+      "correctIndex": 0
     },
     {
-      "difficulty": "easy",
-      "category": "Coğrafya",
-      "question": "İsviçre'nin para birimi nedir?",
+      "id": "tb_tr_148",
+      "difficulty": "medium",
+      "category": "Müzik",
+      "question": "Ayışığı Sonatı'nı hangi besteci yazdı?",
       "options": [
-        "İsviçre frangı",
-        "Euro",
-        "Krona",
-        "Dolar"
+        "Mozart'ın",
+        "Beethoven",
+        "Bach",
+        "Chopin"
       ],
-      "correctIndex": 0,
-      "id": "tb_tr_122"
+      "correctIndex": 1
     },
     {
-      "difficulty": "easy",
-      "category": "Coğrafya",
-      "question": "Yüzölçümü en büyük kıta hangisidir?",
+      "id": "tb_tr_149",
+      "difficulty": "medium",
+      "category": "Müzik",
+      "question": "Standart majör ölçekte kaç nota vardır?",
       "options": [
-        "Asya",
-        "Afrika",
-        "Avrupa",
-        "Güney Amerika"
-      ],
-      "correctIndex": 0,
-      "id": "tb_tr_123"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Bilim",
-      "question": "“Mavi Gezegen” olarak bilinen gezegen hangisidir?",
-      "options": [
-        "Dünya",
-        "Neptün",
-        "Uranüs",
-        "Mars"
-      ],
-      "correctIndex": 0,
-      "id": "tb_tr_124"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Bilim",
-      "question": "Güneş ışığıyla vücutta hangi vitamin üretilir?",
-      "options": [
-        "D vitamini",
-        "C vitamini",
-        "A vitamini",
-        "B12 vitamini"
-      ],
-      "correctIndex": 0,
-      "id": "tb_tr_125"
-    },
-    {
-      "difficulty": "easy",
-      "category": "Matematik",
-      "question": "Bir altıgenin kaç kenarı vardır?",
-      "options": [
-        "6",
         "5",
+        "6",
         "7",
         "8"
       ],
-      "correctIndex": 0,
-      "id": "tb_tr_126"
+      "correctIndex": 2
     },
     {
-      "difficulty": "easy",
-      "category": "Matematik",
-      "question": "15 + 27 kaç eder?",
+      "id": "tb_tr_150",
+      "difficulty": "medium",
+      "category": "Müzik",
+      "question": "Freddie Mercury'nin solisti olduğu grup hangisidir?",
       "options": [
-        "42",
-        "32",
-        "40",
-        "45"
+        "Kraliçe",
+        "U2",
+        "Nirvana",
+        "Vaha"
       ],
-      "correctIndex": 0,
-      "id": "tb_tr_127"
+      "correctIndex": 0
     },
     {
-      "difficulty": "easy",
-      "category": "Yiyecek",
-      "question": "Pesto geleneksel olarak hangi otla yapılır?",
+      "id": "tb_tr_151",
+      "difficulty": "medium",
+      "category": "Müzik",
+      "question": "DJ'in açılımı nedir?",
       "options": [
-        "Fesleğen",
-        "Maydanoz",
-        "Kişniş",
-        "Dereotu"
+        "Disk jokey",
+        "Dans yargıcı",
+        "Dijital sıkışma",
+        "Davul atlama teli"
       ],
-      "correctIndex": 0,
-      "id": "tb_tr_128"
+      "correctIndex": 0
     },
     {
-      "difficulty": "easy",
-      "category": "Spor",
-      "question": "Hangi sporda disk (puck) kullanılır?",
+      "id": "tb_tr_152",
+      "difficulty": "medium",
+      "category": "Müzik",
+      "question": "Yo-Yo Ma hangi enstrümanı çalmasıyla ünlüdür?",
       "options": [
-        "Buz hokeyi",
-        "Basketbol",
-        "Hentbol",
-        "Beyzbol"
+        "Çello",
+        "Keman",
+        "Piyano",
+        "Klarnet"
       ],
-      "correctIndex": 0,
-      "id": "tb_tr_129"
+      "correctIndex": 0
     },
     {
+      "id": "tb_tr_153",
+      "difficulty": "medium",
+      "category": "Müzik",
+      "question": "Düet nedir?",
+      "options": [
+        "İki sanatçı için bir şarkı",
+        "Hızlı bir davul ritmi",
+        "Bir müzik ödülü",
+        "Bir sahne ışığı"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_154",
+      "difficulty": "medium",
+      "category": "Müzik",
+      "question": "Hangi tür genellikle doğaçlama ve swing ile ilişkilendirilir?",
+      "options": [
+        "Caz",
+        "maden",
+        "Opera",
+        "Reggae"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_155",
+      "difficulty": "hard",
+      "category": "Müzik",
+      "question": "Dört Mevsim'i hangi klasik dönem bestecisi yazdı?",
+      "options": [
+        "Vivaldi",
+        "Handel",
+        "Haydn",
+        "Schubert"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_156",
+      "difficulty": "hard",
+      "category": "Müzik",
+      "question": "Erkekler için en düşük standart şarkı sesi nedir?",
+      "options": [
+        "Tenor",
+        "Bariton",
+        "Bas",
+        "Alto"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_tr_157",
+      "difficulty": "hard",
+      "category": "Müzik",
+      "question": "Hangi nota C'nin yarım ton üstündedir?",
+      "options": [
+        "B",
+        "Do diyez",
+        "D",
+        "E düz"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_158",
+      "difficulty": "hard",
+      "category": "Müzik",
+      "question": "Yavaş yavaş sesin yükselmesine ne ad verilir?",
+      "options": [
+        "Kreşendo",
+        "Diminuendo",
+        "Legato",
+        "kesik kesik"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_159",
+      "difficulty": "hard",
+      "category": "Müzik",
+      "question": "Hangi şehrin cazın doğuşuyla güçlü bir bağlantısı var?",
+      "options": [
+        "New Orleans",
+        "Seattle",
+        "Nashville",
+        "Detroit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_160",
+      "difficulty": "hard",
+      "category": "Müzik",
+      "question": "Müzik portesi başında yer alan sembole ne denir?",
+      "options": [
+        "Nota anahtarı",
+        "endişe",
+        "Köprü",
+        "Vana"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_161",
       "difficulty": "easy",
       "category": "Sanat",
-      "question": "“Hobbit”i kim yazdı?",
+      "question": "Mona Lisa'yı kim boyadı?",
       "options": [
-        "J.R.R. Tolkien",
-        "C.S. Lewis",
-        "J.K. Rowling",
-        "George R.R. Martin"
+        "Vincent van Gogh'un",
+        "Leonardo da Vinci",
+        "Pablo Picasso",
+        "Claude Monet"
       ],
-      "correctIndex": 0,
-      "id": "tb_tr_130"
+      "correctIndex": 1
     },
     {
-      "id": "tb_tr_131",
+      "id": "tb_tr_162",
       "difficulty": "easy",
-      "category": "İnternet",
-      "question": "DM genelde ne anlama gelir?",
+      "category": "Sanat",
+      "question": "Kırmızı ile maviyi karıştırarak hangi rengi elde edersiniz?",
       "options": [
-        "Direkt Mesaj",
-        "Günlük Meme",
-        "Dijital Mod",
-        "Derin Medya"
+        "Yeşil",
+        "Mor",
+        "Turuncu",
+        "Kahverengi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_163",
+      "difficulty": "easy",
+      "category": "Sanat",
+      "question": "Tuvale boya uygulamak için hangi araç kullanılır?",
+      "options": [
+        "Çekiç",
+        "Boya fırçası",
+        "Pusula",
+        "İğne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_164",
+      "difficulty": "easy",
+      "category": "Sanat",
+      "question": "Genellikle üç boyutlu olan bir heykel nedir?",
+      "options": [
+        "Evet",
+        "Hayır",
+        "Yalnızca fotoğraflarda",
+        "Yalnızca kağıt üzerinde"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_tr_132",
+      "id": "tb_tr_165",
+      "difficulty": "easy",
+      "category": "Sanat",
+      "question": "Mona Lisa hangi müzede bulunuyor?",
+      "options": [
+        "Louvre",
+        "Prado",
+        "Tate Modern",
+        "Uffizi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_166",
+      "difficulty": "easy",
+      "category": "Sanat",
+      "question": "Kağıt katlama sanatına ne ad verilir?",
+      "options": [
+        "Origami",
+        "Kaligrafi",
+        "Mozaik",
+        "Grafiti"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_167",
+      "difficulty": "easy",
+      "category": "Sanat",
+      "question": "Kırmızı ile sarının karıştırılmasıyla hangi renk elde edilir?",
+      "options": [
+        "Mavi",
+        "Turuncu",
+        "Mor",
+        "Beyaz"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_168",
+      "difficulty": "medium",
+      "category": "Sanat",
+      "question": "Yıldızlı Gece'yi kim çizdi?",
+      "options": [
+        "Pablo Picasso",
+        "Vincent van Gogh'un",
+        "salvador dali",
+        "Rembrandt"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_169",
+      "difficulty": "medium",
+      "category": "Sanat",
+      "question": "Hangi sanatçı saatleri eritmesiyle ünlüdür?",
+      "options": [
+        "salvador dali",
+        "Frida Kahlo",
+        "Andy Warhol",
+        "Banksy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_170",
+      "difficulty": "medium",
+      "category": "Sanat",
+      "question": "Kaligrafi nedir?",
+      "options": [
+        "Dekoratif el yazısı",
+        "Taş oymacılığı",
+        "Duvar resmi",
+        "Fotoğraf düzenleme"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_171",
+      "difficulty": "medium",
+      "category": "Sanat",
+      "question": "Claude Monet'le ilişkilendirilen sanat akımı hangisidir?",
+      "options": [
+        "Kübizm",
+        "Empresyonizm",
+        "Sürrealizm",
+        "Popüler Sanat"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_172",
+      "difficulty": "medium",
+      "category": "Sanat",
+      "question": "Otoportre nedir?",
+      "options": [
+        "Sanatçının sanatçı tarafından çekilmiş bir resmi",
+        "Bir manzara",
+        "Bir grup fotoğrafı",
+        "Bir heykel tabanı"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_173",
+      "difficulty": "medium",
+      "category": "Sanat",
+      "question": "Çanak çömlek yapımında sıklıkla hangi malzeme kullanılır?",
+      "options": [
+        "Kil",
+        "Yalnızca cam",
+        "Kauçuk",
+        "Kağıt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_174",
+      "difficulty": "medium",
+      "category": "Sanat",
+      "question": "Tek renkli bir sanat eserinde ana renk nedir?",
+      "options": [
+        "Tek renk",
+        "İki renk",
+        "Tüm renkler",
+        "Renk yok"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_175",
+      "difficulty": "hard",
+      "category": "Sanat",
+      "question": "Guernica'yı hangi sanatçı çizdi?",
+      "options": [
+        "Pablo Picasso",
+        "Henri Matisse",
+        "Paul Cezanne",
+        "Edward Munch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_176",
+      "difficulty": "hard",
+      "category": "Sanat",
+      "question": "Hangi İtalyan şehri Rönesans sanatı ve Uffizi Galerisi ile ünlüdür?",
+      "options": [
+        "Floransa",
+        "Venedik",
+        "Milano",
+        "Napoli"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_177",
+      "difficulty": "hard",
+      "category": "Sanat",
+      "question": "Fresk boyama ne üzerine yapılır?",
+      "options": [
+        "Islak sıva",
+        "Cam",
+        "maden",
+        "İpek"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_178",
+      "difficulty": "hard",
+      "category": "Sanat",
+      "question": "Belleğin Azmi'ni hangi sanatçı yarattı?",
+      "options": [
+        "salvador dali",
+        "Joan Miro",
+        "René Magritte",
+        "Jackson Pollock"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_179",
+      "difficulty": "hard",
+      "category": "Sanat",
+      "question": "Hangi baskıresim yöntemi oyma blok kullanır?",
+      "options": [
+        "gravür",
+        "Suluboya",
+        "Kolaj",
+        "Airbrush"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_180",
+      "difficulty": "hard",
+      "category": "Sanat",
+      "question": "Chiaroscuro hangi kavramla ilgilidir?",
+      "options": [
+        "Işık ve gölge",
+        "Ses ve ritim",
+        "Yalnızca renk",
+        "Perspektif ızgaraları"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_181",
+      "difficulty": "easy",
+      "category": "Spor",
+      "question": "Bir futbol takımının sahasında kaç oyuncu var?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_tr_182",
+      "difficulty": "easy",
+      "category": "Spor",
+      "question": "Hangi sporda raket ve raketle kullanılır?",
+      "options": [
+        "Tenis",
+        "Badminton",
+        "kabak",
+        "Masa tenisi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_183",
+      "difficulty": "easy",
+      "category": "Spor",
+      "question": "Basketbolda serbest atış kaç sayıdır?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_184",
+      "difficulty": "easy",
+      "category": "Spor",
+      "question": "Wimbledon'da hangi spor oynanır?",
+      "options": [
+        "Kriket",
+        "Tenis",
+        "golf",
+        "Ragbi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_185",
+      "difficulty": "easy",
+      "category": "Spor",
+      "question": "Olimpiyat bayrağında kaç yüzük var?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_186",
+      "difficulty": "easy",
+      "category": "Spor",
+      "question": "Disk hangi spor dalında kullanılır?",
+      "options": [
+        "Buz hokeyi",
+        "Beyzbol",
+        "Voleybol",
+        "Boks"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_187",
+      "difficulty": "easy",
+      "category": "Spor",
+      "question": "Bayrak yarışında koşucular neyi geçer?",
+      "options": [
+        "Top",
+        "cop",
+        "Bayrak",
+        "Eldiven"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_188",
+      "difficulty": "medium",
+      "category": "Spor",
+      "question": "Tour de France hangi spor dalındaki yarıştır?",
+      "options": [
+        "Koşu",
+        "Bisiklete binme",
+        "Yüzme",
+        "Kayak"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_189",
+      "difficulty": "medium",
+      "category": "Spor",
+      "question": "Standart bir beyzbol takımında sahada kaç oyuncu vardır?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_tr_190",
+      "difficulty": "medium",
+      "category": "Spor",
+      "question": "Erkekler futbolunda en çok FIFA Dünya Kupasını hangi ülke kazandı?",
+      "options": [
+        "Almanya",
+        "Arjantin",
+        "Brezilya",
+        "İtalya"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_tr_191",
+      "difficulty": "medium",
+      "category": "Spor",
+      "question": "Teniste beraberlikten sonra hangi skor gelir?",
+      "options": [
+        "Avantaj",
+        "aşk",
+        "Ayar noktası",
+        "Mola"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_192",
+      "difficulty": "medium",
+      "category": "Spor",
+      "question": "Kulplu beygir hangi spor dalında kullanılır?",
+      "options": [
+        "Jimnastik",
+        "Binicilik",
+        "polo",
+        "Eskrim"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_193",
+      "difficulty": "medium",
+      "category": "Spor",
+      "question": "Futbolda hat-trick nedir?",
+      "options": [
+        "Bir oyuncunun üç golü",
+        "Üç sarı kart",
+        "Üç oyuncu değişikliği",
+        "Üç köşe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_194",
+      "difficulty": "medium",
+      "category": "Spor",
+      "question": "Stanley Cup'la hangi spor ilişkilendirilir?",
+      "options": [
+        "Basketbol",
+        "Buz hokeyi",
+        "Beyzbol",
+        "Ragbi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_195",
+      "difficulty": "hard",
+      "category": "Spor",
+      "question": "Olimpik yüzme havuzunun uzunluğu ne kadardır?",
+      "options": [
+        "25 metre",
+        "50 metre",
+        "75 metre",
+        "100 metre"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_196",
+      "difficulty": "hard",
+      "category": "Spor",
+      "question": "Golfte par altında bir vuruşa ne denir?",
+      "options": [
+        "umacı",
+        "Kuş",
+        "Kartal",
+        "Albatros"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_197",
+      "difficulty": "hard",
+      "category": "Spor",
+      "question": "1896 yılında ilk modern olimpiyat oyunlarına ev sahipliği yapan ülke hangisidir?",
+      "options": [
+        "Fransa",
+        "Yunanistan",
+        "Birleşik Krallık",
+        "İtalya"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_198",
+      "difficulty": "hard",
+      "category": "Spor",
+      "question": "Bilardoda maksimum mola nedir?",
+      "options": [
+        "120",
+        "147",
+        "155",
+        "180"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_199",
+      "difficulty": "hard",
+      "category": "Spor",
+      "question": "Sıfıra aşk terimini hangi spor kullanıyor?",
+      "options": [
+        "Kriket",
+        "Tenis",
+        "Boks",
+        "golf"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_200",
+      "difficulty": "hard",
+      "category": "Spor",
+      "question": "Boksta KO ne anlama geliyor?",
+      "options": [
+        "Nakavt",
+        "dışarı at",
+        "Açık tut",
+        "Eklem sırası"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_201",
+      "difficulty": "easy",
+      "category": "Teknoloji",
+      "question": "CPU ne anlama geliyor?",
+      "options": [
+        "Merkezi İşlem Birimi",
+        "Bilgisayar Güç Ünitesi",
+        "Merkezi Program Yardımcı Programı",
+        "Çekirdek İşleme Kullanıcısı"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_202",
+      "difficulty": "easy",
+      "category": "Teknoloji",
+      "question": "Bilgisayarda imleci hareket ettirmek için hangi cihaz kullanılır?",
+      "options": [
+        "Fare",
+        "Hoparlör",
+        "Yazıcı",
+        "Yönlendirici"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_203",
+      "difficulty": "easy",
+      "category": "Teknoloji",
+      "question": "Wi-Fi cihazların neye bağlanmasına izin verir?",
+      "options": [
+        "Su",
+        "Kablosuz ağlar",
+        "Kağıt",
+        "Elektrik motorları"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_204",
+      "difficulty": "easy",
+      "category": "Teknoloji",
+      "question": "iPhone'u hangi şirket üretiyor?",
+      "options": [
+        "Samsung",
+        "Elma",
+        "sony",
+        "Nokia'nın"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_205",
+      "difficulty": "easy",
+      "category": "Teknoloji",
+      "question": "Şifre ne için kullanılır?",
+      "options": [
+        "Güvenlik",
+        "Yazdırma",
+        "Şarj etme",
+        "Soğutma"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_206",
+      "difficulty": "easy",
+      "category": "Teknoloji",
+      "question": "USB genellikle neye bağlanır?",
+      "options": [
+        "Cihazlar ve bilgisayarlar",
+        "Ayakkabı ve çoraplar",
+        "Kitaplar ve sayfalar",
+        "Bitkiler ve toprak"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_207",
+      "difficulty": "easy",
+      "category": "Teknoloji",
+      "question": "Uygulama neyin kısaltmasıdır?",
+      "options": [
+        "Başvuru",
+        "Randevu",
+        "Onay",
+        "Ek"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_208",
+      "difficulty": "medium",
+      "category": "Teknoloji",
+      "question": "URL ne anlama geliyor?",
+      "options": [
+        "Tekdüzen Kaynak Bulucu",
+        "Evrensel Okuma Hattı",
+        "Kullanıcı Çalışma Zamanı Bağlantısı",
+        "Birleşik Kayıt Listesi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_209",
+      "difficulty": "medium",
+      "category": "Teknoloji",
+      "question": "Bir yönlendiricinin ana görevi nedir?",
+      "options": [
+        "Fotoğrafları saklayın",
+        "Doğrudan ağ trafiği",
+        "Belgeleri yazdırma",
+        "Yalnızca virüsleri tara"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_210",
+      "difficulty": "medium",
+      "category": "Teknoloji",
+      "question": "Resimler için yaygın olarak hangi dosya türü kullanılır?",
+      "options": [
+        "JPEG",
+        "MP3",
+        "DOCX",
+        "EXE"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_211",
+      "difficulty": "medium",
+      "category": "Teknoloji",
+      "question": "RAM ne anlama geliyor?",
+      "options": [
+        "Rasgele Erişim Belleği",
+        "Hızlı Eylem Modülü",
+        "Tüm Medyayı Oku",
+        "Çalışma Zamanı Audio Modu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_212",
+      "difficulty": "medium",
+      "category": "Teknoloji",
+      "question": "Bulut depolama ne için kullanılır?",
+      "options": [
+        "Dosyaları çevrimiçi kaydetme",
+        "Ekranları temizleme",
+        "Soğutma dizüstü bilgisayarlar",
+        "Telefonları şarj etme"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_213",
+      "difficulty": "medium",
+      "category": "Teknoloji",
+      "question": "GPS neyin belirlenmesine yardımcı olur?",
+      "options": [
+        "Konum",
+        "Pil ömrü",
+        "Ekran boyutu",
+        "Şifre gücü"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_214",
+      "difficulty": "medium",
+      "category": "Teknoloji",
+      "question": "Temassız ödemelerde hangi teknoloji kullanılıyor?",
+      "options": [
+        "NFC",
+        "VHS",
+        "CRT",
+        "DVD"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_215",
+      "difficulty": "hard",
+      "category": "Teknoloji",
+      "question": "HTML ne anlama geliyor?",
+      "options": [
+        "Köprü Metni İşaretleme Dili",
+        "Yüksek Transfer Makinesi Mantığı",
+        "Ana Sayfa Aracı İşaretleme Bağlantısı",
+        "Köprü Metni Ana Listesi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_216",
+      "difficulty": "hard",
+      "category": "Teknoloji",
+      "question": "İyileştirmek için tasarlanan iki faktörlü kimlik doğrulama nedir?",
+      "options": [
+        "Ekran parlaklığı",
+        "Hesap güvenliği",
+        "İndirme hızı",
+        "Audio kalitesi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_217",
+      "difficulty": "hard",
+      "category": "Teknoloji",
+      "question": "Hangi sayı sistemi yalnızca 0 ve 1'i kullanır?",
+      "options": [
+        "Ondalık",
+        "İkili",
+        "Onaltılık",
+        "Roma"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_218",
+      "difficulty": "hard",
+      "category": "Teknoloji",
+      "question": "API'nin açılımı nedir?",
+      "options": [
+        "Uygulama Programlama Arayüzü",
+        "Automatik Program Dizini",
+        "Uygulanan Piksel Girişi",
+        "Gelişmiş Süreç İnterneti"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_219",
+      "difficulty": "hard",
+      "category": "Teknoloji",
+      "question": "SSD ne anlama geliyor?",
+      "options": [
+        "Katı Hal Sürücüsü",
+        "Sistem Depolama Diski",
+        "Akıllı Yazılım Cihazı",
+        "Güvenli Sinyal Sürücüsü"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_220",
+      "difficulty": "hard",
+      "category": "Teknoloji",
+      "question": "Güvenli web sitelerini yüklemek için yaygın olarak hangi protokol kullanılır?",
+      "options": [
+        "HTTP",
+        "HTTPS",
+        "FTP",
+        "SMTP"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_221",
       "difficulty": "easy",
       "category": "İnternet",
-      "question": "Kısa dikey videolarla en çok bilinen platform hangisi?",
+      "question": "DM genellikle ne anlama gelir?",
+      "options": [
+        "Doğrudan mesaj",
+        "Dijital harita",
+        "Günlük mod",
+        "Veri belleği"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_222",
+      "difficulty": "easy",
+      "category": "İnternet",
+      "question": "Hangi sembol bir hashtag başlatır?",
+      "options": [
+        "@",
+        "#",
+        "&",
+        "*"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_223",
+      "difficulty": "easy",
+      "category": "İnternet",
+      "question": "Selfie nedir?",
+      "options": [
+        "Kendi fotoğrafınız",
+        "Bir şifre",
+        "Bir arama sonucu",
+        "Bir video oyunu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_224",
+      "difficulty": "easy",
+      "category": "İnternet",
+      "question": "Kısa dikey videolar için en iyi bilinen platform hangisidir?",
       "options": [
         "TikTok",
-        "Wikipedia",
-        "Excel",
-        "Haritalar"
+        "Vikipedi",
+        "Dropbox",
+        "Gevşek"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_tr_133",
+      "id": "tb_tr_225",
       "difficulty": "easy",
       "category": "İnternet",
-      "question": "Ekran görüntüsü en çok neyi saklamak için kullanılır?",
+      "question": "Emoji nedir?",
       "options": [
-        "Ekrandaki görüntüyü",
-        "Bir şifreyi",
-        "Bir bataryayı",
-        "Bir zil sesini"
+        "Küçük bir dijital simge",
+        "Bir web tarayıcısı",
+        "Bir dosya formatı",
+        "Bir tür kablo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_226",
+      "difficulty": "easy",
+      "category": "İnternet",
+      "question": "LOL genellikle çevrimiçi ortamda ne anlama gelir?",
+      "options": [
+        "Çok sayıda ışık",
+        "Yüksek sesle gülmek",
+        "Bağlantıların listesi",
+        "Şansın düşük"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_tr_227",
+      "difficulty": "easy",
+      "category": "İnternet",
+      "question": "Kaydetmek için kullanılan ekran görüntüsü nedir?",
+      "options": [
+        "Ekranda ne var",
+        "Bir pil şarjı",
+        "Bir telefon görüşmesi",
+        "Yalnızca Wi-Fi şifresi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_228",
+      "difficulty": "medium",
+      "category": "İnternet",
+      "question": "Tıklama tuzağı ne elde etmek için tasarlandı?",
+      "options": [
+        "Tıklamalar",
+        "Uyku",
+        "Hava durumu verileri",
+        "Yalnızca şifreler"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_229",
+      "difficulty": "medium",
+      "category": "İnternet",
+      "question": "Günlük internet kullanımında URL ne anlama geliyor?",
+      "options": [
+        "Bir web adresi",
+        "Bir müzik dosyası",
+        "Bir kamera modu",
+        "Bir telefon bataryası"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_230",
+      "difficulty": "medium",
+      "category": "İnternet",
+      "question": "Meme nedir?",
+      "options": [
+        "Paylaşılabilir bir şaka veya fikir",
+        "Bir klavye türü",
+        "Özel bir şifre",
+        "Bir bulut sunucusu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_231",
+      "difficulty": "medium",
+      "category": "İnternet",
+      "question": "Kimlik avı nedir?",
+      "options": [
+        "Bilgi çalmak için yapılan bir dolandırıcılık",
+        "Fotoğrafları düzenlemenin bir yolu",
+        "Bir müzik türü",
+        "Bir video filtresi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_232",
+      "difficulty": "medium",
+      "category": "İnternet",
+      "question": "Canlı yayın ne anlama geliyor?",
+      "options": [
+        "Gerçek zamanlı yayın",
+        "Bir dosyayı kaydetme",
+        "Çevrimdışı kod yazma",
+        "Fotoğrafları yazdırma"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_233",
+      "difficulty": "medium",
+      "category": "İnternet",
+      "question": "Kullanıcı adı nedir?",
+      "options": [
+        "Herkese açık bir hesap adı",
+        "Bir bilgisayar virüsü",
+        "Bir ekran kablosu",
+        "Bir ödeme kartı"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_234",
+      "difficulty": "medium",
+      "category": "İnternet",
+      "question": "Tarayıcı ne için kullanılır?",
+      "options": [
+        "Web sitelerine erişim",
+        "Müzik karıştırma",
+        "Şarj cihazları",
+        "Harita çizme"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_235",
+      "difficulty": "hard",
+      "category": "İnternet",
+      "question": "SEO ne anlama geliyor?",
+      "options": [
+        "Arama Motoru Optimizasyonu",
+        "Güvenli E-posta Çıkışı",
+        "Sosyal Düzenleme Seçeneği",
+        "Sistem Giriş Sırası"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_236",
+      "difficulty": "hard",
+      "category": "İnternet",
+      "question": "Web taramasında çerez nedir?",
+      "options": [
+        "Saklanan site verileri",
+        "Bir klavye kısayolu",
+        "Bir fotoğraf filtresi",
+        "Bir sohbet tepkisi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_237",
+      "difficulty": "hard",
+      "category": "İnternet",
+      "question": "HTTP ne anlama geliyor?",
+      "options": [
+        "Köprü Metni Aktarım Protokolü",
+        "Yüksek Teknoloji Metin Programı",
+        "Ana Sayfa Transfer Aracı Bağlantı Noktası",
+        "Köprü İzleme Sayfası"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_238",
+      "difficulty": "hard",
+      "category": "İnternet",
+      "question": "VPN ne anlama geliyor?",
+      "options": [
+        "Sanal Özel Ağ",
+        "Doğrulanmış Genel Ad",
+        "Görsel Sayfa Numarası",
+        "Video İşleme Düğümü"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_239",
+      "difficulty": "hard",
+      "category": "İnternet",
+      "question": "İki yönlü görüntülü iletişime genel olarak ne ad verilir?",
+      "options": [
+        "Video görüşmesi",
+        "Ekran görüntüsü",
+        "Yer imi",
+        "Captcha"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_tr_240",
+      "difficulty": "hard",
+      "category": "İnternet",
+      "question": "Captcha esas olarak neyi tespit etmek için kullanılır?",
+      "options": [
+        "Botlar",
+        "Renkler",
+        "Ekran boyutu",
+        "Pil seviyesi"
       ],
       "correctIndex": 0
     }

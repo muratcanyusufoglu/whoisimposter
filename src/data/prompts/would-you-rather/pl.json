@@ -1,1009 +1,1687 @@
 {
   "gameId": "would-you-rather",
   "locale": "pl",
-  "version": 1,
+  "version": 2,
   "prompts": [
     {
       "id": "wyr_pl_001",
+      "text": "Wolałbyś mieć nieograniczoną liczbę przekąsek podczas każdego spotkania, czy zawsze mieć możliwość wyboru muzyki?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: pierogi za darmo do końca życia czy kebab za darmo do końca życia?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_002",
+      "text": "Czy wolisz zawsze znaleźć idealne miejsce parkingowe, czy nigdy więcej nie czekać w kolejce?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: móc się teleportować czy cofnąć czas o 10 minut?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_003",
+      "text": "Wolisz budzić się z idealną fryzurą, czy zawsze w ciągu jednej minuty wybierać idealny strój?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: rozmawiać z kotami czy rozmawiać z psami?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_004",
+      "text": "Wolisz mieć zawsze darmową kawę czy darmowe desery?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: być niewidzialnym przez dzień czy latać przez jeden dzień?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_005",
+      "text": "Wolisz być niesamowity w karaoke czy niepokonany w grach planszowych?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: zawsze idealnie wstawać rano czy nie męczyć się po zarwanej nocy?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_006",
+      "text": "Wolałbyś mieszkać przy plaży czy w środku swojego ulubionego miasta?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: zawsze wygrywać karaoke czy umieć ugotować wszystko?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_007",
+      "text": "Wolałbyś mieć zawsze w pełni naładowany telefon czy zawsze mieć idealny Wi-Fi?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: nigdy nie spóźnić się na ostatni tramwaj czy nigdy nie zgubić się w podróży?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_008",
+      "text": "Czy wolałbyś nigdy więcej nie zgubić kluczy lub nigdy nie zapomnieć, po co wszedłeś do pokoju?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: mieć nieskończoną baterię w telefonie czy zawsze dobrze wychodzić na zdjęciach?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_009",
+      "text": "Wolałbyś móc teleportować się do pracy czy teleportować do domu po jakimkolwiek wydarzeniu?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: pierogi za darmo do końca życia czy kebab za darmo do końca życia?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_010",
+      "text": "Wolisz mieć na śniadanie osobistego szefa kuchni, czy osobistego kierowcę w weekendy?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: móc się teleportować czy cofnąć czas o 10 minut?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_011",
+      "text": "Wolałbyś przez rok oglądać tylko komedie, czy przez rok słuchać tylko optymistycznej muzyki?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: rozmawiać z kotami czy rozmawiać z psami?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_012",
+      "text": "Wolałbyś wygrywać każdy wieczór gier, czy zawsze rozśmieszać wszystkich podczas wieczoru gier?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: być niewidzialnym przez dzień czy latać przez jeden dzień?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_013",
+      "text": "Wolisz maleńkie mieszkanie z niesamowitym widokiem czy ogromny dom w nudnym miejscu?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: zawsze idealnie wstawać rano czy nie męczyć się po zarwanej nocy?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_014",
+      "text": "Wolałbyś być sławny dzięki gotowaniu czy swoim ruchom tanecznym?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: zawsze wygrywać karaoke czy umieć ugotować wszystko?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_015",
+      "text": "Wolisz zawsze wiedzieć, co jest najlepsze w menu, czy zawsze wybierać najlepszy film?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: nigdy nie spóźnić się na ostatni tramwaj czy nigdy nie zgubić się w podróży?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_016",
+      "text": "Wolisz wybrać się na spontaniczną wycieczkę czy zaplanować idealny weekend?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: mieć nieskończoną baterię w telefonie czy zawsze dobrze wychodzić na zdjęciach?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_017",
+      "text": "Wolisz mieć szafę, która sama się stylizuje, czy lodówkę, która sama się uzupełnia?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: pierogi za darmo do końca życia czy kebab za darmo do końca życia?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_018",
+      "text": "Wolałbyś nigdy więcej nie robić prania czy nigdy więcej nie myć naczyń?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: móc się teleportować czy cofnąć czas o 10 minut?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_019",
+      "text": "Wolałbyś zawsze dostać ostatni kawałek pizzy czy zawsze zająć najlepsze miejsce?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: rozmawiać z kotami czy rozmawiać z psami?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_020",
+      "text": "Czy wolisz mieć magiczny przycisk wyciszania w hałaśliwych miejscach czy przycisk pomijania w przypadku niezręcznej pogawędki?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: być niewidzialnym przez dzień czy latać przez jeden dzień?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_021",
+      "text": "Czy wolisz móc zdrzemnąć się gdziekolwiek, czy też budzić się każdego ranka natychmiast wypoczęty?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: zawsze idealnie wstawać rano czy nie męczyć się po zarwanej nocy?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_022",
+      "text": "Wolisz zawsze mieć idealną pogodę w dni wolne, czy nigdy nie mieć korków, gdy się spóźniasz?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: zawsze wygrywać karaoke czy umieć ugotować wszystko?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_023",
+      "text": "Wolisz dostawać na zawsze darmowe bilety na koncerty czy na zawsze darmowe bilety do kina?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: nigdy nie spóźnić się na ostatni tramwaj czy nigdy nie zgubić się w podróży?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_024",
+      "text": "Wolisz być świetny w robieniu zdjęć, czy świetny w byciu na zdjęciach?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: mieć nieskończoną baterię w telefonie czy zawsze dobrze wychodzić na zdjęciach?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_025",
+      "text": "Wolałbyś zawsze pamiętać imiona czy zawsze pamiętać urodziny?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: pierogi za darmo do końca życia czy kebab za darmo do końca życia?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_026",
+      "text": "Wolałbyś mieć dom z sekretnym pokojem czy miejsce spotkań na dachu?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: móc się teleportować czy cofnąć czas o 10 minut?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_027",
+      "text": "Wolisz podróżować tylko pociągiem czy tylko samochodami?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: rozmawiać z kotami czy rozmawiać z psami?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_028",
+      "text": "Wolisz żyć bez wind czy bez schodów ruchomych?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: być niewidzialnym przez dzień czy latać przez jeden dzień?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_029",
+      "text": "Wolałbyś zawsze mieć doskonały powrót, czy zawsze zachować spokój pod presją?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: zawsze idealnie wstawać rano czy nie męczyć się po zarwanej nocy?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_030",
+      "text": "Wolałbyś być najlepszym kucharzem w swojej grupie przyjaciół czy najlepszym gawędziarzem?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: zawsze wygrywać karaoke czy umieć ugotować wszystko?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_031",
+      "text": "Wolałbyś mieć przycisk przewijania do tyłu dla żenujących momentów czy przycisk pauzy dla idealnych momentów?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: nigdy nie spóźnić się na ostatni tramwaj czy nigdy nie zgubić się w podróży?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_032",
+      "text": "Wolałabyś nosić zawsze tylko swój ulubiony kolor, czy nigdy nie powtarzać żadnego stroju?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: mieć nieskończoną baterię w telefonie czy zawsze dobrze wychodzić na zdjęciach?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_033",
+      "text": "Wolisz mieć nieograniczoną liczbę książek czy nieograniczoną liczbę gier?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: pierogi za darmo do końca życia czy kebab za darmo do końca życia?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_034",
+      "text": "Czy wolisz móc natychmiast nauczyć się dowolnego przepisu lub dowolnej piosenki?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: móc się teleportować czy cofnąć czas o 10 minut?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_035",
+      "text": "Czy wolisz zawsze mieć miejsce na deser, czy nigdy nie czuć się przepełnionym?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: rozmawiać z kotami czy rozmawiać z psami?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_036",
+      "text": "Wolisz organizować każdą imprezę, czy być zapraszanym na każdą imprezę?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: być niewidzialnym przez dzień czy latać przez jeden dzień?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_037",
+      "text": "Wolałbyś mieć dom z ogromną kuchnią czy z ogromnym pokojem gier?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: zawsze idealnie wstawać rano czy nie męczyć się po zarwanej nocy?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_038",
+      "text": "Czy wolisz używać tylko notatek głosowych, czy tylko emotikonów przez tydzień?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: zawsze wygrywać karaoke czy umieć ugotować wszystko?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_039",
+      "text": "Wolisz być na wszystko wcześniej czy przyjechać za każdym razem dokładnie na czas?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: nigdy nie spóźnić się na ostatni tramwaj czy nigdy nie zgubić się w podróży?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_040",
+      "text": "Wolałbyś mieć doskonałą pamięć do twarzy czy do wskazówek?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: mieć nieskończoną baterię w telefonie czy zawsze dobrze wychodzić na zdjęciach?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_041",
+      "text": "Wolałbyś móc wstrzymywać reklamy czy pomijać obowiązki domowe?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: pierogi za darmo do końca życia czy kebab za darmo do końca życia?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_042",
+      "text": "Wolisz zawsze znajdować pieniądze w starych kieszeniach, czy zawsze otrzymywać niespodziewane rabaty?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: móc się teleportować czy cofnąć czas o 10 minut?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_043",
+      "text": "Wolałbyś mieć wymarzoną sypialnię czy wymarzoną kuchnię?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: rozmawiać z kotami czy rozmawiać z psami?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_044",
+      "text": "Wolałbyś móc perfekcyjnie przygotować dowolny napój czy idealną przekąskę?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: być niewidzialnym przez dzień czy latać przez jeden dzień?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_045",
+      "text": "Wolałbyś nigdy nie potrzebować parasola czy nigdy nie potrzebować kremu z filtrem przeciwsłonecznym?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: zawsze idealnie wstawać rano czy nie męczyć się po zarwanej nocy?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_046",
+      "text": "Wolisz mieć jedną dodatkową godzinę każdego ranka czy jedną dodatkową godzinę każdego wieczoru?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: zawsze wygrywać karaoke czy umieć ugotować wszystko?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_047",
+      "text": "Wolisz mieszkać nad piekarnią czy obok kina?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: nigdy nie spóźnić się na ostatni tramwaj czy nigdy nie zgubić się w podróży?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_048",
+      "text": "Wolałbyś zawsze wybierać restaurację czy zawsze wybierać aktywność?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: mieć nieskończoną baterię w telefonie czy zawsze dobrze wychodzić na zdjęciach?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_049",
+      "text": "Wolisz mieć osobistą playlistę na każdy nastrój czy idealny strój na każdy plan?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: pierogi za darmo do końca życia czy kebab za darmo do końca życia?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_050",
+      "text": "Wolałbyś być przyjacielem z najlepszą radą czy przyjacielem z najlepszymi przekąskami?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: móc się teleportować czy cofnąć czas o 10 minut?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_051",
+      "text": "Czy wolisz jeść tylko śniadanie na kolację, czy kolację na śniadanie?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: rozmawiać z kotami czy rozmawiać z psami?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_052",
+      "text": "Czy wolisz nigdy nie ładować urządzeń lub nigdy nie musieć aktualizować aplikacji?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: być niewidzialnym przez dzień czy latać przez jeden dzień?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_053",
+      "text": "Wolisz doskonałe pismo odręczne czy doskonałe umiejętności pakowania prezentów?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: zawsze idealnie wstawać rano czy nie męczyć się po zarwanej nocy?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_054",
+      "text": "Wolisz od razu posprzątać swój pokój czy od razu uporządkować zdjęcia z telefonu?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Wolisz: zawsze wygrywać karaoke czy umieć ugotować wszystko?"
+      "minAge": 4
     },
     {
       "id": "wyr_pl_055",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: nigdy nie spóźnić się na ostatni tramwaj czy nigdy nie zgubić się w podróży?"
+      "text": "Wolisz mieć zawsze świeżą pościel czy zawsze świeże ręczniki?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_056",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: mieć nieskończoną baterię w telefonie czy zawsze dobrze wychodzić na zdjęciach?"
+      "text": "Wolałbyś być niepokonany w ciekawostkach czy niepokonany w szaradach?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_057",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: pierogi za darmo do końca życia czy kebab za darmo do końca życia?"
+      "text": "Wolisz balkon z widokiem czy salon przeznaczony na imprezy?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_058",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: móc się teleportować czy cofnąć czas o 10 minut?"
+      "text": "Wolałbyś nigdy więcej nie rozlać drinka albo nigdy więcej nie upuścić telefonu?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_059",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: rozmawiać z kotami czy rozmawiać z psami?"
+      "text": "Wolisz zawsze pamiętać swoje sny, czy nigdy nie mieć koszmarów?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_060",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: być niewidzialnym przez dzień czy latać przez jeden dzień?"
+      "text": "Wolisz mieć darmowe loty raz w roku czy darmowe hotele dwa razy w roku?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_061",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: zawsze idealnie wstawać rano czy nie męczyć się po zarwanej nocy?"
+      "text": "Wolałbyś w ciągu jednego dnia biegle posługiwać się nowym językiem czy opanować nowy instrument z dnia na dzień?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_062",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: zawsze wygrywać karaoke czy umieć ugotować wszystko?"
+      "text": "Wolałbyś zawsze mieć idealne oświetlenie do zdjęć, czy nigdy nie mrugać podczas robienia zdjęć?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_063",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: nigdy nie spóźnić się na ostatni tramwaj czy nigdy nie zgubić się w podróży?"
+      "text": "Wolałbyś mieć dzień wolny-niespodziankę co miesiąc czy wakacje-niespodziankę co roku?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_064",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: mieć nieskończoną baterię w telefonie czy zawsze dobrze wychodzić na zdjęciach?"
+      "text": "Czy wolisz tylko tekst pisany małymi literami, czy tylko tekst z doskonałą interpunkcją?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_065",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: pierogi za darmo do końca życia czy kebab za darmo do końca życia?"
+      "text": "Wolisz spędzić weekend w przytulnej kabinie czy pracowity weekend w mieście?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_066",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: móc się teleportować czy cofnąć czas o 10 minut?"
+      "text": "Wolałbyś być znany ze swojego stylu czy z poczucia humoru?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_067",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: rozmawiać z kotami czy rozmawiać z psami?"
+      "text": "Wolisz zawsze wybierać najszybszą kolejkę do kasy czy od razu łapać windę?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_068",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: być niewidzialnym przez dzień czy latać przez jeden dzień?"
+      "text": "Wolałbyś, żeby nigdy nie zabrakło Ci miejsca w telefonie, czy żeby nigdy nie zabrakło Ci baterii?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_069",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: zawsze idealnie wstawać rano czy nie męczyć się po zarwanej nocy?"
+      "text": "Wolałbyś idealnie udekorować dowolne pomieszczenie czy idealnie spakować dowolną walizkę?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_070",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: zawsze wygrywać karaoke czy umieć ugotować wszystko?"
+      "text": "Wolałbyś pić na zawsze tylko wodę czy tylko jeden ulubiony napój?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_071",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: nigdy nie spóźnić się na ostatni tramwaj czy nigdy nie zgubić się w podróży?"
+      "text": "Wolałbyś zawsze spać idealnie, czy zawsze budzić się w dobrym nastroju?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_072",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: mieć nieskończoną baterię w telefonie czy zawsze dobrze wychodzić na zdjęciach?"
+      "text": "Wolałbyś być osobą, o którą wszyscy proszą o rekomendacje, czy osobą, którą wszyscy proszą o planowanie wycieczek?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_073",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: pierogi za darmo do końca życia czy kebab za darmo do końca życia?"
+      "text": "Wolisz mieć osobistą prognozę pogody, która zawsze się sprawdza, czy kalendarz, który sam planuje?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_074",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: móc się teleportować czy cofnąć czas o 10 minut?"
+      "text": "Wolałbyś nigdy nie musieć sprzątać łazienki czy nigdy nie musieć sprzątać kuchni?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_075",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: rozmawiać z kotami czy rozmawiać z psami?"
+      "text": "Wolałbyś być świetny w pieczeniu czy świetny w grillowaniu?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_076",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: być niewidzialnym przez dzień czy latać przez jeden dzień?"
+      "text": "Wolisz miejsca w pierwszym rzędzie raz w roku czy przekąski VIP za każdym razem?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_077",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: zawsze idealnie wstawać rano czy nie męczyć się po zarwanej nocy?"
+      "text": "Wolałbyś zawsze znaleźć najlepszą ukrytą kawiarnię czy zawsze znaleźć najlepszy punkt widokowy?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_078",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: zawsze wygrywać karaoke czy umieć ugotować wszystko?"
+      "text": "Wolisz tydzień idealnych strojów czy tydzień doskonałych posiłków?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_079",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: nigdy nie spóźnić się na ostatni tramwaj czy nigdy nie zgubić się w podróży?"
+      "text": "Wolałbyś wygrać dożywotni zapas butów czy dożywotni zapas słuchawek?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_080",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: mieć nieskończoną baterię w telefonie czy zawsze dobrze wychodzić na zdjęciach?"
+      "text": "Wolałbyś zawsze znać tekst czy zawsze znać taniec?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_081",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: pierogi za darmo do końca życia czy kebab za darmo do końca życia?"
+      "text": "Czy wolisz móc naprawić każdy problem techniczny czy złożyć meble bez instrukcji?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_082",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: móc się teleportować czy cofnąć czas o 10 minut?"
+      "text": "Wolisz mieć magiczny plecak, który nigdy nie jest ciężki, czy walizkę, która sama się pakuje?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_083",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: rozmawiać z kotami czy rozmawiać z psami?"
+      "text": "Wolisz mieć zawsze dobrą fryzurę czy zawsze czystą skórę?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_084",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: być niewidzialnym przez dzień czy latać przez jeden dzień?"
+      "text": "Wolisz robić najlepsze grupowe selfie czy tworzyć najlepsze plany grupowe?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_085",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: zawsze idealnie wstawać rano czy nie męczyć się po zarwanej nocy?"
+      "text": "Czy wolisz móc pominąć jedno nudne zadanie dziennie, czy otrzymać jedną zabawną niespodziankę dziennie?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_086",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: zawsze wygrywać karaoke czy umieć ugotować wszystko?"
+      "text": "Wolałbyś mieszkać gdzieś, gdzie nie ma końca lata, czy niekończąca się przytulna pogoda?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_087",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: nigdy nie spóźnić się na ostatni tramwaj czy nigdy nie zgubić się w podróży?"
+      "text": "Czy wolisz nigdy nie wyświetlać reklam online lub nigdy nie otrzymywać wiadomości spamowych?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_088",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: mieć nieskończoną baterię w telefonie czy zawsze dobrze wychodzić na zdjęciach?"
+      "text": "Czy wolisz zawsze wybierać świetną nazwę użytkownika, czy zawsze pisać świetny podpis?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_089",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: pierogi za darmo do końca życia czy kebab za darmo do końca życia?"
+      "text": "Wolałbyś być najlepszy w pakowaniu prezentów czy najlepszy w wybieraniu prezentów?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_090",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: móc się teleportować czy cofnąć czas o 10 minut?"
+      "text": "Wolisz mieć nieograniczone wieczory filmowe w domu czy nieograniczone brunche poza domem?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_091",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: rozmawiać z kotami czy rozmawiać z psami?"
+      "text": "Wolisz mały prywatny ogród czy ogromny wspólny dach?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_092",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: być niewidzialnym przez dzień czy latać przez jeden dzień?"
+      "text": "Wolałbyś zawsze używać tylko małej łyżeczki, czy zawsze pić z małej filiżanki?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_093",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: zawsze idealnie wstawać rano czy nie męczyć się po zarwanej nocy?"
+      "text": "Czy wolisz móc sprawić, że każde pomieszczenie będzie przytulne, czy też stworzyć idealną playlistę?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_094",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: zawsze wygrywać karaoke czy umieć ugotować wszystko?"
+      "text": "Wolałbyś zawsze mieć odpowiednią ładowarkę czy zawsze mieć właściwe hasło?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_095",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: nigdy nie spóźnić się na ostatni tramwaj czy nigdy nie zgubić się w podróży?"
+      "text": "Wolisz nigdy nie zapomnieć hasła czy nigdy nie zapomnieć, gdzie zaparkowałeś?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_096",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: mieć nieskończoną baterię w telefonie czy zawsze dobrze wychodzić na zdjęciach?"
+      "text": "Wolisz mieć doskonale zorganizowaną szafę czy doskonale zorganizowaną rolkę od aparatu?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_097",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: pierogi za darmo do końca życia czy kebab za darmo do końca życia?"
+      "text": "Wolisz być pierwszą osobą, która wypróbowuje dany trend, czy ostatnią, która się nim znudzi?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_098",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: móc się teleportować czy cofnąć czas o 10 minut?"
+      "text": "Wolałbyś mieć zawsze wolny stolik w restauracjach czy zawsze dostawać darmowy deser?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_099",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: rozmawiać z kotami czy rozmawiać z psami?"
+      "text": "Wolisz mieć osobistą piosenkę, czy osobiste światło wejściowe?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_100",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: być niewidzialnym przez dzień czy latać przez jeden dzień?"
+      "text": "Wolałbyś być świetny w pierwszym wrażeniu czy świetny w uściskach na pożegnanie?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_pl_101",
+      "text": "Wolisz być szanowany przez wszystkich, czy głęboko rozumiany przez kilka osób?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: zawsze idealnie wstawać rano czy nie męczyć się po zarwanej nocy?"
+      "minAge": 13
     },
     {
       "id": "wyr_pl_102",
+      "text": "Czy wolisz wiedzieć, kiedy ktoś kłamie, czy zawsze wierzyć, gdy mówisz prawdę?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: zawsze wygrywać karaoke czy umieć ugotować wszystko?"
+      "minAge": 13
     },
     {
       "id": "wyr_pl_103",
+      "text": "Wolałbyś mieć wymarzoną pracę z niskim wynagrodzeniem czy nudną pracę z niesamowitą płacą?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: nigdy nie spóźnić się na ostatni tramwaj czy nigdy nie zgubić się w podróży?"
+      "minAge": 13
     },
     {
       "id": "wyr_pl_104",
+      "text": "Wolałbyś sam wyjechać za granicę czy zostać w rodzinnym mieście na zawsze?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: mieć nieskończoną baterię w telefonie czy zawsze dobrze wychodzić na zdjęciach?"
+      "minAge": 13
     },
     {
       "id": "wyr_pl_105",
+      "text": "Wolałbyś być najmądrzejszą osobą w pokoju czy osobą, której wszyscy ufają najbardziej?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: pierogi za darmo do końca życia czy kebab za darmo do końca życia?"
+      "minAge": 13
     },
     {
       "id": "wyr_pl_106",
+      "text": "Wolisz zawsze znać prawdę, czy zawsze wiedzieć, co powiedzieć?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: móc się teleportować czy cofnąć czas o 10 minut?"
+      "minAge": 13
     },
     {
       "id": "wyr_pl_107",
+      "text": "Wolałbyś mieć małą grupę lojalnych przyjaciół czy ogromną sieć przypadkowych przyjaciół?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz: rozmawiać z kotami czy rozmawiać z psami?"
+      "minAge": 13
     },
     {
       "id": "wyr_pl_108",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: być niewidzialnym przez dzień czy latać przez jeden dzień?"
+      "text": "Wolałbyś, żeby cię zapamiętano ze względu na życzliwość czy ambicję?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_109",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: zawsze idealnie wstawać rano czy nie męczyć się po zarwanej nocy?"
+      "text": "Czy wolisz odnieść sukces wcześnie i wypalić się, czy odnieść sukces powoli i cieszyć się tym procesem?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_110",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: zawsze wygrywać karaoke czy umieć ugotować wszystko?"
+      "text": "Wolałbyś, żeby zapomniano o każdym błędzie czy o każdym dobrym uczynku?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_111",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: nigdy nie spóźnić się na ostatni tramwaj czy nigdy nie zgubić się w podróży?"
+      "text": "Wolałbyś przeżyć jeszcze raz jeden idealny dzień czy wymazać jeden okropny dzień?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_112",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: mieć nieskończoną baterię w telefonie czy zawsze dobrze wychodzić na zdjęciach?"
+      "text": "Czy wolałbyś móc przebaczyć natychmiast, czy nigdy nie dać się oszukać dwa razy?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_113",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: pierogi za darmo do końca życia czy kebab za darmo do końca życia?"
+      "text": "Wolisz więcej pewności siebie czy więcej dyscypliny?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_114",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: móc się teleportować czy cofnąć czas o 10 minut?"
+      "text": "Wolałbyś wiedzieć, co ludzie o Tobie myślą po raz pierwszy, czy co mówią po Twoim odejściu?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_115",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: rozmawiać z kotami czy rozmawiać z psami?"
+      "text": "Wolałbyś być kochany za to, kim jesteś teraz, czy podziwiany za to, kim możesz się stać?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_116",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: być niewidzialnym przez dzień czy latać przez jeden dzień?"
+      "text": "Czy wolisz być zawsze zajęty rzeczami, które kochasz, czy zawsze mieć wolny czas, ale się nudzić?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_117",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: zawsze idealnie wstawać rano czy nie męczyć się po zarwanej nocy?"
+      "text": "Wolałbyś mieć jedną dużą szansę i zaryzykować wszystko, czy wiele małych szans przy powolnym postępie?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_118",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: zawsze wygrywać karaoke czy umieć ugotować wszystko?"
+      "text": "Wolisz być sławny przez pięć lat czy szanowany przez całe życie?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_119",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: nigdy nie spóźnić się na ostatni tramwaj czy nigdy nie zgubić się w podróży?"
+      "text": "Wolałbyś stracić wszystkie zdjęcia czy wszystkie wiadomości?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_120",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: mieć nieskończoną baterię w telefonie czy zawsze dobrze wychodzić na zdjęciach?"
+      "text": "Czy wolisz, aby Twoja historia wyszukiwania była publiczna czy publiczna rolka z aparatu?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_121",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: pierogi za darmo do końca życia czy kebab za darmo do końca życia?"
+      "text": "Wolisz zawsze mówić, co myślisz, czy zawsze zachować spokój?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_122",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: móc się teleportować czy cofnąć czas o 10 minut?"
+      "text": "Wolałbyś mieć przyjaciela, który jest brutalnie szczery, czy takiego, który nieustannie Cię wspiera?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_123",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: rozmawiać z kotami czy rozmawiać z psami?"
+      "text": "Wolałbyś być planistą w każdej grupie czy osobą, która nigdy nie musi planować?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_124",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: być niewidzialnym przez dzień czy latać przez jeden dzień?"
+      "text": "Wolisz być niesamowity w głębokich rozmowach, czy niesamowity w sprawianiu, że ludzie czują się komfortowo?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_125",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: zawsze idealnie wstawać rano czy nie męczyć się po zarwanej nocy?"
+      "text": "Wolałbyś wiedzieć dokładnie, dokąd zmierza Twoje życie, czy być przez to zaskoczonym?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_126",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: zawsze wygrywać karaoke czy umieć ugotować wszystko?"
+      "text": "Wolałbyś na rok zrezygnować z mediów społecznościowych czy streamingu na rok?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_127",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: nigdy nie spóźnić się na ostatni tramwaj czy nigdy nie zgubić się w podróży?"
+      "text": "Wolisz rok wolnego z wynagrodzeniem czy awans, na którym naprawdę Ci zależy?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_128",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: mieć nieskończoną baterię w telefonie czy zawsze dobrze wychodzić na zdjęciach?"
+      "text": "Wolisz być zawsze niedoceniany czy zawsze przeceniany?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_129",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: pierogi za darmo do końca życia czy kebab za darmo do końca życia?"
+      "text": "Wolałbyś, żeby wszyscy znali Twój największy cel czy największą obawę?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_130",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: móc się teleportować czy cofnąć czas o 10 minut?"
+      "text": "Wolałbyś móc rozpocząć karierę od nowa czy odnowić jedną przyjaźń?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_131",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: rozmawiać z kotami czy rozmawiać z psami?"
+      "text": "Wolałbyś być osobą, do której ludzie dzwonią w razie kryzysu, czy osobą, do której dzwonią, aby świętować?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_132",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: być niewidzialnym przez dzień czy latać przez jeden dzień?"
+      "text": "Wolisz nigdy nie czuć się zawstydzonym czy nigdy nie czuć zazdrości?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_133",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: zawsze idealnie wstawać rano czy nie męczyć się po zarwanej nocy?"
+      "text": "Czy wolisz mieć możliwość usunięcia jednego wspomnienia czy odtworzenia jednego wspomnienia, kiedy tylko chcesz?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_134",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: zawsze wygrywać karaoke czy umieć ugotować wszystko?"
+      "text": "Wolałbyś znać zakończenie każdego filmu czy wynik każdej decyzji?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_135",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: nigdy nie spóźnić się na ostatni tramwaj czy nigdy nie zgubić się w podróży?"
+      "text": "Wolałbyś mieć doskonałą reputację wśród nieznajomych czy prawdziwą uczciwość wobec przyjaciół?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_136",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: mieć nieskończoną baterię w telefonie czy zawsze dobrze wychodzić na zdjęciach?"
+      "text": "Czy wolisz zawsze wygrywać kłótnie, czy zawsze kończyć kłótnie w atmosferze spokoju?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_137",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: pierogi za darmo do końca życia czy kebab za darmo do końca życia?"
+      "text": "Wolałbyś być świetny w zarabianiu pieniędzy czy świetnie zarządzać pieniędzmi?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_138",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: móc się teleportować czy cofnąć czas o 10 minut?"
+      "text": "Wolałbyś, żeby Twoją przyszłość zaplanował ktoś mądry, czy sam wszystko wybierałeś, bez żadnych rad?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_139",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: rozmawiać z kotami czy rozmawiać z psami?"
+      "text": "Wolałbyś być najzabawniejszą osobą w swojej grupie czy najspokojniejszą osobą w kryzysie?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_140",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: być niewidzialnym przez dzień czy latać przez jeden dzień?"
+      "text": "Wolałbyś, aby jedno marzenie spełniło się teraz, czy pięć mniejszych z czasem?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_141",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: zawsze idealnie wstawać rano czy nie męczyć się po zarwanej nocy?"
+      "text": "Wolisz potrafić całkowicie odczytać jedną osobę, czy doskonale rozumieć tłumy?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_142",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: zawsze wygrywać karaoke czy umieć ugotować wszystko?"
+      "text": "Wolałbyś dostać zamknięcie każdego zakończenia czy drugą szansę na jedno zakończenie?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_143",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: nigdy nie spóźnić się na ostatni tramwaj czy nigdy nie zgubić się w podróży?"
+      "text": "Wolałbyś być nazywany tajemniczym czy całkowicie przezroczystym?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_144",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: mieć nieskończoną baterię w telefonie czy zawsze dobrze wychodzić na zdjęciach?"
+      "text": "Wolałbyś mieć pracę, która robi wrażenie na ludziach, czy spokojne życie?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_145",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: pierogi za darmo do końca życia czy kebab za darmo do końca życia?"
+      "text": "Wolisz być lojalny wobec winy, czy niezależny wobec winy?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_146",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: móc się teleportować czy cofnąć czas o 10 minut?"
+      "text": "Czy wolisz zawsze mieć odwagę zaczynać, czy cierpliwość, aby zakończyć?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_147",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: rozmawiać z kotami czy rozmawiać z psami?"
+      "text": "Wolałbyś móc przeprosić doskonale czy skonfrontować się z kimś bez strachu?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_148",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: być niewidzialnym przez dzień czy latać przez jeden dzień?"
+      "text": "Wolisz mieć na zawsze swoją największą porażkę w Internecie czy swój największy sekret na czacie grupowym?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_149",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: zawsze idealnie wstawać rano czy nie męczyć się po zarwanej nocy?"
+      "text": "Wolałbyś żyć w przeszłości z większą prywatnością czy w przyszłości z większą wygodą?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_150",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: zawsze wygrywać karaoke czy umieć ugotować wszystko?"
+      "text": "Czy wolałbyś zawsze być odpowiedzialny, czy nigdy nie powierzyć Ci odpowiedzialności?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_151",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: nigdy nie spóźnić się na ostatni tramwaj czy nigdy nie zgubić się w podróży?"
+      "text": "Wolałbyś móc zmienić jedną decyzję, którą podjąłeś, czy zobaczyć decyzję, którą prawie podjąłeś?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_152",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: mieć nieskończoną baterię w telefonie czy zawsze dobrze wychodzić na zdjęciach?"
+      "text": "Wolałbyś stracić swoją strefę komfortu czy stracić ambicje?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_153",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: pierogi za darmo do końca życia czy kebab za darmo do końca życia?"
+      "text": "Wolisz być podziwiany z daleka czy kochany z bliska?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_154",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: móc się teleportować czy cofnąć czas o 10 minut?"
+      "text": "Czy wolałbyś nigdy nie porównywać się z innymi lub nie przejmować się tym, co myślą inni?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_155",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: rozmawiać z kotami czy rozmawiać z psami?"
+      "text": "Wolałbyś otrzymać ostrzeżenie przed każdą złą decyzją czy nagrodę po każdej odważnej?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_156",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: być niewidzialnym przez dzień czy latać przez jeden dzień?"
+      "text": "Wolałbyś móc kogoś rozśmieszyć czy sprawić, że poczuje się bezpiecznie?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_157",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: zawsze idealnie wstawać rano czy nie męczyć się po zarwanej nocy?"
+      "text": "Wolałbyś mieć doskonałą pamięć czy doskonałą zdolność poruszania się dalej?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_158",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: zawsze wygrywać karaoke czy umieć ugotować wszystko?"
+      "text": "Wolisz spędzić rok na budowaniu ciała czy umysłu?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_159",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: nigdy nie spóźnić się na ostatni tramwaj czy nigdy nie zgubić się w podróży?"
+      "text": "Wolałbyś być głównym bohaterem spokojnej historii czy postacią poboczną w epickiej?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_160",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Wolisz: mieć nieskończoną baterię w telefonie czy zawsze dobrze wychodzić na zdjęciach?"
+      "text": "Wolałbyś wiedzieć, dlaczego ktoś odszedł, czy nigdy się nie dowiedzieć i szybciej wyzdrowieć?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_pl_161",
+      "text": "Czy wolałbyś zawsze być szczery w stosunku do swoich uczuć, czy zawsze chronić uczucia innych ludzi?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Stracić wszystkie zapisane memy czy wszystkie playlisty?"
+      "minAge": 13
     },
     {
       "id": "wyr_pl_162",
+      "text": "Wolisz mieć nieograniczoną motywację czy nieograniczoną cierpliwość?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Każda literówka publiczna czy każdy szkic wysłany automatycznie?"
+      "minAge": 13
     },
     {
       "id": "wyr_pl_163",
+      "text": "Wolisz natychmiastowo dostrzegać sygnały ostrzegawcze czy natychmiast dostrzegać ukryty potencjał?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Zviralować się tańcem czy upadkiem?"
+      "minAge": 13
     },
     {
       "id": "wyr_pl_164",
+      "text": "Czy wolałbyś móc naprawić jeden przeszły związek, czy zapobiec jednemu błędowi w przyszłości?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Komunikować się tylko GIF-ami czy tylko głosówkami?"
+      "minAge": 13
     },
     {
       "id": "wyr_pl_165",
+      "text": "Wolałbyś zawsze wybierać wygodę czy zawsze wybierać rozwój?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Nieskończona bateria czy idealne Wi‑Fi na zawsze?"
+      "minAge": 13
     },
     {
       "id": "wyr_pl_166",
+      "text": "Wolałbyś otaczać się ludźmi, którzy rzucają Ci wyzwanie, czy ludźmi, którzy Cię pocieszają?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz organizować każdą imprezę czy sprzątać po każdej?"
+      "minAge": 13
     },
     {
       "id": "wyr_pl_167",
+      "text": "Wolałbyś mieć idealną codzienną rutynę czy idealną, jedyną w życiu przygodę?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Wolisz zawsze tłumaczyć zasady czy zawsze być oskarżanym o oszukiwanie?"
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_168",
+      "text": "Wolałbyś być skrycie utalentowany czy publicznie przeciętny?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_169",
+      "text": "Czy wolałbyś nigdy nie potrzebować aprobaty, czy zawsze otrzymywać zachętę?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_170",
+      "text": "Wolałbyś mieć przyjaciela, który pamięta każdy szczegół, czy takiego, który pojawia się za każdym razem?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_171",
+      "text": "Czy wolisz móc natychmiast porzucić każdy nawyk, czy natychmiast zbudować jakiś nawyk?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_172",
+      "text": "Wolałbyś, żeby Twoje młodsze ja zobaczyło Twoje życie teraz, czy Twoje przyszłe ja przesłało jedno zdanie wstecz?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_173",
+      "text": "Wolałbyś być osobą, która zmienia grupę, czy osobą, którą grupa zmienia na lepsze?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_174",
+      "text": "Czy wolisz zawsze znać koszty wyboru, czy zawsze znać korzyści?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_175",
+      "text": "Wolisz być nieustraszony przez rok, czy mądry przez resztę życia?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_176",
+      "text": "Wolałbyś mieć życie, które wygląda ekscytująco w Internecie czy ekscytująco offline?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_177",
+      "text": "Wolałbyś przestać o tym myśleć, czy przestać odkładać na później?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_178",
+      "text": "Wolałbyś być znany z jednego arcydzieła czy wielu solidnych wysiłków?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_179",
+      "text": "Wolałbyś mieć otwarte wszystkie drzwi, ale bez jasnego kierunku, czy jedną jasną ścieżkę bez alternatywy?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_180",
+      "text": "Wolałbyś zawsze być pierwszym, który przebacza, czy pierwszym, który odchodzi?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_181",
+      "text": "Wolałbyś mieć mentora na każdy problem czy przyjaciela na każdy ciężki dzień?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_182",
+      "text": "Wolałbyś móc przewidzieć swój nastrój jutro czy zrozumieć swój dzisiejszy nastrój?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_183",
+      "text": "Wolałbyś wzbogacić się po cichu czy mieć wpływy publicznie?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_184",
+      "text": "Wolałbyś nigdy nie czuć się samotny czy nigdy nie czuć się niezrozumiany?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_185",
+      "text": "Czy wolisz móc natychmiast pozyskać ludzi, czy od razu wiedzieć, kto jest wart Twojego czasu?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_186",
+      "text": "Wolałbyś być znany z podejmowania ryzyka czy dokonywania mądrych wyborów?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_187",
+      "text": "Czy wolisz zawsze mieć plan zapasowy, czy nigdy go nie potrzebować?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_188",
+      "text": "Wolałbyś stracić jeden zły nawyk czy zyskać jedną imponującą umiejętność?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_189",
+      "text": "Wolisz spokojne życie z kilkoma niespodziankami czy chaotyczne życie z niezapomnianymi historiami?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_190",
+      "text": "Wolałbyś poznać najlepszy moment swojego życia, zanim to nastąpi, czy rozpoznać go dopiero później?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_191",
+      "text": "Czy wolisz być doskonały w rozpoczynaniu rozmów, czy też doskonały w kończeniu ich z wdziękiem?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_192",
+      "text": "Wolałbyś zawsze być osobą, która udziela rad, czy osobą na tyle odważną, aby z niej skorzystać?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_193",
+      "text": "Wolisz mieć swój wymarzony dom z dala od wszystkich, czy prosty dom w pobliżu ulubionych osób?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_194",
+      "text": "Wolałbyś pogodzić się z kimkolwiek, czy zacząć od nowa gdziekolwiek?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_195",
+      "text": "Wolałbyś być przyjacielem, któremu wszyscy się przyznają, czy przyjacielem, z którym wszyscy imprezują?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_196",
+      "text": "Wolisz miesiąc całkowitej wolności czy rok stałego postępu?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_197",
+      "text": "Wolałbyś, żeby cię zapamiętano za jeden odważny ruch, czy za cichą lojalność na całe życie?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_198",
+      "text": "Wolisz znać prawdę o swojej reputacji, czy zachować pewność siebie w nienaruszonym stanie?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_199",
+      "text": "Wolałbyś móc powiedzieć nie bez poczucia winy czy poprosić o pomoc bez wstydu?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_200",
+      "text": "Wolałbyś mieć doskonałe wyczucie czasu czy doskonały instynkt?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_pl_201",
+      "text": "Wolisz, żeby znajomi ocenili twój profil w aplikacji randkowej, czy żeby zaufana osoba przeczytała na głos twoje DM-y?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_202",
+      "text": "Wolałbyś pójść na idealną pierwszą randkę bez chemii czy niechlujną pierwszą randkę z oczywistymi iskrami?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_203",
+      "text": "Czy wolisz zawsze wiedzieć, kiedy ktoś flirtuje, czy nigdy przypadkowo nie odwzajemniać flirtu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_204",
+      "text": "Wolałabyś umawiać się z kimś, kogo wszyscy kochają, ale co do którego nie jesteś pewien, czy z kimś, kogo wszyscy wątpią, ale jesteś pewien?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_205",
+      "text": "Wolałbyś zostać duchem po jednej niesamowitej randce, czy powoli przez miesiąc być okruchem chleba?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_206",
+      "text": "Czy wolisz wyznać swoją sympatię osobiście, czy niech przypadkowo to ujawnisz na czacie grupowym?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_207",
+      "text": "Wolałabyś, żeby twój były widział, że wyglądasz niesamowicie, czy naprawdę nie obchodziło go to?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_208",
+      "text": "Wolisz otrzymać ryzykowną wiadomość późnym wieczorem, czy wysłać ją i od razu tego żałować?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_209",
+      "text": "Wolałabyś mieć partnera, który jest do bólu szczery, czy takiego, który unika wszelkich trudnych rozmów?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_210",
+      "text": "Wolałabyś umawiać się z kimś, kto potrafi doskonale przekomarzać się czy ma doskonałą dojrzałość emocjonalną?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_211",
+      "text": "Wolałbyś zostać przyłapany na prześladowaniu czyjegoś profilu czy przypadkowo polubić bardzo stary post?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_212",
+      "text": "Wolałbyś mieć jeden niezapomniany letni romans czy jedną powolną historię miłosną?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_213",
+      "text": "Wolałabyś znać każdą osobę, którą Twój partner kiedykolwiek lubił, czy nie wiedzieć nic i zachować spokój?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_214",
+      "text": "Wolałbyś być tym zazdrosnym, czy tym, który sprawia, że ludzie są zazdrośni, nawet nie próbując?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_215",
+      "text": "Wolisz niesamowitą chemię ze złym wyczuciem czasu czy doskonałe wyczucie czasu z łagodną chemią?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_216",
+      "text": "Wolisz być pierwszą osobą, która powie „kocham cię”, czy poczekać, aż będziesz całkowicie pewna?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_217",
+      "text": "Wolisz iść na randkę bez telefonów czy na randkę bez pogawędek?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_218",
+      "text": "Wolisz wystawić na światło dzienne swoją największą czerwoną flagę, czy dowiedzieć się, że wszyscy już o tym wiedzą?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_219",
+      "text": "Wolałbyś być czyimś sekretnym zauroczeniem czy czyjąś bardzo publiczną obsesją?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_220",
+      "text": "Wolałbyś mieć dramatyczną historię rozstania czy żadnego rozstania, bo nic nigdy nie stało się poważne?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_221",
+      "text": "Wolałbyś umawiać się z kimś, kto publikuje wszystko, czy z kimś, kto nie publikuje niczego?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_222",
+      "text": "Wolałabyś być z kimś szalenie spontanicznym czy z kimś głęboko konsekwentnym?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_223",
+      "text": "Wolisz udostępniać hasła czy udostępniać lokalizacje?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_224",
+      "text": "Wolałbyś otrzymać list miłosny od niewłaściwej osoby czy jednowyrazowy SMS od właściwej osoby?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_225",
+      "text": "Wolałbyś, żeby Twoja sympatia usłyszała Twoją najgorszą notatkę głosową czy zobaczyła najgorsze selfie?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_226",
+      "text": "Wolałbyś być świetny we flircie osobiście czy świetny w wysyłaniu SMS-ów?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_227",
+      "text": "Wolałbyś zawsze wiedzieć, czy randka Cię interesuje, czy zawsze wiedzieć, czy marnuje Twój czas?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_228",
+      "text": "Wolisz związek pełen intensywnej pasji i chaosu, czy spokojną miłość z mniejszą ilością fajerwerków?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_229",
+      "text": "Wolisz być tym, któremu bardziej zależy, czy tym, który pierwszy się do tego przyzna?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_230",
+      "text": "Wolałbyś dowiedzieć się, że przyjaciel lubi Twoją sympatię, czy że ona lubi Twojego przyjaciela?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_231",
+      "text": "Wolałbyś umawiać się z kimś, kto jest w typie każdego, czy z kimś, kogo tylko Ty rozumiesz?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_232",
+      "text": "Wolałbyś, żeby Twoja sytuacja definiowała związek, czy też zniknęła na zawsze?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_233",
+      "text": "Wolałbyś otrzymać zamknięcie od byłego czy przeprosiny od osoby, z którą nigdy się nie spotykałeś?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_234",
+      "text": "Wolisz jeden idealny pocałunek bez przyszłości lub niezdarny początek, który przerodzi się w prawdziwą miłość?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_235",
+      "text": "Wolałbyś od razu widzieć czyjeś zielone flagi czy natychmiast czerwone flagi?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_236",
+      "text": "Wolałbyś flirtować z pewnością siebie i ponieść porażkę, czy zachować spokój i przegapić swoją szansę?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_237",
+      "text": "Wolałbyś, żeby Twoi przyjaciele nagrywali każdą pierwszą randkę czy każde rozstanie?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_238",
+      "text": "Wolałbyś umawiać się z kimś, kto pamięta każdy szczegół, czy z kimś, kto ciągle Cię zaskakuje?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_239",
+      "text": "Wolałbyś wrócić do byłego na tydzień, czy pójść na pięć randek w ciemno z rzędu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_240",
+      "text": "Wolisz, aby Twoi znajomi wybierali następny termin, czy wybierała to Twoja historia wyszukiwania?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_241",
+      "text": "Wolałbyś być kochany głośno w miejscach publicznych czy prywatnie, w sposób, który tylko Ty zauważysz?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_242",
+      "text": "Wolisz zawsze być łamaczem serc, czy zawsze beznadziejnym romantykiem?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_243",
+      "text": "Wolałabyś mieć partnera, który jest zbyt przylegający lub zbyt tajemniczy?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_244",
+      "text": "Wolałbyś dowiedzieć się, że ktoś napisał o Tobie piosenkę, czy długą tyradę w aplikacji do notatek?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_245",
+      "text": "Czy wolisz otrzymać SMS-a „Musimy porozmawiać”, czy przypadkowo wysłać go do niewłaściwej osoby?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_246",
+      "text": "Wolałbyś umawiać się z kimś, kto planuje każdy szczegół, czy z kimś, kto wszystko improwizuje?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_247",
+      "text": "Wolałbyś mieć niezaprzeczalną chemię ze swoim przeciwieństwem czy wygodną chemię z kimś takim jak Ty?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_248",
+      "text": "Wolałbyś zostać przyłapany na próbie spowiedzi, czy na ćwiczeniu przemowy o rozstaniu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_249",
+      "text": "Wolałbyś, żeby Twoja dawna sympatia nagle wysłała Ci SMS-a, czy też Twoja obecna sympatia nagle przestała Cię obserwować?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_250",
+      "text": "Wolałbyś zawsze upadać za szybko, czy zawsze zdawać sobie sprawę ze swoich uczuć za późno?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_251",
+      "text": "Wolisz być osobą, dla której ktoś się zmienia, czy osobą, której nie można przeboleć?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_252",
+      "text": "Wolałabyś mieć partnera, który jest niesamowity w słowach, czy niesamowity w czynach?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_253",
+      "text": "Wolałbyś umawiać się z kimś, kto sprawia, że ciągle się śmiejesz, czy z kimś, kto sprawia, że czujesz się całkowicie spokojny?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_254",
+      "text": "Wolałbyś wiedzieć, czy Twoja sympatia śni o Tobie, czy wiedzieć, czy o Tobie mówi?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_255",
+      "text": "Wolisz wysłać pierwszą wiadomość, czy wykonać pierwszy krok osobiście?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_256",
+      "text": "Wolałbyś mieć sekretny związek przez trzy miesiące czy publiczny związek, na którym wszyscy komentują?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_257",
+      "text": "Wolałbyś, żeby Twój styl flirtu został oceniony przez znajomych, czy Twój styl pisania SMS-ów przez sympatię?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_258",
+      "text": "Wolałbyś być odbiciem, które staje się poważne, czy tym, którego nigdy nie zapomną?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_259",
+      "text": "Wolałbyś umawiać się z kimś z dokładnie takim samym poczuciem humoru, czy z dokładnie takimi ambicjami?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_260",
+      "text": "Wolałbyś podkochiwać się w kimś niedostępnym, czy mieć kogoś niedostępnego podkochującego się w Tobie?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_261",
+      "text": "Wolałbyś otrzymać spowiedź po pijanemu czy wiadomość, której napisanie zajęło tydzień?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_262",
+      "text": "Wolałbyś, żeby każda randka kończyła się głęboką rozmową czy absurdalną historią?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_263",
+      "text": "Wolisz być z kimś, kto rzuca ci wyzwanie, czy z kimś, kto cię wielbi?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_264",
+      "text": "Wolisz zachować odrobinę tajemnicy czy wiedzieć wszystko od razu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_265",
+      "text": "Wolałbyś mieć partnera, który jest najlepszym przyjacielem Twoich przyjaciół, czy takiego, który oddziela Twój świat?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_266",
+      "text": "Wolałbyś umawiać się z kimś, kto nigdy nie jest zazdrosny, czy z kimś, kto szczerze się do tego przyznaje?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_267",
+      "text": "Wolałbyś jeden intensywny moment kontaktu wzrokowego czy jeden dotyk dłoni w idealnym momencie?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_268",
+      "text": "Wolałbyś zostać przyłapany na zbyt wczesnym zapisywaniu pomysłów na ślub czy na zbyt późnym usuwaniu aplikacji randkowej?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_269",
+      "text": "Wolałbyś mieć zalotną przyjaźń, która nigdy nie przerodzi się w coś więcej, czy związek, który zaczyna się od niezręcznego flirtu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_270",
+      "text": "Czy wolisz móc cofnąć jedną wysłaną wiadomość, czy cofnąć jedno zdanie osobiście?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_271",
+      "text": "Wolałbyś, żeby twój najlepszy przyjaciel aprobował twoją sympatię, czy też twój sympatia aprobował twojego najlepszego przyjaciela?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_272",
+      "text": "Wolałbyś umawiać się z kimś, kto kocha uwagę, czy z kimś, kto całkowicie jej unika?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_273",
+      "text": "Wolałbyś być powodem, dla którego ktoś uśmiecha się do swojego telefonu, czy powodem, dla którego nie może się skupić przez cały dzień?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_274",
+      "text": "Wolisz romantyczną kolację w niezręcznej ciszy czy chaotyczny wieczór pełen niesamowitej energii?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_275",
+      "text": "Wolałbyś zostać zaproszony wielkim gestem czy prostym, szczerym zdaniem?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_276",
+      "text": "Wolisz związek, którego wszyscy zazdroszczą, czy taki, którego nikt poza tobą nie rozumie?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_277",
+      "text": "Wolałabyś nigdy nie wiedzieć, kto się w Tobie zakochał, czy wiedzieć i nie móc nic z tym zrobić?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_278",
+      "text": "Czy wolisz wysłać notatkę głosową swojej sympatii, czy zostawić wiadomość głosową swojemu byłemu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_279",
+      "text": "Wolisz, żeby Twój partner czytał Ci w myślach przez jeden dzień, czy przez minutę czytał Twoją aplikację do notatek?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_pl_280",
+      "text": "Wolałbyś być czyimś bezpiecznym wyborem czy ryzykownym wyborem?",
+      "intensity": "spicy",
+      "minAge": 18
     }
   ]
 }

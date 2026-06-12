@@ -1,18 +1,18 @@
 {
   "gameId": "trivia-bet",
   "locale": "pl",
-  "version": 1,
+  "version": 2,
   "questions": [
     {
       "id": "tb_pl_001",
       "difficulty": "easy",
       "category": "Nauka",
-      "question": "Która planeta jest znana jako Czerwona Planeta?",
+      "question": "Jaki gaz rośliny pobierają z powietrza podczas fotosyntezy?",
       "options": [
-        "Wenus",
-        "Mars",
-        "Jowisz",
-        "Saturn"
+        "Tlen",
+        "Dwutlenek węgla",
+        "Wodór",
+        "Azot"
       ],
       "correctIndex": 1
     },
@@ -20,1632 +20,1710 @@
       "id": "tb_pl_002",
       "difficulty": "easy",
       "category": "Nauka",
-      "question": "Jak potocznie nazywa się H2O?",
+      "question": "Jaki jest symbol chemiczny wody?",
       "options": [
-        "Sól",
-        "Woda",
-        "Tlen",
-        "Cukier"
+        "WO",
+        "H2O",
+        "O2H",
+        "HO2"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_003",
       "difficulty": "easy",
-      "category": "Geografia",
-      "question": "Który ocean jest największy?",
+      "category": "Nauka",
+      "question": "Która planeta nazywana jest Czerwoną Planetą?",
       "options": [
-        "Atlantycki",
-        "Indyjski",
-        "Spokojny",
-        "Arktyczny"
+        "Wenus",
+        "Mars",
+        "Jowisz",
+        "Rtęć"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_pl_004",
       "difficulty": "easy",
-      "category": "Geografia",
-      "question": "W jakim kraju leży Tokio?",
+      "category": "Nauka",
+      "question": "Ile nóg ma owad?",
       "options": [
-        "Japonia",
-        "Chiny",
-        "Korea",
-        "Tajlandia"
+        "4",
+        "6",
+        "8",
+        "10"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_pl_005",
       "difficulty": "easy",
-      "category": "Historia",
-      "question": "Kto namalował Mona Lisę?",
+      "category": "Nauka",
+      "question": "Jaka siła przyciąga obiekty w stronę Ziemi?",
       "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
+        "Magnetyzm",
+        "Grawitacja",
+        "Tarcie",
+        "Elektryczność"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_006",
       "difficulty": "easy",
-      "category": "Kultura",
-      "question": "Który zespół śpiewał Dancing Queen?",
+      "category": "Nauka",
+      "question": "Który narząd pompuje krew po organizmie?",
       "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
+        "Wątroba",
+        "Serce",
+        "Płuco",
+        "Nerka"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_007",
       "difficulty": "easy",
-      "category": "Sport",
-      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
+      "category": "Nauka",
+      "question": "Jak nazywa się środek atomu?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_pl_008",
-      "difficulty": "easy",
-      "category": "Jedzenie",
-      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
-      "options": [
-        "Pierogi ruskie",
-        "Sushi",
-        "Ramen",
-        "Tiramisu"
+        "Jądro",
+        "Komórka",
+        "Orbita",
+        "Powłoka"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_pl_009",
-      "difficulty": "easy",
-      "category": "Kultura",
-      "question": "Który język zapisuje się alfabetem hangul?",
+      "id": "tb_pl_008",
+      "difficulty": "medium",
+      "category": "Nauka",
+      "question": "Jaki jest symbol chemiczny złota?",
       "options": [
-        "Japoński",
-        "Koreański",
-        "Polski",
-        "Szwedzki"
+        "Idź",
+        "Gd",
+        "Au",
+        "Ag"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_009",
+      "difficulty": "medium",
+      "category": "Nauka",
+      "question": "Jaka jest temperatura wrzenia wody na poziomie morza w stopniach Celsjusza?",
+      "options": [
+        "90",
+        "95",
+        "100",
+        "110"
+      ],
+      "correctIndex": 2
     },
     {
       "id": "tb_pl_010",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "category": "Nauka",
-      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
+      "question": "W której części komórki znajduje się najwięcej DNA?",
       "options": [
-        "Tlen",
-        "Dwutlenek węgla",
-        "Azot",
-        "Wodór"
+        "Rybosom",
+        "Jądro",
+        "Ściana komórkowa",
+        "Mitochondrium"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_011",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "category": "Nauka",
-      "question": "Która planeta jest znana jako Czerwona Planeta?",
+      "question": "Jaki rodzaj energii jest magazynowany w rozciągniętej gumce?",
       "options": [
-        "Wenus",
-        "Mars",
-        "Jowisz",
-        "Saturn"
+        "Chemiczny",
+        "Potencjał elastyczny",
+        "Termiczne",
+        "Jądrowy"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_012",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "category": "Nauka",
-      "question": "Jak potocznie nazywa się H2O?",
+      "question": "Która witamina powstaje, gdy skóra jest wystawiona na działanie promieni słonecznych?",
       "options": [
-        "Sól",
-        "Woda",
-        "Tlen",
-        "Cukier"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_pl_013",
-      "difficulty": "easy",
-      "category": "Geografia",
-      "question": "Który ocean jest największy?",
-      "options": [
-        "Atlantycki",
-        "Indyjski",
-        "Spokojny",
-        "Arktyczny"
+        "Witamina A",
+        "Witamina C",
+        "Witamina D",
+        "Witamina K"
       ],
       "correctIndex": 2
     },
     {
-      "id": "tb_pl_014",
-      "difficulty": "easy",
-      "category": "Geografia",
-      "question": "W jakim kraju leży Tokio?",
+      "id": "tb_pl_013",
+      "difficulty": "medium",
+      "category": "Nauka",
+      "question": "Jakiego instrumentu używa się do pomiaru trzęsień ziemi?",
       "options": [
-        "Japonia",
-        "Chiny",
-        "Korea",
-        "Tajlandia"
+        "Barometr",
+        "Sejsmograf",
+        "Higrometr",
+        "Wysokościomierz"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_014",
+      "difficulty": "medium",
+      "category": "Nauka",
+      "question": "Jaka jest najtwardsza naturalna substancja na Ziemi?",
+      "options": [
+        "Kwarc",
+        "Diament",
+        "Granit",
+        "Żelazo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_015",
+      "difficulty": "hard",
+      "category": "Nauka",
+      "question": "Jaka jest jednostka prądu elektrycznego w układzie SI?",
+      "options": [
+        "Wolt",
+        "wat",
+        "Amper",
+        "Och"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_016",
+      "difficulty": "hard",
+      "category": "Nauka",
+      "question": "Który naukowiec zaproponował trzy zasady ruchu?",
+      "options": [
+        "Izaaka Newtona",
+        "Alberta Einsteina",
+        "Galileo Galilei",
+        "Nikola Tesla"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_pl_015",
-      "difficulty": "easy",
-      "category": "Historia",
-      "question": "Kto namalował Mona Lisę?",
-      "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_pl_016",
-      "difficulty": "easy",
-      "category": "Kultura",
-      "question": "Który zespół śpiewał Dancing Queen?",
-      "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
-      ],
-      "correctIndex": 1
-    },
-    {
       "id": "tb_pl_017",
-      "difficulty": "easy",
-      "category": "Sport",
-      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
+      "difficulty": "hard",
+      "category": "Nauka",
+      "question": "Jaki gaz występuje najczęściej w atmosferze ziemskiej?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "Tlen",
+        "Dwutlenek węgla",
+        "Azot",
+        "Argon"
       ],
       "correctIndex": 2
     },
     {
       "id": "tb_pl_018",
-      "difficulty": "easy",
-      "category": "Jedzenie",
-      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
+      "difficulty": "hard",
+      "category": "Nauka",
+      "question": "Jaka cząstka ma ujemny ładunek elektryczny?",
       "options": [
-        "Pierogi ruskie",
-        "Sushi",
-        "Ramen",
-        "Tiramisu"
+        "Proton",
+        "Neutron",
+        "Elektron",
+        "Foton"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "tb_pl_019",
-      "difficulty": "easy",
-      "category": "Kultura",
-      "question": "Który język zapisuje się alfabetem hangul?",
+      "difficulty": "hard",
+      "category": "Nauka",
+      "question": "Jaka jest wartość pH obojętnego roztworu w temperaturze pokojowej?",
       "options": [
-        "Japoński",
-        "Koreański",
-        "Polski",
-        "Szwedzki"
+        "0",
+        "5",
+        "7",
+        "14"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "tb_pl_020",
-      "difficulty": "easy",
+      "difficulty": "hard",
       "category": "Nauka",
-      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
+      "question": "Które komórki krwi pomagają organizmowi zwalczać infekcje?",
       "options": [
-        "Tlen",
-        "Dwutlenek węgla",
-        "Azot",
-        "Wodór"
+        "Czerwone krwinki",
+        "Białe krwinki",
+        "Płytki krwi",
+        "Komórki plazmatyczne"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_021",
       "difficulty": "easy",
-      "category": "Nauka",
-      "question": "Która planeta jest znana jako Czerwona Planeta?",
+      "category": "Geografia",
+      "question": "Jaka jest stolica Francji?",
       "options": [
-        "Wenus",
-        "Mars",
-        "Jowisz",
-        "Saturn"
+        "Lyon",
+        "Paryż",
+        "Marsylia",
+        "Ładne"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_022",
       "difficulty": "easy",
-      "category": "Nauka",
-      "question": "Jak potocznie nazywa się H2O?",
+      "category": "Geografia",
+      "question": "Który ocean jest największy?",
       "options": [
-        "Sól",
-        "Woda",
-        "Tlen",
-        "Cukier"
+        "Ocean Atlantycki",
+        "Ocean Indyjski",
+        "Ocean Spokojny",
+        "Ocean Arktyczny"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "tb_pl_023",
       "difficulty": "easy",
       "category": "Geografia",
-      "question": "Który ocean jest największy?",
+      "question": "Który kraj słynie z piramid w Gizie?",
       "options": [
-        "Atlantycki",
-        "Indyjski",
-        "Spokojny",
-        "Arktyczny"
+        "Meksyk",
+        "Egipt",
+        "Grecja",
+        "Indie"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_pl_024",
       "difficulty": "easy",
       "category": "Geografia",
-      "question": "W jakim kraju leży Tokio?",
+      "question": "Jaka jest stolica Japonii?",
       "options": [
-        "Japonia",
-        "Chiny",
-        "Korea",
-        "Tajlandia"
+        "Kioto",
+        "Osaka",
+        "Tokio",
+        "Hiroszima"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "tb_pl_025",
       "difficulty": "easy",
-      "category": "Historia",
-      "question": "Kto namalował Mona Lisę?",
+      "category": "Geografia",
+      "question": "Na jakim kontynencie leży Brazylia?",
       "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
+        "Afryka",
+        "Ameryka Południowa",
+        "Europa",
+        "Azja"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_026",
       "difficulty": "easy",
-      "category": "Kultura",
-      "question": "Który zespół śpiewał Dancing Queen?",
+      "category": "Geografia",
+      "question": "Jaki jest największy kraj pod względem powierzchni?",
       "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_pl_027",
-      "difficulty": "easy",
-      "category": "Sport",
-      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
-      "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "Kanada",
+        "Chiny",
+        "Rosja",
+        "Stany Zjednoczone"
       ],
       "correctIndex": 2
     },
     {
-      "id": "tb_pl_028",
+      "id": "tb_pl_027",
       "difficulty": "easy",
-      "category": "Jedzenie",
-      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
+      "category": "Geografia",
+      "question": "Która rzeka przepływa przez Londyn?",
       "options": [
-        "Pierogi ruskie",
-        "Sushi",
-        "Ramen",
-        "Tiramisu"
+        "Sekwana",
+        "Tamiza",
+        "Dunaj",
+        "Ren"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_028",
+      "difficulty": "medium",
+      "category": "Geografia",
+      "question": "Jaka jest stolica Australii?",
+      "options": [
+        "Sydney",
+        "Melbourne",
+        "Canberra",
+        "Brisbane"
+      ],
+      "correctIndex": 2
     },
     {
       "id": "tb_pl_029",
-      "difficulty": "easy",
-      "category": "Kultura",
-      "question": "Który język zapisuje się alfabetem hangul?",
+      "difficulty": "medium",
+      "category": "Geografia",
+      "question": "W jakim kraju znajduje się Kilimandżaro?",
       "options": [
-        "Japoński",
-        "Koreański",
-        "Polski",
-        "Szwedzki"
+        "Kenia",
+        "Tanzania",
+        "Uganda",
+        "Etiopia"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_030",
-      "difficulty": "easy",
-      "category": "Nauka",
-      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
+      "difficulty": "medium",
+      "category": "Geografia",
+      "question": "Która pustynia jest największą gorącą pustynią na świecie?",
       "options": [
-        "Tlen",
-        "Dwutlenek węgla",
-        "Azot",
-        "Wodór"
+        "Gobi",
+        "Sahara",
+        "Kalahari",
+        "Mojave"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_031",
-      "difficulty": "easy",
-      "category": "Nauka",
-      "question": "Która planeta jest znana jako Czerwona Planeta?",
+      "difficulty": "medium",
+      "category": "Geografia",
+      "question": "W jakim kraju znajduje się miasto Marrakesz?",
       "options": [
-        "Wenus",
-        "Mars",
-        "Jowisz",
-        "Saturn"
+        "Tunezja",
+        "Maroko",
+        "Algieria",
+        "Egipt"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_032",
-      "difficulty": "easy",
-      "category": "Nauka",
-      "question": "Jak potocznie nazywa się H2O?",
+      "difficulty": "medium",
+      "category": "Geografia",
+      "question": "Jakie morze oddziela Europę od Afryki?",
       "options": [
-        "Sól",
-        "Woda",
-        "Tlen",
-        "Cukier"
+        "Morze Czerwone",
+        "Morze Śródziemne",
+        "Morze Czarne",
+        "Morze Bałtyckie"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_033",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "category": "Geografia",
-      "question": "Który ocean jest największy?",
+      "question": "Który stan USA nazywany jest „stanem słońca”?",
       "options": [
-        "Atlantycki",
-        "Indyjski",
-        "Spokojny",
-        "Arktyczny"
+        "Kalifornia",
+        "Floryda",
+        "Arizona",
+        "Hawaje"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_pl_034",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "category": "Geografia",
-      "question": "W jakim kraju leży Tokio?",
+      "question": "Który kraj ma najbardziej naturalne jeziora?",
       "options": [
-        "Japonia",
-        "Chiny",
-        "Korea",
-        "Tajlandia"
+        "Kanada",
+        "Brazylia",
+        "Rosja",
+        "Finlandia"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_pl_035",
-      "difficulty": "easy",
-      "category": "Historia",
-      "question": "Kto namalował Mona Lisę?",
+      "difficulty": "hard",
+      "category": "Geografia",
+      "question": "Jaka jest stolica Kazachstanu?",
       "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
+        "Ałmaty",
+        "Astana",
+        "Biszkek",
+        "Taszkent"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_036",
-      "difficulty": "easy",
-      "category": "Kultura",
-      "question": "Który zespół śpiewał Dancing Queen?",
+      "difficulty": "hard",
+      "category": "Geografia",
+      "question": "W którym kraju znajduje się Jezioro Bled?",
       "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
+        "Słowenia",
+        "Chorwacja",
+        "Austria",
+        "Słowacja"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_037",
+      "difficulty": "hard",
+      "category": "Geografia",
+      "question": "W jakim kraju znajduje się głównie pustynia Atakama?",
+      "options": [
+        "Peru",
+        "Chile",
+        "Boliwia",
+        "Argentyna"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_pl_037",
-      "difficulty": "easy",
-      "category": "Sport",
-      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
-      "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
       "id": "tb_pl_038",
-      "difficulty": "easy",
-      "category": "Jedzenie",
-      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
+      "difficulty": "hard",
+      "category": "Geografia",
+      "question": "Które miasto jest podzielone pomiędzy Europę i Azję?",
       "options": [
-        "Pierogi ruskie",
-        "Sushi",
-        "Ramen",
-        "Tiramisu"
+        "Stambuł",
+        "Ateny",
+        "Kair",
+        "Lizbona"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_pl_039",
-      "difficulty": "easy",
-      "category": "Kultura",
-      "question": "Który język zapisuje się alfabetem hangul?",
+      "difficulty": "hard",
+      "category": "Geografia",
+      "question": "Jakie jest najdłuższe pasmo górskie na świecie?",
       "options": [
-        "Japoński",
-        "Koreański",
-        "Polski",
-        "Szwedzki"
+        "Himalaje",
+        "Andy",
+        "Góry Skaliste",
+        "Alpy"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_040",
-      "difficulty": "easy",
-      "category": "Nauka",
-      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
+      "difficulty": "hard",
+      "category": "Geografia",
+      "question": "Który kraj używa korony jako swojej waluty?",
       "options": [
-        "Tlen",
-        "Dwutlenek węgla",
-        "Azot",
-        "Wodór"
+        "Norwegia",
+        "Polska",
+        "Węgry",
+        "Rumunia"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_pl_041",
       "difficulty": "easy",
-      "category": "Nauka",
-      "question": "Która planeta jest znana jako Czerwona Planeta?",
+      "category": "Historia",
+      "question": "W którym roku zatonął Titanic?",
       "options": [
-        "Wenus",
-        "Mars",
-        "Jowisz",
-        "Saturn"
+        "1908",
+        "1912",
+        "1916",
+        "1920"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_042",
       "difficulty": "easy",
-      "category": "Nauka",
-      "question": "Jak potocznie nazywa się H2O?",
+      "category": "Historia",
+      "question": "Kto był pierwszym prezydentem Stanów Zjednoczonych?",
       "options": [
-        "Sól",
-        "Woda",
-        "Tlen",
-        "Cukier"
+        "Thomasa Jeffersona",
+        "Jerzego Waszyngtona",
+        "Abrahama Lincolna",
+        "Johna Adamsa"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_043",
       "difficulty": "easy",
-      "category": "Geografia",
-      "question": "Który ocean jest największy?",
+      "category": "Historia",
+      "question": "Z jakim krajem kojarzony jest głównie Wielki Mur?",
       "options": [
-        "Atlantycki",
-        "Indyjski",
-        "Spokojny",
-        "Arktyczny"
+        "Japonia",
+        "Chiny",
+        "Indie",
+        "Mongolia"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_pl_044",
       "difficulty": "easy",
-      "category": "Geografia",
-      "question": "W jakim kraju leży Tokio?",
+      "category": "Historia",
+      "question": "Kogo nazywano Dziewicą Orleańską?",
       "options": [
-        "Japonia",
-        "Chiny",
-        "Korea",
-        "Tajlandia"
+        "Kleopatra",
+        "Joanna d'Arc",
+        "Królowa Wiktoria",
+        "Maria Curie"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_pl_045",
       "difficulty": "easy",
       "category": "Historia",
-      "question": "Kto namalował Mona Lisę?",
+      "question": "Która starożytna cywilizacja zbudowała Koloseum?",
       "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
+        "grecki",
+        "Roman",
+        "Majowie",
+        "perski"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_046",
-      "difficulty": "medium",
-      "category": "Kultura",
-      "question": "Który zespół śpiewał Dancing Queen?",
+      "difficulty": "easy",
+      "category": "Historia",
+      "question": "Która wojna zakończyła się w 1945 roku?",
       "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
+        "I wojna światowa",
+        "II wojna światowa",
+        "Wojna koreańska",
+        "Wojna w Wietnamie"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_047",
-      "difficulty": "medium",
-      "category": "Sport",
-      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
+      "difficulty": "easy",
+      "category": "Historia",
+      "question": "Kto odkrył penicylinę?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "Aleksandra Fleminga",
+        "Ludwik Pasteur",
+        "Maria Curie",
+        "Karola Darwina"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "tb_pl_048",
       "difficulty": "medium",
-      "category": "Jedzenie",
-      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
+      "category": "Historia",
+      "question": "Kto był pierwszą kobietą, która samotnie przeleciała Ocean Atlantycki?",
       "options": [
-        "Pierogi ruskie",
-        "Sushi",
-        "Ramen",
-        "Tiramisu"
+        "Amelii Earhart",
+        "Bessie Coleman",
+        "Walentyna Tereshkova",
+        "Sally Jazda"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_pl_049",
       "difficulty": "medium",
-      "category": "Kultura",
-      "question": "Który język zapisuje się alfabetem hangul?",
+      "category": "Historia",
+      "question": "W którym roku upadł mur berliński?",
       "options": [
-        "Japoński",
-        "Koreański",
-        "Polski",
-        "Szwedzki"
+        "1987",
+        "1989",
+        "1991",
+        "1993"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_050",
       "difficulty": "medium",
-      "category": "Nauka",
-      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
+      "category": "Historia",
+      "question": "Którym imperium rządził Czyngis-chan?",
       "options": [
-        "Tlen",
-        "Dwutlenek węgla",
-        "Azot",
-        "Wodór"
+        "Imperium Osmańskie",
+        "Imperium mongolskie",
+        "Cesarstwo Rzymskie",
+        "Imperium Perskie"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_051",
       "difficulty": "medium",
-      "category": "Nauka",
-      "question": "Która planeta jest znana jako Czerwona Planeta?",
+      "category": "Historia",
+      "question": "Kto był pierwszą osobą, która chodziła po Księżycu?",
       "options": [
-        "Wenus",
-        "Mars",
-        "Jowisz",
-        "Saturn"
+        "Buzza Aldrina",
+        "Jurij Gagarin",
+        "Neila Armstronga",
+        "Michaela Collinsa"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "tb_pl_052",
       "difficulty": "medium",
-      "category": "Nauka",
-      "question": "Jak potocznie nazywa się H2O?",
+      "category": "Historia",
+      "question": "W którym współczesnym kraju rozpoczął się renesans?",
       "options": [
-        "Sól",
-        "Woda",
-        "Tlen",
-        "Cukier"
+        "Francja",
+        "Włochy",
+        "Niemcy",
+        "Hiszpania"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_053",
       "difficulty": "medium",
-      "category": "Geografia",
-      "question": "Który ocean jest największy?",
+      "category": "Historia",
+      "question": "Który dokument zaczyna się od słów „We the People”?",
       "options": [
-        "Atlantycki",
-        "Indyjski",
-        "Spokojny",
-        "Arktyczny"
+        "Magna Carta",
+        "Konstytucja USA",
+        "Deklaracja Niepodległości",
+        "Karta Praw"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_pl_054",
       "difficulty": "medium",
-      "category": "Geografia",
-      "question": "W jakim kraju leży Tokio?",
+      "category": "Historia",
+      "question": "Która królowa rządziła Anglią przez większą część epoki wiktoriańskiej?",
       "options": [
-        "Japonia",
-        "Chiny",
-        "Korea",
-        "Tajlandia"
+        "Elżbieta I",
+        "Mary I",
+        "Wiktoria",
+        "Anna"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "tb_pl_055",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "category": "Historia",
-      "question": "Kto namalował Mona Lisę?",
+      "question": "Które starożytne pismo pomogło uczonym w odczytaniu kamienia z Rosetty?",
       "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
+        "pismo klinowe",
+        "Hieroglify",
+        "Sanskryt",
+        "Liniowy B"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_056",
-      "difficulty": "medium",
-      "category": "Kultura",
-      "question": "Który zespół śpiewał Dancing Queen?",
+      "difficulty": "hard",
+      "category": "Historia",
+      "question": "Kto przewodził rewolucji haitańskiej?",
       "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_pl_057",
-      "difficulty": "medium",
-      "category": "Sport",
-      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
-      "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_pl_058",
-      "difficulty": "medium",
-      "category": "Jedzenie",
-      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
-      "options": [
-        "Pierogi ruskie",
-        "Sushi",
-        "Ramen",
-        "Tiramisu"
+        "Luwrtura w Toussaint",
+        "Szymona Bolivara",
+        "Miguela Hidalgo",
+        "Jose de San Martin"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_pl_059",
-      "difficulty": "medium",
-      "category": "Kultura",
-      "question": "Który język zapisuje się alfabetem hangul?",
+      "id": "tb_pl_057",
+      "difficulty": "hard",
+      "category": "Historia",
+      "question": "Który traktat zakończył I wojnę światową?",
       "options": [
-        "Japoński",
-        "Koreański",
-        "Polski",
-        "Szwedzki"
+        "Traktat paryski",
+        "Traktat Wersalski",
+        "Traktat z Tordesillas",
+        "Traktat Utrechcki"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_058",
+      "difficulty": "hard",
+      "category": "Historia",
+      "question": "Jakie miasto było stolicą Cesarstwa Bizantyjskiego?",
+      "options": [
+        "Rzym",
+        "Ateny",
+        "Konstantynopol",
+        "Aleksandria"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_059",
+      "difficulty": "hard",
+      "category": "Historia",
+      "question": "Kto był ostatnim faraonem starożytnego Egiptu?",
+      "options": [
+        "Nefretete",
+        "Kleopatra VII",
+        "Hatszepsut",
+        "Ramzes II"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_060",
-      "difficulty": "medium",
-      "category": "Nauka",
-      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
+      "difficulty": "hard",
+      "category": "Historia",
+      "question": "Która cywilizacja stworzyła Kodeks Hammurabiego?",
       "options": [
-        "Tlen",
-        "Dwutlenek węgla",
-        "Azot",
-        "Wodór"
+        "babiloński",
+        "Asyryjski",
+        "Fenicjanin",
+        "Hetyta"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_pl_061",
-      "difficulty": "medium",
-      "category": "Nauka",
-      "question": "Która planeta jest znana jako Czerwona Planeta?",
+      "difficulty": "easy",
+      "category": "Popkultura",
+      "question": "Jak nazywa się kamerdyner Batmana?",
       "options": [
-        "Wenus",
-        "Mars",
-        "Jowisz",
-        "Saturn"
+        "Jamesa",
+        "Alfreda",
+        "George",
+        "Edwarda"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_062",
-      "difficulty": "medium",
-      "category": "Nauka",
-      "question": "Jak potocznie nazywa się H2O?",
+      "difficulty": "easy",
+      "category": "Popkultura",
+      "question": "Która seria przedstawia Hogwart?",
       "options": [
-        "Sól",
-        "Woda",
-        "Tlen",
-        "Cukier"
+        "Star Wars",
+        "Harry Potter",
+        "The Matrix",
+        "Awatar"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_063",
-      "difficulty": "medium",
-      "category": "Geografia",
-      "question": "Który ocean jest największy?",
+      "difficulty": "easy",
+      "category": "Popkultura",
+      "question": "Jakiego koloru jest postać Shreka?",
       "options": [
-        "Atlantycki",
-        "Indyjski",
-        "Spokojny",
-        "Arktyczny"
+        "Niebieski",
+        "Zielony",
+        "Fioletowy",
+        "Pomarańczowy"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_pl_064",
-      "difficulty": "medium",
-      "category": "Geografia",
-      "question": "W jakim kraju leży Tokio?",
+      "difficulty": "easy",
+      "category": "Popkultura",
+      "question": "Która piosenkarka nazywana jest królową popu?",
       "options": [
-        "Japonia",
-        "Chiny",
-        "Korea",
-        "Tajlandia"
+        "Madonna",
+        "Adela",
+        "Rihanna",
+        "Dua Lipa"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_pl_065",
-      "difficulty": "medium",
-      "category": "Historia",
-      "question": "Kto namalował Mona Lisę?",
+      "difficulty": "easy",
+      "category": "Popkultura",
+      "question": "Który superbohater jest również znany jako Peter Parker?",
       "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
+        "Batmana",
+        "Spider-Man",
+        "Superman",
+        "Iron Man"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_066",
-      "difficulty": "medium",
-      "category": "Kultura",
-      "question": "Który zespół śpiewał Dancing Queen?",
+      "difficulty": "easy",
+      "category": "Popkultura",
+      "question": "W którym filmie występuje postać o imieniu Elsa?",
       "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
+        "Moana",
+        "Zamrożone",
+        "Odważny",
+        "Splątane"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_067",
-      "difficulty": "medium",
-      "category": "Sport",
-      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
+      "difficulty": "easy",
+      "category": "Popkultura",
+      "question": "Która aplikacja jest znana z krótkich wirusowych filmów?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_pl_068",
-      "difficulty": "medium",
-      "category": "Jedzenie",
-      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
-      "options": [
-        "Pierogi ruskie",
-        "Sushi",
-        "Ramen",
-        "Tiramisu"
+        "TikTok",
+        "LinkedIn",
+        "Dropbox",
+        "Powiększ"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_pl_069",
+      "id": "tb_pl_068",
       "difficulty": "medium",
-      "category": "Kultura",
-      "question": "Który język zapisuje się alfabetem hangul?",
+      "category": "Popkultura",
+      "question": "Jakie jest fikcyjne miasto, w którym mieszka Batman?",
       "options": [
-        "Japoński",
-        "Koreański",
-        "Polski",
-        "Szwedzki"
+        "Metropolia",
+        "Miasto Gotham",
+        "Gwiezdne Miasto",
+        "Centralne Miasto"
       ],
       "correctIndex": 1
     },
     {
+      "id": "tb_pl_069",
+      "difficulty": "medium",
+      "category": "Popkultura",
+      "question": "Który zespół wydał album Abbey Road?",
+      "options": [
+        "Beatlesi",
+        "Królowa",
+        "ABBA",
+        "Rolling Stonesów"
+      ],
+      "correctIndex": 0
+    },
+    {
       "id": "tb_pl_070",
       "difficulty": "medium",
-      "category": "Nauka",
-      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
+      "category": "Popkultura",
+      "question": "Kto gra Jacka w filmie Titanic z 1997 roku?",
       "options": [
-        "Tlen",
-        "Dwutlenek węgla",
-        "Azot",
-        "Wodór"
+        "Brada Pitta",
+        "Leonarda DiCaprio",
+        "Toma Cruise'a",
+        "Matta Damona"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_071",
       "difficulty": "medium",
-      "category": "Nauka",
-      "question": "Która planeta jest znana jako Czerwona Planeta?",
+      "category": "Popkultura",
+      "question": "Który program telewizyjny przedstawia kawiarnię Central Perk?",
       "options": [
-        "Wenus",
-        "Mars",
-        "Jowisz",
-        "Saturn"
+        "Przyjaciele",
+        "Seinfelda",
+        "The Office",
+        "Jak poznałem waszą matkę"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_pl_072",
       "difficulty": "medium",
-      "category": "Nauka",
-      "question": "Jak potocznie nazywa się H2O?",
+      "category": "Popkultura",
+      "question": "Która seria gier zawiera postać Link?",
       "options": [
-        "Sól",
-        "Woda",
-        "Tlen",
-        "Cukier"
+        "Ostateczna fantazja",
+        "Legenda Zeldy",
+        "Pokemony",
+        "Sonic"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_073",
       "difficulty": "medium",
-      "category": "Geografia",
-      "question": "Który ocean jest największy?",
+      "category": "Popkultura",
+      "question": "W którym filmie znajduje się cytat Niech moc będzie z tobą?",
       "options": [
-        "Atlantycki",
-        "Indyjski",
-        "Spokojny",
-        "Arktyczny"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_pl_074",
-      "difficulty": "medium",
-      "category": "Geografia",
-      "question": "W jakim kraju leży Tokio?",
-      "options": [
-        "Japonia",
-        "Chiny",
-        "Korea",
-        "Tajlandia"
+        "Star Wars",
+        "Gwiezdny Trek",
+        "Wydma",
+        "Łowca androidów"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_pl_075",
+      "id": "tb_pl_074",
       "difficulty": "medium",
-      "category": "Historia",
-      "question": "Kto namalował Mona Lisę?",
+      "category": "Popkultura",
+      "question": "Jak nazywa się kowboj-zabawka z Toy Story?",
       "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
+        "Buzz",
+        "Woody'ego",
+        "Andy",
+        "Reks"
       ],
       "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_075",
+      "difficulty": "hard",
+      "category": "Popkultura",
+      "question": "Który aktor grał Neo w The Matrix?",
+      "options": [
+        "Keanu Reevesa",
+        "Johnny'ego Deppa",
+        "Nicolasa Cage’a",
+        "Willa Smitha"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "tb_pl_076",
-      "difficulty": "medium",
-      "category": "Kultura",
-      "question": "Który zespół śpiewał Dancing Queen?",
+      "difficulty": "hard",
+      "category": "Popkultura",
+      "question": "Który artysta wydał album Lemonade?",
       "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
+        "Beyonce",
+        "Taylora Swifta",
+        "Ariany Grande",
+        "Lady Gagę"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_pl_077",
-      "difficulty": "medium",
-      "category": "Sport",
-      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
+      "difficulty": "hard",
+      "category": "Popkultura",
+      "question": "Jakie jest oryginalne imię Golluma w The Lord of the Rings?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "Smeagol",
+        "Bilbo",
+        "Deagol",
+        "Faramira"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "tb_pl_078",
-      "difficulty": "medium",
-      "category": "Jedzenie",
-      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
+      "difficulty": "hard",
+      "category": "Popkultura",
+      "question": "W którym filmie animowanym pojawia się piosenka Remember Me?",
       "options": [
-        "Pierogi ruskie",
-        "Sushi",
-        "Ramen",
-        "Tiramisu"
+        "Koko",
+        "Encanto",
+        "Dusza",
+        "Luca"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_pl_079",
-      "difficulty": "medium",
-      "category": "Kultura",
-      "question": "Który język zapisuje się alfabetem hangul?",
+      "difficulty": "hard",
+      "category": "Popkultura",
+      "question": "Jak nazywa się fikcyjny metal w Black Panther?",
       "options": [
-        "Japoński",
-        "Koreański",
-        "Polski",
-        "Szwedzki"
+        "Adamant",
+        "Wibranium",
+        "Mithril",
+        "Unobtanium"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_080",
-      "difficulty": "medium",
-      "category": "Nauka",
-      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
+      "difficulty": "hard",
+      "category": "Popkultura",
+      "question": "Akcja którego serialu rozgrywa się w Dunder Mifflin?",
       "options": [
-        "Tlen",
-        "Dwutlenek węgla",
-        "Azot",
-        "Wodór"
+        "Parki i rekreacja",
+        "The Office",
+        "Brooklyn Dziewięć-Dziewięć",
+        "Społeczność"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_081",
-      "difficulty": "medium",
-      "category": "Nauka",
-      "question": "Która planeta jest znana jako Czerwona Planeta?",
+      "difficulty": "easy",
+      "category": "Jedzenie",
+      "question": "Z jakich owoców tradycyjnie robi się guacamole?",
       "options": [
-        "Wenus",
-        "Mars",
-        "Jowisz",
-        "Saturn"
+        "Banan",
+        "Awokado",
+        "Mango",
+        "Kiwi"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_082",
-      "difficulty": "medium",
-      "category": "Nauka",
-      "question": "Jak potocznie nazywa się H2O?",
+      "difficulty": "easy",
+      "category": "Jedzenie",
+      "question": "Z czym najczęściej kojarzy się sushi?",
       "options": [
-        "Sól",
-        "Woda",
-        "Tlen",
-        "Cukier"
+        "Japonia",
+        "Meksyk",
+        "Włochy",
+        "Maroko"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_pl_083",
-      "difficulty": "medium",
-      "category": "Geografia",
-      "question": "Który ocean jest największy?",
+      "difficulty": "easy",
+      "category": "Jedzenie",
+      "question": "Z jakiego orzecha robi się marcepan?",
       "options": [
-        "Atlantycki",
-        "Indyjski",
-        "Spokojny",
-        "Arktyczny"
+        "Orzech",
+        "Orzech laskowy",
+        "Migdał",
+        "Orzech ziemny"
       ],
       "correctIndex": 2
     },
     {
       "id": "tb_pl_084",
-      "difficulty": "medium",
-      "category": "Geografia",
-      "question": "W jakim kraju leży Tokio?",
+      "difficulty": "easy",
+      "category": "Jedzenie",
+      "question": "Jaki jest główny składnik hummusu?",
       "options": [
-        "Japonia",
-        "Chiny",
-        "Korea",
-        "Tajlandia"
+        "Soczewica",
+        "Ciecierzyca",
+        "Ziemniaki",
+        "Ryż"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_pl_085",
-      "difficulty": "medium",
-      "category": "Historia",
-      "question": "Kto namalował Mona Lisę?",
+      "difficulty": "easy",
+      "category": "Jedzenie",
+      "question": "Który napój powstaje w wyniku parzenia palonej fasoli?",
       "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
+        "Herbata",
+        "Kawa",
+        "Lemoniada",
+        "Cola"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_086",
-      "difficulty": "medium",
-      "category": "Kultura",
-      "question": "Który zespół śpiewał Dancing Queen?",
+      "difficulty": "easy",
+      "category": "Jedzenie",
+      "question": "Jaki rodzaj makaronu ma kształt małych rurek?",
       "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
+        "Penne",
+        "Spaghetti",
+        "Farfalle",
+        "Lasagne"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_pl_087",
-      "difficulty": "medium",
-      "category": "Sport",
-      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
+      "difficulty": "easy",
+      "category": "Jedzenie",
+      "question": "Który kraj słynie z tacos?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "Włochy",
+        "Meksyk",
+        "Tajlandia",
+        "Grecja"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_pl_088",
       "difficulty": "medium",
       "category": "Jedzenie",
-      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
+      "question": "Jaka przyprawa nadaje curry żółty kolor?",
       "options": [
-        "Pierogi ruskie",
-        "Sushi",
-        "Ramen",
-        "Tiramisu"
+        "Kminek",
+        "Kurkuma",
+        "Papryka",
+        "Cynamon"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_pl_089",
       "difficulty": "medium",
-      "category": "Kultura",
-      "question": "Który język zapisuje się alfabetem hangul?",
+      "category": "Jedzenie",
+      "question": "Który ser jest tradycyjnie dodawany do pizzy Margherita?",
       "options": [
-        "Japoński",
-        "Koreański",
-        "Polski",
-        "Szwedzki"
+        "Cheddar",
+        "Mozzarella",
+        "Feta",
+        "Gouda"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_090",
       "difficulty": "medium",
-      "category": "Nauka",
-      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
+      "category": "Jedzenie",
+      "question": "Z czego głównie robi się tofu?",
       "options": [
-        "Tlen",
-        "Dwutlenek węgla",
-        "Azot",
-        "Wodór"
+        "Soja",
+        "Ryż",
+        "Kukurydza",
+        "Orzeszki ziemne"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_pl_091",
-      "difficulty": "hard",
-      "category": "Nauka",
-      "question": "Która planeta jest znana jako Czerwona Planeta?",
+      "difficulty": "medium",
+      "category": "Jedzenie",
+      "question": "Który deser składa się z warstw biszkoptów nasączonych kawą?",
       "options": [
-        "Wenus",
-        "Mars",
-        "Jowisz",
-        "Saturn"
+        "Bakława",
+        "Tiramisu",
+        "Pawłowa",
+        "Krem brulee"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_092",
-      "difficulty": "hard",
-      "category": "Nauka",
-      "question": "Jak potocznie nazywa się H2O?",
+      "difficulty": "medium",
+      "category": "Jedzenie",
+      "question": "Jaki jest główny składnik kiszonej kapusty?",
       "options": [
-        "Sól",
-        "Woda",
-        "Tlen",
-        "Cukier"
+        "Kapusta",
+        "Marchew",
+        "Ogórek",
+        "Cebula"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_pl_093",
-      "difficulty": "hard",
-      "category": "Geografia",
-      "question": "Który ocean jest największy?",
+      "difficulty": "medium",
+      "category": "Jedzenie",
+      "question": "Które owoce suszy się, aby uzyskać rodzynki?",
       "options": [
-        "Atlantycki",
-        "Indyjski",
-        "Spokojny",
-        "Arktyczny"
+        "Winogrona",
+        "Śliwki",
+        "Morele",
+        "Ryc"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "tb_pl_094",
-      "difficulty": "hard",
-      "category": "Geografia",
-      "question": "W jakim kraju leży Tokio?",
+      "difficulty": "medium",
+      "category": "Jedzenie",
+      "question": "Który sos tradycyjnie przyrządza się z bazylii, orzeszków piniowych, czosnku, oliwy z oliwek i sera?",
       "options": [
-        "Japonia",
-        "Chiny",
-        "Korea",
-        "Tajlandia"
+        "Pesto",
+        "Salsa",
+        "Hoisin",
+        "Tahini"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_pl_095",
       "difficulty": "hard",
-      "category": "Historia",
-      "question": "Kto namalował Mona Lisę?",
+      "category": "Jedzenie",
+      "question": "Z jakiego zboża robi się tradycyjne risotto?",
       "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
+        "Basmati",
+        "Ryż Arborio",
+        "Komosa ryżowa",
+        "Bulgur"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_096",
       "difficulty": "hard",
-      "category": "Kultura",
-      "question": "Który zespół śpiewał Dancing Queen?",
+      "category": "Jedzenie",
+      "question": "Z jakiego kraju pochodzi kimchi?",
       "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
+        "Japonia",
+        "Chiny",
+        "Korea",
+        "Wietnam"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "tb_pl_097",
       "difficulty": "hard",
-      "category": "Sport",
-      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
+      "category": "Jedzenie",
+      "question": "Jakie jest francuskie określenie cienkiego naleśnika?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "Krepa",
+        "Brioszka",
+        "Ekler",
+        "Macarona"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "tb_pl_098",
       "difficulty": "hard",
       "category": "Jedzenie",
-      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
+      "question": "Który kwas nadaje ocetowi kwaśny smak?",
       "options": [
-        "Pierogi ruskie",
-        "Sushi",
-        "Ramen",
-        "Tiramisu"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_pl_099",
-      "difficulty": "hard",
-      "category": "Kultura",
-      "question": "Który język zapisuje się alfabetem hangul?",
-      "options": [
-        "Japoński",
-        "Koreański",
-        "Polski",
-        "Szwedzki"
+        "Kwas cytrynowy",
+        "Kwas octowy",
+        "Kwas mlekowy",
+        "Kwas jabłkowy"
       ],
       "correctIndex": 1
     },
     {
+      "id": "tb_pl_099",
+      "difficulty": "hard",
+      "category": "Jedzenie",
+      "question": "Jaki jest główny składnik tradycyjnego falafela?",
+      "options": [
+        "Ciecierzyca",
+        "Wołowina",
+        "Bakłażan",
+        "Ryż"
+      ],
+      "correctIndex": 0
+    },
+    {
       "id": "tb_pl_100",
       "difficulty": "hard",
-      "category": "Nauka",
-      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
+      "category": "Jedzenie",
+      "question": "Z jakiego ciasta robi się baklawę?",
       "options": [
-        "Tlen",
-        "Dwutlenek węgla",
-        "Azot",
-        "Wodór"
+        "Ciasto francuskie",
+        "Ciasto filo",
+        "Ciasto kruche",
+        "Ciasto Choux"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_101",
-      "difficulty": "hard",
-      "category": "Nauka",
-      "question": "Która planeta jest znana jako Czerwona Planeta?",
+      "difficulty": "easy",
+      "category": "Zwierzęta",
+      "question": "Jakie jest największe zwierzę lądowe?",
       "options": [
-        "Wenus",
-        "Mars",
-        "Jowisz",
-        "Saturn"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_pl_102",
-      "difficulty": "hard",
-      "category": "Nauka",
-      "question": "Jak potocznie nazywa się H2O?",
-      "options": [
-        "Sól",
-        "Woda",
-        "Tlen",
-        "Cukier"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_pl_103",
-      "difficulty": "hard",
-      "category": "Geografia",
-      "question": "Który ocean jest największy?",
-      "options": [
-        "Atlantycki",
-        "Indyjski",
-        "Spokojny",
-        "Arktyczny"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_pl_104",
-      "difficulty": "hard",
-      "category": "Geografia",
-      "question": "W jakim kraju leży Tokio?",
-      "options": [
-        "Japonia",
-        "Chiny",
-        "Korea",
-        "Tajlandia"
+        "Słoń",
+        "Hipopotam",
+        "Nosorożec",
+        "Żyrafa"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_pl_105",
-      "difficulty": "hard",
-      "category": "Historia",
-      "question": "Kto namalował Mona Lisę?",
+      "id": "tb_pl_102",
+      "difficulty": "easy",
+      "category": "Zwierzęta",
+      "question": "Które zwierzę słynie z czarno-białych pasków?",
       "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
+        "Zebry",
+        "Tygrys",
+        "Panda",
+        "Skunks"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_103",
+      "difficulty": "easy",
+      "category": "Zwierzęta",
+      "question": "Co robią pszczoły?",
+      "options": [
+        "Mleko",
+        "Kochanie",
+        "Jedwab",
+        "Tylko wosk"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_104",
+      "difficulty": "easy",
+      "category": "Zwierzęta",
+      "question": "Które zwierzę jest ssakiem?",
+      "options": [
+        "Rekin",
+        "Żaba",
+        "Delfin",
+        "Krokodyl"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_105",
+      "difficulty": "easy",
+      "category": "Zwierzęta",
+      "question": "Jak nazywa się mały kot?",
+      "options": [
+        "Szczeniak",
+        "Kotek",
+        "Cielę",
+        "Źrebię"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_106",
-      "difficulty": "hard",
-      "category": "Kultura",
-      "question": "Który zespół śpiewał Dancing Queen?",
+      "difficulty": "easy",
+      "category": "Zwierzęta",
+      "question": "Który ptak jest często kojarzony w opowieściach z porodem?",
       "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
+        "Orzeł",
+        "Bocian",
+        "Sowa",
+        "Łabędź"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_107",
-      "difficulty": "hard",
-      "category": "Sport",
-      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
+      "difficulty": "easy",
+      "category": "Zwierzęta",
+      "question": "Które zwierzę słynie ze zmiany koloru?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "Kameleon",
+        "Koala",
+        "Pingwin",
+        "Wielbłąd"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "tb_pl_108",
-      "difficulty": "hard",
-      "category": "Jedzenie",
-      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
+      "difficulty": "medium",
+      "category": "Zwierzęta",
+      "question": "Jakie jest najszybsze zwierzę lądowe?",
       "options": [
-        "Pierogi ruskie",
-        "Sushi",
-        "Ramen",
-        "Tiramisu"
+        "Gepard",
+        "Lew",
+        "Koń",
+        "Kangur"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_pl_109",
-      "difficulty": "hard",
-      "category": "Kultura",
-      "question": "Który język zapisuje się alfabetem hangul?",
+      "difficulty": "medium",
+      "category": "Zwierzęta",
+      "question": "Które zwierzę ma najdłuższą szyję?",
       "options": [
-        "Japoński",
-        "Koreański",
-        "Polski",
-        "Szwedzki"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_pl_110",
-      "difficulty": "hard",
-      "category": "Nauka",
-      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
-      "options": [
-        "Tlen",
-        "Dwutlenek węgla",
-        "Azot",
-        "Wodór"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_pl_111",
-      "difficulty": "hard",
-      "category": "Nauka",
-      "question": "Która planeta jest znana jako Czerwona Planeta?",
-      "options": [
-        "Wenus",
-        "Mars",
-        "Jowisz",
-        "Saturn"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_pl_112",
-      "difficulty": "hard",
-      "category": "Nauka",
-      "question": "Jak potocznie nazywa się H2O?",
-      "options": [
-        "Sól",
-        "Woda",
-        "Tlen",
-        "Cukier"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_pl_113",
-      "difficulty": "hard",
-      "category": "Geografia",
-      "question": "Który ocean jest największy?",
-      "options": [
-        "Atlantycki",
-        "Indyjski",
-        "Spokojny",
-        "Arktyczny"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_pl_114",
-      "difficulty": "hard",
-      "category": "Geografia",
-      "question": "W jakim kraju leży Tokio?",
-      "options": [
-        "Japonia",
-        "Chiny",
-        "Korea",
-        "Tajlandia"
+        "Żyrafa",
+        "Struś",
+        "Wielbłąd",
+        "Lama"
       ],
       "correctIndex": 0
     },
     {
+      "id": "tb_pl_110",
+      "difficulty": "medium",
+      "category": "Zwierzęta",
+      "question": "Jak po angielsku nazywa sie grupa lwow?",
+      "options": [
+        "Pack",
+        "Herd",
+        "Pride",
+        "Flock"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_111",
+      "difficulty": "medium",
+      "category": "Zwierzęta",
+      "question": "Które zwierzę morskie ma trzy serca?",
+      "options": [
+        "Ośmiornica",
+        "Delfin",
+        "Żółw morski",
+        "Meduza"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_112",
+      "difficulty": "medium",
+      "category": "Zwierzęta",
+      "question": "Co najczęściej jedzą pandy?",
+      "options": [
+        "Bambus",
+        "Ryba",
+        "Trawa",
+        "Owoce"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_113",
+      "difficulty": "medium",
+      "category": "Zwierzęta",
+      "question": "Które zwierzę składa największe jaja?",
+      "options": [
+        "Struś",
+        "Orzeł",
+        "Pingwin",
+        "Albatros"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_114",
+      "difficulty": "medium",
+      "category": "Zwierzęta",
+      "question": "Który owad może unieść ciężar wielokrotnie większy od własnego ciała?",
+      "options": [
+        "Motyl",
+        "Mrówka",
+        "Komar",
+        "Biedronka"
+      ],
+      "correctIndex": 1
+    },
+    {
       "id": "tb_pl_115",
       "difficulty": "hard",
-      "category": "Historia",
-      "question": "Kto namalował Mona Lisę?",
+      "category": "Zwierzęta",
+      "question": "Jaki jest jedyny ssak zdolny do prawdziwego lotu?",
       "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
+        "Latająca wiewiórka",
+        "Nietoperz",
+        "Szybowiec cukrowy",
+        "Lemur"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_116",
       "difficulty": "hard",
-      "category": "Kultura",
-      "question": "Który zespół śpiewał Dancing Queen?",
+      "category": "Zwierzęta",
+      "question": "Które zwierzę nazywane jest także statkiem pustyni?",
       "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
+        "Wielbłąd",
+        "Osioł",
+        "Koń",
+        "Jak"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_pl_117",
       "difficulty": "hard",
-      "category": "Sport",
-      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
+      "category": "Zwierzęta",
+      "question": "Jaki jest największy gatunek rekina?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "Wielki biały rekin",
+        "Rekin wielorybi",
+        "Rekin młot",
+        "Rekin tygrysi"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_pl_118",
       "difficulty": "hard",
-      "category": "Jedzenie",
-      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
+      "category": "Zwierzęta",
+      "question": "Który ptak szczególnie dobrze naśladuje ludzką mowę?",
       "options": [
-        "Pierogi ruskie",
-        "Sushi",
-        "Ramen",
-        "Tiramisu"
+        "Papuga",
+        "Pingwin",
+        "Flaming",
+        "Wróbel"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_pl_119",
       "difficulty": "hard",
-      "category": "Kultura",
-      "question": "Który język zapisuje się alfabetem hangul?",
+      "category": "Zwierzęta",
+      "question": "Jak nazywa się nauka o ptakach?",
       "options": [
-        "Japoński",
-        "Koreański",
-        "Polski",
-        "Szwedzki"
+        "Entomologia",
+        "Ornitologia",
+        "Ichtiologia",
+        "Herpetologia"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_120",
       "difficulty": "hard",
-      "category": "Nauka",
-      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
+      "category": "Zwierzęta",
+      "question": "Które zwierzę ma odciski palców bardzo podobne do ludzkich?",
       "options": [
-        "Tlen",
-        "Dwutlenek węgla",
-        "Azot",
-        "Wodór"
+        "Koala",
+        "Kangur",
+        "Panda",
+        "Lenistwo"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_pl_121",
-      "difficulty": "hard",
-      "category": "Nauka",
-      "question": "Która planeta jest znana jako Czerwona Planeta?",
+      "difficulty": "easy",
+      "category": "Matematyka",
+      "question": "Ile jest 9 razy 9?",
       "options": [
-        "Wenus",
-        "Mars",
-        "Jowisz",
-        "Saturn"
+        "72",
+        "81",
+        "90",
+        "99"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_122",
-      "difficulty": "hard",
-      "category": "Nauka",
-      "question": "Jak potocznie nazywa się H2O?",
+      "difficulty": "easy",
+      "category": "Matematyka",
+      "question": "Ile boków ma trójkąt?",
       "options": [
-        "Sól",
-        "Woda",
-        "Tlen",
-        "Cukier"
+        "2",
+        "3",
+        "4",
+        "5"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_pl_123",
-      "difficulty": "hard",
-      "category": "Geografia",
-      "question": "Który ocean jest największy?",
+      "difficulty": "easy",
+      "category": "Matematyka",
+      "question": "Co to jest połowa liczby 100?",
       "options": [
-        "Atlantycki",
-        "Indyjski",
-        "Spokojny",
-        "Arktyczny"
+        "25",
+        "40",
+        "50",
+        "75"
       ],
       "correctIndex": 2
     },
     {
       "id": "tb_pl_124",
-      "difficulty": "hard",
-      "category": "Geografia",
-      "question": "W jakim kraju leży Tokio?",
+      "difficulty": "easy",
+      "category": "Matematyka",
+      "question": "Ile jest 12 plus 15?",
       "options": [
-        "Japonia",
-        "Chiny",
-        "Korea",
-        "Tajlandia"
+        "25",
+        "27",
+        "29",
+        "31"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_pl_125",
-      "difficulty": "hard",
-      "category": "Historia",
-      "question": "Kto namalował Mona Lisę?",
+      "difficulty": "easy",
+      "category": "Matematyka",
+      "question": "Ile minut ma jedna godzina?",
       "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
+        "30",
+        "45",
+        "60",
+        "90"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "tb_pl_126",
-      "difficulty": "hard",
-      "category": "Kultura",
-      "question": "Który zespół śpiewał Dancing Queen?",
+      "difficulty": "easy",
+      "category": "Matematyka",
+      "question": "Ile wynosi 7 do kwadratu?",
       "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
+        "14",
+        "21",
+        "49",
+        "77"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_127",
+      "difficulty": "easy",
+      "category": "Matematyka",
+      "question": "Ile stopni ma kąt prosty?",
+      "options": [
+        "45",
+        "60",
+        "90",
+        "180"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_128",
+      "difficulty": "medium",
+      "category": "Matematyka",
+      "question": "Jaka jest wartość pi zaokrąglona do dwóch miejsc po przecinku?",
+      "options": [
+        "3.12",
+        "3.14",
+        "3.16",
+        "3.18"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_pl_127",
-      "difficulty": "hard",
-      "category": "Sport",
-      "question": "Ilu graczy jednej drużyny jest na boisku w piłce nożnej?",
+      "id": "tb_pl_129",
+      "difficulty": "medium",
+      "category": "Matematyka",
+      "question": "Ile wynosi 15 procent z 200?",
+      "options": [
+        "15",
+        "20",
+        "30",
+        "40"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_130",
+      "difficulty": "medium",
+      "category": "Matematyka",
+      "question": "Ile boków ma sześciokąt?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_131",
+      "difficulty": "medium",
+      "category": "Matematyka",
+      "question": "Jaki jest pierwiastek kwadratowy z 144?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_132",
+      "difficulty": "medium",
+      "category": "Matematyka",
+      "question": "Co to jest 3 do sześcianu?",
+      "options": [
+        "9",
+        "18",
+        "27",
+        "81"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_133",
+      "difficulty": "medium",
+      "category": "Matematyka",
+      "question": "Jaka jest następna liczba pierwsza po 7?",
       "options": [
         "9",
         "10",
@@ -1655,80 +1733,1393 @@
       "correctIndex": 2
     },
     {
-      "id": "tb_pl_128",
-      "difficulty": "hard",
-      "category": "Jedzenie",
-      "question": "Które polskie pierogi często mają ziemniaki lub ser?",
+      "id": "tb_pl_134",
+      "difficulty": "medium",
+      "category": "Matematyka",
+      "question": "Ile centymetrów mieści się w jednym metrze?",
       "options": [
-        "Pierogi ruskie",
-        "Sushi",
-        "Ramen",
-        "Tiramisu"
+        "10",
+        "100",
+        "1000",
+        "10000"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_135",
+      "difficulty": "hard",
+      "category": "Matematyka",
+      "question": "Jaka jest suma kątów wewnętrznych trójkąta?",
+      "options": [
+        "90 stopni",
+        "180 stopni",
+        "270 stopni",
+        "360 stopni"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_136",
+      "difficulty": "hard",
+      "category": "Matematyka",
+      "question": "Ile wynosi 2 do potęgi 10?",
+      "options": [
+        "512",
+        "1024",
+        "2048",
+        "4096"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_137",
+      "difficulty": "hard",
+      "category": "Matematyka",
+      "question": "Jaka jest najmniejsza liczba pierwsza?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_138",
+      "difficulty": "hard",
+      "category": "Matematyka",
+      "question": "Co to jest 1 podzielone przez 4 w postaci ułamka dziesiętnego?",
+      "options": [
+        "0.2",
+        "0.25",
+        "0.4",
+        "0.5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_139",
+      "difficulty": "hard",
+      "category": "Matematyka",
+      "question": "Ile ścian ma sześcian?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_140",
+      "difficulty": "hard",
+      "category": "Matematyka",
+      "question": "Jaka jest cyfra rzymska oznaczająca 50?",
+      "options": [
+        "L",
+        "C",
+        "D",
+        "M"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_pl_129",
-      "difficulty": "hard",
-      "category": "Kultura",
-      "question": "Który język zapisuje się alfabetem hangul?",
-      "options": [
-        "Japoński",
-        "Koreański",
-        "Polski",
-        "Szwedzki"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_pl_130",
-      "difficulty": "hard",
-      "category": "Nauka",
-      "question": "Jaki gaz rośliny pochłaniają podczas fotosyntezy?",
-      "options": [
-        "Tlen",
-        "Dwutlenek węgla",
-        "Azot",
-        "Wodór"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_pl_131",
+      "id": "tb_pl_141",
       "difficulty": "easy",
-      "category": "Internet",
+      "category": "Muzyka",
+      "question": "Ile strun ma zwykle standardowa gitara?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_142",
+      "difficulty": "easy",
+      "category": "Muzyka",
+      "question": "Który instrument ma czarno-białe klawisze?",
+      "options": [
+        "Gitara",
+        "Fortepian",
+        "Skrzypce",
+        "Bęben"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_143",
+      "difficulty": "easy",
+      "category": "Muzyka",
+      "question": "Kto jest nazywany królem popu?",
+      "options": [
+        "Elvisa Presleya",
+        "Michaela Jacksona",
+        "Książę",
+        "Steviego Wondera"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_144",
+      "difficulty": "easy",
+      "category": "Muzyka",
+      "question": "Jak nazywa się grupa śpiewaków?",
+      "options": [
+        "Chór",
+        "Bandaż",
+        "Obsada",
+        "Załoga"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_145",
+      "difficulty": "easy",
+      "category": "Muzyka",
+      "question": "Na jakim instrumencie gra się za pomocą smyczka?",
+      "options": [
+        "Trąbka",
+        "Skrzypce",
+        "Fortepian",
+        "Flet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_146",
+      "difficulty": "easy",
+      "category": "Muzyka",
+      "question": "Jak nazywa się prędkość muzyki?",
+      "options": [
+        "Tempo",
+        "Skok",
+        "Harmonia",
+        "Rytm"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_147",
+      "difficulty": "easy",
+      "category": "Muzyka",
+      "question": "Który format muzyczny dla wielu słuchaczy był wcześniejszy niż płyty CD?",
+      "options": [
+        "Kaseta",
+        "Blu-ray",
+        "Podcast",
+        "Książka elektroniczna"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_148",
+      "difficulty": "medium",
+      "category": "Muzyka",
+      "question": "Który kompozytor napisał Sonatę księżycową?",
+      "options": [
+        "Mozarta",
+        "Beethovena",
+        "Bacha",
+        "Chopina"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_149",
+      "difficulty": "medium",
+      "category": "Muzyka",
+      "question": "Ile nut jest w standardowej skali durowej?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_150",
+      "difficulty": "medium",
+      "category": "Muzyka",
+      "question": "W którym zespole wokalistą był Freddie Mercury?",
+      "options": [
+        "Królowa",
+        "U2",
+        "Nirwana",
+        "Oaza"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_151",
+      "difficulty": "medium",
+      "category": "Muzyka",
+      "question": "Co reprezentuje DJ?",
+      "options": [
+        "Disc jockey",
+        "Sędzia tańca",
+        "Cyfrowy dżem",
+        "Skoczek perkusyjny"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_152",
+      "difficulty": "medium",
+      "category": "Muzyka",
+      "question": "Na jakim instrumencie gra Yo-Yo Ma?",
+      "options": [
+        "Wiolonczela",
+        "Skrzypce",
+        "Fortepian",
+        "Klarnet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_153",
+      "difficulty": "medium",
+      "category": "Muzyka",
+      "question": "Co to jest duet?",
+      "options": [
+        "Piosenka dla dwóch wykonawców",
+        "Szybkie uderzenie perkusji",
+        "Nagroda muzyczna",
+        "Światło sceniczne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_154",
+      "difficulty": "medium",
+      "category": "Muzyka",
+      "question": "Który gatunek często kojarzy się z improwizacją i swingiem?",
+      "options": [
+        "Jazz",
+        "Metalowe",
+        "Opery",
+        "Reggae"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_155",
+      "difficulty": "hard",
+      "category": "Muzyka",
+      "question": "Który kompozytor epoki klasycznej napisał Cztery pory roku?",
+      "options": [
+        "Vivaldiego",
+        "Handel",
+        "Haydna",
+        "Schuberta"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_156",
+      "difficulty": "hard",
+      "category": "Muzyka",
+      "question": "Jaki jest najniższy standardowy głos śpiewający dla mężczyzn?",
+      "options": [
+        "Tenor",
+        "Baryton",
+        "Bas",
+        "Alto"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_157",
+      "difficulty": "hard",
+      "category": "Muzyka",
+      "question": "Która nuta jest półtonem powyżej C?",
+      "options": [
+        "B",
+        "Cis",
+        "D",
+        "Mieszkanie E"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_158",
+      "difficulty": "hard",
+      "category": "Muzyka",
+      "question": "Jak nazywa się stopniowe zwiększanie głośności?",
+      "options": [
+        "Crescendo",
+        "Diminuendo",
+        "Legato",
+        "Staccato"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_159",
+      "difficulty": "hard",
+      "category": "Muzyka",
+      "question": "Które miasto jest silnie kojarzone z narodzinami jazzu?",
+      "options": [
+        "Nowy Orlean",
+        "Seattle",
+        "Nashville",
+        "Detroit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_160",
+      "difficulty": "hard",
+      "category": "Muzyka",
+      "question": "Jak nazywa się symbol umieszczony na początku pięciolinii muzycznej?",
+      "options": [
+        "klucz wiolinowy",
+        "Martwić się",
+        "Most",
+        "Zawór"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_161",
+      "difficulty": "easy",
+      "category": "Sztuka",
+      "question": "Kto namalował Mona Lisę?",
+      "options": [
+        "Vincenta van Gogha",
+        "Leonarda da Vinci",
+        "Pabla Picassa",
+        "Claude'a Moneta"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_162",
+      "difficulty": "easy",
+      "category": "Sztuka",
+      "question": "Jaki kolor otrzymasz mieszając czerwień i błękit?",
+      "options": [
+        "Zielony",
+        "Fioletowy",
+        "Pomarańczowy",
+        "Brązowy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_163",
+      "difficulty": "easy",
+      "category": "Sztuka",
+      "question": "Jakiego narzędzia używa się do nakładania farby na płótno?",
+      "options": [
+        "Młotek",
+        "Pędzel",
+        "Kompas",
+        "Igła"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_164",
+      "difficulty": "easy",
+      "category": "Sztuka",
+      "question": "Czym jest rzeźba zazwyczaj trójwymiarowa?",
+      "options": [
+        "Tak",
+        "Nie",
+        "Tylko na zdjęciach",
+        "Tylko na papierze"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_165",
+      "difficulty": "easy",
+      "category": "Sztuka",
+      "question": "W którym muzeum znajduje się Mona Lisa?",
+      "options": [
+        "Luwr",
+        "Prado",
+        "Tate Modern",
+        "Uffizi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_166",
+      "difficulty": "easy",
+      "category": "Sztuka",
+      "question": "Jak nazywa się sztuka składania papieru?",
+      "options": [
+        "origami",
+        "Kaligrafia",
+        "Mozaika",
+        "Graffiti"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_167",
+      "difficulty": "easy",
+      "category": "Sztuka",
+      "question": "Jaki kolor powstaje przez zmieszanie koloru czerwonego i żółtego?",
+      "options": [
+        "Niebieski",
+        "Pomarańczowy",
+        "Fioletowy",
+        "Biały"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_168",
+      "difficulty": "medium",
+      "category": "Sztuka",
+      "question": "Kto namalował „Gwiaździstą noc”?",
+      "options": [
+        "Pabla Picassa",
+        "Vincenta van Gogha",
+        "Salvadora Dali",
+        "Rembrandta"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_169",
+      "difficulty": "medium",
+      "category": "Sztuka",
+      "question": "Który artysta słynie z topienia zegarów?",
+      "options": [
+        "Salvadora Dali",
+        "Frida Kahlo",
+        "Andy’ego Warhola",
+        "Banksy'ego"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_170",
+      "difficulty": "medium",
+      "category": "Sztuka",
+      "question": "Co to jest kaligrafia?",
+      "options": [
+        "Dekoracyjne pismo",
+        "Rzeźba w kamieniu",
+        "Malowanie ścian",
+        "Edycja zdjęć"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_171",
+      "difficulty": "medium",
+      "category": "Sztuka",
+      "question": "Z jakim kierunkiem artystycznym związany jest Claude Monet?",
+      "options": [
+        "Kubizm",
+        "Impresjonizm",
+        "Surrealizm",
+        "Pop-art"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_172",
+      "difficulty": "medium",
+      "category": "Sztuka",
+      "question": "Co to jest autoportret?",
+      "options": [
+        "Zdjęcie artysty autorstwa artysty",
+        "Krajobraz",
+        "Zdjęcie grupowe",
+        "Podstawa rzeźby"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_173",
+      "difficulty": "medium",
+      "category": "Sztuka",
+      "question": "Który materiał jest często używany w ceramice?",
+      "options": [
+        "Glina",
+        "Tylko szkło",
+        "Guma",
+        "Papier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_174",
+      "difficulty": "medium",
+      "category": "Sztuka",
+      "question": "Jaki jest główny kolor w monochromatycznej grafice?",
+      "options": [
+        "Jeden kolor",
+        "Dwa kolory",
+        "Wszystkie kolory",
+        "Brak koloru"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_175",
+      "difficulty": "hard",
+      "category": "Sztuka",
+      "question": "Który artysta namalował Guernicę?",
+      "options": [
+        "Pabla Picassa",
+        "Henryk Matisse",
+        "Paula Cezanne’a",
+        "Edwarda Muncha"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_176",
+      "difficulty": "hard",
+      "category": "Sztuka",
+      "question": "Które włoskie miasto słynie ze sztuki renesansowej i Galerii Uffizi?",
+      "options": [
+        "Florencja",
+        "Wenecja",
+        "Mediolan",
+        "Neapol"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_177",
+      "difficulty": "hard",
+      "category": "Sztuka",
+      "question": "Na czym maluje się freski?",
+      "options": [
+        "Mokry tynk",
+        "Szkło",
+        "Metalowe",
+        "Jedwab"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_178",
+      "difficulty": "hard",
+      "category": "Sztuka",
+      "question": "Który artysta stworzył Trwałość pamięci?",
+      "options": [
+        "Salvadora Dali",
+        "Joanna Miro",
+        "Rene Magritte’a",
+        "Jacksona Pollocka"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_179",
+      "difficulty": "hard",
+      "category": "Sztuka",
+      "question": "W której metodzie grafiki wykorzystuje się rzeźbiony blok?",
+      "options": [
+        "Drzeworyt",
+        "Akwarela",
+        "Kolaż",
+        "Aerograf"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_180",
+      "difficulty": "hard",
+      "category": "Sztuka",
+      "question": "O co chodzi w światłocieniu?",
+      "options": [
+        "Światło i cień",
+        "Dźwięk i rytm",
+        "Tylko kolor",
+        "Siatki perspektywiczne"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_181",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Ilu zawodników znajduje się na boisku jednej drużyny piłkarskiej?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_182",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "W jakim sporcie używa się rakiety i lotki?",
+      "options": [
+        "Tenis",
+        "Badminton",
+        "Squash",
+        "Tenis stołowy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_183",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Ile punktów w koszykówce wart jest rzut wolny?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_184",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Jaki sport jest uprawiany na Wimbledonie?",
+      "options": [
+        "Krykiet",
+        "Tenis",
+        "Golfa",
+        "Rugby"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_185",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Ile pierścieni znajduje się na fladze olimpijskiej?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_186",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "W jakim sporcie wykorzystuje się krążek?",
+      "options": [
+        "Hokej na lodzie",
+        "Baseball",
+        "Siatkówka",
+        "Boks"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_187",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Co biegacze pokonują w sztafecie?",
+      "options": [
+        "Piłka",
+        "Pałka",
+        "Flaga",
+        "Rękawiczka"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_188",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Tour de France to wyścig w jakim sporcie?",
+      "options": [
+        "Bieganie",
+        "Jazda na rowerze",
+        "Pływanie",
+        "Narciarstwo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_189",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Ilu graczy znajduje się na boisku w standardowej drużynie baseballowej?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_190",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Który kraj wygrał najwięcej Mistrzostw Świata FIFA w męskiej piłce nożnej?",
+      "options": [
+        "Niemcy",
+        "Argentyna",
+        "Brazylia",
+        "Włochy"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_pl_191",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Jaki wynik w tenisie następuje po dwójce?",
+      "options": [
+        "Zaleta",
+        "Miłość",
+        "Wartość zadana",
+        "Przerwa"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_192",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "W jakim sporcie występuje koń z łękami?",
+      "options": [
+        "Gimnastyka",
+        "Jeździectwo",
+        "Polo",
+        "Szermierka"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_193",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Czym jest hat-trick w piłce nożnej?",
+      "options": [
+        "Trzy bramki jednego zawodnika",
+        "Trzy żółte kartki",
+        "Trzy zmiany",
+        "Trzy rogi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_194",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Który sport jest kojarzony z Pucharem Stanleya?",
+      "options": [
+        "Koszykówka",
+        "Hokej na lodzie",
+        "Baseball",
+        "Rugby"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_195",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Jak długi jest basen olimpijski?",
+      "options": [
+        "25 metrów",
+        "50 metrów",
+        "75 metrów",
+        "100 metrów"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_196",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Jak w golfie nazywa się jedno uderzenie poniżej wartości nominalnej?",
+      "options": [
+        "Strach",
+        "Ptaszek",
+        "Orzeł",
+        "Albatros"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_197",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Który kraj był gospodarzem pierwszych nowożytnych igrzysk olimpijskich w 1896 roku?",
+      "options": [
+        "Francja",
+        "Grecja",
+        "Wielka Brytania",
+        "Włochy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_198",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Jaki jest maksymalny break w snookerze?",
+      "options": [
+        "120",
+        "147",
+        "155",
+        "180"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_199",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "W jakim sporcie używa się określenia „miłość do zera”?",
+      "options": [
+        "Krykiet",
+        "Tenis",
+        "Boks",
+        "Golfa"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_200",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Co w boksie oznacza KO?",
+      "options": [
+        "Nokaut",
+        "Wykop",
+        "Zachowaj otwarte",
+        "Kolejność golonków"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_201",
+      "difficulty": "easy",
+      "category": "Technologia",
+      "question": "Co oznacza CPU?",
+      "options": [
+        "Centralna Jednostka Przetwarzająca",
+        "Zasilacz komputera",
+        "Narzędzie programu centralnego",
+        "Podstawowy użytkownik przetwarzający"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_202",
+      "difficulty": "easy",
+      "category": "Technologia",
+      "question": "Jakie urządzenie służy do przesuwania kursora na komputerze?",
+      "options": [
+        "Mysz",
+        "Głośnik",
+        "Drukarka",
+        "Routera"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_203",
+      "difficulty": "easy",
+      "category": "Technologia",
+      "question": "Z czym Wi-Fi umożliwia łączenie się urządzeń?",
+      "options": [
+        "Woda",
+        "Sieci bezprzewodowe",
+        "Papier",
+        "Silniki elektryczne"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_204",
+      "difficulty": "easy",
+      "category": "Technologia",
+      "question": "Która firma produkuje iPhone'a?",
+      "options": [
+        "Samsunga",
+        "Jabłko",
+        "Sony",
+        "Nokia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_205",
+      "difficulty": "easy",
+      "category": "Technologia",
+      "question": "Do czego służy hasło?",
+      "options": [
+        "Bezpieczeństwo",
+        "Drukowanie",
+        "Ładowanie",
+        "Chłodzenie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_206",
+      "difficulty": "easy",
+      "category": "Technologia",
+      "question": "Co najczęściej łączy USB?",
+      "options": [
+        "Urządzenia i komputery",
+        "Buty i skarpetki",
+        "Książki i strony",
+        "Rośliny i gleba"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_207",
+      "difficulty": "easy",
+      "category": "Technologia",
+      "question": "Co oznacza skrót od aplikacji?",
+      "options": [
+        "Zastosowanie",
+        "Spotkanie",
+        "Zatwierdzenie",
+        "Dodatek"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_208",
+      "difficulty": "medium",
+      "category": "Technologia",
+      "question": "Co oznacza URL?",
+      "options": [
+        "Jednolity lokalizator zasobów",
+        "Uniwersalna linia odczytu",
+        "Link do środowiska wykonawczego użytkownika",
+        "Ujednolicona lista rekordów"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_209",
+      "difficulty": "medium",
+      "category": "Technologia",
+      "question": "Jakie jest główne zadanie routera?",
+      "options": [
+        "Przechowuj zdjęcia",
+        "Bezpośredni ruch sieciowy",
+        "Drukuj dokumenty",
+        "Skanuj tylko wirusy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_210",
+      "difficulty": "medium",
+      "category": "Technologia",
+      "question": "Jaki typ pliku jest powszechnie używany w przypadku obrazów?",
+      "options": [
+        "JPEG",
+        "MP3",
+        "DOCX",
+        "EXE"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_211",
+      "difficulty": "medium",
+      "category": "Technologia",
+      "question": "Co oznacza RAM?",
+      "options": [
+        "Pamięć o dostępie swobodnym",
+        "Moduł szybkiego działania",
+        "Przeczytaj wszystkie media",
+        "Czas działania Autryb radia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_212",
+      "difficulty": "medium",
+      "category": "Technologia",
+      "question": "Do czego służy przechowywanie w chmurze?",
+      "options": [
+        "Zapisywanie plików online",
+        "Czyszczenie ekranów",
+        "Chłodzenie laptopów",
+        "Ładowanie telefonów"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_213",
+      "difficulty": "medium",
+      "category": "Technologia",
+      "question": "Co pomaga ustalić GPS?",
+      "options": [
+        "Lokalizacja",
+        "Żywotność baterii",
+        "Rozmiar ekranu",
+        "Siła hasła"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_214",
+      "difficulty": "medium",
+      "category": "Technologia",
+      "question": "Jaka technologia jest wykorzystywana do płatności zbliżeniowych?",
+      "options": [
+        "NFC",
+        "VHS",
+        "CRT",
+        "DVD"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_215",
+      "difficulty": "hard",
+      "category": "Technologia",
+      "question": "Co oznacza HTML?",
+      "options": [
+        "Język znaczników HyperText",
+        "Logika maszyny o wysokim transferze",
+        "Link do znaczników narzędzi domowych",
+        "Lista główna tekstu hiperłącza"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_216",
+      "difficulty": "hard",
+      "category": "Technologia",
+      "question": "Co ma ulepszyć uwierzytelnianie dwuskładnikowe?",
+      "options": [
+        "Jasność ekranu",
+        "Bezpieczeństwo konta",
+        "Prędkość pobierania",
+        "Aujakość dźwięku"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_217",
+      "difficulty": "hard",
+      "category": "Technologia",
+      "question": "Który system liczbowy wykorzystuje tylko 0 i 1?",
+      "options": [
+        "Dziesiętny",
+        "Binarny",
+        "Szesnastkowy",
+        "Roman"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_218",
+      "difficulty": "hard",
+      "category": "Technologia",
+      "question": "Co oznacza API?",
+      "options": [
+        "Interfejs programowania aplikacji",
+        "AuIndeks programów tematycznych",
+        "Zastosowane wprowadzanie pikseli",
+        "Zaawansowany proces internetowy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_219",
+      "difficulty": "hard",
+      "category": "Technologia",
+      "question": "Co oznacza SSD?",
+      "options": [
+        "Dysk półprzewodnikowy",
+        "Dysk systemowy",
+        "Inteligentne urządzenie programowe",
+        "Bezpieczny napęd sygnałowy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_220",
+      "difficulty": "hard",
+      "category": "Technologia",
+      "question": "Który protokół jest powszechnie używany do ładowania bezpiecznych stron internetowych?",
+      "options": [
+        "HTTP",
+        "HTTPS",
+        "FTP",
+        "SMTP"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_221",
+      "difficulty": "easy",
+      "category": "Internetu",
       "question": "Co zwykle oznacza DM?",
       "options": [
-        "Wiadomość prywatna",
-        "Codzienny mem",
-        "Tryb cyfrowy",
-        "Głębokie media"
+        "Bezpośrednia wiadomość",
+        "Mapa cyfrowa",
+        "Tryb dzienny",
+        "Pamięć danych"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_pl_132",
+      "id": "tb_pl_222",
       "difficulty": "easy",
-      "category": "Internet",
-      "question": "Która platforma słynie z krótkich pionowych filmów?",
+      "category": "Internetu",
+      "question": "Który symbol rozpoczyna hashtag?",
+      "options": [
+        "@",
+        "#",
+        "&",
+        "*"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_223",
+      "difficulty": "easy",
+      "category": "Internetu",
+      "question": "Co to jest selfie?",
+      "options": [
+        "Zdjęcie siebie",
+        "Hasło",
+        "Wynik wyszukiwania",
+        "Gra wideo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_224",
+      "difficulty": "easy",
+      "category": "Internetu",
+      "question": "Która platforma jest najbardziej znana z krótkich filmów w pionie?",
       "options": [
         "TikTok",
         "Wikipedia",
-        "Excel",
-        "Mapy"
+        "Dropbox",
+        "Luz"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_pl_133",
+      "id": "tb_pl_225",
       "difficulty": "easy",
-      "category": "Internet",
-      "question": "Do czego głównie służy screen?",
+      "category": "Internetu",
+      "question": "Co to jest emoji?",
       "options": [
-        "Zapisania obrazu ekranu",
-        "Zapisania hasła",
-        "Zapisania baterii",
-        "Zapisania dzwonka"
+        "Mała cyfrowa ikona",
+        "Przeglądarka internetowa",
+        "Format pliku",
+        "Rodzaj kabla"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_226",
+      "difficulty": "easy",
+      "category": "Internetu",
+      "question": "Co oznacza LOL zazwyczaj w Internecie?",
+      "options": [
+        "Dużo świateł",
+        "Śmiejąc się głośno",
+        "Lista linków",
+        "Mało szczęścia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_pl_227",
+      "difficulty": "easy",
+      "category": "Internetu",
+      "question": "Do czego służy zrzut ekranu?",
+      "options": [
+        "Co jest na ekranie",
+        "Ładowanie akumulatora",
+        "Rozmowa telefoniczna",
+        "Tylko hasło Wi-Fi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_228",
+      "difficulty": "medium",
+      "category": "Internetu",
+      "question": "Do czego służy clickbait?",
+      "options": [
+        "Kliknięcia",
+        "Spać",
+        "Dane pogodowe",
+        "Tylko hasła"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_229",
+      "difficulty": "medium",
+      "category": "Internetu",
+      "question": "Co oznacza URL w codziennym korzystaniu z Internetu?",
+      "options": [
+        "Adres internetowy",
+        "Plik muzyczny",
+        "Tryb aparatu",
+        "Bateria telefonu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_230",
+      "difficulty": "medium",
+      "category": "Internetu",
+      "question": "Co to jest mem?",
+      "options": [
+        "Żart lub pomysł, którym można się podzielić",
+        "Rodzaj klawiatury",
+        "Prywatne hasło",
+        "Serwer w chmurze"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_231",
+      "difficulty": "medium",
+      "category": "Internetu",
+      "question": "Co to jest phishing?",
+      "options": [
+        "Oszustwo mające na celu kradzież informacji",
+        "Sposób na edycję zdjęć",
+        "Gatunek muzyczny",
+        "Filtr wideo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_232",
+      "difficulty": "medium",
+      "category": "Internetu",
+      "question": "Co oznacza transmisja na żywo?",
+      "options": [
+        "Transmisja w czasie rzeczywistym",
+        "Zapisywanie pliku",
+        "Pisanie kodu offline",
+        "Drukowanie zdjęć"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_233",
+      "difficulty": "medium",
+      "category": "Internetu",
+      "question": "Co to jest nazwa użytkownika?",
+      "options": [
+        "Nazwa konta publicznego",
+        "Wirus komputerowy",
+        "Kabel ekranowy",
+        "Karta płatnicza"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_234",
+      "difficulty": "medium",
+      "category": "Internetu",
+      "question": "Do czego służy przeglądarka?",
+      "options": [
+        "Dostęp do stron internetowych",
+        "Miksowanie muzyki",
+        "Urządzenia ładujące",
+        "Rysowanie map"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_235",
+      "difficulty": "hard",
+      "category": "Internetu",
+      "question": "Co oznacza SEO?",
+      "options": [
+        "Optymalizacja wyszukiwarek",
+        "Bezpieczne wysyłanie wiadomości e-mail",
+        "Opcja edycji społecznościowej",
+        "Kolejność wejścia do systemu"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_236",
+      "difficulty": "hard",
+      "category": "Internetu",
+      "question": "Co to jest plik cookie podczas przeglądania stron internetowych?",
+      "options": [
+        "Przechowywane dane witryny",
+        "Skrót klawiaturowy",
+        "Filtr fotograficzny",
+        "Reakcja na czacie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_237",
+      "difficulty": "hard",
+      "category": "Internetu",
+      "question": "Co oznacza HTTP?",
+      "options": [
+        "Protokół przesyłania hipertekstu",
+        "Zaawansowany program tekstowy",
+        "Port narzędzia do przenoszenia w domu",
+        "Strona śledzenia hiperłączy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_238",
+      "difficulty": "hard",
+      "category": "Internetu",
+      "question": "Co oznacza VPN?",
+      "options": [
+        "Wirtualna sieć prywatna",
+        "Zweryfikowana nazwa publiczna",
+        "Wizualny numer strony",
+        "Węzeł przetwarzania wideo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_239",
+      "difficulty": "hard",
+      "category": "Internetu",
+      "question": "Jak powszechnie nazywa się dwukierunkową komunikację wideo?",
+      "options": [
+        "Rozmowa wideo",
+        "Zrzut ekranu",
+        "Zakładka",
+        "Captcha"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_pl_240",
+      "difficulty": "hard",
+      "category": "Internetu",
+      "question": "Do czego głównie służy captcha?",
+      "options": [
+        "Boty",
+        "Kolory",
+        "Rozmiar ekranu",
+        "Poziom baterii"
       ],
       "correctIndex": 0
     }

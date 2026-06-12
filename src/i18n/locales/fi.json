@@ -1,0 +1,587 @@
+{
+  "app": {
+    "name": "Who's the Imposter?"
+  },
+  "onboarding": {
+    "language": {
+      "title": "Valitse kieli",
+      "continue": "Jatka"
+    },
+    "welcome": {
+      "headline": "Kuka ryhmässäsi valehtelee?",
+      "benefit1": "12+ juhlapeliä",
+      "benefit2": "Internetiä ei tarvita",
+      "benefit3": "3-15 pelaajaa",
+      "continue": "Mennään →"
+    },
+    "howToPlay": {
+      "title": "Kuinka pelata",
+      "step1_title": "Anna puhelin kiertää",
+      "step1_desc": "Jokainen pelaaja napauttaa nimeään yksityisesti",
+      "step2_title": "Opi sanasi",
+      "step2_desc": "Kaikki näkevät saman sanan – paitsi imposter",
+      "step3_title": "Etsi valehtelija",
+      "step3_desc": "Anna vihjeitä, äänestä ja ota imposter kiinni!"
+    },
+    "showcase": {
+      "title": "12+ juhlapeliä",
+      "cta": "Pelataan!",
+      "more": "Ja {{count}} muuta peliä..."
+    },
+    "personalize": {
+      "title": "Tee siitä omasi",
+      "subtitle": "Mukauta peli-iltasi",
+      "feature1_title": "Pelaajien avatarit",
+      "feature1_desc": "Anna jokaiselle pelaajalle hauska emoji-identiteetti",
+      "feature2_title": "Mukautetut teemat",
+      "feature2_desc": "5 teemaa + oma korostusvärisi",
+      "feature3_title": "Pika-esiasetukset",
+      "feature3_desc": "Tallenna porukkasi, aloita sekunneissa",
+      "continue": "Jatka →"
+    },
+    "notifications": {
+      "title": "Älä koskaan missaa peli-iltaa",
+      "subtitle": "Hanki muistutuksia ja eksklusiivisia tarjouksia",
+      "benefit1": "Ainutlaatuiset alennustarjoukset juuri sinulle",
+      "benefit2": "Peli-iltamuistutukset milloin haluat",
+      "enable": "Ota ilmoitukset käyttöön",
+      "skip": "Ehkä myöhemmin",
+      "discount_title": "🎉 Ainutlaatuinen tarjous juuri sinulle!",
+      "discount_body": "50 % alennuksesi vanhenee 48 tunnin kuluttua. Napauta lunastaaksesi!"
+    }
+  },
+  "home": {
+    "title": "Juhlapelit",
+    "quickResume": "Jatka viimeistä peliä →",
+    "favorite": "Lisää suosikkeihin",
+    "unfavorite": "Poista suosikeista"
+  },
+  "presets": {
+    "sectionTitle": "Tallennetut esiasetukset",
+    "saveButton": "Tallenna esiasetuksena",
+    "saveTitle": "Nimeä esiasetus",
+    "playerCount": "{{count}} pelaajaa",
+    "players": "pelaajia",
+    "maxReached": "Enintään 10 esiasetusta"
+  },
+  "emojiPicker": {
+    "title": "Valitse avatar",
+    "people": "Ihmiset",
+    "animals": "Eläimet",
+    "food": "Ruokaa",
+    "objects": "Objektit",
+    "symbols": "Symbolit",
+    "reset": "Palauta nimikirjaimet"
+  },
+  "customTheme": {
+    "label": "Mukautettu",
+    "customPlus": "Mukautettu +",
+    "pickBase": "Perusteema",
+    "pickAccent": "Aksenttiväri",
+    "apply": "Käytä"
+  },
+  "setup": {
+    "players": "Pelaajat",
+    "addPlayer": "Lisää pelaajan nimi",
+    "addPlayerCta": "Lisää",
+    "minPlayersWarning": "Tarvitset vähintään {{count}} pelaajaa",
+    "maxPlayersWarning": "Enintään {{count}} pelaajaa",
+    "duplicateName": "Se nimi on jo otettu",
+    "categories": "Luokat",
+    "selectAll": "Kaikki",
+    "mode": "Pelitila",
+    "advanced": "Lisäasetukset",
+    "imposters": "Imposterit",
+    "timer": "Ajastin per pelaaja",
+    "timerOff": "Pois päältä",
+    "rounds": "Kierrokset",
+    "sound": "Äänitehosteet",
+    "haptics": "Haptinen palaute",
+    "startGame": "Aloita peli",
+    "emptyName": "Nimi ei voi olla tyhjä",
+    "words": "{{count}} sanaa",
+    "noCategoriesWarning": "Valitse vähintään 1 luokka"
+  },
+  "reveal": {
+    "instruction": "Pidä kiinni – älä näytä kenellekään",
+    "holdToReveal": "Pidä kiinni paljastaaksesi",
+    "crew_subtitle": "Anna YKSI vihje. Älä anna sitä pois.",
+    "imposter_line1": "SINÄ OLET",
+    "imposter_line2": "IMPOSTER!",
+    "imposter_subtitle": "Sekoita joukkoon. Et tiedä sanaa.",
+    "next": "Seuraava pelaaja →",
+    "autoBlur": "Napauta piilottaaksesi",
+    "yourWord": "SANASI"
+  },
+  "play": {
+    "round": "Kierros {{number}}",
+    "category": "Luokka",
+    "clueGiven": "Vihje annettu",
+    "startVoting": "Aloita äänestäminen"
+  },
+  "vote": {
+    "title": "Kuka on imposter?",
+    "subtitle": "Jokainen pelaaja äänestää kerran. Et voi äänestää itseäsi.",
+    "reveal": "Paljasta äänet",
+    "waiting": "Kaikkia ääniä odotellessa..."
+  },
+  "result": {
+    "caught": "JÄI KIINNI!",
+    "escaped": "PÄÄSI PAKOON!",
+    "imposterWas": "IMPOSTER OLI",
+    "imposterIs": "IMPOSTER ON",
+    "secretWord": "Salainen sana oli:",
+    "guessPrompt": "Osaako {{name}} arvata salaisen sanan?",
+    "guessYes": "Kyllä - he arvasivat sen!",
+    "guessNo": "Ei – he epäonnistuivat",
+    "crewWins": "Miehistö voittaa! 🎉",
+    "imposterWins": "Imposter voittaa! 🕵️",
+    "tie": "Tasapeli!",
+    "playAgain": "Pelaa uudelleen",
+    "newGame": "Uusi peli",
+    "share": "Jaa tulos"
+  },
+  "giftBox": {
+    "accessibilityLabel": "Erikoistarjous – napauta saadaksesi alennuksen"
+  },
+  "paywall": {
+    "title": "Who's the Imposter? PRO",
+    "benefit1": "Kaikki 20 kategoriaa",
+    "benefit2": "2 impostern tila",
+    "benefit3": "Kaikki 12 juhlapeliä",
+    "benefit4": "Mukautetut sanaluettelot",
+    "benefit5": "Kokemus ilman mainoksia",
+    "monthly": "Kuukausittain",
+    "yearly": "Vuosittain",
+    "bestValue": "Paras arvo",
+    "savings": "Säästä {{percent}}%",
+    "cta": "Aloita {{days}} päivän ilmainen kokeilu",
+    "cancelAnytime": "Peru milloin tahansa",
+    "restore": "Palauta ostokset",
+    "privacy": "Tietosuojakäytäntö",
+    "terms": "Käyttöehdot",
+    "socialProof": "4,8 · 18 000 arviota",
+    "close": "Sulje",
+    "ratings": "arvosanat",
+    "monthlyPrice": "4,99 dollaria/kk",
+    "yearlyPrice": "2,49 dollaria/kk",
+    "savePct": "säästä 50 %",
+    "dailyLimitTitle": "Päivittäinen raja saavutettu",
+    "dailyLimitSubtitle": "Olet pelannut 5 ilmaista peliä tänään. Päivitä PRO:ksi, niin voit pelata rajattomasti!",
+    "ctaNoTrial": "Hanki PRO nyt",
+    "headline": "Juhlanne ansaitsevat parempaa.",
+    "subheadline": "Kaikki pelit. Ei rajoja. Vain hauskaa.",
+    "noPaymentToday": "Ei maksua tänään · Peru milloin tahansa",
+    "yearlyBilled": "Laskutetaan {{price}}/vuosi",
+    "perMonth": "/kk",
+    "perYear": "/v",
+    "freeTrial": "{{days}} päivän ilmainen kokeilu",
+    "heroTag": "🎭 PRO"
+  },
+  "rating": {
+    "title": "Nautitko pelistä?",
+    "subtitle": "5 tähden luokitus auttaa meitä paljon!",
+    "cta": "Arvioi nyt ⭐",
+    "later": "Ehkä myöhemmin",
+    "no": "Ei kiitos",
+    "headline": "Nautitko pelistä?",
+    "subtext": "Arviosi auttaa meitä luomaan lisää pelejä!",
+    "rateNow": "Arvioi nyt",
+    "noThanks": "Ei kiitos",
+    "thanks": "Kiitos paljon! 🙏"
+  },
+  "settings": {
+    "title": "Asetukset",
+    "theme": "Teema",
+    "themeDark": "Tumma",
+    "themeLight": "Vaalea",
+    "themeNeon": "Neon",
+    "themeNeonLocked": "Neon (PRO)",
+    "themeCandy": "Karkki",
+    "language": "Kieli",
+    "sound": "Äänitehosteet",
+    "haptics": "Haptinen palaute",
+    "upgrade": "Päivitä PRO:ksi",
+    "restore": "Palauta ostokset",
+    "rate": "Arvioi sovellus",
+    "privacy": "Tietosuojakäytäntö",
+    "terms": "Käyttöehdot",
+    "version": "Versio {{version}}",
+    "stats": "Tilastot ja saavutukset",
+    "themeEmber": "Ember",
+    "themeParty": "Juhla",
+    "themeSunset": "Auringonlasku",
+    "themeGolden": "Kultainen",
+    "themeAurora": "Aurora",
+    "themeCustom": "Mukautettu"
+  },
+  "scoreboard": {
+    "title": "Istunnon tulostaulu",
+    "roundsPlayed_one": "{{count}} kierros pelattu",
+    "roundsPlayed_other": "{{count}} kierrosta pelattu",
+    "pts": "p.",
+    "delta": "+{{count}}",
+    "final": "Lopulliset pisteet"
+  },
+  "streak": {
+    "crewStreak": "🔥 Miehistö {{count}}-voittoputkessa!",
+    "imposterStreak": "🕵️ Imposter {{count}}-voittoputkessa!"
+  },
+  "achievements": {
+    "unlockedTitle": "Saavutus avattu!",
+    "first_blood": {
+      "title": "Ensimmäinen veri",
+      "desc": "Voita ensimmäinen kierroksesi miehistönä"
+    },
+    "ghost": {
+      "title": "Haamu",
+      "desc": "Voita imposterna 3 kertaa peräkkäin"
+    },
+    "mind_reader": {
+      "title": "Mielenlukija",
+      "desc": "Arvaa salasana kiinni jäämisen jälkeen"
+    },
+    "unanimous": {
+      "title": "Yksimielinen",
+      "desc": "Jokainen miehistön jäsen äänesti sinua"
+    },
+    "social_butterfly": {
+      "title": "Sosiaalinen perhonen",
+      "desc": "Pelaa yhteensä 10 peliä"
+    },
+    "sharp_eye": {
+      "title": "Terävä silmä",
+      "desc": "Äänestä impostera oikein 5 kertaa"
+    },
+    "survivor": {
+      "title": "Selviytyjä",
+      "desc": "Voita miehistönä 10 kertaa"
+    },
+    "master_disguise": {
+      "title": "Naamioitumisen mestari",
+      "desc": "Voita imposterna 5 kertaa"
+    },
+    "locked": "Lukittu"
+  },
+  "stats": {
+    "title": "Tilastot ja saavutukset",
+    "myStats": "Omat tilastot",
+    "achievements": "Saavutukset",
+    "noStats": "Pelejä ei ole vielä pelattu",
+    "gamesPlayed": "Pelit",
+    "wins": "Voittoja",
+    "timesImposter": "Imposterina",
+    "timesCaught": "Kiinni"
+  },
+  "categories": {
+    "food": "Ruoka ja juomat",
+    "animals": "Eläimet",
+    "sports": "Urheilu",
+    "jobs": "Ammatit",
+    "countries": "Maat",
+    "movies": "Elokuvat ja TV",
+    "music": "Musiikki",
+    "objects": "Objektit",
+    "nature": "Luonto",
+    "hobbies": "Harrastukset",
+    "famous": "Kuuluisia ihmisiä",
+    "brands": "Tuotemerkit",
+    "education": "Koulutus",
+    "technology": "Tekniikka",
+    "mythology": "Mytologia",
+    "spicy": "Mausteinen 🌶️",
+    "tv_series": "TV-sarja",
+    "social": "Sosiaalinen media",
+    "custom": "Oma muokattu luettelo",
+    "places": "Paikat ja maamerkit",
+    "vehicles": "Ajoneuvot & Kuljetus",
+    "science": "Tiede ja keksinnöt",
+    "superheroes": "Supersankarit ja sarjakuvat",
+    "video_games": "Videopelit",
+    "drinks": "Juomat & Cocktailit",
+    "disney": "Disney ja sadut",
+    "fashion": "Muoti & Luxury",
+    "olympics": "Olympialaiset ja Extreme Sports",
+    "scientists": "Kuuluisat Tiedemiehet",
+    "ancient": "Muinaiset sivilisaatiot",
+    "flowers": "Kukat & Kasvit",
+    "internet_culture": "Internet-kulttuuri",
+    "party_life": "Juhlaelämää"
+  },
+  "howToPlay": {
+    "title": "Kuinka pelata",
+    "close": "Selvä!"
+  },
+  "games": {
+    "imposter": {
+      "name": "Who's the Imposter?",
+      "description": "Yksi salainen sana. Yksi valehtelija. Etsi ne.",
+      "howToPlay": {
+        "intro": "Yksi pelaaja on salaa imposter – he eivät tiedä salaista sanaa. Saako miehistö hänet kiinni?",
+        "step1_title": "Kaikki näkevät sanan",
+        "step1_desc": "Vie puhelin ympäriinsä. Jokainen pelaaja napauttaa nimeään nähdäkseen sanan salaa – tai huomaa olevansa imposter.",
+        "step2_title": "Anna vihjeitä, huomaa valehtelija",
+        "step2_desc": "Anna vuorotellen yksi vihje salaisesta sanasta. Impostern täytyy bluffata. Kuuntele tarkkaan epämääräisten tai väärien vihjeiden varalta!",
+        "step3_title": "Äänestä & paljasta",
+        "step3_desc": "Kaikkien vihjeiden jälkeen äänestä sitä, kuka uskot impostern olevan. Ota heidät kiinni voittaaksesi – mutta varo, he voivat silti arvata sanan ja paeta!"
+      }
+    },
+    "truth_dare": {
+      "name": "Totuus tai rohkeus",
+      "description": "Vastaa rehellisesti tai uskalla.",
+      "howToPlay": {
+        "intro": "Vastaa rehelliseen kysymykseen tai suorita rohkea haaste. Kerrotko totuuden – vai uskallatko?",
+        "step1_title": "Valitse kohtalosi",
+        "step1_desc": "Valitse vuorollasi Totuus (vastaa kysymykseen rehellisesti) tai Haaste (suorita fyysinen tai sosiaalinen tehtävä).",
+        "step2_title": "Suorita tehtävä loppuun",
+        "step2_desc": "Sovellus näyttää satunnaisen totuuskysymyksen tai haastetehtävän. Ei perääntymistä – sinun on sitouduttava!",
+        "step3_title": "Anna se eteenpäin",
+        "step3_desc": "Kun olet valmis, anna puhelin seuraavalle pelaajalle. Jatka pelaamista niin kauan kuin haluat!"
+      }
+    },
+    "nhie": {
+      "name": "En ole koskaan",
+      "description": "Ota selvää, mitä ystäväsi ovat tehneet.",
+      "howToPlay": {
+        "intro": "Ota selvää, mitä ystäväsi ovat todella tehneet. Mitä kiusallisemmat tunnustukset, sitä parempi!",
+        "step1_title": "Aloita 5 sormella",
+        "step1_desc": "Jokainen pitää 5 sormea pystyssä. Laitat ne alas yksi kerrallaan.",
+        "step2_title": "Lue lausunto",
+        "step2_desc": "Sovellus näyttää \"En ole koskaan...\" -väitteen. Jos olet tehnyt sen, laske sormi alas ja tunnusta!",
+        "step3_title": "Viimeinen seisova voittaa",
+        "step3_desc": "Pelaaja, joka menettää kaikki sormet ensin, häviää kierroksen – ja hänen on jaettava villein tarinansa!"
+      }
+    },
+    "mlt": {
+      "name": "Todennäköisimmin",
+      "description": "Kuka ryhmästä todennäköisimmin...?",
+      "howToPlay": {
+        "intro": "Ota selvää, mitä ystäväsi todella ajattelevat sinusta. Valmistaudu pahimpaan!",
+        "step1_title": "Lue kysymys",
+        "step1_desc": "Sovellus näyttää \"Todennäköisimmin...\" -kysymyksen, kuten \"Todennäköisimmin tulee kuuluisaksi\".",
+        "step2_title": "Osoita yhdessä",
+        "step2_desc": "Kun lasketaan 3, jokainen osoittaa todennäköisimpänä pitämänsä henkilöä. Ei epäröintiä!",
+        "step3_title": "Laske äänet & jatka",
+        "step3_desc": "Henkilö, johon osoitettiin eniten, voittaa (tai häviää?) kierroksen. He voivat vastata ennen seuraavaa kysymystä!"
+      }
+    },
+    "hot_takes": {
+      "name": "Kuumat mielipiteet",
+      "description": "Samaa mieltä tai eri mieltä – keskustele asiasta.",
+      "howToPlay": {
+        "intro": "Jaa rohkeimmat mielipiteesi ja herätä keskustelua. Keskitie on kielletty!",
+        "step1_title": "Lue kuuma ote",
+        "step1_desc": "Sovellus paljastaa kiistanalaisen lausunnon tai mielipiteen, johon ryhmä voi reagoida.",
+        "step2_title": "Ota puolensa",
+        "step2_desc": "Jokainen pelaaja ilmoittaa, onko hän täysin samaa mieltä vai eri mieltä – ja hänen on puolustettava asemaansa!",
+        "step3_title": "Keskustele ja äänestä",
+        "step3_desc": "Äänestä keskustelun jälkeen parasta argumenttia. Vakuuttavin pelaaja voittaa kierroksen!"
+      }
+    },
+    "wyr": {
+      "name": "Haluaisitko mieluummin",
+      "description": "Kaksi mahdotonta vaihtoehtoa. Kumman valitsisit?",
+      "howToPlay": {
+        "intro": "Kaksi yhtä kauheaa (tai hämmästyttävää) valintaa. Ei ole oikeaa vastausta - vain sinun vastauksesi.",
+        "step1_title": "Dilemma tulee näkyviin",
+        "step1_desc": "Sovellus näyttää \"Haluatko mieluummin...\" -kysymyksen, jossa on kaksi vaihtoehtoa. Mieti tarkkaan!",
+        "step2_title": "Äänestä salassa",
+        "step2_desc": "Jokainen pelaaja valitsee vaihtoehtonsa paljastamatta sitä. Pidä valintasi lähellä!",
+        "step3_title": "Paljasta & keskustele",
+        "step3_desc": "Kaikki paljastavat kerralla. Keskustele valinnoistasi ja argumentoi kantasi – enemmistö voittaa kerskausoikeuden!"
+      }
+    },
+    "two_truths": {
+      "name": "Kaksi totuutta, yksi valhe",
+      "description": "Arvaa mikä väite on valhe.",
+      "howToPlay": {
+        "intro": "Kerro kaksi totta asiaa ja yksi vakuuttava valhe itsestäsi. Osaavatko ystäväsi kertoa eron?",
+        "step1_title": "Kirjoita väitteesi",
+        "step1_desc": "Kirjoita sovellukseen kaksi asiaa, jotka pitävät paikkansa itsestäsi, ja yksi uskottava valhe.",
+        "step2_title": "Lue ne ääneen",
+        "step2_desc": "Lue kaikki kolme väitettä ryhmälle missä tahansa järjestyksessä. Pidä suorat kasvot!",
+        "step3_title": "Kaikki arvaavat",
+        "step3_desc": "Pelaajat äänestävät sen puolesta, mikä väite on valhe. Ansaitse piste jokaisesta hullustasi!"
+      }
+    },
+    "heads_up": {
+      "name": "Heads Up!",
+      "description": "Pidä puhelinta otsallasi. Hanki vihjeitä!",
+      "howToPlay": {
+        "intro": "Pidä puhelinta otsallasi ja arvaa sana näytöllä – vain ystäväsi voivat nähdä sen!",
+        "step1_title": "Pidä kiinni",
+        "step1_desc": "Aktiivinen pelaaja pitää puhelinta kuvapuoli ylöspäin otsallaan katsomatta näyttöä.",
+        "step2_title": "Anna vihjeitä",
+        "step2_desc": "Kaikki muut pelaajat huutavat vihjeitä auttaakseen sanan arvaamisessa. Älä kirjoita sitä tai sano itse sanaa!",
+        "step3_title": "Kallista tehdäksesi maalin",
+        "step3_desc": "Kallista puhelinta alas ohittaaksesi sanan ja kallista ylös vahvistaaksesi oikean arvauksen. Tee niin monta maalia kuin voit ennen kuin aika loppuu!"
+      }
+    },
+    "word_chain": {
+      "name": "Sanaketju",
+      "description": "Viimeinen kirjain aloittaa seuraavan sanan. Älä katkaise ketjua!",
+      "howToPlay": {
+        "intro": "Jokaisen sanan tulee alkaa edellisen sanan viimeisellä kirjaimella. Epäröi ja olet eliminoitu!",
+        "step1_title": "Käynnistä ketju",
+        "step1_desc": "Ensimmäinen pelaaja sanoo minkä tahansa sanan. Seuraavan pelaajan on sanottava sana, joka alkaa sen viimeisellä kirjaimella.",
+        "step2_title": "Pidä vauhti",
+        "step2_desc": "Sinulla on aikaraja vastata. Ei toistavia sanoja, joita on jo käytetty tällä kierroksella.",
+        "step3_title": "Viimeinen seisova voittaa",
+        "step3_desc": "Epäröi liian kauan, sano virheellinen sana tai toista sana – ja olet poissa! Viimeinen jäljellä oleva pelaaja voittaa."
+      }
+    },
+    "trivia": {
+      "name": "Trivia Veto",
+      "description": "Lyö vetoa vastauksestasi. Enemmän itseluottamusta = enemmän pisteitä.",
+      "howToPlay": {
+        "intro": "Vastaa triviakysymyksiin ja lyö vetoa pisteistäsi sen perusteella, kuinka itsevarma olet. Suuri riski, suuri palkkio!",
+        "step1_title": "Lue kysymys",
+        "step1_desc": "Sovellus näyttää triviakysymyksen nykyiselle pelaajalle. Mieti ennen kuin vastaat!",
+        "step2_title": "Aseta panoksesi",
+        "step2_desc": "Ennen kuin vastaat, panosta pisteesi. Pieni panos = turvallinen peli. Suuri panos = suuri riski, suuri palkinto!",
+        "step3_title": "Paljasta vastaus",
+        "step3_desc": "Oikea vastaus ansaitsee panoksesi. Väärä vastaus menettää sen. Pelaaja, jolla on lopussa eniten pisteitä, voittaa!"
+      }
+    },
+    "charades": {
+      "name": "Pantomiimi",
+      "description": "Toimi – sanoja ei sallita!",
+      "howToPlay": {
+        "intro": "Esittele salainen sana käyttämällä vain eleitä ja ilmaisuja. Ei puhumista, ei ääniä – puhdasta pantomiimia!",
+        "step1_title": "Katso sanasi",
+        "step1_desc": "Näyttelijä näkee sanan salaa puhelimessa. Älä näytä kenellekään – pidä pokerikasvot!",
+        "step2_title": "Esitä se",
+        "step2_desc": "Käytä vain eleitä, ilmeitä ja kehonkieltä. Ei sanoja, ei suun liikkeitä, ei ääniä!",
+        "step3_title": "Huuta se",
+        "step3_desc": "Muut pelaajat arvaavat ääneen. Tee piste, kun he saavat sen oikein, sitten seuraava pelaaja ottaa vuoronsa!"
+      }
+    },
+    "paranoia": {
+      "name": "Paranoia",
+      "description": "Kuiskattuja kysymyksiä. Salaperäisiä vastauksia.",
+      "howToPlay": {
+        "intro": "Joku kuiskaa kysymyksen. Joku osoittaa salassa. Paljastetaanko vastaus koskaan?",
+        "step1_title": "Kuiskaa kysymys",
+        "step1_desc": "Yksi pelaaja kuiskaa \"Kuka tässä ryhmässä...\" kysymyksen oikealla puolellaan olevalle pelaajalle.",
+        "step2_title": "Osoita salassa",
+        "step2_desc": "Tämä pelaaja osoittaa hiljaa sitä, joka hänen mielestään sopii vastaukseksi – ei selittelyä!",
+        "step3_title": "Kolikko ratkaisee",
+        "step3_desc": "Heitä kolikkoa – kruuna paljastaa kysymyksen kaikille, klaava pitää sen salassa ikuisesti. Paranoia kasvaa!"
+      }
+    }
+  },
+  "promptGame": {
+    "playerTurn": "{{name}}:n vuoro",
+    "chooseTruthOrDare": "Valitse kohtalosi",
+    "truth": "Totuus",
+    "dare": "Haaste",
+    "mild": "Lievä",
+    "medium": "Keskikokoinen",
+    "spicy": "Mausteinen 🌶️",
+    "nextPrompt": "Seuraava kortti →",
+    "endGame": "Loppu peli",
+    "skip": "Ohita"
+  },
+  "headsUp": {
+    "title": "Heads Up!",
+    "holdPhone": "Pidä puhelinta otsaa vasten",
+    "yourTurn": "{{name}}:n vuoro",
+    "correct": "✓ Selvä!",
+    "pass": "↩ Ohita",
+    "score": "Pisteet: {{count}}",
+    "timeUp": "Aika on ohi!",
+    "nextPlayer": "Seuraava pelaaja →",
+    "nextRound": "Seuraava kierros →",
+    "roundOf": "Kierros {{current}} / {{total}}",
+    "endGame": "Loppu peli",
+    "readyTitle": "Valmis?",
+    "readySubtitle": "Ohjaa puhelin ja pidä sitä otsaasi vasten",
+    "startTimer": "Aloita!",
+    "emptyTitle": "Ei enää sanoja",
+    "emptySubtitle": "Kokeile eri luokkia jatkaaksesi pelaamista."
+  },
+  "wordChain": {
+    "title": "Sanaketju",
+    "startWith": "Aloita mikä tahansa sana",
+    "continueWith": "Sana, joka alkaa kirjaimella «{{letter}}»",
+    "placeholder": "Kirjoita sana…",
+    "submit": "Lähetä",
+    "wrongLetter": "Täytyy alkaa \"{{letter}}\"",
+    "alreadyUsed": "Jo käytetty!",
+    "tooShort": "Liian lyhyt",
+    "invalidChars": "Vain kirjaimet",
+    "eliminated": "{{name}} on ulkona!",
+    "timerOut": "Aika on ohi! {{name}} on eliminoitu.",
+    "winner": "🏆 {{name}} voittaa!",
+    "endGame": "Loppu peli",
+    "playersLeft": "{{count}} jäljellä"
+  },
+  "triviaBet": {
+    "title": "Trivia Veto",
+    "tokens": "{{count}} merkkiä",
+    "yourBet": "Sinun vetosi",
+    "placeBet": "Aseta veto",
+    "question": "Kysymys {{number}}",
+    "reveal": "Paljasta vastaus",
+    "correct": "Oikein! +{{count}} merkkiä",
+    "wrong": "Väärin! -{{count}} merkkiä",
+    "nextQuestion": "Seuraava kysymys →",
+    "endGame": "Loppu peli",
+    "leaderboard": "Tulostaulukko",
+    "winner": "{{name}} voittaa {{count}} merkillä!"
+  },
+  "twoTruths": {
+    "title": "Kaksi totuutta, yksi valhe",
+    "tellerInstruction": "Kirjoita itsestäsi 2 totuutta ja 1 valhe",
+    "statement1": "Väite 1",
+    "statement2": "Väite 2",
+    "statement3": "Väite 3",
+    "markedLie": "VALHE",
+    "markLie": "Mikä on valhe?",
+    "submitStatements": "Valmis – välitä puhelin",
+    "voting": "Mikä väite on valhe?",
+    "revealLie": "Paljasta valhe",
+    "lieWas": "Valhe oli #{{number}}",
+    "fooled": "{{name}} huijasi {{count}} ihmistä! +{{count}} pistettä",
+    "nextPlayer": "Seuraava pelaaja →",
+    "endGame": "Loppu peli"
+  },
+  "common": {
+    "pro": "PRO",
+    "locked": "Lukittu",
+    "free": "Ilmainen",
+    "back": "Takaisin",
+    "close": "Sulje",
+    "cancel": "Peruuta",
+    "confirm": "Vahvista",
+    "loading": "Ladataan...",
+    "players_count": "{{min}}–{{max}} pelaajaa",
+    "minutes": "{{range}} min",
+    "home": "Kotiin",
+    "settings": "Asetukset",
+    "save": "Tallenna"
+  },
+  "discountPaywall": {
+    "tag": "Erikoistarjous",
+    "title": "Avaa PRO alennuksella.",
+    "subtitle": "Hanki täysi PRO-käyttö alennettuun hintaan.",
+    "originalPriceLabel": "Normaali hinta",
+    "originalPrice": "4,99 dollaria/kk",
+    "discountPriceLabel": "Vuosisuunnitelma",
+    "discountPrice": "1,67 dollaria/kk",
+    "billedAnnually": "Laskutetaan kerran vuodessa {{total}}",
+    "saving": "Säästät {{percent}}%",
+    "cta": "Lunasta tämä sopimus →",
+    "decline": "Ei kiitos",
+    "restore": "Palauta ostokset",
+    "close": "Sulje"
+  },
+  "customWords": {
+    "title": "Oma muokattu luettelo",
+    "placeholder": "Lisää sana...",
+    "wordCount": "{{count}} sanaa",
+    "emptyHint": "Lisää vähintään {{min}} sanaa käyttääksesi tätä luokkaa",
+    "needMore": "{{count}} tarvitaan lisää",
+    "empty": "Ei vielä sanoja. Aloita lisääminen!"
+  }
+}

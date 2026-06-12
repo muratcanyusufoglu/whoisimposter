@@ -1,0 +1,1309 @@
+{
+  "gameId": "hot-takes",
+  "locale": "id",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "ht_id_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nanas benar-benar termasuk dalam pizza."
+    },
+    {
+      "id": "ht_id_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sarapan adalah waktu makan yang paling dilebih-lebihkan dalam sehari."
+    },
+    {
+      "id": "ht_id_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kucing secara obyektif adalah hewan peliharaan yang lebih baik daripada anjing."
+    },
+    {
+      "id": "ht_id_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Bioskop sedang sekarat dan itu adalah hal yang baik."
+    },
+    {
+      "id": "ht_id_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mengirim SMS lebih baik daripada menelepon setiap saat."
+    },
+    {
+      "id": "ht_id_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Secara keseluruhan, media sosial lebih banyak menimbulkan dampak buruk dibandingkan manfaat."
+    },
+    {
+      "id": "ht_id_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Bekerja dari rumah jauh lebih baik daripada pergi ke kantor."
+    },
+    {
+      "id": "ht_id_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Orang yang bilang tidak menonton TV adalah orang yang paling membosankan."
+    },
+    {
+      "id": "ht_id_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Datang lebih awal sama kasarnya dengan terlambat."
+    },
+    {
+      "id": "ht_id_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pizza terbaik adalah pizza sisa dingin."
+    },
+    {
+      "id": "ht_id_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Persahabatan daring bisa sama bermaknanya dengan persahabatan tatap muka."
+    },
+    {
+      "id": "ht_id_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Akhir pekan seharusnya 3 hari dan siapa pun yang tidak setuju bekerja terlalu banyak."
+    },
+    {
+      "id": "ht_id_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Makanan cepat saji sebenarnya lebih baik daripada kebanyakan restoran mewah."
+    },
+    {
+      "id": "ht_id_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Introvert lebih menarik dibandingkan ekstrover."
+    },
+    {
+      "id": "ht_id_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tidur siang adalah kekuatan super yang kurang dihormati oleh masyarakat."
+    },
+    {
+      "id": "ht_id_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Malam yang tenang di rumah lebih romantis daripada di restoran mewah."
+    },
+    {
+      "id": "ht_id_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Persahabatan terbaik hanya membutuhkan sedikit pemeliharaan."
+    },
+    {
+      "id": "ht_id_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Membaca buku sebagai ciri kepribadian sangat dilebih-lebihkan."
+    },
+    {
+      "id": "ht_id_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Membayar keanggotaan gym yang jarang Anda gunakan masih sepadan secara psikologis."
+    },
+    {
+      "id": "ht_id_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Memberikan nasihat yang tidak diminta hampir selalu berkaitan dengan pemberi nasihat, bukan orang yang diberi nasihat."
+    },
+    {
+      "id": "ht_id_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Anda dapat memberi tahu semua yang perlu Anda ketahui tentang seseorang dari playlist Spotify-nya."
+    },
+    {
+      "id": "ht_id_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ghosting terkadang merupakan cara paling baik untuk mengakhiri sesuatu."
+    },
+    {
+      "id": "ht_id_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Setiap orang memiliki tipenya sendiri dan berpura-pura tidak memiliki tipe tersebut berarti berbohong kepada diri sendiri."
+    },
+    {
+      "id": "ht_id_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Tanda-tanda zodiak sama validnya dengan tes kepribadian untuk memahami orang."
+    },
+    {
+      "id": "ht_id_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Orang yang selalu terlambat tidak menghargai waktu Anda - itulah kebenarannya."
+    },
+    {
+      "id": "ht_id_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Teman yang selalu membatalkan rencana diam-diam adalah orang terpintar di grup."
+    },
+    {
+      "id": "ht_id_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kesan pertama hampir selalu salah."
+    },
+    {
+      "id": "ht_id_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Humor lebih menarik daripada penampilan - siapa pun yang tidak setuju belum pernah bertemu banyak orang lucu."
+    },
+    {
+      "id": "ht_id_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kebanyakan foto perjalanan adalah untuk orang lain, bukan untuk pelancong."
+    },
+    {
+      "id": "ht_id_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Menjadi lajang diremehkan dan kebanyakan orang terburu-buru menjalin hubungan karena takut."
+    },
+    {
+      "id": "ht_id_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Obrolan grup lebih melelahkan daripada manfaatnya."
+    },
+    {
+      "id": "ht_id_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Orang-orang tidak begitu memedulikan Anda dibandingkan yang Anda kira, dan hal itu sebenarnya melegakan."
+    },
+    {
+      "id": "ht_id_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kopi mahal adalah penipuan dan siapa pun yang mengatakan sebaliknya adalah korban branding."
+    },
+    {
+      "id": "ht_id_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Cara seseorang memperlakukan seorang pelayan memberi tahu Anda segalanya tentang karakternya."
+    },
+    {
+      "id": "ht_id_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kesetiaan lebih penting daripada kejujuran dalam persahabatan dekat."
+    },
+    {
+      "id": "ht_id_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kebanyakan orang yang mengaku suka jalan-jalan hanya menginginkan foto-foto Instagram."
+    },
+    {
+      "id": "ht_id_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mengatakan 'maaf, Anda merasa seperti itu' adalah tindakan non-permintaan maaf yang paling manipulatif yang pernah ada."
+    },
+    {
+      "id": "ht_id_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Tipe orang yang paling berbahaya adalah orang yang tidak pernah mengakui kesalahannya."
+    },
+    {
+      "id": "ht_id_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Setiap orang memiliki setidaknya satu rahasia memalukan yang akan mereka bawa ke dalam kubur."
+    },
+    {
+      "id": "ht_id_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Menyukai musik yang sama dengan seseorang lebih penting untuk kecocokan daripada menyukai kepribadiannya."
+    },
+    {
+      "id": "ht_id_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hubungan jangka panjang lebih mengutamakan kecocokan dan kebiasaan daripada cinta sejati."
+    },
+    {
+      "id": "ht_id_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Tidak mungkin untuk tetap berteman dengan seseorang yang pernah membuat Anda tertarik."
+    },
+    {
+      "id": "ht_id_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Orang yang mengatakan bahwa mereka tidak main-main dalam berkencan adalah orang yang berbohong - semua orang melakukannya."
+    },
+    {
+      "id": "ht_id_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kurangnya rasa cemburu dalam suatu hubungan sebenarnya merupakan tanda bahaya."
+    },
+    {
+      "id": "ht_id_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jika seseorang berbuat curang sekali saja, ia akan selalu menjadi penipu - orang tidak akan benar-benar berubah."
+    },
+    {
+      "id": "ht_id_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Sangatlah normal untuk meneliti seluruh media sosial calon pasangan sebelum kencan pertama."
+    },
+    {
+      "id": "ht_id_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Tahap berbicara sebaiknya berlangsung tidak lebih dari dua minggu — setelah itu Anda hanya membuang-buang waktu."
+    },
+    {
+      "id": "ht_id_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kebanyakan orang menjalin hubungan karena takut sendirian, bukan karena cinta."
+    },
+    {
+      "id": "ht_id_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Cara Anda bertengkar dengan seseorang lebih jitu daripada perasaan Anda saat keadaan baik-baik saja."
+    },
+    {
+      "id": "ht_id_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Memeriksa ponsel pasangan Anda dibenarkan jika naluri Anda memberi tahu Anda ada sesuatu yang salah."
+    },
+    {
+      "id": "ht_id_051",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Anda bisa dengan tulus mencintai seseorang dan tetap jatuh cinta pada orang lain pada saat yang bersamaan."
+    },
+    {
+      "id": "ht_id_052",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Situasi muncul karena satu orang merasa terlalu nyaman dan yang lain terlalu takut."
+    },
+    {
+      "id": "ht_id_053",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Orang yang mengakhiri hubungan terlebih dahulu selalu mempunyai kekuatan lebih di dalamnya."
+    },
+    {
+      "id": "ht_id_054",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hubungan jarak jauh hampir tidak pernah berhasil dan orang-orang mencobanya hanya karena mereka benci akhir."
+    },
+    {
+      "id": "ht_id_055",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ini adalah tanda bahaya jika seseorang tidak memiliki teman dekat dari masa lalunya."
+    },
+    {
+      "id": "ht_id_056",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Para mantan tidak pernah bisa benar-benar hanya menjadi teman - satu orang selalu masih berada di dalamnya."
+    },
+    {
+      "id": "ht_id_057",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Memiliki pasangan yang bekerja sama sekali tidak berbahaya dan orang-orang yang tidak sependapat hanya merasa tidak aman."
+    },
+    {
+      "id": "ht_id_058",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Orang yang mengatakan bahwa mereka mencintai semua orang tidak memiliki hubungan yang mendalam dengan siapa pun."
+    },
+    {
+      "id": "ht_id_059",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Perasaan Anda sendirian pada jam 3 pagi lebih merupakan diri Anda daripada versi yang Anda tunjukkan kepada dunia."
+    },
+    {
+      "id": "ht_id_060",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Setiap orang memiliki pasangan ideal di kepalanya dan hampir tidak ada orang di kehidupan nyata yang dapat mewujudkannya."
+    },
+    {
+      "id": "ht_id_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mandi air dingin lebih baik daripada mandi air panas, bahkan di musim dingin."
+    },
+    {
+      "id": "ht_id_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Permainan papan mengalahkan video game untuk malam grup."
+    },
+    {
+      "id": "ht_id_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Brunch hanyalah sarapan yang mahal."
+    },
+    {
+      "id": "ht_id_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Menonton trailer merusak film."
+    },
+    {
+      "id": "ht_id_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sandal jepit bukanlah sepatu sungguhan."
+    },
+    {
+      "id": "ht_id_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tumbuhan lebih sulit untuk tetap hidup dibandingkan hewan peliharaan."
+    },
+    {
+      "id": "ht_id_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Membaca buku tidak selalu lebih baik dari film."
+    },
+    {
+      "id": "ht_id_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Air soda rasanya seperti penyesalan."
+    },
+    {
+      "id": "ht_id_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tempat duduk terbaik adalah di lorong, bukan di jendela."
+    },
+    {
+      "id": "ht_id_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mendengarkan podcast dengan kecepatan 2x memang kacau."
+    },
+    {
+      "id": "ht_id_071",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Penggorengan udara hanyalah oven konveksi yang trendi."
+    },
+    {
+      "id": "ht_id_072",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sup adalah minuman."
+    },
+    {
+      "id": "ht_id_073",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mengambil foto di konser hanya membuang-buang waktu."
+    },
+    {
+      "id": "ht_id_074",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Crocs nyaman dan itulah yang penting."
+    },
+    {
+      "id": "ht_id_075",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Matahari terbenam dilebih-lebihkan dibandingkan dengan matahari terbit."
+    },
+    {
+      "id": "ht_id_076",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Keheningan adalah musik latar terbaik."
+    },
+    {
+      "id": "ht_id_077",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Prasmanan itu membuat stres, bukan menyenangkan."
+    },
+    {
+      "id": "ht_id_078",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Buku kertas berbau harum tetapi e-reader lebih unggul."
+    },
+    {
+      "id": "ht_id_079",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Orang-orang harus berhenti mengatakan 'jangan khawatir' di tempat kerja."
+    },
+    {
+      "id": "ht_id_080",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sandaran tangan kursi tengah milik penumpang tengah."
+    },
+    {
+      "id": "ht_id_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jika Anda tidak membalas selama sehari, Anda mengabaikan seseorang."
+    },
+    {
+      "id": "ht_id_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sahabat terbaik harus mengetahui kata sandi ponsel Anda."
+    },
+    {
+      "id": "ht_id_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Memposting selfie di gym bukan 'untuk motivasi'."
+    },
+    {
+      "id": "ht_id_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kebanyakan orang lebih memilih menjadi benar daripada bahagia."
+    },
+    {
+      "id": "ht_id_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Membatalkan rencana pada menit-menit terakhir lebih buruk daripada terlambat."
+    },
+    {
+      "id": "ht_id_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Orang yang membual tentang kesibukannya adalah orang yang merasa tidak aman."
+    },
+    {
+      "id": "ht_id_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Berbagi lokasi Anda dalam suatu hubungan seharusnya menjadi hal yang normal."
+    },
+    {
+      "id": "ht_id_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Perjalanan kelompok adalah saat persahabatan mati."
+    },
+    {
+      "id": "ht_id_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jika Anda harus 'soft launching' suatu hubungan, itu tidak nyata."
+    },
+    {
+      "id": "ht_id_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Tepat waktu adalah bahasa cinta."
+    },
+    {
+      "id": "ht_id_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jika Anda benci basa-basi, Anda tidak sedalam yang Anda kira."
+    },
+    {
+      "id": "ht_id_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kebanyakan permintaan maaf hanyalah upaya negosiasi."
+    },
+    {
+      "id": "ht_id_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Teman yang tidak pernah memposting adalah teman yang paling menarik."
+    },
+    {
+      "id": "ht_id_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hubungan terbaik dibangun berdasarkan ekspektasi rendah."
+    },
+    {
+      "id": "ht_id_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Restoran yang bising adalah kegagalan desain."
+    },
+    {
+      "id": "ht_id_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Orang yang mengatakan 'Saya tidak mengerti drama' memulai drama."
+    },
+    {
+      "id": "ht_id_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kencan pertama harus selalu singkat."
+    },
+    {
+      "id": "ht_id_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Anda dapat mengetahui kecocokannya dari cara seseorang memesan kopi."
+    },
+    {
+      "id": "ht_id_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Teman yang menghilang saat berkencan itu egois."
+    },
+    {
+      "id": "ht_id_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jika Anda tidak berlibur, Anda buruk dalam manajemen hidup."
+    },
+    {
+      "id": "ht_id_101",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kebanyakan orang menetap karena bosan berpacaran."
+    },
+    {
+      "id": "ht_id_102",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kecemburuan adalah bentuk ego, bukan cinta."
+    },
+    {
+      "id": "ht_id_103",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jika Anda mengintip sekali, Anda akan melakukannya lagi."
+    },
+    {
+      "id": "ht_id_104",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "'Tahap berbicara' hanyalah ketakutan akan komitmen."
+    },
+    {
+      "id": "ht_id_105",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Orang memaafkan kecurangan lebih dari yang mereka akui."
+    },
+    {
+      "id": "ht_id_106",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "'Putusnya' suatu hubungan hanyalah perpisahan yang lambat."
+    },
+    {
+      "id": "ht_id_107",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Orang yang paling percaya diri adalah orang yang paling rapuh."
+    },
+    {
+      "id": "ht_id_108",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Anda tidak 'terlalu sibuk' - Anda hanya tidak tertarik."
+    },
+    {
+      "id": "ht_id_109",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kebanyakan cinta adalah tentang perhatian, bukan ketertarikan."
+    },
+    {
+      "id": "ht_id_110",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Chemistry romantis sebagian besar merupakan waktu yang tepat."
+    },
+    {
+      "id": "ht_id_111",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Es dalam soda merusak minuman."
+    },
+    {
+      "id": "ht_id_112",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kursi dekat jendela dinilai berlebihan dalam penerbangan."
+    },
+    {
+      "id": "ht_id_113",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Foto santai lebih baik daripada foto berpose."
+    },
+    {
+      "id": "ht_id_114",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Orang harus RSVP dengan angka sebenarnya, bukan “mungkin”."
+    },
+    {
+      "id": "ht_id_115",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pengelola kata sandi harus menjadi standar di setiap ponsel."
+    },
+    {
+      "id": "ht_id_116",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Mandi malam lebih baik daripada mandi pagi."
+    },
+    {
+      "id": "ht_id_117",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Memposting cerita makanan setiap hari itu berlebihan."
+    },
+    {
+      "id": "ht_id_118",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pembuatan ulang film seharusnya harus membenarkan keberadaannya."
+    },
+    {
+      "id": "ht_id_119",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tombol “lewati intro” adalah penemuan terbaik."
+    },
+    {
+      "id": "ht_id_120",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Cold brew hanyalah kopi yang lupa panasnya."
+    },
+    {
+      "id": "ht_id_121",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Program loyalitas biasanya tidak sepadan."
+    },
+    {
+      "id": "ht_id_122",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Musik latar di kafe terlalu keras."
+    },
+    {
+      "id": "ht_id_123",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Otentikasi dua faktor harus diwajibkan."
+    },
+    {
+      "id": "ht_id_124",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kamera ponsel baru belum banyak mengalami kemajuan akhir-akhir ini."
+    },
+    {
+      "id": "ht_id_125",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Menjadi “pemeliharaan rendah” bukanlah ciri kepribadian."
+    },
+    {
+      "id": "ht_id_126",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sebagian besar layanan berlangganan harus menyertakan satu minggu gratis."
+    },
+    {
+      "id": "ht_id_127",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Orang-orang harus membawa hadiah kecil ketika mereka menginap."
+    },
+    {
+      "id": "ht_id_128",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Cara terbaik untuk bepergian adalah tanpa jadwal yang padat."
+    },
+    {
+      "id": "ht_id_129",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Berdandan untuk teater harus kembali dilakukan."
+    },
+    {
+      "id": "ht_id_130",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Makanan penutup harus dipesan terlebih dahulu."
+    },
+    {
+      "id": "ht_id_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Meninggalkan obrolan grup lebih jujur ​​daripada berbayang."
+    },
+    {
+      "id": "ht_id_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Obrolan ringan di kantor lebih melelahkan daripada bekerja."
+    },
+    {
+      "id": "ht_id_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Rapat harus selalu memiliki waktu berakhir."
+    },
+    {
+      "id": "ht_id_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Suara hujan lebih baik daripada white noise."
+    },
+    {
+      "id": "ht_id_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Menggunakan emoji di email kantor boleh saja."
+    },
+    {
+      "id": "ht_id_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Orang-orang terlalu sering menggunakan kata “ikonik”."
+    },
+    {
+      "id": "ht_id_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Meja yang berantakan bukan berarti Anda kreatif."
+    },
+    {
+      "id": "ht_id_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Menyimpan setiap foto adalah penimbunan digital."
+    },
+    {
+      "id": "ht_id_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Orang-orang harus berhenti mengirimkan “K” sebagai balasan."
+    },
+    {
+      "id": "ht_id_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Tepuk tangan di pesawat tidak diperlukan."
+    },
+    {
+      "id": "ht_id_141",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kebijakan pengembalian harus lebih lama dari 14 hari."
+    },
+    {
+      "id": "ht_id_142",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Pakaian yang serasi itu lucu, tidak ngeri."
+    },
+    {
+      "id": "ht_id_143",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Orang dewasa masih bisa menyukai film animasi."
+    },
+    {
+      "id": "ht_id_144",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Tombol “terima semua cookie” seharusnya ilegal."
+    },
+    {
+      "id": "ht_id_145",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Bantal tambahan di tempat tidur tidak ada gunanya."
+    },
+    {
+      "id": "ht_id_146",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Buah termasuk dalam salad."
+    },
+    {
+      "id": "ht_id_147",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Membeli perencana tidak berarti Anda akan menggunakannya."
+    },
+    {
+      "id": "ht_id_148",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "“Keseimbangan kehidupan kerja” harus menjadi metrik yang nyata."
+    },
+    {
+      "id": "ht_id_149",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Rumah mungil tidak praktis."
+    },
+    {
+      "id": "ht_id_150",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Bangku-bangku umum membutuhkan lebih banyak tempat berteduh."
+    },
+    {
+      "id": "ht_id_151",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Menerima panggilan tanpa headphone adalah tindakan yang tidak pengertian."
+    },
+    {
+      "id": "ht_id_152",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kotak masuk yang bersih dilebih-lebihkan."
+    },
+    {
+      "id": "ht_id_153",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Tidur siang terbaik adalah 20 menit atau kurang."
+    },
+    {
+      "id": "ht_id_154",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Menonton ulang suatu acara lebih menenangkan daripada memulai yang baru."
+    },
+    {
+      "id": "ht_id_155",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Tanda tangan email terlalu panjang."
+    },
+    {
+      "id": "ht_id_156",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kebanyakan tetes “edisi terbatas” adalah urgensi palsu."
+    },
+    {
+      "id": "ht_id_157",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Pengiriman gratis harus menjadi standar."
+    },
+    {
+      "id": "ht_id_158",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Orang-orang harus bersikap normal dengan mengatakan, “Saya perlu hari libur.”"
+    },
+    {
+      "id": "ht_id_159",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Indikator “mengetik…” menyebabkan kecemasan."
+    },
+    {
+      "id": "ht_id_160",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kantor terbuka adalah desain yang buruk."
+    },
+    {
+      "id": "ht_id_161",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pizza dingin lebih baik daripada pizza panas."
+    },
+    {
+      "id": "ht_id_162",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Poster film lebih menarik dibandingkan trailer."
+    },
+    {
+      "id": "ht_id_163",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Obrolan grup harus dibisukan secara default."
+    },
+    {
+      "id": "ht_id_164",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Brunch hanyalah alasan untuk membayar lebih untuk telur."
+    },
+    {
+      "id": "ht_id_165",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kaus kaki dan sandal baik-baik saja."
+    },
+    {
+      "id": "ht_id_166",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hari-hari hujan lebih menenangkan daripada hari-hari cerah."
+    },
+    {
+      "id": "ht_id_167",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Karaoke lebih menyenangkan jika Anda tidak pandai melakukannya."
+    },
+    {
+      "id": "ht_id_168",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tidur lebih awal diremehkan."
+    },
+    {
+      "id": "ht_id_169",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ponsel harus memiliki fitur “jangan ganggu” untuk orang-orang tertentu."
+    },
+    {
+      "id": "ht_id_170",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Catatan suara yang panjang tidak sopan."
+    },
+    {
+      "id": "ht_id_171",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Perpustakaan adalah tempat yang paling diremehkan di sebuah kota."
+    },
+    {
+      "id": "ht_id_172",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Permainan papan lebih baik daripada permainan video untuk pesta."
+    },
+    {
+      "id": "ht_id_173",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Buku kertas mengalahkan e-reader."
+    },
+    {
+      "id": "ht_id_174",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kursi konser terbaik ada di belakang dengan ruang untuk menari."
+    },
+    {
+      "id": "ht_id_175",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Irisan terakhir tidak boleh dibiarkan begitu saja."
+    },
+    {
+      "id": "ht_id_176",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belajar memasak lebih bermanfaat dibandingkan belajar mengemudi."
+    },
+    {
+      "id": "ht_id_177",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pegunungan > pantai."
+    },
+    {
+      "id": "ht_id_178",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pernikahan kecil lebih menyenangkan dibandingkan pernikahan besar."
+    },
+    {
+      "id": "ht_id_179",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Terkadang pasangan harus mengambil liburan terpisah."
+    },
+    {
+      "id": "ht_id_180",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Teman yang membatalkan menit terakhir berhutang camilan lain kali."
+    },
+    {
+      "id": "ht_id_181",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Camilan tengah malam lebih baik daripada sarapan."
+    },
+    {
+      "id": "ht_id_182",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "“Suka” di media sosial tidak boleh bersifat publik."
+    },
+    {
+      "id": "ht_id_183",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Menggunakan speakerphone di depan umum seharusnya ilegal."
+    },
+    {
+      "id": "ht_id_184",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Persiapan makan dilebih-lebihkan."
+    },
+    {
+      "id": "ht_id_185",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Foto terbaik adalah foto candid."
+    },
+    {
+      "id": "ht_id_186",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sepatu kets mahal hanya membuang-buang uang."
+    },
+    {
+      "id": "ht_id_187",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hari Minggu seharusnya menjadi akhir pekan tiga hari."
+    },
+    {
+      "id": "ht_id_188",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kunjungan mendadak adalah tindakan yang tidak pengertian."
+    },
+    {
+      "id": "ht_id_189",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jus nanas ada di setiap smoothie."
+    },
+    {
+      "id": "ht_id_190",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mencatat dengan tangan mengalahkan mengetik."
+    },
+    {
+      "id": "ht_id_191",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kencan online telah membuat orang menjadi lebih pemilih."
+    },
+    {
+      "id": "ht_id_192",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hidup sendiri membuat orang lebih kreatif."
+    },
+    {
+      "id": "ht_id_193",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "“Hot take” biasanya hanya masuk akal."
+    },
+    {
+      "id": "ht_id_194",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Anda harus selalu membawa cangkir Anda sendiri yang dapat digunakan kembali."
+    },
+    {
+      "id": "ht_id_195",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Makanan jalanan lebih baik daripada makanan restoran."
+    },
+    {
+      "id": "ht_id_196",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Tanda centang “terlihat” menyebabkan lebih banyak drama daripada penyelesaiannya."
+    },
+    {
+      "id": "ht_id_197",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Daftar putar bersama adalah ujian hubungan."
+    },
+    {
+      "id": "ht_id_198",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Memiliki selimut terpisah lebih sehat bagi pasangan."
+    },
+    {
+      "id": "ht_id_199",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Bagian terbaik dari sebuah perjalanan adalah perencanaannya."
+    },
+    {
+      "id": "ht_id_200",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mengenakan headphone di gym adalah suatu keharusan."
+    },
+    {
+      "id": "ht_id_201",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Orang harus memberi tip lebih banyak kepada barista."
+    },
+    {
+      "id": "ht_id_202",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Tato harus diperbolehkan di semua tempat kerja."
+    },
+    {
+      "id": "ht_id_203",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Orang-orang membutuhkan lebih sedikit notifikasi, bukan lebih banyak."
+    },
+    {
+      "id": "ht_id_204",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hewan peliharaan harus diperbolehkan di lebih banyak kafe."
+    },
+    {
+      "id": "ht_id_205",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hari libur nasional harus dipilih berdasarkan suara terbanyak."
+    },
+    {
+      "id": "ht_id_206",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Setiap orang harus mempelajari pertolongan pertama dasar."
+    },
+    {
+      "id": "ht_id_207",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Restoran mewah harus memiliki menu anak-anak."
+    },
+    {
+      "id": "ht_id_208",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Bioskop harus mengembalikan waktu istirahat."
+    },
+    {
+      "id": "ht_id_209",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Tanda terima telah dibaca harus bersifat opsional untuk setiap aplikasi."
+    },
+    {
+      "id": "ht_id_210",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Terlambat adalah sebuah pilihan, bukan kepribadian."
+    },
+    {
+      "id": "ht_id_211",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Menonaktifkan notifikasi obrolan grup adalah tindakan peduli diri."
+    },
+    {
+      "id": "ht_id_212",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Meme yang baik bisa memperbaiki hari yang buruk."
+    },
+    {
+      "id": "ht_id_213",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Catatan suara harus memiliki batas waktu."
+    },
+    {
+      "id": "ht_id_214",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Tangkapan layar adalah tanda terima modern."
+    },
+    {
+      "id": "ht_id_215",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Menjadi viral terdengar lebih membuat stres daripada kesenangan."
+    },
+    {
+      "id": "ht_id_216",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Permainan papan dapat mengungkap kepribadian seseorang yang sebenarnya."
+    },
+    {
+      "id": "ht_id_217",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Peraturan rumah lebih baik daripada peraturan resmi."
+    }
+  ]
+}

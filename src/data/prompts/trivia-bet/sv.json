@@ -1,18 +1,18 @@
 {
   "gameId": "trivia-bet",
   "locale": "sv",
-  "version": 1,
+  "version": 2,
   "questions": [
     {
       "id": "tb_sv_001",
       "difficulty": "easy",
       "category": "Vetenskap",
-      "question": "Vilken planet kallas den röda planeten?",
+      "question": "Vilken gas absorberar växter från luften under fotosyntesen?",
       "options": [
-        "Venus",
-        "Mars",
-        "Jupiter",
-        "Saturnus"
+        "Syre",
+        "Koldioxid",
+        "Väte",
+        "Kväve"
       ],
       "correctIndex": 1
     },
@@ -20,1632 +20,1710 @@
       "id": "tb_sv_002",
       "difficulty": "easy",
       "category": "Vetenskap",
-      "question": "Vad kallas H2O i vardagligt tal?",
+      "question": "Vad är den kemiska symbolen för vatten?",
       "options": [
-        "Salt",
-        "Vatten",
-        "Syre",
-        "Socker"
+        "WO",
+        "H2O",
+        "O2H",
+        "HO2"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_003",
       "difficulty": "easy",
-      "category": "Geografi",
-      "question": "Vilken är världens största ocean?",
+      "category": "Vetenskap",
+      "question": "Vilken planet är känd som den röda planeten?",
       "options": [
-        "Atlanten",
-        "Indiska oceanen",
-        "Stilla havet",
-        "Norra ishavet"
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Merkurius"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_sv_004",
       "difficulty": "easy",
-      "category": "Geografi",
-      "question": "I vilket land ligger Tokyo?",
+      "category": "Vetenskap",
+      "question": "Hur många ben har en insekt?",
       "options": [
-        "Japan",
-        "Kina",
-        "Sydkorea",
-        "Thailand"
+        "4",
+        "6",
+        "8",
+        "10"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_sv_005",
       "difficulty": "easy",
-      "category": "Historia",
-      "question": "Vem målade Mona Lisa?",
+      "category": "Vetenskap",
+      "question": "Vilken kraft drar föremål mot jorden?",
       "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
+        "Magnetism",
+        "Gravity",
+        "Friktion",
+        "Elektricitet"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_006",
       "difficulty": "easy",
-      "category": "Kultur",
-      "question": "Vilken grupp sjöng Dancing Queen?",
+      "category": "Vetenskap",
+      "question": "Vilket organ pumpar blod runt i kroppen?",
       "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
+        "Lever",
+        "Hjärta",
+        "Lung",
+        "Njure"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_007",
       "difficulty": "easy",
-      "category": "Sport",
-      "question": "Hur många spelare har ett fotbollslag på planen?",
+      "category": "Vetenskap",
+      "question": "Vad kallas mitten av en atom?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_sv_008",
-      "difficulty": "easy",
-      "category": "Mat",
-      "question": "Vilken svensk vana betyder kaffe och något sött?",
-      "options": [
-        "Fika",
-        "Siesta",
-        "Karaoke",
-        "Tapas"
+        "Kärna",
+        "Cell",
+        "Bana",
+        "Skal"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_sv_009",
-      "difficulty": "easy",
-      "category": "Kultur",
-      "question": "Vilket språk skrivs med hangul?",
+      "id": "tb_sv_008",
+      "difficulty": "medium",
+      "category": "Vetenskap",
+      "question": "Vad är den kemiska symbolen för guld?",
       "options": [
-        "Japanska",
-        "Koreanska",
-        "Polska",
-        "Svenska"
+        "Gå",
+        "Gd",
+        "Au",
+        "Ag"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_sv_009",
+      "difficulty": "medium",
+      "category": "Vetenskap",
+      "question": "Vad är kokpunkten för vatten vid havsnivån i Celsius?",
+      "options": [
+        "90",
+        "95",
+        "100",
+        "110"
+      ],
+      "correctIndex": 2
     },
     {
       "id": "tb_sv_010",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "category": "Vetenskap",
-      "question": "Vilken gas tar växter upp vid fotosyntes?",
+      "question": "Vilken del av en cell innehåller det mesta av dess DNA?",
       "options": [
-        "Syre",
-        "Koldioxid",
-        "Kväve",
-        "Väte"
+        "Ribosom",
+        "Kärna",
+        "Cellvägg",
+        "Mitokondrien"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_011",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "category": "Vetenskap",
-      "question": "Vilken planet kallas den röda planeten?",
+      "question": "Vilken typ av energi lagras i ett sträckt gummiband?",
       "options": [
-        "Venus",
-        "Mars",
-        "Jupiter",
-        "Saturnus"
+        "Kemisk",
+        "Elastisk potential",
+        "Termisk",
+        "Kärnkraft"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_012",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "category": "Vetenskap",
-      "question": "Vad kallas H2O i vardagligt tal?",
+      "question": "Vilket vitamin produceras när huden utsätts för solljus?",
       "options": [
-        "Salt",
-        "Vatten",
-        "Syre",
-        "Socker"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_sv_013",
-      "difficulty": "easy",
-      "category": "Geografi",
-      "question": "Vilken är världens största ocean?",
-      "options": [
-        "Atlanten",
-        "Indiska oceanen",
-        "Stilla havet",
-        "Norra ishavet"
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin K"
       ],
       "correctIndex": 2
     },
     {
-      "id": "tb_sv_014",
-      "difficulty": "easy",
-      "category": "Geografi",
-      "question": "I vilket land ligger Tokyo?",
+      "id": "tb_sv_013",
+      "difficulty": "medium",
+      "category": "Vetenskap",
+      "question": "Vilket instrument används för att mäta jordbävningar?",
       "options": [
-        "Japan",
-        "Kina",
-        "Sydkorea",
-        "Thailand"
+        "Barometer",
+        "Seismograf",
+        "Hygrometer",
+        "Höjdmätare"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_014",
+      "difficulty": "medium",
+      "category": "Vetenskap",
+      "question": "Vilket är det hårdaste naturliga ämnet på jorden?",
+      "options": [
+        "Kvarts",
+        "Diamant",
+        "Granit",
+        "Järn"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_015",
+      "difficulty": "hard",
+      "category": "Vetenskap",
+      "question": "Vad är SI-enheten för elektrisk ström?",
+      "options": [
+        "Volt",
+        "Watt",
+        "Ampere",
+        "Ohm"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_sv_016",
+      "difficulty": "hard",
+      "category": "Vetenskap",
+      "question": "Vilken vetenskapsman föreslog de tre rörelselagarna?",
+      "options": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Nikola Tesla"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_sv_015",
-      "difficulty": "easy",
-      "category": "Historia",
-      "question": "Vem målade Mona Lisa?",
-      "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_sv_016",
-      "difficulty": "easy",
-      "category": "Kultur",
-      "question": "Vilken grupp sjöng Dancing Queen?",
-      "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
-      ],
-      "correctIndex": 1
-    },
-    {
       "id": "tb_sv_017",
-      "difficulty": "easy",
-      "category": "Sport",
-      "question": "Hur många spelare har ett fotbollslag på planen?",
+      "difficulty": "hard",
+      "category": "Vetenskap",
+      "question": "Vilken är den vanligaste gasen i jordens atmosfär?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "Syre",
+        "Koldioxid",
+        "Kväve",
+        "Argon"
       ],
       "correctIndex": 2
     },
     {
       "id": "tb_sv_018",
-      "difficulty": "easy",
-      "category": "Mat",
-      "question": "Vilken svensk vana betyder kaffe och något sött?",
+      "difficulty": "hard",
+      "category": "Vetenskap",
+      "question": "Vilken partikel har en negativ elektrisk laddning?",
       "options": [
-        "Fika",
-        "Siesta",
-        "Karaoke",
-        "Tapas"
+        "Proton",
+        "Neutron",
+        "Elektron",
+        "Foton"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "tb_sv_019",
-      "difficulty": "easy",
-      "category": "Kultur",
-      "question": "Vilket språk skrivs med hangul?",
+      "difficulty": "hard",
+      "category": "Vetenskap",
+      "question": "Vad är pH-värdet för en neutral lösning vid rumstemperatur?",
       "options": [
-        "Japanska",
-        "Koreanska",
-        "Polska",
-        "Svenska"
+        "0",
+        "5",
+        "7",
+        "14"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "tb_sv_020",
-      "difficulty": "easy",
+      "difficulty": "hard",
       "category": "Vetenskap",
-      "question": "Vilken gas tar växter upp vid fotosyntes?",
+      "question": "Vilka blodkroppar hjälper kroppen att bekämpa infektioner?",
       "options": [
-        "Syre",
-        "Koldioxid",
-        "Kväve",
-        "Väte"
+        "Röda blodkroppar",
+        "Vita blodkroppar",
+        "Blodplättar",
+        "Plasmaceller"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_021",
       "difficulty": "easy",
-      "category": "Vetenskap",
-      "question": "Vilken planet kallas den röda planeten?",
+      "category": "Geografi",
+      "question": "Vad är Frankrikes huvudstad?",
       "options": [
-        "Venus",
-        "Mars",
-        "Jupiter",
-        "Saturnus"
+        "Lyon",
+        "Paris",
+        "Marseille",
+        "Trevligt"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_022",
       "difficulty": "easy",
-      "category": "Vetenskap",
-      "question": "Vad kallas H2O i vardagligt tal?",
+      "category": "Geografi",
+      "question": "Vilket hav är störst?",
       "options": [
-        "Salt",
-        "Vatten",
-        "Syre",
-        "Socker"
+        "Atlanten",
+        "Indiska oceanen",
+        "Stilla havet",
+        "Ishavet"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "tb_sv_023",
       "difficulty": "easy",
       "category": "Geografi",
-      "question": "Vilken är världens största ocean?",
+      "question": "Vilket land är känt för pyramiderna i Giza?",
       "options": [
-        "Atlanten",
-        "Indiska oceanen",
-        "Stilla havet",
-        "Norra ishavet"
+        "Mexiko",
+        "Egypten",
+        "Grekland",
+        "Indien"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_sv_024",
       "difficulty": "easy",
       "category": "Geografi",
-      "question": "I vilket land ligger Tokyo?",
+      "question": "Vad är huvudstaden i Japan?",
       "options": [
-        "Japan",
-        "Kina",
-        "Sydkorea",
-        "Thailand"
+        "Kyoto",
+        "Osaka",
+        "Tokyo",
+        "Hiroshima"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "tb_sv_025",
       "difficulty": "easy",
-      "category": "Historia",
-      "question": "Vem målade Mona Lisa?",
+      "category": "Geografi",
+      "question": "Vilken kontinent ligger Brasilien på?",
       "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
+        "Afrika",
+        "Sydamerika",
+        "Europa",
+        "Asien"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_026",
       "difficulty": "easy",
-      "category": "Kultur",
-      "question": "Vilken grupp sjöng Dancing Queen?",
+      "category": "Geografi",
+      "question": "Vilket är det största landet efter landyta?",
       "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_sv_027",
-      "difficulty": "easy",
-      "category": "Sport",
-      "question": "Hur många spelare har ett fotbollslag på planen?",
-      "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "Kanada",
+        "Kina",
+        "Ryssland",
+        "USA"
       ],
       "correctIndex": 2
     },
     {
-      "id": "tb_sv_028",
+      "id": "tb_sv_027",
       "difficulty": "easy",
-      "category": "Mat",
-      "question": "Vilken svensk vana betyder kaffe och något sött?",
+      "category": "Geografi",
+      "question": "Vilken flod rinner genom London?",
       "options": [
-        "Fika",
-        "Siesta",
-        "Karaoke",
-        "Tapas"
+        "Seine",
+        "Thames",
+        "Donau",
+        "Rhen"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_028",
+      "difficulty": "medium",
+      "category": "Geografi",
+      "question": "Vad är huvudstaden i Australia?",
+      "options": [
+        "Sydney",
+        "Melbourne",
+        "Canberra",
+        "Brisbane"
+      ],
+      "correctIndex": 2
     },
     {
       "id": "tb_sv_029",
-      "difficulty": "easy",
-      "category": "Kultur",
-      "question": "Vilket språk skrivs med hangul?",
+      "difficulty": "medium",
+      "category": "Geografi",
+      "question": "I vilket land ligger Kilimanjaro?",
       "options": [
-        "Japanska",
-        "Koreanska",
-        "Polska",
-        "Svenska"
+        "Kenya",
+        "Tanzania",
+        "Uganda",
+        "Etiopien"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_030",
-      "difficulty": "easy",
-      "category": "Vetenskap",
-      "question": "Vilken gas tar växter upp vid fotosyntes?",
+      "difficulty": "medium",
+      "category": "Geografi",
+      "question": "Vilken öken är den största varma öknen i världen?",
       "options": [
-        "Syre",
-        "Koldioxid",
-        "Kväve",
-        "Väte"
+        "Gobi",
+        "Sahara",
+        "Kalahari",
+        "Mojave"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_031",
-      "difficulty": "easy",
-      "category": "Vetenskap",
-      "question": "Vilken planet kallas den röda planeten?",
+      "difficulty": "medium",
+      "category": "Geografi",
+      "question": "Vilket land har staden Marrakech?",
       "options": [
-        "Venus",
-        "Mars",
-        "Jupiter",
-        "Saturnus"
+        "Tunisien",
+        "Marocko",
+        "Algeriet",
+        "Egypten"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_032",
-      "difficulty": "easy",
-      "category": "Vetenskap",
-      "question": "Vad kallas H2O i vardagligt tal?",
+      "difficulty": "medium",
+      "category": "Geografi",
+      "question": "Vilket hav skiljer Europa och Afrika åt?",
       "options": [
-        "Salt",
-        "Vatten",
-        "Syre",
-        "Socker"
+        "Röda havet",
+        "Medelhavet",
+        "Svarta havet",
+        "Östersjön"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_033",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "category": "Geografi",
-      "question": "Vilken är världens största ocean?",
+      "question": "Vilken delstat i USA är känd som Sunshine State?",
       "options": [
-        "Atlanten",
-        "Indiska oceanen",
-        "Stilla havet",
-        "Norra ishavet"
+        "Kalifornien",
+        "Florida",
+        "Arizona",
+        "Hawaii"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_sv_034",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "category": "Geografi",
-      "question": "I vilket land ligger Tokyo?",
+      "question": "Vilket land har de mest naturliga sjöarna?",
       "options": [
-        "Japan",
-        "Kina",
-        "Sydkorea",
-        "Thailand"
+        "Kanada",
+        "Brasilien",
+        "Ryssland",
+        "Finland"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_sv_035",
-      "difficulty": "easy",
-      "category": "Historia",
-      "question": "Vem målade Mona Lisa?",
+      "difficulty": "hard",
+      "category": "Geografi",
+      "question": "Vad är Kazakstans huvudstad?",
       "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
+        "Almaty",
+        "Astana",
+        "Bisjkek",
+        "Tasjkent"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_036",
-      "difficulty": "easy",
-      "category": "Kultur",
-      "question": "Vilken grupp sjöng Dancing Queen?",
+      "difficulty": "hard",
+      "category": "Geografi",
+      "question": "I vilket land ligger Bledsjön?",
       "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
+        "Slovenien",
+        "Kroatien",
+        "Austria",
+        "Slovakien"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_037",
+      "difficulty": "hard",
+      "category": "Geografi",
+      "question": "Atacamaöknen ligger främst i vilket land?",
+      "options": [
+        "Peru",
+        "Chile",
+        "Bolivia",
+        "Argentina"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_sv_037",
-      "difficulty": "easy",
-      "category": "Sport",
-      "question": "Hur många spelare har ett fotbollslag på planen?",
-      "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
       "id": "tb_sv_038",
-      "difficulty": "easy",
-      "category": "Mat",
-      "question": "Vilken svensk vana betyder kaffe och något sött?",
+      "difficulty": "hard",
+      "category": "Geografi",
+      "question": "Vilken stad är delad mellan Europa och Asien?",
       "options": [
-        "Fika",
-        "Siesta",
-        "Karaoke",
-        "Tapas"
+        "Istanbul",
+        "Aten",
+        "Kairo",
+        "Lissabon"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_sv_039",
-      "difficulty": "easy",
-      "category": "Kultur",
-      "question": "Vilket språk skrivs med hangul?",
+      "difficulty": "hard",
+      "category": "Geografi",
+      "question": "Vilken är den längsta bergskedjan i världen?",
       "options": [
-        "Japanska",
-        "Koreanska",
-        "Polska",
-        "Svenska"
+        "Himalaya",
+        "Anderna",
+        "Klippiga bergen",
+        "Alperna"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_040",
-      "difficulty": "easy",
-      "category": "Vetenskap",
-      "question": "Vilken gas tar växter upp vid fotosyntes?",
+      "difficulty": "hard",
+      "category": "Geografi",
+      "question": "Vilket land använder kronan som valuta?",
       "options": [
-        "Syre",
-        "Koldioxid",
-        "Kväve",
-        "Väte"
+        "Norge",
+        "Polen",
+        "Ungern",
+        "Rumänien"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_sv_041",
       "difficulty": "easy",
-      "category": "Vetenskap",
-      "question": "Vilken planet kallas den röda planeten?",
+      "category": "Historia",
+      "question": "Vilket år sjönk Titanic?",
       "options": [
-        "Venus",
-        "Mars",
-        "Jupiter",
-        "Saturnus"
+        "1908",
+        "1912",
+        "1916",
+        "1920"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_042",
       "difficulty": "easy",
-      "category": "Vetenskap",
-      "question": "Vad kallas H2O i vardagligt tal?",
+      "category": "Historia",
+      "question": "Vem var USA:s första president?",
       "options": [
-        "Salt",
-        "Vatten",
-        "Syre",
-        "Socker"
+        "Thomas Jefferson",
+        "George Washington",
+        "Abraham Lincoln",
+        "John Adams"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_043",
       "difficulty": "easy",
-      "category": "Geografi",
-      "question": "Vilken är världens största ocean?",
+      "category": "Historia",
+      "question": "Stora muren förknippas främst med vilket land?",
       "options": [
-        "Atlanten",
-        "Indiska oceanen",
-        "Stilla havet",
-        "Norra ishavet"
+        "Japan",
+        "Kina",
+        "Indien",
+        "Mongoliet"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_sv_044",
       "difficulty": "easy",
-      "category": "Geografi",
-      "question": "I vilket land ligger Tokyo?",
+      "category": "Historia",
+      "question": "Vem var känd som Maid of Orleans?",
       "options": [
-        "Japan",
-        "Kina",
-        "Sydkorea",
-        "Thailand"
+        "Cleopatra",
+        "Jeanne d'Arc",
+        "Drottning Victoria",
+        "Marie Curie"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_sv_045",
       "difficulty": "easy",
       "category": "Historia",
-      "question": "Vem målade Mona Lisa?",
+      "question": "Vilken forntida civilisation byggde Colosseum?",
       "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
+        "grekiska",
+        "Roman",
+        "Maya",
+        "persiska"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_046",
-      "difficulty": "medium",
-      "category": "Kultur",
-      "question": "Vilken grupp sjöng Dancing Queen?",
+      "difficulty": "easy",
+      "category": "Historia",
+      "question": "Vilket krig slutade 1945?",
       "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
+        "Första världskriget",
+        "Andra världskriget",
+        "Koreakriget",
+        "Vietnamkriget"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_047",
-      "difficulty": "medium",
-      "category": "Sport",
-      "question": "Hur många spelare har ett fotbollslag på planen?",
+      "difficulty": "easy",
+      "category": "Historia",
+      "question": "Vem upptäckte penicillin?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "Alexander Fleming",
+        "Louis Pasteur",
+        "Marie Curie",
+        "Charles Darwin"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "tb_sv_048",
       "difficulty": "medium",
-      "category": "Mat",
-      "question": "Vilken svensk vana betyder kaffe och något sött?",
+      "category": "Historia",
+      "question": "Vem var den första kvinnan som flög solo över Atlanten?",
       "options": [
-        "Fika",
-        "Siesta",
-        "Karaoke",
-        "Tapas"
+        "Amelia Earhart",
+        "Bessie Coleman",
+        "Valentina Tereshkova",
+        "Sally Ride"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_sv_049",
       "difficulty": "medium",
-      "category": "Kultur",
-      "question": "Vilket språk skrivs med hangul?",
+      "category": "Historia",
+      "question": "Vilket år föll Berlinmuren?",
       "options": [
-        "Japanska",
-        "Koreanska",
-        "Polska",
-        "Svenska"
+        "1987",
+        "1989",
+        "1991",
+        "1993"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_050",
       "difficulty": "medium",
-      "category": "Vetenskap",
-      "question": "Vilken gas tar växter upp vid fotosyntes?",
+      "category": "Historia",
+      "question": "Vilket imperium styrdes av Djingis Khan?",
       "options": [
-        "Syre",
-        "Koldioxid",
-        "Kväve",
-        "Väte"
+        "Osmanska riket",
+        "Mongoliska riket",
+        "Romarriket",
+        "Persiska riket"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_051",
       "difficulty": "medium",
-      "category": "Vetenskap",
-      "question": "Vilken planet kallas den röda planeten?",
+      "category": "Historia",
+      "question": "Vem var den första personen som gick på månen?",
       "options": [
-        "Venus",
-        "Mars",
-        "Jupiter",
-        "Saturnus"
+        "Buzz Aldrin",
+        "Jurij Gagarin",
+        "Neil Armstrong",
+        "Michael Collins"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "tb_sv_052",
       "difficulty": "medium",
-      "category": "Vetenskap",
-      "question": "Vad kallas H2O i vardagligt tal?",
+      "category": "Historia",
+      "question": "Renässansen började i vilket modernt land?",
       "options": [
-        "Salt",
-        "Vatten",
-        "Syre",
-        "Socker"
+        "Frankrike",
+        "Italien",
+        "Tyskland",
+        "Spanien"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_053",
       "difficulty": "medium",
-      "category": "Geografi",
-      "question": "Vilken är världens största ocean?",
+      "category": "Historia",
+      "question": "Vilket dokument börjar med orden Vi folket?",
       "options": [
-        "Atlanten",
-        "Indiska oceanen",
-        "Stilla havet",
-        "Norra ishavet"
+        "Magna Carta",
+        "USA:s konstitution",
+        "Självständighetsförklaring",
+        "Bill of Rights"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_sv_054",
       "difficulty": "medium",
-      "category": "Geografi",
-      "question": "I vilket land ligger Tokyo?",
+      "category": "Historia",
+      "question": "Vilken drottning styrde England under en stor del av den viktorianska eran?",
       "options": [
-        "Japan",
-        "Kina",
-        "Sydkorea",
-        "Thailand"
+        "Elizabeth I",
+        "Mary I",
+        "Victoria",
+        "Anne"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "tb_sv_055",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "category": "Historia",
-      "question": "Vem målade Mona Lisa?",
+      "question": "Rosettastenen hjälpte forskare att läsa vilket forntida manus?",
       "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
+        "Kilskrift",
+        "Hieroglyfer",
+        "Sanskrit",
+        "Linjär B"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_056",
-      "difficulty": "medium",
-      "category": "Kultur",
-      "question": "Vilken grupp sjöng Dancing Queen?",
+      "difficulty": "hard",
+      "category": "Historia",
+      "question": "Vem ledde den haitiska revolutionen?",
       "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_sv_057",
-      "difficulty": "medium",
-      "category": "Sport",
-      "question": "Hur många spelare har ett fotbollslag på planen?",
-      "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_sv_058",
-      "difficulty": "medium",
-      "category": "Mat",
-      "question": "Vilken svensk vana betyder kaffe och något sött?",
-      "options": [
-        "Fika",
-        "Siesta",
-        "Karaoke",
-        "Tapas"
+        "Toussaint Louverture",
+        "Simon Bolivar",
+        "Miguel Hidalgo",
+        "José de San Martin"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_sv_059",
-      "difficulty": "medium",
-      "category": "Kultur",
-      "question": "Vilket språk skrivs med hangul?",
+      "id": "tb_sv_057",
+      "difficulty": "hard",
+      "category": "Historia",
+      "question": "Vilket fördrag avslutade första världskriget?",
       "options": [
-        "Japanska",
-        "Koreanska",
-        "Polska",
-        "Svenska"
+        "Parisfördraget",
+        "Versaillesfördraget",
+        "Tordesillasfördraget",
+        "Utrechtfördraget"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_058",
+      "difficulty": "hard",
+      "category": "Historia",
+      "question": "Vilken stad var huvudstad i det bysantinska riket?",
+      "options": [
+        "Rom",
+        "Aten",
+        "Konstantinopel",
+        "Alexandria"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_sv_059",
+      "difficulty": "hard",
+      "category": "Historia",
+      "question": "Vem var den siste faraon i det antika Egypten?",
+      "options": [
+        "Nefertiti",
+        "Kleopatra VII",
+        "Hatshepsut",
+        "Ramses II"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_060",
-      "difficulty": "medium",
-      "category": "Vetenskap",
-      "question": "Vilken gas tar växter upp vid fotosyntes?",
+      "difficulty": "hard",
+      "category": "Historia",
+      "question": "Vilken civilisation skapade Hammurabis kodeks?",
       "options": [
-        "Syre",
-        "Koldioxid",
-        "Kväve",
-        "Väte"
+        "babyloniska",
+        "assyriska",
+        "feniciska",
+        "Hettitiska"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_sv_061",
-      "difficulty": "medium",
-      "category": "Vetenskap",
-      "question": "Vilken planet kallas den röda planeten?",
+      "difficulty": "easy",
+      "category": "Popkultur",
+      "question": "Vad heter Batmans butler?",
       "options": [
-        "Venus",
-        "Mars",
-        "Jupiter",
-        "Saturnus"
+        "James",
+        "Alfred",
+        "George",
+        "Edward"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_062",
-      "difficulty": "medium",
-      "category": "Vetenskap",
-      "question": "Vad kallas H2O i vardagligt tal?",
+      "difficulty": "easy",
+      "category": "Popkultur",
+      "question": "Vilken franchise har Hogwarts?",
       "options": [
-        "Salt",
-        "Vatten",
-        "Syre",
-        "Socker"
+        "Star Wars",
+        "Harry Potter",
+        "The Matrix",
+        "Avatar"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_063",
-      "difficulty": "medium",
-      "category": "Geografi",
-      "question": "Vilken är världens största ocean?",
+      "difficulty": "easy",
+      "category": "Popkultur",
+      "question": "Vilken färg har karaktären Shrek?",
       "options": [
-        "Atlanten",
-        "Indiska oceanen",
-        "Stilla havet",
-        "Norra ishavet"
+        "Blå",
+        "Grönt",
+        "Lila",
+        "Orange"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_sv_064",
-      "difficulty": "medium",
-      "category": "Geografi",
-      "question": "I vilket land ligger Tokyo?",
+      "difficulty": "easy",
+      "category": "Popkultur",
+      "question": "Vilken sångare är känd som Queen of Pop?",
       "options": [
-        "Japan",
-        "Kina",
-        "Sydkorea",
-        "Thailand"
+        "Madonna",
+        "Adele",
+        "Rihanna",
+        "Dua Lipa"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_sv_065",
-      "difficulty": "medium",
-      "category": "Historia",
-      "question": "Vem målade Mona Lisa?",
+      "difficulty": "easy",
+      "category": "Popkultur",
+      "question": "Vilken superhjälte är också känd som Peter Parker?",
       "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
+        "Batman",
+        "Spider-Man",
+        "Stålmannen",
+        "Iron Man"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_066",
-      "difficulty": "medium",
-      "category": "Kultur",
-      "question": "Vilken grupp sjöng Dancing Queen?",
+      "difficulty": "easy",
+      "category": "Popkultur",
+      "question": "Vilken film har en karaktär som heter Elsa?",
       "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
+        "Moana",
+        "Fryst",
+        "Modig",
+        "Trassligt"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_067",
-      "difficulty": "medium",
-      "category": "Sport",
-      "question": "Hur många spelare har ett fotbollslag på planen?",
+      "difficulty": "easy",
+      "category": "Popkultur",
+      "question": "Vilken app är känd för korta virala videor?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_sv_068",
-      "difficulty": "medium",
-      "category": "Mat",
-      "question": "Vilken svensk vana betyder kaffe och något sött?",
-      "options": [
-        "Fika",
-        "Siesta",
-        "Karaoke",
-        "Tapas"
+        "TikTok",
+        "LinkedIn",
+        "Dropbox",
+        "Zooma"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_sv_069",
+      "id": "tb_sv_068",
       "difficulty": "medium",
-      "category": "Kultur",
-      "question": "Vilket språk skrivs med hangul?",
+      "category": "Popkultur",
+      "question": "Vilken är den fiktiva staden där Batman bor?",
       "options": [
-        "Japanska",
-        "Koreanska",
-        "Polska",
-        "Svenska"
+        "Metropolis",
+        "Gotham City",
+        "Star City",
+        "Central City"
       ],
       "correctIndex": 1
     },
     {
+      "id": "tb_sv_069",
+      "difficulty": "medium",
+      "category": "Popkultur",
+      "question": "Vilket band släppte albumet Abbey Road?",
+      "options": [
+        "Beatles",
+        "Drottning",
+        "ABBA",
+        "Rolling Stones"
+      ],
+      "correctIndex": 0
+    },
+    {
       "id": "tb_sv_070",
       "difficulty": "medium",
-      "category": "Vetenskap",
-      "question": "Vilken gas tar växter upp vid fotosyntes?",
+      "category": "Popkultur",
+      "question": "Vem spelar Jack i filmen Titanic från 1997?",
       "options": [
-        "Syre",
-        "Koldioxid",
-        "Kväve",
-        "Väte"
+        "Brad Pitt",
+        "Leonardo DiCaprio",
+        "Tom Cruise",
+        "Matt Damon"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_071",
       "difficulty": "medium",
-      "category": "Vetenskap",
-      "question": "Vilken planet kallas den röda planeten?",
+      "category": "Popkultur",
+      "question": "Vilket tv-program innehåller kaféet Central Perk?",
       "options": [
-        "Venus",
-        "Mars",
-        "Jupiter",
-        "Saturnus"
+        "Vänner",
+        "Seinfeld",
+        "The Office",
+        "Hur jag träffade din mamma"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_sv_072",
       "difficulty": "medium",
-      "category": "Vetenskap",
-      "question": "Vad kallas H2O i vardagligt tal?",
+      "category": "Popkultur",
+      "question": "Vilken spelserie innehåller karaktären Link?",
       "options": [
-        "Salt",
-        "Vatten",
-        "Syre",
-        "Socker"
+        "Final Fantasy",
+        "Legenden om Zelda",
+        "Pokémon",
+        "Sonic"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_073",
       "difficulty": "medium",
-      "category": "Geografi",
-      "question": "Vilken är världens största ocean?",
+      "category": "Popkultur",
+      "question": "Vilken film innehåller citatet May the Force be with you?",
       "options": [
-        "Atlanten",
-        "Indiska oceanen",
-        "Stilla havet",
-        "Norra ishavet"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_sv_074",
-      "difficulty": "medium",
-      "category": "Geografi",
-      "question": "I vilket land ligger Tokyo?",
-      "options": [
-        "Japan",
-        "Kina",
-        "Sydkorea",
-        "Thailand"
+        "Star Wars",
+        "Star Trek",
+        "Dune",
+        "Blade Runner"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_sv_075",
+      "id": "tb_sv_074",
       "difficulty": "medium",
-      "category": "Historia",
-      "question": "Vem målade Mona Lisa?",
+      "category": "Popkultur",
+      "question": "Vad heter leksakscowboyen i Toy Story?",
       "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
+        "Buzz",
+        "Woody",
+        "Andy",
+        "Rex"
       ],
       "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_075",
+      "difficulty": "hard",
+      "category": "Popkultur",
+      "question": "Vilken skådespelare spelade Neo i The Matrix?",
+      "options": [
+        "Keanu Reeves",
+        "Johnny Depp",
+        "Nicolas Cage",
+        "Will Smith"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "tb_sv_076",
-      "difficulty": "medium",
-      "category": "Kultur",
-      "question": "Vilken grupp sjöng Dancing Queen?",
+      "difficulty": "hard",
+      "category": "Popkultur",
+      "question": "Vilken artist släppte albumet Lemonade?",
       "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
+        "Beyonce",
+        "Taylor Swift",
+        "Ariana Grande",
+        "Lady Gaga"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_sv_077",
-      "difficulty": "medium",
-      "category": "Sport",
-      "question": "Hur många spelare har ett fotbollslag på planen?",
+      "difficulty": "hard",
+      "category": "Popkultur",
+      "question": "Vad är Gollums ursprungliga namn i Lord of the Rings?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "Smeagol",
+        "Bilbo",
+        "Deagol",
+        "Faramir"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "tb_sv_078",
-      "difficulty": "medium",
-      "category": "Mat",
-      "question": "Vilken svensk vana betyder kaffe och något sött?",
+      "difficulty": "hard",
+      "category": "Popkultur",
+      "question": "Vilken animerad film innehåller låten Remember Me?",
       "options": [
-        "Fika",
-        "Siesta",
-        "Karaoke",
-        "Tapas"
+        "Coco",
+        "Encanto",
+        "Själ",
+        "Luca"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_sv_079",
-      "difficulty": "medium",
-      "category": "Kultur",
-      "question": "Vilket språk skrivs med hangul?",
+      "difficulty": "hard",
+      "category": "Popkultur",
+      "question": "Vad heter den fiktiva metallen i Black Panther?",
       "options": [
-        "Japanska",
-        "Koreanska",
-        "Polska",
-        "Svenska"
+        "Adamantium",
+        "Vibranium",
+        "Mithril",
+        "Unobtanium"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_080",
-      "difficulty": "medium",
-      "category": "Vetenskap",
-      "question": "Vilken gas tar växter upp vid fotosyntes?",
+      "difficulty": "hard",
+      "category": "Popkultur",
+      "question": "Vilken sitcom utspelar sig på Dunder Mifflin?",
       "options": [
-        "Syre",
-        "Koldioxid",
-        "Kväve",
-        "Väte"
+        "Parker och rekreation",
+        "The Office",
+        "Brooklyn Nine-Nine",
+        "gemenskapen"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_081",
-      "difficulty": "medium",
-      "category": "Vetenskap",
-      "question": "Vilken planet kallas den röda planeten?",
+      "difficulty": "easy",
+      "category": "Mat",
+      "question": "Vilken frukt används traditionellt för att göra guacamole?",
       "options": [
-        "Venus",
-        "Mars",
-        "Jupiter",
-        "Saturnus"
+        "Banan",
+        "Avokado",
+        "Mango",
+        "Kiwi"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_082",
-      "difficulty": "medium",
-      "category": "Vetenskap",
-      "question": "Vad kallas H2O i vardagligt tal?",
+      "difficulty": "easy",
+      "category": "Mat",
+      "question": "Vad förknippas sushi oftast med?",
       "options": [
-        "Salt",
-        "Vatten",
-        "Syre",
-        "Socker"
+        "Japan",
+        "Mexiko",
+        "Italien",
+        "Marocko"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_sv_083",
-      "difficulty": "medium",
-      "category": "Geografi",
-      "question": "Vilken är världens största ocean?",
+      "difficulty": "easy",
+      "category": "Mat",
+      "question": "Vilken nöt används för att göra marsipan?",
       "options": [
-        "Atlanten",
-        "Indiska oceanen",
-        "Stilla havet",
-        "Norra ishavet"
+        "Valnöt",
+        "Hasselnöt",
+        "Mandel",
+        "Jordnöt"
       ],
       "correctIndex": 2
     },
     {
       "id": "tb_sv_084",
-      "difficulty": "medium",
-      "category": "Geografi",
-      "question": "I vilket land ligger Tokyo?",
+      "difficulty": "easy",
+      "category": "Mat",
+      "question": "Vilken är huvudingrediensen i hummus?",
       "options": [
-        "Japan",
-        "Kina",
-        "Sydkorea",
-        "Thailand"
+        "Linser",
+        "Kikärter",
+        "Potatis",
+        "Ris"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_sv_085",
-      "difficulty": "medium",
-      "category": "Historia",
-      "question": "Vem målade Mona Lisa?",
+      "difficulty": "easy",
+      "category": "Mat",
+      "question": "Vilken dryck görs genom att brygga rostade bönor?",
       "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
+        "Te",
+        "Kaffe",
+        "Lemonad",
+        "Cola"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_086",
-      "difficulty": "medium",
-      "category": "Kultur",
-      "question": "Vilken grupp sjöng Dancing Queen?",
+      "difficulty": "easy",
+      "category": "Mat",
+      "question": "Vilken typ av pasta är formad som små rör?",
       "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
+        "Penne",
+        "Spaghetti",
+        "Farfalle",
+        "Lasagne"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_sv_087",
-      "difficulty": "medium",
-      "category": "Sport",
-      "question": "Hur många spelare har ett fotbollslag på planen?",
+      "difficulty": "easy",
+      "category": "Mat",
+      "question": "Vilket land är känt för tacos?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "Italien",
+        "Mexiko",
+        "Thailand",
+        "Grekland"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_sv_088",
       "difficulty": "medium",
       "category": "Mat",
-      "question": "Vilken svensk vana betyder kaffe och något sött?",
+      "question": "Vilken krydda ger curry sin gula färg?",
       "options": [
-        "Fika",
-        "Siesta",
-        "Karaoke",
-        "Tapas"
+        "Kummin",
+        "Gurkmeja",
+        "Paprika",
+        "Kanel"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_sv_089",
       "difficulty": "medium",
-      "category": "Kultur",
-      "question": "Vilket språk skrivs med hangul?",
+      "category": "Mat",
+      "question": "Vilken ost används traditionellt på en Margherita-pizza?",
       "options": [
-        "Japanska",
-        "Koreanska",
-        "Polska",
-        "Svenska"
+        "Cheddar",
+        "Mozzarella",
+        "Feta",
+        "Gouda"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_090",
       "difficulty": "medium",
-      "category": "Vetenskap",
-      "question": "Vilken gas tar växter upp vid fotosyntes?",
+      "category": "Mat",
+      "question": "Vad är tofu huvudsakligen gjord av?",
       "options": [
-        "Syre",
-        "Koldioxid",
-        "Kväve",
-        "Väte"
+        "Sojabönor",
+        "Ris",
+        "Majs",
+        "Jordnötter"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_sv_091",
-      "difficulty": "hard",
-      "category": "Vetenskap",
-      "question": "Vilken planet kallas den röda planeten?",
+      "difficulty": "medium",
+      "category": "Mat",
+      "question": "Vilken efterrätt görs med lager av kaffeindränkta ladyfingers?",
       "options": [
-        "Venus",
-        "Mars",
-        "Jupiter",
-        "Saturnus"
+        "Baklava",
+        "Tiramisu",
+        "Pavlova",
+        "Creme brulee"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_092",
-      "difficulty": "hard",
-      "category": "Vetenskap",
-      "question": "Vad kallas H2O i vardagligt tal?",
+      "difficulty": "medium",
+      "category": "Mat",
+      "question": "Vilken är huvudingrediensen i surkål?",
       "options": [
-        "Salt",
-        "Vatten",
-        "Syre",
-        "Socker"
+        "Kål",
+        "Morot",
+        "Gurka",
+        "Lök"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_sv_093",
-      "difficulty": "hard",
-      "category": "Geografi",
-      "question": "Vilken är världens största ocean?",
+      "difficulty": "medium",
+      "category": "Mat",
+      "question": "Vilken frukt torkas för att göra russin?",
       "options": [
-        "Atlanten",
-        "Indiska oceanen",
-        "Stilla havet",
-        "Norra ishavet"
+        "Vindruvor",
+        "Plommon",
+        "Aprikoser",
+        "FIG"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "tb_sv_094",
-      "difficulty": "hard",
-      "category": "Geografi",
-      "question": "I vilket land ligger Tokyo?",
+      "difficulty": "medium",
+      "category": "Mat",
+      "question": "Vilken sås görs traditionellt med basilika, pinjenötter, vitlök, olivolja och ost?",
       "options": [
-        "Japan",
-        "Kina",
-        "Sydkorea",
-        "Thailand"
+        "Pesto",
+        "Salsa",
+        "Hoisin",
+        "Tahini"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_sv_095",
       "difficulty": "hard",
-      "category": "Historia",
-      "question": "Vem målade Mona Lisa?",
+      "category": "Mat",
+      "question": "Vilket spannmål används för att göra traditionell risotto?",
       "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
+        "Basmati",
+        "Arborio ris",
+        "Quinoa",
+        "Bulgur"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_096",
       "difficulty": "hard",
-      "category": "Kultur",
-      "question": "Vilken grupp sjöng Dancing Queen?",
+      "category": "Mat",
+      "question": "Vilket land är ursprunget till kimchi?",
       "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
+        "Japan",
+        "Kina",
+        "Korea",
+        "Vietnam"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "tb_sv_097",
       "difficulty": "hard",
-      "category": "Sport",
-      "question": "Hur många spelare har ett fotbollslag på planen?",
+      "category": "Mat",
+      "question": "Vad är den franska termen för en tunn pannkaka?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "Crepe",
+        "Brioche",
+        "Eclair",
+        "Macaron"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "tb_sv_098",
       "difficulty": "hard",
       "category": "Mat",
-      "question": "Vilken svensk vana betyder kaffe och något sött?",
+      "question": "Vilken syra ger vinäger sin sura smak?",
       "options": [
-        "Fika",
-        "Siesta",
-        "Karaoke",
-        "Tapas"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "tb_sv_099",
-      "difficulty": "hard",
-      "category": "Kultur",
-      "question": "Vilket språk skrivs med hangul?",
-      "options": [
-        "Japanska",
-        "Koreanska",
-        "Polska",
-        "Svenska"
+        "Citronsyra",
+        "Ättiksyra",
+        "Mjölksyra",
+        "Äppelsyra"
       ],
       "correctIndex": 1
     },
     {
+      "id": "tb_sv_099",
+      "difficulty": "hard",
+      "category": "Mat",
+      "question": "Vilken är huvudingrediensen i traditionell falafel?",
+      "options": [
+        "Kikärter",
+        "Nötkött",
+        "Aubergine",
+        "Ris"
+      ],
+      "correctIndex": 0
+    },
+    {
       "id": "tb_sv_100",
       "difficulty": "hard",
-      "category": "Vetenskap",
-      "question": "Vilken gas tar växter upp vid fotosyntes?",
+      "category": "Mat",
+      "question": "Vilket bakverk används för att göra baklava?",
       "options": [
-        "Syre",
-        "Koldioxid",
-        "Kväve",
-        "Väte"
+        "Smördeg",
+        "Filobakelse",
+        "Sandskorpa",
+        "Chouxbakelse"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_101",
-      "difficulty": "hard",
-      "category": "Vetenskap",
-      "question": "Vilken planet kallas den röda planeten?",
+      "difficulty": "easy",
+      "category": "Djur",
+      "question": "Vilket är det största landdjuret?",
       "options": [
-        "Venus",
-        "Mars",
-        "Jupiter",
-        "Saturnus"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_sv_102",
-      "difficulty": "hard",
-      "category": "Vetenskap",
-      "question": "Vad kallas H2O i vardagligt tal?",
-      "options": [
-        "Salt",
-        "Vatten",
-        "Syre",
-        "Socker"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_sv_103",
-      "difficulty": "hard",
-      "category": "Geografi",
-      "question": "Vilken är världens största ocean?",
-      "options": [
-        "Atlanten",
-        "Indiska oceanen",
-        "Stilla havet",
-        "Norra ishavet"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_sv_104",
-      "difficulty": "hard",
-      "category": "Geografi",
-      "question": "I vilket land ligger Tokyo?",
-      "options": [
-        "Japan",
-        "Kina",
-        "Sydkorea",
-        "Thailand"
+        "Elefant",
+        "Flodhäst",
+        "Noshörning",
+        "Giraff"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_sv_105",
-      "difficulty": "hard",
-      "category": "Historia",
-      "question": "Vem målade Mona Lisa?",
+      "id": "tb_sv_102",
+      "difficulty": "easy",
+      "category": "Djur",
+      "question": "Vilket djur är känt för svarta och vita ränder?",
       "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
+        "Zebra",
+        "Tiger",
+        "Panda",
+        "Skunk"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_103",
+      "difficulty": "easy",
+      "category": "Djur",
+      "question": "Vad gör bin?",
+      "options": [
+        "Mjölk",
+        "Älskling",
+        "Silke",
+        "Endast vax"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_104",
+      "difficulty": "easy",
+      "category": "Djur",
+      "question": "Vilket djur är ett däggdjur?",
+      "options": [
+        "Haj",
+        "Groda",
+        "Delfin",
+        "Krokodil"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_sv_105",
+      "difficulty": "easy",
+      "category": "Djur",
+      "question": "Vad heter en kattunge?",
+      "options": [
+        "Valp",
+        "Kattunge",
+        "Kalv",
+        "Föl"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_106",
-      "difficulty": "hard",
-      "category": "Kultur",
-      "question": "Vilken grupp sjöng Dancing Queen?",
+      "difficulty": "easy",
+      "category": "Djur",
+      "question": "Vilken fågel förknippas ofta med att föda barn i berättelser?",
       "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
+        "Örn",
+        "Stork",
+        "Uggla",
+        "Svanen"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_107",
-      "difficulty": "hard",
-      "category": "Sport",
-      "question": "Hur många spelare har ett fotbollslag på planen?",
+      "difficulty": "easy",
+      "category": "Djur",
+      "question": "Vilket djur är känt för att ha ändrat färg?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "Kameleont",
+        "Koala",
+        "Pingvin",
+        "Kamel"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "tb_sv_108",
-      "difficulty": "hard",
-      "category": "Mat",
-      "question": "Vilken svensk vana betyder kaffe och något sött?",
+      "difficulty": "medium",
+      "category": "Djur",
+      "question": "Vilket är det snabbaste landdjuret?",
       "options": [
-        "Fika",
-        "Siesta",
-        "Karaoke",
-        "Tapas"
+        "Gepard",
+        "Lejon",
+        "Häst",
+        "Känguru"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_sv_109",
-      "difficulty": "hard",
-      "category": "Kultur",
-      "question": "Vilket språk skrivs med hangul?",
+      "difficulty": "medium",
+      "category": "Djur",
+      "question": "Vilket djur har den längsta halsen?",
       "options": [
-        "Japanska",
-        "Koreanska",
-        "Polska",
-        "Svenska"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_sv_110",
-      "difficulty": "hard",
-      "category": "Vetenskap",
-      "question": "Vilken gas tar växter upp vid fotosyntes?",
-      "options": [
-        "Syre",
-        "Koldioxid",
-        "Kväve",
-        "Väte"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_sv_111",
-      "difficulty": "hard",
-      "category": "Vetenskap",
-      "question": "Vilken planet kallas den röda planeten?",
-      "options": [
-        "Venus",
-        "Mars",
-        "Jupiter",
-        "Saturnus"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_sv_112",
-      "difficulty": "hard",
-      "category": "Vetenskap",
-      "question": "Vad kallas H2O i vardagligt tal?",
-      "options": [
-        "Salt",
-        "Vatten",
-        "Syre",
-        "Socker"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "tb_sv_113",
-      "difficulty": "hard",
-      "category": "Geografi",
-      "question": "Vilken är världens största ocean?",
-      "options": [
-        "Atlanten",
-        "Indiska oceanen",
-        "Stilla havet",
-        "Norra ishavet"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "tb_sv_114",
-      "difficulty": "hard",
-      "category": "Geografi",
-      "question": "I vilket land ligger Tokyo?",
-      "options": [
-        "Japan",
-        "Kina",
-        "Sydkorea",
-        "Thailand"
+        "Giraff",
+        "Struts",
+        "Kamel",
+        "Lama"
       ],
       "correctIndex": 0
     },
     {
+      "id": "tb_sv_110",
+      "difficulty": "medium",
+      "category": "Djur",
+      "question": "Vad kallas en grupp lejon pa engelska?",
+      "options": [
+        "Pack",
+        "Herd",
+        "Pride",
+        "Flock"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_sv_111",
+      "difficulty": "medium",
+      "category": "Djur",
+      "question": "Vilket marint djur har tre hjärtan?",
+      "options": [
+        "Bläckfisk",
+        "Delfin",
+        "Havssköldpadda",
+        "Maneter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_112",
+      "difficulty": "medium",
+      "category": "Djur",
+      "question": "Vad äter pandor mest?",
+      "options": [
+        "Bambu",
+        "Fisk",
+        "Gräs",
+        "Frukt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_113",
+      "difficulty": "medium",
+      "category": "Djur",
+      "question": "Vilket djur lägger de största äggen?",
+      "options": [
+        "Struts",
+        "Örn",
+        "Pingvin",
+        "Albatross"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_114",
+      "difficulty": "medium",
+      "category": "Djur",
+      "question": "Vilken insekt kan lyfta många gånger sin egen kroppsvikt?",
+      "options": [
+        "Fjäril",
+        "Ant",
+        "Mygga",
+        "Nyckelpiga"
+      ],
+      "correctIndex": 1
+    },
+    {
       "id": "tb_sv_115",
       "difficulty": "hard",
-      "category": "Historia",
-      "question": "Vem målade Mona Lisa?",
+      "category": "Djur",
+      "question": "Vilket är det enda däggdjur som kan flyga?",
       "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
+        "Flygande ekorre",
+        "Bat",
+        "Sugar glider",
+        "Lemur"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_116",
       "difficulty": "hard",
-      "category": "Kultur",
-      "question": "Vilken grupp sjöng Dancing Queen?",
+      "category": "Djur",
+      "question": "Vilket djur kallas också öknens skepp?",
       "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
+        "Kamel",
+        "Åsna",
+        "Häst",
+        "Yak"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_sv_117",
       "difficulty": "hard",
-      "category": "Sport",
-      "question": "Hur många spelare har ett fotbollslag på planen?",
+      "category": "Djur",
+      "question": "Vilken är den största hajarten?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "Stor vithaj",
+        "Valhaj",
+        "Hammarhaj",
+        "Tigerhaj"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "tb_sv_118",
       "difficulty": "hard",
-      "category": "Mat",
-      "question": "Vilken svensk vana betyder kaffe och något sött?",
+      "category": "Djur",
+      "question": "Vilken fågel kan härma mänskligt tal särskilt bra?",
       "options": [
-        "Fika",
-        "Siesta",
-        "Karaoke",
-        "Tapas"
+        "Papegoja",
+        "Pingvin",
+        "Flamingo",
+        "Sparv"
       ],
       "correctIndex": 0
     },
     {
       "id": "tb_sv_119",
       "difficulty": "hard",
-      "category": "Kultur",
-      "question": "Vilket språk skrivs med hangul?",
+      "category": "Djur",
+      "question": "Vad kallas studiet av fåglar?",
       "options": [
-        "Japanska",
-        "Koreanska",
-        "Polska",
-        "Svenska"
+        "Entomologi",
+        "Ornitologi",
+        "Iktyologi",
+        "Herpetologi"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_120",
       "difficulty": "hard",
-      "category": "Vetenskap",
-      "question": "Vilken gas tar växter upp vid fotosyntes?",
+      "category": "Djur",
+      "question": "Vilket djur har fingeravtryck mycket lika människor?",
       "options": [
-        "Syre",
-        "Koldioxid",
-        "Kväve",
-        "Väte"
+        "Koala",
+        "Känguru",
+        "Panda",
+        "Sengångare"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "tb_sv_121",
-      "difficulty": "hard",
-      "category": "Vetenskap",
-      "question": "Vilken planet kallas den röda planeten?",
+      "difficulty": "easy",
+      "category": "Math",
+      "question": "Vad är 9 gånger 9?",
       "options": [
-        "Venus",
-        "Mars",
-        "Jupiter",
-        "Saturnus"
+        "72",
+        "81",
+        "90",
+        "99"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_122",
-      "difficulty": "hard",
-      "category": "Vetenskap",
-      "question": "Vad kallas H2O i vardagligt tal?",
+      "difficulty": "easy",
+      "category": "Math",
+      "question": "Hur många sidor har en triangel?",
       "options": [
-        "Salt",
-        "Vatten",
-        "Syre",
-        "Socker"
+        "2",
+        "3",
+        "4",
+        "5"
       ],
       "correctIndex": 1
     },
     {
       "id": "tb_sv_123",
-      "difficulty": "hard",
-      "category": "Geografi",
-      "question": "Vilken är världens största ocean?",
+      "difficulty": "easy",
+      "category": "Math",
+      "question": "Vad är hälften av 100?",
       "options": [
-        "Atlanten",
-        "Indiska oceanen",
-        "Stilla havet",
-        "Norra ishavet"
+        "25",
+        "40",
+        "50",
+        "75"
       ],
       "correctIndex": 2
     },
     {
       "id": "tb_sv_124",
-      "difficulty": "hard",
-      "category": "Geografi",
-      "question": "I vilket land ligger Tokyo?",
+      "difficulty": "easy",
+      "category": "Math",
+      "question": "Vad är 12 plus 15?",
       "options": [
-        "Japan",
-        "Kina",
-        "Sydkorea",
-        "Thailand"
+        "25",
+        "27",
+        "29",
+        "31"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "tb_sv_125",
-      "difficulty": "hard",
-      "category": "Historia",
-      "question": "Vem målade Mona Lisa?",
+      "difficulty": "easy",
+      "category": "Math",
+      "question": "Hur många minuter tar en timme?",
       "options": [
-        "Picasso",
-        "Leonardo da Vinci",
-        "Van Gogh",
-        "Monet"
+        "30",
+        "45",
+        "60",
+        "90"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "tb_sv_126",
-      "difficulty": "hard",
-      "category": "Kultur",
-      "question": "Vilken grupp sjöng Dancing Queen?",
+      "difficulty": "easy",
+      "category": "Math",
+      "question": "Vad är 7 i kvadrat?",
       "options": [
-        "Queen",
-        "ABBA",
-        "The Beatles",
-        "Roxette"
+        "14",
+        "21",
+        "49",
+        "77"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_sv_127",
+      "difficulty": "easy",
+      "category": "Math",
+      "question": "Hur många grader är i rät vinkel?",
+      "options": [
+        "45",
+        "60",
+        "90",
+        "180"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_sv_128",
+      "difficulty": "medium",
+      "category": "Math",
+      "question": "Vad är värdet på pi avrundat till två decimaler?",
+      "options": [
+        "3.12",
+        "3.14",
+        "3.16",
+        "3.18"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_sv_127",
-      "difficulty": "hard",
-      "category": "Sport",
-      "question": "Hur många spelare har ett fotbollslag på planen?",
+      "id": "tb_sv_129",
+      "difficulty": "medium",
+      "category": "Math",
+      "question": "Vad är 15 procent av 200?",
+      "options": [
+        "15",
+        "20",
+        "30",
+        "40"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_sv_130",
+      "difficulty": "medium",
+      "category": "Math",
+      "question": "Hur många sidor har en hexagon?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_131",
+      "difficulty": "medium",
+      "category": "Math",
+      "question": "Vad är kvadratroten av 144?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_sv_132",
+      "difficulty": "medium",
+      "category": "Math",
+      "question": "Vad är 3 kuber?",
+      "options": [
+        "9",
+        "18",
+        "27",
+        "81"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_sv_133",
+      "difficulty": "medium",
+      "category": "Math",
+      "question": "Vad är nästa primtal efter 7?",
       "options": [
         "9",
         "10",
@@ -1655,80 +1733,1393 @@
       "correctIndex": 2
     },
     {
-      "id": "tb_sv_128",
-      "difficulty": "hard",
-      "category": "Mat",
-      "question": "Vilken svensk vana betyder kaffe och något sött?",
+      "id": "tb_sv_134",
+      "difficulty": "medium",
+      "category": "Math",
+      "question": "Hur många centimeter är det på en meter?",
       "options": [
-        "Fika",
-        "Siesta",
-        "Karaoke",
-        "Tapas"
+        "10",
+        "100",
+        "1000",
+        "10000"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_135",
+      "difficulty": "hard",
+      "category": "Math",
+      "question": "Vad är summan av de inre vinklarna i en triangel?",
+      "options": [
+        "90 grader",
+        "180 grader",
+        "270 grader",
+        "360 grader"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_136",
+      "difficulty": "hard",
+      "category": "Math",
+      "question": "Vad är 2 i 10 potens?",
+      "options": [
+        "512",
+        "1024",
+        "2048",
+        "4096"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_137",
+      "difficulty": "hard",
+      "category": "Math",
+      "question": "Vilket är det minsta primtalet?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_sv_138",
+      "difficulty": "hard",
+      "category": "Math",
+      "question": "Vad är 1 dividerat med 4 som en decimal?",
+      "options": [
+        "0.2",
+        "0.25",
+        "0.4",
+        "0.5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_139",
+      "difficulty": "hard",
+      "category": "Math",
+      "question": "Hur många ansikten har en kub?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_140",
+      "difficulty": "hard",
+      "category": "Math",
+      "question": "Vad är den romerska siffran för 50?",
+      "options": [
+        "L",
+        "C",
+        "D",
+        "M"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_sv_129",
-      "difficulty": "hard",
-      "category": "Kultur",
-      "question": "Vilket språk skrivs med hangul?",
+      "id": "tb_sv_141",
+      "difficulty": "easy",
+      "category": "Musik",
+      "question": "Hur många strängar brukar en vanlig gitarr ha?",
       "options": [
-        "Japanska",
-        "Koreanska",
-        "Polska",
-        "Svenska"
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_sv_142",
+      "difficulty": "easy",
+      "category": "Musik",
+      "question": "Vilket instrument har svarta och vita tangenter?",
+      "options": [
+        "Gitarr",
+        "Piano",
+        "Violin",
+        "Trumma"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_sv_130",
-      "difficulty": "hard",
-      "category": "Vetenskap",
-      "question": "Vilken gas tar växter upp vid fotosyntes?",
+      "id": "tb_sv_143",
+      "difficulty": "easy",
+      "category": "Musik",
+      "question": "Vem är känd som kungen av pop?",
       "options": [
-        "Syre",
-        "Koldioxid",
-        "Kväve",
-        "Väte"
+        "Elvis Presley",
+        "Michael Jackson",
+        "Prins",
+        "Stevie Wonder"
       ],
       "correctIndex": 1
     },
     {
-      "id": "tb_sv_131",
+      "id": "tb_sv_144",
+      "difficulty": "easy",
+      "category": "Musik",
+      "question": "Vad kallar man en grupp sångare?",
+      "options": [
+        "Kör",
+        "Bandage",
+        "Cast",
+        "Besättning"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_145",
+      "difficulty": "easy",
+      "category": "Musik",
+      "question": "Vilket instrument spelas med båge?",
+      "options": [
+        "Trumpet",
+        "Violin",
+        "Piano",
+        "Flöjt"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_146",
+      "difficulty": "easy",
+      "category": "Musik",
+      "question": "Vad heter musikens hastighet?",
+      "options": [
+        "Tempo",
+        "Pitch",
+        "Harmoni",
+        "Rytm"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_147",
+      "difficulty": "easy",
+      "category": "Musik",
+      "question": "Vilket musikformat kom före CD-skivor för många lyssnare?",
+      "options": [
+        "Kassett",
+        "Blu-ray",
+        "Podcast",
+        "E-bok"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_148",
+      "difficulty": "medium",
+      "category": "Musik",
+      "question": "Vilken kompositör skrev Moonlight Sonata?",
+      "options": [
+        "Mozart",
+        "Beethoven",
+        "Bach",
+        "Chopin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_149",
+      "difficulty": "medium",
+      "category": "Musik",
+      "question": "Hur många toner finns i en vanlig durskala?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_sv_150",
+      "difficulty": "medium",
+      "category": "Musik",
+      "question": "Vilket band hade Freddie Mercury som sångare?",
+      "options": [
+        "Drottning",
+        "U2",
+        "Nirvana",
+        "Oas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_151",
+      "difficulty": "medium",
+      "category": "Musik",
+      "question": "Vad står DJ för?",
+      "options": [
+        "Diskjockey",
+        "Dansdomare",
+        "Digital jam",
+        "Trumbygel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_152",
+      "difficulty": "medium",
+      "category": "Musik",
+      "question": "Vilket instrument är Yo-Yo Ma känt för att spela?",
+      "options": [
+        "Cello",
+        "Violin",
+        "Piano",
+        "Klarinett"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_153",
+      "difficulty": "medium",
+      "category": "Musik",
+      "question": "Vad är en duett?",
+      "options": [
+        "En sång för två artister",
+        "Ett snabbt trumslag",
+        "Ett musikpris",
+        "Ett scenljus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_154",
+      "difficulty": "medium",
+      "category": "Musik",
+      "question": "Vilken genre förknippas ofta med improvisation och swing?",
+      "options": [
+        "Jazz",
+        "Metall",
+        "Opera",
+        "Reggae"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_155",
+      "difficulty": "hard",
+      "category": "Musik",
+      "question": "Vilken klassisk kompositör skrev The Four Seasons?",
+      "options": [
+        "Vivaldi",
+        "Händel",
+        "Haydn",
+        "Schubert"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_156",
+      "difficulty": "hard",
+      "category": "Musik",
+      "question": "Vilken är den lägsta sångrösten för män?",
+      "options": [
+        "Tenor",
+        "Baryton",
+        "Bas",
+        "Alto"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_sv_157",
+      "difficulty": "hard",
+      "category": "Musik",
+      "question": "Vilken ton är en halvton över C?",
+      "options": [
+        "B",
+        "C skarp",
+        "D",
+        "E platt"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_158",
+      "difficulty": "hard",
+      "category": "Musik",
+      "question": "Vad är termen för att gradvis bli högre?",
+      "options": [
+        "Crescendo",
+        "Diminuendo",
+        "Legato",
+        "Staccato"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_159",
+      "difficulty": "hard",
+      "category": "Musik",
+      "question": "Vilken stad är starkt förknippad med jazzens födelse?",
+      "options": [
+        "New Orleans",
+        "Seattle",
+        "Nashville",
+        "Detroit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_160",
+      "difficulty": "hard",
+      "category": "Musik",
+      "question": "Vad heter symbolen i början av en musikstav?",
+      "options": [
+        "Clef",
+        "Fret",
+        "Bro",
+        "Ventil"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_161",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Vem målade Mona Lisa?",
+      "options": [
+        "Vincent van Gogh",
+        "Leonardo da Vinci",
+        "Pablo Picasso",
+        "Claude Monet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_162",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Vilken färg får du genom att blanda rött och blått?",
+      "options": [
+        "Grönt",
+        "Lila",
+        "Orange",
+        "Brun"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_163",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Vilket verktyg används för att applicera färg på en duk?",
+      "options": [
+        "Hammare",
+        "Pensel",
+        "Kompass",
+        "Nål"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_164",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Vad är en skulptur vanligtvis tredimensionell?",
+      "options": [
+        "Ja",
+        "Nej",
+        "Endast på bilder",
+        "Bara på papper"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_165",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Vilket museum är hem för Mona Lisa?",
+      "options": [
+        "Louvren",
+        "Prado",
+        "Tate Modern",
+        "Uffizi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_166",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Vad heter konsten att vika papper?",
+      "options": [
+        "Origami",
+        "Kalligrafi",
+        "Mosaik",
+        "Graffiti"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_167",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Vilken färg görs genom att blanda rött och gult?",
+      "options": [
+        "Blå",
+        "Orange",
+        "Lila",
+        "Vit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_168",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Vem målade Starry Night?",
+      "options": [
+        "Pablo Picasso",
+        "Vincent van Gogh",
+        "Salvador Dali",
+        "Rembrandt"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_169",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Vilken artist är känd för att smälta klockor?",
+      "options": [
+        "Salvador Dali",
+        "Frida Kahlo",
+        "Andy Warhol",
+        "Banksy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_170",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Vad är kalligrafi?",
+      "options": [
+        "Dekorativ handstil",
+        "Stenristning",
+        "Väggmålning",
+        "Fotoredigering"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_171",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Vilken konströrelse förknippas med Claude Monet?",
+      "options": [
+        "Kubism",
+        "Impressionism",
+        "Surrealism",
+        "Popkonst"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_172",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Vad är ett självporträtt?",
+      "options": [
+        "En bild av konstnären av konstnären",
+        "Ett landskap",
+        "Ett gruppfoto",
+        "En skulpturbas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_173",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Vilket material används ofta i keramik?",
+      "options": [
+        "Lera",
+        "Endast glas",
+        "Gummi",
+        "Papper"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_174",
+      "difficulty": "medium",
+      "category": "Art",
+      "question": "Vilken är huvudfärgen i ett monokromt konstverk?",
+      "options": [
+        "En färg",
+        "Två färger",
+        "Alla färger",
+        "Ingen färg"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_175",
+      "difficulty": "hard",
+      "category": "Art",
+      "question": "Vilken konstnär målade Guernica?",
+      "options": [
+        "Pablo Picasso",
+        "Henri Matisse",
+        "Paul Cezanne",
+        "Edvard Munch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_176",
+      "difficulty": "hard",
+      "category": "Art",
+      "question": "Vilken italiensk stad är känd för renässanskonst och Uffizierna?",
+      "options": [
+        "Florens",
+        "Venedig",
+        "Milano",
+        "Neapel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_177",
+      "difficulty": "hard",
+      "category": "Art",
+      "question": "Vad är freskomålning gjord på?",
+      "options": [
+        "Blöt gips",
+        "Glas",
+        "Metall",
+        "Silke"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_178",
+      "difficulty": "hard",
+      "category": "Art",
+      "question": "Vilken artist skapade The Persistence of Memory?",
+      "options": [
+        "Salvador Dali",
+        "Joan Miro",
+        "René Magritte",
+        "Jackson Pollock"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_179",
+      "difficulty": "hard",
+      "category": "Art",
+      "question": "Vilken tryckmetod använder ett snidat block?",
+      "options": [
+        "Träsnitt",
+        "Akvarell",
+        "Collage",
+        "Airbrush"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_180",
+      "difficulty": "hard",
+      "category": "Art",
+      "question": "Vad handlar chiaroscuro om?",
+      "options": [
+        "Ljus och skugga",
+        "Ljud och rytm",
+        "Endast färg",
+        "Perspektivrutnät"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_181",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Hur många spelare finns på planen för ett fotbollslag?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_sv_182",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Vilken sport använder en racket och en fjäderboll?",
+      "options": [
+        "Tennis",
+        "Badminton",
+        "Squash",
+        "Bordtennis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_183",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Hur många poäng är ett frikast värt i basket?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_184",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Vilken sport spelas på Wimbledon?",
+      "options": [
+        "Cricket",
+        "Tennis",
+        "Golf",
+        "Rugby"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_185",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Hur många ringar finns på den olympiska flaggan?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_186",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Vilken sport använder en puck?",
+      "options": [
+        "Ishockey",
+        "Baseball",
+        "Volleyboll",
+        "Boxning"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_187",
+      "difficulty": "easy",
+      "category": "Sport",
+      "question": "Vad klarar löpare i ett stafettlopp?",
+      "options": [
+        "Boll",
+        "Batong",
+        "Flagga",
+        "Handske"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_188",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Tour de France är ett lopp i vilken sport?",
+      "options": [
+        "Löpning",
+        "Cykling",
+        "Simning",
+        "Skidåkning"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_189",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Hur många spelare är på ett vanligt basebolllag på planen?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_sv_190",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Vilket land har vunnit flest fotbolls-VM i herrfotboll?",
+      "options": [
+        "Tyskland",
+        "Argentina",
+        "Brasilien",
+        "Italien"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "tb_sv_191",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "I tennis, vilken poäng kommer efter tvåan?",
+      "options": [
+        "Fördel",
+        "Kärlek",
+        "Börvärde",
+        "Paus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_192",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Vilken sport har en pommelhäst?",
+      "options": [
+        "Gymnastik",
+        "Ridsport",
+        "Polo",
+        "Fäktning"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_193",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Vad är ett hattrick i fotboll?",
+      "options": [
+        "Tre mål av en spelare",
+        "Tre gula kort",
+        "Tre byten",
+        "Tre hörn"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_194",
+      "difficulty": "medium",
+      "category": "Sport",
+      "question": "Vilken sport förknippas med Stanley Cup?",
+      "options": [
+        "Basket",
+        "Ishockey",
+        "Baseball",
+        "Rugby"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_195",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Hur lång är en olympisk pool?",
+      "options": [
+        "25 meter",
+        "50 meter",
+        "75 meter",
+        "100 meter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_196",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Vad kallas ett slag under par i golf?",
+      "options": [
+        "Bogey",
+        "Birdie",
+        "Örn",
+        "Albatross"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_197",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Vilket land var värd för de första moderna olympiska spelen 1896?",
+      "options": [
+        "Frankrike",
+        "Grekland",
+        "Storbritannien",
+        "Italien"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_198",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Vad är det maximala avbrottet i snooker?",
+      "options": [
+        "120",
+        "147",
+        "155",
+        "180"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_199",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Vilken sport använder termen kärlek för noll?",
+      "options": [
+        "Cricket",
+        "Tennis",
+        "Boxning",
+        "Golf"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_200",
+      "difficulty": "hard",
+      "category": "Sport",
+      "question": "Vad står KO för i boxning?",
+      "options": [
+        "Knockout",
+        "Sparka ut",
+        "Håll öppet",
+        "Knuckorder"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_201",
+      "difficulty": "easy",
+      "category": "Teknik",
+      "question": "Vad står CPU för?",
+      "options": [
+        "Central Processing Unit",
+        "Datorströmenhet",
+        "Centralt programverktyg",
+        "Kärnbearbetningsanvändare"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_202",
+      "difficulty": "easy",
+      "category": "Teknik",
+      "question": "Vilken enhet används för att flytta en markör på en dator?",
+      "options": [
+        "Mus",
+        "Högtalare",
+        "Skrivare",
+        "Router"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_203",
+      "difficulty": "easy",
+      "category": "Teknik",
+      "question": "Vad tillåter Wi-Fi enheter att ansluta till?",
+      "options": [
+        "Vatten",
+        "Trådlösa nätverk",
+        "Papper",
+        "Elmotorer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_204",
+      "difficulty": "easy",
+      "category": "Teknik",
+      "question": "Vilket företag tillverkar iPhone?",
+      "options": [
+        "Samsung",
+        "Apple",
+        "Sony",
+        "Nokia"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_205",
+      "difficulty": "easy",
+      "category": "Teknik",
+      "question": "Vad används ett lösenord till?",
+      "options": [
+        "Säkerhet",
+        "Utskrift",
+        "Laddar",
+        "Kylning"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_206",
+      "difficulty": "easy",
+      "category": "Teknik",
+      "question": "Vad ansluter USB vanligtvis?",
+      "options": [
+        "Enheter och datorer",
+        "Skor och strumpor",
+        "Böcker och sidor",
+        "Växter och jord"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_207",
+      "difficulty": "easy",
+      "category": "Teknik",
+      "question": "Vad är en app förkortning för?",
+      "options": [
+        "Ansökan",
+        "Utnämning",
+        "Godkännande",
+        "Bilaga"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_208",
+      "difficulty": "medium",
+      "category": "Teknik",
+      "question": "Vad står URL för?",
+      "options": [
+        "Uniform Resource Locator",
+        "Universal Read Line",
+        "Användarkörningslänk",
+        "Unified Record List"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_209",
+      "difficulty": "medium",
+      "category": "Teknik",
+      "question": "Vad är huvuduppgiften för en router?",
+      "options": [
+        "Lagra foton",
+        "Direkt nätverkstrafik",
+        "Skriv ut dokument",
+        "Skanna endast virus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_210",
+      "difficulty": "medium",
+      "category": "Teknik",
+      "question": "Vilken filtyp används vanligtvis för bilder?",
+      "options": [
+        "JPEG",
+        "MP3",
+        "DOCX",
+        "EXE"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_211",
+      "difficulty": "medium",
+      "category": "Teknik",
+      "question": "Vad står RAM för?",
+      "options": [
+        "Random Access Memory",
+        "Rapid Action Module",
+        "Läs alla media",
+        "Runtime Audio-läge"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_212",
+      "difficulty": "medium",
+      "category": "Teknik",
+      "question": "Vad används molnlagring till?",
+      "options": [
+        "Spara filer online",
+        "Rengöring av skärmar",
+        "Kylning av bärbara datorer",
+        "Laddar telefoner"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_213",
+      "difficulty": "medium",
+      "category": "Teknik",
+      "question": "Vad hjälper GPS att avgöra?",
+      "options": [
+        "Plats",
+        "Batteritid",
+        "Skärmstorlek",
+        "Lösenordsstyrka"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_214",
+      "difficulty": "medium",
+      "category": "Teknik",
+      "question": "Vilken teknik används för kontaktlösa betalningar?",
+      "options": [
+        "NFC",
+        "VHS",
+        "CRT",
+        "DVD"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_215",
+      "difficulty": "hard",
+      "category": "Teknik",
+      "question": "Vad står HTML för?",
+      "options": [
+        "HyperText Markup Language",
+        "High Transfer Machine Logic",
+        "Hem Tool Markup Link",
+        "Hyperlänktext Huvudlista"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_216",
+      "difficulty": "hard",
+      "category": "Teknik",
+      "question": "Vad är tvåfaktorsautentisering utformad för att förbättra?",
+      "options": [
+        "Screen brightness",
+        "Account security",
+        "Download speed",
+        "Audio quality"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_217",
+      "difficulty": "hard",
+      "category": "Teknik",
+      "question": "Vilket talsystem använder bara 0 och 1?",
+      "options": [
+        "Decimal",
+        "Binär",
+        "Hexadecimal",
+        "Roman"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_218",
+      "difficulty": "hard",
+      "category": "Teknik",
+      "question": "What does API stand for?",
+      "options": [
+        "Applikationsprogrammeringsgränssnitt",
+        "Automatiskt programindex",
+        "Applied Pixel Input",
+        "Advanced Process Internet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_219",
+      "difficulty": "hard",
+      "category": "Teknik",
+      "question": "Vad står SSD för?",
+      "options": [
+        "Solid State Drive",
+        "System Storage Disk",
+        "Smart Software Device",
+        "Secure Signal Drive"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_220",
+      "difficulty": "hard",
+      "category": "Teknik",
+      "question": "Which protocol is commonly used to load secure websites?",
+      "options": [
+        "HTTP",
+        "HTTPS",
+        "FTP",
+        "SMTP"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_221",
       "difficulty": "easy",
       "category": "Internet",
-      "question": "Vad betyder DM oftast?",
+      "question": "What does DM usually stand for?",
       "options": [
         "Direktmeddelande",
-        "Dagens meme",
-        "Digitalt läge",
-        "Djup media"
+        "Digital karta",
+        "Dagligt läge",
+        "Dataminne"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_sv_132",
+      "id": "tb_sv_222",
       "difficulty": "easy",
       "category": "Internet",
-      "question": "Vilken plattform är känd för korta vertikala videor?",
+      "question": "Which symbol starts a hashtag?",
+      "options": [
+        "@",
+        "#",
+        "&",
+        "*"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_223",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Vad är en selfie?",
+      "options": [
+        "Ett foto på dig själv",
+        "Ett lösenord",
+        "Ett sökresultat",
+        "Ett tv-spel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_224",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Vilken plattform är mest känd för korta vertikala videor?",
       "options": [
         "TikTok",
         "Wikipedia",
-        "Excel",
-        "Kartor"
+        "Dropbox",
+        "Slack"
       ],
       "correctIndex": 0
     },
     {
-      "id": "tb_sv_133",
+      "id": "tb_sv_225",
       "difficulty": "easy",
       "category": "Internet",
-      "question": "Vad används en skärmdump främst till?",
+      "question": "Vad är en emoji?",
       "options": [
-        "Spara en bild av skärmen",
-        "Spara ett lösenord",
-        "Spara ett batteri",
-        "Spara en ringsignal"
+        "En liten digital ikon",
+        "En webbläsare",
+        "Ett filformat",
+        "En typ av kabel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_226",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Vad betyder LOL vanligtvis online?",
+      "options": [
+        "Mycket ljus",
+        "Skrattar högt",
+        "Lista över länkar",
+        "Låg tur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "tb_sv_227",
+      "difficulty": "easy",
+      "category": "Internet",
+      "question": "Vad används en skärmdump för att spara?",
+      "options": [
+        "Vad finns på en skärm",
+        "En batteriladdning",
+        "Ett telefonsamtal",
+        "Endast ett Wi-Fi lösenord"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_228",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Vad är clickbait designat för att få?",
+      "options": [
+        "Klick",
+        "Sova",
+        "Väderdata",
+        "Endast lösenord"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_229",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Vad betyder URL i dagligt internetanvändning?",
+      "options": [
+        "En webbadress",
+        "En musikfil",
+        "Ett kameraläge",
+        "Ett telefonbatteri"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_230",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Vad är ett meme?",
+      "options": [
+        "Ett skämt eller idé som kan delas",
+        "En typ av tangentbord",
+        "Ett privat lösenord",
+        "En molnserver"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_231",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Vad är nätfiske?",
+      "options": [
+        "En bluff för att stjäla information",
+        "Ett sätt att redigera bilder",
+        "En musikgenre",
+        "Ett videofilter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_232",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Vad betyder livestreaming?",
+      "options": [
+        "Sändning i realtid",
+        "Sparar en fil",
+        "Skriver kod offline",
+        "Skriver ut foton"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_233",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Vad är ett användarnamn?",
+      "options": [
+        "Ett offentligt kontonamn",
+        "Ett datavirus",
+        "En skärmkabel",
+        "Ett betalkort"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_234",
+      "difficulty": "medium",
+      "category": "Internet",
+      "question": "Vad används en webbläsare till?",
+      "options": [
+        "Åtkomst till webbplatser",
+        "Blandar musik",
+        "Ladda enheter",
+        "Rita kartor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_235",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Vad står SEO för?",
+      "options": [
+        "Sökmotoroptimering",
+        "Säker e-postutmatning",
+        "Alternativ för social redigering",
+        "Order för systeminmatning"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_236",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Vad är en cookie i webbsurfning?",
+      "options": [
+        "Lagrade webbplatsdata",
+        "En kortkommando",
+        "Ett fotofilter",
+        "En chattreaktion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_237",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Vad står HTTP för?",
+      "options": [
+        "HyperText Transfer Protocol",
+        "Högteknologisk textprogram",
+        "Port för hemöverföringsverktyg",
+        "Hyperlänkspårningssida"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_238",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Vad står VPN för?",
+      "options": [
+        "Virtuella privata nätverk",
+        "Verifierat offentligt namn",
+        "Visuellt sidnummer",
+        "Videobearbetningsnod"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_239",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Vad brukar tvåvägs videokommunikation kallas?",
+      "options": [
+        "Videosamtal",
+        "Skärmdump",
+        "Bokmärke",
+        "Captcha"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "tb_sv_240",
+      "difficulty": "hard",
+      "category": "Internet",
+      "question": "Vad används en captcha huvudsakligen för att upptäcka?",
+      "options": [
+        "Bots",
+        "Färger",
+        "Skärmstorlek",
+        "Batterinivå"
       ],
       "correctIndex": 0
     }

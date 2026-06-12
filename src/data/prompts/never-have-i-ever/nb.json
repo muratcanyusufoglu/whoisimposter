@@ -1,0 +1,1009 @@
+{
+  "gameId": "never-have-i-ever",
+  "locale": "nb",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "nhie_nb_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang spist en hel pizza alene."
+    },
+    {
+      "id": "nhie_nb_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg vært våken i mer enn 24 timer."
+    },
+    {
+      "id": "nhie_nb_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang ledd så mye at jeg gråt."
+    },
+    {
+      "id": "nhie_nb_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang latet som om jeg kunne en sang og funnet opp ordene."
+    },
+    {
+      "id": "nhie_nb_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang binget en hel TV-sesong på en dag."
+    },
+    {
+      "id": "nhie_nb_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldri brukt pysjamas hele dagen."
+    },
+    {
+      "id": "nhie_nb_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang spist mat som falt på gulvet."
+    },
+    {
+      "id": "nhie_nb_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang gjenbrukt en kopp uten å vaske den."
+    },
+    {
+      "id": "nhie_nb_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang snakket med meg selv offentlig uten å være klar over det."
+    },
+    {
+      "id": "nhie_nb_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang glemt noens navn rett etter å ha blitt introdusert."
+    },
+    {
+      "id": "nhie_nb_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldri lest slutten av en bok før jeg har fullført den."
+    },
+    {
+      "id": "nhie_nb_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang ved et uhell kalt en lærer \"mamma\" eller \"pappa\"."
+    },
+    {
+      "id": "nhie_nb_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldri spilt videospill i mer enn 8 timer i strekk."
+    },
+    {
+      "id": "nhie_nb_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldri vunnet et veddemål."
+    },
+    {
+      "id": "nhie_nb_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang danset offentlig alene."
+    },
+    {
+      "id": "nhie_nb_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang sneket mat inn på en kino."
+    },
+    {
+      "id": "nhie_nb_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang gått helt vill i en by jeg kjenner."
+    },
+    {
+      "id": "nhie_nb_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldri kjøpt noe bare fordi det var på tilbud."
+    },
+    {
+      "id": "nhie_nb_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldri sendt en talemelding ved et uhell."
+    },
+    {
+      "id": "nhie_nb_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldri hoppet over å pusse tennene før jeg legger meg."
+    },
+    {
+      "id": "nhie_nb_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang stalket en eks på sosiale medier etter et brudd."
+    },
+    {
+      "id": "nhie_nb_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang blitt fanget i en løgn og gjort det verre med en annen løgn."
+    },
+    {
+      "id": "nhie_nb_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang dramatisk latet som om jeg ikke så noen offentlig."
+    },
+    {
+      "id": "nhie_nb_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg grått når jeg så en reklamefilm."
+    },
+    {
+      "id": "nhie_nb_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldri googlet meg selv."
+    },
+    {
+      "id": "nhie_nb_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang falskt å være opptatt for å unngå noen."
+    },
+    {
+      "id": "nhie_nb_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldri likt mitt eget innlegg fra en annen konto."
+    },
+    {
+      "id": "nhie_nb_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang avlyttet en samtale som ikke er ment for meg."
+    },
+    {
+      "id": "nhie_nb_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg kjøpt noe dyrt på impuls og angret."
+    },
+    {
+      "id": "nhie_nb_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang blitt venn med noen og håpet de ikke ville legge merke til det."
+    },
+    {
+      "id": "nhie_nb_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang ledd av noe jeg ikke burde ha gjort."
+    },
+    {
+      "id": "nhie_nb_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldri tatt æren for andres arbeid."
+    },
+    {
+      "id": "nhie_nb_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang i hemmelighet dømt noen basert på musikksmak."
+    },
+    {
+      "id": "nhie_nb_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang øvd på en samtale i hodet før jeg hadde den."
+    },
+    {
+      "id": "nhie_nb_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang latet som jeg sovner for å unngå en samtale."
+    },
+    {
+      "id": "nhie_nb_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldri gitt et falskt nummer til noen."
+    },
+    {
+      "id": "nhie_nb_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang misforstått en situasjon og trodd at noen likte meg tilbake."
+    },
+    {
+      "id": "nhie_nb_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang sendt et skjermbilde til personen det handlet om."
+    },
+    {
+      "id": "nhie_nb_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldri startet en gruppechat og deretter ikke deltatt."
+    },
+    {
+      "id": "nhie_nb_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang slettet en kommentar umiddelbart etter å ha postet den."
+    },
+    {
+      "id": "nhie_nb_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang vært på date med mer enn én person i samme uke."
+    },
+    {
+      "id": "nhie_nb_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang kysset noen jeg ikke kjente etternavnet til."
+    },
+    {
+      "id": "nhie_nb_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang utviklet følelser for min beste venn."
+    },
+    {
+      "id": "nhie_nb_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang vært tiltrukket av noen i dette rommet."
+    },
+    {
+      "id": "nhie_nb_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang startet en flørtende samtale og deretter slått ut."
+    },
+    {
+      "id": "nhie_nb_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang blitt avvist og spilt det helt ut som om jeg spøkte."
+    },
+    {
+      "id": "nhie_nb_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang sendt en risikabel melding klokken 02.00 og angret på det om morgenen."
+    },
+    {
+      "id": "nhie_nb_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang holdt på å snakke med noen bare fordi oppmerksomheten føltes hyggelig."
+    },
+    {
+      "id": "nhie_nb_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang laget en historie for å imponere noen jeg likte."
+    },
+    {
+      "id": "nhie_nb_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang gått tilbake til en eks jeg sverget på at jeg var ferdig med."
+    },
+    {
+      "id": "nhie_nb_051",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jeg har aldri fortalt noen at jeg elsket dem når jeg ikke var sikker på at jeg mente det."
+    },
+    {
+      "id": "nhie_nb_052",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang bodd i et forhold jeg visste ikke virket bare for komfort."
+    },
+    {
+      "id": "nhie_nb_053",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang hatt en dramatisk krangel med en bestevenn om noen vi begge likte."
+    },
+    {
+      "id": "nhie_nb_054",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang brukt utseendet mitt for å komme meg ut av problemer."
+    },
+    {
+      "id": "nhie_nb_055",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang sklidd inn i noens DM-er på et innfall."
+    },
+    {
+      "id": "nhie_nb_056",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg grått etter et brudd jeg startet."
+    },
+    {
+      "id": "nhie_nb_057",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang vært sjalu på noen jeg ikke burde vært sjalu på."
+    },
+    {
+      "id": "nhie_nb_058",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang spilt hardt for å få og overdrevet det."
+    },
+    {
+      "id": "nhie_nb_059",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang tilstått følelser på en veldig pinlig måte."
+    },
+    {
+      "id": "nhie_nb_060",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang blitt fristet til å lese en partners telefon."
+    },
+    {
+      "id": "nhie_nb_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang glemt min egen telefon hjemme."
+    },
+    {
+      "id": "nhie_nb_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldri gått på feil buss eller tog."
+    },
+    {
+      "id": "nhie_nb_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang spist dessert før middag."
+    },
+    {
+      "id": "nhie_nb_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang sovet gjennom en alarm."
+    },
+    {
+      "id": "nhie_nb_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang brukt feilaktige sokker ved et uhell."
+    },
+    {
+      "id": "nhie_nb_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang ledd i et alvorlig øyeblikk."
+    },
+    {
+      "id": "nhie_nb_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang sølt en drink på meg selv offentlig."
+    },
+    {
+      "id": "nhie_nb_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang handlet når jeg er sulten."
+    },
+    {
+      "id": "nhie_nb_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg mistet nøklene mine på mer enn en dag."
+    },
+    {
+      "id": "nhie_nb_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang brukt det samme antrekket to dager på rad."
+    },
+    {
+      "id": "nhie_nb_071",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldri glemt å lade telefonen min over natten."
+    },
+    {
+      "id": "nhie_nb_072",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg sunget høyt i bilen alene."
+    },
+    {
+      "id": "nhie_nb_073",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang spist frokostblanding til middag."
+    },
+    {
+      "id": "nhie_nb_074",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldri klippet meg en hårklipp jeg hatet."
+    },
+    {
+      "id": "nhie_nb_075",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldri prøvd å fikse noe og gjort det verre."
+    },
+    {
+      "id": "nhie_nb_076",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang gått inn i feil klasserom eller møte."
+    },
+    {
+      "id": "nhie_nb_077",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang sovnet under en film på kino."
+    },
+    {
+      "id": "nhie_nb_078",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang sendt en melding til feil gruppechat."
+    },
+    {
+      "id": "nhie_nb_079",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang bakt noe som ble forferdelig."
+    },
+    {
+      "id": "nhie_nb_080",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldri hatt en kjæledyrfisk."
+    },
+    {
+      "id": "nhie_nb_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang slumret en alarm mer enn fem ganger."
+    },
+    {
+      "id": "nhie_nb_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang løyet om å være på vei."
+    },
+    {
+      "id": "nhie_nb_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang glemt bursdagen til en nær venn."
+    },
+    {
+      "id": "nhie_nb_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang blitt tatt for å avlytte."
+    },
+    {
+      "id": "nhie_nb_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang latet som om telefonen min døde for å avslutte en samtale."
+    },
+    {
+      "id": "nhie_nb_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang vært forelsket i en kollega eller klassekamerat."
+    },
+    {
+      "id": "nhie_nb_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang lest en gammel chat for å overtenke det."
+    },
+    {
+      "id": "nhie_nb_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldri slettet en melding umiddelbart etter sending."
+    },
+    {
+      "id": "nhie_nb_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang forfulgt noens profil av nysgjerrighet."
+    },
+    {
+      "id": "nhie_nb_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg vært så flau at jeg ville forlate en fest."
+    },
+    {
+      "id": "nhie_nb_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang løyet på en CV."
+    },
+    {
+      "id": "nhie_nb_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang lånt noe og ikke returnert det."
+    },
+    {
+      "id": "nhie_nb_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldri blokkert noen og deretter fjernet blokkeringen for å sjekke."
+    },
+    {
+      "id": "nhie_nb_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang brukt et falskt navn på en kaffebar."
+    },
+    {
+      "id": "nhie_nb_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang ghostet en gruppechat."
+    },
+    {
+      "id": "nhie_nb_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang skyldt på trafikken når jeg dro for sent."
+    },
+    {
+      "id": "nhie_nb_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang sagt \"sett det\" uten å se det."
+    },
+    {
+      "id": "nhie_nb_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang glemt et passord og opprettet en ny konto."
+    },
+    {
+      "id": "nhie_nb_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang ligget i sengen hele dagen med vilje."
+    },
+    {
+      "id": "nhie_nb_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg i all hemmelighet mislikt en venns partner."
+    },
+    {
+      "id": "nhie_nb_101",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang kysset noen jeg møtte den kvelden."
+    },
+    {
+      "id": "nhie_nb_102",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg hatt et hemmelig slengt."
+    },
+    {
+      "id": "nhie_nb_103",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jeg har aldri sendt et risikabelt bilde."
+    },
+    {
+      "id": "nhie_nb_104",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang løyet om forholdet mitt."
+    },
+    {
+      "id": "nhie_nb_105",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang vært på date bare for gratis mat."
+    },
+    {
+      "id": "nhie_nb_106",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang blitt tatt i å snike meg ut."
+    },
+    {
+      "id": "nhie_nb_107",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang hatt følelser for to personer samtidig."
+    },
+    {
+      "id": "nhie_nb_108",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang vært sjalu på en venns forhold."
+    },
+    {
+      "id": "nhie_nb_109",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang slettet meldinger for å skjule noe."
+    },
+    {
+      "id": "nhie_nb_110",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang flørtet for å få en tjeneste."
+    },
+    {
+      "id": "nhie_nb_111",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang bakt småkaker fra bunnen av."
+    },
+    {
+      "id": "nhie_nb_112",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldri sovnet i timen."
+    },
+    {
+      "id": "nhie_nb_113",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang savnet en buss med vilje."
+    },
+    {
+      "id": "nhie_nb_114",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldri bygget en snømann."
+    },
+    {
+      "id": "nhie_nb_115",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang gått en hel dag uten telefonen min."
+    },
+    {
+      "id": "nhie_nb_116",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang brukt det samme antrekket to dager på rad."
+    },
+    {
+      "id": "nhie_nb_117",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldri glemt hvor jeg parkerte."
+    },
+    {
+      "id": "nhie_nb_118",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang sunget høyt i dusjen."
+    },
+    {
+      "id": "nhie_nb_119",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldri gått meg vill i et kjøpesenter."
+    },
+    {
+      "id": "nhie_nb_120",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang prøvd en ny mat og elsket den umiddelbart."
+    },
+    {
+      "id": "nhie_nb_121",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang lånt en bok og ikke levert den tilbake."
+    },
+    {
+      "id": "nhie_nb_122",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang sett et program på en helg."
+    },
+    {
+      "id": "nhie_nb_123",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldri sølt kaffe på skjorten min."
+    },
+    {
+      "id": "nhie_nb_124",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang laget en DIY-gave."
+    },
+    {
+      "id": "nhie_nb_125",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg vært oppe hele natten og snakket."
+    },
+    {
+      "id": "nhie_nb_126",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang hoppet over en treningsøkt jeg planla å gjøre."
+    },
+    {
+      "id": "nhie_nb_127",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang løyet om å være «fem minutter unna»."
+    },
+    {
+      "id": "nhie_nb_128",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jeg har aldri sendt en melding til feil person."
+    },
+    {
+      "id": "nhie_nb_129",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang ødelagt noe og skyldt på noen andre."
+    },
+    {
+      "id": "nhie_nb_130",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aldri har jeg noen gang fått en fartsbot."
+    },
+    {
+      "id": "nhie_nb_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang latet som om jeg liker en gave jeg ikke likte."
+    },
+    {
+      "id": "nhie_nb_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang forfulgt en meny på nettet før jeg gikk ut."
+    },
+    {
+      "id": "nhie_nb_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang meldt meg syk når jeg ikke var det."
+    },
+    {
+      "id": "nhie_nb_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg vært på tur uten noen plan i det hele tatt."
+    },
+    {
+      "id": "nhie_nb_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang blitt tatt i å synge i bilen på rødt lys."
+    },
+    {
+      "id": "nhie_nb_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang trukket en helnatter for å fullføre et prosjekt."
+    },
+    {
+      "id": "nhie_nb_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg grått på en offentlig film."
+    },
+    {
+      "id": "nhie_nb_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang ignorert en tekst med vilje."
+    },
+    {
+      "id": "nhie_nb_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang følt meg skyldig for å kansellere planer."
+    },
+    {
+      "id": "nhie_nb_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang vært flau over min egen ringetone."
+    },
+    {
+      "id": "nhie_nb_141",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang ignorert alarmen min og sovnet igjen."
+    },
+    {
+      "id": "nhie_nb_142",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang falskt å kunne en sang."
+    },
+    {
+      "id": "nhie_nb_143",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg snoket gjennom noens kjøleskap."
+    },
+    {
+      "id": "nhie_nb_144",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg prøvd å lære et språk og slutte."
+    },
+    {
+      "id": "nhie_nb_145",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang skrevet \"lol\" uten å le."
+    },
+    {
+      "id": "nhie_nb_146",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang gått på en date jeg visste ikke ville gå noe sted."
+    },
+    {
+      "id": "nhie_nb_147",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldri vært forelsket i en kollega."
+    },
+    {
+      "id": "nhie_nb_148",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldri vært i en situasjon."
+    },
+    {
+      "id": "nhie_nb_149",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang blitt tatt for å flørte."
+    },
+    {
+      "id": "nhie_nb_150",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang ghostet noen etter en date."
+    },
+    {
+      "id": "nhie_nb_151",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang sendt en risikabel tekstmelding og angret umiddelbart."
+    },
+    {
+      "id": "nhie_nb_152",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jeg har aldri løyet om alderen min."
+    },
+    {
+      "id": "nhie_nb_153",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang kysset noen jeg nettopp har møtt."
+    },
+    {
+      "id": "nhie_nb_154",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jeg har aldri hatt følelser for en venn."
+    },
+    {
+      "id": "nhie_nb_155",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jeg har aldri vært på en datingapp."
+    },
+    {
+      "id": "nhie_nb_156",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang sendt tekstmeldinger til en eks sent på kvelden."
+    },
+    {
+      "id": "nhie_nb_157",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg sovnet under en date."
+    },
+    {
+      "id": "nhie_nb_158",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang gått hjem tidlig for å unngå en dårlig date."
+    },
+    {
+      "id": "nhie_nb_159",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Aldri har jeg noen gang vært sjalu på en venns forhold."
+    },
+    {
+      "id": "nhie_nb_160",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jeg har aldri slettet en melding før de så den."
+    },
+    {
+      "id": "nhie_nb_161",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldri tilfeldigvis likt et gammelt innlegg."
+    },
+    {
+      "id": "nhie_nb_162",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang dempet en gruppechat for fred."
+    },
+    {
+      "id": "nhie_nb_163",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang øvd på et stemmenotat før jeg sendte det."
+    },
+    {
+      "id": "nhie_nb_164",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang lagret et meme for å bruke senere."
+    },
+    {
+      "id": "nhie_nb_165",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang slettet en historie rett etter å ha lagt den ut."
+    },
+    {
+      "id": "nhie_nb_166",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aldri har jeg noen gang forlatt en fest uten å si farvel."
+    },
+    {
+      "id": "nhie_nb_167",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jeg har aldri rage-slutt en vennskapskamp."
+    }
+  ]
+}

@@ -18,7 +18,7 @@ export const GAME_MODES: GameModeDefinition[] = [
     hasRounds: false,
     nameKey: 'games.imposter.name',
     descriptionKey: 'games.imposter.description',
-    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl', 'ja', 'ko', 'zh-Hant', 'sv', 'pl'],
+    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl', 'ja', 'ko', 'zh-Hant', 'sv', 'pl', 'da', 'nb', 'fi', 'hi', 'id'],
   },
   {
     id: 'truth-dare',
@@ -33,7 +33,7 @@ export const GAME_MODES: GameModeDefinition[] = [
     hasRounds: false,
     nameKey: 'games.truth_dare.name',
     descriptionKey: 'games.truth_dare.description',
-    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl', 'ja', 'ko', 'zh-Hant', 'sv', 'pl'],
+    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl', 'ja', 'ko', 'zh-Hant', 'sv', 'pl', 'da', 'nb', 'fi', 'hi', 'id'],
   },
   {
     id: 'never-have-i-ever',
@@ -48,7 +48,7 @@ export const GAME_MODES: GameModeDefinition[] = [
     hasRounds: false,
     nameKey: 'games.nhie.name',
     descriptionKey: 'games.nhie.description',
-    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl', 'ja', 'ko', 'zh-Hant', 'sv', 'pl'],
+    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl', 'ja', 'ko', 'zh-Hant', 'sv', 'pl', 'da', 'nb', 'fi', 'hi', 'id'],
   },
   {
     id: 'most-likely-to',
@@ -63,7 +63,7 @@ export const GAME_MODES: GameModeDefinition[] = [
     hasRounds: false,
     nameKey: 'games.mlt.name',
     descriptionKey: 'games.mlt.description',
-    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl', 'ja', 'ko', 'zh-Hant', 'sv', 'pl'],
+    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl', 'ja', 'ko', 'zh-Hant', 'sv', 'pl', 'da', 'nb', 'fi', 'hi', 'id'],
   },
   {
     id: 'hot-takes',
@@ -78,7 +78,7 @@ export const GAME_MODES: GameModeDefinition[] = [
     hasRounds: false,
     nameKey: 'games.hot_takes.name',
     descriptionKey: 'games.hot_takes.description',
-    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl', 'ja', 'ko', 'zh-Hant', 'sv', 'pl'],
+    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl', 'ja', 'ko', 'zh-Hant', 'sv', 'pl', 'da', 'nb', 'fi', 'hi', 'id'],
   },
   {
     id: 'would-you-rather',
@@ -93,7 +93,7 @@ export const GAME_MODES: GameModeDefinition[] = [
     hasRounds: false,
     nameKey: 'games.wyr.name',
     descriptionKey: 'games.wyr.description',
-    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl', 'ja', 'ko', 'zh-Hant', 'sv', 'pl'],
+    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl', 'ja', 'ko', 'zh-Hant', 'sv', 'pl', 'da', 'nb', 'fi', 'hi', 'id'],
   },
   {
     id: 'two-truths',
@@ -108,7 +108,7 @@ export const GAME_MODES: GameModeDefinition[] = [
     hasRounds: false,
     nameKey: 'games.two_truths.name',
     descriptionKey: 'games.two_truths.description',
-    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl', 'ja', 'ko', 'zh-Hant', 'sv', 'pl'],
+    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl', 'ja', 'ko', 'zh-Hant', 'sv', 'pl', 'da', 'nb', 'fi', 'hi', 'id'],
   },
   {
     id: 'heads-up',
@@ -123,7 +123,7 @@ export const GAME_MODES: GameModeDefinition[] = [
     hasRounds: true,
     nameKey: 'games.heads_up.name',
     descriptionKey: 'games.heads_up.description',
-    supportsLocales: ['en', 'tr', 'de', 'fr', 'es'],
+    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl', 'ja', 'ko', 'zh-Hant', 'sv', 'pl', 'da', 'nb', 'fi', 'hi', 'id'],
   },
   {
     id: 'word-chain',
@@ -153,7 +153,7 @@ export const GAME_MODES: GameModeDefinition[] = [
     hasRounds: false,
     nameKey: 'games.trivia.name',
     descriptionKey: 'games.trivia.description',
-    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl', 'ja', 'ko', 'zh-Hant', 'sv', 'pl'],
+    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl', 'ja', 'ko', 'zh-Hant', 'sv', 'pl', 'da', 'nb', 'fi', 'hi', 'id'],
   },
   {
     id: 'charades',
@@ -168,7 +168,7 @@ export const GAME_MODES: GameModeDefinition[] = [
     hasRounds: true,
     nameKey: 'games.charades.name',
     descriptionKey: 'games.charades.description',
-    supportsLocales: ['en', 'tr', 'de', 'fr', 'es'],
+    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl', 'ja', 'ko', 'zh-Hant', 'sv', 'pl', 'da', 'nb', 'fi', 'hi', 'id'],
   },
   {
     id: 'paranoia',
@@ -183,7 +183,7 @@ export const GAME_MODES: GameModeDefinition[] = [
     hasRounds: false,
     nameKey: 'games.paranoia.name',
     descriptionKey: 'games.paranoia.description',
-    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl', 'ja', 'ko', 'zh-Hant', 'sv', 'pl'],
+    supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl', 'ja', 'ko', 'zh-Hant', 'sv', 'pl', 'da', 'nb', 'fi', 'hi', 'id'],
   },
 ]
 

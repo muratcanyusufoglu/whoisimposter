@@ -1,0 +1,1687 @@
+{
+  "gameId": "would-you-rather",
+  "locale": "id",
+  "version": 2,
+  "prompts": [
+    {
+      "id": "wyr_id_001",
+      "text": "Kamu lebih memilih camilan tanpa batas setiap kali nongkrong, atau selalu boleh memilih musik?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_002",
+      "text": "Kamu lebih memilih selalu menemukan tempat parkir yang sempurna atau tidak pernah mengantri lagi?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_003",
+      "text": "Kamu lebih memilih bangun dengan rambut sempurna atau selalu memilih pakaian yang sempurna dalam satu menit?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_004",
+      "text": "Kamu lebih memilih minum kopi gratis selamanya atau makanan penutup gratis selamanya?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_005",
+      "text": "Kamu lebih memilih menjadi luar biasa di karaoke atau tak terkalahkan di permainan papan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_006",
+      "text": "Kamu lebih memilih tinggal di tepi pantai atau di tengah kota favorit kamu?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_007",
+      "text": "Kamu lebih memilih baterai ponsel selalu terisi penuh atau selalu memiliki Wi-Fi yang sempurna?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_008",
+      "text": "Kamu lebih memilih tidak pernah kehilangan kunci lagi atau tidak pernah lupa alasan kamu masuk ke sebuah ruangan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_009",
+      "text": "Kamu lebih memilih berteleportasi ke kantor atau berteleportasi ke rumah setelah kejadian apa pun?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_010",
+      "text": "Kamu lebih memilih memiliki koki pribadi untuk sarapan atau sopir pribadi di akhir pekan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_011",
+      "text": "Kamu lebih memilih menonton komedi selama setahun atau hanya mendengarkan musik upbeat selama setahun?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_012",
+      "text": "Kamu lebih memilih memenangkan setiap malam pertandingan atau selalu membuat semua orang tertawa di malam pertandingan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_013",
+      "text": "Kamu lebih memilih memiliki apartemen mungil dengan pemandangan menakjubkan atau rumah besar di tempat yang membosankan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_014",
+      "text": "Kamu lebih memilih menjadi terkenal karena masakan kamu atau gerakan tarian kamu?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_015",
+      "text": "Kamu lebih memilih selalu mengetahui menu terbaik atau selalu memilih film terbaik?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_016",
+      "text": "Kamu lebih memilih melakukan perjalanan sehari secara spontan atau merencanakan liburan akhir pekan yang sempurna?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_017",
+      "text": "Kamu lebih memilih memiliki lemari yang dapat ditata sendiri atau lemari es yang dapat diisi ulang sendiri?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_018",
+      "text": "Kamu lebih memilih tidak mencuci pakaian lagi atau mencuci piring lagi?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_019",
+      "text": "Kamu lebih memilih selalu mendapatkan potongan pizza terakhir atau selalu mendapatkan tempat duduk terbaik?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_020",
+      "text": "Kamu lebih memilih tombol mute ajaib untuk tempat berisik, atau tombol skip untuk basa-basi canggung?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_021",
+      "text": "Kamu lebih memilih tidur siang di mana saja atau langsung bangun dengan segar setiap pagi?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_022",
+      "text": "Kamu lebih memilih cuaca selalu sempurna di hari libur atau tidak ada kemacetan saat kamu terlambat?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_023",
+      "text": "Kamu lebih memilih mendapatkan tiket konser gratis selamanya atau tiket bioskop gratis selamanya?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_024",
+      "text": "Kamu lebih memilih pandai mengambil foto atau hebat dalam memotret?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_025",
+      "text": "Kamu lebih memilih selalu mengingat nama atau selalu mengingat hari ulang tahun?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_026",
+      "text": "Kamu lebih memilih memiliki rumah dengan ruang rahasia atau tempat nongkrong di rooftop?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_027",
+      "text": "Kamu lebih memilih hanya bepergian dengan kereta api atau hanya melakukan perjalanan darat?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_028",
+      "text": "Kamu lebih memilih hidup tanpa lift atau tanpa eskalator?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_029",
+      "text": "Kamu lebih memilih selalu mendapatkan comeback yang sempurna atau selalu tetap tenang di bawah tekanan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_030",
+      "text": "Kamu lebih memilih menjadi juru masak terbaik di kelompok teman kamu atau pendongeng terbaik?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_031",
+      "text": "Kamu lebih memilih tombol mundur untuk momen memalukan atau tombol jeda untuk momen sempurna?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_032",
+      "text": "Kamu lebih memilih hanya memakai warna favorit kamu selamanya atau tidak pernah mengulangi pakaian yang sama?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_033",
+      "text": "Kamu lebih memilih memiliki buku tanpa batas atau permainan tanpa batas?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_034",
+      "text": "Kamu lebih memilih mempelajari resep apa pun secara instan atau lagu apa pun secara instan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_035",
+      "text": "Kamu lebih memilih selalu memiliki ruang untuk pencuci mulut atau tidak pernah merasa terlalu kenyang?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_036",
+      "text": "Kamu lebih memilih menjadi tuan rumah di setiap pesta atau diundang ke setiap pesta?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_037",
+      "text": "Kamu lebih memilih memiliki rumah dengan dapur raksasa atau ruang permainan raksasa?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_038",
+      "text": "Kamu lebih memilih hanya menggunakan catatan suara atau hanya menggunakan emoji selama satu minggu?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_039",
+      "text": "Kamu lebih memilih datang lebih awal atau datang tepat waktu setiap saat?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_040",
+      "text": "Kamu lebih memilih memiliki ingatan yang sempurna untuk wajah atau petunjuk arah?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_041",
+      "text": "Kamu lebih memilih menjeda iklan atau melewatkan tugas?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_042",
+      "text": "Kamu lebih memilih selalu mencari uang di kantong lama atau selalu mendapat diskon kejutan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_043",
+      "text": "Kamu lebih memilih memiliki kamar tidur impian atau dapur impian kamu?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_044",
+      "text": "Kamu lebih memilih membuat minuman apa pun dengan sempurna atau camilan apa pun dengan sempurna?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_045",
+      "text": "Kamu lebih memilih tidak membutuhkan payung atau tidak membutuhkan tabir surya?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_046",
+      "text": "Kamu lebih memilih mendapat satu jam tambahan setiap pagi atau satu jam tambahan setiap malam?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_047",
+      "text": "Kamu lebih memilih tinggal di atas toko roti atau di samping bioskop?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_048",
+      "text": "Kamu lebih memilih selalu memilih restoran atau selalu memilih aktivitas?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_049",
+      "text": "Kamu lebih memilih memiliki playlist pribadi untuk setiap suasana hati atau pakaian yang sempurna untuk setiap rencana?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_050",
+      "text": "Kamu lebih memilih menjadi teman dengan nasihat terbaik atau teman dengan camilan terbaik?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_051",
+      "text": "Kamu lebih memilih hanya makan makanan sarapan untuk makan malam atau makanan makan malam untuk sarapan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_052",
+      "text": "Kamu lebih memilih tidak perlu mengisi daya perangkat atau memperbarui aplikasi?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_053",
+      "text": "Kamu lebih memilih memiliki tulisan tangan yang sempurna atau keterampilan membungkus kado yang sempurna?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_054",
+      "text": "Kamu lebih memilih langsung membersihkan kamar atau langsung mengatur foto ponsel kamu?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_055",
+      "text": "Kamu lebih memilih selalu memiliki seprai baru atau selalu memiliki handuk segar?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_056",
+      "text": "Kamu lebih memilih menjadi tak terkalahkan dalam hal-hal sepele atau tak terkalahkan dalam permainan tebak-tebakan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_057",
+      "text": "Kamu lebih memilih memiliki balkon dengan pemandangan atau ruang tamu yang dibuat untuk pesta?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_058",
+      "text": "Kamu lebih memilih tidak menumpahkan minuman lagi atau menjatuhkan ponsel kamu lagi?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_059",
+      "text": "Kamu lebih memilih selalu mengingat mimpi kamu atau tidak pernah mengalami mimpi buruk?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_060",
+      "text": "Kamu lebih memilih mendapat penerbangan gratis setahun sekali atau hotel gratis dua kali setahun?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_061",
+      "text": "Kamu lebih memilih menjadi fasih dalam bahasa baru dalam semalam atau menguasai instrumen baru dalam semalam?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_062",
+      "text": "Kamu lebih memilih selalu mendapatkan pencahayaan yang sempurna untuk foto atau tidak pernah berkedip saat foto?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_063",
+      "text": "Kamu lebih memilih mendapat hari libur kejutan setiap bulan atau liburan kejutan setiap tahun?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_064",
+      "text": "Kamu lebih memilih hanya mengirim teks dalam huruf kecil atau hanya teks dengan tanda baca sempurna?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_065",
+      "text": "Kamu lebih memilih menikmati akhir pekan kabin yang nyaman atau akhir pekan kota yang sibuk?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_066",
+      "text": "Kamu lebih memilih dikenal karena gaya kamu atau selera humor kamu?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_067",
+      "text": "Kamu lebih memilih selalu memilih jalur pembayaran tercepat atau selalu langsung naik lift?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_068",
+      "text": "Kamu lebih memilih tidak pernah kehabisan penyimpanan di ponsel atau tidak pernah kehabisan baterai?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_069",
+      "text": "Kamu lebih memilih mendekorasi ruangan dengan sempurna atau mengemas koper dengan sempurna?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_070",
+      "text": "Kamu lebih memilih hanya minum air putih selamanya atau hanya minum satu minuman favorit selamanya?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_071",
+      "text": "Kamu lebih memilih selalu tidur nyenyak atau selalu bangun dengan suasana hati yang baik?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_072",
+      "text": "Kamu lebih memilih menjadi orang yang dimintai rekomendasi oleh semua orang atau orang yang diminta semua orang untuk merencanakan perjalanan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_073",
+      "text": "Kamu lebih memilih memiliki ramalan cuaca pribadi yang selalu benar atau kalender yang dapat direncanakan sendiri?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_074",
+      "text": "Kamu lebih memilih tidak perlu membersihkan kamar mandi atau tidak perlu membersihkan dapur?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_075",
+      "text": "Kamu lebih memilih pandai membuat kue atau pandai memanggang?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_076",
+      "text": "Kamu lebih memilih mendapatkan kursi barisan depan setahun sekali atau makanan ringan VIP setiap saat?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_077",
+      "text": "Kamu lebih memilih selalu menemukan kafe tersembunyi terbaik atau selalu menemukan sudut pandang terbaik?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_078",
+      "text": "Kamu lebih memilih memiliki pakaian yang sempurna selama seminggu atau makanan yang sempurna selama seminggu?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_079",
+      "text": "Kamu lebih memilih memenangkan persediaan sepatu seumur hidup atau persediaan headphone seumur hidup?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_080",
+      "text": "Kamu lebih memilih selalu mengetahui liriknya atau selalu mengetahui tariannya?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_081",
+      "text": "Kamu lebih memilih memperbaiki masalah teknologi atau merakit furnitur apa pun tanpa instruksi?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_082",
+      "text": "Kamu lebih memilih memiliki tas ransel ajaib yang tidak pernah berat atau koper yang bisa dikemas sendiri?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_083",
+      "text": "Kamu lebih memilih selalu memiliki rambut yang bagus atau selalu memiliki kulit yang bersih?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_084",
+      "text": "Kamu lebih memilih mengambil foto selfie grup terbaik atau membuat rencana grup terbaik?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_085",
+      "text": "Kamu lebih memilih melewatkan satu tugas membosankan setiap hari atau mendapatkan satu kejutan menyenangkan setiap hari?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_086",
+      "text": "Kamu lebih memilih tinggal di suatu tempat dengan musim panas yang tiada habisnya atau cuaca nyaman yang tiada habisnya?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_087",
+      "text": "Kamu lebih memilih tidak pernah memasang iklan online atau tidak pernah menerima pesan spam?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_088",
+      "text": "Kamu lebih memilih selalu memilih nama pengguna yang bagus atau selalu menulis teks yang bagus?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_089",
+      "text": "Kamu lebih memilih menjadi yang terbaik dalam membungkus kado atau yang terbaik dalam memilih kado?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_090",
+      "text": "Kamu lebih memilih menonton film malam tanpa batas di rumah atau makan siang tanpa batas di luar?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_091",
+      "text": "Kamu lebih memilih memiliki taman pribadi kecil atau atap bersama yang besar?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_092",
+      "text": "Kamu lebih memilih menggunakan sendok kecil selamanya atau selalu minum dari cangkir kecil?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_093",
+      "text": "Kamu lebih memilih membuat ruangan menjadi nyaman atau membuat playlist menjadi sempurna?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_094",
+      "text": "Kamu lebih memilih selalu memiliki pengisi daya yang tepat atau selalu memiliki kata sandi yang benar?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_095",
+      "text": "Kamu lebih memilih tidak pernah lupa kata sandi atau tidak pernah lupa di mana kamu parkir?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_096",
+      "text": "Kamu lebih memilih memiliki lemari yang tertata sempurna atau rol kamera yang tertata sempurna?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_097",
+      "text": "Kamu lebih memilih menjadi orang pertama yang mencoba suatu tren atau menjadi orang terakhir yang bosan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_098",
+      "text": "Kamu lebih memilih selalu menyediakan meja di restoran atau selalu mendapatkan makanan penutup gratis?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_099",
+      "text": "Kamu lebih memilih memiliki lagu sensasi pribadi atau lampu masuk pribadi?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_100",
+      "text": "Kamu lebih memilih jago membuat kesan pertama, atau jago memberi pelukan perpisahan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_id_101",
+      "text": "Kamu lebih memilih dihormati oleh semua orang atau dipahami secara mendalam oleh segelintir orang?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_102",
+      "text": "Kamu lebih memilih mengetahui ketika seseorang berbohong atau selalu dipercaya ketika kamu mengatakan yang sebenarnya?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_103",
+      "text": "Kamu lebih memilih memiliki pekerjaan impian dengan gaji rendah atau pekerjaan membosankan dengan gaji luar biasa?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_104",
+      "text": "Kamu lebih memilih pindah ke luar negeri sendirian atau tinggal di kampung halaman selamanya?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_105",
+      "text": "Kamu lebih memilih menjadi orang terpintar di ruangan itu atau menjadi orang yang paling dipercaya semua orang?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_106",
+      "text": "Kamu lebih memilih selalu mengetahui kebenaran atau selalu mengetahui hal yang benar untuk dikatakan?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_107",
+      "text": "Kamu lebih memilih memiliki sekelompok kecil teman setia atau jaringan besar teman biasa?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_108",
+      "text": "Kamu lebih memilih dikenang karena kebaikannya atau karena ambisinya?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_109",
+      "text": "Kamu lebih memilih sukses di awal dan kehabisan tenaga atau sukses perlahan dan menikmati prosesnya?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_110",
+      "text": "Kamu lebih memilih setiap kesalahan dilupakan atau setiap perbuatan baik diingat?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_111",
+      "text": "Kamu lebih memilih menghidupkan kembali satu hari yang sempurna atau menghapus satu hari yang buruk?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_112",
+      "text": "Kamu lebih memilih memaafkan secara instan atau tidak pernah tertipu dua kali?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_113",
+      "text": "Kamu lebih memilih lebih percaya diri atau lebih disiplin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_114",
+      "text": "Kamu lebih memilih mengetahui apa yang pertama kali dipikirkan orang tentang kamu atau apa yang mereka katakan setelah kamu pergi?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_115",
+      "text": "Kamu lebih memilih dicintai karena siapa kamu sekarang atau dikagumi karena kamu bisa menjadi apa?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_116",
+      "text": "Kamu lebih memilih selalu sibuk dengan hal-hal yang kamu sukai atau selalu punya waktu luang tetapi merasa bosan?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_117",
+      "text": "Kamu lebih memilih memiliki satu peluang besar dan mempertaruhkan segalanya atau banyak peluang kecil dengan kemajuan yang lambat?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_118",
+      "text": "Kamu lebih memilih menjadi terkenal selama lima tahun atau dihormati seumur hidup?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_119",
+      "text": "Kamu lebih memilih kehilangan semua foto atau semua pesan kamu?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_120",
+      "text": "Kamu lebih memilih riwayat penelusuran kamu dipublikasikan atau kamera kamu diputar publik?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_121",
+      "text": "Kamu lebih memilih selalu mengatakan apa yang kamu pikirkan atau selalu menjaga perdamaian?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_122",
+      "text": "Kamu lebih memilih mempunyai teman yang sangat jujur atau yang selalu mendukung?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_123",
+      "text": "Kamu lebih memilih menjadi perencana di setiap kelompok atau menjadi orang yang tidak pernah membuat rencana?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_124",
+      "text": "Kamu lebih memilih menjadi luar biasa dalam percakapan yang mendalam atau luar biasa dalam membuat orang merasa nyaman?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_125",
+      "text": "Kamu lebih memilih tahu persis ke mana arah hidup kamu atau terkejut karenanya?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_126",
+      "text": "Kamu lebih memilih berhenti menggunakan media sosial selama setahun atau streaming selama setahun?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_127",
+      "text": "Kamu lebih memilih mendapat cuti setahun dengan gaji atau promosi yang benar-benar kamu inginkan?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_128",
+      "text": "Kamu lebih memilih selalu diremehkan atau selalu dilebih-lebihkan?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_129",
+      "text": "Kamu lebih memilih jika semua orang mengetahui tujuan terbesar kamu atau ketakutan terbesar kamu?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_130",
+      "text": "Kamu lebih memilih memulai kembali karier kamu atau memulai kembali satu persahabatan?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_131",
+      "text": "Kamu lebih memilih menjadi orang yang dihubungi saat krisis atau menjadi orang yang mereka hubungi untuk merayakannya?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_132",
+      "text": "Kamu lebih memilih tidak pernah merasa malu atau tidak pernah merasa cemburu?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_133",
+      "text": "Kamu lebih memilih menghapus satu memori atau memutar ulang satu memori kapan pun kamu mau?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_134",
+      "text": "Kamu lebih memilih mengetahui akhir dari setiap film atau hasil dari setiap keputusan?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_135",
+      "text": "Kamu lebih memilih memiliki reputasi yang sempurna dengan orang asing atau jujur dengan teman?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_136",
+      "text": "Kamu lebih memilih selalu memenangkan argumen atau selalu meninggalkan argumen dengan perasaan damai?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_137",
+      "text": "Kamu lebih memilih menjadi hebat dalam menghasilkan uang atau hebat dalam mengelola uang?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_138",
+      "text": "Kamu lebih memilih masa depan kamu direncanakan oleh orang bijak atau memilih semuanya sendiri tanpa nasihat?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_139",
+      "text": "Kamu lebih memilih menjadi orang paling lucu di grup kamu atau orang paling tenang dalam suatu krisis?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_140",
+      "text": "Kamu lebih memilih satu mimpi menjadi kenyataan sekarang atau lima mimpi kecil menjadi kenyataan seiring berjalannya waktu?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_141",
+      "text": "Kamu lebih memilih bisa membaca satu orang secara lengkap atau memahami orang banyak dengan sempurna?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_142",
+      "text": "Kamu lebih memilih mendapatkan penutupan untuk setiap akhir atau kesempatan kedua di satu akhir?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_143",
+      "text": "Kamu lebih memilih dikenal sebagai orang yang misterius atau sepenuhnya transparan?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_144",
+      "text": "Kamu lebih memilih memiliki pekerjaan yang membuat orang terkesan atau kehidupan yang terasa damai?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_145",
+      "text": "Kamu lebih memilih terlalu setia, atau terlalu mandiri?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_146",
+      "text": "Kamu lebih memilih selalu memiliki keberanian untuk memulai atau kesabaran untuk menyelesaikannya?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_147",
+      "text": "Kamu lebih memilih meminta maaf secara sempurna atau menghadapi seseorang tanpa rasa takut?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_148",
+      "text": "Kamu lebih memilih mengalami kegagalan terbesar secara online selamanya atau rahasia terbesar kamu dalam obrolan grup?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_149",
+      "text": "Kamu lebih memilih hidup di masa lalu dengan lebih banyak privasi atau di masa depan dengan lebih banyak kenyamanan?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_150",
+      "text": "Kamu lebih memilih selalu menjadi orang yang bertanggung jawab atau tidak pernah dipercaya untuk bertanggung jawab?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_151",
+      "text": "Kamu lebih memilih mengubah satu keputusan yang kamu buat atau melihat satu keputusan yang hampir kamu buat?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_152",
+      "text": "Kamu lebih memilih kehilangan zona nyaman atau kehilangan ambisi?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_153",
+      "text": "Kamu lebih memilih dikagumi dari jauh atau dicintai dari dekat?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_154",
+      "text": "Kamu lebih memilih tidak pernah membandingkan diri kamu dengan orang lain atau tidak peduli dengan apa yang dipikirkan orang lain?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_155",
+      "text": "Kamu lebih memilih mendapat peringatan sebelum setiap keputusan buruk atau hadiah setelah setiap keputusan yang berani?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_156",
+      "text": "Kamu lebih memilih membuat orang lain tertawa atau membuat orang lain merasa aman?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_157",
+      "text": "Kamu lebih memilih memiliki ingatan yang sempurna atau kemampuan yang sempurna untuk melanjutkan hidup?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_158",
+      "text": "Kamu lebih memilih menghabiskan satu tahun untuk membangun tubuh atau pikiran kamu?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_159",
+      "text": "Kamu lebih memilih menjadi tokoh utama dalam cerita yang tenang atau menjadi tokoh sampingan dalam cerita yang epik?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_160",
+      "text": "Kamu lebih memilih tahu mengapa seseorang pergi atau tidak pernah tahu dan sembuh lebih cepat?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_161",
+      "text": "Apakah kamu lebih memilih untuk selalu jujur ​​terhadap perasaanmu atau selalu melindungi perasaan orang lain?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_162",
+      "text": "Kamu lebih memilih memiliki motivasi tanpa batas atau kesabaran tanpa batas?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_163",
+      "text": "Kamu lebih memilih dapat mengenali tanda bahaya secara instan atau melihat potensi tersembunyi secara instan?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_164",
+      "text": "Kamu lebih memilih memperbaiki satu hubungan masa lalu atau mencegah satu kesalahan di masa depan?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_165",
+      "text": "Kamu lebih memilih selalu memilih kenyamanan atau selalu memilih pertumbuhan?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_166",
+      "text": "Kamu lebih memilih dikelilingi oleh orang-orang yang menantang kamu atau orang-orang yang menghibur kamu?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_167",
+      "text": "Kamu lebih memilih menjalani rutinitas harian yang sempurna atau petualangan sempurna sekali seumur hidup?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_168",
+      "text": "Kamu lebih memilih menjadi berbakat secara diam-diam atau rata-rata di depan umum?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_169",
+      "text": "Kamu lebih memilih tidak memerlukan persetujuan atau selalu menerima dorongan?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_170",
+      "text": "Kamu lebih memilih memiliki teman yang mengingat setiap detail atau yang selalu muncul setiap saat?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_171",
+      "text": "Kamu lebih memilih menghentikan kebiasaan apa pun secara instan atau membangun kebiasaan apa pun secara instan?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_172",
+      "text": "Kamu lebih memilih membiarkan diri kamu yang lebih muda melihat kehidupan kamu sekarang atau diri kamu di masa depan mengirimkan satu kalimat kembali?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_173",
+      "text": "Kamu lebih memilih menjadi orang yang mengubah suatu kelompok atau menjadi orang yang diubah oleh suatu kelompok menjadi lebih baik?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_174",
+      "text": "Kamu lebih memilih selalu mengetahui kerugian dari suatu pilihan atau selalu mengetahui manfaatnya?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_175",
+      "text": "Kamu lebih memilih untuk tidak takut selama satu tahun atau bijaksana selama sisa hidup kamu?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_176",
+      "text": "Kamu lebih memilih menjalani kehidupan yang terlihat menarik saat online atau terasa menyenangkan saat offline?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_177",
+      "text": "Kamu lebih memilih berhenti berpikir berlebihan atau berhenti menunda-nunda?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_178",
+      "text": "Kamu lebih memilih dikenal karena satu mahakarya atau banyak usaha yang solid?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_179",
+      "text": "Kamu lebih memilih membiarkan setiap pintu terbuka tetapi tidak ada arah yang jelas atau satu jalan yang jelas tanpa alternatif?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_180",
+      "text": "Kamu lebih memilih jadi orang pertama yang memaafkan, atau orang pertama yang pergi?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_181",
+      "text": "Kamu lebih memilih memiliki mentor untuk setiap masalah atau teman untuk setiap hari yang sulit?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_182",
+      "text": "Kamu lebih memilih bisa memprediksi suasana hati kamu besok atau memahami suasana hati kamu hari ini?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_183",
+      "text": "Kamu lebih memilih menjadi kaya secara diam-diam atau menjadi orang berpengaruh di depan umum?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_184",
+      "text": "Kamu lebih memilih tidak pernah merasa kesepian atau tidak pernah merasa disalahpahami?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_185",
+      "text": "Kamu lebih memilih bisa memenangkan hati orang secara instan atau mengetahui siapa yang pantas untuk kamu secara instan?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_186",
+      "text": "Kamu lebih memilih dikenal karena mengambil risiko atau membuat pilihan yang bijaksana?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_187",
+      "text": "Kamu lebih memilih selalu memiliki rencana cadangan atau tidak memerlukannya?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_188",
+      "text": "Kamu lebih memilih menghilangkan satu kebiasaan buruk atau memperoleh satu keterampilan yang mengesankan?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_189",
+      "text": "Kamu lebih memilih menjalani kehidupan yang tenang dengan sedikit kejutan atau kehidupan yang kacau dengan cerita yang tak terlupakan?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_190",
+      "text": "Kamu lebih memilih mengetahui momen terbaik dalam hidup kamu sebelum terjadi atau baru menyadarinya setelahnya?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_191",
+      "text": "Kamu lebih memilih pandai memulai percakapan atau pandai mengakhirinya dengan anggun?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_192",
+      "text": "Kamu lebih memilih menjadi orang yang selalu memberi nasihat atau orang yang cukup berani untuk menerimanya?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_193",
+      "text": "Kamu lebih memilih memiliki rumah impian yang jauh dari semua orang atau rumah sederhana yang dekat dengan orang-orang kesayangan kamu?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_194",
+      "text": "Kamu lebih memilih berdamai dengan siapa pun atau memulai awal baru di mana saja?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_195",
+      "text": "Kamu lebih memilih menjadi teman yang diakui semua orang atau menjadi teman pesta semua orang?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_196",
+      "text": "Kamu lebih memilih satu bulan kebebasan total atau satu tahun kemajuan yang stabil?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_197",
+      "text": "Kamu lebih memilih dikenang karena satu tindakan berani atau kesetiaan seumur hidup?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_198",
+      "text": "Kamu lebih memilih mengetahui kebenaran tentang reputasi kamu atau menjaga kepercayaan diri kamu tidak tersentuh?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_199",
+      "text": "Kamu lebih memilih mengatakan tidak tanpa rasa bersalah atau meminta bantuan tanpa rasa malu?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_200",
+      "text": "Kamu lebih memilih memiliki waktu yang tepat atau naluri yang sempurna?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_id_201",
+      "text": "Kamu lebih memilih profil aplikasi kencanmu dinilai teman-teman, atau DM-mu dibacakan keras oleh orang yang kamu percaya?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_202",
+      "text": "Kamu lebih memilih kencan pertama yang sempurna tanpa chemistry atau kencan pertama yang berantakan dengan percikan yang jelas?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_203",
+      "text": "Kamu lebih memilih selalu mengetahui saat seseorang sedang menggoda atau tidak pernah balas menggoda secara tidak sengaja?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_204",
+      "text": "Kamu lebih memilih berkencan dengan seseorang yang dicintai semua orang tetapi kamu merasa tidak yakin atau seseorang yang semua orang ragukan tetapi kamu merasa yakin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_205",
+      "text": "Kamu lebih memilih menjadi hantu setelah satu kencan yang luar biasa atau perlahan-lahan diabaikan selama sebulan?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_206",
+      "text": "Apakah kamu lebih suka mengakui perasaanmu secara langsung atau membiarkan obrolan grupmu mengungkapkannya secara tidak sengaja?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_207",
+      "text": "Kamu lebih memilih jika mantan melihat kamu terlihat luar biasa atau benar-benar tidak peduli jika dia melihatnya?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_208",
+      "text": "Kamu lebih memilih menerima SMS larut malam yang berisiko atau mengirimnya dan langsung menyesalinya?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_209",
+      "text": "Kamu lebih memilih memiliki pasangan yang sangat jujur atau yang menghindari setiap percakapan sulit?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_210",
+      "text": "Kamu lebih memilih berkencan dengan seseorang yang memiliki olok-olok sempurna atau kematangan emosi yang sempurna?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_211",
+      "text": "Kamu lebih memilih ketahuan menguntit profil seseorang atau secara tidak sengaja menyukai postingan yang sangat lama?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_212",
+      "text": "Kamu lebih memilih memiliki romansa musim panas yang tak terlupakan atau kisah cinta yang lambat laun?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_213",
+      "text": "Kamu lebih memilih mengenal setiap orang yang pasangan kamu sukai atau tidak tahu apa-apa dan tetap damai?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_214",
+      "text": "Kamu lebih memilih menjadi orang yang pencemburu atau orang yang membuat orang iri tanpa berusaha?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_215",
+      "text": "Kamu lebih memilih chemistry luar biasa tapi timing buruk, atau timing sempurna tapi chemistry biasa saja?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_216",
+      "text": "Kamu lebih memilih menjadi orang pertama yang mengatakan “Aku cinta kamu” atau menunggu sampai kamu benar-benar yakin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_217",
+      "text": "Kamu lebih memilih berkencan tanpa telepon atau kencan tanpa basa-basi?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_218",
+      "text": "Kamu lebih memilih membiarkan bendera merah terbesar kamu tersingkap atau mengetahui semua orang sudah mengetahuinya?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_219",
+      "text": "Kamu lebih memilih menjadi kekasih rahasia seseorang atau obsesi seseorang di depan umum?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_220",
+      "text": "Kamu lebih memilih memiliki kisah perpisahan yang dramatis atau tidak ada kisah perpisahan karena tidak ada yang serius?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_221",
+      "text": "Kamu lebih memilih berkencan dengan seseorang yang memposting segalanya atau seseorang yang tidak memposting apa pun?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_222",
+      "text": "Kamu lebih memilih bersama seseorang yang sangat spontan atau seseorang yang sangat konsisten?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_223",
+      "text": "Kamu lebih memilih berbagi kata sandi atau berbagi lokasi?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_224",
+      "text": "Kamu lebih memilih menerima surat cinta dari orang yang salah atau SMS satu kata dari orang yang tepat?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_225",
+      "text": "Apakah kamu lebih suka orang yang kamu suka mendengar pesan suara terburukmu atau melihat selfie terburukmu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_226",
+      "text": "Kamu lebih memilih pandai menggoda secara langsung atau pandai mengirim pesan?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_227",
+      "text": "Kamu lebih memilih selalu mengetahui apakah ada kencan yang kamu sukai atau selalu mengetahui apakah mereka membuang-buang waktu kamu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_228",
+      "text": "Kamu lebih memilih menjalin hubungan dengan gairah dan kekacauan yang intens atau cinta yang tenang dengan lebih sedikit kembang api?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_229",
+      "text": "Lebih baik kamu jadi orang yang lebih peduli atau yang lebih dulu mengakuinya?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_230",
+      "text": "Apakah kamu lebih suka mengetahui seorang teman menyukai orang yang kamu sukai atau orang yang kamu sukai menyukai temanmu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_231",
+      "text": "Kamu lebih memilih berkencan dengan seseorang yang tipenya semua orang atau seseorang yang hanya kamu pahami?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_232",
+      "text": "Kamu lebih memilih situasi kamu menentukan hubungan atau menghilang selamanya?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_233",
+      "text": "Kamu lebih memilih mendapat penutupan dari mantan atau permintaan maaf dari seseorang yang belum pernah kamu kencani?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_234",
+      "text": "Kamu lebih memilih memiliki satu ciuman sempurna tanpa masa depan atau awal yang canggung yang menjadi cinta sejati?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_235",
+      "text": "Kamu lebih memilih melihat bendera hijau seseorang secara instan atau bendera merahnya secara instan?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_236",
+      "text": "Kamu lebih memilih menggoda dengan percaya diri dan gagal atau bersikap tenang dan kehilangan kesempatan?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_237",
+      "text": "Kamu lebih memilih setiap kencan pertama difilmkan atau setiap perpisahan diulas oleh teman-teman kamu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_238",
+      "text": "Kamu lebih memilih berkencan dengan seseorang yang mengingat setiap detail atau seseorang yang selalu mengejutkan kamu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_239",
+      "text": "Kamu lebih memilih kembali dengan mantan selama satu minggu atau melakukan lima kencan buta berturut-turut?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_240",
+      "text": "Kamu lebih memilih teman-temanmu yang memilih kencan berikutnya, atau riwayat pencarianmu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_241",
+      "text": "Kamu lebih memilih dicintai secara terang-terangan di depan umum atau secara pribadi dengan cara yang hanya kamu sadari?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_242",
+      "text": "Kamu lebih memilih selalu menjadi orang yang patah hati atau selalu menjadi orang romantis yang putus asa?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_243",
+      "text": "Lebih suka punya pasangan yang terlalu lekat atau terlalu misterius?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_244",
+      "text": "Kamu lebih memilih mengetahui seseorang menulis lagu tentang kamu atau kata-kata kasar di aplikasi catatan panjang tentang kamu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_245",
+      "text": "Kamu lebih memilih menerima SMS “kita perlu bicara” atau secara tidak sengaja mengirimkannya ke orang yang salah?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_246",
+      "text": "Kamu lebih memilih berkencan dengan seseorang yang merencanakan setiap detail atau seseorang yang melakukan improvisasi segalanya?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_247",
+      "text": "Kamu lebih memilih memiliki chemistry yang tidak dapat disangkal dengan lawan bicara kamu atau chemistry yang nyaman dengan seseorang seperti kamu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_248",
+      "text": "Kamu lebih memilih ketahuan sedang berlatih pengakuan dosa atau ketahuan sedang berlatih pidato perpisahan?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_249",
+      "text": "Apakah kamu lebih suka jika orang yang kamu sukai tiba-tiba mengirimimu pesan atau orang yang kamu sukai saat ini tiba-tiba berhenti mengikutimu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_250",
+      "text": "Kamu lebih memilih selalu jatuh terlalu cepat atau selalu terlambat menyadari perasaan kamu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_251",
+      "text": "Kamu lebih memilih menjadi orang yang membuat seseorang berubah atau menjadi orang yang tidak dapat dilupakan oleh seseorang?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_252",
+      "text": "Lebih suka punya pasangan yang luar biasa dalam perkataan atau luar biasa dalam tindakan?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_253",
+      "text": "Kamu lebih memilih berkencan dengan seseorang yang membuat kamu tertawa terus-menerus atau seseorang yang membuat kamu merasa tenang?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_254",
+      "text": "Apakah kamu lebih suka mengetahui apakah orang yang kamu sukai memimpikanmu atau mengetahui apakah dia membicarakanmu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_255",
+      "text": "Kamu lebih memilih mengirim pesan pertama atau mengambil tindakan pertama secara langsung?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_256",
+      "text": "Kamu lebih memilih menjalin hubungan rahasia selama tiga bulan atau hubungan publik yang dikomentari semua orang?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_257",
+      "text": "Apakah kamu lebih suka gaya flirtingmu dinilai oleh temanmu atau gaya SMSmu dinilai oleh orang yang kamu sukai?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_258",
+      "text": "Kamu lebih memilih menjadi rebound yang menjadi serius atau yang tidak pernah mereka lupakan?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_259",
+      "text": "Kamu lebih memilih berkencan dengan seseorang dengan humor yang sama atau ambisi yang sama dengan kamu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_260",
+      "text": "Kamu lebih memilih naksir orang yang tidak bisa kamu miliki, atau orang seperti itu yang naksir kamu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_261",
+      "text": "Kamu lebih memilih mendapatkan pengakuan dalam keadaan mabuk atau pesan sadar yang membutuhkan waktu seminggu untuk ditulis?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_262",
+      "text": "Kamu lebih memilih setiap kencan diakhiri dengan percakapan mendalam atau dengan cerita konyol?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_263",
+      "text": "Kamu lebih memilih bersama seseorang yang menantang kamu atau seseorang yang memuja kamu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_264",
+      "text": "Kamu lebih memilih menyimpan sedikit misteri atau mengetahui semuanya dengan segera?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_265",
+      "text": "Kamu lebih memilih memiliki pasangan yang berteman baik dengan teman-teman kamu atau seseorang yang memisahkan dunia kamu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_266",
+      "text": "Kamu lebih memilih berkencan dengan seseorang yang tidak pernah cemburu atau seseorang yang mengakuinya dengan jujur?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_267",
+      "text": "Kamu lebih memilih memiliki momen kontak mata yang intens atau sentuhan tangan yang tepat waktu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_268",
+      "text": "Kamu lebih memilih ketahuan menyimpan ide pernikahan terlalu dini atau terlambat menghapus aplikasi kencan?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_269",
+      "text": "Kamu lebih memilih memiliki persahabatan genit yang tidak pernah berakhir atau hubungan yang dimulai dengan rayuan canggung?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_270",
+      "text": "Kamu lebih memilih membatalkan satu pesan terkirim atau membatalkan satu kalimat secara langsung?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_271",
+      "text": "Apakah kamu lebih suka jika sahabatmu menyetujui orang yang kamu sukai atau orang yang kamu sukai menyetujui sahabatmu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_272",
+      "text": "Kamu lebih memilih berkencan dengan seseorang yang menyukai perhatian atau seseorang yang sepenuhnya menghindari perhatian?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_273",
+      "text": "Kamu lebih memilih menjadi alasan seseorang tersenyum di depan ponselnya atau menjadi alasan mereka tidak bisa fokus sepanjang hari?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_274",
+      "text": "Kamu lebih memilih makan malam romantis dengan keheningan yang canggung atau malam yang kacau dengan energi yang luar biasa?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_275",
+      "text": "Kamu lebih memilih diajak berkencan dengan sikap yang agung atau kalimat sederhana yang jujur?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_276",
+      "text": "Kamu lebih memilih memiliki hubungan yang membuat iri semua orang atau hubungan yang tidak dipahami siapa pun kecuali kamu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_277",
+      "text": "Kamu lebih memilih tidak pernah tahu siapa yang naksir kamu atau tahu dan tidak bisa berbuat apa-apa?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_278",
+      "text": "Apakah kamu lebih suka mengirimkan pesan suara kepada orang yang kamu sukai atau meninggalkan pesan suara untuk mantanmu?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_279",
+      "text": "Kamu lebih memilih pasangan kamu membaca pikiran kamu selama satu hari atau membaca aplikasi catatan kamu selama satu menit?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_id_280",
+      "text": "Kamu lebih memilih jadi pilihan aman seseorang, atau pilihan berisiko tapi sulit dilupakan?",
+      "intensity": "spicy",
+      "minAge": 18
+    }
+  ]
+}

@@ -1,0 +1,587 @@
+{
+  "app": {
+    "name": "Who's the Imposter?"
+  },
+  "onboarding": {
+    "language": {
+      "title": "Pilih bahasa Anda",
+      "continue": "Lanjutkan"
+    },
+    "welcome": {
+      "headline": "Siapa yang berbohong di grup Anda?",
+      "benefit1": "12+ permainan pesta",
+      "benefit2": "Tidak perlu internet",
+      "benefit3": "3–15 pemain",
+      "continue": "Ayo pergi →"
+    },
+    "howToPlay": {
+      "title": "Cara Bermain",
+      "step1_title": "Berikan ponselnya",
+      "step1_desc": "Setiap pemain mengetuk namanya secara pribadi",
+      "step2_title": "Pelajari kata Anda",
+      "step2_desc": "Semua orang melihat kata yang sama — kecuali Penipu",
+      "step3_title": "Temukan pembohong",
+      "step3_desc": "Berikan petunjuk, pilih, dan tangkap Penipu!"
+    },
+    "showcase": {
+      "title": "12+ Game Pesta",
+      "cta": "Ayo Main!",
+      "more": "Dan {{count}} permainan lainnya..."
+    },
+    "personalize": {
+      "title": "Jadikan itu milik Anda",
+      "subtitle": "Personalisasikan malam permainan Anda",
+      "feature1_title": "Avatar Pemain",
+      "feature1_desc": "Berikan setiap pemain identitas emoji yang menyenangkan",
+      "feature2_title": "Tema Khusus",
+      "feature2_desc": "5 tema + warna aksen Anda sendiri",
+      "feature3_title": "Preset Cepat",
+      "feature3_desc": "Simpan kru Anda, mulai dalam hitungan detik",
+      "continue": "Lanjutkan →"
+    },
+    "notifications": {
+      "title": "Jangan pernah melewatkan malam pertandingan",
+      "subtitle": "Dapatkan pengingat dan penawaran eksklusif",
+      "benefit1": "Penawaran diskon eksklusif hanya untuk Anda",
+      "benefit2": "Pengingat malam permainan kapan pun Anda mau",
+      "enable": "Aktifkan Notifikasi",
+      "skip": "Mungkin nanti",
+      "discount_title": "🎉 Penawaran Eksklusif Hanya untuk Anda!",
+      "discount_body": "Diskon 50% Anda akan berakhir dalam 48 jam. Ketuk untuk mengklaim!"
+    }
+  },
+  "home": {
+    "title": "Permainan Pesta",
+    "quickResume": "Lanjutkan permainan terakhir →",
+    "favorite": "Tambahkan ke favorit",
+    "unfavorite": "Hapus dari favorit"
+  },
+  "presets": {
+    "sectionTitle": "Preset Tersimpan",
+    "saveButton": "Simpan sebagai Preset",
+    "saveTitle": "Beri Nama Preset Anda",
+    "playerCount": "{{count}} pemain",
+    "players": "pemain",
+    "maxReached": "Maksimal 10 preset"
+  },
+  "emojiPicker": {
+    "title": "Pilih Avatar",
+    "people": "Orang-orang",
+    "animals": "Hewan",
+    "food": "Makanan",
+    "objects": "Objek",
+    "symbols": "Simbol",
+    "reset": "Reset ke inisial"
+  },
+  "customTheme": {
+    "label": "Kustom",
+    "customPlus": "Kustom +",
+    "pickBase": "Tema Dasar",
+    "pickAccent": "Warna Aksen",
+    "apply": "Terapkan"
+  },
+  "setup": {
+    "players": "Pemain",
+    "addPlayer": "Tambahkan nama pemain",
+    "addPlayerCta": "Tambahkan",
+    "minPlayersWarning": "Membutuhkan setidaknya {{count}} pemain",
+    "maxPlayersWarning": "Maksimal {{count}} pemain",
+    "duplicateName": "Nama itu sudah dipakai",
+    "categories": "Kategori",
+    "selectAll": "Semua",
+    "mode": "Modus Permainan",
+    "advanced": "Pengaturan Lanjutan",
+    "imposters": "Penipu",
+    "timer": "Pengatur waktu per pemain",
+    "timerOff": "Mati",
+    "rounds": "Putaran",
+    "sound": "Efek Suara",
+    "haptics": "Umpan Balik Haptik",
+    "startGame": "Mulai Permainan",
+    "emptyName": "Nama tidak boleh kosong",
+    "words": "{{count}} kata",
+    "noCategoriesWarning": "Pilih setidaknya 1 kategori"
+  },
+  "reveal": {
+    "instruction": "Tunggu sebentar — jangan tunjukkan pada siapa pun",
+    "holdToReveal": "Tahan untuk mengungkapkan",
+    "crew_subtitle": "Berikan SATU petunjuk. Jangan bocorkan jawabannya.",
+    "imposter_line1": "ANDA ADALAH",
+    "imposter_line2": "PENIPU!",
+    "imposter_subtitle": "Berbaurlah. Anda tidak tahu kata itu.",
+    "next": "Pemain Berikutnya →",
+    "autoBlur": "Ketuk untuk menyembunyikan",
+    "yourWord": "KATA ANDA"
+  },
+  "play": {
+    "round": "Putaran {{number}}",
+    "category": "Kategori",
+    "clueGiven": "Petunjuk diberikan",
+    "startVoting": "Mulai Memberi Suara"
+  },
+  "vote": {
+    "title": "Siapa Penipu itu?",
+    "subtitle": "Setiap pemain memberikan suara satu kali. Anda tidak dapat memilih diri Anda sendiri.",
+    "reveal": "Ungkapkan Suara",
+    "waiting": "Menunggu semua suara..."
+  },
+  "result": {
+    "caught": "TERTANGKAP!",
+    "escaped": "MEREKA LOLOS!",
+    "imposterWas": "PENIPU ADALAH",
+    "imposterIs": "PENIPUNYA ADALAH",
+    "secretWord": "Kata rahasianya adalah:",
+    "guessPrompt": "Bisakah {{name}} menebak kata rahasianya?",
+    "guessYes": "Ya — Mereka dapat menebaknya!",
+    "guessNo": "Tidak — Mereka gagal",
+    "crewWins": "Kru Menang! 🎉",
+    "imposterWins": "Penipu Menang! 🕵️",
+    "tie": "Seri!",
+    "playAgain": "Mainkan Lagi",
+    "newGame": "Permainan Baru",
+    "share": "Bagikan Hasil"
+  },
+  "giftBox": {
+    "accessibilityLabel": "Penawaran khusus — ketuk untuk mendapatkan diskon"
+  },
+  "paywall": {
+    "title": "Who's the Imposter? PRO",
+    "benefit1": "Semua 20 kategori",
+    "benefit2": "2 mode penipu",
+    "benefit3": "Semua 12 permainan pesta",
+    "benefit4": "Daftar kata khusus",
+    "benefit5": "Pengalaman bebas iklan",
+    "monthly": "Bulanan",
+    "yearly": "Tahunan",
+    "bestValue": "Nilai Terbaik",
+    "savings": "Hemat {{percent}}%",
+    "cta": "Mulai Uji Coba Gratis {{days}}-Hari",
+    "cancelAnytime": "Batalkan kapan saja",
+    "restore": "Kembalikan Pembelian",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Penggunaan",
+    "socialProof": "4,8 · 18K peringkat",
+    "close": "Tutup",
+    "ratings": "peringkat",
+    "monthlyPrice": "$4,99/bln",
+    "yearlyPrice": "$2,49/bln",
+    "savePct": "Hemat 50%",
+    "dailyLimitTitle": "Batas Harian Tercapai",
+    "dailyLimitSubtitle": "Anda telah memainkan 5 permainan gratis hari ini. Tingkatkan ke PRO untuk bermain tanpa batas!",
+    "ctaNoTrial": "Dapatkan PRO Sekarang",
+    "headline": "Pesta Anda layak mendapatkan yang lebih baik.",
+    "subheadline": "Semua permainan. Tidak ada batasan. Menyenangkan sekali.",
+    "noPaymentToday": "Tidak ada pembayaran hari ini · Batalkan kapan saja",
+    "yearlyBilled": "Ditagih {{price}}/tahun",
+    "perMonth": "/bln",
+    "perYear": "/tahun",
+    "freeTrial": "{{days}}-Hari Uji Coba Gratis",
+    "heroTag": "🎭 PRO"
+  },
+  "rating": {
+    "title": "Menikmati permainannya?",
+    "subtitle": "Peringkat bintang 5 sangat membantu kami!",
+    "cta": "Nilai Sekarang ⭐",
+    "later": "Mungkin Nanti",
+    "no": "Tidak, terima kasih",
+    "headline": "Menikmati permainannya?",
+    "subtext": "Peringkat Anda membantu kami membuat lebih banyak game!",
+    "rateNow": "Nilai Sekarang",
+    "noThanks": "Tidak, terima kasih",
+    "thanks": "Terima kasih banyak! 🙏"
+  },
+  "settings": {
+    "title": "Pengaturan",
+    "theme": "Tema",
+    "themeDark": "Gelap",
+    "themeLight": "Terang",
+    "themeNeon": "Neon",
+    "themeNeonLocked": "Neon (PRO)",
+    "themeCandy": "Permen",
+    "language": "Bahasa",
+    "sound": "Efek Suara",
+    "haptics": "Umpan Balik Haptik",
+    "upgrade": "Tingkatkan ke PRO",
+    "restore": "Kembalikan Pembelian",
+    "rate": "Nilai Aplikasinya",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Penggunaan",
+    "version": "Versi {{version}}",
+    "stats": "Statistik & Prestasi",
+    "themeEmber": "Bara",
+    "themeParty": "Pesta",
+    "themeSunset": "Matahari terbenam",
+    "themeGolden": "Emas",
+    "themeAurora": "Aurora",
+    "themeCustom": "Kustom"
+  },
+  "scoreboard": {
+    "title": "Papan Skor Sesi",
+    "roundsPlayed_one": "Putaran {{count}} dimainkan",
+    "roundsPlayed_other": "{{count}} putaran dimainkan",
+    "pts": "poin",
+    "delta": "+{{count}}",
+    "final": "Skor Akhir"
+  },
+  "streak": {
+    "crewStreak": "🔥 Kru meraih {{count}} kemenangan beruntun!",
+    "imposterStreak": "🕵️ Penipu dengan {{count}} kemenangan beruntun!"
+  },
+  "achievements": {
+    "unlockedTitle": "Prestasi Terbuka!",
+    "first_blood": {
+      "title": "Darah Pertama",
+      "desc": "Menangkan putaran pertama Anda sebagai kru"
+    },
+    "ghost": {
+      "title": "Hantu",
+      "desc": "Menangkan sebagai penipu 3 kali berturut-turut"
+    },
+    "mind_reader": {
+      "title": "Pembaca Pikiran",
+      "desc": "Tebak kata rahasia setelah tertangkap"
+    },
+    "unanimous": {
+      "title": "Suara Bulat",
+      "desc": "Setiap anggota kru memilih Anda"
+    },
+    "social_butterfly": {
+      "title": "Kupu-Kupu Sosial",
+      "desc": "Mainkan total 10 game"
+    },
+    "sharp_eye": {
+      "title": "Mata Tajam",
+      "desc": "Pilih penipu dengan benar sebanyak 5 kali"
+    },
+    "survivor": {
+      "title": "Penyintas",
+      "desc": "Menangkan sebagai kru 10 kali"
+    },
+    "master_disguise": {
+      "title": "Ahli Penyamaran",
+      "desc": "Menangkan sebagai penipu 5 kali"
+    },
+    "locked": "Terkunci"
+  },
+  "stats": {
+    "title": "Statistik & Prestasi",
+    "myStats": "Statistik saya",
+    "achievements": "Prestasi",
+    "noStats": "Belum ada permainan yang dimainkan",
+    "gamesPlayed": "Permainan",
+    "wins": "Menang",
+    "timesImposter": "Penipu",
+    "timesCaught": "Tertangkap"
+  },
+  "categories": {
+    "food": "Makanan & Minuman",
+    "animals": "Hewan",
+    "sports": "Olahraga",
+    "jobs": "Pekerjaan",
+    "countries": "Negara",
+    "movies": "Film & TV",
+    "music": "Musik",
+    "objects": "Objek",
+    "nature": "Alam",
+    "hobbies": "Hobi",
+    "famous": "Orang Terkenal",
+    "brands": "Merek",
+    "education": "Pendidikan",
+    "technology": "Teknologi",
+    "mythology": "Mitologi",
+    "spicy": "Pedas 🌶️",
+    "tv_series": "Serial TV",
+    "social": "Media Sosial",
+    "custom": "Daftar Kustom Saya",
+    "places": "Tempat & Tengara",
+    "vehicles": "Kendaraan & Transportasi",
+    "science": "Sains & Penemuan",
+    "superheroes": "Pahlawan Super & Komik",
+    "video_games": "Video Game",
+    "drinks": "Minuman & Koktail",
+    "disney": "Disney & Dongeng",
+    "fashion": "Mode & Kemewahan",
+    "olympics": "Olimpiade & Olahraga Ekstrim",
+    "scientists": "Ilmuwan Terkenal",
+    "ancient": "Peradaban Kuno",
+    "flowers": "Bunga & Tanaman",
+    "internet_culture": "Budaya Internet",
+    "party_life": "Kehidupan Pesta"
+  },
+  "howToPlay": {
+    "title": "Cara Bermain",
+    "close": "Mengerti!"
+  },
+  "games": {
+    "imposter": {
+      "name": "Who's the Imposter?",
+      "description": "Satu kata rahasia. Seorang pembohong. Temukan mereka.",
+      "howToPlay": {
+        "intro": "Salah satu pemain diam-diam adalah Penipu — mereka tidak tahu kata rahasianya. Bisakah kru mengendusnya?",
+        "step1_title": "Semua orang melihat kata itu",
+        "step1_desc": "Sebarkan ponsel. Setiap pemain mengetuk namanya untuk melihat kata tersebut secara diam-diam — atau mengetahui bahwa mereka adalah Penipu.",
+        "step2_title": "Berikan petunjuk, temukan pembohongnya",
+        "step2_desc": "Secara bergiliran memberikan satu petunjuk tentang kata rahasia. Penipu harus menggertak. Dengarkan baik-baik petunjuk yang tidak jelas atau salah!",
+        "step3_title": "Pilih & ungkapkan",
+        "step3_desc": "Setelah semua petunjuk, pilih siapa yang menurut Anda Penipu itu. Tangkap mereka untuk menang — tapi hati-hati, mereka masih bisa menebak kata untuk melarikan diri!"
+      }
+    },
+    "truth_dare": {
+      "name": "Kebenaran atau Tantangan",
+      "description": "Jawablah dengan jujur atau hadapi tantangan.",
+      "howToPlay": {
+        "intro": "Jawab pertanyaan yang jujur atau selesaikan tantangan yang berani. Apakah Anda akan mengatakan yang sebenarnya – atau berani?",
+        "step1_title": "Pilih nasib Anda",
+        "step1_desc": "Pada giliran Anda, pilih Kebenaran (menjawab pertanyaan dengan jujur) atau Tantangan (menyelesaikan tantangan fisik atau sosial).",
+        "step2_title": "Selesaikan tugasnya",
+        "step2_desc": "Aplikasi ini menampilkan pertanyaan kebenaran acak atau tantangan. Jangan melewatkannya — Anda harus berkomitmen!",
+        "step3_title": "Sebarkan",
+        "step3_desc": "Serahkan ponsel ke pemain berikutnya setelah selesai. Teruslah bermain selama yang Anda mau!"
+      }
+    },
+    "nhie": {
+      "name": "Saya Belum Pernah",
+      "description": "Cari tahu apa yang telah dilakukan teman Anda.",
+      "howToPlay": {
+        "intro": "Cari tahu apa yang sebenarnya telah dilakukan teman Anda. Semakin memalukan pengakuannya, semakin baik!",
+        "step1_title": "Mulailah dengan 5 jari",
+        "step1_desc": "Semua orang mengacungkan 5 jari. Anda akan meletakkannya satu per satu.",
+        "step2_title": "Baca pernyataannya",
+        "step2_desc": "Aplikasi ini menampilkan pernyataan 'Saya Belum Pernah...'. Jika Anda TELAH melakukannya, turunkan jari Anda dan akui!",
+        "step3_title": "Yang terakhir bertahan menang",
+        "step3_desc": "Pemain yang kehilangan semua jarinya terlebih dahulu kalah dalam ronde tersebut — dan harus berbagi kisah terliarnya!"
+      }
+    },
+    "mlt": {
+      "name": "Paling Mungkin",
+      "description": "Siapa di grup yang paling mungkin...?",
+      "howToPlay": {
+        "intro": "Cari tahu apa yang sebenarnya dipikirkan teman Anda tentang Anda. Persiapkan diri Anda!",
+        "step1_title": "Baca pertanyaannya",
+        "step1_desc": "Aplikasi ini menampilkan pertanyaan 'Paling Mungkin Untuk...', seperti 'Kemungkinan besar menjadi terkenal.'",
+        "step2_title": "Tunjuk bersama-sama",
+        "step2_desc": "Pada hitungan ke 3, semua orang menunjuk pada orang yang menurut mereka paling mungkin. Jangan ragu-ragu!",
+        "step3_title": "Hitung & lanjutkan",
+        "step3_desc": "Orang yang paling banyak menunjuk ke arah mereka memenangkan (atau kalah?) putaran tersebut. Mereka dapat menjawab sebelum pertanyaan berikutnya!"
+      }
+    },
+    "hot_takes": {
+      "name": "Opini Panas",
+      "description": "Setuju atau tidak setuju - debatlah.",
+      "howToPlay": {
+        "intro": "Bagikan pendapat Anda yang paling berani dan picu perdebatan. Tidak boleh ada tempat netral!",
+        "step1_title": "Baca berita hangatnya",
+        "step1_desc": "Aplikasi ini mengungkapkan pernyataan atau opini kontroversial untuk ditanggapi oleh kelompok.",
+        "step2_title": "Ambil sisi",
+        "step2_desc": "Setiap pemain menyatakan sangat setuju atau tidak setuju — dan harus mempertahankan posisinya!",
+        "step3_title": "Debat & pemungutan suara",
+        "step3_desc": "Setelah debat, pilih argumen terbaik. Pemain yang paling meyakinkan memenangkan ronde ini!"
+      }
+    },
+    "wyr": {
+      "name": "Apakah Anda lebih suka?",
+      "description": "Dua pilihan yang mustahil. Mana yang akan Anda pilih?",
+      "howToPlay": {
+        "intro": "Dua pilihan yang sama buruknya (atau menakjubkan). Tidak ada jawaban yang benar - hanya jawaban Anda.",
+        "step1_title": "Dilema muncul",
+        "step1_desc": "Aplikasi ini menampilkan pertanyaan 'Apakah Anda lebih suka...' dengan dua opsi. Pikirkan baik-baik!",
+        "step2_title": "Pilih secara rahasia",
+        "step2_desc": "Setiap pemain memilih pilihannya tanpa mengungkapkannya. Pertahankan pilihan Anda!",
+        "step3_title": "Mengungkap & berdebat",
+        "step3_desc": "Semua orang mengungkapkannya sekaligus. Diskusikan pilihan Anda dan perdebatkan argumen Anda — mayoritas memenangkan hak untuk menyombongkan diri!"
+      }
+    },
+    "two_truths": {
+      "name": "Dua Kebenaran Satu Kebohongan",
+      "description": "Tebak pernyataan mana yang bohong.",
+      "howToPlay": {
+        "intro": "Bagikan dua hal yang benar dan satu kebohongan yang meyakinkan tentang diri Anda. Bisakah teman Anda membedakannya?",
+        "step1_title": "Tulis pernyataan Anda",
+        "step1_desc": "Ketikkan dua hal yang benar tentang diri Anda dan satu kebohongan yang dapat dipercaya ke dalam aplikasi.",
+        "step2_title": "Bacalah dengan keras",
+        "step2_desc": "Bacakan ketiga pernyataan kepada kelompok dalam urutan apa pun. Jaga wajah tetap lurus!",
+        "step3_title": "Semua orang menebak",
+        "step3_desc": "Pemain memilih pernyataan mana yang bohong. Skor poin untuk setiap orang yang Anda bodohi!"
+      }
+    },
+    "heads_up": {
+      "name": "Heads Up!",
+      "description": "Pegang ponsel di dahi Anda. Dapatkan petunjuk!",
+      "howToPlay": {
+        "intro": "Dekatkan ponsel ke dahi Anda dan tebak kata di layar — hanya teman Anda yang dapat melihatnya!",
+        "step1_title": "Tahan",
+        "step1_desc": "Pemain aktif memegang ponsel menghadap ke luar di dahinya tanpa mengintip ke layar.",
+        "step2_title": "Berikan petunjuk",
+        "step2_desc": "Semua pemain lain meneriakkan petunjuk untuk membantu menebak kata tersebut. Jangan mengejanya atau mengucapkan kata itu sendiri!",
+        "step3_title": "Miringkan untuk mencetak gol",
+        "step3_desc": "Miringkan ponsel ke bawah untuk melewatkan satu kata, miringkan ke atas untuk mengonfirmasi tebakan yang benar. Skor sebanyak yang Anda bisa sebelum waktu habis!"
+      }
+    },
+    "word_chain": {
+      "name": "Rantai Kata",
+      "description": "Huruf terakhir memulai kata berikutnya. Jangan putuskan rantainya!",
+      "howToPlay": {
+        "intro": "Setiap kata harus dimulai dengan huruf terakhir dari huruf sebelumnya. Ragu-ragu dan Anda tersingkir!",
+        "step1_title": "Mulai rantainya",
+        "step1_desc": "Pemain pertama mengucapkan sepatah kata pun. Pemain berikutnya harus mengucapkan sebuah kata yang dimulai dengan huruf terakhirnya.",
+        "step2_title": "Jaga kecepatannya",
+        "step2_desc": "Anda memiliki batas waktu untuk merespons. Tidak ada pengulangan kata yang telah digunakan dalam babak ini.",
+        "step3_title": "Yang terakhir bertahan menang",
+        "step3_desc": "Ragu-ragu terlalu lama, ucapkan kata yang tidak valid, atau ulangi sebuah kata — dan Anda keluar! Pemain terakhir yang tersisa menang."
+      }
+    },
+    "trivia": {
+      "name": "Taruhan Trivia",
+      "description": "Bertaruh pada jawaban Anda. Lebih percaya diri = lebih banyak poin.",
+      "howToPlay": {
+        "intro": "Jawab pertanyaan trivia dan pertaruhkan poin Anda berdasarkan seberapa percaya diri Anda. Risiko tinggi, imbalan tinggi!",
+        "step1_title": "Baca pertanyaannya",
+        "step1_desc": "Aplikasi ini menampilkan pertanyaan trivia untuk pemain saat ini. Berpikirlah sebelum Anda menjawab!",
+        "step2_title": "Pasang taruhan Anda",
+        "step2_desc": "Sebelum menjawab, pertaruhkan poin Anda. Taruhan rendah = permainan aman. Taruhan tinggi = risiko besar, imbalan besar!",
+        "step3_title": "Ungkapkan jawabannya",
+        "step3_desc": "Jawaban yang benar menghasilkan taruhan Anda. Jawaban yang salah akan menghilangkannya. Pemain dengan poin terbanyak pada akhirnya menang!"
+      }
+    },
+    "charades": {
+      "name": "Tebak Gaya",
+      "description": "Peragakan — tidak boleh ada kata-kata!",
+      "howToPlay": {
+        "intro": "Mainkan kata rahasia hanya dengan menggunakan gerak tubuh dan ekspresi. Tidak ada bicara, tidak ada suara - murni pantomim!",
+        "step1_title": "Lihat kata Anda",
+        "step1_desc": "Pemain akting diam-diam melihat kata itu di ponsel. Jangan tunjukkan kepada siapa pun — tetaplah bersikap poker face!",
+        "step2_title": "Bertindaklah",
+        "step2_desc": "Gunakan gerak tubuh, ekspresi, dan bahasa tubuh saja. Tidak ada kata-kata, tidak ada ucapan, tidak ada suara!",
+        "step3_title": "Teriaklah",
+        "step3_desc": "Pemain lain menebak dengan keras. Raih poin jika mereka melakukannya dengan benar, lalu pemain berikutnya mengambil giliran!"
+      }
+    },
+    "paranoia": {
+      "name": "Paranoia",
+      "description": "Pertanyaan yang dibisikkan. Jawaban yang misterius.",
+      "howToPlay": {
+        "intro": "Seseorang membisikkan sebuah pertanyaan. Seseorang menunjuk secara rahasia. Akankah jawabannya terungkap?",
+        "step1_title": "Bisikan sebuah pertanyaan",
+        "step1_desc": "Salah satu pemain membisikkan pertanyaan 'Siapa di grup ini...' kepada pemain di sebelah kanannya.",
+        "step2_title": "Tunjuk secara rahasia",
+        "step2_desc": "Pemain itu diam-diam menunjuk siapa pun yang menurut mereka cocok dengan jawabannya — tidak perlu dijelaskan!",
+        "step3_title": "Balik untuk mengungkapkan",
+        "step3_desc": "Lemparkan koin — kepala mengungkapkan pertanyaan kepada semua orang, ekor merahasiakannya selamanya. Paranoia berkembang!"
+      }
+    }
+  },
+  "promptGame": {
+    "playerTurn": "Giliran {{name}}",
+    "chooseTruthOrDare": "Pilih nasib Anda",
+    "truth": "Jujur",
+    "dare": "Tantangan",
+    "mild": "Ringan",
+    "medium": "Sedang",
+    "spicy": "Pedas 🌶️",
+    "nextPrompt": "Kartu berikutnya →",
+    "endGame": "Akhir Permainan",
+    "skip": "Lewati"
+  },
+  "headsUp": {
+    "title": "Heads Up!",
+    "holdPhone": "Pegang ponsel di dahi",
+    "yourTurn": "Giliran {{name}}",
+    "correct": "✓ Mengerti!",
+    "pass": "↩ Lewati",
+    "score": "Skor: {{count}}",
+    "timeUp": "Waktunya habis!",
+    "nextPlayer": "Pemain Berikutnya →",
+    "nextRound": "Babak Berikutnya →",
+    "roundOf": "Putaran {{current}} / {{total}}",
+    "endGame": "Akhir Permainan",
+    "readyTitle": "Siap?",
+    "readySubtitle": "Berikan ponsel dan tempelkan di dahi Anda",
+    "startTimer": "Mulai!",
+    "emptyTitle": "Tidak ada lagi kata-kata",
+    "emptySubtitle": "Cobalah berbagai kategori untuk terus bermain."
+  },
+  "wordChain": {
+    "title": "Rantai Kata",
+    "startWith": "Mulai kata apa pun",
+    "continueWith": "Kata yang dimulai dengan «{{letter}}»",
+    "placeholder": "Ketikkan kata…",
+    "submit": "Kirim",
+    "wrongLetter": "Harus dimulai dengan «{{letter}}»",
+    "alreadyUsed": "Sudah digunakan!",
+    "tooShort": "Terlalu pendek",
+    "invalidChars": "Hanya huruf",
+    "eliminated": "{{name}} keluar!",
+    "timerOut": "Waktu habis! {{name}} tersingkir.",
+    "winner": "🏆 {{name}} menang!",
+    "endGame": "Akhir Permainan",
+    "playersLeft": "{{count}} tersisa"
+  },
+  "triviaBet": {
+    "title": "Taruhan Trivia",
+    "tokens": "{{count}} token",
+    "yourBet": "Taruhan Anda",
+    "placeBet": "Pasang Taruhan",
+    "question": "Pertanyaan {{number}}",
+    "reveal": "Ungkapkan Jawaban",
+    "correct": "Benar! +{{count}} token",
+    "wrong": "Salah! -{{count}} token",
+    "nextQuestion": "Pertanyaan Berikutnya →",
+    "endGame": "Akhir Permainan",
+    "leaderboard": "Papan peringkat",
+    "winner": "{{name}} menang dengan {{count}} token!"
+  },
+  "twoTruths": {
+    "title": "Dua Kebenaran Satu Kebohongan",
+    "tellerInstruction": "Tulis 2 kebenaran dan 1 kebohongan tentang diri Anda",
+    "statement1": "Pernyataan 1",
+    "statement2": "Pernyataan 2",
+    "statement3": "Pernyataan 3",
+    "markedLie": "BOHONG",
+    "markLie": "Yang mana kebohongannya?",
+    "submitStatements": "Selesai — Berikan ponsel",
+    "voting": "Pernyataan mana yang bohong?",
+    "revealLie": "Ungkapkan Kebohongan",
+    "lieWas": "Kebohongannya adalah #{{number}}",
+    "fooled": "{{name}} membodohi {{count}} orang! +{{count}} poin",
+    "nextPlayer": "Pemain Berikutnya →",
+    "endGame": "Akhir Permainan"
+  },
+  "common": {
+    "pro": "PRO",
+    "locked": "Terkunci",
+    "free": "Gratis",
+    "back": "Kembali",
+    "close": "Tutup",
+    "cancel": "Batalkan",
+    "confirm": "Konfirmasikan",
+    "loading": "Memuat...",
+    "players_count": "{{min}}–{{max}} pemain",
+    "minutes": "{{range}} menit",
+    "home": "Beranda",
+    "settings": "Pengaturan",
+    "save": "Simpan"
+  },
+  "discountPaywall": {
+    "tag": "Penawaran Khusus",
+    "title": "Buka kunci PRO dengan harga diskon.",
+    "subtitle": "Dapatkan akses PRO penuh dengan harga lebih murah.",
+    "originalPriceLabel": "Harga reguler",
+    "originalPrice": "$4,99/bln",
+    "discountPriceLabel": "Paket Tahunan",
+    "discountPrice": "$1,67/bln",
+    "billedAnnually": "Ditagih setahun sekali pada {{total}}",
+    "saving": "Anda menghemat {{percent}}%",
+    "cta": "Klaim Kesepakatan Ini →",
+    "decline": "Tidak, terima kasih",
+    "restore": "Kembalikan Pembelian",
+    "close": "Tutup"
+  },
+  "customWords": {
+    "title": "Daftar Kustom Saya",
+    "placeholder": "Tambahkan sebuah kata...",
+    "wordCount": "{{count}} kata",
+    "emptyHint": "Tambahkan setidaknya {{min}} kata untuk menggunakan kategori ini",
+    "needMore": "{{count}} lebih dibutuhkan",
+    "empty": "Belum ada kata-kata. Mulai menambahkan!"
+  }
+}

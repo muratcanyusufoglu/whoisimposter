@@ -1,0 +1,1232 @@
+{
+  "gameId": "truth-dare",
+  "locale": "id",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "td_id_001",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Apa kenangan masa kecilmu yang paling memalukan?"
+    },
+    {
+      "id": "td_id_002",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Apa kebohongan terakhir yang kamu katakan?"
+    },
+    {
+      "id": "td_id_003",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Apa hal yang paling mengesalkan pada hewan peliharaanmu?"
+    },
+    {
+      "id": "td_id_004",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kebiasaan apa yang kamu harap bisa kamu hentikan?"
+    },
+    {
+      "id": "td_id_005",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pernahkah Anda menyalahkan orang lain atas sesuatu yang Anda lakukan?"
+    },
+    {
+      "id": "td_id_006",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Apa bakatmu yang tidak diketahui orang lain?"
+    },
+    {
+      "id": "td_id_007",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Apa hal paling kekanak-kanakan yang masih kamu lakukan?"
+    },
+    {
+      "id": "td_id_008",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Makanan apa yang diam-diam kamu benci tapi pura-pura kamu sukai?"
+    },
+    {
+      "id": "td_id_009",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pernahkah Anda masuk ke pintu kaca?"
+    },
+    {
+      "id": "td_id_010",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Apa emoji yang paling sering kamu gunakan?"
+    },
+    {
+      "id": "td_id_011",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Apa acara TV kesenangan bersalah Anda?"
+    },
+    {
+      "id": "td_id_012",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pernahkah Anda menghadiahkan kembali hadiah?"
+    },
+    {
+      "id": "td_id_013",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lagu apa yang paling memalukan di playlistmu?"
+    },
+    {
+      "id": "td_id_014",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pernahkah Anda berpura-pura sakit untuk keluar dari rencana?"
+    },
+    {
+      "id": "td_id_015",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Apa mimpi teraneh yang kamu alami baru-baru ini?"
+    },
+    {
+      "id": "td_id_016",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Apa hadiah terburuk yang pernah kamu terima?"
+    },
+    {
+      "id": "td_id_017",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Apakah kamu bernyanyi di kamar mandi? Lagu apa?"
+    },
+    {
+      "id": "td_id_018",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pernahkah Anda tertidur di tempat kerja atau sekolah?"
+    },
+    {
+      "id": "td_id_019",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Apa barang paling konyol yang pernah kamu beli?"
+    },
+    {
+      "id": "td_id_020",
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hal apa yang tidak kamu sukai tetapi terus kamu coba?"
+    },
+    {
+      "id": "td_id_021",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Apa rahasia terbesar yang kamu sembunyikan dari orang tuamu?"
+    },
+    {
+      "id": "td_id_022",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa cinta pertamamu dan apakah mereka tahu?"
+    },
+    {
+      "id": "td_id_023",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hal paling memalukan apa yang terjadi padamu di depan umum?"
+    },
+    {
+      "id": "td_id_024",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Pernahkah kamu membuat hantu seseorang? Siapa?"
+    },
+    {
+      "id": "td_id_025",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Apa hal paling remeh yang pernah kamu lakukan untuk membalas dendam?"
+    },
+    {
+      "id": "td_id_026",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Apa ketakutanmu yang paling tidak rasional?"
+    },
+    {
+      "id": "td_id_027",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Pernahkah Anda menguntit media sosial seseorang selama berjam-jam?"
+    },
+    {
+      "id": "td_id_028",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Barang termahal apa yang pernah kamu pecahkan dan tidak kamu akui?"
+    },
+    {
+      "id": "td_id_029",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Pernahkah Anda berpura-pura menyukai seseorang untuk mendapatkan sesuatu darinya?"
+    },
+    {
+      "id": "td_id_030",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Fase atau era apa yang paling membuat Anda ngeri?"
+    },
+    {
+      "id": "td_id_031",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kapan terakhir kali Anda menangis dan mengapa?"
+    },
+    {
+      "id": "td_id_032",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kebohongan apa yang kamu katakan pada dirimu sendiri?"
+    },
+    {
+      "id": "td_id_033",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Pernahkah kamu berbuat curang dalam suatu permainan?"
+    },
+    {
+      "id": "td_id_034",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Apa kencan terburuk yang pernah kamu alami?"
+    },
+    {
+      "id": "td_id_035",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Pernahkah Anda mengirim pesan ke orang yang salah?"
+    },
+    {
+      "id": "td_id_036",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Apa momen koreksi otomatis yang paling memalukan bagi Anda?"
+    },
+    {
+      "id": "td_id_037",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Apa situasi paling canggung yang kamu alami akhir-akhir ini?"
+    },
+    {
+      "id": "td_id_038",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Pernahkah Anda mengatakan bahwa Anda berada di suatu tempat yang bukan Anda berada?"
+    },
+    {
+      "id": "td_id_039",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Apa hal terburuk yang pernah kamu lakukan saat melakukan tantangan?"
+    },
+    {
+      "id": "td_id_040",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Pendapat apa yang Anda miliki yang tidak disetujui oleh kebanyakan orang?"
+    },
+    {
+      "id": "td_id_041",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Hal paling memalukan apa yang pernah kamu lakukan namun tidak diketahui siapa pun?"
+    },
+    {
+      "id": "td_id_042",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Pernahkah Anda tertarik pada seseorang di ruangan ini?"
+    },
+    {
+      "id": "td_id_043",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Apa hal paling berani yang pernah kamu lakukan untuk orang yang kamu sukai?"
+    },
+    {
+      "id": "td_id_044",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "SMS apa yang paling memalukan yang pernah Anda kirim ke orang yang salah?"
+    },
+    {
+      "id": "td_id_045",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Pernahkah Anda mengembangkan perasaan terhadap seseorang yang diculik?"
+    },
+    {
+      "id": "td_id_046",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Apa kesalahan terbesar yang pernah kamu lakukan dalam suatu hubungan?"
+    },
+    {
+      "id": "td_id_047",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jika Anda harus mencium seseorang di ruangan ini, siapakah orang itu?"
+    },
+    {
+      "id": "td_id_048",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Apa hal yang sudah kamu lakukan namun tidak kamu banggakan?"
+    },
+    {
+      "id": "td_id_049",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Pernahkah Anda secara tidak sengaja menyukai foto lama saat sedang menguntit seseorang?"
+    },
+    {
+      "id": "td_id_050",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Apa hal paling di luar karakter yang pernah kamu lakukan?"
+    },
+    {
+      "id": "td_id_051",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Apa hal paling cemburu yang pernah kamu alami?"
+    },
+    {
+      "id": "td_id_052",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Pernahkah Anda terus berbicara dengan seseorang hanya agar pilihan Anda tetap terbuka?"
+    },
+    {
+      "id": "td_id_053",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Apa hal paling menantang yang pernah kamu lakukan secara tiba-tiba?"
+    },
+    {
+      "id": "td_id_054",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Menurut Anda, siapa yang paling penggoda di sini?"
+    },
+    {
+      "id": "td_id_055",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Pernahkah Anda mencoba keluar dari situasi sulit?"
+    },
+    {
+      "id": "td_id_056",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Rahasia apa yang kamu simpan sehingga kamu merasa bersalah?"
+    },
+    {
+      "id": "td_id_057",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Pernahkah Anda berbohong tentang usia Anda?"
+    },
+    {
+      "id": "td_id_058",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Apa hal paling memalukan yang pernah kamu lakukan ketika seseorang memergokimu?"
+    },
+    {
+      "id": "td_id_059",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Pernahkah Anda naksir seseorang yang jauh lebih tua atau lebih muda?"
+    },
+    {
+      "id": "td_id_060",
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Apa yang akan kamu lakukan jika kamu tahu tidak akan ada orang yang mengetahuinya?"
+    },
+    {
+      "id": "td_id_061",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Berikan kesan terbaik Anda terhadap seseorang di ruangan itu."
+    },
+    {
+      "id": "td_id_062",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Bicaralah dengan aksen selama 3 menit berikutnya."
+    },
+    {
+      "id": "td_id_063",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lakukan 10 jumping jack sekarang."
+    },
+    {
+      "id": "td_id_064",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Biarkan seseorang mengirim pesan teks kepada siapa pun di kontak Anda."
+    },
+    {
+      "id": "td_id_065",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nyanyikan bagian refrain dari lagu favorit Anda."
+    },
+    {
+      "id": "td_id_066",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lakukan tarian robot terbaik Anda selama 30 detik."
+    },
+    {
+      "id": "td_id_067",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Biarkan kelompok memberi Anda gaya rambut baru selama 5 menit."
+    },
+    {
+      "id": "td_id_068",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Bicaralah hanya pada pertanyaan untuk putaran berikutnya."
+    },
+    {
+      "id": "td_id_069",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lakukan catwalk terbaik Anda melintasi ruangan."
+    },
+    {
+      "id": "td_id_070",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ceritakan lelucon yang membuat seseorang tertawa."
+    },
+    {
+      "id": "td_id_071",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hubungi salah satu anggota keluarga dan katakan Anda hanya ingin mendengar suaranya."
+    },
+    {
+      "id": "td_id_072",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Makanlah sesendok makanan yang tidak Anda sukai dari dapur."
+    },
+    {
+      "id": "td_id_073",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Gambarlah potret orang di sebelah kiri Anda tanpa mengangkat pena."
+    },
+    {
+      "id": "td_id_074",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Biarkan grup memposting status di media sosial Anda."
+    },
+    {
+      "id": "td_id_075",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lakukan pembacaan dramatis atas percakapan teks terakhir Anda."
+    },
+    {
+      "id": "td_id_076",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Cobalah menjilat siku Anda selama 30 detik."
+    },
+    {
+      "id": "td_id_077",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tos semua orang di ruangan itu sambil menyebut namanya."
+    },
+    {
+      "id": "td_id_078",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tertawalah penjahat jahat terbaikmu."
+    },
+    {
+      "id": "td_id_079",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Berpura-pura menjadi pembawa berita dan melaporkan kejadian terkini."
+    },
+    {
+      "id": "td_id_080",
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Peragakan adegan film tanpa berbicara dan biarkan orang lain menebaknya."
+    },
+    {
+      "id": "td_id_081",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Biarkan seseorang memeriksa rol kamera Anda selama 30 detik."
+    },
+    {
+      "id": "td_id_082",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hubungi kontak acak dan katakan 'Saya tahu apa yang Anda lakukan musim panas lalu.'"
+    },
+    {
+      "id": "td_id_083",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Posting selfie yang memalukan di story Anda selama 10 menit."
+    },
+    {
+      "id": "td_id_084",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Biarkan seseorang membaca 10 teks terakhir Anda dengan lantang."
+    },
+    {
+      "id": "td_id_085",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kenakan item pakaian luar dalam selama sisa permainan."
+    },
+    {
+      "id": "td_id_086",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Bicaralah hanya dalam sajak selama 5 menit berikutnya."
+    },
+    {
+      "id": "td_id_087",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lakukan rap gaya bebas tentang orang di seberang Anda."
+    },
+    {
+      "id": "td_id_088",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Duduklah di lantai selama sisa permainan."
+    },
+    {
+      "id": "td_id_089",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Pujilah setiap orang di ruangan itu dengan pujian yang spesifik dan pribadi."
+    },
+    {
+      "id": "td_id_090",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Biarkan kelompok memilih sebuah kata yang tidak dapat Anda ucapkan selama 10 menit."
+    },
+    {
+      "id": "td_id_091",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kirim pesan suara ke seseorang di kontak Anda yang mengatakan 'Aku merindukanmu.'"
+    },
+    {
+      "id": "td_id_092",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Tukar item pakaian dengan orang di sebelah kanan Anda selama 5 menit."
+    },
+    {
+      "id": "td_id_093",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Biarkan seseorang memilih gambar profil baru untuk Anda selama satu jam."
+    },
+    {
+      "id": "td_id_094",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Buatlah impresi selebriti favorit Anda hingga ada yang bisa menebaknya."
+    },
+    {
+      "id": "td_id_095",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Katakan sesuatu yang baik tentang setiap orang di ruangan itu, tetapi orang terakhir harus terpanggang."
+    },
+    {
+      "id": "td_id_096",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ceritakan semua yang Anda lakukan selama 3 menit berikutnya sebagai orang ketiga."
+    },
+    {
+      "id": "td_id_097",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lakukan tarian ala TikTok mengikuti lagu apa pun yang dipilih grup."
+    },
+    {
+      "id": "td_id_098",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Makan sesuatu di dapur yang dipilih oleh kelompok tanpa melihatnya terlebih dahulu."
+    },
+    {
+      "id": "td_id_099",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Biarkan seseorang menggambar wajah Anda dengan spidol yang bisa dicuci."
+    },
+    {
+      "id": "td_id_100",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ungkapkan 5 lagu teratas Anda yang paling sering diputar."
+    },
+    {
+      "id": "td_id_101",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Biarkan grup menulis postingan di media sosial utama Anda dan simpan selama 30 menit."
+    },
+    {
+      "id": "td_id_102",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kirim emoji genit ke orang terakhir yang Anda kirimi SMS."
+    },
+    {
+      "id": "td_id_103",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Berikan pijatan punggung selama 1 menit kepada orang pilihan Anda."
+    },
+    {
+      "id": "td_id_104",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ungkapkan orang terakhir yang Anda cari di media sosial dan alasannya."
+    },
+    {
+      "id": "td_id_105",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Biarkan semua orang melihat teks Anda yang terakhir dihapus."
+    },
+    {
+      "id": "td_id_106",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kirim 'Hei, memikirkanmu!' untuk mantanmu yang terbaru."
+    },
+    {
+      "id": "td_id_107",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lakukan perjalanan Anda yang paling menarik melintasi ruangan sementara semua orang menonton."
+    },
+    {
+      "id": "td_id_108",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Biarkan grup membuat bio profil kencan Anda."
+    },
+    {
+      "id": "td_id_109",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Habiskan 60 detik untuk mencoba meyakinkan seseorang di ruangan itu untuk berkencan dengan Anda."
+    },
+    {
+      "id": "td_id_110",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Izinkan seseorang menanyakan 5 pertanyaan pribadi yang harus Anda jawab dengan jujur."
+    },
+    {
+      "id": "td_id_111",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Serenadekan orang pilihan Anda dengan lagu apa pun selama 30 detik."
+    },
+    {
+      "id": "td_id_112",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Biarkan grup tersebut menjebak Anda pada kencan buta dengan memilih dari kontak Anda."
+    },
+    {
+      "id": "td_id_113",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Beritahukan kepada kelompok daftar tiga poin Anda untuk calon mitra."
+    },
+    {
+      "id": "td_id_114",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Biarkan kelompok menata pakaian untuk Anda dari lemari pakaian Anda sendiri."
+    },
+    {
+      "id": "td_id_115",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Bagikan tangkapan layar percakapan menggoda Anda yang paling membuat ngeri."
+    },
+    {
+      "id": "td_id_116",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Mengedipkan mata pada setiap orang yang berbicara selama 5 menit berikutnya."
+    },
+    {
+      "id": "td_id_117",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Biarkan seseorang memanggang Anda selama 60 detik tanpa bereaksi."
+    },
+    {
+      "id": "td_id_118",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Bagikan rahasia tentang diri Anda yang tidak diketahui oleh siapa pun di ruangan itu."
+    },
+    {
+      "id": "td_id_119",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Tunjukkan jalur pengambilan terbaik Anda dan kirimkan ke orang di sebelah Anda."
+    },
+    {
+      "id": "td_id_120",
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Biarkan kelompok memberi peringkat setiap orang berdasarkan daya tariknya dan membacakan daftarnya dengan lantang."
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Apa hal terakhir yang Anda cari secara online?",
+      "id": "td_id_121"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lagu apa yang kamu tahu seluruh liriknya?",
+      "id": "td_id_122"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Apa aplikasi yang paling sering Anda gunakan?",
+      "id": "td_id_123"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Makanan apa yang bisa kamu makan setiap hari?",
+      "id": "td_id_124"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Apa pujian terbaik yang pernah Anda terima?",
+      "id": "td_id_125"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Apa film atau acara hiburan favorit Anda?",
+      "id": "td_id_126"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hal apa yang kamu banggakan di tahun ini?",
+      "id": "td_id_127"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Apa kebiasaanmu yang paling aneh?",
+      "id": "td_id_128"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Apa cara favoritmu untuk bersantai?",
+      "id": "td_id_129"
+    },
+    {
+      "type": "truth",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Bakat apa yang Anda harap Anda miliki?",
+      "id": "td_id_130"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lakukan kesan terbaik Anda terhadap seorang selebriti selama 10 detik.",
+      "id": "td_id_131"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Bicaralah dengan berbisik untuk putaran berikutnya.",
+      "id": "td_id_132"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tunjukkan foto terakhir yang Anda ambil dengan ponsel Anda.",
+      "id": "td_id_133"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lakukan 10 jumping jack.",
+      "id": "td_id_134"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Biarkan orang lain memilih gambar profil Anda selama 24 jam.",
+      "id": "td_id_135"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Bagikan fakta menarik tentang diri Anda.",
+      "id": "td_id_136"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Berputar 5 kali dan berjalan dalam garis lurus.",
+      "id": "td_id_137"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kirimkan emoji ramah kepada orang terakhir yang mengirimi Anda pesan.",
+      "id": "td_id_138"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Anggaplah Anda adalah reporter berita selama 20 detik.",
+      "id": "td_id_139"
+    },
+    {
+      "type": "dare",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Biarkan kelompok memilih kata yang harus Anda gunakan dalam setiap kalimat selama 3 menit.",
+      "id": "td_id_140"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Apa SMS paling canggung yang pernah kamu kirim?",
+      "id": "td_id_141"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling sering kamu kirimi pesan saat ini?",
+      "id": "td_id_142"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Janji apa yang kamu sesali?",
+      "id": "td_id_143"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Apa hal yang kamu pura-pura suka tapi sebenarnya tidak kamu sukai?",
+      "id": "td_id_144"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kapan terakhir kali kamu cemburu?",
+      "id": "td_id_145"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Rahasia apa yang kamu sembunyikan dari temanmu?",
+      "id": "td_id_146"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Apa nasihat terburuk yang pernah Anda ikuti?",
+      "id": "td_id_147"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Benda termahal apa yang pernah kamu rusak?",
+      "id": "td_id_148"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ketakutan apa yang belum kamu ceritakan kepada siapa pun?",
+      "id": "td_id_149"
+    },
+    {
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa orang terakhir yang Anda nonaktifkan atau berhenti ikuti?",
+      "id": "td_id_150"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Posting lirik lagu acak ke cerita Anda.",
+      "id": "td_id_151"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kirimkan pujian kepada seseorang sekarang juga.",
+      "id": "td_id_152"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Makan camilan tanpa menggunakan tangan.",
+      "id": "td_id_153"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Biarkan seseorang menata rambut Anda.",
+      "id": "td_id_154"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lakukan pembacaan dramatis terhadap pesan terakhir yang Anda kirim.",
+      "id": "td_id_155"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Cobalah tarian konyol selama 20 detik.",
+      "id": "td_id_156"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Bicaralah dengan aksen yang dipilih oleh kelompok selama satu menit.",
+      "id": "td_id_157"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Gambarlah potret singkat seseorang dalam kelompok.",
+      "id": "td_id_158"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Bagikan layar Anda selama 10 detik.",
+      "id": "td_id_159"
+    },
+    {
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Tukar kursi dengan seseorang hingga giliran Anda berikutnya.",
+      "id": "td_id_160"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Pernahkah Anda menyukai dua orang sekaligus?",
+      "id": "td_id_161"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Apa tanda bahaya kencan terbesarmu?",
+      "id": "td_id_162"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Apa hal paling menggoda yang pernah kamu lakukan akhir-akhir ini?",
+      "id": "td_id_163"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Apa hal yang kamu sembunyikan dari pasanganmu?",
+      "id": "td_id_164"
+    },
+    {
+      "type": "truth",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Apa pesan paling berani yang pernah Anda kirimkan?",
+      "id": "td_id_165"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Tampilkan foto terakhir Anda yang disimpan di rol kamera Anda.",
+      "id": "td_id_166"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Baca DM terakhir yang Anda terima dengan lantang.",
+      "id": "td_id_167"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kirim GIF genit ke seseorang yang Anda percayai.",
+      "id": "td_id_168"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Biarkan grup melihat daftar emoji yang paling sering Anda gunakan.",
+      "id": "td_id_169"
+    },
+    {
+      "type": "dare",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Akui naksir terbaru Anda (tanpa nama, hanya inisial).",
+      "id": "td_id_170"
+    },
+    {
+      "id": "td_id_171",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hal apa yang paling memalukan dalam riwayat pencarian Anda?"
+    },
+    {
+      "id": "td_id_172",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aplikasi mana yang paling banyak mencuri waktu Anda?"
+    },
+    {
+      "id": "td_id_173",
+      "type": "truth",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Pesan apa yang Anda ketik dan tidak pernah Anda kirimkan?"
+    },
+    {
+      "id": "td_id_174",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Tunjukkan kepada grup meme terbaru Anda yang disimpan."
+    },
+    {
+      "id": "td_id_175",
+      "type": "dare",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Gambarkan selfie terakhir Anda seolah-olah itu adalah karya museum."
+    }
+  ]
+}

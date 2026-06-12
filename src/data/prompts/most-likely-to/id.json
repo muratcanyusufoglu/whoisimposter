@@ -1,0 +1,1309 @@
+{
+  "gameId": "most-likely-to",
+  "locale": "id",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "mlt_id_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin begadang semalaman menonton video?"
+    },
+    {
+      "id": "mlt_id_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin memakan potongan pizza terakhir tanpa diminta?"
+    },
+    {
+      "id": "mlt_id_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin menjadi koki terkenal?"
+    },
+    {
+      "id": "mlt_id_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin tidak tersandung di depan umum?"
+    },
+    {
+      "id": "mlt_id_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin melupakan ponselnya di rumah setiap hari?"
+    },
+    {
+      "id": "mlt_id_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin menjadi napper profesional?"
+    },
+    {
+      "id": "mlt_id_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin memulai tren tari viral?"
+    },
+    {
+      "id": "mlt_id_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin menangis saat menonton iklan?"
+    },
+    {
+      "id": "mlt_id_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin tersesat di kota tempat mereka tinggal?"
+    },
+    {
+      "id": "mlt_id_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling berpeluang menjadi travel influencer?"
+    },
+    {
+      "id": "mlt_id_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin menjadi orang terakhir yang siap saat pergi keluar?"
+    },
+    {
+      "id": "mlt_id_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin memiliki koleksi rahasia boneka binatang?"
+    },
+    {
+      "id": "mlt_id_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin berteman dengan orang asing dalam waktu 5 menit?"
+    },
+    {
+      "id": "mlt_id_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin datang ke pesta yang tidak mereka undang?"
+    },
+    {
+      "id": "mlt_id_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin mengubah hobi menjadi bisnis?"
+    },
+    {
+      "id": "mlt_id_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling berpeluang memenangkan spelling bee?"
+    },
+    {
+      "id": "mlt_id_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin melupakan hari ulang tahunmu?"
+    },
+    {
+      "id": "mlt_id_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin berbicara dengan hewan peliharaannya dalam percakapan penuh?"
+    },
+    {
+      "id": "mlt_id_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin menjadi bintang reality TV?"
+    },
+    {
+      "id": "mlt_id_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin memiliki 100 email yang belum dibaca saat ini?"
+    },
+    {
+      "id": "mlt_id_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin membuat seseorang takut setelah kencan pertama yang menyenangkan?"
+    },
+    {
+      "id": "mlt_id_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin berdebat dengan orang asing di internet?"
+    },
+    {
+      "id": "mlt_id_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin secara tidak sengaja menyukai foto anak berusia 3 tahun saat sedang menguntit seseorang?"
+    },
+    {
+      "id": "mlt_id_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin memiliki finsta rahasia?"
+    },
+    {
+      "id": "mlt_id_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang kemungkinan besar akan izin sakit untuk bekerja agar tetap berada di rumah dan menonton pesta?"
+    },
+    {
+      "id": "mlt_id_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin memicu drama secara tidak sengaja?"
+    },
+    {
+      "id": "mlt_id_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin mengirim SMS ke orang yang salah?"
+    },
+    {
+      "id": "mlt_id_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin menjadi orang yang merusak akhir sebuah pertunjukan?"
+    },
+    {
+      "id": "mlt_id_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang kemungkinan besar akan terus berbicara dengan mantannya lebih lama dari yang seharusnya?"
+    },
+    {
+      "id": "mlt_id_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin membatalkan rencana pada menit-menit terakhir?"
+    },
+    {
+      "id": "mlt_id_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin mengungkit mantannya dalam percakapan yang tidak berhubungan?"
+    },
+    {
+      "id": "mlt_id_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin memanggang seseorang dan kemudian berkata 'bercanda' setelahnya?"
+    },
+    {
+      "id": "mlt_id_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin mengetahui urusan pribadi setiap orang?"
+    },
+    {
+      "id": "mlt_id_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin memiliki riwayat pencarian yang sangat mencurigakan?"
+    },
+    {
+      "id": "mlt_id_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin keluar dari partai secara dramatis?"
+    },
+    {
+      "id": "mlt_id_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin merekam semua yang ada di ponselnya?"
+    },
+    {
+      "id": "mlt_id_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin mengatakan 'Saya sedang dalam perjalanan' padahal mereka belum berangkat?"
+    },
+    {
+      "id": "mlt_id_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin merusak pesta kejutan secara tidak sengaja?"
+    },
+    {
+      "id": "mlt_id_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang kemungkinan besar telah mencoba setiap diet yang ada?"
+    },
+    {
+      "id": "mlt_id_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin berbagi secara berlebihan di media sosial?"
+    },
+    {
+      "id": "mlt_id_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin pernah mencium seseorang di ruangan ini?"
+    },
+    {
+      "id": "mlt_id_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin memiliki pengagum rahasia saat ini?"
+    },
+    {
+      "id": "mlt_id_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin berkencan dengan seseorang yang jauh lebih muda atau lebih tua?"
+    },
+    {
+      "id": "mlt_id_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin tergoda untuk keluar dari tilang?"
+    },
+    {
+      "id": "mlt_id_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin masuk ke DM selebriti?"
+    },
+    {
+      "id": "mlt_id_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin menghadiri acara kencan?"
+    },
+    {
+      "id": "mlt_id_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin jatuh cinta pada seseorang yang tidak seharusnya?"
+    },
+    {
+      "id": "mlt_id_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang kemungkinan besar memiliki lebih dari 5 pesan genit yang belum dibaca saat ini?"
+    },
+    {
+      "id": "mlt_id_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin menikah dengan seseorang yang baru mereka temui dalam perjalanan?"
+    },
+    {
+      "id": "mlt_id_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapakah yang paling mungkin menjadi orang yang selalu putus cinta?"
+    },
+    {
+      "id": "mlt_id_051",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin memiliki riwayat hubungan paling dramatis?"
+    },
+    {
+      "id": "mlt_id_052",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin berkencan dengan dua orang dalam kelompok teman yang sama?"
+    },
+    {
+      "id": "mlt_id_053",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin mengirimkan jebakan haus ke obrolan grup yang salah?"
+    },
+    {
+      "id": "mlt_id_054",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang kemungkinan besar masih berbicara dengan mantan SMA-nya?"
+    },
+    {
+      "id": "mlt_id_055",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin mengalami situasi yang belum mereka ceritakan kepada siapa pun?"
+    },
+    {
+      "id": "mlt_id_056",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin jatuh cinta dengan orang asing di pesawat?"
+    },
+    {
+      "id": "mlt_id_057",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin menjadi penggoda terbesar dalam grup baru?"
+    },
+    {
+      "id": "mlt_id_058",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin menangkap perasaan dan langsung menyangkalnya?"
+    },
+    {
+      "id": "mlt_id_059",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin memiliki kepribadian utuh karena satu mantan?"
+    },
+    {
+      "id": "mlt_id_060",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang kemungkinan besar akan mengikuti reality show kencan dan menang?"
+    },
+    {
+      "id": "mlt_id_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin lupa mengisi daya ponselnya dalam semalam?"
+    },
+    {
+      "id": "mlt_id_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin membawa makanan ringan ke bioskop tanpa ada yang memintanya?"
+    },
+    {
+      "id": "mlt_id_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin tersandung di trotoar datar?"
+    },
+    {
+      "id": "mlt_id_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin mengambil foto setiap kali makan?"
+    },
+    {
+      "id": "mlt_id_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin kehilangan kuncinya dua kali dalam satu minggu?"
+    },
+    {
+      "id": "mlt_id_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin memulai obrolan grup dan kemudian membisukannya?"
+    },
+    {
+      "id": "mlt_id_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin tertidur saat menonton film di rumah?"
+    },
+    {
+      "id": "mlt_id_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin berkemas berlebihan untuk perjalanan akhir pekan?"
+    },
+    {
+      "id": "mlt_id_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin mengadopsi hewan peliharaan liar?"
+    },
+    {
+      "id": "mlt_id_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin berteman dengan barista di hari pertama?"
+    },
+    {
+      "id": "mlt_id_071",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin muncul dengan tas yang dapat digunakan kembali setiap saat?"
+    },
+    {
+      "id": "mlt_id_072",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin membawa permainan papan ke piknik?"
+    },
+    {
+      "id": "mlt_id_073",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin tertawa di saat yang salah?"
+    },
+    {
+      "id": "mlt_id_074",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin mengalami sengatan matahari saat cuaca mendung?"
+    },
+    {
+      "id": "mlt_id_075",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin membuat playlist untuk segala hal?"
+    },
+    {
+      "id": "mlt_id_076",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin menjadi DJ yang ditunjuk di hangouts?"
+    },
+    {
+      "id": "mlt_id_077",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin mengingat hari ulang tahun semua orang?"
+    },
+    {
+      "id": "mlt_id_078",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin tidur siang di mana saja, kapan saja?"
+    },
+    {
+      "id": "mlt_id_079",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin mencoba setiap kafe baru di kota?"
+    },
+    {
+      "id": "mlt_id_080",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Siapa yang paling mungkin menyimpan setiap tanda terima untuk berjaga-jaga?"
+    },
+    {
+      "id": "mlt_id_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin membatalkan rencana pada menit-menit terakhir dan merasa bersalah?"
+    },
+    {
+      "id": "mlt_id_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin mengirim pesan kepada orang yang salah secara tidak sengaja?"
+    },
+    {
+      "id": "mlt_id_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin mengabaikan rencana grup dan muncul kembali nanti?"
+    },
+    {
+      "id": "mlt_id_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin memulai pekerjaan sampingan dari hobi?"
+    },
+    {
+      "id": "mlt_id_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin menonton seluruh rangkaian acara dalam satu hari?"
+    },
+    {
+      "id": "mlt_id_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin berdebat dengan orang asing secara online?"
+    },
+    {
+      "id": "mlt_id_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin berbagi secara berlebihan dalam obrolan grup?"
+    },
+    {
+      "id": "mlt_id_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin memulai podcast dan melupakannya?"
+    },
+    {
+      "id": "mlt_id_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin tersesat meski GPS aktif?"
+    },
+    {
+      "id": "mlt_id_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin memiliki 200 email yang belum dibaca?"
+    },
+    {
+      "id": "mlt_id_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin mengambil screenshot pesan untuk nanti?"
+    },
+    {
+      "id": "mlt_id_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin menumpahkan minuman di sebuah pesta?"
+    },
+    {
+      "id": "mlt_id_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin memulai tren dance di grup?"
+    },
+    {
+      "id": "mlt_id_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin menjawab hanya dengan catatan suara?"
+    },
+    {
+      "id": "mlt_id_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin memesan perjalanan akhir pekan spontan?"
+    },
+    {
+      "id": "mlt_id_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin menyimpan rahasia selama bertahun-tahun?"
+    },
+    {
+      "id": "mlt_id_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin terlambat tapi tetap tampil sempurna?"
+    },
+    {
+      "id": "mlt_id_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar akan memulai playlist baru untuk setiap suasana hati."
+    },
+    {
+      "id": "mlt_id_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin mencela seseorang dan berkata “bercanda”?"
+    },
+    {
+      "id": "mlt_id_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin mengetahui tempat makan tersembunyi terbaik?"
+    },
+    {
+      "id": "mlt_id_101",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin naksir seseorang secara diam-diam di sini?"
+    },
+    {
+      "id": "mlt_id_102",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kemungkinan besar membuat jurnal setiap hari."
+    },
+    {
+      "id": "mlt_id_103",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin jatuh cinta pada seseorang yang baru mereka temui?"
+    },
+    {
+      "id": "mlt_id_104",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin untuk terus berbicara dengan mantan?"
+    },
+    {
+      "id": "mlt_id_105",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin untuk keluar dari masalah?"
+    },
+    {
+      "id": "mlt_id_106",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin mengalami situasi yang tidak mereka definisikan?"
+    },
+    {
+      "id": "mlt_id_107",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin ketahuan menyukai foto lama?"
+    },
+    {
+      "id": "mlt_id_108",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kemungkinan besar merencanakan perjalanan kejutan untuk seorang teman."
+    },
+    {
+      "id": "mlt_id_109",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang paling mungkin berkencan dengan seseorang yang jauh lebih tua atau lebih muda?"
+    },
+    {
+      "id": "mlt_id_110",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Siapa yang kemungkinan besar memiliki profil kencan paling berani?"
+    },
+    {
+      "id": "mlt_id_111",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar lupa hari ulang tahunnya sendiri."
+    },
+    {
+      "id": "mlt_id_112",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar untuk memulai bisnis dan benar-benar sukses."
+    },
+    {
+      "id": "mlt_id_113",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar kehilangan ponselnya selama seminggu."
+    },
+    {
+      "id": "mlt_id_114",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar mengadopsi hewan peliharaan karena dorongan hati."
+    },
+    {
+      "id": "mlt_id_115",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar merencanakan pesta kejutan dengan sempurna."
+    },
+    {
+      "id": "mlt_id_116",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar memenangkan kontes karaoke."
+    },
+    {
+      "id": "mlt_id_117",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar akan pindah ke kota lain tanpa memberitahu siapa pun."
+    },
+    {
+      "id": "mlt_id_118",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar tersesat di lingkungannya sendiri."
+    },
+    {
+      "id": "mlt_id_119",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar menjadi terkenal di internet."
+    },
+    {
+      "id": "mlt_id_120",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar tertidur saat kencan film."
+    },
+    {
+      "id": "mlt_id_121",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar memasak makanan lengkap dari awal."
+    },
+    {
+      "id": "mlt_id_122",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar akan memesan perjalanan pada menit-menit terakhir."
+    },
+    {
+      "id": "mlt_id_123",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar tidak sengaja mengirimkan tangkapan layar ke orang yang salah."
+    },
+    {
+      "id": "mlt_id_124",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar akan menyimpan rahasia selama bertahun-tahun."
+    },
+    {
+      "id": "mlt_id_125",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar akan membicarakan jalan keluar dari tiket."
+    },
+    {
+      "id": "mlt_id_126",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar lupa merespons selama berhari-hari."
+    },
+    {
+      "id": "mlt_id_127",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar menghabiskan satu jam untuk memilih playlist."
+    },
+    {
+      "id": "mlt_id_128",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar mengikuti maraton tanpa pelatihan."
+    },
+    {
+      "id": "mlt_id_129",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar berteman dengan orang asing dalam antrean."
+    },
+    {
+      "id": "mlt_id_130",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar akan memenangkan malam trivia."
+    },
+    {
+      "id": "mlt_id_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar akan membuat obrolan grup menjadi hantu."
+    },
+    {
+      "id": "mlt_id_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar memiliki ruangan yang berantakan tetapi mejanya bersih."
+    },
+    {
+      "id": "mlt_id_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar akan mengatakan tidak dan sungguh-sungguh."
+    },
+    {
+      "id": "mlt_id_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar akan terlambat ke pestanya sendiri."
+    },
+    {
+      "id": "mlt_id_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar membuat tato karena kemauan."
+    },
+    {
+      "id": "mlt_id_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar memiliki bakat terpendam."
+    },
+    {
+      "id": "mlt_id_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar akan berkemas berlebihan untuk akhir pekan."
+    },
+    {
+      "id": "mlt_id_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar akan merusak layar ponsel mereka."
+    },
+    {
+      "id": "mlt_id_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar menjadi orang pertama yang meminta maaf."
+    },
+    {
+      "id": "mlt_id_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar akan memulai sebuah buku dan menyelesaikannya dalam satu hari."
+    },
+    {
+      "id": "mlt_id_141",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar mengalami mimpi yang paling aneh."
+    },
+    {
+      "id": "mlt_id_142",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar untuk membuat playlist untuk gebetan."
+    },
+    {
+      "id": "mlt_id_143",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar untuk menghindari konflik dengan cara apa pun."
+    },
+    {
+      "id": "mlt_id_144",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar mengingat setiap lirik."
+    },
+    {
+      "id": "mlt_id_145",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar akan mencoba setiap makanan di menu."
+    },
+    {
+      "id": "mlt_id_146",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar akan langsung lupa password."
+    },
+    {
+      "id": "mlt_id_147",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar akan menjadi orang yang suka bangun pagi."
+    },
+    {
+      "id": "mlt_id_148",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar akan menumpahkan kopi pada diri mereka sendiri."
+    },
+    {
+      "id": "mlt_id_149",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar akan membatalkan rencana pada menit-menit terakhir."
+    },
+    {
+      "id": "mlt_id_150",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar untuk menyimpan setiap kwitansi."
+    },
+    {
+      "id": "mlt_id_151",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kemungkinan besar menjadi yang paling kompetitif dalam permainan."
+    },
+    {
+      "id": "mlt_id_152",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kemungkinan besar akan jatuh cinta pada seseorang yang sedang berlibur."
+    },
+    {
+      "id": "mlt_id_153",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kemungkinan besar mempunyai pengagum rahasia."
+    },
+    {
+      "id": "mlt_id_154",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kemungkinan besar ketahuan berbicara pada diri sendiri."
+    },
+    {
+      "id": "mlt_id_155",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kemungkinan besar menangis selama iklan."
+    },
+    {
+      "id": "mlt_id_156",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kemungkinan besar akan memulai tren."
+    },
+    {
+      "id": "mlt_id_157",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kemungkinan besar menjadi pendongeng paling dramatis."
+    },
+    {
+      "id": "mlt_id_158",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kemungkinan besar kehilangan bagasi mereka di bandara."
+    },
+    {
+      "id": "mlt_id_159",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kemungkinan besar membuat obrolan grup untuk apa pun."
+    },
+    {
+      "id": "mlt_id_160",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kemungkinan besar menjadi yang terbaik dalam memberikan nasihat."
+    },
+    {
+      "id": "mlt_id_161",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar selalu menyimpan makanan ringan di tasnya."
+    },
+    {
+      "id": "mlt_id_162",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar akan menjadi sukarelawan untuk mengadakan pertemuan berikutnya."
+    },
+    {
+      "id": "mlt_id_163",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar akan memberi kode warna pada kalender mereka."
+    },
+    {
+      "id": "mlt_id_164",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar akan tidur siang di mana saja."
+    },
+    {
+      "id": "mlt_id_165",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar akan membawa permainan papan ke setiap hangout."
+    },
+    {
+      "id": "mlt_id_166",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar kehilangan kacamata hitamnya dua kali dalam satu musim panas."
+    },
+    {
+      "id": "mlt_id_167",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar mengingat ulang tahun semua orang tanpa pengingat."
+    },
+    {
+      "id": "mlt_id_168",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar berteman dengan kasir di toko mana pun."
+    },
+    {
+      "id": "mlt_id_169",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar ada 30 tab browser yang terbuka."
+    },
+    {
+      "id": "mlt_id_170",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar akan mengambil foto setiap kali makan."
+    },
+    {
+      "id": "mlt_id_171",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar membawa charger ponsel cadangan."
+    },
+    {
+      "id": "mlt_id_172",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar tersesat bahkan dengan GPS."
+    },
+    {
+      "id": "mlt_id_173",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar akan ikut menyanyikan setiap lagu di dalam mobil."
+    },
+    {
+      "id": "mlt_id_174",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar tertidur di transportasi umum."
+    },
+    {
+      "id": "mlt_id_175",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar merencanakan pakaian bertema untuk pesta."
+    },
+    {
+      "id": "mlt_id_176",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar akan membuat tanaman tetap hidup selama bertahun-tahun."
+    },
+    {
+      "id": "mlt_id_177",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar mengetahui jalan pintas kemana-mana."
+    },
+    {
+      "id": "mlt_id_178",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar akan memulai klub buku."
+    },
+    {
+      "id": "mlt_id_179",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar akan mengemas makanan ringan tambahan untuk perjalanan."
+    },
+    {
+      "id": "mlt_id_180",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kemungkinan besar akan datang lebih awal untuk semuanya."
+    },
+    {
+      "id": "mlt_id_181",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar akan memulai pekerjaan sampingan dan tetap melakukannya."
+    },
+    {
+      "id": "mlt_id_182",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar akan menonton secara berlebihan satu musim penuh dalam satu malam."
+    },
+    {
+      "id": "mlt_id_183",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar terlalu memikirkan pesan teks."
+    },
+    {
+      "id": "mlt_id_184",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar akan menata ulang kamarnya pada jam 2 pagi."
+    },
+    {
+      "id": "mlt_id_185",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar untuk membuat rencana perjalanan yang detail."
+    },
+    {
+      "id": "mlt_id_186",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar akan mencoba terjun dingin dan menyukainya."
+    },
+    {
+      "id": "mlt_id_187",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar melakukan perjalanan darat secara spontan."
+    },
+    {
+      "id": "mlt_id_188",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar menghabiskan waktu berjam-jam untuk memilih hadiah yang sempurna."
+    },
+    {
+      "id": "mlt_id_189",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar mendaftar ke kelas hanya untuk bersenang-senang."
+    },
+    {
+      "id": "mlt_id_190",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar memulai hobi baru setiap bulan."
+    },
+    {
+      "id": "mlt_id_191",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar akan terpikat pada podcast acak."
+    },
+    {
+      "id": "mlt_id_192",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar lupa makan siang saat sibuk."
+    },
+    {
+      "id": "mlt_id_193",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar akan memenangkan giveaway acak secara online."
+    },
+    {
+      "id": "mlt_id_194",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar menjadi fotografer grup."
+    },
+    {
+      "id": "mlt_id_195",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar akan memesan barang yang sama setiap saat."
+    },
+    {
+      "id": "mlt_id_196",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar tertidur saat menonton film di rumah."
+    },
+    {
+      "id": "mlt_id_197",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar membuat spreadsheet untuk perjalanan."
+    },
+    {
+      "id": "mlt_id_198",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar menyimpan potongan tiket di dalam kotak."
+    },
+    {
+      "id": "mlt_id_199",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar akan meninggalkan catatan suara daripada mengirim pesan teks."
+    },
+    {
+      "id": "mlt_id_200",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kemungkinan besar untuk berlatih percakapan sebelumnya."
+    },
+    {
+      "id": "mlt_id_201",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kemungkinan besar akan menggandakan teks setelah dibiarkan dibaca."
+    },
+    {
+      "id": "mlt_id_202",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kemungkinan besar akan menggoda untuk mendapatkan diskon."
+    },
+    {
+      "id": "mlt_id_203",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kemungkinan besar akan menyimpan aplikasi kencan di ponsel mereka."
+    },
+    {
+      "id": "mlt_id_204",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kemungkinan besar akan jatuh cinta pada seseorang dalam perjalanan akhir pekan."
+    },
+    {
+      "id": "mlt_id_205",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kemungkinan besar akan mengambil langkah pertama."
+    },
+    {
+      "id": "mlt_id_206",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kemungkinan besar naksir teman secara diam-diam."
+    },
+    {
+      "id": "mlt_id_207",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kemungkinan besar akan mengirim pesan kepada mantan pada larut malam."
+    },
+    {
+      "id": "mlt_id_208",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kemungkinan besar akan pergi berkencan untuk makan malam gratis."
+    },
+    {
+      "id": "mlt_id_209",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kemungkinan besar ketahuan sedang memeriksa ponselnya saat berkencan."
+    },
+    {
+      "id": "mlt_id_210",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kemungkinan besar akan mengatakan “Aku cinta kamu” terlebih dahulu."
+    },
+    {
+      "id": "mlt_id_211",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang paling mungkin membuat meme di obrolan grup?"
+    },
+    {
+      "id": "mlt_id_212",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang secara tidak sengaja menyukai postingan yang sangat lama?"
+    },
+    {
+      "id": "mlt_id_213",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan menjadi streamer selama seminggu dan menganggapnya serius?"
+    },
+    {
+      "id": "mlt_id_214",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang akan mengirimkan GIF reaksi sempurna?"
+    },
+    {
+      "id": "mlt_id_215",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang mau kehilangan waktu satu jam untuk mengedit satu selfie?"
+    },
+    {
+      "id": "mlt_id_216",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang terlalu serius mengontrol playlist?"
+    },
+    {
+      "id": "mlt_id_217",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Siapa yang mengubah penjelasan peraturan menjadi TED Talk?"
+    }
+  ]
+}

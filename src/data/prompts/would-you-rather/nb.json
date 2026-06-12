@@ -1,0 +1,1687 @@
+{
+  "gameId": "would-you-rather",
+  "locale": "nb",
+  "version": 2,
+  "prompts": [
+    {
+      "id": "wyr_nb_001",
+      "text": "Vil du heller ha ubegrenset med snacks hver gang dere henger sammen, eller alltid få velge musikken?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_002",
+      "text": "Vil du helst alltid finne den perfekte parkeringsplassen eller aldri stå i kø igjen?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_003",
+      "text": "Vil du heller våkne opp med perfekt hår eller alltid velge det perfekte antrekket på ett minutt?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_004",
+      "text": "Vil du heller ha gratis kaffe for alltid eller gratis desserter for alltid?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_005",
+      "text": "Vil du heller være fantastisk på karaoke eller uslåelig på brettspill?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_006",
+      "text": "Vil du heller bo ved siden av stranden eller midt i favorittbyen din?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_007",
+      "text": "Vil du helst alltid ha en fulladet telefon eller alltid ha perfekt Wi-Fi?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_008",
+      "text": "Vil du helst aldri miste nøklene igjen eller aldri glemme hvorfor du gikk inn i et rom?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_009",
+      "text": "Vil du heller kunne teleportere til jobben eller teleportere hjem etter en hendelse?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_010",
+      "text": "Vil du heller ha en personlig kokk til frokost eller en personlig sjåfør i helgene?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_011",
+      "text": "Vil du heller bare se komedier i ett år eller bare høre på optimistisk musikk i ett år?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_012",
+      "text": "Vil du heller vinne hver spillekveld eller alltid få alle til å le på spillkvelden?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_013",
+      "text": "Vil du heller ha en liten leilighet med en fantastisk utsikt eller et stort hus på et kjedelig sted?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_014",
+      "text": "Vil du heller være berømt for matlagingen din eller for dansebevegelsene dine?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_015",
+      "text": "Vil du helst alltid vite det beste på menyen eller alltid velge den beste filmen?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_016",
+      "text": "Vil du heller ta en spontan dagstur eller planlegge en perfekt helg?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_017",
+      "text": "Vil du heller ha et skap som styler seg selv eller et kjøleskap som fyller på?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_018",
+      "text": "Vil du helst aldri vaske igjen eller aldri vaske opp igjen?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_019",
+      "text": "Vil du helst alltid få den siste pizzabiten eller alltid få det beste setet?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_020",
+      "text": "Vil du heller ha en magisk dempeknapp for støyende steder eller en hoppknapp for vanskelig småprat?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_021",
+      "text": "Vil du heller kunne sove hvor som helst eller våkne opp uthvilt umiddelbart hver morgen?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_022",
+      "text": "Vil du helst alltid ha perfekt vær på fridagene eller aldri ha trafikk når du kommer for sent?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_023",
+      "text": "Vil du heller få gratis konsertbilletter for alltid eller gratis kinobilletter for alltid?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_024",
+      "text": "Vil du heller være flink til å ta bilder eller flink til å være på bilder?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_025",
+      "text": "Vil du helst alltid huske navn eller alltid huske bursdager?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_026",
+      "text": "Vil du heller ha et hjem med et hemmelig rom eller et tilholdssted på taket?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_027",
+      "text": "Vil du heller bare reise med tog eller bare ta bilturer?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_028",
+      "text": "Vil du helst bo uten heiser eller uten rulletrapper?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_029",
+      "text": "Vil du helst alltid ha det perfekte comebacket eller alltid være rolig under press?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_030",
+      "text": "Vil du heller være den beste kokken i vennegruppen din eller den beste historiefortelleren?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_031",
+      "text": "Vil du heller ha en tilbakespolingsknapp for pinlige øyeblikk eller en pauseknapp for perfekte øyeblikk?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_032",
+      "text": "Vil du helst bare bruke favorittfargen din for alltid eller aldri gjenta et antrekk?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_033",
+      "text": "Vil du heller ha ubegrenset med bøker eller ubegrenset spill?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_034",
+      "text": "Vil du heller kunne lære en hvilken som helst oppskrift umiddelbart eller hvilken som helst sang umiddelbart?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_035",
+      "text": "Vil du helst alltid ha plass til dessert eller aldri føle deg for mett?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_036",
+      "text": "Vil du heller arrangere hver fest eller bli invitert til hver fest?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_037",
+      "text": "Vil du heller ha et hus med et gigantisk kjøkken eller et gigantisk spillerom?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_038",
+      "text": "Vil du heller bare bruke talenotater eller bare bruke emojis i én uke?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_039",
+      "text": "Vil du heller være tidlig ute med alt eller komme nøyaktig i tide hver gang?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_040",
+      "text": "Vil du heller ha et perfekt minne for ansikter eller veibeskrivelse?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_041",
+      "text": "Vil du heller kunne sette reklamer på pause eller hoppe over gjøremål?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_042",
+      "text": "Vil du helst alltid finne penger i gamle lommer eller alltid få overraskelsesrabatter?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_043",
+      "text": "Vil du heller ha drømmesoverommet eller drømmekjøkkenet ditt?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_044",
+      "text": "Vil du heller være i stand til å lage en hvilken som helst drink perfekt eller hvilken som helst snack perfekt?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_045",
+      "text": "Vil du helst aldri trenge en paraply eller aldri trenge solkrem?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_046",
+      "text": "Vil du heller ha én time ekstra hver morgen eller én time ekstra hver kveld?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_047",
+      "text": "Vil du heller bo over et bakeri eller ved siden av en kino?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_048",
+      "text": "Vil du helst alltid velge restauranten eller alltid velge aktiviteten?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_049",
+      "text": "Vil du heller ha en personlig spilleliste for hvert humør eller et perfekt antrekk for enhver plan?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_050",
+      "text": "Vil du heller være vennen med de beste rådene eller vennen med de beste snacksene?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_051",
+      "text": "Vil du helst bare spise frokostmat til middag eller middagsmat til frokost?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_052",
+      "text": "Vil du helst aldri måtte lade enheter eller aldri måtte oppdatere apper?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_053",
+      "text": "Vil du heller ha perfekt håndskrift eller perfekte gaveinnpakningsferdigheter?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_054",
+      "text": "Vil du heller rydde rommet ditt umiddelbart eller umiddelbart organisere telefonbildene dine?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_055",
+      "text": "Vil du helst alltid ha ferske laken eller alltid ha friske håndklær?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_056",
+      "text": "Vil du heller være uslåelig på trivia eller uslåelig på charades?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_057",
+      "text": "Vil du heller ha en balkong med utsikt eller en stue laget for fest?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_058",
+      "text": "Vil du helst aldri søle en drink igjen eller aldri miste telefonen igjen?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_059",
+      "text": "Vil du helst alltid huske drømmene dine eller aldri ha et mareritt?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_060",
+      "text": "Vil du heller ha gratis flyreiser en gang i året eller gratis hotell to ganger i året?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_061",
+      "text": "Vil du heller bli flytende i et nytt språk over natten eller mestre et nytt instrument over natten?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_062",
+      "text": "Vil du helst alltid ha den perfekte belysningen for bilder eller aldri blinke på bilder?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_063",
+      "text": "Vil du heller ha en overraskelsesdag hver måned eller en overraskelsesferie hvert år?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_064",
+      "text": "Vil du helst bare tekst med små bokstaver eller bare tekst med perfekt tegnsetting?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_065",
+      "text": "Vil du heller ha en koselig hyttehelg eller en travel storbyhelg?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_066",
+      "text": "Vil du heller være kjent for stilen din eller for din sans for humor?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_067",
+      "text": "Vil du heller alltid velge den raskeste betalingslinjen eller alltid ta heisen med en gang?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_068",
+      "text": "Vil du helst aldri gå tom for lagringsplass på telefonen eller aldri gå tom for batteri?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_069",
+      "text": "Vil du heller kunne dekorere ethvert rom perfekt eller pakke en koffert perfekt?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_070",
+      "text": "Vil du helst bare drikke vann for alltid eller bare drikke en favorittdrikk for alltid?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_071",
+      "text": "Vil du helst alltid ha perfekt søvn eller alltid våkne opp i godt humør?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_072",
+      "text": "Vil du heller være personen alle ber om anbefalinger eller personen alle ber om å planlegge turer?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_073",
+      "text": "Vil du heller ha en personlig værmelding som alltid stemmer eller en kalender som planlegger seg selv?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_074",
+      "text": "Vil du helst aldri trenge å vaske badet eller aldri trenge å vaske kjøkkenet?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_075",
+      "text": "Vil du heller være flink til å bake eller god til å grille?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_076",
+      "text": "Vil du heller ha seter på første rad én gang i året eller VIP-snacks hver gang?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_077",
+      "text": "Vil du helst alltid finne den beste skjulte kafeen eller alltid finne det beste utsiktspunktet?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_078",
+      "text": "Vil du heller ha en uke med perfekte antrekk eller en uke med perfekte måltider?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_079",
+      "text": "Vil du heller vinne en livstidsforsyning med sko eller en livstidsforsyning med hodetelefoner?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_080",
+      "text": "Vil du helst alltid kunne teksten eller alltid kunne dansen?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_081",
+      "text": "Vil du heller kunne fikse tekniske problemer eller sette sammen møbler uten instruksjoner?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_082",
+      "text": "Vil du heller ha en magisk ryggsekk som aldri er tung eller en koffert som pakker seg selv?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_083",
+      "text": "Vil du helst alltid ha en god hårdag eller alltid ha klar hud?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_084",
+      "text": "Vil du heller ta de beste gruppeselfiene eller lage de beste gruppeplanene?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_085",
+      "text": "Vil du heller kunne hoppe over en kjedelig oppgave om dagen eller få en morsom overraskelse om dagen?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_086",
+      "text": "Vil du heller bo et sted med uendelig sommer eller uendelig koselig vær?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_087",
+      "text": "Vil du helst aldri ha annonser på nettet eller aldri motta spam-meldinger?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_088",
+      "text": "Vil du heller alltid velge et flott brukernavn eller alltid skrive en flott bildetekst?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_089",
+      "text": "Vil du heller være best til å pakke inn gaver eller best til å velge gaver?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_090",
+      "text": "Vil du heller ha ubegrenset med filmkvelder hjemme eller ubegrenset med brunsj ute?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_091",
+      "text": "Vil du heller ha en liten privat hage eller et stort felles tak?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_092",
+      "text": "Vil du helst bare bruke en liten skje for alltid eller alltid drikke fra en liten kopp?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_093",
+      "text": "Vil du heller kunne gjøre et hvilket som helst rom koselig eller gjøre en spilleliste perfekt?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_094",
+      "text": "Vil du helst alltid ha riktig lader eller alltid ha riktig passord?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_095",
+      "text": "Vil du helst aldri glemme et passord eller aldri glemme hvor du parkerte?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_096",
+      "text": "Vil du heller ha et perfekt organisert skap eller en perfekt organisert kamerarulle?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_097",
+      "text": "Vil du heller være den første til å prøve en trend eller den siste som blir lei av den?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_098",
+      "text": "Vil du helst alltid ha et bord tilgjengelig på restauranter eller alltid få gratis dessert?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_099",
+      "text": "Vil du heller ha en personlig hype-sang eller en personlig inngangslampe?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_100",
+      "text": "Vil du heller være god ved førsteinntrykk eller god på farvelklemmer?",
+      "intensity": "mild",
+      "minAge": 4
+    },
+    {
+      "id": "wyr_nb_101",
+      "text": "Vil du heller bli respektert av alle eller dypt forstått av noen få mennesker?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_102",
+      "text": "Vil du heller vite når noen lyver eller alltid bli trodd når du forteller sannheten?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_103",
+      "text": "Vil du heller ha drømmejobben din med lav lønn eller en kjedelig jobb med fantastisk lønn?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_104",
+      "text": "Vil du heller flytte til utlandet alene eller bli i hjembyen for alltid?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_105",
+      "text": "Vil du heller være den smarteste personen i rommet eller den personen alle stoler mest på?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_106",
+      "text": "Vil du helst alltid vite sannheten eller alltid vite det rette å si?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_107",
+      "text": "Vil du heller ha en liten gruppe lojale venner eller et stort nettverk av tilfeldige venner?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_108",
+      "text": "Vil du heller bli husket for vennlighet eller ambisjon?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_109",
+      "text": "Vil du heller lykkes tidlig og brenne ut eller lykkes sakte og nyte prosessen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_110",
+      "text": "Vil du helst ha glemt alle feil eller alle gode gjerninger husket?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_111",
+      "text": "Vil du heller gjenoppleve en perfekt dag eller slette en forferdelig dag?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_112",
+      "text": "Vil du heller være i stand til å tilgi umiddelbart eller aldri bli lurt to ganger?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_113",
+      "text": "Vil du heller ha mer selvtillit eller mer disiplin?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_114",
+      "text": "Vil du heller vite hva folk først tenker om deg eller hva de sier etter at du har gått?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_115",
+      "text": "Vil du heller bli elsket for den du er nå eller beundret for den du kan bli?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_116",
+      "text": "Vil du helst alltid være opptatt med ting du elsker eller alltid ha fritid, men kjeder deg?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_117",
+      "text": "Vil du heller ha én stor sjanse og risikere alt eller mange små sjanser med langsom fremgang?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_118",
+      "text": "Vil du heller være berømt i fem år eller respektert for livet?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_119",
+      "text": "Vil du heller miste alle bildene dine eller alle meldingene dine?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_120",
+      "text": "Vil du heller ha søkehistorikken din offentlig eller kamerarullen offentlig?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_121",
+      "text": "Vil du helst alltid si hva du synes eller alltid holde fred?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_122",
+      "text": "Vil du heller ha en venn som er brutalt ærlig eller en som er uendelig støttende?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_123",
+      "text": "Vil du heller være planleggeren i hver gruppe eller personen som aldri trenger å planlegge?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_124",
+      "text": "Vil du heller være fantastisk på dype samtaler eller fantastisk på å få folk til å føle seg komfortable?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_125",
+      "text": "Vil du heller vite nøyaktig hvor livet ditt går eller bli overrasket over det?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_126",
+      "text": "Vil du heller gi opp sosiale medier i ett år eller strømme i ett år?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_127",
+      "text": "Vil du heller ha et friår med lønn eller en kampanje du virkelig ønsker?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_128",
+      "text": "Vil du helst alltid bli undervurdert eller alltid bli overvurdert?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_129",
+      "text": "Vil du helst at alle skal vite ditt største mål eller din største frykt?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_130",
+      "text": "Vil du heller kunne starte karrieren på nytt eller starte ett vennskap på nytt?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_131",
+      "text": "Vil du heller være personen folk ringer i en krise eller personen de ringer for å feire?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_132",
+      "text": "Vil du helst aldri føle deg flau eller aldri føle deg sjalu?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_133",
+      "text": "Vil du heller kunne slette ett minne eller spille av ett minne når du vil?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_134",
+      "text": "Vil du heller vite slutten på hver film eller utfallet av hver avgjørelse?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_135",
+      "text": "Vil du heller ha et perfekt rykte med fremmede eller ekte ærlighet med venner?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_136",
+      "text": "Vil du helst alltid vinne argumenter eller alltid la argumenter føles fredelige?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_137",
+      "text": "Vil du heller være flink til å tjene penger eller god på å administrere penger?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_138",
+      "text": "Vil du heller ha fremtiden din planlagt av noen kloke eller velge alt selv uten råd?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_139",
+      "text": "Vil du heller være den morsomste personen i gruppen din eller den roligste personen i en krise?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_140",
+      "text": "Vil du helst ha en drøm som går i oppfyllelse nå eller fem mindre drømmer over tid?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_141",
+      "text": "Vil du helst kunne lese én person helt eller forstå folkemengder perfekt?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_142",
+      "text": "Vil du heller få avslutning for hver avslutning eller en ny sjanse ved en avslutning?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_143",
+      "text": "Vil du heller bli kjent som mystisk eller helt gjennomsiktig?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_144",
+      "text": "Vil du heller ha en jobb som imponerer folk eller et liv som føles fredelig?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_145",
+      "text": "Vil du heller være for lojal eller for selvstendig?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_146",
+      "text": "Vil du helst alltid ha mot til å starte eller tålmodighet til å fullføre?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_147",
+      "text": "Vil du heller være i stand til å beklage perfekt eller konfrontere noen uten frykt?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_148",
+      "text": "Vil du heller ha din største fiasko online for alltid eller din største hemmelighet i en gruppechat?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_149",
+      "text": "Vil du heller leve i fortiden med mer privatliv eller i fremtiden med mer bekvemmelighet?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_150",
+      "text": "Vil du helst alltid være den ansvarlige eller aldri bli betrodd med ansvar?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_151",
+      "text": "Vil du heller kunne endre en avgjørelse du tok, eller se en avgjørelse du nesten tok?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_152",
+      "text": "Vil du heller miste komfortsonen eller miste ambisjonene?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_153",
+      "text": "Vil du heller bli beundret langveis fra eller elsket på nært hold?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_154",
+      "text": "Vil du helst aldri sammenligne deg med andre eller aldri bry deg om hva andre tenker?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_155",
+      "text": "Vil du heller få en advarsel før hver dårlig avgjørelse eller en belønning etter hver eneste modige?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_156",
+      "text": "Vil du heller kunne få noen til å le eller få noen til å føle seg trygge?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_157",
+      "text": "Vil du heller ha et perfekt minne eller en perfekt evne til å gå videre?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_158",
+      "text": "Vil du heller bruke et år på å bygge kropp eller sinn?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_159",
+      "text": "Vil du heller være hovedpersonen i en stille historie eller en biperson i en episk?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_160",
+      "text": "Vil du heller vite hvorfor noen forlot eller aldri vet og helbrede raskere?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_161",
+      "text": "Vil du helst alltid være ærlig om følelsene dine eller alltid beskytte andres følelser?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_162",
+      "text": "Vil du heller ha ubegrenset motivasjon eller ubegrenset tålmodighet?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_163",
+      "text": "Vil du heller kunne oppdage røde flagg umiddelbart eller se skjult potensial umiddelbart?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_164",
+      "text": "Vil du heller være i stand til å fikse et tidligere forhold eller forhindre en fremtidig feil?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_165",
+      "text": "Vil du helst alltid velge komfort eller alltid velge vekst?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_166",
+      "text": "Vil du heller være omgitt av mennesker som utfordrer deg eller mennesker som trøster deg?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_167",
+      "text": "Vil du heller ha den perfekte daglige rutinen eller det perfekte eventyret en gang i livet?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_168",
+      "text": "Vil du heller være hemmelig talentfull eller offentlig gjennomsnittlig?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_169",
+      "text": "Vil du helst aldri trenge godkjenning eller alltid motta oppmuntring?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_170",
+      "text": "Vil du heller ha en venn som husker hver detalj eller en som dukker opp hver gang?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_171",
+      "text": "Vil du heller være i stand til å slutte med en vane umiddelbart eller bygge opp en vane umiddelbart?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_172",
+      "text": "Vil du heller at ditt yngre jeg skal se livet ditt nå, eller at ditt fremtidige jeg sender en setning tilbake?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_173",
+      "text": "Vil du heller være personen som endrer en gruppe eller personen en gruppe endrer til det bedre?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_174",
+      "text": "Vil du helst alltid vite kostnadene ved et valg eller alltid vite fordelen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_175",
+      "text": "Vil du heller være uredd i ett år eller klok resten av livet?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_176",
+      "text": "Vil du heller ha et liv som ser spennende ut på nettet eller føles spennende offline?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_177",
+      "text": "Vil du heller kunne slutte å overtenke eller slutte å utsette?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_178",
+      "text": "Vil du helst være kjent for ett mesterverk eller mange solide innsatser?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_179",
+      "text": "Vil du helst ha hver dør åpen, men ingen tydelig retning eller én tydelig sti uten alternativer?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_180",
+      "text": "Vil du helst alltid være den første til å tilgi eller den første som går bort?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_181",
+      "text": "Vil du heller ha en mentor for hvert problem eller en venn for hver harde dag?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_182",
+      "text": "Vil du heller kunne forutsi humøret ditt i morgen eller forstå humøret ditt i dag?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_183",
+      "text": "Vil du heller bli rik i det stille eller innflytelsesrik offentlig?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_184",
+      "text": "Vil du helst aldri føle deg ensom eller aldri føle deg misforstått?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_185",
+      "text": "Vil du heller være i stand til å vinne folk umiddelbart eller vite hvem som er verdt tiden din umiddelbart?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_186",
+      "text": "Vil du heller være kjent for å ta risiko eller for å ta kloke valg?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_187",
+      "text": "Vil du helst alltid ha en reserveplan eller aldri trenge en?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_188",
+      "text": "Vil du heller miste en dårlig vane eller få en imponerende ferdighet?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_189",
+      "text": "Vil du heller ha et rolig liv med få overraskelser eller et kaotisk liv med uforglemmelige historier?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_190",
+      "text": "Vil du heller vite det beste øyeblikket i livet ditt før det skjer eller først gjenkjenne det etterpå?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_191",
+      "text": "Vil du heller være utmerket til å starte samtaler eller utmerket til å avslutte dem på en elegant måte?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_192",
+      "text": "Vil du helst alltid være personen som gir råd eller personen modig nok til å ta det?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_193",
+      "text": "Vil du heller ha drømmehjemmet langt fra alle eller et enkelt hjem i nærheten av favorittmenneskene dine?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_194",
+      "text": "Vil du heller kunne slutte fred med hvem som helst eller starte på nytt hvor som helst?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_195",
+      "text": "Vil du heller være vennen alle tilstår eller vennen alle fester med?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_196",
+      "text": "Vil du heller ha en måned med total frihet eller et år med jevn fremgang?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_197",
+      "text": "Vil du heller bli husket for ett dristig trekk eller for en levetid med rolig lojalitet?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_198",
+      "text": "Vil du heller vite sannheten om ryktet ditt eller beholde selvtilliten uberørt?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_199",
+      "text": "Vil du helst kunne si nei uten skyld eller be om hjelp uten skam?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_200",
+      "text": "Vil du heller ha perfekt timing eller perfekte instinkter?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nb_201",
+      "text": "Vil du helst la vennene dine vurdere datingprofilen din eller la en person du stoler på lese DM-ene dine høyt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_202",
+      "text": "Vil du heller gå på en perfekt første date uten kjemi eller en rotete første date med tydelige gnister?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_203",
+      "text": "Vil du helst alltid vite når noen flørter eller aldri ved et uhell flørte tilbake?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_204",
+      "text": "Vil du heller date noen alle elsker, men du føler deg usikker på eller noen alle tviler på, men du føler deg sikker på?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_205",
+      "text": "Vil du heller bli spøkt etter en fantastisk date eller bli sakte brødsmulet i en måned?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_206",
+      "text": "Vil du heller tilstå din forelskelse personlig eller få gruppechatten til å avsløre det ved et uhell?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_207",
+      "text": "Vil du heller at eksen din ser at du ser fantastisk ut eller virkelig ikke bryr seg om de gjør det?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_208",
+      "text": "Vil du heller motta en risikabel tekstmelding sent på kvelden eller sende en og angre på det umiddelbart?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_209",
+      "text": "Vil du heller ha en partner som er smertelig ærlig eller en som unngår hver vanskelig samtale?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_210",
+      "text": "Vil du heller date noen med perfekt snert eller perfekt følelsesmessig modenhet?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_211",
+      "text": "Vil du heller bli tatt for å forfølge noens profil eller ved et uhell liker et veldig gammelt innlegg?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_212",
+      "text": "Vil du heller ha en uforglemmelig sommerromanse eller en saktebrennende kjærlighetshistorie?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_213",
+      "text": "Vil du heller kjenne hver person som partneren din noen gang har likt eller ikke vite noe om og være fredelig?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_214",
+      "text": "Vil du heller være den sjalu eller den som gjør folk sjalu uten å prøve?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_215",
+      "text": "Vil du heller ha fantastisk kjemi med dårlig timing eller perfekt timing med mindre gnist?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_216",
+      "text": "Vil du heller være den første til å si \"Jeg elsker deg\" eller vente til du er helt sikker?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_217",
+      "text": "Vil du heller gå på en date uten telefoner eller en date uten småprat?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_218",
+      "text": "Vil du heller ha det største røde flagget ditt eksponert eller finne ut at alle allerede vet det?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_219",
+      "text": "Vil du heller være noens hemmelige forelskelse eller noens veldig offentlige besettelse?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_220",
+      "text": "Vil du heller ha en dramatisk bruddhistorie eller ingen bruddhistorie fordi ingenting ble alvorlig?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_221",
+      "text": "Vil du heller date noen som legger ut alt eller noen som ikke legger ut noe i det hele tatt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_222",
+      "text": "Vil du heller være sammen med noen vilt spontane eller noen dypt konsekvente?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_223",
+      "text": "Vil du heller dele passord eller dele steder?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_224",
+      "text": "Vil du heller få et kjærlighetsbrev fra feil person eller en tekst på ett ord fra rett person?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_225",
+      "text": "Vil du heller at forelsket skal høre den verste stemmenoten din eller se den verste selfien din?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_226",
+      "text": "Vil du heller være flink til å flørte personlig eller flink til å sende tekstmeldinger?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_227",
+      "text": "Vil du helst alltid vite om en date er interessert i deg eller alltid vite om de kaster bort tiden din?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_228",
+      "text": "Vil du heller ha et forhold med intens lidenskap og kaos eller rolig kjærlighet med mindre fyrverkeri?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_229",
+      "text": "Vil du heller være den som bryr seg mer eller den som innrømmer det først?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_230",
+      "text": "Vil du heller finne ut at en venn liker din crush eller din crush liker vennen din?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_231",
+      "text": "Vil du heller date noen som er alles type eller noen bare du forstår?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_232",
+      "text": "Vil du heller at situasjonen din definerer forholdet eller forsvinner for alltid?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_233",
+      "text": "Vil du heller få stengning fra en eks eller en unnskyldning fra noen du aldri har datet?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_234",
+      "text": "Vil du heller ha ett perfekt kyss uten fremtid eller en klønete start som blir ekte kjærlighet?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_235",
+      "text": "Vil du heller kunne se noens grønne flagg umiddelbart eller deres røde flagg umiddelbart?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_236",
+      "text": "Vil du heller flørte med selvtillit og mislykkes eller spille kult og gå glipp av sjansen din?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_237",
+      "text": "Vil du helst ha hver første date filmet eller hvert brudd anmeldt av vennene dine?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_238",
+      "text": "Vil du heller date noen som husker hver detalj eller noen som overrasker deg hele tiden?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_239",
+      "text": "Vil du heller komme tilbake med en eks for én uke eller gå på fem blinddate på rad?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_240",
+      "text": "Vil du helst la vennene dine velge neste date eller la søkehistorikken din velge den?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_241",
+      "text": "Vil du heller bli elsket høyt offentlig eller privat på en måte bare du legger merke til?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_242",
+      "text": "Vil du helst alltid være hjerteknuseren eller alltid være den håpløse romantiske?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_243",
+      "text": "Vil du heller ha en partner som er for klam eller for mystisk?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_244",
+      "text": "Vil du heller finne ut at noen har skrevet en sang om deg eller en lang note-app rant om deg?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_245",
+      "text": "Vil du heller motta en \"vi må snakke\"-tekst eller ved et uhell sende en til feil person?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_246",
+      "text": "Vil du heller date noen som planlegger hver detalj eller noen som improviserer alt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_247",
+      "text": "Vil du heller ha ubestridelig kjemi med din motsatte eller komfortabel kjemi med noen akkurat som deg?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_248",
+      "text": "Vil du heller bli tatt i å øve på en tilståelse eller tatt i å øve på en bruddtale?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_249",
+      "text": "Vil du heller at den gamle forelskelsen plutselig skulle sende deg en melding eller at den nåværende forelskelsen plutselig slutter å følge deg?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_250",
+      "text": "Vil du helst alltid falle for fort eller alltid innse følelsene dine for sent?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_251",
+      "text": "Vil du heller være personen noen endrer seg for, eller personen noen ikke kan komme over?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_252",
+      "text": "Vil du heller ha en partner som er fantastisk med ord eller fantastisk med handlinger?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_253",
+      "text": "Vil du heller date noen som får deg til å le konstant eller noen som får deg til å føle deg helt rolig?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_254",
+      "text": "Vil du heller vite om de forelskede drømmer om deg eller vite om de snakker om deg?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_255",
+      "text": "Vil du heller sende den første meldingen eller gjøre det første steget personlig?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_256",
+      "text": "Vil du heller ha et hemmelig forhold i tre måneder eller et offentlig forhold som alle kommenterer?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_257",
+      "text": "Vil du heller ha flørtestilen din vurdert av vennene dine eller tekststilen din vurdert av forelskelsen din?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_258",
+      "text": "Vil du heller være rebounden som blir alvorlig, eller den de aldri glemmer?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_259",
+      "text": "Vil du heller date noen med akkurat din humor eller akkurat din ambisjon?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_260",
+      "text": "Vil du helst være forelsket i noen du ikke kan få, eller at noen du ikke kan få er forelsket i deg?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_261",
+      "text": "Vil du heller få en full tilståelse eller en nøktern melding som tok en uke å skrive?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_262",
+      "text": "Vil du helst avslutte hver date med en dyp samtale eller med en latterlig historie?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_263",
+      "text": "Vil du heller være sammen med noen som utfordrer deg eller noen som tilber deg?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_264",
+      "text": "Vil du heller beholde et lite mystikk eller vite alt umiddelbart?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_265",
+      "text": "Vil du heller ha en partner som er bestevenn med vennene dine eller en som holder verden atskilt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_266",
+      "text": "Vil du heller date noen som aldri blir sjalu eller noen som innrømmer det ærlig?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_267",
+      "text": "Vil du heller ha ett intenst øyekontaktøyeblikk eller en perfekt timet håndberøring?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_268",
+      "text": "Vil du heller bli tatt for å lagre bryllupsideer for tidlig eller slette en datingapp for sent?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_269",
+      "text": "Vil du heller ha et flørtende vennskap som aldri blir mer eller et forhold som starter med vanskelig flørting?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_270",
+      "text": "Vil du heller kunne angre en sendt melding eller si opp en setning personlig?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_271",
+      "text": "Vil du heller ha at bestevennen din godkjenner din forelskelse eller at din forelskede godkjenner bestevennen din?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_272",
+      "text": "Vil du heller date noen som elsker oppmerksomhet eller noen som unngår det helt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_273",
+      "text": "Vil du heller være grunnen til at noen smiler til telefonen sin eller grunnen til at de ikke kan fokusere hele dagen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_274",
+      "text": "Vil du heller ha en romantisk middag med pinlig stillhet eller en kaotisk kveld med fantastisk energi?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_275",
+      "text": "Vil du heller bli spurt ut med en storslått gest eller en enkel ærlig setning?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_276",
+      "text": "Vil du heller ha et forhold alle misunner eller et som ingen andre forstår enn deg?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_277",
+      "text": "Vil du helst aldri vite hvem som var forelsket i deg eller vite og ikke kunne gjøre noe med det?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_278",
+      "text": "Vil du heller sende en talemelding til forelskelsen din eller legge igjen en talepost til eksen din?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_279",
+      "text": "Vil du heller ha partneren din til å lese tankene dine i én dag eller lese notatappen i ett minutt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nb_280",
+      "text": "Vil du heller være noens trygge valg eller det risikable valget som frister?",
+      "intensity": "spicy",
+      "minAge": 18
+    }
+  ]
+}

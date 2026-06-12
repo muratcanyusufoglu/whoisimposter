@@ -1,0 +1,1009 @@
+{
+  "gameId": "never-have-i-ever",
+  "locale": "id",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "nhie_id_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya makan pizza utuh sendirian."
+    },
+    {
+      "id": "nhie_id_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya terjaga lebih dari 24 jam."
+    },
+    {
+      "id": "nhie_id_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah aku tertawa begitu keras hingga aku menangis."
+    },
+    {
+      "id": "nhie_id_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya berpura-pura mengetahui sebuah lagu dan mengarang liriknya dengan lengkap."
+    },
+    {
+      "id": "nhie_id_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya menonton seluruh musim TV dalam satu hari."
+    },
+    {
+      "id": "nhie_id_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya mengenakan piyama sepanjang hari."
+    },
+    {
+      "id": "nhie_id_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya makan makanan yang jatuh ke lantai."
+    },
+    {
+      "id": "nhie_id_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya menggunakan kembali cangkir tanpa mencucinya."
+    },
+    {
+      "id": "nhie_id_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya berbicara kepada diri sendiri di depan umum tanpa menyadarinya."
+    },
+    {
+      "id": "nhie_id_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya lupa nama seseorang setelah diperkenalkan."
+    },
+    {
+      "id": "nhie_id_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya membaca akhir sebuah buku sebelum menyelesaikannya."
+    },
+    {
+      "id": "nhie_id_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya secara tidak sengaja memanggil seorang guru dengan sebutan 'ibu' atau 'ayah'."
+    },
+    {
+      "id": "nhie_id_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya bermain video game lebih dari 8 jam berturut-turut."
+    },
+    {
+      "id": "nhie_id_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Saya belum pernah memenangkan taruhan."
+    },
+    {
+      "id": "nhie_id_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya menari di depan umum sendirian."
+    },
+    {
+      "id": "nhie_id_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya menyelundupkan makanan ke bioskop."
+    },
+    {
+      "id": "nhie_id_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya tersesat sepenuhnya di kota yang saya kenal."
+    },
+    {
+      "id": "nhie_id_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya membeli sesuatu hanya karena sedang diskon."
+    },
+    {
+      "id": "nhie_id_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya mengirim pesan suara secara tidak sengaja."
+    },
+    {
+      "id": "nhie_id_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya melewatkan menyikat gigi sebelum tidur."
+    },
+    {
+      "id": "nhie_id_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya menguntit mantan di media sosial setelah putus cinta."
+    },
+    {
+      "id": "nhie_id_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya terjebak dalam kebohongan dan diperburuk dengan kebohongan lainnya."
+    },
+    {
+      "id": "nhie_id_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya secara dramatis berpura-pura tidak melihat seseorang di depan umum."
+    },
+    {
+      "id": "nhie_id_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya menangis saat menonton iklan."
+    },
+    {
+      "id": "nhie_id_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Saya sendiri belum pernah mencari di Google."
+    },
+    {
+      "id": "nhie_id_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya berpura-pura sibuk untuk menghindari seseorang."
+    },
+    {
+      "id": "nhie_id_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya menyukai postingan saya sendiri dari akun kedua."
+    },
+    {
+      "id": "nhie_id_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya menguping percakapan yang tidak dimaksudkan untuk saya."
+    },
+    {
+      "id": "nhie_id_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya membeli sesuatu yang mahal secara impulsif dan menyesalinya."
+    },
+    {
+      "id": "nhie_id_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya membatalkan pertemanan dengan seseorang dan berharap mereka tidak menyadarinya."
+    },
+    {
+      "id": "nhie_id_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya menertawakan sesuatu yang seharusnya tidak saya tertawakan."
+    },
+    {
+      "id": "nhie_id_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya menghargai karya orang lain."
+    },
+    {
+      "id": "nhie_id_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya diam-diam menilai seseorang berdasarkan selera musiknya."
+    },
+    {
+      "id": "nhie_id_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya melatih percakapan di kepala saya sebelum melakukannya."
+    },
+    {
+      "id": "nhie_id_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya berpura-pura tertidur untuk menghindari percakapan."
+    },
+    {
+      "id": "nhie_id_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya memberikan nomor palsu kepada seseorang."
+    },
+    {
+      "id": "nhie_id_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya salah membaca situasi dan mengira seseorang juga menyukai saya."
+    },
+    {
+      "id": "nhie_id_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya mengirimkan tangkapan layar kepada orang yang dimaksud."
+    },
+    {
+      "id": "nhie_id_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya memulai obrolan grup dan kemudian tidak berpartisipasi."
+    },
+    {
+      "id": "nhie_id_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya menghapus komentar segera setelah mempostingnya."
+    },
+    {
+      "id": "nhie_id_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya berkencan dengan lebih dari satu orang di minggu yang sama."
+    },
+    {
+      "id": "nhie_id_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya mencium seseorang yang nama belakangnya tidak saya ketahui."
+    },
+    {
+      "id": "nhie_id_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya mengembangkan perasaan terhadap sahabat saya."
+    },
+    {
+      "id": "nhie_id_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah aku tertarik pada seseorang di ruangan ini."
+    },
+    {
+      "id": "nhie_id_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya memulai percakapan genit dan kemudian ketakutan."
+    },
+    {
+      "id": "nhie_id_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya ditolak dan bersikap seolah-olah saya sedang bercanda."
+    },
+    {
+      "id": "nhie_id_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya mengirim pesan berisiko pada jam 2 pagi dan menyesalinya di pagi hari."
+    },
+    {
+      "id": "nhie_id_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya terus berbicara dengan seseorang hanya karena perhatiannya terasa menyenangkan."
+    },
+    {
+      "id": "nhie_id_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya mengarang cerita untuk mengesankan seseorang yang saya sukai."
+    },
+    {
+      "id": "nhie_id_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya kembali ke mantan yang saya bersumpah sudah selesai dengannya."
+    },
+    {
+      "id": "nhie_id_051",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya memberi tahu seseorang bahwa saya mencintainya ketika saya tidak yakin saya bersungguh-sungguh."
+    },
+    {
+      "id": "nhie_id_052",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya bertahan dalam suatu hubungan yang saya tahu tidak berhasil hanya untuk kenyamanan."
+    },
+    {
+      "id": "nhie_id_053",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya berselisih secara dramatis dengan seorang sahabat karena seseorang yang kami berdua sukai."
+    },
+    {
+      "id": "nhie_id_054",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya menggunakan penampilan saya untuk keluar dari masalah."
+    },
+    {
+      "id": "nhie_id_055",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya masuk ke DM seseorang secara tiba-tiba."
+    },
+    {
+      "id": "nhie_id_056",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya menangis setelah perpisahan yang saya mulai."
+    },
+    {
+      "id": "nhie_id_057",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya merasa iri pada seseorang yang seharusnya tidak membuat saya iri."
+    },
+    {
+      "id": "nhie_id_058",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya bermain keras untuk mendapatkan dan melakukannya secara berlebihan."
+    },
+    {
+      "id": "nhie_id_059",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya mengakui perasaan dengan cara yang sangat memalukan."
+    },
+    {
+      "id": "nhie_id_060",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya tergoda untuk membaca ponsel pasangan."
+    },
+    {
+      "id": "nhie_id_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya melupakan ponsel saya sendiri di rumah."
+    },
+    {
+      "id": "nhie_id_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya salah naik bus atau kereta."
+    },
+    {
+      "id": "nhie_id_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya makan makanan penutup sebelum makan malam."
+    },
+    {
+      "id": "nhie_id_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya tidur karena alarm."
+    },
+    {
+      "id": "nhie_id_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya secara tidak sengaja memakai kaus kaki yang tidak serasi."
+    },
+    {
+      "id": "nhie_id_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya tertawa pada saat yang serius."
+    },
+    {
+      "id": "nhie_id_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya menumpahkan minuman ke diri saya sendiri di depan umum."
+    },
+    {
+      "id": "nhie_id_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya pergi berbelanja sambil lapar."
+    },
+    {
+      "id": "nhie_id_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya kehilangan kunci selama lebih dari sehari."
+    },
+    {
+      "id": "nhie_id_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya menggunakan pakaian yang sama dua hari berturut-turut."
+    },
+    {
+      "id": "nhie_id_071",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Saya tidak pernah lupa mengisi daya ponsel saya semalaman."
+    },
+    {
+      "id": "nhie_id_072",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya bernyanyi dengan keras di dalam mobil sendirian."
+    },
+    {
+      "id": "nhie_id_073",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Saya belum pernah makan sereal untuk makan malam."
+    },
+    {
+      "id": "nhie_id_074",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya mendapatkan potongan rambut yang saya benci."
+    },
+    {
+      "id": "nhie_id_075",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya mencoba memperbaiki sesuatu dan memperburuknya."
+    },
+    {
+      "id": "nhie_id_076",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya masuk ke ruang kelas atau pertemuan yang salah."
+    },
+    {
+      "id": "nhie_id_077",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya tertidur saat menonton film di bioskop."
+    },
+    {
+      "id": "nhie_id_078",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya mengirim pesan ke grup chat yang salah."
+    },
+    {
+      "id": "nhie_id_079",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya memanggang sesuatu yang ternyata buruk."
+    },
+    {
+      "id": "nhie_id_080",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Saya belum pernah memelihara ikan."
+    },
+    {
+      "id": "nhie_id_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya menunda alarm lebih dari lima kali."
+    },
+    {
+      "id": "nhie_id_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya berbohong tentang perjalanan saya."
+    },
+    {
+      "id": "nhie_id_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya melupakan hari ulang tahun seorang teman dekat."
+    },
+    {
+      "id": "nhie_id_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya ketahuan sedang menguping."
+    },
+    {
+      "id": "nhie_id_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya berpura-pura ponsel saya mati untuk mengakhiri panggilan."
+    },
+    {
+      "id": "nhie_id_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya naksir rekan kerja atau teman sekelas."
+    },
+    {
+      "id": "nhie_id_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya membaca ulang obrolan lama untuk memikirkannya secara berlebihan."
+    },
+    {
+      "id": "nhie_id_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya menghapus pesan segera setelah dikirim."
+    },
+    {
+      "id": "nhie_id_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya menguntit profil seseorang karena penasaran."
+    },
+    {
+      "id": "nhie_id_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya merasa begitu malu sehingga saya ingin meninggalkan pesta."
+    },
+    {
+      "id": "nhie_id_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Saya belum pernah berbohong di resume."
+    },
+    {
+      "id": "nhie_id_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya meminjam sesuatu dan tidak mengembalikannya."
+    },
+    {
+      "id": "nhie_id_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya memblokir seseorang dan kemudian membuka blokirnya untuk memeriksanya."
+    },
+    {
+      "id": "nhie_id_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya menggunakan nama palsu di kedai kopi."
+    },
+    {
+      "id": "nhie_id_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Saya belum pernah melakukan ghosting pada obrolan grup."
+    },
+    {
+      "id": "nhie_id_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya menyalahkan keterlambatan saya pada lalu lintas padahal saya baru saja berangkat terlambat."
+    },
+    {
+      "id": "nhie_id_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya mengatakan 'melihatnya' tanpa menontonnya."
+    },
+    {
+      "id": "nhie_id_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya lupa kata sandi dan membuat akun baru."
+    },
+    {
+      "id": "nhie_id_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya sengaja berbaring di tempat tidur sepanjang hari."
+    },
+    {
+      "id": "nhie_id_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya diam-diam tidak menyukai pasangan teman."
+    },
+    {
+      "id": "nhie_id_101",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya mencium seseorang yang saya temui malam itu."
+    },
+    {
+      "id": "nhie_id_102",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah aku menjalin hubungan asmara secara rahasia."
+    },
+    {
+      "id": "nhie_id_103",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya mengirim foto yang berisiko."
+    },
+    {
+      "id": "nhie_id_104",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya berbohong tentang status hubungan saya."
+    },
+    {
+      "id": "nhie_id_105",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya berkencan hanya untuk makanan gratis."
+    },
+    {
+      "id": "nhie_id_106",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya ketahuan sedang menyelinap keluar."
+    },
+    {
+      "id": "nhie_id_107",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah aku mempunyai perasaan pada dua orang sekaligus."
+    },
+    {
+      "id": "nhie_id_108",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya iri dengan hubungan seorang teman."
+    },
+    {
+      "id": "nhie_id_109",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya menghapus pesan untuk menyembunyikan sesuatu."
+    },
+    {
+      "id": "nhie_id_110",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya menggoda untuk mendapatkan bantuan."
+    },
+    {
+      "id": "nhie_id_111",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya membuat kue dari awal."
+    },
+    {
+      "id": "nhie_id_112",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya tertidur di kelas."
+    },
+    {
+      "id": "nhie_id_113",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya ketinggalan bus dengan sengaja."
+    },
+    {
+      "id": "nhie_id_114",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Saya belum pernah membuat manusia salju."
+    },
+    {
+      "id": "nhie_id_115",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya melewatkan satu hari pun tanpa ponsel saya."
+    },
+    {
+      "id": "nhie_id_116",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya mengenakan pakaian yang sama dua hari berturut-turut."
+    },
+    {
+      "id": "nhie_id_117",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Saya tidak pernah lupa di mana saya parkir."
+    },
+    {
+      "id": "nhie_id_118",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya bernyanyi dengan keras di kamar mandi."
+    },
+    {
+      "id": "nhie_id_119",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya tersesat di mal."
+    },
+    {
+      "id": "nhie_id_120",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya mencoba makanan baru dan langsung menyukainya."
+    },
+    {
+      "id": "nhie_id_121",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya meminjam buku dan tidak mengembalikannya."
+    },
+    {
+      "id": "nhie_id_122",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya menonton pertunjukan secara berlebihan dalam satu akhir pekan."
+    },
+    {
+      "id": "nhie_id_123",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya menumpahkan kopi ke baju saya."
+    },
+    {
+      "id": "nhie_id_124",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Saya belum pernah membuat hadiah DIY."
+    },
+    {
+      "id": "nhie_id_125",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya begadang semalaman sambil ngobrol."
+    },
+    {
+      "id": "nhie_id_126",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya melewatkan latihan yang saya rencanakan."
+    },
+    {
+      "id": "nhie_id_127",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Saya belum pernah berbohong tentang “lima menit jauhnya”."
+    },
+    {
+      "id": "nhie_id_128",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya mengirim pesan ke orang yang salah."
+    },
+    {
+      "id": "nhie_id_129",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya merusak sesuatu dan menyalahkan orang lain."
+    },
+    {
+      "id": "nhie_id_130",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Belum pernah saya mendapat tilang karena ngebut."
+    },
+    {
+      "id": "nhie_id_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya berpura-pura menyukai hadiah yang sebenarnya tidak saya sukai."
+    },
+    {
+      "id": "nhie_id_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya menelusuri menu secara online sebelum pergi keluar."
+    },
+    {
+      "id": "nhie_id_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya mengaku sakit padahal sebenarnya tidak."
+    },
+    {
+      "id": "nhie_id_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya melakukan perjalanan tanpa rencana sama sekali."
+    },
+    {
+      "id": "nhie_id_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya ketahuan bernyanyi di mobil saat lampu merah."
+    },
+    {
+      "id": "nhie_id_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya bekerja semalaman untuk menyelesaikan sebuah proyek."
+    },
+    {
+      "id": "nhie_id_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya menangis saat menonton film di depan umum."
+    },
+    {
+      "id": "nhie_id_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya mengabaikan teks dengan sengaja."
+    },
+    {
+      "id": "nhie_id_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Saya tidak pernah merasa bersalah karena membatalkan rencana."
+    },
+    {
+      "id": "nhie_id_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya merasa malu dengan nada dering saya sendiri."
+    },
+    {
+      "id": "nhie_id_141",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya mengabaikan alarm saya dan tertidur kembali."
+    },
+    {
+      "id": "nhie_id_142",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya berpura-pura mengetahui sebuah lagu."
+    },
+    {
+      "id": "nhie_id_143",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya mengintip lemari es seseorang."
+    },
+    {
+      "id": "nhie_id_144",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya mencoba belajar bahasa dan berhenti."
+    },
+    {
+      "id": "nhie_id_145",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya mengirim pesan “lol” tanpa tertawa."
+    },
+    {
+      "id": "nhie_id_146",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya berkencan yang saya tahu tidak akan pergi kemana-mana."
+    },
+    {
+      "id": "nhie_id_147",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya naksir rekan kerja."
+    },
+    {
+      "id": "nhie_id_148",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Saya belum pernah berada dalam suatu situasi."
+    },
+    {
+      "id": "nhie_id_149",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya ketahuan sedang menggoda."
+    },
+    {
+      "id": "nhie_id_150",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya membuat seseorang takut setelah berkencan."
+    },
+    {
+      "id": "nhie_id_151",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya mengirim pesan berisiko dan langsung menyesalinya."
+    },
+    {
+      "id": "nhie_id_152",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya berbohong tentang usia saya."
+    },
+    {
+      "id": "nhie_id_153",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya mencium seseorang yang baru saya temui."
+    },
+    {
+      "id": "nhie_id_154",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah aku mempunyai perasaan terhadap seorang teman."
+    },
+    {
+      "id": "nhie_id_155",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Saya belum pernah menggunakan aplikasi kencan."
+    },
+    {
+      "id": "nhie_id_156",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya mengirim pesan kepada mantan pada larut malam."
+    },
+    {
+      "id": "nhie_id_157",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya tertidur saat berkencan."
+    },
+    {
+      "id": "nhie_id_158",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya pulang lebih awal untuk menghindari kencan yang buruk."
+    },
+    {
+      "id": "nhie_id_159",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya iri dengan hubungan seorang teman."
+    },
+    {
+      "id": "nhie_id_160",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Belum pernah saya menghapus pesan sebelum mereka melihatnya."
+    },
+    {
+      "id": "nhie_id_161",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya secara tidak sengaja menyukai postingan lama."
+    },
+    {
+      "id": "nhie_id_162",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya membisukan obrolan grup demi perdamaian."
+    },
+    {
+      "id": "nhie_id_163",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya melatih pesan suara sebelum mengirimkannya."
+    },
+    {
+      "id": "nhie_id_164",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Saya belum pernah menyimpan meme untuk digunakan nanti."
+    },
+    {
+      "id": "nhie_id_165",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya menghapus cerita setelah mempostingnya."
+    },
+    {
+      "id": "nhie_id_166",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya meninggalkan pesta tanpa mengucapkan selamat tinggal."
+    },
+    {
+      "id": "nhie_id_167",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Belum pernah saya berhenti dalam pertandingan persahabatan."
+    }
+  ]
+}

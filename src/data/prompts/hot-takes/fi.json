@@ -1,0 +1,1309 @@
+{
+  "gameId": "hot-takes",
+  "locale": "fi",
+  "version": 1,
+  "prompts": [
+    {
+      "id": "ht_fi_001",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ananas kuuluu ehdottomasti pizzaan."
+    },
+    {
+      "id": "ht_fi_002",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aamiainen on päivän yliarvostetuin ateria."
+    },
+    {
+      "id": "ht_fi_003",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kissat ovat objektiivisesti parempia lemmikkejä kuin koirat."
+    },
+    {
+      "id": "ht_fi_004",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Elokuvateatterit kuolevat ja se on hyvä asia."
+    },
+    {
+      "id": "ht_fi_005",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tekstiviestien lähettäminen on parempi kuin soittaminen joka kerta."
+    },
+    {
+      "id": "ht_fi_006",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sosiaalinen media on tehnyt enemmän haittaa kuin hyötyä."
+    },
+    {
+      "id": "ht_fi_007",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kotoa työskenteleminen on ehdottomasti parempi kuin toimistossa käyminen."
+    },
+    {
+      "id": "ht_fi_008",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ihmiset, jotka sanovat, etteivät he katso televisiota, ovat tylsimpiä ihmisiä."
+    },
+    {
+      "id": "ht_fi_009",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aikaisin oleminen on yhtä töykeää kuin myöhästyminen."
+    },
+    {
+      "id": "ht_fi_010",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Paras pizza on kylmä ylijäämäpizza."
+    },
+    {
+      "id": "ht_fi_011",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Verkkoystävyyssuhteet voivat olla yhtä merkityksellisiä kuin henkilökohtaiset."
+    },
+    {
+      "id": "ht_fi_012",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Viikonloppujen tulisi olla 3 päivää ja jokainen, joka on eri mieltä, tekee liikaa töitä."
+    },
+    {
+      "id": "ht_fi_013",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pikaruoka on itse asiassa parempaa kuin useimmat hienot ravintolat."
+    },
+    {
+      "id": "ht_fi_014",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Introvertit ovat mielenkiintoisempia kuin ekstrovertit."
+    },
+    {
+      "id": "ht_fi_015",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Nukkuminen on supervalta, jota yhteiskunta ei kunnioita tarpeeksi."
+    },
+    {
+      "id": "ht_fi_016",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiljainen ilta kotona on romanttisempaa kuin hieno ravintola."
+    },
+    {
+      "id": "ht_fi_017",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Parhaat ystävyyssuhteet vaativat hyvin vähän ylläpitoa."
+    },
+    {
+      "id": "ht_fi_018",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kirjojen lukeminen persoonallisuuden piirteenä on äärimmäisen yliarvostettua."
+    },
+    {
+      "id": "ht_fi_019",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Tuskin käyttämäsi kuntosalijäsenyyden maksaminen on silti sen arvoista psykologisesti."
+    },
+    {
+      "id": "ht_fi_020",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ei-toivottujen neuvojen antaminen liittyy lähes aina neuvonantajaan, ei henkilöön, jota hän neuvoo."
+    },
+    {
+      "id": "ht_fi_021",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Voit kertoa kaiken, mitä sinun tulee tietää henkilöstä Spotify-soittolistalta."
+    },
+    {
+      "id": "ht_fi_022",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Haamukuvaus on joskus ystävällisin tapa lopettaa asiat."
+    },
+    {
+      "id": "ht_fi_023",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kaikilla on tyyppejä, ja sen teeskentäminen, ettei sinulla ole, valehtelee itselleen."
+    },
+    {
+      "id": "ht_fi_024",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Horoskooppimerkit ovat yhtä päteviä kuin persoonallisuustestit ihmisten ymmärtämiseksi."
+    },
+    {
+      "id": "ht_fi_025",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ikuisesti myöhässä olevat ihmiset eivät kunnioita aikaasi – se on koko totuus."
+    },
+    {
+      "id": "ht_fi_026",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ystävä, joka aina peruuttaa suunnitelmat, on salaa ryhmän älykkäin."
+    },
+    {
+      "id": "ht_fi_027",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ensivaikutelma on lähes aina väärä."
+    },
+    {
+      "id": "ht_fi_028",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Huumori on houkuttelevampaa kuin ulkonäkö – jokainen, joka on eri mieltä, ei ole tavannut tarpeeksi hauskoja ihmisiä."
+    },
+    {
+      "id": "ht_fi_029",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Suurin osa matkakuvista on tarkoitettu muille ihmisille, ei matkustajalle."
+    },
+    {
+      "id": "ht_fi_030",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sinkkuna oleminen on aliarvostettua ja useimmat ihmiset ryntäävät suhteisiin pelosta."
+    },
+    {
+      "id": "ht_fi_031",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ryhmäkeskustelut ovat uuvuttavampia kuin sen arvoisia."
+    },
+    {
+      "id": "ht_fi_032",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ihmiset välittävät sinusta paljon vähemmän kuin luulet, ja se on itse asiassa vapauttavaa."
+    },
+    {
+      "id": "ht_fi_033",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kallis kahvi on huijaus, ja jokainen, joka väittää muuta, on brändäyksen uhri."
+    },
+    {
+      "id": "ht_fi_034",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Tapa, jolla joku kohtelee tarjoilijaa, kertoo kaiken hänen luonteestaan."
+    },
+    {
+      "id": "ht_fi_035",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Läheisissä ystävyyssuhteissa uskollisuus on tärkeämpää kuin rehellisyys."
+    },
+    {
+      "id": "ht_fi_036",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Useimmat ihmiset, jotka sanovat rakastavansa matkustamista, haluavat vain Instagram-kuvia."
+    },
+    {
+      "id": "ht_fi_037",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sanominen \"anteeksi, että sinusta tuntuu siltä\" on manipulatiivisinta anteeksipyyntöä."
+    },
+    {
+      "id": "ht_fi_038",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Vaarallisin ihmistyyppi on sellainen, joka ei koskaan myönnä olevansa väärässä."
+    },
+    {
+      "id": "ht_fi_039",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jokaisella ihmisellä on ainakin yksi todella kiusallinen salaisuus, jonka he kantavat hautaan."
+    },
+    {
+      "id": "ht_fi_040",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Samasta musiikista pitäminen jonkun kanssa on yhteensopivuuden kannalta tärkeämpää kuin hänen persoonallisuutensa pitäminen."
+    },
+    {
+      "id": "ht_fi_041",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Pitkäaikaiset suhteet ovat enemmän yhteensopivuutta ja tottumuksia kuin todellista rakkautta."
+    },
+    {
+      "id": "ht_fi_042",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "On mahdotonta pysyä vain ystävinä jonkun kanssa, johon olit joskus romanttinen vetovoima."
+    },
+    {
+      "id": "ht_fi_043",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ihmiset, jotka sanovat, että he eivät pelaa pelejä treffeillä, valehtelevat – kaikki valehtelevat."
+    },
+    {
+      "id": "ht_fi_044",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Täydellinen mustasukkaisuuden puute suhteessa on itse asiassa punainen lippu."
+    },
+    {
+      "id": "ht_fi_045",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jos joku pettää kerran, hän on aina imposter – ihmiset eivät oikeastaan muutu."
+    },
+    {
+      "id": "ht_fi_046",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "On täysin normaalia tutkia mahdollisen kumppanin koko sosiaalista mediaa ennen ensimmäistä treffejä."
+    },
+    {
+      "id": "ht_fi_047",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Keskusteluvaihe ei saa kestää kauempaa kuin kaksi viikkoa – sen jälkeen tuhlaa aikaa."
+    },
+    {
+      "id": "ht_fi_048",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Useimmat ihmiset ovat parisuhteessa, koska he pelkäävät yksin jäämistä, eivät rakkauden takia."
+    },
+    {
+      "id": "ht_fi_049",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Tapa, jolla tappelet jonkun kanssa, kertoo enemmän kuin miltä sinusta tuntuu, kun asiat ovat hyvin."
+    },
+    {
+      "id": "ht_fi_050",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kumppanisi puhelimen läpi käyminen on perusteltua, jos sisälmyksesi kertoo sinulle, että jotain on vialla."
+    },
+    {
+      "id": "ht_fi_051",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Voit aidosti rakastaa jotakuta ja silti rakastua johonkin toiseen samaan aikaan."
+    },
+    {
+      "id": "ht_fi_052",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Tilanteita syntyy, koska toinen ihminen on liian mukava ja toinen liian peloissaan."
+    },
+    {
+      "id": "ht_fi_053",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Sillä, joka lopettaa suhteen ensimmäisenä, oli aina enemmän valtaa."
+    },
+    {
+      "id": "ht_fi_054",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kaukosuhteet eivät juuri koskaan toimi, ja ihmiset kokeilevat niitä vain, koska he vihaavat loppuja."
+    },
+    {
+      "id": "ht_fi_055",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Se on punainen lippu, jos jollakulla ei ole läheisiä ystäviä menneisyydestään."
+    },
+    {
+      "id": "ht_fi_056",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Exet eivät voi koskaan olla vain ystäviä – yksi henkilö on aina vielä vähän mukana."
+    },
+    {
+      "id": "ht_fi_057",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Työpuoliso on täysin vaaratonta ja eri mieltä olevat ihmiset ovat vain epävarmoja."
+    },
+    {
+      "id": "ht_fi_058",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ihmiset, jotka sanovat rakastavansa kaikkia, eivät muodosta syvää yhteyttä kenenkään kanssa."
+    },
+    {
+      "id": "ht_fi_059",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Se, miten tunnet olosi yksinäiseksi kello 3 aamulla, on enemmän sinä kuin se versio, jonka näytät maailmalle."
+    },
+    {
+      "id": "ht_fi_060",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jokaisen päässä on ihanteellinen kumppani, eikä kukaan oikeassa elämässä ole sen mukainen."
+    },
+    {
+      "id": "ht_fi_061",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kylmä suihku on parempi kuin kuuma, jopa talvella."
+    },
+    {
+      "id": "ht_fi_062",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lautapelit voittivat videopelit ryhmäiltoina."
+    },
+    {
+      "id": "ht_fi_063",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Brunssi on vain ylihinnoiteltu aamiainen."
+    },
+    {
+      "id": "ht_fi_064",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Trailerien katsominen pilaa elokuvat."
+    },
+    {
+      "id": "ht_fi_065",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Varvastossut eivät ole oikeita kenkiä."
+    },
+    {
+      "id": "ht_fi_066",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kasveja on vaikeampi pitää elossa kuin lemmikkejä."
+    },
+    {
+      "id": "ht_fi_067",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kirjan lukeminen ei ole aina parempaa kuin elokuvan."
+    },
+    {
+      "id": "ht_fi_068",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kivennäisvesi maistuu katumukselta."
+    },
+    {
+      "id": "ht_fi_069",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Paras istuin on käytävä, ei ikkuna."
+    },
+    {
+      "id": "ht_fi_070",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Podcastien kuuntelu 2x nopeudella on kaoottista."
+    },
+    {
+      "id": "ht_fi_071",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ilmakeittimet ovat vain trendikkäitä kiertoilmauuneja."
+    },
+    {
+      "id": "ht_fi_072",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Keitto on juoma."
+    },
+    {
+      "id": "ht_fi_073",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kuvien ottaminen konserteissa on ajanhukkaa."
+    },
+    {
+      "id": "ht_fi_074",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Crocsit ovat mukavia ja se on tärkeintä."
+    },
+    {
+      "id": "ht_fi_075",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Auringonlaskut ovat yliarvostettuja auringonnousuihin verrattuna."
+    },
+    {
+      "id": "ht_fi_076",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Hiljaisuus on parasta taustamusiikkia."
+    },
+    {
+      "id": "ht_fi_077",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Buffet ovat stressaavia, eivät hauskoja."
+    },
+    {
+      "id": "ht_fi_078",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Paperikirjat tuoksuvat hyvältä, mutta e-lukijat ovat parempia."
+    },
+    {
+      "id": "ht_fi_079",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ihmisten pitäisi lakata sanomasta \"ei hätää\" töissä."
+    },
+    {
+      "id": "ht_fi_080",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Keskimmäisen istuimen käsinojat kuuluvat keskimmäiselle matkustajalle."
+    },
+    {
+      "id": "ht_fi_081",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jos et vastaa päivään, ohitat jonkun."
+    },
+    {
+      "id": "ht_fi_082",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Parhaiden ystävien pitäisi tietää puhelimesi salasana."
+    },
+    {
+      "id": "ht_fi_083",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuntosali selfien julkaiseminen ei ole \"motivaatiota\"."
+    },
+    {
+      "id": "ht_fi_084",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Useimmat ihmiset ovat mieluummin oikeassa kuin onnellisia."
+    },
+    {
+      "id": "ht_fi_085",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Suunnitelmien peruuttaminen viime hetkellä on pahempaa kuin myöhästyminen."
+    },
+    {
+      "id": "ht_fi_086",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ihmiset, jotka kehuvat kiireisyydestään, ovat epävarmoja."
+    },
+    {
+      "id": "ht_fi_087",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sijaintisi jakamisen parisuhteessa pitäisi olla normaalia."
+    },
+    {
+      "id": "ht_fi_088",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ryhmämatkat ovat silloin, kun ystävyyssuhteet kuolevat."
+    },
+    {
+      "id": "ht_fi_089",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jos sinun täytyy \"pehmeästi käynnistää\" suhde, se ei ole todellista."
+    },
+    {
+      "id": "ht_fi_090",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ajoissa oleminen on rakkauden kieltä."
+    },
+    {
+      "id": "ht_fi_091",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jos vihaat small talkia, et ole niin syvällinen kuin luulet."
+    },
+    {
+      "id": "ht_fi_092",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Useimmat anteeksipyynnöt ovat vain neuvotteluyrityksiä."
+    },
+    {
+      "id": "ht_fi_093",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ystävä, joka ei koskaan julkaise, on mielenkiintoisin."
+    },
+    {
+      "id": "ht_fi_094",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Parhaat ihmissuhteet rakentuvat alhaisille odotuksille."
+    },
+    {
+      "id": "ht_fi_095",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Äänekkäät ravintolat ovat suunnitteluvirhe."
+    },
+    {
+      "id": "ht_fi_096",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ihmiset, jotka sanovat \"en saa draamaa\", aloittavat draaman."
+    },
+    {
+      "id": "ht_fi_097",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ensitreffien tulee olla aina lyhyitä."
+    },
+    {
+      "id": "ht_fi_098",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Yhteensopivuuden voi päätellä siitä, kuinka joku tilaa kahvia."
+    },
+    {
+      "id": "ht_fi_099",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ystävät, jotka katoavat seurustelun aikana, ovat itsekkäitä."
+    },
+    {
+      "id": "ht_fi_100",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jos et ota lomaa, olet huono elämänhallinnassa."
+    },
+    {
+      "id": "ht_fi_101",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Useimmat ihmiset tyytyvät, koska ovat kyllästyneitä seurustelemaan."
+    },
+    {
+      "id": "ht_fi_102",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Kateus on egon muoto, ei rakkautta."
+    },
+    {
+      "id": "ht_fi_103",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jos nuusket kerran, teet sen uudelleen."
+    },
+    {
+      "id": "ht_fi_104",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "\"Puhumisvaihe\" on vain sitoutumisen pelko."
+    },
+    {
+      "id": "ht_fi_105",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ihmiset antavat pettämisen anteeksi enemmän kuin myöntävät."
+    },
+    {
+      "id": "ht_fi_106",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "\"Tauko\" suhteessa on vain hidasta eroa."
+    },
+    {
+      "id": "ht_fi_107",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Luotettavimmat ihmiset ovat hauraimpia."
+    },
+    {
+      "id": "ht_fi_108",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Et ole \"liian kiireinen\" - et vain ole kiinnostunut."
+    },
+    {
+      "id": "ht_fi_109",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Suurin osa ihastuksista johtuu huomiosta, ei vetovoimasta."
+    },
+    {
+      "id": "ht_fi_110",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Romanttinen kemia on enimmäkseen hyvää ajoitusta."
+    },
+    {
+      "id": "ht_fi_111",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sodassa oleva jää pilaa juoman."
+    },
+    {
+      "id": "ht_fi_112",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ikkunaistuimet ovat yliarvostettuja lennoilla."
+    },
+    {
+      "id": "ht_fi_113",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Rentokuvat ovat parempia kuin poseeratut."
+    },
+    {
+      "id": "ht_fi_114",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ihmisten pitäisi vastata todellisilla numeroilla, ei \"ehkä\"."
+    },
+    {
+      "id": "ht_fi_115",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Salasanahallinnan tulee olla vakiona jokaisessa puhelimessa."
+    },
+    {
+      "id": "ht_fi_116",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Yösuihkut ovat parempia kuin aamusuihkut."
+    },
+    {
+      "id": "ht_fi_117",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ruokatarinoiden julkaiseminen päivittäin on liikaa."
+    },
+    {
+      "id": "ht_fi_118",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Elokuvaversioiden pitäisi perustella olemassaolonsa."
+    },
+    {
+      "id": "ht_fi_119",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ohita intro -painike on paras keksintö."
+    },
+    {
+      "id": "ht_fi_120",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kylmä olut on vain kahvia, joka on unohtanut olla kuumaa."
+    },
+    {
+      "id": "ht_fi_121",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kanta-asiakasohjelmat eivät yleensä ole sen arvoisia."
+    },
+    {
+      "id": "ht_fi_122",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kahviloiden taustamusiikki on liian kovaa."
+    },
+    {
+      "id": "ht_fi_123",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kaksivaiheisen todennuksen pitäisi olla pakollista."
+    },
+    {
+      "id": "ht_fi_124",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Uudet puhelimen kamerat eivät ole parantuneet juurikaan viime aikoina."
+    },
+    {
+      "id": "ht_fi_125",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "”Vähän huoltoa vaativa” ei ole persoonallisuuden piirre."
+    },
+    {
+      "id": "ht_fi_126",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Useimpiin tilauspalveluihin tulisi sisältyä ilmainen viikko."
+    },
+    {
+      "id": "ht_fi_127",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ihmisten tulisi tuoda pieni lahja, kun he jäävät tänne."
+    },
+    {
+      "id": "ht_fi_128",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Paras tapa matkustaa on ilman tiivistä aikataulua."
+    },
+    {
+      "id": "ht_fi_129",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Teattereihin pukeutumisen pitäisi palata."
+    },
+    {
+      "id": "ht_fi_130",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Jälkiruoka kannattaa tilata ensin."
+    },
+    {
+      "id": "ht_fi_131",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ryhmäkeskustelusta poistuminen on rehellisempää kuin haaveilu."
+    },
+    {
+      "id": "ht_fi_132",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Toimistokeskustelu väsyttää enemmän kuin työ."
+    },
+    {
+      "id": "ht_fi_133",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kokouksilla tulee aina olla päättymisaika."
+    },
+    {
+      "id": "ht_fi_134",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sadeäänet ovat parempia kuin valkoinen kohina."
+    },
+    {
+      "id": "ht_fi_135",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Emojien käyttö työsähköpostissa on hyvä."
+    },
+    {
+      "id": "ht_fi_136",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ihmiset käyttävät liikaa sanaa \"ikoninen\"."
+    },
+    {
+      "id": "ht_fi_137",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sotkuinen työpöytä ei tarkoita, että olet luova."
+    },
+    {
+      "id": "ht_fi_138",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jokaisen valokuvan tallentaminen on digitaalista hamstrausta."
+    },
+    {
+      "id": "ht_fi_139",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ihmisten pitäisi lopettaa K:n lähettäminen vastauksena."
+    },
+    {
+      "id": "ht_fi_140",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lentokoneen taputtaminen on tarpeetonta."
+    },
+    {
+      "id": "ht_fi_141",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Palautusehtojen tulee olla pidempiä kuin 14 päivää."
+    },
+    {
+      "id": "ht_fi_142",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Yhteensopivat asut ovat söpöjä, eivät rypistyviä."
+    },
+    {
+      "id": "ht_fi_143",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aikuiset voivat silti rakastaa animaatioelokuvia."
+    },
+    {
+      "id": "ht_fi_144",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hyväksy kaikki evästeet -painikkeen pitäisi olla laitonta."
+    },
+    {
+      "id": "ht_fi_145",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ylimääräiset tyynyt sängyssä ovat turhia."
+    },
+    {
+      "id": "ht_fi_146",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hedelmät kuuluvat salaatteihin."
+    },
+    {
+      "id": "ht_fi_147",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Suunnittelijan ostaminen ei tarkoita, että käytät sitä."
+    },
+    {
+      "id": "ht_fi_148",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "\"Työ-elämän tasapainon\" pitäisi olla todellinen mittari."
+    },
+    {
+      "id": "ht_fi_149",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Pienet talot eivät ole käytännöllisiä."
+    },
+    {
+      "id": "ht_fi_150",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Julkiset penkit tarvitsevat lisää varjoa."
+    },
+    {
+      "id": "ht_fi_151",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Puheluiden vastaanottaminen ilman kuulokkeita on harkitsematonta."
+    },
+    {
+      "id": "ht_fi_152",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Puhdas postilaatikko on yliarvostettua."
+    },
+    {
+      "id": "ht_fi_153",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Parhaat päiväunet ovat 20 minuuttia tai vähemmän."
+    },
+    {
+      "id": "ht_fi_154",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ohjelman uudelleen katsominen on rentouttavampaa kuin uuden aloittaminen."
+    },
+    {
+      "id": "ht_fi_155",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Sähköpostin allekirjoitukset ovat liian pitkiä."
+    },
+    {
+      "id": "ht_fi_156",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Useimmat \"rajoitetun erän\" dropit ovat väärennettyjä kiireellisyyksiä."
+    },
+    {
+      "id": "ht_fi_157",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ilmaisen toimituksen tulee olla vakio."
+    },
+    {
+      "id": "ht_fi_158",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ihmisten pitäisi normalisoida sanonta \"Tarvitsen vapaapäivän\"."
+    },
+    {
+      "id": "ht_fi_159",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "\"Kirjoitus...\" -ilmaisin aiheuttaa ahdistusta."
+    },
+    {
+      "id": "ht_fi_160",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Avotoimistot ovat huonosti suunniteltuja."
+    },
+    {
+      "id": "ht_fi_161",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kylmä pizza on parempi kuin kuuma pizza."
+    },
+    {
+      "id": "ht_fi_162",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Elokuvajulisteet ovat jännittävämpiä kuin trailerit."
+    },
+    {
+      "id": "ht_fi_163",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ryhmäkeskustelut tulee mykistää oletuksena."
+    },
+    {
+      "id": "ht_fi_164",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Brunssi on vain tekosyy maksaa liikaa munista."
+    },
+    {
+      "id": "ht_fi_165",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sukat ja sandaalit ovat täysin kunnossa."
+    },
+    {
+      "id": "ht_fi_166",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Sadepäivät ovat rentouttavampia kuin aurinkoiset päivät."
+    },
+    {
+      "id": "ht_fi_167",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Karaoke on hauskempaa, kun olet huono siinä."
+    },
+    {
+      "id": "ht_fi_168",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Aikainen nukkumaanmeno on aliarvostettua."
+    },
+    {
+      "id": "ht_fi_169",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Puhelimessa tulisi olla \"Älä häiritse\" tiettyjä ihmisiä varten."
+    },
+    {
+      "id": "ht_fi_170",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pitkät äänimerkit ovat töykeitä."
+    },
+    {
+      "id": "ht_fi_171",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Kirjastot ovat aliarvostetuimpia paikkoja kaupungissa."
+    },
+    {
+      "id": "ht_fi_172",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Lautapelit ovat parempia juhliin kuin videopelit."
+    },
+    {
+      "id": "ht_fi_173",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Paperikirjat voittivat e-lukijat."
+    },
+    {
+      "id": "ht_fi_174",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Parhaat konserttipaikat ovat takana, jossa on tilaa tanssia."
+    },
+    {
+      "id": "ht_fi_175",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Viimeistä siivua ei saa koskaan jättää koskematta."
+    },
+    {
+      "id": "ht_fi_176",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ruoanlaiton oppiminen on hyödyllisempää kuin ajamisen oppiminen."
+    },
+    {
+      "id": "ht_fi_177",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Vuoret > rannat."
+    },
+    {
+      "id": "ht_fi_178",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pienet häät ovat hauskempaa kuin suuret häät."
+    },
+    {
+      "id": "ht_fi_179",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Pariskuntien pitäisi joskus pitää erilliset lomat."
+    },
+    {
+      "id": "ht_fi_180",
+      "intensity": "mild",
+      "minAge": 4,
+      "text": "Ystävät, jotka peruuttavat viime hetken, ovat seuraavan kerran velkaa välipaloja."
+    },
+    {
+      "id": "ht_fi_181",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Keskiyön välipalat ovat aamiaista parempia."
+    },
+    {
+      "id": "ht_fi_182",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sosiaalisen median \"tykkäykset\" eivät saa olla julkisia."
+    },
+    {
+      "id": "ht_fi_183",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kaiutinpuhelimen käytön julkisella paikalla pitäisi olla laitonta."
+    },
+    {
+      "id": "ht_fi_184",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Aterian valmistus on yliarvostettua."
+    },
+    {
+      "id": "ht_fi_185",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Parhaat kuvat ovat rehellisiä."
+    },
+    {
+      "id": "ht_fi_186",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kalliit lenkkarit ovat rahan haaskausta."
+    },
+    {
+      "id": "ht_fi_187",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Sunnuntain pitäisi olla kolmipäiväinen viikonloppu."
+    },
+    {
+      "id": "ht_fi_188",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Yllätysvierailut ovat harkitsemattomia."
+    },
+    {
+      "id": "ht_fi_189",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ananasmehu kuuluu jokaiseen smoothieen."
+    },
+    {
+      "id": "ht_fi_190",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Muistiinpanojen tekeminen käsin päihittää kirjoittamisen."
+    },
+    {
+      "id": "ht_fi_191",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Nettitreffit ovat tehneet ihmisistä valikoivampia."
+    },
+    {
+      "id": "ht_fi_192",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Yksin asuminen tekee ihmisistä luovempia."
+    },
+    {
+      "id": "ht_fi_193",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "\"Hot take\" on yleensä vain maalaisjärkeä."
+    },
+    {
+      "id": "ht_fi_194",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Mukaan kannattaa aina ottaa oma uudelleenkäytettävä kuppi."
+    },
+    {
+      "id": "ht_fi_195",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Katuruoka on parempaa kuin ravintolaruoka."
+    },
+    {
+      "id": "ht_fi_196",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "\"Nähdyt\" valintamerkit aiheuttavat enemmän dramatiikkaa kuin ratkaisevat."
+    },
+    {
+      "id": "ht_fi_197",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Jaettu soittolista on suhdetesti."
+    },
+    {
+      "id": "ht_fi_198",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Erilliset peitot ovat terveellisempiä pariskunnille."
+    },
+    {
+      "id": "ht_fi_199",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Parasta matkassa on suunnittelu."
+    },
+    {
+      "id": "ht_fi_200",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuulokkeiden käyttö kuntosalilla on pakollista."
+    },
+    {
+      "id": "ht_fi_201",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ihmisten pitäisi baristalle enemmän juomarahaa."
+    },
+    {
+      "id": "ht_fi_202",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Tatuoinnit tulee sallia kaikilla työpaikoilla."
+    },
+    {
+      "id": "ht_fi_203",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Ihmiset tarvitsevat vähemmän ilmoituksia, eivät enemmän."
+    },
+    {
+      "id": "ht_fi_204",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lemmikkieläimet pitäisi sallia useammissa kahviloissa."
+    },
+    {
+      "id": "ht_fi_205",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Yleiset vapaapäivät tulee valita kansanäänestyksellä."
+    },
+    {
+      "id": "ht_fi_206",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Jokaisen tulisi opetella ensiapua."
+    },
+    {
+      "id": "ht_fi_207",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Tyylikkäissä ravintoloissa pitäisi olla lasten menu."
+    },
+    {
+      "id": "ht_fi_208",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Elokuvateattereiden pitäisi tuoda takaisin väliajat."
+    },
+    {
+      "id": "ht_fi_209",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Lukukuittausten tulee olla valinnaisia jokaiselle sovellukselle."
+    },
+    {
+      "id": "ht_fi_210",
+      "intensity": "spicy",
+      "minAge": 18,
+      "text": "Myöhästyminen on valinta, ei persoonallisuus."
+    },
+    {
+      "id": "ht_fi_211",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Ryhmäkeskusteluilmoitusten mykistäminen on omatoimisuutta."
+    },
+    {
+      "id": "ht_fi_212",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Hyvä meemi voi korjata huonon päivän."
+    },
+    {
+      "id": "ht_fi_213",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Äänimuistiinpanoissa tulee olla aikaraja."
+    },
+    {
+      "id": "ht_fi_214",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Kuvakaappaukset ovat nykyaikaisia kuitteja."
+    },
+    {
+      "id": "ht_fi_215",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Viruksen leviäminen kuulostaa enemmän stressaavalta kuin hauskalta."
+    },
+    {
+      "id": "ht_fi_216",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Lautapeli voi paljastaa jonkun todellisen persoonallisuuden."
+    },
+    {
+      "id": "ht_fi_217",
+      "intensity": "medium",
+      "minAge": 13,
+      "text": "Talon säännöt ovat parempia kuin viralliset säännöt."
+    }
+  ]
+}

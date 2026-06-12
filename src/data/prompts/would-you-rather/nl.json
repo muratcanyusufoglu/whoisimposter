@@ -1,1009 +1,1687 @@
 {
   "gameId": "would-you-rather",
   "locale": "nl",
-  "version": 1,
+  "version": 2,
   "prompts": [
     {
       "id": "wyr_nl_001",
+      "text": "Liever onbeperkt snacks bij elke afspraak met vrienden of altijd zelf de muziek kiezen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever altijd een volle batterij hebben of overal gratis Wi‑Fi?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_002",
+      "text": "Wil je liever altijd de perfecte parkeerplaats vinden of nooit meer in de rij staan?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever aan het strand wonen of in de bergen?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_003",
+      "text": "Word je liever wakker met perfect haar of kies je altijd binnen één minuut de perfecte outfit?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever elke dag koken of nooit meer koken?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_004",
+      "text": "Heb je liever voor altijd gratis koffie of voor altijd gratis desserts?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever de grappigste of de slimste in de kamer zijn?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_005",
+      "text": "Ben je liever geweldig in karaoke of onverslaanbaar in bordspellen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever een huisdraak of een eenhoorn hebben?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_006",
+      "text": "Woon je liever aan het strand of midden in je favoriete stad?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever gedachten lezen of alle talen spreken?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_007",
+      "text": "Wil je liever altijd een volledig opgeladen telefoon hebben of altijd perfecte Wi-Fi?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever nooit je sleutels verliezen of nooit je telefoon?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_008",
+      "text": "Wil je liever nooit meer je sleutels kwijtraken of nooit meer vergeten waarom u een kamer bent binnengelopen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever foto’s maken of op foto’s staan?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_009",
+      "text": "Zou je liever na een gebeurtenis naar je werk kunnen teleporteren of naar huis kunnen teleporteren?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever met de trein reizen of een roadtrip doen?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_010",
+      "text": "Liever een persoonlijke chef-kok voor het ontbijt of een persoonlijke chauffeur in het weekend?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever vroeg opstaan met energie of laat slapen zonder schuldgevoel?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_011",
+      "text": "Wil je liever een jaar lang alleen maar komedies kijken of een jaar lang alleen maar naar vrolijke muziek luisteren?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever onbeperkt koffie of onbeperkte snacks hebben?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_012",
+      "text": "Wil je liever elke spelletjesavond winnen of iedereen altijd aan het lachen maken tijdens de spelletjesavond?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever zonder muziek of zonder films leven?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_013",
+      "text": "Heb je liever een klein appartement met een geweldig uitzicht of een enorm huis op een saaie plek?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever supergoed kunnen koken of supergoed kunnen zingen?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_014",
+      "text": "Wil je liever beroemd worden om je kookkunsten of om je dansbewegingen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever altijd voorin zitten of altijd de muziek kiezen?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_015",
+      "text": "Wil je liever altijd weten wat het beste op de menukaart staat of altijd de beste film kiezen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever een privéchef of een privéchauffeur hebben?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_016",
+      "text": "Liever een spontaan dagje uit of een perfect weekendje weg plannen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever de tijd kunnen pauzeren of vooruitspoelen?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_017",
+      "text": "Heb je liever een kast die zichzelf stylet of een koelkast die zichzelf aanvult?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever geweldig zijn in sport of in kunst?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_018",
+      "text": "Wil je liever nooit meer de was doen of nooit meer de afwas doen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever alleen komedies of alleen drama’s kijken?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_019",
+      "text": "Wil je liever altijd het laatste stuk pizza of altijd de beste zitplaats?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever de oceaan verkennen of de ruimte?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_020",
+      "text": "Heb je liever een magische mute-knop voor luidruchtige plekken of een skip-knop voor ongemakkelijke praatjes?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever een huis aan een meer of in een grote stad?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_021",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever een jaar zonder social media of een jaar zonder streaming?"
+      "text": "Wil je liever overal een dutje kunnen doen of elke ochtend direct uitgerust wakker worden?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_022",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever alleen naar een nieuwe stad verhuizen of voor altijd in je stad blijven?"
+      "text": "Liever altijd perfect weer op je vrije dagen of nooit file als je te laat komt?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_023",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever altijd 20 minuten te vroeg of 20 minuten te laat zijn?"
+      "text": "Wil je liever voor altijd gratis concertkaartjes of voor altijd gratis bioscoopkaartjes?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_024",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever je zoekgeschiedenis openbaar of je DM's openbaar hebben?"
+      "text": "Ben je liever goed in het maken van foto's of ben je liever goed in het staan op foto's?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_025",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever bekend zijn om je talent of om je uiterlijk?"
+      "text": "Wil je liever altijd namen onthouden of altijd verjaardagen onthouden?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_026",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever al je foto’s verliezen of al je berichten?"
+      "text": "Heb je liever een huis met een geheime kamer of een ontmoetingsplek op het dak?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_027",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever degene zijn die eerst appt of degene die nooit appt?"
+      "text": "Reist u liever alleen met de trein of maakt u alleen roadtrips?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_028",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever een kleine hechte vriendengroep of heel veel kennissen?"
+      "text": "Zou je liever leven zonder liften of zonder roltrappen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_029",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever in één nacht beroemd worden of langzaam respect krijgen?"
+      "text": "Wil je liever altijd de perfecte comeback hebben of altijd kalm blijven onder druk?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_030",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever nooit kunnen liegen of nooit iemand kunnen vertrouwen?"
+      "text": "Ben je liever de beste kok in je vriendengroep of de beste verhalenverteller?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_031",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever je droombaan met laag salaris of een saaie baan met hoog salaris?"
+      "text": "Heb je liever een terugspoelknop voor gênante momenten of een pauzeknop voor perfecte momenten?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_032",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever altijd druk zijn of altijd je vervelen?"
+      "text": "Draag je liever voor altijd alleen je favoriete kleur of herhaal je een outfit nooit?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_033",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever in het verleden zonder internet leven of in de toekomst zonder privacy?"
+      "text": "Liever onbeperkt boeken of onbeperkt spellen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_034",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever de planner in een groep zijn of de spontane?"
+      "text": "Zou je liever elk recept of elk liedje meteen kunnen leren?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_035",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever je grootste mislukking op een billboard of je grootste geheim in een groepschat?"
+      "text": "Heb je liever altijd ruimte voor een dessert of voel je je nooit te vol?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_036",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever geweldig zijn in smalltalk of in diepe gesprekken?"
+      "text": "Liever ieder feest hosten of op ieder feest uitgenodigd worden?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_037",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever de waarheid horen ook als het pijn doet of beschermd worden met witte leugens?"
+      "text": "Heb je liever een huis met een gigantische keuken of een gigantische speelkamer?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_038",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever nooit hoeven slapen of altijd 12 uur slaap nodig hebben?"
+      "text": "Wil je liever alleen gesproken notities gebruiken of een week lang alleen emoji's gebruiken?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_039",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever een terugspoelknop voor één dag of een pauzeknop voor één uur?"
+      "text": "Wil je liever overal vroeg bij zijn of altijd precies op tijd aankomen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_040",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever naar het buitenland verhuizen voor de liefde of voor werk?"
+      "text": "Liever een perfect geheugen voor gezichten of voor routebeschrijvingen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_041",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever daten met een beroemd persoon of met iemand aan wie je alles kunt vertellen?"
+      "text": "Wil je liever reclames pauzeren of klusjes overslaan?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_042",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever een geweldige eerste date zonder tweede of een slechte eerste date die geweldig wordt?"
+      "text": "Vindt u liever altijd geld in oude zakken of krijgt u altijd verrassende kortingen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_043",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever degene zijn die meer liefheeft of die meer geliefd wordt?"
+      "text": "Liever je droomslaapkamer of je droomkeuken?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_044",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever je datingleven privé houden of alles met vrienden delen?"
+      "text": "Wil je liever elk drankje perfect of elk tussendoortje perfect kunnen maken?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_045",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever elke week een blind date of nooit meer daten?"
+      "text": "Liever nooit een paraplu of nooit zonnebrandcrème nodig?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_046",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever ontdekken dat je partner loog of dat je vriend loog?"
+      "text": "Heb je liever elke ochtend een uur extra of elke avond een uur extra?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_047",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever een zomerromance die eindigt of een langzame liefde die jaren duurt?"
+      "text": "Woon je liever boven een bakkerij of naast een bioscoop?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_048",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever single zijn en bewonderd worden of bezet en rustig?"
+      "text": "Kies je liever altijd voor het restaurant of kies je altijd voor de activiteit?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_049",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever degene zijn die eerst appt of degene die negeert?"
+      "text": "Liever een persoonlijke playlist voor iedere stemming of een perfecte outfit voor ieder plan?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_050",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever een instant klik die verdwijnt of een trage band die blijft?"
+      "text": "Ben jij liever de vriend met het beste advies of de vriend met de lekkerste snacks?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_051",
+      "text": "Eet je liever alleen ontbijtvoedsel als avondeten of avondeten als ontbijt?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever altijd moeten fluisteren of altijd moeten schreeuwen?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_052",
+      "text": "Wil je liever nooit apparaten opladen of apps nooit updaten?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever nooit meer social media gebruiken of nooit meer tv kijken?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_053",
+      "text": "Heb je liever een perfect handschrift of perfecte vaardigheden in het inpakken van cadeaus?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever een privéchef hebben of een personal trainer?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_054",
+      "text": "Wil je liever direct je kamer opruimen of direct je telefoonfoto's ordenen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever aan zee wonen of in de bergen?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_055",
+      "text": "Wil je liever altijd schone lakens of altijd schone handdoeken?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever de tijd kunnen pauzeren of 10 minuten terugspoelen?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_056",
+      "text": "Ben je liever onverslaanbaar in trivia of onverslaanbaar in charades?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever een telefoon met oneindige batterij of overal onbeperkte data?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_057",
+      "text": "Liever een balkon met uitzicht of een woonkamer gemaakt voor feestjes?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever beroemd zijn om je talent of om je uiterlijk?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_058",
+      "text": "Wil je liever nooit meer een drankje morsen of je telefoon nooit meer laten vallen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever gratis reizen of gratis eten in elk restaurant?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_059",
+      "text": "Zou je liever altijd je dromen herinneren of nooit een nachtmerrie hebben?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever altijd een beetje te laat zijn of altijd veel te vroeg?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_060",
+      "text": "Heb je liever één keer per jaar gratis vluchten of twee keer per jaar gratis hotels?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever een jaar lang maar één artiest luisteren of één genre voor altijd?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_061",
+      "text": "Wil je liever van de ene op de andere dag vloeiend een nieuwe taal beheersen of van de ene op de andere dag een nieuw instrument onder de knie krijgen?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever een perfect geheugen hebben of alles kunnen vergeten?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_062",
+      "text": "Wil je liever altijd de perfecte belichting hebben voor foto's of nooit knipperen op foto's?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever geweldig kunnen koken of geweldig kunnen spreken in het openbaar?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_063",
+      "text": "Liever elke maand een verrassingsdag vrij of elk jaar een verrassingsvakantie?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever zonder koffie leven of zonder desserts?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_064",
+      "text": "Wil je liever alleen tekst in kleine letters of alleen tekst met perfecte interpunctie?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever voor altijd de trap nemen of nooit meer rennen?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_065",
+      "text": "Liever een gezellig huttenweekend of een druk stadsweekend?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever een klein huis met grote tuin of een groot huis zonder tuin?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_066",
+      "text": "Sta je liever bekend om je stijl of om je gevoel voor humor?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever nooit in de file staan of nooit in de rij staan?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_067",
+      "text": "Kiest u liever altijd voor de snelste kassalijn of stapt u altijd meteen in de lift?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever altijd perfect weer of altijd perfecte slaap hebben?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_068",
+      "text": "Wil je liever nooit zonder opslagruimte op je telefoon komen of nooit zonder batterij komen te zitten?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever de slimste in de kamer zijn of de grappigste?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_069",
+      "text": "Liever elke kamer perfect kunnen inrichten of elke koffer perfect kunnen inpakken?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever je telefoon verliezen of je portemonnee verliezen?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_070",
+      "text": "Wil je liever voor altijd alleen water drinken of voor altijd slechts één favoriete drankje drinken?",
       "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever gedachten kunnen lezen of de toekomst zien?"
+      "minAge": 4
     },
     {
       "id": "wyr_nl_071",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever een terugspoelknop voor je dag of een vooruitspoelknop?"
+      "text": "Wil je liever altijd perfect slapen of altijd goedgehumeurd wakker worden?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_072",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever een groot feest geven of een rustige trip plannen?"
+      "text": "Ben jij liever de persoon aan wie iedereen om aanbevelingen vraagt of de persoon aan wie iedereen vraagt om reizen te plannen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_073",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever gratis vluchten of gratis hotels?"
+      "text": "Liever een persoonlijke weersvoorspelling die altijd klopt of een kalender die zichzelf plant?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_074",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever een jaar vrij met salaris of de promotie die je wilt?"
+      "text": "Wil je liever nooit de badkamer schoonmaken of nooit de keuken schoonmaken?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_075",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever prachtig kunnen zingen of elk instrument kunnen spelen?"
+      "text": "Ben je liever goed in bakken of beter in grillen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_076",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever altijd de eerste indruk goed hebben of altijd een tweede kans krijgen?"
+      "text": "Wil je liever één keer per jaar een plaats op de eerste rij of elke keer een VIP-snack?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_077",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever geweldig zijn in foto’s of in video’s?"
+      "text": "Vind je liever altijd het beste verborgen café of altijd het beste uitzichtpunt?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_078",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever altijd snacks of altijd koffie hebben?"
+      "text": "Liever een week perfecte outfits of een week perfecte maaltijden?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_079",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever elke dag 10 minuten sporten of één lange workout per week?"
+      "text": "Wil je liever een levenslange voorraad schoenen of een levenslange voorraad hoofdtelefoons winnen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_080",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever alle talen spreken of dieren begrijpen?"
+      "text": "Wil je liever altijd de tekst kennen of altijd de dans kennen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_081",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever veel foto’s maken of helemaal in het moment leven?"
+      "text": "Zou je liever elk technisch probleem kunnen oplossen of meubels in elkaar kunnen zetten zonder instructies?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_082",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever nooit hoeven schoonmaken of nooit hoeven koken?"
+      "text": "Heb je liever een magische rugzak die nooit zwaar is of een koffer die zichzelf inpakt?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_083",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever een gegarandeerde beste vriend of een gegarandeerde soulmate?"
+      "text": "Heb je liever altijd een good hair day of altijd een zuivere huid?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_084",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever in je droomstad wonen of dicht bij familie?"
+      "text": "Maak je liever de leukste groepsselfies of maak je liever de leukste groepsplannen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_085",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever altijd winnen in spelletjes of altijd goed zijn in nieuwe skills?"
+      "text": "Wil je liever één saaie taak per dag overslaan of één leuke verrassing per dag krijgen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_086",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever nooit een deadline missen of nooit stress voelen?"
+      "text": "Woon je liever ergens met eindeloze zomer of eindeloos gezellig weer?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_087",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever degene zijn die plant of degene die met de flow meegaat?"
+      "text": "Wil je liever nooit advertenties online hebben of nooit spamberichten ontvangen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_088",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever een minimalistische kledingkast of onbeperkte kleding?"
+      "text": "Kies je liever altijd een goede gebruikersnaam of schrijf je altijd een geweldig bijschrift?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_089",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever zonder muziek leven of zonder films?"
+      "text": "Ben jij liever de beste in het inpakken van cadeautjes of de beste in het uitkiezen van cadeautjes?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_090",
-      "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever alleen zoet of alleen zout eten?"
+      "text": "Liever onbeperkt filmavonden thuis of onbeperkt brunchen buiten?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_091",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever een korte, intense romance of een langzame, stabiele liefde?"
+      "text": "Heb je liever een kleine privétuin of een enorm gedeeld dak?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_092",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever als eerste appen of als eerste bellen?"
+      "text": "Wil je liever voor altijd alleen een klein lepeltje gebruiken of altijd uit een klein kopje drinken?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_093",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever dat je partner je beste vriend is of je grootste fan?"
+      "text": "Wil je liever elke kamer gezellig maken of elke afspeellijst perfect maken?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_094",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever een date zonder telefoons of zonder praten?"
+      "text": "Liever altijd de juiste oplader of altijd het juiste wachtwoord?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_095",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever een playlist delen of een kalender delen?"
+      "text": "Wil je liever nooit meer een wachtwoord vergeten of nooit meer vergeten waar u geparkeerd heeft?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_096",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever altijd weten wat iemand voelt of wat iemand wil?"
+      "text": "Liever een perfect georganiseerde kast of een perfect georganiseerde camerarol?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_097",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever herinnerd worden om je vriendelijkheid of om je ambitie?"
+      "text": "Wil je liever de eerste zijn die een trend uitprobeert, of de laatste zijn die er genoeg van krijgt?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_098",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever voor altijd thuis werken of altijd buiten werken?"
+      "text": "Wil je liever altijd een tafel vrij hebben in restaurants of altijd een gratis dessert krijgen?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_099",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever leven zonder spiegels of zonder foto’s?"
+      "text": "Liever een persoonlijk hype-nummer of een persoonlijk entreelicht?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_100",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever super spontaan zijn of super gepland?"
+      "text": "Ben je liever goed in eerste indrukken of goed in afscheidsknuffels?",
+      "intensity": "mild",
+      "minAge": 4
     },
     {
       "id": "wyr_nl_101",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever daten met iemand die beroemd is of met iemand aan wie je alles kunt vertellen?"
+      "text": "Zou je liever door iedereen gerespecteerd worden of diep begrepen worden door een paar mensen?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_102",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever een geweldige eerste date zonder tweede date hebben of een vreselijke eerste date die later geweldig wordt?"
+      "text": "Wil je liever weten wanneer iemand liegt of altijd geloofd worden als je de waarheid vertelt?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_103",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever degene zijn die meer houdt of degene van wie meer wordt gehouden?"
+      "text": "Heb je liever je droombaan met een laag loon of een saaie baan met een geweldig loon?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_104",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever daten met iemand die altijd plannen maakt of iemand die altijd spontaan is?"
+      "text": "Verhuis je liever alleen naar het buitenland of blijf je voor altijd in je geboortestad?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_105",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever elke week een blind date hebben of nooit meer daten?"
+      "text": "Ben je liever de slimste persoon in de kamer of de persoon die iedereen het meest vertrouwt?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_106",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever een relatie op afstand met veel passie of dichtbij met meer rust?"
+      "text": "Wil je liever altijd de waarheid weten of altijd weten wat u moet zeggen?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_107",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever een date zonder telefoons of een date zonder praten?"
+      "text": "Heb je liever een kleine groep trouwe vrienden of een enorm netwerk van losse vrienden?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_108",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever single en aanbeden zijn of bezet en rustig?"
+      "text": "Wil je liever herinnerd worden vanwege vriendelijkheid of vanwege ambitie?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_109",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever dat je partner superromantisch is of juist heel nuchter?"
+      "text": "Wil je liever vroeg succesvol zijn en een burn-out krijgen, of langzaam slagen en genieten van het proces?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_110",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever een directe klik die vervaagt of een trage band die blijft?"
+      "text": "Zou je liever elke fout vergeten of elke goede daad onthouden?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_111",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever nooit meer je sleutels kwijt zijn of nooit meer je portemonnee kwijt zijn?"
+      "text": "Zou je liever een perfecte dag herbeleven of een verschrikkelijke dag uitwissen?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_112",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever altijd een koptelefoon moeten dragen of ze nooit mogen gebruiken?"
+      "text": "Zou je liever onmiddellijk kunnen vergeven of nooit twee keer voor de gek gehouden worden?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_113",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever een persoonlijke chef of een personal trainer?"
+      "text": "Liever meer zelfvertrouwen of meer discipline?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_114",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever elke dag een uur extra slapen of elke dag een uur extra vrije tijd?"
+      "text": "Wil je liever weten wat mensen eerst van je denken of wat ze zeggen nadat je weggaat?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_115",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever altijd tegenwind fietsen of altijd in de regen lopen?"
+      "text": "Zou je liever geliefd zijn om wie je nu bent of bewonderd om wie je zou kunnen worden?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_116",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever elke week een nieuw boek of elke week een nieuwe film kunnen kiezen?"
+      "text": "Ben je liever altijd bezig met dingen die je leuk vindt of heb je altijd vrije tijd, maar verveel je je?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_117",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever in een tiny house wonen of in een groot appartement met huisgenoten?"
+      "text": "Zou je liever één grote kans hebben en alles riskeren of veel kleine kansen met een langzame vooruitgang?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_118",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever altijd je favoriete snack hebben of altijd je favoriete drankje?"
+      "text": "Zou je liever vijf jaar beroemd zijn of een leven lang gerespecteerd?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_119",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever altijd een beetje te laat zijn of altijd heel vroeg?"
+      "text": "Wil je liever al je foto's of al je berichten kwijt?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_120",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever een jaar lang maar één artiest luisteren of voor altijd één genre?"
+      "text": "Wil je liever je zoekgeschiedenis openbaar of je filmrol openbaar?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_121",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever een maand zonder internet of een maand zonder streaming?"
+      "text": "Zeg je liever altijd wat je denkt of bewaar je liever altijd de vrede?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_122",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever elke dag voor jezelf koken of elke dag voor anderen koken?"
+      "text": "Heb je liever een vriend die brutaal eerlijk is of iemand die je eindeloos steunt?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_123",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever leven zonder koffie of zonder desserts?"
+      "text": "Ben jij liever de planner in iedere groep of juist de persoon die nooit hoeft te plannen?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_124",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever altijd weten hoeveel tijd je nog hebt of altijd verrast worden?"
+      "text": "Ben je liever geweldig in diepgaande gesprekken of geweldig in het zorgen dat mensen zich op hun gemak voelen?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_125",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever een tiny house met grote tuin of een groot huis zonder tuin?"
+      "text": "Wil je liever precies weten waar je leven naartoe gaat of je erdoor laten verrassen?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_126",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever nooit in de file staan of nooit in de rij wachten?"
+      "text": "Liever een jaar lang social media opgeven of een jaar lang streamen?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_127",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever altijd perfect weer of altijd perfecte slaap?"
+      "text": "Heb je liever een jaar vrij met behoud van salaris of een promotie die je heel graag wilt?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_128",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever overal kunnen lopen zonder te verdwalen of overal kunnen reizen zonder vertraging?"
+      "text": "Zou je liever altijd onderschat worden of altijd overschat worden?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_129",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever je telefoon kwijtraken of je portemonnee?"
+      "text": "Wil je liever dat iedereen je grootste doel of je grootste angst kent?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_130",
-      "intensity": "mild",
-      "minAge": 4,
-      "text": "Zou je liever één keer per dag teleporteren of tien minuten per dag vliegen?"
+      "text": "Zou je liever je carrière opnieuw kunnen starten of één vriendschap opnieuw kunnen opstarten?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_131",
+      "text": "Ben je liever de persoon die mensen bellen in een crisis of de persoon die ze bellen om het te vieren?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever een terugspoelknop voor je dag of een fast-forwardknop?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_132",
+      "text": "Zou je je liever nooit schamen of nooit jaloers voelen?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever een groot feest organiseren of een rustige reis plannen?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_133",
+      "text": "Wil je liever één herinnering verwijderen of één herinnering opnieuw afspelen wanneer u maar wilt?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever vier dagen per week werken of elke dag korter werken?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_134",
+      "text": "Wil je liever het einde van elke film weten of de uitkomst van elke beslissing?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever een jaar betaald vrij of de promotie die je echt wilt?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_135",
+      "text": "Zou je liever een perfecte reputatie hebben bij vreemden of echte eerlijkheid bij vrienden?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever je eigen project starten of een stabiele baan met doorgroeikansen?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_136",
+      "text": "Zou je liever altijd ruzies winnen of ruzies altijd met een vredig gevoel achterlaten?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever bekend staan om je creativiteit of om je betrouwbaarheid?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_137",
+      "text": "Zou je liever goed zijn in het verdienen van geld of goed in het beheren van geld?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever geweldig zijn in foto’s of geweldig in video’s?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_138",
+      "text": "Wil je je toekomst liever laten plannen door een wijs iemand of alles zelf kiezen zonder advies?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever altijd snacks hebben of altijd koffie?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_139",
+      "text": "Ben je liever de grappigste persoon in je groep of de rustigste persoon in een crisis?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever elke dag 10 minuten sporten of één lange training per week?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_140",
+      "text": "Zou je liever één droom nu laten uitkomen of in de loop van de tijd vijf kleinere dromen laten uitkomen?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever alle talen kunnen spreken of dieren kunnen begrijpen?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_141",
+      "text": "Wil je liever één persoon volledig kunnen lezen of de menigte perfect begrijpen?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever een jaar zonder sociale media of een jaar zonder series?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_142",
+      "text": "Zou je liever een afsluiting krijgen voor elk einde of een tweede kans op één einde?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever altijd nieuwe hobby's uitproberen of één hobby perfectioneren?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_143",
+      "text": "Sta jij liever bekend als mysterieus of volledig transparant?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever een gegarandeerde beste vriend(in) of een gegarandeerde soulmate?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_144",
+      "text": "Heb je liever een baan die indruk maakt op mensen of een leven dat vredig aanvoelt?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever in je droomstad wonen of dicht bij familie blijven?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_145",
+      "text": "Ben je liever te loyaal of te onafhankelijk?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever altijd winnen met spelletjes of altijd goed zijn in nieuwe skills?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_146",
+      "text": "Heb je liever altijd de moed om te beginnen of het geduld om te eindigen?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever een baan met veel geld en weinig tijd of minder geld en veel tijd?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_147",
+      "text": "Wil je liever perfect je excuses aanbieden of iemand zonder angst confronteren?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever in een team werken of altijd alleen werken?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_148",
+      "text": "Wil je je grootste mislukking liever voor altijd online hebben of je grootste geheim in een groepschat?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever een minimalistische kast of onbeperkt kleding?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_149",
+      "text": "Wil je liever in het verleden leven met meer privacy of in de toekomst met meer gemak?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever muziek opgeven of films opgeven?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_150",
+      "text": "Zou u liever altijd de verantwoordelijke zijn of nooit de verantwoordelijkheid toevertrouwd krijgen?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Zou je liever alleen zoet eten of alleen zout eten?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_151",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever het eerste bericht sturen of wachten tot de ander begint?"
+      "text": "Zou je liever één beslissing die je hebt genomen kunnen wijzigen of één beslissing kunnen zien die je bijna hebt genomen?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_152",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever een geheime relatie of een relatie die iedereen kent?"
+      "text": "Verlies je liever je comfortzone of verlies je je ambitie?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_153",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever iemand die veel knuffelt of iemand die veel complimenteert?"
+      "text": "Wil je liever van ver bewonderd worden of van dichtbij geliefd worden?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_154",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever een kus onder de sterren of een knuffel bij zonsopgang?"
+      "text": "Vergelijk je jezelf liever nooit met anderen of maakt het je niets uit wat anderen denken?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_155",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever een playlist delen of een agenda delen?"
+      "text": "Krijg je liever een waarschuwing voor elke slechte beslissing of een beloning na elke moedige beslissing?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_156",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever altijd weten wat iemand voelt of altijd weten wat iemand wil?"
+      "text": "Zou je liever iemand aan het lachen kunnen maken of iemand een veilig gevoel kunnen geven?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_157",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever een korte, vurige fling of een lange, stabiele relatie?"
+      "text": "Heb je liever een perfect geheugen of een perfect vermogen om verder te gaan?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_158",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever voor altijd thuiswerken of voor altijd buiten werken?"
+      "text": "Wil je liever een jaar lang aan je lichaam of aan je geest werken?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_159",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever iemand daten uit je vriendengroep of uit je werk?"
+      "text": "Ben je liever de hoofdpersoon in een rustig verhaal of een bijpersonage in een episch verhaal?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_160",
-      "intensity": "spicy",
-      "minAge": 18,
-      "text": "Zou je liever super spontaan zijn of tot in detail gepland?"
+      "text": "Wil je liever weten waarom iemand is weggegaan of wil je het nooit weten en sneller genezen?",
+      "intensity": "medium",
+      "minAge": 13
     },
     {
       "id": "wyr_nl_161",
+      "text": "Zou je liever altijd eerlijk zijn over je gevoelens of altijd de gevoelens van anderen beschermen?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Verlies je liever al je opgeslagen memes of al je playlists?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_162",
+      "text": "Heb je liever onbeperkte motivatie of onbeperkt geduld?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Liever elke typefout openbaar of elke concept automatisch verzonden?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_163",
+      "text": "Wil je liever direct waarschuwingssignalen opmerken of verborgen potentieel direct zien?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Liever viraal gaan door dansen of door vallen?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_164",
+      "text": "Zou je liever een relatie uit het verleden kunnen herstellen of een toekomstige fout kunnen voorkomen?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Alleen communiceren met GIFs of alleen met spraakberichten?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_165",
+      "text": "Kies je liever altijd voor comfort of kies je liever altijd voor groei?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Oneindige batterij of perfecte Wi-Fi voor altijd?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_166",
+      "text": "Word je liever omringd door mensen die je uitdagen of mensen die je troosten?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Liever elk feest hosten of na elk feest opruimen?"
+      "minAge": 13
     },
     {
       "id": "wyr_nl_167",
+      "text": "Heb je liever de perfecte dagelijkse routine of het perfecte eenmalige avontuur?",
       "intensity": "medium",
-      "minAge": 13,
-      "text": "Liever altijd regels uitleggen of altijd verdacht worden van valsspelen?"
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_168",
+      "text": "Ben je liever stiekem getalenteerd of publiekelijk gemiddeld?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_169",
+      "text": "Wil je liever nooit goedkeuring nodig hebben of altijd aanmoediging ontvangen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_170",
+      "text": "Heb je liever een vriend die elk detail onthoudt of iemand die elke keer opduikt?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_171",
+      "text": "Zou je liever onmiddellijk met elke gewoonte kunnen stoppen of meteen een gewoonte kunnen opbouwen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_172",
+      "text": "Zou je liever hebben dat je jongere zelf je leven nu ziet, of dat je toekomstige zelf één zin terugstuurt?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_173",
+      "text": "Ben jij liever de persoon die een groep verandert, of de persoon die een groep ten goede verandert?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_174",
+      "text": "Wil je liever altijd weten wat de kosten van een keuze zijn of altijd wat het voordeel is?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_175",
+      "text": "Zou je liever één jaar onbevreesd zijn of de rest van je leven wijs?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_176",
+      "text": "Heb je liever een leven dat er online spannend uitziet of offline spannend aanvoelt?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_177",
+      "text": "Zou je liever kunnen stoppen met overdenken of stoppen met uitstellen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_178",
+      "text": "Sta je liever bekend om één meesterwerk of om vele solide inspanningen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_179",
+      "text": "Zou je liever elke deur open hebben, maar geen duidelijke richting of één duidelijk pad zonder alternatieven?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_180",
+      "text": "Zou je liever altijd de eerste zijn die vergeeft of de eerste die wegloopt?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_181",
+      "text": "Heb je liever een mentor voor elk probleem of een vriend voor elke zware dag?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_182",
+      "text": "Zou je liever je humeur van morgen kunnen voorspellen of je humeur van vandaag kunnen begrijpen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_183",
+      "text": "Zou je liever stilletjes rijk worden of publiekelijk invloed uitoefenen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_184",
+      "text": "Zou je je liever nooit eenzaam voelen of je nooit onbegrepen voelen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_185",
+      "text": "Wil je liever direct mensen overtuigen of meteen weten wie je tijd waard is?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_186",
+      "text": "Sta je liever bekend om het nemen van risico's of om het maken van verstandige keuzes?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_187",
+      "text": "Wil je liever altijd een back-upplan hebben of heeft u er nooit één nodig?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_188",
+      "text": "Zou je liever één slechte gewoonte verliezen of één indrukwekkende vaardigheid verwerven?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_189",
+      "text": "Heb je liever een rustig leven met weinig verrassingen of een chaotisch leven met onvergetelijke verhalen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_190",
+      "text": "Wil je het beste moment van je leven liever kennen voordat het gebeurt, of het pas achteraf herkennen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_191",
+      "text": "Zou je liever uitstekend zijn in het beginnen van gesprekken of uitstekend zijn in het op een elegante manier beëindigen ervan?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_192",
+      "text": "Zou je liever altijd de persoon zijn die advies geeft of de persoon die dapper genoeg is om het op te volgen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_193",
+      "text": "Liever je droomhuis ver weg van iedereen of een eenvoudige woning vlakbij je favoriete mensen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_194",
+      "text": "Zou je liever met wie dan ook vrede kunnen sluiten of ergens een nieuwe start kunnen maken?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_195",
+      "text": "Zou je liever de vriend zijn aan wie iedereen bekent of de vriend waarmee iedereen feest?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_196",
+      "text": "Heb je liever een maand totale vrijheid of een jaar van gestage vooruitgang?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_197",
+      "text": "Wil je liever herinnerd worden vanwege één gedurfde zet of vanwege een leven lang stille loyaliteit?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_198",
+      "text": "Wil je liever de waarheid over je reputatie weten of je vertrouwen onaangetast laten?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_199",
+      "text": "Zou je liever zonder schuldgevoel nee kunnen zeggen of zonder schaamte om hulp kunnen vragen?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_200",
+      "text": "Heb je liever een perfecte timing of perfecte instincten?",
+      "intensity": "medium",
+      "minAge": 13
+    },
+    {
+      "id": "wyr_nl_201",
+      "text": "Laat je liever je datingprofiel beoordelen door je vrienden of je DM’s hardop voorlezen door iemand die je vertrouwt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_202",
+      "text": "Ga je liever op een perfecte eerste date zonder chemie of een rommelige eerste date met duidelijke vonken?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_203",
+      "text": "Wil je liever altijd weten wanneer iemand aan het flirten is, of nooit per ongeluk terugflirten?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_204",
+      "text": "Zou je liever uitgaan met iemand waar iedereen van houdt, maar waar je je onzeker over voelt, of met iemand waar iedereen aan twijfelt, maar waar je wel zeker van bent?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_205",
+      "text": "Wil je liever een ghost krijgen na een geweldige date of een maand lang langzaam worden gepaneerd?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_206",
+      "text": "Wil je je verliefdheid liever persoonlijk bekennen, of wil je dat je groepschat dit per ongeluk onthult?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_207",
+      "text": "Zou je liever hebben dat je ex ziet dat je er geweldig uitziet, of dat het je echt niets kan schelen als hij of zij dat wel doet?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_208",
+      "text": "Ontvang je liever een riskant sms-je laat op de avond of stuur je er een en krijg je er meteen spijt van?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_209",
+      "text": "Heb je liever een partner die pijnlijk eerlijk is of iemand die elk moeilijk gesprek vermijdt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_210",
+      "text": "Zou je liever met iemand uitgaan met perfecte scherts of perfecte emotionele volwassenheid?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_211",
+      "text": "Zou je liever betrapt worden op het stalken van iemands profiel of per ongeluk een heel oud bericht leuk vinden?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_212",
+      "text": "Heb je liever een onvergetelijke zomerromantiek of een langzaam liefdesverhaal?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_213",
+      "text": "Zou je liever elke persoon kennen die je partner ooit leuk vond, of niets weten en vredig blijven?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_214",
+      "text": "Zou je liever de jaloerse zijn of degene die mensen jaloers maakt zonder het te proberen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_215",
+      "text": "Heb je liever geweldige chemie met slechte timing of perfecte timing met minder vonk?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_216",
+      "text": "Wil je liever de eerste zijn die ‘ik hou van je’ zegt, of wachten tot je het helemaal zeker weet?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_217",
+      "text": "Ga je liever op een date zonder telefoons of een date zonder praatjes?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_218",
+      "text": "Wil je liever je grootste rode vlag laten zien of ontdekken dat iedereen het al weet?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_219",
+      "text": "Zou je liever iemands geheime verliefdheid zijn of iemands zeer publieke obsessie?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_220",
+      "text": "Heb je liever een dramatisch uiteenvallend verhaal of geen uiteenvallend verhaal omdat het nooit serieus is geworden?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_221",
+      "text": "Zou je liever uitgaan met iemand die alles plaatst, of met iemand die helemaal niets plaatst?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_222",
+      "text": "Zou je liever met iemand zijn die heel spontaan is of met iemand die heel consistent is?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_223",
+      "text": "Deel je liever wachtwoorden of deel je locaties?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_224",
+      "text": "Ontvang je liever een liefdesbrief van de verkeerde persoon of een tekst van één woord van de juiste persoon?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_225",
+      "text": "Wil je liever dat je crush je slechtste stemgeluid hoort of je slechtste selfie ziet?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_226",
+      "text": "Zou je liever goed zijn in persoonlijk flirten of goed in sms'en?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_227",
+      "text": "Wil je liever altijd weten of een date je leuk vindt of altijd weten of ze je tijd verspillen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_228",
+      "text": "Heb je liever een relatie met intense passie en chaos of rustige liefde met minder vuurwerk?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_229",
+      "text": "Zou je liever degene zijn die er meer om geeft, of degene die het als eerste toegeeft?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_230",
+      "text": "Wil je liever ontdekken dat een vriend jouw geliefde leuk vindt, of dat jouw geliefde jouw vriend leuk vindt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_231",
+      "text": "Zou je liever uitgaan met iemand die ieders type is of met iemand die alleen jij begrijpt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_232",
+      "text": "Zou je liever hebben dat jouw situatie de relatie definieert of voor altijd verdwijnt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_233",
+      "text": "Zou je liever een afsluiting krijgen van een ex of een verontschuldiging van iemand met wie je nog nooit een relatie hebt gehad?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_234",
+      "text": "Heb je liever één perfecte kus zonder toekomst of een onhandig begin dat echte liefde wordt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_235",
+      "text": "Wil je liever meteen de groene vlaggen van iemand zien, of meteen de rode vlaggen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_236",
+      "text": "Wil je liever met zelfvertrouwen flirten en falen, of liever kalm blijven en je kans missen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_237",
+      "text": "Wil je liever dat elke eerste date wordt gefilmd of dat elke breuk wordt beoordeeld door je vrienden?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_238",
+      "text": "Ga je liever uit met iemand die elk detail onthoudt of met iemand die je voortdurend verrast?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_239",
+      "text": "Wil je liever een week lang terugkomen met een ex of vijf blind dates achter elkaar hebben?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_240",
+      "text": "Wil je liever dat je vrienden je volgende date kiezen of dat je zoekgeschiedenis dit kiest?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_241",
+      "text": "Zou je liever luidkeels geliefd worden in het openbaar of privé, op een manier die alleen jij opmerkt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_242",
+      "text": "Zou je liever altijd de hartenbreker zijn of altijd de hopeloze romanticus?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_243",
+      "text": "Heb je liever een partner die te aanhankelijk of te mysterieus is?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_244",
+      "text": "Zou je liever ontdekken dat iemand een liedje over jou heeft geschreven of een lange notitie-app-tirade over jou?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_245",
+      "text": "Ontvang je liever een 'we moeten praten'-sms of stuur je er per ongeluk een naar de verkeerde persoon?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_246",
+      "text": "Ga je liever uit met iemand die elk detail plant of iemand die alles improviseert?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_247",
+      "text": "Heb je liever een onmiskenbare chemie met je tegengestelde of een comfortabele chemie met iemand zoals jij?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_248",
+      "text": "Zou je liever betrapt worden bij het repeteren van een bekentenis of betrapt worden op het oefenen van een toespraak bij het uiteenvallen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_249",
+      "text": "Zou je liever hebben dat je oude crush je plotseling een sms stuurt of dat je huidige crush je plotseling ontvolgt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_250",
+      "text": "Val je liever altijd te snel of besef je je gevoelens altijd te laat?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_251",
+      "text": "Ben je liever de persoon voor wie iemand verandert, of de persoon waar niemand overheen kan komen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_252",
+      "text": "Heb je liever een partner die geweldig is met woorden of geweldig met daden?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_253",
+      "text": "Ga je liever uit met iemand die je voortdurend aan het lachen maakt of met iemand die je een volkomen kalm gevoel geeft?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_254",
+      "text": "Wil je liever weten of je crush over jou droomt of dat ze over jou praten?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_255",
+      "text": "Stuur je liever het eerste bericht of zet je liever persoonlijk de eerste stap?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_256",
+      "text": "Heb je liever een geheime relatie van drie maanden of een openbare relatie waar iedereen commentaar op geeft?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_257",
+      "text": "Wil je liever dat je flirtstijl wordt beoordeeld door je vrienden of dat je sms-stijl wordt beoordeeld door je geliefde?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_258",
+      "text": "Ben je liever de rebound die serieus wordt of degene die ze nooit vergeten?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_259",
+      "text": "Ga je liever uit met iemand met jouw exacte humor of met jouw exacte ambitie?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_260",
+      "text": "Ben je liever verliefd op iemand die je niet kunt krijgen, of is zo iemand verliefd op jou?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_261",
+      "text": "Zou je liever een dronken bekentenis krijgen of een nuchter bericht dat een week duurde om te schrijven?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_262",
+      "text": "Wil je liever dat elke date eindigt met een diep gesprek of met een belachelijk verhaal?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_263",
+      "text": "Zou je liever bij iemand zijn die je uitdaagt of bij iemand die je aanbidt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_264",
+      "text": "Houd je liever een beetje mysterie of weet je alles meteen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_265",
+      "text": "Heb je liever een partner die beste vrienden is met jouw vrienden of iemand die jouw wereld gescheiden houdt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_266",
+      "text": "Ga je liever uit met iemand die nooit jaloers wordt of met iemand die het eerlijk toegeeft?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_267",
+      "text": "Heb je liever één intens oogcontactmoment of één perfect getimede handaanraking?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_268",
+      "text": "Word je liever betrapt als je trouwideeën te vroeg opslaat of een dating-app te laat verwijdert?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_269",
+      "text": "Heb je liever een flirterige vriendschap die nooit meer wordt of een relatie die begint met ongemakkelijk flirten?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_270",
+      "text": "Wil je liever één verzonden bericht ongedaan maken of één zin persoonlijk ongedaan maken?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_271",
+      "text": "Zou je liever hebben dat je beste vriend je vlam goedkeurt, of dat je vlam je beste vriend goedkeurt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_272",
+      "text": "Ga je liever uit met iemand die van aandacht houdt of met iemand die deze volledig vermijdt?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_273",
+      "text": "Ben jij liever de reden dat iemand naar zijn telefoon lacht of de reden dat hij of zij zich de hele dag niet kan concentreren?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_274",
+      "text": "Liever een romantisch diner met ongemakkelijke stilte of een chaotisch avondje uit met geweldige energie?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_275",
+      "text": "Word je liever mee uitgevraagd met een groots gebaar of met een simpele eerlijke zin?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_276",
+      "text": "Zou je liever een relatie hebben waar iedereen jaloers op is of die niemand begrijpt behalve jij?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_277",
+      "text": "Zou je liever nooit weten wie verliefd op je was of het weten en er niets aan kunnen doen?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_278",
+      "text": "Stuur je liever een gesproken bericht naar je geliefde of laat je een voicemail achter voor je ex?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_279",
+      "text": "Wil je liever dat je partner een dag je gedachten leest of je notities-app een minuut leest?",
+      "intensity": "spicy",
+      "minAge": 18
+    },
+    {
+      "id": "wyr_nl_280",
+      "text": "Ben je liever iemands veilige keuze of de spannende, riskante keuze?",
+      "intensity": "spicy",
+      "minAge": 18
     }
   ]
 }

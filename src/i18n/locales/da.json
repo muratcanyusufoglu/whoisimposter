@@ -1,0 +1,587 @@
+{
+  "app": {
+    "name": "Who's the Imposter?"
+  },
+  "onboarding": {
+    "language": {
+      "title": "Vælg dit sprog",
+      "continue": "Fortsæt"
+    },
+    "welcome": {
+      "headline": "Hvem lyver i din gruppe?",
+      "benefit1": "12+ festspil",
+      "benefit2": "Ingen internetforbindelse nødvendig",
+      "benefit3": "3–15 spillere",
+      "continue": "Kom så →"
+    },
+    "howToPlay": {
+      "title": "Sådan spiller du",
+      "step1_title": "Send telefonen rundt",
+      "step1_desc": "Hver spiller trykker på sit navn i hemmelighed",
+      "step2_title": "Lær dit ord",
+      "step2_desc": "Alle ser det samme ord — undtagen bedrageren",
+      "step3_title": "Find løgneren",
+      "step3_desc": "Giv ledetråde, stem, og fang bedrageren!"
+    },
+    "showcase": {
+      "title": "12+ festspil",
+      "cta": "Lad os spille!",
+      "more": "Og {{count}} spil mere ..."
+    },
+    "personalize": {
+      "title": "Gør den til din egen",
+      "subtitle": "Tilpas din spilaften",
+      "feature1_title": "Spilleravatarer",
+      "feature1_desc": "Giv hver spiller en sjov emoji-identitet",
+      "feature2_title": "Tilpassede temaer",
+      "feature2_desc": "5 temaer + din egen accentfarve",
+      "feature3_title": "Hurtige forindstillinger",
+      "feature3_desc": "Gem dit hold, og start på få sekunder",
+      "continue": "Fortsæt →"
+    },
+    "notifications": {
+      "title": "Gå aldrig glip af en spilaften",
+      "subtitle": "Få påmindelser og eksklusive tilbud",
+      "benefit1": "Eksklusive rabattilbud kun til dig",
+      "benefit2": "Påmindelser om spilaften, når du vil",
+      "enable": "Slå notifikationer til",
+      "skip": "Måske senere",
+      "discount_title": "🎉 Eksklusivt tilbud kun til dig!",
+      "discount_body": "Din rabat på 50 % udløber om 48 timer. Tryk for at indløse den!"
+    }
+  },
+  "home": {
+    "title": "Festspil",
+    "quickResume": "Fortsæt sidste spil →",
+    "favorite": "Føj til favoritter",
+    "unfavorite": "Fjern fra favoritter"
+  },
+  "presets": {
+    "sectionTitle": "Gemte forindstillinger",
+    "saveButton": "Gem som forindstilling",
+    "saveTitle": "Navngiv din forindstilling",
+    "playerCount": "{{count}} spillere",
+    "players": "spillere",
+    "maxReached": "Maks. 10 forindstillinger"
+  },
+  "emojiPicker": {
+    "title": "Vælg en avatar",
+    "people": "Mennesker",
+    "animals": "Dyr",
+    "food": "Mad",
+    "objects": "Genstande",
+    "symbols": "Symboler",
+    "reset": "Nulstil til initialer"
+  },
+  "customTheme": {
+    "label": "Tilpasset",
+    "customPlus": "Tilpasset +",
+    "pickBase": "Grundtema",
+    "pickAccent": "Accentfarve",
+    "apply": "Anvend"
+  },
+  "setup": {
+    "players": "Spillere",
+    "addPlayer": "Tilføj spillernavn",
+    "addPlayerCta": "Tilføj",
+    "minPlayersWarning": "Der skal være mindst {{count}} spillere",
+    "maxPlayersWarning": "Maks. {{count}} spillere",
+    "duplicateName": "Det navn er allerede taget",
+    "categories": "Kategorier",
+    "selectAll": "Alle",
+    "mode": "Spiltilstand",
+    "advanced": "Avancerede indstillinger",
+    "imposters": "Bedragere",
+    "timer": "Tid pr. spiller",
+    "timerOff": "Fra",
+    "rounds": "Runder",
+    "sound": "Lydeffekter",
+    "haptics": "Haptisk feedback",
+    "startGame": "Start spil",
+    "emptyName": "Navnet må ikke være tomt",
+    "words": "{{count}} ord",
+    "noCategoriesWarning": "Vælg mindst 1 kategori"
+  },
+  "reveal": {
+    "instruction": "Hold den tæt — vis den ikke til nogen",
+    "holdToReveal": "Hold inde for at afsløre",
+    "crew_subtitle": "Giv ÉT spor. Røb det ikke.",
+    "imposter_line1": "DU ER",
+    "imposter_line2": "BEDRAGEREN!",
+    "imposter_subtitle": "Smelt ind. Du kender ikke ordet.",
+    "next": "Næste spiller →",
+    "autoBlur": "Tryk for at skjule",
+    "yourWord": "DIT ORD"
+  },
+  "play": {
+    "round": "Runde {{number}}",
+    "category": "Kategori",
+    "clueGiven": "Spor givet",
+    "startVoting": "Start afstemning"
+  },
+  "vote": {
+    "title": "Hvem er bedrageren?",
+    "subtitle": "Hver spiller stemmer én gang. Du kan ikke stemme på dig selv.",
+    "reveal": "Afslør stemmer",
+    "waiting": "Venter på alle stemmer ..."
+  },
+  "result": {
+    "caught": "FANGET!",
+    "escaped": "DE SLAP VÆK",
+    "imposterWas": "BEDRAGEREN VAR",
+    "imposterIs": "BEDRAGEREN ER",
+    "secretWord": "Det hemmelige ord var:",
+    "guessPrompt": "Kan {{name}} gætte det hemmelige ord?",
+    "guessYes": "Ja — de gættede det!",
+    "guessNo": "Nej — de gættede forkert",
+    "crewWins": "Holdet vinder! 🎉",
+    "imposterWins": "Bedrageren vinder! 🕵️",
+    "tie": "Uafgjort!",
+    "playAgain": "Spil igen",
+    "newGame": "Nyt spil",
+    "share": "Del resultat"
+  },
+  "giftBox": {
+    "accessibilityLabel": "Specialtilbud — tryk for at få rabat"
+  },
+  "paywall": {
+    "title": "WHO'S THE IMPOSTER PRO",
+    "benefit1": "Alle 20 kategorier",
+    "benefit2": "Tilstand med 2 bedragere",
+    "benefit3": "Alle 12 festspil",
+    "benefit4": "Tilpassede ordlister",
+    "benefit5": "Annoncefri oplevelse",
+    "monthly": "Månedlig",
+    "yearly": "Årlig",
+    "bestValue": "Bedste værdi",
+    "savings": "Spar {{percent}}%",
+    "cta": "Start {{days}} dages gratis prøveperiode",
+    "cancelAnytime": "Opsig når som helst",
+    "restore": "Gendan køb",
+    "privacy": "Privatlivspolitik",
+    "terms": "Vilkår for brug",
+    "socialProof": "4,8 · 18.000 anmeldelser",
+    "close": "Luk",
+    "ratings": "anmeldelser",
+    "monthlyPrice": "4,99 $/md.",
+    "yearlyPrice": "2,49 $/md.",
+    "savePct": "Spar 50%",
+    "dailyLimitTitle": "Daglig grænse nået",
+    "dailyLimitSubtitle": "Du har spillet 5 gratis spil i dag. Opgrader til PRO for ubegrænset spil!",
+    "ctaNoTrial": "Hent PRO nu",
+    "headline": "Dine fester fortjener bedre.",
+    "subheadline": "Alle spil. Ingen grænser. Bare sjov.",
+    "noPaymentToday": "Ingen betaling i dag · Opsig når som helst",
+    "yearlyBilled": "Faktureres {{price}}/år",
+    "perMonth": "/md.",
+    "perYear": "/år",
+    "freeTrial": "{{days}} dages gratis prøveperiode",
+    "heroTag": "🎭 PRO"
+  },
+  "rating": {
+    "title": "Nyder du spillet?",
+    "subtitle": "En 5-stjernet anmeldelse hjælper os meget!",
+    "cta": "Bedøm nu ⭐",
+    "later": "Måske senere",
+    "no": "Nej tak",
+    "headline": "Nyder du spillet?",
+    "subtext": "Din anmeldelse hjælper os med at lave flere spil!",
+    "rateNow": "Bedøm nu",
+    "noThanks": "Nej tak",
+    "thanks": "Mange tak! 🙏"
+  },
+  "settings": {
+    "title": "Indstillinger",
+    "theme": "Tema",
+    "themeDark": "Mørk",
+    "themeLight": "Lys",
+    "themeNeon": "Neon",
+    "themeNeonLocked": "Neon (PRO)",
+    "themeCandy": "Slik",
+    "language": "Sprog",
+    "sound": "Lydeffekter",
+    "haptics": "Haptisk feedback",
+    "upgrade": "Opgrader til PRO",
+    "restore": "Gendan køb",
+    "rate": "Bedøm appen",
+    "privacy": "Privatlivspolitik",
+    "terms": "Vilkår for brug",
+    "version": "Version {{version}}",
+    "stats": "Statistik og bedrifter",
+    "themeEmber": "Glød",
+    "themeParty": "Fest",
+    "themeSunset": "Solnedgang",
+    "themeGolden": "Gylden",
+    "themeAurora": "Aurora",
+    "themeCustom": "Tilpasset"
+  },
+  "scoreboard": {
+    "title": "Sessionens pointtavle",
+    "roundsPlayed_one": "{{count}} runde spillet",
+    "roundsPlayed_other": "{{count}} runder spillet",
+    "pts": "point",
+    "delta": "+{{count}}",
+    "final": "Slutstilling"
+  },
+  "streak": {
+    "crewStreak": "🔥 Holdet har {{count}} sejre i træk!",
+    "imposterStreak": "🕵️ Bedrageren har {{count}} sejre i træk!"
+  },
+  "achievements": {
+    "unlockedTitle": "Bedrift låst op!",
+    "first_blood": {
+      "title": "Første blod",
+      "desc": "Vind din første runde som hold"
+    },
+    "ghost": {
+      "title": "Spøgelse",
+      "desc": "Vind som bedrager 3 gange i træk"
+    },
+    "mind_reader": {
+      "title": "Tankelæser",
+      "desc": "Gæt det hemmelige ord efter at være blevet fanget"
+    },
+    "unanimous": {
+      "title": "Enstemmig",
+      "desc": "Alle på holdet stemte på dig"
+    },
+    "social_butterfly": {
+      "title": "Social sommerfugl",
+      "desc": "Spil 10 spil i alt"
+    },
+    "sharp_eye": {
+      "title": "Skarpt blik",
+      "desc": "Stem rigtigt på bedrageren 5 gange"
+    },
+    "survivor": {
+      "title": "Overlever",
+      "desc": "Vind som hold 10 gange"
+    },
+    "master_disguise": {
+      "title": "Mester i forklædning",
+      "desc": "Vind som bedrager 5 gange"
+    },
+    "locked": "Låst"
+  },
+  "stats": {
+    "title": "Statistik og bedrifter",
+    "myStats": "Min statistik",
+    "achievements": "Bedrifter",
+    "noStats": "Ingen spil spillet endnu",
+    "gamesPlayed": "Spil",
+    "wins": "Sejre",
+    "timesImposter": "Som bedrager",
+    "timesCaught": "Fanget"
+  },
+  "categories": {
+    "food": "Mad og drikke",
+    "animals": "Dyr",
+    "sports": "Sport",
+    "jobs": "Job",
+    "countries": "Lande",
+    "movies": "Film og tv",
+    "music": "Musik",
+    "objects": "Genstande",
+    "nature": "Natur",
+    "hobbies": "Hobbyer",
+    "famous": "Berømte personer",
+    "brands": "Mærker",
+    "education": "Uddannelse",
+    "technology": "Teknologi",
+    "mythology": "Mytologi",
+    "spicy": "Krydret 🌶️",
+    "tv_series": "Tv-serier",
+    "social": "Sociale medier",
+    "custom": "Min egen liste",
+    "places": "Steder og vartegn",
+    "vehicles": "Køretøjer og transport",
+    "science": "Videnskab og opfindelser",
+    "superheroes": "Superhelte og tegneserier",
+    "video_games": "Videospil",
+    "drinks": "Drinks og cocktails",
+    "disney": "Disney og eventyr",
+    "fashion": "Mode og luksus",
+    "olympics": "OL og ekstremsport",
+    "scientists": "Berømte videnskabsfolk",
+    "ancient": "Oldtidens civilisationer",
+    "flowers": "Blomster og planter",
+    "internet_culture": "Internetkultur",
+    "party_life": "Festliv"
+  },
+  "howToPlay": {
+    "title": "Sådan spiller du",
+    "close": "Forstået!"
+  },
+  "games": {
+    "imposter": {
+      "name": "Who's the Imposter?",
+      "description": "Ét hemmeligt ord. Én løgner. Find ham.",
+      "howToPlay": {
+        "intro": "Én spiller er i hemmelighed bedrageren — han kender ikke det hemmelige ord. Kan holdet opsnuse ham?",
+        "step1_title": "Alle ser ordet",
+        "step1_desc": "Send telefonen rundt. Hver spiller trykker på sit navn for i hemmelighed at se ordet — eller opdage, at han er bedrageren.",
+        "step2_title": "Giv ledetråde, og find løgneren",
+        "step2_desc": "På skift giver I ét spor om det hemmelige ord. Bedrageren må bluffe. Lyt godt efter vage eller forkerte spor!",
+        "step3_title": "Stem og afslør",
+        "step3_desc": "Når alle spor er givet, stemmer I om, hvem I tror er bedrageren. Fang ham for at vinde — men pas på, han kan stadig undslippe ved at gætte ordet!"
+      }
+    },
+    "truth_dare": {
+      "name": "Sandhed eller konsekvens",
+      "description": "Svar ærligt, eller tag konsekvensen.",
+      "howToPlay": {
+        "intro": "Besvar et ærligt spørgsmål, eller gennemfør en modig udfordring. Vil du vælge sandheden — eller tage konsekvensen?",
+        "step1_title": "Vælg din skæbne",
+        "step1_desc": "Når det er din tur, vælger du Sandhed (svar ærligt på et spørgsmål) eller Konsekvens (gennemfør en fysisk eller social udfordring).",
+        "step2_title": "Gennemfør opgaven",
+        "step2_desc": "Appen viser et tilfældigt sandhedsspørgsmål eller en konsekvens. Ingen smutveje — du skal gennemføre!",
+        "step3_title": "Giv den videre",
+        "step3_desc": "Giv telefonen videre til næste spiller, når du er færdig. Bliv ved, så længe I vil!"
+      }
+    },
+    "nhie": {
+      "name": "Jeg har aldrig",
+      "description": "Find ud af, hvad dine venner har gjort.",
+      "howToPlay": {
+        "intro": "Find ud af, hvad dine venner virkelig har lavet. Jo mere pinlige tilståelser, jo bedre!",
+        "step1_title": "Start med 5 fingre",
+        "step1_desc": "Alle rækker 5 fingre i vejret. Dem lægger I ned én efter én.",
+        "step2_title": "Læs udsagnet",
+        "step2_desc": "Appen viser et \"Jeg har aldrig ...\"-udsagn. Hvis du HAR gjort det, lægger du en finger ned og tilstår!",
+        "step3_title": "Den sidste tilbage vinder",
+        "step3_desc": "Den spiller, der først mister alle fingre, taber runden — og skal fortælle sin vildeste historie!"
+      }
+    },
+    "mlt": {
+      "name": "Mest tilbøjelig til",
+      "description": "Hvem i gruppen er mest tilbøjelig til at ...?",
+      "howToPlay": {
+        "intro": "Find ud af, hvad dine venner virkelig synes om dig. Gør dig klar!",
+        "step1_title": "Læs spørgsmålet",
+        "step1_desc": "Appen viser et \"Mest tilbøjelig til ...\"-spørgsmål, f.eks. \"Mest tilbøjelig til at blive berømt.\"",
+        "step2_title": "Peg samtidig",
+        "step2_desc": "På tre peger alle på den person, de synes passer bedst. Ingen tøven!",
+        "step3_title": "Tæl op, og gå videre",
+        "step3_desc": "Den person, flest peger på, vinder (eller taber?) runden. Han kan forsvare sig, inden næste spørgsmål!"
+      }
+    },
+    "hot_takes": {
+      "name": "Skarpe meninger",
+      "description": "Enig eller uenig — tag debatten.",
+      "howToPlay": {
+        "intro": "Del dine modigste meninger, og start en debat. Ingen kan forholde sig neutral!",
+        "step1_title": "Læs den skarpe mening",
+        "step1_desc": "Appen afslører en kontroversiel påstand eller mening, som gruppen skal reagere på.",
+        "step2_title": "Vælg en side",
+        "step2_desc": "Hver spiller erklærer sig helt enig eller uenig — og skal forsvare sin holdning!",
+        "step3_title": "Debattér og stem",
+        "step3_desc": "Efter debatten stemmer I om det bedste argument. Den mest overbevisende spiller vinder runden!"
+      }
+    },
+    "wyr": {
+      "name": "Vil du hellere",
+      "description": "To umulige valg. Hvad ville du vælge?",
+      "howToPlay": {
+        "intro": "To lige forfærdelige (eller fantastiske) valg. Der er intet rigtigt svar — kun dit.",
+        "step1_title": "Dilemmaet dukker op",
+        "step1_desc": "Appen viser et \"Vil du hellere ...\"-spørgsmål med to muligheder. Tænk dig godt om!",
+        "step2_title": "Stem i hemmelighed",
+        "step2_desc": "Hver spiller vælger sin mulighed uden at afsløre den. Hold dit valg for dig selv!",
+        "step3_title": "Afslør og debattér",
+        "step3_desc": "Alle afslører på én gang. Diskutér jeres valg og forsvar jeres standpunkt — flertallet får retten til at prale!"
+      }
+    },
+    "two_truths": {
+      "name": "To sandheder, én løgn",
+      "description": "Gæt, hvilket udsagn der er løgnen.",
+      "howToPlay": {
+        "intro": "Del to sande ting og én overbevisende løgn om dig selv. Kan dine venner se forskel?",
+        "step1_title": "Skriv dine udsagn",
+        "step1_desc": "Skriv to ting, der er sande om dig selv, og én troværdig løgn i appen.",
+        "step2_title": "Læs dem højt",
+        "step2_desc": "Læs alle tre udsagn op for gruppen i vilkårlig rækkefølge. Hold masken!",
+        "step3_title": "Alle gætter",
+        "step3_desc": "Spillerne stemmer om, hvilket udsagn der er løgnen. Få et point for hver, du narrer!"
+      }
+    },
+    "heads_up": {
+      "name": "Heads Up!",
+      "description": "Hold telefonen mod panden. Få spor!",
+      "howToPlay": {
+        "intro": "Hold telefonen mod panden, og gæt ordet på skærmen — kun dine venner kan se det!",
+        "step1_title": "Hold den op",
+        "step1_desc": "Den aktive spiller holder telefonen mod panden med skærmen udad uden at kigge.",
+        "step2_title": "Giv spor",
+        "step2_desc": "Alle andre råber spor for at hjælpe med at gætte ordet. Ingen må stave det eller sige selve ordet!",
+        "step3_title": "Vip for at score",
+        "step3_desc": "Vip telefonen ned for at springe et ord over, og op for at bekræfte et rigtigt gæt. Score så mange du kan, før tiden løber ud!"
+      }
+    },
+    "word_chain": {
+      "name": "Ordkæde",
+      "description": "Sidste bogstav starter det næste ord. Bryd ikke kæden!",
+      "howToPlay": {
+        "intro": "Hvert ord skal starte med det sidste bogstav i det forrige. Tøv, og du er ude!",
+        "step1_title": "Start kæden",
+        "step1_desc": "Den første spiller siger et hvilket som helst ord. Den næste skal sige et ord, der begynder med dets sidste bogstav.",
+        "step2_title": "Hold tempoet",
+        "step2_desc": "Du har en tidsfrist til at svare. Ord, der allerede er brugt i runden, må ikke gentages.",
+        "step3_title": "Den sidste tilbage vinder",
+        "step3_desc": "Tøv for længe, sig et ugyldigt ord, eller gentag et ord — så er du ude! Den sidste spiller tilbage vinder."
+      }
+    },
+    "trivia": {
+      "name": "Trivia-væddemål",
+      "description": "Væd om dit svar. Mere selvtillid = flere point.",
+      "howToPlay": {
+        "intro": "Svar på quizspørgsmål, og væd dine point alt efter, hvor sikker du er. Høj risiko, høj belønning!",
+        "step1_title": "Læs spørgsmålet",
+        "step1_desc": "Appen viser et quizspørgsmål til den aktuelle spiller. Tænk dig om, før du svarer!",
+        "step2_title": "Placer dit væddemål",
+        "step2_desc": "Inden du svarer, vædder du dine point. Lav indsats = sikkert spil. Høj indsats = stor risiko, stor belønning!",
+        "step3_title": "Afslør svaret",
+        "step3_desc": "Rigtigt svar giver dit væddemål gevinst. Forkert svar koster. Spilleren med flest point til sidst vinder!"
+      }
+    },
+    "charades": {
+      "name": "Charader",
+      "description": "Vis det med fagter — ingen ord!",
+      "howToPlay": {
+        "intro": "Vis det hemmelige ord udelukkende med fagter og mimik. Ingen tale, ingen lyde — ren pantomime!",
+        "step1_title": "Se dit ord",
+        "step1_desc": "Spilleren, der skal mime, ser i hemmelighed ordet på telefonen. Vis det ikke til nogen — hold pokerfjæs!",
+        "step2_title": "Vis det med fagter",
+        "step2_desc": "Brug kun fagter, mimik og kropssprog. Ingen ord, ingen mundbevægelser, ingen lyde!",
+        "step3_title": "Råb det højt",
+        "step3_desc": "De andre spillere gætter højt. Få et point, når de rammer rigtigt, og så er det næste spillers tur!"
+      }
+    },
+    "paranoia": {
+      "name": "Paranoia",
+      "description": "Hviskede spørgsmål. Mystiske svar.",
+      "howToPlay": {
+        "intro": "Nogen hvisker et spørgsmål. Nogen peger i hemmelighed. Bliver svaret nogensinde afsløret?",
+        "step1_title": "Hvisk et spørgsmål",
+        "step1_desc": "En spiller hvisker et \"Hvem i gruppen ...\"-spørgsmål til spilleren til højre.",
+        "step2_title": "Peg i hemmelighed",
+        "step2_desc": "Den spiller peger lydløst på den, han synes passer på svaret — uden at forklare!",
+        "step3_title": "Vend mønten, og afslør",
+        "step3_desc": "Slå plat eller krone — krone afslører spørgsmålet for alle, plat holder det hemmeligt for altid. Paranoiaen vokser!"
+      }
+    }
+  },
+  "promptGame": {
+    "playerTurn": "{{name}}s tur",
+    "chooseTruthOrDare": "Vælg din skæbne",
+    "truth": "Sandhed",
+    "dare": "Konsekvens",
+    "mild": "Mild",
+    "medium": "Medium",
+    "spicy": "Krydret 🌶️",
+    "nextPrompt": "Næste →",
+    "endGame": "Afslut spil",
+    "skip": "Spring over"
+  },
+  "headsUp": {
+    "title": "Heads Up!",
+    "holdPhone": "Hold telefonen mod panden",
+    "yourTurn": "{{name}}s tur",
+    "correct": "✓ Rigtigt!",
+    "pass": "↩ Spring over",
+    "score": "Point: {{count}}",
+    "timeUp": "Tiden er udе!",
+    "nextPlayer": "Næste spiller →",
+    "nextRound": "Næste runde →",
+    "roundOf": "Runde {{current}} / {{total}}",
+    "endGame": "Afslut spil",
+    "readyTitle": "Klar?",
+    "readySubtitle": "Send telefonen videre, og hold den mod panden",
+    "startTimer": "Start!",
+    "emptyTitle": "Ikke flere ord",
+    "emptySubtitle": "Prøv andre kategorier for at spille videre."
+  },
+  "wordChain": {
+    "title": "Ordkæde",
+    "startWith": "Sig et hvilket som helst ord",
+    "continueWith": "Ord, der begynder med «{{letter}}»",
+    "placeholder": "Skriv et ord ...",
+    "submit": "Send",
+    "wrongLetter": "Skal begynde med «{{letter}}»",
+    "alreadyUsed": "Allerede brugt!",
+    "tooShort": "For kort",
+    "invalidChars": "Kun bogstaver",
+    "eliminated": "{{name}} er ude!",
+    "timerOut": "Tiden er gået! {{name}} er ude.",
+    "winner": "🏆 {{name}} vinder!",
+    "endGame": "Afslut spil",
+    "playersLeft": "{{count}} tilbage"
+  },
+  "triviaBet": {
+    "title": "Trivia-væddemål",
+    "tokens": "{{count}} poletter",
+    "yourBet": "Dit væddemål",
+    "placeBet": "Placer indsats",
+    "question": "Spørgsmål {{number}}",
+    "reveal": "Afslør svar",
+    "correct": "Rigtigt! +{{count}} poletter",
+    "wrong": "Forkert! -{{count}} poletter",
+    "nextQuestion": "Næste spørgsmål →",
+    "endGame": "Afslut spil",
+    "leaderboard": "Stilling",
+    "winner": "{{name}} vinder med {{count}} poletter!"
+  },
+  "twoTruths": {
+    "title": "To sandheder, én løgn",
+    "tellerInstruction": "Skriv 2 sandheder og 1 løgn om dig selv",
+    "statement1": "Udsagn 1",
+    "statement2": "Udsagn 2",
+    "statement3": "Udsagn 3",
+    "markedLie": "LØGN",
+    "markLie": "Hvilket er LØGNEN?",
+    "submitStatements": "Færdig — send telefonen videre",
+    "voting": "Hvilket udsagn er løgnen?",
+    "revealLie": "Afslør løgnen",
+    "lieWas": "Løgnen var nr. {{number}}",
+    "fooled": "{{name}} narrede {{count}}! +{{count}} point",
+    "nextPlayer": "Næste spiller →",
+    "endGame": "Afslut spil"
+  },
+  "common": {
+    "pro": "PRO",
+    "locked": "Låst",
+    "free": "Gratis",
+    "back": "Tilbage",
+    "close": "Luk",
+    "cancel": "Annuller",
+    "confirm": "Bekræft",
+    "loading": "Indlæser ...",
+    "players_count": "{{min}}-{{max}} spillere",
+    "minutes": "{{range}} min.",
+    "home": "Hjem",
+    "settings": "Indstillinger",
+    "save": "Gem"
+  },
+  "discountPaywall": {
+    "tag": "Særligt tilbud",
+    "title": "Lås op for PRO med rabat.",
+    "subtitle": "Få fuld PRO-adgang til nedsat pris.",
+    "originalPriceLabel": "Normalpris",
+    "originalPrice": "4,99 $/md.",
+    "discountPriceLabel": "Årlig plan",
+    "discountPrice": "1,67 $/md.",
+    "billedAnnually": "Faktureres én gang om året med {{total}}",
+    "saving": "Du sparer {{percent}}%",
+    "cta": "Indløs dette tilbud →",
+    "decline": "Nej tak",
+    "restore": "Gendan køb",
+    "close": "Luk"
+  },
+  "customWords": {
+    "title": "Min egen liste",
+    "placeholder": "Tilføj et ord ...",
+    "wordCount": "{{count}} ord",
+    "emptyHint": "Tilføj mindst {{min}} ord for at bruge denne kategori",
+    "needMore": "{{count}} mere mangler",
+    "empty": "Ingen ord endnu. Gå i gang!"
+  }
+}
