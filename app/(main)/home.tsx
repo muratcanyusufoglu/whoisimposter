@@ -129,11 +129,9 @@ export default function HomeScreen() {
   }))
 
   // ── Handlers ──────────────────────────────────────────────────────────────
-  const handleModePress = (mode: GameModeDefinition, locked: boolean) => {
-    if (locked) {
-      setPaywallVisible(true)
-      return
-    }
+  const handleModePress = (mode: GameModeDefinition) => {
+    // Free users can open any game's setup. For premium games the paywall is
+    // shown when they press Start inside the setup screen (handleStartGame).
     router.push({ pathname: '/(game)/setup', params: { modeId: mode.id } } as never)
   }
 
@@ -199,13 +197,12 @@ export default function HomeScreen() {
 
   // ── Render item ────────────────────────────────────────────────────────────
   const renderItem = ({ item }: ListRenderItemInfo<GameModeDefinition>) => {
-    const locked = item.isPremium && !isPro
     const isFavorite = favoriteModeIds.includes(item.id)
     return (
       <GameModeCard
         mode={item}
-        locked={locked}
-        onPress={() => handleModePress(item, locked)}
+        locked={false}
+        onPress={() => handleModePress(item)}
         isFavorite={isFavorite}
         onToggleFavorite={() => toggleFavoriteMode(item.id)}
         favoriteAtMax={atFavoriteMax}
