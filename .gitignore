@@ -32,6 +32,9 @@ yarn-error.*
 
 # local env files
 .env*.local
+.env
+.env.*
+!.env.example
 
 # typescript
 *.tsbuildinfo
@@ -39,6 +42,15 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# build artifacts
+build/
+.eas/
+*.ipa
+*.apk
+*.aab
+*.xcarchive
+DerivedData/
 
 # Claude Code worktrees
 .claude/
@@ -49,11 +61,6 @@ yarn-error.*
 AGENTS.md
 .mcp.json
 
-# Fastlane generated files
-fastlane/report.xml
-fastlane/screenshots/
-fastlane/screenshots_missing/
-fastlane/screenshots_last/
-fastlane/.env
-fastlane/.env.*
-
+# Fastlane / store ops & ASO assets — not part of the app, contain store IDs
+/fastlane/
+/store-metadata/
