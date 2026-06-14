@@ -225,7 +225,12 @@ export default function TriviaBetScreen() {
 
       {/* — Betting phase — */}
       {currentQuestion !== null && phase === 'betting' && (
-        <Animated.View entering={FadeIn.duration(200)} style={styles.scrollContent}>
+        <Animated.ScrollView
+          entering={FadeIn.duration(200)}
+          style={styles.scrollArea}
+          contentContainerStyle={styles.scrollContent}
+          showsVerticalScrollIndicator={false}
+        >
           <Text style={[styles.sectionLabel, { color: theme.text.muted, fontFamily: fontFamily.bodyMedium }]}>
             {t('triviaBet.yourBet')}
           </Text>
@@ -264,12 +269,17 @@ export default function TriviaBetScreen() {
               {t('triviaBet.placeBet')}
             </Button>
           </View>
-        </Animated.View>
+        </Animated.ScrollView>
       )}
 
       {/* — Answering phase — */}
       {currentQuestion !== null && phase === 'answering' && (
-        <Animated.View entering={FadeIn.duration(200)} style={styles.scrollContent}>
+        <Animated.ScrollView
+          entering={FadeIn.duration(200)}
+          style={styles.scrollArea}
+          contentContainerStyle={styles.scrollContent}
+          showsVerticalScrollIndicator={false}
+        >
           <View style={[styles.questionCard, { backgroundColor: theme.bg.surface, borderColor: theme.border.subtle }]}>
             <Text style={[styles.questionText, { color: theme.text.primary, fontFamily: fontFamily.displayBold }]}>
               {currentQuestion.question}
@@ -326,12 +336,17 @@ export default function TriviaBetScreen() {
               {t('triviaBet.reveal')}
             </Button>
           </View>
-        </Animated.View>
+        </Animated.ScrollView>
       )}
 
       {/* — Reveal phase — */}
       {currentQuestion !== null && phase === 'reveal' && (
-        <Animated.View entering={FadeIn.duration(200)} style={styles.scrollContent}>
+        <Animated.ScrollView
+          entering={FadeIn.duration(200)}
+          style={styles.scrollArea}
+          contentContainerStyle={styles.scrollContent}
+          showsVerticalScrollIndicator={false}
+        >
           <View style={[styles.questionCard, { backgroundColor: theme.bg.surface, borderColor: theme.border.subtle }]}>
             <Text style={[styles.questionText, { color: theme.text.primary, fontFamily: fontFamily.displayBold }]}>
               {currentQuestion.question}
@@ -393,12 +408,17 @@ export default function TriviaBetScreen() {
               {questionNumber < 10 ? t('triviaBet.nextQuestion') : t('triviaBet.endGame')}
             </Button>
           </Animated.View>
-        </Animated.View>
+        </Animated.ScrollView>
       )}
 
       {/* — Done — */}
       {phase === 'done' && (
-        <Animated.View entering={FadeIn.duration(300)} style={styles.centeredContent}>
+        <Animated.ScrollView
+          entering={FadeIn.duration(300)}
+          style={styles.scrollArea}
+          contentContainerStyle={styles.centeredScroll}
+          showsVerticalScrollIndicator={false}
+        >
           <Text style={styles.gameEmoji}>🏆</Text>
           <Text style={[styles.bigText, { color: theme.text.primary, fontFamily: fontFamily.displayBold }]}>
             {t('triviaBet.leaderboard')}
@@ -419,7 +439,7 @@ export default function TriviaBetScreen() {
           <Button variant="primary" size="lg" onPress={handleEndGame}>
             {t('triviaBet.endGame')}
           </Button>
-        </Animated.View>
+        </Animated.ScrollView>
       )}
       </TabletFrame>
     </SafeAreaView>
@@ -493,10 +513,22 @@ const styles = StyleSheet.create({
     paddingHorizontal: spacing.lg,
     gap: spacing.lg,
   },
-  scrollContent: {
+  scrollArea: {
     flex: 1,
+  },
+  scrollContent: {
+    flexGrow: 1,
     paddingHorizontal: spacing.lg,
     gap: spacing.md,
+    paddingBottom: spacing.xl,
+  },
+  centeredScroll: {
+    flexGrow: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: spacing.lg,
+    gap: spacing.lg,
+    paddingBottom: spacing.xl,
   },
   gameEmoji: {
     fontSize: 56,

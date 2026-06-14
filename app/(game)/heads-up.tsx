@@ -1,5 +1,5 @@
 import { useState, useCallback, useEffect, useRef } from 'react'
-import { View, Text, TouchableOpacity, StyleSheet, Platform } from 'react-native'
+import { View, Text, TouchableOpacity, StyleSheet, Platform, ScrollView } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { TabletFrame } from '@/components/layout/TabletFrame'
 import { router } from 'expo-router'
@@ -327,7 +327,7 @@ export default function HeadsUpScreen() {
           </Text>
 
           {/* Word list */}
-          <View style={[styles.wordList, { backgroundColor: theme.bg.surface, borderColor: theme.border.subtle }]}>
+          <ScrollView style={[styles.wordList, { backgroundColor: theme.bg.surface, borderColor: theme.border.subtle }]} showsVerticalScrollIndicator={false}>
             {roundResult.words.map((w, i) => (
               <View key={i} style={styles.wordRow}>
                 <Text style={{ fontSize: 16 }}>{w.result === 'correct' ? '✅' : '⏩'}</Text>
@@ -336,7 +336,7 @@ export default function HeadsUpScreen() {
                 </Text>
               </View>
             ))}
-          </View>
+          </ScrollView>
 
           <Button
             variant="primary"
@@ -358,7 +358,7 @@ export default function HeadsUpScreen() {
           <Text style={[styles.bigText, { color: theme.text.primary, fontFamily: fontFamily.displayBold }]}>
             {t('scoreboard.final')}
           </Text>
-          <View style={[styles.wordList, { backgroundColor: theme.bg.surface, borderColor: theme.border.subtle }]}>
+          <ScrollView style={[styles.wordList, { backgroundColor: theme.bg.surface, borderColor: theme.border.subtle }]} showsVerticalScrollIndicator={false}>
             {[...players]
               .sort((a, b) => (scores[b.id] ?? 0) - (scores[a.id] ?? 0))
               .map((p, i) => (
@@ -372,7 +372,7 @@ export default function HeadsUpScreen() {
                   </Text>
                 </View>
               ))}
-          </View>
+          </ScrollView>
           <Button variant="primary" size="lg" onPress={handleEndGame}>
             {t('headsUp.endGame')}
           </Button>

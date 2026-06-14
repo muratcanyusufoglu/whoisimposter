@@ -272,7 +272,12 @@ export default function TwoTruthsScreen() {
 
       {/* — Voting phase — */}
       {phase === 'voting' && (
-        <Animated.View entering={FadeIn.duration(200)} style={styles.centeredContent}>
+        <Animated.ScrollView
+          entering={FadeIn.duration(200)}
+          style={styles.flex}
+          contentContainerStyle={styles.centeredScroll}
+          showsVerticalScrollIndicator={false}
+        >
           {currentVoter && (
             <>
               <View style={[styles.tellerBadge, { backgroundColor: currentVoter.color + '33', borderColor: currentVoter.color }]}>
@@ -305,12 +310,17 @@ export default function TwoTruthsScreen() {
               </Text>
             </TouchableOpacity>
           ))}
-        </Animated.View>
+        </Animated.ScrollView>
       )}
 
       {/* — Reveal phase — */}
       {phase === 'reveal' && (
-        <Animated.View entering={FadeIn.duration(200)} style={styles.centeredContent}>
+        <Animated.ScrollView
+          entering={FadeIn.duration(200)}
+          style={styles.flex}
+          contentContainerStyle={styles.centeredScroll}
+          showsVerticalScrollIndicator={false}
+        >
           <Text style={[styles.revealTitle, { color: theme.text.primary, fontFamily: fontFamily.displayBold }]}>
             {t('twoTruths.lieWas', { number: displayedLieIndex + 1 })}
           </Text>
@@ -340,12 +350,17 @@ export default function TwoTruthsScreen() {
           <Button variant="primary" size="lg" onPress={handleNextTeller}>
             {tellerIndex + 1 < players.length ? t('twoTruths.nextPlayer') : t('twoTruths.endGame')}
           </Button>
-        </Animated.View>
+        </Animated.ScrollView>
       )}
 
       {/* — Done — */}
       {phase === 'done' && (
-        <Animated.View entering={FadeIn.duration(300)} style={styles.centeredContent}>
+        <Animated.ScrollView
+          entering={FadeIn.duration(300)}
+          style={styles.flex}
+          contentContainerStyle={styles.centeredScroll}
+          showsVerticalScrollIndicator={false}
+        >
           <Text style={{ fontSize: 56 }}>🏆</Text>
           <Text style={[styles.revealTitle, { color: theme.text.primary, fontFamily: fontFamily.displayBold }]}>
             {t('scoreboard.final')}
@@ -366,7 +381,7 @@ export default function TwoTruthsScreen() {
           <Button variant="primary" size="lg" onPress={handleEndGame}>
             {t('twoTruths.endGame')}
           </Button>
-        </Animated.View>
+        </Animated.ScrollView>
       )}
       </TabletFrame>
     </SafeAreaView>
@@ -460,6 +475,14 @@ const styles = StyleSheet.create({
   centeredContent: {
     flex: 1,
     paddingHorizontal: spacing.lg,
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: spacing.md,
+  },
+  centeredScroll: {
+    flexGrow: 1,
+    paddingHorizontal: spacing.lg,
+    paddingVertical: spacing.lg,
     alignItems: 'center',
     justifyContent: 'center',
     gap: spacing.md,
