@@ -1,5 +1,5 @@
 import { useState, useCallback, useMemo } from 'react'
-import { View, Text, TouchableOpacity, StyleSheet, Platform } from 'react-native'
+import { View, Text, TouchableOpacity, StyleSheet, Platform, ScrollView } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { TabletFrame } from '@/components/layout/TabletFrame'
 import { router } from 'expo-router'
@@ -26,6 +26,7 @@ import {
   MIN_BET,
 } from '@/logic/games/triviaBet'
 import { Button } from '@/components/ui/Button'
+import { Slider } from '@/components/ui/Slider'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // TRIVIA BET SCREEN — F16.5
@@ -56,6 +57,10 @@ export default function TriviaBetScreen() {
   const [answers, setAnswers] = useState<Record<string, number>>({})
   const [revealDeltas, setRevealDeltas] = useState<Record<string, number>>({})
   const [questionNumber, setQuestionNumber] = useState(1)
+  // Sequential answering: only the current player sees the options (pass-the-phone)
+  // so nobody can copy another player's answer.
+  const [answererIndex, setAnswererIndex] = useState(0)
+  const [showHandoff, setShowHandoff] = useState(true)
 
   // ── Animations ────────────────────────────────────────────────────────
   const btnScale = useSharedValue(1)
@@ -98,20 +103,10 @@ export default function TriviaBetScreen() {
     setPhase('betting')
   }, [haptics, locale, triviaState.usedQuestionIds, activePlayers])
 
-  const handleBetChange = useCallback(
-    (playerId: string, delta: number) => {
-      setBets((prev) => {
-        const current = prev[playerId] ?? MIN_BET
-        const maxBet = triviaState.tokens[playerId] ?? 0
-        const newBet = Math.min(maxBet, Math.max(MIN_BET, current + delta))
-        return { ...prev, [playerId]: newBet }
-      })
-    },
-    [triviaState.tokens],
-  )
-
   const handleStartAnswering = useCallback(() => {
     haptics.medium()
+    setAnswererIndex(0)
+    setShowHandoff(true)
     setPhase('answering')
   }, [haptics])
 
@@ -122,10 +117,6 @@ export default function TriviaBetScreen() {
     },
     [haptics],
   )
-
-  const allAnswered =
-    currentQuestion !== null &&
-    activePlayers.every((id) => answers[id] !== undefined)
 
   const handleReveal = useCallback(() => {
     if (!currentQuestion) return
@@ -143,6 +134,17 @@ export default function TriviaBetScreen() {
     setTriviaState((prev) => ({ ...prev, tokens: newTokens }))
     setPhase('reveal')
   }, [currentQuestion, haptics, bets, answers, triviaState.tokens])
+
+  // Lock in the current player's answer and pass to the next, or reveal if last.
+  const handleLockAnswer = useCallback(() => {
+    haptics.selection()
+    if (answererIndex + 1 < activePlayers.length) {
+      setAnswererIndex((i) => i + 1)
+      setShowHandoff(true)
+    } else {
+      handleReveal()
+    }
+  }, [haptics, answererIndex, activePlayers.length, handleReveal])
 
   const handleNextOrDone = useCallback(() => {
     haptics.selection()
@@ -225,8 +227,7 @@ export default function TriviaBetScreen() {
 
       {/* — Betting phase — */}
       {currentQuestion !== null && phase === 'betting' && (
-        <Animated.ScrollView
-          entering={FadeIn.duration(200)}
+        <ScrollView
           style={styles.scrollArea}
           contentContainerStyle={styles.scrollContent}
           showsVerticalScrollIndicator={false}
@@ -239,28 +240,26 @@ export default function TriviaBetScreen() {
             if (!p) return null
             return (
               <View key={id} style={[styles.betRow, { backgroundColor: theme.bg.surface, borderColor: theme.border.subtle }]}>
-                <View style={[styles.betDot, { backgroundColor: p.color }]} />
-                <Text style={[styles.betName, { color: theme.text.primary, fontFamily: fontFamily.bodyMedium }]}>
-                  {p.name}
-                </Text>
-                <TouchableOpacity
-                  onPress={() => handleBetChange(id, -1)}
-                  style={[styles.betBtn, { backgroundColor: theme.bg.elevated }]}
-                >
-                  <Text style={[styles.betBtnText, { color: theme.text.primary, fontFamily: fontFamily.displayBold }]}>−</Text>
-                </TouchableOpacity>
-                <Text style={[styles.betValue, { color: theme.accent.primary, fontFamily: fontFamily.displayBold }]}>
-                  {bets[id] ?? MIN_BET}
-                </Text>
-                <TouchableOpacity
-                  onPress={() => handleBetChange(id, 1)}
-                  style={[styles.betBtn, { backgroundColor: theme.bg.elevated }]}
-                >
-                  <Text style={[styles.betBtnText, { color: theme.text.primary, fontFamily: fontFamily.displayBold }]}>+</Text>
-                </TouchableOpacity>
-                <Text style={[styles.maxLabel, { color: theme.text.muted, fontFamily: fontFamily.body }]}>
-                  /{triviaState.tokens[id] ?? 0}
-                </Text>
+                <View style={styles.betRowTop}>
+                  <View style={[styles.betDot, { backgroundColor: p.color }]} />
+                  <Text style={[styles.betName, { color: theme.text.primary, fontFamily: fontFamily.bodyMedium }]}>
+                    {p.name}
+                  </Text>
+                  <Text style={[styles.betValue, { color: theme.accent.primary, fontFamily: fontFamily.displayBold }]}>
+                    {bets[id] ?? MIN_BET}
+                  </Text>
+                  <Text style={[styles.maxLabel, { color: theme.text.muted, fontFamily: fontFamily.body }]}>
+                    /{triviaState.tokens[id] ?? 0}
+                  </Text>
+                </View>
+                <Slider
+                  value={bets[id] ?? MIN_BET}
+                  min={MIN_BET}
+                  max={Math.max(MIN_BET, triviaState.tokens[id] ?? MIN_BET)}
+                  onChange={(v) => setBets((prev) => ({ ...prev, [id]: v }))}
+                  color={p.color}
+                  trackColor={theme.bg.elevated}
+                />
               </View>
             )
           })}
@@ -269,80 +268,89 @@ export default function TriviaBetScreen() {
               {t('triviaBet.placeBet')}
             </Button>
           </View>
-        </Animated.ScrollView>
+        </ScrollView>
       )}
 
-      {/* — Answering phase — */}
-      {currentQuestion !== null && phase === 'answering' && (
-        <Animated.ScrollView
-          entering={FadeIn.duration(200)}
-          style={styles.scrollArea}
-          contentContainerStyle={styles.scrollContent}
-          showsVerticalScrollIndicator={false}
-        >
-          <View style={[styles.questionCard, { backgroundColor: theme.bg.surface, borderColor: theme.border.subtle }]}>
-            <Text style={[styles.questionText, { color: theme.text.primary, fontFamily: fontFamily.displayBold }]}>
-              {currentQuestion.question}
-            </Text>
-          </View>
+      {/* — Answering phase (sequential & private: pass the phone) — */}
+      {currentQuestion !== null && phase === 'answering' && (() => {
+        const currentId = activePlayers[answererIndex]
+        const cp = currentId ? playerById(currentId) : null
+        if (!cp) return null
+        const isLast = answererIndex >= activePlayers.length - 1
 
-          {/* Each player picks an answer */}
-          {activePlayers.map((id) => {
-            const p = playerById(id)
-            if (!p) return null
-            const chosen = answers[id]
-            return (
-              <View key={id} style={styles.answerSection}>
-                <View style={styles.answerPlayer}>
-                  <View style={[styles.betDot, { backgroundColor: p.color }]} />
-                  <Text style={[styles.betName, { color: theme.text.secondary, fontFamily: fontFamily.body }]}>{p.name}</Text>
-                  {chosen !== undefined && (
-                    <Text style={[styles.chosenBadge, { color: theme.accent.primary, fontFamily: fontFamily.bodyBold }]}>
-                      {OPTION_LABELS[chosen]}
-                    </Text>
-                  )}
-                </View>
-                <View style={styles.optionsGrid}>
-                  {currentQuestion.options.map((opt, idx) => {
-                    const selected = chosen === idx
-                    return (
-                      <TouchableOpacity
-                        key={idx}
-                        onPress={() => handleAnswer(id, idx)}
-                        style={[
-                          styles.optionBtn,
-                          {
-                            backgroundColor: selected ? theme.accent.primary : theme.bg.elevated,
-                            borderColor: selected ? theme.accent.primary : theme.border.default,
-                          },
-                        ]}
-                      >
-                        <Text style={[styles.optionLabel, { color: selected ? theme.text.onPrimary : theme.text.muted, fontFamily: fontFamily.bodyBold }]}>
-                          {OPTION_LABELS[idx]}
-                        </Text>
-                        <Text style={[styles.optionText, { color: selected ? theme.text.onPrimary : theme.text.secondary, fontFamily: fontFamily.body }]} numberOfLines={2}>
-                          {opt}
-                        </Text>
-                      </TouchableOpacity>
-                    )
-                  })}
-                </View>
+        // Handoff cover — hides the previous player's pick before the next plays.
+        if (showHandoff) {
+          return (
+            <Animated.View entering={FadeIn.duration(200)} style={styles.centeredContent}>
+              <View style={[styles.handoffDot, { backgroundColor: cp.color }]} />
+              <Text style={[styles.bigText, { color: theme.text.primary, fontFamily: fontFamily.displayBold }]}>
+                {t('promptGame.playerTurn', { name: cp.name })}
+              </Text>
+              <Text style={[styles.handoffHint, { color: theme.text.muted, fontFamily: fontFamily.body }]}>
+                {t('reveal.instruction')}
+              </Text>
+              <View style={styles.fullWidth}>
+                <Button variant="primary" size="lg" onPress={() => { haptics.medium(); setShowHandoff(false) }}>
+                  {t('headsUp.startTimer')}
+                </Button>
               </View>
-            )
-          })}
+            </Animated.View>
+          )
+        }
 
-          <View style={styles.ctaArea}>
-            <Button variant="primary" size="lg" disabled={!allAnswered} onPress={handleReveal}>
-              {t('triviaBet.reveal')}
-            </Button>
-          </View>
-        </Animated.ScrollView>
-      )}
+        const chosen = answers[currentId]
+        return (
+          <ScrollView
+            style={styles.scrollArea}
+            contentContainerStyle={styles.scrollContent}
+            showsVerticalScrollIndicator={false}
+          >
+            <View style={styles.answerPlayer}>
+              <View style={[styles.betDot, { backgroundColor: cp.color }]} />
+              <Text style={[styles.betName, { color: theme.text.secondary, fontFamily: fontFamily.body }]}>{cp.name}</Text>
+            </View>
+            <View style={[styles.questionCard, { backgroundColor: theme.bg.surface, borderColor: theme.border.subtle }]}>
+              <Text style={[styles.questionText, { color: theme.text.primary, fontFamily: fontFamily.displayBold }]}>
+                {currentQuestion.question}
+              </Text>
+            </View>
+            <View style={styles.optionsGrid}>
+              {currentQuestion.options.map((opt, idx) => {
+                const selected = chosen === idx
+                return (
+                  <TouchableOpacity
+                    key={idx}
+                    onPress={() => handleAnswer(currentId, idx)}
+                    style={[
+                      styles.optionBtn,
+                      {
+                        backgroundColor: selected ? theme.accent.primary : theme.bg.elevated,
+                        borderColor: selected ? theme.accent.primary : theme.border.default,
+                      },
+                    ]}
+                  >
+                    <Text style={[styles.optionLabel, { color: selected ? theme.text.onPrimary : theme.text.muted, fontFamily: fontFamily.bodyBold }]}>
+                      {OPTION_LABELS[idx]}
+                    </Text>
+                    <Text style={[styles.optionText, { color: selected ? theme.text.onPrimary : theme.text.secondary, fontFamily: fontFamily.body }]} numberOfLines={2}>
+                      {opt}
+                    </Text>
+                  </TouchableOpacity>
+                )
+              })}
+            </View>
+            <View style={styles.ctaArea}>
+              <Button variant="primary" size="lg" disabled={chosen === undefined} onPress={handleLockAnswer}>
+                {isLast ? t('triviaBet.reveal') : t('reveal.next')}
+              </Button>
+            </View>
+          </ScrollView>
+        )
+      })()}
 
       {/* — Reveal phase — */}
       {currentQuestion !== null && phase === 'reveal' && (
-        <Animated.ScrollView
-          entering={FadeIn.duration(200)}
+        <ScrollView
           style={styles.scrollArea}
           contentContainerStyle={styles.scrollContent}
           showsVerticalScrollIndicator={false}
@@ -408,13 +416,12 @@ export default function TriviaBetScreen() {
               {questionNumber < 10 ? t('triviaBet.nextQuestion') : t('triviaBet.endGame')}
             </Button>
           </Animated.View>
-        </Animated.ScrollView>
+        </ScrollView>
       )}
 
       {/* — Done — */}
       {phase === 'done' && (
-        <Animated.ScrollView
-          entering={FadeIn.duration(300)}
+        <ScrollView
           style={styles.scrollArea}
           contentContainerStyle={styles.centeredScroll}
           showsVerticalScrollIndicator={false}
@@ -439,7 +446,7 @@ export default function TriviaBetScreen() {
           <Button variant="primary" size="lg" onPress={handleEndGame}>
             {t('triviaBet.endGame')}
           </Button>
-        </Animated.ScrollView>
+        </ScrollView>
       )}
       </TabletFrame>
     </SafeAreaView>
@@ -513,6 +520,16 @@ const styles = StyleSheet.create({
     paddingHorizontal: spacing.lg,
     gap: spacing.lg,
   },
+  handoffDot: {
+    width: 64,
+    height: 64,
+    borderRadius: 32,
+  },
+  handoffHint: {
+    fontSize: fontSize.md,
+    textAlign: 'center',
+    lineHeight: fontSize.md * 1.4,
+  },
   scrollArea: {
     flex: 1,
   },
@@ -547,13 +564,16 @@ const styles = StyleSheet.create({
     letterSpacing: 0.5,
   },
   betRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: spacing.sm,
+    gap: spacing.xs,
     borderRadius: radius.lg,
     borderWidth: 1,
     paddingHorizontal: spacing.md,
     paddingVertical: spacing.sm,
+  },
+  betRowTop: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
   },
   betDot: {
     width: 10,
