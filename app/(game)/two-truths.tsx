@@ -272,8 +272,7 @@ export default function TwoTruthsScreen() {
 
       {/* — Voting phase — */}
       {phase === 'voting' && (
-        <Animated.ScrollView
-          entering={FadeIn.duration(200)}
+        <ScrollView
           style={styles.flex}
           contentContainerStyle={styles.centeredScroll}
           showsVerticalScrollIndicator={false}
@@ -310,13 +309,12 @@ export default function TwoTruthsScreen() {
               </Text>
             </TouchableOpacity>
           ))}
-        </Animated.ScrollView>
+        </ScrollView>
       )}
 
       {/* — Reveal phase — */}
       {phase === 'reveal' && (
-        <Animated.ScrollView
-          entering={FadeIn.duration(200)}
+        <ScrollView
           style={styles.flex}
           contentContainerStyle={styles.centeredScroll}
           showsVerticalScrollIndicator={false}
@@ -350,13 +348,12 @@ export default function TwoTruthsScreen() {
           <Button variant="primary" size="lg" onPress={handleNextTeller}>
             {tellerIndex + 1 < players.length ? t('twoTruths.nextPlayer') : t('twoTruths.endGame')}
           </Button>
-        </Animated.ScrollView>
+        </ScrollView>
       )}
 
       {/* — Done — */}
       {phase === 'done' && (
-        <Animated.ScrollView
-          entering={FadeIn.duration(300)}
+        <ScrollView
           style={styles.flex}
           contentContainerStyle={styles.centeredScroll}
           showsVerticalScrollIndicator={false}
@@ -381,7 +378,7 @@ export default function TwoTruthsScreen() {
           <Button variant="primary" size="lg" onPress={handleEndGame}>
             {t('twoTruths.endGame')}
           </Button>
-        </Animated.ScrollView>
+        </ScrollView>
       )}
       </TabletFrame>
     </SafeAreaView>
