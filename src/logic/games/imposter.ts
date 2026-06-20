@@ -27,8 +27,8 @@ export const imposterLogic = {
       throw new Error('Need at least 3 players')
     }
 
-    // Fallback: 2 imposters only makes sense with ≥5 players
-    const actualCount = count === 2 && players.length < 5 ? 1 : count
+    // Fallback: 2 imposters only makes sense with ≥4 players
+    const actualCount = count === 2 && players.length < 4 ? 1 : count
 
     // Anti-repeat: drop last round's imposters from the pool when possible.
     const exclude = new Set(excludeIds)

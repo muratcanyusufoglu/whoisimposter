@@ -125,7 +125,13 @@ export default function SetupScreen() {
     return lastCategories.length > 0 ? lastCategories : ['food']
   })
 
-  const [impostersCount, setImpostersCount] = useState<1 | 2>(matchedPreset?.impostersCount ?? 1)
+  // Selectable imposter counts (multi-select). When more than one is active,
+  // the actual count is picked at random per game so players can't know it.
+  const [impostersCounts, setImpostersCounts] = useState<(1 | 2)[]>(
+    () =>
+      matchedPreset?.impostersCounts ??
+      (matchedPreset?.impostersCount ? [matchedPreset.impostersCount] : [1]),
+  )
   const [timerSeconds, setTimerSeconds] = useState<0 | 15 | 30 | 45 | 60 | 90>(matchedPreset?.timerSeconds ?? 0)
   const [roundCount, setRoundCount] = useState<1 | 2 | 3 | 5>(matchedPreset?.roundCount ?? 1)
   const [advancedOpen, setAdvancedOpen] = useState(false)
@@ -148,6 +154,26 @@ export default function SetupScreen() {
   const hasEnoughPlayers = players.length >= mode.minPlayers
   const hasCategories = !mode.hasCategories || selectedCategories.length > 0
   const canStart = hasEnoughPlayers && hasCategories
+
+  // Imposter counts valid for the current player size (2 needs ≥4 players).
+  // Kept non-empty so there is always a valid pick and a visible selection.
+  const eligibleImposterCounts = impostersCounts.filter((n) => n === 1 || players.length >= 4)
+  const activeImposterCounts: (1 | 2)[] =
+    eligibleImposterCounts.length > 0 ? eligibleImposterCounts : [1]
+
+  const toggleImposterCount = useCallback(
+    (n: 1 | 2) => {
+      haptics.selection()
+      setImpostersCounts((prev) => {
+        if (prev.includes(n)) {
+          const next = prev.filter((x) => x !== n)
+          return next.length > 0 ? next : prev // keep at least one selected
+        }
+        return [...prev, n].sort((a, b) => a - b)
+      })
+    },
+    [haptics],
+  )
 
   // ── Player handlers ────────────────────────────────────────────────────────
   const handleAddPlayer = useCallback(() => {
@@ -211,14 +237,14 @@ export default function SetupScreen() {
         modeId: mode.id as GameModeId,
         playerNames: players.map((p) => p.name),
         categories: selectedCategories,
-        impostersCount,
+        impostersCounts,
         timerSeconds,
         roundCount,
         emoji: presetEmoji,
       })
       haptics.medium()
     },
-    [savePreset, mode.id, players, selectedCategories, impostersCount, timerSeconds, haptics],
+    [savePreset, mode.id, players, selectedCategories, impostersCounts, timerSeconds, haptics],
   )
 
   // ── Category handlers ──────────────────────────────────────────────────────
@@ -298,6 +324,11 @@ export default function SetupScreen() {
       emojiMap,
     )
 
+    // Pick the actual imposter count at random from the selected set so the
+    // number stays hidden from players for the whole game.
+    const impostersCount =
+      activeImposterCounts[Math.floor(Math.random() * activeImposterCounts.length)]
+
     const config: GameConfig = {
       mode: mode.id as GameModeId,
       players,
@@ -366,7 +397,7 @@ export default function SetupScreen() {
     dailyGamesCount,
     dailyGamesDate,
     incrementDailyGames,
-    impostersCount,
+    activeImposterCounts,
     timerSeconds,
     roundCount,
     soundEnabled,
@@ -567,20 +598,22 @@ export default function SetupScreen() {
               {mode.id === 'imposter' && (
                 <AdvancedRow label={t('setup.imposters')}>
                   <View style={styles.chipRow}>
-                    {([1, 2] as const).map((n) => (
-                      <ChipOption
-                        key={n}
-                        label={String(n)}
-                        selected={impostersCount === n}
-                        disabled={n === 2 && !isPro}
-                        onPress={() => {
-                          if (n === 2 && !isPro) return
-                          haptics.selection()
-                          setImpostersCount(n)
-                        }}
-                        theme={theme}
-                      />
-                    ))}
+                    {([1, 2] as const).map((n) => {
+                      const lockedByPlayers = n === 2 && players.length < 4
+                      return (
+                        <ChipOption
+                          key={n}
+                          label={String(n)}
+                          selected={activeImposterCounts.includes(n)}
+                          disabled={lockedByPlayers}
+                          onPress={() => {
+                            if (lockedByPlayers) return
+                            toggleImposterCount(n)
+                          }}
+                          theme={theme}
+                        />
+                      )
+                    })}
                   </View>
                 </AdvancedRow>
               )}

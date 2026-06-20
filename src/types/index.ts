@@ -147,7 +147,11 @@ export interface GamePreset {
   modeId: GameModeId
   playerNames: string[]
   categories: string[]
-  impostersCount: 1 | 2
+  /** Selectable imposter counts; one is picked at random per game so the
+   *  actual count stays hidden from players. */
+  impostersCounts: (1 | 2)[]
+  /** @deprecated legacy single-count presets — read via fallback only. */
+  impostersCount?: 1 | 2
   timerSeconds: 0 | 15 | 30 | 45 | 60 | 90
   roundCount: 1 | 2 | 3 | 5
   createdAt: number
