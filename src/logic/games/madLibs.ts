@@ -28,6 +28,13 @@ const STORIES: Record<string, MadLibsStory[]> = {
   nb: require('@/data/prompts/mad-libs/nb.json').stories as MadLibsStory[],
   pl: require('@/data/prompts/mad-libs/pl.json').stories as MadLibsStory[],
   id: require('@/data/prompts/mad-libs/id.json').stories as MadLibsStory[],
+  'zh-Hant': require('@/data/prompts/mad-libs/zh-Hant.json').stories as MadLibsStory[],
+  ja: require('@/data/prompts/mad-libs/ja.json').stories as MadLibsStory[],
+  ko: require('@/data/prompts/mad-libs/ko.json').stories as MadLibsStory[],
+  ru: require('@/data/prompts/mad-libs/ru.json').stories as MadLibsStory[],
+  hi: require('@/data/prompts/mad-libs/hi.json').stories as MadLibsStory[],
+  ar: require('@/data/prompts/mad-libs/ar.json').stories as MadLibsStory[],
+  fi: require('@/data/prompts/mad-libs/fi.json').stories as MadLibsStory[],
 }
 
 function loadStories(locale: string): MadLibsStory[] {

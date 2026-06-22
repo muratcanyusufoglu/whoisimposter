@@ -198,7 +198,7 @@ export const GAME_MODES: GameModeDefinition[] = [
     hasRounds: false,
     nameKey: 'games.mad_libs.name',
     descriptionKey: 'games.mad_libs.description',
-    supportsLocales: ['en', 'tr', 'de', 'es', 'fr', 'it', 'pt', 'nl', 'sv', 'da', 'nb', 'pl', 'id'],
+    supportsLocales: ['en', 'tr', 'de', 'es', 'fr', 'it', 'pt', 'nl', 'sv', 'da', 'nb', 'pl', 'id', 'zh-Hant', 'ja', 'ko', 'ru', 'hi', 'ar', 'fi'],
   },
 ]
 

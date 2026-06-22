@@ -1,0 +1,34 @@
+{
+  "stories": [
+    {
+      "id": "ml_fi_1",
+      "blanks": ["eläin", "hauska huudahdus", "kuuluisa henkilö", "vaate", "ruoka", "verbi (me-muoto, mennyt)", "paikka", "ruoka", "adjektiivi"],
+      "template": "Rakas päiväkirja, tänä aamuna sängyn alla istui {0}. Kiljaisin niin kovaa \"{1}!\", että {2} soitti poliisille. Poliisilla oli yllä {3} ja hän tuoksui kuin {4}. Yhdessä me {5}, ja päädyimme paikkaan nimeltä {6}. Söimme {7} ja olomme oli täysin {8}."
+    },
+    {
+      "id": "ml_fi_2",
+      "blanks": ["adjektiivi", "jokin (monikko)", "kehonosa", "sukunimi", "jokin (monikko)", "taisteluhuuto", "esine", "adjektiivi", "kaupunki"],
+      "template": "Supersankarinimeni on Kapteeni {0}. Erikoiskykyni: sinkoan {1} suoraan ilmaan. Voimani lähde on {2}. Pahin viholliseni on ilkeä tohtori {3}, ja hänen tavaramerkkinsä on {4}. Joka taistelussa kiljaisen \"{5}!\". Aseenani on jättimäinen {6}. Olen kaupungin {7} sankari, ja kotikaupunkini on {8}."
+    },
+    {
+      "id": "ml_fi_3",
+      "blanks": ["adjektiivi", "numero", "ruoka (monikko)", "outo ainesosa", "verbi (käsky)", "numero", "verbi (perusmuoto)", "kuuluisa henkilö", "ruoka"],
+      "template": "Tervetuloa ruokaohjelmaan! Tänään teemme {0} keittoa. Ensin pilko {1} {2}. Lisää sitten lusikallinen ainetta nimeltä {3} ja {4} kaikki {5} minuuttia. Muista koko ajan myös {6}, aivan kuin {7} tekisi. Tarjoile lisukkeena {8}. Herkullista!"
+    },
+    {
+      "id": "ml_fi_4",
+      "blanks": ["ammatti", "nimi", "esine", "numero", "jokin (monikko)", "eläin", "huonekalu", "adjektiivi"],
+      "template": "Ensimmäisenä päivänäni ammatissa nimeltä {0} pomoni {1} antoi minulle valtavan {2} ja käski olla todella varovainen. Mutta jo ennen lounasta olin rikkonut {3} {4}. Häpeästä muutuin kuin {5} ja piilouduin {6} alle. Se oli elämäni {7} päivä!"
+    },
+    {
+      "id": "ml_fi_5",
+      "blanks": ["nimi", "nimi", "vaate", "materiaali", "esineitä (monikko)", "laulu", "eläin", "ruoka", "esine"],
+      "template": "{0} ja {1} menevät vihdoin naimisiin! Morsiamella oli yllään upea {2}, joka oli tehty materiaalista nimeltä {3}. Sormusten sijaan he vaihtoivat {4}. DJ soitti kappaleen \"{5}\", ja kaikki tanssivat kuin {6}. Illallisella tarjottiin {7}, ja kakku oli jättimäisen {8} muotoinen."
+    },
+    {
+      "id": "ml_fi_6",
+      "blanks": ["nimi", "hauska planeetan nimi", "adjektiivi", "esine", "esine", "eläin", "nimi", "ruoka", "adjektiivi"],
+      "template": "Lennonjohto, täällä Kapteeni {0}. Laskeuduimme planeetalle nimeltä {1}. Täkäläiset avaruusoliot ovat hyvin {2}, ja ne kommunikoivat välineellä nimeltä {3}. Ne antoivat meille lahjan: {4}, joka oli yhtä iso kuin {5}. Insinöörimme {6} söi sen vahingossa. Nyt koko alus haisee kuin {7}, ja me kaikki olemme {8}. Kuittaan!"
+    }
+  ]
+}
