@@ -1,0 +1,34 @@
+{
+  "stories": [
+    {
+      "id": "ml_pt_1",
+      "blanks": ["um animal", "uma exclamação engraçada", "uma pessoa famosa", "uma peça de roupa", "uma comida", "um gerúndio (-ndo)", "um lugar", "uma comida", "um adjetivo"],
+      "template": "Querido diário, hoje de manhã encontrei um {0} embaixo da minha cama. Gritei tão alto \"{1}!\" que {2} chamou a polícia. O policial estava usando {3} e cheirava a {4}. Juntos, fomos {5} até {6}, onde comemos {7} até nos sentirmos completamente {8}."
+    },
+    {
+      "id": "ml_pt_2",
+      "blanks": ["um adjetivo", "algo (plural)", "uma parte do corpo", "um sobrenome", "algo (plural)", "um grito", "um objeto", "um adjetivo", "uma cidade"],
+      "template": "Meu nome de super-herói é Capitão {0}. Meu poder é atirar {1} pelo meu {2}. Meu arqui-inimigo é o malvado Dr. {3}, que quer encher o mundo de {4}. Em cada batalha eu grito \"{5}!\" e jogo um enorme {6} nele. Dizem que sou o herói mais {7} de {8}."
+    },
+    {
+      "id": "ml_pt_3",
+      "blanks": ["um adjetivo", "um número", "uma comida (plural)", "um ingrediente estranho", "um verbo (imperativo)", "um número", "um verbo (infinitivo)", "uma pessoa famosa", "uma comida"],
+      "template": "Bem-vindos ao programa de culinária! Hoje vamos fazer uma sopa de {0}. Primeiro, corte {1} {2} em pedacinhos. Depois, adicione uma colher de {3} e {4} tudo por {5} minutos. Enquanto isso, não esqueça de {6} como {7}. Sirva com um pouco de {8}. Delicioso!"
+    },
+    {
+      "id": "ml_pt_4",
+      "blanks": ["uma profissão", "um nome", "um objeto", "um número", "algo (plural)", "um animal", "um móvel", "um adjetivo"],
+      "template": "No meu primeiro dia como {0} profissional, meu chefe {1} me deu um enorme {2} e disse para eu ter muito cuidado. Mas antes do almoço eu já tinha quebrado {3} {4}. De vergonha, fiquei igual a um {5} e me escondi embaixo de {6}. O dia mais {7} da minha vida!"
+    },
+    {
+      "id": "ml_pt_5",
+      "blanks": ["um nome", "um nome", "uma peça de roupa", "um material", "objetos (plural)", "uma música", "um animal", "uma comida", "um objeto"],
+      "template": "{0} e {1} finalmente vão se casar! A noiva usava um lindo {2} feito de {3}. Em vez de alianças, eles trocaram {4}. O DJ tocou \"{5}\" e todo mundo dançou feito um {6}. No jantar serviram {7}, e o bolo tinha o formato de um {8} gigante."
+    },
+    {
+      "id": "ml_pt_6",
+      "blanks": ["um nome", "um planeta engraçado", "um adjetivo", "um objeto", "um objeto", "um animal", "um nome", "uma comida", "um adjetivo"],
+      "template": "Controle da missão, aqui é o Capitão {0}. Pousamos no planeta {1}. Os alienígenas daqui são muito {2} e se comunicam com {3}. Eles nos deram um presente: um {4} do tamanho de um {5}. Nosso engenheiro {6} comeu sem querer. Agora a nave inteira cheira a {7} e estamos todos {8}. Câmbio e desligo!"
+    }
+  ]
+}

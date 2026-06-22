@@ -185,6 +185,21 @@ export const GAME_MODES: GameModeDefinition[] = [
     descriptionKey: 'games.paranoia.description',
     supportsLocales: ['en', 'tr', 'de', 'fr', 'es', 'pt', 'ru', 'ar', 'it', 'nl', 'ja', 'ko', 'zh-Hant', 'sv', 'pl', 'da', 'nb', 'fi', 'hi', 'id'],
   },
+  {
+    id: 'mad-libs',
+    emoji: '📖',
+    minPlayers: 3,
+    maxPlayers: 15,
+    isPremium: false,
+    minAge: 4,
+    estimatedMinutes: '5-15',
+    hasCategories: false,
+    hasTimer: false,
+    hasRounds: false,
+    nameKey: 'games.mad_libs.name',
+    descriptionKey: 'games.mad_libs.description',
+    supportsLocales: ['en', 'tr', 'de', 'es', 'fr', 'it', 'pt'],
+  },
 ]
 
 // ─────────────────────────────────────────────────────────────────────────────

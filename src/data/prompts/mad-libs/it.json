@@ -1,0 +1,34 @@
+{
+  "stories": [
+    {
+      "id": "ml_it_1",
+      "blanks": ["un animale", "un'esclamazione buffa", "una persona famosa", "un capo d'abbigliamento", "un cibo", "un participio passato", "un luogo", "un cibo", "un aggettivo"],
+      "template": "Caro diario, stamattina ho trovato un {0} sotto il mio letto. Ho urlato così forte \"{1}!\" che {2} ha chiamato la polizia. Il poliziotto indossava {3} e profumava di {4}. Insieme siamo {5} fino a {6}, dove abbiamo mangiato {7} fino a sentirci completamente {8}."
+    },
+    {
+      "id": "ml_it_2",
+      "blanks": ["un aggettivo", "qualcosa (plurale)", "una parte del corpo", "un cognome", "qualcosa (plurale)", "un grido", "un oggetto", "un aggettivo", "una città"],
+      "template": "Il mio nome da supereroe è Capitan {0}. Il mio potere è lanciare {1} dal mio {2}. Il mio acerrimo nemico è il malvagio Dr. {3}, che vuole riempire il mondo di {4}. In ogni battaglia grido \"{5}!\" e gli lancio un enorme {6}. Dicono che sono l'eroe più {7} di {8}."
+    },
+    {
+      "id": "ml_it_3",
+      "blanks": ["un aggettivo", "un numero", "un cibo (plurale)", "un ingrediente strano", "un verbo (imperativo)", "un numero", "un verbo (infinito)", "una persona famosa", "un cibo"],
+      "template": "Benvenuti al programma di cucina! Oggi prepariamo una zuppa di {0}. Prima, taglia {1} {2} a pezzettini. Poi aggiungi un cucchiaio di {3} e {4} il tutto per {5} minuti. Nel frattempo, ricordati di {6} come {7}. Servi con un contorno di {8}. Delizioso!"
+    },
+    {
+      "id": "ml_it_4",
+      "blanks": ["un mestiere", "un nome", "un oggetto", "un numero", "qualcosa (plurale)", "un aggettivo", "un mobile", "un aggettivo"],
+      "template": "Nel mio primo giorno come {0} professionista, il mio capo {1} mi ha dato un enorme {2} e mi ha detto di stare molto attento. Ma prima di pranzo avevo già rotto {3} {4}. Per la vergogna sono diventato {5} e mi sono nascosto sotto {6}. La giornata più {7} della mia vita!"
+    },
+    {
+      "id": "ml_it_5",
+      "blanks": ["un nome", "un nome", "un capo d'abbigliamento", "un materiale", "oggetti (plurale)", "una canzone", "un animale", "un cibo", "un oggetto"],
+      "template": "{0} e {1} finalmente si sposano! La sposa indossava un bellissimo {2} fatto di {3}. Invece delle fedi, si sono scambiati {4}. Il DJ ha messo \"{5}\" e tutti hanno ballato come un {6}. A cena hanno servito {7}, e la torta aveva la forma di un {8} gigante."
+    },
+    {
+      "id": "ml_it_6",
+      "blanks": ["un nome", "un pianeta buffo", "un aggettivo", "un oggetto", "un oggetto", "un animale", "un nome", "un cibo", "un aggettivo"],
+      "template": "Centro di controllo, qui è il Capitano {0}. Siamo atterrati sul pianeta {1}. Gli alieni qui sono molto {2} e comunicano con {3}. Ci hanno fatto un regalo: un {4} grande come un {5}. Il nostro ingegnere {6} l'ha mangiato per sbaglio. Ora tutta la nave puzza di {7} e siamo tutti {8}. Passo e chiudo!"
+    }
+  ]
+}

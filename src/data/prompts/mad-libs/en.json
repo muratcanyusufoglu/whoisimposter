@@ -1,0 +1,64 @@
+{
+  "stories": [
+    {
+      "id": "ml_en_1",
+      "blanks": ["an animal", "a silly exclamation", "a famous person", "a clothing item", "a food", "a past-tense verb", "a place", "a food", "an adjective"],
+      "template": "Dear Diary, this morning I woke up and found a {0} under my bed. I screamed \"{1}!\" so loud that {2} called the police. The officer was wearing a {3} and smelled like {4}. Together we {5} all the way to {6}, where we ate {7} until we felt completely {8}."
+    },
+    {
+      "id": "ml_en_2",
+      "blanks": ["an adjective", "a plural noun", "a body part", "a last name", "a plural noun", "a catchphrase", "an object", "an adjective", "a city"],
+      "template": "My superhero name is Captain {0}. My power is shooting {1} out of my {2}. My arch-enemy is the evil Dr. {3}, who wants to fill the world with {4}. In every battle I yell \"{5}!\" and throw a giant {6} at them. People say I am the most {7} hero in all of {8}."
+    },
+    {
+      "id": "ml_en_3",
+      "blanks": ["an adjective", "a number", "a plural food", "a weird ingredient", "a verb", "a number", "an action verb", "a famous person", "a food"],
+      "template": "Welcome to the cooking show! Today we are making {0} soup. First, chop {1} {2} into tiny pieces. Then add a big spoon of {3} and {4} everything for {5} minutes. The whole time, remember to {6} like {7}. Serve it warm with a side of {8}. Delicious!"
+    },
+    {
+      "id": "ml_en_4",
+      "blanks": ["a job", "a name", "an object", "a verb", "a plural noun", "a number", "a room", "an object", "an adjective"],
+      "template": "On my first day as a professional {0}, my boss {1} handed me a {2} and said: \"Whatever you do, never {3} the {4}.\" By lunch I had already broken {5} of them. I hid in the {6} and cried into my {7}. Honestly, the most {8} job ever."
+    },
+    {
+      "id": "ml_en_5",
+      "blanks": ["a name", "a name", "a clothing item", "a material", "a plural object", "a song title", "an animal", "a food", "an object"],
+      "template": "{0} and {1} are finally getting married! The bride wore a stunning {2} made entirely of {3}. Instead of rings, they exchanged {4}. The DJ played \"{5}\" while everyone danced like a {6}. For dinner they served {7}, and the wedding cake was shaped like a giant {8}."
+    },
+    {
+      "id": "ml_en_6",
+      "blanks": ["an adjective", "an animal", "a verb", "a number", "a body part", "a famous person", "a place", "an exclamation", "an adjective"],
+      "template": "Breaking news! A {0} {1} was seen trying to {2} through downtown at {3} o'clock. Witnesses say it had an enormous {4} and was looking for {5}. Police chased it all the way to the {6} before it shouted \"{7}!\" and vanished. Officials call it the most {8} event of the year."
+    },
+    {
+      "id": "ml_en_7",
+      "blanks": ["a household object", "an appliance", "a number", "a famous person", "an animal", "a verb", "a food", "a family member", "an object"],
+      "template": "I built a time machine out of a {0} and a broken {1}. I traveled back to the year {2}, where I met {3} riding a {4}. They taught me how to {5}, then offered me some {6}. When I got home, my {7} had magically turned into a {8}!"
+    },
+    {
+      "id": "ml_en_8",
+      "blanks": ["an animal", "a food", "an -ing verb", "a job", "an object", "a plural noun", "a food", "an exclamation", "an adjective"],
+      "template": "Today at the zoo a {0} escaped from its cage! It ran straight to the {1} stand and started {2}. The zookeeper, dressed as a {3}, chased it with a giant {4}. Finally they caught it using {5} and a bucket of {6}. The crowd cheered \"{7}!\" It was absolutely {8}."
+    },
+    {
+      "id": "ml_en_9",
+      "blanks": ["an adjective", "a name", "a verb", "a number", "a food", "a smell", "a plural noun", "a verb", "an adjective"],
+      "template": "My new roommate is a very {0} person named {1}. Every morning they {2} for {3} hours and eat {4} for breakfast. Their room smells like {5} and is full of {6}. Last night they tried to {7} in the kitchen at 3 a.m. Honestly, the most {8} roommate ever."
+    },
+    {
+      "id": "ml_en_10",
+      "blanks": ["a verb", "an object", "a body part", "a material", "a plural noun", "a famous person", "a number", "a plural noun", "a food"],
+      "template": "For the talent show I decided to {0} while balancing a {1} on my {2}. My costume was made of {3} and {4}. The judges, including the famous {5}, gave me {6} points. The crowd threw {7} at the stage. I won the grand prize: a lifetime supply of {8}!"
+    },
+    {
+      "id": "ml_en_11",
+      "blanks": ["a building", "an animal", "a creepy phrase", "a liquid", "a plural noun", "a verb", "a food", "an object", "an adjective"],
+      "template": "We spent the night in a haunted {0}. At midnight a ghostly {1} appeared and whispered \"{2}.\" The walls were dripping with {3} and the floor was covered in {4}. Suddenly the ghost began to {5} and begged us for {6}. We ran away screaming and hid inside a {7}. The scariest yet most {8} night ever."
+    },
+    {
+      "id": "ml_en_12",
+      "blanks": ["a name", "a silly planet name", "an adjective", "an -ing verb", "an object", "an animal", "a name", "a food", "an adjective"],
+      "template": "Mission Control, this is Captain {0}. We have landed on planet {1}. The aliens here are extremely {2} and communicate by {3}. They gave us a gift: a {4} the size of a {5}. Our engineer {6} accidentally ate it. Now the whole ship smells like {7} and we are all {8}. Over and out!"
+    }
+  ]
+}

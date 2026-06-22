@@ -468,6 +468,19 @@
         "step3_title": "Yazı tura at",
         "step3_desc": "Yazı tura at — yazı soruyu herkese açıklar, tura sonsuza dek gizli tutar. Paranoya büyüyor!"
       }
+    },
+    "mad_libs": {
+      "name": "Çılgın Hikâye",
+      "description": "Saçma kelimeler ver, komik bir hikâye çıksın.",
+      "howToPlay": {
+        "intro": "Oyuncular hikâyeyi görmeden rastgele kelimeler söyler. Kelimeler yerine oturur ve ortaya çıkan saçma hikâye sesli okunur!",
+        "step1_title": "Pas et, boşlukları doldur",
+        "step1_desc": "Telefon her oyuncudan bir kelime ister — bir isim, bir fiil, ünlü biri. Sakın hikâyeye bakma!",
+        "step2_title": "Gizli kalsın",
+        "step2_desc": "Kelimelerin nasıl oturduğunu kimse sona kadar görmez. Kelimen ne kadar tuhafsa hikâye o kadar komik.",
+        "step3_title": "Sesli oku",
+        "step3_desc": "Tüm boşluklar dolunca tamamlanan hikâye ekrana gelir. Yüksek sesle oku ve herkesi kahkahaya boğ!"
+      }
     }
   },
   "promptGame": {
@@ -545,6 +558,14 @@
     "fooled": "{{name}} {{count}} kişiyi kandırdı! +{{count}} puan",
     "nextPlayer": "Sonraki Oyuncu →",
     "endGame": "Oyunu Bitir"
+  },
+  "madLibs": {
+    "give": "Şunu söyle:",
+    "instruction": "Uygun bir kelime yaz — sakın hikâyeye bakma!",
+    "next": "Sıradaki →",
+    "reveal": "Hikâyeyi oku →",
+    "storyHeading": "Hikâyeniz",
+    "newStory": "Yeni hikâye →"
   },
   "common": {
     "pro": "PRO",

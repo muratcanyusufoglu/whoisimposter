@@ -20,4 +20,5 @@ export const GAME_IMAGES: Record<GameModeId, ImageSourcePropType> = {
   'trivia-bet':        require('../../assets/trivia.png'),
   'charades':          require('../../assets/charades.png'),
   'paranoia':          require('../../assets/paranoia.png'),
+  'mad-libs':          require('../../assets/madlibs.png'),
 }

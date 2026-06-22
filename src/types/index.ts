@@ -27,6 +27,7 @@ export type GameModeId =
   | 'trivia-bet'
   | 'charades'
   | 'paranoia'
+  | 'mad-libs'
 
 export type ImposterVariant = 'classic' | 'undercover' | 'ghost'
 

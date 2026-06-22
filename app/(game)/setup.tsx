@@ -374,6 +374,9 @@ export default function SetupScreen() {
       case 'two-truths':
         router.replace('/(game)/two-truths' as never)
         break
+      case 'mad-libs':
+        router.replace('/(game)/mad-libs' as never)
+        break
       // Prompt-based free + paranoia games
       case 'truth-dare':
       case 'never-have-i-ever':

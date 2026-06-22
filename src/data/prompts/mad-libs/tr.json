@@ -1,0 +1,64 @@
+{
+  "stories": [
+    {
+      "id": "ml_tr_1",
+      "blanks": ["bir hayvan", "komik bir ünlem", "ünlü bir kişi", "bir giysi", "bir yiyecek", "bir fiil (-dik hâli)", "bir şehir", "bir yiyecek", "bir sıfat"],
+      "template": "Sevgili günlük, bu sabah uyandığımda yatağımın altında bir {0} buldum. Korkudan \"{1}!\" diye bağırınca komşumuz {2} kapıya dayandı. Üstünde bir {3} vardı ve {4} gibi kokuyordu. Birlikte {5} ve sonunda kendimizi {6} sokaklarında bulduk. Doyasıya {7} yedik ve kendimizi çok {8} hissettik."
+    },
+    {
+      "id": "ml_tr_2",
+      "blanks": ["bir sıfat", "bir nesne (çoğul)", "bir vücut organı", "bir soyisim", "bir nesne (çoğul)", "bir slogan", "bir nesne", "bir şehir", "bir sıfat"],
+      "template": "Süper kahraman adım Kaptan {0}. Süper gücüm {2} ile {1} fırlatmak. Baş düşmanım kötü kalpli Doktor {3}; tüm dünyayı {4} ile doldurmak istiyor. Her savaşta \"{5}!\" diye haykırıp ona kocaman bir {6} fırlatıyorum. Herkes beni {7} şehrinin en {8} kahramanı sanıyor."
+    },
+    {
+      "id": "ml_tr_3",
+      "blanks": ["bir sıfat", "bir sayı", "bir yiyecek (çoğul)", "tuhaf bir malzeme", "bir sayı", "bir fiil (emir)", "ünlü bir kişi", "bir fiil (-mayı)", "bir yiyecek"],
+      "template": "Yemek programımıza hoş geldiniz! Bugün {0} çorbası yapıyoruz. Önce {1} tane {2} doğrayın. Üzerine bir kaşık {3} ekleyip her şeyi {4} dakika boyunca {5}. Bu sırada {6} gibi {7} sakın unutmayın. Yanında bir tabak {8} ile servis edin. Afiyet olsun!"
+    },
+    {
+      "id": "ml_tr_4",
+      "blanks": ["bir meslek", "bir isim", "bir nesne", "bir sayı", "bir nesne (çoğul)", "bir hayvan", "bir eşya", "bir sıfat"],
+      "template": "Profesyonel bir {0} olarak ilk iş günümde patronum {1} bana koca bir {2} verdi ve çok dikkatli olmamı söyledi. Ama daha öğlen olmadan {3} tane {4} kırdım. Utancımdan {5} gibi oldum ve {6} altına saklandım. Gelmiş geçmiş en {7} iş günüydü!"
+    },
+    {
+      "id": "ml_tr_5",
+      "blanks": ["bir isim", "bir isim", "bir malzeme", "bir giysi", "bir nesne (çoğul)", "bir şarkı adı", "bir hayvan", "bir yiyecek", "bir nesne"],
+      "template": "{0} ile {1} sonunda evleniyor! Gelin, tamamen {2} ile süslenmiş muhteşem bir {3} giymişti. Yüzük yerine birbirlerine {4} taktılar. DJ \"{5}\" şarkısını çalınca herkes {6} gibi dans etti. Yemekte {7} ikram edildi, pasta ise kocaman bir {8} şeklindeydi."
+    },
+    {
+      "id": "ml_tr_6",
+      "blanks": ["bir sıfat", "bir hayvan", "bir sayı", "bir fiil (-maya)", "bir vücut organı", "ünlü bir kişi", "bir yer", "bir ünlem", "bir sıfat"],
+      "template": "Son dakika haberi! Şehrin ortasında {0} bir {1} görüldü; saat {2} sularında {3} çalışıyordu. Görgü tanıkları devasa bir {4} olduğunu ve {5} aradığını söyledi. Polis onu {6} boyunca kovaladı; sonunda \"{7}!\" diye bağırıp kayboldu. Yetkililer bunu yılın en {8} olayı ilan etti."
+    },
+    {
+      "id": "ml_tr_7",
+      "blanks": ["bir ev eşyası", "bir alet", "bir sayı", "ünlü bir kişi", "bir hayvan", "bir beceri (-mayı)", "bir yiyecek", "bir aile üyesi", "bir nesne"],
+      "template": "Bir {0} ve bozuk bir {1} ile zaman makinesi yaptım. {2} yılına gittim; orada bir {4} üstünde {3} ile karşılaştım. Bana {5} öğrettiler, sonra biraz {6} ikram ettiler. Eve döndüğümde {7} kocaman bir {8} olmuştu!"
+    },
+    {
+      "id": "ml_tr_8",
+      "blanks": ["bir hayvan", "bir yiyecek", "bir fiil (-maya)", "bir meslek", "bir nesne", "bir nesne (çoğul)", "bir yiyecek", "bir ünlem", "bir sıfat"],
+      "template": "Bugün hayvanat bahçesinde bir {0} kafesinden kaçtı! Doğru {1} standına koşup {2} başladı. {3} kılığındaki bakıcı kocaman bir {4} ile peşine düştü. Sonunda onu {5} ve bir kova {6} ile yakaladılar. Kalabalık \"{7}!\" diye tezahürat yaptı. Tam anlamıyla {8} bir gündü."
+    },
+    {
+      "id": "ml_tr_9",
+      "blanks": ["bir isim", "bir sıfat", "bir sayı", "bir fiil (-ıyor)", "bir yiyecek", "bir koku", "bir nesne (çoğul)", "bir eyleme (-maya)", "bir sıfat"],
+      "template": "Yeni ev arkadaşım {0} adında çok {1} biri. Her sabah {2} saat boyunca {3} ve kahvaltıda {4} yiyor. Odası {5} gibi kokuyor ve {6} dolu. Dün gece mutfakta {7} kalkıştı. Cidden gelmiş geçmiş en {8} ev arkadaşı."
+    },
+    {
+      "id": "ml_tr_10",
+      "blanks": ["bir nesne", "bir fiil (-maya)", "bir malzeme", "bir malzeme", "ünlü bir kişi", "bir sayı", "bir nesne (çoğul)", "bir yiyecek"],
+      "template": "Yetenek yarışmasında burnumda bir {0} dengede tutarak {1} karar verdim. Kostümüm {2} ve {3} ile yapılmıştı. Ünlü {4} dahil jüri bana {5} puan verdi. Seyirciler sahneye {6} fırlattı. Büyük ödülü kazandım: ömür boyu bedava {7}!"
+    },
+    {
+      "id": "ml_tr_11",
+      "blanks": ["bir bina", "bir hayvan", "ürkütücü bir söz", "bir sıvı", "bir nesne (çoğul)", "bir fiil (-di hâli)", "bir yiyecek", "bir nesne", "bir sıfat"],
+      "template": "Geceyi perili bir {0} içinde geçirdik. Gece yarısı hayalet bir {1} belirip \"{2}\" diye fısıldadı. Duvarlardan {3} damlıyor, zemin {4} ile kaplıydı. Aniden hayalet {5} ve bizden {6} istedi. Çığlık atarak kaçıp bir {7} içine saklandık. Gelmiş geçmiş en korkunç ama en {8} geceydi."
+    },
+    {
+      "id": "ml_tr_12",
+      "blanks": ["bir isim", "komik bir gezegen adı", "bir sıfat", "bir nesne", "bir nesne", "bir hayvan", "bir isim", "bir yiyecek", "bir sıfat"],
+      "template": "Görev Kontrol, ben Kaptan {0}. {1} gezegenine indik. Buradaki uzaylılar son derece {2} ve {3} ile iletişim kuruyor. Bize hediye olarak {5} büyüklüğünde bir {4} verdiler. Mühendisimiz {6} onu yanlışlıkla yedi. Şimdi tüm gemi {7} gibi kokuyor ve hepimiz kendimizi çok {8} hissediyoruz. Tamam, terover!"
+    }
+  ]
+}

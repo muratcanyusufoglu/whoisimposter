@@ -468,6 +468,19 @@
         "step3_title": "Flip to reveal",
         "step3_desc": "Flip a coin — heads reveals the question to everyone, tails keeps it secret forever. The paranoia builds!"
       }
+    },
+    "mad_libs": {
+      "name": "Crazy Story",
+      "description": "Give silly words, get a hilarious story.",
+      "howToPlay": {
+        "intro": "Players shout out random words — without seeing the story. Drop them in and read the ridiculous result aloud!",
+        "step1_title": "Pass & fill the blanks",
+        "step1_desc": "The phone asks each player for a word — a noun, a verb, a famous name. Don't peek at the story!",
+        "step2_title": "Keep it a secret",
+        "step2_desc": "Nobody sees how the words fit together until the very end. The weirder your word, the funnier the story.",
+        "step3_title": "Read it aloud",
+        "step3_desc": "Once every blank is filled, the finished story appears. Read it out loud and watch everyone lose it!"
+      }
     }
   },
   "promptGame": {
@@ -545,6 +558,14 @@
     "fooled": "{{name}} fooled {{count}} people! +{{count}} points",
     "nextPlayer": "Next Player →",
     "endGame": "End Game"
+  },
+  "madLibs": {
+    "give": "Give us:",
+    "instruction": "Type a word that fits — don't peek at the story!",
+    "next": "Next →",
+    "reveal": "Read the story →",
+    "storyHeading": "Your story",
+    "newStory": "New story →"
   },
   "common": {
     "pro": "PRO",
