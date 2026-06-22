@@ -1,0 +1,34 @@
+{
+  "stories": [
+    {
+      "id": "ml_sv_1",
+      "blanks": ["ett djur", "ett roligt utrop", "en känd person", "ett klädesplagg", "en mat", "ett verb (dåtid)", "en plats", "en mat", "ett adjektiv"],
+      "template": "Kära dagbok, i morse hittade jag en {0} under min säng. Jag skrek så högt \"{1}!\" att {2} ringde polisen. Polisen hade på sig {3} och luktade {4}. Tillsammans {5} vi hela vägen till {6}, där vi åt {7} tills vi kände oss helt {8}."
+    },
+    {
+      "id": "ml_sv_2",
+      "blanks": ["ett adjektiv", "något (plural)", "en kroppsdel", "ett efternamn", "något (plural)", "ett rop", "ett föremål", "ett adjektiv", "en stad"],
+      "template": "Mitt superhjältenamn är Kapten {0}. Min kraft är att skjuta {1} ur min {2}. Min ärkefiende är onde Dr. {3}, som vill fylla världen med {4}. I varje strid skriker jag \"{5}!\" och kastar en enorm {6} på honom. Folk säger att jag är den mest {7} hjälten i {8}."
+    },
+    {
+      "id": "ml_sv_3",
+      "blanks": ["ett adjektiv", "ett tal", "en mat (plural)", "en konstig ingrediens", "ett verb (imperativ)", "ett tal", "ett verb (infinitiv)", "en känd person", "en mat"],
+      "template": "Välkommen till matlagningsprogrammet! Idag gör vi {0} soppa. Hacka först {1} {2} i små bitar. Tillsätt sedan en sked {3} och {4} allt i {5} minuter. Glöm inte att {6} som {7} hela tiden. Servera med lite {8}. Utsökt!"
+    },
+    {
+      "id": "ml_sv_4",
+      "blanks": ["ett yrke", "ett namn", "ett föremål", "ett tal", "något (plural)", "ett adjektiv", "en möbel", "ett adjektiv"],
+      "template": "På min första dag som professionell {0} gav min chef {1} mig en enorm {2} och sa åt mig att vara försiktig. Men före lunch hade jag redan haft sönder {3} {4}. Av skam blev jag {5} och gömde mig under {6}. Den mest {7} dagen någonsin!"
+    },
+    {
+      "id": "ml_sv_5",
+      "blanks": ["ett namn", "ett namn", "ett klädesplagg", "ett material", "föremål (plural)", "en låt", "ett djur", "en mat", "ett föremål"],
+      "template": "{0} och {1} ska äntligen gifta sig! Bruden bar en vacker {2} gjord av {3}. Istället för ringar bytte de {4}. DJ:n spelade \"{5}\" och alla dansade som en {6}. Till middag serverades {7}, och tårtan var formad som en jättestor {8}."
+    },
+    {
+      "id": "ml_sv_6",
+      "blanks": ["ett namn", "en rolig planet", "ett adjektiv", "ett föremål", "ett föremål", "ett djur", "ett namn", "en mat", "ett adjektiv"],
+      "template": "Uppdragskontroll, det här är Kapten {0}. Vi har landat på planeten {1}. Utomjordingarna här är väldigt {2} och kommunicerar med {3}. De gav oss en present: en {4} stor som en {5}. Vår ingenjör {6} råkade äta upp den. Nu luktar hela skeppet {7} och vi är alla {8}. Klart slut!"
+    }
+  ]
+}

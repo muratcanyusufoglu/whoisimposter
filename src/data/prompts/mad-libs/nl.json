@@ -1,0 +1,34 @@
+{
+  "stories": [
+    {
+      "id": "ml_nl_1",
+      "blanks": ["een dier", "een grappige uitroep", "een beroemd persoon", "een kledingstuk", "een eten", "een voltooid deelwoord", "een plek", "een eten", "een bijvoeglijk naamwoord"],
+      "template": "Lief dagboek, vanmorgen vond ik een {0} onder mijn bed. Ik schreeuwde zo hard \"{1}!\" dat {2} de politie belde. De agent droeg {3} en rook naar {4}. Samen zijn we {5} helemaal naar {6}, waar we {7} aten tot we ons helemaal {8} voelden."
+    },
+    {
+      "id": "ml_nl_2",
+      "blanks": ["een bijvoeglijk naamwoord", "iets (meervoud)", "een lichaamsdeel", "een achternaam", "iets (meervoud)", "een kreet", "een voorwerp", "een bijvoeglijk naamwoord", "een stad"],
+      "template": "Mijn superheldennaam is Kapitein {0}. Mijn kracht is {1} uit mijn {2} schieten. Mijn aartsvijand is de boze Dr. {3}, die de wereld wil vullen met {4}. In elk gevecht roep ik \"{5}!\" en gooi ik een enorme {6} naar hem. Ze zeggen dat ik de meest {7} held van {8} ben."
+    },
+    {
+      "id": "ml_nl_3",
+      "blanks": ["een bijvoeglijk naamwoord", "een getal", "een eten (meervoud)", "een raar ingrediënt", "een werkwoord (gebiedend)", "een getal", "een werkwoord (heel)", "een beroemd persoon", "een eten"],
+      "template": "Welkom bij de kookshow! Vandaag maken we {0} soep. Snijd eerst {1} {2} in kleine stukjes. Voeg dan een lepel {3} toe en {4} alles {5} minuten lang. Vergeet niet om ondertussen te {6} als {7}. Serveer met een beetje {8}. Heerlijk!"
+    },
+    {
+      "id": "ml_nl_4",
+      "blanks": ["een beroep", "een naam", "een voorwerp", "een getal", "een bijvoeglijk naamwoord", "een meubel", "een voorwerp", "een bijvoeglijk naamwoord"],
+      "template": "Op mijn eerste dag als professionele {0} gaf mijn baas {1} mij een enorme {2} en zei dat ik heel voorzichtig moest zijn. Maar voor de lunch had ik er al {3} kapotgemaakt. Van schaamte werd ik {4} en verstopte ik me onder {5} en huilde in mijn {6}. De meest {7} dag ooit!"
+    },
+    {
+      "id": "ml_nl_5",
+      "blanks": ["een naam", "een naam", "een kledingstuk", "een materiaal", "voorwerpen (meervoud)", "een lied", "een dier", "een eten", "een voorwerp"],
+      "template": "{0} en {1} gaan eindelijk trouwen! De bruid droeg een prachtige {2} gemaakt van {3}. In plaats van ringen wisselden ze {4} uit. De DJ draaide \"{5}\" en iedereen danste als een {6}. Als diner serveerden ze {7}, en de taart had de vorm van een gigantische {8}."
+    },
+    {
+      "id": "ml_nl_6",
+      "blanks": ["een naam", "een grappige planeet", "een bijvoeglijk naamwoord", "een voorwerp", "een voorwerp", "een dier", "een naam", "een eten", "een bijvoeglijk naamwoord"],
+      "template": "Vluchtleiding, hier Kapitein {0}. We zijn geland op planeet {1}. De buitenaardse wezens hier zijn erg {2} en communiceren met {3}. Ze gaven ons een cadeau: een {4} zo groot als een {5}. Onze ingenieur {6} at het per ongeluk op. Nu ruikt het hele schip naar {7} en zijn we allemaal {8}. Over en uit!"
+    }
+  ]
+}

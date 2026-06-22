@@ -1,0 +1,34 @@
+{
+  "stories": [
+    {
+      "id": "ml_nb_1",
+      "blanks": ["et dyr", "et morsomt utrop", "en kjent person", "et klesplagg", "en mat", "et verb (preteritum)", "et sted", "en mat", "et adjektiv"],
+      "template": "Kjære dagbok, i morges fant jeg en {0} under senga mi. Jeg skrek så høyt \"{1}!\" at {2} ringte politiet. Politimannen hadde på seg {3} og luktet {4}. Sammen {5} vi hele veien til {6}, hvor vi spiste {7} til vi følte oss helt {8}."
+    },
+    {
+      "id": "ml_nb_2",
+      "blanks": ["et adjektiv", "noe (flertall)", "en kroppsdel", "et etternavn", "noe (flertall)", "et rop", "en ting", "et adjektiv", "en by"],
+      "template": "Superheltnavnet mitt er Kaptein {0}. Kraften min er å skyte {1} ut av {2}. Erkefienden min er onde Dr. {3}, som vil fylle verden med {4}. I hver kamp roper jeg \"{5}!\" og kaster en enorm {6} på ham. Folk sier jeg er den mest {7} helten i {8}."
+    },
+    {
+      "id": "ml_nb_3",
+      "blanks": ["et adjektiv", "et tall", "en mat (flertall)", "en rar ingrediens", "et verb (imperativ)", "et tall", "et verb (infinitiv)", "en kjent person", "en mat"],
+      "template": "Velkommen til matprogrammet! I dag lager vi {0} suppe. Hakk først {1} {2} i små biter. Tilsett så en skje {3} og {4} alt i {5} minutter. Husk å {6} som {7} hele tiden. Server med litt {8}. Nydelig!"
+    },
+    {
+      "id": "ml_nb_4",
+      "blanks": ["et yrke", "et navn", "en ting", "et tall", "noe (flertall)", "et adjektiv", "et møbel", "et adjektiv"],
+      "template": "På min første dag som profesjonell {0} ga sjefen min {1} meg en enorm {2} og sa at jeg måtte være veldig forsiktig. Men før lunsj hadde jeg allerede ødelagt {3} {4}. Av skam ble jeg {5} og gjemte meg under {6}. Den mest {7} dagen noensinne!"
+    },
+    {
+      "id": "ml_nb_5",
+      "blanks": ["et navn", "et navn", "et klesplagg", "et materiale", "ting (flertall)", "en sang", "et dyr", "en mat", "en ting"],
+      "template": "{0} og {1} skal endelig gifte seg! Bruden hadde på seg en nydelig {2} laget av {3}. I stedet for ringer byttet de {4}. DJ-en spilte \"{5}\", og alle danset som en {6}. Til middag serverte de {7}, og kaken var formet som en kjempestor {8}."
+    },
+    {
+      "id": "ml_nb_6",
+      "blanks": ["et navn", "en morsom planet", "et adjektiv", "en ting", "en ting", "et dyr", "et navn", "en mat", "et adjektiv"],
+      "template": "Oppdragskontroll, dette er Kaptein {0}. Vi har landet på planeten {1}. Romvesenene her er veldig {2} og kommuniserer med {3}. De ga oss en gave: en {4} på størrelse med en {5}. Ingeniøren vår {6} kom til å spise den. Nå lukter hele skipet {7}, og vi er alle sammen {8}. Over og ut!"
+    }
+  ]
+}

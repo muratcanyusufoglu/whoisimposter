@@ -1,0 +1,34 @@
+{
+  "stories": [
+    {
+      "id": "ml_pl_1",
+      "blanks": ["zwierzę", "zabawny okrzyk", "sławna osoba", "ubranie", "jedzenie", "czasownik (czas przeszły, my)", "miejsce", "jedzenie", "przymiotnik"],
+      "template": "Drogi pamiętniku, dziś rano znalazłem pod łóżkiem {0}. Krzyknąłem tak głośno \"{1}!\", że {2} zadzwonił po policję. Policjant miał na sobie {3} i pachniał {4}. Razem {5} aż do {6}, gdzie jedliśmy {7}, aż poczuliśmy się zupełnie {8}."
+    },
+    {
+      "id": "ml_pl_2",
+      "blanks": ["przymiotnik", "coś (liczba mnoga)", "część ciała", "nazwisko", "coś (liczba mnoga)", "okrzyk", "przedmiot", "przymiotnik", "miasto"],
+      "template": "Nazywam się Kapitan {0}. Moją mocą jest strzelanie {1} z {2}. Mój największy wróg to zły Dr {3}, który chce wypełnić świat {4}. W każdej walce krzyczę \"{5}!\" i rzucam w niego wielkim {6}. Mówią, że jestem najbardziej {7} bohaterem w {8}."
+    },
+    {
+      "id": "ml_pl_3",
+      "blanks": ["przymiotnik", "liczba", "jedzenie (liczba mnoga)", "dziwny składnik", "czasownik (rozkaz)", "liczba", "czasownik (bezokolicznik)", "sławna osoba", "jedzenie"],
+      "template": "Witajcie w programie kulinarnym! Dziś robimy zupę z {0}. Najpierw pokrój {1} {2} na małe kawałki. Potem dodaj łyżkę {3} i {4} wszystko przez {5} minut. Pamiętaj, żeby przez cały czas {6} jak {7}. Podawaj z odrobiną {8}. Pyszne!"
+    },
+    {
+      "id": "ml_pl_4",
+      "blanks": ["zawód", "imię", "przedmiot", "liczba", "coś (liczba mnoga)", "przymiotnik", "mebel", "przymiotnik"],
+      "template": "W pierwszym dniu pracy jako {0} mój szef {1} dał mi wielki {2} i kazał bardzo uważać. Ale przed obiadem zdążyłem już zniszczyć {3} {4}. Ze wstydu zrobiłem się {5} i schowałem się pod {6}. Najbardziej {7} dzień w życiu!"
+    },
+    {
+      "id": "ml_pl_5",
+      "blanks": ["imię", "imię", "ubranie", "materiał", "przedmioty (liczba mnoga)", "piosenka", "zwierzę", "jedzenie", "przedmiot"],
+      "template": "{0} i {1} w końcu biorą ślub! Panna młoda miała na sobie piękną {2} zrobioną z {3}. Zamiast obrączek wymienili się {4}. DJ puścił \"{5}\" i wszyscy tańczyli jak {6}. Na obiad podano {7}, a tort miał kształt wielkiego {8}."
+    },
+    {
+      "id": "ml_pl_6",
+      "blanks": ["imię", "zabawna planeta", "przymiotnik", "przedmiot", "przedmiot", "zwierzę", "imię", "jedzenie", "przymiotnik"],
+      "template": "Centrum kontroli, tu Kapitan {0}. Wylądowaliśmy na planecie {1}. Kosmici są tutaj bardzo {2} i porozumiewają się za pomocą {3}. Dali nam prezent: {4} wielkości {5}. Nasz inżynier {6} przypadkiem to zjadł. Teraz cały statek pachnie {7}, a my wszyscy jesteśmy {8}. Bez odbioru!"
+    }
+  ]
+}

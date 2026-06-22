@@ -1,0 +1,34 @@
+{
+  "stories": [
+    {
+      "id": "ml_da_1",
+      "blanks": ["et dyr", "et sjovt udråb", "en berømt person", "et stykke tøj", "en mad", "et verbum (datid)", "et sted", "en mad", "et tillægsord"],
+      "template": "Kære dagbog, i morges fandt jeg en {0} under min seng. Jeg skreg så højt \"{1}!\" at {2} ringede til politiet. Betjenten havde {3} på og lugtede af {4}. Sammen {5} vi hele vejen til {6}, hvor vi spiste {7}, indtil vi følte os helt {8}."
+    },
+    {
+      "id": "ml_da_2",
+      "blanks": ["et tillægsord", "noget (flertal)", "en kropsdel", "et efternavn", "noget (flertal)", "et råb", "en ting", "et tillægsord", "en by"],
+      "template": "Mit superheltenavn er Kaptajn {0}. Min kraft er at skyde {1} ud af min {2}. Min ærkefjende er den onde Dr. {3}, som vil fylde verden med {4}. I hver kamp råber jeg \"{5}!\" og kaster en kæmpe {6} efter ham. Folk siger, jeg er den mest {7} helt i {8}."
+    },
+    {
+      "id": "ml_da_3",
+      "blanks": ["et tillægsord", "et tal", "en mad (flertal)", "en mærkelig ingrediens", "et verbum (bydeform)", "et tal", "et verbum (navneform)", "en berømt person", "en mad"],
+      "template": "Velkommen til madprogrammet! I dag laver vi {0} suppe. Hak først {1} {2} i små stykker. Tilsæt derefter en ske {3} og {4} det hele i {5} minutter. Husk at {6} som {7} hele tiden. Servér med lidt {8}. Lækkert!"
+    },
+    {
+      "id": "ml_da_4",
+      "blanks": ["et erhverv", "et navn", "en ting", "et tal", "noget (flertal)", "et tillægsord", "et møbel", "et tillægsord"],
+      "template": "På min første dag som professionel {0} gav min chef {1} mig en kæmpe {2} og sagde, jeg skulle være meget forsigtig. Men før frokost havde jeg allerede ødelagt {3} {4}. Af skam blev jeg {5} og gemte mig under {6}. Den mest {7} dag nogensinde!"
+    },
+    {
+      "id": "ml_da_5",
+      "blanks": ["et navn", "et navn", "et stykke tøj", "et materiale", "ting (flertal)", "en sang", "et dyr", "en mad", "en ting"],
+      "template": "{0} og {1} skal endelig giftes! Bruden bar en smuk {2} lavet af {3}. I stedet for ringe byttede de {4}. DJ'en spillede \"{5}\", og alle dansede som en {6}. Til middag serverede de {7}, og kagen havde form som en kæmpe {8}."
+    },
+    {
+      "id": "ml_da_6",
+      "blanks": ["et navn", "en sjov planet", "et tillægsord", "en ting", "en ting", "et dyr", "et navn", "en mad", "et tillægsord"],
+      "template": "Missionskontrol, det her er Kaptajn {0}. Vi er landet på planeten {1}. Rumvæsenerne her er meget {2} og kommunikerer med {3}. De gav os en gave: en {4} på størrelse med en {5}. Vores ingeniør {6} kom til at spise den. Nu lugter hele skibet af {7}, og vi er alle sammen {8}. Slut!"
+    }
+  ]
+}
