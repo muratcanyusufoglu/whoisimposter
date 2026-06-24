@@ -468,6 +468,19 @@
         "step3_title": "Vänd för att avslöja",
         "step3_desc": "Slå ett mynt — huvuden avslöjar frågan för alla, svansar håller den hemlig för alltid. Paranoian bygger upp!"
       }
+    },
+    "mad_libs": {
+      "name": "Galen Historia",
+      "description": "Ge fåniga ord, få en galen historia.",
+      "howToPlay": {
+        "intro": "Spelarna ropar slumpmässiga ord — utan att se historien. Fyll i dem och läs upp det löjliga resultatet!",
+        "step1_title": "Skicka runt & fyll i luckorna",
+        "step1_desc": "Telefonen ber varje spelare om ett ord: ett substantiv, ett verb, ett känt namn. Tjuvkika inte på historien!",
+        "step2_title": "Håll det hemligt",
+        "step2_desc": "Ingen ser hur orden passar ihop förrän på slutet. Ju konstigare ord, desto roligare historia.",
+        "step3_title": "Läs upp den",
+        "step3_desc": "När alla luckor är ifyllda dyker den färdiga historien upp. Läs upp den högt och se alla skratta!"
+      }
     }
   },
   "promptGame": {
@@ -545,6 +558,14 @@
     "fooled": "{{name}} lurade {{count}} personer! +{{count}} poäng",
     "nextPlayer": "Nästa spelare →",
     "endGame": "Slutspel"
+  },
+  "madLibs": {
+    "give": "Ge oss:",
+    "instruction": "Skriv ett ord som passar — tjuvkika inte på historien!",
+    "next": "Nästa →",
+    "reveal": "Läs historien →",
+    "storyHeading": "Din historia",
+    "newStory": "Ny historia →"
   },
   "common": {
     "pro": "PRO",

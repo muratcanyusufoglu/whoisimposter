@@ -468,6 +468,19 @@
         "step3_title": "翻轉即可露出",
         "step3_desc": "拋硬幣－正面向所有人揭示問題，反面則永遠保密。偏執狂產生了！"
       }
+    },
+    "mad_libs": {
+      "name": "瘋狂故事",
+      "description": "提供搞笑的詞，組成爆笑故事。",
+      "howToPlay": {
+        "intro": "玩家隨意說出詞語——但看不到故事。填進去，再大聲念出荒謬的結果！",
+        "step1_title": "傳遞並填空",
+        "step1_desc": "手機會向每位玩家要一個詞：名詞、動詞、名人名字。不要偷看故事！",
+        "step2_title": "保持祕密",
+        "step2_desc": "在最後揭曉前，沒人知道這些詞怎麼組合。詞越奇怪，故事越好笑。",
+        "step3_title": "大聲念出來",
+        "step3_desc": "所有空格填滿後，完整故事就會出現。大聲念出來，看大家笑翻！"
+      }
     }
   },
   "promptGame": {
@@ -545,6 +558,14 @@
     "fooled": "{{name}} 騙過了 {{count}} 個人！ +{{count}} 點",
     "nextPlayer": "下一位玩家 →",
     "endGame": "遊戲結束"
+  },
+  "madLibs": {
+    "give": "請給我們：",
+    "instruction": "輸入一個合適的詞——別偷看故事！",
+    "next": "下一個 →",
+    "reveal": "念出故事 →",
+    "storyHeading": "你的故事",
+    "newStory": "新故事 →"
   },
   "common": {
     "pro": "PRO",

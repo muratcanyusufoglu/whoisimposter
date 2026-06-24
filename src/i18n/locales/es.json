@@ -464,6 +464,19 @@
         "step3_title": "Lanzar la moneda",
         "step3_desc": "Lanza una moneda – cara revela la pregunta a todos, cruz la mantiene en secreto para siempre. ¡La paranoia crece!"
       }
+    },
+    "mad_libs": {
+      "name": "Historia Loca",
+      "description": "Da palabras tontas y obtén una historia hilarante.",
+      "howToPlay": {
+        "intro": "Los jugadores dicen palabras al azar, sin ver la historia. ¡Mételas y lee en voz alta el ridículo resultado!",
+        "step1_title": "Pasa y rellena los huecos",
+        "step1_desc": "El móvil pide a cada jugador una palabra: un sustantivo, un verbo, un nombre famoso. ¡No mires la historia!",
+        "step2_title": "Mantenlo en secreto",
+        "step2_desc": "Nadie ve cómo encajan las palabras hasta el final. Cuanto más rara sea tu palabra, más divertida será la historia.",
+        "step3_title": "Léela en voz alta",
+        "step3_desc": "Cuando todos los huecos estén llenos, aparece la historia completa. ¡Léela en voz alta y mira cómo se parten de risa!"
+      }
     }
   },
   "promptGame": {
@@ -541,6 +554,14 @@
     "fooled": "¡{{name}} engañó a {{count}} personas! +{{count}} puntos",
     "nextPlayer": "Siguiente jugador →",
     "endGame": "Terminar juego"
+  },
+  "madLibs": {
+    "give": "Dinos:",
+    "instruction": "Escribe una palabra que encaje. ¡No mires la historia!",
+    "next": "Siguiente →",
+    "reveal": "Leer la historia →",
+    "storyHeading": "Tu historia",
+    "newStory": "Nueva historia →"
   },
   "common": {
     "pro": "PRO",

@@ -464,6 +464,19 @@
         "step3_title": "Lancer la pièce",
         "step3_desc": "Lancez une pièce – face révèle la question à tous, pile la garde secrète pour toujours. La paranoïa monte !"
       }
+    },
+    "mad_libs": {
+      "name": "Histoire Folle",
+      "description": "Donne des mots absurdes, obtiens une histoire hilarante.",
+      "howToPlay": {
+        "intro": "Les joueurs lancent des mots au hasard, sans voir l'histoire. Insère-les et lis le résultat ridicule à voix haute !",
+        "step1_title": "Passe et remplis les blancs",
+        "step1_desc": "Le téléphone demande un mot à chaque joueur : un nom, un verbe, une célébrité. Ne regarde pas l'histoire !",
+        "step2_title": "Garde le secret",
+        "step2_desc": "Personne ne voit comment les mots s'assemblent avant la fin. Plus ton mot est bizarre, plus l'histoire est drôle.",
+        "step3_title": "Lis à voix haute",
+        "step3_desc": "Une fois tous les blancs remplis, l'histoire complète apparaît. Lis-la à voix haute et regarde tout le monde craquer !"
+      }
     }
   },
   "promptGame": {
@@ -541,6 +554,14 @@
     "fooled": "{{name}} a trompé {{count}} personnes ! +{{count}} points",
     "nextPlayer": "Joueur suivant →",
     "endGame": "Fin de partie"
+  },
+  "madLibs": {
+    "give": "Donne-nous :",
+    "instruction": "Écris un mot qui colle — ne regarde pas l'histoire !",
+    "next": "Suivant →",
+    "reveal": "Lire l'histoire →",
+    "storyHeading": "Ton histoire",
+    "newStory": "Nouvelle histoire →"
   },
   "common": {
     "pro": "PRO",

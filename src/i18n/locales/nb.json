@@ -468,6 +468,19 @@
         "step3_title": "Vend for å avsløre",
         "step3_desc": "Kast en mynt – krone avslører spørsmålet for alle, mynt holder det hemmelig for alltid. Paranoiaen bygger seg opp!"
       }
+    },
+    "mad_libs": {
+      "name": "Gal Historie",
+      "description": "Gi tullete ord, få en morsom historie.",
+      "howToPlay": {
+        "intro": "Spillerne roper tilfeldige ord — uten å se historien. Sett dem inn, og les det latterlige resultatet høyt!",
+        "step1_title": "Send rundt & fyll inn hullene",
+        "step1_desc": "Telefonen ber hver spiller om et ord: et substantiv, et verb, et kjent navn. Ikke kikk på historien!",
+        "step2_title": "Hold det hemmelig",
+        "step2_desc": "Ingen ser hvordan ordene passer sammen før helt til slutt. Jo rarere ord, jo morsommere historie.",
+        "step3_title": "Les den høyt",
+        "step3_desc": "Når alle hullene er fylt, dukker den ferdige historien opp. Les den høyt og se alle le seg i hjel!"
+      }
     }
   },
   "promptGame": {
@@ -545,6 +558,14 @@
     "fooled": "{{name}} lurte {{count}} personer! +{{count}} poeng",
     "nextPlayer": "Neste spiller →",
     "endGame": "Slutt spillet"
+  },
+  "madLibs": {
+    "give": "Gi oss:",
+    "instruction": "Skriv et ord som passer — ikke kikk på historien!",
+    "next": "Neste →",
+    "reveal": "Les historien →",
+    "storyHeading": "Din historie",
+    "newStory": "Ny historie →"
   },
   "common": {
     "pro": "PRO",

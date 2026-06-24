@@ -468,6 +468,19 @@
         "step3_title": "Odwróć, aby odsłonić",
         "step3_desc": "Rzuć monetą – orzeł zdradza wszystkim pytanie, reszka utrzymuje je w tajemnicy na zawsze. Paranoja narasta!"
       }
+    },
+    "mad_libs": {
+      "name": "Szalona Historia",
+      "description": "Podaj głupie słowa, otrzymaj zabawną historię.",
+      "howToPlay": {
+        "intro": "Gracze wykrzykują przypadkowe słowa — nie widząc historii. Wstaw je i przeczytaj na głos absurdalny efekt!",
+        "step1_title": "Podawaj i wypełniaj luki",
+        "step1_desc": "Telefon prosi każdego gracza o słowo: rzeczownik, czasownik, znane nazwisko. Nie podglądaj historii!",
+        "step2_title": "Zachowaj to w tajemnicy",
+        "step2_desc": "Nikt nie widzi, jak słowa do siebie pasują, aż do końca. Im dziwniejsze słowo, tym śmieszniejsza historia.",
+        "step3_title": "Przeczytaj na głos",
+        "step3_desc": "Gdy wszystkie luki są wypełnione, pojawia się gotowa historia. Przeczytaj ją na głos i patrz, jak wszyscy pękają ze śmiechu!"
+      }
     }
   },
   "promptGame": {
@@ -545,6 +558,14 @@
     "fooled": "{{name}} oszukał {{count}} ludzi! +{{count}} punktów",
     "nextPlayer": "Następny gracz →",
     "endGame": "Koniec gry"
+  },
+  "madLibs": {
+    "give": "Podaj nam:",
+    "instruction": "Wpisz pasujące słowo — nie podglądaj historii!",
+    "next": "Dalej →",
+    "reveal": "Przeczytaj historię →",
+    "storyHeading": "Twoja historia",
+    "newStory": "Nowa historia →"
   },
   "common": {
     "pro": "PRO",

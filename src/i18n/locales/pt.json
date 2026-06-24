@@ -464,6 +464,19 @@
         "step3_title": "Lançar a moeda",
         "step3_desc": "Lance uma moeda – cara revela a pergunta a todos, coroa a mantém em segredo para sempre. A paranoia cresce!"
       }
+    },
+    "mad_libs": {
+      "name": "História Maluca",
+      "description": "Dê palavras bobas e tenha uma história hilária.",
+      "howToPlay": {
+        "intro": "Os jogadores falam palavras aleatórias, sem ver a história. Coloque-as e leia o resultado ridículo em voz alta!",
+        "step1_title": "Passe e preencha as lacunas",
+        "step1_desc": "O celular pede uma palavra a cada jogador: um substantivo, um verbo, um nome famoso. Não espie a história!",
+        "step2_title": "Mantenha em segredo",
+        "step2_desc": "Ninguém vê como as palavras se encaixam até o final. Quanto mais estranha a palavra, mais engraçada a história.",
+        "step3_title": "Leia em voz alta",
+        "step3_desc": "Quando todas as lacunas estiverem preenchidas, a história aparece. Leia em voz alta e veja todo mundo cair na gargalhada!"
+      }
     }
   },
   "promptGame": {
@@ -541,6 +554,14 @@
     "fooled": "{{name}} enganou {{count}} pessoas! +{{count}} pontos",
     "nextPlayer": "Próximo jogador →",
     "endGame": "Fim do jogo"
+  },
+  "madLibs": {
+    "give": "Diga:",
+    "instruction": "Digite uma palavra que encaixe — não espie a história!",
+    "next": "Próximo →",
+    "reveal": "Ler a história →",
+    "storyHeading": "Sua história",
+    "newStory": "Nova história →"
   },
   "common": {
     "pro": "PRO",

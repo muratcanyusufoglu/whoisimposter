@@ -468,6 +468,19 @@
         "step3_title": "Balik untuk mengungkapkan",
         "step3_desc": "Lemparkan koin — kepala mengungkapkan pertanyaan kepada semua orang, ekor merahasiakannya selamanya. Paranoia berkembang!"
       }
+    },
+    "mad_libs": {
+      "name": "Cerita Gila",
+      "description": "Beri kata-kata konyol, dapatkan cerita kocak.",
+      "howToPlay": {
+        "intro": "Para pemain menyebut kata-kata acak — tanpa melihat ceritanya. Masukkan dan bacakan hasil konyolnya dengan keras!",
+        "step1_title": "Oper & isi bagian kosong",
+        "step1_desc": "Ponsel meminta setiap pemain satu kata: kata benda, kata kerja, nama terkenal. Jangan mengintip ceritanya!",
+        "step2_title": "Rahasiakan",
+        "step2_desc": "Tak ada yang tahu bagaimana kata-kata itu menyatu sampai akhir. Makin aneh katamu, makin lucu ceritanya.",
+        "step3_title": "Bacakan dengan keras",
+        "step3_desc": "Setelah semua bagian terisi, cerita lengkapnya muncul. Bacakan keras-keras dan lihat semua orang ngakak!"
+      }
     }
   },
   "promptGame": {
@@ -545,6 +558,14 @@
     "fooled": "{{name}} membodohi {{count}} orang! +{{count}} poin",
     "nextPlayer": "Pemain Berikutnya →",
     "endGame": "Akhir Permainan"
+  },
+  "madLibs": {
+    "give": "Sebutkan:",
+    "instruction": "Ketik kata yang cocok — jangan mengintip ceritanya!",
+    "next": "Berikutnya →",
+    "reveal": "Baca ceritanya →",
+    "storyHeading": "Ceritamu",
+    "newStory": "Cerita baru →"
   },
   "common": {
     "pro": "PRO",

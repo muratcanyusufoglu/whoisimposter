@@ -468,6 +468,19 @@
         "step3_title": "Vend mønten, og afslør",
         "step3_desc": "Slå plat eller krone — krone afslører spørgsmålet for alle, plat holder det hemmeligt for altid. Paranoiaen vokser!"
       }
+    },
+    "mad_libs": {
+      "name": "Skør Historie",
+      "description": "Giv fjollede ord, få en skæg historie.",
+      "howToPlay": {
+        "intro": "Spillerne råber tilfældige ord — uden at se historien. Sæt dem ind, og læs det latterlige resultat højt!",
+        "step1_title": "Send rundt & udfyld hullerne",
+        "step1_desc": "Telefonen beder hver spiller om et ord: et navneord, et udsagnsord, et berømt navn. Kig ikke på historien!",
+        "step2_title": "Hold det hemmeligt",
+        "step2_desc": "Ingen ser, hvordan ordene passer sammen, før til sidst. Jo mærkeligere ord, jo sjovere historie.",
+        "step3_title": "Læs den højt",
+        "step3_desc": "Når alle huller er udfyldt, dukker den færdige historie op. Læs den højt, og se alle grine!"
+      }
     }
   },
   "promptGame": {
@@ -545,6 +558,14 @@
     "fooled": "{{name}} narrede {{count}}! +{{count}} point",
     "nextPlayer": "Næste spiller →",
     "endGame": "Afslut spil"
+  },
+  "madLibs": {
+    "give": "Giv os:",
+    "instruction": "Skriv et ord, der passer — kig ikke på historien!",
+    "next": "Næste →",
+    "reveal": "Læs historien →",
+    "storyHeading": "Din historie",
+    "newStory": "Ny historie →"
   },
   "common": {
     "pro": "PRO",

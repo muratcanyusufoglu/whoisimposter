@@ -464,6 +464,19 @@
         "step3_title": "Lancia la moneta",
         "step3_desc": "Lancia una moneta – testa rivela la domanda a tutti, croce la mantiene segreta per sempre. La paranoia cresce!"
       }
+    },
+    "mad_libs": {
+      "name": "Storia Pazza",
+      "description": "Dai parole assurde, ottieni una storia esilarante.",
+      "howToPlay": {
+        "intro": "I giocatori dicono parole a caso, senza vedere la storia. Inseriscile e leggi ad alta voce il risultato assurdo!",
+        "step1_title": "Passa e riempi gli spazi",
+        "step1_desc": "Il telefono chiede a ogni giocatore una parola: un nome, un verbo, un personaggio famoso. Non sbirciare la storia!",
+        "step2_title": "Tieni il segreto",
+        "step2_desc": "Nessuno vede come si incastrano le parole fino alla fine. Più strana è la parola, più divertente è la storia.",
+        "step3_title": "Leggila ad alta voce",
+        "step3_desc": "Quando tutti gli spazi sono pieni, appare la storia completa. Leggila ad alta voce e guarda tutti scoppiare a ridere!"
+      }
     }
   },
   "promptGame": {
@@ -541,6 +554,14 @@
     "fooled": "{{name}} ha ingannato {{count}} persone! +{{count}} punti",
     "nextPlayer": "Prossimo giocatore →",
     "endGame": "Fine del gioco"
+  },
+  "madLibs": {
+    "give": "Dicci:",
+    "instruction": "Scrivi una parola adatta — non sbirciare la storia!",
+    "next": "Avanti →",
+    "reveal": "Leggi la storia →",
+    "storyHeading": "La tua storia",
+    "newStory": "Nuova storia →"
   },
   "common": {
     "pro": "PRO",

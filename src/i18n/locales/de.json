@@ -464,6 +464,19 @@
         "step3_title": "Münze werfen",
         "step3_desc": "Wirf eine Münze – Kopf enthüllt die Frage für alle, Zahl hält sie für immer geheim. Die Paranoia wächst!"
       }
+    },
+    "mad_libs": {
+      "name": "Verrückte Geschichte",
+      "description": "Gib alberne Wörter, erhalte eine witzige Geschichte.",
+      "howToPlay": {
+        "intro": "Die Spieler rufen zufällige Wörter — ohne die Geschichte zu sehen. Setze sie ein und lies das verrückte Ergebnis vor!",
+        "step1_title": "Weitergeben & Lücken füllen",
+        "step1_desc": "Das Handy fragt jeden Spieler nach einem Wort — ein Nomen, ein Verb, ein berühmter Name. Nicht auf die Geschichte spähen!",
+        "step2_title": "Bleib geheim",
+        "step2_desc": "Niemand sieht, wie die Wörter zusammenpassen, bis ganz zum Schluss. Je seltsamer dein Wort, desto lustiger die Geschichte.",
+        "step3_title": "Lies sie vor",
+        "step3_desc": "Sobald alle Lücken gefüllt sind, erscheint die fertige Geschichte. Lies sie laut vor und sieh zu, wie alle ausrasten!"
+      }
     }
   },
   "promptGame": {
@@ -541,6 +554,14 @@
     "fooled": "{{name}} hat {{count}} Personen getäuscht! +{{count}} Punkte",
     "nextPlayer": "Nächster Spieler →",
     "endGame": "Spiel beenden"
+  },
+  "madLibs": {
+    "give": "Nenne uns:",
+    "instruction": "Tippe ein passendes Wort — nicht auf die Geschichte spähen!",
+    "next": "Weiter →",
+    "reveal": "Geschichte vorlesen →",
+    "storyHeading": "Deine Geschichte",
+    "newStory": "Neue Geschichte →"
   },
   "common": {
     "pro": "PRO",

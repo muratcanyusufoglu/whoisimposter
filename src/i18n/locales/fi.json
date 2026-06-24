@@ -468,6 +468,19 @@
         "step3_title": "Kolikko ratkaisee",
         "step3_desc": "Heitä kolikkoa – kruuna paljastaa kysymyksen kaikille, klaava pitää sen salassa ikuisesti. Paranoia kasvaa!"
       }
+    },
+    "mad_libs": {
+      "name": "Hullu tarina",
+      "description": "Anna hassuja sanoja, saat hulvattoman tarinan.",
+      "howToPlay": {
+        "intro": "Pelaajat huutavat satunnaisia sanoja näkemättä tarinaa. Lisää ne ja lue järjetön lopputulos ääneen!",
+        "step1_title": "Anna kiertää & täytä aukot",
+        "step1_desc": "Puhelin kysyy jokaiselta pelaajalta sanaa: substantiivi, verbi, kuuluisa nimi. Älä kurkista tarinaa!",
+        "step2_title": "Pidä se salassa",
+        "step2_desc": "Kukaan ei näe, miten sanat sopivat yhteen ennen loppua. Mitä oudompi sana, sitä hauskempi tarina.",
+        "step3_title": "Lue se ääneen",
+        "step3_desc": "Kun kaikki aukot on täytetty, valmis tarina ilmestyy. Lue se ääneen ja katso, kuinka kaikki repeävät!"
+      }
     }
   },
   "promptGame": {
@@ -545,6 +558,14 @@
     "fooled": "{{name}} huijasi {{count}} ihmistä! +{{count}} pistettä",
     "nextPlayer": "Seuraava pelaaja →",
     "endGame": "Loppu peli"
+  },
+  "madLibs": {
+    "give": "Kerro meille:",
+    "instruction": "Kirjoita sopiva sana — älä kurkista tarinaa!",
+    "next": "Seuraava →",
+    "reveal": "Lue tarina →",
+    "storyHeading": "Tarinasi",
+    "newStory": "Uusi tarina →"
   },
   "common": {
     "pro": "PRO",

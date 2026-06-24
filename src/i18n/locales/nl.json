@@ -464,6 +464,19 @@
         "step3_title": "Gooi de munt",
         "step3_desc": "Gooi een munt – kop onthult de vraag aan iedereen, munt houdt het voor altijd geheim. De paranoia groeit!"
       }
+    },
+    "mad_libs": {
+      "name": "Gek Verhaal",
+      "description": "Geef rare woorden, krijg een hilarisch verhaal.",
+      "howToPlay": {
+        "intro": "Spelers roepen willekeurige woorden — zonder het verhaal te zien. Vul ze in en lees het belachelijke resultaat voor!",
+        "step1_title": "Geef door & vul de gaten",
+        "step1_desc": "De telefoon vraagt elke speler om een woord: een zelfstandig naamwoord, een werkwoord, een beroemde naam. Niet gluren!",
+        "step2_title": "Hou het geheim",
+        "step2_desc": "Niemand ziet hoe de woorden samenkomen tot het einde. Hoe gekker je woord, hoe grappiger het verhaal.",
+        "step3_title": "Lees het voor",
+        "step3_desc": "Zodra alle gaten gevuld zijn, verschijnt het verhaal. Lees het hardop voor en kijk hoe iedereen het uitschatert!"
+      }
     }
   },
   "promptGame": {
@@ -541,6 +554,14 @@
     "fooled": "{{name}} bedroog {{count}} mensen! +{{count}} punten",
     "nextPlayer": "Volgende speler →",
     "endGame": "Spel beëindigen"
+  },
+  "madLibs": {
+    "give": "Geef ons:",
+    "instruction": "Typ een passend woord — gluur niet naar het verhaal!",
+    "next": "Volgende →",
+    "reveal": "Lees het verhaal →",
+    "storyHeading": "Jouw verhaal",
+    "newStory": "Nieuw verhaal →"
   },
   "common": {
     "pro": "PRO",
